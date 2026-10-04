@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-sr="Rezač 3000 — OR laboratorija">Toolpath explorer · Rezač 3000 — OR laboratory</title>
+<link rel="stylesheet" href="../../css/or.css"></head><body>
+<header class="top"><div class="top-in"><div class="brand"><span data-sr="Rezač 3000">Toolpath explorer · Rezač 3000</span><small data-sr="Od preseka do redosleda poteza">From a section to ordered moves</small></div><nav class="top-nav"><a data-sr="Predmet" href="../../index.html">Course home</a><a data-sr="Biblioteka" href="../../biblioteka.html">Library</a><a data-sr="Laboratorija" href="../../lab.html">Laboratory</a><button type="button" class="btn ghost" id="legacy-language" aria-label="Prebaci na srpski">Srpski</button></nav></div></header>
+<main><div class="crumb"><span data-sr="Instrument za istraživanje · slobodni primeri">Exploration instrument · optional examples</span></div><h1 data-sr="Rezač 3000">Toolpath explorer · Rezač 3000</h1>
+<p data-sr="Menjaj poligon i prouči ilustrativnu putanju jednog sloja. Tekst prikazuje pojednostavljen redosled poteza; nije G-kod spreman za štampač. Ne šalji ga mašini.">Change a polygon and inspect an illustrative toolpath for one layer. The text describes a simplified sequence of moves; it is not printer-ready G-code. Do not send it to a machine.</p><aside class="panel"><h3 data-sr="Granice modela">Model limits</h3><p data-sr="G0 sam ne podiže Z. Ovde G0 označava XY hod bez povećanja E; ekstruzija je modelovana kroz G1 sa rastućim E. Stvarno ponašanje naredbi zavisi od mašine. Nema hominga, grejanja, retrakcije, provere sudara, ubrzanja, potpora ni granica mašine. Brzina animacije nije fizička brzina kretanja.">G0 alone does not lift Z. In this example, G0 marks XY travel without an E increment; extrusion is modelled by G1 with increasing E. Actual command behaviour depends on the machine. Homing, heating, retraction, collisions, acceleration, supports and machine limits are not handled. Animation speed is not physical feed speed.</p><p data-sr="Koristi jednostavan poligon bez ukrštanja. Heuristika uvlačenja i popune ne proverava samopreseke niti garantuje da spojni segmenti ostaju unutar konkavnih oblika. Zbirovi su ilustrativni, ne provera izvodljivosti ili nosivosti.">Use a simple non-crossing polygon. This offset and infill heuristic does not validate self-intersections or guarantee that connecting segments remain inside concave shapes. Displayed totals are illustrative, not manufacturability or structural checks.</p></aside>
+ <div class="app"><aside class="panel"><h3 data-sr="Pročitaj putanju">Read the path</h3><p data-sr="Narandžasti puni segmenti nanose modelovani materijal. Sivi isprekidani segmenti su hod bez ekstruzije. Hod nije automatski podizanje glave, defekt ili konstruktivna slabost. Osvetljeni red prati nastavnu animaciju, ne štampač koji izvršava kod.">Orange solid segments deposit modelled material. Grey dashed segments are non-extruding travel. A travel move is not automatically a head lift, defect or structural weakness. The highlighted line follows a teaching animation, not an executing printer.</p><p data-sr="Model uzima širinu linije kao širinu trake i pretpostavlja pravougaoni presek nanosa. Koristi filament od 1,75 mm. Ponavljanje istog sloja daje procenu zbirova; ne generiše se kompletan mašinski fajl za celu visinu.">The model treats line width as bead width and assumes a rectangular deposited cross-section. It uses 1.75 mm filament. Repeating one identical layer estimates totals; there is no generated full-height machine file.</p></aside>
+ <section class="stage"><canvas id="c" width="760" height="420" aria-label="Illustrative polygon toolpath; editable vertex coordinates follow" data-sr-label="Ilustrativna putanja poligona; ispod su koordinate temena"></canvas><div class="readout"><div><span data-sr="XY segmenata sa ekstruzijom">extruding XY segments</span><b id="rg1">—</b></div><div><span data-sr="hodova posle početnog prilaza">travel moves after entry</span><b id="rg0">—</b></div><div><span data-sr="dužina ekstruzije po sloju">extruding distance / layer</span><b id="rput">—</b></div><div><span data-sr="idealni filament po sloju">ideal filament / layer</span><b id="rfil">—</b></div><div><span data-sr="bez međusegmentnog hoda">no inter-segment travel</span><b id="rjed">—</b></div></div><div class="readout"><div><span data-sr="procenjeno slojeva">estimated layers</span><b id="rslo">—</b></div><div><span data-sr="procena redova ponovljenog sloja">repeated-layer line estimate</span><b id="rred">—</b></div><div><span data-sr="približna veličina teksta">approximate text size</span><b id="rbaj">—</b></div><div><span data-sr="idealno vreme XY kretanja">ideal XY motion time</span><b id="rvre">—</b></div></div><pre class="gkod" id="gk" tabindex="0" aria-label="Illustrative code, not printer-ready" data-sr-label="Ilustrativni kod, nije spreman za štampač">—</pre>
+ <label class="ctl"><span data-sr="Visina sloja">Layer height</span>: <b id="rh">0.20</b> mm<input type="range" id="h" min="10" max="40" value="20"></label><label class="ctl"><span data-sr="Modelovana širina linije">Modelled line width</span>: <b id="rw">0.40</b> mm<input type="range" id="w" min="20" max="120" value="40"></label><label class="ctl"><span data-sr="Obodne linije">Perimeter lines</span>: <b id="rper">1</b> <input type="range" id="per" min="1" max="5" value="1"></label><label class="ctl"><span data-sr="Razmak popune">Infill spacing</span>: <b id="rinf">8</b> mm<input type="range" id="inf" min="2" max="30" value="8"></label><label class="ctl"><span data-sr="Visina predmeta">Object height</span>: <b id="rhh">400</b> mm<input type="range" id="hh" min="100" max="3000" value="400"></label><div class="legacy-controls"><label><span data-sr="Teme">Vertex</span><select id="edit-point"><option value="0">1</option><option value="1">2</option><option value="2">3</option><option value="3">4</option></select></label><label>X (mm)<input id="edit-x" type="number" min="2" max="198" step="0.5" value="0"></label><label>Y (mm)<input id="edit-y" type="number" min="2" max="198" step="0.5" value="0"></label><button data-sr="Primeni koordinate" class="btn ghost" id="edit-apply" type="button">Apply coordinates</button></div><p id="edit-status" class="legacy-status" role="status"></p><div class="ctl-row"><button data-sr="Kvadrat" class="btn ghost" id="sq" type="button">Square</button><button data-sr="Poligonalni krug" class="btn ghost" id="ci" type="button">Polygonal circle</button><button data-sr="I presek" class="btn ghost" id="ip" type="button">I section</button><button data-sr="L presek" class="btn ghost" id="ll" type="button">L section</button><button data-sr="Sa žlebom" class="btn ghost" id="zl" type="button">Notched section</button><button class="btn ghost" id="pp" type="button">Pause marker</button></div><p data-sr="Vreme = dužina / zadata brzina. Izostavlja početni prilaz, Z kretanje, ubrzanja, grejanje i pauze. To nije procena stvarnog trajanja štampe.">Time = distance / assigned feed. It excludes the initial approach, Z movement, acceleration, heating and pauses. It is not an estimate of actual print duration.</p></section>
+ <aside class="panel"><h3 data-sr="Probaj izmenu">Try a change</h3><p data-sr="Uporedi jednu i tri obodne linije. Ova heuristika prelazi između zatvorenih prstenova bez ekstruzije; drugi planer putanje mogao bi ih povezati drugačije. „Bez hoda” govori samo šta sadrži ovaj spisak.">Compare one and three perimeter lines. This heuristic moves between closed rings without extruding; another path planner could connect them differently. “No travel” says only what this list contains.</p><p data-sr="Promeni visinu sloja i uporedi broj slojeva sa idealnom potrošnjom. Zatim promeni oblik: izdvoji šta model meri i šta bi stvarni slajser još morao da proveri.">Change layer height and compare layer count with ideal material use. Then change shape: identify what the model measures and what a real slicer would still need to validate.</p></aside></div>
+<h2 data-sr="Pokreni postojeće provere">Run the legacy checks</h2>
+<p data-sr="Postojeće provere ispod proveravaju odabrane primere. Njihov prolaz ne potvrđuje ispravnost svakog modela koji izmeniš.">The optional checks below use Serbian: “Proveri sam” = run checks; “RADI” = pass; “PAD” = fail; “izracunato ovde” = calculated here; “ocekivano” = expected. They check selected examples, not the validity of every edited model.</p>
+<div class="proof" id="dokaz"></div><noscript><p>Interactive controls require JavaScript. Interaktivne kontrole zahtevaju JavaScript; tekst i ograničenja ostaju dostupni.</p></noscript></main>
+<footer class="bot"><div><span data-sr="Osnove računarstva">Fundamentals of Computing</span> · doc. dr Semir Poturak</div></footer>
+<script src="../../js/legacy-language.js"></script>
+<script src="../../js/dokaz.js"></script>
+<script>
+(function () {
+  'use strict';
+  // The numerical smoke harness does not load optional presentation scripts.
+  var T = window.LegacyLanguage ? window.LegacyLanguage.text : function (en, sr) { return sr; };
+
+  var c = document.getElementById('c'), g = c.getContext('2d');
+  var FIL = Math.PI * 0.875 * 0.875;   /* presek filamenta 1.75 mm = 2.4053 mm2 */
+  var F_E = 1200, F_T = 3000;          /* mm/min: ekstruzija i prazan hod */
+
+  var el = {};
+  ['h', 'w', 'per', 'inf', 'hh', 'rh', 'rw', 'rper', 'rinf', 'rhh', 'rg1', 'rg0', 'rput',
+   'rfil', 'rjed', 'rslo', 'rred', 'rbaj', 'rvre', 'gk'].forEach(function (k) {
+    el[k] = document.getElementById(k);
+  });
+
+  var h = 0.2, w = 0.4, per = 1, inf = 8, hh = 400;
+  var radi = !(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches), t = 0, plan = null, poly = null, vuceno = -1, LIST = null;
+
+  /* ---------- preseci: model u mm, y nagore, radni prostor 200 x 200 ---------- */
+  var OBLICI = {
+    kvadrat: [[20, 20], [180, 20], [180, 180], [20, 180]],
+    krug: (function () {
+      var a = [], i, f;
+      for (i = 0; i < 36; i++) { f = i / 36 * 2 * Math.PI; a.push([100 + 80 * Math.cos(f), 100 + 80 * Math.sin(f)]); }
+      return a;
+    })(),
+    iprofil: [[30, 20], [170, 20], [170, 55], [120, 55], [120, 145], [170, 145], [170, 180],
+              [30, 180], [30, 145], [80, 145], [80, 55], [30, 55]],
+    l: [[25, 25], [175, 25], [175, 80], [80, 80], [80, 175], [25, 175]],
+    zleb: [[20, 20], [180, 20], [180, 180], [110, 180], [110, 120], [90, 120], [90, 180], [20, 180]]
+  };
+
+  /* ---------- geometrija ---------- */
+  function povrsina(p) {
+    var s = 0, i, j;
+    for (i = 0, j = p.length - 1; i < p.length; j = i++) s += (p[j][0] * p[i][1] - p[i][0] * p[j][1]);
+    return s / 2;
+  }
+  function uCCW(p) { return povrsina(p) < 0 ? p.slice().reverse() : p.slice(); }
+
+  /* Uvlacenje poligona: svako teme ide po simetrali unutrasnjih normala, tako da obe
+     susedne ivice odu tacno d unutra. Kad uvlacenje poje sam oblik (povrsina padne na
+     nulu ili promeni znak), vraca se null — to je prava granica, ne greska programa. */
+  function uvuci(p, d) {
+    var n = p.length, out = [], i;
+    for (i = 0; i < n; i++) {
+      var a = p[(i - 1 + n) % n], b = p[i], cc = p[(i + 1) % n];
+      var e1 = [b[0] - a[0], b[1] - a[1]], e2 = [cc[0] - b[0], cc[1] - b[1]];
+      var l1 = Math.sqrt(e1[0] * e1[0] + e1[1] * e1[1]), l2 = Math.sqrt(e2[0] * e2[0] + e2[1] * e2[1]);
+      if (l1 < 1e-9 || l2 < 1e-9) return null;
+      e1 = [e1[0] / l1, e1[1] / l1]; e2 = [e2[0] / l2, e2[1] / l2];
+      var n1 = [-e1[1], e1[0]], n2 = [-e2[1], e2[0]];     /* unutrasnje normale za CCW */
+      var bx = n1[0] + n2[0], by = n1[1] + n2[1];
+      var bl = Math.sqrt(bx * bx + by * by);
+      if (bl < 1e-6) return null;                          /* povratak od 180 stepeni */
+      bx /= bl; by /= bl;
+      var cosp = bx * n1[0] + by * n1[1];
+      if (Math.abs(cosp) < 1e-6) return null;
+      out.push([b[0] + bx * d / cosp, b[1] + by * d / cosp]);
+    }
+    if (povrsina(out) <= 1e-6) return null;
+    return out;
+  }
+
+  function preseci(p, y) {
+    var xs = [], i, j;
+    for (i = 0, j = p.length - 1; i < p.length; j = i++) {
+      var y1 = p[j][1], y2 = p[i][1];
+      if ((y1 > y) === (y2 > y)) continue;
+      xs.push(p[j][0] + (y - y1) / (y2 - y1) * (p[i][0] - p[j][0]));
+    }
+    return xs.sort(function (a, b) { return a - b; });
+  }
+
+  /* ---------- slajser: oblik -> spisak poteza ---------- */
+  function slajsuj(oblik, h, w, per, inf) {
+    var p = uCCW(oblik), obodi = [], k, o;
+    for (k = 0; k < per; k++) {
+      o = uvuci(p, w / 2 + k * w);
+      if (!o) break;
+      obodi.push(o);
+    }
+    var jezgro = obodi.length ? uvuci(p, obodi.length * w) : null;
+    var linije = [];
+    if (jezgro && inf > 0) {
+      var ys = jezgro.map(function (q) { return q[1]; });
+      var y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys);
+      var y = y0 + inf / 2, red = 0, i;
+      while (y < y1 && red < 400) {
+        var xs = preseci(jezgro, y);
+        for (i = 0; i + 1 < xs.length; i += 2) {
+          if (xs[i + 1] - xs[i] < w) continue;
+          linije.push(red % 2 ? [[xs[i + 1], y], [xs[i], y]] : [[xs[i], y], [xs[i + 1], y]]);
+        }
+        y += inf; red++;
+      }
+    }
+    /* Sastavljanje poteza: obod po obod (zatvoren prsten), pa popuna cik-cak. */
+    var potezi = [], zadnja = null;
+    function dodaj(x, y, hod) { potezi.push({ x: x, y: y, hod: hod }); zadnja = [x, y]; }
+    obodi.forEach(function (o) {
+      dodaj(o[0][0], o[0][1], true);
+      for (var i = 1; i < o.length; i++) dodaj(o[i][0], o[i][1], false);
+      dodaj(o[0][0], o[0][1], false);
+    });
+    linije.forEach(function (s) {
+      var dx = s[0][0] - zadnja[0], dy = s[0][1] - zadnja[1];
+      var spoj = zadnja ? Math.sqrt(dx * dx + dy * dy) : Infinity;
+      /* kratak spoj ostaje pod materijalom (G1); dug spoj mora da bude prazan hod (G0) */
+      dodaj(s[0][0], s[0][1], spoj > inf * 1.6);
+      dodaj(s[1][0], s[1][1], false);
+    });
+    return { obodi: obodi, jezgro: jezgro, linije: linije, potezi: potezi, pojeden: obodi.length < per };
+  }
+
+  function mere(potezi, h, w) {
+    var dE = 0, dT = 0, g1 = 0, g0 = 0, i, dx, dy, d;
+    for (i = 1; i < potezi.length; i++) {
+      dx = potezi[i].x - potezi[i - 1].x; dy = potezi[i].y - potezi[i - 1].y;
+      d = Math.sqrt(dx * dx + dy * dy);
+      if (potezi[i].hod) { dT += d; g0++; } else { dE += d; g1++; }
+    }
+    return { dE: dE, dT: dT, g1: g1, g0: g0, E: dE * h * w / FIL,
+             sek: dE / F_E * 60 + dT / F_T * 60 };
+  }
+
+  /* ---------- G-kod: tekst, red po red ---------- */
+  var ZAGLAVLJE = 7;
+  function gkod(potezi, h, w, sloj) {
+    var L = [], e = 0, i, p, dx, dy, d;
+    L.push({ s: '; TEACHING ONLY - NOT PRINTER READY - layer ' + sloj, c: true });
+    L.push({ s: '; line width ' + w.toFixed(2) + ' mm, layer ' + h.toFixed(2) + ' mm, filament 1.75 mm', c: true });
+    L.push({ s: 'G21 ; millimetres', c: true });
+    L.push({ s: 'G90 ; absolute coordinates', c: true });
+    L.push({ s: 'M82 ; absolute extrusion', c: true });
+    L.push({ s: 'G92 E0 ; reset extrusion counter', c: true });
+    L.push({ s: 'G1 Z' + (h * sloj).toFixed(2) + ' F600', c: true });
+    for (i = 0; i < potezi.length; i++) {
+      p = potezi[i];
+      if (i === 0 || p.hod) {
+        L.push({ s: 'G0 X' + p.x.toFixed(2) + ' Y' + p.y.toFixed(2) + ' F' + F_T, hod: true });
+      } else {
+        dx = p.x - potezi[i - 1].x; dy = p.y - potezi[i - 1].y;
+        d = Math.sqrt(dx * dx + dy * dy);
+        e += d * h * w / FIL;
+        L.push({ s: 'G1 X' + p.x.toFixed(2) + ' Y' + p.y.toFixed(2) + ' E' + e.toFixed(4) + ' F' + F_E });
+      }
+    }
+    L.push({ s: '; end of layer ' + sloj + ', ' + e.toFixed(2) + ' mm filament', c: true });
+    return L;
+  }
+
+  /* ---------- crtanje ---------- */
+  var OX = 46, OY = 392, SC = 1.76;
+  function X(x) { return OX + x * SC; }
+  function Y(y) { return OY - y * SC; }
+
+  function crtaj() {
+    var W = c.width, H = c.height, k, i;
+    g.clearRect(0, 0, W, H);
+    g.strokeStyle = '#161c24'; g.lineWidth = 1;
+    for (k = 0; k <= 200; k += 20) {
+      g.beginPath(); g.moveTo(X(k), Y(0)); g.lineTo(X(k), Y(200)); g.stroke();
+      g.beginPath(); g.moveTo(X(0), Y(k)); g.lineTo(X(200), Y(k)); g.stroke();
+    }
+    g.fillStyle = '#68727f'; g.font = '11px ui-monospace, monospace';
+    g.fillText(T('20 mm grid', 'mreža 20 mm'), X(0) + 3, Y(0) + 15);
+    if (!plan) return;
+
+    /* oblik koji je student nacrtao */
+    g.strokeStyle = '#2a323d'; g.lineWidth = 1;
+    g.beginPath();
+    poly.forEach(function (p, i) { if (i) g.lineTo(X(p[0]), Y(p[1])); else g.moveTo(X(p[0]), Y(p[1])); });
+    g.closePath(); g.stroke();
+
+    /* putanja: ono sto je glava prosla je svetlo, ostatak tamno */
+    var P = plan.potezi, dokle = Math.min(P.length - 1, Math.floor(t));
+    for (i = 1; i < P.length; i++) {
+      var vidi = i <= dokle;
+      if (P[i].hod) { g.strokeStyle = vidi ? '#68727f' : '#1a202a'; g.lineWidth = 1; g.setLineDash([3, 3]); }
+      else { g.strokeStyle = vidi ? '#f2b65a' : '#242b35'; g.lineWidth = Math.max(1.4, w * SC); g.setLineDash([]); }
+      g.beginPath(); g.moveTo(X(P[i - 1].x), Y(P[i - 1].y)); g.lineTo(X(P[i].x), Y(P[i].y)); g.stroke();
+    }
+    g.setLineDash([]);
+
+    /* glava */
+    if (dokle >= 1) {
+      var a = P[dokle - 1], b = P[dokle], f = t - Math.floor(t);
+      var hx = a.x + (b.x - a.x) * f, hy = a.y + (b.y - a.y) * f;
+      g.strokeStyle = '#e6e9ee'; g.lineWidth = 1.4;
+      g.beginPath(); g.arc(X(hx), Y(hy), 5, 0, 2 * Math.PI); g.stroke();
+      g.beginPath(); g.moveTo(X(hx), Y(hy) - 17); g.lineTo(X(hx) - 5, Y(hy) - 7);
+      g.lineTo(X(hx) + 5, Y(hy) - 7); g.closePath(); g.stroke();
+    }
+
+    /* temena koja se vuku */
+    g.fillStyle = '#0b0e12'; g.lineWidth = 1.2;
+    poly.forEach(function (p, i) {
+      g.strokeStyle = i === vuceno ? '#5fb3f6' : '#e6e9ee';
+      g.beginPath(); g.arc(X(p[0]), Y(p[1]), 4.2, 0, 2 * Math.PI); g.fill(); g.stroke();
+      if (vertexSelect && i === Number(vertexSelect.value)) {
+        g.fillStyle = '#e6e9ee'; g.fillText(String(i+1), X(p[0])+7, Y(p[1])-7); g.fillStyle = '#0b0e12';
+      }
+    });
+
+    /* lestve slojeva */
+    var n = Math.ceil(hh / h);
+    g.strokeStyle = '#2a323d'; g.lineWidth = 1;
+    g.beginPath(); g.moveTo(726, 48); g.lineTo(726, 374); g.stroke();
+    g.fillStyle = '#f2b65a'; g.fillRect(722, 368, 9, 6);
+    g.fillStyle = '#68727f';
+    g.fillText(n.toLocaleString(T('en-GB', 'sr-RS')) + T(' layers', ' slojeva'), 660, 40);
+    g.fillText(T('layer 1', 'sloj 1'), 688, 390);
+
+    if (plan.pojeden) {
+      g.fillStyle = '#e3685f';
+      g.fillText(T('Offset returned ', 'Uvlačenje je dalo ') + plan.obodi.length + T(' of ', ' od ') + per + T(' perimeter lines', ' obodnih linija'), 150, 26);
+    }
+  }
+
+  function ispisi(L, aktivni) {
+    var out = '', i, od = 0;
+    if (aktivni > ZAGLAVLJE + 42) od = aktivni - 42;
+    for (i = 0; i < L.length; i++) {
+      if (od && i >= ZAGLAVLJE && i < od) {
+        if (i === od - 1) out += '<span class="cm">; ... ' + (od - ZAGLAVLJE) + T(' lines above', ' redova iznad') + '\n</span>';
+        continue;
+      }
+      if (i > (od || 0) + 62 && i < L.length - 1) continue;
+      var kl = L[i].c ? 'cm' : (L[i].hod ? 'tr' : '');
+      if (i === aktivni) kl = 'cur';
+      out += '<span class="' + kl + '">' + String(i + 1) + '  ' + L[i].s + '</span>\n';
+    }
+    el.gk.innerHTML = out;
+  }
+
+  /* ---------- osvezavanje ---------- */
+  function osvezi() {
+    el.rh.textContent = h.toFixed(2); el.rw.textContent = w.toFixed(2);
+    if (el.h.setAttribute) el.h.setAttribute('aria-valuetext', h.toFixed(2) + ' mm');
+    if (el.w.setAttribute) el.w.setAttribute('aria-valuetext', w.toFixed(2) + ' mm');
+    el.rper.textContent = per; el.rinf.textContent = inf; el.rhh.textContent = hh;
+
+    plan = slajsuj(poly, h, w, per, inf);
+    var m = mere(plan.potezi, h, w);
+    LIST = gkod(plan.potezi, h, w, 1);
+
+    var slojeva = Math.ceil(hh / h), redova = LIST.length;
+    var bajta = LIST.reduce(function (s, l) { return s + l.s.length + 1; }, 0);
+    var ukupno = bajta * slojeva, sek = m.sek * slojeva;
+    /* Initial entry G0 is excluded; subsequent G0 moves are XY travel, not Z lifts. */
+    var podizanja = m.g0;
+
+    el.rg1.textContent = m.g1.toLocaleString(T('en-GB', 'sr-RS'));
+    el.rg0.textContent = podizanja.toLocaleString(T('en-GB', 'sr-RS'));
+    el.rput.textContent = (m.dE / 1000).toFixed(2) + ' m';
+    el.rfil.textContent = m.E.toFixed(2) + ' mm';
+    el.rjed.textContent = !plan.potezi.length ? T('no path', 'nema putanje') : podizanja === 0 ? T('YES', 'DA') : T('no', 'ne');
+    el.rjed.style.color = plan.potezi.length && podizanja === 0 ? '#58c793' : '#e3685f';
+    el.rslo.textContent = slojeva.toLocaleString(T('en-GB', 'sr-RS'));
+    el.rred.textContent = (redova * slojeva).toLocaleString(T('en-GB', 'sr-RS'));
+    el.rbaj.textContent = ukupno > 1048576 ? (ukupno / 1048576).toFixed(1) + ' MiB'
+                        : ukupno > 1024 ? (ukupno / 1024).toFixed(1) + ' KiB' : ukupno + ' B';
+    el.rvre.textContent = sek > 3600 ? (sek / 3600).toFixed(1) + ' h' : Math.round(sek / 60) + ' min';
+
+    if (t >= plan.potezi.length) t = 0;
+    ispisi(LIST, ZAGLAVLJE + Math.min(plan.potezi.length - 1, Math.floor(t)));
+    if (pp) pp.textContent = radi ? T('Pause marker', 'Zaustavi pokazivač') : T('Resume marker', 'Pokreni pokazivač');
+    syncVertexInputs();
+    crtaj();
+  }
+
+  /* ---------- vucenje temena ---------- */
+  function uModel(ev) {
+    var r = c.getBoundingClientRect(), sx = c.width / r.width, sy = c.height / r.height;
+    return [((ev.clientX - r.left) * sx - OX) / SC, (OY - (ev.clientY - r.top) * sy) / SC];
+  }
+  c.addEventListener('pointerdown', function (ev) {
+    var p = uModel(ev), naj = -1, d = 9;
+    poly.forEach(function (q, i) {
+      var dd = Math.sqrt((q[0] - p[0]) * (q[0] - p[0]) + (q[1] - p[1]) * (q[1] - p[1]));
+      if (dd < d) { d = dd; naj = i; }
+    });
+    vuceno = naj;
+    if (naj >= 0) {
+      vertexSelect.value = String(naj); syncVertexInputs();
+      if (c.setPointerCapture) c.setPointerCapture(ev.pointerId);
+      if (ev.preventDefault) ev.preventDefault(); crtaj();
+    }
+  });
+  c.addEventListener('pointermove', function (ev) {
+    if (vuceno < 0) return;
+    var p = uModel(ev);
+    poly[vuceno] = [Math.max(2, Math.min(198, p[0])), Math.max(2, Math.min(198, p[1]))];
+    osvezi();
+  });
+  c.addEventListener('pointerup', function () { vuceno = -1; crtaj(); });
+  c.addEventListener('pointercancel', function () { vuceno = -1; });
+  c.addEventListener('lostpointercapture', function () { vuceno = -1; });
+
+  var vertexSelect = document.getElementById('edit-point'), vertexX = document.getElementById('edit-x'), vertexY = document.getElementById('edit-y');
+  var vertexStatus = document.getElementById('edit-status'), vertexCount = 0;
+  function syncVertexInputs() {
+    if (!vertexSelect || !poly) return;
+    var i = Number(vertexSelect.value) || 0;
+    if (i >= poly.length) i = 0;
+    if (vertexCount !== poly.length) {
+      vertexSelect.innerHTML = poly.map(function (_, j) { return '<option value="' + j + '">' + (j+1) + '</option>'; }).join('');
+      vertexCount = poly.length;
+    }
+    vertexSelect.value = String(i); vertexX.value = poly[i][0].toFixed(2); vertexY.value = poly[i][1].toFixed(2);
+  }
+  vertexSelect.addEventListener('change', function () { vertexStatus.textContent = ''; syncVertexInputs(); crtaj(); });
+  document.getElementById('edit-apply').addEventListener('click', function () {
+    var i = Number(vertexSelect.value), x = String(vertexX.value).trim(), y = String(vertexY.value).trim();
+    if (!x || !y || !Number.isFinite(+x) || !Number.isFinite(+y) || +x < 2 || +x > 198 || +y < 2 || +y > 198 || !poly[i]) {
+      vertexStatus.textContent = T('Enter X and Y from 2 to 198 mm.', 'Unesi X i Y od 2 do 198 mm.'); return;
+    }
+    poly[i] = [+x, +y]; vertexStatus.textContent = T('Applied; polygon validity is not checked.', 'Primenjeno; ispravnost poligona nije proverena.'); osvezi();
+  });
+
+  /* ---------- kontrole ---------- */
+  el.h.addEventListener('input', function () { h = +el.h.value / 100; osvezi(); });
+  el.w.addEventListener('input', function () { w = +el.w.value / 100; osvezi(); });
+  el.per.addEventListener('input', function () { per = +el.per.value; osvezi(); });
+  el.inf.addEventListener('input', function () { inf = +el.inf.value; osvezi(); });
+  el.hh.addEventListener('input', function () { hh = +el.hh.value; osvezi(); });
+  [['sq', 'kvadrat'], ['ci', 'krug'], ['ip', 'iprofil'], ['ll', 'l'], ['zl', 'zleb']].forEach(function (par) {
+    document.getElementById(par[0]).addEventListener('click', function () {
+      poly = OBLICI[par[1]].map(function (p) { return p.slice(); });
+      vertexStatus.textContent = ''; t = 0; osvezi();
+    });
+  });
+  var pp = document.getElementById('pp');
+  pp.addEventListener('click', function () {
+    radi = !radi; osvezi();
+  });
+
+  function tik() {
+    if (radi && plan) {
+      t += 0.45;
+      if (t >= plan.potezi.length) t = 0;
+      ispisi(LIST, ZAGLAVLJE + Math.min(plan.potezi.length - 1, Math.floor(t)));
+      crtaj();
+    }
+    requestAnimationFrame(tik);
+  }
+
+  poly = OBLICI.kvadrat.map(function (p) { return p.slice(); });
+  osvezi(); tik();
+  window.addEventListener('legacy-language-change', function () {
+    ['edit-status', 'cell-status'].forEach(function (id) { var status = document.getElementById(id); if (status) status.textContent = ''; });
+    osvezi();
+  });
+  Dokaz.montiraj('#dokaz', 2);
+})();
+</script>
+</body>
+</html>

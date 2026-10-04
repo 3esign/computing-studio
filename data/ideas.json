@@ -1,0 +1,1323 @@
+{
+  "schema": 1,
+  "updated": "2026-10-04",
+  "ideas": [
+    {
+      "id": "bim-evidence",
+      "title": {
+        "en": "One shape. Several meanings.",
+        "sr": "Jedan oblik. Više značenja."
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "A geometric box, a wall and a material record can look identical.",
+        "sr": "Geometrijska kutija, zid i zapis o materijalu mogu izgledati isto."
+      },
+      "try": {
+        "en": "Compare the picture with the ID, units, entity type and source of a property.",
+        "sr": "Uporedi sliku sa ID-jem, jedinicama, tipom elementa i izvorom svojstva."
+      },
+      "source": {
+        "url": "https://docs.ifcopenshell.org/ifcopenshell-python/code_examples.html#create-a-simple-model-from-scratch",
+        "title": "IfcOpenShell · simple model"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "film-trace",
+      "title": {
+        "en": "A film that reads its own trace",
+        "sr": "Film koji čita sopstveni trag"
+      },
+      "tag": "code",
+      "status": "idea",
+      "description": {
+        "en": "A scene and its caption can come from the same before/after record.",
+        "sr": "Scena i opis mogu nastati iz istog zapisa pre/posle."
+      },
+      "try": {
+        "en": "Change + to −. The explanation must follow the actual calculation.",
+        "sr": "Promeni + u −. Objašnjenje mora pratiti stvarni račun."
+      },
+      "source": {
+        "url": "https://worrydream.com/LearnableProgramming/",
+        "title": "Bret Victor · Learnable Programming"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "material-passport",
+      "title": {
+        "en": "The biography of a panel",
+        "sr": "Biografija jednog panela"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "A panel keeps an identity while its location and records change.",
+        "sr": "Panel čuva identitet dok se položaj i zapisi menjaju."
+      },
+      "try": {
+        "en": "Distinguish type, batch, item, claim and evidence. A QR link alone is not a compliant passport.",
+        "sr": "Razlikuj tip, partiju, primerak, tvrdnju i dokaz. QR veza sama nije usklađen pasoš."
+      },
+      "source": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3110",
+        "title": "EU Construction Products Regulation"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "data-query",
+      "title": {
+        "en": "A million rows. One question.",
+        "sr": "Milion redova. Jedno pitanje."
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "A useful query starts with what a single row means.",
+        "sr": "Koristan upit počinje značenjem jednog reda."
+      },
+      "try": {
+        "en": "Use 12 synthetic deliveries first. Find a duplicate, a missing value and mixed units before scaling.",
+        "sr": "Prvo koristi 12 sintetičkih isporuka. Nađi duplikat, praznu vrednost i pomešane jedinice pre povećanja obima."
+      },
+      "source": {
+        "url": "https://duckdb.org/docs/current/data/parquet/overview",
+        "title": "DuckDB · Parquet"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "one-crane",
+      "title": {
+        "en": "A ready task can still wait",
+        "sr": "Spreman posao ipak može da čeka"
+      },
+      "tag": "process",
+      "status": "idea",
+      "description": {
+        "en": "Dependencies are only one part of a schedule.",
+        "sr": "Zavisnosti su samo jedan deo rasporeda."
+      },
+      "try": {
+        "en": "Add one crane, then a delivery delay. Which assumption changes the result?",
+        "sr": "Dodaj jednu dizalicu, pa kašnjenje isporuke. Koja pretpostavka menja rezultat?"
+      },
+      "source": {
+        "url": "https://simpy.readthedocs.io/en/stable/topical_guides/resources.html",
+        "title": "SimPy · shared resources"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "giza-story",
+      "title": {
+        "en": "Giza: a system of records and flows",
+        "sr": "Giza: sistem zapisa i tokova"
+      },
+      "tag": "history",
+      "status": "idea",
+      "description": {
+        "en": "A monument invites questions about geometry, supply and coordination.",
+        "sr": "Monument otvara pitanja geometrije, snabdevanja i koordinacije."
+      },
+      "try": {
+        "en": "Compare an archaeological document with our invented executable layer model.",
+        "sr": "Uporedi arheološki dokument sa našim izmišljenim izvršivim modelom slojeva."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "phone-class",
+      "title": {
+        "en": "One question, hundreds of thinkers",
+        "sr": "Jedno pitanje, stotine ljudi"
+      },
+      "tag": "learning",
+      "status": "idea",
+      "description": {
+        "en": "A shared prompt can organise individual thought and neighbour discussion.",
+        "sr": "Zajedničko pitanje može organizovati samostalno razmišljanje i razgovor sa susedom."
+      },
+      "try": {
+        "en": "Predict privately, discuss a reason, then attempt a changed question. Keep a paper route.",
+        "sr": "Predvidi samostalno, razgovaraj o razlogu, pa pokušaj izmenjeno pitanje. Sačuvaj papirnu mogućnost."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "ai-reader",
+      "title": {
+        "en": "Ask AI for the missing assumption",
+        "sr": "Pitaj AI za nedostajuću pretpostavku"
+      },
+      "tag": "ai",
+      "status": "idea",
+      "description": {
+        "en": "A confident explanation is a claim to inspect.",
+        "sr": "Samouvereno objašnjenje je tvrdnja koju proveravamo."
+      },
+      "try": {
+        "en": "Give a tiny program and predict its output first. Compare the AI trace with the real one.",
+        "sr": "Daj mali program i prvo sam predvidi izlaz. Uporedi AI trag sa stvarnim."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "origami",
+      "title": {
+        "en": "A crease becomes a structure",
+        "sr": "Pregib postaje struktura"
+      },
+      "tag": "making",
+      "status": "idea",
+      "description": {
+        "en": "Fold a pattern; examine which constraints were idealised.",
+        "sr": "Savij obrazac; ispitaj koja ograničenja su idealizovana."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://origamisimulator.org/",
+        "title": "A crease becomes a structure"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "laser",
+      "title": {
+        "en": "Cutting to bend",
+        "sr": "Rezanje radi savijanja"
+      },
+      "tag": "making",
+      "status": "idea",
+      "description": {
+        "en": "A flat sheet carries a plan for a spatial change.",
+        "sr": "Ravna ploča nosi plan prostorne promene."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://hcie.csail.mit.edu/research/laserorigami/laserorigami.html",
+        "title": "Cutting to bend"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "vault",
+      "title": {
+        "en": "A vault finds a shape",
+        "sr": "Svod pronalazi oblik"
+      },
+      "tag": "civil",
+      "status": "idea",
+      "description": {
+        "en": "Compare equilibrium assumptions with a desired silhouette.",
+        "sr": "Uporedi pretpostavke ravnoteže sa željenom siluetom."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://blockresearchgroup.github.io/compas-RV/",
+        "title": "A vault finds a shape"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "box",
+      "title": {
+        "en": "Design the void",
+        "sr": "Projektuj prazninu"
+      },
+      "tag": "geometry",
+      "status": "idea",
+      "description": {
+        "en": "Subtract an inner solid from an outer one.",
+        "sr": "Oduzmi unutrašnje telo od spoljnog."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://jscad.app/docs/tutorial-03_usingParameters.html",
+        "title": "Design the void"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "instance",
+      "title": {
+        "en": "One object, many instances",
+        "sr": "Jedan objekat, mnogo instanci"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "A repeated facade need not duplicate every geometry record.",
+        "sr": "Ponavljanje fasade ne mora umnožiti svaki zapis geometrije."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://github.com/blender/blender/blob/main/source/blender/nodes/geometry/nodes/node_geo_instance_on_points.cc",
+        "title": "One object, many instances"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "matrix",
+      "title": {
+        "en": "See a matrix act",
+        "sr": "Vidi kako matrica deluje"
+      },
+      "tag": "geometry",
+      "status": "idea",
+      "description": {
+        "en": "Reverse a rotation and a scale; compare the result.",
+        "sr": "Obrni redosled rotacije i skaliranja; uporedi rezultat."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://immersivemath.com/ila/ch09_linear_mappings/ch09.html",
+        "title": "See a matrix act"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "room",
+      "title": {
+        "en": "A room leaves a time trace",
+        "sr": "Soba ostavlja vremenski trag"
+      },
+      "tag": "architecture",
+      "status": "idea",
+      "description": {
+        "en": "Follow early arrivals and the decay of a sound.",
+        "sr": "Prati rane dolaske i slabljenje zvuka."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://github.com/LCAV/pyroomacoustics/blob/master/examples/room_from_rt60.py",
+        "title": "A room leaves a time trace"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "sound",
+      "title": {
+        "en": "Move the listener",
+        "sr": "Pomeri slušaoca"
+      },
+      "tag": "architecture",
+      "status": "idea",
+      "description": {
+        "en": "Separate the wave model from the particles it represents.",
+        "sr": "Odvoji model talasa od čestica koje predstavlja."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://ciechanow.ski/sound/",
+        "title": "Move the listener"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "sun",
+      "title": {
+        "en": "Sunlight as a visibility test",
+        "sr": "Sunce kao provera vidljivosti"
+      },
+      "tag": "architecture",
+      "status": "idea",
+      "description": {
+        "en": "Change one obstruction and inspect the sampled sun directions.",
+        "sr": "Promeni jednu prepreku i ispitaj uzorkovane pravce Sunca."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://docs.ladybug.tools/ladybug-primer/components/3_analyzegeometry/direct_sun_hours",
+        "title": "Sunlight as a visibility test"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "heat",
+      "title": {
+        "en": "A small thermal bridge",
+        "sr": "Mali termalni most"
+      },
+      "tag": "civil",
+      "status": "idea",
+      "description": {
+        "en": "A colour field, an isotherm and a heat-flow arrow are different representations.",
+        "sr": "Polje boja, izoterma i strelica toplotnog toka su različiti prikazi."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://energy.concord.org/energy2d/thermal-bridge.html",
+        "title": "A small thermal bridge"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "water",
+      "title": {
+        "en": "Water has a route and an age",
+        "sr": "Voda ima put i starost"
+      },
+      "tag": "civil",
+      "status": "idea",
+      "description": {
+        "en": "The same pipe geometry can carry a changing state.",
+        "sr": "Ista geometrija cevi može nositi promenljivo stanje."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://usepa.github.io/EPANET2.2/2_quickstart.html",
+        "title": "Water has a route and an age"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "fluid",
+      "title": {
+        "en": "The wake behind an obstacle",
+        "sr": "Trag iza prepreke"
+      },
+      "tag": "civil",
+      "status": "idea",
+      "description": {
+        "en": "Compare velocity, streamlines and particles without confusing the views.",
+        "sr": "Uporedi brzinu, strujnice i čestice bez mešanja prikaza."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://physics.weber.edu/schroeder/fluids/",
+        "title": "The wake behind an obstacle"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "photos",
+      "title": {
+        "en": "A model from photographs",
+        "sr": "Model iz fotografija"
+      },
+      "tag": "architecture",
+      "status": "idea",
+      "description": {
+        "en": "Ask where the scale comes from and which surfaces are missing.",
+        "sr": "Pitaj odakle dolazi razmera i koje površine nedostaju."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://meshroom-manual.readthedocs.io/en/latest/tutorials/sketchfab/sketchfab.html",
+        "title": "A model from photographs"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "cloud",
+      "title": {
+        "en": "A point cloud is a sample",
+        "sr": "Oblak tačaka je uzorak"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "Look for gaps, density and a measurement reference.",
+        "sr": "Traži praznine, gustinu i referencu za merenje."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://potree.org/",
+        "title": "A point cloud is a sample"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "splat",
+      "title": {
+        "en": "A view is not a measured solid",
+        "sr": "Prikaz nije izmereno telo"
+      },
+      "tag": "ai",
+      "status": "idea",
+      "description": {
+        "en": "Ask what novel-view synthesis preserves and what it does not prove.",
+        "sr": "Pitaj šta sinteza novog pogleda čuva, a šta ne dokazuje."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+        "title": "A view is not a measured solid"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "lift-sensor",
+      "title": {
+        "en": "Ride an elevator with data",
+        "sr": "Vožnja liftom kroz podatke"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "Compare pressure-derived height with a separate acceleration sensor.",
+        "sr": "Uporedi visinu izvedenu iz pritiska sa zasebnim senzorom ubrzanja."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://phyphox.org/wiki/index.php/Elevator",
+        "title": "Ride an elevator with data"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "datasaurus",
+      "title": {
+        "en": "Same summary, another world",
+        "sr": "Isti sažetak, drugi svet"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "Look at the plot before trusting a pair of summary statistics.",
+        "sr": "Pogledaj grafikon pre poverenja u dve sumarne statistike."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://www.research.autodesk.com/publications/same-stats-different-graphs/",
+        "title": "Same summary, another world"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "nest",
+      "title": {
+        "en": "The offcut depends on the order",
+        "sr": "Ostatak zavisi od redosleda"
+      },
+      "tag": "making",
+      "status": "idea",
+      "description": {
+        "en": "Packing is a search under constraints, not an automatic global optimum.",
+        "sr": "Raspoređivanje je pretraga pod ograničenjima, bez automatskog globalnog optimuma."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://github.com/Jack000/SVGnest",
+        "title": "The offcut depends on the order"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "mould",
+      "title": {
+        "en": "The shape, its negative, its tool",
+        "sr": "Oblik, negativ i alat"
+      },
+      "tag": "making",
+      "status": "idea",
+      "description": {
+        "en": "Distinguish the desired object from the space and access needed to make it.",
+        "sr": "Razlikuj željeni predmet od prostora i pristupa potrebnih za izradu."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://fab.cba.mit.edu/classes/863.22/Harvard/people/Claire/Week-8-Molding-and-Casting.html",
+        "title": "The shape, its negative, its tool"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "ids",
+      "title": {
+        "en": "A requirement is executable data",
+        "sr": "Zahtev je izvršiv podatak"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "Checking a declared fire rating does not physically test fire resistance.",
+        "sr": "Provera deklarisane požarne oznake nije fizičko ispitivanje otpornosti."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://github.com/buildingSMART/IDS/tree/v1.0.0/Documentation",
+        "title": "A requirement is executable data"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "bcf",
+      "title": {
+        "en": "A comment needs a viewpoint",
+        "sr": "Primedbi treba pogled"
+      },
+      "tag": "process",
+      "status": "idea",
+      "description": {
+        "en": "Connect a comment to an ID, model version and view.",
+        "sr": "Poveži primedbu sa ID-jem, verzijom modela i pogledom."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://github.com/buildingSMART/BCF-XML/tree/release_3_0/Documentation",
+        "title": "A comment needs a viewpoint"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "tree",
+      "title": {
+        "en": "The same numbers, another tree",
+        "sr": "Isti brojevi, drugo stablo"
+      },
+      "tag": "code",
+      "status": "idea",
+      "description": {
+        "en": "Grouping and matching inputs changes a visual program.",
+        "sr": "Grupisanje i uparivanje ulaza menja vizuelni program."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://developer.rhino3d.com/guides/grasshopper/gh-algorithms-and-data-structures/advanced-data-structures/",
+        "title": "The same numbers, another tree"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "scad",
+      "title": {
+        "en": "Read the nesting order",
+        "sr": "Pročitaj redosled ugnježđivanja"
+      },
+      "tag": "code",
+      "status": "idea",
+      "description": {
+        "en": "Describe a solid through transforms and composition.",
+        "sr": "Opiši telo kroz transformacije i kompoziciju."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://files.openscad.org/documentation/manual/The_OpenSCAD_Language.html#combining-transformations",
+        "title": "Read the nesting order"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "prov",
+      "title": {
+        "en": "Where did this number come from?",
+        "sr": "Odakle dolazi ovaj broj?"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "Trace the entity, activity and actor, then verify the underlying measurement.",
+        "sr": "Prati entitet, aktivnost i aktera, pa proveri samo merenje."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+        "title": "Where did this number come from?"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "manim",
+      "title": {
+        "en": "A parameter directs a film",
+        "sr": "Parametar režira film"
+      },
+      "tag": "code",
+      "status": "idea",
+      "description": {
+        "en": "Keep authored motion distinct from a recorded execution trace.",
+        "sr": "Razlikuj režirani pokret od zabeleženog izvršavanja."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://docs.manim.community/en/stable/reference/manim.mobject.value_tracker.ValueTracker.html",
+        "title": "A parameter directs a film"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "motion",
+      "title": {
+        "en": "Highlight the line that matters",
+        "sr": "Istakni važnu naredbu"
+      },
+      "tag": "code",
+      "status": "idea",
+      "description": {
+        "en": "Explain one state change per scene, with a pause and a text alternative.",
+        "sr": "Objasni jednu promenu stanja po sceni, uz pauzu i tekstualnu alternativu."
+      },
+      "try": {
+        "en": "Change one input. State a prediction, an observation and the limit of the model.",
+        "sr": "Promeni jedan ulaz. Navedi predviđanje, opažanje i granicu modela."
+      },
+      "source": {
+        "url": "https://motioncanvas.io/docs/code/",
+        "title": "Highlight the line that matters"
+      },
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "hex",
+      "title": {
+        "en": "Read a file as bytes",
+        "sr": "Čitaj fajl kao bajtove"
+      },
+      "tag": "code",
+      "status": "idea",
+      "description": {
+        "en": "What changes when the same bytes are interpreted differently?",
+        "sr": "Šta se menja kada iste bajtove drugačije tumačimo?"
+      },
+      "try": {
+        "en": "Sketch a tiny case you can check by hand, then choose how to represent it.",
+        "sr": "Skiciraj mali slučaj koji možeš ručno proveriti, pa izaberi način predstavljanja."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "state-lift",
+      "title": {
+        "en": "An elevator is a state machine",
+        "sr": "Lift je automat stanja"
+      },
+      "tag": "process",
+      "status": "idea",
+      "description": {
+        "en": "Which transitions must be impossible?",
+        "sr": "Koji prelazi moraju biti nemogući?"
+      },
+      "try": {
+        "en": "Sketch a tiny case you can check by hand, then choose how to represent it.",
+        "sr": "Skiciraj mali slučaj koji možeš ručno proveriti, pa izaberi način predstavljanja."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "hull",
+      "title": {
+        "en": "A boundary from points",
+        "sr": "Granica iz tačaka"
+      },
+      "tag": "geometry",
+      "status": "idea",
+      "description": {
+        "en": "Which points determine the convex hull, and which do not?",
+        "sr": "Koje tačke određuju konveksni omotač, a koje ne?"
+      },
+      "try": {
+        "en": "Sketch a tiny case you can check by hand, then choose how to represent it.",
+        "sr": "Skiciraj mali slučaj koji možeš ručno proveriti, pa izaberi način predstavljanja."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "voronoi",
+      "title": {
+        "en": "Where does a service area end?",
+        "sr": "Gde prestaje područje usluge?"
+      },
+      "tag": "architecture",
+      "status": "idea",
+      "description": {
+        "en": "Geometric proximity is not automatically accessible travel distance.",
+        "sr": "Geometrijska blizina nije automatski dostupna putna udaljenost."
+      },
+      "try": {
+        "en": "Sketch a tiny case you can check by hand, then choose how to represent it.",
+        "sr": "Skiciraj mali slučaj koji možeš ručno proveriti, pa izaberi način predstavljanja."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "gradient",
+      "title": {
+        "en": "Downhill can be a local choice",
+        "sr": "Nizbrdo može biti lokalni izbor"
+      },
+      "tag": "ai",
+      "status": "idea",
+      "description": {
+        "en": "Compare a local minimum with a global objective.",
+        "sr": "Uporedi lokalni minimum sa globalnim ciljem."
+      },
+      "try": {
+        "en": "Sketch a tiny case you can check by hand, then choose how to represent it.",
+        "sr": "Skiciraj mali slučaj koji možeš ručno proveriti, pa izaberi način predstavljanja."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "monte-carlo",
+      "title": {
+        "en": "A distribution, not one answer",
+        "sr": "Raspodela, ne jedan odgovor"
+      },
+      "tag": "civil",
+      "status": "idea",
+      "description": {
+        "en": "Which input distribution did we assume, and why?",
+        "sr": "Koju raspodelu ulaza smo pretpostavili i zašto?"
+      },
+      "try": {
+        "en": "Sketch a tiny case you can check by hand, then choose how to represent it.",
+        "sr": "Skiciraj mali slučaj koji možeš ručno proveriti, pa izaberi način predstavljanja."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "tsp",
+      "title": {
+        "en": "The shortest route gets expensive",
+        "sr": "Najkraća putanja postaje skupa"
+      },
+      "tag": "process",
+      "status": "idea",
+      "description": {
+        "en": "Compare exhaustive search with a bounded heuristic.",
+        "sr": "Uporedi iscrpnu pretragu sa ograničenom heuristikom."
+      },
+      "try": {
+        "en": "Sketch a tiny case you can check by hand, then choose how to represent it.",
+        "sr": "Skiciraj mali slučaj koji možeš ručno proveriti, pa izaberi način predstavljanja."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "grammar",
+      "title": {
+        "en": "A city from a grammar",
+        "sr": "Grad iz gramatike"
+      },
+      "tag": "geometry",
+      "status": "idea",
+      "description": {
+        "en": "Count what a rule creates before drawing it.",
+        "sr": "Pre crtanja prebroj šta pravilo proizvodi."
+      },
+      "try": {
+        "en": "Sketch a tiny case you can check by hand, then choose how to represent it.",
+        "sr": "Skiciraj mali slučaj koji možeš ručno proveriti, pa izaberi način predstavljanja."
+      },
+      "source": null,
+      "boundary": {
+        "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
+        "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "or-scale-01",
+      "title": {
+        "en": "First a reason. Then a new question.",
+        "sr": "Prvo razlog. Zatim novo pitanje."
+      },
+      "tag": "learning",
+      "status": "idea",
+      "description": {
+        "en": "In introductory genetics, 350 participants answered paired concept questions. Performance improved on a new individual question after peer discussion; answers and class histograms remained hidden until afterward.",
+        "sr": "Slično novo pitanje pomaže da razlikujemo razumevanje od preuzimanja tuđeg odgovora."
+      },
+      "try": {
+        "en": "Our adaptation: local first answer, optional neighbor discussion, revised answer, then a new related question before revealing explanations.",
+        "sr": "Lični pokušaj, razgovor, novi primer; bez izmišljenog histograma."
+      },
+      "boundary": {
+        "en": "One course and immediate outcomes; not a smartphone comparison or proof of semester-long transfer. No direct comparison against instructor explanation.",
+        "sr": "Kratkoročni nalaz iz genetike nije garancija uspeha OR."
+      },
+      "source": {
+        "url": "https://c2ip.insa-toulouse.fr/_attachment/des-pedagogies-actives-article/Smith_2009.pdf?download=true",
+        "title": "Why Peer Discussion Improves Student Performance on In-Class Concept Questions"
+      }
+    },
+    {
+      "id": "or-scale-02",
+      "title": {
+        "en": "A lecture can become a sequence of decisions.",
+        "sr": "Predavanje kao niz odluka."
+      },
+      "tag": "learning",
+      "status": "idea",
+      "description": {
+        "en": "Two physics sections enrolled 267 and 271 students. A three-hour, one-week intervention combining reasoning, discussion and feedback produced higher immediate test scores than the comparison lectures.",
+        "sr": "Velika grupa može da radi sa povezanim pitanjima i obrazloženjima."
+      },
+      "try": {
+        "en": "Our adaptation: an explicit prediction, a visible result, and an explanation of the discrepancy beside the same short code example.",
+        "sr": "Predvidi, proveri i objasni razliku u istom prikazu."
+      },
+      "boundary": {
+        "en": "Different instructors and multiple simultaneous changes; the hardware's effect is not isolated. This is not a long-term, 400-student website evaluation.",
+        "sr": "Ne obećavati udvostručeno učenje niti pripisivati rezultat telefonu."
+      },
+      "source": {
+        "url": "https://wet.kuleuven.be/oase/materiaal/deslaurierswieman/@@download/file/Deslauriers%20et%20al_2011_artikel%20uit%20Science%5B1%5D%5B1%5D.pdf",
+        "title": "Improved Learning in a Large-Enrollment Physics Class"
+      }
+    },
+    {
+      "id": "or-scale-03",
+      "title": {
+        "en": "Close the example. Rebuild the steps.",
+        "sr": "Zatvori primer. Obnovi korake."
+      },
+      "tag": "learning",
+      "status": "idea",
+      "description": {
+        "en": "Two experiments with 80 and 120 undergraduates compared learning science texts. Retrieval practice outperformed studying with concept maps on tests one week later, including inference and concept-mapping outcomes.",
+        "sr": "Prisećanje ranije učenog nije isto što i ponovno gledanje."
+      },
+      "try": {
+        "en": "Our adaptation: after learning, hide the example and reconstruct the steps before reopening it for self-checking.",
+        "sr": "Sakrij primer, obnovi postupak, uporedi."
+      },
+      "boundary": {
+        "en": "Short texts in laboratory settings; not direct evidence for a quick classroom prediction or architectural software competence. Concept mapping from memory can itself involve retrieval.",
+        "sr": "Pogađanje potpuno novog ishoda nije automatski retrieval practice."
+      },
+      "source": {
+        "url": "https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Blunt_Science.pdf",
+        "title": "Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping"
+      }
+    },
+    {
+      "id": "or-scale-04",
+      "title": {
+        "en": "A phone with a defined job.",
+        "sr": "Telefon sa određenim zadatkom."
+      },
+      "tag": "learning",
+      "status": "idea",
+      "description": {
+        "en": "In large introductory physics sections, observers detected no significant distraction difference between mobile polling and dedicated clickers. Active periods were associated with less distraction than passive periods.",
+        "sr": "Vrsta aktivnosti zaslužuje pažnju uz izbor uređaja."
+      },
+      "try": {
+        "en": "Our adaptation: brief, purposeful phone interaction followed by a discussion prompt; the screen need not remain the centre of every activity.",
+        "sr": "Telefon služi konkretnom pokušaju, potom se pažnja vraća obrazloženju."
+      },
+      "boundary": {
+        "en": "Observational, institution-specific data from 2014–2015; no significant difference does not establish equivalence, causation or absence of distraction today.",
+        "sr": "Rad ne dokazuje da telefon nikada ne ometa učenje."
+      },
+      "source": {
+        "url": "https://link.springer.com/article/10.1007/s41979-023-00101-0",
+        "title": "Requiring Mobile Devices in the Classroom: the Use of Web-Based Polling Does Not Lead to Increased Levels of Distraction"
+      }
+    },
+    {
+      "id": "or-scale-05",
+      "title": {
+        "en": "A question needs an instructional purpose.",
+        "sr": "Pitanju treba nastavna svrha."
+      },
+      "tag": "learning",
+      "status": "idea",
+      "description": {
+        "en": "The guide includes digital and low-tech responses, peer discussion, concept checks and confidence questions, with separate suggestions for large classes.",
+        "sr": "Odgovaranje može imati više dostupnih oblika."
+      },
+      "try": {
+        "en": "Our adaptation: identical question IDs on the projected page, phone and paper; optional letter cards and private self-checking.",
+        "sr": "Isto pitanje na projekciji, telefonu i papiru."
+      },
+      "boundary": {
+        "en": "Guidance is not causal evidence. A static page cannot collect room-wide answers or produce a genuine class distribution by itself.",
+        "sr": "Ručni utisak nastavnika nije automatski histogram odgovora."
+      },
+      "source": {
+        "url": "https://teaching.berkeley.edu/class-polling",
+        "title": "In-Class Polling"
+      }
+    },
+    {
+      "id": "or-scale-06",
+      "title": {
+        "en": "Participation without a device.",
+        "sr": "Učešće bez uređaja."
+      },
+      "tag": "learning",
+      "status": "idea",
+      "description": {
+        "en": "The guide recommends advance download or printing, lower-bandwidth notes, accessible document structures, captions or transcripts, and alternative ways to participate when infrastructure fails.",
+        "sr": "Dostupnost uključuje uređaj, vezu i format sadržaja."
+      },
+      "try": {
+        "en": "Our adaptation: lightweight text-first HTML, a print view, optional media and a separately tested downloadable version.",
+        "sr": "Osnovno objašnjenje dostupno je i bez filma."
+      },
+      "boundary": {
+        "en": "A disruption guide, not a test of our network or accessibility compliance. Printing alone does not accommodate every student; offline availability must be verified.",
+        "sr": "Offline i pristupačnost nisu oznake koje se dodaju bez provere."
+      },
+      "source": {
+        "url": "https://www.elon.edu/u/teaching-in-times-of-disruption/ensuring-access/",
+        "title": "Ensuring Access"
+      }
+    },
+    {
+      "id": "giza-01",
+      "title": {
+        "en": "A delivery log is a kind of code.",
+        "sr": "Dnevnik isporuka kao vrsta koda."
+      },
+      "tag": "history",
+      "status": "idea",
+      "description": {
+        "en": "The surviving log records limestone transport from Tura towards Akhet-Khufu. Its editor explicitly distinguishes these missions from unrecorded pyramid construction techniques.",
+        "sr": "Sačuvani dnevnik beleži prevoz krečnjaka iz Ture ka Akhet-Khufu. Priređivač odvaja te misije od tehnika gradnje koje nisu opisane."
+      },
+      "try": {
+        "en": "Name the observed evidence, the interpretation, and what our model adds. Compare two explanations without pretending that a diagram settles the history.",
+        "sr": "Imenuj opažen dokaz, tumačenje i ono što naš model dodaje. Uporedi dva objašnjenja bez pretvaranja da dijagram rešava istoriju."
+      },
+      "boundary": {
+        "en": "Fragmentary text; uncertain restorations remain marked. No complete building schedule, lifting method or workforce census.",
+        "sr": "Granica: ovaj izvor ne potvrđuje ceo postupak gradnje Gize. Obim čitanja je naveden u biblioteci."
+      },
+      "source": {
+        "url": "https://www.ifao.egnet.net/uploads/publications/divers/MIFAO136_ann_01.pdf",
+        "title": "Les papyrus de la mer Rouge I. Le journal de Merer, Papyrus Jarf A et B"
+      }
+    },
+    {
+      "id": "giza-02",
+      "title": {
+        "en": "The river is part of the construction system.",
+        "sr": "Reka je deo sistema gradnje."
+      },
+      "tag": "history",
+      "status": "idea",
+      "description": {
+        "en": "Pollen assemblages from sediment cores support a reconstruction of changing waterscapes compatible with boat access during pyramid building.",
+        "sr": "Polenski skupovi iz sedimentnih jezgara podržavaju rekonstrukciju promenljivog vodenog okruženja pogodnog za brodski pristup u doba gradnje."
+      },
+      "try": {
+        "en": "Name the observed evidence, the interpretation, and what our model adds. Compare two explanations without pretending that a diagram settles the history.",
+        "sr": "Imenuj opažen dokaz, tumačenje i ono što naš model dodaje. Uporedi dva objašnjenja bez pretvaranja da dijagram rešava istoriju."
+      },
+      "boundary": {
+        "en": "Proxy reconstruction with chronological uncertainty; not daily water depth, boat capacity or proof of a lifting mechanism.",
+        "sr": "Granica: ovaj izvor ne potvrđuje ceo postupak gradnje Gize. Obim čitanja je naveden u biblioteci."
+      },
+      "source": {
+        "url": "https://www.pnas.org/doi/full/10.1073/pnas.2202530119",
+        "title": "Nile waterscapes facilitated the construction of the Giza pyramids during the 3rd millennium BCE"
+      }
+    },
+    {
+      "id": "giza-03",
+      "title": {
+        "en": "Read the landscape as evidence.",
+        "sr": "Čitaj pejzaž kao dokaz."
+      },
+      "tag": "history",
+      "status": "idea",
+      "description": {
+        "en": "Radar, topography, historical maps, geophysics and coring identify former river segments. Authors infer transport relevance from landscape relationships.",
+        "sr": "Radar, topografija, stare karte, geofizika i jezgra otkrivaju segmente nekadašnjeg toka. Autori iz prostornih odnosa izvode značaj za transport."
+      },
+      "try": {
+        "en": "Name the observed evidence, the interpretation, and what our model adds. Compare two explanations without pretending that a diagram settles the history.",
+        "sr": "Imenuj opažen dokaz, tumačenje i ono što naš model dodaje. Uporedi dva objašnjenja bez pretvaranja da dijagram rešava istoriju."
+      },
+      "boundary": {
+        "en": "Not a recorded delivery route or construction reconstruction; publisher opening failed, university PDF read.",
+        "sr": "Granica: ovaj izvor ne potvrđuje ceo postupak gradnje Gize. Obim čitanja je naveden u biblioteci."
+      },
+      "source": {
+        "url": "https://research-management.mq.edu.au/ws/portalfiles/portal/341290276/340045582.pdf",
+        "title": "The Egyptian pyramid chain was built along the now abandoned Ahramat Nile Branch"
+      }
+    },
+    {
+      "id": "giza-04",
+      "title": {
+        "en": "The building site needs a settlement.",
+        "sr": "Gradilištu je potrebno naselje."
+      },
+      "tag": "history",
+      "status": "idea",
+      "description": {
+        "en": "AA-S at Heit el-Ghurab exposes courtyard and kitchen remains, interpreted as an official’s residence associated with provisioning.",
+        "sr": "AA-S u Heit el-Ghurabu otkriva dvorište i kuhinje, protumačene kao službenička kuća povezana sa snabdevanjem."
+      },
+      "try": {
+        "en": "Name the observed evidence, the interpretation, and what our model adds. Compare two explanations without pretending that a diagram settles the history.",
+        "sr": "Imenuj opažen dokaz, tumačenje i ono što naš model dodaje. Uporedi dva objašnjenja bez pretvaranja da dijagram rešava istoriju."
+      },
+      "boundary": {
+        "en": "Partial excavation, chiefly final occupation; not workforce census.",
+        "sr": "Granica: ovaj izvor ne potvrđuje ceo postupak gradnje Gize. Obim čitanja je naveden u biblioteci."
+      },
+      "source": {
+        "url": "https://aeraweb.org/wp-content/uploads/2022/08/aeragram16_2.pdf#page=18",
+        "title": "Another Official’s House Emerges in Season 2015"
+      }
+    },
+    {
+      "id": "giza-05",
+      "title": {
+        "en": "A measurement changes the story.",
+        "sr": "Merenje menja priču."
+      },
+      "tag": "history",
+      "status": "idea",
+      "description": {
+        "en": "Surviving baseline traces support regression and extrapolation of lost corners with uncertainty bounds.",
+        "sr": "Preostali tragovi osnove omogućavaju regresiju i ekstrapolaciju izgubljenih uglova uz granice nesigurnosti."
+      },
+      "try": {
+        "en": "Name the observed evidence, the interpretation, and what our model adds. Compare two explanations without pretending that a diagram settles the history.",
+        "sr": "Imenuj opažen dokaz, tumačenje i ono što naš model dodaje. Uporedi dva objašnjenja bez pretvaranja da dijagram rešava istoriju."
+      },
+      "boundary": {
+        "en": "Does not establish ancient surveying or ramp methods.",
+        "sr": "Granica: ovaj izvor ne potvrđuje ceo postupak gradnje Gize. Obim čitanja je naveden u biblioteci."
+      },
+      "source": {
+        "url": "https://aeraweb.org/wp-content/uploads/2022/08/aeragram16_2.pdf#page=8",
+        "title": "The Great Pyramid’s Footprint: Results from Our 2015 Survey"
+      }
+    },
+    {
+      "id": "giza-06",
+      "title": {
+        "en": "One ramp is not every ramp.",
+        "sr": "Jedna rampa nije svaka rampa."
+      },
+      "tag": "history",
+      "status": "idea",
+      "description": {
+        "en": "Quarry-entry clearance exposed a haulage ramp flanked by rock-cut steps and post-holes, offering evidence for investigating stone transport.",
+        "sr": "Čišćenje ulaza kamenoloma otkrilo je transportnu rampu uz uklesane stepenice i rupe za stubove, kao trag za istraživanje prevoza kamena."
+      },
+      "try": {
+        "en": "Name the observed evidence, the interpretation, and what our model adds. Compare two explanations without pretending that a diagram settles the history.",
+        "sr": "Imenuj opažen dokaz, tumačenje i ono što naš model dodaje. Uporedi dva objašnjenja bez pretvaranja da dijagram rešava istoriju."
+      },
+      "boundary": {
+        "en": "Hatnub is another site and quarry context. This report does not establish a ramp layout for the Great Pyramid.",
+        "sr": "Granica: ovaj izvor ne potvrđuje ceo postupak gradnje Gize. Obim čitanja je naveden u biblioteci."
+      },
+      "source": {
+        "url": "https://www.liverpool.ac.uk/archaeology-classics-and-egyptology/blog/2018/hatnub/",
+        "title": "New texts from an old site: discoveries from the September 2018 season at the Hatnub alabaster quarries"
+      }
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "schema": 1,
+  "updated": "2026-10-04",
+  "title": {
+    "en": "Computing, made visible.",
+    "sr": "Računarstvo koje se vidi."
+  },
+  "teacher": "Semir Poturak",
+  "institution": {
+    "en": "Union — Nikola Tesla University · Faculty of Construction Management, Belgrade",
+    "sr": "Univerzitet „Union — Nikola Tesla” · Fakultet za graditeljski menadžment, Beograd"
+  },
+  "notice": {
+    "en": "Open a question on your phone. Predict, discuss, then test one change.",
+    "sr": "Otvori pitanje na telefonu. Predvidi, razgovaraj, pa proveri jednu promenu."
+  },
+  "sessions": [],
+  "classQuestions": [
+    {
+      "id": "Q1",
+      "topic": "code",
+      "title": {
+        "en": "Three numbers. Four states.",
+        "sr": "Tri broja. Četiri stanja."
+      },
+      "prompt": {
+        "en": "A sum starts at 0. We add 12, then 18, then 15. What is the state immediately after the second addition?",
+        "sr": "Zbir kreće od 0. Dodajemo 12, zatim 18, pa 15. Koje je stanje odmah posle drugog sabiranja?"
+      },
+      "choices": [
+        {
+          "en": "18",
+          "sr": "18"
+        },
+        {
+          "en": "30",
+          "sr": "30"
+        },
+        {
+          "en": "45",
+          "sr": "45"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The second step starts at 12 and adds 18. The state becomes 30. The final value 45 belongs to the next step.",
+        "sr": "Drugi korak kreće od 12 i dodaje 18. Stanje postaje 30. Završnih 45 pripada sledećem koraku."
+      },
+      "transfer": {
+        "en": "Now start at 5. What changes after each step? Explain before running.",
+        "sr": "Sada kreni od 5. Šta se menja posle svakog koraka? Objasni pre pokretanja."
+      },
+      "lab": "lab/kod/index.html#loop"
+    },
+    {
+      "id": "Q2",
+      "topic": "geometry",
+      "title": {
+        "en": "Order is part of the design.",
+        "sr": "Redosled je deo projekta."
+      },
+      "prompt": {
+        "en": "Start at (1,0). Translate +4 along x, then rotate 90° counterclockwise around the origin. Where is the point?",
+        "sr": "Kreni iz (1,0). Pomeri +4 po x, pa rotiraj 90° suprotno kazaljci sata oko početka. Gde je tačka?"
+      },
+      "choices": [
+        {
+          "en": "(4,1)",
+          "sr": "(4,1)"
+        },
+        {
+          "en": "(0,5)",
+          "sr": "(0,5)"
+        },
+        {
+          "en": "(5,0)",
+          "sr": "(5,0)"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "(1,0) → (5,0) → (0,5). Reversing the operations gives (4,1). This uses mathematical x/y coordinates.",
+        "sr": "(1,0) → (5,0) → (0,5). Obrnut redosled daje (4,1). Koristimo matematičke x/y koordinate."
+      },
+      "transfer": {
+        "en": "Rotate about a different origin. Which assumption changed?",
+        "sr": "Rotiraj oko drugog početka. Koja pretpostavka se promenila?"
+      },
+      "lab": "lab/kod/index.html#transform"
+    },
+    {
+      "id": "Q3",
+      "topic": "civil",
+      "title": {
+        "en": "A billion makes the difference.",
+        "sr": "Milijarda pravi razliku."
+      },
+      "prompt": {
+        "en": "A solid wall is 4000 × 3000 × 200 mm. Its volume is…",
+        "sr": "Pun zid ima mere 4000 × 3000 × 200 mm. Njegova zapremina je…"
+      },
+      "choices": [
+        {
+          "en": "2.4 m³",
+          "sr": "2,4 m³"
+        },
+        {
+          "en": "2400 m³",
+          "sr": "2400 m³"
+        },
+        {
+          "en": "0.0024 m³",
+          "sr": "0,0024 m³"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Divide cubic millimetres by 1000³ = 1,000,000,000. Openings, layers and overlaps are not included in this rectangular model.",
+        "sr": "Kubne milimetre delimo sa 1000³ = 1.000.000.000. Otvori, slojevi i preklopi nisu deo ovog pravougaonog modela."
+      },
+      "transfer": {
+        "en": "Double only the thickness. Predict the volume, then check.",
+        "sr": "Udvostruči samo debljinu. Predvidi zapreminu pa proveri."
+      },
+      "lab": "lab/kod/index.html#walls"
+    },
+    {
+      "id": "Q4",
+      "topic": "process",
+      "title": {
+        "en": "One crane. Two ready jobs.",
+        "sr": "Jedna dizalica. Dva spremna posla."
+      },
+      "prompt": {
+        "en": "A takes 2 time units. Then B takes 3 and C takes 1. B and C require the same single crane. With no overlap, the earliest finish is…",
+        "sr": "A traje 2 jedinice vremena. Posle njega B traje 3, a C traje 1. B i C koriste istu jednu dizalicu. Bez preklapanja, najraniji kraj je…"
+      },
+      "choices": [
+        {
+          "en": "3",
+          "sr": "3"
+        },
+        {
+          "en": "5",
+          "sr": "5"
+        },
+        {
+          "en": "6",
+          "sr": "6"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A ends at 2. The crane then performs 3 + 1 units of work: finish 6. Ignoring crane capacity incorrectly allows both jobs to overlap and predicts 5.",
+        "sr": "A završava u 2. Dizalica zatim radi 3 + 1: kraj je 6. Zanemarivanje kapaciteta dozvoljava preklapanje i predviđa 5."
+      },
+      "transfer": {
+        "en": "Add a second crane. Is that the only possible bottleneck on a real site?",
+        "sr": "Dodaj drugu dizalicu. Da li je ona jedino moguće usko grlo na stvarnom gradilištu?"
+      },
+      "lab": "lab/kod/index.html#schedule"
+    },
+    {
+      "id": "Q5",
+      "topic": "history",
+      "title": {
+        "en": "Half the height is not half the work.",
+        "sr": "Pola visine nije pola posla."
+      },
+      "prompt": {
+        "en": "Our invented four-layer pyramid has 49, 25, 9 and 1 cells from bottom to top. After the bottom layer, what fraction of all cells is placed?",
+        "sr": "Naša izmišljena piramida sa četiri sloja ima 49, 25, 9 i 1 ćeliju odozdo naviše. Posle donjeg sloja, koliki deo svih ćelija je ugrađen?"
+      },
+      "choices": [
+        {
+          "en": "25%",
+          "sr": "25%"
+        },
+        {
+          "en": "About 58%",
+          "sr": "Oko 58%"
+        },
+        {
+          "en": "75%",
+          "sr": "75%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "There are 84 cells in total. 49/84 ≈ 58.33%, but only one of four layers is complete. Cell count is not labour time. This is a teaching model, not a reconstruction of Giza.",
+        "sr": "Ukupno ima 84 ćelije. 49/84 ≈ 58,33%, ali završen je tek jedan od četiri sloja. Broj ćelija nije vreme rada. Ovo je nastavni model, ne rekonstrukcija Gize."
+      },
+      "transfer": {
+        "en": "Would every cell cost the same effort to lift? What data would we need?",
+        "sr": "Da li svaka ćelija zahteva isti napor za podizanje? Koji podaci nam nedostaju?"
+      },
+      "lab": "lab/giza/index.html"
+    },
+    {
+      "id": "Q6",
+      "topic": "data",
+      "title": {
+        "en": "A picture is not a property.",
+        "sr": "Slika nije svojstvo."
+      },
+      "prompt": {
+        "en": "A rectangular BIM object looks like a wall. Can its picture alone prove its material, fire rating or verified as-built state?",
+        "sr": "Pravougaoni BIM objekat izgleda kao zid. Može li samo slika dokazati materijal, požarnu otpornost ili potvrđeno izvedeno stanje?"
+      },
+      "choices": [
+        {
+          "en": "Yes, if the render is detailed",
+          "sr": "Da, ako je render detaljan"
+        },
+        {
+          "en": "No; we need data and evidence",
+          "sr": "Ne; potrebni su podaci i dokazi"
+        },
+        {
+          "en": "Yes, if AI recognises it",
+          "sr": "Da, ako ga AI prepozna"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Geometry, semantic class, declared property and evidence are different layers. A convincing AI answer does not supply missing measurements or provenance.",
+        "sr": "Geometrija, semantički tip, deklarisano svojstvo i dokaz su različiti slojevi. Uverljiv AI odgovor ne daje nedostajuće merenje ili poreklo."
+      },
+      "transfer": {
+        "en": "Write the three missing questions you would ask before using the value.",
+        "sr": "Napiši tri nedostajuća pitanja koja bi postavio pre upotrebe vrednosti."
+      },
+      "lab": "ideje.html#bim-evidence"
+    }
+  ],
+  "foundations": [
+    {
+      "id": "01",
+      "tag": "code",
+      "title": {
+        "en": "Bits → meaning",
+        "sr": "Bitovi → značenje"
+      },
+      "description": {
+        "en": "Files are agreements about how to read a sequence.",
+        "sr": "Fajl je dogovor o čitanju niza."
+      }
+    },
+    {
+      "id": "02",
+      "tag": "code",
+      "title": {
+        "en": "Algorithm → trace",
+        "sr": "Algoritam → trag"
+      },
+      "description": {
+        "en": "Name inputs, steps, outputs and stopping conditions.",
+        "sr": "Imenuj ulaz, korake, izlaz i uslov zaustavljanja."
+      }
+    },
+    {
+      "id": "03",
+      "tag": "geometry",
+      "title": {
+        "en": "Rule → geometry",
+        "sr": "Pravilo → geometrija"
+      },
+      "description": {
+        "en": "Coordinates, repetition, transformation and resolution.",
+        "sr": "Koordinate, ponavljanje, transformacija i rezolucija."
+      }
+    },
+    {
+      "id": "04",
+      "tag": "data",
+      "title": {
+        "en": "Object → information",
+        "sr": "Objekat → informacija"
+      },
+      "description": {
+        "en": "Identity, units, relationships and BIM semantics.",
+        "sr": "Identitet, jedinice, veze i BIM značenje."
+      }
+    },
+    {
+      "id": "05",
+      "tag": "ai",
+      "title": {
+        "en": "Model → prediction",
+        "sr": "Model → predviđanje"
+      },
+      "description": {
+        "en": "Assumptions, simulation and checking an AI proposal.",
+        "sr": "Pretpostavke, simulacija i provera AI predloga."
+      }
+    },
+    {
+      "id": "06",
+      "tag": "process",
+      "title": {
+        "en": "Condition → state",
+        "sr": "Uslov → stanje"
+      },
+      "description": {
+        "en": "What is allowed now, and what changes next?",
+        "sr": "Šta je sada dozvoljeno i šta se sledeće menja?"
+      }
+    },
+    {
+      "id": "07",
+      "tag": "process",
+      "title": {
+        "en": "Graph → process",
+        "sr": "Graf → proces"
+      },
+      "description": {
+        "en": "Paths, dependencies, waiting and shared resources.",
+        "sr": "Putevi, zavisnosti, čekanje i zajednički resursi."
+      }
+    },
+    {
+      "id": "08",
+      "tag": "geometry",
+      "title": {
+        "en": "Shape → algorithm",
+        "sr": "Oblik → algoritam"
+      },
+      "description": {
+        "en": "A boundary, a subdivision, a packing problem.",
+        "sr": "Granica, podela i problem raspoređivanja."
+      }
+    },
+    {
+      "id": "09",
+      "tag": "civil",
+      "title": {
+        "en": "Equation → number",
+        "sr": "Jednačina → broj"
+      },
+      "description": {
+        "en": "Numerical precision and the limits of a structural model.",
+        "sr": "Numerička preciznost i granice modela konstrukcije."
+      }
+    },
+    {
+      "id": "10",
+      "tag": "data",
+      "title": {
+        "en": "Scale → cost",
+        "sr": "Obim → trošak"
+      },
+      "description": {
+        "en": "Data size, complexity, approximation and uncertainty.",
+        "sr": "Veličina podataka, složenost, aproksimacija i neizvesnost."
+      }
+    }
+  ]
+}

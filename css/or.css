@@ -1,0 +1,155 @@
+/* Osnove računarstva — hub. Bez zavisnosti, bez fontova sa mreže. */
+:root {
+  --bg: #0e1116;
+  --bg-2: #151a21;
+  --bg-3: #1c222b;
+  --line: #2a323d;
+  --ink: #e6e9ee;
+  --ink-2: #9aa5b4;
+  --ink-3: #929dab;
+  --acc: #5fb3f6;      /* računarstvo */
+  --acc-2: #f2b65a;    /* projektovanje */
+  --ok: #58c793;
+  --no: #e3685f;
+  --mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, monospace;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.6 var(--sans);
+  -webkit-text-size-adjust: 100%;
+}
+a { color: var(--acc); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* zaglavlje */
+header.top {
+  border-bottom: 1px solid var(--line); background: var(--bg-2);
+  position: sticky; top: 0; z-index: 10;
+}
+.top-in {
+  max-width: 1120px; margin: 0 auto; padding: .7rem 1.2rem;
+  display: flex; align-items: baseline; gap: 1.2rem; flex-wrap: wrap;
+}
+.brand { font-weight: 600; letter-spacing: .01em; color: var(--ink); }
+.brand small { display: block; font-weight: 400; font-size: .72rem; color: var(--ink-3); letter-spacing: .04em; text-transform: uppercase; }
+nav.top-nav { margin-left: auto; display: flex; gap: 1rem; font-size: .92rem; }
+nav.top-nav a { color: var(--ink-2); }
+nav.top-nav a.on { color: var(--ink); border-bottom: 2px solid var(--acc); }
+
+main { max-width: 1120px; margin: 0 auto; padding: 1.6rem 1.2rem 5rem; }
+h1 { font-size: 1.75rem; line-height: 1.25; margin: .4rem 0 .3rem; font-weight: 650; }
+h2 { font-size: 1.12rem; margin: 2.2rem 0 .7rem; font-weight: 600; letter-spacing: .01em; }
+h2::before { content: "— "; color: var(--ink-3); }
+h3 { font-size: .98rem; margin: 1.3rem 0 .4rem; font-weight: 600; }
+.lede { color: var(--ink-2); max-width: 62ch; }
+p { max-width: 74ch; }
+
+/* kartice */
+.grid { display: grid; gap: .9rem; grid-template-columns: repeat(auto-fill, minmax(255px, 1fr)); }
+.card {
+  background: var(--bg-2); border: 1px solid var(--line); border-radius: 9px;
+  padding: .95rem 1rem; display: flex; flex-direction: column; gap: .45rem;
+}
+.card h3 { margin: 0; font-size: 1rem; }
+.card p { margin: 0; font-size: .88rem; color: var(--ink-2); max-width: none; }
+.card .aha { font-size: .84rem; color: var(--ink); border-left: 2px solid var(--acc-2); padding-left: .6rem; }
+.card-link { border-color: #33405060; }
+.card-link:hover { border-color: var(--acc); background: var(--bg-3); }
+.card .foot { margin-top: auto; padding-top: .5rem; display: flex; align-items: center; gap: .5rem; font-size: .76rem; color: var(--ink-3); }
+
+.tag {
+  font: 600 .68rem/1 var(--mono); letter-spacing: .06em; text-transform: uppercase;
+  padding: .28rem .45rem; border-radius: 4px; background: var(--bg-3); color: var(--ink-2);
+  border: 1px solid var(--line);
+}
+.tag.live { color: var(--ok); border-color: #58c79340; }
+.tag.plan { color: var(--ink-3); }
+
+/* obaveštenja */
+.notice { border-left: 3px solid var(--acc); background: var(--bg-2); padding: .8rem 1rem; border-radius: 0 7px 7px 0; margin: .7rem 0; }
+.notice time { font: 600 .74rem/1 var(--mono); color: var(--ink-3); letter-spacing: .05em; }
+.notice p { margin: .3rem 0 0; }
+.notice.warn { border-left-color: var(--acc-2); }
+
+/* tabela */
+table { width: 100%; border-collapse: collapse; font-size: .88rem; margin: .6rem 0; }
+th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--ink-3); font: 600 .72rem/1.4 var(--mono); letter-spacing: .06em; text-transform: uppercase; }
+tbody tr:hover { background: var(--bg-2); }
+
+code, kbd { font-family: var(--mono); font-size: .88em; background: var(--bg-3); padding: .1rem .3rem; border-radius: 3px; }
+blockquote { margin: .6rem 0; padding: .1rem 0 .1rem 1rem; border-left: 2px solid var(--line); color: var(--ink-2); font-size: .92rem; }
+
+/* dokaz */
+.proof { background: var(--bg-2); border: 1px solid var(--line); border-radius: 9px; padding: 1rem; margin: 1.2rem 0; }
+.proof-head { display: flex; align-items: center; gap: .7rem; flex-wrap: wrap; }
+button.btn {
+  font: 600 .86rem var(--sans); color: #0e1116; background: var(--acc);
+  border: 0; border-radius: 6px; padding: .45rem .85rem; cursor: pointer;
+}
+button.btn:hover { filter: brightness(1.1); }
+button.btn.ghost { background: transparent; color: var(--ink-2); border: 1px solid var(--line); }
+button.btn.ghost:hover { color: var(--ink); border-color: var(--acc); filter: none; }
+.proof-out { font: .8rem/1.75 var(--mono); margin-top: .7rem; white-space: pre-wrap; }
+.proof-out .p { color: var(--ok); }
+.proof-out .f { color: var(--no); }
+.proof-out .n { color: var(--ink-3); }
+
+/* laboratorija: okvir aplikacije */
+.app { display: grid; grid-template-columns: 265px 1fr 265px; gap: 1rem; align-items: start; }
+@media (max-width: 940px) { .app { grid-template-columns: 1fr; } }
+.panel { background: var(--bg-2); border: 1px solid var(--line); border-radius: 9px; padding: .9rem 1rem; font-size: .88rem; }
+.panel h3 { margin-top: 0; }
+.panel p { max-width: none; color: var(--ink-2); font-size: .86rem; }
+.stage { background: var(--bg-2); border: 1px solid var(--line); border-radius: 9px; padding: .7rem; }
+.stage canvas { display: block; width: 100%; height: auto; border-radius: 5px; background: #0b0e12; touch-action: none; cursor: crosshair; }
+.readout { display: flex; gap: 1.1rem; flex-wrap: wrap; font: .82rem/1.5 var(--mono); color: var(--ink-2); padding: .6rem .2rem 0; }
+.readout b { display: block; color: var(--ink); font-size: 1.05rem; font-weight: 600; }
+.readout span { color: var(--ink-3); font-size: .7rem; letter-spacing: .05em; text-transform: uppercase; }
+
+label.ctl { display: block; margin: .8rem 0 0; font-size: .82rem; color: var(--ink-2); }
+label.ctl b { color: var(--ink); font-family: var(--mono); }
+input[type=range] { width: 100%; margin: .35rem 0 0; accent-color: var(--acc); }
+.ctl-row { display: flex; gap: .4rem; flex-wrap: wrap; margin-top: .7rem; }
+
+.thread { font: 600 .68rem/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.challenge { border-left: 2px solid var(--acc-2); padding-left: .7rem; margin: .5rem 0; }
+.challenge p { margin: .2rem 0; font-size: .86rem; color: var(--ink); }
+.challenge .b { color: var(--acc-2); font-weight: 600; font-size: .8rem; }
+
+footer.bot { border-top: 1px solid var(--line); color: var(--ink-3); font-size: .8rem; }
+footer.bot div { max-width: 1120px; margin: 0 auto; padding: 1.2rem; }
+.crumb { font-size: .82rem; color: var(--ink-3); margin-bottom: .2rem; }
+.crumb a { color: var(--ink-3); }
+
+/* listing G-koda (Rezač 3000) */
+.gkod {
+  font: .74rem/1.55 var(--mono); background: #0b0e12; border: 1px solid var(--line);
+  border-radius: 5px; padding: .5rem .6rem; max-height: 200px; overflow: auto;
+  margin: .7rem 0 0; white-space: pre; color: var(--ink-2);
+}
+.gkod .cm { color: var(--ink-3); }
+.gkod .cur { color: #0e1116; background: var(--acc-2); font-weight: 600; }
+.gkod .tr { color: var(--ink-3); font-style: italic; }
+
+/* heks prikaz bajtova (Haker za materijale) */
+.hex {
+  font: .76rem/1.7 var(--mono); background: #0b0e12; border: 1px solid var(--line);
+  border-radius: 5px; padding: .5rem .6rem; max-height: 220px; overflow: auto;
+  margin: .7rem 0 0; color: var(--ink-2);
+}
+.hex .off { color: var(--ink-3); user-select: none; }
+.hex .by { display: inline-block; width: 1.6em; text-align: center; border-radius: 3px; cursor: pointer; }
+.hex .by:hover { background: var(--bg-3); }
+.hex .z-head { color: var(--ink-3); }
+.hex .z-cnt { color: var(--acc-2); font-weight: 600; }
+.hex .z-nor { color: #7f8a99; }
+.hex .z-ver { color: var(--ok); }
+.hex .z-att { color: var(--no); }
+.hex .izm { text-decoration: underline wavy var(--no); }
+.hex .sel { background: var(--acc); color: #0e1116; font-weight: 700; }
+.hex .asc { color: var(--ink-3); padding-left: .4rem; }
+.zone-key { display: flex; gap: .8rem; flex-wrap: wrap; font: .72rem/1 var(--mono); color: var(--ink-3); margin-top: .5rem; }

@@ -1,0 +1,33 @@
+'use strict';
+const assert=require('node:assert/strict');
+const M=require('../lab/kod/model.js');
+let passed=0;
+function test(name,fn){fn();passed++;console.log('PASS '+name);}
+function near(a,b){assert.ok(Math.abs(a-b)<=1e-11*Math.max(Math.abs(b),1e-9),a+' != '+b);}
+const walls=[{id:'Z1',l_mm:4000,h_mm:3000,t_mm:200},{id:'Z2',l_mm:2500,h_mm:3000,t_mm:200}];
+const tasks=[{id:'A',duration:2,pre:[],crane:false},{id:'B',duration:3,pre:['A'],crane:true},{id:'C',duration:1,pre:['A'],crane:true}];
+const p={x:1,y:0,dx:4,dy:0,angle:90,order:'TR'};
+test('known prefix sums and cumulative conservation',()=>{const r=M.loopTrace([12,18,15]);assert.deepEqual(r.map(x=>x.after),[12,30,45]);for(const x of r)near(x.after-x.before,x.input);});
+test('intentional subtraction flips every prefix',()=>{const a=M.loopTrace([12,-2,0,7]),b=M.loopTrace([12,-2,0,7],'subtract');a.forEach((r,i)=>near(r.after,-b[i].after));});
+test('sum independent of permutation',()=>near(M.loopTrace([10,2,-5]).at(-1).after,M.loopTrace([-5,10,2]).at(-1).after));
+test('loop rejects missing, nonnumeric and unknown operators',()=>{for(const a of [[],[NaN],[Infinity],['12'],Array(13).fill(1)])assert.throws(()=>M.loopTrace(a),RangeError);assert.throws(()=>M.loopTrace([1],'multiply'),RangeError);});
+test('known noncommuting transform results',()=>{const a=M.transformTrace(p),b=M.transformTrace({...p,order:'RT'});assert.ok(Math.abs(a.end[0])<1e-10);near(a.end[1],5);near(b.end[0],4);near(b.end[1],1);});
+test('rotation preserves distance to origin',()=>{for(const angle of [-180,-45,0,30,90]){const r=M.transformTrace({...p,x:3,y:4,dx:0,dy:0,angle});near(Math.hypot(...r.start),Math.hypot(...r.end));}});
+test('rigid transforms preserve point separation',()=>{const a=M.transformTrace({...p,x:2,y:3,order:'RT'}),b=M.transformTrace({...p,x:-1,y:7,order:'RT'});near(Math.hypot(a.end[0]-b.end[0],a.end[1]-b.end[1]),5);});
+test('zero angle makes order commute',()=>assert.deepEqual(M.transformTrace({...p,angle:0}).end,M.transformTrace({...p,angle:0,order:'RT'}).end));
+test('transform rejects nonfinite and unsupported inputs',()=>{for(const key of ['x','y','dx','dy','angle'])assert.throws(()=>M.transformTrace({...p,[key]:NaN}),RangeError);assert.throws(()=>M.transformTrace({...p,order:'XX'}),RangeError);});
+test('wall SI values independently in metres',()=>{const r=M.wallQuantities(walls);near(r.walls[0].volume_m3,4*3*.2);near(r.walls[1].volume_m3,2.5*3*.2);near(r.volume_m3,3.9);near(r.area_m2,19.5);});
+test('one millimetre cube conversion',()=>{const r=M.wallQuantities([{id:'u',l_mm:1,h_mm:1,t_mm:1}]);near(r.volume_m3,1e-9);near(r.area_m2,1e-6);});
+test('double dimensions: area x4, volume x8',()=>{const a=M.wallQuantities(walls),b=M.wallQuantities(walls.map(w=>({...w,l_mm:2*w.l_mm,h_mm:2*w.h_mm,t_mm:2*w.t_mm})));near(b.volume_m3,8*a.volume_m3);near(b.area_m2,4*a.area_m2);});
+test('thickness changes volume only',()=>{const a=M.wallQuantities(walls),b=M.wallQuantities(walls.map(w=>({...w,t_mm:w.t_mm*3})));near(b.volume_m3,3*a.volume_m3);near(b.area_m2,a.area_m2);});
+test('wall invalid measures and duplicate IDs',()=>{for(const v of [0,-1,NaN,Infinity,undefined,'200'])assert.throws(()=>M.wallQuantities([{...walls[0],t_mm:v}]),RangeError);assert.throws(()=>M.wallQuantities([walls[0],walls[0]]),RangeError);});
+test('DAG five versus one crane six',()=>{const a=M.schedule(tasks),b=M.schedule(tasks,true);assert.deepEqual(a.rows.map(r=>r.end),[2,5,3]);near(a.finish,5);assert.deepEqual(b.rows.map(r=>r.end),[2,5,6]);near(b.finish,6);});
+test('every predecessor ends before successor starts',()=>{for(const shared of [false,true]){const r=M.schedule(tasks,shared);for(const t of tasks)for(const pre of t.pre)assert.ok(r.rows.find(x=>x.id===pre).end<=r.rows.find(x=>x.id===t.id).start);}});
+test('crane intervals cannot overlap',()=>{const r=M.schedule(tasks,true).rows.filter(r=>r.crane).sort((a,b)=>a.start-b.start);for(let i=1;i<r.length;i++)assert.ok(r[i-1].end<=r[i].start);});
+test('duration scaling doubles scheduled times',()=>{for(const shared of [false,true]){const a=M.schedule(tasks,shared),b=M.schedule(tasks.map(t=>({...t,duration:t.duration*2})),shared);a.rows.forEach((r,i)=>{near(b.rows[i].start,2*r.start);near(b.rows[i].end,2*r.end);});}});
+test('dependencies resolve unordered list',()=>{const r=M.schedule([tasks[2],tasks[1],tasks[0]]);near(r.finish,5);near(r.rows.find(r=>r.id==='B').start,2);});
+test('cycles, unknown references and duplicate IDs rejected',()=>{assert.throws(()=>M.schedule([{...tasks[0],pre:['C']},...tasks.slice(1)]),/cycle/);assert.throws(()=>M.schedule([{...tasks[0],pre:['X']}]),/unknown-task/);assert.throws(()=>M.schedule([tasks[0],tasks[0]]),RangeError);});
+test('invalid duration rejected',()=>{for(const duration of [0,-1,NaN,Infinity,'2'])assert.throws(()=>M.schedule([{...tasks[0],duration}]),RangeError);});
+test('inputs are not mutated',()=>{const copy=JSON.stringify({walls,tasks,p});M.wallQuantities(walls);M.schedule(tasks,true);M.transformTrace(p);assert.equal(JSON.stringify({walls,tasks,p}),copy);});
+test('specimens expose named calculation functions',()=>{for(const name of ['loop','transform','walls','schedule']){assert.match(M.codeSource(name),/^function \w+Core\(/);assert.ok(!M.codeSource(name).includes('eval('));}for(const invalid of ['other','constructor','toString','__proto__'])assert.throws(()=>M.codeSource(invalid),RangeError);});
+console.log(passed+' model checks passed.');

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-sr="Mrežar — OR laboratorija">Mesh explorer · Mrežar — OR laboratory</title>
+<link rel="stylesheet" href="../../css/or.css"></head><body>
+<header class="top"><div class="top-in"><div class="brand"><span data-sr="Mrežar">Mesh explorer · Mrežar</span><small data-sr="Geometrija kao pravila">Geometry as rules</small></div><nav class="top-nav"><a data-sr="Predmet" href="../../index.html">Course home</a><a data-sr="Biblioteka" href="../../biblioteka.html">Library</a><a data-sr="Laboratorija" href="../../lab.html">Laboratory</a><button type="button" class="btn ghost" id="legacy-language" aria-label="Prebaci na srpski">Srpski</button></nav></div></header>
+<main><div class="crumb"><span data-sr="Instrument za istraživanje · slobodni primeri">Exploration instrument · optional examples</span></div><h1 data-sr="Mrežar">Mesh explorer · Mrežar</h1>
+<p data-sr="Uporedi kružni luk i prave tetive. Menjaj broj segmenata i posmatraj grešku aproksimacije. CAD može da predstavlja i analitičke krive; ovde istražujemo poligonalnu aproksimaciju.">Compare a circular arc with straight chords. Change the number of segments and inspect the approximation error. CAD can also represent analytic curves; this instrument explores polygonal approximation.</p><div class="app"><aside class="panel"><h3 data-sr="Šta brojevi znače">What the numbers mean</h3><p data-sr="Poluprečnik je 5 m. Klizač broji segmente &lt;b&gt;punog kruga&lt;/b&gt;, a crtež prikazuje jedan kvadrant. Greška je R(1 − cos(π/n)): najveći razmak pune tetive od njenog luka.">The radius is 5 m. The slider counts segments around the <b>full circle</b>, while the drawing shows one quadrant. The error is R(1 − cos(π/n)): the maximum gap from one full chord to its arc.</p><p><span data-sr="Segmenata punog kruga">Full-circle segments</span>: <b id="pn">—</b>.</p><p data-sr="Kupola je šematski žičani prikaz, ograničen na 96 podela po obimu i 48 po visini. Broj trouglova i veličina STL-a su nominalni budžet 2n × round(n/2), uz najmanje dve visinske podele; nisu proverena izvezena mreža. Budžet obuhvata i degenerisane trouglove pri polu.">The dome is a schematic wireframe, capped at 96 divisions around and 48 vertically for drawing. The triangle and STL figures are a nominal budget, 2n × round(n/2), with at least two vertical divisions; they are not a validated exported mesh. Pole degeneracies are included in that budget.</p></aside>
+ <section class="stage"><canvas id="c" width="760" height="420" aria-label="Circular arc, chords and schematic dome" data-sr-label="Kružni luk, tetive i šematska kupola"></canvas><div class="readout"><div><span data-sr="segmenata punog kruga">full-circle segments</span><b id="rn">—</b></div><div><span data-sr="greška strelice">chord error</span><b id="rs">—</b></div><div><span data-sr="nominalno trouglova">nominal triangles</span><b id="rt">—</b></div><div><span data-sr="procena veličine STL-a">STL size estimate</span><b id="rb">—</b></div><div><span data-sr="iznad izabrane tolerancije">above chosen tolerance</span><b id="rg">—</b></div></div><label class="ctl"><span data-sr="Segmenata punog kruga">Full-circle segments</span>: <b id="rl">24</b> <input type="range" id="n" min="3" max="256" value="24"></label><label class="ctl"><span data-sr="Izabrana geometrijska tolerancija">Chosen geometric tolerance</span>: <b id="rtol">10</b> mm<input type="range" id="tol" min="1" max="50" value="10"></label><div class="ctl-row"><button data-sr="12" class="btn ghost" id="b12" type="button">12</button><button data-sr="24" class="btn ghost" id="b24" type="button">24</button><button data-sr="64" class="btn ghost" id="b64" type="button">64</button><button data-sr="256" class="btn ghost" id="b256" type="button">256</button><button class="btn ghost" id="brot" type="button">Pause rotation</button></div></section>
+ <aside class="panel"><h3 data-sr="Probaj izmenu">Try a change</h3><p data-sr="Nađi najmanji broj segmenata punog kruga za grešku manju od 10 mm, pa od 2 mm. Uporedi 24 i 48: za dovoljno veliko n, udvostručavanje približno smanjuje ovu geometrijsku grešku četiri puta. Greške izrade i merenja nisu uključene.">Find the smallest full-circle segment count below 10 mm, then below 2 mm. Compare 24 and 48 segments: for sufficiently large n, doubling n approximately quarters this geometric error. This does not include manufacturing or measurement error.</p><p data-sr="Klizači i dugmad rade tastaturom. Zaustavi rotaciju kad ometa poređenje.">The sliders and buttons work with a keyboard. Pause the rotation whenever it distracts from the comparison.</p></aside></div>
+<h2 data-sr="Pokreni postojeće provere">Run the legacy checks</h2>
+<p data-sr="Postojeće provere ispod proveravaju odabrane primere. Njihov prolaz ne potvrđuje ispravnost svakog modela koji izmeniš.">The optional checks below use Serbian: “Proveri sam” = run checks; “RADI” = pass; “PAD” = fail; “izracunato ovde” = calculated here; “ocekivano” = expected. They check selected examples, not the validity of every edited model.</p>
+<div class="proof" id="dokaz"></div><noscript><p>Interactive controls require JavaScript. Interaktivne kontrole zahtevaju JavaScript; tekst i ograničenja ostaju dostupni.</p></noscript></main>
+<footer class="bot"><div><span data-sr="Osnove računarstva">Fundamentals of Computing</span> · doc. dr Semir Poturak</div></footer>
+<script src="../../js/legacy-language.js"></script>
+<script src="../../js/dokaz.js"></script>
+<script>
+(function () {
+  'use strict';
+  // The numerical smoke harness does not load optional presentation scripts.
+  var T = window.LegacyLanguage ? window.LegacyLanguage.text : function (en, sr) { return sr; };
+
+  var c = document.getElementById('c'), g = c.getContext('2d');
+  var R = 5;                 // poluprecnik luka u metrima
+  var n = 24, tol = 10, rot = !(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches), faza = 0;
+
+  var el = {
+    n: document.getElementById('n'), tol: document.getElementById('tol'),
+    rn: document.getElementById('rn'), rl: document.getElementById('rl'),
+    rs: document.getElementById('rs'), rt: document.getElementById('rt'),
+    rb: document.getElementById('rb'), rg: document.getElementById('rg'),
+    rtol: document.getElementById('rtol'), pn: document.getElementById('pn')
+  };
+
+  /* --- geometrija: greska strelice poligona upisanog u krug --- */
+  function sagMM(stranica) {
+    /* pun krug podeljen na `stranica` delova; strelica = R(1 - cos(pi/stranica)) */
+    return R * (1 - Math.cos(Math.PI / stranica)) * 1000;
+  }
+  /* kupola iz iste mreze: stranica po paraleli, pola toga po meridijanu */
+  function trouglovaKupole(stranica) {
+    var u = stranica, v = Math.max(2, Math.round(stranica / 2));
+    return u * v * 2;
+  }
+
+  /* --- sopstvena 3D projekcija: bez biblioteke, samo rotacija i deljenje --- */
+  function proj(p, a, cx, cy, s) {
+    var x = p[0] * Math.cos(a) - p[2] * Math.sin(a);
+    var z = p[0] * Math.sin(a) + p[2] * Math.cos(a);
+    var y = p[1];
+    var d = 14, f = d / (d + z + 6);
+    return [cx + x * s * f, cy - y * s * f * 0.92, f];
+  }
+
+  function crtaj() {
+    var W = c.width, H = c.height;
+    g.clearRect(0, 0, W, H);
+
+    /* ============ levo: luk 90 stepeni ============ */
+    var ox = 60, oy = H - 60, s = 300 / R;   // 300 px na 5 m
+    g.strokeStyle = '#2a323d'; g.lineWidth = 1;
+    g.beginPath(); g.moveTo(ox, oy); g.lineTo(ox + 320, oy); g.moveTo(ox, oy); g.lineTo(ox, oy - 330); g.stroke();
+    g.fillStyle = '#68727f'; g.font = '11px ui-monospace, monospace';
+    g.fillText('R = 5 m', ox + 6, oy - 8);
+
+    /* pravi krug (tanko) */
+    g.strokeStyle = '#5fb3f6'; g.lineWidth = 1;
+    g.beginPath(); g.arc(ox, oy, R * s, -Math.PI / 2, 0); g.stroke();
+
+    /* poligon (debelo) — samo kvadrant */
+    var korak = 2 * Math.PI / n, i, a0, prvi = true;
+    g.strokeStyle = '#f2b65a'; g.lineWidth = 2.5;
+    g.beginPath();
+    for (i = 0; i <= n / 4 + 1; i++) {
+      a0 = -Math.PI / 2 + i * korak;
+      if (a0 > 0.0001) a0 = 0;
+      var px = ox + Math.cos(a0) * R * s, py = oy + Math.sin(a0) * R * s;
+      if (prvi) { g.moveTo(px, py); prvi = false; } else g.lineTo(px, py);
+      if (a0 === 0) break;
+    }
+    g.stroke();
+
+    /* jedna stranica, uvelicana: isti ugao, veci poluprecnik — geometrija netaknuta */
+    var zx = 390, zy = 112, zw = 150;
+    var pola = Math.PI / n;                       // polovina centralnog ugla stranice
+    var Rz = zw / (2 * Math.sin(pola));           // poluprecnik tako da tetiva stane u zw px
+    var cxz = zx, cyz = zy + Rz - (Rz * (1 - Math.cos(pola))) - 26;
+    g.save();
+    g.beginPath(); g.rect(zx - zw / 2 - 12, zy - 48, zw + 24, 104); g.clip();
+    g.fillStyle = '#0b0e12'; g.fillRect(zx - zw / 2 - 12, zy - 48, zw + 24, 104);
+    g.strokeStyle = '#5fb3f6'; g.lineWidth = 1.6;
+    g.beginPath(); g.arc(cxz, cyz, Rz, -Math.PI / 2 - pola, -Math.PI / 2 + pola); g.stroke();
+    var axz = cxz + Math.cos(-Math.PI / 2 - pola) * Rz, ayz = cyz + Math.sin(-Math.PI / 2 - pola) * Rz;
+    var bxz = cxz + Math.cos(-Math.PI / 2 + pola) * Rz, byz = cyz + Math.sin(-Math.PI / 2 + pola) * Rz;
+    g.strokeStyle = '#f2b65a'; g.lineWidth = 2;
+    g.beginPath(); g.moveTo(axz, ayz); g.lineTo(bxz, byz); g.stroke();
+    /* strelica: od tetive do kruga, u sredini */
+    var topY = cyz - Rz, midY = (ayz + byz) / 2;
+    g.strokeStyle = '#e6e9ee'; g.lineWidth = 1;
+    g.beginPath(); g.moveTo(cxz, topY); g.lineTo(cxz, midY); g.stroke();
+    g.beginPath(); g.moveTo(cxz - 4, topY + 1); g.lineTo(cxz + 4, topY + 1);
+    g.moveTo(cxz - 4, midY - 1); g.lineTo(cxz + 4, midY - 1); g.stroke();
+    g.restore();
+    g.strokeStyle = '#2a323d'; g.lineWidth = 1;
+    g.strokeRect(zx - zw / 2 - 12, zy - 48, zw + 24, 104);
+    g.fillStyle = '#9aa5b4';
+    g.fillText(T('one chord, same angle, larger R', 'jedna tetiva, isti ugao, uvećan R'), zx - zw / 2 - 10, zy + 72);
+    g.fillStyle = '#e6e9ee';
+    g.fillText(T('chord error = ', 'strelica = ') + sagMM(n).toFixed(sagMM(n) < 1 ? 3 : 2) + ' mm', zx - zw / 2 - 10, zy + 86);
+
+    /* ============ desno: kupola, sopstvena projekcija ============ */
+    var cx = 585, cy = 290, sc = 108;
+    var u = Math.min(n, 96), v = Math.max(2, Math.min(Math.round(n / 2), 48));
+    g.lineWidth = 1;
+    var sag = sagMM(n), prelazi = sag > tol;
+    g.strokeStyle = prelazi ? '#e3685f66' : '#58c79366';
+    for (var j = 0; j <= v; j++) {
+      var fi = (j / v) * Math.PI / 2;
+      g.beginPath();
+      for (i = 0; i <= u; i++) {
+        var th = (i / u) * 2 * Math.PI;
+        var p = proj([Math.cos(fi) * Math.cos(th), Math.sin(fi), Math.cos(fi) * Math.sin(th)], faza, cx, cy, sc);
+        if (i === 0) g.moveTo(p[0], p[1]); else g.lineTo(p[0], p[1]);
+      }
+      g.stroke();
+    }
+    for (i = 0; i < u; i += Math.max(1, Math.round(u / 24))) {
+      var th2 = (i / u) * 2 * Math.PI;
+      g.beginPath();
+      for (j = 0; j <= v; j++) {
+        var fi2 = (j / v) * Math.PI / 2;
+        var p2 = proj([Math.cos(fi2) * Math.cos(th2), Math.sin(fi2), Math.cos(fi2) * Math.sin(th2)], faza, cx, cy, sc);
+        if (j === 0) g.moveTo(p2[0], p2[1]); else g.lineTo(p2[0], p2[1]);
+      }
+      g.stroke();
+    }
+    g.fillStyle = '#68727f'; g.fillText(T('schematic dome', 'šematska kupola'), cx - 62, cy + 128);
+  }
+
+  function osvezi() {
+    var sag = sagMM(n), tri = trouglovaKupole(n), bajt = 84 + tri * 50;
+    el.rn.textContent = n; el.rl.textContent = n; el.pn.textContent = n;
+    el.rs.textContent = sag.toFixed(sag < 1 ? 3 : 2) + ' mm';
+    el.rt.textContent = tri.toLocaleString(T('en-GB', 'sr-RS'));
+    el.rb.textContent = bajt > 1048576 ? (bajt / 1048576).toFixed(1) + ' MiB'
+                      : bajt > 1024 ? (bajt / 1024).toFixed(1) + ' KiB' : bajt + ' B';
+    el.rtol.textContent = tol;
+    var prelazi = sag > tol;
+    el.rg.textContent = prelazi ? T('YES', 'DA') : T('no', 'ne');
+    el.rg.style.color = prelazi ? '#e3685f' : '#58c793';
+    if (brot) brot.textContent = rot ? T('Pause rotation', 'Zaustavi okretanje') : T('Resume rotation', 'Pokreni okretanje');
+    crtaj();
+  }
+
+  el.n.addEventListener('input', function () { n = +el.n.value; osvezi(); });
+  el.tol.addEventListener('input', function () { tol = +el.tol.value; osvezi(); });
+  [['b12', 12], ['b24', 24], ['b64', 64], ['b256', 256]].forEach(function (p) {
+    document.getElementById(p[0]).addEventListener('click', function () {
+      n = p[1]; el.n.value = n; osvezi();
+    });
+  });
+  var brot = document.getElementById('brot');
+  brot.addEventListener('click', function () {
+    rot = !rot; osvezi();
+  });
+
+  function tik() { if (rot) { faza += 0.006; crtaj(); } requestAnimationFrame(tik); }
+  osvezi(); tik();
+  window.addEventListener('legacy-language-change', function () {
+    ['edit-status', 'cell-status'].forEach(function (id) { var status = document.getElementById(id); if (status) status.textContent = ''; });
+    osvezi();
+  });
+  Dokaz.montiraj('#dokaz', 3);
+})();
+</script>
+</body>
+</html>

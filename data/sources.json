@@ -1,0 +1,1005 @@
+{
+  "schema": 1,
+  "updated": "2026-10-04",
+  "sources": [
+    {
+      "id": "OR7-R01",
+      "title": "Structure and Interpretation of Computer Programs",
+      "url": "https://web.mit.edu/6.001/6.037/sicp.pdf",
+      "date": "Second edition 1996; unofficial Texinfo 2.andresraba5.6 conversion dated 2016-02-02",
+      "tag": "code",
+      "summary": {
+        "en": "Separate a program, its data and the process it starts.",
+        "sr": "Razlikuj program, podatke i proces koji pokreće."
+      },
+      "scope": "Title/copyright/conversion pages and chapter 1 opening, printed pp.1–2 (PDF page indices 28–29).",
+      "limit": "Not the complete book; conversion pagination differs from publisher layout.",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-R02",
+      "title": "SVG 2 — Coordinate Systems, Transformations and Units",
+      "url": "https://www.w3.org/TR/SVG2/coords.html",
+      "date": "Checked 2026-10-04",
+      "tag": "code",
+      "summary": {
+        "en": "Coordinates, viewports and transformations explain how a drawing is mapped to a screen.",
+        "sr": "Koordinate, prozori prikaza i transformacije objašnjavaju preslikavanje crteža na ekran."
+      },
+      "scope": "§8.1 introduction; §8.2 equivalent transform; §8.6 viewBox and mapping examples.",
+      "limit": "No browser execution; specification publication status/release date not asserted.",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-R03",
+      "title": "D3 — Joining data",
+      "url": "https://d3js.org/d3-selection/joining",
+      "date": "Checked 2026-10-04",
+      "tag": "code",
+      "summary": {
+        "en": "Stable keys connect changing data to the correct visual element.",
+        "sr": "Stabilni ključevi povezuju promenljive podatke sa odgovarajućim elementom prikaza."
+      },
+      "scope": "selection.data(data,key), key matching and selection.join(enter,update,exit).",
+      "limit": "Living documentation; exact package version not verified; no installation/execution.",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-W7-V01",
+      "title": "Online Python Tutor: Embeddable Web-Based Program Visualization for CS Education",
+      "url": "https://pg.ucsd.edu/publications/Online-Python-Tutor-web-based-program-visualization_SIGCSE-2013.pdf",
+      "date": {
+        "en": "2013; SIGCSE conference 2013-03-06 to 2013-03-09",
+        "sr": "2013; konferencija SIGCSE od 2013-03-06 do 2013-03-09"
+      },
+      "tag": "code",
+      "summary": {
+        "en": "Read execution as a sequence of states and function calls.",
+        "sr": "Čitaj izvršavanje kao niz stanja i poziva funkcija."
+      },
+      "scope": {
+        "en": "Six-page author-hosted paper: abstract, overview, implementation, use cases, limitations. Current public homepage also read. DOI identity corroborated in the Seymour paper bibliography; DOI resolver did not open in this reader. No contemporary backend audit or interactive execution.",
+        "sr": "Autorski primerak rada od šest strana: sažetak, pregled, implementacija, primeri upotrebe i ograničenja. Pročitana je i sadašnja javna početna stranica. DOI identitet potvrđen je u bibliografiji rada Seymour; DOI resolver se nije otvorio u korišćenom čitaču. Nisu izvršeni revizija sadašnjeg serverskog dela ni interaktivni primeri."
+      },
+      "limit": {
+        "en": "The 2013 paper explicitly offers no rigorous evaluation of learning effects; visualization proceeds by line, not every subexpression evaluation. Historical limits are not current specifications. Stepping through a trace does not undo effects in the external world.",
+        "sr": "Rad iz 2013. izričito ne nudi rigoroznu evaluaciju učinka; prikaz je po redovima, ne svakoj podevaluaciji izraza. Istorijski limiti nisu današnja specifikacija. Kretanje kroz trag nije poništavanje spoljnog sveta."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-W7-V02",
+      "title": "Learnable Programming: Designing a programming system for understanding programs",
+      "url": "https://worrydream.com/LearnableProgramming/",
+      "date": {
+        "en": "2012-09",
+        "sr": "2012-09"
+      },
+      "tag": "code",
+      "summary": {
+        "en": "A design argument for seeing the process, not only the final output.",
+        "sr": "Dizajnerski argument za vidljiv proces, uz završni izlaz."
+      },
+      "scope": {
+        "en": "Introduction and design goals; Follow the flow and See the state sections, including loop timeline, frame timeline and scaleFactor descriptions. Not the entire essay or all embedded media.",
+        "sr": "Uvod i ciljevi dizajna; odeljci Follow the flow i See the state, uključujući opise vremenskog toka petlje, kadrova i parametra scaleFactor. Nisu pregledani ceo esej ni svi ugrađeni mediji."
+      },
+      "limit": {
+        "en": "The vision and examples are not controlled evidence that this interface improves learning. A demonstration video or image does not verify that the interactive prototype works today.",
+        "sr": "Vizija i primeri nisu kontrolisani dokaz da baš takav interfejs poboljšava učenje. Video ili slika demonstracije ne potvrđuju današnji rad interaktivnog prototipa."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-W7-V03",
+      "title": "ValueTracker — Manim Community documentation",
+      "url": "https://docs.manim.community/en/stable/reference/manim.mobject.value_tracker.ValueTracker.html",
+      "date": {
+        "en": "Page identifies Manim Community v0.21.0; stable alias can change",
+        "sr": "Stranica navodi Manim Community v0.21.0; oznaka stable može se promeniti"
+      },
+      "tag": "code",
+      "summary": {
+        "en": "One parameter can drive a coherent animated scene.",
+        "sr": "Jedan parametar može voditi usklađenu animiranu scenu."
+      },
+      "scope": {
+        "en": "Class explanation; both ValueTrackerExample blocks; updater note; method descriptions. Example bodies inspected as text, no rendering.",
+        "sr": "Objašnjenje klase; oba bloka ValueTrackerExample; napomena o updater-u; opisi metoda. Kod primera pročitan je kao tekst, bez renderovanja."
+      },
+      "limit": {
+        "en": "This is animation authoring, not automatic reconstruction of the displayed program's execution. An updater on the tracker requires adding the tracker to the scene. The documentation is not a study of learning effects.",
+        "sr": "To je režija animacije, ne automatska rekonstrukcija izvršavanja prikazanog programa. Updater na trackeru zahteva njegovo dodavanje sceni. Dokumentacija nije studija nastavnog učinka."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-W7-V04",
+      "title": "Code; Animation flow — Motion Canvas documentation",
+      "url": "https://motioncanvas.io/docs/code/",
+      "date": {
+        "en": "Code documentation; exact package release not recorded",
+        "sr": "Dokumentacija Code; tačno izdanje paketa nije zabeleženo"
+      },
+      "tag": "code",
+      "summary": {
+        "en": "Code highlighting and animation can make an explanation legible.",
+        "sr": "Isticanje koda i animacija mogu učiniti objašnjenje čitljivim."
+      },
+      "scope": {
+        "en": "Code introduction and opening example, Parsing and Highlighting, Code Selection, Querying Positions and Sizes; Animation flow generator/tween explanation and all() description. Did not inspect every method or repository implementation.",
+        "sr": "Uvod u Code i početni primer, Parsing and Highlighting, Code Selection, Querying Positions and Sizes; objašnjenje generatora/tween-a i opis all() u Animation flow. Nisu pregledani svaka metoda ni implementacija u repozitorijumu."
+      },
+      "limit": {
+        "en": "A highlighted line is not evidence that the displayed code ran. The grammar required for syntax highlighting is not an execution engine. The old CodeBlock is marked deprecated; its examples should not be mixed with the current Code API.",
+        "sr": "Istaknuta linija nije dokaz da se prikazani kod izvršio. Potrebna gramatika za bojenje nije izvršni mehanizam. Stari CodeBlock je označen deprecated; ne mešati njegove primere sa aktuelnim Code API-jem."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-W7-V05",
+      "title": "Seymour: Live Programming for the Classroom",
+      "url": "https://harc.github.io/seymour-live2017/",
+      "date": {
+        "en": "2017; LIVE workshop attribution confirmed on coauthor bibliography; exact day not verified",
+        "sr": "2017; pripadnost radionici LIVE potvrđena u bibliografiji koautora; tačan dan nije proveren"
+      },
+      "tag": "code",
+      "summary": {
+        "en": "A prototype connects small steps with the larger flow of a program.",
+        "sr": "Prototip povezuje male korake sa širim tokom programa."
+      },
+      "scope": {
+        "en": "Public essay: introduction, micro/macro visualization, function-side-effect and Array.toString examples, future work and conclusion; coauthor publication entry. Embedded videos and interactive editor not run. Conference program direct opening failed; author bibliography independently confirms year.",
+        "sr": "Javni esej: uvod, mikro/makro vizualizacija, primeri sporednih efekata funkcija i Array.toString, budući rad i zaključak; bibliografski zapis koautora. Ugrađeni video-snimci i interaktivni editor nisu pokrenuti. Direktno otvaranje programa konferencije nije uspelo; bibliografija autora nezavisno potvrđuje godinu."
+      },
+      "limit": {
+        "en": "The paper states that the prototype had not been user-tested; a Python adaptation was future work. Call width is not measured duration. The authors note increasing clutter for larger programs and an unoptimized mobile view.",
+        "sr": "Rad kaže da prototip tada nije korisnički testiran; Python adaptacija je budući rad. Širina poziva nije izmereno trajanje. Autori navode rast zagušenja kod većih programa i neoptimizovan mobilni prikaz."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-W7-V06",
+      "title": "Teaching computer programming with PRIMM: a sociocultural perspective",
+      "url": "https://primmportal.com/wp-content/uploads/2020/10/teaching-computer-programming-with-primm-a-sociocultural-perspective.pdf",
+      "date": {
+        "en": "2019-04-26 (first online)",
+        "sr": "2019-04-26 (prvo onlajn izdanje)"
+      },
+      "tag": "code",
+      "summary": {
+        "en": "Predict, run, investigate, modify and make: a social approach to reading and changing code.",
+        "sr": "Predvidi, pokreni, istraži, izmeni i napravi: društveni pristup čitanju i menjanju koda."
+      },
+      "scope": {
+        "en": "Author project-hosted published PDF: abstract, selected passages in sections4–5, selected quantitative methods/results6.1/7.1, Table3, limitations8.3. Public university bibliographic record also read. Not all interviews, references or classroom materials audited.",
+        "sr": "Objavljeni PDF na autorskom projektu: sažetak, odabrani delovi odeljaka 4–5, odabrane kvantitativne metode/rezultati 6.1/7.1, tabela 3, ograničenja 8.3. Pročitan je i javni univerzitetski bibliografski zapis. Nisu provereni svi intervjui, reference ni nastavni materijali."
+      },
+      "limit": {
+        "en": "No randomization, volunteer teachers, unvalidated instruments and differing control instruction. School-age results do not establish transfer to first-year architecture students. We do not repeat the paper's claim that r=.13 means 13% explained variance.",
+        "sr": "Bez randomizacije, dobrovoljno prijavljeni nastavnici, nevalidirani instrumenti i različita kontrolna nastava. Školski uzrast ne dokazuje transfer na brucoše arhitekture. Ne prenosimo tvrdnju teksta da r=.13 znači 13% objašnjene varijanse."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-C-01",
+      "title": "The OpenSCAD Language — Transform",
+      "url": "https://files.openscad.org/documentation/manual/The_OpenSCAD_Language.html#combining-transformations",
+      "date": {
+        "en": "HTML snapshot without a version label; CheatSheet v2021.01",
+        "sr": "HTML snapshot bez oznake verzije; CheatSheet v2021.01"
+      },
+      "tag": "data",
+      "summary": {
+        "en": "The innermost transformation acts first. Order changes the result.",
+        "sr": "Najunutrašnjija transformacija deluje prva. Redosled menja rezultat."
+      },
+      "scope": {
+        "en": "Introduction, compile-time variables, Transform and Combining transformations; syntax checked in the cheatsheet.",
+        "sr": "Introduction, compile-time variables, Transform i Combining transformations; proverena sintaksa u cheatsheetu."
+      },
+      "limit": {
+        "en": "The local renderer, export and fabricated object were not checked.",
+        "sr": "Nisu provereni lokalni renderer, izvoz ili izvedeni predmet."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-C-02",
+      "title": "Essential Algorithms and Data Structures for Grasshopper — Chapter 3",
+      "url": "https://developer.rhino3d.com/guides/grasshopper/gh-algorithms-and-data-structures/advanced-data-structures/",
+      "date": {
+        "en": "Last updated 2024-07-15; the page does not specify a Rhino edition",
+        "sr": "Last updated 2024-07-15; izdanje Rhino-a nije navedeno na stranici"
+      },
+      "tag": "data",
+      "summary": {
+        "en": "Branches, grouping and matching remain important in visual programming.",
+        "sr": "Grane, grupisanje i uparivanje važni su i u vizuelnom programiranju."
+      },
+      "scope": {
+        "en": "Sections 3.1–3.3 and 3.5.1; DivideCrv, branches, matching and structure inspection.",
+        "sr": "§3.1–3.3, §3.5.1; DivideCrv, grane, uparivanje i pregled strukture."
+      },
+      "limit": {
+        "en": "The GH file was not opened, and ease of learning was not assessed.",
+        "sr": "Nije otvoren GH fajl niti procenjena lakoća učenja."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-C-03",
+      "title": "IfcOpenShell — Code examples / Create a simple model from scratch",
+      "url": "https://docs.ifcopenshell.org/ifcopenshell-python/code_examples.html#create-a-simple-model-from-scratch",
+      "date": {
+        "en": "0.9.0 documentation",
+        "sr": "Dokumentacija 0.9.0"
+      },
+      "tag": "data",
+      "summary": {
+        "en": "An IFC element has geometry, placement, units and semantic relationships.",
+        "sr": "IFC element ima geometriju, položaj, jedinice i semantičke veze."
+      },
+      "scope": {
+        "en": "The complete simple-model example; General concepts, Object placement, Wall representations, Material layer sets; the assign_unit example.",
+        "sr": "Kompletan simple-model primer; General concepts, Object placement, Wall representations, Material layer sets; assign_unit primer."
+      },
+      "limit": {
+        "en": "No IFC generation, validation or interoperability check was performed.",
+        "sr": "Bez generisanja, validacije ili provere interoperabilnosti IFC-a."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-C-04",
+      "title": "Information Delivery Specification — Introduction and Property facet",
+      "url": "https://github.com/buildingSMART/IDS/tree/v1.0.0/Documentation",
+      "date": {
+        "en": "IDS v1.0.0 tag",
+        "sr": "Oznaka IDS v1.0.0"
+      },
+      "tag": "data",
+      "summary": {
+        "en": "A machine-readable requirement can check whether model data is supplied.",
+        "sr": "Mašinski čitljiv zahtev može proveriti da li je podatak u modelu unet."
+      },
+      "scope": {
+        "en": "Introduction, Beginners tutorial and the Property facet description, parameters and examples.",
+        "sr": "Introduction, Beginners tutorial, Property facet opis/parametri/primeri."
+      },
+      "limit": {
+        "en": "The sample IDS link returned 404; the XML was neither inspected nor validated; there are no model-check results.",
+        "sr": "Sample IDS link vraća 404; XML nije pregledan ili validiran; nema model-check rezultata."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-C-05",
+      "title": "BIM Collaboration Format v3.0 Technical Documentation",
+      "url": "https://github.com/buildingSMART/BCF-XML/tree/release_3_0/Documentation",
+      "date": {
+        "en": "BCF-XML 3.0; branch release_3_0",
+        "sr": "BCF-XML 3.0; grana release_3_0"
+      },
+      "tag": "data",
+      "summary": {
+        "en": "Connect an issue with a viewpoint and element identifiers.",
+        "sr": "Poveži primedbu sa pogledom i identifikatorima elemenata."
+      },
+      "scope": {
+        "en": "File structure, Markup, Viewpoints, Components, Applying Visibility XML, units and documents/BimSnippet.",
+        "sr": "File structure, Markup, Viewpoints, Components, Applying Visibility XML, units, dokumenti/BimSnippet."
+      },
+      "limit": {
+        "en": "A viewpoint and references are not an executed model correction; transfer between tools was not checked.",
+        "sr": "Pogled i reference nisu izvršena korekcija modela; prenos između alata nije proveren."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-DP-01",
+      "title": "Reading and Writing Parquet Files",
+      "url": "https://duckdb.org/docs/current/data/parquet/overview",
+      "date": {
+        "en": "Current 1.5, read 2026-10-04; the page can change.",
+        "sr": "Current 1.5, pročitano 2026-10-04; promenljiva stranica."
+      },
+      "tag": "process",
+      "summary": {
+        "en": "Read the columns and records needed by a question; measure performance separately.",
+        "sr": "Čitaj kolone i zapise potrebne za pitanje; performanse meri zasebno."
+      },
+      "scope": {
+        "en": "Examples, Parquet Files, read_parquet parameters, Partial Reading, Inserts and Views.",
+        "sr": "Examples, Parquet Files, parametri read_parquet, Partial Reading, Inserts and Views."
+      },
+      "limit": {
+        "en": "No benchmark or installation was performed; local speed and memory use were not measured.",
+        "sr": "Nisu izvršeni benchmark ni instalacija; lokalna brzina i upotreba memorije nisu izmerene."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-DP-02",
+      "title": "Shared Resources",
+      "url": "https://simpy.readthedocs.io/en/stable/topical_guides/resources.html",
+      "date": {
+        "en": "Stable 4.1.2, read 2026-10-04.",
+        "sr": "Stable 4.1.2, pročitano 2026-10-04."
+      },
+      "tag": "process",
+      "summary": {
+        "en": "A task can wait because its required resource is occupied.",
+        "sr": "Posao može čekati zato što je potreban resurs zauzet."
+      },
+      "scope": {
+        "en": "Resource categories; request/release, capacity and queues; Resource and PriorityResource examples.",
+        "sr": "Kategorije resursa; request/release, kapacitet i red; Resource i PriorityResource primeri."
+      },
+      "limit": {
+        "en": "Python was not executed, and no construction-site process was calibrated.",
+        "sr": "Nije izvršavan Python niti kalibriran proces gradilišta."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-DP-03",
+      "title": "PROV-DM: The PROV Data Model",
+      "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+      "date": {
+        "en": "2013-04-30",
+        "sr": "2013-04-30"
+      },
+      "tag": "process",
+      "summary": {
+        "en": "Link information with entities, activities and responsible agents.",
+        "sr": "Poveži informacije sa entitetima, aktivnostima i odgovornim akterima."
+      },
+      "scope": {
+        "en": "The overview in section 2.1, organization in section 5 and tables of basic types and relations.",
+        "sr": "Pregled §2.1, organizacija §5 i tabele osnovnih tipova/odnosa."
+      },
+      "limit": {
+        "en": "Not all PROV-CONSTRAINTS rules were checked, and our schema's conformance was not verified.",
+        "sr": "Nisu proverena sva pravila PROV-CONSTRAINTS niti usklađenost naše šeme."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-DP-04",
+      "title": "Regulation (EU) 2024/1781 — ESPR",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1781-20240628",
+      "date": {
+        "en": "2024-06-28",
+        "sr": "2024-06-28"
+      },
+      "tag": "process",
+      "summary": {
+        "en": "A passport framework depends on product-specific acts and requirements.",
+        "sr": "Okvir pasoša zavisi od akata i zahteva za određene proizvode."
+      },
+      "scope": {
+        "en": "Selected parts of Articles 4, 9–11, 13 and 79–80, correction markers and bibliographic information.",
+        "sr": "Odabrani delovi čl.4,9–11,13,79–80, oznake ispravki i bibliografski podaci."
+      },
+      "limit": {
+        "en": "Not all subsequent delegated acts were reviewed; applicability to a specific product was not assessed.",
+        "sr": "Nisu pregledani svi naknadni delegirani akti; primena na konkretan proizvod nije procenjena."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-DP-05",
+      "title": "Regulation (EU) 2024/3110 — Construction Products Regulation",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3110",
+      "date": {
+        "en": "2024-12-18",
+        "sr": "2024-12-18"
+      },
+      "tag": "process",
+      "summary": {
+        "en": "Construction products have a phased passport framework with distinct rules.",
+        "sr": "Građevinski proizvodi imaju fazni okvir pasoša sa posebnim pravilima."
+      },
+      "scope": {
+        "en": "Selected parts of Articles 75–80, 91 and 96 and bibliographic information.",
+        "sr": "Odabrani delovi čl.75–80,91,96 i bibliografski podaci."
+      },
+      "limit": {
+        "en": "The consolidated text was unavailable in the reader; not all subsequent acts were reviewed.",
+        "sr": "Konsolidovani tekst nedostupan čitaču; svi naknadni akti nisu pregledani."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR7-DP-06",
+      "title": "Commission Implementing Regulation (EU) 2026/1778 — digital product passport registry",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1778",
+      "date": {
+        "en": "2026-07-17",
+        "sr": "2026-07-17"
+      },
+      "tag": "process",
+      "summary": {
+        "en": "Registration, versions and provenance are distinct from proof of material properties.",
+        "sr": "Registracija, verzije i poreklo razlikuju se od dokaza svojstava materijala."
+      },
+      "scope": {
+        "en": "Selected parts of Articles 1, 8–12, 14 and 19 and the final provision; the legal basis in ESPR Article 13.",
+        "sr": "Odabrani delovi čl.1,8–12,14,19 i završna odredba; pravni osnov ESPR13."
+      },
+      "limit": {
+        "en": "The operational registry, API and authentic PDF were not verified.",
+        "sr": "Operativni registar, API i autentični PDF nisu testirani."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-SCALE-01",
+      "title": "Why Peer Discussion Improves Student Performance on In-Class Concept Questions",
+      "url": "https://c2ip.insa-toulouse.fr/_attachment/des-pedagogies-actives-article/Smith_2009.pdf?download=true",
+      "date": "2009-01-02",
+      "tag": "learning",
+      "summary": {
+        "en": "In introductory genetics, 350 participants answered paired concept questions. Performance improved on a new individual question after peer discussion; answers and class histograms remained hidden until afterward.",
+        "sr": "Slično novo pitanje pomaže da razlikujemo razumevanje od preuzimanja tuđeg odgovora."
+      },
+      "scope": "Primary paper: abstract, question-pair procedure, results and discussion, pp. 122–124. Supplement not read.",
+      "limit": {
+        "en": "One course and immediate outcomes; not a smartphone comparison or proof of semester-long transfer. No direct comparison against instructor explanation.",
+        "sr": "Kratkoročni nalaz iz genetike nije garancija uspeha OR."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-SCALE-02",
+      "title": "Improved Learning in a Large-Enrollment Physics Class",
+      "url": "https://wet.kuleuven.be/oase/materiaal/deslaurierswieman/@@download/file/Deslauriers%20et%20al_2011_artikel%20uit%20Science%5B1%5D%5B1%5D.pdf",
+      "date": "2011-05-13",
+      "tag": "learning",
+      "summary": {
+        "en": "Two physics sections enrolled 267 and 271 students. A three-hour, one-week intervention combining reasoning, discussion and feedback produced higher immediate test scores than the comparison lectures.",
+        "sr": "Velika grupa može da radi sa povezanim pitanjima i obrazloženjima."
+      },
+      "scope": "Primary paper: abstract, intervention design, Table 1, instructional procedure and immediate-test results, pp. 862–864. Supplement not read.",
+      "limit": {
+        "en": "Different instructors and multiple simultaneous changes; the hardware's effect is not isolated. This is not a long-term, 400-student website evaluation.",
+        "sr": "Ne obećavati udvostručeno učenje niti pripisivati rezultat telefonu."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-SCALE-03",
+      "title": "Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping",
+      "url": "https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Blunt_Science.pdf",
+      "date": "2011-01-20",
+      "tag": "learning",
+      "summary": {
+        "en": "Two experiments with 80 and 120 undergraduates compared learning science texts. Retrieval practice outperformed studying with concept maps on tests one week later, including inference and concept-mapping outcomes.",
+        "sr": "Prisećanje ranije učenog nije isto što i ponovno gledanje."
+      },
+      "scope": "Primary paper: abstract, experimental comparisons, results and discussion, pp. 772–774. Supplement: participant/design/procedure sections for experiments 1 and 2, printed pp. 1–3 and 5–8; selected results. Not every supplement table read.",
+      "limit": {
+        "en": "Short texts in laboratory settings; not direct evidence for a quick classroom prediction or architectural software competence. Concept mapping from memory can itself involve retrieval.",
+        "sr": "Pogađanje potpuno novog ishoda nije automatski retrieval practice."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-SCALE-04",
+      "title": "Requiring Mobile Devices in the Classroom: the Use of Web-Based Polling Does Not Lead to Increased Levels of Distraction",
+      "url": "https://link.springer.com/article/10.1007/s41979-023-00101-0",
+      "date": "2023-07-05",
+      "tag": "learning",
+      "summary": {
+        "en": "In large introductory physics sections, observers detected no significant distraction difference between mobile polling and dedicated clickers. Active periods were associated with less distraction than passive periods.",
+        "sr": "Vrsta aktivnosti zaslužuje pažnju uz izbor uređaja."
+      },
+      "scope": "Publisher full-text HTML: abstract; Methods design and observation coding; filtered data and Results; Discussion, Limitations and Conclusion. Raw data and analysis notebook not inspected or executed.",
+      "limit": {
+        "en": "Observational, institution-specific data from 2014–2015; no significant difference does not establish equivalence, causation or absence of distraction today.",
+        "sr": "Rad ne dokazuje da telefon nikada ne ometa učenje."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-SCALE-05",
+      "title": "In-Class Polling",
+      "url": "https://teaching.berkeley.edu/class-polling",
+      "date": null,
+      "tag": "learning",
+      "summary": {
+        "en": "The guide includes digital and low-tech responses, peer discussion, concept checks and confidence questions, with separate suggestions for large classes.",
+        "sr": "Odgovaranje može imati više dostupnih oblika."
+      },
+      "scope": "Overview, benefits, tips for small and large enrolment courses; public page. Linked resources not reviewed.",
+      "limit": {
+        "en": "Guidance is not causal evidence. A static page cannot collect room-wide answers or produce a genuine class distribution by itself.",
+        "sr": "Ručni utisak nastavnika nije automatski histogram odgovora."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-SCALE-06",
+      "title": "Ensuring Access",
+      "url": "https://www.elon.edu/u/teaching-in-times-of-disruption/ensuring-access/",
+      "date": null,
+      "tag": "learning",
+      "summary": {
+        "en": "The guide recommends advance download or printing, lower-bandwidth notes, accessible document structures, captions or transcripts, and alternative ways to participate when infrastructure fails.",
+        "sr": "Dostupnost uključuje uređaj, vezu i format sadržaja."
+      },
+      "scope": "Access & Accessibility; Low-tech access during infrastructure disruptions; Ensuring access when transitioning online; Diversifying instruction. No linked institutional systems accessed.",
+      "limit": {
+        "en": "A disruption guide, not a test of our network or accessibility compliance. Printing alone does not accommodate every student; offline availability must be verified.",
+        "sr": "Offline i pristupačnost nisu oznake koje se dodaju bez provere."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "GIZA-01",
+      "title": "Les papyrus de la mer Rouge I. Le journal de Merer, Papyrus Jarf A et B",
+      "url": "https://www.ifao.egnet.net/uploads/publications/divers/MIFAO136_ann_01.pdf",
+      "date": "2017",
+      "tag": "history",
+      "summary": {
+        "en": "The surviving log records limestone transport from Tura towards Akhet-Khufu. Its editor explicitly distinguishes these missions from unrecorded pyramid construction techniques.",
+        "sr": "Sačuvani dnevnik beleži prevoz krečnjaka iz Ture ka Akhet-Khufu. Priređivač odvaja te misije od tehnika gradnje koje nisu opisane."
+      },
+      "scope": "Bibliographic pages; Annex I, Papyrus A/B and opening Summary, PDF pages5–9; not complete monograph.",
+      "limit": "Fragmentary text; uncertain restorations remain marked. No complete building schedule, lifting method or workforce census.",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "GIZA-02",
+      "title": "Nile waterscapes facilitated the construction of the Giza pyramids during the 3rd millennium BCE",
+      "url": "https://www.pnas.org/doi/full/10.1073/pnas.2202530119",
+      "date": "2022-08-29 online; issue 2022-09-13",
+      "tag": "history",
+      "summary": {
+        "en": "Pollen assemblages from sediment cores support a reconstruction of changing waterscapes compatible with boat access during pyramid building.",
+        "sr": "Polenski skupovi iz sedimentnih jezgara podržavaju rekonstrukciju promenljivog vodenog okruženja pogodnog za brodski pristup u doba gradnje."
+      },
+      "scope": "Abstract, G1/G4 reconstruction, water-level interpretation, Cores/Chronology, Pollen and reconstruction methods; no supplement/data reanalysis.",
+      "limit": "Proxy reconstruction with chronological uncertainty; not daily water depth, boat capacity or proof of a lifting mechanism.",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "GIZA-03",
+      "title": "The Egyptian pyramid chain was built along the now abandoned Ahramat Nile Branch",
+      "url": "https://research-management.mq.edu.au/ws/portalfiles/portal/341290276/340045582.pdf",
+      "date": "2024; Communications Earth & Environment 5:233",
+      "tag": "history",
+      "summary": {
+        "en": "Radar, topography, historical maps, geophysics and coring identify former river segments. Authors infer transport relevance from landscape relationships.",
+        "sr": "Radar, topografija, stare karte, geofizika i jezgra otkrivaju segmente nekadašnjeg toka. Autori iz prostornih odnosa izvode značaj za transport."
+      },
+      "scope": "Abstract/introduction, Conclusion and selected Materials and methods, PDF pp.1–2,10–11; not supplement or raw data.",
+      "limit": "Not a recorded delivery route or construction reconstruction; publisher opening failed, university PDF read.",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "GIZA-04",
+      "title": "Another Official’s House Emerges in Season 2015",
+      "url": "https://aeraweb.org/wp-content/uploads/2022/08/aeragram16_2.pdf#page=18",
+      "date": "Fall 2015; AERAGRAM 16(2)",
+      "tag": "history",
+      "summary": {
+        "en": "AA-S at Heit el-Ghurab exposes courtyard and kitchen remains, interpreted as an official’s residence associated with provisioning.",
+        "sr": "AA-S u Heit el-Ghurabu otkriva dvorište i kuhinje, protumačene kao službenička kuća povezana sa snabdevanjem."
+      },
+      "scope": "Article pp.18–21, text; individual byline absent.",
+      "limit": "Partial excavation, chiefly final occupation; not workforce census.",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "GIZA-05",
+      "title": "The Great Pyramid’s Footprint: Results from Our 2015 Survey",
+      "url": "https://aeraweb.org/wp-content/uploads/2022/08/aeragram16_2.pdf#page=8",
+      "date": "Fall 2015; AERAGRAM 16(2)",
+      "tag": "history",
+      "summary": {
+        "en": "Surviving baseline traces support regression and extrapolation of lost corners with uncertainty bounds.",
+        "sr": "Preostali tragovi osnove omogućavaju regresiju i ekstrapolaciju izgubljenih uglova uz granice nesigurnosti."
+      },
+      "scope": "Text pp.8–11,14; diagrams 12–13 not visually checked.",
+      "limit": "Does not establish ancient surveying or ramp methods.",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "GIZA-06",
+      "title": "New texts from an old site: discoveries from the September 2018 season at the Hatnub alabaster quarries",
+      "url": "https://www.liverpool.ac.uk/archaeology-classics-and-egyptology/blog/2018/hatnub/",
+      "date": "2018-10-09",
+      "tag": "history",
+      "summary": {
+        "en": "Quarry-entry clearance exposed a haulage ramp flanked by rock-cut steps and post-holes, offering evidence for investigating stone transport.",
+        "sr": "Čišćenje ulaza kamenoloma otkrilo je transportnu rampu uz uklesane stepenice i rupe za stubove, kao trag za istraživanje prevoza kamena."
+      },
+      "scope": "Entire short excavation account, including entryway clearance, steps, post-holes and remaining work.",
+      "limit": "Hatnub is another site and quarry context. This report does not establish a ramp layout for the Great Pyramid.",
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-origami",
+      "title": "A crease becomes a structure",
+      "url": "https://origamisimulator.org/",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "making",
+      "summary": {
+        "en": "Fold a pattern; examine which constraints were idealised.",
+        "sr": "Savij obrazac; ispitaj koja ograničenja su idealizovana."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-laser",
+      "title": "Cutting to bend",
+      "url": "https://hcie.csail.mit.edu/research/laserorigami/laserorigami.html",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "making",
+      "summary": {
+        "en": "A flat sheet carries a plan for a spatial change.",
+        "sr": "Ravna ploča nosi plan prostorne promene."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-vault",
+      "title": "A vault finds a shape",
+      "url": "https://blockresearchgroup.github.io/compas-RV/",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "civil",
+      "summary": {
+        "en": "Compare equilibrium assumptions with a desired silhouette.",
+        "sr": "Uporedi pretpostavke ravnoteže sa željenom siluetom."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-box",
+      "title": "Design the void",
+      "url": "https://jscad.app/docs/tutorial-03_usingParameters.html",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "geometry",
+      "summary": {
+        "en": "Subtract an inner solid from an outer one.",
+        "sr": "Oduzmi unutrašnje telo od spoljnog."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-instance",
+      "title": "One object, many instances",
+      "url": "https://github.com/blender/blender/blob/main/source/blender/nodes/geometry/nodes/node_geo_instance_on_points.cc",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "data",
+      "summary": {
+        "en": "A repeated facade need not duplicate every geometry record.",
+        "sr": "Ponavljanje fasade ne mora umnožiti svaki zapis geometrije."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-matrix",
+      "title": "See a matrix act",
+      "url": "https://immersivemath.com/ila/ch09_linear_mappings/ch09.html",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "geometry",
+      "summary": {
+        "en": "Reverse a rotation and a scale; compare the result.",
+        "sr": "Obrni redosled rotacije i skaliranja; uporedi rezultat."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-room",
+      "title": "A room leaves a time trace",
+      "url": "https://github.com/LCAV/pyroomacoustics/blob/master/examples/room_from_rt60.py",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "architecture",
+      "summary": {
+        "en": "Follow early arrivals and the decay of a sound.",
+        "sr": "Prati rane dolaske i slabljenje zvuka."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-sound",
+      "title": "Move the listener",
+      "url": "https://ciechanow.ski/sound/",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "architecture",
+      "summary": {
+        "en": "Separate the wave model from the particles it represents.",
+        "sr": "Odvoji model talasa od čestica koje predstavlja."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-sun",
+      "title": "Sunlight as a visibility test",
+      "url": "https://docs.ladybug.tools/ladybug-primer/components/3_analyzegeometry/direct_sun_hours",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "architecture",
+      "summary": {
+        "en": "Change one obstruction and inspect the sampled sun directions.",
+        "sr": "Promeni jednu prepreku i ispitaj uzorkovane pravce Sunca."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-heat",
+      "title": "A small thermal bridge",
+      "url": "https://energy.concord.org/energy2d/thermal-bridge.html",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "civil",
+      "summary": {
+        "en": "A colour field, an isotherm and a heat-flow arrow are different representations.",
+        "sr": "Polje boja, izoterma i strelica toplotnog toka su različiti prikazi."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-water",
+      "title": "Water has a route and an age",
+      "url": "https://usepa.github.io/EPANET2.2/2_quickstart.html",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "civil",
+      "summary": {
+        "en": "The same pipe geometry can carry a changing state.",
+        "sr": "Ista geometrija cevi može nositi promenljivo stanje."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-fluid",
+      "title": "The wake behind an obstacle",
+      "url": "https://physics.weber.edu/schroeder/fluids/",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "civil",
+      "summary": {
+        "en": "Compare velocity, streamlines and particles without confusing the views.",
+        "sr": "Uporedi brzinu, strujnice i čestice bez mešanja prikaza."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-photos",
+      "title": "A model from photographs",
+      "url": "https://meshroom-manual.readthedocs.io/en/latest/tutorials/sketchfab/sketchfab.html",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "architecture",
+      "summary": {
+        "en": "Ask where the scale comes from and which surfaces are missing.",
+        "sr": "Pitaj odakle dolazi razmera i koje površine nedostaju."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-cloud",
+      "title": "A point cloud is a sample",
+      "url": "https://potree.org/",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "data",
+      "summary": {
+        "en": "Look for gaps, density and a measurement reference.",
+        "sr": "Traži praznine, gustinu i referencu za merenje."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-splat",
+      "title": "A view is not a measured solid",
+      "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "ai",
+      "summary": {
+        "en": "Ask what novel-view synthesis preserves and what it does not prove.",
+        "sr": "Pitaj šta sinteza novog pogleda čuva, a šta ne dokazuje."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-lift-sensor",
+      "title": "Ride an elevator with data",
+      "url": "https://phyphox.org/wiki/index.php/Elevator",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "data",
+      "summary": {
+        "en": "Compare pressure-derived height with a separate acceleration sensor.",
+        "sr": "Uporedi visinu izvedenu iz pritiska sa zasebnim senzorom ubrzanja."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-datasaurus",
+      "title": "Same summary, another world",
+      "url": "https://www.research.autodesk.com/publications/same-stats-different-graphs/",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "data",
+      "summary": {
+        "en": "Look at the plot before trusting a pair of summary statistics.",
+        "sr": "Pogledaj grafikon pre poverenja u dve sumarne statistike."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-nest",
+      "title": "The offcut depends on the order",
+      "url": "https://github.com/Jack000/SVGnest",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "making",
+      "summary": {
+        "en": "Packing is a search under constraints, not an automatic global optimum.",
+        "sr": "Raspoređivanje je pretraga pod ograničenjima, bez automatskog globalnog optimuma."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "IDEA-mould",
+      "title": "The shape, its negative, its tool",
+      "url": "https://fab.cba.mit.edu/classes/863.22/Harvard/people/Claire/Week-8-Molding-and-Casting.html",
+      "date": "Earlier OR research collection · 2026-10-04",
+      "tag": "making",
+      "summary": {
+        "en": "Distinguish the desired object from the space and access needed to make it.",
+        "sr": "Razlikuj željeni predmet od prostora i pristupa potrebnih za izradu."
+      },
+      "scope": {
+        "en": "Previously recorded public source or demonstration description. Follow the source to inspect its current version.",
+        "sr": "Ranije zabeležen javni izvor ili opis demonstracije. Za aktuelnu verziju prati izvor."
+      },
+      "limit": {
+        "en": "No new execution, benchmark or device test in this pass. This card is an exploration link, not an empirical result.",
+        "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
+      },
+      "checked": "2026-10-04"
+    }
+  ]
+}

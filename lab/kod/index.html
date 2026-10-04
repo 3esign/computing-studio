@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f4f1e8">
+<title>Code, made visible · OR Laboratory</title>
+<link rel="stylesheet" href="style.css">
+<script src="model.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#instrument">Skip to the instrument</a>
+<header class="masthead">
+ <a href="../../index.html">OR / <span data-en="Course" data-sr="Predmet">Course</span></a>
+ <a href="../../lab.html" data-en="All laboratories ↗" data-sr="Sve laboratorije ↗">All laboratories ↗</a>
+ <button id="language" type="button" aria-label="Prikaži na srpskom">SR</button>
+</header>
+<main>
+ <header class="intro">
+  <p class="eyebrow" data-en="FIELD NOTES / COMPUTING" data-sr="RADNA BELEŽNICA / RAČUNARSTVO">FIELD NOTES / COMPUTING</p>
+  <h1 data-en="Code, made visible." data-sr="Kod koji se vidi.">Code, made visible.</h1>
+  <p class="lede" data-en="Predict a change. Run one step. Follow the evidence." data-sr="Predvidi promenu. Pokreni korak. Prati dokaz.">Predict a change. Run one step. Follow the evidence.</p>
+ </header>
+ <nav class="instruments" aria-label="Instruments">
+  <button data-mode="loop" type="button" aria-pressed="true"><span>01 /</span><b data-en="A running total" data-sr="Zbir kroz korake">A running total</b></button>
+  <button data-mode="transform" type="button" aria-pressed="false"><span>02 /</span><b data-en="Order changes place" data-sr="Redosled menja mesto">Order changes place</b></button>
+  <button data-mode="walls" type="button" aria-pressed="false"><span>03 /</span><b data-en="Units become quantities" data-sr="Jedinice daju količine">Units become quantities</b></button>
+  <button data-mode="schedule" type="button" aria-pressed="false"><span>04 /</span><b data-en="A shared constraint" data-sr="Zajedničko ograničenje">A shared constraint</b></button>
+ </nav>
+ <section id="instrument" aria-labelledby="instrument-title" tabindex="-1">
+  <div class="instrument-heading"><div><p class="eyebrow" id="mode-number">01 / LOOP</p><h2 id="instrument-title">A running total</h2></div><button class="quiet" id="reset" type="button" data-en="Reset this instrument" data-sr="Vrati ovaj instrument">Reset this instrument</button></div>
+  <p class="question" id="question">What is the next total before the program shows it?</p>
+  <div class="workbench">
+   <form id="controls" novalidate aria-label="Instrument parameters"></form>
+   <section class="stage" aria-label="Output">
+    <div class="readout"><p class="eyebrow" id="result-label">CURRENT TOTAL</p><output id="result" aria-live="polite">0</output><p id="result-detail"></p></div>
+    <div id="drawing"></div>
+    <p id="explain" class="explain"></p>
+    <p id="error" class="error" role="alert" hidden></p>
+   </section>
+  </div>
+  <div class="evidence">
+   <section class="code-panel" aria-labelledby="code-title"><div class="section-top"><h3 id="code-title" data-en="The rule being executed" data-sr="Pravilo koje se izvršava">The rule being executed</h3><button id="copy" type="button" class="quiet" data-en="Copy code" data-sr="Kopiraj kod">Copy code</button></div><p class="minor" data-en="Actual calculation function, read directly from this model. Input checks run before it." data-sr="Stvarna računska funkcija, pročitana iz ovog modela. Ulazi se proveravaju pre nje.">Actual calculation function, read directly from this model. Input checks run before it.</p><pre id="input-code" tabindex="0" aria-label="Current inputs"></pre><pre id="code" tabindex="0" aria-label="Executed calculation function"></pre><p id="copy-status" class="minor" role="status"></p></section>
+   <section class="ledger" aria-labelledby="ledger-title"><h3 id="ledger-title" data-en="The numerical trace" data-sr="Brojčani trag">The numerical trace</h3><div id="table"></div><p id="boundary" class="boundary"></p></section>
+  </div>
+ </section>
+ <noscript><p class="error">JavaScript is needed for the instruments. Known cases: 12 + 18 + 15 = 45; transform order gives (0,5) or (4,1); wall volumes are 2.4 + 1.5 = 3.9 m³; the schedule takes 5 or 6 fictional days. These are teaching models.</p></noscript>
+</main>
+<footer><span data-en="OR / Four small, inspectable programs" data-sr="OR / Četiri mala programa koja možeš proveriti">OR / Four small, inspectable programs</span><a href="README.md" data-en="Model notes & limits ↗" data-sr="Modeli i granice ↗">Model notes & limits ↗</a><span data-en="Local · no accounts · no uploads" data-sr="Lokalno · bez naloga · bez slanja">Local · no accounts · no uploads</span></footer>
+</body>
+</html>

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-sr="Panika izlaz — OR laboratorija">Route explorer · Panika izlaz — OR laboratory</title>
+<link rel="stylesheet" href="../../css/or.css"></head><body>
+<header class="top"><div class="top-in"><div class="brand"><span data-sr="Panika izlaz">Route explorer · Panika izlaz</span><small data-sr="Putanje i ponderisani grafovi">Paths and weighted graphs</small></div><nav class="top-nav"><a data-sr="Predmet" href="../../index.html">Course home</a><a data-sr="Biblioteka" href="../../biblioteka.html">Library</a><a data-sr="Laboratorija" href="../../lab.html">Laboratory</a><button type="button" class="btn ghost" id="legacy-language" aria-label="Prebaci na srpski">Srpski</button></nav></div></header>
+<main><div class="crumb"><span data-sr="Instrument za istraživanje · slobodni primeri">Exploration instrument · optional examples</span></div><h1 data-sr="Panika izlaz">Route explorer · Panika izlaz</h1>
+<p data-sr="Menjaj mrežu 48 × 26 polja od 0,5 m. Uporedi geometrijsku dužinu izabrane putanje sa veštačkim troškom izbora. Na telefonu koristi dugmad kičice ili izmeni polje po koordinatama.">Edit a 48 × 26 grid with 0.5 m cells. Compare the geometric length of the selected route with the artificial cost used to choose it. Use the brush buttons on touchscreens, or edit a cell by coordinates.</p><aside class="panel"><h3 data-sr="Ovo nije procena evakuacije">This is not an evacuation assessment</h3><p data-sr="Statički graf izostavlja gužvu, vreme kretanja, razvoj požara i kapacitet izlaza. „Dim” je veštačka kazna troška, ne fizički model. Prag 35 m je izabran za istraživanje, nije uzet iz propisa. Putanja ne potvrđuje bezbednost.">The static graph omits crowds, travel time, evolving fire conditions and exit capacity. “Smoke” is an artificial cost penalty, not a physical model. The 35 m target is chosen for exploration, not taken from a regulation. A route does not establish safety.</p></aside>
+ <div class="app"><aside class="panel"><h3 data-sr="Načini izmene">Ways to edit</h3><p data-sr="Izaberi požar, zid ili brisanje pa prevuci ili dodirni mrežu. Žuta tačka je početak putanje. Kontrole ispod menjaju jedno tačno polje ili pomeraju početak na slobodno polje.">Choose fire, wall or erase, then drag or tap the grid. Drag the yellow point to move the start. Coordinate controls below can edit one exact cell or move the start to a free cell.</p><p data-sr="Pravi i dijagonalni koraci imaju različite dužine. Veštačka kazna menja trošak putanje, ne metre. Dijkstra pretražuje ovaj graf; odsustvo puta je rezultat za taj graf, ne potpuna bezbednosna ocena.">Straight and diagonal steps have different lengths. The artificial penalty changes route cost, not metres. Dijkstra searches this particular graph; a missing path is a result for that graph, not a complete safety finding.</p></aside>
+ <section class="stage"><canvas id="c" width="760" height="420" aria-label="Editable grid and computed route; cell controls follow" data-sr-label="Mreža i izračunata putanja; ispod su kontrole polja"></canvas><div class="readout"><div><span data-sr="dužina izabrane putanje">selected route length</span><b id="rl">—</b></div><div><span data-sr="trošak modela">model cost</span><b id="rcost">—</b></div><div><span data-sr="vazdušna linija">straight-line distance</span><b id="rz">—</b></div><div><span data-sr="obiđeno polja">visited cells</span><b id="rv">—</b></div><div><span data-sr="trajanje proračuna">calculation time</span><b id="rms">—</b></div><div><span data-sr="prag istraživanja: 35 m">exercise target: 35 m</span><b id="rg">—</b></div></div><label class="ctl"><span data-sr="Širina kičice">Brush width</span>: <b id="rk">3</b> <input type="range" id="k" min="1" max="9" value="3"></label><div class="ctl-row"><button data-sr="Kičica: požar" class="btn ghost" id="bfire" type="button">Brush: fire</button><button data-sr="Kičica: zid" class="btn ghost" id="bwall" type="button">Brush: wall</button><button data-sr="Kičica: brisanje" class="btn ghost" id="berase" type="button">Brush: erase</button><button data-sr="Ugasi sve" class="btn ghost" id="bclr" type="button">Clear all fire</button><button data-sr="Vrati tlocrt" class="btn ghost" id="bres" type="button">Reset plan</button></div>
+ <div class="legacy-controls"><label><span data-sr="Kolona (1–46)">Column (1–46)</span><input id="cell-x" type="number" min="1" max="46" step="1" value="4"></label><label><span data-sr="Red (1–24)">Row (1–24)</span><input id="cell-y" type="number" min="1" max="24" step="1" value="4"></label><label><span data-sr="Radnja u polju">Cell action</span><select id="cell-action"><option value="fire">Fire / Požar</option><option value="wall">Wall / Zid</option><option value="erase">Erase / Briši</option><option value="start">Move start / Pomeri početak</option></select></label><button data-sr="Primeni na jedno polje" class="btn ghost" id="cell-apply" type="button">Apply to one cell</button></div><p id="cell-status" class="legacy-status" role="status"></p><p data-sr="Koordinate počinju gore levo. Ova kontrola menja jedno polje, nezavisno od širine kičice. Izlaz i trenutni početak zaštićeni su od crtanja.">Coordinates start at the upper left. This control edits one cell, regardless of brush width. The exit and current start are protected from painting.</p></section>
+ <aside class="panel"><h3 data-sr="Probaj izmenu">Try a change</h3><p data-sr="Zatvori hodnik i uporedi dužinu putanje sa vazdušnom linijom. Potom dodaj prepreku u blizini i posmatraj trošak izbora. Metre i jedinice troška prati odvojeno.">Block a corridor and compare route length with the straight-line distance. Then place an obstacle nearby and inspect whether route cost changes. Keep metres and cost units separate.</p><p data-sr="Uporedi tlocrte i na papiru. Graf daje jednu izabranu putanju; ne simulira ljudske odluke.">Compare layouts on paper as well. The graph gives one selected route; it does not simulate human decisions.</p></aside></div>
+<h2 data-sr="Pokreni postojeće provere">Run the legacy checks</h2>
+<p data-sr="Postojeće provere ispod proveravaju odabrane primere. Njihov prolaz ne potvrđuje ispravnost svakog modela koji izmeniš.">The optional checks below use Serbian: “Proveri sam” = run checks; “RADI” = pass; “PAD” = fail; “izracunato ovde” = calculated here; “ocekivano” = expected. They check selected examples, not the validity of every edited model.</p>
+<div class="proof" id="dokaz"></div><noscript><p>Interactive controls require JavaScript. Interaktivne kontrole zahtevaju JavaScript; tekst i ograničenja ostaju dostupni.</p></noscript></main>
+<footer class="bot"><div><span data-sr="Osnove računarstva">Fundamentals of Computing</span> · doc. dr Semir Poturak</div></footer>
+<script src="../../js/legacy-language.js"></script>
+<script src="../../js/dokaz.js"></script>
+<script>
+(function () {
+  'use strict';
+  // The numerical smoke harness does not load optional presentation scripts.
+  var T = window.LegacyLanguage ? window.LegacyLanguage.text : function (en, sr) { return sr; };
+
+  var c = document.getElementById('c'), g = c.getContext('2d');
+  var W = 48, H = 26, CELL = 15, M_PO_POLJU = 0.5;
+  var OX = 20, OY = 20;
+
+  var SLOBODNO = 0, ZID = 1, VATRA = 2, IZLAZ = 3;
+  var grid = new Uint8Array(W * H);
+  var covek = { x: 4, y: 4 }, izlaz = { x: W - 2, y: H - 3 };
+  var kicica = VATRA, sirina = 3, crta = false, vuceCoveka = false;
+
+  function idx(x, y) { return y * W + x; }
+
+  function tlocrt() {
+    grid.fill(SLOBODNO);
+    var x, y;
+    /* spoljni zidovi */
+    for (x = 0; x < W; x++) { grid[idx(x, 0)] = ZID; grid[idx(x, H - 1)] = ZID; }
+    for (y = 0; y < H; y++) { grid[idx(0, y)] = ZID; grid[idx(W - 1, y)] = ZID; }
+    /* uzduzni hodnik: dva zida sa vratima */
+    for (x = 1; x < W - 1; x++) {
+      if (x !== 8 && x !== 22 && x !== 36) { grid[idx(x, 10)] = ZID; grid[idx(x, 15)] = ZID; }
+    }
+    /* poprecni zidovi gornjeg niza soba */
+    for (y = 1; y < 10; y++) { if (y !== 5) { grid[idx(14, y)] = ZID; grid[idx(30, y)] = ZID; } }
+    /* donji niz: velika sala i dve sobe */
+    for (y = 16; y < H - 1; y++) { if (y !== 20) grid[idx(20, y)] = ZID; }
+    for (y = 16; y < H - 1; y++) { if (y !== 19) grid[idx(34, y)] = ZID; }
+    /* izlaz u donjem desnom uglu */
+    grid[idx(izlaz.x, izlaz.y)] = IZLAZ;
+    grid[idx(W - 1, izlaz.y)] = IZLAZ;
+  }
+
+  /* ---------- Dijkstra od izlaza ka svim poljima ---------- */
+  var PRAVO = M_PO_POLJU, DIJAG = M_PO_POLJU * Math.SQRT2;
+  function dijkstra() {
+    var n = W * H, dist = new Float64Array(n), prev = new Int32Array(n);
+    var obiden = new Uint8Array(n), dim = new Float32Array(n);
+    var i, x, y;
+    for (i = 0; i < n; i++) { dist[i] = Infinity; prev[i] = -1; }
+    /* kazna za blizinu vatre: dim do 4 polja (2 m) */
+    for (y = 0; y < H; y++) for (x = 0; x < W; x++) {
+      if (grid[idx(x, y)] !== VATRA) continue;
+      for (var dy = -4; dy <= 4; dy++) for (var dx = -4; dx <= 4; dx++) {
+        var nx = x + dx, ny = y + dy;
+        if (nx < 0 || ny < 0 || nx >= W || ny >= H) continue;
+        var d = Math.hypot(dx, dy);
+        if (d > 4) continue;
+        dim[idx(nx, ny)] = Math.max(dim[idx(nx, ny)], (4 - d) / 4);
+      }
+    }
+    /* prosta prioritetna lista: binarni hip */
+    var hip = [], hd = [];
+    function push(v, d) {
+      hip.push(v); hd.push(d);
+      var i2 = hip.length - 1;
+      while (i2 > 0) {
+        var p = (i2 - 1) >> 1;
+        if (hd[p] <= hd[i2]) break;
+        var tv = hip[p]; hip[p] = hip[i2]; hip[i2] = tv;
+        var td = hd[p]; hd[p] = hd[i2]; hd[i2] = td;
+        i2 = p;
+      }
+    }
+    function pop() {
+      var top = hip[0], topd = hd[0], last = hip.pop(), lastd = hd.pop();
+      if (hip.length) {
+        hip[0] = last; hd[0] = lastd;
+        var i2 = 0;
+        for (;;) {
+          var l = 2 * i2 + 1, r = l + 1, s = i2;
+          if (l < hip.length && hd[l] < hd[s]) s = l;
+          if (r < hip.length && hd[r] < hd[s]) s = r;
+          if (s === i2) break;
+          var tv = hip[s]; hip[s] = hip[i2]; hip[i2] = tv;
+          var td = hd[s]; hd[s] = hd[i2]; hd[i2] = td;
+          i2 = s;
+        }
+      }
+      return [top, topd];
+    }
+    var start = idx(izlaz.x, izlaz.y);
+    dist[start] = 0; push(start, 0);
+    var brojObidjenih = 0;
+    while (hip.length) {
+      var t = pop(), u = t[0];
+      if (obiden[u]) continue;
+      obiden[u] = 1; brojObidjenih++;
+      var ux = u % W, uy = (u - ux) / W;
+      for (var k = 0; k < 8; k++) {
+        var ddx = [1, -1, 0, 0, 1, 1, -1, -1][k], ddy = [0, 0, 1, -1, 1, -1, 1, -1][k];
+        var vx = ux + ddx, vy = uy + ddy;
+        if (vx < 1 || vy < 1 || vx > W - 2 || vy > H - 2) continue;
+        var v = idx(vx, vy), ce = grid[v];
+        if (ce === ZID || ce === VATRA) continue;
+        /* dijagonala ne sme da reze ugao kroz zid */
+        if (ddx !== 0 && ddy !== 0) {
+          var a = grid[idx(ux + ddx, uy)], b = grid[idx(ux, uy + ddy)];
+          if (a === ZID || b === ZID || a === VATRA || b === VATRA) continue;
+        }
+        var w = (ddx !== 0 && ddy !== 0 ? DIJAG : PRAVO) * (1 + 3 * dim[v]);
+        if (dist[u] + w < dist[v]) { dist[v] = dist[u] + w; prev[v] = u; push(v, dist[v]); }
+      }
+    }
+    return { dist: dist, prev: prev, obidjeno: brojObidjenih, dim: dim };
+  }
+
+  /* ---------- crtanje ---------- */
+  function crtaj(rez, ms) {
+    g.clearRect(0, 0, c.width, c.height);
+    var x, y, i;
+    /* polja */
+    for (y = 0; y < H; y++) for (x = 0; x < W; x++) {
+      i = idx(x, y);
+      var px = OX + x * CELL, py = OY + y * CELL, t = grid[i];
+      if (t === ZID) g.fillStyle = '#39424f';
+      else if (t === VATRA) g.fillStyle = '#e3685f';
+      else if (t === IZLAZ) g.fillStyle = '#58c793';
+      else {
+        var d = rez.dist[i];
+        if (!isFinite(d)) g.fillStyle = '#16181c';            // nedostupno: ni jedan put ne vodi ovde
+        else {
+          /* svetlije = dalje od izlaza; isto polje, isti broj, svaki put */
+          var sj = Math.min(1, d / 40);
+          g.fillStyle = 'rgb(' + Math.round(13 + sj * 30) + ',' + Math.round(17 + sj * 28) + ',' + Math.round(24 + sj * 30) + ')';
+        }
+      }
+      g.fillRect(px, py, CELL - 1, CELL - 1);
+      if (t === SLOBODNO && rez.dim[i] > 0.02) {              // dim oko vatre: skuplje, ali prohodno
+        g.fillStyle = 'rgba(227,104,95,' + (rez.dim[i] * 0.34) + ')';
+        g.fillRect(px, py, CELL - 1, CELL - 1);
+      }
+    }
+    /* put */
+    var cv = idx(covek.x, covek.y), trosak = rez.dist[cv], duz = Infinity, put = [];
+    if (isFinite(trosak)) {
+      var u = cv, strah = 0;
+      while (u !== -1 && strah++ < W * H) { put.push(u); u = rez.prev[u]; }
+      // Metri se mere po izabranoj putanji, bez kazne koja vodi pretragu.
+      duz = 0;
+      for (i = 1; i < put.length; i++) {
+        var ax = put[i - 1] % W, ay = Math.floor(put[i - 1] / W);
+        var bx = put[i] % W, by = Math.floor(put[i] / W);
+        duz += Math.hypot(bx - ax, by - ay) * M_PO_POLJU;
+      }
+      g.strokeStyle = '#f2b65a'; g.lineWidth = 3; g.lineJoin = 'round';
+      g.beginPath();
+      for (i = 0; i < put.length; i++) {
+        var px2 = OX + (put[i] % W) * CELL + CELL / 2 - 0.5;
+        var py2 = OY + ((put[i] - put[i] % W) / W) * CELL + CELL / 2 - 0.5;
+        if (i === 0) g.moveTo(px2, py2); else g.lineTo(px2, py2);
+      }
+      g.stroke();
+      /* vazdusna linija */
+      g.strokeStyle = '#5fb3f644'; g.lineWidth = 1; g.setLineDash([4, 4]);
+      g.beginPath();
+      g.moveTo(OX + covek.x * CELL + CELL / 2, OY + covek.y * CELL + CELL / 2);
+      g.lineTo(OX + izlaz.x * CELL + CELL / 2, OY + izlaz.y * CELL + CELL / 2);
+      g.stroke(); g.setLineDash([]);
+    }
+    /* covek i izlaz */
+    g.fillStyle = '#f2b65a';
+    g.beginPath(); g.arc(OX + covek.x * CELL + CELL / 2, OY + covek.y * CELL + CELL / 2, 6, 0, 6.284); g.fill();
+    g.fillStyle = '#0e1116'; g.font = 'bold 10px ui-monospace, monospace';
+    g.fillText(T('EXIT', 'IZLAZ'), OX + izlaz.x * CELL - 34, OY + izlaz.y * CELL + 11);
+
+    /* legenda i upozorenje */
+    g.font = '11px ui-monospace, monospace';
+    if (!isFinite(duz)) {
+      g.fillStyle = '#e3685f'; g.font = '13px system-ui, sans-serif';
+      g.fillText(T('No route exists in this edited graph.', 'U ovom izmenjenom grafu put ne postoji.'), OX, OY + H * CELL + 20);
+    } else {
+      g.fillStyle = '#68727f';
+      g.fillText(T('yellow = chosen route; dashed = straight line; shading = graph cost', 'žuto = izabrana putanja; isprekidano = vazdušna linija; ton = trošak grafa'), OX, OY + H * CELL + 20);
+    }
+    return { duz: duz, trosak: trosak / M_PO_POLJU, dostupno: isFinite(trosak) };
+  }
+
+  var el = {
+    rl: document.getElementById('rl'), rcost: document.getElementById('rcost'), rz: document.getElementById('rz'), rv: document.getElementById('rv'),
+    ms: document.getElementById('rms'), rg: document.getElementById('rg'), rk: document.getElementById('rk')
+  };
+
+  function osvezi() {
+    var t0 = performance.now();
+    var rez = dijkstra();
+    var ms = performance.now() - t0;
+    var info = crtaj(rez, ms);
+    var zrak = Math.hypot(covek.x - izlaz.x, covek.y - izlaz.y) * M_PO_POLJU;
+    el.rl.textContent = info.dostupno ? info.duz.toFixed(1) + ' m' : T('no route', 'nema puta');
+    el.rcost.textContent = info.dostupno ? info.trosak.toFixed(1) + T(' cost units', ' j. troška') : '—';
+    el.rl.style.color = info.dostupno ? '' : '#e3685f';
+    el.rz.textContent = zrak.toFixed(1) + ' m';
+    el.rv.textContent = rez.obidjeno.toLocaleString(T('en-GB', 'sr-RS'));
+    el.ms.textContent = ms.toFixed(1) + ' ms';
+    var prelazi = !info.dostupno || info.duz > 35;
+    el.rg.textContent = prelazi ? T('EXCEEDED / no route', 'PREKORAČENA') : T('within target', 'u granici');
+    el.rg.style.color = prelazi ? '#e3685f' : '#58c793';
+  }
+
+  /* ---------- unos ---------- */
+  function polje(e) {
+    var r = c.getBoundingClientRect();
+    var t = e.touches ? e.touches[0] : e;
+    var mx = (t.clientX - r.left) * c.width / r.width;
+    var my = (t.clientY - r.top) * c.height / r.height;
+    return [Math.floor((mx - OX) / CELL), Math.floor((my - OY) / CELL)];
+  }
+  function maz(p, brisi, shift) {
+    var r = Math.floor(sirina / 2);
+    for (var dy = -r; dy <= r; dy++) for (var dx = -r; dx <= r; dx++) {
+      var x = p[0] + dx, y = p[1] + dy;
+      if (x < 1 || y < 1 || x >= W - 1 || y >= H - 1) continue;
+      if (grid[idx(x, y)] === IZLAZ) continue;
+      if (x === covek.x && y === covek.y && !brisi) continue;
+      grid[idx(x, y)] = brisi ? SLOBODNO : (shift ? ZID : kicica);
+    }
+  }
+  function dole(e) {
+    var p = polje(e);
+    if (p[0] === covek.x && p[1] === covek.y) { vuceCoveka = true; e.preventDefault(); return; }
+    crta = true;
+    maz(p, e.button === 2 || e.ctrlKey, e.shiftKey);
+    e.preventDefault(); osvezi();
+  }
+  function mice(e) {
+    var p = polje(e);
+    if (vuceCoveka) {
+      if (p[0] > 0 && p[1] > 0 && p[0] < W - 1 && p[1] < H - 1 && grid[idx(p[0], p[1])] === SLOBODNO) {
+        covek.x = p[0]; covek.y = p[1]; osvezi();
+      }
+      e.preventDefault(); return;
+    }
+    if (!crta) return;
+    maz(p, e.buttons === 2 || e.ctrlKey, e.shiftKey);
+    e.preventDefault(); osvezi();
+  }
+  function gore() { crta = false; vuceCoveka = false; }
+
+  c.addEventListener('mousedown', dole);
+  c.addEventListener('touchstart', dole, { passive: false });
+  window.addEventListener('mousemove', mice);
+  window.addEventListener('touchmove', mice, { passive: false });
+  window.addEventListener('mouseup', gore);
+  window.addEventListener('touchend', gore);
+  window.addEventListener('touchcancel', gore);
+  c.addEventListener('contextmenu', function (e) { e.preventDefault(); });
+
+  document.getElementById('k').addEventListener('input', function () {
+    sirina = +this.value; el.rk.textContent = sirina;
+  });
+  var bf = document.getElementById('bfire'), bw = document.getElementById('bwall'), be = document.getElementById('berase');
+  function biraj(k) {
+    kicica = k;
+    bf.style.borderColor = k === VATRA ? '#e3685f' : '';
+    bw.style.borderColor = k === ZID ? '#9aa5b4' : '';
+    be.style.borderColor = k === SLOBODNO ? '#5fb3f6' : '';
+  }
+  bf.addEventListener('click', function () { biraj(VATRA); });
+  bw.addEventListener('click', function () { biraj(ZID); });
+  be.addEventListener('click', function () { biraj(SLOBODNO); });
+  document.getElementById('cell-apply').addEventListener('click', function () {
+    var x = Number(document.getElementById('cell-x').value), y = Number(document.getElementById('cell-y').value);
+    var action = document.getElementById('cell-action').value, status = document.getElementById('cell-status');
+    if (!Number.isInteger(x) || !Number.isInteger(y) || x < 1 || x > 46 || y < 1 || y > 24) {
+      status.textContent = T('Use integer column 1–46 and row 1–24.', 'Unesi celobrojnu kolonu 1–46 i red 1–24.'); return;
+    }
+    if (action === 'start') {
+      if (grid[idx(x,y)] !== SLOBODNO) { status.textContent = T('Choose a free cell for the start.', 'Izaberi slobodno polje za početak.'); return; }
+      covek.x = x; covek.y = y;
+    } else {
+      if (grid[idx(x,y)] === IZLAZ || (x === covek.x && y === covek.y)) { status.textContent = T('The exit and start are protected.', 'Izlaz i početak su zaštićeni.'); return; }
+      grid[idx(x,y)] = action === 'fire' ? VATRA : action === 'wall' ? ZID : SLOBODNO;
+    }
+    status.textContent = T('Cell updated.', 'Polje je izmenjeno.'); osvezi();
+  });
+  document.getElementById('bclr').addEventListener('click', function () {
+    for (var i = 0; i < grid.length; i++) if (grid[i] === VATRA) grid[i] = SLOBODNO;
+    osvezi();
+  });
+  document.getElementById('bres').addEventListener('click', function () {
+    tlocrt(); covek.x = 4; covek.y = 4; osvezi();
+  });
+
+  tlocrt(); biraj(VATRA); osvezi();
+  window.addEventListener('legacy-language-change', function () {
+    ['edit-status', 'cell-status'].forEach(function (id) { var status = document.getElementById(id); if (status) status.textContent = ''; });
+    osvezi();
+  });
+  Dokaz.montiraj('#dokaz', 7);
+})();
+</script>
+</body>
+</html>

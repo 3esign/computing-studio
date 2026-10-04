@@ -1,0 +1,107 @@
+[
+  {
+    "id": "code",
+    "n": "01",
+    "title": {
+      "en": "The code theatre",
+      "sr": "Pozornica koda"
+    },
+    "description": {
+      "en": "See the line, state and consequence. Four instruments, one way of thinking.",
+      "sr": "Vidi naredbu, stanje i posledicu. Četiri instrumenta, jedan način razmišljanja."
+    },
+    "href": "lab/kod/index.html",
+    "tag": "code",
+    "language": "EN / SR"
+  },
+  {
+    "id": "giza",
+    "n": "02",
+    "title": {
+      "en": "Giza, as a question",
+      "sr": "Giza, kao pitanje"
+    },
+    "description": {
+      "en": "Build an invented layer model. Follow quantities and distinguish evidence from a story.",
+      "sr": "Gradi izmišljeni slojeviti model. Prati količine i razlikuj dokaz od priče."
+    },
+    "href": "lab/giza/index.html",
+    "tag": "history",
+    "language": "EN / SR"
+  },
+  {
+    "id": "studio",
+    "n": "03",
+    "title": {
+      "en": "A rule. A consequence.",
+      "sr": "Pravilo. Posledica."
+    },
+    "description": {
+      "en": "A kinetic facade and an ideal cantilever: change one input, inspect the result.",
+      "sr": "Kinetička fasada i idealna konzola: promeni jedan ulaz, pogledaj rezultat."
+    },
+    "href": "lab/studio3000/index.html",
+    "tag": "geometry",
+    "language": "EN / SR"
+  },
+  {
+    "id": "mesh",
+    "n": "04",
+    "title": {
+      "en": "How smooth is smooth?",
+      "sr": "Koliko je glatko zaista glatko?"
+    },
+    "description": {
+      "en": "An arc, a dome and the cost of a finer mesh.",
+      "sr": "Luk, kupola i cena gušće mreže."
+    },
+    "href": "lab/mrezar/index.html",
+    "tag": "geometry",
+    "language": "EN / SR"
+  },
+  {
+    "id": "truss",
+    "n": "05",
+    "title": {
+      "en": "The force follows the rule",
+      "sr": "Sila prati pravilo"
+    },
+    "description": {
+      "en": "Explore an ideal plane truss and its boundary conditions.",
+      "sr": "Istraži idealnu ravansku rešetku i njene granične uslove."
+    },
+    "href": "lab/resetka/index.html",
+    "tag": "civil",
+    "language": "EN / SR"
+  },
+  {
+    "id": "path",
+    "n": "06",
+    "title": {
+      "en": "A path has a cost",
+      "sr": "Put ima cenu"
+    },
+    "description": {
+      "en": "Weighted paths through a grid; an algorithm, not an evacuation assessment.",
+      "sr": "Ponderisani putevi na mreži; algoritam, bez procene stvarne evakuacije."
+    },
+    "href": "lab/panika/index.html",
+    "tag": "process",
+    "language": "EN / SR"
+  },
+  {
+    "id": "slice",
+    "n": "07",
+    "title": {
+      "en": "Shape → instructions",
+      "sr": "Oblik → naredbe"
+    },
+    "description": {
+      "en": "A teaching toolpath preview. Generated text is not a printer-ready manufacturing file.",
+      "sr": "Nastavni prikaz putanje. Generisani tekst nije fajl spreman za proizvodnju."
+    },
+    "href": "lab/rezac/index.html",
+    "tag": "making",
+    "language": "EN / SR"
+  }
+]
