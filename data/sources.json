@@ -1120,6 +1120,146 @@
         "sr": "Bez novog izvršavanja, merenja ili provere uređaja u ovom prolazu. Kartica je istraživačka veza, ne empirijski rezultat."
       },
       "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-THINK-01",
+      "title": "Larkin & Simon · Why a Diagram is (Sometimes) Worth Ten Thousand Words",
+      "url": "https://iiif.library.cmu.edu/file/Simon_box00068_fld05250_bdl0001_doc0001/Simon_box00068_fld05250_bdl0001_doc0001.pdf",
+      "date": "1987",
+      "tag": "learning",
+      "summary": {
+        "en": "A representation can preserve information while changing the work needed to use it.",
+        "sr": "Predstava može sačuvati informaciju, a promeniti napor potreban da je koristimo."
+      },
+      "scope": {
+        "en": "CMU journal reprint: abstract/introduction, §1 (pp.67–71), §4.4 (97–98), §5 (98–99); selected passages elsewhere.",
+        "sr": "CMU kopija časopisa: sažetak/uvod, §1 (str.67–71), §4.4 (97–98), §5 (98–99); izabrani drugi pasusi."
+      },
+      "limit": {
+        "en": "Historical formal analysis with examples, not proof that every diagram teaches better; no full model or figure audit.",
+        "sr": "Istorijska formalna analiza sa primerima, ne dokaz da svaki dijagram bolje podučava; bez potpune provere modela ili slika."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-THINK-02",
+      "title": "Ainsworth · DeFT: A conceptual framework for learning with multiple representations",
+      "url": "https://www.researchgate.net/profile/Shaaron-Ainsworth/publication/222410911_DeFT_A_conceptual_framework_for_learning_with_multiple_representations_Learning_and_Instruction_16_183-198/links/5ea69ecb45851553fab2dd69/DeFT-A-conceptual-framework-for-learning-with-multiple-representations-Learning-and-Instruction-16-183-198.pdf",
+      "date": "2006",
+      "tag": "learning",
+      "summary": {
+        "en": "Relating several representations is itself a learning task; more views are not automatically easier.",
+        "sr": "Povezivanje više predstava samo je zadatak učenja; više prikaza nije automatski lakše."
+      },
+      "scope": {
+        "en": "Author preprint: introduction, §§2, 3.2, 5, 6, 7.1, 7.5, 8–9 in full; parts of §§3.1, 4, 7.2, 7.4.",
+        "sr": "Autorski preprint: uvod, §§2, 3.2, 5, 6, 7.1, 7.5, 8–9 celi; delovi §§3.1, 4, 7.2, 7.4."
+      },
+      "limit": {
+        "en": "Conceptual framework and narrative review; cited experiments were not independently read. Not a current consensus review or evaluation of this studio.",
+        "sr": "Konceptualni okvir i narativni pregled; citirani eksperimenti nisu nezavisno pročitani. Nije pregled sadašnjeg konsenzusa ili procena ovog studija."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-THINK-03",
+      "title": "Parnas · On the Criteria To Be Used in Decomposing Systems into Modules",
+      "url": "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas.html",
+      "date": "1972",
+      "tag": "learning",
+      "summary": {
+        "en": "A module can hide a design decision behind a stable interface, limiting the reach of a change.",
+        "sr": "Modul može sakriti projektnu odluku iza stabilnog interfejsa i ograničiti posledice promene."
+      },
+      "scope": {
+        "en": "Lafayette HTML transcription: modularization, both KWIC designs/comparison, criteria, circular-shift improvement, efficiency, hierarchy and conclusion.",
+        "sr": "Lafayette HTML transkripcija: modularizacija, oba KWIC rešenja/poređenje, kriterijumi, izmena pomeranja, efikasnost, hijerarhija i zaključak."
+      },
+      "limit": {
+        "en": "Historical software-design argument. Transcription accuracy was not checked against the original print; not an educational trial or a claim that every physical part is a software module.",
+        "sr": "Istorijski argument o softverskom dizajnu. Tačnost transkripcije nije proverena prema originalnom otisku; nije nastavni eksperiment niti tvrdnja da je svaki fizički deo softverski modul."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-THINK-04",
+      "title": "Simon · The Architecture of Complexity",
+      "url": "https://web.mit.edu/6.033/2007/wwwdocs/papers/protected/simon-complexity.pdf",
+      "date": "1962",
+      "tag": "learning",
+      "summary": {
+        "en": "Useful system boundaries depend on interactions; a hierarchy does not make parts independent.",
+        "sr": "Korisne granice sistema zavise od međuveza; hijerarhija ne čini delove nezavisnim."
+      },
+      "scope": {
+        "en": "Public MIT reprint: introduction/hierarchy pp.467–468; near decomposability and limits pp.474–475; state/process descriptions p.479.",
+        "sr": "Javna MIT kopija: uvod/hijerarhija str.467–468; približna razloživost i granice str.474–475; opisi stanja/procesa str.479."
+      },
+      "limit": {
+        "en": "Selected sections of a historical theoretical paper. Our shared-panel counting example does not establish its dynamical claims. Hosting is not MIT endorsement.",
+        "sr": "Izabrani delovi istorijskog teorijskog rada. Naš primer brojanja zajedničkog panela ne dokazuje njegove dinamičke tvrdnje. Hostovanje ne znači podršku MIT-a."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-THINK-05",
+      "title": "Wilensky & Resnick · Thinking in Levels",
+      "url": "https://ccl.northwestern.edu/1999/Wilensky%26Resnick_ThinkingLevels.pdf",
+      "date": "1999",
+      "tag": "learning",
+      "summary": {
+        "en": "An individual moving forward and a traffic-jam pattern moving backward require different levels of description.",
+        "sr": "Pojedinac koji ide napred i talas zastoja koji ide unazad traže različite nivoe opisa."
+      },
+      "scope": {
+        "en": "Introduction/traffic pp.3–4; level distinctions pp.4–5; StarLogo and case introductions pp.6–7; discussion/limits pp.16–17.",
+        "sr": "Uvod/saobraćaj str.3–4; razlika nivoa str.4–5; StarLogo i uvodi slučajeva str.6–7; rasprava/granice str.16–17."
+      },
+      "limit": {
+        "en": "Conceptual argument with three informal cases, not a controlled experiment. Case narratives were not read in full; no original software was run.",
+        "sr": "Konceptualni argument sa tri neformalna slučaja, ne kontrolisani eksperiment. Slučajevi nisu pročitani u celini; izvorni softver nije pokretan."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-THINK-06",
+      "title": "Weintrop et al. · Defining Computational Thinking for Mathematics and Science Classrooms",
+      "url": "https://ccl.northwestern.edu/2015/Weintrop%20et%20al.%20-%202015%20-%20Defining%20Computational%20Thinking%20for%20Mathematics%20an.pdf",
+      "date": "2016 · online 2015",
+      "tag": "learning",
+      "summary": {
+        "en": "Data, models, computational problem solving and systems thinking are connected practices, not four prescribed course stages.",
+        "sr": "Podaci, modeli, računarsko rešavanje problema i sistemsko mišljenje povezane su prakse, ne četiri propisana koraka kursa."
+      },
+      "scope": {
+        "en": "Selected text: pp.127–128, methods pp.132/134, categories p.134, modeling pp.137–138, systems pp.140–142.",
+        "sr": "Izabrani tekst: str.127–128, metode str.132/134, kategorije str.134, modelovanje str.137–138, sistemi str.140–142."
+      },
+      "limit": {
+        "en": "Taxonomy developed from literature, classroom activities and professional interviews in a high-school maths/science context. Not a causal evaluation of this studio or a full-paper review.",
+        "sr": "Taksonomija izvedena iz literature, nastavnih aktivnosti i stručnih intervjua u kontekstu srednjoškolske matematike/prirodnih nauka. Nije uzročna procena ovog studija ili pregled celog rada."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-THINK-07",
+      "title": "Brennan & Resnick · New frameworks for studying and assessing the development of computational thinking",
+      "url": "https://scratched.gse.harvard.edu/ct/files/AERA2012.pdf",
+      "date": "2012",
+      "tag": "learning",
+      "summary": {
+        "en": "Concepts, practices and perspectives complement each other. A finished project alone does not reveal understanding or independent contribution.",
+        "sr": "Pojmovi, prakse i perspektive dopunjuju se. Gotov projekat sam ne otkriva razumevanje ili samostalan doprinos."
+      },
+      "scope": {
+        "en": "Institutional PDF pp.1–15 of 25: all three framework dimensions and portfolio-analysis limitations, especially p.15; later assessment details unread.",
+        "sr": "Institucionalni PDF str.1–15 od 25: sve tri dimenzije i ograničenja analize portfolija, posebno str.15; kasniji detalji procene nisu pročitani."
+      },
+      "limit": {
+        "en": "AERA framework paper informed by Scratch observations and interviews, not a randomized trial or proof of transfer to architecture/civil students. Figures not visually audited.",
+        "sr": "AERA rad o okviru zasnovan na Scratch posmatranjima i intervjuima, ne randomizovan eksperiment ili dokaz prenosa na studente arhitekture/građevine. Slike nisu vizuelno proverene."
+      },
+      "checked": "2026-10-04"
     }
   ]
 }

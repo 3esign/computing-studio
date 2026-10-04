@@ -7,12 +7,17 @@
       "sr": "Jedan sistem. Četiri načina."
     },
     "description": {
-      "en": "Modular, algorithmic, procedural and parametric design: change an input, inspect the rule, keep a record.",
-      "sr": "Modularni, algoritamski, proceduralni i parametarski dizajn: promeni ulaz, proveri pravilo, sačuvaj zapis."
+      "en": "Start with one panel record, connect drawing and data, then follow a rule into a changing system. Explore four design approaches when ready.",
+      "sr": "Počni od zapisa jednog panela, poveži crtež i podatke, pa prati pravilo do promenljive celine. Zatim istraži četiri pristupa dizajnu."
     },
     "href": "lab/dizajn/index.html",
     "tag": "geometry",
-    "language": "EN / SR"
+    "language": "EN / SR",
+    "limit": {
+      "en": "Teaching geometry and quantities; no connection strength, structural approval or manufacturing validation.",
+      "sr": "Nastavna geometrija i količine; bez čvrstine spojeva, potvrde konstrukcije ili provere proizvodnje."
+    },
+    "beginnerHref": "lab/dizajn/start.html#context"
   },
   {
     "id": "code",
@@ -27,7 +32,11 @@
     },
     "href": "lab/kod/index.html",
     "tag": "code",
-    "language": "EN / SR"
+    "language": "EN / SR",
+    "limit": {
+      "en": "The instruments expose selected calculations and traces; they are not a general student-code editor or a debugger for arbitrary programs.",
+      "sr": "Instrumenti prikazuju izabrane račune i tragove; nisu opšti editor studentskog koda ili debugger proizvoljnog programa."
+    }
   },
   {
     "id": "giza",
@@ -42,7 +51,11 @@
     },
     "href": "lab/giza/index.html",
     "tag": "history",
-    "language": "EN / SR"
+    "language": "EN / SR",
+    "limit": {
+      "en": "Invented cells and work assumptions; neither a historical reconstruction nor a verified building process.",
+      "sr": "Izmišljene ćelije i pretpostavke rada; nisu istorijska rekonstrukcija ili potvrđen postupak građenja."
+    }
   },
   {
     "id": "studio",
@@ -57,7 +70,11 @@
     },
     "href": "lab/studio3000/index.html",
     "tag": "geometry",
-    "language": "EN / SR"
+    "language": "EN / SR",
+    "limit": {
+      "en": "Idealised geometry and cantilever calculations within the stated assumptions; no real structural design check.",
+      "sr": "Idealizovana geometrija i račun konzole u navedenim pretpostavkama; bez provere stvarne konstrukcije."
+    }
   },
   {
     "id": "mesh",
@@ -72,7 +89,11 @@
     },
     "href": "lab/mrezar/index.html",
     "tag": "geometry",
-    "language": "EN / SR"
+    "language": "EN / SR",
+    "limit": {
+      "en": "A discretised geometric representation; a finer mesh does not establish measured accuracy or constructability.",
+      "sr": "Diskretizovan geometrijski prikaz; gušća mreža ne potvrđuje izmerenu tačnost ili izvodljivost."
+    }
   },
   {
     "id": "truss",
@@ -87,7 +108,11 @@
     },
     "href": "lab/resetka/index.html",
     "tag": "civil",
-    "language": "EN / SR"
+    "language": "EN / SR",
+    "limit": {
+      "en": "An ideal plane-truss model under stated supports and loads; no member, joint or code-compliance approval.",
+      "sr": "Idealna ravanska rešetka uz zadate oslonce i sile; bez potvrde štapova, spojeva ili usklađenosti sa propisima."
+    }
   },
   {
     "id": "path",
@@ -102,7 +127,11 @@
     },
     "href": "lab/panika/index.html",
     "tag": "process",
-    "language": "EN / SR"
+    "language": "EN / SR",
+    "limit": {
+      "en": "Weighted grid paths; no calibrated crowd dynamics, evacuation time or safety assessment.",
+      "sr": "Ponderisane putanje na mreži; bez kalibrisane dinamike gužve, vremena evakuacije ili procene bezbednosti."
+    }
   },
   {
     "id": "slice",
@@ -117,6 +146,10 @@
     },
     "href": "lab/rezac/index.html",
     "tag": "making",
-    "language": "EN / SR"
+    "language": "EN / SR",
+    "limit": {
+      "en": "A teaching path preview, not a printer-ready file. A real process needs machine-specific preparation and verification.",
+      "sr": "Nastavni prikaz putanje, ne fajl spreman za štampač. Stvaran proces traži pripremu i proveru za konkretnu mašinu."
+    }
   }
 ]

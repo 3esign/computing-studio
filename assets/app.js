@@ -47,23 +47,40 @@
    'M40 60H130V102H215 M40 103H85V145H170 M130 60V145 M215 102V145';
    return `<svg viewBox="0 0 290 200" aria-hidden="true"><path d="M20 180H270M20 180V20" stroke="#c2c4c9" fill="none"/><path d="${path}" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="130" cy="102" r="5" fill="currentColor"/><text x="22" y="195" font-family="monospace" font-size="9" fill="#626772">${esc(id||tag.toUpperCase())} / RULE → TRACE</text></svg>`;
  }
- function labCard(l){return `<a class="lab-card" href="${esc(l.href)}"><span class="card-num">${esc(l.n)} / ${esc(l.tag.toUpperCase())}</span><div class="lab-graphic">${icon(l.tag,l.id)}</div><h2>${esc(tr(l.title))}</h2><p>${esc(tr(l.description))}</p><span class="card-bottom">${esc(l.language)} <b>↗</b></span></a>`;}
+ function labCard(l){return `<a class="lab-card" href="${esc(l.href)}"><span class="card-num">${esc(l.n)} / ${esc(l.tag.toUpperCase())}</span><div class="lab-graphic">${icon(l.tag,l.id)}</div><h2>${esc(tr(l.title))}</h2><p>${esc(tr(l.description))}</p>${l.limit?`<span class="model-limit">${esc(tr(l.limit))}</span>`:''}<span class="card-bottom">${esc(l.language)} <b>↗</b></span></a>`;}
  function hero(){
-   const input=$('#hero-n'),svg=$('#hero-shape');if(!input)return;
-   function draw(){
-     const n=Number(input.value),p=(x,y,z)=>[260+(x-y)*18,270+(x+y)*9-z*25];
-     const poly=points=>points.map(a=>p(...a).join(',')).join(' ');
-     let shapes='<path d="M35 282 260 395 485 282M260 395V20" stroke="#c6cddd" fill="none" stroke-dasharray="3 5"/>';
-     for(let k=0;k<n;k++){
-       const half=(2*(n-k)-1)/2,lo=k,hi=k+1;
-       shapes+=`<polygon points="${poly([[-half,half,lo],[half,half,lo],[half,half,hi],[-half,half,hi]])}" fill="#9cb0f2" stroke="#244ee8"/><polygon points="${poly([[half,-half,lo],[half,half,lo],[half,half,hi],[half,-half,hi]])}" fill="#7894ed" stroke="#244ee8"/><polygon points="${poly([[-half,-half,hi],[half,-half,hi],[half,half,hi],[-half,half,hi]])}" fill="#e6ebfd" stroke="#244ee8"/>`;
+   const stage=$('#representation-stage');if(!stage)return;
+   let view='drawing',layout=0,selected='P2';
+   function panelArea(panels) {
+     let area_m2 = 0;
+     for (const panel of panels) {
+       area_m2 += panel.width_m * panel.height_m;
      }
-     // Scale to a fixed specimen viewport as N changes; this is a diagram, not a physical scale.
-     svg.innerHTML=`<g transform="translate(0 ${n>5?65:10}) translate(260 200) scale(${n>5?.72:1}) translate(-260 -200)">${shapes}</g>`;
-     const total=n*(4*n*n-1)/3;
-     $('#hero-value').textContent=n;svg.setAttribute('aria-label',say(`Invented pyramid: ${n} square layers, ${total} cells.`,`Izmišljena piramida: ${n} kvadratnih slojeva, ${total} ćelija.`));
+     return area_m2;
    }
-   input.addEventListener('input',draw);draw();return draw;
+   function draw(){
+     const glass=layout===0?[0,1]:[0,5];
+     const panels=Array.from({length:6},(_,i)=>({id:'P'+(i+1),row:Math.floor(i/3)+1,column:i%3+1,type:glass.includes(i)?'glass':'solid',width_m:.6,height_m:.6}));
+     const num=n=>n.toLocaleString(lang==='sr'?'sr-Latn':'en',{maximumFractionDigits:2,minimumFractionDigits:2});
+     const material=t=>t==='glass'?say('Glass','Staklo'):say('Solid','Puno');
+     $('#specimen-layout').textContent=say('LAYOUT ','RASPORED ')+(layout?'B':'A');
+     $$('[data-view-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.viewMode===view)));
+     if(view==='drawing') {
+       stage.innerHTML=`<div class="facade-dimension"><span>←</span><span>3 × 600 mm = 1 800 mm</span><span>→</span></div><div class="facade-grid">${panels.map(p=>`<button class="facade-panel ${p.type}" data-panel="${p.id}" aria-pressed="${selected===p.id}" aria-label="${p.id}, ${material(p.type)}, ${say('row','red')} ${p.row}, ${say('column','kolona')} ${p.column}"><span>${p.id}</span><strong>${p.type==='glass'?'S':'P'}</strong><small>${material(p.type)}</small></button>`).join('')}</div><p class="diagram-caption">${say('600 × 600 mm per panel · no gaps or frame. Select a panel, then read its data.','600 × 600 mm po panelu · bez razmaka i okvira. Izaberi panel, pa pročitaj podatke.')}</p>`;
+       $$('[data-panel]').forEach(b=>b.onclick=()=>{selected=b.dataset.panel;draw();$$('[data-panel]').find(x=>x.dataset.panel===selected)?.focus();});
+     } else if(view==='data') {
+       stage.innerHTML=`<div class="specimen-table-wrap"><table class="specimen-table"><caption>${say('The same six panels. Dimensions in metres:','Istih šest panela. Mere u metrima:')}<br><code>width_m = 0.60 · height_m = 0.60</code></caption><thead><tr><th>ID</th><th>${say('Row','Red')}</th><th>${say('Column','Kolona')}</th><th>${say('Type','Tip')}</th></tr></thead><tbody>${panels.map(p=>`<tr class="${p.id===selected?'selected':''}"><th><button type="button" data-record="${p.id}" aria-pressed="${p.id===selected}">${p.id}</button></th><td>${p.row}</td><td>${p.column}</td><td>${material(p.type)}</td></tr>`).join('')}</tbody></table></div>`;
+       $$('[data-record]').forEach(b=>b.onclick=()=>{selected=b.dataset.record;draw();$$('[data-record]').find(x=>x.dataset.record===selected)?.focus();});
+     } else {
+       stage.innerHTML=`<p class="diagram-caption">${say('This JavaScript function calculates the area shown below from the six panel records.','Ova JavaScript funkcija računa prikazanu površinu iz šest zapisa panela.')}</p><pre class="specimen-code" tabindex="0" aria-label="JavaScript">${esc(panelArea.toString())}</pre><p class="diagram-caption">${say('The sum uses dimensions. It does not retain positions.','Zbir koristi dimenzije. Ne čuva položaje.')}</p>`;
+     }
+     $('#specimen-area').innerHTML=num(panelArea(panels))+' <small>m²</small>';
+     $('#specimen-summary').textContent=say('2 glass + 4 solid panels','2 staklena + 4 puna panela');
+     $('#specimen-insight').textContent=layout===0?say('Do the quantities tell you where each panel goes?','Govore li količine gde koji panel stoji?'):say('Same quantities. New arrangement. What did the sum leave out?','Iste količine. Novi raspored. Šta je zbir izostavio?');
+   }
+   $$('[data-view-mode]').forEach(b=>b.onclick=()=>{view=b.dataset.viewMode;draw();});
+   $('#change-layout').onclick=()=>{layout=1-layout;draw();};
+   draw();return draw;
  }
  function sessions(rows){
    const visible=rows.filter(x=>x.status==='published'||x.status==='held');
@@ -73,12 +90,18 @@
  async function home(){
    const [course,labs]=await Promise.all([get('course'),get('labs')]);
    const draw=hero();
-   currentRender=()=>{$('#featured-labs').innerHTML=labs.slice(0,3).map(labCard).join('');$('#home-record').innerHTML=sessions(course.sessions);draw?.();};
+   $('#question-code').addEventListener('input',()=>$('#question-code').removeAttribute('aria-invalid'));
+   currentRender=()=>{
+     const featured=['lab/dizajn/index.html','lab/kod/index.html','lab/resetka/index.html'].map(href=>labs.find(l=>l.href===href)).filter(Boolean);
+     $('#featured-labs').innerHTML=featured.map(labCard).join('');$('#home-record').innerHTML=sessions(course.sessions);
+     if(Array.isArray(course.learningPath))$('#home-path').innerHTML=course.learningPath.map((p,i)=>`<a class="learning-step" href="${esc(p.href)}"><span>0${i+1}</span><h3>${esc(tr(p.title))}</h3><p>${esc(tr(p.question))}</p><span class="step-action">${esc(tr(p.action))}</span><b aria-hidden="true">↗</b></a>`).join('');
+     draw?.();
+   };
    currentRender();
    $('#quick-open').addEventListener('submit',e=>{
      e.preventDefault();const id=$('#question-code').value.trim().toUpperCase();
      if(course.classQuestions.some(q=>q.id===id))location.href='cas.html#'+id;
-     else{$('#code-status').textContent=say('Use one of Q1, Q2, Q3, Q4, Q5 or Q6.','Koristi Q1, Q2, Q3, Q4, Q5 ili Q6.');$('#question-code').setAttribute('aria-invalid','true');}
+     else{$('#code-status').textContent=say('Choose a question: ','Izaberi pitanje: ')+course.classQuestions.map(q=>q.id).join(', ');$('#question-code').setAttribute('aria-invalid','true');}
    });
  }
  async function catalog(kind){
@@ -126,25 +149,26 @@
    const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(target){target.querySelector('details')?.setAttribute('open','');target.scrollIntoView({block:'start'});}
  }
  async function classroom(){
-   const course=await get('course'),questions=course.classQuestions;
+   const course=await get('course'),questions=[...course.classQuestions].sort((a,b)=>{const rank=q=>Number(q.id.slice(1))>=7?Number(q.id.slice(1))-7:Number(q.id.slice(1))+6;return rank(a)-rank(b);});
    let id=questions.some(q=>q.id===location.hash.slice(1))?location.hash.slice(1):questions[0].id;
    let revealed=false,chosen=null,remaining=90,timer=null,deadline=0;
    const saved=load('answers',{}),answers=saved&&typeof saved==='object'?saved:{};
    function render(){
      const q=questions.find(x=>x.id===id);
      $('#question-select').innerHTML=questions.map(x=>`<option value="${esc(x.id)}" ${id===x.id?'selected':''}>${esc(x.id+' · '+tr(x.title))}</option>`).join('');
-     const join=$('#question-qr');if(join){const image=join.querySelector('img');image.src='assets/qr/'+(/^Q[1-6]$/.test(id)?id:'start')+'.svg';image.alt=say('QR link for question ','QR veza za pitanje ')+id;const anchor=join.querySelector('a');anchor.href='https://3esign.github.io/computing-studio/cas.html#'+id;anchor.textContent='3esign.github.io/computing-studio/ · '+id;}
+     const join=$('#question-qr');if(join){const image=join.querySelector('img');image.src='assets/qr/'+(/^Q(?:[1-9]|1[0-2])$/.test(id)?id:'start')+'.svg';image.alt=say('QR link for question ','QR veza za pitanje ')+id;const anchor=join.querySelector('a');anchor.href='https://3esign.github.io/computing-studio/cas.html#'+id;anchor.textContent='3esign.github.io/computing-studio/ · '+id;}
      const answer=answers[id];chosen=Number.isInteger(answer?.choice)?answer.choice:null;
-     $('#question-stage').innerHTML=`<span class="qid">${esc(q.id)} / ${say('PREDICT → DISCUSS → CHECK','PREDVIDI → RAZGOVARAJ → PROVERI')}</span><h2 id="question-title">${esc(tr(q.title))}</h2><p class="question-prompt">${esc(tr(q.prompt))}</p><div class="choices" role="group" aria-label="${say('Your answer','Tvoj odgovor')}">${q.choices.map((c,i)=>`<button type="button" class="choice" data-choice="${i}" aria-pressed="${chosen===i}"><span>${String.fromCharCode(65+i)}</span>${esc(tr(c))}</button>`).join('')}</div><p class="response-status">${chosen===null?say('Choose privately. No answer is sent.','Izaberi samostalno. Odgovor se ne šalje.'):say('Your choice: ','Tvoj izbor: ')+String.fromCharCode(65+chosen)+say(' · stored on this device',' · sačuvano na uređaju')}</p><div class="actions"><button type="button" class="button primary" id="reveal">${revealed?say('Hide explanation','Sakrij objašnjenje'):say('Reveal explanation','Otkrij objašnjenje')}</button><a class="button" href="${esc(q.lab)}">${q.lab.startsWith('ideje.html')?say('Explore this idea','Istraži ideju'):say('Try the instrument','Probaj instrument')} ↗</a><button type="button" class="button" id="next-question">${say('Next question','Sledeće pitanje')} →</button></div><div class="feedback" ${revealed?'':'hidden'}><h3>${say('Reasoning','Objašnjenje')} · ${String.fromCharCode(65+q.answer)}</h3><p>${esc(tr(q.explanation))}</p><h3>${say('Change the question','Promeni pitanje')}</h3><p>${esc(tr(q.transfer))}</p></div><p id="share-result" class="micro"></p>`;
+     $('#question-stage').innerHTML=`<span class="qid">${esc(q.id)} / ${say('PREDICT → DISCUSS → CHECK','PREDVIDI → RAZGOVARAJ → PROVERI')}</span><h2 id="question-title">${esc(tr(q.title))}</h2><p class="question-prompt">${esc(tr(q.prompt))}</p><div class="choices" role="group" aria-label="${say('Your answer','Tvoj odgovor')}">${q.choices.map((c,i)=>`<button type="button" class="choice" data-choice="${i}" aria-pressed="${chosen===i}"><span>${String.fromCharCode(65+i)}</span>${esc(tr(c))}</button>`).join('')}</div><p class="response-status">${chosen===null?say('Choose privately. No answer is sent.','Izaberi samostalno. Odgovor se ne šalje.'):say('Your choice: ','Tvoj izbor: ')+String.fromCharCode(65+chosen)+say(' · stored on this device',' · sačuvano na uređaju')}</p><label class="reason-label" for="question-reason">${say('Explain your prediction · or write it on paper','Objasni predviđanje · ili zapiši na papiru')}</label><textarea id="question-reason" maxlength="3000" rows="3" placeholder="${say('I think this because…','Mislim tako zato što…')}">${esc(answers[id]?.reason||'')}</textarea><p id="reason-status" class="micro" role="status">${say('Your note stays in this browser.','Beleška ostaje u ovom pregledaču.')}</p><div class="actions"><button type="button" class="button primary" id="reveal">${revealed?say('Hide explanation','Sakrij objašnjenje'):say('Reveal explanation','Otkrij objašnjenje')}</button><a class="button" href="${esc(q.lab)}">${q.lab.startsWith('ideje.html')?say('Explore this idea','Istraži ideju'):say('Try the instrument','Probaj instrument')} ↗</a><button type="button" class="button" id="next-question">${say('Next question','Sledeće pitanje')} →</button></div><div class="feedback" ${revealed?'':'hidden'}><h3>${say('Reasoning','Objašnjenje')} · ${String.fromCharCode(65+q.answer)}</h3><p>${esc(tr(q.explanation))}</p><h3>${say('Change the question','Promeni pitanje')}</h3><p>${esc(tr(q.transfer))}</p></div><p id="share-result" class="micro"></p>`;
      $$('[data-choice]').forEach(b=>b.onclick=()=>{
-       chosen=Number(b.dataset.choice);answers[id]={firstChoice:Number.isInteger(answers[id]?.firstChoice)?answers[id].firstChoice:chosen,choice:chosen,at:new Date().toISOString()};
+       chosen=Number(b.dataset.choice);answers[id]={...answers[id],firstChoice:Number.isInteger(answers[id]?.firstChoice)?answers[id].firstChoice:chosen,choice:chosen,at:new Date().toISOString()};
        const ok=store('answers',answers);render();
        if(!ok)$('#question-stage .response-status').textContent=say('Your choice is shown but cannot be saved in this browser.','Izbor je prikazan, ali ne može biti sačuvan u ovom pregledaču.');
        $$('[data-choice]')[chosen]?.focus();
      });
+     $('#question-reason').oninput=e=>{answers[id]={...answers[id],reason:e.target.value,at:new Date().toISOString()};const ok=store('answers',answers);$('#reason-status').textContent=ok?say('Saved in this browser.','Sačuvano u ovom pregledaču.'):say('Could not save here. Download your reasoning to keep it.','Ovde nije moguće čuvanje. Preuzmi zapis da ga sačuvaš.');};
      $('#reveal').onclick=()=>{revealed=!revealed;render();$('#reveal').focus();};
      $('#next-question').onclick=()=>location.hash=questions[(questions.findIndex(x=>x.id===id)+1)%questions.length].id;
-     $('#presenter').textContent=document.body.classList.contains('presenting')?say('Leave projector view','Napusti prikaz za projektor'):say('Projector view','Prikaz za projektor');
+     $('#presenter').textContent=document.body.classList.contains('presenting')?say('Leave focus view','Vrati ceo prikaz'):say('Focus view','Izdvojen prikaz');
      clockText();
    }
    const clockText=()=>{$('#clock').textContent=String(Math.floor(remaining/60)).padStart(2,'0')+':'+String(remaining%60).padStart(2,'0');$('#timer-toggle').textContent=timer?say('Pause','Pauza'):say('Start','Pokreni');};
@@ -156,6 +180,7 @@
    $('#presenter').onclick=()=>{document.body.classList.toggle('presenting');render();};
    $('#share-question').onclick=async()=>{const u=new URL('cas.html',location.href);u.hash=id;const ok=await copy(u.href);$('#share-result').textContent=ok?say('Link copied: ','Veza kopirana: ')+u.href:u.href;};
    $('#print-question').onclick=()=>window.print();
+   $('#export-answers').onclick=()=>download('computing-studio-reasoning.json',{schema:1,kind:'local-question-notes',exported:new Date().toISOString(),answers});
    addEventListener('pagehide',pause);
    currentRender=render;render();
  }
@@ -228,7 +253,7 @@
    else if(view==='access')await access();
  }
  init().catch(e=>{
-   const target=$('#collection')||$('#session-list')||$('#question-stage')||$('#home-record')||$('#main');
+   const target=$('#collection')||$('#session-list')||$('#question-stage')||$('.hero-learning')||$('#main');
    const p=document.createElement('p');p.className='quiet-note error';p.textContent=say('The content could not be loaded. Reconnect and reload. The instruments remain available from the navigation. ','Sadržaj nije učitan. Poveži se i osveži stranicu. Instrumenti su dostupni kroz navigaciju. ')+e.message;target.append(p);
  });
 })();

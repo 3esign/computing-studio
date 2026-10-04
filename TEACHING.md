@@ -1,50 +1,60 @@
-# One teacher, a large room
+# Teaching with a phone and paper
 
-A proposed use pattern for Semir's reported cohort of about 400 Computing Basics students. This is not a formal syllabus or a validated capacity claim.
+[Guided beginning](lab/dizajn/start.html#context) · [English README](README.md) · [Srpski README](README.sr.md)
 
-## Before class
+A suggested exploration routine, not a formal syllabus, grading policy or record of classes held. No projector is required. Use a phone, a printed sheet or both. A shared phone can support discussion while each student keeps an individual prediction; agree an accessible alternative before the activity.
 
-Publish one entry point and the next question code. Save the site while connected before entering the room. Prepare projected text and print if useful; agree suitable accessible alternatives. QR supplements the written URL and Q-code. One phone per pair can serve an exploration, with a separate route for individual thinking.
+## Begin with one object
 
-## A short cycle
+The path is **record/context → representation → relations → rule → code → system**. Keep each element’s ID stable within an example. The six square facade panels and the later row of rectangular panels are different, explicitly dimensioned cases. Begin with “600”: which object, property, unit and origin make it useful? Do not introduce every stage in one meeting.
 
-1. Show a small input and ask each student to predict privately before running it.
-2. Let neighbours compare reasons; an individual written explanation is also valid.
-3. Invite reasons from different areas of the room. A few responses are not a measurement of all 400 students.
-4. Step the instrument; compare state, visible code and result.
-5. Change one condition and ask again before revealing the result.
-6. Revisit the concept later from memory on a fresh example. Immediate prediction and delayed retrieval are different activities.
+A matching question sequence is **Q7 → Q8 → Q10 → Q9**, then code/state questions and **Q11 → Q12**. Q1–Q6 retain their links. Numbers are stable references, not a compulsory order.
 
-Q2: translation then rotation moves (1,0) to (0,5); reversing the order gives (4,1). Ask which part of CAD operation order matters.
+## Predict → map → execute → transfer
 
-Q5: four fictional odd-width square layers contain 49+25+9+1=84 cells. One layer is 25% of height and about 58.3% of cells. Neither percentage measures human labour. Ask what changes when progress means height, cells or assumed weighted operations.
+1. **Predict:** record a result and reason before revealing the output.
+2. **Map:** identify the same element in drawing and data; name its unit, ID and relationship. Separate input from calculated result.
+3. **Execute:** follow a small rule and compare states. Locate the first difference, not just the final wrong number.
+4. **Transfer:** change one condition or use a fresh example. Explain before the second run.
 
-## Feedback at scale
+Return to the question or model when a check exposes a missing assumption. Give a worked starting example and a small set of operations. A beginner should not have to discover the tool, notation, geometry and success criterion simultaneously.
 
-Reuse a stable address and short question code. Sample explanations and group recurring misconceptions. Use the same instrument for projection and independent practice. The site collects no answers or assignments, so it cannot display a class histogram, attendance or marks. An identified submission workflow would need a separate choice and implementation; no institutional account is assumed and none is connected.
+## Small checks
 
-Future assessment ideas, outside the official course record: trace code before running; find a unit error; counterexample to an AI answer; change an assumption; separate model output from evidence. A possible rubric rewards **input → units → rule → result → check → limit**. No marks or grading scheme have been adopted.
+- **Q8:** two glass and four solid 600×600 mm panels give 0.72 + 1.44 = 2.16 m², but no unique layout. Add cell positions.
+- **Q9:** three 600 mm panels and two 20 mm gaps span 1840 mm. One panel spans 600 mm; four span 2460 mm. Assumptions: straight row, n≥1, no outer gaps.
+- **Q10:** in A B C / D E F, B has edge-neighbours A/C/E; E has B/D/F. Table reordering changes neither set.
+- **Q11:** P1/P2/P3 and P3/P4/P5 contain five unique panels, totalling 3.60 m². Increasing only P3 from 1.20 to 1.50 m high at width 0.60 m gives 2.34 m² per group and 3.78 m² for the whole.
+- **Q12:** correct execution of an area rule does not establish a price. Name the inputs required by the new question.
 
-## Research and its boundaries
+These are invented teaching models, not verified construction designs.
 
-The [learning sources](https://3esign.github.io/computing-studio/biblioteka.html?tag=learning) record the studies and limits. Smith et al. (2009) studies conceptual-question discussion; Deslauriers et al. (2011) a bundled one-week intervention; Karpicke and Blunt (2011) retrieval after learning. The BYOD comparison is observational with older data. None validates this site or guarantees outcomes here.
+## Save a version and reopen it
 
-[Giza](https://3esign.github.io/computing-studio/lab/giza/) separates Merer's transport record, archaeological/landscape interpretation and our invented model. Hatnub is not proof of the Great Pyramid's lifting method.
+Compare the original input, a changed working state and a reopened local version. Name which version is visible before interpreting its result. Check the available save/reopen route on the actual device: storage and downloads differ across browsers.
 
-## Srpski: praktičan dogovor
+A local answer, file or reopened result is not authenticated identity, attendance, a mark or a received assignment. The site has no submission or live-polling backend; teachers have no automatic access to private choices. Do not put personal data or grades into public course JSON. An approved submission process would require a separate decision and implementation.
 
-Pre časa: jedna adresa, Q1–Q6, čuvanje bez mreže i alternativni format. Na času: samostalno predviđanje → razlog u paru ili pisano → nekoliko objašnjenja → izvršavanje → izmenjeni primer. Kasnije: prisećanje na novom zadatku.
+## Optional depth and evidence
 
-Ne pregledamo ručno 400 odgovora u svakom koraku. Biramo razloge koji otkrivaju nesporazume, a sajt je zajednički instrument. Čuvanje odgovora na telefonu nije predaja nastavniku. Za stvarne ocene i predaju tek treba odabrati postupak.
+Use [Code](lab/kod/index.html) for selected traces, [Truss](lab/resetka/index.html) for a later model with stated assumptions, and [Shape → instructions](lab/rezac/index.html) for a teaching toolpath. [Four design approaches](lab/dizajn/index.html) connect parts, placement, reproducible variation and dependencies. These branches are not prerequisites for the first record. A preview is not manufacturing approval; an ideal truss is not a verified structure.
 
-Prvi pilot: različiti uređaji, veza iz više delova sale, projektor iz poslednjeg reda, tastatura i čitač ekrana prema potrebama, ponovno otvaranje bez mreže i razumljivost pitanja. Beleži konkretne prepreke; tehnički rad nije dokaz uspeha u učenju.
+The [learning library](biblioteka.html?tag=learning) distinguishes theories, frameworks, qualitative cases and experiments. Seven additional cards retain publication years and reading scopes. Our five new prompts are original adaptations, not MIT-endorsed exercises or proven interventions. A finished artefact alone does not establish independent understanding: ask for a prediction, a correction and a fresh case.
 
-## Four design approaches
+Pilot question clarity, physical phones, printing, keyboard access, assistive reading where needed, network behaviour and local/offline reopening. Sample explanations without treating a few responses as the whole group. Revisit a fresh problem later: immediate success and delayed recall are different observations. Technical operation does not establish learning impact.
 
-Use [the design instrument](lab/dizajn/index.html) to compare parts and joints, a placement rule, reproducible variation and dependent quantities. These are overlapping ways to describe a spatial system. Students can predict, change one input, inspect the real calculation function and export parameters with units, results and model version. The download is a local record, not a received or authenticated assignment.
+## Srpski: praktičan tok
 
-The [design idea cloud](ideje.html?tag=design) adds twelve optional prompts: joints, shared edges, fit, endpoint policy, objectives, greedy counterexamples, replay, facade grammar, rewriting, constrained widths, roof quantities and envelopes. Let architecture and civil engineering students explain the same rule through different contexts.
+Ovo je predlog istraživanja, ne silabus, pravilnik ocenjivanja ili evidencija održanih časova. Projektor nije potreban. Koristi telefon, papir ili oba; jedan telefon u paru može poslužiti razgovoru, uz zasebno predviđanje svakog studenta i dogovorenu pristupačnu alternativu.
 
-### Srpski: četiri pristupa
+Put je **zapis/kontekst → predstava → odnosi → pravilo → kod → sistem**. U svakom primeru sačuvaj ID elementa. Šest kvadratnih fasadnih panela i kasniji red pravougaonih panela jesu različiti primeri sa izričito datim merama. Počni od „600”: koji predmet, svojstvo, jedinica i poreklo daju značenje? Ne moraju svi koraci stati u jedan susret. Red pitanja može biti **Q7 → Q8 → Q10 → Q9**, zatim kod/stanje i **Q11 → Q12**. Q1–Q6 ostaju dostupna; brojevi nisu obavezan nastavni red.
 
-U novom instrumentu uporedi delove i spojeve, pravilo rasporeda, ponovljivu varijaciju i zavisne veličine. Pre pokretanja traži predviđanje, zatim promenu jednog ulaza i proveru rezultata. JSON čuva verziju modela i parametre na uređaju; nije potvrda predaje ili autorstva. Dvanaest novih predloga ostaje u oblaku ideja dok nastavnik ne izabere šta ulazi u tok predmeta.
+Ritam je **predvidi → poveži prikaze → izvedi → prenesi na novi slučaj**. Zapiši rezultat i razlog, pronađi isti element u crtežu i podacima, izvedi pravilo i lociraj prvi razlaz. Promeni uslov i objasni pre ponavljanja. Ako nedostaje pretpostavka, vratite se modelu. Daj razrađen početak, mali skup operacija i pomoć kada treba.
+
+Kontrole: Q8 ima 0,72 m² staklenih i 1,44 m² punih panela, ali zbir ne čuva raspored. Q9 daje 1840 mm za tri, 600 mm za jedan i 2460 mm za četiri panela, uz navedene pretpostavke. U Q10 susedi B su A/C/E, a E su B/D/F. Q11 ima pet jedinstvenih panela, ukupno 3,60 m²; viši P3 daje po 2,34 m² u grupama i 3,78 m² u celini. Q12 razlikuje tačan račun od dovoljnosti modela za cenu. Brojevi i pravila su školski, bez potvrde stvarne gradnje.
+
+Sačuvaj lokalnu verziju, promeni radno stanje i ponovo otvori zapis. Imenuj verziju koju gledaš. Proveri tok na konkretnom uređaju. Odgovor, fajl ili ponovno otvaranje nisu potvrda identiteta, prisustva, ocene ili prijema rada. Nastavnik nema automatski uvid u privatne izbore; nema servera za predaju/glasanje. Privatni podaci i ocene ne idu u javni JSON.
+
+Kasnije grane su [Kod](lab/kod/index.html), [Rešetka](lab/resetka/index.html), [Oblik → naredbe](lab/rezac/index.html) i [četiri pristupa dizajnu](lab/dizajn/index.html). Nisu uslov za početak. [Biblioteka](biblioteka.html?tag=learning) navodi vrstu dokaza, godinu i stvarni obim čitanja; zadaci su naše adaptacije, bez MIT-ove preporuke ili dokazanog lokalnog učinka.
+
+Za pilot proveri razumljivost, stvarne telefone, štampu, tastaturu/pristupačnost, mrežu i otvaranje lokalnog/offline zapisa. Traži predviđanje, ispravku i nov slučaj; dopadljiv završni rad nije ceo dokaz razumevanja. Kasniji zadatak iz sećanja proverava nešto drugo od neposrednog uspeha.

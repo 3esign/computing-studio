@@ -1,41 +1,45 @@
 # Computing Studio
 
-[Open the site](https://3esign.github.io/computing-studio/) · [Srpski](README.sr.md)
+[Open the site](https://3esign.github.io/computing-studio/) · [Start with one record](lab/dizajn/start.html#context) · [Srpski](README.sr.md)
 
-Computing made visible for first-year architecture and civil engineering. A teaching resource by **Semir Poturak**, Union — Nikola Tesla University, Belgrade. English and Serbian interfaces.
+Computing through architecture and civil engineering: a small object that students can describe, change and check. A teaching resource by **Semir Poturak**, Union — Nikola Tesla University, Belgrade. English and Serbian interfaces.
 
-## Three kinds of material
+## A connected beginning
 
-- **Course record:** the teacher's published topics, actual classes and tasks. It intentionally starts empty. No class dates, exam dates or assessment rules have been invented.
-- **Instruments:** eight working browser laboratories covering code traces, spatial transforms, quantities, construction scheduling, an invented stepped pyramid, geometry, trusses, routes and slicing. Models state their assumptions and limits.
-- **Idea cloud:** 66 open explorations and 57 source cards, including research on large classes and Giza, plus twelve design prompts and six design sources. A repertoire, not an approved syllabus.
+Follow **record/context → representation → relations → rule → code → system**. Start with a number and its meaning, connect drawing and table, distinguish a neighbour from the next row, count internal gaps, follow an execution and inspect a change to the whole. Predict before running and try a new case. This is an exploration path, not an approved syllabus or a claim of MIT equivalence or endorsement.
 
-The new [design instrument](lab/dizajn/index.html) connects modular parts, algorithmic placement, seeded procedures and parameter dependencies. Read the actual calculation function, inspect result rows and download a local JSON record. Its four approaches overlap; its geometric outputs are not engineering validation.
+The guided entrance belongs to the existing Design laboratory. The studio has **8 laboratories, 12 questions, 71 open ideas and 64 source cards**. The course record remains empty until the teacher publishes actual topics or classes. No dates, marks or assessment rules are invented.
 
-## Phones in class
+[Four design approaches](lab/dizajn/index.html) remain available. Later branches include [Code](lab/kod/index.html), [Truss](lab/resetka/index.html) and [Shape → instructions](lab/rezac/index.html). Models state their limits: a geometric result is not engineering approval, and a teaching toolpath is not a manufacturing file.
 
-Q1–Q6 have shareable URLs, local QR images, projector view, a timer, printable questions, private choices and revealable explanations. A changed case follows each explanation. Answers remain on the student's device: this is **not a live polling or assignment submission system**. [TEACHING.md](TEACHING.md) explains the proposed large-room routine.
+## Phone, paper and local work
 
-The access page explicitly saves an offline snapshot. External references are not downloaded. Browser storage may be evicted; test reopening before class.
+Begin at [Q7](cas.html#Q7); Q1–Q6 retain their URLs. Predict on paper or a phone, map an element between views, execute a rule and explain a changed case. No projector is required. [TEACHING.md](TEACHING.md) gives the bilingual routine and worked checks.
 
-## Edit content without redesigning
+Keep a local version and test reopening on the actual device. A private answer or saved file is not verified identity, attendance, a mark or submission to the teacher. This site has no live-polling or submission backend. The access page saves an offline snapshot; external sources are not downloaded and browser storage may be evicted. Check reopening before relying on it.
 
-The teacher's desk provides a form and preview. Download the validated JSON and replace data/course.json in this repository. Downloading does not publish; publication requires repository write access.
+## Sources and original ideas
+
+The [learning library](biblioteka.html?tag=learning) distinguishes theory, frameworks, qualitative cases and experiments. Cards give publication dates, versions, reading scope and limits. Historical papers inform questions; they do not establish current consensus or validate this studio. Our new prompts explore layout versus totals, adjacency, stable interfaces, shared identity and replayable instructions.
+
+## Edit content
+
+The teacher's desk previews and downloads course JSON. Downloading does not publish: repository write access is needed to replace the file and release a change.
 
 | File | Purpose |
 |---|---|
-| data/course.json | Topics, questions and conceptual routes |
-| data/ideas.json | Open prompts, sources and boundaries |
+| data/course.json | Course record, questions, learning path and foundations |
+| data/ideas.json | Optional prompts, sources and boundaries |
 | data/sources.json | Provenance, reading scope and limits |
-| data/labs.json | Laboratory index |
-| assets/site.css | Shared identity and responsive layout |
-| lab/ | Self-contained instruments |
+| data/labs.json | Eight laboratories, guided entrance and model limits |
+| assets/site.css | Shared layout and visual identity |
+| lab/ | Browser instruments |
 
-Topic status: draft, published or held. Only published/held appear in the student course record; held requires its real date. **All files in this public repository, including drafts in JSON, remain publicly readable.** Never add confidential drafts, names, marks or student submissions. Use both en/sr text and stable IDs.
+Use stable IDs and both en/sr texts. Topic statuses remain draft, published or held; held needs its real date. Only published/held appear in the student record, but **all repository files, including draft JSON, are public**. Never add names, confidential drafts, marks or student submissions.
 
 ## Preview and release
 
-Requires Node.js, with no added packages:
+Node.js, with no added packages:
 
     node tools/serve.cjs
     node tools/check.cjs
@@ -43,14 +47,12 @@ Requires Node.js, with no added packages:
     node tests/giza.test.cjs
     node tests/dizajn.test.cjs
 
-After edits:
+After content changes:
 
     node tools/build-offline.cjs
 
-Review the files, commit and push to main. GitHub Pages serves the repository root; preview mirrors its /computing-studio/ subdirectory. The offline list must be rebuilt after content changes.
-
-No login, analytics, CDN scripts, remote fonts or submission backend. Browser state stays local. The host still receives ordinary web requests. No API keys are required. Each source card records what was actually read; linking a tool does not mean it was installed or tested.
+Review and verify before committing and publishing. GitHub Pages serves the repository root; preview mirrors its /computing-studio/ subdirectory. No login, analytics, CDN scripts, remote fonts or API keys are required. Browser state stays local; the host receives ordinary web requests.
 
 ## Verification limits
 
-Numerical tests, responsive browser checks and offline reopening accompany this release. Desktop emulation is not a physical phone test. Educational impact, screen-reader usability, Safari and the room's Wi-Fi with 400 simultaneous students need a local pilot. The fictional pyramid is not a historical reconstruction or engineering design.
+Check numerical behaviour, links, responsive layout and offline/local reopening for each release. Desktop emulation does not replace a physical-phone check. Learning impact, assistive reading, browser differences and classroom connectivity need a local pilot. Linking a tool does not mean its software was installed or tested.

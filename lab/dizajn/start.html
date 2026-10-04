@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f1e8">
+  <meta name="description" content="A guided first encounter with computing: give a number meaning, connect representations, write a rule and inspect real execution.">
+  <title>From a number to a system · Computing Studio</title>
+  <link rel="stylesheet" href="start.css">
+  <script src="learning-model.js" defer></script>
+  <script src="start.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#lesson-title" data-en="Skip to the current step" data-sr="Pređi na trenutni korak">Skip to the current step</a>
+  <header class="masthead">
+    <a class="wordmark" href="../../index.html">Computing Studio<span data-en="Design / first encounter" data-sr="Dizajn / prvi susret">Design / first encounter</span></a>
+    <div class="header-actions"><a href="index.html" data-en="Full instrument ↗" data-sr="Ceo instrument ↗">Full instrument ↗</a><button id="language" type="button" aria-label="Prikaži na srpskom">SR</button></div>
+  </header>
+  <main>
+    <header class="intro">
+      <p class="eyebrow" data-en="A SMALL OBJECT. A WAY OF THINKING." data-sr="MALI PREDMET. NAČIN MIŠLJENJA.">A SMALL OBJECT. A WAY OF THINKING.</p>
+      <h1 data-en="From a number to a system." data-sr="Od broja do sistema.">From a number to a system.</h1>
+      <p data-en="Make a description you can explain, change and check. Start with one number; take one step at a time." data-sr="Napravi opis koji umeš da objasniš, promeniš i proveriš. Počni jednim brojem; idi korak po korak.">Make a description you can explain, change and check. Start with one number; take one step at a time.</p>
+    </header>
+    <nav class="journey" id="journey" aria-label="Learning steps"></nav>
+    <section class="lesson" aria-labelledby="lesson-title">
+      <header class="lesson-heading"><div><p class="eyebrow" id="step-number">01 / 06</p><h2 id="lesson-title" tabindex="-1">What does 600 tell you?</h2></div><button id="print" class="quiet" type="button" data-en="Print this step" data-sr="Odštampaj ovaj korak">Print this step</button></header>
+      <p id="lesson-lead" class="lead">A number needs a name, a unit and a context before it can answer a useful question.</p>
+      <div id="lesson-body"></div>
+      <div class="step-controls"><button id="previous" class="quiet" type="button" data-en="← Previous" data-sr="← Prethodni">← Previous</button><span id="step-position"></span><button id="next" class="primary" type="button" data-en="Next step →" data-sr="Sledeći korak →">Next step →</button></div>
+    </section>
+    <section class="notebook" aria-labelledby="notebook-title">
+      <div class="notebook-heading"><div><p class="eyebrow" data-en="YOUR LOCAL NOTEBOOK" data-sr="TVOJA LOKALNA BELEŽNICA">YOUR LOCAL NOTEBOOK</p><h2 id="notebook-title" data-en="Keep a record of your thinking." data-sr="Sačuvaj trag svog razmišljanja.">Keep a record of your thinking.</h2></div><span id="storage-status" class="minor" role="status"></span></div>
+      <label for="reflection" data-en="What changed? What did you check? What is still uncertain?" data-sr="Šta se promenilo? Šta si proverio? Šta je još neizvesno?">What changed? What did you check? What is still uncertain?</label>
+      <textarea id="reflection" rows="3" maxlength="1500"></textarea>
+      <p class="minor" data-en="Predictions, notes, inputs and code stay on this device. A JSON file can reopen your work here. It is a local record, not a submission, attendance check or grade." data-sr="Predviđanja, beleške, ulazi i kod ostaju na ovom uređaju. JSON fajl može ovde ponovo otvoriti rad. To je lokalni zapis, ne predaja, provera prisustva ili ocena.">Predictions, notes, inputs and code stay on this device. A JSON file can reopen your work here. It is a local record, not a submission, attendance check or grade.</p>
+      <div class="file-actions"><button id="download" class="primary" type="button" data-en="Save JSON ↓" data-sr="Sačuvaj JSON ↓">Save JSON ↓</button><label class="file-label" for="import-file" data-en="Open a saved JSON" data-sr="Otvori sačuvan JSON">Open a saved JSON</label><input id="import-file" type="file" accept=".json,application/json"><button id="reset" class="quiet" type="button" data-en="Start a fresh notebook" data-sr="Počni novu beležnicu">Start a fresh notebook</button></div>
+      <p id="file-status" role="status"></p>
+      <div id="import-review" class="import-review" hidden><p id="import-description"></p><button id="apply-import" class="primary" type="button" data-en="Replace this notebook with the checked file" data-sr="Zameni ovu beležnicu proverenim fajlom">Replace this notebook with the checked file</button><button id="cancel-import" class="quiet" type="button" data-en="Keep current work" data-sr="Zadrži trenutni rad">Keep current work</button></div>
+      <div id="reset-review" class="import-review" hidden><p data-en="This clears this notebook on this device. Save a JSON first if you want to keep it." data-sr="Ovo prazni ovu beležnicu na ovom uređaju. Prvo sačuvaj JSON ako želiš da zadržiš rad.">This clears this notebook on this device. Save a JSON first if you want to keep it.</p><button id="confirm-reset" class="primary" type="button" data-en="Clear and start again" data-sr="Očisti i počni ponovo">Clear and start again</button><button id="cancel-reset" class="quiet" type="button" data-en="Keep current work" data-sr="Zadrži trenutni rad">Keep current work</button></div>
+    </section>
+    <noscript><section class="paper-fallback"><h2>On paper / Na papiru</h2><p>Write 600. What does it describe? Now add: P1, panel width, 600 mm, teaching brief v1. What can you infer? Which measurements are still missing?</p><p>Zapiši 600. Šta opisuje? Dodaj: P1, širina panela, 600 mm, nastavni zadatak v1. Šta sada možeš zaključiti? Koje mere još nedostaju?</p><p>Interactive steps need JavaScript. / Interaktivni koraci zahtevaju JavaScript.</p></section></noscript>
+  </main>
+  <footer><p data-en="Geometric teaching models. No structural, material or construction validation." data-sr="Geometrijski nastavni modeli. Bez provere konstrukcije, materijala ili izvođenja.">Geometric teaching models. No structural, material or construction validation.</p><div><a href="index.html" data-en="Explore the four Design approaches ↗" data-sr="Istraži četiri pristupa Dizajnu ↗">Explore the four Design approaches ↗</a><a href="README.md" data-en="How this works & limits" data-sr="Kako radi i gde su granice">How this works & limits</a></div></footer>
+  <p id="announcements" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+</body>
+</html>

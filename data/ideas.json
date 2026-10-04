@@ -1618,6 +1618,149 @@
         "url": "https://www.liverpool.ac.uk/archaeology-classics-and-egyptology/blog/2018/hatnub/",
         "title": "New texts from an old site: discoveries from the September 2018 season at the Hatnub alabaster quarries"
       }
+    },
+    {
+      "id": "thinking-layout",
+      "tag": "learning",
+      "status": "idea",
+      "title": {
+        "en": "A total cannot rebuild a facade",
+        "sr": "Zbir ne može da vrati fasadu"
+      },
+      "description": {
+        "en": "Our exercise: give a partner quantities without positions and discover which information was lost.",
+        "sr": "Naša vežba: predaj kolegi količine bez položaja i otkrij koja informacija je izgubljena."
+      },
+      "try": {
+        "en": "Arrange six 600×600 mm panels in a 2×3 grid: two glass, four solid. Make two layouts with the same 2.16 m² total; only one has glass panels sharing an edge. Add the smallest record that distinguishes your layouts.",
+        "sr": "Rasporedi šest panela 600×600 mm u mrežu 2×3: dva staklena i četiri puna. Napravi dva rasporeda sa istih 2,16 m²; samo u jednom stakla dele ivicu. Dodaj najmanji zapis koji razlikuje tvoje rasporede."
+      },
+      "boundary": {
+        "en": "Original synthetic exercise without gaps, frames or material-performance claims. These sources motivate representation questions; they do not validate this activity.",
+        "sr": "Originalna sintetička vežba bez razmaka, rama ili tvrdnji o svojstvima materijala. Izvori podstiču pitanja o predstavi; ne potvrđuju ovu aktivnost."
+      },
+      "sourceIds": [
+        "OR-THINK-01",
+        "OR-THINK-02"
+      ],
+      "source": {
+        "url": "https://iiif.library.cmu.edu/file/Simon_box00068_fld05250_bdl0001_doc0001/Simon_box00068_fld05250_bdl0001_doc0001.pdf",
+        "title": "Larkin & Simon · Why a Diagram is (Sometimes) Worth Ten Thousand Words"
+      }
+    },
+    {
+      "id": "thinking-adjacency",
+      "tag": "learning",
+      "status": "idea",
+      "title": {
+        "en": "Shuffle the table, keep the neighbours",
+        "sr": "Promešaj tabelu, sačuvaj susede"
+      },
+      "description": {
+        "en": "Our exercise separates where records are stored from the relationships they describe.",
+        "sr": "Naša vežba razdvaja redosled čuvanja zapisa od odnosa koje opisuju."
+      },
+      "try": {
+        "en": "Use A B C / D E F with edge-only adjacency. List the records as F,A,D,C,B,E. Find B’s neighbours (A,C,E), reorder the table and explain why that set stays fixed.",
+        "sr": "Uzmi A B C / D E F, gde susedi dele ivicu. Zapiši redove kao F,A,D,C,B,E. Pronađi susede B (A,C,E), preuredi tabelu i objasni zašto taj skup ostaje isti."
+      },
+      "boundary": {
+        "en": "Coordinates and the adjacency rule are explicit teaching assumptions. Corner contact is excluded; this is not a pedestrian-route model.",
+        "sr": "Koordinate i pravilo susedstva su eksplicitne nastavne pretpostavke. Dodir uglom je isključen; ovo nije model pešačkih putanja."
+      },
+      "sourceIds": [
+        "OR-THINK-01",
+        "OR-THINK-02"
+      ],
+      "source": {
+        "url": "https://iiif.library.cmu.edu/file/Simon_box00068_fld05250_bdl0001_doc0001/Simon_box00068_fld05250_bdl0001_doc0001.pdf",
+        "title": "Larkin & Simon · Why a Diagram is (Sometimes) Worth Ten Thousand Words"
+      }
+    },
+    {
+      "id": "thinking-interface",
+      "tag": "learning",
+      "status": "idea",
+      "title": {
+        "en": "Change the storage, keep the promise",
+        "sr": "Promeni zapis, sačuvaj dogovor"
+      },
+      "description": {
+        "en": "Our exercise assigns data, calculation and drawing to three people with an agreed exchange format.",
+        "sr": "Naša vežba dodeljuje podatke, račun i crtež trima osobama uz dogovoren format razmene."
+      },
+      "try": {
+        "en": "Return ID/width_m/height_m for three 600×1200 mm panels with 20 mm internal gaps. Change internal storage from mm to m while keeping the exchange in metres. Check positions 0,0.62,1.24 m, width 1.84 m and panel area 2.16 m².",
+        "sr": "Vraćaj ID/širina_m/visina_m za tri panela 600×1200 mm sa unutrašnjim razmacima 20 mm. Promeni unutrašnji zapis iz mm u m, a razmenu zadrži u metrima. Proveri položaje 0;0,62;1,24 m, širinu 1,84 m i površinu panela 2,16 m²."
+      },
+      "boundary": {
+        "en": "Our analogy for responsibility and interfaces, not a claim that any three-stage pipeline achieves information hiding. Unknown IDs and missing dimensions need explicit errors.",
+        "sr": "Naša analogija odgovornosti i interfejsa, ne tvrdnja da svaka podela na tri faze postiže skrivanje informacija. Nepoznati ID i nedostajuća mera traže eksplicitnu grešku."
+      },
+      "sourceIds": [
+        "OR-THINK-03"
+      ],
+      "source": {
+        "url": "https://www.cs.lafayette.edu/~gexia/cs301/resources/parnas.html",
+        "title": "Parnas · On the Criteria To Be Used in Decomposing Systems into Modules"
+      }
+    },
+    {
+      "id": "thinking-shared-panel",
+      "tag": "learning",
+      "status": "idea",
+      "title": {
+        "en": "Two correct subtotals can mislead",
+        "sr": "Dva tačna podzbira mogu da zavaraju"
+      },
+      "description": {
+        "en": "Our exercise follows one shared identity through two groups and a change to the whole.",
+        "sr": "Naša vežba prati jedan zajednički identitet kroz dve grupe i promenu celine."
+      },
+      "try": {
+        "en": "A contains P1/P2/P3; B contains P3/P4/P5. At 0.60×1.20 m each, both subtotals are 2.16 m² but the unique total is 3.60 m². Make P3 1.50 m high: each subtotal becomes 2.34 m² and the unique total 3.78 m².",
+        "sr": "A sadrži P1/P2/P3; B sadrži P3/P4/P5. Svaki ima 0,60×1,20 m: oba podzbira su 2,16 m², a jedinstveni zbir 3,60 m². P3 povisi na 1,50 m: podzbirovi postaju po 2,34 m², a jedinstveni zbir 3,78 m²."
+      },
+      "boundary": {
+        "en": "Static identity/counting model. It does not demonstrate Simon’s dynamical theory, structural strength or emergent collective behaviour.",
+        "sr": "Statički model identiteta i brojanja. Ne pokazuje Simonovu dinamičku teoriju, čvrstinu konstrukcije ili nastajanje kolektivnog ponašanja."
+      },
+      "sourceIds": [
+        "OR-THINK-04",
+        "OR-THINK-06"
+      ],
+      "source": {
+        "url": "https://web.mit.edu/6.033/2007/wwwdocs/papers/protected/simon-complexity.pdf",
+        "title": "Simon · The Architecture of Complexity"
+      }
+    },
+    {
+      "id": "thinking-replay",
+      "tag": "learning",
+      "status": "idea",
+      "title": {
+        "en": "Make instructions for the next team",
+        "sr": "Napravi uputstvo za sledeću ekipu"
+      },
+      "description": {
+        "en": "Our exercise makes a small artefact useful to another person, then uses an unsuccessful attempt to reveal the rule.",
+        "sr": "Naša vežba pravi mali predmet koristan drugoj osobi, pa neuspešnim pokušajem otkriva pravilo."
+      },
+      "try": {
+        "en": "Four paper parts A–D have removable joints AB,BC,CD. Our rule requires AB before BC before CD. Give another team only the operations. Reject a first step BC, explain why, fix it and record the changed state.",
+        "sr": "Četiri papirna dela A–D imaju odvojive spojeve AB,BC,CD. Naše pravilo traži AB pre BC pre CD. Drugoj ekipi daj samo operacije. Odbij prvi korak BC, objasni razlog, popravi ga i zabeleži promenjeno stanje."
+      },
+      "boundary": {
+        "en": "Original reversible toy model. Removing CD,BC,AB works under these stated dependencies; it is not demolition advice. A polished animation alone does not establish the learner’s understanding.",
+        "sr": "Originalni reverzibilni školski model. Uklanjanje CD,BC,AB važi pod zadatim zavisnostima; nije savet za rušenje. Dopadljiva animacija sama ne utvrđuje razumevanje studenta."
+      },
+      "sourceIds": [
+        "OR-THINK-07"
+      ],
+      "source": {
+        "url": "https://scratched.gse.harvard.edu/ct/files/AERA2012.pdf",
+        "title": "Brennan & Resnick · New frameworks for studying and assessing the development of computational thinking"
+      }
     }
   ]
 }
