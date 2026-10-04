@@ -3,6 +3,306 @@
   "updated": "2026-10-04",
   "ideas": [
     {
+      "id": "design-m1",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "Five panels. Four joints.",
+        "sr": "Pet panela. Četiri fuge."
+      },
+      "description": {
+        "en": "A repeated facade panel or precast segment has a width; the connection also occupies space. Count both before measuring the whole.",
+        "sr": "Ponovljeni fasadni panel ili prefabrikovani segment ima širinu; i spoj zauzima prostor. Pre ukupne mere prebroj oba."
+      },
+      "try": {
+        "en": "Use n=5 panels, w=400 mm and g=10 mm. Check L=nw+(n−1)g=2040 mm. With n=1, the internal-joint count must become zero.",
+        "sr": "Uzmi n=5 panela, w=400 mm i g=10 mm. Proveri L=nw+(n−1)g=2040 mm. Kada je n=1, broj unutrašnjih fuga mora biti nula."
+      },
+      "boundary": {
+        "en": "Our counting model excludes end clearances, tolerances and connection strength. Grid coordination is an idea to examine, not a construction approval.",
+        "sr": "Naš model brojanja izostavlja krajnje zazore, tolerancije i čvrstinu spoja. Koordinacija rastera je ideja za istraživanje, ne odobrenje za izvođenje."
+      },
+      "source": {
+        "url": "https://openstructures.net/sites/default/files/2019-08/os_manual_4.3.pdf",
+        "title": "OpenStructures · grid manual v4.3 (2018)"
+      }
+    },
+    {
+      "id": "design-m2",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "One edge. Two neighbours.",
+        "sr": "Jedna ivica. Dva suseda."
+      },
+      "description": {
+        "en": "A ceiling grid or formwork diagram shares internal boundaries. Adding every panel's edges counts those boundaries twice.",
+        "sr": "Mreža plafona ili shema oplate deli unutrašnje granice. Sabiranje svih ivica svakog panela te granice broji dvaput."
+      },
+      "try": {
+        "en": "Draw nx=2 by ny=3 cells. Check six cells and J=(nx−1)ny+(ny−1)nx=7 unique internal segments. Mark the two neighbours of each segment.",
+        "sr": "Nacrtaj nx=2 puta ny=3 polja. Proveri šest polja i J=(nx−1)ny+(ny−1)nx=7 jedinstvenih unutrašnjih segmenata. Obeleži dva suseda svakog segmenta."
+      },
+      "boundary": {
+        "en": "This original grid abstraction counts segments, not screws, connectors or total seam length. Real joints need a separate specification.",
+        "sr": "Ova naša apstrakcija mreže broji segmente, ne šrafove, spojnice ili ukupnu dužinu fuga. Stvarni spojevi traže poseban opis."
+      },
+      "source": {
+        "url": "https://openstructures.net/sites/default/files/2019-08/os_manual_4.3.pdf",
+        "title": "OpenStructures · shared grid; our counting adaptation"
+      }
+    },
+    {
+      "id": "design-m3",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "The grid fits. The hole does not.",
+        "sr": "Raster odgovara. Rupa ne staje."
+      },
+      "description": {
+        "en": "Matching hole positions can help align partition or plate components, while their outlines still make the connection impossible.",
+        "sr": "Jednaki položaji rupa mogu poravnati delove pregrade ili ploče, dok njihov obris ipak onemogućava spoj."
+      },
+      "try": {
+        "en": "Set hole spacing p=40 mm, diameter d=10 mm and end distance e=4 mm. Draw L=p+2e=48 mm. Check e−d/2=−1 mm: the hole crosses the end.",
+        "sr": "Zadaj razmak rupa p=40 mm, prečnik d=10 mm i rastojanje centra od kraja e=4 mm. Nacrtaj L=p+2e=48 mm. Proveri e−d/2=−1 mm: rupa prelazi kraj."
+      },
+      "boundary": {
+        "en": "Our geometric counterexample checks one edge collision. A positive remaining edge does not establish strength, tolerances or a suitable fastener.",
+        "sr": "Naš geometrijski kontraprimer proverava jedan sudar sa ivicom. Pozitivan rubni ostatak ne potvrđuje čvrstinu, tolerancije ni odgovarajuće spojno sredstvo."
+      },
+      "source": {
+        "url": "https://openstructures.net/sites/default/files/2019-08/os_manual_4.3.pdf",
+        "title": "OpenStructures · grid and assembly positions"
+      }
+    },
+    {
+      "id": "design-a1",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "Where is the final station?",
+        "sr": "Gde je poslednja stanica?"
+      },
+      "description": {
+        "en": "Placing canopy markers or stations along a route needs an endpoint policy. A fixed step and two fixed ends describe different rules.",
+        "sr": "Raspored oznaka nadstrešnice ili stanica duž trase traži pravilo za kraj. Fiksni korak i dva fiksna kraja opisuju različita pravila."
+      },
+      "try": {
+        "en": "For L=10 m and s=3 m, compare 0,3,6,9 with four equal intervals: 0,2.5,5,7.5,10. Also check L=1.2 m, s=0.4 m: four stations, including the end.",
+        "sr": "Za L=10 m i s=3 m uporedi 0,3,6,9 sa četiri jednaka intervala: 0,2.5,5,7.5,10. Proveri i L=1.2 m, s=0.4 m: četiri stanice, uključujući kraj."
+      },
+      "boundary": {
+        "en": "Our geometry prompt is not a support-spacing design. Decimal arithmetic needs an explicit numerical tolerance; endpoint snapping must not conceal a material remainder.",
+        "sr": "Naš geometrijski predlog nije projekat razmaka oslonaca. Decimalni račun traži izričitu numeričku toleranciju; pridruživanje kraju ne sme sakriti stvaran ostatak."
+      },
+      "source": {
+        "url": "https://cad.onshape.com/help/Content/Home/numeric_fields.htm",
+        "title": "Onshape · Numeric Fields; our station-placement idea"
+      }
+    },
+    {
+      "id": "design-a2",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "Best by which measure?",
+        "sr": "Najbolje po kojoj meri?"
+      },
+      "description": {
+        "en": "Bookings for one studio tool or one construction resource can favour either the number of jobs or their assigned value.",
+        "sr": "Rezervacije jednog studijskog alata ili građevinskog resursa mogu dati prednost broju poslova ili njihovoj zadatoj vrednosti."
+      },
+      "try": {
+        "en": "Use intervals [0,2), [2,4), [0,4), with weights 1,1,10. Earliest finish selects two jobs worth 2; the third alone is worth 10. Name the objective before comparing.",
+        "sr": "Uzmi intervale [0,2), [2,4), [0,4), sa težinama 1,1,10. Najraniji završetak bira dva posla vrednosti 2; treći sam vredi 10. Imenuj cilj pre poređenja."
+      },
+      "boundary": {
+        "en": "Only fixed intervals on one resource are considered. The maximum-count result does not establish a maximum-weight or whole-site schedule.",
+        "sr": "Posmatraju se samo fiksni intervali jednog resursa. Najveći broj poslova ne potvrđuje najveću težinu niti raspored celog gradilišta."
+      },
+      "source": {
+        "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/ff2a7015ff913fc01f0381d8f5126a9a_MIT6_046JS15_lec01.pdf",
+        "title": "MIT 6.046J · Lecture 1: interval scheduling (2015)"
+      }
+    },
+    {
+      "id": "design-a3",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "The largest piece can leave a gap",
+        "sr": "Najveći deo može ostaviti prazninu"
+      },
+      "description": {
+        "en": "A bench or an abstract line of precast parts makes a small search problem visible: an attractive first choice can block a better combination.",
+        "sr": "Klupa ili apstraktan niz prefabrikovanih delova čini mali problem pretrage vidljivim: privlačan prvi izbor može zatvoriti bolju kombinaciju."
+      },
+      "try": {
+        "en": "Fill length 8 using uncut parts of lengths 6,4,3 in the same unit, with unlimited copies. Compare largest-first 6 with 4+4. Check remainders 2 and 0.",
+        "sr": "Popuni dužinu 8 nekratljivim delovima dužina 6,4,3 u istoj jedinici, uz neograničen broj kopija. Uporedi najveći-prvo 6 sa 4+4. Proveri ostatke 2 i 0."
+      },
+      "boundary": {
+        "en": "Our separate packing counterexample omits joints, cutting and cost. Its small finite search says nothing about the speed of general optimisation.",
+        "sr": "Naš zaseban kontraprimer slaganja izostavlja spojeve, sečenje i cenu. Njegova mala konačna pretraga ne govori o brzini opšte optimizacije."
+      },
+      "source": {
+        "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/ff2a7015ff913fc01f0381d8f5126a9a_MIT6_046JS15_lec01.pdf",
+        "title": "MIT 6.046J · algorithm objectives; our separate packing example"
+      }
+    },
+    {
+      "id": "design-p1",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "Keep the recipe with the seed",
+        "sr": "Sačuvaj pravilo uz seed"
+      },
+      "description": {
+        "en": "Panel orientations or synthetic inspection marks can vary while remaining replayable. A seed is only one part of the record.",
+        "sr": "Orijentacije panela ili sintetičke oznake pregleda mogu se menjati uz mogućnost ponavljanja. Seed je samo deo zapisa."
+      },
+      "try": {
+        "en": "Specify a 4×3 grid, seed 17, p=0.5, generator/version and row-first traversal. Generate twice and compare all 12 entries. Then change only the traversal and inspect the difference.",
+        "sr": "Zadaj mrežu 4×3, seed 17, p=0.5, generator/verziju i obilazak po redovima. Generiši dvaput i uporedi svih 12 stavki. Zatim promeni samo redosled obilaska i pogledaj razliku."
+      },
+      "boundary": {
+        "en": "This is a replay idea, not a tested implementation. Half-probability does not guarantee six choices of each kind; different seeds need not yield different finite patterns.",
+        "sr": "Ovo je ideja ponavljanja, ne proverena implementacija. Polovična verovatnoća ne garantuje šest izbora svake vrste; različiti seedovi ne moraju dati različite konačne šare."
+      },
+      "source": {
+        "url": "https://numpy.org/doc/2.0/reference/random/compatibility.html",
+        "title": "NumPy 2.0 · random stream compatibility"
+      }
+    },
+    {
+      "id": "design-p2",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "A facade is a small grammar",
+        "sr": "Fasada kao mala gramatika"
+      },
+      "description": {
+        "en": "One rectangle can produce levels and bays. The same hierarchy could organise a facade sketch or named zones in an inspection diagram.",
+        "sr": "Jedan pravougaonik može dati nivoe i polja. Ista hijerarhija može organizovati skicu fasade ili imenovane zone sheme pregleda."
+      },
+      "try": {
+        "en": "Split W=12 m, H=9 m into three levels and four equal bays per level, without gaps. Check 12 leaves, each 3×3 m, and total area 108 m².",
+        "sr": "Podeli W=12 m, H=9 m na tri nivoa i četiri jednaka polja po nivou, bez fuga. Proveri 12 listova, svaki 3×3 m, i ukupnu površinu 108 m²."
+      },
+      "boundary": {
+        "en": "This original deterministic rule sketch is not copied CityEngine code. Equal subdivision verifies neither useful rooms nor daylight, structure or assembly details.",
+        "sr": "Ova naša deterministička skica pravila nije preuzet CityEngine kod. Jednaka podela ne potvrđuje upotrebljive prostorije, dnevno svetlo, konstrukciju ili detalje sklapanja."
+      },
+      "source": {
+        "url": "https://doc.arcgis.com/en/cityengine/latest/help/help-stochastic-rule.htm",
+        "title": "Esri CityEngine · rule alternatives; our deterministic subdivision idea"
+      }
+    },
+    {
+      "id": "design-p3",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "First a word. Then a shape.",
+        "sr": "Prvo niz. Zatim oblik."
+      },
+      "description": {
+        "en": "A pergola rhythm or a schematic sequence of parts can separate the order of symbols from their geometric meaning.",
+        "sr": "Ritam pergole ili shematski niz delova može razdvojiti redosled simbola od njihovog geometrijskog značenja."
+      },
+      "try": {
+        "en": "Start A; replace A→AB and B→A simultaneously twice. Check ABA. Give A length 2 m and B length 1 m: total 5 m. Change only A to 3 m: total 7 m, same word.",
+        "sr": "Počni sa A; dvaput istovremeno zameni A→AB i B→A. Proveri ABA. Dodeli A dužinu 2 m, a B dužinu 1 m: ukupno 5 m. Promeni samo A na 3 m: ukupno 7 m, isti niz."
+      },
+      "boundary": {
+        "en": "Our spatial interpretation illustrates rewriting. It does not simulate biological growth or load-bearing behaviour; keep a small explicit iteration limit.",
+        "sr": "Naše prostorno tumačenje ilustruje zamenu simbola. Ne simulira biološki rast ni nosivost; broj koraka ostaje izričito ograničen."
+      },
+      "source": {
+        "url": "https://www.algorithmicbotany.org/papers/abop/abop-ch1.pdf",
+        "title": "Prusinkiewicz & Lindenmayer · The Algorithmic Beauty of Plants, §1.1–1.3"
+      }
+    },
+    {
+      "id": "design-q1",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "Which dimension should give way?",
+        "sr": "Koja mera treba da se prilagodi?"
+      },
+      "description": {
+        "en": "A fixed facade width or structural diagram can contain a variable number of equal fields. Decide which dimensions are inputs and which are derived.",
+        "sr": "Fiksna širina fasade ili konstruktivne sheme može sadržati promenljiv broj jednakih polja. Odredi koje mere su ulazi, a koje izvedene."
+      },
+      "try": {
+        "en": "Set W=2400 mm, e=100 mm, g=20 mm and n=4. Check w=(W−2e−(n−1)g)/n=535 mm, then rebuild the total. Convert every length to metres and check the same shape.",
+        "sr": "Zadaj W=2400 mm, e=100 mm, g=20 mm i n=4. Proveri w=(W−2e−(n−1)g)/n=535 mm, pa ponovo sastavi ukupnu meru. Pretvori sve dužine u metre i proveri isti oblik."
+      },
+      "boundary": {
+        "en": "Our dependency model requires integer n≥1, nonnegative margins/gaps and w>0. An impossible input should be reported, not silently repaired by changing another decision.",
+        "sr": "Naš model zavisnosti traži ceo broj n≥1, nenegativne rubove/fuge i w>0. Nemoguć unos treba prijaviti, ne tiho popravljati promenom druge odluke."
+      },
+      "source": {
+        "url": "https://cad.onshape.com/help/Content/PartStudio/variable.htm",
+        "title": "Onshape · variables and dependent operations"
+      }
+    },
+    {
+      "id": "design-q2",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "A roof's area is not its volume",
+        "sr": "Površina krova nije zapremina"
+      },
+      "description": {
+        "en": "A symmetrical roof sketch links span, rise and length to several different quantities. Keep their meanings and units visible.",
+        "sr": "Skica simetričnog krova povezuje raspon, uspon i dužinu sa više različitih veličina. Njihova značenja i jedinice treba da ostanu vidljivi."
+      },
+      "try": {
+        "en": "Use W=6 m, L=10 m, rise r=4 m. Check slope length 5 m, two-slope area 100 m² and triangular-prism volume 120 m³. Double all lengths: area ×4, volume ×8.",
+        "sr": "Uzmi W=6 m, L=10 m, uspon r=4 m. Proveri kosu dužinu 5 m, površinu obe ravni 100 m² i zapreminu trougaone prizme 120 m³. Udvostruči sve dužine: površina ×4, zapremina ×8."
+      },
+      "boundary": {
+        "en": "This is our elementary geometry model, without eaves, thickness, waste, joints or forces. Enclosed roof volume is not roofing-material quantity.",
+        "sr": "Ovo je naš model elementarne geometrije, bez strehe, debljine, otpada, spojeva ili sila. Zapremina ispod krova nije količina krovnog materijala."
+      },
+      "source": {
+        "url": "https://cad.onshape.com/help/Content/PartStudio/variable.htm",
+        "title": "Onshape · dependent dimensions; our roof-geometry example"
+      }
+    },
+    {
+      "id": "design-q3",
+      "tag": "design",
+      "status": "idea",
+      "title": {
+        "en": "The envelope can say no",
+        "sr": "Omotač može reći ne"
+      },
+      "description": {
+        "en": "A building mass or temporary site element can be tested against a deliberately simple envelope before adding more detail.",
+        "sr": "Masa zgrade ili privremeni element gradilišta može se proveriti prema namerno jednostavnom omotaču pre dodavanja detalja."
+      },
+      "try": {
+        "en": "Use an 18×14 m envelope and invented margin s=2 m. A centred, axis-aligned 14×10 m rectangle fits exactly. Increase its width to 14.1 m: report failure, not a squeezed drawing.",
+        "sr": "Uzmi omotač 18×14 m i izmišljeno odstojanje s=2 m. Centriran pravougaonik 14×10 m, paralelan osama, tačno staje. Povećaj širinu na 14.1 m: prijavi neuspeh, ne sabijen crtež."
+      },
+      "boundary": {
+        "en": "Our invented margin is not a planning rule. The two inequalities exclude rotation, irregular boundaries, access, safety and other permit requirements.",
+        "sr": "Naše izmišljeno odstojanje nije urbanistički propis. Dve nejednakosti ne obuhvataju rotaciju, nepravilne granice, pristup, bezbednost i ostale uslove dozvole."
+      },
+      "source": {
+        "url": "https://cad.onshape.com/help/Content/PartStudio/variable.htm",
+        "title": "Onshape · variable-driven geometry; our envelope check"
+      }
+    },
+    {
       "id": "bim-evidence",
       "title": {
         "en": "One shape. Several meanings.",

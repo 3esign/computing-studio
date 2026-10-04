@@ -3,6 +3,126 @@
   "updated": "2026-10-04",
   "sources": [
     {
+      "id": "OR-DES-01",
+      "title": "OpenStructures grid manual",
+      "url": "https://openstructures.net/sites/default/files/2019-08/os_manual_4.3.pdf",
+      "date": "2018; v4.3",
+      "tag": "design",
+      "summary": {
+        "en": "A shared 40 × 40 mm grid coordinates dimensions and assembly positions without requiring identical parts.",
+        "sr": "Zajednička mreža 40 × 40 mm usklađuje dimenzije i položaje spajanja bez zahteva za jednakim delovima."
+      },
+      "scope": {
+        "en": "Both PDF pages: dimensions, grid and design principles.",
+        "sr": "Obe PDF strane: dimenzije, mreža i principi projektovanja."
+      },
+      "limit": {
+        "en": "At least one listed dimensional condition is required; grid compliance alone proves neither every joint's compatibility nor strength.",
+        "sr": "Traži se najmanje jedan navedeni dimenzijski uslov; praćenje rastera ne dokazuje kompatibilnost svakog spoja ni čvrstinu."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-DES-02",
+      "title": "Variable; Numeric Fields",
+      "url": "https://cad.onshape.com/help/Content/PartStudio/variable.htm",
+      "date": "Variable page updated 2026-09-24; online help",
+      "tag": "design",
+      "summary": {
+        "en": "Typed variables precede consuming features; changing a value updates operations that reference it.",
+        "sr": "Tipizirane promenljive prethode operacijama koje ih koriste; promena vrednosti ažurira zavisne operacije."
+      },
+      "scope": {
+        "en": "Variable introduction, types, dimension references and final notes; Numeric Fields units and expressions.",
+        "sr": "Uvod, tipovi, dimenzijske reference i završne napomene; Numeric Fields o jedinicama i izrazima."
+      },
+      "limit": {
+        "en": "Unitless entries can inherit document units. Successful regeneration is not constructibility verification; no account accessed.",
+        "sr": "Broj bez jedinice može preuzeti jedinicu dokumenta. Uspešno regenerisanje nije provera izvodljivosti; nalog nije otvaran."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-DES-03",
+      "title": "6.046J Design and Analysis of Algorithms — Lecture 1 notes",
+      "url": "https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/ff2a7015ff913fc01f0381d8f5126a9a_MIT6_046JS15_lec01.pdf",
+      "date": "Spring 2015",
+      "tag": "design",
+      "summary": {
+        "en": "An interval-selection proof changes when the objective becomes weighted.",
+        "sr": "Dokaz izbora intervala menja se kada cilj postane ponderisan."
+      },
+      "scope": {
+        "en": "PDF pages 1–4: prerequisites, scheduling, proof, weighted case.",
+        "sr": "PDF strane 1–4: preduslovi, raspoređivanje, dokaz, ponderisani slučaj."
+      },
+      "limit": {
+        "en": "Single resource, fixed intervals; only a small advanced-course example is adapted.",
+        "sr": "Jedan resurs, fiksni intervali; adaptiran je samo mali primer naprednijeg kursa."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-DES-04",
+      "title": "CityEngine — Stochastic rule",
+      "url": "https://doc.arcgis.com/en/cityengine/latest/help/help-stochastic-rule.htm",
+      "date": "latest documentation; requested 2025.1 URL redirected to latest",
+      "tag": "design",
+      "summary": {
+        "en": "CGA rules select successors probabilistically; choices depend on the current shape's seed.",
+        "sr": "CGA pravila verovatnosno biraju naslednike; izbor zavisi od seed vrednosti tekućeg oblika."
+      },
+      "scope": {
+        "en": "Full short page: syntax, two examples and final note.",
+        "sr": "Cela kratka strana: sintaksa, dva primera i završna napomena."
+      },
+      "limit": {
+        "en": "Describes one grammar implementation, not universal procedural design or a validated urban model. Fixed software version unconfirmed.",
+        "sr": "Opisuje jednu implementaciju gramatike, ne celokupno proceduralno projektovanje niti validiran urbani model. Fiksna verzija nije potvrđena."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-DES-05",
+      "title": "Random sampling — Compatibility policy",
+      "url": "https://numpy.org/doc/2.0/reference/random/compatibility.html",
+      "date": "NumPy 2.0 manual; copyright footer 2008–2024",
+      "tag": "design",
+      "summary": {
+        "en": "Reproducing a random stream requires matching generator, seed, calls, arguments and execution conditions.",
+        "sr": "Ponavljanje slučajnog toka zahteva iste generator, seed, pozive, argumente i uslove izvršavanja."
+      },
+      "scope": {
+        "en": "Full compatibility-policy page, including array-size and version caveats.",
+        "sr": "Cela politika kompatibilnosti, uključujući veličinu niza i promene verzija."
+      },
+      "limit": {
+        "en": "NumPy-specific guarantees; architectural replay requirements are our adaptation, not a library installation proposal.",
+        "sr": "Garancije važe za NumPy; arhitektonska ponovljivost je naša adaptacija, ne predlog instalacije biblioteke."
+      },
+      "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-DES-06",
+      "title": "The Algorithmic Beauty of Plants — Chapter 1",
+      "url": "https://www.algorithmicbotany.org/papers/abop/abop-ch1.pdf",
+      "date": "Book 1990; author-hosted electronic chapter; second printing 1996 noted on author page",
+      "tag": "design",
+      "summary": {
+        "en": "Parallel symbol rewriting and geometric interpretation are distinct stages.",
+        "sr": "Paralelna zamena simbola i geometrijsko tumačenje različite su faze."
+      },
+      "scope": {
+        "en": "Chapter 1, sections 1.1–1.3, printed pages 1–8; author publication entry.",
+        "sr": "Poglavlje 1, odeljci 1.1–1.3, štampane strane 1–8; autorski bibliografski zapis."
+      },
+      "limit": {
+        "en": "Architecture examples are our abstractions, not validated biological or structural models; whole book not reviewed.",
+        "sr": "Arhitektonski primeri su naše apstrakcije, ne validirani biološki ili konstruktivni modeli; cela knjiga nije pregledana."
+      },
+      "checked": "2026-10-04"
+    },
+    {
       "id": "OR7-R01",
       "title": "Structure and Interpretation of Computer Programs",
       "url": "https://web.mit.edu/6.001/6.037/sicp.pdf",

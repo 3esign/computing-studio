@@ -21,7 +21,7 @@ Q5: four fictional odd-width square layers contain 49+25+9+1=84 cells. One layer
 
 ## Feedback at scale
 
-Reuse a stable address and short question code. Sample explanations and group recurring misconceptions. Use the same instrument for projection and independent practice. The site collects no answers or assignments, so it cannot display a class histogram, attendance or marks. An institutional submission workflow would need a separate explicit choice; none is connected.
+Reuse a stable address and short question code. Sample explanations and group recurring misconceptions. Use the same instrument for projection and independent practice. The site collects no answers or assignments, so it cannot display a class histogram, attendance or marks. An identified submission workflow would need a separate choice and implementation; no institutional account is assumed and none is connected.
 
 Future assessment ideas, outside the official course record: trace code before running; find a unit error; counterexample to an AI answer; change an assumption; separate model output from evidence. A possible rubric rewards **input → units → rule → result → check → limit**. No marks or grading scheme have been adopted.
 
@@ -38,3 +38,13 @@ Pre časa: jedna adresa, Q1–Q6, čuvanje bez mreže i alternativni format. Na 
 Ne pregledamo ručno 400 odgovora u svakom koraku. Biramo razloge koji otkrivaju nesporazume, a sajt je zajednički instrument. Čuvanje odgovora na telefonu nije predaja nastavniku. Za stvarne ocene i predaju tek treba odabrati postupak.
 
 Prvi pilot: različiti uređaji, veza iz više delova sale, projektor iz poslednjeg reda, tastatura i čitač ekrana prema potrebama, ponovno otvaranje bez mreže i razumljivost pitanja. Beleži konkretne prepreke; tehnički rad nije dokaz uspeha u učenju.
+
+## Four design approaches
+
+Use [the design instrument](lab/dizajn/index.html) to compare parts and joints, a placement rule, reproducible variation and dependent quantities. These are overlapping ways to describe a spatial system. Students can predict, change one input, inspect the real calculation function and export parameters with units, results and model version. The download is a local record, not a received or authenticated assignment.
+
+The [design idea cloud](ideje.html?tag=design) adds twelve optional prompts: joints, shared edges, fit, endpoint policy, objectives, greedy counterexamples, replay, facade grammar, rewriting, constrained widths, roof quantities and envelopes. Let architecture and civil engineering students explain the same rule through different contexts.
+
+### Srpski: četiri pristupa
+
+U novom instrumentu uporedi delove i spojeve, pravilo rasporeda, ponovljivu varijaciju i zavisne veličine. Pre pokretanja traži predviđanje, zatim promenu jednog ulaza i proveru rezultata. JSON čuva verziju modela i parametre na uređaju; nije potvrda predaje ili autorstva. Dvanaest novih predloga ostaje u oblaku ideja dok nastavnik ne izabere šta ulazi u tok predmeta.

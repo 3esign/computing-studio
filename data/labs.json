@@ -1,7 +1,22 @@
 [
   {
-    "id": "code",
+    "id": "design",
     "n": "01",
+    "title": {
+      "en": "One system. Four ways.",
+      "sr": "Jedan sistem. Četiri načina."
+    },
+    "description": {
+      "en": "Modular, algorithmic, procedural and parametric design: change an input, inspect the rule, keep a record.",
+      "sr": "Modularni, algoritamski, proceduralni i parametarski dizajn: promeni ulaz, proveri pravilo, sačuvaj zapis."
+    },
+    "href": "lab/dizajn/index.html",
+    "tag": "geometry",
+    "language": "EN / SR"
+  },
+  {
+    "id": "code",
+    "n": "02",
     "title": {
       "en": "The code theatre",
       "sr": "Pozornica koda"
@@ -16,7 +31,7 @@
   },
   {
     "id": "giza",
-    "n": "02",
+    "n": "03",
     "title": {
       "en": "Giza, as a question",
       "sr": "Giza, kao pitanje"
@@ -31,7 +46,7 @@
   },
   {
     "id": "studio",
-    "n": "03",
+    "n": "04",
     "title": {
       "en": "A rule. A consequence.",
       "sr": "Pravilo. Posledica."
@@ -46,7 +61,7 @@
   },
   {
     "id": "mesh",
-    "n": "04",
+    "n": "05",
     "title": {
       "en": "How smooth is smooth?",
       "sr": "Koliko je glatko zaista glatko?"
@@ -61,7 +76,7 @@
   },
   {
     "id": "truss",
-    "n": "05",
+    "n": "06",
     "title": {
       "en": "The force follows the rule",
       "sr": "Sila prati pravilo"
@@ -76,7 +91,7 @@
   },
   {
     "id": "path",
-    "n": "06",
+    "n": "07",
     "title": {
       "en": "A path has a cost",
       "sr": "Put ima cenu"
@@ -91,7 +106,7 @@
   },
   {
     "id": "slice",
-    "n": "07",
+    "n": "08",
     "title": {
       "en": "Shape → instructions",
       "sr": "Oblik → naredbe"

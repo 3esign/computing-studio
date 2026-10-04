@@ -1,6 +1,6 @@
 {
-  "version": "827fbdb6db2aafd2",
-  "bytes": 857694,
+  "version": "d2a4899f91e9ed0a",
+  "bytes": 921395,
   "files": [
     "assets/app.js",
     "assets/mark.svg",
@@ -24,6 +24,10 @@
     "js/dokaz.js",
     "js/legacy-language.js",
     "lab.html",
+    "lab/dizajn/app.js",
+    "lab/dizajn/index.html",
+    "lab/dizajn/model.js",
+    "lab/dizajn/style.css",
     "lab/giza/app.js",
     "lab/giza/giza.css",
     "lab/giza/index.html",

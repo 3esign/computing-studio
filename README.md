@@ -7,8 +7,10 @@ Computing made visible for first-year architecture and civil engineering. A teac
 ## Three kinds of material
 
 - **Course record:** the teacher's published topics, actual classes and tasks. It intentionally starts empty. No class dates, exam dates or assessment rules have been invented.
-- **Instruments:** seven working browser laboratories covering code traces, spatial transforms, quantities, construction scheduling, an invented stepped pyramid, geometry, trusses, routes and slicing. Models state their assumptions and limits.
-- **Idea cloud:** 54 open explorations and 51 source cards, including a new twelve-source research wave on large classes and Giza. A repertoire, not an approved syllabus.
+- **Instruments:** eight working browser laboratories covering code traces, spatial transforms, quantities, construction scheduling, an invented stepped pyramid, geometry, trusses, routes and slicing. Models state their assumptions and limits.
+- **Idea cloud:** 66 open explorations and 57 source cards, including research on large classes and Giza, plus twelve design prompts and six design sources. A repertoire, not an approved syllabus.
+
+The new [design instrument](lab/dizajn/index.html) connects modular parts, algorithmic placement, seeded procedures and parameter dependencies. Read the actual calculation function, inspect result rows and download a local JSON record. Its four approaches overlap; its geometric outputs are not engineering validation.
 
 ## Phones in class
 
@@ -39,6 +41,7 @@ Requires Node.js, with no added packages:
     node tools/check.cjs
     node tests/kod.test.cjs
     node tests/giza.test.cjs
+    node tests/dizajn.test.cjs
 
 After edits:
 
