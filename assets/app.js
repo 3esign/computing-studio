@@ -49,61 +49,10 @@
    return `<svg viewBox="0 0 290 200" aria-hidden="true"><path d="M20 180H270M20 180V20" stroke="#c2c4c9" fill="none"/><path d="${path}" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="130" cy="102" r="5" fill="currentColor"/><text x="22" y="195" font-family="monospace" font-size="9" fill="#626772">${esc(id||tag.toUpperCase())} / RULE → TRACE</text></svg>`;
  }
  function labCard(l){return `<a class="lab-card" href="${esc(l.href)}"><span class="card-num">${esc(l.n)} / ${esc(l.tag.toUpperCase())}</span><div class="lab-graphic">${icon(l.tag,l.id)}</div><h2>${esc(tr(l.title))}</h2><p>${esc(tr(l.description))}</p>${l.limit?`<span class="model-limit">${esc(tr(l.limit))}</span>`:''}<span class="card-bottom">${esc(l.language)} <b>↗</b></span></a>`;}
- function hero(){
-   const stage=$('#representation-stage');if(!stage)return;
-   let view='drawing',layout=0,selected='P2';
-   function panelArea(panels) {
-     let area_m2 = 0;
-     for (const panel of panels) {
-       area_m2 += panel.width_m * panel.height_m;
-     }
-     return area_m2;
-   }
-   function draw(){
-     const glass=layout===0?[0,1]:[0,5];
-     const panels=Array.from({length:6},(_,i)=>({id:'P'+(i+1),row:Math.floor(i/3)+1,column:i%3+1,type:glass.includes(i)?'glass':'solid',width_m:.6,height_m:.6}));
-     const num=n=>n.toLocaleString(lang==='sr'?'sr-Latn':'en',{maximumFractionDigits:2,minimumFractionDigits:2});
-     const material=t=>t==='glass'?say('Glass','Staklo'):say('Solid','Puno');
-     $('#specimen-layout').textContent=say('LAYOUT ','RASPORED ')+(layout?'B':'A');
-     $$('[data-view-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.viewMode===view)));
-     if(view==='drawing') {
-       stage.innerHTML=`<div class="facade-dimension"><span>←</span><span>3 × 600 mm = 1 800 mm</span><span>→</span></div><div class="facade-grid">${panels.map(p=>`<button class="facade-panel ${p.type}" data-panel="${p.id}" aria-pressed="${selected===p.id}" aria-label="${p.id}, ${material(p.type)}, ${say('row','red')} ${p.row}, ${say('column','kolona')} ${p.column}"><span>${p.id}</span><strong>${p.type==='glass'?'S':'P'}</strong><small>${material(p.type)}</small></button>`).join('')}</div><p class="diagram-caption">${say('600 × 600 mm per panel · no gaps or frame. Select a panel, then read its data.','600 × 600 mm po panelu · bez razmaka i okvira. Izaberi panel, pa pročitaj podatke.')}</p>`;
-       $$('[data-panel]').forEach(b=>b.onclick=()=>{selected=b.dataset.panel;draw();$$('[data-panel]').find(x=>x.dataset.panel===selected)?.focus();});
-     } else if(view==='data') {
-       stage.innerHTML=`<div class="specimen-table-wrap"><table class="specimen-table"><caption>${say('The same six panels. Dimensions in metres:','Istih šest panela. Mere u metrima:')}<br><code>width_m = 0.60 · height_m = 0.60</code></caption><thead><tr><th>ID</th><th>${say('Row','Red')}</th><th>${say('Column','Kolona')}</th><th>${say('Type','Tip')}</th></tr></thead><tbody>${panels.map(p=>`<tr class="${p.id===selected?'selected':''}"><th><button type="button" data-record="${p.id}" aria-pressed="${p.id===selected}">${p.id}</button></th><td>${p.row}</td><td>${p.column}</td><td>${material(p.type)}</td></tr>`).join('')}</tbody></table></div>`;
-       $$('[data-record]').forEach(b=>b.onclick=()=>{selected=b.dataset.record;draw();$$('[data-record]').find(x=>x.dataset.record===selected)?.focus();});
-     } else {
-       stage.innerHTML=`<p class="diagram-caption">${say('This JavaScript function calculates the area shown below from the six panel records.','Ova JavaScript funkcija računa prikazanu površinu iz šest zapisa panela.')}</p><pre class="specimen-code" tabindex="0" aria-label="JavaScript">${esc(panelArea.toString())}</pre><p class="diagram-caption">${say('The sum uses dimensions. It does not retain positions.','Zbir koristi dimenzije. Ne čuva položaje.')}</p>`;
-     }
-     $('#specimen-area').innerHTML=num(panelArea(panels))+' <small>m²</small>';
-     $('#specimen-summary').textContent=say('2 glass + 4 solid panels','2 staklena + 4 puna panela');
-     $('#specimen-insight').textContent=layout===0?say('Do the quantities tell you where each panel goes?','Govore li količine gde koji panel stoji?'):say('Same quantities. New arrangement. What did the sum leave out?','Iste količine. Novi raspored. Šta je zbir izostavio?');
-   }
-   $$('[data-view-mode]').forEach(b=>b.onclick=()=>{view=b.dataset.viewMode;draw();});
-   $('#change-layout').onclick=()=>{layout=1-layout;draw();};
-   draw();return draw;
- }
  function sessions(rows){
    const visible=rows.filter(x=>x.status==='published'||x.status==='held');
    if(!visible.length)return `<div class="quiet-note"><h2>${say('The record is ready for the first entry.','Tok je spreman za prvi zapis.')}</h2><p>${say('No dated classes or assessed tasks have been entered here yet. Semir chooses and publishes them. Explore the ready instruments and open ideas in the meantime.','Ovde još nisu upisani datirani časovi ni zadaci za ocenjivanje. Semir ih bira i objavljuje. Do tada istražuj dostupne instrumente i otvorene ideje.')}</p><a href="cas.html#Q1">${say('Try a class question','Probaj pitanje za čas')} →</a></div>`;
    return visible.map(s=>`<article class="session"><div><time>${esc(s.date||'—')}</time><br><span class="status-badge">${s.status==='held'?say('RECORDED AS HELD','ZAPISANO KAO ODRŽANO'):say('PUBLISHED','OBJAVLJENO')}</span></div><div><h2>${esc(tr(s.title))}</h2><p>${esc(tr(s.summary))}</p>${s.task?`<h3>${say('Task','Zadatak')}</h3><p>${esc(tr(s.task))}</p>`:''}${s.link?`<a href="${esc(safeHref(s.link))}" rel="noreferrer">${say('Open the material','Otvori gradivo')} →</a>`:''}</div></article>`).join('');
- }
- async function home(){
-   const [course,labs]=await Promise.all([get('course'),get('labs')]);
-   const draw=hero();
-   $('#question-code').addEventListener('input',()=>$('#question-code').removeAttribute('aria-invalid'));
-   currentRender=()=>{
-     const featured=['lab/pasos/index.html','lab/dizajn/index.html','lab/resetka/index.html'].map(href=>labs.find(l=>l.href===href)).filter(Boolean);
-     $('#featured-labs').innerHTML=featured.map(labCard).join('');$('#home-record').innerHTML=sessions(course.sessions);
-     if(Array.isArray(course.learningPath))$('#home-path').innerHTML=course.learningPath.map((p,i)=>`<a class="learning-step" href="${esc(p.href)}"><span>0${i+1}</span><h3>${esc(tr(p.title))}</h3><p>${esc(tr(p.question))}</p><span class="step-action">${esc(tr(p.action))}</span><b aria-hidden="true">↗</b></a>`).join('');
-     draw?.();
-   };
-   currentRender();
-   $('#quick-open').addEventListener('submit',e=>{
-     e.preventDefault();const id=$('#question-code').value.trim().toUpperCase();
-     if(course.classQuestions.some(q=>q.id===id))location.href='cas.html#'+id;
-     else{$('#code-status').textContent=say('Choose a question: ','Izaberi pitanje: ')+course.classQuestions.map(q=>q.id).join(', ');$('#question-code').setAttribute('aria-invalid','true');}
-   });
  }
  async function catalog(kind){
    const bank=await get(kind),items=bank[kind];
@@ -245,8 +194,7 @@
  async function init(){
    language();
    const view=document.body.dataset.view;
-   if(view==='home')await home();
-   else if(view==='ideas'||view==='sources')await catalog(view);
+   if(view==='ideas'||view==='sources')await catalog(view);
    else if(view==='labs'){const labs=await get('labs');currentRender=()=>{$('#lab-list').innerHTML=labs.map(labCard).join('');};currentRender();}
    else if(view==='class')await classroom();
    else if(view==='course'){const c=await get('course');currentRender=()=>{$('#session-list').innerHTML=sessions(c.sessions);$('#foundation-list').innerHTML=c.foundations.map(f=>`<a class="foundation-row" href="ideje.html?tag=${esc(f.tag)}"><span>${esc(f.id)}</span><h3>${esc(tr(f.title))}</h3><p>${esc(tr(f.description))} →</p></a>`).join('');};currentRender();}
