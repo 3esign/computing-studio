@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "title": {
     "en": "Computing, made visible.",
     "sr": "Računarstvo koje se vidi."
@@ -450,6 +450,18 @@
     }
   ],
   "foundations": [
+    {
+      "id": "00",
+      "tag": "data",
+      "title": {
+        "en": "Object → passport",
+        "sr": "Objekat → pasoš"
+      },
+      "description": {
+        "en": "Before any file, a real building already carries a story: material, origin, builders. A digital passport decides what of that story survives.",
+        "sr": "Pre svakog fajla, stvarna zgrada već nosi priču: materijal, poreklo, graditelje. Digitalni pasoš odlučuje šta od te priče opstaje."
+      }
+    },
     {
       "id": "01",
       "tag": "code",

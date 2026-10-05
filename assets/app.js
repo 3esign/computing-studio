@@ -43,6 +43,7 @@
    tag==='geometry'?'M42 145 82 55 128 131 179 34 245 145 M42 145 245 145 M82 55 179 34 M128 131 245 145':
    tag==='civil'?'M30 144 80 58 130 144 180 58 230 144 M30 144 230 144 M80 58 180 58 M80 58 130 144 180 58':
    tag==='process'?'M36 105H90 M90 105 140 50H223 M90 105 140 160H223 M140 50V160':
+   tag==='data'?'M40 64H250 M40 102H168 M40 140H96 M40 64V140':
    tag==='making'?'M40 130V60H235V145H40V86H211V123H66V104H185':
    'M40 60H130V102H215 M40 103H85V145H170 M130 60V145 M215 102V145';
    return `<svg viewBox="0 0 290 200" aria-hidden="true"><path d="M20 180H270M20 180V20" stroke="#c2c4c9" fill="none"/><path d="${path}" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="130" cy="102" r="5" fill="currentColor"/><text x="22" y="195" font-family="monospace" font-size="9" fill="#626772">${esc(id||tag.toUpperCase())} / RULE → TRACE</text></svg>`;

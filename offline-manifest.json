@@ -1,6 +1,6 @@
 {
-  "version": "92c3bcbcd3a7cc91",
-  "bytes": 1419302,
+  "version": "2137028a2a5f5a0c",
+  "bytes": 1477086,
   "files": [
     "assets/app.js",
     "assets/mark.svg",
@@ -48,6 +48,9 @@
     "lab/kod/style.css",
     "lab/mrezar/index.html",
     "lab/panika/index.html",
+    "lab/pasos/index.html",
+    "lab/pasos/model.js",
+    "lab/pasos/style.css",
     "lab/resetka/index.html",
     "lab/rezac/index.html",
     "lab/studio3000/app.js",

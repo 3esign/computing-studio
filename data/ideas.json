@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "ideas": [
     {
       "id": "design-m1",
@@ -375,6 +375,78 @@
       "boundary": {
         "en": "An exploration prompt, outside the published course record. External demonstrations have not been tested on your device.",
         "sr": "Predlog za istraživanje, izvan objavljenog toka nastave. Spoljne demonstracije nisu proverene na tvom uređaju."
+      }
+    },
+    {
+      "id": "passport-definition",
+      "title": {
+        "en": "What a building's passport must answer",
+        "sr": "Na šta pasoš zgrade mora da odgovori"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "A digital passport is not one fixed form. It is whatever record lets a later reader trust what an object is, where it came from and how it may be reused.",
+        "sr": "Digitalni pasoš nije jedan zadat oblik. To je zapis koji kasnijem čitaocu dozvoljava da poveruje šta je objekat, odakle dolazi i kako može ponovo da se upotrebi."
+      },
+      "try": {
+        "en": "Pick one real or imagined object: a wall, a stair, a facade panel. List every question a stranger would need answered before trusting or reusing it. Sort your questions into identity, material, origin and evidence.",
+        "sr": "Izaberi jedan stvaran ili zamišljen objekat: zid, stepenice, fasadni panel. Nabroj sva pitanja koja bi nepoznata osoba morala da ima odgovorena da bi mu verovala ili ga ponovo upotrebila. Razvrstaj pitanja u identitet, materijal, poreklo i dokaz."
+      },
+      "source": {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3110",
+        "title": "EU Construction Products Regulation"
+      },
+      "boundary": {
+        "en": "There is no single official passport schema here; this is a teaching exercise in defining one, not an approved compliance format.",
+        "sr": "Ovde ne postoji jedinstvena zvanična šema pasosa; ovo je nastavna vežba definisanja, a ne odobren format usklađenosti."
+      }
+    },
+    {
+      "id": "passport-chain-of-custody",
+      "title": {
+        "en": "From quarry to wall, who signs each step?",
+        "sr": "Od kamenoloma do zida, ko potpisuje svaki korak?"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "A material has a story before it becomes a wall: quarry or producer, carrier, warehouse, craftsman, engineer, architect. Each can leave a distinct record.",
+        "sr": "Materijal ima priču pre nego što postane zid: kamenolom ili proizvođač, prevoznik, stovarište, majstor, inženjer, arhitekta. Svaki može ostaviti zaseban zapis."
+      },
+      "try": {
+        "en": "Draw one arrow chain for your object: origin → processing → storage → installation. Under each arrow, write the one fact that would prove that step happened, and who could provide it.",
+        "sr": "Nacrtaj lanac strelica za svoj objekat: poreklo → obrada → skladištenje → ugradnja. Ispod svake strelice napiši koja jedna činjenica bi dokazala da je korak izvršen i ko bi je mogao dati."
+      },
+      "source": {
+        "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+        "title": "W3C PROV · entities, activities, agents"
+      },
+      "boundary": {
+        "en": "This chain is a simplified teaching model; real supply chains branch, mix batches and lose records. Naming an actor is not the same as holding their signed evidence.",
+        "sr": "Ovaj lanac je pojednostavljen nastavni model; stvarni lanci snabdevanja se granaju, mešaju partije i gube zapise. Imenovanje aktera nije isto što i imati njegov potpisan dokaz."
+      }
+    },
+    {
+      "id": "passport-circular-reuse",
+      "title": {
+        "en": "Reuse needs proof, not just age",
+        "sr": "Ponovna upotreba traži dokaz, ne samo starost"
+      },
+      "tag": "data",
+      "status": "idea",
+      "description": {
+        "en": "An old beam is not automatically safe to reuse. Circular construction asks what was verified, by whom, and whether the passport survived demolition.",
+        "sr": "Stara greda nije automatski bezbedna za ponovnu upotrebu. Cirkularna gradnja pita šta je provereno, ko je proverio i da li je pasoš preživeo rušenje."
+      },
+      "try": {
+        "en": "Imagine your object is salvaged from a demolished building. List what the passport would need to carry through demolition for it to be reused with confidence. Mark which parts of your earlier chain survive, and which are lost.",
+        "sr": "Zamisli da je tvoj objekat spasen iz rušenja. Nabroj šta pasoš mora da preživi rušenje da bi se objekat ponovo upotrebio sa poverenjem. Obeleži koji delovi tvog ranijeg lanca opstaju, a koji se gube."
+      },
+      "source": null,
+      "boundary": {
+        "en": "A thought exercise, not a structural reuse certification. Real reuse requires inspection and engineering sign-off beyond any digital record.",
+        "sr": "Misaona vežba, ne sertifikacija za ponovnu konstruktivnu upotrebu. Stvarna ponovna upotreba traži pregled i inženjersku saglasnost izvan bilo kog digitalnog zapisa."
       }
     },
     {

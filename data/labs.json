@@ -151,5 +151,24 @@
       "en": "A teaching path preview, not a printer-ready file. A real process needs machine-specific preparation and verification.",
       "sr": "Nastavni prikaz putanje, ne fajl spreman za štampač. Stvaran proces traži pripremu i proveru za konkretnu mašinu."
     }
+  },
+  {
+    "id": "passport",
+    "n": "09",
+    "title": {
+      "en": "What does the city know?",
+      "sr": "Šta grad zna?"
+    },
+    "description": {
+      "en": "A pilot map of Belgrade read as a passport: pick the sources you have, and see what is answered, unreachable, or never written down.",
+      "sr": "Pilot mapa Beograda čitana kao pasoš: izaberi izvore koje imaš i vidi šta je odgovoreno, šta nedostupno, a šta nikada nije zapisano."
+    },
+    "href": "lab/pasos/index.html",
+    "tag": "data",
+    "language": "EN / SR",
+    "limit": {
+      "en": "Hand-placed river lines and a teaching dataset: three landmarks from general literature, two cases constructed for class. No cadastre, no certification, no reuse permit.",
+      "sr": "Rukom postavljene osovine reka i nastavni skup podataka: tri repera iz opšte literature, dva slučaja konstruisana za čas. Bez katastra, sertifikata i dozvole za ponovnu upotrebu."
+    }
   }
 ]
