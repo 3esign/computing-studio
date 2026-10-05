@@ -1,8 +1,10 @@
 {
-  "version": "2137028a2a5f5a0c",
-  "bytes": 1477086,
+  "version": "1a3893b9b7cfea04",
+  "bytes": 1522242,
   "files": [
     "assets/app.js",
+    "assets/block00.css",
+    "assets/lanac.js",
     "assets/mark.svg",
     "assets/qr/Q1.svg",
     "assets/qr/Q10.svg",

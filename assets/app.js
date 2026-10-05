@@ -93,7 +93,7 @@
    const draw=hero();
    $('#question-code').addEventListener('input',()=>$('#question-code').removeAttribute('aria-invalid'));
    currentRender=()=>{
-     const featured=['lab/dizajn/index.html','lab/kod/index.html','lab/resetka/index.html'].map(href=>labs.find(l=>l.href===href)).filter(Boolean);
+     const featured=['lab/pasos/index.html','lab/dizajn/index.html','lab/resetka/index.html'].map(href=>labs.find(l=>l.href===href)).filter(Boolean);
      $('#featured-labs').innerHTML=featured.map(labCard).join('');$('#home-record').innerHTML=sessions(course.sessions);
      if(Array.isArray(course.learningPath))$('#home-path').innerHTML=course.learningPath.map((p,i)=>`<a class="learning-step" href="${esc(p.href)}"><span>0${i+1}</span><h3>${esc(tr(p.title))}</h3><p>${esc(tr(p.question))}</p><span class="step-action">${esc(tr(p.action))}</span><b aria-hidden="true">↗</b></a>`).join('');
      draw?.();
