@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f3eb"><meta name="description" content="A silent 2:41 film drawn live from the digital passport of the Old Sava Bridge in Belgrade: eighteen questions, source disagreements and visible unknowns, with every figure taken from the record."><title>How an object becomes visible · Computing Studio</title><link rel="icon" href="../../assets/mark.svg" type="image/svg+xml"><link rel="manifest" href="../../manifest.webmanifest"><link rel="stylesheet" href="../../assets/site.css"><link rel="stylesheet" href="film.css"><script src="../../assets/app.js" defer></script><script src="film.js" defer></script></head>
+<body data-view="passport"><a class="skip" href="#main">Skip to content / Preskoči na sadržaj</a><header class="site-header"><a class="brand" href="../../index.html" aria-label="Computing Studio home"><b>OR<span>↗</span></b><span>COMPUTING<br>STUDIO</span></a><nav aria-label="Main navigation"><a class="nav-begin" href="../../lab/dizajn/start.html"><span data-en="Begin" data-sr="Počni">Begin</span></a><a href="../../index.html"><span data-en="Studio" data-sr="Studio">Studio</span></a><a href="../../cas.html"><span data-en="In class" data-sr="Na času">In class</span></a><a href="../../lab.html"><span data-en="Instruments" data-sr="Instrumenti">Instruments</span></a><a href="../../ideje.html"><span data-en="Idea cloud" data-sr="Oblak ideja">Idea cloud</span></a><a href="../../biblioteka.html"><span data-en="Sources" data-sr="Izvori">Sources</span></a></nav><button id="language" class="language" type="button" aria-label="Switch to Serbian">SR</button></header>
+<main id="main" tabindex="-1">
+<div class="page-heading compact"><p class="eyebrow">FILM / OBJECT 001 → PASSPORT</p><h1><span data-en="How an object becomes visible" data-sr="Kako objekat postaje vidljiv">How an object becomes visible</span></h1><p class="lede"><span data-en="The Old Sava Bridge, Belgrade, 1942–2025. A silent film of two minutes and forty-one seconds, drawn here and now from the passport record: every figure and every sentence on screen is read from the same file you can open below." data-sr="Stari savski most, Beograd, 1942–2025. Nemi film od dva minuta i četrdeset jednu sekundu, nacrtan ovde i sada iz zapisa pasoša: svaki broj i svaka rečenica na ekranu čitaju se iz istog fajla koji možeš da otvoriš ispod.">The Old Sava Bridge, Belgrade, 1942–2025. A silent film of two minutes and forty-one seconds, drawn here and now from the passport record: every figure and every sentence on screen is read from the same file you can open below.</span></p></div>
+
+<section class="film" aria-labelledby="film-label">
+  <h2 id="film-label" class="sr-only"><span data-en="Film player" data-sr="Plejer filma">Film player</span></h2>
+  <div class="film-stage">
+    <canvas id="film-canvas" width="1920" height="1080" role="img" aria-label="The passport film. The transcript below carries the same text."></canvas>
+    <button id="film-big" class="film-big" type="button" aria-label="Play the film"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3l15 9-15 9z" fill="currentColor"/></svg></button>
+  </div>
+  <div class="film-controls">
+    <button id="film-play" type="button" aria-pressed="false"><span data-en="Play" data-sr="Pusti">Play</span></button>
+    <input id="film-seek" type="range" min="0" max="4024" step="1" value="50" aria-label="Position in the film">
+    <output id="film-time" for="film-seek">00:02 / 02:41</output>
+  </div>
+  <div id="film-scenes" class="film-scenes" role="group" aria-label="Scenes"></div>
+  <p id="film-status" class="film-status" aria-live="polite"></p>
+  <div class="film-files">
+    <a href="objekat-001.mp4" download><span data-en="Download 6 Oct film (MP4, 1080p, silent)" data-sr="Preuzmi film od 06.10. (MP4, 1080p, bez zvuka)">Download 6 Oct film (MP4, 1080p, silent)</span></a>
+    <a href="objekat-001.en.vtt"><span data-en="Live version captions EN (.vtt)" data-sr="Titl žive verzije EN (.vtt)">Live version captions EN (.vtt)</span></a>
+    <a href="objekat-001.sr.vtt"><span data-en="Live version captions SR (.vtt)" data-sr="Titl žive verzije SR (.vtt)">Live version captions SR (.vtt)</span></a>
+    <a href="../../data/pasos/objekat-001-savski-most.json"><span data-en="The passport record (JSON)" data-sr="Zapis pasoša (JSON)">The passport record (JSON)</span></a>
+    <a href="REDAKCIJSKI_DOSSIJE.md"><span data-en="Editorial dossier" data-sr="Redakcijski dosije">Editorial dossier</span></a>
+    <a href="STORYBOARD.md"><span data-en="Storyboard" data-sr="Scenario">Storyboard</span></a>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="transcript-label">
+  <div class="section-top"><h2 id="transcript-label"><span data-en="What the film says" data-sr="Šta film kaže">What the film says</span></h2></div>
+  <ol id="film-transcript" class="film-transcript"></ol>
+</section>
+
+<section class="section" aria-labelledby="limits-label">
+  <div class="section-top"><h2 id="limits-label"><span data-en="Limits" data-sr="Granice">Limits</span></h2></div>
+  <div class="film-limits">
+    <p><span data-en="The record was extended on 7 October 2026. The MP4 preserves the 6 October version; this live player and the captions use the current record. A missing value is not proof that no record exists." data-sr="Zapis je dopunjen 07.10.2026. MP4 čuva verziju od 06.10; ovaj živi plejer i titlovi koriste trenutni zapis. Vrednost koja nije nađena nije dokaz da zapis ne postoji.">The record was extended on 7 October 2026. The MP4 preserves the 6 October version; this live player and the captions use the current record. A missing value is not proof that no record exists.</span></p>
+    <p><span data-en="Maps are orientation, not a survey base: rivers are straight lines through bridge coordinates, and the axis retains the earlier 430 m orientation. The 401.2 m scoping figure is a separate unresolved claim in the interactive passport." data-sr="Karte su orijentacija, ne geodetska osnova: reke su prave linije kroz koordinate mostova, a osa zadržava raniju orijentaciju od 430 m. Navod od 401,2 m iz dokumenta ostaje zaseban nerešen podatak u interaktivnom pasošu.">Maps are orientation, not a survey base: rivers are straight lines through bridge coordinates, and the axis retains the earlier 430 m orientation. The 401.2 m scoping figure is a separate unresolved claim in the interactive passport.</span></p>
+    <p><span data-en="In the browser the film uses the fonts on your device, so line breaks can differ slightly from the MP4, which is the archived 6 October render." data-sr="U pregledaču film koristi fontove sa tvog uređaja, pa prelomi redova mogu malo da se razlikuju od MP4 snimka, koji je sačuvani snimak od 06.10..">In the browser the film uses the fonts on your device, so line breaks can differ slightly from the MP4, which is the archived 6 October render.</span></p>
+  </div>
+</section>
+</main>
+<footer class="site-footer"><div><strong>OR / COMPUTING STUDIO</strong><p><span data-en="Semir Poturak · Union — Nikola Tesla University" data-sr="Semir Poturak · Univerzitet „Union — Nikola Tesla”">Semir Poturak · Union — Nikola Tesla University</span><br><span data-en="Architecture &amp; civil engineering · Belgrade" data-sr="Arhitektura i građevinarstvo · Beograd">Architecture &amp; civil engineering · Belgrade</span></p></div><div class="footer-links"><a href="../../lab/pasos/index.html"><span data-en="Pilot map of Belgrade" data-sr="Pilot mapa Beograda">Pilot map of Belgrade</span></a><a href="../../lab.html"><span data-en="All instruments" data-sr="Svi instrumenti">All instruments</span></a><a href="../../pristup.html"><span data-en="Access &amp; offline" data-sr="Pristup i rad bez mreže">Access &amp; offline</span></a><a href="https://github.com/3esign/computing-studio" rel="noreferrer">GitHub ↗</a></div></footer>
+<script>
+/* Plejer: isti film.js koji izvozi MP4 crta ovde, kadar po kadar, iz istog JSON-a.
+   Player: the same film.js that exports the MP4 draws here, frame by frame, from the same JSON. */
+(function () {
+  'use strict';
+  var canvas = document.getElementById('film-canvas'), ctx = canvas.getContext('2d');
+  var play = document.getElementById('film-play'), big = document.getElementById('film-big');
+  var seek = document.getElementById('film-seek'), time = document.getElementById('film-time');
+  var scenesEl = document.getElementById('film-scenes'), statusEl = document.getElementById('film-status');
+  var transcript = document.getElementById('film-transcript');
+  var F, M, script, frame = 50, playing = false, last = 0, startedAt = 0, startFrame = 0, drawn = -1;
+  var lang = function () { return document.documentElement.lang === 'sr-Latn' ? 'sr' : 'en'; };
+  var t = function (en, sr) { return lang() === 'sr' ? sr : en; };
+  function mmss(s) { s = Math.floor(s); return String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); }
+
+  function draw(n) {
+    if (!M) return;
+    frame = Math.max(0, Math.min(F.FRAMES - 1, n));
+    if (frame !== drawn) { ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.globalAlpha = 1; F.renderFrame(ctx, frame, M); drawn = frame; }
+    seek.value = String(frame);
+    time.textContent = mmss(frame / F.FPS) + ' / ' + mmss(F.DURATION);
+    var sc = F.sceneAt(frame / F.FPS);
+    Array.prototype.forEach.call(scenesEl.children, function (b, i) { b.setAttribute('aria-current', i === sc.i ? 'true' : 'false'); });
+    Array.prototype.forEach.call(transcript.children, function (li, i) { li.setAttribute('aria-current', i === sc.i ? 'true' : 'false'); });
+  }
+  function tick(now) {
+    if (!playing) return;
+    var n = startFrame + Math.floor((now - startedAt) / 1000 * F.FPS);
+    if (n >= F.FRAMES) { draw(F.FRAMES - 1); setPlaying(false); return; }
+    draw(n);
+    requestAnimationFrame(tick);
+  }
+  function setPlaying(on) {
+    playing = on && !!M;
+    play.setAttribute('aria-pressed', playing ? 'true' : 'false');
+    play.firstChild.textContent = playing ? t('Pause', 'Pauza') : t('Play', 'Pusti');
+    play.firstChild.setAttribute('data-en', playing ? 'Pause' : 'Play');
+    play.firstChild.setAttribute('data-sr', playing ? 'Pauza' : 'Pusti');
+    big.hidden = playing;
+    if (playing) {
+      if (frame >= F.FRAMES - 1) frame = 0;
+      startFrame = frame; startedAt = performance.now();
+      requestAnimationFrame(tick);
+    }
+  }
+  function jump(n) { var was = playing; playing = false; draw(n); if (was) setPlaying(true); }
+
+  function build() {
+    scenesEl.replaceChildren();
+    transcript.replaceChildren();
+    F.SCENES.forEach(function (s, i) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      var num = document.createElement('b'); num.textContent = String(i + 1).padStart(2, '0') + '  ' + mmss(s.t0);
+      b.appendChild(num); b.appendChild(document.createTextNode(s[lang()]));
+      b.addEventListener('click', function () { jump(Math.round(s.t0 * F.FPS) + 1); });
+      scenesEl.appendChild(b);
+      var li = document.createElement('li');
+      var tm = document.createElement('time'); var tb = document.createElement('b');
+      tb.textContent = String(i + 1).padStart(2, '0') + ' · ' + mmss(s.t0) + '–' + mmss(s.t1);
+      tm.appendChild(tb); tm.appendChild(document.createTextNode(s[lang()]));
+      var body = document.createElement('div');
+      script[i].lines.forEach(function (l) { var p = document.createElement('p'); p.textContent = l[lang()]; body.appendChild(p); });
+      li.appendChild(tm); li.appendChild(body);
+      transcript.appendChild(li);
+    });
+    statusEl.textContent = t('Drawn live from the record of ' + M.rec.updated + '. Space plays and pauses; the arrows move five seconds.',
+                             'Crta se uživo iz zapisa od ' + M.rec.updated + '. Razmak pušta i zaustavlja; strelice pomeraju pet sekundi.');
+    drawn = -1; draw(frame);
+  }
+
+  play.addEventListener('click', function () { setPlaying(!playing); });
+  big.addEventListener('click', function () { setPlaying(true); });
+  seek.addEventListener('input', function () { jump(Number(seek.value)); });
+  canvas.addEventListener('click', function () { setPlaying(!playing); });
+  document.addEventListener('keydown', function (e) {
+    if (!M || /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) return;
+    if (e.key === ' ' || e.key === 'k') { if (document.activeElement.tagName !== 'BUTTON') { e.preventDefault(); setPlaying(!playing); } }
+    else if (e.key === 'ArrowRight') jump(frame + 5 * F.FPS);
+    else if (e.key === 'ArrowLeft') jump(frame - 5 * F.FPS);
+  });
+  new MutationObserver(function () { if (M) { build(); setPlaying(playing); } }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+
+  function start() {
+    F = window.PasosFilm;
+    if (!F) { statusEl.textContent = 'film.js did not load.'; return; }
+    fetch('../../data/pasos/objekat-001-savski-most.json', { cache: 'no-cache' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (rec) {
+        M = F.prepare(rec); script = F.script(M);
+        seek.max = String(F.FRAMES - 1);
+        build();
+      })
+      .catch(function () {
+        statusEl.textContent = t('The passport record could not be loaded here (a page opened from disk cannot read files). Open it through the site, or download the MP4.',
+                                 'Zapis pasoša ne može da se učita ovde (strana otvorena sa diska ne čita fajlove). Otvori je preko sajta ili preuzmi MP4.');
+      });
+  }
+  if (document.readyState === 'complete') start(); else window.addEventListener('load', start);
+}());
+</script>
+</body>
+</html>

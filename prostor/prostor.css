@@ -1,0 +1,217 @@
+/* Object 001 in space.
+   The page keeps the studio's paper identity; only the instrument is dark,
+   because the instrument is the one place where absence has to be visible.
+   Tokens are inherited from assets/site.css — nothing is redefined here that
+   already has a name there. */
+
+.prostor-page{
+  --dark:#0b0d10;        /* the stage */
+  --bone:#e8e6dd;        /* a line carried by evidence */
+  --beam:#5b85ff;        /* confirmed structure */
+  --amber:#ffc759;       /* the second figure, where sources disagree */
+  --ghost:#9d998e;       /* a marked absence */
+  --cool:#4ccbf0;        /* a behaviour, never a body */
+}
+
+/* The instrument is the argument, so it has to be on screen when the page
+   opens. The heading states the claim and gets out of the way. */
+.prostor-page .page-heading{display:grid;grid-template-columns:1.05fr 1fr;gap:4%;
+  align-items:end;padding:34px 0 24px}
+.prostor-page .page-heading .eyebrow{grid-column:1/-1}
+.prostor-page .page-heading h1{font-size:clamp(2.1rem,3.5vw,3.4rem);max-width:17ch;margin:14px 0 0}
+.prostor-page .page-heading .lede{font-size:15px;line-height:1.65;margin:0;max-width:62ch}
+
+/* -------------------------------------------------------------- layout */
+.pr{display:grid;grid-template-columns:minmax(0,1.42fr) minmax(330px,.58fr);gap:28px;padding:10px 0 50px;align-items:start}
+.pr-stage-wrap{position:sticky;top:18px;min-width:0}
+
+.pr-stage{position:relative;background:var(--dark);aspect-ratio:16/11;min-height:430px;
+  overflow:hidden;touch-action:none;cursor:grab;border:1px solid var(--ink)}
+.pr-stage:active{cursor:grabbing}
+.pr-stage:focus-visible{outline:3px solid var(--signal);outline-offset:3px}
+.pr-stage canvas{display:block;width:100%;height:100%}
+.no-gl .pr-stage{aspect-ratio:auto;min-height:0;display:grid;place-items:center;padding:34px}
+.no-gl .pr-stage canvas,.no-gl .pr-overlay,.no-gl .pr-views,.no-gl .pr-stamp{display:none}
+.no-gl .pr-help{display:none}
+
+/* --------------------------------------------------------- stage chrome */
+.pr-stamp{position:absolute;top:14px;left:15px;max-width:30ch;pointer-events:none;
+  font:10px/1.5 var(--mono);color:#7d8694;letter-spacing:.05em}
+.pr-stamp b{display:block;color:var(--amber);letter-spacing:.14em;margin-bottom:5px}
+
+.pr-views{position:absolute;top:12px;right:12px;display:flex;gap:0;border:1px solid #2b313b}
+.pr-views button{background:transparent;border:0;border-left:1px solid #2b313b;color:#98a1b0;
+  font:11px var(--mono);letter-spacing:.07em;padding:9px 13px;min-height:40px}
+.pr-views button:first-child{border-left:0}
+.pr-views button[aria-pressed=true]{background:var(--beam);color:#fff}
+.pr-views button:focus-visible{outline:2px solid var(--amber);outline-offset:-3px}
+
+.pr-darkhint{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);margin:0;
+  max-width:34ch;text-align:center;font:13px/1.7 var(--sans);color:#8f97a5}
+.pr-darkhint b{display:block;font:11px var(--mono);letter-spacing:.2em;color:var(--amber);
+  text-transform:uppercase;margin-bottom:9px}
+.no-gl .pr-darkhint{display:none}
+
+.pr-glnote{position:absolute;inset:auto 18px 18px;margin:0;max-width:62ch;
+  font:13px/1.6 var(--sans);color:#c6c2b7}
+.no-gl .pr-glnote{position:static;color:var(--ink);font-size:15px;max-width:66ch}
+
+.pr-foot{position:absolute;left:0;right:0;bottom:0;padding:14px 16px 13px;
+  background:linear-gradient(to top,rgba(11,13,16,.96),rgba(11,13,16,0));pointer-events:none}
+.pr-viewnote{margin:0 0 9px;font:11px/1.5 var(--mono);color:#8d95a3;max-width:70ch}
+.pr-covbar{display:flex;gap:2px;height:7px;margin-bottom:7px}
+.pr-covbar .cell{flex:1;background:#20242c;transition:background .25s}
+@media(prefers-reduced-motion:reduce){.pr-covbar .cell{transition:none}}
+.pr-covbar .cell.on.st-confirmed{background:var(--beam)}
+.pr-covbar .cell.on.st-single-source{background:#3a5aa8}
+.pr-covbar .cell.on.st-conflicting{background:var(--amber)}
+.pr-covbar .cell.on.st-unconfirmed{background:#55504a}
+.pr-covbar .cell.st-unknown{background:repeating-linear-gradient(90deg,#3a372f 0 2px,transparent 2px 4px)}
+.pr-covtext{margin:0;font:11px/1.6 var(--mono);color:#b9b4a8;max-width:78ch}
+
+/* markers: decoration only, every one has a real button in the side list */
+.pr-overlay{position:absolute;inset:0;pointer-events:none}
+.pr-overlay .mk{position:absolute;top:0;left:0;display:flex;align-items:center;gap:7px;
+  transform:translate(-50%,-50%);will-change:transform}
+.pr-overlay .mk i{width:6px;height:6px;flex:none;background:var(--bone);
+  outline:1px solid rgba(11,13,16,.8);margin:-3px 0 0 -3px}
+.pr-overlay .mk.st-unknown i{background:transparent;border:1px solid var(--ghost);width:9px;height:9px}
+.pr-overlay .mk.st-conflicting i{background:var(--amber)}
+.pr-overlay .mk.st-confirmed i{background:var(--beam)}
+.pr-overlay .mk b{font:10px/1 var(--mono);letter-spacing:.05em;color:#e8e6dd;white-space:nowrap;
+  background:rgba(11,13,16,.82);padding:5px 7px;transform:translate(6px,-2px)}
+.pr-overlay .mk.sel i{outline-color:var(--amber);box-shadow:0 0 0 3px rgba(255,199,89,.3)}
+
+.pr-help{font:11px/1.6 var(--mono);color:var(--muted);margin:12px 0 0;max-width:80ch}
+.pr-nojs{border-left:3px solid var(--signal);padding:14px 18px;background:var(--soft);font-size:14px;margin-top:14px}
+
+/* ---------------------------------------------------------------- side */
+.pr-side{min-width:0}
+.pr-object{border-top:2px solid var(--ink);padding-top:16px}
+.pr-object h2{font-size:28px;margin:0 0 6px}
+.pr-life{font:11px var(--mono);color:var(--muted);margin:0 0 12px}
+.pr-scope{font-size:13.5px;line-height:1.65;color:var(--muted);margin:0;max-width:60ch}
+
+.pr-h{font-size:17px;letter-spacing:-.01em;margin:30px 0 4px;padding-top:14px;border-top:1px solid var(--ink)}
+.pr-sub{font-size:13px;color:var(--muted);margin:0 0 14px;max-width:58ch}
+
+/* source rack */
+.pr-rack{display:grid;gap:5px}
+.src{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:11px;text-align:left;
+  background:transparent;border:1px solid var(--line);padding:9px 11px;min-height:46px;font-size:13px}
+.src:hover{border-color:var(--ink)}
+.src[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.src-id{font:12px var(--mono);color:var(--signal)}
+.src[aria-pressed=true] .src-id{color:var(--amber)}
+.src-pub{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.src-n{font:10px var(--mono);color:var(--muted);text-align:right;flex:none}
+.src[aria-pressed=true] .src-n{color:#b9b4a8}
+.pr-acts{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 0}
+.pr-acts .button{font-size:12px;min-height:44px;padding:10px 14px}
+
+/* the reading panel */
+.pr-read{border-top:1px solid var(--ink);margin-top:26px;padding-top:16px;min-height:150px}
+.read-empty{font-size:14px;color:var(--muted);margin:0;max-width:55ch}
+.read-eyebrow{font:10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0}
+.pr-read h2{font-size:24px;margin:10px 0 12px;max-width:26ch}
+.read-states{font:11px var(--mono);margin:0 0 12px;color:var(--muted)}
+.read-states b{padding:3px 7px;border:1px solid currentColor;font-weight:400}
+.read-states b.faint{opacity:.72}
+.read-value{font-size:15px;line-height:1.6;margin:0 0 14px;max-width:58ch}
+.read-note{font-size:13px;line-height:1.65;color:var(--muted);border-left:2px solid var(--line);
+  padding-left:13px;margin:0 0 12px;max-width:58ch}
+.read-flag{font-size:13px;line-height:1.6;background:#fdf3dc;border-left:3px solid #c78b12;
+  padding:10px 13px;margin:0 0 12px;max-width:58ch}
+.read-src,.read-next,.read-checked{font-size:12.5px;margin:0 0 9px;line-height:1.7}
+.read-src .k,.read-next .k{display:block;font:10px var(--mono);letter-spacing:.07em;
+  text-transform:uppercase;color:var(--muted)}
+.read-srcid{display:inline-block;font:11px var(--mono);border:1px solid var(--signal);color:var(--signal);
+  padding:3px 7px;margin:4px 5px 0 0;text-decoration:none}
+.read-srcid.off{border-color:var(--line);color:var(--muted)}
+.read-checked{font:10px var(--mono);color:var(--muted);margin-top:14px}
+
+/* state colours, shared by list and panel — never the only signal: every
+   state is also written out in words next to the thing it describes */
+.st-confirmed{color:#1b4bd8}
+.st-single-source{color:#5d6ba0}
+.st-conflicting{color:#9a6a06}
+.st-unconfirmed{color:#6d675f}
+.st-unknown{color:#8a8176}
+
+/* part list */
+.pr-parts{margin-top:4px}
+.lane{border-top:1px solid var(--line);padding:14px 0 4px}
+.lane h3{font-size:15px;margin:0 0 3px}
+.lane-scope{font:11px/1.5 var(--mono);color:var(--muted);margin:0 0 9px;max-width:56ch}
+.lane-parts{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.part{display:grid;grid-template-columns:1fr auto;gap:3px 12px;width:100%;text-align:left;
+  background:transparent;border:1px solid transparent;border-left:3px solid var(--line);
+  padding:8px 10px;min-height:44px;font-size:13.5px;align-items:baseline}
+.part:hover{background:var(--soft);border-left-color:var(--signal)}
+.part[aria-pressed=true]{background:var(--ink);color:var(--paper);border-left-color:var(--amber)}
+.part[aria-pressed=true] .part-state,.part[aria-pressed=true] .part-var{color:#cfd3dc}
+.part.dark{opacity:.46}
+.part.st-confirmed{border-left-color:#1b4bd8}
+.part.st-conflicting{border-left-color:#d79a1a}
+.part.st-unknown{border-left-color:transparent;
+  background-image:repeating-linear-gradient(180deg,#b5ad9e 0 3px,transparent 3px 6px);
+  background-size:3px 100%;background-repeat:no-repeat;background-position:0 0;opacity:1}
+.part-name{min-width:0}
+.part-state{font:10px var(--mono);text-align:right;color:var(--muted);white-space:nowrap}
+.part-var{grid-column:1/-1;font:11px var(--mono);color:var(--signal)}
+
+/* conflicting figures, side by side, neither preferred */
+.variants{border:1px solid var(--line);padding:12px 14px;margin:0 0 14px;max-width:58ch}
+.variants-head{font:11px/1.6 var(--mono);color:var(--muted);margin:0 0 10px}
+.variant{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:baseline;
+  padding:7px 0;border-top:1px dotted var(--line)}
+.variant:first-of-type{border-top:0}
+.variant b{font:17px var(--mono)}
+.variant.v0 b{color:#1b4bd8}
+.variant.v1 b{color:#9a6a06}
+.variant-by{font-size:12px;color:var(--muted);min-width:0}
+.variant-src{font:10px var(--mono);color:var(--muted)}
+.variant.off{opacity:.4}
+.variant.off b::after{content:" ·";}
+
+/* ------------------------------------------------------------- limits */
+.pr-limits{border-top:1px solid var(--ink)}
+.pr-props{padding-left:19px;margin:12px 0 0}
+.pr-props li{font-size:14px;line-height:1.6;margin-bottom:9px;max-width:56ch}
+.pr-quote{font-size:13.5px;line-height:1.65;color:var(--muted);border-left:2px solid var(--line);
+  padding-left:14px;max-width:58ch}
+.pr-path{border-top:1px solid var(--line)}
+.pr-cloud{font-size:14px;margin-top:26px}
+.pr-cloud a{color:var(--signal)}
+
+/* -------------------------------------------------------- narrow screens */
+@media(max-width:1100px){
+  .pr{grid-template-columns:1fr;gap:22px}
+  .pr-stage-wrap{position:static}
+  .pr-stage{aspect-ratio:4/3;min-height:0}
+}
+@media(max-width:860px){
+  .prostor-page .page-heading{grid-template-columns:1fr;gap:10px;padding:24px 0 16px}
+  .prostor-page .page-heading h1{max-width:none}
+}
+@media(max-width:720px){
+  .pr{padding-top:0}
+  .pr-stage{aspect-ratio:1/1;min-height:320px}
+  .pr-stamp{max-width:21ch;font-size:9px;top:10px;left:11px}
+  .pr-views button{padding:9px 10px;font-size:10px}
+  .pr-foot{padding:11px 12px 11px}
+  .pr-covtext{font-size:10px}
+  .pr-viewnote{font-size:10px}
+  .src{grid-template-columns:30px 1fr;gap:4px 9px}
+  .src-n{grid-column:2;text-align:left}
+  .pr-acts .button{flex:1 1 140px}
+  .pr-read h2{font-size:21px}
+  .part{grid-template-columns:1fr}
+  .part-state{text-align:left}
+}
+
+/* Reduced motion: the reveal still happens, it simply does not animate.
+   Content is never withheld to satisfy a motion preference. */
+@media(prefers-reduced-motion:reduce){
+  .pr-overlay .mk{will-change:auto}
+}

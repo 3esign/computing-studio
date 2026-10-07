@@ -32,6 +32,8 @@ The teacher's desk previews and downloads course JSON. Downloading does not publ
 | data/ideas.json | Optional prompts, sources and boundaries |
 | data/sources.json | Provenance, reading scope and limits |
 | data/labs.json | Eight laboratories, guided entrance and model limits |
+| data/pasos/ | One passport record per object; Object 001 is the Old Sava Bridge |
+| film/pasos/ | The passport film: live player, MP4, captions, storyboard and editorial dossier |
 | assets/site.css | Shared layout and visual identity |
 | lab/ | Browser instruments |
 

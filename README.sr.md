@@ -32,6 +32,8 @@ Nastavnički sto prikazuje pregled i preuzima JSON. Preuzimanje ne objavljuje pr
 | data/ideas.json | Neobavezni predlozi, izvori i granice |
 | data/sources.json | Poreklo, obim čitanja i ograničenja |
 | data/labs.json | Osam laboratorija, vođeni ulaz i granice modela |
+| data/pasos/ | Jedan zapis pasoša po objektu; Objekat 001 je Stari savski most |
+| film/pasos/ | Film pasoša: plejer uživo, MP4, titlovi, scenario i redakcijski dosije |
 | assets/site.css | Zajednički raspored i vizuelni identitet |
 | lab/ | Instrumenti u pregledaču |
 

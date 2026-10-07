@@ -1,0 +1,40 @@
+/* The passport film page — page-specific rules only.
+   Palette, type and header come from assets/site.css. Nothing here loads from the network. */
+
+.film { margin: 10px 0 0; border-top: 1px solid var(--ink); padding-top: 18px; }
+.film-stage { position: relative; background: var(--paper); border: 1px solid var(--line); aspect-ratio: 16 / 9; overflow: hidden; }
+.film-stage canvas { display: block; width: 100%; height: 100%; }
+.film-big { position: absolute; left: calc(50% - 48px); top: 63%; width: 96px; height: 96px; min-height: 0; border-radius: 50%; border: 1px solid var(--ink); background: rgba(255, 254, 250, .9); display: grid; place-items: center; }
+.film-big svg { width: 34px; height: 34px; margin-left: 6px; }
+.film-big:hover { background: var(--signal); color: white; border-color: var(--signal); }
+.film-controls { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 14px 0 6px; }
+.film-controls button { min-width: 108px; background: transparent; border: 1px solid var(--ink); font: 13px var(--mono); padding: 0 14px; }
+.film-controls button[aria-pressed=true] { background: var(--ink); color: var(--white); }
+.film-controls input[type=range] { width: 100%; padding: 0; border: none; background: transparent; accent-color: var(--signal); min-width: 0; }
+.film-controls output { font: 14px var(--mono); color: var(--muted); min-width: 110px; text-align: right; }
+.film-scenes { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 6px; padding: 6px 0 0; }
+.film-scenes button { min-height: 52px; padding: 6px 8px; text-align: left; background: var(--white); border: 1px solid var(--line); border-top: 3px solid var(--line); font: 11px/1.25 var(--mono); color: var(--muted); }
+.film-scenes button b { display: block; color: var(--signal); font-weight: 400; }
+.film-scenes button[aria-current=true] { border-top-color: var(--signal); color: var(--ink); }
+.film-status { min-height: 22px; font: 12px var(--mono); color: var(--muted); margin: 10px 0 0; }
+.film-files { display: flex; flex-wrap: wrap; gap: 10px 26px; padding: 18px 0 8px; border-bottom: 1px solid var(--line); font-size: 14px; }
+.film-files a { min-height: 44px; display: inline-flex; align-items: center; }
+.film-transcript { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; margin: 0; padding: 0; list-style: none; }
+.film-transcript li { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.film-transcript li[aria-current=true] { background: linear-gradient(90deg, var(--soft), transparent 70%); }
+.film-transcript time { font: 12px/1.6 var(--mono); color: var(--muted); }
+.film-transcript time b { display: block; color: var(--signal); font-weight: 400; }
+.film-transcript p { margin: 0 0 .4em; max-width: 72ch; }
+.film-limits { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.film-limits p { font-size: 15px; color: var(--muted); border-top: 1px solid var(--ink); padding-top: 14px; margin: 0; }
+
+@media (max-width: 720px) {
+  .film-controls { grid-template-columns: auto minmax(0, 1fr); }
+  .film-controls output { grid-column: 1 / -1; text-align: left; }
+  .film-scenes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .film-big { width: 64px; height: 64px; left: calc(50% - 32px); top: 60%; }
+  .film-big svg { width: 24px; height: 24px; margin-left: 4px; }
+  .film-transcript li { grid-template-columns: 1fr; gap: 6px; }
+  .film-limits { grid-template-columns: 1fr; }
+}
+@media print { .film-controls, .film-scenes, .film-big { display: none !important; } }

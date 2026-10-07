@@ -1,9 +1,12 @@
 {
-  "version": "23d1db2d489ea6ce",
-  "bytes": 1498882,
+  "version": "7f7276a61cf76a6a",
+  "bytes": 1724386,
   "files": [
     "assets/app.js",
     "assets/mark.svg",
+    "assets/pasos-model.js",
+    "assets/pasos.css",
+    "assets/pasos.js",
     "assets/qr/Q1.svg",
     "assets/qr/Q10.svg",
     "assets/qr/Q11.svg",
@@ -24,7 +27,13 @@
     "data/course.json",
     "data/ideas.json",
     "data/labs.json",
+    "data/pasos/objekat-001-savski-most.json",
     "data/sources.json",
+    "data/taxonomy.json",
+    "film/pasos/film.css",
+    "film/pasos/film.js",
+    "film/pasos/index.html",
+    "film/pasos/qa/film-qa.json",
     "ideje.html",
     "index.html",
     "js/dokaz.js",
@@ -59,7 +68,12 @@
     "lab/studio3000/style.css",
     "manifest.webmanifest",
     "nastavnik.html",
+    "pasos.html",
     "pristup.html",
-    "program.html"
+    "program.html",
+    "prostor/index.html",
+    "prostor/model.js",
+    "prostor/prostor.css",
+    "prostor/prostor.js"
   ]
 }
