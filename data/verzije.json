@@ -1,0 +1,97 @@
+{
+  "format": "computing-studio-versions",
+  "version": 1,
+  "predmet": {
+    "naziv": "Osnove računarstva",
+    "fakultet": "Univerzitet „Union — Nikola Tesla” · Fakultet za graditeljski menadžment, Beograd",
+    "nastavnik": "Semir Poturak",
+    "formatIspita": {
+      "status": "nepotvrđeno",
+      "napomena": "Format ispita za OR nije upisan. Ne izmišlja se — upisuje se kad ga Semir potvrdi, sa izvorom i datumom."
+    }
+  },
+  "nacelo": {
+    "sr": "Stranica predmeta živi paralelno sa predmetom: menja se, dopunjuje i dodaje. Šema verzija je ista kao na Inclusive Studio (PUD): revizije u fajlovima gradiva, manifest predmeta, append-only dnevnik. Vidi uputstvo: inclusive-studio/docs/verzije.md.",
+    "en": "A subject site lives in parallel with the subject. The versioning scheme mirrors Inclusive Studio (PUD): revisions in the material files, a subject manifest, an append-only log. See inclusive-studio/docs/verzije.md."
+  },
+  "stranice": [
+    {
+      "id": "pocetna",
+      "stranica": "index.html",
+      "izvorPodataka": "docs/data/course.json",
+      "verzijaZivi": "polje updated + git istorija + LOG.md"
+    },
+    {
+      "id": "cas",
+      "stranica": "cas.html",
+      "izvorPodataka": "docs/data/course.json (sessions)",
+      "verzijaZivi": "polje updated + git istorija + LOG.md"
+    },
+    {
+      "id": "program",
+      "stranica": "program.html",
+      "izvorPodataka": "docs/data/course.json (learningPath)",
+      "verzijaZivi": "polje updated + git istorija + LOG.md"
+    },
+    {
+      "id": "lab",
+      "stranica": "lab.html",
+      "izvorPodataka": "docs/data/labs.json",
+      "verzijaZivi": "git istorija + LOG.md"
+    },
+    {
+      "id": "pasos",
+      "stranica": "pasos.html",
+      "izvorPodataka": "docs/data/pasos/",
+      "verzijaZivi": "git istorija + LOG.md"
+    },
+    {
+      "id": "biblioteka",
+      "stranica": "biblioteka.html",
+      "izvorPodataka": "docs/data/sources.json",
+      "verzijaZivi": "git istorija + LOG.md"
+    },
+    {
+      "id": "ideje",
+      "stranica": "ideje.html",
+      "izvorPodataka": "docs/data/ideas.json",
+      "verzijaZivi": "git istorija + LOG.md"
+    },
+    {
+      "id": "manifest",
+      "stranica": "ovaj fajl",
+      "izvorPodataka": "docs/data/verzije.json",
+      "verzijaZivi": "istorija u polju istorija + git"
+    }
+  ],
+  "istorija": [
+    {
+      "datum": "2026-10-07",
+      "sta": {
+        "sr": "Javni kandidat Computing Studio objavljen live (12/12 served-hash poklapanja).",
+        "en": "Public Computing Studio candidate published live (12/12 served-hash matches)."
+      }
+    },
+    {
+      "datum": "2026-10-09",
+      "sta": {
+        "sr": "Manifest verzija usaglašen sa šemom sa PUD sajta; format ispita ostaje nepotvrđen do Semirove potvrde.",
+        "en": "Version manifest aligned with the PUD site scheme; exam format stays unconfirmed until Semir confirms it."
+      }
+    },
+    {
+      "datum": "2026-10-09",
+      "sta": {
+        "sr": "Obrazac „toka predmeta“ dokumentovan na PUD sajtu (tok.html: zacementirano / pilot / oblak ideja, prelaze provodi validator). OR uvodi istu šemu tek kad ima prvi održani čas sa upisanim rezultatima — ne pre.",
+        "en": "The “course flow” pattern documented on the PUD site (tok.html: cemented / pilot / cloud of ideas, transitions enforced by a validator). OR adopts it once it has a first held class with written results — not before."
+      }
+    },
+    {
+      "datum": "2026-10-09",
+      "sta": {
+        "sr": "Šema toka dopunjena na PUD sajtu: tok predmeta je sada landing strana (index.html) — zacementirani časovi redom sa A3 listom nedelje ka radnoj svesci za ispit, pilot za sledeći čas, oblak ideja — a traka toka stoji u zaglavlju svake strane i generiše se iz data/tok.json. OR i dalje uvodi tok tek sa prvim održanim časom sa upisanim rezultatima.",
+        "en": "The flow schema updated on the PUD site: the course flow is now the landing page (index.html) — cemented classes in order with the week's A3 sheet toward the exam workbook, pilot for the next class, cloud of ideas — with a flow strip in the header of every page, generated from data/tok.json. OR still introduces the flow only with its first held class with recorded results."
+      }
+    }
+  ]
+}
