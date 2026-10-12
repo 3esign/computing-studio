@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-04",
+  "updated": "2026-10-12",
   "sources": [
     {
       "id": "OR-DES-01",
@@ -1260,6 +1260,26 @@
         "sr": "AERA rad o okviru zasnovan na Scratch posmatranjima i intervjuima, ne randomizovan eksperiment ili dokaz prenosa na studente arhitekture/građevine. Slike nisu vizuelno proverene."
       },
       "checked": "2026-10-04"
+    },
+    {
+      "id": "OR-CHECK-01",
+      "title": "Mike Caulfield · Web Literacy for Student Fact-Checkers",
+      "url": "https://open.umn.edu/opentextbooks/textbooks/web-literacy-for-student-fact-checkers",
+      "date": "2017; CC BY",
+      "tag": "learning",
+      "summary": {
+        "en": "Four moves for checking information: investigate who stands behind the source, find better coverage and compare, trace the claim to its original context — and know when to stop. The later SIFT acronym names the same moves.",
+        "sr": "Četiri poteza za proveru informacija: ispitaj ko stoji iza izvora, nađi bolju pokrivenost i uporedi, prati tvrdnju do izvornog konteksta — i znaj kad da staneš. Kasniji SIFT akronim imenuje iste poteze."
+      },
+      "scope": {
+        "en": "Open Textbook Library entry read 2026-10-12: author, year, licence and the four strategies (fact-checking, going upstream, reading laterally, circling back). The acronym itself is not used in the book.",
+        "sr": "Zapis Open Textbook Library pročitan 12.10.2026: autor, godina, licenca i četiri strategije (provera činjenica, ištanje uzvodno, bočno čitanje, vraćanje unazad). Akronim se u knjizi samoj ne koristi."
+      },
+      "limit": {
+        "en": "Written for checking news and web claims, not for archival building research; the moves transfer, the examples do not. An open textbook is teaching material, not a verified method study for this course.",
+        "sr": "Pisano za proveru novinskih i veb tvrdnji, ne za arhivsko istraživanje građevine; potezi se prenose, primeri ne. Otvoreni udžbenik je nastavni materijal, ne proverena studijska metoda za ovaj predmet."
+      },
+      "checked": "2026-10-12"
     }
   ]
 }
