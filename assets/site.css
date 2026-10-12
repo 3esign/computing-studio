@@ -58,3 +58,9 @@
 .student-link:hover{background:#f2e8cd;border-bottom-color:#8a6d1f}
 a.button.student-link, .student-link.button{border-bottom:0}
 .student-badge{display:inline-block;font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:#6b4e08;border:1px solid #d9c689;background:#f6efdd;border-radius:999px;padding:2px 9px;vertical-align:middle;margin-left:8px}
+
+/* OR proven composition paths (12.10): prose pages keep the narrow column;
+   data pages (timovi, studenti) opt into the wide container so tables, maps
+   and card rows span the page and stay aligned with the full-bleed hero. */
+main.wide{max-width:1760px}
+.wide .section{max-width:1760px;margin:0 auto;padding-left:clamp(16px,4vw,60px);padding-right:clamp(16px,4vw,60px)}

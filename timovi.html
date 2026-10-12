@@ -13,7 +13,13 @@ body{overflow-x:hidden}
 .map-fallback{padding:40px 28px;text-align:center;color:#6a6455;font-size:14px}
 .map-note{margin:8px 4px 0;font-size:11.5px;color:#8a8270}
 .map-note a{color:#8a6d1f;text-decoration:none}
-.side{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;align-items:stretch}
+.side{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;align-items:stretch;grid-auto-rows:1fr}
+.sidecard,.stats{display:flex;flex-direction:column}
+.sidecard{justify-content:flex-start}
+.stats{justify-content:center;gap:10px}
+.stats{gap:10px}
+.stats .stat{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.chiprow{align-content:start}
 .stats{display:flex;gap:10px}
 .stat{flex:1;background:#fbfaf5;border:1px solid #e0dac9;border-radius:12px;padding:12px 10px;text-align:center}
 .stat b{display:block;font-size:26px;line-height:1.1;color:#2b2822}
