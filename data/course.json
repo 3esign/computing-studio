@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-05",
+  "updated": "2026-10-12",
   "title": {
     "en": "Computing, made visible.",
     "sr": "Računarstvo koje se vidi."
@@ -14,7 +14,26 @@
     "en": "Start with one record. Predict, connect the views, execute a rule, then try a new case.",
     "sr": "Počni od jednog zapisa. Predvidi, poveži prikaze, izvedi pravilo, pa probaj novi slučaj."
   },
-  "sessions": [],
+  "sessions": [
+    {
+      "id": "cas-01-savski-most",
+      "status": "held",
+      "date": "2026-10-05",
+      "title": {
+        "en": "Class 01 · The old Sava bridge: choosing a topic, rebuilding an object through data",
+        "sr": "Čas 01 · Stari savski most: izbor teme i rekonstrukcija objekta kroz podatke"
+      },
+      "summary": {
+        "en": "Object 001 — the old Sava railway bridge — was presented as the worked example of choosing a topic and rebuilding a real object through verifiable data: the digital passport with its sources, claims, disagreements and unknowns (the film and the 3D scene). The groups then chose their own objects and research tracks.",
+        "sr": "Objekat 001 — stari savski most — prikazan je kao primer izbora teme i rekonstrukcije stvarnog objekta kroz proverljive podatke: digitalni pasoš sa izvorima, tvrdnjama, neslaganjima i nepoznatim (film i 3D scena). Grupe su zatim izabrale svoje objekte i istraživačke trake."
+      },
+      "task": {
+        "en": "Continue where the example stopped: for your own object, start collecting data — source, author, date, unit — and bring the first findings to the next class.",
+        "sr": "Nastavi tamo gde je primer stao: za svoj objekat počni da prikupljaš podatke — izvor, autora, datum, jedinicu — i donesi prve nalaze na sledeći čas."
+      },
+      "link": "pasos.html"
+    }
+  ],
   "classQuestions": [
     {
       "id": "Q1",

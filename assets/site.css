@@ -49,3 +49,6 @@
 
 /* Equal dimensions remain equal in the opening drawing. */
 .facade-grid{width:100%;max-width:360px;margin:auto;gap:0}.facade-dimension{max-width:360px;margin-left:auto;margin-right:auto}.facade-panel{aspect-ratio:1;min-height:0}.facade-panel[aria-pressed=true]{outline-offset:-3px;z-index:1}.facade-panel span{font-size:12px}.facade-panel small{font-size:11px}.diagram-caption{font-size:12px}.specimen-label{font-size:10px}
+
+/* Link line directly under a page lede. */
+.lede-links{margin-top:10px}

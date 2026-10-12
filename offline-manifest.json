@@ -1,6 +1,6 @@
 {
-  "version": "7f7276a61cf76a6a",
-  "bytes": 1724386,
+  "version": "f2597c17fe23ad8c",
+  "bytes": 1742633,
   "files": [
     "assets/app.js",
     "assets/mark.svg",
@@ -30,6 +30,7 @@
     "data/pasos/objekat-001-savski-most.json",
     "data/sources.json",
     "data/taxonomy.json",
+    "data/verzije.json",
     "film/pasos/film.css",
     "film/pasos/film.js",
     "film/pasos/index.html",
@@ -74,6 +75,7 @@
     "prostor/index.html",
     "prostor/model.js",
     "prostor/prostor.css",
-    "prostor/prostor.js"
+    "prostor/prostor.js",
+    "sledeci.html"
   ]
 }
