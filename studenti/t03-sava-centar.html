@@ -9,13 +9,39 @@
 .pstats{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
 .ps{background:#f1ecdd;border:1px solid #e0d8bd;border-radius:999px;padding:5px 13px;font-size:12.5px;color:#5d5748}
 .ps b{color:#2b2822;font-size:14px}
-.psec{margin-top:22px}
-.psec h3{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#8a8270;margin:0 0 8px;border-bottom:1px solid #eee8d8;padding-bottom:6px}
-.ptab{width:100%;border-collapse:collapse;font-size:14px}
-.ptab th{text-align:left;width:170px;vertical-align:top;padding:8px 12px 8px 0;color:#2b2822;font-weight:600}
-.ptab td{padding:8px 0;vertical-align:top;color:#3f3c34;line-height:1.5}
-.ptab tr+tr{border-top:1px dashed #eee8d8}
-.ptab .src{width:90px;white-space:nowrap}
+.psec{margin-top:26px}
+.psec h3{display:flex;align-items:center;gap:10px;font-size:15px;color:#2b2822;margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid #e7e1d0}
+.qdot{width:10px;height:10px;border-radius:50%;flex:none}
+.qn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;letter-spacing:.16em;color:#8a6d1f}
+.qcount{margin-left:auto;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.ptab{width:100%;border-collapse:separate;border-spacing:0;font-size:14px}
+.ptab th{text-align:left;width:200px;vertical-align:top;padding:9px 14px 9px 0;color:#2b2822;font-weight:600}
+.ptab td{padding:9px 0;vertical-align:top;color:#3f3c34;line-height:1.55}
+.ptab tbody tr{vertical-align:top}
+.ptab tbody tr+tr th,.ptab tbody tr+tr td{border-top:1px dashed #eee8d8}
+.ptab tbody tr:hover th,.ptab tbody tr:hover td{background:#faf7ec}
+.ptab .src{width:110px;white-space:nowrap;text-align:right;padding-left:10px}
+.srcchip{display:inline-block;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:6px;padding:1px 6px;margin:2px 0 2px 4px;text-decoration:none}
+.srcchip:hover{background:#f6efdd}
+.kbadge{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-left:6px}
+.kbadge.multi{color:#4a6b1f;border:1px solid #c9d7ae}
+.kbadge.leg{color:#8a2f2f;border:1px solid #e0c2c2;background:#faf1f1}
+.kbadge.unk{color:#6a6455;border:1px solid #d8d2c2;background:#f6f4ee}
+tr.leg th{color:#7c4a4a}
+tr.leg td{color:#7c4a4a}
+tr.unk th,tr.unk td{color:#8b8577}
+@media (max-width:680px){
+.ptab,.ptab tbody{display:block}
+.ptab tbody tr{display:block;background:#f8f5ea;border:1px solid #ece7d7;border-radius:12px;padding:12px 14px;margin:0 0 10px;border-top:1px solid #ece7d7}
+.ptab tbody tr:hover th,.ptab tbody tr:hover td{background:transparent}
+.ptab tbody tr+tr th,.ptab tbody tr+tr td{border-top:0}
+.ptab tbody tr.leg{background:#faf1f1;border-color:#e8caca}
+.ptab tbody tr.unk{background:#f6f4ee;border-color:#ddd7c8}
+.ptab th{display:block;width:auto;padding:0 0 5px;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#8a8270;font-weight:700}
+.ptab td{display:block;padding:0}
+.ptab .src{width:auto;text-align:left;padding-top:6px}
+.ptab .srcchip{margin:0 4px 0 0}
+}
 .srcchip{display:inline-block;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:6px;padding:1px 6px;margin-right:4px;text-decoration:none}
 .srcchip:hover{background:#f6efdd}
 .kbadge{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-left:6px}
@@ -53,48 +79,48 @@ tr.unk td{color:#8b8577}
 </div>
 </article>
 <section class="psec" aria-labelledby="t03-sava-centar-ideja">
-<h3 id="t03-sava-centar-ideja"><span data-en="How the idea was born" data-sr="Kako je nastala ideja o izgradnji">Kako je nastala ideja o izgradnji</span></h3>
+<h3 id="t03-sava-centar-ideja"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">01</span><span data-en="How the idea was born" data-sr="Kako je nastala ideja o izgradnji">Kako je nastala ideja o izgradnji</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Kontekst</th><td>sredina 1970-ih — SFRJ jača međunarodni položaj i razvija infrastrukturu za velike međunarodne skupove</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Okidač</th><td>Helsinški sastanak KEBS-a 1975. — Jugoslavija domaćin narednog sastanka u Beogradu, a grad nema kongresni prostor</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Odluka</th><td>novi namenski kongresni centar; praktična i reprezentativna uloga; savezni prioritet; rok — međunarodni sastanak 1977.</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t03-sava-centar-lokacija">
-<h3 id="t03-sava-centar-lokacija"><span data-en="Why Novi Beograd" data-sr="Zašto Novi Beograd">Zašto Novi Beograd</span></h3>
+<h3 id="t03-sava-centar-lokacija"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">02</span><span data-en="Why Novi Beograd" data-sr="Zašto Novi Beograd">Zašto Novi Beograd</span><span class="qcount">2</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Adresa</th><td>Milentija Popovića 9, Novi Beograd — blizina Save i saobraćajnica</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Razlozi</th><td>velika površina bez ograničenja istorijske matrice, pristup centru i aerodromu, blizina hotela; deo dugoročnog urbanističkog planiranja Novog Beograda, ne samo potrebe jednog događaja</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t03-sava-centar-projektovanje">
-<h3 id="t03-sava-centar-projektovanje"><span data-en="Who designed it" data-sr="Ko je projektovao i ko je učestvovao">Ko je projektovao i ko je učestvovao</span></h3>
+<h3 id="t03-sava-centar-projektovanje"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">03</span><span data-en="Who designed it" data-sr="Ko je projektovao i ko je učestvovao">Ko je projektovao i ko je učestvovao</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Glavni projektant</th><td>arhitekta Stojan Maksimović (zadatak 1976); konceptualno rešenje ≈ mesec dana; proučavao kongresne centre Pariza, Kopenhagena i Haga</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Tim</th><td>multidisciplinaran: građevinski i konstruktivni inženjeri, instalacije, saobraćaj, enterijer, oprema; Radomir Mihajlović — glavni inženjer konstrukcije; Branislav Jovina i Aleksandar Šaletić u širem kontekstu</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Izvođač</th><td>građevinsko preduzeće „Trudbenik” kao glavni izvođač radova</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t03-sava-centar-ideja-projekta">
-<h3 id="t03-sava-centar-ideja-projekta"><span data-en="How the design developed" data-sr="Kako se razvijala projektna ideja">Kako se razvijala projektna ideja</span></h3>
+<h3 id="t03-sava-centar-ideja-projekta"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">04</span><span data-en="How the design developed" data-sr="Kako se razvijala projektna ideja">Kako se razvijala projektna ideja</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Princip</th><td>ne jedna monumentalna sala nego sistem povezanih prostora različitih veličina i namena</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Zahtevi</th><td>velike konferencijske i plenarne sale; manje sale; foajei; prostori za novinare i tehniku; akustika, osvetljenje, audiovizuelna oprema; veza sa saobraćajnicama</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Rokovi</th><td>tehnička i administrativna rešenja prilagođavana tokom realizacije; istraživanje Ljubice Slavković analizira uticaj političkih rokova na planiranje i izvođenje</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t03-sava-centar-finansije">
-<h3 id="t03-sava-centar-finansije"><span data-en="Cost and financing" data-sr="Koliko je koštalo i kako finansirano">Koliko je koštalo i kako finansirano</span></h3>
+<h3 id="t03-sava-centar-finansije"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">05</span><span data-en="Cost and financing" data-sr="Koliko je koštalo i kako finansirano">Koliko je koštalo i kako finansirano</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Tri podatka</th><td>razlikovati: 1) početno planiranu vrednost investicije, 2) stvarne troškove izgradnje (završni obračun), 3) troškove celog šireg kompleksa (uključujući hotel)</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Zajam</th><td>objavljeni izvori navode međunarodni zajam Grada Beograda</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr class="unk"><th>Tačan iznos</th><td>čeka dokumentaciju tadašnjih gradskih organa i završne obračune investicije <span class="kbadge unk">nepoznato</span></td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t03-sava-centar-izgradnja">
-<h3 id="t03-sava-centar-izgradnja"><span data-en="Construction process" data-sr="Kako je tekao proces izgradnje">Kako je tekao proces izgradnje</span></h3>
+<h3 id="t03-sava-centar-izgradnja"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">06</span><span data-en="Construction process" data-sr="Kako je tekao proces izgradnje">Kako je tekao proces izgradnje</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Početak</th><td>1976.; prva faza završena za ≈11–12 meseci (rok — međunarodni skup 1977.)</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Organizacija</th><td>ubrzano; paralelno projektovanje, izvođenje i opremanje; veliki broj radnika i preduzeća</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Hronologija</th><td>1976. početak projektovanja i radova → 1977. otvaranje prve faze (kongresno-poslovni deo) → 1978. nastavak → 1979. zaokruživanje kompleksa</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t03-sava-centar-materijali">
-<h3 id="t03-sava-centar-materijali"><span data-en="Materials and systems" data-sr="Materijali i konstrukcijski sistemi">Materijali i konstrukcijski sistemi</span></h3>
+<h3 id="t03-sava-centar-materijali"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">07</span><span data-en="Materials and systems" data-sr="Materijali i konstrukcijski sistemi">Materijali i konstrukcijski sistemi</span><span class="qcount">5</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Staklo</th><td>velike fasadne površine — dnevno svetlo, veza enterijera i spoljašnjosti, utisak lakoće</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Beton</th><td>konstrukcija velikih volumena — rasponi, visine, opterećenja kongresne funkcije; i fasadne površine</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
@@ -103,20 +129,20 @@ tr.unk td{color:#8b8577}
 <tr><th>Poštena granica</th><td>staklo, beton i metal su prepoznatljivi, ali tačne klase betona, armature, tipove stakla i spojeve proveriti u originalnoj tehničkoj dokumentaciji — bez nje nema preciznih specifikacija</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t03-sava-centar-prostor">
-<h3 id="t03-sava-centar-prostor"><span data-en="Spatial organisation" data-sr="Prostor i površine">Prostor i površine</span></h3>
+<h3 id="t03-sava-centar-prostor"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">08</span><span data-en="Spatial organisation" data-sr="Prostor i površine">Prostor i površine</span><span class="qcount">2</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Princip</th><td>višenamenski kompleks: povezivanje velikih dvorana, manjih sala, foajea, komunikacija i pratećih službi</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Celine</th><td>kongresne sale; Velika (Plava) dvorana za koncerte i filmske projekcije; manje sale za paralelne sesije; foajei i holovi; tehnički i servisni prostori; poslovno-izložbeni prostori</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t03-sava-centar-otvaranje">
-<h3 id="t03-sava-centar-otvaranje"><span data-en="Opening and original purpose" data-sr="Otvaranje i prvobitna namena">Otvaranje i prvobitna namena</span></h3>
+<h3 id="t03-sava-centar-otvaranje"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">09</span><span data-en="Opening and original purpose" data-sr="Otvaranje i prvobitna namena">Otvaranje i prvobitna namena</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Otvaranje</th><td>prva faza svečano otvorena 14. maja 1977.; ceremoniji prisustvovao predsednik SFRJ Josip Broz Tito</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Namena</th><td>međunarodne konferencije i diplomatski sastanci; najvažniji događaj — Beogradski sastanak KEBS-a 1977.</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Dugoročno</th><td>od početka ideja da centar služi gradu kao međunarodni kongresni i kulturni prostor, ne samo za jedan događaj</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t03-sava-centar-kompleks">
-<h3 id="t03-sava-centar-kompleks"><span data-en="The complex and its phases" data-sr="Prvobitni kompleks i faze">Prvobitni kompleks i faze</span></h3>
+<h3 id="t03-sava-centar-kompleks"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">10</span><span data-en="The complex and its phases" data-sr="Prvobitni kompleks i faze">Prvobitni kompleks i faze</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Faze</th><td>objekat A — kongresno-poslovni deo (1977.); druga faza — veliki prostor za kulturne i kongresne događaje, uključujući Plavu dvoranu</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>
 <tr><th>Hotel</th><td>do 1979. kompleks povezan sa hotelskim smeštajem — InterContinental, danas Crowne Plaza Belgrade; namenjen međunarodnim gostima</td><td class="src"><a class="srcchip" href="#t03-sava-centar-S1">S1</a></td></tr>

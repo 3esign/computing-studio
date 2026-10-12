@@ -9,13 +9,39 @@
 .pstats{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
 .ps{background:#f1ecdd;border:1px solid #e0d8bd;border-radius:999px;padding:5px 13px;font-size:12.5px;color:#5d5748}
 .ps b{color:#2b2822;font-size:14px}
-.psec{margin-top:22px}
-.psec h3{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#8a8270;margin:0 0 8px;border-bottom:1px solid #eee8d8;padding-bottom:6px}
-.ptab{width:100%;border-collapse:collapse;font-size:14px}
-.ptab th{text-align:left;width:170px;vertical-align:top;padding:8px 12px 8px 0;color:#2b2822;font-weight:600}
-.ptab td{padding:8px 0;vertical-align:top;color:#3f3c34;line-height:1.5}
-.ptab tr+tr{border-top:1px dashed #eee8d8}
-.ptab .src{width:90px;white-space:nowrap}
+.psec{margin-top:26px}
+.psec h3{display:flex;align-items:center;gap:10px;font-size:15px;color:#2b2822;margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid #e7e1d0}
+.qdot{width:10px;height:10px;border-radius:50%;flex:none}
+.qn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;letter-spacing:.16em;color:#8a6d1f}
+.qcount{margin-left:auto;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.ptab{width:100%;border-collapse:separate;border-spacing:0;font-size:14px}
+.ptab th{text-align:left;width:200px;vertical-align:top;padding:9px 14px 9px 0;color:#2b2822;font-weight:600}
+.ptab td{padding:9px 0;vertical-align:top;color:#3f3c34;line-height:1.55}
+.ptab tbody tr{vertical-align:top}
+.ptab tbody tr+tr th,.ptab tbody tr+tr td{border-top:1px dashed #eee8d8}
+.ptab tbody tr:hover th,.ptab tbody tr:hover td{background:#faf7ec}
+.ptab .src{width:110px;white-space:nowrap;text-align:right;padding-left:10px}
+.srcchip{display:inline-block;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:6px;padding:1px 6px;margin:2px 0 2px 4px;text-decoration:none}
+.srcchip:hover{background:#f6efdd}
+.kbadge{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-left:6px}
+.kbadge.multi{color:#4a6b1f;border:1px solid #c9d7ae}
+.kbadge.leg{color:#8a2f2f;border:1px solid #e0c2c2;background:#faf1f1}
+.kbadge.unk{color:#6a6455;border:1px solid #d8d2c2;background:#f6f4ee}
+tr.leg th{color:#7c4a4a}
+tr.leg td{color:#7c4a4a}
+tr.unk th,tr.unk td{color:#8b8577}
+@media (max-width:680px){
+.ptab,.ptab tbody{display:block}
+.ptab tbody tr{display:block;background:#f8f5ea;border:1px solid #ece7d7;border-radius:12px;padding:12px 14px;margin:0 0 10px;border-top:1px solid #ece7d7}
+.ptab tbody tr:hover th,.ptab tbody tr:hover td{background:transparent}
+.ptab tbody tr+tr th,.ptab tbody tr+tr td{border-top:0}
+.ptab tbody tr.leg{background:#faf1f1;border-color:#e8caca}
+.ptab tbody tr.unk{background:#f6f4ee;border-color:#ddd7c8}
+.ptab th{display:block;width:auto;padding:0 0 5px;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#8a8270;font-weight:700}
+.ptab td{display:block;padding:0}
+.ptab .src{width:auto;text-align:left;padding-top:6px}
+.ptab .srcchip{margin:0 4px 0 0}
+}
 .srcchip{display:inline-block;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:6px;padding:1px 6px;margin-right:4px;text-decoration:none}
 .srcchip:hover{background:#f6efdd}
 .kbadge{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-left:6px}
@@ -53,7 +79,7 @@ tr.unk td{color:#8b8577}
 </div>
 </article>
 <section class="psec" aria-labelledby="t02-silosi-osnovni">
-<h3 id="t02-silosi-osnovni"><span data-en="Basic record" data-sr="Osnovni podaci">Osnovni podaci</span></h3>
+<h3 id="t02-silosi-osnovni"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">01</span><span data-en="Basic record" data-sr="Osnovni podaci">Osnovni podaci</span><span class="qcount">4</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Kompleks</th><td>četiri monumentalna betonska silosa, visina 28 m; Dunavski kej 46, Dorćol; ≈1,5 km od Trga republike</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 <tr><th>Struktura</th><td>64 vertikalne ćelije u obliku pčelinjeg saća</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
@@ -61,13 +87,13 @@ tr.unk td{color:#8b8577}
 <tr><th>Godina</th><td>izgradnja tokom 1950-ih (u podnesku se pominje 1955. kod opisa prozora)</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t02-silosi-autori">
-<h3 id="t02-silosi-autori"><span data-en="Authors and original purpose" data-sr="Projektanti i prvobitna namena">Projektanti i prvobitna namena</span></h3>
+<h3 id="t02-silosi-autori"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">02</span><span data-en="Authors and original purpose" data-sr="Projektanti i prvobitna namena">Projektanti i prvobitna namena</span><span class="qcount">2</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Projektanti</th><td>Đorđe Bobić i Miloš Petrović</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 <tr><th>Namena</th><td>potrebe preduzeća „Žitomlin” — stub pekarske i mlinske industrije Beograda; u susednoj zgradi (današnji kompleks Artklasa) mlinovi koji su žito pretvarali u brašno</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t02-silosi-tranzicija">
-<h3 id="t02-silosi-tranzicija"><span data-en="Transition, fire, decay (1994–2010s)" data-sr="Tranzicija, požar i propadanje (1994–2010-e)">Tranzicija, požar i propadanje (1994–2010-e)</span></h3>
+<h3 id="t02-silosi-tranzicija"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">03</span><span data-en="Transition, fire, decay (1994–2010s)" data-sr="Tranzicija, požar i propadanje (1994–2010-e)">Tranzicija, požar i propadanje (1994–2010-e)</span><span class="qcount">4</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Kontekst</th><td>raspad SFRJ, sankcije i tranzicija — kompleks gubi prvobitni sjaj</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 <tr><th>Požar 1994.</th><td>ogroman požar zahvatio mlin; nepopravljiva šteta proizvodnim pogonima</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
@@ -75,7 +101,7 @@ tr.unk td{color:#8b8577}
 <tr><th>Napuštanje</th><td>proizvodnja obustavljena; od 2000-ih napuštena siva zona; 2007. vizionarski plan Đorđa Bobića da se silosi preurede u stambene objekte</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t02-silosi-revitalizacija">
-<h3 id="t02-silosi-revitalizacija"><span data-en="New era (2021–today)" data-sr="Nova era i kulturna transformacija (2021–danas)">Nova era i kulturna transformacija (2021–danas)</span></h3>
+<h3 id="t02-silosi-revitalizacija"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">04</span><span data-en="New era (2021–today)" data-sr="Nova era i kulturna transformacija (2021–danas)">Nova era i kulturna transformacija (2021–danas)</span><span class="qcount">4</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Revitalizacija</th><td>neprofitna organizacija Gaia pokret; potpuna revitalizacija bez rušenja</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 <tr><th>Murali</th><td>preko 700 m² betona oslikali domaći i regionalni umetnici: Aleksandra Petković (TKV), Jana Danilović, Uroš Strboja, Vuk Đurić; ističe se 28 m visok kaligrafski mural sa stihovima Ljubivoja Ršumovića „Domovina se brani lepotom” (autori Luka Prstojević i Viktor Puškarev, uz saradnju Valerije Loginove)</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
@@ -83,7 +109,7 @@ tr.unk td{color:#8b8577}
 <tr><th>Ekološki kontinuitet</th><td>na mestu gde je 1874. Josif Pančić osnovao prvu privremenu Botaničku baštu Beograda kreiran je Medonosni vrt</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t02-silosi-transport">
-<h3 id="t02-silosi-transport"><span data-en="How the materials arrived" data-sr="Transport i dopremanje materijala (1950-e)">Transport i dopremanje materijala (1950-e)</span></h3>
+<h3 id="t02-silosi-transport"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">05</span><span data-en="How the materials arrived" data-sr="Transport i dopremanje materijala (1950-e)">Transport i dopremanje materijala (1950-e)</span><span class="qcount">5</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Pozicija</th><td>strateški položaj na samoj obali Dunava diktirao način dopremanja (cement, pesak, šljunak, čelična armatura)</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 <tr><th>Reka (primarno)</th><td>lokacija tik uz današnju Luku Beograd — stotine tona šljunka i peska dopremane rečnim brodovima i teglenicama; istovar direktno na gradilište</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
@@ -92,25 +118,25 @@ tr.unk td{color:#8b8577}
 <tr><th>Beton na licu mesta</th><td>mešan i pripreman na gradilištu (namenske mešalice, dizalice) dok su silosi „rasli” do 28 m</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t02-silosi-materijali">
-<h3 id="t02-silosi-materijali"><span data-en="Reinforced concrete" data-sr="Armirani beton">Armirani beton</span></h3>
+<h3 id="t02-silosi-materijali"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">06</span><span data-en="Reinforced concrete" data-sr="Armirani beton">Armirani beton</span><span class="qcount">2</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Sistem</th><td>glavni konstrukcijski materijal armirani beton: beton dobro podnosi pritisak, čelična armatura preuzima zatezne napone</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 <tr><th>Zašto izabran</th><td>visoke i čvrste konstrukcije; velike ćelije za skladištenje; krutost i nosivost; dug radni vek uz pravilno održavanje</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t02-silosi-prozori">
-<h3 id="t02-silosi-prozori"><span data-en="Windows and light" data-sr="Prozori i prirodno svetljenje">Prozori i prirodno svetljenje</span></h3>
+<h3 id="t02-silosi-prozori"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">07</span><span data-en="Windows and light" data-sr="Prozori i prirodno svetljenje">Prozori i prirodno svetljenje</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Izvorno stanje</th><td>silosi iz 1955. nisu imali prozore na telima ćelija — mrak uz kontrolisanu temperaturu i vlagu čuvao je žito</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 <tr><th>Danas</th><td>unutrašnjost 64 visoke ćelije i dalje bez klasičnih fasadnih prozora; galerije, radionice i barovi koriste rekonstruisane ulazne portale, industrijska vrata i preuređene ventilacione otvore</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 <tr><th>Metodološka napomena</th><td>tip stakla, profil i broj slojeva pregledati na konkretnim otvorima — ne pretpostavljati da svi delovi imaju iste prozore</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t02-silosi-izolacija">
-<h3 id="t02-silosi-izolacija"><span data-en="Thermal mass vs insulation" data-sr="Toplotna izolacija">Toplotna izolacija</span></h3>
+<h3 id="t02-silosi-izolacija"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">08</span><span data-en="Thermal mass vs insulation" data-sr="Toplotna izolacija">Toplotna izolacija</span><span class="qcount">1</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Razlikovanje</th><td>masivna konstrukcija ima veliku toplotnu masu, ali to nije automatski izolacija: beton pruža nosivost i masu, izolacioni sloj ograničava prolaz toplote</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t02-silosi-zanimljivosti">
-<h3 id="t02-silosi-zanimljivosti"><span data-en="Facts worth keeping" data-sr="Zanimljivosti">Zanimljivosti</span></h3>
+<h3 id="t02-silosi-zanimljivosti"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">09</span><span data-en="Facts worth keeping" data-sr="Zanimljivosti">Zanimljivosti</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Penjalište</th><td>28 m, na trećem silosu, šest smerova različitih nivoa težine; Gaia pokret + sportsko udruženje Utopia, podrška A1 Srbija</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>
 <tr><th>Galerije</th><td>za izložbu „ArtWalks” korišćeno 16 povezanih ćelija na ≈700 m²</td><td class="src"><a class="srcchip" href="#t02-silosi-S1">S1</a></td></tr>

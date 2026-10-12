@@ -9,13 +9,39 @@
 .pstats{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
 .ps{background:#f1ecdd;border:1px solid #e0d8bd;border-radius:999px;padding:5px 13px;font-size:12.5px;color:#5d5748}
 .ps b{color:#2b2822;font-size:14px}
-.psec{margin-top:22px}
-.psec h3{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#8a8270;margin:0 0 8px;border-bottom:1px solid #eee8d8;padding-bottom:6px}
-.ptab{width:100%;border-collapse:collapse;font-size:14px}
-.ptab th{text-align:left;width:170px;vertical-align:top;padding:8px 12px 8px 0;color:#2b2822;font-weight:600}
-.ptab td{padding:8px 0;vertical-align:top;color:#3f3c34;line-height:1.5}
-.ptab tr+tr{border-top:1px dashed #eee8d8}
-.ptab .src{width:90px;white-space:nowrap}
+.psec{margin-top:26px}
+.psec h3{display:flex;align-items:center;gap:10px;font-size:15px;color:#2b2822;margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid #e7e1d0}
+.qdot{width:10px;height:10px;border-radius:50%;flex:none}
+.qn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;letter-spacing:.16em;color:#8a6d1f}
+.qcount{margin-left:auto;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.ptab{width:100%;border-collapse:separate;border-spacing:0;font-size:14px}
+.ptab th{text-align:left;width:200px;vertical-align:top;padding:9px 14px 9px 0;color:#2b2822;font-weight:600}
+.ptab td{padding:9px 0;vertical-align:top;color:#3f3c34;line-height:1.55}
+.ptab tbody tr{vertical-align:top}
+.ptab tbody tr+tr th,.ptab tbody tr+tr td{border-top:1px dashed #eee8d8}
+.ptab tbody tr:hover th,.ptab tbody tr:hover td{background:#faf7ec}
+.ptab .src{width:110px;white-space:nowrap;text-align:right;padding-left:10px}
+.srcchip{display:inline-block;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:6px;padding:1px 6px;margin:2px 0 2px 4px;text-decoration:none}
+.srcchip:hover{background:#f6efdd}
+.kbadge{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-left:6px}
+.kbadge.multi{color:#4a6b1f;border:1px solid #c9d7ae}
+.kbadge.leg{color:#8a2f2f;border:1px solid #e0c2c2;background:#faf1f1}
+.kbadge.unk{color:#6a6455;border:1px solid #d8d2c2;background:#f6f4ee}
+tr.leg th{color:#7c4a4a}
+tr.leg td{color:#7c4a4a}
+tr.unk th,tr.unk td{color:#8b8577}
+@media (max-width:680px){
+.ptab,.ptab tbody{display:block}
+.ptab tbody tr{display:block;background:#f8f5ea;border:1px solid #ece7d7;border-radius:12px;padding:12px 14px;margin:0 0 10px;border-top:1px solid #ece7d7}
+.ptab tbody tr:hover th,.ptab tbody tr:hover td{background:transparent}
+.ptab tbody tr+tr th,.ptab tbody tr+tr td{border-top:0}
+.ptab tbody tr.leg{background:#faf1f1;border-color:#e8caca}
+.ptab tbody tr.unk{background:#f6f4ee;border-color:#ddd7c8}
+.ptab th{display:block;width:auto;padding:0 0 5px;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#8a8270;font-weight:700}
+.ptab td{display:block;padding:0}
+.ptab .src{width:auto;text-align:left;padding-top:6px}
+.ptab .srcchip{margin:0 4px 0 0}
+}
 .srcchip{display:inline-block;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:6px;padding:1px 6px;margin-right:4px;text-decoration:none}
 .srcchip:hover{background:#f6efdd}
 .kbadge{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-left:6px}
@@ -52,7 +78,7 @@ tr.unk td{color:#8b8577}
 </div>
 </article>
 <section class="psec" aria-labelledby="t14-flajsmanova-kuka-osnovni">
-<h3 id="t14-flajsmanova-kuka-osnovni"><span data-en="Basic record" data-sr="Osnovni podaci">Osnovni podaci</span></h3>
+<h3 id="t14-flajsmanova-kuka-osnovni"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">01</span><span data-en="Basic record" data-sr="Osnovni podaci">Osnovni podaci</span><span class="qcount">9</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Naziv</th><td>kuća Elijasa Flajšmana; uobičajen naziv: Flajšmanova kuća <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
 <tr><th>Adresa</th><td>ulica Cara Dušana 10 <span class="kbadge multi">3 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a></td></tr>
@@ -65,27 +91,27 @@ tr.unk td{color:#8b8577}
 <tr><th>Kulturni status</th><td>spomenik kulture; godina zaštite 1987. <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S6">S6</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t14-flajsmanova-kuka-kontekst">
-<h3 id="t14-flajsmanova-kuka-kontekst"><span data-en="Urban context" data-sr="Istorijski i urbanistički kontekst">Istorijski i urbanistički kontekst</span></h3>
+<h3 id="t14-flajsmanova-kuka-kontekst"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">02</span><span data-en="Urban context" data-sr="Istorijski i urbanistički kontekst">Istorijski i urbanistički kontekst</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Obnova grada</th><td>posle 1717. uređivane su ulice i parcele po principima srednjoevropskog baroknog urbanizma; Dorćol važan za trgovinu, zanatstvo i stanovanje (blizina Dunava i Tvrđave)</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
 <tr><th>Niz kuća</th><td>kuća je bila deo niza od gotovo 7 identičnih kuća, vezanog za urbanističku zamisli povezanu sa Nikolom Doksatom de Morezom <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a></td></tr>
 <tr><th>Jedina sačuvana</th><td>od celog niza do danas je ostala samo ova kuća <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t14-flajsmanova-kuka-vlasnik">
-<h3 id="t14-flajsmanova-kuka-vlasnik"><span data-en="The first owner and the house" data-sr="Nastanak kuće i prvi vlasnik">Nastanak kuće i prvi vlasnik</span></h3>
+<h3 id="t14-flajsmanova-kuka-vlasnik"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">03</span><span data-en="The first owner and the house" data-sr="Nastanak kuće i prvi vlasnik">Nastanak kuće i prvi vlasnik</span><span class="qcount">2</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Zanat i prostor</th><td>u prizemlju poslovi i čuvanje materijala; gornje etaže i tavan prilagođeni domaćinstvu i zanatu <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
 <tr><th>Tavanski otvori</th><td>prema objašnjenju stručnjaka Zavoda za zaštitu spomenika kulture grada Beograda — služili su provetravanju kože koju je Flajšman čuvao na tavanu: arhitektonski element u funkciji zanatske proizvodnje, ne samo estetike</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t14-flajsmanova-kuka-arhitektura">
-<h3 id="t14-flajsmanova-kuka-arhitektura"><span data-en="Architectural character" data-sr="Arhitektonske karakteristike">Arhitektonske karakteristike</span></h3>
+<h3 id="t14-flajsmanova-kuka-arhitektura"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">04</span><span data-en="Architectural character" data-sr="Arhitektonske karakteristike">Arhitektonske karakteristike</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Karakter</th><td>značajan primer stambene arhitekture prve polovine XVIII veka: jednostavna forma, skromna dekoracija, funkcionalno organizovan prostor</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
 <tr><th>Fasada — metodološka napomena</th><td>analiza fasade zahteva razlikovanje originalnih elemenata od naknadnih intervencija; neadekvatne popravke mogu ukloniti ili prikriti istorijske detalje</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
 <tr><th>Organizacija etaža</th><td>podrum — pomoćne funkcije; prizemlje — zanatski rad i poslovanje; sprat — stanovanje; tavan — praktična uloga u zanatu (provetravanje kože) <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t14-flajsmanova-kuka-konstrukcija">
-<h3 id="t14-flajsmanova-kuka-konstrukcija"><span data-en="Construction and materials" data-sr="Konstrukcija i građevinski materijali">Konstrukcija i građevinski materijali</span></h3>
+<h3 id="t14-flajsmanova-kuka-konstrukcija"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">05</span><span data-en="Construction and materials" data-sr="Konstrukcija i građevinski materijali">Konstrukcija i građevinski materijali</span><span class="qcount">5</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Noseći sistem</th><td>masivni zidani sistem: noseći zidovi prenose opterećenje na temelje (ne armirano-betonska konstrukcija)</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
 <tr><th>Opeka</th><td>zidovi i drugi zidani elementi; relativno pravilne dimenzije, vezivanje malterom, dobra otpornost na pritisak</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
@@ -94,27 +120,27 @@ tr.unk td{color:#8b8577}
 <tr><th>Drvo</th><td>krovne konstrukcije, međuspratni elementi, vrata i prozori</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t14-flajsmanova-kuka-upotreba">
-<h3 id="t14-flajsmanova-kuka-upotreba"><span data-en="Use through time" data-sr="Funkcionalna organizacija i promena namene">Funkcionalna organizacija i promena namene</span></h3>
+<h3 id="t14-flajsmanova-kuka-upotreba"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">06</span><span data-en="Use through time" data-sr="Funkcionalna organizacija i promena namene">Funkcionalna organizacija i promena namene</span><span class="qcount">2</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Podrum u XX veku</th><td>tekstilna radionica „Narodni heroj Andja Ranković” (nazvana po prvoj ženi Aleksandra Leka Rankovića, stradaloj pokraj Gacka), iz koje je kasnije nastao „BEKO” <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S3">S3</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
 <tr><th>Pekara</th><td>nakon tekstilne radionice prva pekara, radila 24 časa 365 dana u godini; danas se u prizemlju nalazi pekara-picerija <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S3">S3</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t14-flajsmanova-kuka-stanari">
-<h3 id="t14-flajsmanova-kuka-stanari"><span data-en="Inhabitants" data-sr="Stanari i istorija života u objektu">Stanari i istorija života u objektu</span></h3>
+<h3 id="t14-flajsmanova-kuka-stanari"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">07</span><span data-en="Inhabitants" data-sr="Stanari i istorija života u objektu">Stanari i istorija života u objektu</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Elijas Flajšman</th><td>najvažnija ličnost vezana za nastanak kuće; prvi poznati vlasnik <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
 <tr><th>Katarina Bastl</th><td>stanarka čije svedočenje o događajima tokom nemačke okupacije 1941. objavljeno 1963. u časopisu „Izgradnja”; navodi se u kasnijim tekstovima o kući <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
 <tr class="unk"><th>Ostali stanari</th><td>javnim izvorima nije dostupan pouzdano dokumentovan spisak svih ljudi koji su živeli u kući <span class="kbadge unk">nepoznato</span></td><td class="src">—</td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t14-flajsmanova-kuka-podrum">
-<h3 id="t14-flajsmanova-kuka-podrum"><span data-en="The cellar: facts and a legend, kept apart" data-sr="Podrum: činjenice i legenda, odvojeno">Podrum: činjenice i legenda, odvojeno</span></h3>
+<h3 id="t14-flajsmanova-kuka-podrum"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">08</span><span data-en="The cellar: facts and a legend, kept apart" data-sr="Podrum: činjenice i legenda, odvojeno">Podrum: činjenice i legenda, odvojeno</span><span class="qcount">3</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Činjenica</th><td>dubok podrum koji se prostire ispod čitavog objekta</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
 <tr><th>Činjenica</th><td>svedočenja stanara da su tokom Drugog svetskog rata viđali nemačke vojnike kako ulaze u podrum i izvode radove</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
 <tr class="leg"><th>Legenda / predanje</th><td>kuća tajnim tunelima povezana sa Kalemegdanom; Nemci su u podrumu pronašli blago i odneli ga u Berlin <span class="kbadge leg">legenda</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
 </tbody></table></section>
 <section class="psec" aria-labelledby="t14-flajsmanova-kuka-znacaj">
-<h3 id="t14-flajsmanova-kuka-znacaj"><span data-en="Significance and protection" data-sr="Kulturno-istorijski značaj i zaštita">Kulturno-istorijski značaj i zaštita</span></h3>
+<h3 id="t14-flajsmanova-kuka-znacaj"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">09</span><span data-en="Significance and protection" data-sr="Kulturno-istorijski značaj i zaštita">Kulturno-istorijski značaj i zaštita</span><span class="qcount">5</span></h3>
 <table class="ptab"><tbody>
 <tr><th>Istorijski značaj</th><td>veza sa austrijskom obnovom Beograda i izgradnjom prve polovine XVIII veka <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a></td></tr>
 <tr><th>Arhitektonski značaj</th><td>tradicionalna stambeno-poslovna kuća sa očuvanim tragovima istorijske gradnje</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
