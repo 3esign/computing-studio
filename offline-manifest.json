@@ -1,6 +1,6 @@
 {
-  "version": "9767b0040f2bda16",
-  "bytes": 1751114,
+  "version": "b982b17089cea110",
+  "bytes": 1775565,
   "files": [
     "assets/app.js",
     "assets/mark.svg",
@@ -76,6 +76,7 @@
     "prostor/model.js",
     "prostor/prostor.css",
     "prostor/prostor.js",
-    "sledeci.html"
+    "sledeci.html",
+    "timovi.html"
   ]
 }
