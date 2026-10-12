@@ -1,6 +1,6 @@
 {
-  "version": "fe1635f17995e956",
-  "bytes": 1975579,
+  "version": "5d8a0a46ad85dbb7",
+  "bytes": 2000517,
   "files": [
     "assets/app.js",
     "assets/mark.svg",
@@ -72,6 +72,7 @@
     "manifest.webmanifest",
     "nastavnik.html",
     "pasos.html",
+    "pitanja-generalstab.html",
     "pristup.html",
     "program.html",
     "prostor/index.html",
