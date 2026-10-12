@@ -1,6 +1,6 @@
 {
-  "version": "6dfabe401ede1827",
-  "bytes": 1791459,
+  "version": "8fad0f860ba41279",
+  "bytes": 1949069,
   "files": [
     "assets/app.js",
     "assets/mark.svg",
@@ -21,6 +21,8 @@
     "assets/qr/Q9.svg",
     "assets/qr/start.svg",
     "assets/site.css",
+    "assets/vendor/leaflet/leaflet.css",
+    "assets/vendor/leaflet/leaflet.js",
     "biblioteka.html",
     "cas.html",
     "css/or.css",
