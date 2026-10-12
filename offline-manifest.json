@@ -1,6 +1,6 @@
 {
-  "version": "938809fa9b079fca",
-  "bytes": 2136386,
+  "version": "22e254b22fef95c2",
+  "bytes": 2157072,
   "files": [
     "assets/app.js",
     "assets/mark.svg",
@@ -81,7 +81,10 @@
     "prostor/prostor.css",
     "prostor/prostor.js",
     "sledeci.html",
-    "studenti.html",
+    "studenti/t01-laza-kostic.html",
+    "studenti/t02-silosi.html",
+    "studenti/t03-sava-centar.html",
+    "studenti/t14-flajsmanova-kuka.html",
     "timovi.html"
   ]
 }
