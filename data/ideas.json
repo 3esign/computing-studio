@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-05",
+  "updated": "2026-10-12",
   "ideas": [
     {
       "id": "design-m1",
@@ -1832,6 +1832,31 @@
       "source": {
         "url": "https://scratched.gse.harvard.edu/ct/files/AERA2012.pdf",
         "title": "Brennan & Resnick · New frameworks for studying and assessing the development of computational thinking"
+      }
+    },
+    {
+      "id": "guided-start-number-to-system",
+      "tag": "learning",
+      "status": "idea",
+      "title": {
+        "en": "From a number to a system · the guided start",
+        "sr": "Od broja do sistema · vođeni početak"
+      },
+      "description": {
+        "en": "The six-step guided page (context, representation, relations, rule, code, system) that once led this site — now one idea among the others: one small subject, one way of thinking, phone or paper.",
+        "sr": "Vođena strana od šest koraka (kontekst, predstava, odnosi, pravilo, kod, sistem) koja je nekada vodila ovaj sajt — sada jedna ideja među ostalima: mali predmet, način mišljenja, telefon ili papir."
+      },
+      "try": {
+        "en": "Start at 600: give the number a name, a unit and a context, then walk the six steps to a small system you can change and check.",
+        "sr": "Počni od 600: daj broju ime, jedinicu i kontekst, pa prođi šest koraka do malog sistema koji možeš da menjaš i proveriš."
+      },
+      "boundary": {
+        "en": "A first-contact exercise with invented numbers; the semester itself works on real objects and their evidence, not on this toy.",
+        "sr": "Vežba prvog kontakta sa izmišljenim brojevima; sam semestar radi na stvarnim objektima i njihovim dokazima, ne na ovoj igrački."
+      },
+      "source": {
+        "url": "lab/dizajn/start.html",
+        "title": "Od broja do sistema · the guided page / vođena strana"
       }
     }
   ]
