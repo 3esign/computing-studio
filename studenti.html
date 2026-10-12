@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f3eb"><meta name="description" content="Student pilot digital passports: curated claims with sources, legends kept apart from facts, unknowns visible, and the original submission preserved verbatim."><title>Student passports · Computing Studio</title><link rel="icon" href="assets/mark.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="assets/site.css"><script src="assets/app.js" defer></script></head>
+<body data-view="studentpass"><a class="skip" href="#main">Skip to content / Preskoči na sadržaj</a><header class="site-header"><a class="brand" href="index.html" aria-label="Computing Studio home"><b>OR<span>↗</span></b><span>COMPUTING<br>STUDIO</span></a><nav aria-label="Main navigation"><a href="index.html" ><span class="" data-en="Studio" data-sr="Studio">Studio</span></a><a href="program.html" ><span class="" data-en="Held classes" data-sr="Održana predavanja">Held classes</span></a><a href="sledeci.html" ><span class="" data-en="Next class" data-sr="Sledeći čas">Next class</span></a><a href="ideje.html" ><span class="" data-en="Idea cloud" data-sr="Oblak ideja">Idea cloud</span></a><a href="biblioteka.html" ><span class="" data-en="Sources" data-sr="Izvori">Izvori</span></a></nav><button id="language" class="language" type="button" aria-label="Switch to Serbian">SR</button></header>
+<main id="main" tabindex="-1">
+<div class="page-heading compact"><p class="eyebrow">STUDENT PILOTS / STUDENTSKI PILOTI</p><h1><span class="" data-en="Digital passports, first wave." data-sr="Digitalni pasoši, prvi talas.">Digital passports, first wave.</span></h1><p class="lede"><span class="" data-en="The first pilot passports arrive by e-mail. Each is curated: every claim carries its source, repeats of the same source are merged, legends are kept apart from facts, and what the sources do not say stays visible as unknown. The original submission is preserved verbatim under each passport — the curated layer explains, the original proves." data-sr="Prvi pilot pasoši stižu mejlom. Svaki se kurira: svaka tvrdnja nosi svoj izvor, ponavljanja istog izvora su spojena, legende su odvojene od činjenica, a ono što izvori ne kažu ostaje vidljivo kao nepoznato. Originalan podnesak je sačuvan doslovno pod svakim pasošem — kurirani sloj objašnjava, original dokazuje.">The first pilot passports arrive by e-mail. Each is curated: every claim carries its source, repeats of the same source are merged, legends are kept apart from facts, and what the sources do not say stays visible as unknown. The original submission is preserved verbatim under each passport — the curated layer explains, the original proves.</span></p></div>
+<style>
+.pcard{background:#fbfaf5;border:1px solid #e0dac9;border-radius:16px;padding:22px clamp(16px,3vw,30px);margin:26px 0}
+.pcard h2{margin:0 0 4px;font-size:21px;color:#2b2822}
+.pmeta{color:#6a6455;font-size:14px;margin:0 0 2px}
+.pstats{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+.ps{background:#f1ecdd;border:1px solid #e0d8bd;border-radius:999px;padding:5px 13px;font-size:12.5px;color:#5d5748}
+.ps b{color:#2b2822;font-size:14px}
+.psec{margin-top:22px}
+.psec h3{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#8a8270;margin:0 0 8px;border-bottom:1px solid #eee8d8;padding-bottom:6px}
+.ptab{width:100%;border-collapse:collapse;font-size:14px}
+.ptab th{text-align:left;width:170px;vertical-align:top;padding:8px 12px 8px 0;color:#2b2822;font-weight:600}
+.ptab td{padding:8px 0;vertical-align:top;color:#3f3c34;line-height:1.5}
+.ptab tr+tr{border-top:1px dashed #eee8d8}
+.ptab .src{width:90px;white-space:nowrap}
+.srcchip{display:inline-block;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:6px;padding:1px 6px;margin-right:4px;text-decoration:none}
+.srcchip:hover{background:#f6efdd}
+.kbadge{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-left:6px}
+.kbadge.multi{color:#4a6b1f;border:1px solid #c9d7ae}
+.kbadge.leg{color:#8a2f2f;border:1px solid #e0c2c2;background:#faf1f1}
+.kbadge.unk{color:#6a6455;border:1px solid #d8d2c2;background:#f6f4ee}
+tr.leg td{color:#7c4a4a}
+tr.unk td{color:#8b8577}
+.psrc{list-style:none;margin:6px 0 0;padding:0;font-size:14px}
+.psrc li{padding:7px 0;border-top:1px dashed #eee8d8}
+.psrc a{color:#3f3c34;text-decoration:none;border-bottom:1px solid #d9c689}
+.psrc a:hover{color:#8a6d1f}
+.psrc .srcn{color:#8a6d1f;white-space:nowrap}
+.porig{margin-top:20px}
+.porig summary{cursor:pointer;font-size:13.5px;color:#8a6d1f;padding:10px 0;list-style:none}
+.porig summary::-webkit-details-marker{display:none}
+.porig summary:hover{text-decoration:underline}
+.porig pre{white-space:pre-wrap;font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;background:#f4f0e3;border:1px solid #e4dcc4;border-radius:12px;padding:18px;color:#4a463c;max-height:70vh;overflow:auto}
+@media (max-width:640px){.ptab,.ptab tbody,.ptab tr,.ptab th,.ptab td{display:block}.ptab tr{padding:8px 0}.ptab th{width:auto;padding:2px 0}.ptab .src{width:auto}}
+</style>
+<article class="pcard" id="t14-flajsmanova-kuka">
+<div class="phead">
+<h2>Najstarija stambena kuća u Beogradu — kuća Elijasa Flajšmana (Flajšmanova kuća)</h2>
+<p class="pmeta"><a class="student-link" href="timovi.html#T14"><span data-en="Team" data-sr="Tim">Tim</span> T14</a> · <span data-en="submitted by" data-sr="predali">submitted by</span> <b>Aleksandra Tešić · 55/26 i Luna Todorovic · 92/26</b> · <time>2026-10-12</time> <span class="student-badge">student rad</span></p>
+<p class="micro">Cara Dušana 10, Dorćol, Beograd</p>
+<div class="pstats">
+<span class="ps"><b>35</b> <span data-en="claims" data-sr="tvrdnji">claims</span></span>
+<span class="ps"><b>6</b> <span data-en="sources (deduplicated)" data-sr="izvora (bez ponavljanja)">sources (deduplicated)</span></span>
+<span class="ps"><b>18</b> <span data-en="multi-source claims" data-sr="više-izvornih tvrdnji">multi-source claims</span></span>
+<span class="ps"><b>1</b> <span data-en="legend, kept apart" data-sr="legenda, odvojeno">legend, kept apart</span></span>
+<span class="ps"><b>1</b> <span data-en="unknown, kept visible" data-sr="nepoznato, ostalo vidljivo">unknown, kept visible</span></span>
+</div>
+</div>
+<section class="psec" aria-labelledby="t14-flajsmanova-kuka-osnovni">
+<h3 id="t14-flajsmanova-kuka-osnovni"><span data-en="Basic record" data-sr="Osnovni podaci">Osnovni podaci</span></h3>
+<table class="ptab"><tbody>
+<tr><th>Naziv</th><td>kuća Elijasa Flajšmana; uobičajen naziv: Flajšmanova kuća <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+<tr><th>Adresa</th><td>ulica Cara Dušana 10 <span class="kbadge multi">3 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a></td></tr>
+<tr><th>Period izgradnje</th><td>1724–1727. godina <span class="kbadge multi">3 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S6">S6</a></td></tr>
+<tr><th>Arhitektonski kontekst</th><td>barokna urbanistička obnova Beograda posle austrijskog osvajanja 1717. <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+<tr><th>Prvi poznati vlasnik</th><td>Elijas Flajšman — remenar (izrada predmeta od kože, oprema za konje i jahače); navodi se i kao savetnik beogradskog opštinskog veća <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+<tr><th>Prvobitna namena</th><td>stanovanje i zanatska delatnost (dom + radionica + skladište kao funkcionalna celina) <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+<tr><th>Tip objekta</th><td>stambeno-poslovna kuća</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Spratnost</th><td>podrum, prizemlje, prvi sprat i tavanski prostor <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+<tr><th>Kulturni status</th><td>spomenik kulture; godina zaštite 1987. <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S6">S6</a></td></tr>
+</tbody></table></section>
+<section class="psec" aria-labelledby="t14-flajsmanova-kuka-kontekst">
+<h3 id="t14-flajsmanova-kuka-kontekst"><span data-en="Urban context" data-sr="Istorijski i urbanistički kontekst">Istorijski i urbanistički kontekst</span></h3>
+<table class="ptab"><tbody>
+<tr><th>Obnova grada</th><td>posle 1717. uređivane su ulice i parcele po principima srednjoevropskog baroknog urbanizma; Dorćol važan za trgovinu, zanatstvo i stanovanje (blizina Dunava i Tvrđave)</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Niz kuća</th><td>kuća je bila deo niza od gotovo 7 identičnih kuća, vezanog za urbanističku zamisli povezanu sa Nikolom Doksatom de Morezom <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a></td></tr>
+<tr><th>Jedina sačuvana</th><td>od celog niza do danas je ostala samo ova kuća <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+</tbody></table></section>
+<section class="psec" aria-labelledby="t14-flajsmanova-kuka-vlasnik">
+<h3 id="t14-flajsmanova-kuka-vlasnik"><span data-en="The first owner and the house" data-sr="Nastanak kuće i prvi vlasnik">Nastanak kuće i prvi vlasnik</span></h3>
+<table class="ptab"><tbody>
+<tr><th>Zanat i prostor</th><td>u prizemlju poslovi i čuvanje materijala; gornje etaže i tavan prilagođeni domaćinstvu i zanatu <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+<tr><th>Tavanski otvori</th><td>prema objašnjenju stručnjaka Zavoda za zaštitu spomenika kulture grada Beograda — služili su provetravanju kože koju je Flajšman čuvao na tavanu: arhitektonski element u funkciji zanatske proizvodnje, ne samo estetike</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+</tbody></table></section>
+<section class="psec" aria-labelledby="t14-flajsmanova-kuka-arhitektura">
+<h3 id="t14-flajsmanova-kuka-arhitektura"><span data-en="Architectural character" data-sr="Arhitektonske karakteristike">Arhitektonske karakteristike</span></h3>
+<table class="ptab"><tbody>
+<tr><th>Karakter</th><td>značajan primer stambene arhitekture prve polovine XVIII veka: jednostavna forma, skromna dekoracija, funkcionalno organizovan prostor</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Fasada — metodološka napomena</th><td>analiza fasade zahteva razlikovanje originalnih elemenata od naknadnih intervencija; neadekvatne popravke mogu ukloniti ili prikriti istorijske detalje</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Organizacija etaža</th><td>podrum — pomoćne funkcije; prizemlje — zanatski rad i poslovanje; sprat — stanovanje; tavan — praktična uloga u zanatu (provetravanje kože) <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+</tbody></table></section>
+<section class="psec" aria-labelledby="t14-flajsmanova-kuka-konstrukcija">
+<h3 id="t14-flajsmanova-kuka-konstrukcija"><span data-en="Construction and materials" data-sr="Konstrukcija i građevinski materijali">Konstrukcija i građevinski materijali</span></h3>
+<table class="ptab"><tbody>
+<tr><th>Noseći sistem</th><td>masivni zidani sistem: noseći zidovi prenose opterećenje na temelje (ne armirano-betonska konstrukcija)</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Opeka</th><td>zidovi i drugi zidani elementi; relativno pravilne dimenzije, vezivanje malterom, dobra otpornost na pritisak</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Kamen</th><td>temelji i donje zone zidova; velika čvrstoća na pritisak i dugotrajnost</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Malter</th><td>vezuje zidane elemente i služi kao završni sloj; sastav zavisi od perioda, lokalnih sirovina i namene</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Drvo</th><td>krovne konstrukcije, međuspratni elementi, vrata i prozori</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+</tbody></table></section>
+<section class="psec" aria-labelledby="t14-flajsmanova-kuka-upotreba">
+<h3 id="t14-flajsmanova-kuka-upotreba"><span data-en="Use through time" data-sr="Funkcionalna organizacija i promena namene">Funkcionalna organizacija i promena namene</span></h3>
+<table class="ptab"><tbody>
+<tr><th>Podrum u XX veku</th><td>tekstilna radionica „Narodni heroj Andja Ranković” (nazvana po prvoj ženi Aleksandra Leka Rankovića, stradaloj pokraj Gacka), iz koje je kasnije nastao „BEKO” <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S3">S3</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
+<tr><th>Pekara</th><td>nakon tekstilne radionice prva pekara, radila 24 časa 365 dana u godini; danas se u prizemlju nalazi pekara-picerija <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S3">S3</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
+</tbody></table></section>
+<section class="psec" aria-labelledby="t14-flajsmanova-kuka-stanari">
+<h3 id="t14-flajsmanova-kuka-stanari"><span data-en="Inhabitants" data-sr="Stanari i istorija života u objektu">Stanari i istorija života u objektu</span></h3>
+<table class="ptab"><tbody>
+<tr><th>Elijas Flajšman</th><td>najvažnija ličnost vezana za nastanak kuće; prvi poznati vlasnik <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a></td></tr>
+<tr><th>Katarina Bastl</th><td>stanarka čije svedočenje o događajima tokom nemačke okupacije 1941. objavljeno 1963. u časopisu „Izgradnja”; navodi se u kasnijim tekstovima o kući <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S2">S2</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
+<tr class="unk"><th>Ostali stanari</th><td>javnim izvorima nije dostupan pouzdano dokumentovan spisak svih ljudi koji su živeli u kući <span class="kbadge unk">nepoznato</span></td><td class="src">—</td></tr>
+</tbody></table></section>
+<section class="psec" aria-labelledby="t14-flajsmanova-kuka-podrum">
+<h3 id="t14-flajsmanova-kuka-podrum"><span data-en="The cellar: facts and a legend, kept apart" data-sr="Podrum: činjenice i legenda, odvojeno">Podrum: činjenice i legenda, odvojeno</span></h3>
+<table class="ptab"><tbody>
+<tr><th>Činjenica</th><td>dubok podrum koji se prostire ispod čitavog objekta</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
+<tr><th>Činjenica</th><td>svedočenja stanara da su tokom Drugog svetskog rata viđali nemačke vojnike kako ulaze u podrum i izvode radove</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
+<tr class="leg"><th>Legenda / predanje</th><td>kuća tajnim tunelima povezana sa Kalemegdanom; Nemci su u podrumu pronašli blago i odneli ga u Berlin <span class="kbadge leg">legenda</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S4">S4</a></td></tr>
+</tbody></table></section>
+<section class="psec" aria-labelledby="t14-flajsmanova-kuka-znacaj">
+<h3 id="t14-flajsmanova-kuka-znacaj"><span data-en="Significance and protection" data-sr="Kulturno-istorijski značaj i zaštita">Kulturno-istorijski značaj i zaštita</span></h3>
+<table class="ptab"><tbody>
+<tr><th>Istorijski značaj</th><td>veza sa austrijskom obnovom Beograda i izgradnjom prve polovine XVIII veka <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a></td></tr>
+<tr><th>Arhitektonski značaj</th><td>tradicionalna stambeno-poslovna kuća sa očuvanim tragovima istorijske gradnje</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Urbanistički značaj</th><td>jedini sačuvani primer nekadašnjeg niza od 7 gotovo identičnih kuća <span class="kbadge multi">2 izvora</span></td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a> <a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a></td></tr>
+<tr><th>Društveni značaj</th><td>veza prostora, zanatske delatnosti, stanovanja i kasnijih korisnika</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S1">S1</a></td></tr>
+<tr><th>Zaštita (1987)</th><td>očuvanje istorijskih, arhitektonskih i konstruktivnih vrednosti + kontrola intervencija; zaštita znači istraživanje, dokumentovanje, redovno održavanje, stručno planiranje popravki i dostupnost podataka o objektu</td><td class="src"><a class="srcchip" href="#t14-flajsmanova-kuka-S5">S5</a></td></tr>
+</tbody></table></section>
+<h3 data-en="Sources" data-sr="Izvori">Izvori</h3>
+<ul class="psrc">
+
+<li id="t14-flajsmanova-kuka-S1"><b>S1</b> · <a href="https://www.mgb.org.rs/public/files/yearbook_by_year_documents/document/027-042GodisnjakXXIX1982.pdf" target="_blank" rel="noreferrer">Godišnjak grada Beograda, tom XXIX, 1982, str. 35–42 ↗</a> <span class="micro">(godišnjak/arhiv)</span> <b class="srcn">— 25 <span data-en="claims" data-sr="tvrdnji">claims</span></b></li>
+
+<li id="t14-flajsmanova-kuka-S2"><b>S2</b> · <a href="https://www.danas.rs/vesti/beograd/najstarija-zgrada-u-beogradu/" target="_blank" rel="noreferrer">Danas, „Najstarija zgrada u Beogradu”, 28. 8. 2016. ↗</a> <span class="micro">(štampa)</span> <b class="srcn">— 13 <span data-en="claims" data-sr="tvrdnji">claims</span></b></li>
+
+<li id="t14-flajsmanova-kuka-S3"><b>S3</b> · <a href="https://www.rts.rs/magazin/Zanimljivosti/5312531/znate-li-koja-je-najstarija-kuca-u-beogradu.html" target="_blank" rel="noreferrer">RTS, „Zašto najstarija kuća u Beogradu nema nikakvo obeležje” ↗</a> <span class="micro">(mediјi javnog servisa)</span> <b class="srcn">— 2 <span data-en="claims" data-sr="tvrdnji">claims</span></b></li>
+
+<li id="t14-flajsmanova-kuka-S4"><b>S4</b> · <a href="https://lat.rtrs.tv/vijesti/vijest.php?id=441995" target="_blank" rel="noreferrer">RTRS, „Najstarija kuća u Beogradu – svjedok brojnih ratova i razaranja”, 15. 8. 2021. ↗</a> <span class="micro">(mediji)</span> <b class="srcn">— 6 <span data-en="claims" data-sr="tvrdnji">claims</span></b></li>
+
+<li id="t14-flajsmanova-kuka-S5"><b>S5</b> · <a href="https://www.beograd.rs/lat/zivot-u-beogradu/beogradska-riznica/a110780/Proslost-Beograda-u-Ulici-cara-Dusana.html" target="_blank" rel="noreferrer">Grad Beograd, „Prošlost Beograda u Ulici cara Dušana” ↗</a> <span class="micro">(zvanična strana grada)</span> <b class="srcn">— 6 <span data-en="claims" data-sr="tvrdnji">claims</span></b></li>
+
+<li id="t14-flajsmanova-kuka-S6"><b>S6</b> · <a href="https://sr.wikipedia.org/sr-ec/%D0%9D%D0%B0%D1%98%D1%81%D1%82%D0%B0%D1%80%D0%B8%D1%98%D0%B0_%D0%BA%D1%83%D1%9B%D0%B0_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83" target="_blank" rel="noreferrer">sr.wikipedia — „Најстарија кућа у Београду” (enciklopedijski zapis, polazna tačka) ↗</a> <span class="micro">(enciklopedija)</span> <b class="srcn">— 2 <span data-en="claims" data-sr="tvrdnji">claims</span></b></li>
+</ul>
+<details class="porig"><summary><span data-en="Show the original submission (verbatim)" data-sr="Prikaži originalan podnesak (doslovno)">Show the original submission (verbatim)</span></summary>
+<pre>NAJSTARIJA STAMBENA KUĆA U BEOGRADU — Aleksandra Tešić 55, Luna Todorovic 92
+
+[Originalan podnesak tima T14, primljen mejlom 12. 10. 2026; sačuvan doslovno, uključujući izvorni oblik teksta i pisanja.]
+
+• Osnovni podaci o objektu:
+• Naziv- kuća Elijasa Flajšmana
+• Uobičajen naziv- Flajšmanova kuċa
+• Adresa- ulica cara Dušana 10
+• Period izgradnje- 1724.-1727. godine
+• Arhitektonski kontekst- barokna urbanistička obnova Beograda
+• Prvi, poznati vlasnik- Elijas Flajšman
+• Prvobitna namena- stanovanje i zanatska delatnost
+• Tip objekta- stambeno-poslovna kuċa
+• Spratnost- podrum, prizemlje, prvi sprat i tavanski prostor
+• Gradjevinski materijali:
+• Kamen
+• Opeka
+• Malter
+• Drvo (konstruktivni delovi)
+• Kulturni status – spomenik kulture
+• Godina zaštite- 1987. godine
+• Osnovna vrednost- istorijski, arhitektonski i urbanistički značaj
+https://sr.wikipedia.org/sr-ec/...
+
+• Istorijski i urbanistički kontekst
+Nakon austrijskog osvajanja Beograda 1717. Godine, započela je velika obnova grada prema principima srednjoevropskog baroknog urbanizma. Uredjivane su ulice i parcele, a gradjene su nove stambene, poslovne i administrativne zgrade. U tom periodu, izmedju 1724. i 1727. godine, nastala je i kuċa Elijasa Flajšmana. Dorċol je zbog blizine Dunava i Beogradske tvrdjave bio važan za razvoj trgovine, zanatstva i stanovanja. Kuċa u današnjoj ulici cara Dušana 10 bila je deo niza od gotovo 7 identičnih kuċa, izgradjenih prema urbanističkoj zamisli povezanoj sa Nikolom Doksatom de Morezom. Do danas je sačuvana samo ova kuċa, što joj daje poseban istorijski i urbanistički značaj.
+Izvor: Godisnjak grada Beograda, tom XXIX, 1982.
+Izvor: Danas, „Najstarija zgrada u Beogradu“, 28. 8. 2016.
+
+• Nastanak kuċe i prvi vlasnik
+Kuċa je izgradjena za Elijasa Flajšmana, zanatliju koji se bavio remenarstvom, odnosno izradom predmeta od kože, uključujuċi opremu za konje i jahače. U istorijskim prikazima navodi se i da je bio član, odnosno savetnik beogradskog opštinskog veċa. Njegova kuċa nije bila namenjena isključivo stanovanju. U njoj su se nalazili i prostori povezani sa njegovom zanatskom delatnošċu. U prizemlju su se mogli obavljati poslovi i čuvati materijali, dok su gornje etaže i tavanski prostor imali funkcije prilagodjene potrebama domaċinstva i zanata.
+Posebno zanimljiv detalj predstavljaju otvori u tavanskom prostoru. Prema objašnjenju stručnjaka Zavoda za zaštitu spomenika kulture grada Beograda, oni su bili značajni za provetravanje kože koju je Flajšman čuvao na tavanu. Ovaj podatak pokazuje da pojedini arhitektonski elementi nisu imali samo estetsku ulogu. Bili su povezani sa praktičnim zahtevima zanatske proizvodnje. Kuċa je zato važna i kao primer prilagodjavanja arhitekte konkretnim potrebama korisnika. Njena prostorna organizacija odražavala je način života u kojem su dom, radionica i skladišni prostor činili funkcionalnu celinu.
+Izvor: Godišnjak grada Beograda, tom XXIX, 1982, str. 35–42.
+Izvor: Danas, „Najstarija zgrada u Beogradu“.
+
+• Arhitektonske karakteristike
+Kuća Elijasa Flajšmana predstvavlja značajan primer stambene arhitekture iz prve polovine XVIII veka. Nastala je u periodu austrijske uprave nad Beogradom, pod uticajem srednjoevropskog baroknog urbanizma. Odlikuju je jednostavna forma, skromna dekoracija i funkcionalno organizovan prostor, što je bilo karakteristično za tadašnje stambene objekte. Njena arhitektura prilagodjena je potrebama stanovanja i zanatskog rada, jer je kuċa služila i kao porodični dom i kao zanatska radionica. Posebno su značajni njena starost i očuvanost, zbog kojih predstavlja vredan primer nekadašnjeg izgleda Dorċola i razvoja stambene arhitekture u Beogradu. Fasada predstavlja važan deo identiteta objekta. Njena organizacija zasniva se na rasporedu prozorskih i vratnih otvora i odnosu punih zidnih površina prema otvorima. Pri analizi fasade treba razlikovati originalne elemente od naknadnih intervencija. To je posebno važno prilikom buduċih konzervatorskih radova, jer se neadekvatnim popravkama mogu ukloniti ili prikriti značajni istorisjki detalji. Objekat se sastoji od podruma, prizemlja, sprata i tavanskog prostora. Ovakva organizacija omogućavala je kombinovanje različitih funkcija unutar jedne gradjevine. Podrum - prostor povezan sa pomoćnim funkcijama objekta. Prizemlje - prostor pogodan za zanatski rad i poslovne aktivnosti. Sprat - prostor povezan sa stanovanjem. Tavanski prostor - prostor koji je, izmedju ostalog, imao praktičnu ulogu u zanatskoj delatnosti prvog vlasnika.
+Izvor: Godišnjak grada Beograda, tom XXIX, 1982.
+Izvor: Godišnjak grada Beograda, tom XXIX, 1982, str. 35–42.
+Izvor: RTS, „Zašto najstarija kuća u Beogradu nema nikakvo obeležje“.
+
+• Konstrukcija i gradjevinski materijali
+Kuća pripada tradicionalnoj zidanoj arhitekturi. Njena osnovna konstruktivna karakteristika jeste masivni zidani sistem, katakterističan za stambene objekte XVIII veka. Za razliku od savremenih gradjevina koje često koriste armiranobetonske stubove, grede i ploče kao osnovni noseći sistem, tradicionalne kuće ovog tipa u velikoj meri se oslanjaju na zidove koji prenose opterećenje sa viših delova objekta na temelje.
+Opeka - jedan je od važnih materijala tradicionalne zidane arhitekture. Koristi se za izgradnju zidova i drugih zidanih elemenata, u zavisnosti od konstruktivnog rešenja. Njene karakteristike uključuju relativno pravilne dimenzije, mogućnost povezivanja malterom i dobru otpornost na pritisak.
+Kamen - koristi se u temeljima, donjim zonama zidova u drugim konstruktivnim elementima. Njegove prednosti uključuju veliku čvrstoću na pritisak i dugotrajnost.
+Malter - povezuje zidane elemente i može služiti kao završni sloj zidova i fasade. Njegov sastav zavisi od istorijskog perioda, lokalno dostupnih sirovina i namene.
+Drvo - tradicionalno je koriċeno u krovnim konstrukcijama, medjuspratnim elementima, vratima, prozorima i drugim delovima starih gradjevina.
+Izvor za istorijski i arhitektonski kontekst: Godišnjak grada Beograda, tom XXIX, 1982.
+Izvor: Godišnjak grada Beograda, tom XXIX, 1982, str. 35–42.
+
+• Funkcionalna organizacija i promena namene
+Od nastanka je bila povezana sa stanovanjem i zanatskom proizvodnjom, što je omogućavalo da vlasnik istovremeno živi i radi u istom objektu. Tokom narednih vekova potrebe korisnika menjale su se, pa su se menjali i način organizacije i korišćenje pojedinih prostora. Sredinom prošlog veka u podrumu se nalazila tekstilna radionice “Narodni heroj Andja Ranković”, iz koje je kasnije nastao “BEKO”, a koja je nazvana po prvoj ženi Aleksandra Leke Ranković, stradaloj u borbama pokraj Gacka. Nakon tekstilne radionice otvorena je prva pekara, koja je radila 24 časa 365 dana u godini. Danas se u prizemlju kuće nalazi pekara-picerija.
+Izvor: RTS, „Zašto najstarija kuća u Beogradu nema nikakvo obeležje“.
+Izvor: RTRS, „Najstarija kuća u Beogradu – svjedok brojnih ratova i razaranja“, 15. 8. 2021.
+
+• Stanari i istorija života u objektu
+Elijas Flajšman - najvažnija ličnost povezana sa nastankom kuće. Prvi poznati vlasnik.
+Katarina Bastl - stanarka čije je svedočenje povezano sa dogadjajima tokom Nemačke okupacije Beograda 1941. Godine. Njeno svedočenje, objavljeno je 1963. godine u časopisu “Izgradnja”, navodi se u kasnijim tekstovima o istoriji kuće.
+Kuća je tokom drugog perioda imala različite korisnike. Ipak, dostupni javni izvori ne pružaju potpun, pouzdano dokumentovan spisak svih ljudi koji su u njoj živeli.
+Izvor: Danas, „Najstarija zgrada u Beogradu“.
+Izvor za istoriju i kasniju upotrebu objekta: RTRS, „Najstarija kuća u Beogradu – svjedok brojnih ratova i razaranja“.
+
+• Podrum - zanimljivosti
+Kuća ima dubok podrum koji se prostire ispod čitavog objekta. Podrum je kroz istoriju privlačio ogromnu pažnju upravo zbog priča o podzemnim prolazima i lagumima. Tokom Drugog svetskog rata stanari su navodno vidjali nemačke vojnike kako ulaze u podrum i izvode radove. Kasnije su nastale različite priče o tome šta su Nemci tamo tražili.
+Činjenice - postoji dubok podrum ispod objekta, postoje svedočenja o nemačkim radovima u podrumu tokom Drugog svetskog rata.
+Legenda - kuća je povezana tajnim tunelima sa Kalemegdanom, Nemci su u podrumu pronašli blago i odneli ga u Berlin.
+Izvor: RTRS, „Najstarija kuća u Beogradu – svjedok brojnih ratova i razaranja“.
+Izvor za postojanje predanja: RTRS, „Najstarija kuća u Beogradu – svjedok brojnih ratova i razaranja“.
+
+• Kulturno-istorijski značaj i zaštita
+Istorijski značaj - ogleda se u vezi sa austrijskom obnovom Beograda i periodom izgradnje prve polovine XVIII veka.
+Arhitektonski značaj - proizlazi iz njenog karaktera tradicionalne stambeno-poslovne kuće i očuvanih tragova istorijske gradnje.
+Urbanistički značaj - povezan je sa činjenicom da je objekat jedini sačuvani primer nekadašnjeg niza od 7 gotovo identičnih kuća.
+Društveni značaj - ogleda se u vezi izmedju prostora, zanatske delatnosti, stanovanja i kasnijih korisnika.
+Objekat je proglašen spomenikom kulture 1987. godine. Njegova zaštita podrazumeva očuvanje istorijskih, arhitektonskih i konstruktivnih vrednosti, kao i kontrolu budućih intervencija. Zaštita ne znači samo sprečavanje rušenja. Ona podrazumeva istraživanje, dokumentovanje, redovno održavanje, stručno planiranje popravki i dostupnost podataka o objektu.
+Izvor: Grad Beograd, „Prošlost Beograda u Ulici cara Dušana: U njoj se nalazi najstarija kuća u gradu“.
+Izvor: RTS, „Zašto najstarija kuća u Beogradu nema nikakvo obeležje“.</pre>
+</details>
+</article>
+</main>
+<footer class="site-footer"><div><strong>OR / COMPUTING STUDIO</strong><p><span class="" data-en="Semir Poturak · Union — Nikola Tesla University" data-sr="Semir Poturak · Univerzitet „Union — Nikola Tesla”">Semir Poturak · Union — Nikola Tesla University</span><br><span class="" data-en="Architecture & civil engineering · Belgrade" data-sr="Arhitektura i građevinarstvo · Beograd">Architecture & civil engineering · Belgrade</span></p></div><div class="footer-links"><a href="timovi.html"><span class="" data-en="Team register" data-sr="Registar timova">Team register</span></a><a href="program.html"><span class="" data-en="Held classes" data-sr="Održana predavanja">Held classes</span></a><a href="pristup.html"><span class="" data-en="Access & offline" data-sr="Pristup i rad bez mreže">Access & offline</span></a><a href="https://github.com/3esign/computing-studio" rel="noreferrer">GitHub ↗</a><a href="https://3esign.github.io/inclusive-studio/" rel="noreferrer">Universal Design ↗</a></div></footer><p id="announcements" class="sr-only" role="status" aria-live="polite"></p><nav class="mobile-nav" aria-label="Quick navigation"><a href="index.html"><span class="" data-en="Studio" data-sr="Studio">Studio</span></a><a href="sledeci.html"><span class="" data-en="Next" data-sr="Sledeći">Next</span></a><a href="timovi.html"><span class="" data-en="Teams" data-sr="Timovi">Teams</span></a><a href="ideje.html"><span class="" data-en="Ideas" data-sr="Ideje">Ideas</span></a></nav></body></html>

@@ -1,6 +1,6 @@
 {
-  "version": "309ce40290f2ba2a",
-  "bytes": 2001988,
+  "version": "5958e20021e7e192",
+  "bytes": 2058603,
   "files": [
     "assets/app.js",
     "assets/mark.svg",
@@ -31,6 +31,7 @@
     "data/labs.json",
     "data/pasos/objekat-001-savski-most.json",
     "data/sources.json",
+    "data/student-pasosi.json",
     "data/taxonomy.json",
     "data/verzije.json",
     "film/pasos/film.css",
@@ -80,6 +81,7 @@
     "prostor/prostor.css",
     "prostor/prostor.js",
     "sledeci.html",
+    "studenti.html",
     "timovi.html"
   ]
 }
