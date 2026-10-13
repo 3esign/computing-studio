@@ -22,6 +22,12 @@
 .nowcard .due{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8a6d1f;margin-bottom:12px}
 .nowcard ol{margin:8px 0 0;padding-left:20px}
 .nowcard li{padding:3px 0;color:#3f3c34;line-height:1.5}
+#held-classes{padding:38px 0 0}
+#held-classes h2{font-size:30px;line-height:1.1;margin:8px 0 18px}
+.held-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:stretch;margin-top:18px}
+.held-grid .held{margin-bottom:0;display:flex;flex-direction:column}
+.held-grid .held .links{margin-top:auto;padding-top:10px}
+@media (max-width:1000px){.held-grid{grid-template-columns:1fr}}
 .held{background:#fbfaf5;border:1px solid #e0dac9;border-radius:14px;padding:18px 20px;margin-bottom:14px}
 .held .when{display:flex;gap:10px;align-items:baseline;margin-bottom:6px}
 .held time{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;color:#8a6d1f}
@@ -59,9 +65,9 @@
 </div>
 </section>
 
-<section id="held-classes" class="course-map" aria-labelledby="held-title" style="margin-top:8px">
+<section id="held-classes" aria-labelledby="held-title">
 <div><p class="eyebrow"><span data-en="Held classes · newest first" data-sr="Održana predavanja · od najnovijeg">Held classes · newest first</span></p><h2 id="held-title"><span data-en="The course so far." data-sr="Predmet do sada.">The course so far.</span></h2></div>
-
+<div class="held-grid">
 <article class="held">
 <div class="when"><time datetime="2026-10-12">2026-10-12</time><span class="badge"><span data-en="Class 02 · consultations" data-sr="Čas 02 · konsultacije">Class 02 · consultations</span></span></div>
 <h3><span data-en="The data map: sixty-five teams brought their first system" data-sr="Mapa podataka: šezdeset pet timova donelo je svoj prvi sistem">The data map: sixty-five teams brought their first system</span></h3>
@@ -75,6 +81,7 @@
 <p><span data-en="The worked example of the whole semester was put on the table: the old Sava bridge, rebuilt through the verifiable data of its digital passport — sources, claims, disagreements and unknowns. The groups then chose their own objects and research tracks. The full record lives in Held classes; the example itself became the course pilot, below." data-sr="Na sto je stavljen radni primer celog semestra: stari savski most, rekonstruisan kroz proverljive podatke svog digitalnog pasoša — izvori, tvrdnje, neslaganja i nepoznato. Grupe su zatim izabrale svoje objekte i istraživačke trake. Puni zapis stoji u Održanim predavanjima; sam primer je postao pilot predmeta, ispod.">The worked example of the whole semester was put on the table: the old Sava bridge, rebuilt through the verifiable data of its digital passport — sources, claims, disagreements and unknowns. The groups then chose their own objects and research tracks. The full record lives in Held classes; the example itself became the course pilot, below.</span></p>
 <div class="links"><a href="program.html"><span data-en="Full record →" data-sr="Puni zapis →">Full record →</span></a></div>
 </article>
+</div>
 </section>
 
 <section class="pilot" aria-labelledby="pilot-title" style="margin-top:8px">
