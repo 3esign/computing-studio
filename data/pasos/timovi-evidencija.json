@@ -856,15 +856,18 @@
         "156/26",
         "166/26"
       ],
-      "object": "ATS / Dom Svetog Save",
-      "location": "Cara Dušana, Beograd",
-      "topic": "Arhitektura doma, transformacija i lično korisničko iskustvo",
+      "object": "ATŠ — izbor objekta na proveri",
+      "location": "Beograd — lokacija na proveri",
+      "topic": "Potvrda novog objekta i pravca istraživanja",
       "progressStage": 2,
-      "progressLabel": "Predlog u toku",
-      "status": "Predat predlog novog objekta",
+      "progressLabel": "Izbor objekta na proveri",
+      "status": "Prethodni izbor: Dom Svetog Save u Cara Dušana. Promena objekta odobrena 08.10.2026; identitet novog predloga nije potvrđen.",
       "submissionsCount": 1,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "ATŠ je naziv Arhitektonske tehničke škole, Vojislava Ilića 78; Dom Svetog Save u Cara Dušana je drugi objekat.",
+        "Mejl 08.10. navodi raniji Dom i pominje sliku novog predloga; dostupni tekst ne utvrđuje novi objekat."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -1305,5 +1308,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-03fa28a595a6b693"
+  "datasetRevision": "r-a59090de87a3ae6d"
 }

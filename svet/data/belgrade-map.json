@@ -1346,32 +1346,38 @@
     },
     {
       "id": "T44",
-      "object": "ATS / Dom Svetog Save",
+      "object": "ATŠ — izbor objekta na proveri",
       "indices": [
         "154/26",
         "156/26",
         "166/26"
       ],
-      "topic": "Arhitektura doma, transformacija i lično korisničko iskustvo",
-      "place": "Sava / Brankova",
-      "lat": 44.813,
-      "lng": 20.45,
-      "x": 0,
+      "topic": "Potvrda novog objekta i pravca istraživanja",
+      "place": "Beograd",
+      "lat": null,
+      "lng": null,
+      "x": null,
       "y": 3.2,
-      "z": 25,
+      "z": null,
       "type": "standard",
       "progressStage": 2,
-      "progressLabel": "Predlog u toku",
-      "status": "Predat predlog novog objekta",
+      "progressLabel": "Izbor objekta na proveri",
+      "status": "Prethodni izbor: Dom Svetog Save u Cara Dušana. Promena objekta odobrena 08.10.2026; identitet novog predloga nije potvrđen.",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
       "previewClaim": "",
       "previewSource": "",
-      "locationStatus": "approximate",
+      "locationStatus": "unmapped",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B3dc014be"
+      "building": "B3a905e81",
+      "location": "Beograd — lokacija na proveri",
+      "flags": [
+        "ATŠ je naziv Arhitektonske tehničke škole, Vojislava Ilića 78; Dom Svetog Save u Cara Dušana je drugi objekat.",
+        "Mejl 08.10. navodi raniji Dom i pominje sliku novog predloga; dostupni tekst ne utvrđuje novi objekat."
+      ],
+      "identityStatus": "unresolved"
     },
     {
       "id": "T45",
@@ -2026,5 +2032,5 @@
       "building": "Bedda6bf8"
     }
   ],
-  "datasetRevision": "r-03fa28a595a6b693"
+  "datasetRevision": "r-a59090de87a3ae6d"
 }
