@@ -129,3 +129,21 @@ html.atlas-night{--paper:#101a20;--ink:#e6ebe6;--muted:#aebfbd;--line:#3b5258;--
 @media(max-height:500px){.atlas-hero{min-height:220px}}
 
 @media(max-width:720px){.site-header nav a{font-size:12px}}
+
+/* Immersive home: menu floats over the stage; course content continues below. */
+body[data-view=studio] .site-header{position:absolute;left:8px;top:7px;z-index:10;display:flex;padding:0;border:0;gap:4px;background:transparent}
+body[data-view=studio] .site-header .brand{background:var(--paper);border-radius:4px;padding:5px 7px;min-height:36px}
+body[data-view=studio] .site-header .brand>b{font-size:21px;border:0;padding:0;width:auto;height:auto;min-width:0;line-height:26px}
+body[data-view=studio] .site-header .brand>span,body[data-view=studio] .site-header>.language{display:none}
+#course-menu{min-height:36px;min-width:32px;padding:4px 7px;font-size:15px;border:0;border-radius:4px;background:var(--paper);color:var(--ink)}
+body[data-view=studio] .site-header nav{display:none!important;position:absolute;left:0;top:43px;grid-row:auto;width:220px;margin:0;padding:12px;background:var(--paper);border:1px solid var(--line);box-shadow:0 5px 20px #0002}
+body[data-view=studio] .site-header.menu-open nav{display:grid!important;gap:0}
+body[data-view=studio] .site-header nav a{font-size:13px;min-height:44px;padding:8px 12px}
+body[data-view=studio] .site-header.menu-open>.language{display:block;position:absolute;top:268px;left:162px;min-height:36px;min-width:36px;font-size:12px}
+body[data-view=studio] .atlas-hero{height:100dvh;min-height:280px}
+
+body[data-view=studio] .site-header>.course-return{display:none;position:absolute;top:calc(43px + 244px);left:0;width:220px;padding:14px 12px;background:var(--paper);border:1px solid var(--line);font-size:12px}
+body[data-view=studio] .site-header.menu-open>.course-return{display:block}
+body[data-view=studio] .site-header.menu-open>.language{top:329px;left:176px;z-index:2}
+
+body[data-view=studio] .site-header.menu-open>.language{top:0;left:90px}

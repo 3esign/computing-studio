@@ -71,7 +71,7 @@
        }
        for(const c of cs){const slot=slots.get(c.id),floor=Math.floor(slot/4),side=slot%4,y=base+floor*2.5+.32;
          const dx=[0,1.68,0,-1.68][side],dz=[-1.68,0,1.68,0][side],w=side%2?.2:2.7,d=side%2?2.7:.2;
-         box('record',c.id,x+dx,y,z+dz,w,1.85,d,{section:s.id,sourceIds:c.sourceIds,opening:unknown(c),floor,slot});
+         box('record',c.id,x+dx,y,z+dz,w,1.85,d,{section:s.id,category:c.category||'research',sourceIds:c.sourceIds,opening:unknown(c),floor,slot});
        }
      }
      /* A delivered archive is mass before it is knowledge. One crate is one scan,
