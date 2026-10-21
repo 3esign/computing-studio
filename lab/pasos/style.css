@@ -1,0 +1,75 @@
+/* Belgrade passport pilot — page-specific rules only.
+   The palette, type and header come from assets/site.css. Nothing here loads from the network. */
+
+.pz { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 360px); gap: 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); margin: 26px 0 0; }
+.pz-left { min-width: 0; padding: 0 24px 22px 0; border-right: 1px solid var(--line); }
+.pz-right { min-width: 0; padding: 22px 0 22px 24px; }
+
+.pz-tabs { display: flex; flex-wrap: wrap; gap: 0; border-bottom: 1px solid var(--line); }
+.pz-tabs button { background: none; border: none; border-bottom: 2px solid transparent; font: 13px var(--mono); padding: 10px 12px; min-height: 44px; }
+.pz-tabs button[aria-pressed=true] { color: var(--signal); border-bottom-color: var(--signal); background: var(--soft); }
+
+.pz-map { background: var(--white); border-bottom: 1px solid var(--line); }
+.pz-map svg { display: block; width: 100%; height: auto; }
+
+.pz-pick { display: flex; flex-wrap: wrap; gap: 6px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.pz-pick button { background: none; border: 1px solid var(--line); font: 12px var(--mono); padding: 8px 10px; min-height: 44px; text-align: left; }
+.pz-pick button[aria-pressed=true] { background: var(--ink); color: var(--white); border-color: var(--ink); }
+
+.pz-read { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid var(--line); }
+.pz-read div { padding: 14px 10px 14px 0; }
+.pz-read span { display: block; font: 9px/1.4 var(--mono); letter-spacing: .06em; color: var(--muted); text-transform: uppercase; }
+.pz-read strong { font: 400 clamp(22px, 3vw, 34px)/1.2 var(--mono); letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+.pz-read strong small { font-size: .5em; color: var(--muted); letter-spacing: 0; }
+
+.pz-sentence { font-size: 14px; margin: 14px 0 0; max-width: 62ch; }
+.pz-hint { font: 12px/1.6 var(--mono); color: var(--signal); margin: 6px 0 0; }
+.pz-kind { font: 10px var(--mono); letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--line); padding: 3px 6px; }
+.pz-kind.made { background: var(--ink); color: var(--white); border-color: var(--ink); }
+
+.pz-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; }
+.pz-head h2 { font-size: clamp(20px, 2.4vw, 28px); margin: 0; }
+.pz-note { font-size: 13px; color: var(--muted); margin: 6px 0 16px; }
+
+.pz-src { display: grid; gap: 0; border-top: 1px solid var(--line); margin: 0 0 16px; }
+.pz-src label { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--line); min-height: 48px; font-size: 14px; cursor: pointer; }
+.pz-src input { min-height: 0; width: 20px; height: 20px; accent-color: var(--signal); margin: 0; }
+.pz-src b { font-weight: 400; display: block; }
+.pz-src i { font: 11px var(--mono); font-style: normal; color: var(--muted); display: block; }
+
+.pz-presets { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 18px; }
+.pz-presets button { background: none; border: 1px solid var(--ink); font: 12px var(--mono); padding: 9px 11px; min-height: 44px; }
+.pz-presets button:hover { background: var(--soft); }
+
+.pz-card { margin: 24px 0 0; }
+.pz-row { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr) auto; gap: 8px 16px; align-items: baseline; padding: 11px 0 11px 12px; border-bottom: 1px solid var(--line); border-left: 3px solid var(--line); }
+.pz-row.known { border-left-color: var(--signal); }
+.pz-row.lost { border-left-style: dashed; border-left-color: var(--ink); }
+.pz-row q { font-size: 14px; quotes: none; }
+.pz-row p { margin: 0; font-size: 14px; max-width: none; }
+.pz-row.lost p, .pz-row.blocked p { color: var(--muted); font: 12px/1.6 var(--mono); }
+.pz-row em { font: 11px var(--mono); font-style: normal; color: var(--muted); }
+.pz-state { font: 10px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+.pz-ev { border: 1px solid var(--line); padding: 2px 5px; font: 11px var(--mono); margin-left: 6px; }
+
+.pz-legend { display: flex; flex-wrap: wrap; gap: 8px 22px; font: 11px/1.7 var(--mono); color: var(--muted); padding: 14px 0 0; }
+.pz-legend span { display: flex; align-items: center; gap: 7px; }
+.pz-sw { width: 18px; height: 18px; flex: none; }
+.pz-nojs { font-size: 13px; background: var(--soft); padding: 12px 14px; margin: 14px 0 0; }
+@media (max-width: 560px) { .pz-map .pz-fine { display: none; } }
+
+.pz-rule { background: var(--soft); padding: 16px; font: 12px/1.7 var(--mono); margin: 12px 0 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+
+@media (max-width: 900px) {
+  .pz { grid-template-columns: 1fr; border-bottom: 0; }
+  .pz-left { padding: 0 0 18px; border-right: 0; }
+  .pz-right { padding: 18px 0; border-top: 1px solid var(--ink); }
+  .pz-read { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pz-read div { padding: 12px 10px 12px 0; }
+  .pz-row { grid-template-columns: 1fr; padding-top: 12px; padding-bottom: 12px; }
+  .pz-row .pz-state { order: -1; }
+}
+@media (max-width: 420px) {
+  .pz-tabs button { padding: 10px 9px; font-size: 12px; }
+  .pz-pick button { font-size: 11px; padding: 8px; }
+}

@@ -1,0 +1,80 @@
+{
+  "datasetRevision": "r-50ff3b7736d4eaa4",
+  "registeredTeams": 67,
+  "curatedPassportsCount": 12,
+  "totalCuratedClaims": 224,
+  "passports": [
+    {
+      "id": "T01",
+      "object": "Osnovna škola „Laza Kostić”",
+      "sections": 8,
+      "claims": 21
+    },
+    {
+      "id": "T02",
+      "object": "Silosi Beograd",
+      "sections": 9,
+      "claims": 28
+    },
+    {
+      "id": "T03",
+      "object": "Sava Centar",
+      "sections": 10,
+      "claims": 30
+    },
+    {
+      "id": "T11",
+      "object": "Hram Svetog Save",
+      "sections": 2,
+      "claims": 14
+    },
+    {
+      "id": "T12",
+      "object": "Zgrada Generalštaba",
+      "sections": 4,
+      "claims": 16
+    },
+    {
+      "id": "T14",
+      "object": "Najstarija stambena kuća u Beogradu — kuća Elijasa Flajšmana (Flajšmanova kuća)",
+      "sections": 9,
+      "claims": 35
+    },
+    {
+      "id": "T18",
+      "object": "Palata Beograd (Beograđanka)",
+      "sections": 3,
+      "claims": 9
+    },
+    {
+      "id": "T19",
+      "object": "Zgrada tehničkih fakulteta",
+      "sections": 3,
+      "claims": 13
+    },
+    {
+      "id": "T22",
+      "object": "Stambeno-poslovni kompleks „K-District” (Donji Grad)",
+      "sections": 4,
+      "claims": 13
+    },
+    {
+      "id": "T26",
+      "object": "Sportski centar „25. Maj” — kula „Dunavski cvet” (danas Sky Wellness)",
+      "sections": 3,
+      "claims": 12
+    },
+    {
+      "id": "T48",
+      "object": "Palata Srbije (ranije Palata Federacije, zgrada SIV-a)",
+      "sections": 5,
+      "claims": 24
+    },
+    {
+      "id": "T53",
+      "object": "Zgrada Instituta za ispitivanje materijala (IMS)",
+      "sections": 4,
+      "claims": 9
+    }
+  ]
+}

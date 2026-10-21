@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kurirani pasoši · Computing Studio</title>
+<link rel="icon" href="../assets/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="world.css">
+<script src="pasosi.js" defer></script>
+<style>
+.records { max-width: 1160px; margin: auto; padding: 42px clamp(18px, 4vw, 64px) 90px; }
+.records h1 { font-size: clamp(42px, 6vw, 82px); letter-spacing: -0.07em; line-height: 0.98; margin: 10px 0 18px; }
+.records .lead { max-width: 760px; line-height: 1.55; color: var(--text-muted); }
+.record-grid { display: grid; grid-template-columns: minmax(220px, 300px) 1fr; gap: 30px; margin-top: 36px; }
+.record-tabs { display: block; align-self: start; position: sticky; top: 12px; max-height: 80vh; overflow-y: auto; }
+.record-tabs button { display: block; width: 100%; border: 0; border-bottom: 1px solid var(--border); text-align: left; font-size: 13px; line-height: 1.35; padding: 12px; background: transparent; cursor: pointer; }
+.record-tabs button b { color: var(--accent); margin-right: 8px; }
+.record-tabs button[aria-current="true"] { background: #dce8de; font-weight: 700; }
+.passport { background: var(--surface); padding: clamp(20px, 3vw, 40px); border: 1px solid var(--border); }
+.passport h2 { font-size: clamp(27px, 3vw, 42px); letter-spacing: -0.05em; line-height: 1.05; margin: 9px 0 18px; }
+.passport h3 { font-size: 20px; margin: 30px 0 13px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+.claim { border-top: 1px solid var(--border); padding: 12px 0; display: grid; grid-template-columns: minmax(110px, 170px) 1fr; gap: 12px; font-size: 14px; line-height: 1.5; }
+.claim dt { font-weight: 760; }
+.claim dd { margin: 0; }
+.claim small { display: block; color: #647069; margin-top: 6px; }
+.sources { margin: 0; padding-left: 20px; font-size: 13px; line-height: 1.55; }
+.sources li { margin: 9px 0; overflow-wrap: anywhere; }
+.status { font-size: 13px; color: var(--accent); font-weight: 700; }
+@media (max-width: 768px) {
+  .record-grid { grid-template-columns: 1fr; }
+  .record-tabs { position: static; max-height: 180px; border: 1px solid var(--border); }
+  .claim { grid-template-columns: 1fr; gap: 2px; }
+  .records { padding-top: 24px; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#record">Preskoči navigaciju</a>
+<header class="atlas-header"><a class="brand" href="../index.html">OR↗</a><nav aria-label="Glavna navigacija"><a href="../index.html#atlas">Atlas</a><a href="../timovi.html">Timovi</a><a href="../izvori.html">Izvori</a><a href="../biblioteka.html">Literatura</a><a href="../ideje.html">Oblak ideja</a></nav><a href="index.html">Atlas ↗</a></header>
+<main class="records">
+  <p class="eyebrow">JAVNI KURIRANI SLOJ / OKTOBAR 2026.</p>
+  <h1>Pasoši,<br><em>red po red.</em></h1>
+  <p class="lead">Jedan podatak, njegova vrednost i izvor. Ovde je 12 primljenih i kuriranih pilot pasoša. Studentski identiteti su svedeni na indekse radi zaštite privatnosti; izvorni obimni elaborati čuvaju se u internoj nastavničkoj evidenciji.</p>
+  <div class="record-grid">
+    <nav id="tabs" class="record-tabs" aria-label="Pasoši po timovima"></nav>
+    <article id="record" class="passport" tabindex="-1">
+      <p class="status">Učitavanje kuriranih pasoša…</p>
+    </article>
+  </div>
+</main>
+<footer>
+  <span>OR · Osnove računarstva · Semir Poturak · FGM · Univerzitet „Union — Nikola Tesla”</span>
+  <a href="index.html">Nazad u 3D svet →</a>
+</footer>
+<noscript><p>Za dinamički prikaz je potreban JavaScript. <a href="../timovi.html">Registar timova radi bez njega.</a></p></noscript>
+</body>
+</html>

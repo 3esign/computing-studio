@@ -1,0 +1,1309 @@
+{
+  "schema": 2,
+  "updated": "2026-10-19",
+  "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
+  "note": {
+    "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
+    "sr": "Zvanični javni registar timova: ID tima, brojevi indeksa, dodeljeni objekti, teme istraživanja i faza progresa. Imena studenata su izostavljena radi zaštite privatnosti."
+  },
+  "totals": {
+    "teams": 67,
+    "objects": 48,
+    "completedPassports": 12
+  },
+  "entries": [
+    {
+      "id": "T01",
+      "indices": [
+        "157/26",
+        "121/26"
+      ],
+      "object": "OŠ „Laza Kostić”",
+      "location": "Novi Beograd",
+      "topic": "Osnovna škola i modernistička školska arhitektura",
+      "progressStage": 6,
+      "progressLabel": "Završen pilot pasoš",
+      "status": "Kuriran pilot pasoš",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [],
+      "claimsCount": 21,
+      "sectionsCount": 8
+    },
+    {
+      "id": "T02",
+      "indices": [
+        "26/26",
+        "50/26"
+      ],
+      "object": "Silosi Beograd",
+      "location": "Dunavski kej, Beograd",
+      "topic": "Industrijsko nasleđe i revitalizacija silosa žita",
+      "progressStage": 6,
+      "progressLabel": "Završen pilot pasoš",
+      "status": "Kuriran pilot pasoš",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [],
+      "claimsCount": 28,
+      "sectionsCount": 9
+    },
+    {
+      "id": "T03",
+      "indices": [
+        "19/26",
+        "84/26"
+      ],
+      "object": "Sava Centar",
+      "location": "Milentija Popovića 9, Novi Beograd",
+      "topic": "Kongresni kompleks i savremena rekonstrukcija",
+      "progressStage": 6,
+      "progressLabel": "Završen pilot pasoš + proširenje",
+      "status": "Kuriran pilot pasoš + elaborat",
+      "submissionsCount": 3,
+      "hasPassport": true,
+      "flags": [
+        "Deljeni objekat: T03 i T60 rade Sava Centar (odobreno)"
+      ],
+      "claimsCount": 30,
+      "sectionsCount": 10
+    },
+    {
+      "id": "T04",
+      "indices": [
+        "15/26",
+        "17/26",
+        "90/26"
+      ],
+      "object": "Ložionica",
+      "location": "Mostarska petlja, Beograd",
+      "topic": "Istorija korišćenja i transformacija u kreativno-inovativni hab",
+      "progressStage": 4,
+      "progressLabel": "Predat koncept + tabela",
+      "status": "Predat koncept i radna tabela",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Razrešeno: 17/26 je u T04 (nije u T10)"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T05",
+      "indices": [
+        "138/26",
+        "119/26",
+        "56/26",
+        "136/26"
+      ],
+      "object": "Dom omladine Beograd",
+      "location": "Makedonska 22, Beograd",
+      "topic": "Kulturni centar, omladinska arhitektura, enterijer",
+      "progressStage": 3,
+      "progressLabel": "Predat koncept",
+      "status": "Predat koncept rada",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T06",
+      "indices": [
+        "95/26",
+        "8/26"
+      ],
+      "object": "Gardoš / Milenijumska kula",
+      "location": "Zemun, Beograd",
+      "topic": "Istorijska kula, vidikovac, materijali (kamen, opeka)",
+      "progressStage": 2,
+      "progressLabel": "Online istraživanje",
+      "status": "Online istraživanje",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T07",
+      "indices": [
+        "38/26",
+        "82/26"
+      ],
+      "object": "Hotel Zlatibor, Užice",
+      "location": "Trg partizana, Užice",
+      "topic": "Brutalistička arhitektura, Svetlana Radović, visinski akcenat Užica",
+      "progressStage": 4,
+      "progressLabel": "Predat elaborat",
+      "status": "Predat preliminarni elaborat",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Objekat van Beograda"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T08",
+      "indices": [
+        "23/26",
+        "87/26",
+        "88/26"
+      ],
+      "object": "Zgrada u Kalemegdan parku",
+      "location": "Kalemegdan, Beograd",
+      "topic": "Novija zgrada u zaštićenom parku (2017, 4Po+Pr+5+Ps), energetska efikasnost",
+      "progressStage": 4,
+      "progressLabel": "Predata radna verzija",
+      "status": "Predata radna verzija",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T09",
+      "indices": [
+        "104/26",
+        "70/26",
+        "127/26"
+      ],
+      "object": "Dorćol centar",
+      "location": "Dorćol, Beograd",
+      "topic": "Energetska efikasnost i savremeni stambeno-poslovni blok",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T10",
+      "indices": [
+        "8/26",
+        "181/26",
+        "165/26"
+      ],
+      "object": "Hotel i kafić, Pančevo (dva objekta)",
+      "location": "Pančevo",
+      "topic": "Ugostiteljsko-istorijska arhitektura u Pančevu",
+      "progressStage": 2,
+      "progressLabel": "Istraživanje u toku",
+      "status": "U radu (kontaktiranje institucija)",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [
+        "Razrešeno: indeks 17/26 izuzet iz T10 u T04"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T11",
+      "indices": [
+        "164/26",
+        "31/26g",
+        "192/26"
+      ],
+      "object": "Hram Svetog Save",
+      "location": "Vračar, Beograd",
+      "topic": "Monumentalna sakralna arhitektura, kupola, materijali i izvođenje",
+      "progressStage": 6,
+      "progressLabel": "Završen pasoš + dopuna",
+      "status": "Kuriran pilot pasoš + dopunski podnesak",
+      "submissionsCount": 2,
+      "hasPassport": true,
+      "flags": [
+        "Dva podneska: razrešiti da li Željana Stefanović nastupa u istom timu sa Janom i Milom ili samostalno"
+      ],
+      "claimsCount": 14,
+      "sectionsCount": 2
+    },
+    {
+      "id": "T12",
+      "indices": [
+        "168/26",
+        "32/26"
+      ],
+      "object": "Zgrada Generalštaba",
+      "location": "Kneza Miloša 33-41, Beograd",
+      "topic": "Nikola Dobrović, kaskadna forma, kanjon Sutjeske, rušenje 1999, zaštita",
+      "progressStage": 6,
+      "progressLabel": "Završen pilot pasoš (uzoran)",
+      "status": "Kuriran pilot pasoš (najzreliji primer)",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [],
+      "claimsCount": 16,
+      "sectionsCount": 4
+    },
+    {
+      "id": "T13",
+      "indices": [
+        "116/26",
+        "145/26",
+        "94/26",
+        "184/26",
+        "169/26"
+      ],
+      "object": "Palata SANU i Zgrada Pošte",
+      "location": "Knez Mihailova 35 / Takovska 2, Beograd",
+      "topic": "Uporedna analiza dva ključna beogradska zdanja, prostorna struktura i preseci",
+      "progressStage": 5,
+      "progressLabel": "Izrađena AI Studio aplikacija",
+      "status": "AI Studio interaktivna 3D aplikacija",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Dva objekta: tim pokriva oba u skladu sa veličinom grupe"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T14",
+      "indices": [
+        "55/26",
+        "92/26"
+      ],
+      "object": "Najstarija stambena kuća u Beogradu (Flajšmanova kuća)",
+      "location": "Cara Dušana 10, Dorćol, Beograd",
+      "topic": "Barokna arhitektura (1724–1727), podzemni lagumi, građevinski materijali, stanari",
+      "progressStage": 6,
+      "progressLabel": "Završen pasoš + AI Studio sajt",
+      "status": "Kuriran pilot pasoš + AI Studio sajt",
+      "submissionsCount": 2,
+      "hasPassport": true,
+      "flags": [],
+      "claimsCount": 35,
+      "sectionsCount": 9
+    },
+    {
+      "id": "T15",
+      "indices": [
+        "77/26",
+        "78/26"
+      ],
+      "object": "Zgrada RTS",
+      "location": "Takovska 10, Beograd",
+      "topic": "Televizijski centar, specifičnosti enterijera i akustičkih studija",
+      "progressStage": 3,
+      "progressLabel": "Zakazana poseta",
+      "status": "Zakazana poseta zgradi",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T16",
+      "indices": [
+        "188/26",
+        "109/26",
+        "72/26"
+      ],
+      "object": "Palata Narodne banke Srbije",
+      "location": "Kralja Petra 12, Beograd",
+      "topic": "Konstantin Jovanović, neorenesansna palata, trezori, reprezentativni hol",
+      "progressStage": 2,
+      "progressLabel": "Priprema terenskog rada",
+      "status": "Priprema terenskog rada",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T17",
+      "indices": [
+        "22/26",
+        "75/26",
+        "76/26"
+      ],
+      "object": "Palata Beograd (Beograđanka)",
+      "location": "Masarikova 5, Beograd",
+      "topic": "Branko Pešić, armiranobetonska konstrukcija, dijafragme, vertikalne komunikacije",
+      "progressStage": 4,
+      "progressLabel": "Predata radna verzija",
+      "status": "Predat preliminarni rad",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Deo klastera Beograđanka: konstrukcija (T17)"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T18",
+      "indices": [
+        "175/26",
+        "49/26g"
+      ],
+      "object": "Palata Beograd (Beograđanka)",
+      "location": "Masarikova 5, Beograd",
+      "topic": "Energetska efikasnost, fasadni paneli, staklene površine, HVAC sistemi",
+      "progressStage": 6,
+      "progressLabel": "Završen pilot pasoš",
+      "status": "Kuriran pilot pasoš",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [
+        "Razrešeno: indeks je 175/26 (ne 157)"
+      ],
+      "claimsCount": 9,
+      "sectionsCount": 3
+    },
+    {
+      "id": "T19",
+      "indices": [
+        "63/26",
+        "66/26",
+        "11/26"
+      ],
+      "object": "Zgrada tehničkih fakulteta",
+      "location": "Bulevar kralja Aleksandra 73, Beograd",
+      "topic": "Proces gradnje (1925–1931), Nikola Nestorović i Branko Tanazević, simboli inženjerstva",
+      "progressStage": 6,
+      "progressLabel": "Završen pilot pasoš",
+      "status": "Kuriran pilot pasoš",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [
+        "T19 dopunjen sa 11/26  kao trećim članom"
+      ],
+      "claimsCount": 13,
+      "sectionsCount": 3
+    },
+    {
+      "id": "T20",
+      "indices": [
+        "79/26",
+        "44/26",
+        "43/26"
+      ],
+      "object": "Narodni muzej",
+      "location": "Trg republike 1a, Beograd",
+      "topic": "Materijali, fasada od veštačkog kamena, krovna konstrukcija i svetlarnici",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T21",
+      "indices": [
+        "135/26",
+        "107/26",
+        "114/26"
+      ],
+      "object": "Dve kule Beograd (Ušće 1 i 2)",
+      "location": "Bulevar Mihajla Pupina 6, Novi Beograd",
+      "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
+      "progressStage": 2,
+      "progressLabel": "Priprema intervjua",
+      "status": "Priprema intervjua",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T22",
+      "indices": [
+        "13/26",
+        "40/26",
+        "41/26"
+      ],
+      "object": "K-District",
+      "location": "Donji Dorćol, Dunavska ulica, Beograd",
+      "topic": "Istorijski, urbanistički i pravni status zaštićenog područja Beogradske tvrđave",
+      "progressStage": 5,
+      "progressLabel": "Predat elaborat (spreman za pasoš)",
+      "status": "Predat detaljan elaborat (6 strana)",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [
+        "Materijal izuzetno bogat; čeka ubacivanje u javni JSON pasoša"
+      ],
+      "claimsCount": 13,
+      "sectionsCount": 4
+    },
+    {
+      "id": "T23",
+      "indices": [
+        "150/26",
+        "151/26"
+      ],
+      "object": "Jugoslovensko dramsko pozorište (JDP)",
+      "location": "Kralja Milana 50, Beograd",
+      "topic": "Bojan Stupica, požar 1997, staklena fasada Zorana Radojičića, teatar",
+      "progressStage": 2,
+      "progressLabel": "Arhivsko istraživanje",
+      "status": "Arhivsko istraživanje",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T24",
+      "indices": [
+        "14/26",
+        "85/26",
+        "86/26"
+      ],
+      "object": "Stara pošta na Savskom trgu",
+      "location": "Savski trg 2, Beograd",
+      "topic": "Momir Korunović, srpsko-vizantijski modernizam, posleratno uklanjanje fasade",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T25",
+      "indices": [
+        "131/26",
+        "132/26",
+        "65/26",
+        "47/26",
+        "48/26"
+      ],
+      "object": "SIV i Generalštab (dva objekta)",
+      "location": "Novi Beograd / Kneza Miloša",
+      "topic": "Uporedna analiza primenjenih materijala i modernističkih fasada",
+      "progressStage": 2,
+      "progressLabel": "U radu",
+      "status": "U radu (5 članova = 2 objekta)",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T26",
+      "indices": [
+        "178/26",
+        "179/26"
+      ],
+      "object": "SC „25. Maj” — kula „Dunavski cvet”",
+      "location": "Tadeuša Košćuška 63, Beograd",
+      "topic": "Ivan Antić, prenapregnuti beton, geometrija heksagona, istorijat kule",
+      "progressStage": 6,
+      "progressLabel": "Završen pilot pasoš",
+      "status": "Kuriran pilot pasoš",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [
+        "Potvrđeni autori podneska"
+      ],
+      "claimsCount": 12,
+      "sectionsCount": 3
+    },
+    {
+      "id": "T27",
+      "indices": [
+        "182/26",
+        "192/26"
+      ],
+      "object": "Hram Svetog Save",
+      "location": "Vračar, Beograd",
+      "topic": "Materijali, mermerne obloge, mozaik, proces gradnje",
+      "progressStage": 4,
+      "progressLabel": "Predat PDF pasoša",
+      "status": "Predat PDF digitalnog pasoša",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Deljeni objekat sa T11 i T43"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T28",
+      "indices": [
+        "71/26",
+        "33/26",
+        "62/26"
+      ],
+      "object": "Kula Beograd",
+      "location": "Beograd na vodi",
+      "topic": "Konstrukcija i izvođenje radova, šipovi, rotirana silueta",
+      "progressStage": 3,
+      "progressLabel": "Prihvaćena tema + materijali",
+      "status": "Prihvaćena tema i poslati materijali",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Prvi tim na Kuli Beograd (dozvoljeno)"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T29",
+      "indices": [
+        "37/26",
+        "47/26",
+        "122/26"
+      ],
+      "object": "Hotel Moskva",
+      "location": "Terazije 20, Beograd",
+      "topic": "Jovan Ilkić, secesija, keramika Žolnai, specifičnosti enterijera",
+      "progressStage": 3,
+      "progressLabel": "Terenski rad",
+      "status": "Terenski rad u toku",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T30",
+      "indices": [
+        "191/26",
+        "99/26",
+        "30/26"
+      ],
+      "object": "Kapetan Mišino zdanje",
+      "location": "Studentski trg 1, Beograd",
+      "topic": "Jan Nevole, istorijske promene, namene kroz vreme, arhivska građa Rektorata",
+      "progressStage": 4,
+      "progressLabel": "5 priloga + arhivski rad",
+      "status": "Predato 5 priloga + zakazan razgovor u Rektoratu",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Razrešeno: indeks 191 zvanično u T30 (napustio West 65)"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T31",
+      "indices": [
+        "11/26g",
+        "15/26g"
+      ],
+      "object": "Zgrada rektorata (Kapetan Mišino zdanje)",
+      "location": "Studentski trg 1, Beograd",
+      "topic": "Konstruktivni elementi i enterijer, tavanica, svečana sala",
+      "progressStage": 2,
+      "progressLabel": "Potvrđena reorganizacija",
+      "status": "Potvrđena tema i registracija",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [
+        "Reorganizovan tim: jedan član prešao u T66"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T32",
+      "indices": [
+        "123/26",
+        "31/26",
+        "42/26"
+      ],
+      "object": "Gimnazija „Slobodan Škerović” u Podgorici",
+      "location": "Podgorica, Crna Gora",
+      "topic": "Istorijska školska arhitektura, kamen, regionalni modernizam",
+      "progressStage": 2,
+      "progressLabel": "U radu",
+      "status": "U radu (nakon izlaska člana)",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [
+        "Objekat van Srbije"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T33",
+      "indices": [
+        "83/26",
+        "54/26"
+      ],
+      "object": "Stari dvor",
+      "location": "Dragoslava Jovanovića 2, Beograd",
+      "topic": "Aleksandar Bugarski, istorija zdanja kroz epohe, rekonstrukcije",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T34",
+      "indices": [
+        "25/26",
+        "26/26"
+      ],
+      "object": "Palata Beograd (Beograđanka)",
+      "location": "Masarikova 5, Beograd",
+      "topic": "Istorijat izgradnje i kulturni značaj simbola Beograda",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T35",
+      "indices": [
+        "106/26",
+        "124/26"
+      ],
+      "object": "Geneks kula (Zapadna kapija Beograda)",
+      "location": "Narodnih heroja 43, Novi Beograd",
+      "topic": "Mihajlo Mitrović, brutalizam, pasarela, rotirajući restoran",
+      "progressStage": 2,
+      "progressLabel": "Arhivsko istraživanje",
+      "status": "Arhivsko istraživanje",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T36",
+      "indices": [
+        "103/26",
+        "196/26",
+        "91/26"
+      ],
+      "object": "Zgrada tehničkih fakulteta",
+      "location": "Bulevar kralja Aleksandra 73, Beograd",
+      "topic": "Arhitektonska simbolika, fasadna plastika, skulpture inženjera",
+      "progressStage": 2,
+      "progressLabel": "U pripremi Word/PDF",
+      "status": "U pripremi podnesak",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T37",
+      "indices": [
+        "33/26",
+        "36/26",
+        "186/26"
+      ],
+      "object": "Narodno pozorište u Beogradu",
+      "location": "Francuska 3, Beograd",
+      "topic": "Proces izgradnje, obnove nakon razaranja, enterijer sale",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T38",
+      "indices": [
+        "27/26",
+        "10/26"
+      ],
+      "object": "Vladičanski dvor u Vršcu",
+      "location": "Vršac",
+      "topic": "Barokna rezidencija, priče, mitovi, usmeno preneseni podaci, dvorska kapela",
+      "progressStage": 2,
+      "progressLabel": "Rad u toku",
+      "status": "Potvrđen tim i rad u toku",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [
+        "Razrešeno: indeksi 27 i 10 čine T38"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T39",
+      "indices": [
+        "34/26",
+        "162/26"
+      ],
+      "object": "Belgrade Business House",
+      "location": "Bulevar Mihajla Pupina, Beograd",
+      "topic": "Savremena poslovna zgrada, staklena zavesa, energetski bilans",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T40",
+      "indices": [
+        "177/26",
+        "163/26"
+      ],
+      "object": "Stambeno-poslovna zgrada Cara Uroša 57",
+      "location": "Cara Uroša 57, Dorćol, Beograd",
+      "topic": "Novija stambena arhitektura (2020), energetska efikasnost, savremeni materijali",
+      "progressStage": 3,
+      "progressLabel": "Predat koncept",
+      "status": "Predat koncept i plan rada",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T41",
+      "indices": [
+        "98/26",
+        "187/26",
+        "152/26"
+      ],
+      "object": "BIGZ (Zgrada Državne štamparije)",
+      "location": "Bulevar vojvode Mišića 17, Beograd",
+      "topic": "Dragiša Brašovan, industrijski modernizam, armiranobetonska konstrukcija, arhivska građa",
+      "progressStage": 5,
+      "progressLabel": "Predata arhiva (289 skenova)",
+      "status": "Predata masivna arhivska građa (274 MB ZIP)",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Najobimniji arhivski prilog u semestru"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T42",
+      "indices": [
+        "02/2026",
+        "10/26"
+      ],
+      "object": "Prva beogradska gimnazija",
+      "location": "Cara Dušana 61, Beograd",
+      "topic": "Milica Krstić, prosvetna arhitektura, 3D prostorni eksperiment i gamifikacija pasoša",
+      "progressStage": 5,
+      "progressLabel": "Izrađene AI Studio aplikacije",
+      "status": "Predate 2 AI Studio aplikacije (Igra + 3D portret)",
+      "submissionsCount": 2,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T43",
+      "indices": [
+        "16/26",
+        "24/26"
+      ],
+      "object": "Hram Svetog Save",
+      "location": "Vračar, Beograd",
+      "topic": "Autorstvo i projektantski kontinuitet (Nestorović, Deroko, Pešić)",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema (revizija 12.10)",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T44",
+      "indices": [
+        "154/26",
+        "156/26",
+        "166/26"
+      ],
+      "object": "ATS / Dom Svetog Save",
+      "location": "Cara Dušana, Beograd",
+      "topic": "Arhitektura doma, transformacija i lično korisničko iskustvo",
+      "progressStage": 2,
+      "progressLabel": "Predlog u toku",
+      "status": "Predat predlog novog objekta",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T45",
+      "indices": [
+        "57/26",
+        "28/26"
+      ],
+      "object": "Geneks kula",
+      "location": "Narodnih heroja 43, Novi Beograd",
+      "topic": "Građenje, tehnologija klizne oplate, inženjerski izazovi 1970-ih",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T46",
+      "indices": [
+        "89/26",
+        "143/26",
+        "153/26"
+      ],
+      "object": "Hotel Jugoslavija",
+      "location": "Bulevar Nikole Tesle, Novi Beograd",
+      "topic": "Lavoslav Horvat, monumentalni dunavski front, istorijat i pitanje rušenja/rekonstrukcije",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T47",
+      "indices": [
+        "12/26",
+        "20/26",
+        "49/26"
+      ],
+      "object": "Hala 1 Beogradskog sajma",
+      "location": "Bulevar vojvode Mišića 14, Beograd",
+      "topic": "Branko Žeželj, prenapregnuti beton, kupola raspona 109m, svetski rekord",
+      "progressStage": 4,
+      "progressLabel": "Predat rad",
+      "status": "Predat digitalni pasoš (čeka izvore)",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T48",
+      "indices": [
+        "171/26",
+        "172/26"
+      ],
+      "object": "Palata Srbije (SIV)",
+      "location": "Bulevar Mihajla Pupina 2, Novi Beograd",
+      "topic": "Potočnjak, Janković, armiranobetonski skelet, enterijeri republika, monumentalnost",
+      "progressStage": 6,
+      "progressLabel": "Završen pilot pasoš",
+      "status": "Kuriran pilot pasoš",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [],
+      "claimsCount": 24,
+      "sectionsCount": 5
+    },
+    {
+      "id": "T49",
+      "indices": [
+        "147/26",
+        "25/26"
+      ],
+      "object": "Stambena kula „Toblerone”",
+      "location": "Bogoslovija / Karaburma, Beograd",
+      "topic": "Rista Šekerinski, brutalistička ekspresija, trougaona osnova, prefabrikacija",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T50",
+      "indices": [
+        "51/26",
+        "160/26"
+      ],
+      "object": "Palata Beograd (Beograđanka)",
+      "location": "Masarikova 5, Beograd",
+      "topic": "Fasada i vidikovac, javni prostori",
+      "progressStage": 2,
+      "progressLabel": "Čeka se podnesak",
+      "status": "U pripremi podnesak",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T51",
+      "indices": [
+        "69/26",
+        "39/26",
+        "146/26"
+      ],
+      "object": "Privatna stambena zgrada, Sremska Mitrovica",
+      "location": "Sremska Mitrovica",
+      "topic": "Savremena porodična/stambena arhitektura, energetska efikasnost i materijali",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [
+        "Objekat van Beograda"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T52",
+      "indices": [
+        "137/26",
+        "106/26",
+        "68/26"
+      ],
+      "object": "Geneks kula",
+      "location": "Narodnih heroja 43, Novi Beograd",
+      "topic": "Urbanistička pozicija, pristupni plato, stambena vs poslovna kula",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T53",
+      "indices": [
+        "117/26",
+        "46/26"
+      ],
+      "object": "Zgrada Instituta IMS",
+      "location": "Bulevar vojvode Mišića 43, Beograd",
+      "topic": "IMS sistem prefabrikacije, Branko Žeželj, ispitivanje materijala, laboratorije",
+      "progressStage": 6,
+      "progressLabel": "Završen pilot pasoš",
+      "status": "Kuriran pilot pasoš",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [],
+      "claimsCount": 9,
+      "sectionsCount": 4
+    },
+    {
+      "id": "T54",
+      "indices": [
+        "18/26",
+        "35/26",
+        "56/26"
+      ],
+      "object": "Hotel Moskva",
+      "location": "Terazije 20, Beograd",
+      "topic": "Autorstvo (Ilkić vs Peterburški arhitekti), Ruski carski stil",
+      "progressStage": 2,
+      "progressLabel": "Terenski rad",
+      "status": "Terenski rad u toku",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T55",
+      "indices": [
+        "74/26",
+        "19/26g"
+      ],
+      "object": "Palata Narodne banke i Muzej novca",
+      "location": "Kralja Petra 12, Beograd",
+      "topic": "Razvoj novca, sigurnosni sistemi zgrade, sefovi, istorijska stolarija",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T56",
+      "indices": [
+        "115/26",
+        "9/26"
+      ],
+      "object": "Narodno pozorište u Beogradu",
+      "location": "Francuska 3, Beograd",
+      "topic": "Pozorišna scenografija, scenska mehanika, rotaciona bina",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T57",
+      "indices": [
+        "108/26",
+        "161/26"
+      ],
+      "object": "Geneks kula (Zapadna kapija)",
+      "location": "Narodnih heroja 43, Novi Beograd",
+      "topic": "Geneks — simbol modernističkog Beograda: konstrukcija, statika i gradnja",
+      "progressStage": 3,
+      "progressLabel": "Koncept potvrđen",
+      "status": "Potvrđena tema i rad u toku",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T58",
+      "indices": [
+        "180/26",
+        "140/26"
+      ],
+      "object": "Zgrada tehničkih fakulteta",
+      "location": "Bulevar kralja Aleksandra 73, Beograd",
+      "topic": "Konstrukcija amfiteatara i krovnih nosača",
+      "progressStage": 1,
+      "progressLabel": "Prijavljena tema",
+      "status": "Prijavljena tema",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T59",
+      "indices": [
+        "142/26",
+        "190/26"
+      ],
+      "object": "Bajrakli džamija",
+      "location": "Gospodar Jevremova 11, Dorćol, Beograd",
+      "topic": "Otomansko sakralno nasleđe (oko 1575), kameni minaret, obnove i zaštita",
+      "progressStage": 2,
+      "progressLabel": "Plan prihvaćen",
+      "status": "Prihvaćen plan istraživanja",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T60",
+      "indices": [
+        "67/26",
+        "20/26g"
+      ],
+      "object": "Sava Centar (tim 2)",
+      "location": "Milentija Popovića 9, Novi Beograd",
+      "topic": "Istorija izgradnje, arhitektonsko i konstruktivno rešenje, spisak literature",
+      "progressStage": 3,
+      "progressLabel": "Predat spisak izvora",
+      "status": "Predat spisak izvora i koncept",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Deljeni objekat sa T03 (odobreno)"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T61",
+      "indices": [
+        "86/26",
+        "85/26",
+        "14/26"
+      ],
+      "object": "Palata pravde",
+      "location": "Savska 17, Beograd",
+      "topic": "Oblikovanje doživljaja institucije i autoriteta, monumentalnost, materijali",
+      "progressStage": 3,
+      "progressLabel": "Razrada teme",
+      "status": "Prihvaćena tema i razrada",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T62",
+      "indices": [
+        "174/26",
+        "128/26"
+      ],
+      "object": "Palata Beograd (Beograđanka) (tim 4)",
+      "location": "Masarikova 5, Beograd",
+      "topic": "Urbanistički kontekst i odnos prema trgovačkom centru",
+      "progressStage": 2,
+      "progressLabel": "Potvrđena tema",
+      "status": "Potvrđena tema",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Deo klastera Beograđanka"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T63",
+      "indices": [
+        "189/26",
+        "141/26"
+      ],
+      "object": "West 65 Tower",
+      "location": "Omladinskih brigada 86, Novi Beograd",
+      "topic": "Elektronski i digitalni pasoš: 9 detaljnih poglavlja, PERI oplata, tehnička dokumentacija",
+      "progressStage": 4,
+      "progressLabel": "Predata struktura pasoša",
+      "status": "Predat detaljan predlog strukture pasoša (9 poglavlja)",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "indeks 191 prešao u T30"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T64",
+      "indices": [
+        "185/26",
+        "29/26g",
+        "173/26"
+      ],
+      "object": "Palata Beograd (Beograđanka) — projektovanje i statika",
+      "location": "Masarikova 5, Beograd",
+      "topic": "Projektovanje i statički proračuni, saradnja arhitekata i građevinaca",
+      "progressStage": 2,
+      "progressLabel": "Potvrđena tema",
+      "status": "Potvrđena tema",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Razjašnjeno: indeks 29 OG nije ista osoba kao indeks 29 OA"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T65",
+      "indices": [
+        "112/26",
+        "111/26"
+      ],
+      "object": "Crkva Aleksandra Nevskog",
+      "location": "Cara Dušana 63, Dorćol, Beograd",
+      "topic": "Jelisaveta Načić, srpsko-vizantijski stil, materijali, poseta crkvi i razgovor sa sveštenstvom",
+      "progressStage": 3,
+      "progressLabel": "Prikupljeni podaci",
+      "status": "Prikupljeni podaci i plan posete",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T66",
+      "indices": [
+        "29/26",
+        "61/26"
+      ],
+      "object": "Hotel Bristol",
+      "location": "Karađorđeva 50, Savamala, Beograd",
+      "topic": "Nikola Nestorović, secesija, istorijat hotela, posleratna upotreba, tekuća restauracija",
+      "progressStage": 4,
+      "progressLabel": "Predat PDF koncept",
+      "status": "Predat PDF (16.10), najavljena poseta i Zavod za zaštitu spomenika",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Novoformiran tim 13.10 od članova koji su napustili T31 i T32"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T67",
+      "indices": [
+        "45/26",
+        "159/26",
+        "158/26"
+      ],
+      "object": "Kula Beograd",
+      "location": "Beograd na vodi",
+      "topic": "Konstruktivni sistem Kule Beograd, armiranobetonsko jezgro, kompozitni stubovi, fasada",
+      "progressStage": 5,
+      "progressLabel": "Predato 9 priloga",
+      "status": "Predato 9 priloga sa bogatim grafičkim prikazima (17.10)",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Drugi tim na Kuli Beograd sa težištem na konstruktivni sistem"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    }
+  ],
+  "datasetRevision": "r-50ff3b7736d4eaa4"
+}

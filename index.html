@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f3eb"><meta name="description" content="Foundations of Computing 2026/27: one object per team, rebuilt through verifiable data into a digital twin. The course flow — held classes newest first, the current task, and the pilot project.">
+<title>Computing Studio · Osnove računarstva</title>
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="assets/site.css?v=atlas-home-20261021"><link rel="stylesheet" href="assets/pasos.css">
+<script src="assets/app.js" defer></script>
+</head>
+<body data-view="studio"><a class="skip" href="#main">Skip to content / Preskoči na sadržaj</a>
+<header class="site-header">
+<a class="brand" href="index.html" aria-label="Computing Studio"><b>OR<span>↗</span></b><span>COMPUTING<br>STUDIO</span></a>
+<nav aria-label="Glavna navigacija"><a href="index.html#atlas" aria-current="page"><span data-sr="Atlas" data-en="Atlas">Atlas</span></a><a href="timovi.html"><span data-sr="Timovi" data-en="Teams">Timovi</span></a><a href="izvori.html"><span data-sr="Izvori" data-en="Evidence">Izvori</span></a><a href="biblioteka.html"><span data-sr="Literatura" data-en="Literature">Literatura</span></a><a href="ideje.html"><span data-sr="Oblak ideja" data-en="Idea cloud">Oblak ideja</span></a></nav><button id="language" class="language" type="button" aria-label="Switch to English">EN</button>
+</header><p id="announcements" class="sr-only" role="status" aria-live="polite"></p>
+<style>
+.home-intro{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(26px,4.5vw,64px);align-items:end;padding:35px 0 45px}
+.home-intro .intro-copy{font-size:clamp(16px,1.25vw,19px)}
+@media (max-width:1000px){.home-intro{grid-template-columns:1fr;align-items:start}}
+@media (max-width:720px){
+  .home-intro{gap:16px;padding:14px 0 22px!important}
+  .home-intro .eyebrow{font-size:10px;line-height:1.45}
+  .home-intro h1{font-size:clamp(2.15rem,9.2vw,3rem);line-height:1.05;letter-spacing:-.055em;margin:.3em 0 .15em}
+  .home-intro .intro-copy{font-size:16px;line-height:1.5;margin:0 0 14px}
+  .home-intro .actions{margin:12px 0 0}
+}
+.nowcard{background:#fbfaf5;border:1px solid #e0dac9;border-left:4px solid #8a6d1f;border-radius:14px;padding:20px 22px}
+.nowcard h2{margin:0 0 4px;font-size:19px}
+.nowcard .due{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#8a6d1f;margin-bottom:12px}
+.nowcard ol{margin:8px 0 0;padding-left:20px}
+.nowcard li{padding:3px 0;color:#3f3c34;line-height:1.5}
+#held-classes{padding:38px 0 0}
+#held-classes h2{font-size:30px;line-height:1.1;margin:8px 0 18px}
+.held-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:stretch;margin-top:18px}
+.held-grid .held{margin-bottom:0;display:flex;flex-direction:column}
+.held-grid .held .links{margin-top:auto;padding-top:10px}
+@media (max-width:1000px){.held-grid{grid-template-columns:1fr}}
+.held{background:#fbfaf5;border:1px solid #e0dac9;border-radius:14px;padding:18px 20px;margin-bottom:14px}
+.held .when{display:flex;gap:10px;align-items:baseline;margin-bottom:6px}
+.held time{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;color:#8a6d1f}
+.held .badge{font-size:10px;letter-spacing:.14em;text-transform:uppercase;border:1px solid #c9b97e;color:#8a6d1f;border-radius:999px;padding:2px 9px}
+.held h3{margin:0 0 6px;font-size:17px;color:#2b2822}
+.held p{margin:0;color:#3f3c34;line-height:1.5}
+.held .links{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px}
+.pilot{background:linear-gradient(160deg,#f6f2e4,#efe9d6);border:1px solid #ddd4bb;border-radius:14px;padding:20px 22px}
+.pilot h2{margin:0 0 6px;font-size:18px}
+.pilot p{color:#3f3c34;line-height:1.55}
+.pilot .links{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;align-items:center}
+</style>
+<main id="main" tabindex="-1">
+<section id="atlas" class="atlas-hero" aria-label="Atlas istraživanja"><h1 class="sr-only" data-sr="Atlas — grad, podatak, veza" data-en="Atlas — city, data, connection">Atlas — grad, podatak, veza</h1><iframe allow="fullscreen" id="atlas-frame" title="Atlas — interaktivni grad istraživanja" src="svet/index.html?embed=1&amp;v=atlas-home-20261021" loading="eager"></iframe><noscript><p><a href="svet/pasosi.html">Pasoši i izvori</a> · <a href="timovi.html">Timovi</a></p></noscript></section>
+<section class="home-intro" id="predmet" aria-labelledby="home-title" style="padding-top:26px">
+<div>
+<p class="eyebrow"><span data-en="Foundations of Computing · Architecture &amp; construction · 2026/27" data-sr="Osnove računarstva · Arhitektura i građevinarstvo · 2026/27">Osnove računarstva · Arhitektura i građevinarstvo · 2026/27</span></p>
+<h1 id="home-title"><span data-en="One object per team.<br>Rebuilt through verifiable data." data-sr="Jedan objekat po timu.<br>Izgrađen kroz proverljive podatke.">One object per team.<br>Rebuilt through verifiable data.</span></h1>
+</div>
+<div>
+<p class="intro-copy"><span data-en="The semester works toward a digital twin of a real building: collect the data, sort it into a system, and keep every claim tied to its source. A source is part of the data; what remains unknown stays visible — that is a result too. Classes are held every Monday." data-sr="Semestar radi ka digitalnom blizancu stvarne zgrade: prikupi podatke, složi ih u sistem i drži svaku tvrdnju vezanu za njen izvor. Izvor je deo podatka; ono što ostaje nepoznato ostaje vidljivo — i to je rezultat. Nastava je svakog ponedeljka.">Semestar radi ka digitalnom blizancu stvarne zgrade: prikupi podatke, složi ih u sistem i drži svaku tvrdnju vezanu za njen izvor. Izvor je deo podatka; ono što ostaje nepoznato ostaje vidljivo — i to je rezultat. Nastava je svakog ponedeljka.</span></p>
+<div class="actions"><a href="sledeci.html" class="button"><span data-en="What is due next →" data-sr="Šta je na redu →">Šta je na redu →</span></a><a href="timovi.html" class="text-link"><span data-en="Team register · check your team" data-sr="Registar timova · proveri svoj tim">Registar timova · proveri svoj tim</span></a></div>
+</div>
+</section>
+
+
+
+<section id="now" class="current-task" aria-labelledby="now-title" style="margin-top:8px">
+<div class="task-heading"><div><p class="eyebrow"><span data-en="Current step · announced 12 October" data-sr="Tekući korak · najavljeno 12. oktobra">Tekući korak · najavljeno 12. oktobra</span></p><h2 id="now-title"><span data-en="Before the next class, every team:" data-sr="Do sledećeg časa, svaki tim:">Do sledećeg časa, svaki tim:</span></h2></div></div>
+<div class="nowcard">
+<p class="due"><span data-en="Deadline: by the next lecture · send to ntunionhub@gmail.com" data-sr="Rok: do sledećeg predavanja · poslati na ntunionhub@gmail.com">Rok: do sledećeg predavanja · poslati na ntunionhub@gmail.com</span></p>
+<ol>
+<li><span data-en="Review the register of teams and themes and report the missing information, so the list is completed:" data-sr="Pregledajte spisak timova i tema i dostavite nedostajuće informacije, kako bismo kompletirali spisak:">Pregledajte spisak timova i tema i dostavite nedostajuće informacije, kako bismo kompletirali spisak:</span> <a href="timovi.html">3esign.github.io/computing-studio/timovi.html</a></li>
+<li><span data-en="If you have not yet: form a team of 2–3 students, choose an architectural-civil object and a research theme, and start collecting and sorting the gathered data (online and offline · analogue and digital) — build a “mind map” of the collected data: an information system, a meta BIM (building information modelling)." data-sr="Ako još niste: napravite tim [2–3 studenta], odaberite arhitektonsko-građevinski objekat i temu istraživanja, i krenite u prikupljanje i sortiranje/organizaciju prikupljenih podataka (online i offline · analogni i digitalni) — kreirajte „mapu uma” od prikupljenih podataka — informacioni sistem — meta BIM (building information modelling).">Ako još niste: napravite tim [2–3 studenta], odaberite arhitektonsko-građevinski objekat i temu istraživanja, i krenite u prikupljanje i sortiranje/organizaciju prikupljenih podataka (online i offline · analogni i digitalni) — kreirajte „mapu uma” od prikupljenih podataka — informacioni sistem — meta BIM (building information modelling).</span></li>
+<li><span data-en="Send a pilot/preliminary version of the digital passport with the data from the first research wave (mostly online), with every fact bound to a concrete source (websites, institutions — a fact with proof of origin)." data-sr="Pošaljite pilot/preliminarnu verziju digitalnog pasoša sa podacima pribavljenim u prvom talasu istraživanja (uglavnom online), uz obavezno vezivanje za konkretne izvore (web stranice, institucije — podatak uz dokaz o poreklu informacije).">Pošaljite pilot/preliminarnu verziju digitalnog pasoša sa podacima pribavljenim u prvom talasu istraživanja (uglavnom online), uz obavezno vezivanje za konkretne izvore (web stranice, institucije — podatak uz dokaz o poreklu informacije).</span></li>
+<li><span data-en="In parallel, keep collecting data preferably offline: archives, contacts with relevant people, interviews, companies." data-sr="Paralelno nastavite sa prikupljanjem podataka po mogućstvu offline: arhivi, kontakti sa relevantnim osobama, intervjui, kompanije.">Paralelno nastavite sa prikupljanjem podataka po mogućstvu offline: arhivi, kontakti sa relevantnim osobama, intervjui, kompanije.</span></li>
+</ol>
+</div>
+</section>
+
+<section id="held-classes" aria-labelledby="held-title">
+<div><p class="eyebrow"><span data-en="Held classes · newest first" data-sr="Održana predavanja · od najnovijeg">Održana predavanja · od najnovijeg</span></p><h2 id="held-title"><span data-en="The course so far." data-sr="Predmet do sada.">Predmet do sada.</span></h2></div>
+<div class="held-grid">
+<article class="held">
+<div class="when"><time datetime="2026-10-12">2026-10-12</time><span class="badge"><span data-en="Class 02 · consultations" data-sr="Čas 02 · konsultacije">Čas 02 · konsultacije</span></span></div>
+<h3><span data-en="The data map: sixty-five teams brought their first system" data-sr="Mapa podataka: šezdeset pet timova donelo je svoj prvi sistem">Mapa podataka: šezdeset pet timova donelo je svoj prvi sistem</span></h3>
+<p><span data-en="Consultations 13:15–15:45. Every team showed its collected material as a data map — a first order among elements: relevance, importance, accuracy, source, hierarchy. The groups have chosen their objects and research tracks; objects reach from Dorćol to Užice, Pančevo, Sremska Mitrovica, Vršac and Podgorica. Agreed next steps: terrain, archives, interviews, e-mail inquiries, AI Studio experiments. One team presented a full question map for the Generalštab building — 86 questions in eight areas." data-sr="Konsultacije 13:15–15:45. Svaki tim prikazao je prikupljeni materijal kao mapu podataka — prvi red među elementima: relevantnost, bitnost, tačnost, izvor, hijerarhija. Grupe su izabrale svoje objekte i istraživačke trake; objekti se protežu od Dorćola do Užica, Pančeva, Sremske Mitrovice, Vršca i Podgorice. Dogovoreni sledeći koraci: teren, arhivi, intervjui, mejlovni upiti, AI Studio eksperimenti. Jedan tim prikazao je celu mapu pitanja za zgradu Generalštaba — 86 pitanja u osam oblasti.">Konsultacije 13:15–15:45. Svaki tim prikazao je prikupljeni materijal kao mapu podataka — prvi red među elementima: relevantnost, bitnost, tačnost, izvor, hijerarhija. Grupe su izabrale svoje objekte i istraživačke trake; objekti se protežu od Dorćola do Užica, Pančeva, Sremske Mitrovice, Vršca i Podgorice. Dogovoreni sledeći koraci: teren, arhivi, intervjui, mejlovni upiti, AI Studio eksperimenti. Jedan tim prikazao je celu mapu pitanja za zgradu Generalštaba — 86 pitanja u osam oblasti.</span></p>
+<div class="links"><a class="student-link" href="pitanja-generalstab.html"><span data-en="The Generalštab question map" data-sr="Mapa pitanja Generalštaba">Mapa pitanja Generalštaba</span> <span class="student-badge">student</span> <span aria-hidden="true">→</span></a><a href="timovi.html"><span data-en="Team register →" data-sr="Registar timova →">Registar timova →</span></a><a href="sledeci.html"><span data-en="Consultation brief →" data-sr="Konsultacioni brief →">Konsultacioni brief →</span></a></div>
+</article>
+
+<article class="held">
+<div class="when"><time datetime="2026-10-05">2026-10-05</time><span class="badge"><span data-en="Class 01" data-sr="Čas 01">Čas 01</span></span></div>
+<h3><span data-en="Choosing a topic: how an object becomes data" data-sr="Izbor teme: kako objekat postaje podatak">Izbor teme: kako objekat postaje podatak</span></h3>
+<p><span data-en="The worked example of the whole semester was put on the table: the old Sava bridge, rebuilt through the verifiable data of its digital passport — sources, claims, disagreements and unknowns. The groups then chose their own objects and research tracks. The full record lives in Held classes; the example itself became the course pilot, below." data-sr="Na sto je stavljen radni primer celog semestra: stari savski most, rekonstruisan kroz proverljive podatke svog digitalnog pasoša — izvori, tvrdnje, neslaganja i nepoznato. Grupe su zatim izabrale svoje objekte i istraživačke trake. Puni zapis stoji u Održanim predavanjima; sam primer je postao pilot predmeta, ispod.">Na sto je stavljen radni primer celog semestra: stari savski most, rekonstruisan kroz proverljive podatke svog digitalnog pasoša — izvori, tvrdnje, neslaganja i nepoznato. Grupe su zatim izabrale svoje objekte i istraživačke trake. Puni zapis stoji u Održanim predavanjima; sam primer je postao pilot predmeta, ispod.</span></p>
+<div class="links"><a href="program.html"><span data-en="Full record →" data-sr="Puni zapis →">Puni zapis →</span></a></div>
+</article>
+</div>
+</section>
+
+<section class="pilot" aria-labelledby="pilot-title" style="margin-top:8px">
+<p class="eyebrow"><span data-en="The course pilot · Object 001" data-sr="Pilot predmeta · Objekat 001">Pilot predmeta · Objekat 001</span></p>
+<h2 id="pilot-title"><span data-en="The old Sava bridge — a building that exists only where its evidence carries it." data-sr="Stari savski most — zgrada koja postoji samo tamo gde je njeni izvori nose.">Stari savski most — zgrada koja postoji samo tamo gde je njeni izvori nose.</span></h2>
+<p><span data-en="The full digital passport of Object 001, where every measured value in conflict stands side by side: two spans, two widths, two masses — none chosen, all visible. A silent film tells how the object becomes visible; a 3D scene lights each part of the bridge only when its source is present. A pilot record, not a standardised form or a completed building survey." data-sr="Puni digitalni pasoš Objekta 001, gde svaka izmerena vrednost u sukobu stoji rame uz rame: dva raspona, dve širine, dve mase — nijedna izabrana, sve vidljive. Nemi film pripoveda kako objekat postaje vidljiv; 3D scena pali svaki deo mosta tek kada je njegov izvor prisutan. Pilot zapis, ne standardizovan obrazac niti završen snimak objekta.">Puni digitalni pasoš Objekta 001, gde svaka izmerena vrednost u sukobu stoji rame uz rame: dva raspona, dve širine, dve mase — nijedna izabrana, sve vidljive. Nemi film pripoveda kako objekat postaje vidljiv; 3D scena pali svaki deo mosta tek kada je njegov izvor prisutan. Pilot zapis, ne standardizovan obrazac niti završen snimak objekta.</span></p>
+<div class="links"><a href="pasos.html" class="button" style="display:inline-block"><span data-en="Open the passport →" data-sr="Otvori pasoš →">Otvori pasoš →</span></a><a href="prostor/index.html"><span data-en="3D scene ↗" data-sr="3D scena ↗">3D scena ↗</span></a><a href="film/pasos/index.html"><span data-en="The film ↗" data-sr="Film ↗">Film ↗</span></a><a href="lab/pasos/index.html"><span data-en="City passport · teaching model ↗" data-sr="Pasoš grada · nastavni model ↗">Pasoš grada · nastavni model ↗</span></a></div>
+</section>
+
+<p class="record-message" id="network-note"></p>
+<details class="record-scope"><summary><span data-en="Public records behind the studio" data-sr="Javni zapisi studija">Javni zapisi studija</span></summary><p><a href="data/course.json" ><span data-en="Course record" data-sr="Zapis predmeta">Zapis predmeta</span></a> · <a href="data/pasos/objekat-001-savski-most.json" ><span data-en="Object 001" data-sr="Objekat 001">Objekat 001</span></a> · <a href="data/sources.json" ><span data-en="Source catalogue" data-sr="Katalog izvora">Katalog izvora</span></a> · <a href="pristup.html" ><span data-en="Save for offline use" data-sr="Sačuvaj za rad bez mreže">Sačuvaj za rad bez mreže</span></a></p></details>
+</main>
+<footer class="site-footer"><div><strong>Computing Studio</strong><p><span data-en="Foundations of Computing · Architecture &amp; construction" data-sr="Osnove računarstva · Arhitektura i građevinarstvo">Osnove računarstva · Arhitektura i građevinarstvo</span></p></div><div class="footer-links"><a href="program.html" ><span data-en="Held classes" data-sr="Održana predavanja">Održana predavanja</span></a><a href="timovi.html" ><span data-en="Teams" data-sr="Timovi">Timovi</span></a><a href="pristup.html" ><span data-en="Access &amp; offline" data-sr="Pristup i rad bez mreže">Pristup i rad bez mreže</span></a><a href="nastavnik.html" ><span data-en="Teacher" data-sr="Nastavnik">Nastavnik</span></a></div></footer>
+
+<script src="assets/atlas-embed.js?v=atlas-home-20261021" defer></script></body></html>

@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f3eb"><meta name="description" content="A pilot map of Belgrade read as a digital passport: five objects, eighteen questions, six sources, and the difference between an answer that is missing and an answer that was never written down."><title>What does the city know? · Computing Studio</title><link rel="icon" href="../../assets/mark.svg" type="image/svg+xml"><link rel="manifest" href="../../manifest.webmanifest"><link rel="stylesheet" href="../../assets/site.css"><link rel="stylesheet" href="style.css"><script src="../../assets/app.js" defer></script></head>
+<body data-view="passport"><a class="skip" href="#main">Skip to content / Preskoči na sadržaj</a><header class="site-header"><a class="brand" href="../../index.html" aria-label="Computing Studio home"><b>OR<span>↗</span></b><span>COMPUTING<br>STUDIO</span></a><nav aria-label="Main navigation"><a class="nav-begin" href="../dizajn/start.html"><span data-en="Begin" data-sr="Počni">Begin</span></a><a href="../../index.html"><span data-en="Studio" data-sr="Studio">Studio</span></a><a href="../../cas.html"><span data-en="In class" data-sr="Na času">In class</span></a><a href="../../lab.html" aria-current="page"><span data-en="Instruments" data-sr="Instrumenti">Instruments</span></a><a href="../../ideje.html"><span data-en="Idea cloud" data-sr="Oblak ideja">Idea cloud</span></a><a href="../../biblioteka.html"><span data-en="Sources" data-sr="Izvori">Sources</span></a></nav><button id="language" class="language" type="button" aria-label="Switch to Serbian">SR</button></header>
+<main id="main" tabindex="-1">
+<div class="page-heading"><p class="eyebrow">PILOT MAP / BLOCK 00 OBJECT → PASSPORT</p><h1><span data-en="What does the city know?" data-sr="Šta grad zna?">What does the city know?</span></h1><p class="lede"><span data-en="Five objects in Belgrade. The same eighteen questions for each. Choose which sources you actually have, and read what is answered, what is still unreachable, and what nobody ever wrote down." data-sr="Pet objekata u Beogradu. Za svaki ista osamnaest pitanja. Izaberi izvore koje stvarno imaš i pročitaj šta je odgovoreno, šta je još nedostupno, a šta nikada nije ni zapisano.">Five objects in Belgrade. The same eighteen questions for each. Choose which sources you actually have, and read what is answered, what is still unreachable, and what nobody ever wrote down.</span></p></div>
+
+<section class="section">
+<div class="pz">
+  <div class="pz-left">
+    <div class="pz-tabs" role="group" aria-label="Passport layer">
+      <button id="pz-l-all" type="button" aria-pressed="true"><span data-en="All 18" data-sr="Svih 18">All 18</span></button>
+      <button id="pz-l-id" type="button" aria-pressed="false"><span data-en="Identity" data-sr="Identitet">Identity</span></button>
+      <button id="pz-l-geo" type="button" aria-pressed="false"><span data-en="Geometry" data-sr="Geometrija">Geometry</span></button>
+      <button id="pz-l-mat" type="button" aria-pressed="false"><span data-en="Material" data-sr="Materijal">Material</span></button>
+      <button id="pz-l-org" type="button" aria-pressed="false"><span data-en="Origin" data-sr="Poreklo">Origin</span></button>
+      <button id="pz-l-cond" type="button" aria-pressed="false"><span data-en="Condition" data-sr="Stanje">Condition</span></button>
+      <button id="pz-l-use" type="button" aria-pressed="false"><span data-en="Reuse" data-sr="Ponovna upotreba">Reuse</span></button>
+    </div>
+    <noscript><p class="pz-nojs">The map and the coverage arithmetic need JavaScript. The questions, the sources and the limits further down remain readable without it. · Mapa i račun pokrivenosti zahtevaju JavaScript. Pitanja, izvori i granice niže na strani ostaju čitljivi i bez njega.</p></noscript>
+    <div class="pz-map" id="pz-map"></div>
+    <div class="pz-pick" role="group" aria-label="Object">
+      <button id="pz-s-albanija" type="button" aria-pressed="true">Albanija</button>
+      <button id="pz-s-beogradjanka" type="button" aria-pressed="false">Beograđanka</button>
+      <button id="pz-s-msu" type="button" aria-pressed="false">MSU</button>
+      <button id="pz-s-lamela" type="button" aria-pressed="false"><span data-en="Lamella" data-sr="Lamela">Lamella</span></button>
+      <button id="pz-s-magacin" type="button" aria-pressed="false"><span data-en="Warehouse" data-sr="Magacin">Warehouse</span></button>
+    </div>
+    <div class="pz-read" id="pz-read"></div>
+    <p class="pz-sentence" id="pz-sentence"></p>
+    <p class="pz-hint" id="pz-hint"></p>
+    <div class="pz-presets">
+      <button id="pz-p-phone" type="button"><span data-en="Phone only" data-sr="Samo telefon">Phone only</span></button>
+      <button id="pz-p-visit" type="button"><span data-en="Field visit" data-sr="Izlazak na teren">Field visit</span></button>
+      <button id="pz-p-forensic" type="button"><span data-en="Full forensics" data-sr="Puna forenzika">Full forensics</span></button>
+    </div>
+    <div class="pz-legend"><span><svg class="pz-sw" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="7.6" fill="#fffefa" stroke="#202329"></circle><path d="M9,1.4 A7.6,7.6 0 0 1 9,16.6 Z" fill="#244ee8"></path><circle cx="9" cy="9" r="2.8" fill="#fffefa" stroke="#202329" stroke-width="0.8"></circle></svg> <span data-en="filled share of the passport" data-sr="ispunjen deo pasoša">filled share of the passport</span></span><span><svg class="pz-sw" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="7.6" fill="#fffefa" stroke="#202329"></circle><circle cx="9" cy="9" r="2.8" fill="#202329"></circle></svg> <span data-en="centre dot: something is measured or documented" data-sr="tačka u sredini: nešto je izmereno ili dokumentovano">centre dot: something is measured or documented</span></span><span><svg class="pz-sw" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="7.6" fill="#fffefa" stroke="#202329" stroke-dasharray="3 2.4"></circle></svg> <span data-en="dashed ring: a source is still missing" data-sr="isprekidani prsten: izvor još nedostaje">dashed ring: a source is still missing</span></span></div>
+  </div>
+
+  <div class="pz-right">
+    <h2 class="specimen-label" style="margin:0 0 12px"><span data-en="SOURCES YOU HAVE" data-sr="IZVORI KOJE IMAŠ">SOURCES YOU HAVE</span></h2>
+    <div class="pz-src">
+      <label for="pz-src-reg"><input type="checkbox" id="pz-src-reg" checked><span><b data-en="Public registry" data-sr="Javni registar">Public registry</b><i data-en="free, from a phone" data-sr="besplatno, sa telefona">free, from a phone</i></span></label>
+      <label for="pz-src-arh"><input type="checkbox" id="pz-src-arh"><span><b data-en="Archive drawings" data-sr="Arhivski crteži">Archive drawings</b><i data-en="a request, then days" data-sr="zahtev, pa dani">a request, then days</i></span></label>
+      <label for="pz-src-obi"><input type="checkbox" id="pz-src-obi"><span><b data-en="Visit and measure" data-sr="Obilazak i merenje">Visit and measure</b><i data-en="you, tape, phone" data-sr="ti, metar, telefon">you, tape, phone</i></span></label>
+      <label for="pz-src-lab"><input type="checkbox" id="pz-src-lab"><span><b data-en="Material testing" data-sr="Ispitivanje materijala">Material testing</b><i data-en="paid, often destructive" data-sr="plaća se, često razorno">paid, often destructive</i></span></label>
+      <label for="pz-src-maj"><input type="checkbox" id="pz-src-maj"><span><b data-en="Builder, occupant" data-sr="Majstor i korisnik">Builder, occupant</b><i data-en="spoken, unverified" data-sr="usmeno, nepotvrđeno">spoken, unverified</i></span></label>
+      <label for="pz-src-sen"><input type="checkbox" id="pz-src-sen"><span><b data-en="Sensor record" data-sr="Zapis senzora">Sensor record</b><i data-en="only if something was installed" data-sr="samo ako je nešto ugrađeno">only if something was installed</i></span></label>
+    </div>
+    <h2 class="specimen-label" style="margin:0 0 6px"><span data-en="THE RULE THAT DECIDES" data-sr="PRAVILO KOJE ODLUČUJE">THE RULE THAT DECIDES</span></h2>
+    <pre class="pz-rule">answerable(question, sources):
+  have = question.sources ∩ sources
+  need == 'all' ? have == question.sources
+                : have ≠ ∅
+
+state = not answerable       → blocked
+        answerable, recorded → known
+        answerable, no entry → lost</pre>
+    <p class="micro" style="color:var(--muted);font-size:12px;margin-top:10px"><span data-en="Effort moves a question out of blocked. Nothing moves it out of lost." data-sr="Trud izvodi pitanje iz stanja „nema izvora”. Iz stanja „nije zapisano” ne izvodi ga ništa.">Effort moves a question out of blocked. Nothing moves it out of lost.</span></p>
+  </div>
+</div>
+
+<div class="pz-card">
+  <div class="pz-head"><h2 id="pz-title">—</h2><span class="pz-kind" id="pz-kind">—</span></div>
+  <p class="pz-note" id="pz-note"></p>
+  <div id="pz-rows"></div>
+  <p class="micro" id="pz-caption" style="color:var(--muted);font-size:12px;margin-top:14px"></p>
+</div>
+</section>
+
+<section class="section">
+<h2><span data-en="What this map is, and what it is not" data-sr="Šta je ova mapa, a šta nije">What this map is, and what it is not</span></h2>
+<p><span data-en="The base is two hand-placed river centre lines and one frame, good to a few hundred metres. It is orientation, not a survey base, and there is no cadastre behind it. One drawing unit is the same number of metres across and down; the scale bar is computed from that, not drawn by eye." data-sr="Podloga su dve rukom postavljene osovine reka i jedan okvir, tačni na nekoliko stotina metara. To je orijentacija, ne geodetska podloga, i za njom ne stoji katastar. Jedna jedinica crteža je isti broj metara po širini i po visini; razmernik se iz toga računa, ne crta na oko.">The base is two hand-placed river centre lines and one frame, good to a few hundred metres. It is orientation, not a survey base, and there is no cadastre behind it. One drawing unit is the same number of metres across and down; the scale bar is computed from that, not drawn by eye.</span></p>
+<p><span data-en="Three objects are public landmarks. Their values come from general literature, which is why every one of them carries evidence class S and why the measured count stays at zero even with every source selected. Two objects are marked as constructed for class: every value in them is authored, and the evidence class describes the scenario, not a test report. Nothing here certifies a structure, values a component, or permits a reuse." data-sr="Tri objekta su javni reperi. Njihove vrednosti dolaze iz opšte literature, zato svaka nosi klasu dokaza S i zato broj izmerenih odgovora ostaje nula i kada su svi izvori izabrani. Dva objekta su označena kao konstruisana za čas: svaka vrednost u njima je napisana za nastavu, a klasa dokaza opisuje zamišljeni slučaj, ne izveštaj o ispitivanju. Ništa ovde ne sertifikuje konstrukciju, ne procenjuje vrednost elementa i ne dozvoljava ponovnu upotrebu.">Three objects are public landmarks. Their values come from general literature, which is why every one of them carries evidence class S and why the measured count stays at zero even with every source selected. Two objects are marked as constructed for class: every value in them is authored, and the evidence class describes the scenario, not a test report. Nothing here certifies a structure, values a component, or permits a reuse.</span></p>
+</section>
+
+<section class="section">
+<h2><span data-en="In class: build one passport" data-sr="Na času: napravi jedan pasoš">In class: build one passport</span></h2>
+<ol>
+<li><span data-en="Choose one object you can actually reach: a wall, a stair, a facade panel, a building you pass every day." data-sr="Izaberi jedan objekat do kog stvarno možeš da dođeš: zid, stepenište, fasadni panel, zgradu kraj koje prolaziš svakog dana.">Choose one object you can actually reach: a wall, a stair, a facade panel, a building you pass every day.</span></li>
+<li><span data-en="Write the questions before the answers. Decide yourself which layers your passport needs; the eighteen here are one proposal, not a standard." data-sr="Napiši pitanja pre odgovora. Sam odluči koji su slojevi tvom pasošu potrebni; ovih osamnaest je jedan predlog, ne standard.">Write the questions before the answers. Decide yourself which layers your passport needs; the eighteen here are one proposal, not a standard.</span></li>
+<li><span data-en="For each question name the source that could answer it and the evidence class you would get. A photograph of a stamp on a brick is not the same class as a sentence from a website." data-sr="Za svako pitanje navedi izvor koji može da odgovori i klasu dokaza koju bi dobio. Fotografija pečata na opeci nije ista klasa kao rečenica sa sajta.">For each question name the source that could answer it and the evidence class you would get. A photograph of a stamp on a brick is not the same class as a sentence from a website.</span></li>
+<li><span data-en="Fill in only what you can defend today. Mark the rest as blocked or lost, and say which one it is." data-sr="Upiši samo ono što danas možeš da odbraniš. Ostalo označi kao „nema izvora” ili „nije zapisano”, i reci koje je od toga dvoje.">Fill in only what you can defend today. Mark the rest as blocked or lost, and say which one it is.</span></li>
+<li><span data-en="Last question, the circular one: if this object were taken apart tomorrow, which of your entries would still be trusted by the next person to use the material?" data-sr="Poslednje pitanje, cirkularno: ako bi se ovaj objekat sutra rastavio, kojim bi tvojim upisima verovala osoba koja preuzima materijal?">Last question, the circular one: if this object were taken apart tomorrow, which of your entries would still be trusted by the next person to use the material?</span></li>
+</ol>
+<h3><span data-en="Where the data lives" data-sr="Gde podaci žive">Where the data lives</span></h3>
+<p><span data-en="Data about a building is not only in a file. It sits in the material itself (a stamp on a brick, a mark on a panel), in the technology of the time, in the hands that built it, in the designers and engineers who signed it, and in the chain that delivered it: quarry, brickworks, plant, timber yard, depot, transporter. Each of those is a different source with a different cost and a different evidence class — and each one can be lost without anyone noticing." data-sr="Podaci o zgradi nisu samo u fajlu. Oni stoje u samom materijalu (pečat na opeci, oznaka na panelu), u tehnologiji svog vremena, u rukama koje su gradile, u projektantima i inženjerima koji su se potpisali, i u lancu koji je dopremio materijal: kamenolom, ciglana, fabrika, strugara, stovarište, prevoznik. Svaki od njih je drugi izvor, sa drugom cenom i drugom klasom dokaza — i svaki može da se izgubi tako da to niko ne primeti.">Data about a building is not only in a file. It sits in the material itself (a stamp on a brick, a mark on a panel), in the technology of the time, in the hands that built it, in the designers and engineers who signed it, and in the chain that delivered it: quarry, brickworks, plant, timber yard, depot, transporter. Each of those is a different source with a different cost and a different evidence class — and each one can be lost without anyone noticing.</span></p>
+<p><a href="../../ideje.html?tag=data"><span data-en="Open the data ideas in the idea cloud ↗" data-sr="Otvori ideje o podacima u oblaku ideja ↗">Open the data ideas in the idea cloud ↗</span></a></p>
+</section>
+</main>
+<footer class="site-footer"><div><strong>OR / COMPUTING STUDIO</strong><p><span data-en="Semir Poturak · Union — Nikola Tesla University" data-sr="Semir Poturak · Univerzitet „Union — Nikola Tesla”">Semir Poturak · Union — Nikola Tesla University</span><br><span data-en="Architecture &amp; civil engineering · Belgrade" data-sr="Arhitektura i građevinarstvo · Beograd">Architecture &amp; civil engineering · Belgrade</span></p></div><div class="footer-links"><a href="../../lab.html"><span data-en="All instruments" data-sr="Svi instrumenti">All instruments</span></a><a href="../../program.html"><span data-en="Course record" data-sr="Tok predmeta">Course record</span></a><a href="../../pristup.html"><span data-en="Access &amp; offline" data-sr="Pristup i rad bez mreže">Access &amp; offline</span></a><a href="https://github.com/3esign/computing-studio" rel="noreferrer">GitHub ↗</a></div></footer>
+<p id="announcements" class="sr-only" role="status" aria-live="polite"></p>
+<nav class="mobile-nav" aria-label="Quick navigation"><a href="../dizajn/start.html"><span data-en="Begin" data-sr="Počni">Begin</span></a><a href="../../cas.html"><span data-en="In class" data-sr="Na času">In class</span></a><a href="../../lab.html"><span data-en="Instruments" data-sr="Instrumenti">Instruments</span></a><a href="../../ideje.html"><span data-en="Ideas" data-sr="Ideje">Ideas</span></a></nav>
+<script src="model.js"></script>
+<script>
+(function () {
+  'use strict';
+  var M = window.PasosModel;
+  if (!M) return;
+
+  var state = { site: 'albanija', layer: 'all', sources: ['reg'] };
+
+  /* Language comes from the shell: assets/app.js sets <html lang>. This page
+     renders its own text, so it reads that one attribute and nothing else. */
+  function sr() {
+    var h = document.documentElement;
+    return !!(h && h.lang && h.lang.indexOf('sr') === 0);
+  }
+  function T(en, srt) { return sr() ? srt : en; }
+  function tr(v) { return (v && typeof v === 'object') ? (sr() ? v.sr : v.en) : v; }
+  function esc(s) {
+    return String(s === null || s === undefined ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function el(id) { return document.getElementById(id); }
+
+  var EV = {
+    D: { en: 'document', sr: 'dokument' },
+    M: { en: 'measured', sr: 'izmereno' },
+    S: { en: 'secondary literature', sr: 'sekundarna literatura' },
+    O: { en: 'spoken', sr: 'usmeno' },
+    I: { en: 'constructed for class', sr: 'konstruisano za čas' }
+  };
+  var SRCNAME = {};
+  M.SOURCES.forEach(function (s) { SRCNAME[s.k] = s; });
+  var LABEL = {
+    albanija: 'Albanija', beogradjanka: 'Beograđanka', msu: 'MSU',
+    lamela: { en: 'Lamella', sr: 'Lamela' }, magacin: { en: 'Warehouse', sr: 'Magacin' }
+  };
+  var ANCHOR = { albanija: -1, beogradjanka: -1, msu: 1, lamela: 1, magacin: -1 };
+
+  /* ---------- map ---------- */
+  function path(points) {
+    return points.map(function (p, i) {
+      var q = M.project(p[0], p[1]);
+      return (i ? 'L' : 'M') + q.x.toFixed(1) + ',' + q.y.toFixed(1);
+    }).join(' ');
+  }
+  function wedge(cx, cy, r, frac) {
+    if (frac <= 0) return '';
+    if (frac >= 1) {
+      return 'M' + cx + ',' + (cy - r) + ' A' + r + ',' + r + ' 0 1,1 ' + (cx - 0.01).toFixed(2) +
+             ',' + (cy - r) + ' Z';
+    }
+    var a = 2 * Math.PI * frac;
+    return 'M' + cx + ',' + cy + ' L' + cx + ',' + (cy - r) +
+           ' A' + r + ',' + r + ' 0 ' + (frac > 0.5 ? 1 : 0) + ',1 ' +
+           (cx + r * Math.sin(a)).toFixed(2) + ',' + (cy - r * Math.cos(a)).toFixed(2) + ' Z';
+  }
+
+  function drawMap() {
+    var F = M.FRAME, mu = M.metresPerUnit(), km = 1000 / mu.x;
+    var s = '<svg viewBox="0 0 ' + F.w + ' ' + F.h + '" role="img" aria-label="' +
+      esc(T('Schematic map of Belgrade with five marked objects; the figures are listed below the map.',
+            'Šematska mapa Beograda sa pet označenih objekata; brojevi stoje ispod mape.')) + '">';
+    s += '<rect x="0" y="0" width="' + F.w + '" height="' + F.h + '" fill="#fffefa"></rect>';
+    s += '<g fill="none" stroke="#bcccee" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">' +
+         '<path d="' + path(M.RIVERS.sava) + '"></path>' +
+         '<path d="' + path(M.RIVERS.dunav) + '"></path></g>';
+
+    var c = M.project(M.CONFLUENCE[0], M.CONFLUENCE[1]);
+    s += '<g font-family="ui-monospace,monospace" font-size="15" fill="#626772">' +
+         '<text x="' + (c.x + 10).toFixed(0) + '" y="' + (c.y + 22).toFixed(0) + '">' +
+         esc(T('confluence', 'ušće')) + '</text>' +
+         '<text x="204" y="418">Sava</text><text x="300" y="82">' + esc(T('Danube', 'Dunav')) + '</text></g>';
+
+    /* scale bar, from the projection rather than from the eye */
+    s += '<g stroke="#202329" stroke-width="1.4"><path d="M24,' + (F.h - 26) + ' h' + km.toFixed(1) +
+         '"></path><path d="M24,' + (F.h - 31) + ' v10"></path><path d="M' + (24 + km).toFixed(1) +
+         ',' + (F.h - 31) + ' v10"></path></g>' +
+         '<text x="24" y="' + (F.h - 34) + '" font-family="ui-monospace,monospace" font-size="14" fill="#202329">1 km</text>' +
+         '<text x="24" y="' + (F.h - 10) + '" class="pz-fine" font-family="ui-monospace,monospace" font-size="13" fill="#626772">1 ' +
+         esc(T('unit', 'jedinica')) + ' = ' + mu.x.toFixed(1) + ' m</text>';
+    s += '<text x="' + (F.w - 8) + '" y="16" class="pz-fine" text-anchor="end" font-family="ui-monospace,monospace" font-size="12" fill="#626772">' +
+         F.lon0.toFixed(3) + '–' + F.lon1.toFixed(3) + '°E · ' + F.lat1.toFixed(3) + '–' + F.lat0.toFixed(3) + '°N</text>';
+
+    M.SITES.forEach(function (site) {
+      var a = M.assess(site, state.sources, state.layer);
+      var p = M.project(site.lon, site.lat);
+      var x = +p.x.toFixed(1), y = +p.y.toFixed(1), r = 17;
+      var on = site.k === state.site;
+      var frac = a.total ? a.known / a.total : 0;
+      s += '<g>';
+      s += '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="#ffffff" stroke="#202329" stroke-width="' +
+           (on ? 2.6 : 1.2) + '"' + (a.blocked ? ' stroke-dasharray="4 3"' : '') + '></circle>';
+      if (frac > 0) s += '<path d="' + wedge(x, y, r - 1.5, frac) + '" fill="#244ee8" fill-opacity="' + (on ? 0.95 : 0.6) + '"></path>';
+      s += '<circle cx="' + x + '" cy="' + y + '" r="6" fill="#ffffff" stroke="#202329" stroke-width="1"></circle>';
+      if (a.primary > 0) s += '<circle cx="' + x + '" cy="' + y + '" r="2.6" fill="#202329"></circle>';
+      s += '<text x="' + (x + ANCHOR[site.k] * (r + 7)) + '" y="' + (y + 4) +
+           '" text-anchor="' + (ANCHOR[site.k] < 0 ? 'end' : 'start') +
+           '" font-family="ui-monospace,monospace" font-size="17" fill="#202329"' +
+           ' stroke="#fffefa" stroke-width="4.5" paint-order="stroke"' +
+           (on ? ' font-weight="700"' : '') + '>' + esc(tr(LABEL[site.k])) + '</text>';
+      s += '<circle class="pz-hit" data-site="' + site.k + '" cx="' + x + '" cy="' + y +
+           '" r="26" fill="transparent" style="cursor:pointer"></circle>';
+      s += '</g>';
+    });
+    s += '</svg>';
+    el('pz-map').innerHTML = s;
+  }
+
+  /* ---------- numbers, sentence, card ---------- */
+  function render() {
+    var site = M.site(state.site);
+    var a = M.assess(site, state.sources, state.layer);
+
+    drawMap();
+
+    el('pz-read').innerHTML =
+      block(T('answered', 'odgovoreno'), a.known + '<small>/' + a.total + '</small>') +
+      block(T('no source yet', 'nema izvora'), a.blocked) +
+      block(T('never recorded', 'nije zapisano'), a.lost) +
+      block(T('measured or documented', 'izmereno ili dokumentovano'), a.primary);
+
+    var sentence = T(
+      'With these sources: ' + a.known + ' of ' + a.total + ' answered. ' + a.blocked +
+      ' still have no source you selected. ' + a.lost + ' have a source, but nobody ever wrote the answer down.',
+      'Sa ovim izvorima: ' + a.known + ' od ' + a.total + ' odgovoreno. Za ' + a.blocked +
+      ' nema izabranog izvora. Za ' + a.lost + ' izvor postoji, ali odgovor nikada nije zapisan.');
+    if (a.known > 0) {
+      sentence += ' ' + (a.primary === 0
+        ? T('Not one of those answers is measured or documented.',
+            'Nijedan od tih odgovora nije izmeren ni dokumentovan.')
+        : T(a.primary + ' of them is measured or documented.',
+            'Od njih je ' + a.primary + ' izmereno ili dokumentovano.'));
+    }
+    el('pz-sentence').textContent = sentence;
+
+    var next = M.bestNextSource(site, state.sources, state.layer);
+    el('pz-hint').textContent = next
+      ? T('Best single source to add next: ' + tr(SRCNAME[next.source]) + ' (+' + next.gain + ').',
+          'Najbolji sledeći izvor: ' + tr(SRCNAME[next.source]) + ' (+' + next.gain + ').')
+      : T('No remaining source would answer one more question here.',
+          'Nijedan preostali izvor ovde ne bi odgovorio ni na jedno pitanje više.');
+
+    el('pz-title').textContent = tr(site);
+    el('pz-kind').textContent = site.kind === 'real'
+      ? T('public landmark · literature', 'javni reper · literatura')
+      : T('constructed for class', 'konstruisano za čas');
+    el('pz-kind').className = 'pz-kind' + (site.kind === 'real' ? '' : ' made');
+    el('pz-note').textContent = tr(site.note);
+
+    var rows = '';
+    a.rows.forEach(function (r) {
+      var layer = M.LAYERS.filter(function (l) { return l.k === r.field.l; })[0];
+      var answer, stateText;
+      if (r.state === 'known') {
+        answer = esc(tr(r.value)) + '<span class="pz-ev" title="' + esc(tr(EV[r.evidence])) + '">' +
+                 r.evidence + ' · ' + esc(tr(EV[r.evidence])) + '</span>';
+        stateText = T('answered', 'odgovoreno');
+      } else if (r.state === 'lost') {
+        answer = esc(T('the source is at hand; the answer was never recorded',
+                       'izvor je dostupan; odgovor nikada nije zapisan'));
+        stateText = T('never recorded', 'nije zapisano');
+      } else {
+        var names = r.missing.map(function (k) { return tr(SRCNAME[k]); });
+        answer = esc((r.field.need === 'all'
+          ? T('needs all of: ', 'traži sve od: ') : T('needs one of: ', 'traži jedno od: ')) + names.join(', '));
+        stateText = T('no source yet', 'nema izvora');
+      }
+      rows += '<div class="pz-row ' + r.state + '"><q>' + esc(tr(r.field)) +
+              '<em> · ' + esc(tr(layer)) + '</em></q><p>' + answer +
+              '</p><span class="pz-state">' + esc(stateText) + '</span></div>';
+    });
+    el('pz-rows').innerHTML = rows;
+    el('pz-caption').textContent = T(
+      'Evidence classes: D document · M measured · S secondary literature · O spoken · I constructed for class.',
+      'Klase dokaza: D dokument · M izmereno · S sekundarna literatura · O usmeno · I konstruisano za čas.');
+
+    M.SITES.forEach(function (s) { press('pz-s-' + s.k, s.k === state.site); });
+    ['all'].concat(M.LAYERS.map(function (l) { return l.k; }))
+      .forEach(function (k) { press('pz-l-' + k, k === state.layer); });
+    M.ALL_SOURCES.forEach(function (k) {
+      var box = el('pz-src-' + k);
+      if (box) box.checked = state.sources.indexOf(k) >= 0;
+    });
+  }
+  function block(label, value) {
+    return '<div><span>' + esc(label) + '</span><strong>' + value + '</strong></div>';
+  }
+  function press(id, on) {
+    var b = el(id);
+    if (b && b.setAttribute) b.setAttribute('aria-pressed', on ? 'true' : 'false');
+  }
+
+  /* ---------- wiring ---------- */
+  M.SITES.forEach(function (s) {
+    var b = el('pz-s-' + s.k);
+    if (b) b.addEventListener('click', function () { state.site = s.k; render(); });
+  });
+  ['all'].concat(M.LAYERS.map(function (l) { return l.k; })).forEach(function (k) {
+    var b = el('pz-l-' + k);
+    if (b) b.addEventListener('click', function () { state.layer = k; render(); });
+  });
+  M.ALL_SOURCES.forEach(function (k) {
+    var box = el('pz-src-' + k);
+    if (!box) return;
+    box.addEventListener('change', function () {
+      var i = state.sources.indexOf(k);
+      if (box.checked && i < 0) state.sources.push(k);
+      if (!box.checked && i >= 0) state.sources.splice(i, 1);
+      render();
+    });
+  });
+  [['pz-p-phone', 'phone'], ['pz-p-visit', 'visit'], ['pz-p-forensic', 'forensic']].forEach(function (p) {
+    var b = el(p[0]);
+    if (b) b.addEventListener('click', function () { state.sources = M.PRESETS[p[1]].slice(); render(); });
+  });
+
+  var map = el('pz-map');
+  if (map && map.addEventListener) {
+    map.addEventListener('click', function (e) {
+      var k = e && e.target && e.target.getAttribute && e.target.getAttribute('data-site');
+      if (k) { state.site = k; render(); }
+    });
+  }
+
+  /* The shell owns the language switch; re-render when it changes <html lang>. */
+  if (typeof MutationObserver === 'function' && document.documentElement) {
+    new MutationObserver(function () { render(); })
+      .observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>

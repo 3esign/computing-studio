@@ -1,0 +1,911 @@
+{
+  "schema": 1,
+  "id": "OBJ-001",
+  "updated": "2026-10-07",
+  "by": "OR / nastavnik",
+  "scope": {
+    "en": "A bounded reading of the listed public sources, checked on 7 October 2026. The 2021 project scoping report is public; the original design, as-built survey and 2024/25 inspection report have not been located in this reading. Absence from this passport does not prove that a record is unavailable.",
+    "sr": "Ograničen pregled navedenih javnih izvora, proveren 07.10.2026. Projektni izveštaj o obuhvatu procene iz 2021. jeste javan; izvorni projekat, snimak izvedenog stanja i pregled iz 2024/25. nisu pronađeni u ovom pregledu. Odsustvo iz pasoša ne dokazuje da zapis nije dostupan."
+  },
+  "object": {
+    "name": {
+      "en": "Old Sava Bridge, Belgrade",
+      "sr": "Stari savski most, Beograd"
+    },
+    "life": "1942-2025",
+    "lon": 20.4464,
+    "lat": 44.8078,
+    "coordNote": {
+      "en": "Coordinates of the former crossing, read from the encyclopaedia entry, not surveyed.",
+      "sr": "Koordinate nekadašnjeg prelaza, iz enciklopedijskog zapisa, nisu geodetski snimljene."
+    },
+    "line": [
+      [
+        20.44392,
+        44.80859
+      ],
+      [
+        20.44888,
+        44.80701
+      ]
+    ],
+    "lineNote": {
+      "en": "The illustrative map axis still uses the 430 m encyclopaedia length, centred on the listed coordinates. The 2021 scoping report instead reports 401.2 m. This axis is orientation, not a survey or resolution of that disagreement.",
+      "sr": "Ilustrativna osa na karti i dalje koristi enciklopedijsku dužinu 430 m, centriranu na navedene koordinate. Izveštaj iz 2021. umesto toga navodi 401,2 m. Osa služi orijentaciji; nije geodetski snimak niti razrešenje tog neslaganja."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "t": "Stari savski most",
+      "pub": "Vikipedija (sr)",
+      "url": "https://sr.wikipedia.org/sr-el/Стари_савски_мост",
+      "kind": "S",
+      "checked": "2026-10-06"
+    },
+    {
+      "id": "S2",
+      "t": "Old Sava Bridge",
+      "pub": "Wikipedia (en)",
+      "url": "https://en.wikipedia.org/wiki/Old_Sava_Bridge",
+      "kind": "S",
+      "checked": "2026-10-06"
+    },
+    {
+      "id": "S3",
+      "t": "Na Savi zelena lučna ćuprija: saga o demontaži Starog savskog mosta",
+      "pub": "Gradnja.rs",
+      "url": "https://www.gradnja.rs/stari-savski-most-beograd-demontaza-foto/",
+      "kind": "S",
+      "checked": "2026-10-06"
+    },
+    {
+      "id": "S4",
+      "t": "Luk Starog savskog mosta na obali, sledi rasklapanje i transport do Batajnice",
+      "pub": "N1 (05.09.2025)",
+      "url": "https://n1info.rs/vesti/luk-starog-savskog-mosta-na-obali-sledi-rasklapanje-i-transport-do-batajnice/",
+      "kind": "S",
+      "checked": "2026-10-06"
+    },
+    {
+      "id": "S5",
+      "t": "Stari savski most ide u Batajnicu: šta dalje sa simbolom Beograda",
+      "pub": "Insajder (23.05.2025), uz Plan upravljanja otpadom od 13.11.2024.",
+      "url": "https://www.insajder.net/teme/stari-savski-most-ide-u-batajnicu-sta-dalje-sa-simbolom-beograda",
+      "kind": "S",
+      "checked": "2026-10-06"
+    },
+    {
+      "id": "S6",
+      "t": "Izjava Danijela Kukaraša, glavnog projektanta, o stanju konstrukcije",
+      "pub": "K1 info (04.07.2025)",
+      "url": "https://www.k1info.rs/vesti/beograd/91857/stari-savski-most/vest",
+      "kind": "O",
+      "checked": "2026-10-06"
+    },
+    {
+      "id": "S7",
+      "t": "Removal of the Arch Span of the Old Sava Bridge, Belgrade",
+      "pub": "HSP Hídépítő Speciál, izvođač podizanja luka (17.05.2026)",
+      "url": "https://en.hsp.hu/hspdoo/removal-of-the-arch-span-of-the-old-sava-bridge-belgrade/",
+      "kind": "O",
+      "checked": "2026-10-07",
+      "primary": true,
+      "quality": {
+        "en": "First-hand lifting-contractor account; approximately 420 t is a reported arch mass, not a weighbridge certificate.",
+        "sr": "Neposredni izveštaj izvođača podizanja; približno420 t je prijavljena masa luka, nije vagarski list."
+      }
+    },
+    {
+      "id": "S8",
+      "t": "Old Sava Bridge — demolition scoping report",
+      "pub": "ENVICO for ERM; Belgrade Land Development Public Agency (28.11.2021)",
+      "url": "https://www.beoland.com/images/most_na_savi/eng/P-144-21-ESIA-Scoping-Report_Demolition-Sava-Bridge-Final.pdf#page=21",
+      "kind": "D",
+      "checked": "2026-10-07",
+      "primary": true,
+      "quality": {
+        "en": "Primary project scoping document. Preliminary description, not an as-built survey or a reuse certificate. Full document: Focused ESIA Scoping Report for the Demolition of the Old Sava Bridge, §3.2 p.21. Measurement endpoints are unspecified; definitions may explain some disagreement, but this is not established.",
+        "sr": "Primarni projektni dokument o obuhvatu procene. Preliminarni opis, nije snimak izvedenog stanja ni potvrda za ponovnu upotrebu."
+      },
+      "fullTitle": "Focused ESIA Scoping Report for the Demolition of the Old Sava Bridge, §3.2 p.21"
+    },
+    {
+      "id": "S9",
+      "t": "Replacement bridge at the Old Sava Bridge location — different object",
+      "pub": "Saobraćajni institut CIP, designer (project 2018–2019)",
+      "url": "https://sicip.rs/en/projekti/bridge-over-the-sava-river-at-the-location-of-the-old-sava-bridge/",
+      "kind": "D",
+      "checked": "2026-10-07",
+      "primary": true,
+      "appliesTo": "replacement-bridge",
+      "quality": {
+        "en": "Primary designer page for the NEW bridge. Its dimensions must not be assigned to the demolished old bridge; included as an object-identity check.",
+        "sr": "Primarna stranica projektanta NOVOG mosta. Njene mere ne pripadaju uklonjenom starom mostu; uključena radi provere identiteta objekta."
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "y": 1942,
+      "sr": "Montiran na Savi u šest meseci",
+      "en": "Erected on the Sava in six months",
+      "s": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "y": 1944,
+      "sr": "Oko 350 granata, tri pogotka, miniranje sprečeno",
+      "en": "Some 350 shells, three hits, mining prevented",
+      "s": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "y": 1953,
+      "sr": "Završen akvadukt",
+      "en": "Aqueduct completed",
+      "s": [
+        "S1"
+      ]
+    },
+    {
+      "y": 1964,
+      "sr": "Zatvoren: „nenormalno oscilirao”",
+      "en": "Closed: \"oscillated abnormally\"",
+      "s": [
+        "S1"
+      ]
+    },
+    {
+      "y": 1969,
+      "sr": "Drvena kolovozna ploča zamenjena betonskom",
+      "en": "Wooden deck replaced with concrete",
+      "s": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "y": 1984,
+      "sr": "Tramvajske šine, čelična ploča",
+      "en": "Tram tracks, steel deck",
+      "s": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "y": 2008,
+      "sr": "Rekonstrukcija; kapacitet 30 000 vozila dnevno",
+      "en": "Reconstruction; 30,000 vehicles a day",
+      "s": [
+        "S2"
+      ]
+    },
+    {
+      "y": 2019,
+      "k": "zastita",
+      "sr": "U decembru Republički zavod podržao inicijativu za zaštitu, bez nadležnosti",
+      "en": "In December the state institute backed the protection initiative, without jurisdiction",
+      "s": [
+        "S2"
+      ]
+    },
+    {
+      "y": 2024,
+      "sr": "2. novembra zatvoren za saobraćaj",
+      "en": "Closed to traffic on 2 November",
+      "s": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "y": 2025,
+      "sr": "Demontaža: 3. april - 30. jul; luk na obalu 5. septembra",
+      "en": "Dismantling: 3 April - 30 July; arch ashore on 5 September",
+      "s": [
+        "S1",
+        "S3",
+        "S4"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "k": "dortmund",
+      "sr": "Dortmund: fabrika C. H. Jucho",
+      "en": "Dortmund: C. H. Jucho works",
+      "lon": 7.4653,
+      "lat": 51.5136,
+      "role": "origin",
+      "s": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "k": "zabalj",
+      "sr": "Žabalj na Tisi: prvobitno predviđen prelaz",
+      "en": "Žabalj on the Tisa: the crossing first intended",
+      "lon": 20.0644,
+      "lat": 45.3733,
+      "role": "intended",
+      "s": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "k": "sava",
+      "sr": "Sava, Beograd: 1942-2025",
+      "en": "Sava, Belgrade: 1942-2025",
+      "lon": 20.4464,
+      "lat": 44.8078,
+      "role": "stood",
+      "s": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "k": "batajnica",
+      "sr": "Batajnica: pogon Mostogradnja ING, sada",
+      "en": "Batajnica: Mostogradnja ING yard, now",
+      "lon": 20.2906,
+      "lat": 44.9003,
+      "role": "now",
+      "s": [
+        "S5"
+      ]
+    },
+    {
+      "k": "veliko-selo",
+      "sr": "Veliko Selo: plan iz 2021, napušten",
+      "en": "Veliko Selo: the 2021 plan, abandoned",
+      "lon": 20.5739,
+      "lat": 44.8367,
+      "role": "dropped",
+      "s": [
+        "S5"
+      ]
+    },
+    {
+      "k": "next",
+      "sr": "Sledeća lokacija: neodređena",
+      "en": "Next location: undetermined",
+      "lon": null,
+      "lat": null,
+      "role": "unknown",
+      "s": [
+        "S5"
+      ]
+    }
+  ],
+  "placeNote": {
+    "en": "Nodes are coordinates; the lines are straight-line distances computed from them. No coastline, border or road geometry is drawn, because none was verified for this film.",
+    "sr": "Čvorovi su koordinate; linije su vazdušne razdaljine izračunate iz njih. Nijedna obala, granica ni put nisu nacrtani, jer za ovaj film nisu provereni."
+  },
+  "claims": [
+    {
+      "k": "naziv",
+      "l": "id",
+      "q": {
+        "sr": "Kako se zove?",
+        "en": "What is it called?"
+      },
+      "v": {
+        "sr": "Prinz Eugen (1942), Nemački i Švapski most, Stari savski most, Tramvajski most. Nijedno ime nije bilo zvanično.",
+        "en": "Prinz Eugen (1942), the German and the Swabian bridge, Old Sava Bridge, Tram Bridge. None of the names was ever official."
+      },
+      "ev": "S",
+      "st": "confirmed",
+      "src": [
+        "S1",
+        "S2"
+      ],
+      "next": {
+        "sr": "Naći akt kojim je ime ikada zvanično dato ili odbijeno.",
+        "en": "Find any act by which a name was officially given or refused."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "parcela",
+      "l": "id",
+      "q": {
+        "sr": "Koja je katastarska parcela?",
+        "en": "Which cadastral parcel?"
+      },
+      "v": null,
+      "ev": null,
+      "st": "unknown",
+      "src": [],
+      "next": {
+        "sr": "Tražiti katastarski izvod za obe obale i za pogon u Batajnici.",
+        "en": "Request the cadastral extract for both banks and for the Batajnica yard."
+      },
+      "note": {
+        "sr": "U javnim izvorima koje je ovaj pasoš našao parcela nije navedena. Za plan preseljenja u Veliko Selo zapisano je da brojevi parcela nisu bili tačno određeni.",
+        "en": "The parcel is not stated in the public sources this passport found. For the Veliko Selo relocation plan it is recorded that the parcel numbers were not precisely determined."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "godina",
+      "l": "id",
+      "q": {
+        "sr": "Kada je završen?",
+        "en": "When was it finished?"
+      },
+      "v": {
+        "sr": "1942, građen oko šest meseci; akvadukt 1953.",
+        "en": "1942, built in about six months; aqueduct 1953."
+      },
+      "ev": "S",
+      "st": "confirmed",
+      "src": [
+        "S1",
+        "S2"
+      ],
+      "next": {
+        "sr": "Naći datum tehničkog prijema, ne samo godinu.",
+        "en": "Find the date of handover, not only the year."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "gabarit",
+      "l": "geo",
+      "q": {
+        "sr": "Koliki su gabarit i raspon?",
+        "en": "What are the outline and the span?"
+      },
+      "v": {
+        "en": "Length: 430 m in the encyclopaedia; 401.2 m in the 2021 project scoping report (p. 21). Span: 157 m in the encyclopaedia, 106 m in trade/news reports. Width: 40 m in the encyclopaedia, 11 m in K1 info. These figures remain source claims, not a resolved survey.",
+        "sr": "Dužina: 430 m u enciklopediji; 401,2 m u projektnom izveštaju iz 2021. (str. 21). Raspon: 157 m u enciklopediji, 106 m u stručnim/novinskim tekstovima. Širina: 40 m u enciklopediji, 11 m u K1 info. Brojevi ostaju navodi izvora, ne razrešen geodetski snimak."
+      },
+      "ev": "S",
+      "st": "conflicting",
+      "src": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "next": {
+        "sr": "Uzeti jednu meru iz projektne dokumentacije i reći šta je mereno: osovinski raspon, svetli otvor ili dužina luka.",
+        "en": "Take one figure from the design documentation and say what was measured: centre-to-centre span, clear opening or arch length."
+      },
+      "note": {
+        "sr": "Krajnje tačke mera nisu uporedive ili nisu definisane. Neslaganje ostaje otvoreno.",
+        "en": "Measurement endpoints differ or are unspecified. The disagreement remains unresolved."
+      },
+      "checked": "2026-10-07",
+      "m": [
+        {
+          "k": "length",
+          "v": 430,
+          "u": "m",
+          "src": [
+            "S1",
+            "S2"
+          ],
+          "by": {
+            "sr": "enciklopedija",
+            "en": "encyclopaedia"
+          }
+        },
+        {
+          "k": "length",
+          "v": 401.2,
+          "u": "m",
+          "src": [
+            "S8"
+          ],
+          "by": {
+            "en": "2021 project scoping report, p.21; measurement endpoints unspecified",
+            "sr": "projektni izveštaj iz 2021, str.21; krajnje tačke mere nisu definisane"
+          }
+        },
+        {
+          "k": "span",
+          "v": 157,
+          "u": "m",
+          "src": [
+            "S2"
+          ],
+          "by": {
+            "sr": "enciklopedija",
+            "en": "encyclopaedia"
+          }
+        },
+        {
+          "k": "span",
+          "v": 106,
+          "u": "m",
+          "src": [
+            "S3",
+            "S4",
+            "S6"
+          ],
+          "by": {
+            "sr": "stručni i novinski izveštaji",
+            "en": "trade and news reports"
+          }
+        },
+        {
+          "k": "width",
+          "v": 40,
+          "u": "m",
+          "src": [
+            "S1",
+            "S2"
+          ],
+          "by": {
+            "sr": "enciklopedija",
+            "en": "encyclopaedia"
+          }
+        },
+        {
+          "k": "width",
+          "v": 11,
+          "u": "m",
+          "src": [
+            "S6"
+          ],
+          "by": {
+            "sr": "tekst K1 info",
+            "en": "K1 info text"
+          }
+        }
+      ],
+      "flags": [
+        {
+          "sr": "K1 info (S6) brojeve 106 m i 11 m pripisuje „Starom železničkom mostu“, iako opisuje luk ovog mosta.",
+          "en": "K1 info (S6) attributes the 106 m and 11 m figures to the \"Old Railway Bridge\", although it describes this bridge's arch.",
+          "src": [
+            "S6"
+          ]
+        },
+        {
+          "en": "The 2021 scoping report is primary project evidence but explicitly preliminary; 401.2 m is not a verified as-built axis.",
+          "sr": "Izveštaj iz 2021. jeste primarni projektni izvor, ali izričito preliminaran; 401,2 m nije potvrđena osovina izvedenog stanja.",
+          "src": [
+            "S8"
+          ]
+        },
+        {
+          "en": "S9 is the designer’s primary source for the replacement bridge. Its figures describe a different object and are not imported as old-bridge measurements.",
+          "sr": "S9 je primarni izvor projektanta novog mosta. Njegove brojke opisuju drugi objekat i nisu preuzete kao mere starog mosta.",
+          "src": [
+            "S9"
+          ]
+        }
+      ]
+    },
+    {
+      "k": "etaze",
+      "l": "geo",
+      "q": {
+        "sr": "Koliko ima etaža?",
+        "en": "How many storeys?"
+      },
+      "v": {
+        "sr": "Pitanje ne odgovara objektu. Umesto etaža zapisano je: osam stubova, na privremenim drvenim šipovima.",
+        "en": "The question does not fit this object. Recorded instead: eight piers, on temporary timber piles."
+      },
+      "ev": "S",
+      "st": "confirmed",
+      "src": [
+        "S2",
+        "S8"
+      ],
+      "next": {
+        "sr": "U šemu uvesti polje za broj polja i oslonaca kod linijskih objekata.",
+        "en": "Add a field for the number of spans and supports for linear structures."
+      },
+      "note": {
+        "en": "S8 p.21 independently describes timber pile foundations, but does not verify the count of eight piers reported by S2. The count and schematic positions remain attributed to S2.",
+        "sr": "S8 str.21 nezavisno opisuje temeljenje na drvenim šipovima, ali ne potvrđuje broj osam stubova iz S2. Broj i shematski položaji ostaju pripisani izvoru S2."
+      },
+      "checked": "2026-10-07",
+      "m": [
+        {
+          "k": "piers",
+          "v": 8,
+          "u": "",
+          "src": [
+            "S2"
+          ],
+          "by": {
+            "sr": "enciklopedija, isti tekst kao tvrdnja",
+            "en": "encyclopaedia, the same text as the claim"
+          }
+        }
+      ],
+      "mNote": {
+        "sr": "Broj stubova stoji u tekstu tvrdnje; ovde je prepisan u merljivo polje da bi crtež mogao da ga uzme iz zapisa umesto iz koda.",
+        "en": "The number of piers is stated in the claim text; it is transcribed here into a measurable field so the drawing can take it from the record instead of from code."
+      }
+    },
+    {
+      "k": "odstup",
+      "l": "geo",
+      "q": {
+        "sr": "Da li izvedeno odgovara nacrtanom?",
+        "en": "Does the built thing match the drawn one?"
+      },
+      "v": null,
+      "ev": null,
+      "st": "unknown",
+      "src": [],
+      "next": {
+        "sr": "Tražiti projekat iz 1942. i snimak izvedenog stanja pre demontaže.",
+        "en": "Request the 1942 drawings and the as-built survey made before dismantling."
+      },
+      "note": {
+        "sr": "Objekat je prošao kroz najmanje tri prepravke kolovoza (1969, 1984, 2008) i nijedan javni izvor ne upoređuje izvedeno sa nacrtanim.",
+        "en": "The object went through at least three deck alterations (1969, 1984, 2008) and no public source compares built with drawn."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "konstr",
+      "l": "mat",
+      "q": {
+        "sr": "Šta nosi konstrukciju?",
+        "en": "What carries the load?"
+      },
+      "v": {
+        "sr": "Čelična rešetkasta vezana lučna konstrukcija, poluparabolična.",
+        "en": "Steel lattice tied-arch structure, half-parabolic."
+      },
+      "ev": "S",
+      "st": "confirmed",
+      "src": [
+        "S1",
+        "S2"
+      ],
+      "next": {
+        "sr": "Dobiti statički sistem i presek glavnog nosača iz dokumentacije.",
+        "en": "Obtain the structural system and the main girder section from the documentation."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "fasada",
+      "l": "mat",
+      "q": {
+        "sr": "Od čega je kolovoz, to jest omotač?",
+        "en": "What is the deck, the envelope, made of?"
+      },
+      "v": {
+        "sr": "Drvena kolovozna konstrukcija do 1964, betonska ploča od 1969, čelična ploča sa tramvajskim šinama od 1984.",
+        "en": "Timber deck until 1964, concrete slab from 1969, steel deck with tram tracks from 1984."
+      },
+      "ev": "S",
+      "st": "confirmed",
+      "src": [
+        "S1",
+        "S2"
+      ],
+      "next": {
+        "sr": "Naći mase i debljine svake od tri kolovozne konstrukcije.",
+        "en": "Find the mass and thickness of each of the three decks."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "kolic",
+      "l": "mat",
+      "q": {
+        "sr": "Koliko materijala, po masi?",
+        "en": "How much material, by mass?"
+      },
+      "v": {
+        "sr": "Oko 1 400 t metalne konstrukcije, po Planu upravljanja otpadom od 13.11.2024. kako ga navodi Insajder. Luk: oko 420 t po izvođaču podizanja; 500 t u tekstu K1 info.",
+        "en": "About 1,400 t of metal structure, per the waste management plan of 13 November 2024 as quoted by Insajder. The arch: about 420 t per the lifting contractor; 500 t in the K1 info text."
+      },
+      "ev": "S",
+      "st": "conflicting",
+      "src": [
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "next": {
+        "sr": "Tražiti otpremnice i vagarske listove iz demontaže: one daju masu koja je stvarno izmerena.",
+        "en": "Request the dispatch notes and weighbridge tickets from the dismantling: those give the mass that was actually measured."
+      },
+      "note": {
+        "sr": "Ukupna masa i masa luka nisu ista stvar. Za sam luk objavljena su dva broja. Plan upravljanja otpadom iz 2024. nije pribavljen u ovom pregledu; 1 400 t je broj iz Plana kako ga prenosi novinski tekst.",
+        "en": "Total mass and arch mass are not the same thing. Two figures are published for the arch alone. The2024 waste management plan was not obtained in this reading; 1,400 t is the plan's figure as a news text reports it."
+      },
+      "checked": "2026-10-06",
+      "m": [
+        {
+          "k": "mass-total",
+          "v": 1400,
+          "u": "t",
+          "approx": true,
+          "src": [
+            "S5"
+          ],
+          "by": {
+            "sr": "Plan upravljanja otpadom, po Insajderu",
+            "en": "waste management plan, per Insajder"
+          }
+        },
+        {
+          "k": "mass-arch",
+          "v": 420,
+          "u": "t",
+          "approx": true,
+          "src": [
+            "S7"
+          ],
+          "by": {
+            "sr": "izvođač podizanja",
+            "en": "lifting contractor"
+          }
+        },
+        {
+          "k": "mass-arch",
+          "v": 500,
+          "u": "t",
+          "src": [
+            "S6"
+          ],
+          "by": {
+            "sr": "tekst K1 info",
+            "en": "K1 info text"
+          }
+        }
+      ],
+      "flags": [
+        {
+          "sr": "Isti tekst (S6) luk od 500 t naziva lukom „starog Železničkog mosta“; istog dana objavile su ga i Novosti.",
+          "en": "The same text (S6) calls the 500 t arch the arch of the \"old Railway Bridge\"; Novosti published it the same day.",
+          "src": [
+            "S6"
+          ]
+        }
+      ]
+    },
+    {
+      "k": "projekt",
+      "l": "org",
+      "q": {
+        "sr": "Ko je projektovao?",
+        "en": "Who designed it?"
+      },
+      "v": {
+        "sr": "Firma C. H. Jucho, Dortmund. Ime inženjera projektanta nije u izvorima koje je ovaj pasoš našao.",
+        "en": "The firm C. H. Jucho, Dortmund. The name of the designing engineer is not in the sources this passport found."
+      },
+      "ev": "S",
+      "st": "single-source",
+      "src": [
+        "S1",
+        "S2"
+      ],
+      "next": {
+        "sr": "Pisati arhivi grada Dortmunda i arhivu firme za broj projekta.",
+        "en": "Write to the Dortmund city archive and the company archive for the project number."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "izvod",
+      "l": "org",
+      "q": {
+        "sr": "Ko je gradio?",
+        "en": "Who built it?"
+      },
+      "v": {
+        "sr": "Montaža je izvedena u nemačkoj okupaciji 1942, za oko šest meseci, na privremenim drvenim šipovima. Izvođač radova i radna snaga nisu imenovani.",
+        "en": "Erected under German occupation in 1942, in about six months, on temporary timber piles. The contractor and the workforce are not named."
+      },
+      "ev": "S",
+      "st": "unconfirmed",
+      "src": [
+        "S1",
+        "S2"
+      ],
+      "next": {
+        "sr": "Tražiti gradilišnu dokumentaciju i spisak radne snage u arhivu Beograda i u vojnom arhivu.",
+        "en": "Request site records and the workforce list in the Belgrade and the military archive."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "izvor",
+      "l": "org",
+      "q": {
+        "sr": "Odakle je materijal došao?",
+        "en": "Where did the material come from?"
+      },
+      "v": null,
+      "ev": null,
+      "st": "unknown",
+      "src": [],
+      "next": {
+        "sr": "Tražiti ateste čelika, marku i šaržu; ako ih nema, uzeti uzorke pre ponovne montaže.",
+        "en": "Request the steel certificates, grade and heat number; if they do not exist, sample before reassembly."
+      },
+      "note": {
+        "sr": "Izvori kažu samo da je čelik nemački i da ga je dala firma iz Dortmunda. Marka čelika, čeličana, šarža i godina valjanja nisu zapisani nigde što je ovaj pasoš našao. To je polje bez kojeg 1 400 t ne može da se dokaže kao konstrukcija.",
+        "en": "The sources say only that the steel was German and supplied by the Dortmund firm. Grade, mill, heat and rolling year are nowhere in what this passport found. Without this field, 1,400 t cannot be proven as structure."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "nosiv",
+      "l": "cond",
+      "q": {
+        "sr": "U kakvom je stanju konstrukcija?",
+        "en": "What state is the structure in?"
+      },
+      "v": {
+        "sr": "Glavni projektant, posle pregleda u decembru, januaru i februaru: u nekim delovima most je bio i u lošijem stanju nego što je inicijalno bilo zamišljeno. Komisija iz 1964: nenormalno je oscilirao, stubovi van normalnog položaja.",
+        "en": "The chief designer, after inspections in December, January and February: in some parts the bridge was in worse condition than initially assumed. The 1964 commission: it oscillated abnormally, piers out of normal position."
+      },
+      "ev": "O",
+      "st": "single-source",
+      "src": [
+        "S6",
+        "S1"
+      ],
+      "next": {
+        "sr": "Tražiti izveštaj o pregledu konstrukcije iz 2024/25. i nalaz komisije iz 1964.",
+        "en": "Request the 2024/25 inspection report and the 1964 commission finding."
+      },
+      "note": {
+        "sr": "Izjava nije izveštaj. Nijedan javni dokument ne kaže koji delovi, koliko i po kom kriterijumu.",
+        "en": "A statement is not a report. No public document says which parts, how much, or by what criterion."
+      },
+      "checked": "2026-10-06",
+      "quote": {
+        "text": "u nekim delovima most je bio i u lošijem stanju nego što je inicijalno bilo zamišljeno",
+        "who": {
+          "sr": "glavni projektant, posle pregleda u decembru, januaru i februaru",
+          "en": "the chief designer, after inspections in December, January and February"
+        },
+        "src": [
+          "S6"
+        ]
+      }
+    },
+    {
+      "k": "opasne",
+      "l": "cond",
+      "q": {
+        "sr": "Ima li opasnih materija?",
+        "en": "Is there a hazardous substance?"
+      },
+      "v": null,
+      "ev": null,
+      "st": "unknown",
+      "src": [],
+      "next": {
+        "sr": "Ispitati premaze na uzorcima iz Batajnice na olovo i hrom pre svake obrade.",
+        "en": "Test coatings from the Batajnica samples for lead and chromium before any processing."
+      },
+      "note": {
+        "sr": "Na čeliku iz 1942. premaz sa olovom je očekivan, ali očekivanje nije nalaz. Plan upravljanja otpadom postoji; plan iz 2024. nije pribavljen u ovom pregledu. Javni izveštaj o obuhvatu iz 2021. drugi je dokument i ne zamenjuje rezultate ispitivanja uzoraka.",
+        "en": "On steel from 1942 a lead-based coating is expected, but expectation is not a finding. A waste management plan exists; the 2024 plan was not obtained in this reading. The public2021 scoping report is a different document and does not replace sample test results."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "ponasa",
+      "l": "cond",
+      "q": {
+        "sr": "Kako se ponašao u upotrebi?",
+        "en": "How did it behave in use?"
+      },
+      "v": {
+        "sr": "Posle 2008: kapacitet oko 30 000 vozila dnevno, tramvaj od 1984. Nijedan zapis senzora ili merenja ugiba nije javan.",
+        "en": "After 2008: capacity about 30,000 vehicles a day, trams since 1984. No sensor record or deflection measurement is public."
+      },
+      "ev": "S",
+      "st": "single-source",
+      "src": [
+        "S2"
+      ],
+      "next": {
+        "sr": "Tražiti zapise monitoringa i brojanja saobraćaja za poslednjih deset godina.",
+        "en": "Request monitoring records and traffic counts for the last ten years."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "rastav",
+      "l": "use",
+      "q": {
+        "sr": "Mogu li se delovi rastaviti?",
+        "en": "Can the parts come apart?"
+      },
+      "v": {
+        "en": "The lifting contractor records the completed arch removal, and 2025 reports describe dismantling into segments. The 2021 scoping document describes riveted connections. These records do not certify the condition or reusability of each part.",
+        "sr": "Izvođač podizanja beleži izvedeno uklanjanje luka, a izveštaji iz 2025. opisuju rastavljanje u segmente. Dokument iz 2021. opisuje veze zakivcima. Ovi zapisi ne potvrđuju stanje ni mogućnost ponovne upotrebe svakog dela."
+      },
+      "ev": "S",
+      "st": "confirmed",
+      "src": [
+        "S3",
+        "S4",
+        "S7",
+        "S8"
+      ],
+      "next": {
+        "sr": "Dobiti spisak segmenata i oznake delova iz demontaže: to je lista za ponovnu montažu.",
+        "en": "Obtain the segment list and part marks from the dismantling: that is the reassembly list."
+      },
+      "note": {
+        "en": "The lifting contractor (S7) describes the completed arch removal. S8 pp.21–22 describes the earlier plan for riveted connections and marked components; a plan does not prove the later work followed it.",
+        "sr": "Izvođač podizanja (S7) opisuje izvedeno uklanjanje luka. S8 str.21–22 opisuje raniji plan rada sa zakivcima i označenim delovima; plan ne dokazuje da je kasniji rad tako izveden."
+      },
+      "checked": "2026-10-07"
+    },
+    {
+      "k": "dokaz",
+      "l": "use",
+      "q": {
+        "sr": "Ima li dokaza o svojstvima?",
+        "en": "Is there proof of the properties?"
+      },
+      "v": null,
+      "ev": null,
+      "st": "unknown",
+      "src": [
+        "S5"
+      ],
+      "next": {
+        "sr": "Tražiti rezultate ispitivanja; ako ih nema, naručiti ispitivanje uzoraka iz Batajnice.",
+        "en": "Request the test results; if none exist, commission testing of the Batajnica samples."
+      },
+      "note": {
+        "sr": "Direkcija navodi da je ispitivanje stanja čelične konstrukcije predviđeno. Plan nije dokaz i u pasoš ulazi kao sledeći korak, ne kao nalaz.",
+        "en": "The Directorate states that testing of the steel structure is foreseen. A plan is not proof and enters the passport as a next step, not as a finding."
+      },
+      "checked": "2026-10-06"
+    },
+    {
+      "k": "dozvola",
+      "l": "use",
+      "q": {
+        "sr": "Sme li formalno da se upotrebi ponovo?",
+        "en": "May it formally be reused?"
+      },
+      "v": null,
+      "ev": null,
+      "st": "unknown",
+      "src": [
+        "S5"
+      ],
+      "next": {
+        "sr": "Pratiti odluku republičkih organa o lokaciji i uslov pod kojim se čelik sme ugraditi.",
+        "en": "Follow the decision of the republic bodies on the location and the condition under which the steel may be built in."
+      },
+      "note": {
+        "sr": "Delovi su u pogonu podizvođača u Batajnici, a ponovna montaža je „na nekoj lokaciji koju će odrediti republički organi i institucije“. Lokacija 06.10.2026. nije određena. Plan iz 2021. (Veliko Selo) je napušten.",
+        "en": "The parts are in the subcontractor yard in Batajnica, and reassembly is \"at some location to be determined by the republic bodies and institutions\". On 6 October 2026 the location is not determined. The 2021 plan (Veliko Selo) was abandoned."
+      },
+      "checked": "2026-10-06",
+      "quote": {
+        "text": "na nekoj lokaciji koju će odrediti republički organi i institucije",
+        "src": [
+          "S5"
+        ]
+      }
+    }
+  ]
+}

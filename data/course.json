@@ -1,0 +1,745 @@
+{
+  "schema": 1,
+  "updated": "2026-10-12",
+  "title": {
+    "en": "Computing, made visible.",
+    "sr": "Računarstvo koje se vidi."
+  },
+  "teacher": "Semir Poturak",
+  "institution": {
+    "en": "Union — Nikola Tesla University · Faculty of Construction Management, Belgrade",
+    "sr": "Univerzitet „Union — Nikola Tesla” · Fakultet za graditeljski menadžment, Beograd"
+  },
+  "notice": {
+    "en": "Start with one record. Predict, connect the views, execute a rule, then try a new case.",
+    "sr": "Počni od jednog zapisa. Predvidi, poveži prikaze, izvedi pravilo, pa probaj novi slučaj."
+  },
+  "sessions": [
+    {
+      "id": "cas-01-savski-most",
+      "status": "held",
+      "date": "2026-10-05",
+      "title": {
+        "en": "Class 01 · The old Sava bridge: choosing a topic, rebuilding an object through data",
+        "sr": "Čas 01 · Stari savski most: izbor teme i rekonstrukcija objekta kroz podatke"
+      },
+      "summary": {
+        "en": "Object 001 — the old Sava railway bridge — was presented as the worked example of choosing a topic and rebuilding a real object through verifiable data: the digital passport with its sources, claims, disagreements and unknowns (the film and the 3D scene). The groups then chose their own objects and research tracks.",
+        "sr": "Objekat 001 — stari savski most — prikazan je kao primer izbora teme i rekonstrukcije stvarnog objekta kroz proverljive podatke: digitalni pasoš sa izvorima, tvrdnjama, neslaganjima i nepoznatim (film i 3D scena). Grupe su zatim izabrale svoje objekte i istraživačke trake."
+      },
+      "task": {
+        "en": "Continue where the example stopped: for your own object, start collecting data — source, author, date, unit — and bring the first findings to the next class.",
+        "sr": "Nastavi tamo gde je primer stao: za svoj objekat počni da prikupljaš podatke — izvor, autora, datum, jedinicu — i donesi prve nalaze na sledeći čas."
+      },
+      "link": "pasos.html"
+    },
+    {
+      "id": "cas-02-konsultacije-mapa-podataka",
+      "status": "held",
+      "date": "2026-10-12",
+      "title": {
+        "en": "Class 02 · Consultations: the data map",
+        "sr": "Čas 02 · Konsultacije: mapa podataka"
+      },
+      "summary": {
+        "en": "Consultations 13:15–15:45. Every team brought its collected material as a data map — a first system among the elements: relevance, importance, accuracy, source, hierarchy. Objects reach from Dorćol to Užice, Pančevo, Sremska Mitrovica, Vršac and Podgorica; themes span authorship, materials, construction, energy efficiency, stories and interior. Agreed next steps: terrain visits, archives, interviews, e-mail inquiries and AI Studio experiments with the teams' own data. The team register (indexes, membership) is kept in the teacher's private dossier; the public record shows objects and themes only. One team presented a full question map for the Generalštab building — 86 questions in eight areas (pitanja-generalstab.html).",
+        "sr": "Konsultacije 13:15–15:45. Svaki tim doneo je prikupljeni materijal kao mapu podataka — prvi sistem među elementima: relevantnost, bitnost, tačnost, izvor, hijerarhija. Objekti se protežu od Dorćola do Užica, Pančeva, Sremske Mitrovice, Vršca i Podgorice; teme pokrivaju autorstvo, materijale, konstrukciju, energetsku efikasnost, priče i enterijer. Dogovoreni sledeći koraci: rad na terenu, arhivi, intervjui, mejlovni upiti i AI Studio eksperimenti sa sopstvenim podacima. Registar timova (indeksi, članstvo) čuva se u nastavničkom privatnom dosijeu; javni zapis pokazuje samo objekte i teme. Jedan tim prikazao je celu mapu pitanja za Generalštab — 86 pitanja u osam oblasti (pitanja-generalstab.html)."
+      },
+      "task": {
+        "en": "Review the team register and report missing information; send a pilot/preliminary digital passport (first wave, with sources) to ntunionhub@gmail.com by the next lecture; keep collecting offline in parallel (archives, interviews, companies).",
+        "sr": "Pregledajte spisak timova i prijavite nedostajuće informacije; pošaljite pilot/preliminarnu verziju digitalnog pasoša (prvi talas, sa izvorima) na ntunionhub@gmail.com do sledećeg predavanja; paralelno prikupljajte offline (arhivi, intervjui, kompanije)."
+      },
+      "link": "sledeci.html"
+    }
+  ],
+  "classQuestions": [
+    {
+      "id": "Q1",
+      "topic": "code",
+      "title": {
+        "en": "Three numbers. Four states.",
+        "sr": "Tri broja. Četiri stanja."
+      },
+      "prompt": {
+        "en": "A sum starts at 0. We add 12, then 18, then 15. What is the state immediately after the second addition?",
+        "sr": "Zbir kreće od 0. Dodajemo 12, zatim 18, pa 15. Koje je stanje odmah posle drugog sabiranja?"
+      },
+      "choices": [
+        {
+          "en": "18",
+          "sr": "18"
+        },
+        {
+          "en": "30",
+          "sr": "30"
+        },
+        {
+          "en": "45",
+          "sr": "45"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The second step starts at 12 and adds 18. The state becomes 30. The final value 45 belongs to the next step.",
+        "sr": "Drugi korak kreće od 12 i dodaje 18. Stanje postaje 30. Završnih 45 pripada sledećem koraku."
+      },
+      "transfer": {
+        "en": "Now start at 5. What changes after each step? Explain before running.",
+        "sr": "Sada kreni od 5. Šta se menja posle svakog koraka? Objasni pre pokretanja."
+      },
+      "lab": "lab/kod/index.html#loop"
+    },
+    {
+      "id": "Q2",
+      "topic": "geometry",
+      "title": {
+        "en": "Order is part of the design.",
+        "sr": "Redosled je deo projekta."
+      },
+      "prompt": {
+        "en": "Start at (1,0). Translate +4 along x, then rotate 90° counterclockwise around the origin. Where is the point?",
+        "sr": "Kreni iz (1,0). Pomeri +4 po x, pa rotiraj 90° suprotno kazaljci sata oko početka. Gde je tačka?"
+      },
+      "choices": [
+        {
+          "en": "(4,1)",
+          "sr": "(4,1)"
+        },
+        {
+          "en": "(0,5)",
+          "sr": "(0,5)"
+        },
+        {
+          "en": "(5,0)",
+          "sr": "(5,0)"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "(1,0) → (5,0) → (0,5). Reversing the operations gives (4,1). This uses mathematical x/y coordinates.",
+        "sr": "(1,0) → (5,0) → (0,5). Obrnut redosled daje (4,1). Koristimo matematičke x/y koordinate."
+      },
+      "transfer": {
+        "en": "Rotate about a different origin. Which assumption changed?",
+        "sr": "Rotiraj oko drugog početka. Koja pretpostavka se promenila?"
+      },
+      "lab": "lab/kod/index.html#transform"
+    },
+    {
+      "id": "Q3",
+      "topic": "civil",
+      "title": {
+        "en": "A billion makes the difference.",
+        "sr": "Milijarda pravi razliku."
+      },
+      "prompt": {
+        "en": "A solid wall is 4000 × 3000 × 200 mm. Its volume is…",
+        "sr": "Pun zid ima mere 4000 × 3000 × 200 mm. Njegova zapremina je…"
+      },
+      "choices": [
+        {
+          "en": "2.4 m³",
+          "sr": "2,4 m³"
+        },
+        {
+          "en": "2400 m³",
+          "sr": "2400 m³"
+        },
+        {
+          "en": "0.0024 m³",
+          "sr": "0,0024 m³"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Divide cubic millimetres by 1000³ = 1,000,000,000. Openings, layers and overlaps are not included in this rectangular model.",
+        "sr": "Kubne milimetre delimo sa 1000³ = 1.000.000.000. Otvori, slojevi i preklopi nisu deo ovog pravougaonog modela."
+      },
+      "transfer": {
+        "en": "Double only the thickness. Predict the volume, then check.",
+        "sr": "Udvostruči samo debljinu. Predvidi zapreminu pa proveri."
+      },
+      "lab": "lab/kod/index.html#walls"
+    },
+    {
+      "id": "Q4",
+      "topic": "process",
+      "title": {
+        "en": "One crane. Two ready jobs.",
+        "sr": "Jedna dizalica. Dva spremna posla."
+      },
+      "prompt": {
+        "en": "A takes 2 time units. Then B takes 3 and C takes 1. B and C require the same single crane. With no overlap, the earliest finish is…",
+        "sr": "A traje 2 jedinice vremena. Posle njega B traje 3, a C traje 1. B i C koriste istu jednu dizalicu. Bez preklapanja, najraniji kraj je…"
+      },
+      "choices": [
+        {
+          "en": "3",
+          "sr": "3"
+        },
+        {
+          "en": "5",
+          "sr": "5"
+        },
+        {
+          "en": "6",
+          "sr": "6"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A ends at 2. The crane then performs 3 + 1 units of work: finish 6. Ignoring crane capacity incorrectly allows both jobs to overlap and predicts 5.",
+        "sr": "A završava u 2. Dizalica zatim radi 3 + 1: kraj je 6. Zanemarivanje kapaciteta dozvoljava preklapanje i predviđa 5."
+      },
+      "transfer": {
+        "en": "Add a second crane. Is that the only possible bottleneck on a real site?",
+        "sr": "Dodaj drugu dizalicu. Da li je ona jedino moguće usko grlo na stvarnom gradilištu?"
+      },
+      "lab": "lab/kod/index.html#schedule"
+    },
+    {
+      "id": "Q5",
+      "topic": "history",
+      "title": {
+        "en": "Half the height is not half the work.",
+        "sr": "Pola visine nije pola posla."
+      },
+      "prompt": {
+        "en": "Our invented four-layer pyramid has 49, 25, 9 and 1 cells from bottom to top. After the bottom layer, what fraction of all cells is placed?",
+        "sr": "Naša izmišljena piramida sa četiri sloja ima 49, 25, 9 i 1 ćeliju odozdo naviše. Posle donjeg sloja, koliki deo svih ćelija je ugrađen?"
+      },
+      "choices": [
+        {
+          "en": "25%",
+          "sr": "25%"
+        },
+        {
+          "en": "About 58%",
+          "sr": "Oko 58%"
+        },
+        {
+          "en": "75%",
+          "sr": "75%"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "There are 84 cells in total. 49/84 ≈ 58.33%, but only one of four layers is complete. Cell count is not labour time. This is a teaching model, not a reconstruction of Giza.",
+        "sr": "Ukupno ima 84 ćelije. 49/84 ≈ 58,33%, ali završen je tek jedan od četiri sloja. Broj ćelija nije vreme rada. Ovo je nastavni model, ne rekonstrukcija Gize."
+      },
+      "transfer": {
+        "en": "Would every cell cost the same effort to lift? What data would we need?",
+        "sr": "Da li svaka ćelija zahteva isti napor za podizanje? Koji podaci nam nedostaju?"
+      },
+      "lab": "lab/giza/index.html"
+    },
+    {
+      "id": "Q6",
+      "topic": "data",
+      "title": {
+        "en": "A picture is not a property.",
+        "sr": "Slika nije svojstvo."
+      },
+      "prompt": {
+        "en": "A rectangular BIM object looks like a wall. Can its picture alone prove its material, fire rating or verified as-built state?",
+        "sr": "Pravougaoni BIM objekat izgleda kao zid. Može li samo slika dokazati materijal, požarnu otpornost ili potvrđeno izvedeno stanje?"
+      },
+      "choices": [
+        {
+          "en": "Yes, if the render is detailed",
+          "sr": "Da, ako je render detaljan"
+        },
+        {
+          "en": "No; we need data and evidence",
+          "sr": "Ne; potrebni su podaci i dokazi"
+        },
+        {
+          "en": "Yes, if AI recognises it",
+          "sr": "Da, ako ga AI prepozna"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Geometry, semantic class, declared property and evidence are different layers. A convincing AI answer does not supply missing measurements or provenance.",
+        "sr": "Geometrija, semantički tip, deklarisano svojstvo i dokaz su različiti slojevi. Uverljiv AI odgovor ne daje nedostajuće merenje ili poreklo."
+      },
+      "transfer": {
+        "en": "Write the three missing questions you would ask before using the value.",
+        "sr": "Napiši tri nedostajuća pitanja koja bi postavio pre upotrebe vrednosti."
+      },
+      "lab": "ideje.html#bim-evidence"
+    },
+    {
+      "id": "Q7",
+      "topic": "data",
+      "title": {
+        "en": "600 needs a context.",
+        "sr": "Broju 600 treba kontekst."
+      },
+      "prompt": {
+        "en": "A note contains only “600”. Which addition makes it a usable width record for our panel exercise?",
+        "sr": "Na papiru piše samo „600”. Koja dopuna ga čini upotrebljivim zapisom širine za naš zadatak sa panelima?"
+      },
+      "choices": [
+        {
+          "en": "A larger font and a blue rectangle",
+          "sr": "Veći font i plavi pravougaonik"
+        },
+        {
+          "en": "P1 · width · 600 mm · given in task v1",
+          "sr": "P1 · širina · 600 mm · zadato u zadatku v1"
+        },
+        {
+          "en": "600 + 600 = 1200",
+          "sr": "600 + 600 = 1200"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The ID, property, unit and origin tell us how to interpret the value. They do not establish height, material or a real measurement.",
+        "sr": "ID, svojstvo, jedinica i poreklo govore kako tumačimo vrednost. Ne utvrđuju visinu, materijal ili stvarno merenje."
+      },
+      "transfer": {
+        "en": "Receive “1.2” as a height. Ask what is missing before combining it with the width.",
+        "sr": "Dobijaš „1,2” kao visinu. Pitaj šta nedostaje pre povezivanja sa širinom."
+      },
+      "lab": "lab/dizajn/start.html#context"
+    },
+    {
+      "id": "Q8",
+      "topic": "geometry",
+      "title": {
+        "en": "Same quantities. Different facades.",
+        "sr": "Iste količine. Različite fasade."
+      },
+      "prompt": {
+        "en": "Two 2×3 grids use six 600×600 mm panels: two glass and four solid, without gaps. Do those quantities determine where the glass panels are?",
+        "sr": "Dve mreže 2×3 koriste šest panela 600×600 mm: dva staklena i četiri puna, bez razmaka. Da li te količine određuju položaje staklenih panela?"
+      },
+      "choices": [
+        {
+          "en": "Yes; equal quantities mean the same arrangement",
+          "sr": "Da; iste količine znače isti raspored"
+        },
+        {
+          "en": "Yes, if the area is calculated exactly",
+          "sr": "Da, ako je površina tačno izračunata"
+        },
+        {
+          "en": "No; positions or an arrangement rule are missing",
+          "sr": "Ne; nedostaju položaji ili pravilo rasporeda"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Both can contain 0.72 m² of glass and 1.44 m² of solid panels while placing the glass differently. A quantity total preserves amount, not layout.",
+        "sr": "Obe mogu imati 0,72 m² staklenih i 1,44 m² punih panela, a drugačije položaje stakla. Zbir čuva količinu, ne raspored."
+      },
+      "transfer": {
+        "en": "Draw two such facades: let the glass panels share an edge in only one. What extra record would distinguish them?",
+        "sr": "Nacrtaj dve takve fasade: neka stakleni paneli dele ivicu samo u jednoj. Koji dodatni zapis ih razlikuje?"
+      },
+      "lab": "lab/dizajn/start.html#representation"
+    },
+    {
+      "id": "Q9",
+      "topic": "geometry",
+      "title": {
+        "en": "Three panels. Two gaps.",
+        "sr": "Tri panela. Dva razmaka."
+      },
+      "prompt": {
+        "en": "Three panels are each 600 mm wide. Internal gaps are 20 mm; there are no outer gaps. What is the total width?",
+        "sr": "Tri panela su široka po 600 mm. Unutrašnji razmaci su 20 mm; spoljnih nema. Kolika je ukupna širina?"
+      },
+      "choices": [
+        {
+          "en": "1800 mm",
+          "sr": "1800 mm"
+        },
+        {
+          "en": "1840 mm",
+          "sr": "1840 mm"
+        },
+        {
+          "en": "1860 mm",
+          "sr": "1860 mm"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "3×600 + (3−1)×20 = 1840 mm. For n≥1, a straight row without outer gaps has n−1 internal gaps. Panel material area excludes these empty gaps.",
+        "sr": "3×600 + (3−1)×20 = 1840 mm. Za n≥1, prav red bez spoljnih razmaka ima n−1 unutrašnjih razmaka. Površina materijala panela izostavlja te praznine."
+      },
+      "transfer": {
+        "en": "Check one panel, then four. Explain why the one-panel case exposes a mistaken extra gap.",
+        "sr": "Proveri jedan panel, pa četiri. Objasni zašto slučaj jednog panela otkriva pogrešan dodatni razmak."
+      },
+      "lab": "lab/dizajn/start.html#rule"
+    },
+    {
+      "id": "Q10",
+      "topic": "data",
+      "title": {
+        "en": "A neighbour is not the next row.",
+        "sr": "Sused nije sledeći red."
+      },
+      "prompt": {
+        "en": "The spatial grid is A B C / D E F. Neighbours share an edge, not only a corner. The table lists F, A, D, C, B, E. Which panels neighbour B?",
+        "sr": "Prostorna mreža je A B C / D E F. Susedi dele ivicu, a ne samo ugao. Tabela navodi F, A, D, C, B, E. Koji paneli su susedi B?"
+      },
+      "choices": [
+        {
+          "en": "A, C and E",
+          "sr": "A, C i E"
+        },
+        {
+          "en": "C and E, because they surround B in the table",
+          "sr": "C i E, jer okružuju B u tabeli"
+        },
+        {
+          "en": "A, C, D, E and F",
+          "sr": "A, C, D, E i F"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Use spatial coordinates: one coordinate is equal and the other differs by one. A, C and E share an edge with B. Reordering table rows changes no position.",
+        "sr": "Koristi prostorne koordinate: jedna je jednaka, a druga se razlikuje za jedan. A, C i E dele ivicu sa B. Promena redosleda tabele ne menja položaje."
+      },
+      "transfer": {
+        "en": "Find E’s neighbours, then reverse the table order. Which result must stay unchanged?",
+        "sr": "Pronađi susede E, pa obrni redosled tabele. Koji rezultat mora ostati isti?"
+      },
+      "lab": "lab/dizajn/start.html#relations"
+    },
+    {
+      "id": "Q11",
+      "topic": "data",
+      "title": {
+        "en": "One panel belongs to two groups.",
+        "sr": "Jedan panel pripada dvema grupama."
+      },
+      "prompt": {
+        "en": "Group A contains P1/P2/P3; group B contains P3/P4/P5. P3 is the same physical panel. Each is 0.60×1.20 m. Counting each panel once, what is the total material area?",
+        "sr": "Grupa A sadrži P1/P2/P3; grupa B P3/P4/P5. P3 je isti fizički panel. Svaki ima 0,60×1,20 m. Ako svaki brojimo jednom, kolika je ukupna površina materijala?"
+      },
+      "choices": [
+        {
+          "en": "4.32 m²",
+          "sr": "4,32 m²"
+        },
+        {
+          "en": "2.16 m²",
+          "sr": "2,16 m²"
+        },
+        {
+          "en": "3.60 m²",
+          "sr": "3,60 m²"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "There are five distinct IDs, each with area 0.72 m². Adding two correct group subtotals counts P3 twice. We are counting panels, not the coating of both faces.",
+        "sr": "Ima pet različitih ID-jeva, svaki sa 0,72 m². Sabiranje dva tačna podzbira broji P3 dvaput. Brojimo panele, ne obloge obe strane."
+      },
+      "transfer": {
+        "en": "Only P3 becomes 1.50 m high. Predict both group subtotals and the unique total before calculating.",
+        "sr": "Samo P3 postaje visok 1,50 m. Predvidi oba podzbira i jedinstveni zbir pre računanja."
+      },
+      "lab": "lab/dizajn/start.html#system"
+    },
+    {
+      "id": "Q12",
+      "topic": "code",
+      "title": {
+        "en": "Correct execution. Sufficient model?",
+        "sr": "Tačno izvršavanje. Dovoljan model?"
+      },
+      "prompt": {
+        "en": "A program correctly reports 2.16 m² for three 600×1200 mm panels. Does this prove the model is sufficient to price the installed assembly?",
+        "sr": "Program tačno javlja 2,16 m² za tri panela 600×1200 mm. Da li to dokazuje da je model dovoljan za cenu ugrađenog sklopa?"
+      },
+      "choices": [
+        {
+          "en": "Yes; a correct calculation proves the whole model",
+          "sr": "Da; tačan račun potvrđuje ceo model"
+        },
+        {
+          "en": "No; pricing also needs relevant prices, work and other stated assumptions",
+          "sr": "Ne; za cenu su potrebne odgovarajuće cene, rad i druge navedene pretpostavke"
+        },
+        {
+          "en": "Yes, after saving and reopening the file",
+          "sr": "Da, posle čuvanja i ponovnog otvaranja fajla"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Executing the stated area rule correctly is one check. Whether that rule and its inputs answer a pricing question is another. Saving a file does not supply missing evidence.",
+        "sr": "Tačno izvođenje zadatog pravila površine je jedna provera. Da li pravilo i ulazi odgovaraju na pitanje cene, druga je provera. Čuvanje fajla ne daje nedostajuće dokaze."
+      },
+      "transfer": {
+        "en": "Choose one new question about the assembly. Name one necessary input and one result the current model cannot establish.",
+        "sr": "Izaberi novo pitanje o sklopu. Navedi jedan potreban ulaz i jedan rezultat koji sadašnji model ne može da utvrdi."
+      },
+      "lab": "lab/dizajn/start.html#system"
+    }
+  ],
+  "foundations": [
+    {
+      "id": "00",
+      "tag": "data",
+      "title": {
+        "en": "Object → passport",
+        "sr": "Objekat → pasoš"
+      },
+      "description": {
+        "en": "Before any file, a real building already carries a story: material, origin, builders. A digital passport decides what of that story survives.",
+        "sr": "Pre svakog fajla, stvarna zgrada već nosi priču: materijal, poreklo, graditelje. Digitalni pasoš odlučuje šta od te priče opstaje."
+      }
+    },
+    {
+      "id": "01",
+      "tag": "code",
+      "title": {
+        "en": "Bits → meaning",
+        "sr": "Bitovi → značenje"
+      },
+      "description": {
+        "en": "Files are agreements about how to read a sequence.",
+        "sr": "Fajl je dogovor o čitanju niza."
+      }
+    },
+    {
+      "id": "02",
+      "tag": "code",
+      "title": {
+        "en": "Algorithm → trace",
+        "sr": "Algoritam → trag"
+      },
+      "description": {
+        "en": "Name inputs, steps, outputs and stopping conditions.",
+        "sr": "Imenuj ulaz, korake, izlaz i uslov zaustavljanja."
+      }
+    },
+    {
+      "id": "03",
+      "tag": "geometry",
+      "title": {
+        "en": "Rule → geometry",
+        "sr": "Pravilo → geometrija"
+      },
+      "description": {
+        "en": "Coordinates, repetition, transformation and resolution.",
+        "sr": "Koordinate, ponavljanje, transformacija i rezolucija."
+      }
+    },
+    {
+      "id": "04",
+      "tag": "data",
+      "title": {
+        "en": "Object → information",
+        "sr": "Objekat → informacija"
+      },
+      "description": {
+        "en": "Identity, units, relationships and BIM semantics.",
+        "sr": "Identitet, jedinice, veze i BIM značenje."
+      }
+    },
+    {
+      "id": "05",
+      "tag": "ai",
+      "title": {
+        "en": "Model → prediction",
+        "sr": "Model → predviđanje"
+      },
+      "description": {
+        "en": "Assumptions, simulation and checking an AI proposal.",
+        "sr": "Pretpostavke, simulacija i provera AI predloga."
+      }
+    },
+    {
+      "id": "06",
+      "tag": "process",
+      "title": {
+        "en": "Condition → state",
+        "sr": "Uslov → stanje"
+      },
+      "description": {
+        "en": "What is allowed now, and what changes next?",
+        "sr": "Šta je sada dozvoljeno i šta se sledeće menja?"
+      }
+    },
+    {
+      "id": "07",
+      "tag": "process",
+      "title": {
+        "en": "Graph → process",
+        "sr": "Graf → proces"
+      },
+      "description": {
+        "en": "Paths, dependencies, waiting and shared resources.",
+        "sr": "Putevi, zavisnosti, čekanje i zajednički resursi."
+      }
+    },
+    {
+      "id": "08",
+      "tag": "geometry",
+      "title": {
+        "en": "Shape → algorithm",
+        "sr": "Oblik → algoritam"
+      },
+      "description": {
+        "en": "A boundary, a subdivision, a packing problem.",
+        "sr": "Granica, podela i problem raspoređivanja."
+      }
+    },
+    {
+      "id": "09",
+      "tag": "civil",
+      "title": {
+        "en": "Equation → number",
+        "sr": "Jednačina → broj"
+      },
+      "description": {
+        "en": "Numerical precision and the limits of a structural model.",
+        "sr": "Numerička preciznost i granice modela konstrukcije."
+      }
+    },
+    {
+      "id": "10",
+      "tag": "data",
+      "title": {
+        "en": "Scale → cost",
+        "sr": "Obim → trošak"
+      },
+      "description": {
+        "en": "Data size, complexity, approximation and uncertainty.",
+        "sr": "Veličina podataka, složenost, aproksimacija i neizvesnost."
+      }
+    }
+  ],
+  "learningPath": [
+    {
+      "id": "context",
+      "title": {
+        "en": "A record needs context",
+        "sr": "Zapisu treba kontekst"
+      },
+      "question": {
+        "en": "600 what, for which object, and from where?",
+        "sr": "600 čega, za koji predmet i iz kog izvora?"
+      },
+      "action": {
+        "en": "Turn one number into an identified value with a unit and origin.",
+        "sr": "Poveži broj sa predmetom, jedinicom i poreklom."
+      },
+      "href": "lab/dizajn/start.html#context",
+      "concept": {
+        "en": "Data, meaning and provenance",
+        "sr": "Podatak, značenje i poreklo"
+      }
+    },
+    {
+      "id": "representation",
+      "title": {
+        "en": "One object, different views",
+        "sr": "Jedan predmet, različiti prikazi"
+      },
+      "question": {
+        "en": "Can the same quantities describe two different facades?",
+        "sr": "Mogu li iste količine opisati dve različite fasade?"
+      },
+      "action": {
+        "en": "Match a panel in the drawing and table; name what a quantity total omits.",
+        "sr": "Poveži panel u crtežu i tabeli; imenuj šta zbir količina izostavlja."
+      },
+      "href": "lab/dizajn/start.html#representation",
+      "concept": {
+        "en": "Representation and information loss",
+        "sr": "Predstava i gubitak informacije"
+      }
+    },
+    {
+      "id": "relations",
+      "title": {
+        "en": "A neighbour is a relationship",
+        "sr": "Susedstvo je odnos"
+      },
+      "question": {
+        "en": "Does changing table order change spatial neighbours?",
+        "sr": "Da li promena redosleda tabele menja prostorne susede?"
+      },
+      "action": {
+        "en": "Use IDs and coordinates to find shared edges, then reorder the records.",
+        "sr": "Pronađi zajedničke ivice pomoću ID-jeva i koordinata, pa promeni redosled zapisa."
+      },
+      "href": "lab/dizajn/start.html#relations",
+      "concept": {
+        "en": "Identity, relations and invariants",
+        "sr": "Identitet, odnosi i nepromenljive osobine"
+      }
+    },
+    {
+      "id": "rule",
+      "title": {
+        "en": "Count before you calculate",
+        "sr": "Prebroj pre računa"
+      },
+      "question": {
+        "en": "Why do three panels have only two internal gaps?",
+        "sr": "Zašto tri panela imaju samo dva unutrašnja razmaka?"
+      },
+      "action": {
+        "en": "Predict the width, write a rule and check one panel before changing the count.",
+        "sr": "Predvidi širinu, zapiši pravilo i proveri jedan panel pre promene broja."
+      },
+      "href": "lab/dizajn/start.html#rule",
+      "concept": {
+        "en": "A rule, its domain and an edge case",
+        "sr": "Pravilo, njegov domen i granični slučaj"
+      }
+    },
+    {
+      "id": "code",
+      "title": {
+        "en": "Follow an execution",
+        "sr": "Prati izvršavanje"
+      },
+      "question": {
+        "en": "Which value changes at this step, and which stays the same?",
+        "sr": "Koja vrednost se menja u ovom koraku, a koja ostaje ista?"
+      },
+      "action": {
+        "en": "Connect an instruction to its inputs, state and visible consequence.",
+        "sr": "Poveži naredbu sa njenim ulazima, stanjem i vidljivom posledicom."
+      },
+      "href": "lab/dizajn/start.html#code",
+      "concept": {
+        "en": "Algorithm, program and state",
+        "sr": "Algoritam, program i stanje"
+      }
+    },
+    {
+      "id": "system",
+      "title": {
+        "en": "A change reaches the whole",
+        "sr": "Promena stiže do celine"
+      },
+      "question": {
+        "en": "What changes when two groups refer to the same panel?",
+        "sr": "Šta se menja kada dve grupe upućuju na isti panel?"
+      },
+      "action": {
+        "en": "Trace shared IDs, check the whole, save a local version and try another case.",
+        "sr": "Prati zajedničke ID-jeve, proveri celinu, sačuvaj lokalnu verziju i probaj drugi slučaj."
+      },
+      "href": "lab/dizajn/start.html#system",
+      "concept": {
+        "en": "Dependencies, model limits and transfer",
+        "sr": "Zavisnosti, granice modela i prenos"
+      }
+    }
+  ]
+}

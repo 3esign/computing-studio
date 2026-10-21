@@ -1,0 +1,359 @@
+{
+  "schema": 1,
+  "updated": "2026-10-06",
+  "note": {
+    "en": "Declared vocabulary of the course. Every tag used in course.json, labs.json, sources.json and ideas.json must appear here. The lists are open: a new entry is added with a reason, nothing is deleted.",
+    "sr": "Deklarisani rečnik predmeta. Svaki tag upotrebljen u course.json, labs.json, sources.json i ideas.json mora da stoji ovde. Liste su otvorene: novi unos ulazi sa razlogom, ništa se ne briše."
+  },
+  "facets": [
+    {
+      "id": "data",
+      "label": {
+        "en": "Data",
+        "sr": "Podatak"
+      },
+      "scope": {
+        "en": "Records, formats, structure, metadata, provenance.",
+        "sr": "Zapisi, formati, struktura, metapodaci, poreklo."
+      }
+    },
+    {
+      "id": "code",
+      "label": {
+        "en": "Code",
+        "sr": "Kod"
+      },
+      "scope": {
+        "en": "Instructions, loops, rules executed by a machine.",
+        "sr": "Instrukcije, petlje, pravila koja mašina izvršava."
+      }
+    },
+    {
+      "id": "geometry",
+      "label": {
+        "en": "Geometry",
+        "sr": "Geometrija"
+      },
+      "scope": {
+        "en": "Shape, measure, mesh, transformation, projection.",
+        "sr": "Oblik, mera, mreža, transformacija, projekcija."
+      }
+    },
+    {
+      "id": "design",
+      "label": {
+        "en": "Design",
+        "sr": "Dizajn"
+      },
+      "scope": {
+        "en": "Representation, decision, composition, intent.",
+        "sr": "Prikaz, odluka, kompozicija, namera."
+      }
+    },
+    {
+      "id": "architecture",
+      "label": {
+        "en": "Architecture",
+        "sr": "Arhitektura"
+      },
+      "scope": {
+        "en": "Space, programme, building as a cultural object.",
+        "sr": "Prostor, program, objekat kao kulturna činjenica."
+      }
+    },
+    {
+      "id": "civil",
+      "label": {
+        "en": "Civil engineering",
+        "sr": "Građevina"
+      },
+      "scope": {
+        "en": "Structure, load, element, construction technology.",
+        "sr": "Konstrukcija, opterećenje, element, tehnologija građenja."
+      }
+    },
+    {
+      "id": "making",
+      "label": {
+        "en": "Making",
+        "sr": "Izrada"
+      },
+      "scope": {
+        "en": "Machine, toolpath, fabrication, prototype.",
+        "sr": "Mašina, putanja alata, izrada, prototip."
+      }
+    },
+    {
+      "id": "process",
+      "label": {
+        "en": "Process",
+        "sr": "Proces"
+      },
+      "scope": {
+        "en": "Sequence, state, queue, scheduling, workflow.",
+        "sr": "Redosled, stanje, red, raspored, tok rada."
+      }
+    },
+    {
+      "id": "history",
+      "label": {
+        "en": "History",
+        "sr": "Istorija"
+      },
+      "scope": {
+        "en": "Earlier practice, archive, change over time.",
+        "sr": "Ranija praksa, arhiva, promena kroz vreme."
+      }
+    },
+    {
+      "id": "learning",
+      "label": {
+        "en": "Learning",
+        "sr": "Učenje"
+      },
+      "scope": {
+        "en": "How the subject is taught, checked and transferred.",
+        "sr": "Kako se predmet uči, proverava i prenosi."
+      }
+    },
+    {
+      "id": "ai",
+      "label": {
+        "en": "AI",
+        "sr": "Veštačka inteligencija"
+      },
+      "scope": {
+        "en": "Model, inference, generated content and its limits.",
+        "sr": "Model, zaključivanje, generisani sadržaj i njegove granice."
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "story",
+      "label": {
+        "en": "Story and memory",
+        "sr": "Priča i sećanje"
+      },
+      "scope": {
+        "en": "Tales, songs, myths, legends, testimony, public memory.",
+        "sr": "Priče, pesme, mitovi, legende, svedočenja, javno sećanje."
+      },
+      "facets": [
+        "history",
+        "architecture"
+      ]
+    },
+    {
+      "id": "symbol",
+      "label": {
+        "en": "Symbol and meaning",
+        "sr": "Simbol i značenje"
+      },
+      "scope": {
+        "en": "Iconography, facade, ornament, political and cultural message.",
+        "sr": "Ikonografija, fasada, ornament, politička i kulturna poruka."
+      },
+      "facets": [
+        "architecture",
+        "design"
+      ]
+    },
+    {
+      "id": "authorship",
+      "label": {
+        "en": "Authorship and project",
+        "sr": "Autorstvo i projekat"
+      },
+      "scope": {
+        "en": "Architects, engineers, competitions, project versions.",
+        "sr": "Arhitekte, inženjeri, konkursi, verzije projekta."
+      },
+      "facets": [
+        "design",
+        "history"
+      ]
+    },
+    {
+      "id": "change",
+      "label": {
+        "en": "Change and controversy",
+        "sr": "Izmene i kontroverze"
+      },
+      "scope": {
+        "en": "Revisions, disputes, demolition and reconstruction.",
+        "sr": "Izmene, sporovi, rušenje i rekonstrukcija."
+      },
+      "facets": [
+        "history",
+        "process"
+      ]
+    },
+    {
+      "id": "construction",
+      "label": {
+        "en": "Construction",
+        "sr": "Građenje"
+      },
+      "scope": {
+        "en": "Order of works, site organisation, labour.",
+        "sr": "Tok radova, organizacija gradilišta, radna snaga."
+      },
+      "facets": [
+        "civil",
+        "process"
+      ]
+    },
+    {
+      "id": "technique",
+      "label": {
+        "en": "Technique and machines",
+        "sr": "Tehnike i mašine"
+      },
+      "scope": {
+        "en": "Tools, machines, methods of work.",
+        "sr": "Alati, mašine, načini rada."
+      },
+      "facets": [
+        "making",
+        "civil"
+      ]
+    },
+    {
+      "id": "material",
+      "label": {
+        "en": "Material and origin",
+        "sr": "Materijal i poreklo"
+      },
+      "scope": {
+        "en": "What is built in, from where, in what quantity, how installed.",
+        "sr": "Šta je ugrađeno, odakle, u kojoj količini, kako je ugrađeno."
+      },
+      "facets": [
+        "civil",
+        "data",
+        "history"
+      ]
+    },
+    {
+      "id": "energy",
+      "label": {
+        "en": "Energy and operation",
+        "sr": "Energija i rad objekta"
+      },
+      "scope": {
+        "en": "Envelope, orientation, consumption, systems, maintenance.",
+        "sr": "Omotač, orijentacija, potrošnja, sistemi, održavanje."
+      },
+      "facets": [
+        "civil",
+        "process"
+      ]
+    },
+    {
+      "id": "condition",
+      "label": {
+        "en": "Condition and quality",
+        "sr": "Stanje i kvalitet"
+      },
+      "scope": {
+        "en": "Damage, repair, measured state, remaining service life.",
+        "sr": "Oštećenja, popravke, izmereno stanje, preostali vek."
+      },
+      "facets": [
+        "civil",
+        "data"
+      ]
+    }
+  ],
+  "claimKinds": [
+    {
+      "id": "fact",
+      "label": {
+        "en": "Technical fact",
+        "sr": "Tehnička činjenica"
+      },
+      "needs": {
+        "en": "Document, drawing, minutes, dated photograph or expert finding.",
+        "sr": "Dokument, crtež, zapisnik, datirana fotografija ili stručni nalaz."
+      }
+    },
+    {
+      "id": "measurement",
+      "label": {
+        "en": "Observation or measurement",
+        "sr": "Posmatranje ili merenje"
+      },
+      "needs": {
+        "en": "Date, place, method, who measured, instrument or photograph.",
+        "sr": "Datum, mesto, metod, ko je merio, instrument ili fotografija."
+      }
+    },
+    {
+      "id": "testimony",
+      "label": {
+        "en": "Testimony",
+        "sr": "Svedočenje"
+      },
+      "needs": {
+        "en": "Who says it, when, in what capacity. A trace, not yet a fact.",
+        "sr": "Ko tvrdi, kada, u kom svojstvu. Trag, još ne činjenica."
+      }
+    },
+    {
+      "id": "interpretation",
+      "label": {
+        "en": "Cultural interpretation",
+        "sr": "Kulturna interpretacija"
+      },
+      "needs": {
+        "en": "Who interprets it so, where published. Documented, not verified.",
+        "sr": "Ko tako tumači i gde je objavljeno. Dokumentuje se, ne proverava se isto."
+      }
+    }
+  ],
+  "claimStatus": [
+    {
+      "id": "confirmed",
+      "label": {
+        "en": "Confirmed",
+        "sr": "Potvrđeno"
+      }
+    },
+    {
+      "id": "single-source",
+      "label": {
+        "en": "One source only",
+        "sr": "Samo jedan izvor"
+      }
+    },
+    {
+      "id": "conflicting",
+      "label": {
+        "en": "Sources conflict",
+        "sr": "Izvori u sukobu"
+      }
+    },
+    {
+      "id": "probable",
+      "label": {
+        "en": "Probable",
+        "sr": "Verovatno"
+      }
+    },
+    {
+      "id": "unconfirmed",
+      "label": {
+        "en": "Unconfirmed",
+        "sr": "Nepotvrđeno"
+      }
+    },
+    {
+      "id": "unknown",
+      "label": {
+        "en": "Unknown",
+        "sr": "Nepoznato"
+      }
+    }
+  ]
+}

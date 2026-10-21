@@ -1,0 +1,58 @@
+{
+  "schema": 2,
+  "generated": "2026-10-06T17:05:00Z",
+  "object": "OBJ-001",
+  "module": "docs/film/pasos/film.js",
+  "film": {
+    "duration_s": 161,
+    "frames": 4025,
+    "fps": 25,
+    "size": "1920x1080",
+    "scenes": 9
+  },
+  "record": {
+    "claims": 18,
+    "sources": 7,
+    "timeline": 10,
+    "places": 6,
+    "counts": {
+      "confirmed": 6,
+      "unknown": 6,
+      "conflicting": 2,
+      "single-source": 3,
+      "unconfirmed": 1
+    }
+  },
+  "checks": [
+    {
+      "name": "node dokazi/film.test.js",
+      "pass": true,
+      "value": "32 PASS, 0 FAIL"
+    },
+    {
+      "name": "node tools/film_render.cjs --layout",
+      "pass": true,
+      "value": "0 findings on 805 samples (every 0.2 s), real font metrics"
+    },
+    {
+      "name": "node tools/film_render.cjs --check",
+      "pass": true,
+      "value": "frame 1489 rendered twice, identical bytes"
+    },
+    {
+      "name": "ffprobe objekat-001.mp4",
+      "pass": true,
+      "value": "4025 frames, 161.000 s, 1920x1080, 25 fps, h264 yuv420p; video stream MD5 f620bc24a98e6521d94f30c89420f019 (ffmpeg -map 0:v -c copy -f md5), identical after transfer to the PC"
+    },
+    {
+      "name": "player page in headless Chromium",
+      "pass": true,
+      "value": "1440 px and 390 px: plays at 25 fps, scene jump, language switch, no console errors, no horizontal scroll"
+    }
+  ],
+  "not_checked": [
+    "playback on a physical phone",
+    "S1 (sr Wikipedia) could not be opened on 6 October 2026"
+  ],
+  "pass": true
+}

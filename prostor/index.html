@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0d10"><meta name="description" content="Object 001 in space: a 3D passport of the Old Sava Bridge that is drawn only where a named source carries it. Pick up a source and part of the object appears; put it down and the line goes out. Six parts can never be lit."><title>Object 001 in space · Computing Studio</title><link rel="icon" href="../assets/mark.svg" type="image/svg+xml"><link rel="manifest" href="../manifest.webmanifest"><link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="prostor.css"><script src="../assets/app.js" defer></script><script src="model.js" defer></script><script src="prostor.js" defer></script></head>
+<body data-view="passport" class="prostor-page">
+<a class="skip" href="#main">Skip to content / Preskoči na sadržaj</a>
+<header class="site-header"><a class="brand" href="../index.html" aria-label="Computing Studio home"><b>OR<span>↗</span></b><span>COMPUTING<br>STUDIO</span></a><nav aria-label="Main navigation"><a class="nav-begin" href="../lab/dizajn/start.html"><span data-en="Begin" data-sr="Počni">Begin</span></a><a href="../index.html"><span data-en="Studio" data-sr="Studio">Studio</span></a><a href="../cas.html"><span data-en="In class" data-sr="Na času">In class</span></a><a href="../lab.html" aria-current="page"><span data-en="Instruments" data-sr="Instrumenti">Instruments</span></a><a href="../ideje.html"><span data-en="Idea cloud" data-sr="Oblak ideja">Idea cloud</span></a><a href="../biblioteka.html"><span data-en="Sources" data-sr="Izvori">Sources</span></a></nav><button id="language" class="language" type="button" aria-label="Switch to Serbian">SR</button></header>
+
+<main id="main" tabindex="-1">
+
+<div class="page-heading compact">
+  <p class="eyebrow">OBJECT 001 / <span data-en="THE PASSPORT IN SPACE" data-sr="PASOŠ U PROSTORU">THE PASSPORT IN SPACE</span></p>
+  <h1><span data-en="An object appears only where a source carries it" data-sr="Objekat postoji samo tamo gde ga izvor nosi">An object appears only where a source carries it</span></h1>
+  <p class="lede"><span data-en="The Old Sava Bridge, drawn out of the dark by its own record. Take up a source and the parts it carries appear. Put it down and they go out. Where two sources disagree you get two objects at once, and where the current record has no answer you get a marked void until new evidence is added." data-sr="Stari savski most, izvučen iz mraka sopstvenim zapisom. Uzmi izvor i pojaviće se delovi koje on nosi. Spusti ga i gase se. Tamo gde se dva izvora ne slažu dobijaš dva objekta odjednom, a tamo gde trenutni zapis nema odgovor ostaje obeležena šupljina dok se ne doda nov dokaz.">The Old Sava Bridge, drawn out of the dark by its own record. Take up a source and the parts it carries appear. Put it down and they go out. Where two sources disagree you get two objects at once, and where the current record has no answer you get a marked void until new evidence is added.</span></p>
+</div>
+
+<p class="sr-only" id="announce" aria-live="polite"></p>
+
+<section class="pr">
+
+  <!-- ============================================================ stage -->
+  <div class="pr-stage-wrap">
+    <div id="stage" class="pr-stage" tabindex="0" role="application"
+         aria-roledescription="3D model"
+         aria-describedby="stage-help">
+      <canvas id="gl" aria-hidden="true"></canvas>
+      <div id="overlay" class="pr-overlay" aria-hidden="true"></div>
+
+      <div class="pr-stamp">
+        <b>SHEMA / SCHEMATIC</b>
+        <span data-en="Not a survey. Length claims remain separate. The largest reported length only frames schematic decks and piers; it is not a chosen true length. Other drawing proportions are listed below." data-sr="Nije geodetski snimak. Navodi dužine ostaju odvojeni. Najveći navod samo uokviruje shematski kolovoz i stubove; nije izabrana istinita dužina. Ostale proporcije crteža su popisane ispod.">Not a survey. Length claims remain separate; the largest only frames illustrative parts.</span>
+      </div>
+
+      <div id="views" class="pr-views" role="group" aria-label="Scene">
+        <button type="button" data-view="object" aria-pressed="true"><span data-en="Object" data-sr="Objekat">Object</span></button>
+        <button type="button" data-view="route" aria-pressed="false"><span data-en="Route" data-sr="Putanja">Route</span></button>
+        <button type="button" data-view="time" aria-pressed="false"><span data-en="Time" data-sr="Vreme">Time</span></button>
+      </div>
+
+      <p id="dark-hint" class="pr-darkhint" hidden><b data-en="Dark." data-sr="Mrak.">Dark.</b> <span data-en="Nothing here is carried by anything yet. The four cages are the questions no source in this passport answers — they are known before the object is. Take up a source on the right." data-sr="Zasad ništa ovde ništa ne nosi. Četiri kaveza su pitanja na koja nijedan izvor u ovom pasošu ne odgovara — ona se znaju pre objekta. Uzmi izvor desno.">Nothing here is carried by anything yet.</span></p>
+
+      <p id="gl-note" class="pr-glnote"></p>
+
+      <div class="pr-foot">
+        <p id="view-note" class="pr-viewnote"></p>
+        <div class="pr-cov">
+          <div id="cov-bar" class="pr-covbar" aria-hidden="true"></div>
+          <p id="cov-text" class="pr-covtext"></p>
+        </div>
+      </div>
+    </div>
+
+    <p id="stage-help" class="pr-help">
+      <span data-en="Drag to orbit, wheel or pinch to zoom. With the scene focused: arrow keys orbit, plus and minus zoom, Home resets. Everything the scene shows is also written out below, so the keyboard and a screen reader never need the canvas." data-sr="Prevuci za obilazak, točkić ili štipanje za uvećanje. Kad je scena u fokusu: strelice obilaze, plus i minus uvećavaju, Home vraća pogled. Sve što scena pokazuje ispisano je i ispod, pa tastaturi i čitaču ekrana platno nikada nije potrebno.">Drag to orbit, wheel or pinch to zoom.</span>
+    </p>
+
+    <noscript><p class="pr-nojs">The interactive scene and its text need JavaScript. Read all claims and sources in the <a href="../data/pasos/objekat-001-savski-most.json">source JSON</a>. · Interaktivna scena i njen tekst zahtevaju JavaScript; sve tvrdnje i izvori dostupni su u izvornom JSON zapisu.</p></noscript>
+  </div>
+
+  <!-- ============================================================= side -->
+  <div class="pr-side">
+
+    <div class="pr-object">
+      <h2 id="obj-name"></h2>
+      <p class="pr-life"><span id="obj-life"></span> · <span data-en="passport updated" data-sr="pasoš ažuriran">passport updated</span> <span id="obj-updated"></span></p>
+      <p class="pr-scope" id="obj-scope"></p>
+    </div>
+
+    <p class="pr-sub"><a href="../pasos.html"><span data-en="Read and filter the digital passport →" data-sr="Pročitaj i filtriraj digitalni pasoš →">Read and filter the digital passport →</span></a></p>
+    <h2 class="pr-h"><span data-en="Evidence in hand" data-sr="Izvori u ruci">Evidence in hand</span></h2>
+    <p class="pr-sub"><span data-en="Choose sources from this record. Each one lights the parts of the object it carries, and only those." data-sr="Izaberi izvore iz ovog zapisa. Svaki pali one delove objekta koje nosi, i samo njih.">Choose sources from this record.</span></p>
+    <div id="rack" class="pr-rack" role="group" aria-label="Sources"></div>
+    <div class="pr-acts">
+      <button id="reveal" class="button primary" type="button"><span data-en="Reveal, one source at a time" data-sr="Otkrivaj, izvor po izvor">Reveal, one source at a time</span></button>
+      <button id="all" class="button" type="button"><span data-en="Take all" data-sr="Uzmi sve">Take all</span></button>
+      <button id="clear" class="button" type="button"><span data-en="Put all down" data-sr="Spusti sve">Put all down</span></button>
+    </div>
+
+    <div id="read" class="pr-read" aria-live="polite"></div>
+
+    <h2 class="pr-h"><span data-en="The record, part by part" data-sr="Zapis, deo po deo">The record, part by part</span></h2>
+    <p class="pr-sub"><span data-en="Twenty-one parts across six lanes, every one of them a claim from the passport. Six can never be lit." data-sr="Dvadeset jedan deo u šest traka, svaki je tvrdnja iz pasoša. Šest nikada ne može da zasvetli.">Twenty-one parts.</span></p>
+    <div id="parts" class="pr-parts"></div>
+  </div>
+</section>
+
+<!-- ======================================================== the limits -->
+<section class="section pr-limits">
+  <h2><span data-en="What this drawing is not" data-sr="Šta ovaj crtež nije">What this drawing is not</span></h2>
+  <div class="two-col">
+    <div>
+      <h3><span data-en="Declared proportions" data-sr="Deklarisane proporcije">Declared proportions</span></h3>
+      <p><span data-en="Numbers the drawing needs and no source gives. They are chosen, written down here, and must never be read off the screen as measurements." data-sr="Brojevi koji crtežu trebaju, a nijedan izvor ih ne daje. Izabrani su, ovde su zapisani, i sa ekrana se nikada ne smeju očitati kao mere.">Numbers the drawing needs and no source gives.</span></p>
+      <ul id="proportions" class="pr-props"></ul>
+    </div>
+    <div>
+      <h3><span data-en="What the passport itself says about position" data-sr="Šta sam pasoš kaže o položaju">What the passport itself says about position</span></h3>
+      <p class="pr-quote" id="coord-note"></p>
+      <p class="pr-quote" id="line-note"></p>
+      <h3><span data-en="The honest reading" data-sr="Pošteno čitanje">The honest reading</span></h3>
+      <p><span data-en="Pick up only the two encyclopaedia entries and most of the object still appears. That is not a success; it is a measurement of how much of a public building rests on one kind of source. The parts that stay dark under every source in hand are where the semester's work actually is." data-sr="Uzmi samo dva enciklopedijska zapisa i najveći deo objekta ipak se pojavi. To nije uspeh nego mera koliko jedna javna građevina stoji na jednoj vrsti izvora. Delovi koji ostanu tamni i kad su svi izvori u ruci su mesto gde je stvarni rad semestra.">Pick up only the two encyclopaedia entries and most of the object still appears.</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== the way back -->
+<section class="section pr-path">
+  <h2><span data-en="Where this sits in the course" data-sr="Gde ovo stoji u predmetu">Where this sits in the course</span></h2>
+  <div class="lab-grid">
+    <a class="lab-card" href="../index.html">
+      <span class="card-num">00 / DATA</span>
+      <h2><span data-en="The digital passport" data-sr="Digitalni pasoš">The digital passport</span></h2>
+      <p><span data-en="The semester theme, the three phases, and where the work stands now." data-sr="Tema semestra, tri faze i gde rad sada stoji.">The semester theme.</span></p>
+      <span class="card-bottom">EN / SR <b>↗</b></span>
+    </a>
+    <a class="lab-card" href="../lab/pasos/index.html">
+      <span class="card-num">09 / DATA</span>
+      <h2><span data-en="What does the city know?" data-sr="Šta grad zna?">What does the city know?</span></h2>
+      <p><span data-en="The pilot map: five objects, the same eighteen questions, and which sources answer them." data-sr="Pilot mapa: pet objekata, istih osamnaest pitanja, i koji izvori na njih odgovaraju.">The pilot map.</span></p>
+      <span class="card-bottom">EN / SR <b>↗</b></span>
+    </a>
+    <a class="lab-card" href="../film/pasos/index.html">
+      <span class="card-num">FILM / DATA</span>
+      <h2><span data-en="How an object becomes visible" data-sr="Kako objekat postaje vidljiv">How an object becomes visible</span></h2>
+      <p><span data-en="The same record read as a silent film: nine scenes drawn from this passport." data-sr="Isti zapis pročitan kao nemi film: devet scena nacrtanih iz ovog pasoša.">The same record as a film.</span></p>
+      <span class="card-bottom">EN / SR <b>↗</b></span>
+    </a>
+  </div>
+  <p class="pr-cloud"><span data-en="Everything the course did before the passport became the theme is kept and reachable: " data-sr="Sve što je predmet radio pre nego što je pasoš postao tema čuva se i dostupno je: ">Everything before the passport is kept: </span><a href="../ideje.html?tag=data"><span data-en="Idea cloud" data-sr="Oblak ideja">Idea cloud</span></a> · <a href="../biblioteka.html"><span data-en="Sources" data-sr="Izvori">Sources</span></a> · <a href="../lab.html"><span data-en="Nine instruments" data-sr="Devet instrumenata">Nine instruments</span></a> · <a href="../program.html"><span data-en="Programme" data-sr="Program">Programme</span></a></p>
+</section>
+
+</main>
+
+<footer class="site-footer"><div><strong>COMPUTING STUDIO</strong><p><span data-en="Object 001 in space is drawn from docs/data/pasos/objekat-001-savski-most.json. Nothing on this page is drawn from memory: if the record does not carry it, it is not here." data-sr="Objekat 001 u prostoru crta se iz docs/data/pasos/objekat-001-savski-most.json. Ništa na ovoj strani nije nacrtano po sećanju: ako to zapis ne nosi, ovde ga nema.">Drawn from the passport record.</span></p></div><div class="footer-links"><a href="../index.html"><span data-en="Studio" data-sr="Studio">Studio</span></a><a href="../lab.html"><span data-en="Instruments" data-sr="Instrumenti">Instruments</span></a><a href="../ideje.html"><span data-en="Idea cloud" data-sr="Oblak ideja">Idea cloud</span></a><a href="../biblioteka.html"><span data-en="Sources" data-sr="Izvori">Sources</span></a></div></footer>
+<nav class="mobile-nav" aria-label="Mobile"><a href="../index.html"><span data-en="Studio" data-sr="Studio">Studio</span></a><a href="../cas.html"><span data-en="Class" data-sr="Čas">Class</span></a><a href="../lab.html"><span data-en="Instruments" data-sr="Alati">Instruments</span></a><a href="../ideje.html"><span data-en="Ideas" data-sr="Ideje">Ideas</span></a></nav>
+</body>
+</html>
