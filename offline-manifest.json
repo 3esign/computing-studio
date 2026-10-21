@@ -1,6 +1,6 @@
 {
-  "version": "b210e8e13409dde1",
-  "bytes": 6474533,
+  "version": "3085c0e9eadb57d7",
+  "bytes": 6658488,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -92,6 +92,7 @@
     "svet/data/index.json",
     "svet/data/pasosi.json",
     "svet/data/revisions/index.json",
+    "svet/data/revisions/r-03fa28a595a6b693.json",
     "svet/data/revisions/r-36d190eaa2e0452b.json",
     "svet/data/revisions/r-45d8d6d91e28009f.json",
     "svet/data/revisions/r-501732fc64a8696d.json",

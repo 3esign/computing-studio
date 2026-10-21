@@ -9,9 +9,19 @@
     at the same coordinate. Building identity is the folded object name, so the
     id survives team renumbering and later enrolments. */
  function key32(s){let h=0x811c9dc5;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,0x01000193)>>>0}return h.toString(16).padStart(8,'0')}
+ // Explicit name equivalences, not proximity guesses. Team/topic suffixes are not buildings.
+ const objectAliases=new Map([
+ ['Geneks kula (Zapadna kapija Beograda)','Geneks kula'],
+ ['Geneks kula (Zapadna kapija)','Geneks kula'],
+ ['Sava Centar (tim 2)','Sava Centar'],
+ ['Zgrada rektorata (Kapetan Mišino zdanje)','Kapetan Mišino zdanje'],
+ ['Palata Beograd (Beograđanka) (tim 4)','Palata Beograd (Beograđanka)'],
+ ['Palata Beograd (Beograđanka) — projektovanje i statika','Palata Beograd (Beograđanka)']
+ ].map(([alias,name])=>[fold(alias),name]));
+ const canonicalObject=name=>objectAliases.get(fold(name))||name;
  function buildings(data){const groups=new Map();
-   for(const t of [...data.teams].sort((a,b)=>a.id.localeCompare(b.id))){const name=fold(t.object);if(!name)continue;const id='B'+key32(name);
-     if(!groups.has(id))groups.set(id,{id,object:t.object,key:name,teams:[]});
+   for(const t of [...data.teams].sort((a,b)=>a.id.localeCompare(b.id))){const object=canonicalObject(t.object),name=fold(object);if(!name)continue;const id='B'+key32(name);
+     if(!groups.has(id))groups.set(id,{id,object,key:name,teams:[]});
      const g=groups.get(id);if(g.key!==name)throw Error('Building id collision '+id);g.teams.push(t.id)}
    return [...groups.values()]}
  /* How far a team's own structure reaches from its centre. */
@@ -128,5 +138,5 @@
    }
    return models;
  }
- return {VERSION,allocate,compile,unknown,buildings,wings,footprint,teamTint,tintCss};
+ return {VERSION,allocate,compile,unknown,buildings,wings,footprint,teamTint,tintCss,canonicalObject};
 });

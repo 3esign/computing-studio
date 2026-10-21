@@ -1002,7 +1002,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B0767d950"
+      "building": "Ba8b77242"
     },
     {
       "id": "T32",
@@ -1115,7 +1115,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "Bc53dfbb9"
+      "building": "B2a7ecb59"
     },
     {
       "id": "T36",
@@ -1740,7 +1740,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B7b5b05f0"
+      "building": "B2a7ecb59"
     },
     {
       "id": "T58",
@@ -1824,7 +1824,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B71a88b69"
+      "building": "Bce3fd2f1"
     },
     {
       "id": "T61",
@@ -1881,7 +1881,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B28c8ad5f"
+      "building": "B88cffac1"
     },
     {
       "id": "T63",
@@ -1938,7 +1938,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B903ccc71"
+      "building": "B88cffac1"
     },
     {
       "id": "T65",
@@ -2026,5 +2026,5 @@
       "building": "Bedda6bf8"
     }
   ],
-  "datasetRevision": "r-50ff3b7736d4eaa4"
+  "datasetRevision": "r-03fa28a595a6b693"
 }

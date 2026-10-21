@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-50ff3b7736d4eaa4",
+  "datasetRevision": "r-03fa28a595a6b693",
   "teams": [
     {
       "id": "T01",
@@ -892,7 +892,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B0767d950"
+      "building": "Ba8b77242"
     },
     {
       "id": "T32",
@@ -1005,7 +1005,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "Bc53dfbb9"
+      "building": "B2a7ecb59"
     },
     {
       "id": "T36",
@@ -1630,7 +1630,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B7b5b05f0"
+      "building": "B2a7ecb59"
     },
     {
       "id": "T58",
@@ -1714,7 +1714,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B71a88b69"
+      "building": "Bce3fd2f1"
     },
     {
       "id": "T61",
@@ -1771,7 +1771,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B28c8ad5f"
+      "building": "B88cffac1"
     },
     {
       "id": "T63",
@@ -1828,7 +1828,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B903ccc71"
+      "building": "B88cffac1"
     },
     {
       "id": "T65",
@@ -2003,9 +2003,10 @@
       "id": "Bce3fd2f1",
       "object": "Sava Centar",
       "teams": [
-        "T03"
+        "T03",
+        "T60"
       ],
-      "teamCount": 1,
+      "teamCount": 2,
       "place": "Novi Beograd, Blok 19",
       "city": "Beograd",
       "lat": 44.806,
@@ -2037,6 +2038,12 @@
           "topic": "Kongresni kompleks i savremena rekonstrukcija",
           "claimsCount": 30,
           "hasPassport": true
+        },
+        {
+          "team": "T60",
+          "topic": "Istorija izgradnje, arhitektonsko i konstruktivno rešenje, spisak literature",
+          "claimsCount": 0,
+          "hasPassport": false
         }
       ]
     },
@@ -2594,9 +2601,11 @@
         "T17",
         "T18",
         "T34",
-        "T50"
+        "T50",
+        "T62",
+        "T64"
       ],
-      "teamCount": 4,
+      "teamCount": 6,
       "place": "Kralja Milana",
       "city": "Beograd",
       "lat": 44.8085,
@@ -2644,6 +2653,18 @@
         {
           "team": "T50",
           "topic": "Fasada i vidikovac, javni prostori",
+          "claimsCount": 0,
+          "hasPassport": false
+        },
+        {
+          "team": "T62",
+          "topic": "Urbanistički kontekst i odnos prema trgovačkom centru",
+          "claimsCount": 0,
+          "hasPassport": false
+        },
+        {
+          "team": "T64",
+          "topic": "Projektovanje i statički proračuni, saradnja arhitekata i građevinaca",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -3091,9 +3112,10 @@
       "id": "Ba8b77242",
       "object": "Kapetan Mišino zdanje",
       "teams": [
-        "T30"
+        "T30",
+        "T31"
       ],
-      "teamCount": 1,
+      "teamCount": 2,
       "place": "Studentski trg",
       "city": "Beograd",
       "lat": 44.8205,
@@ -3125,42 +3147,7 @@
           "topic": "Jan Nevole, istorijske promene, namene kroz vreme, arhivska građa Rektorata",
           "claimsCount": 0,
           "hasPassport": false
-        }
-      ]
-    },
-    {
-      "id": "B0767d950",
-      "object": "Zgrada rektorata (Kapetan Mišino zdanje)",
-      "teams": [
-        "T31"
-      ],
-      "teamCount": 1,
-      "place": "Studentski trg",
-      "city": "Beograd",
-      "lat": 44.8205,
-      "lng": 20.456,
-      "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
-      "categories": {
-        "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
-        "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
-      },
-      "topics": [
+        },
         {
           "team": "T31",
           "topic": "Konstruktivni elementi i enterijer, tavanica, svečana sala",
@@ -3252,12 +3239,15 @@
       ]
     },
     {
-      "id": "Bc53dfbb9",
-      "object": "Geneks kula (Zapadna kapija Beograda)",
+      "id": "B2a7ecb59",
+      "object": "Geneks kula",
       "teams": [
-        "T35"
+        "T35",
+        "T45",
+        "T52",
+        "T57"
       ],
-      "teamCount": 1,
+      "teamCount": 4,
       "place": "Novi Beograd, Blok 33",
       "city": "Beograd",
       "lat": 44.812,
@@ -3287,6 +3277,24 @@
         {
           "team": "T35",
           "topic": "Mihajlo Mitrović, brutalizam, pasarela, rotirajući restoran",
+          "claimsCount": 0,
+          "hasPassport": false
+        },
+        {
+          "team": "T45",
+          "topic": "Građenje, tehnologija klizne oplate, inženjerski izazovi 1970-ih",
+          "claimsCount": 0,
+          "hasPassport": false
+        },
+        {
+          "team": "T52",
+          "topic": "Urbanistička pozicija, pristupni plato, stambena vs poslovna kula",
+          "claimsCount": 0,
+          "hasPassport": false
+        },
+        {
+          "team": "T57",
+          "topic": "Geneks — simbol modernističkog Beograda: konstrukcija, statika i gradnja",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -3587,54 +3595,6 @@
       ]
     },
     {
-      "id": "B2a7ecb59",
-      "object": "Geneks kula",
-      "teams": [
-        "T45",
-        "T52"
-      ],
-      "teamCount": 2,
-      "place": "Novi Beograd, Blok 33",
-      "city": "Beograd",
-      "lat": 44.812,
-      "lng": 20.406,
-      "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
-      "categories": {
-        "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
-        "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
-      },
-      "topics": [
-        {
-          "team": "T45",
-          "topic": "Građenje, tehnologija klizne oplate, inženjerski izazovi 1970-ih",
-          "claimsCount": 0,
-          "hasPassport": false
-        },
-        {
-          "team": "T52",
-          "topic": "Urbanistička pozicija, pristupni plato, stambena vs poslovna kula",
-          "claimsCount": 0,
-          "hasPassport": false
-        }
-      ]
-    },
-    {
       "id": "Badf7e17e",
       "object": "Hotel Jugoslavija",
       "teams": [
@@ -3922,47 +3882,6 @@
       ]
     },
     {
-      "id": "B7b5b05f0",
-      "object": "Geneks kula (Zapadna kapija)",
-      "teams": [
-        "T57"
-      ],
-      "teamCount": 1,
-      "place": "Novi Beograd, Blok 33",
-      "city": "Beograd",
-      "lat": 44.812,
-      "lng": 20.406,
-      "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
-      "categories": {
-        "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
-        "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
-      },
-      "topics": [
-        {
-          "team": "T57",
-          "topic": "Geneks — simbol modernističkog Beograda: konstrukcija, statika i gradnja",
-          "claimsCount": 0,
-          "hasPassport": false
-        }
-      ]
-    },
-    {
       "id": "B8b81c0c5",
       "object": "Bajrakli džamija",
       "teams": [
@@ -3998,47 +3917,6 @@
         {
           "team": "T59",
           "topic": "Otomansko sakralno nasleđe (oko 1575), kameni minaret, obnove i zaštita",
-          "claimsCount": 0,
-          "hasPassport": false
-        }
-      ]
-    },
-    {
-      "id": "B71a88b69",
-      "object": "Sava Centar (tim 2)",
-      "teams": [
-        "T60"
-      ],
-      "teamCount": 1,
-      "place": "Novi Beograd, Blok 19",
-      "city": "Beograd",
-      "lat": 44.806,
-      "lng": 20.425,
-      "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
-      "categories": {
-        "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
-        "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
-      },
-      "topics": [
-        {
-          "team": "T60",
-          "topic": "Istorija izgradnje, arhitektonsko i konstruktivno rešenje, spisak literature",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -4086,47 +3964,6 @@
       ]
     },
     {
-      "id": "B28c8ad5f",
-      "object": "Palata Beograd (Beograđanka) (tim 4)",
-      "teams": [
-        "T62"
-      ],
-      "teamCount": 1,
-      "place": "Kralja Milana",
-      "city": "Beograd",
-      "lat": 44.8085,
-      "lng": 20.4555,
-      "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
-      "categories": {
-        "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
-        "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
-      },
-      "topics": [
-        {
-          "team": "T62",
-          "topic": "Urbanistički kontekst i odnos prema trgovačkom centru",
-          "claimsCount": 0,
-          "hasPassport": false
-        }
-      ]
-    },
-    {
       "id": "B01ffbf6e",
       "object": "West 65 Tower",
       "teams": [
@@ -4162,47 +3999,6 @@
         {
           "team": "T63",
           "topic": "Elektronski i digitalni pasoš: 9 detaljnih poglavlja, PERI oplata, tehnička dokumentacija",
-          "claimsCount": 0,
-          "hasPassport": false
-        }
-      ]
-    },
-    {
-      "id": "B903ccc71",
-      "object": "Palata Beograd (Beograđanka) — projektovanje i statika",
-      "teams": [
-        "T64"
-      ],
-      "teamCount": 1,
-      "place": "Beograd na vodi",
-      "city": "Beograd",
-      "lat": 44.805,
-      "lng": 20.445,
-      "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
-      "categories": {
-        "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
-        "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
-      },
-      "topics": [
-        {
-          "team": "T64",
-          "topic": "Projektovanje i statički proračuni, saradnja arhitekata i građevinaca",
           "claimsCount": 0,
           "hasPassport": false
         }
