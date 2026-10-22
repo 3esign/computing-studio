@@ -292,13 +292,20 @@ void main(){
 function mesh(){return {buffers:[gl.createBuffer(),gl.createBuffer(),gl.createBuffer(),gl.createBuffer()],chunks:[],count:0}}
 var staticMesh=mesh(),teamMesh=mesh(),chunks=[],staticKey='',staticGeo=null,staticHits=[];
 var builds=0,staticBuilds=0,uploadedBytes=0,lastUploadBytes=0,drawCalls=0,drawnTriangles=0,culledChunks=0,lodSkipped=0,culling=true,buildMs=0;
+var eyePos=[0,0,0];
+/* Detail is dropped only when a chunk is already smaller than a pixel, so no
+   visible geometry pops on a desktop. Eco keeps a stricter budget on purpose. */
+function detailPixels(b){var r=Math.max(b.max[0]-b.min[0],b.max[1]-b.min[1],b.max[2]-b.min[2])*.5,h=canvas.clientHeight||1;
+ if(opts.mode==='street'){var d=Math.max(1,Math.hypot((b.min[0]+b.max[0])/2-eyePos[0],(b.min[1]+b.max[1])/2-eyePos[1],(b.min[2]+b.max[2])/2-eyePos[2]));return r/d*h}
+ return r/Math.max(1,cam.dist*.5)*h}
+function dropDetail(b){if(!b.lod)return false;var px=detailPixels(b);return opts.quality==='eco'?px<4:px<1.2}
 function resetGeometry(){vertices=[];normals=[];colors=[];emissives=[];chunks=[]}
 function chunk(start,lod){var end=vertices.length/3;if(end===start)return;var min=[Infinity,Infinity,Infinity],max=[-Infinity,-Infinity,-Infinity];for(var i=start*3;i<vertices.length;i+=3)for(var k=0;k<3;k++){min[k]=Math.min(min[k],vertices[i+k]);max[k]=Math.max(max[k],vertices[i+k])}min[1]=Math.min(min[1],0);chunks.push({start,count:end-start,min,max,lod})}
 function upload(target){target.chunks=chunks;target.count=vertices.length/3;[vertices,normals,colors,emissives].forEach((arr,i)=>{var typed=new Float32Array(arr);gl.bindBuffer(gl.ARRAY_BUFFER,target.buffers[i]);gl.bufferData(gl.ARRAY_BUFFER,typed,gl.STATIC_DRAW);uploadedBytes+=typed.byteLength;lastUploadBytes+=typed.byteLength})}
 // AABB positive vertex against all six clip planes; bounds include every
 // vertex (also river caps and footprints crossing a cell boundary).
 function outside(b){if(!culling)return false;for(var row=0;row<3;row++)for(var sign of [-1,1]){var a=mvpMat[3]+sign*mvpMat[row],c=mvpMat[7]+sign*mvpMat[row+4],d=mvpMat[11]+sign*mvpMat[row+8],e=mvpMat[15]+sign*mvpMat[row+12];if(a*(a>=0?b.max[0]:b.min[0])+c*(c>=0?b.max[1]:b.min[1])+d*(d>=0?b.max[2]:b.min[2])+e < -0.001)return true}return false}
-function drawMesh(target){[aPos,aNormal,aColor,aEmissive].forEach((a,i)=>{gl.bindBuffer(gl.ARRAY_BUFFER,target.buffers[i]);gl.vertexAttribPointer(a,i===3?1:3,gl.FLOAT,false,0,0);gl.enableVertexAttribArray(a)});var start=-1,count=0;function flush(){if(count){gl.drawArrays(gl.TRIANGLES,start,count);drawCalls++;drawnTriangles+=count/3}start=-1;count=0}for(var b of target.chunks){if(b.lod&&opts.mode!=='street'&&opts.quality!=='high'&&(cam.dist>260||.13*canvas.clientHeight/cam.dist<.75)){lodSkipped++;flush();continue}if(outside(b)){culledChunks++;flush();continue}if(start<0)start=b.start;count+=b.count}flush()}
+function drawMesh(target){[aPos,aNormal,aColor,aEmissive].forEach((a,i)=>{gl.bindBuffer(gl.ARRAY_BUFFER,target.buffers[i]);gl.vertexAttribPointer(a,i===3?1:3,gl.FLOAT,false,0,0);gl.enableVertexAttribArray(a)});var start=-1,count=0;function flush(){if(count){gl.drawArrays(gl.TRIANGLES,start,count);drawCalls++;drawnTriangles+=count/3}start=-1;count=0}for(var b of target.chunks){if(dropDetail(b)){lodSkipped++;flush();continue}if(outside(b)){culledChunks++;flush();continue}if(start<0)start=b.start;count+=b.count}flush()}
 var uGrowth=gl.getUniformLocation(prog,'uGrowth');
 var pMat=M4.create(),vMat=M4.create(),mvpMat=M4.create(),mMat=M4.create();
 var data,geo,opts={},marks=[],hit=[],pickBoxes=[],arcs=[],models=[],frame=0,frames=0,growthStart=0,cam={yaw:-.35,pitch:.8,dist:165,target:[12,0,10]},transition=null,drag=null,hover='',inView=true;
@@ -349,7 +356,53 @@ function shadow(model,pos){var pts=[];for(var e of model.elements)for(var x of [
 
 function polygon(points,h,col){if(points.length<3)return;var pts=points.slice();if(pts[0][0]===pts.at(-1)[0]&&pts[0][2]===pts.at(-1)[2])pts.pop();var area=0;for(var i=0;i<pts.length;i++){var a=pts[i],b=pts[(i+1)%pts.length];area+=a[0]*b[2]-b[0]*a[2];if(h>.03){var len=Math.hypot(b[0]-a[0],b[2]-a[2]);if(len)addQuad([a[0],.05,a[2]],[b[0],.05,b[2]],[b[0],h,b[2]],[a[0],h,a[2]],[(b[2]-a[2])/len,0,(a[0]-b[0])/len],col,0)}}
 if(area<0)pts.reverse();var ix=pts.map((_,i)=>i),guard=0;function cross(a,b,c){return (b[0]-a[0])*(c[2]-a[2])-(b[2]-a[2])*(c[0]-a[0])}while(ix.length>2&&guard++<pts.length*pts.length){var cut=false;for(var j=0;j<ix.length;j++){var ai=ix[(j+ix.length-1)%ix.length],bi=ix[j],ci=ix[(j+1)%ix.length],a=pts[ai],b=pts[bi],c=pts[ci];if(cross(a,b,c)<=0)continue;if(ix.some(k=>k!==ai&&k!==bi&&k!==ci&&cross(a,b,pts[k])>=0&&cross(b,c,pts[k])>=0&&cross(c,a,pts[k])>=0))continue;addTri([a[0],h,a[2]],[c[0],h,c[2]],[b[0],h,b[2]],[0,1,0],col,0);ix.splice(j,1);cut=true;break}if(!cut)break}}
-function position(t){if(!t)return null;if(opts.mode==='archive'){var n=Number(t.id.slice(1))-1;return [(n%10-4.5)*24,0,(Math.floor(n/10)-3)*24]}var b=(data.buildings||[]).find(b=>b.id===t.building&&b.teamCount>1);if(b)return b.locationStatus==='unmapped'?null:project(b.lng,b.lat);return t.locationStatus==='unmapped'?null:project(t.lng,t.lat)}
+
+/* Each view answers with its own perspective. Plan reads from above: every
+   sculpture gets a flat rosette whose sectors are its record categories and
+   whose ticks are its sources. Collage drops geography and sorts the same
+   teams by what they actually documented. Both read the dataset, never a guess. */
+var CATEGORY_ORDER=['materials','time','documents','questions','research'];
+var CATEGORY_COLOR={materials:[.66,.45,.22],time:[.38,.48,.63],documents:[.22,.48,.44],questions:[.72,.34,.23],research:[.46,.47,.52],archive:[.80,.58,.22]};
+var statsCache=null,statsFor=null;
+function teamStats(){if(statsCache&&statsFor===data)return statsCache;var out=new Map();
+ for(var t of data.teams)out.set(t.id,{records:0,sources:0,categories:{}});
+ for(var c of data.claims||[]){var e=out.get(c.team);if(!e)continue;e.records++;var k=CATEGORY_ORDER.includes(c.category)?c.category:'research';e.categories[k]=(e.categories[k]||0)+1}
+ for(var s of data.sources||[]){var e2=out.get(s.team);if(e2)e2.sources++}
+ var delivered=new Set((data.archives||[]).map(a=>a.team));
+ for(var [id3,e3] of out){var best='research',n=-1;for(var k2 of CATEGORY_ORDER){var v=e3.categories[k2]||0;if(v>n){n=v;best=k2}}e3.lead=e3.records?best:(delivered.has(id3)?'archive':'none')}
+ statsCache=out;statsFor=data;return out}
+var collageCache=null,collageFor=null;
+/* Collage columns are the dominant record category, rows the record count.
+   Position is classification, never a place on the map. */
+function collageLayout(){if(collageCache&&collageFor===data)return collageCache;var stats=teamStats(),cols=CATEGORY_ORDER.concat('archive','none'),used=cols.filter(c=>data.teams.some(t=>stats.get(t.id).lead===c));
+ var out=new Map(),blocks=used.map(function(cat){var members=data.teams.filter(t=>stats.get(t.id).lead===cat).sort((a,b)=>stats.get(b.id).records-stats.get(a.id).records||a.id.localeCompare(b.id));
+  // Teams without a single record need no room for one: their block stays tight.
+  var step=cat==='none'?13:30,perRow=Math.max(1,Math.round(Math.sqrt(members.length))),rows=Math.ceil(members.length/perRow);
+  return {cat,members,step,perRow,rows,w:perRow*step,d:rows*step}});
+ /* The blocks themselves are packed into a near-square, so the collage frames
+    the same on a phone and on a wide screen. */
+ var gap=34,perBand=Math.max(1,Math.ceil(Math.sqrt(blocks.length))),bands=[];
+ for(var i=0;i<blocks.length;i+=perBand)bands.push(blocks.slice(i,i+perBand));
+ var totalD=bands.reduce((n,band)=>n+Math.max.apply(null,band.map(b=>b.d)),0)+gap*(bands.length-1),z=-totalD/2;
+ bands.forEach(function(band,bi){var bandD=Math.max.apply(null,band.map(b=>b.d)),bandW=band.reduce((n,b)=>n+b.w,0)+gap*(band.length-1),x=-bandW/2,zc=z+bandD/2;
+  band.forEach(function(b){var xc=x+b.w/2;x+=b.w+gap;
+   b.members.forEach(function(t,i){var cx=i%b.perRow,cz=Math.floor(i/b.perRow);
+    out.set(t.id,{pos:[xc+(cx-(b.perRow-1)/2)*b.step,0,zc+(cz-(b.rows-1)/2)*b.step],category:b.cat,column:blocks.indexOf(b),columns:blocks.length,slotX:cx,slots:b.perRow})})});
+  z+=bandD+gap});
+ collageCache={places:out,columns:blocks.map(b=>b.cat)};collageFor=data;return collageCache}
+function planRosette(m,centre,stats,dark){if(!stats||!stats.records)return;
+ var inner=AtlasArchitecture.footprint(m)+1.1,total=stats.records,span=Math.max(1.8,Math.min(5,.9+Math.sqrt(total)*.62)),angle=-Math.PI/2;
+ for(var cat of CATEGORY_ORDER){var n=stats.categories[cat]||0;if(!n)continue;var sweep=n/total*Math.PI*2,steps=Math.max(2,Math.ceil(sweep/.22)),pts=[],col=CATEGORY_COLOR[cat];
+  if(dark)col=col.map(v=>Math.min(1,v*1.35+.08));
+  for(var i=0;i<=steps;i++){var a=angle+sweep*i/steps;pts.push([centre[0]+Math.cos(a)*inner,0,centre[2]+Math.sin(a)*inner])}
+  for(var j=steps;j>=0;j--){var a2=angle+sweep*j/steps;pts.push([centre[0]+Math.cos(a2)*(inner+span),0,centre[2]+Math.sin(a2)*(inner+span)])}
+  polygon(pts,.06,col);angle+=sweep+.035}
+ /* One tick per cited source, outside the category band. */
+ var ring=inner+span+.7,ticks=Math.min(48,stats.sources),ink=dark?[.72,.78,.8]:[.26,.3,.3];
+ for(var k=0;k<ticks;k++){var a3=-Math.PI/2+k*Math.PI*2/Math.max(1,ticks);
+  line([centre[0]+Math.cos(a3)*ring,0,centre[2]+Math.sin(a3)*ring],[centre[0]+Math.cos(a3)*(ring+.9),0,centre[2]+Math.sin(a3)*(ring+.9)],.26,ink,.05)}}
+
+function position(t){if(!t)return null;if(opts.mode==='archive'){var place=collageLayout().places.get(t.id);return place?place.pos.slice():null}var b=(data.buildings||[]).find(b=>b.id===t.building&&b.teamCount>1);if(b)return b.locationStatus==='unmapped'?null:project(b.lng,b.lat);return t.locationStatus==='unmapped'?null:project(t.lng,t.lat)}
 function mix(a,b,f){return a.map((v,i)=>v+(b[i]-v)*f)}
 function modelOf(id){for(var m of models)if(m.id===id)return m;return null}
 function leadOf(building){for(var m of models)if(m.building===building&&m.shared.length)return m;return null}
@@ -379,6 +432,19 @@ upload(staticMesh);staticHits=hit.slice();staticKey=key;staticGeo=geo;
 resetGeometry();
 var palette=dark?[[.9,.55,.3],[.37,.72,.66],[.59,.63,.82],[.78,.68,.4]]:[[.78,.37,.19],[.19,.49,.44],[.45,.46,.63],[.65,.52,.27]];
 var active=new Set((opts.claims||[]).map(c=>c.id)),filtered=['materials','time','questions','documents'].includes(opts.layer);
+/* Ground work that belongs to one view only. */
+if(opts.mode==='plan'){var gridFirst=vertices.length/3,gink=dark?[.30,.38,.40]:[.73,.75,.68],reach=560,step=40;
+ for(var g=-reach;g<=reach;g+=step){var heavy=g%200===0;
+  line([-reach,0,g],[reach,0,g],heavy?.5:.22,gink,.012);
+  line([g,0,-reach],[g,0,reach],heavy?.5:.22,gink,.012)}
+ chunk(gridFirst,1)}
+if(opts.mode==='archive'){var layout=collageLayout(),bandFirst=vertices.length/3;
+ layout.columns.forEach(function(cat,ci){var xs=[],zs=[];
+  for(var place of layout.places.values())if(place.column===ci){xs.push(place.pos[0]);zs.push(place.pos[2])}
+  if(!xs.length)return;var x0=Math.min.apply(null,xs)-12,x1=Math.max.apply(null,xs)+12,z0=Math.min.apply(null,zs)-12,z1=Math.max.apply(null,zs)+12;
+  var col=CATEGORY_COLOR[cat]||[.46,.47,.52];if(dark)col=col.map(v=>Math.min(1,v*1.3+.06));
+  for(var seg of [[[x0,0,z0],[x1,0,z0]],[[x0,0,z1],[x1,0,z1]],[[x0,0,z0],[x0,0,z1]],[[x1,0,z0],[x1,0,z1]]])line(seg[0],seg[1],.55,col,.03)});
+ chunk(bandFirst)}
 for(var t of data.teams){var pos=position(t);if(!pos||opts.visible&&!opts.visible.has(t.id))continue;var first=vertices.length/3,m=models.find(m=>m.id===t.id),shares=grouped(m),off=shares?m.wingOffset:[0,0],wing=[pos[0]+off[0],pos[1],pos[2]+off[1]],selected=t.id===opts.selected||shares&&m.building===opts.selected;
  if(m.records||m.archive)shadow(m,wing);
  var base=dark?[.50,.59,.60]:[.94,.91,.80],sourceCol=dark?[.39,.80,.76]:[.15,.43,.41];
@@ -437,6 +503,7 @@ for(var t of data.teams){var pos=position(t);if(!pos||opts.visible&&!opts.visibl
    if(e.role==='mast')hit.push({id:e.building,team:t.id,pos:[xx,e.y+e.h/2,zz],role:'building',teams:m.buildingTeams.slice(),records:m.buildingRecords});
    if(e.role==='pylon')hit.push({id:e.team,team:e.team,pos:[xx,e.y+e.h/2,zz],role:'teamPart',building:e.building,records:e.records});
   }}
+ if(opts.mode==='plan')planRosette(m,wing,teamStats().get(t.id),dark);
  chunk(first);
  // 289 archive crates are one contiguous detail level: droppable from afar, intact up close.
  if(m.archive){var crates=vertices.length/3;for(var e of m.elements)if(e.role==='archiveCrate')emit(e);chunk(crates,1)}
@@ -469,15 +536,21 @@ if(links){links.setAttribute('viewBox','0 0 '+rect.width+' '+rect.height);for(va
 function render(now){frame=0;if(document.hidden||!inView)return;frames++;if(opts.mode==='street')stepWalk(now);if(transition){var f=reduced.matches?1:Math.min(1,(now-transition.start)/550),e=1-Math.pow(1-f,3);for(var k of ['yaw','pitch','dist'])cam[k]=transition.from[k]+(transition.to[k]-transition.from[k])*e;cam.target=transition.from.target.map((v,i)=>v+(transition.to.target[i]-v)*e);if(f===1)transition=null;else invalidate()}
 var growth=reduced.matches||!growthStart?1:Math.min(1,(now-growthStart)/950);if(growth<1)invalidate();
 var rect=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,opts.quality==='eco'?1:opts.quality==='high'?2:1.6,Math.sqrt((opts.quality==='high'?2400000:opts.quality==='eco'?650000:1400000)/Math.max(1,rect.width*rect.height))),w=Math.max(1,Math.round(rect.width*dpr)),h=Math.max(1,Math.round(rect.height*dpr));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h}gl.viewport(0,0,w,h);gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);var sky=opts.night?[.055,.085,.105]:[.9,.91,.86];gl.clearColor(...sky,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(prog);var d=cam.dist,cy=cam.pitch,cx=cam.yaw,eye=[cam.target[0]+d*Math.cos(cy)*Math.sin(cx),cam.target[1]+d*Math.sin(cy),cam.target[2]+d*Math.cos(cy)*Math.cos(cx)];
-var target=cam.target;if(opts.mode==='street'){eye=walk.pos;target=[eye[0]-Math.sin(walk.yaw)*Math.cos(walk.pitch),eye[1]+Math.sin(walk.pitch),eye[2]-Math.cos(walk.yaw)*Math.cos(walk.pitch)];M4.perspective(pMat,Math.PI/3,w/h,.05,2200)}else M4.ortho(pMat,-d*w/h*.5,d*w/h*.5,-d*.5,d*.5,.1,2200);M4.lookAt(vMat,eye,target,[0,1,0]);M4.multiply(mvpMat,pMat,vMat);drawSky(w/h);gl.uniformMatrix4fv(uMVP,false,mvpMat);gl.uniformMatrix4fv(uModel,false,mMat);gl.uniform3f(uSunDir,.65,.82,-.5);gl.uniform3fv(uSkyColor,sky);gl.uniform3fv(uEye,eye);gl.uniform1f(uNight,opts.night?1:0);drawCalls=0;drawnTriangles=0;culledChunks=0;lodSkipped=0;gl.uniform1f(uGrowth,1);drawMesh(staticMesh);gl.uniform1f(uGrowth,1-Math.pow(1-growth,3));drawMesh(teamMesh);
+var target=cam.target;if(opts.mode==='street'){eye=walk.pos;target=[eye[0]-Math.sin(walk.yaw)*Math.cos(walk.pitch),eye[1]+Math.sin(walk.pitch),eye[2]-Math.cos(walk.yaw)*Math.cos(walk.pitch)];M4.perspective(pMat,Math.PI/3,w/h,.05,2200)}else M4.ortho(pMat,-d*w/h*.5,d*w/h*.5,-d*.5,d*.5,.1,2200);eyePos=eye;M4.lookAt(vMat,eye,target,[0,1,0]);M4.multiply(mvpMat,pMat,vMat);drawSky(w/h);gl.uniformMatrix4fv(uMVP,false,mvpMat);gl.uniformMatrix4fv(uModel,false,mMat);gl.uniform3f(uSunDir,.65,.82,-.5);gl.uniform3fv(uSkyColor,sky);gl.uniform3fv(uEye,eye);gl.uniform1f(uNight,opts.night?1:0);drawCalls=0;drawnTriangles=0;culledChunks=0;lodSkipped=0;gl.uniform1f(uGrowth,1);drawMesh(staticMesh);gl.uniform1f(uGrowth,1-Math.pow(1-growth,3));drawMesh(teamMesh);
 overlays(rect,now);if(opts.motion&&arcs.length&&!reduced.matches)invalidate();}
 function fly(to){transition={from:{...cam,target:cam.target.slice()},to:{...cam,...to},start:performance.now()};invalidate()}
-function home(){if(opts.mode==='street'){enterStreet(opts.selected);return}fly({target:opts.mode==='archive'?[0,0,0]:[12,2,10],dist:opts.mode==='archive'?235:(canvas.clientWidth<600?155:155),yaw:-.35,pitch:opts.mode==='plan'?1.55:.8})}
+/* The collage has no geography to fall back on, so its home view is measured
+   from the classification itself: every column must fit the screen. */
+function collageDistance(){var places=[...collageLayout().places.values()];if(!places.length)return 235;
+ var xs=places.map(p=>p.pos[0]),zs=places.map(p=>p.pos[2]),aspect=Math.max(.3,(canvas.clientWidth||1)/(canvas.clientHeight||1));
+ var w=Math.max.apply(null,xs)-Math.min.apply(null,xs)+70,d=Math.max.apply(null,zs)-Math.min.apply(null,zs)+70;
+ return Math.max(160,Math.min(900,Math.max(d*1.05,w*1.3/aspect)))}
+function home(){if(opts.mode==='street'){enterStreet(opts.selected);return}fly({target:opts.mode==='archive'?[0,0,6]:[12,2,10],dist:opts.mode==='archive'?collageDistance():155,yaw:-.35,pitch:opts.mode==='plan'?1.55:.8})}
 function findPick(e,onlyTeams=false){var rect=canvas.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top,best=null,dist=onlyTeams?22:18;
  if(!onlyTeams){var right=[vMat[0],vMat[4],vMat[8]],up=[vMat[1],vMat[5],vMat[9]],back=[vMat[2],vMat[6],vMat[10]],rx=(x/rect.width-.5)*cam.dist*rect.width/rect.height,uy=(.5-y/rect.height)*cam.dist;
  var origin=cam.target.map((v,i)=>v+back[i]*cam.dist+right[i]*rx+up[i]*uy),dir=back.map(v=>-v),nearest=Infinity;
  if(opts.mode==='street'){origin=walk.pos.slice();rx=(x/rect.width*2-1)*Math.tan(Math.PI/6)*rect.width/rect.height;uy=(1-y/rect.height*2)*Math.tan(Math.PI/6);dir=back.map((v,i)=>-v+right[i]*rx+up[i]*uy);var length=Math.hypot(...dir);dir=dir.map(v=>v/length)}
- for(var b of pickBoxes){if(b.lod&&opts.mode!=='street'&&opts.quality!=='high'&&(cam.dist>260||.13*canvas.clientHeight/cam.dist<.75))continue;var near=0,far=Infinity;for(var axis=0;axis<3;axis++){if(Math.abs(dir[axis])<1e-8){if(origin[axis]<b.min[axis]||origin[axis]>b.max[axis]){far=-1;break}}else{var t1=(b.min[axis]-origin[axis])/dir[axis],t2=(b.max[axis]-origin[axis])/dir[axis];near=Math.max(near,Math.min(t1,t2));far=Math.min(far,Math.max(t1,t2))}}
+ for(var b of pickBoxes){if(b.lod&&opts.quality==='eco'&&opts.mode!=='street'&&cam.dist>320)continue;var near=0,far=Infinity;for(var axis=0;axis<3;axis++){if(Math.abs(dir[axis])<1e-8){if(origin[axis]<b.min[axis]||origin[axis]>b.max[axis]){far=-1;break}}else{var t1=(b.min[axis]-origin[axis])/dir[axis],t2=(b.max[axis]-origin[axis])/dir[axis];near=Math.max(near,Math.min(t1,t2));far=Math.min(far,Math.max(t1,t2))}}
  if(far<near||near>=nearest)continue;
  if(b.opening){var point=origin.map((v,i)=>v+near*dir[i]),axis=b.w>b.d?0:2;if(point[1]>b.min[1]+.15&&point[1]<b.max[1]-.15&&point[axis]>b.min[axis]+.15&&point[axis]<b.max[axis]-.15)continue}
  nearest=near;best=b}
@@ -498,6 +571,6 @@ surface.addEventListener('pointerup',e=>endPointer(e,false));surface.addEventLis
 surface.addEventListener('wheel',e=>{if(e.target.closest('.camera,.walk-controls'))return;if(opts.mode==='street')return;if(!opts.interactive&&!e.ctrlKey)return;e.preventDefault();transition=null;cam.dist=Math.max(18,Math.min(700,cam.dist*(e.deltaY>0?1.09:.91)));invalidate()},{passive:false});canvas.addEventListener('contextmenu',e=>e.preventDefault());
 canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();document.getElementById('scene-status').textContent='3D paused · Lista i dosijei / List and dossiers ↓'});canvas.addEventListener('webglcontextrestored',()=>location.reload());
 new ResizeObserver(invalidate).observe(canvas);document.addEventListener('visibilitychange',invalidate);reduced.addEventListener('change',invalidate);new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;if(inView)invalidate()}).observe(canvas);
-function geometryKey(o){return JSON.stringify([o.mode==='archive',o.mode==='street',o.layer,o.selected,o.claim,[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
+function geometryKey(o){return JSON.stringify([o.mode==='archive',o.mode==='street',o.mode==='plan',o.layer,o.selected,o.claim,[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
 return {stop:stopWalk,setCulling(value){culling=!!value;invalidate()},update(d,g,o){var change=opts.mode!==o.mode,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;cam.dist=Math.max(18,Math.min(700,cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView}},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(prog)}};
 };
