@@ -14,7 +14,9 @@ const files=[...new Set([...walk(root).filter(f=>!excluded.test(path.relative(ro
 const hash=crypto.createHash('sha256');let bytes=0;
 for(const f of files){const b=fs.readFileSync(f);bytes+=b.length;hash.update(path.relative(root,f).split(path.sep).join('/')+'\0');hash.update(b);}
 const manifest={version:hash.digest('hex').slice(0,16),bytes,files:files.map(f=>path.relative(root,f).split(path.sep).join('/'))};
-fs.writeFileSync(path.join(root,'offline-manifest.json'),JSON.stringify(manifest,null,2)+'\n','utf8');
+// Replace, never rewrite in place: a reader must see one whole manifest.
+const out=path.join(root,'offline-manifest.json'),tmp=out+'.'+process.pid+'.tmp';
+fs.writeFileSync(tmp,JSON.stringify(manifest,null,2)+'\n','utf8');fs.renameSync(tmp,out);
 return {files:files.length,bytes,version:manifest.version};
 }
 module.exports=build;
