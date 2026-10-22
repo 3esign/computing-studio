@@ -17,9 +17,9 @@
     "files": 289,
     "folders": 26,
     "bytes": 274878126,
-    "read": 41,
-    "readHere": 24,
-    "readEarlier": 17
+    "read": 54,
+    "readHere": 47,
+    "readEarlier": 7
   },
   "kinds": {
     "crtež / plan": 5,
@@ -27,7 +27,29 @@
     "naslovnica / katalog": 4,
     "oprema / ilustracija": 1,
     "tabela / obračun": 5,
-    "tekst / rukopis": 2
+    "tekst / rukopis": 2,
+    "ugovorni akt / naslovna strana": 1,
+    "ugovorni akt / isečak strane": 2,
+    "ugovorni akt / strana 3": 1,
+    "ugovorni akt / strana 4": 1,
+    "ugovorni akt / strana 8": 1,
+    "ugovorni akt / strana 10": 1,
+    "ugovorni akt / strana 11 (10a)": 1,
+    "ugovorni akt / strana 11, sa overom": 1,
+    "ugovorni akt / strana 5": 1,
+    "zapisnik / nadzor": 1,
+    "zapisnik / sastanak nadzora": 1,
+    "punomoćje / overen akt": 1,
+    "komisijski izveštaj": 1,
+    "naredba / dopis": 1,
+    "izveštaj": 1,
+    "predračun": 1,
+    "predračun / rekapitulacija": 1,
+    "crtež / fabrički list": 1,
+    "prospekt / reklamni list": 1,
+    "izveštaj o ispitivanju / naslovna strana": 1,
+    "prospekt / tehnički opis": 1,
+    "katalog / referentna lista": 1
   },
   "folders": [
     {
@@ -389,7 +411,10 @@
           "bytes": 190471
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-lift-hitnost-1943"
+      ],
+      "read": 1
     },
     {
       "id": "bigz:f:instalacije-instalacija-starog-sata",
@@ -409,7 +434,11 @@
           "bytes": 2763427
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-sat-predracun-s20",
+        "cit-sat-rekapitulacija-s7"
+      ],
+      "read": 2
     },
     {
       "id": "bigz:f:instalacije-instalacija-struje",
@@ -485,7 +514,10 @@
           "bytes": 3119615
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-nestasica-zice-izvestaj"
+      ],
+      "read": 1
     },
     {
       "id": "bigz:f:izvori-finansija",
@@ -564,7 +596,10 @@
           "bytes": 3055856
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-krov-fasonsko-gvozdje-1942"
+      ],
+      "read": 1
     },
     {
       "id": "bigz:f:masine",
@@ -728,9 +763,14 @@
         }
       ],
       "readIds": [
-        "cit-tepper-aufzug"
+        "cit-tepper-aufzug",
+        "cit-strebel-crtez-na4",
+        "cit-strebel-prospekt-naslovna",
+        "cit-strebel-bericht-naslovna",
+        "cit-strebel-prospekt-opis",
+        "cit-tepper-katalog-s301"
       ],
-      "read": 1
+      "read": 6
     },
     {
       "id": "bigz:f:osoblje",
@@ -1262,7 +1302,12 @@
           "bytes": 180173
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-zapisnik-1939-06-14",
+        "cit-zapisnik-1939-07-31",
+        "cit-punomoc-krasenski-1935"
+      ],
+      "read": 3
     },
     {
       "id": "bigz:f:skice",
@@ -1533,7 +1578,19 @@
           "bytes": 208238
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-ugovor-opsti-naslov",
+        "cit-ugovor-opsti-cl6-7",
+        "cit-ugovor-opsti-s3",
+        "cit-ugovor-opsti-s4",
+        "cit-ugovor-opsti-cene-radova",
+        "cit-ugovor-opsti-s7-8",
+        "cit-ugovor-opsti-s10",
+        "cit-ugovor-opsti-s11a",
+        "cit-ugovor-opsti-s11-revizija",
+        "cit-ugovor-opsti-s5-temelji"
+      ],
+      "read": 10
     }
   ],
   "readings": [
@@ -2108,9 +2165,772 @@
       "legibility": "dobra",
       "confidence": "visoka",
       "date": "1943-08-17"
+    },
+    {
+      "id": "cit-ugovor-opsti-naslov",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / naslovna strana",
+      "title": {
+        "sr": "Opšti uslovi za izvršenje građevinskih poslova — naslovna strana (duplikat)",
+        "en": "General conditions for execution of construction works — title page (duplicate)"
+      },
+      "text": "Zaglavlje ćirilicom: „МИНИСТАРСТВО ГРАЂЕВИНА / Кн. М.Г. бр. …[rukom]… / од …[руком]… 1941 г. / у Београду.“ Naslov: „ОПШТИ УСЛОВИ за извршење грађевинских послова“, ispod: „прописани на основу §§ 119 и 120 Уредбе о државном рачуноводству“, pa rukom popunjena mesta za broj naredbe, dan, čas i kancelariju zaključenja neposredne pogodbe. Crvenom olovkom preko gornjeg desnog ugla: „ДУПЛИКАТ“; crvena kvačica uz čl. 1. Na listu su članovi 1–4 sa bočnim marginalijama: „Подобност понуђача“, „Понуђене цене“, „Обавеза понуђача“, „Јемство“. Čl. 1: neposredna pogodba samo sa licima koja su proizvođači ili po Zakonu o radnjama ovlašćena; ponuđač mora imati moralnu, materijalnu i stručnu sposobnost; uverenje ne starije od godinu dana. Čl. 2: ponuđene cene moraju odgovarati mesnim odnosno berzanskim i prosečnim tržišnim cenama. Čl. 3: ponuđač ostaje u obavezi prema državi 20 dana od potpisa zapisnika pogodbe; odluka se saopštava najdalje u roku od 10 dana. Čl. 4 („Јемство“): saugovarač je dužan da u roku od 15 dana od saopštenja odluke o odobrenju pogodbe položi kod blagajne [rukom precrtano i dopisano] jemstvo, domaći saugovarači … dinara, strani (bez obzira na državljanstvo punomoćnika) … dinara — iznosi su rukom upisani i nečitki.",
+      "facts": [
+        {
+          "kind": "organ",
+          "value": "Министарство грађевина, Београд"
+        },
+        {
+          "kind": "godina",
+          "value": "1941"
+        },
+        {
+          "kind": "pravni-osnov",
+          "value": "§§ 119 i 120 Uredbe o državnom računovodstvu"
+        },
+        {
+          "kind": "oznaka",
+          "value": "ДУПЛИКАТ (crvenom olovkom)"
+        }
+      ],
+      "legibility": "dobra za mašinopis; rukom upisani brojevi, datum i iznosi jemstva nečitki",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ugovor-opsti-cl6-7",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / isečak strane",
+      "title": {
+        "sr": "Opšti uslovi — kakvoća i razmere radova, poreklo materijala (čl. 6–7)",
+        "en": "General conditions — quality and extent of works, origin of materials (art. 6–7)"
+      },
+      "text": "Isečak lista, latinica, mašinopis sa providnim otiskom naredne strane. Marginalija levo: „Kakvoća i razmere radova.“ Tekst: „Ugovoreni radovi i nabavke imaju se izvršiti dobre i solidne, u razmerama i prema tehničkim propisima predvidjenim u predračunu i ostalim prilozima odobrenog ~~projekta~~ — elaborata koji je sastavni deo ugovora. Sav rad i materijal treba da bude dobre kakvoće i da odgovara predvidjenim tehničkim uslovima i tehničkim propisima.“ Reč „projekta“ je mašinski precrtana i zamenjena rečju „elaborata“ — ista ispravka ponavlja se kroz ceo dokument. Zatim „Čl.7.“, marginalija „Poreklo materijala.“: „Sav materijal potreban za izvršenje radova“ (nastavak na sledećoj strani). Dole „·/.“ kao oznaka nastavka.",
+      "facts": [
+        {
+          "kind": "redakcijska-ispravka",
+          "value": "„projekat“ dosledno precrtan i zamenjen sa „elaborat“"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ugovor-opsti-s3",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / strana 3",
+      "title": {
+        "sr": "Opšti uslovi, strana 3 — nepropisan materijal i rad, izvođenje radova (čl. 7–8)",
+        "en": "General conditions, page 3 — non-compliant material and work (art. 7–8)"
+      },
+      "text": "Paginacija gore: „- 3 -“ (uz precrtano „- 4 -“). Nastavak čl. 7: materijal „ima se nabaviti od domaćih radnja u smislu § 196 Zakona o radnjama. Ukoliko ga nema u domaćim može ga nabaviti sa strane prema svojoj izjavi u ponudi za nadmetanje odnosno u pogodbi.“ Marginalije: „Nepropisni materijal i rad.“, „Izvodjenje radova.“, „Odstupanja od odobrenog elaborata.“ Čl. 8: materijal koji po nahođenju nadzornih organa ne odgovara tehničkim uslovima saugovorač ne sme upotrebiti i mora ga odmah ukloniti sa mesta rada; u protivnom uklanjanje ide na njegov račun. Saugovorač ima pravo tražiti ispitivanje u jednom od državnih zavoda za ispitivanje materijala; troškove prethodno snosi on, a konačno strana koja nije u pravu. Sve mane usled rđavog materijala, nestručne ili nesolidne izrade ili pogrešnog razumevanja posla saugovorač je dužan ukloniti o svom trošku, „makar se ti radovi morali i iznova izradjivati“ — iznad reda rukom dopisano „sasvim srušiti“. Izgubljeno vreme ne daje pravo na produženje roka. Ako ne izvrši u roku, nadzorna vlast naređuje izvršenje na trošak saugovorača, a utrošena suma se odbija kod prve naredne situacije — obračuna. Poslednji stav: ako saugovorač nesmotrenim i nepromišljenim postupkom prouzrokuje rušenje zidova i konstrukcija ili nepovoljne uslove po njihovu solidnost ili stabilnost, dužan je ukloniti svu štetu o svom trošku i snosi sve posledice.",
+      "facts": [
+        {
+          "kind": "pravni-osnov",
+          "value": "§ 196 Zakona o radnjama — prvenstvo domaćeg materijala"
+        },
+        {
+          "kind": "strana",
+          "value": "3"
+        }
+      ],
+      "legibility": "dobra; providni otisak susedne strane smeta na mestima",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ugovor-opsti-s4",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / strana 4",
+      "title": {
+        "sr": "Opšti uslovi, strana 4 — nepredviđeni radovi, red izvođenja, nadzor (čl. 9–12)",
+        "en": "General conditions, page 4 — unforeseen works, order of execution, supervision (art. 9–12)"
+      },
+      "text": "Paginacija: „- 4 -“ (uz precrtano „- 5 -“). Čl. 9: ako saugovorač bez nadležnog odobrenja izradi posao bolje nego što je predviđeno pogodbenim dokumentima, ne pripada mu naknada preko pogodbene cene; bez prethodnog odobrenja naredbodavca zabranjeno mu je da odstupa od propisa pogodbenih dokumenata, da izrađuje više radova i da se upušta u izvršenje nepredviđenih radova. Čl. 10: svi radovi i nabavke izvršiti po pravilima tehnike i propisima tehničkim i ostalih naredaba kao i ~~statičkih proračuna~~ i detaljnih planova koji će se u toku rada blagovremeno predati saugovoraču, shodno opštim uslovima, kao i prema naredbama i uputstvima nadzornih organa. Saugovorač je dužan blagovremeno tražiti uputstva; neće mu se uvažiti izvinjenje za prekoračene ili nedovoljne dimenzije, bolju ili lošiju izradu, kakvoću nabavljenog materijala itd. i svu će štetu snositi sam, „pa makar se neki radovi morali porušiti i ponovo izraditi a materijal potpuno izbaciti i ukloniti sa gradilišta“. Radovi se izvode redom predviđenim u odobrenom odnosno propisanom programu, a ako ga nema — redom koji propišu nadzorni organi. Čl. 11: nadzorni organi dužni su da prate izvođenje kako radova na gradilištu tako i onih koji se vrše odvojeno od građevine, u radionicama itd., i da strogo paze da se radovi izvršuju po planovima i tehničkim propisima iz odobrenog ~~projekta~~ — elaborata. Čl. 12 (marginalija „Troškovi“, započeto): „Dubinu i veličinu temelja /fundamenta/ objek…“ — nastavak na sledećoj strani. U levoj margini rukopisne beleške mastilom, delimično čitljive („…odstupanja od odobrenog elaborata“, „…vodjenje radova“, „potrebno“).",
+      "facts": [
+        {
+          "kind": "strana",
+          "value": "4"
+        }
+      ],
+      "legibility": "dobra za mašinopis; rukopisne marginalije delimično čitljive",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ugovor-opsti-cene-radova",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / isečak strane",
+      "title": {
+        "sr": "Opšti uslovi — cene radova (isečak)",
+        "en": "General conditions — prices of works (fragment)"
+      },
+      "text": "Snimak hvata samo gornju ivicu lista preko ruba stola; veći deo kadra je okolina, ne dokument. Čitljivo: marginalija „Cene radova.“ i dva reda: „Za poslove koji su predvidjeni predračunom odobrenog ~~projekta~~ — elaborata, platiće se ugovorene cene“. Iznad teksta oznaka nastavka „·/.“ sa prethodne strane. Ostatak strane nije u kadru.",
+      "facts": [],
+      "legibility": "slaba — snimljen samo vrh strane",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-ugovor-opsti-s7-8",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / strana 8",
+      "title": {
+        "sr": "Opšti uslovi, strana 8 — šta mora biti uračunato u ugovorenu cenu",
+        "en": "General conditions, page 8 — cost items included in the contract price"
+      },
+      "text": "Paginacija: „- 8 -“ (uz precrtano „- 7 -“). Isplata samo prema stvarno izvršenim količinama radova odnosno nabavkama. Ako je ponuđaču posao ustupljen na ukupnu sumu po kojoj je izvršena ukupna suma za izvestan procenat niža od odobrene predračunske sume, taj procenat se primenjuje na sve jedinačne cene iz odobrenog predračuna. Takvom ponudom ponuđač priznaje da su dobijene ugovorene cene stvarne i da je zarada ravnomerno podeljena na sve jedinačne cene, i u slučaju da bude manje izvršeno posla nego što je predračunom predviđeno. Ako je posao ustupljen po jedinačnim cenama iz ponude, one se smatraju ugovorenim. Sledi popis svega što mora biti uračunato u ugovorenu cenu: troškovi potrebne radne snage; troškovi potrebnog građevinskog materijala; troškovi oplate, skela, podgrade itd.; amortizacija instalacija i mašina i troškovi njihove opravke; troškovi pogonskog materijala za mašine; amortizacija alata i troškovi njihove opravke; troškovi potrebnog nadzora — ~~palira~~ [rukom dopisano: „poslovođe“]; doprinos za osiguranje radnika i nadzornika-~~palira~~ [rukom: „poslovođa“]; troškovi opšte režije /pripremni radovi, uređenje gradilišta, organizacija i vođenje posla, kancelarije, barake čuvara, putovanja, ispitivanja, komisije, podvozi itd./; troškovi finansiranja posla i kaucije; troškovi održavanja izvršenog posla u garantnom roku, zarada, rizik, porez, takse za molbe i žalbe itd.; ugovorne i priznaničke takse i obrtna poreza. Na kraju: svojim potpisom na opštim i ovim uslovima ponuđač potvrđuje i priznaje da je pregledao i uzeo na znanje sve podatke iz odobrenog ~~projekta~~ — elaborata koji se odnose na ovaj posao, i da je na licu me[sta]… — nastavak na sledećoj strani.",
+      "facts": [
+        {
+          "kind": "strana",
+          "value": "8"
+        },
+        {
+          "kind": "terminologija",
+          "value": "„palir“ rukom zamenjen sa „poslovođa“"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ugovor-opsti-s10",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / strana 10",
+      "title": {
+        "sr": "Opšti uslovi, strana 10 — carina i dinamika isplate (čl. 19–20)",
+        "en": "General conditions, page 10 — customs and payment schedule (art. 19–20)"
+      },
+      "text": "Paginacija: „- 10 -“ (rukom, uz precrtano). Čl. 19, marginalija „Plaćanje carine i carinskih troškova“: ako se izdejstvuje oslobođenje carine, carinskih troškova i skupnih poreza, te se sume predviđene u ponudi za ove dažbine neće priznati; saugovorač je obavezan blagovremeno pripremiti sva potrebna dokumenta i zatražiti od nadležnih vlasti oslobođenje od carine. Čl. 20, marginalija „Isplata radova.“ sa rukom upisanom oznakom „8770/1“: a/ u roku od 8 dana po saopštenju odluke o odobrenju pogodbe isplatiće se saugovoraču avans 30% od ugovorene vrednosti isporuka, kao i predviđene sume za montažu; za avans saugovorač daje garanciju nekog renomiranog novčanog zavoda. b/ 30% od ugovorene vrednosti stvarno isporučenog materijala i izvršenih montažnih radova isplaćuje se po privremenim situacijama — obračunima, „ali u ratama od najmanje 200.000.— dinara“; po izvršenoj isporuci ugovorenog materijala vraća se izdata garancija. v/ ostatak ugovorene vrednosti isporuka kao i stvarno učinjenih izdataka za montažu isplatiće se prema čl. 57 Opštih uslova. Pre izdavanja privremenih situacija saugovorač ili njegov punomoćni zastupnik i nadzorni organ konstatuju sve do tada izvršene nabavke po ugovoru i učinjene izdatke za montažu i obračunavaju ih po ugovorenim cenama; od obračunate sume unosi se u situaciju svega 30% od ugovorene cene. Taj iznos zajedno sa avansom od 30% predstavlja privremeno potraživanje saugovorača. Situaciju potpisuje saugovorač bilo bez primedbe, bilo sa primedbom — potpis sa primedbom ne zadržava isplatu; primedbe sa obrazloženjem dostavljaju se nadzornoj vlasti u roku od 10 dana od unosa u građevinsku knjigu, a nadzorna vlast donosi odluku u roku od 10 dana od prijema primedbi; na tu odluku nema prava dalje žalbe.",
+      "facts": [
+        {
+          "kind": "strana",
+          "value": "10"
+        },
+        {
+          "kind": "avans",
+          "value": "30% ugovorene vrednosti isporuka, u roku od 8 dana"
+        },
+        {
+          "kind": "rata",
+          "value": "privremene situacije u ratama od najmanje 200.000 dinara"
+        },
+        {
+          "kind": "upucivanje",
+          "value": "čl. 57 Opštih uslova"
+        },
+        {
+          "kind": "delovodna-oznaka",
+          "value": "8770/1 (rukom)"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ugovor-opsti-s11a",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / strana 11 (10a)",
+      "title": {
+        "sr": "Opšti uslovi, strana 11 — rok isplate i okončana situacija",
+        "en": "General conditions, page 11 — payment deadline and final account"
+      },
+      "text": "Paginacija: „- 11 -“, rukom dopisano „10 a.“ i oznaka „·/.“. Tekst: isplata se ima izvršiti u roku od 20 dana od dana overe situacije od strane nadzornih organa, „i to na blagajni Srpske Narodne banke, po odbitku svih zakonskih dažbina“. Konstatovanje izvršenih radova i nabavki za sastav privremenih situacija biće samo približno i ne treba se upuštati u takve detalje, koji se imaju konačnim obračunom obuhvatiti. Isplaćivaće se u potpunosti samo one količine radova koje su obostrano priznate i unete u građevinsku knjigu i dnevnik. Poslednja okončana situacija od 40% dinara od pogođene sume isplatiće se saugovoraču pošto ugovoreni posao bude primljen i obračunat od strane komisije za prijem, a na osnovu naredbe za isplatu koju će nadležni naredbodavac izdati po prijemu zapisnika komisije i okončanog računa. Donji deo strane je bleđi otisak (čl. 23 o novčanoj kazni i čl. 24), preko njega plava linija povučena olovkom.",
+      "facts": [
+        {
+          "kind": "strana",
+          "value": "11 (rukom 10a)"
+        },
+        {
+          "kind": "rok-isplate",
+          "value": "20 dana od overe situacije"
+        },
+        {
+          "kind": "blagajna",
+          "value": "Srpska Narodna banka"
+        },
+        {
+          "kind": "okoncana-situacija",
+          "value": "40% pogođene sume"
+        }
+      ],
+      "legibility": "dobra u gornje dve trećine; donji deo bled",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ugovor-opsti-s11-revizija",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / strana 11, sa overom",
+      "title": {
+        "sr": "Opšti uslovi, strana 11 — rok izvršenja, kazna, garantni rok; overa revizije 1941",
+        "en": "General conditions, page 11 — deadline, penalty, warranty; 1941 revision endorsement"
+      },
+      "text": "Paginacija: „- 11 -“ sa precrtanim „- 12 -“. Marginalije: „Rok izvršenja posla.“, „Novčana kazna za produženje roka radi dovršenja odbačenog posla.“, „Rok garantovanja.“, „Sudska nadležnost.“ Čl. 22 (rukom ispravljen broj): sve ugovorene radove i nabavke saugovorač je dužan potpuno dovršiti u roku od [mašinski ostavljeno prazno, rukom upisano, nečitko] dana, računajući od dana saopštenja odluke o ustupanju posla. Čl. 23: u slučaju produženja roka radi dovršenja odbačenog posla, saugovorač će platiti na ime novčane kazne [rukom upisan iznos, nečitko] dinara od svake hiljade vrednosti onog dela posla koji je odbačen jer ne odgovara u celosti ili delimično uslovima, i to za svaki dan produženog roka računajući od isteka ugovorenog roka do dana ispunjenja obaveza. Čl. 24: od dana dovršenja radova, koji će komisija za prijem utvrditi u svome zapisniku, pa za [rukom: „godinu dana“] saugovorač jamči svojim jemstvom za dobru izradu i dobar materijal za sve izvršene radove. Sve mane i nedostatke koji bi se u roku garantovanja pojavili saugovorač je dužan ukloniti o svom trošku pre konačnog prijema; ako to ne učini, nadzorna vlast to izvršava na njegov račun, a učinjeni troškovi zadržavaju se od položenog jemstva. Čl. 25 započinje: „Sporovi koji bi nastupili pri izvršenju obaveza…“ U donjoj levoj margini overa rukom: „Ревидовано Кн бр. 19/41 — Шеф [potpis]“ i „Одобрено решењем М.С.Гр. бр 19/41 од 4.8.41“ sa drugim potpisom.",
+      "facts": [
+        {
+          "kind": "strana",
+          "value": "11"
+        },
+        {
+          "kind": "garantni-rok",
+          "value": "godinu dana od dana dovršenja radova"
+        },
+        {
+          "kind": "revizija",
+          "value": "Ревидовано Кн бр. 19/41"
+        },
+        {
+          "kind": "odobrenje",
+          "value": "решење М.С.Гр. бр. 19/41 од 4.8.1941"
+        }
+      ],
+      "legibility": "dobra za mašinopis; rukom upisan rok i iznos kazne nečitki",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ugovor-opsti-s5-temelji",
+      "folder": "Ugovori izmedju izvodjaca i drzave",
+      "kind": "ugovorni akt / strana 5",
+      "title": {
+        "sr": "Opšti uslovi, strana 5 — fundiranje i red na radovima (čl. 12–13)",
+        "en": "General conditions, page 5 — foundations and order on site (art. 12–13)"
+      },
+      "text": "Nastavak čl. 12: „…ta kao i način fundiranja odredjuju nadzorni organi. U važnijim i težim slučajevima ova pitanja rešava po zahtevu saugovorača ili nadzornih organa nadzorna vlast, a ukoliko je u pitanju izmena načina fundiranja predvidjenog u odobrenom projektu — elaboratu — nadležni naredbodavac koji je doneo odluku o ustupanju posla.“ Preko tog pasusa povučena je kosa linija olovkom. Zatim „Čl.13“ (mašinski „Čl.12“, rukom ispravljeno u 13): nadzorni organi vode brigu o redu na radovima „a naročito će se starati da saugovorač neizostavno i neprekidno preduzima sve mere obazrivosti da bi apsolutno bio isključen svaki poremećaj sigurnosti i saobraćaja na putu pored zgrade. Ovo osiguranje saobraćaja dužan je preduzimač vršiti potpuno besplatno bez prava na ma kakvu naknadu.“ Ako saugovorač neće da osigura saobraćaj, nadzorna vlast naređuje izvršenje o njegovom trošku i utrošenu sumu odbija kod prve naredne situacije — obračuna. Dole započinje sledeći član, rukom označen kao 13. U levoj margini vidljive su marginalije: „Izvodjenje radova.“ i „Otstupanja od odobrenog elaborata.“",
+      "facts": [
+        {
+          "kind": "strana",
+          "value": "5"
+        },
+        {
+          "kind": "obaveza",
+          "value": "osiguranje saobraćaja pored zgrade — besplatno, bez prava na naknadu"
+        }
+      ],
+      "legibility": "dobra; numeracija članova rukom prepravljana",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-zapisnik-1939-06-14",
+      "folder": "Punomoci i zapisnici",
+      "kind": "zapisnik / nadzor",
+      "title": {
+        "sr": "Zapisnik obilaska gradilišta, 14. juna 1939 — vođenje grejnih vodova",
+        "en": "Site inspection minutes, 14 June 1939 — routing of heating risers"
+      },
+      "text": "Latinica, mašinopis, dva potpisa plavim mastilom u vrhu. „ZAPISNIK — Prilikom obilaska i pregleda rada na gradjevini Državne štamparije, od strane nadzornih inžinjera Ministarstva gradjevina za instalacije grejanja, arh. Brašovana kao projektanta i predstavnika firme ’Ademp‘ A.D. kao izvodjača grejanja, rezimirano je:“ 1. Glavni usponski vodovi mogu se voditi kroz prostor za kontra tegove liftova /sa strane/, vodeći računa o položaju samog lifta i budućih kontratereta. 2. U salama gde su rajenfesteri (Reihenfenster), priključci za radijatore voditi od stubova do zida na normalnoj visini, s tim da će izvođač građevine iste da uzida. 3. Vodovi se pokrivaju samo u prostorijama direkcije i u holovima gde će zidovi biti obloženi mermerom; svi ostali mogu da se vode vidno. 4. Klima uređaj za prostorije stalne izložbe u kuli ostavlja se za kasniju studiju i rešenje, „pošto se za sad nije do istog moglo doći“. 5. Po zahtevu g. Brašovana ukidaju se 4 predviđena radijatora u prostorijama radničke kantine na VI spratu, pošto će se cela kantina zagrevati pomoću vazdušnog grejanja. Zapisnik je u četiri ravnoglasna primerka: arhitekti g. Brašovanu, nadzornom arhitekti, nadzornom inžinjeru nad elektromašinskim postrojenjima, predstavniku preduzeća „Ademp“ A.D. Prepis uzima nadzorni inžinjer za elektromašinska postrojenja u građevinski dnevnik. Potpis mesta i datuma: „14. juna 1939 god. Beograd.“ (dan dopisan rukom).",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-06-14"
+        },
+        {
+          "kind": "lice",
+          "value": "arh. Brašovan — projektant"
+        },
+        {
+          "kind": "firma",
+          "value": "„Ademp“ A.D. — izvođač centralnog grejanja"
+        },
+        {
+          "kind": "odluka",
+          "value": "kantina na VI spratu grejana vazdušnim grejanjem; 4 radijatora ukinuta"
+        },
+        {
+          "kind": "odluka",
+          "value": "klima uređaj za stalnu izložbu u kuli odložen"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1939-06-14"
+    },
+    {
+      "id": "cit-zapisnik-1939-07-31",
+      "folder": "Punomoci i zapisnici",
+      "kind": "zapisnik / sastanak nadzora",
+      "title": {
+        "sr": "Zapisnik sastanka 31-VII-1939 — izmene grejanja, sa potpisima i pečatom „Jošanica“ A.D.",
+        "en": "Minutes of 31 July 1939 meeting — heating changes, signed and stamped by Jošanica A.D."
+      },
+      "text": "Prva trećina latinicom, ostatak ćirilicom; mašinopis sa originalnim potpisima i pečatom. „ZAPISNIK — Na sastanku održanom na dan 31-VII-1939 g. kome su prisustvovali gg. arh. Ivačić, načelnik arhitektonskog odelenja Ministarstva Gradjevina, arh. Hanson, inž. Hrvaček Aleksandar, arh. Klokić Milan, kao arhitektonski i mašinski nadzor na novoj zgradi Državne Štamparije u Beogradu, gg. arh. Brašovan i arh. Svetnikov kao projektanti, g. inž. Radenković Bora, kao pretstavnik firme ’Jošanica‘ a.d., koja izvodi arhitektonske radove i gg. inž. Gavrilov Sergije i inž. Savin Petar, kao pretstavnici firme ’Ademp‘ a.d. koja izvodi radove centralnog grejanja, odlučeno je:“ Deset tačaka: 1. radijatori u radničkom ulazu premeštaju se sa postojećeg mesta i stavljaju u pregradne zidove prema priloženoj skici; 2. usponski vodovi za paru br. XXX i LX pomeraju se i stavljaju prema odgovarajućim stubovima; 3. priključci radijatora u radničkom vestibilu u suterenu vode se u šlicu; 4. svi usponski vodovi u radničkom vestibilu u suterenu vode uz stubove, da bi se mogli rabicirati; 5. na činovničkom stepeništu skinuti dovodne priključne cevi i premestiti ih tako da idu iza grejnih površina; 6. u činovničkom vestibilu postaviti uz zid, prema skici, grejne površine dimenzija 300/290; 7. na VII spratu ukida se jedan pisoar i na njegovo mesto postavlja radijator; 8. u suterenu u klozetu premestiti jedan umivaonik i na njegovo mesto postaviti radijator, a umivaonik postaviti na zidu; 9. na I spratu u prostorijama Direkcije rabiciraće se samo u odeljenjima br. 14, 15 i 16, a u ostalim voditi vidno i ukoliko su izrađeni vodovi po ranijoj odluci — sad ih prepraviti prema ovom zaključku; 10. na V spratu postaviti radijatore 300/290. Zapisnik je u 7 ravnoglasnih primeraka: arhitekti Brašovanu, nadzornom arhitekti, nadzornom inženjeru nad elektromašinskim postrojenjima, nadzornom inženjeru za kanalizaciju i vodovod, predstavniku preduzeća „Jošanica“ a.d., predstavniku preduzeća „Ademp“ a.d., predstavniku preduzeća „Labor“. Datum: „1.VIII.1939 год. У Београду.“ Dole levo potpis uz oznaku „НАДЗОРНИ ИНЖЕЊЕР“ i još tri potpisa; dole desno potpisi i plavi pečat „ЈОШАНИЦА А. Д. — Београд, Краља Фердинанда [broj] — Телефон 23-0??“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-07-31"
+        },
+        {
+          "kind": "datum",
+          "value": "1939-08-01"
+        },
+        {
+          "kind": "lice",
+          "value": "arh. Ivačić — načelnik arhitektonskog odeljenja Ministarstva građevina"
+        },
+        {
+          "kind": "lice",
+          "value": "arh. Hanson; inž. Aleksandar Hrvaček; arh. Milan Klokić — nadzor"
+        },
+        {
+          "kind": "lice",
+          "value": "arh. Brašovan i arh. Svetnikov — projektanti"
+        },
+        {
+          "kind": "lice",
+          "value": "inž. Bora Radenković — „Jošanica“ a.d."
+        },
+        {
+          "kind": "lice",
+          "value": "inž. Sergije Gavrilov i inž. Petar Savin — „Ademp“ a.d."
+        },
+        {
+          "kind": "firma",
+          "value": "„Labor“ — primalac primerka zapisnika"
+        },
+        {
+          "kind": "adresa",
+          "value": "„Јошаница“ А.Д., Београд, Краља Фердинанда (pečat)"
+        },
+        {
+          "kind": "mera",
+          "value": "grejne površine / radijatori 300/290"
+        }
+      ],
+      "legibility": "dobra za mašinopis; potpisi i broj telefona na pečatu nečitki",
+      "confidence": "visoka",
+      "date": "1939-07-31"
+    },
+    {
+      "id": "cit-punomoc-krasenski-1935",
+      "folder": "Punomoci i zapisnici",
+      "kind": "punomoćje / overen akt",
+      "title": {
+        "sr": "Punomoćje inž. D. S. Krasenskog Ernestu Majsneru, overeno 14. II 1935",
+        "en": "Power of attorney from eng. D. S. Krasenski to Ernest Majsner, certified 14 Feb 1935"
+      },
+      "text": "Ćirilica, mašinopis, sa taksenom markom od 10 dinara u gornjem desnom uglu i okruglim pečatom. „ПУНОМОЋ. — Овлашћујем госп. Ернеста Мајснер, да може моје предузеће за инсталацију електрике, водовода, канализације и централног грејања, које је протоколисано код Београдског Трговачког Суда под Бр. 23.497 од 16. августа 1933 год., пуноважно претстављати и пуноважно заступати на свим јавним лицитацијама код државних или самоуправних власти или надлештава, те да код истих може у моје име преузимати све обавезе из ових послова, на свим местима примати новац и новчане вредности и, у ту сврху потписивати признанице и свуда, где то потреба буде указала.“ Potpis: „Инж. Д. С. Красенски“ (dva puta). Ispod, overa: „Таксена марка од дин. 10. — Да је Г. Красенски С. Димитрије из Београда то га потписати познаје преко исправа, предње пуномоћје које издаје г. Ернесту Мајснеру у свему за своје признао, потписао и овој власти на потврду поднео, — Кварт IX. Управе Града Београда за наплату таксе из Т.Бр. 16. у дин. 20 за правни посао и Т.Бр. 43 зак. о таксама у дин. 10 за потврду, тврди — по нар. Старешину IX. кварта пристав, нечитљив потпис.“ Levo: „Бр. 1977, 14. II. 1935 г., Београд.“ i „М.Печат“. Preko donjeg dela plavi pečat komisije za licitaciju sa tri rukom upisana imena i jedan pečat „ОТВОР…“ sa datumom „7-III-19[39]“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1935-02-14"
+        },
+        {
+          "kind": "lice",
+          "value": "inž. Dimitrije S. Krasenski — vlasnik preduzeća"
+        },
+        {
+          "kind": "lice",
+          "value": "Ernest Majsner — opunomoćenik"
+        },
+        {
+          "kind": "registracija",
+          "value": "Beogradski Trgovački Sud, Br. 23.497 od 16. avgusta 1933"
+        },
+        {
+          "kind": "delovodna-oznaka",
+          "value": "Бр. 1977"
+        },
+        {
+          "kind": "delatnost",
+          "value": "instalacije elektrike, vodovoda, kanalizacije i centralnog grejanja"
+        }
+      ],
+      "legibility": "dobra za mašinopis; overni pečati i rukopisna imena komisije delimično čitljivi",
+      "confidence": "visoka",
+      "date": "1935-02-14"
+    },
+    {
+      "id": "cit-krov-fasonsko-gvozdje-1942",
+      "folder": "Krov",
+      "kind": "komisijski izveštaj",
+      "title": {
+        "sr": "Komisijski izveštaj o zameni fasonskog gvožđa i doplati za tesanu građu krovne konstrukcije, 17. decembar 1942",
+        "en": "Commission report on substituting profiled iron and surcharge for hewn timber of the roof structure, 17 December 1942"
+      },
+      "text": "Ćirilica, mašinopis, list fotografisan koso pa je levi rub reda odsečen kadrom. Rukom gore: „…дан 17. децембар 1942. год.“ Naslov: „КОМИСИЈСКИ ИЗВЕШТАЈ О ЗАМЕНИ ФАСОНСКОГ ГВОЖЂА ЗА ИЗРАДУ ГВОЖЂАРСКИХ РАДОВА КАО И [до]ПЛАТИ ЗА ТЕСАНУ ГРАЂУ КРОВНЕ КОНСТРУКЦИЈЕ.“ Komisija je određena rešenjem Ministra građevina od 1. decembra 1942 god. Бр. 29538 и 29537, sa zadatkom da prouči pitanje zamene materijala za izradu gvožđarskih radova i izmenu ugovorene cene prema pretstavkama preduzimača Ђ. Вороњина na zgradi Ekonomskog bloka Državne štamparije u Beogradu, pregledala je pogodbe[ni] elaborat i dokumenta i našla sledeće: 1. Rešenjem g. Ministra građevina od 24. aprila 1942 … sa kojim se saglasilo Ministarstvo finansija … 1942 god. i Glavna kontrola pod Бр. 23690 … odobreno je dovršenje završnih grubih radova na zgradi Ekonomskog bl[oka Državne] štamparije u Beogradu inž. Ђури Вороњину, preduzimaču iz Beograda, [na sumu] 19.163,40 dinara [vidi napomenu]. 2. Preduzimač pretstavkom od 11. jula 1942 odnosno od 18. novembra 1942, zavedenom pod МГБр. 29538 … izveštava Ministarstvo građevina da ne može nabaviti fasonsko gvožđe za izradu gvozdenih vrata i prozora prema detalju. 3. Drugom pretstavkom od 11. jula odnosno 18. novembra 1942, zavedenom pod МГБр. 16948 … traži nadoplatu za tesanu građu. 4. Preduzimač predlaže u vezi nestašice potrebnih [materijala]: a/ da se sa raspoloživim dimenzijama izradi nova ko[nstrukcija] bravarskih radova; ИЛИ б/ da se dotični objekti izrade u borovini ИЛИ в/ da se ovi radovi stave u makar. Komisija obrazlaže: kako predviđena gvožđarija služi za zatvaranje veli[kih otvora] Ekonomskog bloka /kotlarnice i električne centrale/ i koja je izložena vremenskim nepogodama, naročito jakim vetrovima /košava/, mišljenja je da se ostane pri pogodbenim gvozdenim vratima i prozorima, da se izvrši zamena fasonskog gvožđa sa fasonskim profilima prema raspoloženju. Da u tu svrhu dostave prerađeni detalji gvozdenih [vrata i] prozora koji odgovaraju približno tehnički pogodbenom detalju, a [izrađ]en na osnovu postojećih dimenzija na tržištu, odnosno prema raspoloživim profilima od Centrale za gvožđe i metale. Preduzimač je dužan po istome postupiti, bez [odlaganja], tim pre što je: a/ po istoj pretstavci a na komisijski izveštaj Mini[starstva Gra]đevina МГБр. 16949/42 preduzimaču saopštena predmetna odluka; б/ nadzorni arhitekta na osnovu prednjeg dostavio … novembra 1942 god., preduzimaču u rad. 5. Prema svojoj drugoj pretstavci kojom preduzimač [traži nadopl]atu za tesanu građu, u koju je strugačem i kraćenjem dovodio … [pre]vidjenu statičkim proračunom, komisija je mišljenja: a/ da preduzimač nije bio dužan da vrši gornje radove [jer je po]gođenim predračunom, pogođenim planovima predviđeno … u dimenzijama 16/18 cm; б/ tesanu građu preduzimač je znao da mora skraćiv[ati] … na kraju grede a prema razmaku predviđenih arm.bet. lukova … kako bi se dobio srednji odgovarajući presek. Dole „·/.“ — ima nastavak.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1942-12-17"
+        },
+        {
+          "kind": "datum",
+          "value": "1942-12-01"
+        },
+        {
+          "kind": "lice",
+          "value": "inž. Đura Voronjin — preduzimač, Beograd"
+        },
+        {
+          "kind": "deo-objekta",
+          "value": "Ekonomski blok — kotlarnica i električna centrala"
+        },
+        {
+          "kind": "oznaka",
+          "value": "rešenje Ministra građevina Бр. 29538 i 29537 od 1.12.1942"
+        },
+        {
+          "kind": "oznaka",
+          "value": "МГБр. 16948 i МГБр. 16949/42; Glavna kontrola Бр. 23690"
+        },
+        {
+          "kind": "mera",
+          "value": "tesana građa dimenzija 16/18 cm"
+        },
+        {
+          "kind": "razlog",
+          "value": "ratna nestašica fasonskog gvožđa; nabavka preko Centrale za gvožđe i metale"
+        }
+      ],
+      "legibility": "srednja — levi rub svakog reda je van kadra, pa su počeci reči rekonstruisani iz konteksta i označeni",
+      "confidence": "srednja",
+      "date": "1942-12-17"
+    },
+    {
+      "id": "cit-lift-hitnost-1943",
+      "folder": "Instalacije/Instalacija lifta",
+      "kind": "naredba / dopis",
+      "title": {
+        "sr": "Hitna naredba Ministarstva građevina firmi J. Tepper o neispravnim liftovima, 5. maj 1943",
+        "en": "Urgent order from the Ministry of Construction to J. Tepper concerning faulty lifts, 5 May 1943"
+      },
+      "text": "Ćirilica, mašinopis na memorandumu. Zaglavlje štambiljem: „МИНИСТАРСТВО ГРАЂЕВИНА — Бр. 5876 — 5.V.1943 г. — БЕОГРАД“ (broj i datum rukom). Naslovljeno: „Господину ЂУРИ СЕЛЕНДРИЋУ, опуномоћнику фирме ’Ј. Тепер‘ из Минстер у.В. — БЕОГРАД, Страхињића Бана 43.“ Tekst: „У вези моје данашње посете на новој згради Државне штампарије и разговора које сам имао са командантом јединице смештене у поменутој згради, а по питању неисправног рада лифтова и њиховог дефинитивног монтирања, наређујем вам: 1/ Да данас до 12 сати, а најкасније до сутра ујутро — 6-V-943 доведете на градилиште стручног монтера који ће у најкраћем року неисправни лифт довести у исправно стање /лифт бр. 5/ и лифт бр. 2 довршити са монтажом. 2/ Да у случају ако Ви нисте у стању да специјалисту монтера доведете на градилиште у напред означеном року, Министарство грађевина преузеће само да то изврши, а трошкове око ових радова сносиће фирма Ј. Тепер, чији сте Ви опуномоћеник. О предњем се обавештавате ради знања и даљег управљања. Врло је хитно.“ Reč „Врло је хитно“ podvučena crvenom olovkom. Potpis: „Надзорни инжињер“ sa nečitkim potpisom. Ispod, rukom plavim mastilom: „Примио акт на знање.“, potpis primaoca i datum „5.V.43“, uz okrugli pečat „МИНИСТАРСТВО ГРАЂЕВИНА — БЕОГРАД“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1943-05-05"
+        },
+        {
+          "kind": "lice",
+          "value": "Đura Selendrić — opunomoćenik firme J. Tepper u Beogradu"
+        },
+        {
+          "kind": "firma",
+          "value": "„Ј. Тепер“ (Joseph Tepper), Münster i. W."
+        },
+        {
+          "kind": "adresa",
+          "value": "Beograd, Strahinjića Bana 43"
+        },
+        {
+          "kind": "delovodna-oznaka",
+          "value": "МГ Бр. 5876"
+        },
+        {
+          "kind": "oprema",
+          "value": "lift br. 5 neispravan; lift br. 2 nedovršena montaža"
+        },
+        {
+          "kind": "okolnost",
+          "value": "u zgradi je 1943. smeštena vojna jedinica sa komandantom"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1943-05-05"
+    },
+    {
+      "id": "cit-nestasica-zice-izvestaj",
+      "folder": "Instalacije/Instalacija struje/Nestasica zice",
+      "kind": "izveštaj",
+      "title": {
+        "sr": "Izveštaj o iskorišćenju zgrade i nedostajućim postrojenjima — nestašica izolovane žice i bakra",
+        "en": "Report on use of the building and missing installations — shortage of insulated wire and copper"
+      },
+      "text": "Ćirilica, mašinopis, strana označena rukom „1.“ Zaglavlje (delom pod presavijenim listom): „[Нова] зграда Државне штампарије [у] Београду. Искоришћење зграде и потребна постројења.“ Naslov: „ИЗВЕШТАЈ“. Tekst: „Нова зграда Државне штампарије у стању у коме се сада налази не може се употребити за сврху којој је намењена. Електрична постројења нису завршена, нити могу бити завршена пре него што се набави потребна количина изоловане жице. Овај материјал ми сами не можемо набавити, уколико нам не би у томе помогле немачке власти, па и тада је могућност набавке у питању, пошто је велика несташица и бакра и потребних изолационих материјала. Добијање одобрења за прераду старог бакра, који се налази у земљи, вероватно чак и у довољној количини, није у изгледу, пошто постоји могућност да се саме немачке власти користе овим материјалом. Без довршења електричних постројења зграда се не би могла употребити за што друго осим за магацине, јер не би имала ни осветљења нити струје за погон мотора. Исто тако не би се могла поставити ни потребна постројења слабе струје, телефони и сигнални уређаји, без којих је немогућа управа над разгранатим и разноврсним радионицама. Употреба зграде преко зиме ове године свакако неће бити могућа, пошто се поручено котловско постројење не може очекивати пре априла месеца 1942 године. Према томе за сада не стоји ништа на путу да се верује да ће се зграда у зимском периоду 1942/43 год. моћи [кори]сти[ти]. Постројење за вентилацију радионица климатизираним ваздухом као и постројење за грејање ваздухом неких просторија, кантине и просторије за изложбу, пројектовано је, али није могло бити изведено. Од почетка рата тешко је било добавити потребне количине поцинкованог лима за канале, а потребни аутомати нису се могли никако набавити. С тога је још од краја 1939 год. овај посао остављен за касније, кад буде могуће да се набави све што је потребно. Без ових постројења свакако зграда не би била беспрекорна у техничком и хигијенском погледу, као што се то мора очекивати од једне овакве зграде, која поред осталог стаје огромне суме, али би се ипак дала врло добро употребити за намењену сврху. Сад је се појавило питање што хитнијег довршења зграде, да би се омогућило усељавање Државне штампарије, а у исто време јављају се и сугестије, да се постројећа зграда искористи не само за Државну штампарију, којој је и намењена, већ да се овде скупе све мање државне штампарије појединих министарстава, а поред ових и државна маркарница. Није свеједно да ли ће се у садашњим приликама зграда употребити само за Државну штампарију, или ће се у њој сместити и све остале наведене установе. Државна штампарија, сама за себе, према њеном садашњем обиму послова, заузимала би само један мањи део зграде; нове машине, предвиђене за обимнији посао од ранијег нормалног, нити би се набављале нити би за њих било потребно предвиђати нов електрични [погон]…“ — nastavak na sledećoj strani.",
+      "facts": [
+        {
+          "kind": "razlog",
+          "value": "ratna nestašica izolovane žice, bakra i izolacionih materijala"
+        },
+        {
+          "kind": "okolnost",
+          "value": "nabavka zavisi od nemačkih vlasti; prerada starog bakra iz zemlje nije u izgledu"
+        },
+        {
+          "kind": "oprema",
+          "value": "kotlovsko postrojenje poručeno, očekivano pre aprila 1942"
+        },
+        {
+          "kind": "oprema",
+          "value": "klimatizacija radionica i vazdušno grejanje projektovani, neizvedeni — odloženi od kraja 1939"
+        },
+        {
+          "kind": "namena",
+          "value": "predlog da se u zgradu smeste i manje državne štamparije ministarstava i državna markarnica"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-sat-predracun-s20",
+      "folder": "Instalacije/Instalacija starog sata",
+      "kind": "predračun",
+      "title": {
+        "sr": "Predračun za signalne aparate slabe struje i telefone — električni satovi (strana 20)",
+        "en": "Cost estimate for low-current signalling and telephones — electric clocks (page 20)"
+      },
+      "text": "Latinica, mašinopis, podvlačeno crvenom olovkom, sa okruglim pečatom „МИНИСТАРСТВО ГРАЂЕВИНА БЕОГРАД“ i rukom upisanom paginacijom „20“. Naslov: „PREDRAČUN za isporuku i montažu signalnih aparata slabe struje i telefona“, rukom crvenim dopisano „u novoj zgradi Drž. štamparije u Beogradu“. Odeljak „I. Isporuka i montaža električnih satova:“ 1/ „Isporučiti i montirati glavni zidni sat u hrastovom ormanu, sa preciznom klatnom 1/1 sek., sa automatskim i ručnim navijanjem i rezervom hoda od oko 50 čas. u slučaju nestanka struje, za pogon sporednih polarizovanih satova od 24 volta. Priključak glavnog sata je na 220 volti 50 per. Komada 1 sa vezama … 7.000.—“ 2/ „Isporučiti i montirati dvo-strani toranjski motorni časovnik, kompletan sa potrebnim relejima za pogon od glavnog sata, a za priključak motora na naizmeničnu struju. Ceo satni mehanizam treba da bude smešten u pogodno kućište, sa potrebnim prilazom za pregled i opravke. Prečnik slobodnog, nezaštićenog cifranika je oko 6 m /vidi skicu/, a satne oznake i skazaljke treba da se predvide za osvetljenje sa unutarnje strane. Iskucavanje jako u dva zvuka, posebno za časove a posebno za četvrtine. Mogućnost doterivanja impulsima od mesta gde je glavni sat. Uz kompletan satni uredjaj preduzimač je dužan da predvidi i isporuči kazaljke i cifranik jasno vidljiv, danju i noću; sa kompletnom instalacijom lampi sa živinom odnosno natrijum parom po 2 kom. za svaku stranu t.j. za svaki cifranik; nadalje, uz ove lampe dati uredjaj za automatsko ukopčanje i iskopčanje toga osvetljenja sa električnim i ručnim navijanjem i astronomskim regulisanjem vremena“ — nastavak na sledećoj strani („·/.“).",
+      "facts": [
+        {
+          "kind": "strana",
+          "value": "20"
+        },
+        {
+          "kind": "mera",
+          "value": "toranjski časovnik: prečnik cifranika oko 6 m, dvostrani"
+        },
+        {
+          "kind": "mera",
+          "value": "glavni sat: klatno 1/1 sek, rezerva hoda ~50 časova, 220 V / 50 Hz"
+        },
+        {
+          "kind": "mera",
+          "value": "sporedni polarizovani satovi 24 V"
+        },
+        {
+          "kind": "cena",
+          "value": "glavni zidni sat sa vezama — 7.000 dinara"
+        },
+        {
+          "kind": "oprema",
+          "value": "osvetljenje cifranika lampama sa živinom odnosno natrijumovom parom, 2 komada po strani"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-sat-rekapitulacija-s7",
+      "folder": "Instalacije/Instalacija starog sata",
+      "kind": "predračun / rekapitulacija",
+      "title": {
+        "sr": "Rekapitulacija predračuna slabe struje, sa revidovanim sumama (strana 7)",
+        "en": "Low-current estimate recapitulation with revised sums (page 7)"
+      },
+      "text": "Latinica, mašinopis; strana označena „7.“ Naslov „REKAPITULACIJA:“ sa četiri pozicije. Mašinski upisane sume su precrtane i iznad njih crvenom olovkom upisane nove: I. Isporuka i montaža električnih satova — mašinski 151.100.—, crveno 148.600.—; II. Isporuka i montaža telefonskog postrojenja — mašinski 135.950.—, crveno 147.650.—; III. Isporuka i montaža aparata za traženje lica — 20.900.— (nepromenjeno, sa crvenom kvačicom); IV. Isporuka i montaža kombinovanog postrojenja za javljanje požara i kontrolu čuvara — mašinski 233.500.—, crveno 153.800.—. „Ukupno dinara:“ mašinski 541.450.—, precrtano, ispod crveno 470.950.—. Obe sume se slažu sa svojim pozicijama: 151.100+135.950+20.900+233.500 = 541.450 i 148.600+147.650+20.900+153.800 = 470.950. Ispod, „NAPOMENA:“ — cenama u predračunu obuhvaćena je isporuka i postavljanje navedenog materijala postrojenja sa svim vezama, ali bez izrade instalacije ka pojedinim mestima; izrada instalacije data je posebno, te je nadmetač na kome ostane ovaj posao dužan da svoje aparate i postrojenja samo veže na instalacije i da zatim sve isproba i pusti u ispravan rad. U cene su nadmetači dužni da uračunaju sve državne i ostale dažbine na dan licitacije, kao i ono što je navedeno u tehničkim uslovima. „Skreće se pažnja nadmetačima da cene moraju za svaku poziciju da budu realne pijačne cene.“ Potpis: „Dopunio Revident, Ing. M. S. Luković, s.r., inž. Min. gradj. E.M.O.“ Dole crvenom olovkom rukom: „Ревидована сума је с обзиром на садашње … цене и количинске промене“ (poslednji red delimično van kadra).",
+      "facts": [
+        {
+          "kind": "strana",
+          "value": "7"
+        },
+        {
+          "kind": "cena",
+          "value": "električni satovi: 151.100 → 148.600 dinara"
+        },
+        {
+          "kind": "cena",
+          "value": "telefonsko postrojenje: 135.950 → 147.650 dinara"
+        },
+        {
+          "kind": "cena",
+          "value": "aparati za traženje lica: 20.900 dinara (nepromenjeno)"
+        },
+        {
+          "kind": "cena",
+          "value": "javljanje požara i kontrola čuvara: 233.500 → 153.800 dinara"
+        },
+        {
+          "kind": "cena",
+          "value": "ukupno: 541.450 → 470.950 dinara"
+        },
+        {
+          "kind": "lice",
+          "value": "Ing. M. S. Luković — revident, inž. Ministarstva građevina, E.M.O."
+        }
+      ],
+      "legibility": "dobra; poslednji red rukopisne napomene je odsečen kadrom",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-strebel-crtez-na4",
+      "folder": "Nemacki izvori",
+      "kind": "crtež / fabrički list",
+      "title": {
+        "sr": "Strebel-UNI kotao, fabrički crtež NA 4, razmera 1:25, sa tabelom pet veličina",
+        "en": "Strebel-UNI boiler, factory drawing NA 4, scale 1:25, with table of five sizes"
+      },
+      "text": "Nemački fabrički crtež na dva lista, sa dve jugoslovenske taksene marke od po 2 dinara i crvenom rimskom oznakom „I“. Tri projekcije: „Längsschnitt“ (uzdužni presek, kotiran — 4070 ukupno, delovi 764 / 5 / 502 / 1622 / 1679 / 479, visine 2750, 2771, 1184, 695, 1406, 910, 326, 300, 3900 u podnožju), „Vorderansicht“ (prednji izgled, visine 2234, 2150, 1825, oznake g, h, i, a₁, MH) i „Aufsicht“ (pogled odozgo, 2260, 234, oznake f, g, a₁). Tabela desno daje dimenzije za pet veličina, odvojeno za parni i vodeni režim („Dampfk.“ / „Wasserk.“): l 100/100/125/125/125 i 200/200/250/250/250; k 200/200/250/250/250 i 200/200/250/250/250; i 824/824/864/864/864 i 844/844/844/844/844; h 1470/1470/1370/1370/1370 i 1390 u svih pet; g 760/850/975/1065/1155 i 830/920/1030/1120/1210; f (I.W.) 740/920/1100/1280/1460; a₁ 1208/1388/1568/1748/1928; „Kesselheizfl. m²“ 32,0 / 38,5 / 45,0 / 51,5 / 58,0. Sastavnica: „Massstab 1:25 — STREBEL — Strebel-UNI-Kessel für Wasser und Dampf — D.R.P. und Auslandpatente — NA 4“, uz „Änderungen vorbehalten“ i plavi štambilj „STREBELWERK Gesellschaft mit beschränkter Haftung, Vertretung für Jugoslavien“. Levo dole rukom, ćirilicom, plavom i crvenom olovkom: „Чланови комисије:“ i tri potpisa (prvi započinje sa „инж.“).",
+      "facts": [
+        {
+          "kind": "razmera",
+          "value": "1:25"
+        },
+        {
+          "kind": "oprema",
+          "value": "Strebel-UNI-Kessel za vodu i paru, crtež NA 4"
+        },
+        {
+          "kind": "mera",
+          "value": "grejna površina kotla: 32,0 / 38,5 / 45,0 / 51,5 / 58,0 m²"
+        },
+        {
+          "kind": "mera",
+          "value": "ukupna dužina kotla po crtežu 4070 mm; osnova 3900 mm"
+        },
+        {
+          "kind": "firma",
+          "value": "Strebelwerk G.m.b.H. — zastupstvo za Jugoslaviju"
+        }
+      ],
+      "legibility": "dobra — tabela i kote čitljive; rukopisni potpisi komisije ne",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-strebel-prospekt-naslovna",
+      "folder": "Nemacki izvori",
+      "kind": "prospekt / reklamni list",
+      "title": {
+        "sr": "Strebel-UNI — naslovna strana prospekta u boji, sa taksenim markama",
+        "en": "Strebel-UNI — colour brochure cover, with revenue stamps"
+      },
+      "text": "Reklamni list u boji: crteži plamena koji iz zonskog pokretnog rosta („Zonenwanderrost“) ulazi u paket grejnih elemenata kotla; velikim plavim slovima „STREBEL-UNI“. Gore crvenom olovkom rimsko „I“. Dole logo u obliku zaobljenog pravougaonika sa natpisom „STREBEL“, zatim dve jugoslovenske taksene marke od po 2 dinara (natpis „ТАКСЕНА МАРКА — 2 ДИНАРА 2“, godina 1934 na marki), pa plavi štambilj „STREBELWERK Gesellschaft mit beschränkter Haftung, Vertretung für Jugoslavien“. Dole levo oznaka izdanja: „Nr. 737 2. 41. E.“ — što datira list u februar 1941.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-02"
+        },
+        {
+          "kind": "oprema",
+          "value": "Strebel-UNI kotao sa zonskim pokretnim rostom"
+        },
+        {
+          "kind": "taksa",
+          "value": "dve taksene marke po 2 dinara"
+        },
+        {
+          "kind": "oznaka",
+          "value": "izdanje Nr. 737 2. 41. E. — odatle datum izdanja"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-02"
+    },
+    {
+      "id": "cit-strebel-bericht-naslovna",
+      "folder": "Nemacki izvori",
+      "kind": "izveštaj o ispitivanju / naslovna strana",
+      "title": {
+        "sr": "Izveštaj o ispitivanju učinka Strebel-UNI kotla, Mannheim, 18–28. jul 1939",
+        "en": "Report on performance tests of the Strebel-UNI boiler, Mannheim, 18–28 July 1939"
+      },
+      "text": "Naslovna strana brošure: crveni logo „STREBEL“, zatim „BERICHT über Leistungsversuche an einem schmiedeeisernen Strebel-Niederdruck-Wasserrohr-Kessel — STREBEL-UNI-KESSEL — auf dem Prüfstand der Firma STREBELWERK G.m.b.H. Mannheim — vom 18. bis 28. Juli 1939, ausgeführt vom Technischen Überwachungsverein Mannheim.“ Gore crvenom olovkom rimsko „I“, uz dve taksene marke od po 2 dinara. Dole plavi štambilj „STREBELWERK … Vertretung für Jugoslavien“ i oznaka izdanja „Nr. 738“.",
+      "facts": [
+        {
+          "kind": "period",
+          "value": "1939-07-18/1939-07-28"
+        },
+        {
+          "kind": "ustanova",
+          "value": "Technischer Überwachungsverein Mannheim — izvršilac ispitivanja"
+        },
+        {
+          "kind": "firma",
+          "value": "Strebelwerk G.m.b.H., Mannheim"
+        },
+        {
+          "kind": "oprema",
+          "value": "kovano-gvozdeni niskopritisni vodocevni kotao Strebel-UNI"
+        },
+        {
+          "kind": "radnja",
+          "value": "ispitivanje učinka kotla na probnom stolu"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1939-07-18/1939-07-28"
+    },
+    {
+      "id": "cit-strebel-prospekt-opis",
+      "folder": "Nemacki izvori",
+      "kind": "prospekt / tehnički opis",
+      "title": {
+        "sr": "Strebel-UNI kotao sa zonskim pokretnim rostom — tehnički opis prospekta",
+        "en": "Strebel-UNI boiler with zone travelling grate — brochure technical description"
+      },
+      "text": "Dvostrani prospekt snimljen bočno (tekst je okrenut za 90°). Naslov: „STREBEL-UNI-KESSEL mit Zonenwanderrost für die Verfeuerung von gasreichen kleinstückigen Brennstoffen — D.R.P. und Auslands-Patente“. Levo uzdužni presek kroz kotao, desno fotografija bočno izvučenog zonskog rosta („Seitlich ausgefahrener Zonenwanderrost“). Pročitani odeljci: uvod — Strebel-UNI-Kessel je kovano-gvozdeni toplovodni ili niskopritisni parni kotao sa punom automatskom regulacijom, građen u šest veličina. „Kessel-Heizfläche: 25,5 — 32,0 — 38,5 — 45,0 — 51,5 — 58,0 m²“ i „Normale spezifische Heizflächenbelastung je nach Brennstoff und Größe 12.000—14.500 kcal/m²h“. „Der Kesselkörper“: obostrano ispred rosta postavljeni rashladni nosači od bešavno vučenog četvrtastog profila, prizmatični gornji deo sa strujnim razdelnikom kroz koji prolazi mnoštvo cevi; na donjem i prednjem sabirniku povezani su četvrtaste cevi preko donjeg bubnja. Između gornjeg i donjeg bubnja na najmanjem zamislivom prostoru smešten je snop cevi; gasni tok kroz cevni snop ima mali otpor pa je otpor dimnjaka nizak; visok prenos toplote pri maloj dužini; lako se čiste i zamenjuju cevi — rešenje sa tri cevna reda. Vođenje vatre je obloženo šamotnim ugradnjama i pokriveno odozgo; cevi služe kao povratni vod. „Der Zonenwanderrost“ se može izvući bočno ili napred; vazduh se dovodi bočno kroz više podesivih vazdušnih komora sa duplim klapnama; veliki profili rosta omogućavaju prilagođavanje različitim gorivima. Dalje: „Keine Schmierung“ — pokretni delovi rosta leže u ležištima izvan kotla, pogon preko elektromotora 0,2—0,3 kW sa ugrađenom spojnicom; „Die Kohlenschichthöhe“ se podešava šamotnim svodom; „Ein Rückführungsgewölbe“ obezbeđuje sigurno paljenje goriva i ujednačen izgaranje; „Reinigung“ — međuprostori su slobodni i dostupni odozdo, čiste se četkom kroz otvore, prljavština pada u prostor ispod cevnog snopa i lako se odnosi; za uklanjanje šljake predviđeno je bočno pražnjenje iza rosta.",
+      "facts": [
+        {
+          "kind": "mera",
+          "value": "grejne površine kotla u šest veličina: 25,5 / 32,0 / 38,5 / 45,0 / 51,5 / 58,0 m²"
+        },
+        {
+          "kind": "mera",
+          "value": "specifično opterećenje grejne površine 12.000—14.500 kcal/m²h"
+        },
+        {
+          "kind": "mera",
+          "value": "pogonski motor zonskog rosta 0,2—0,3 kW"
+        },
+        {
+          "kind": "gorivo",
+          "value": "gasom bogata sitnokomadna goriva"
+        }
+      ],
+      "legibility": "srednja — list je snimljen bočno i u perspektivi; sitniji nemački tekst desne strane čitan uz napor",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tepper-katalog-s301",
+      "folder": "Nemacki izvori",
+      "kind": "katalog / referentna lista",
+      "title": {
+        "sr": "Joseph Tepper, Maschinenfabrik Münster — kataloška strana 301 sa referencama i nalepnicom Reichsgartenschau Essen 1938",
+        "en": "Joseph Tepper, Maschinenfabrik Münster — catalogue page 301 with references and a Reichsgartenschau Essen 1938 label"
+      },
+      "text": "Otvorena kataloška knjiga, strana „301“. Zaglavlje: „Joseph Tepper, Maschinenfabrik, Mün[ster i. W.]“ sa logom „JT“ i oznakom „GEGR. 1865“; ispod „Hafengrenzweg 13“, „Fernruf S. 40360“, „Vertretungen in allen größeren Städten d[es Reiches]“. Rubrika „Erzeugnisse“: „Aufzüge jeder Art und Größe“, uz žig „Tepper Aufzüge“. Rubrika „Ausgeführte Anlagen für:“ sa spiskom naručilaca: Heeresbauämter, Reichsbauämter, Reichsbahn, Reichspost, Regierung, Provinzialverwaltungen, Gemeinden, Universitätskliniken und Kranken[häuser], Büro-, Geschäfts- und Wohnhäuser, Waren- und Kaufhäuser des In- und [Auslands]. Preko strane zalepljena je reklamna nalepnica u boji: „Ein Höhepunkt der REICHSGARTENSCHAU ESSEN 1938“ sa crtežom tornja i paviljona okićenih zastavama sa kukastim krstom, dole „Tepper Aufzüge — MÜNSTER i/W.“ i tekst „Tepper-Aufzug im Kasino…, mit Feineinstellung und elektrischer B[edienung] und Schachttüren“. Preko leve strane rukom, ćirilicom: „Чланови [комисије]“ i tri numerisana potpisa plavim mastilom (1., 2., 3.), a levo uz njih datum „22. X. 41“ sa razlomkom ispod. Na levom listu je katalog delova za liftove („…AUFZÜGEN“, „DURCHBILDUNG ALLER …TEILE“) sa crtežima kabina i sklopova; gore desno rukom crvenom olovkom nečitka beleška („са …“).",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-10-22"
+        },
+        {
+          "kind": "firma",
+          "value": "Joseph Tepper, Maschinenfabrik, Münster i. W., osn. 1865"
+        },
+        {
+          "kind": "adresa",
+          "value": "Hafengrenzweg 13, Münster; Fernruf S. 40360"
+        },
+        {
+          "kind": "oprema",
+          "value": "liftovi svih vrsta i veličina; referenca Reichsgartenschau Essen 1938"
+        },
+        {
+          "kind": "strana",
+          "value": "301 (kataloška)"
+        }
+      ],
+      "legibility": "srednja — strana snimljena koso; desna kolona delom pod nalepnicom",
+      "confidence": "srednja",
+      "date": "1941-10-22"
     }
   ],
   "chronology": [
+    {
+      "id": "bigz:t:f53861d6ab",
+      "reading": "cit-punomoc-krasenski-1935",
+      "from": "1935-02-14",
+      "label": {
+        "sr": "Punomoćje inž. D. S. Krasenskog Ernestu Majsneru, overeno 14. II 1935",
+        "en": "Power of attorney from eng. D. S. Krasenski to Ernest Majsner, certified 14 Feb 1935"
+      },
+      "raw": "1935-02-14",
+      "span": false
+    },
     {
       "id": "bigz:t:e10408f348",
       "reading": "cit-foto-jama-pod-vodom",
@@ -2156,6 +2976,17 @@
       "span": false
     },
     {
+      "id": "bigz:t:225dbb4f10",
+      "reading": "cit-zapisnik-1939-06-14",
+      "from": "1939-06-14",
+      "label": {
+        "sr": "Zapisnik obilaska gradilišta, 14. juna 1939 — vođenje grejnih vodova",
+        "en": "Site inspection minutes, 14 June 1939 — routing of heating risers"
+      },
+      "raw": "1939-06-14",
+      "span": false
+    },
+    {
       "id": "bigz:t:ddbfcf4adc",
       "reading": "cit-dnevnik-dan-39",
       "from": "1939-07-15",
@@ -2164,6 +2995,83 @@
         "en": "Diary, day XXXIX — 15 Jul 1939: heating installation"
       },
       "raw": "1939-07-15",
+      "span": false
+    },
+    {
+      "id": "bigz:t:91d120f523",
+      "reading": "cit-strebel-bericht-naslovna",
+      "from": "1939-07-18",
+      "label": {
+        "sr": "Izveštaj o ispitivanju učinka Strebel-UNI kotla, Mannheim, 18–28. jul 1939",
+        "en": "Report on performance tests of the Strebel-UNI boiler, Mannheim, 18–28 July 1939"
+      },
+      "raw": "1939-07-18/1939-07-28",
+      "span": true
+    },
+    {
+      "id": "bigz:t:80ce74e942",
+      "reading": "cit-zapisnik-1939-07-31",
+      "from": "1939-07-31",
+      "label": {
+        "sr": "Zapisnik sastanka 31-VII-1939 — izmene grejanja, sa potpisima i pečatom „Jošanica“ A.D.",
+        "en": "Minutes of 31 July 1939 meeting — heating changes, signed and stamped by Jošanica A.D."
+      },
+      "raw": "1939-07-31",
+      "span": false
+    },
+    {
+      "id": "bigz:t:f47a21821f",
+      "reading": "cit-zapisnik-1939-07-31",
+      "from": "1939-08-01",
+      "label": {
+        "sr": "Zapisnik sastanka 31-VII-1939 — izmene grejanja, sa potpisima i pečatom „Jošanica“ A.D.",
+        "en": "Minutes of 31 July 1939 meeting — heating changes, signed and stamped by Jošanica A.D."
+      },
+      "raw": "1939-08-01",
+      "span": false
+    },
+    {
+      "id": "bigz:t:6200b725a8",
+      "reading": "cit-strebel-prospekt-naslovna",
+      "from": "1941-02",
+      "label": {
+        "sr": "Strebel-UNI — naslovna strana prospekta u boji, sa taksenim markama",
+        "en": "Strebel-UNI — colour brochure cover, with revenue stamps"
+      },
+      "raw": "1941-02",
+      "span": false
+    },
+    {
+      "id": "bigz:t:f0a8df2b77",
+      "reading": "cit-tepper-katalog-s301",
+      "from": "1941-10-22",
+      "label": {
+        "sr": "Joseph Tepper, Maschinenfabrik Münster — kataloška strana 301 sa referencama i nalepnicom Reichsgartenschau Essen 1938",
+        "en": "Joseph Tepper, Maschinenfabrik Münster — catalogue page 301 with references and a Reichsgartenschau Essen 1938 label"
+      },
+      "raw": "1941-10-22",
+      "span": false
+    },
+    {
+      "id": "bigz:t:ae7fd7aa31",
+      "reading": "cit-krov-fasonsko-gvozdje-1942",
+      "from": "1942-12-01",
+      "label": {
+        "sr": "Komisijski izveštaj o zameni fasonskog gvožđa i doplati za tesanu građu krovne konstrukcije, 17. decembar 1942",
+        "en": "Commission report on substituting profiled iron and surcharge for hewn timber of the roof structure, 17 December 1942"
+      },
+      "raw": "1942-12-01",
+      "span": false
+    },
+    {
+      "id": "bigz:t:166e7a5f59",
+      "reading": "cit-krov-fasonsko-gvozdje-1942",
+      "from": "1942-12-17",
+      "label": {
+        "sr": "Komisijski izveštaj o zameni fasonskog gvožđa i doplati za tesanu građu krovne konstrukcije, 17. decembar 1942",
+        "en": "Commission report on substituting profiled iron and surcharge for hewn timber of the roof structure, 17 December 1942"
+      },
+      "raw": "1942-12-17",
       "span": false
     },
     {
@@ -2186,6 +3094,17 @@
         "en": "Final accounting report for the economic block, signed 4 Feb 1943"
       },
       "raw": "1943-03-31",
+      "span": false
+    },
+    {
+      "id": "bigz:t:e26a62c717",
+      "reading": "cit-lift-hitnost-1943",
+      "from": "1943-05-05",
+      "label": {
+        "sr": "Hitna naredba Ministarstva građevina firmi J. Tepper o neispravnim liftovima, 5. maj 1943",
+        "en": "Urgent order from the Ministry of Construction to J. Tepper concerning faulty lifts, 5 May 1943"
+      },
+      "raw": "1943-05-05",
       "span": false
     },
     {
@@ -2428,5 +3347,5 @@
     "order": "Auftrags-Nr. 71470/71",
     "note": "Jedina stvarna mera u ovom prostoru: visina dizanja teretnog lifta, prepisana sa fabričkog lista."
   },
-  "revision": "b-1d728d527587cb02"
+  "revision": "b-830e5672493cac35"
 }
