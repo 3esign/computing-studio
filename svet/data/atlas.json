@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-a59090de87a3ae6d",
+  "datasetRevision": "r-de6ae0aa90f63839",
   "teams": [
     {
       "id": "T01",
@@ -1236,38 +1236,37 @@
     },
     {
       "id": "T44",
-      "object": "ATŠ — izbor objekta na proveri",
+      "object": "ATŠ — Arhitektonska tehnička škola",
       "indices": [
         "154/26",
         "156/26",
         "166/26"
       ],
-      "topic": "Potvrda novog objekta i pravca istraživanja",
+      "topic": "Arhitektura škole, transformacija i lično korisničko iskustvo",
       "place": "Beograd",
-      "lat": null,
-      "lng": null,
-      "x": null,
+      "lat": 44.7817,
+      "lng": 20.4772,
+      "x": 85.91,
       "y": 3.2,
-      "z": null,
+      "z": 161.64,
       "type": "standard",
       "progressStage": 2,
-      "progressLabel": "Izbor objekta na proveri",
-      "status": "Prethodni izbor: Dom Svetog Save u Cara Dušana. Promena objekta odobrena 08.10.2026; identitet novog predloga nije potvrđen.",
+      "progressLabel": "Predlog u toku",
+      "status": "Objekat iz prijavljenog izbora (konsultacije 12.10.2026). Mejlom 08.10.2026 tim je najavio promenu objekta; novi predlog nije dokumentovan, pa se registar drži prijavljenog.",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
       "previewClaim": "",
       "previewSource": "",
-      "locationStatus": "unmapped",
+      "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B3a905e81",
-      "location": "Beograd — lokacija na proveri",
+      "building": "B34c1628c",
+      "location": "Vojislava Ilića 78, Beograd — približno",
       "flags": [
-        "ATŠ je naziv Arhitektonske tehničke škole, Vojislava Ilića 78; Dom Svetog Save u Cara Dušana je drugi objekat.",
-        "Mejl 08.10. navodi raniji Dom i pominje sliku novog predloga; dostupni tekst ne utvrđuje novi objekat."
-      ],
-      "identityStatus": "unresolved"
+        "Raniji zapis je spajao ATŠ i Dom Svetog Save u Cara Dušana — to su dva različita objekta.",
+        "Lokacija je približna, po javnoj adresi škole; nije geodetski potvrđena."
+      ]
     },
     {
       "id": "T45",
@@ -3560,17 +3559,17 @@
       ]
     },
     {
-      "id": "B3a905e81",
-      "object": "ATŠ — izbor objekta na proveri",
+      "id": "B34c1628c",
+      "object": "ATŠ — Arhitektonska tehnička škola",
       "teams": [
         "T44"
       ],
       "teamCount": 1,
       "place": "Beograd",
       "city": "Beograd",
-      "lat": null,
-      "lng": null,
-      "locationStatus": "unmapped",
+      "lat": 44.7817,
+      "lng": 20.4772,
+      "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -3594,7 +3593,7 @@
       "topics": [
         {
           "team": "T44",
-          "topic": "Potvrda novog objekta i pravca istraživanja",
+          "topic": "Arhitektura škole, transformacija i lično korisničko iskustvo",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -9781,14 +9780,14 @@
         }
       ],
       "read": {
-        "scans": 17,
+        "scans": 41,
         "total": 289,
-        "status": "u toku — fascikla Ugovori izmedju izvodjaca i drzave pročitana cela (10/10); opšti uslovi ugovora o radovima, bez naslovnice",
-        "profile": "samo zapis šta je na skenu; bez tvrdnji",
-        "updated": "2026-10-19"
+        "status": "u toku — 41/289; fascikla „Ugovori izmedju izvodjaca i drzave\" cela (10/10), uzorak kroz Planove, Foto dokumentaciju, Osoblje, Izvore finansija, Nemacke izvore i Dimnjak",
+        "profile": "zapis šta je na skenu, sa prepisanim datumima, brojevima akata i iznosima gde su čitljivi; bez tvrdnji za pasoš",
+        "updated": "2026-10-22"
       },
       "note": "Sanduk = jedan sken, nivo = arhivska fascikla, debljina = megabajti. Mere opisuju predatu arhivu, ne zgradu.",
-      "updated": "2026-10-19"
+      "updated": "2026-10-22"
     }
   ],
   "note": "Source-reported records, not independently verified facts. Data sculptures have symbolic dimensions at approximate registry coordinates; they are not reconstructions of buildings."

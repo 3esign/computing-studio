@@ -1346,38 +1346,37 @@
     },
     {
       "id": "T44",
-      "object": "ATŠ — izbor objekta na proveri",
+      "object": "ATŠ — Arhitektonska tehnička škola",
       "indices": [
         "154/26",
         "156/26",
         "166/26"
       ],
-      "topic": "Potvrda novog objekta i pravca istraživanja",
+      "topic": "Arhitektura škole, transformacija i lično korisničko iskustvo",
       "place": "Beograd",
-      "lat": null,
-      "lng": null,
-      "x": null,
+      "lat": 44.7817,
+      "lng": 20.4772,
+      "x": 85.91,
       "y": 3.2,
-      "z": null,
+      "z": 161.64,
       "type": "standard",
       "progressStage": 2,
-      "progressLabel": "Izbor objekta na proveri",
-      "status": "Prethodni izbor: Dom Svetog Save u Cara Dušana. Promena objekta odobrena 08.10.2026; identitet novog predloga nije potvrđen.",
+      "progressLabel": "Predlog u toku",
+      "status": "Objekat iz prijavljenog izbora (konsultacije 12.10.2026). Mejlom 08.10.2026 tim je najavio promenu objekta; novi predlog nije dokumentovan, pa se registar drži prijavljenog.",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
       "previewClaim": "",
       "previewSource": "",
-      "locationStatus": "unmapped",
+      "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B3a905e81",
-      "location": "Beograd — lokacija na proveri",
+      "building": "B34c1628c",
+      "location": "Vojislava Ilića 78, Beograd — približno",
       "flags": [
-        "ATŠ je naziv Arhitektonske tehničke škole, Vojislava Ilića 78; Dom Svetog Save u Cara Dušana je drugi objekat.",
-        "Mejl 08.10. navodi raniji Dom i pominje sliku novog predloga; dostupni tekst ne utvrđuje novi objekat."
-      ],
-      "identityStatus": "unresolved"
+        "Raniji zapis je spajao ATŠ i Dom Svetog Save u Cara Dušana — to su dva različita objekta.",
+        "Lokacija je približna, po javnoj adresi škole; nije geodetski potvrđena."
+      ]
     },
     {
       "id": "T45",
@@ -2032,5 +2031,5 @@
       "building": "Bedda6bf8"
     }
   ],
-  "datasetRevision": "r-a59090de87a3ae6d"
+  "datasetRevision": "r-de6ae0aa90f63839"
 }

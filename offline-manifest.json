@@ -1,6 +1,6 @@
 {
-  "version": "6866367045c1be9c",
-  "bytes": 6880412,
+  "version": "948e4b3771bf5b08",
+  "bytes": 7152200,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -86,8 +86,10 @@
     "sledeci.html",
     "svet/architecture.js",
     "svet/atlas.js",
+    "svet/bigz.js",
     "svet/data/atlas.json",
     "svet/data/belgrade-map.json",
+    "svet/data/bigz.json",
     "svet/data/geography.json",
     "svet/data/index.json",
     "svet/data/pasosi.json",
@@ -99,6 +101,7 @@
     "svet/data/revisions/r-50ff3b7736d4eaa4.json",
     "svet/data/revisions/r-841de8630db8481c.json",
     "svet/data/revisions/r-a59090de87a3ae6d.json",
+    "svet/data/revisions/r-de6ae0aa90f63839.json",
     "svet/data/revisions/r-fa556cb440409fd0.json",
     "svet/index.html",
     "svet/pasosi.html",

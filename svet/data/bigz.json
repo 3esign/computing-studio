@@ -1,0 +1,2432 @@
+{
+  "schema": "or/bigz-world@1",
+  "object": "B.I.G.Z. (Bigz štamparija, Beograd)",
+  "team": "t-bigz",
+  "archive": {
+    "sha256": "04ad6387aa5541738498a57385c8f63f628f7f88424785e3c4c90879737eb773",
+    "files": 289,
+    "bytes": 274878126,
+    "origin": "B.I.G.Z.zip — primljeno mejlom „Digitalni Pasos B.I.G.Z.” (2026-10-15); istraživanje u Arhivu Jugoslavije i Arhivu Beograda",
+    "custody": "arhiva je van repoa (autorska građa); javno je samo njen popis i pročitan sadržaj",
+    "rights": "Skenovi ostaju privatni — prava reprodukcije nisu potvrđena. Javno je samo pročitan sadržaj i popis.",
+    "contentNote": "isključivo slikovni skenovi (JPG/JPEG/HEIC) arhivske građe; bez tekstualnih dokumenata"
+  },
+  "scope": "Čitanje skena: šta na njemu piše i šta se vidi. Nije pasoška tvrdnja. Tvrdnje ulaze samo kroz PRIJEM.md, sa hešom originala.",
+  "method": "Čitanje izvedenih JPEG pregleda (1536×2048) iz privatnog pregleda arhive. Ćirilica, stari pravopis; nepouzdana mesta su označena.",
+  "totals": {
+    "files": 289,
+    "folders": 26,
+    "bytes": 274878126,
+    "read": 41,
+    "readHere": 24,
+    "readEarlier": 17
+  },
+  "kinds": {
+    "crtež / plan": 5,
+    "fotografija / album": 7,
+    "naslovnica / katalog": 4,
+    "oprema / ilustracija": 1,
+    "tabela / obračun": 5,
+    "tekst / rukopis": 2
+  },
+  "folders": [
+    {
+      "id": "bigz:f:foto-dokumentacija-iz-arhive",
+      "path": "Foto dokumentacija iz arhive",
+      "name": "Foto dokumentacija iz arhive",
+      "parent": null,
+      "depth": 0,
+      "files": 34,
+      "mb": 23.8,
+      "scans": [
+        {
+          "name": "AWPZ8960.JPG",
+          "bytes": 512235
+        },
+        {
+          "name": "CUXB9923.JPG",
+          "bytes": 318960
+        },
+        {
+          "name": "DFAA7997.JPG",
+          "bytes": 373405
+        },
+        {
+          "name": "EHAV8510.JPG",
+          "bytes": 414004
+        },
+        {
+          "name": "ERKI0453.JPG",
+          "bytes": 191709
+        },
+        {
+          "name": "GWZV1570.JPG",
+          "bytes": 506522
+        },
+        {
+          "name": "HBDU0192.JPG",
+          "bytes": 407122
+        },
+        {
+          "name": "IMG_1480.HEIC",
+          "bytes": 3236046
+        },
+        {
+          "name": "IMG_1498.HEIC",
+          "bytes": 2051467
+        },
+        {
+          "name": "IMG_1505.HEIC",
+          "bytes": 3331332
+        },
+        {
+          "name": "IMG_1511.HEIC",
+          "bytes": 3083965
+        },
+        {
+          "name": "IMG_1542.HEIC",
+          "bytes": 3582239
+        },
+        {
+          "name": "JNTF2640.JPG",
+          "bytes": 316398
+        },
+        {
+          "name": "KSVA5948.JPG",
+          "bytes": 400819
+        },
+        {
+          "name": "LOLY4886.JPG",
+          "bytes": 229696
+        },
+        {
+          "name": "MVTD0612.JPG",
+          "bytes": 486806
+        },
+        {
+          "name": "NILC8818.JPG",
+          "bytes": 255061
+        },
+        {
+          "name": "OGSR4108.JPG",
+          "bytes": 365193
+        },
+        {
+          "name": "OHHO9691.JPG",
+          "bytes": 215144
+        },
+        {
+          "name": "PRNG0216.JPG",
+          "bytes": 481393
+        },
+        {
+          "name": "PXQK3000.JPG",
+          "bytes": 341715
+        },
+        {
+          "name": "QMUU3026.JPG",
+          "bytes": 320069
+        },
+        {
+          "name": "QXFS5958.JPG",
+          "bytes": 337410
+        },
+        {
+          "name": "RUPH1703.JPG",
+          "bytes": 227245
+        },
+        {
+          "name": "SIUB6255.JPG",
+          "bytes": 572548
+        },
+        {
+          "name": "VTQG8649.JPG",
+          "bytes": 516641
+        },
+        {
+          "name": "WBYU4228.JPG",
+          "bytes": 415199
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.16.jpeg",
+          "bytes": 127522
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.17.jpeg",
+          "bytes": 302007
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.31.jpeg",
+          "bytes": 189896
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.32.jpeg",
+          "bytes": 141651
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.33.jpeg",
+          "bytes": 141009
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.39 (1).jpeg",
+          "bytes": 225978
+        },
+        {
+          "name": "XQSH7697.JPG",
+          "bytes": 306503
+        }
+      ],
+      "readIds": [
+        "cit-foto-jama-radnici",
+        "cit-foto-jama-pod-vodom",
+        "cit-foto-levi-ugao",
+        "cit-foto-oplata-temelja",
+        "cit-foto-crpljenje",
+        "cit-foto-radnici-stena",
+        "cit-foto-rov-podgrada",
+        "cit-dnevnik-sveska-1",
+        "cit-dnevnik-sveska-2",
+        "cit-obracunski-elaborat-1943",
+        "cit-racun-manje-radova",
+        "cit-oprema-masina"
+      ],
+      "read": 12
+    },
+    {
+      "id": "bigz:f:instalacije",
+      "path": "Instalacije",
+      "name": "Instalacije",
+      "parent": null,
+      "depth": 0,
+      "files": 0,
+      "mb": 0,
+      "scans": [],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:instalacije-centralno-grejanje",
+      "path": "Instalacije/Centralno grejanje",
+      "name": "Centralno grejanje",
+      "parent": "bigz:f:instalacije",
+      "depth": 1,
+      "files": 22,
+      "mb": 4.3,
+      "scans": [
+        {
+          "name": "DAWI5119.JPG",
+          "bytes": 270080
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.40.jpeg",
+          "bytes": 178657
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.41 (1).jpeg",
+          "bytes": 216952
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.41.jpeg",
+          "bytes": 202201
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.42.jpeg",
+          "bytes": 169653
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.43 (1).jpeg",
+          "bytes": 199868
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.43.jpeg",
+          "bytes": 179960
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.44.jpeg",
+          "bytes": 193408
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.45.jpeg",
+          "bytes": 164254
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.46 (1).jpeg",
+          "bytes": 183183
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.46.jpeg",
+          "bytes": 156344
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.47.jpeg",
+          "bytes": 135512
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.07.jpeg",
+          "bytes": 199453
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.52 (1).jpeg",
+          "bytes": 220190
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.52.jpeg",
+          "bytes": 218479
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.53.jpeg",
+          "bytes": 202857
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.54.jpeg",
+          "bytes": 211795
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.55.jpeg",
+          "bytes": 213162
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.56 (1).jpeg",
+          "bytes": 223126
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.56.jpeg",
+          "bytes": 240370
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.58.jpeg",
+          "bytes": 267592
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.59.jpeg",
+          "bytes": 221670
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:instalacije-centralno-grejanje-poljski-izvori-o-centralnom-grejanju",
+      "path": "Instalacije/Centralno grejanje/Poljski izvori o centralnom grejanju",
+      "name": "Poljski izvori o centralnom grejanju",
+      "parent": "bigz:f:instalacije-centralno-grejanje",
+      "depth": 2,
+      "files": 4,
+      "mb": 0.6,
+      "scans": [
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.08.jpeg",
+          "bytes": 148743
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.09 (1).jpeg",
+          "bytes": 173221
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.09.jpeg",
+          "bytes": 156212
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.10.jpeg",
+          "bytes": 152314
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:instalacije-centralno-grejanje-proracun-ugradnje-centralnog-grejanja",
+      "path": "Instalacije/Centralno grejanje/Proracun ugradnje centralnog grejanja",
+      "name": "Proracun ugradnje centralnog grejanja",
+      "parent": "bigz:f:instalacije-centralno-grejanje",
+      "depth": 2,
+      "files": 3,
+      "mb": 0.8,
+      "scans": [
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.12.jpeg",
+          "bytes": 256762
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.13 (1).jpeg",
+          "bytes": 257978
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.13.jpeg",
+          "bytes": 306088
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:instalacije-centralno-grejanje-ucin-i-stepen-iskoristivosti",
+      "path": "Instalacije/Centralno grejanje/Ucin i stepen iskoristivosti",
+      "name": "Ucin i stepen iskoristivosti",
+      "parent": "bigz:f:instalacije-centralno-grejanje",
+      "depth": 2,
+      "files": 2,
+      "mb": 0.3,
+      "scans": [
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.06 (1).jpeg",
+          "bytes": 166094
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.06.jpeg",
+          "bytes": 185600
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:instalacije-instalacija-lifta",
+      "path": "Instalacije/Instalacija lifta",
+      "name": "Instalacija lifta",
+      "parent": "bigz:f:instalacije",
+      "depth": 1,
+      "files": 1,
+      "mb": 0.2,
+      "scans": [
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.17 (1).jpeg",
+          "bytes": 190471
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:instalacije-instalacija-starog-sata",
+      "path": "Instalacije/Instalacija starog sata",
+      "name": "Instalacija starog sata",
+      "parent": "bigz:f:instalacije",
+      "depth": 1,
+      "files": 2,
+      "mb": 5.3,
+      "scans": [
+        {
+          "name": "IMG_1494.HEIC",
+          "bytes": 2822630
+        },
+        {
+          "name": "IMG_1495.HEIC",
+          "bytes": 2763427
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:instalacije-instalacija-struje",
+      "path": "Instalacije/Instalacija struje",
+      "name": "Instalacija struje",
+      "parent": "bigz:f:instalacije",
+      "depth": 1,
+      "files": 12,
+      "mb": 34,
+      "scans": [
+        {
+          "name": "IMG_1481.HEIC",
+          "bytes": 2916743
+        },
+        {
+          "name": "IMG_1482.HEIC",
+          "bytes": 3246402
+        },
+        {
+          "name": "IMG_1483.HEIC",
+          "bytes": 2781409
+        },
+        {
+          "name": "IMG_1484.HEIC",
+          "bytes": 2918250
+        },
+        {
+          "name": "IMG_1485.HEIC",
+          "bytes": 3335237
+        },
+        {
+          "name": "IMG_1488.HEIC",
+          "bytes": 3038070
+        },
+        {
+          "name": "IMG_1489.HEIC",
+          "bytes": 2983701
+        },
+        {
+          "name": "IMG_1490.HEIC",
+          "bytes": 3031094
+        },
+        {
+          "name": "IMG_1491.HEIC",
+          "bytes": 2800637
+        },
+        {
+          "name": "IMG_1492.HEIC",
+          "bytes": 3111870
+        },
+        {
+          "name": "IMG_1493.HEIC",
+          "bytes": 2883156
+        },
+        {
+          "name": "IMG_1497.HEIC",
+          "bytes": 2618703
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:instalacije-instalacija-struje-nestasica-zice",
+      "path": "Instalacije/Instalacija struje/Nestasica zice",
+      "name": "Nestasica zice",
+      "parent": "bigz:f:instalacije-instalacija-struje",
+      "depth": 2,
+      "files": 1,
+      "mb": 3,
+      "scans": [
+        {
+          "name": "IMG_1512.HEIC",
+          "bytes": 3119615
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:izvori-finansija",
+      "path": "Izvori finansija",
+      "name": "Izvori finansija",
+      "parent": null,
+      "depth": 0,
+      "files": 12,
+      "mb": 11.3,
+      "scans": [
+        {
+          "name": "HPTA0019.JPG",
+          "bytes": 198116
+        },
+        {
+          "name": "IMG_1496.HEIC",
+          "bytes": 2979685
+        },
+        {
+          "name": "IMG_1508.HEIC",
+          "bytes": 3600984
+        },
+        {
+          "name": "IMG_1539.HEIC",
+          "bytes": 2829590
+        },
+        {
+          "name": "JMWW4159.JPG",
+          "bytes": 205672
+        },
+        {
+          "name": "PRKS7469.JPG",
+          "bytes": 386587
+        },
+        {
+          "name": "QYGC7080.JPG",
+          "bytes": 426376
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.48.jpeg",
+          "bytes": 228804
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.49.jpeg",
+          "bytes": 205070
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.11 (1).jpeg",
+          "bytes": 258675
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.11.jpeg",
+          "bytes": 231222
+        },
+        {
+          "name": "WKVR2604.JPG",
+          "bytes": 263611
+        }
+      ],
+      "readIds": [
+        "cit-naknada-1943"
+      ],
+      "read": 1
+    },
+    {
+      "id": "bigz:f:krov",
+      "path": "Krov",
+      "name": "Krov",
+      "parent": null,
+      "depth": 0,
+      "files": 1,
+      "mb": 2.9,
+      "scans": [
+        {
+          "name": "IMG_1503.HEIC",
+          "bytes": 3055856
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:masine",
+      "path": "Masine",
+      "name": "Masine",
+      "parent": null,
+      "depth": 0,
+      "files": 12,
+      "mb": 2.7,
+      "scans": [
+        {
+          "name": "FEUU6951.JPG",
+          "bytes": 286929
+        },
+        {
+          "name": "KQHX0609.JPG",
+          "bytes": 225196
+        },
+        {
+          "name": "LVOB8670.JPG",
+          "bytes": 256341
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.15 (1).jpeg",
+          "bytes": 232977
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.21 (1).jpeg",
+          "bytes": 204711
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.21.jpeg",
+          "bytes": 183993
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.29.jpeg",
+          "bytes": 176332
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.30.jpeg",
+          "bytes": 140511
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.56.01.jpeg",
+          "bytes": 289417
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.56.03.jpeg",
+          "bytes": 186300
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.56.04.jpeg",
+          "bytes": 334874
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.56.05.jpeg",
+          "bytes": 355055
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:masine-finansije-masina",
+      "path": "Masine/Finansije masina",
+      "name": "Finansije masina",
+      "parent": "bigz:f:masine",
+      "depth": 1,
+      "files": 9,
+      "mb": 5.2,
+      "scans": [
+        {
+          "name": "IMG_1499.HEIC",
+          "bytes": 3084852
+        },
+        {
+          "name": "NSTJ3553.JPG",
+          "bytes": 221898
+        },
+        {
+          "name": "TBXZ4173.JPG",
+          "bytes": 221477
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.18.jpeg",
+          "bytes": 348344
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.19.jpeg",
+          "bytes": 304112
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.20 (1).jpeg",
+          "bytes": 289312
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.20.jpeg",
+          "bytes": 313246
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.28.jpeg",
+          "bytes": 198334
+        },
+        {
+          "name": "YCQD3869.JPG",
+          "bytes": 509863
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:masine-skica-dizalice",
+      "path": "Masine/Skica dizalice",
+      "name": "Skica dizalice",
+      "parent": "bigz:f:masine",
+      "depth": 1,
+      "files": 1,
+      "mb": 0.2,
+      "scans": [
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.30 (1).jpeg",
+          "bytes": 246911
+        }
+      ],
+      "readIds": [
+        "cit-dizalica-presek-1946"
+      ],
+      "read": 1
+    },
+    {
+      "id": "bigz:f:nemacki-izvori",
+      "path": "Nemacki izvori",
+      "name": "Nemacki izvori",
+      "parent": null,
+      "depth": 0,
+      "files": 6,
+      "mb": 1.6,
+      "scans": [
+        {
+          "name": "FINT6629.JPG",
+          "bytes": 465417
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.59 (1).jpeg",
+          "bytes": 278518
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.00.jpeg",
+          "bytes": 246981
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.01 (1).jpeg",
+          "bytes": 195644
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.01.jpeg",
+          "bytes": 275115
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.39.jpeg",
+          "bytes": 206255
+        }
+      ],
+      "readIds": [
+        "cit-tepper-aufzug"
+      ],
+      "read": 1
+    },
+    {
+      "id": "bigz:f:osoblje",
+      "path": "Osoblje",
+      "name": "Osoblje",
+      "parent": null,
+      "depth": 0,
+      "files": 10,
+      "mb": 3.5,
+      "scans": [
+        {
+          "name": "DEQE7474.JPG",
+          "bytes": 418680
+        },
+        {
+          "name": "GOLU9663.JPG",
+          "bytes": 494115
+        },
+        {
+          "name": "HUBE1432.JPG",
+          "bytes": 280250
+        },
+        {
+          "name": "RTKI0866.JPG",
+          "bytes": 295180
+        },
+        {
+          "name": "SDAU3166.JPG",
+          "bytes": 322895
+        },
+        {
+          "name": "SNAJ3491.JPG",
+          "bytes": 369775
+        },
+        {
+          "name": "TEEX0949.JPG",
+          "bytes": 475579
+        },
+        {
+          "name": "THAL7020.JPG",
+          "bytes": 448399
+        },
+        {
+          "name": "VBKH3215.JPG",
+          "bytes": 285600
+        },
+        {
+          "name": "VCIX0362.JPG",
+          "bytes": 284082
+        }
+      ],
+      "readIds": [
+        "cit-izvod-spiska-1",
+        "cit-izvod-spiska-3",
+        "cit-dnevnik-uvodjenje",
+        "cit-dnevnik-dan-39"
+      ],
+      "read": 4
+    },
+    {
+      "id": "bigz:f:planovi",
+      "path": "Planovi",
+      "name": "Planovi",
+      "parent": null,
+      "depth": 0,
+      "files": 32,
+      "mb": 14.6,
+      "scans": [
+        {
+          "name": "ADNE9272.JPG",
+          "bytes": 438742
+        },
+        {
+          "name": "AIQP4658.JPG",
+          "bytes": 218672
+        },
+        {
+          "name": "AJBO3930.JPG",
+          "bytes": 218015
+        },
+        {
+          "name": "BZVH9860.JPG",
+          "bytes": 216026
+        },
+        {
+          "name": "CJRW5105.JPG",
+          "bytes": 280915
+        },
+        {
+          "name": "DZEQ4553.JPG",
+          "bytes": 228622
+        },
+        {
+          "name": "GNHB8671.JPG",
+          "bytes": 253828
+        },
+        {
+          "name": "GYMZ7680.JPG",
+          "bytes": 173904
+        },
+        {
+          "name": "HOSR8468.JPG",
+          "bytes": 178056
+        },
+        {
+          "name": "IMG_1541.HEIC",
+          "bytes": 3697181
+        },
+        {
+          "name": "IMG_1543.HEIC",
+          "bytes": 2775628
+        },
+        {
+          "name": "LMMX8108.JPG",
+          "bytes": 193896
+        },
+        {
+          "name": "LTVC4614.JPG",
+          "bytes": 369488
+        },
+        {
+          "name": "LVRF0160.JPG",
+          "bytes": 225617
+        },
+        {
+          "name": "MYKI2840.JPG",
+          "bytes": 278641
+        },
+        {
+          "name": "NBFA0271.JPG",
+          "bytes": 232679
+        },
+        {
+          "name": "NLUK1438.JPG",
+          "bytes": 205518
+        },
+        {
+          "name": "OGRN3156.JPG",
+          "bytes": 375106
+        },
+        {
+          "name": "PAFF9154.JPG",
+          "bytes": 233110
+        },
+        {
+          "name": "PGMO0451.JPG",
+          "bytes": 208112
+        },
+        {
+          "name": "PGRX9786.JPG",
+          "bytes": 401301
+        },
+        {
+          "name": "PIJX3174.JPG",
+          "bytes": 284775
+        },
+        {
+          "name": "PJUR6005.JPG",
+          "bytes": 325804
+        },
+        {
+          "name": "QDKQ0562.JPG",
+          "bytes": 487463
+        },
+        {
+          "name": "RSCL2358.JPG",
+          "bytes": 286383
+        },
+        {
+          "name": "SKJB5238.JPG",
+          "bytes": 458472
+        },
+        {
+          "name": "TPIS7124.JPG",
+          "bytes": 258085
+        },
+        {
+          "name": "TXVO7965.JPG",
+          "bytes": 402039
+        },
+        {
+          "name": "WCMH7524.JPG",
+          "bytes": 378531
+        },
+        {
+          "name": "WQQN9603.JPG",
+          "bytes": 369556
+        },
+        {
+          "name": "XGKG0041.JPG",
+          "bytes": 447945
+        },
+        {
+          "name": "XVNB9071.JPG",
+          "bytes": 214026
+        }
+      ],
+      "readIds": [
+        "cit-plan-suteren",
+        "cit-armatura-125-127",
+        "cit-ekonomski-blok-armatura",
+        "cit-ekonomski-blok-preseci"
+      ],
+      "read": 4
+    },
+    {
+      "id": "bigz:f:ponude-i-kostanja",
+      "path": "Ponude i kostanja",
+      "name": "Ponude i kostanja",
+      "parent": null,
+      "depth": 0,
+      "files": 13,
+      "mb": 2.8,
+      "scans": [
+        {
+          "name": "PPQD9200.JPG",
+          "bytes": 358108
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.57 (1).jpeg",
+          "bytes": 294973
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.57.jpeg",
+          "bytes": 314522
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.58.jpeg",
+          "bytes": 164341
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.59.jpeg",
+          "bytes": 197647
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.02.jpeg",
+          "bytes": 227531
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.03.jpeg",
+          "bytes": 220943
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.04 (1).jpeg",
+          "bytes": 232187
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.04.jpeg",
+          "bytes": 236379
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.05.jpeg",
+          "bytes": 180074
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.49.jpeg",
+          "bytes": 173542
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.50 (1).jpeg",
+          "bytes": 97974
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.50.jpeg",
+          "bytes": 231689
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:predmeri-predracuni-analiza-cena",
+      "path": "Predmeri, Predracuni,Analiza cena",
+      "name": "Predmeri, Predracuni,Analiza cena",
+      "parent": null,
+      "depth": 0,
+      "files": 47,
+      "mb": 64.5,
+      "scans": [
+        {
+          "name": "ATOM0170.JPG",
+          "bytes": 452143
+        },
+        {
+          "name": "BDFS6382.JPG",
+          "bytes": 237037
+        },
+        {
+          "name": "BDGP1552.JPG",
+          "bytes": 263318
+        },
+        {
+          "name": "BLHI8944.JPG",
+          "bytes": 334698
+        },
+        {
+          "name": "CCJZ7265.JPG",
+          "bytes": 249158
+        },
+        {
+          "name": "CFRH8389.JPG",
+          "bytes": 297115
+        },
+        {
+          "name": "CGLM3817.JPG",
+          "bytes": 182333
+        },
+        {
+          "name": "DJVY7285.JPG",
+          "bytes": 480136
+        },
+        {
+          "name": "DYLH2604.JPG",
+          "bytes": 327274
+        },
+        {
+          "name": "EBWJ6600.JPG",
+          "bytes": 282490
+        },
+        {
+          "name": "IBWX3932.JPG",
+          "bytes": 351639
+        },
+        {
+          "name": "IMG_1462.HEIC",
+          "bytes": 2753014
+        },
+        {
+          "name": "IMG_1463.HEIC",
+          "bytes": 2792511
+        },
+        {
+          "name": "IMG_1464.HEIC",
+          "bytes": 2724889
+        },
+        {
+          "name": "IMG_1465.HEIC",
+          "bytes": 2859961
+        },
+        {
+          "name": "IMG_1466.HEIC",
+          "bytes": 2782134
+        },
+        {
+          "name": "IMG_1467.HEIC",
+          "bytes": 2620835
+        },
+        {
+          "name": "IMG_1468.HEIC",
+          "bytes": 2775046
+        },
+        {
+          "name": "IMG_1469.HEIC",
+          "bytes": 2664928
+        },
+        {
+          "name": "IMG_1470.HEIC",
+          "bytes": 2694544
+        },
+        {
+          "name": "IMG_1471.HEIC",
+          "bytes": 2615388
+        },
+        {
+          "name": "IMG_1472.HEIC",
+          "bytes": 2715101
+        },
+        {
+          "name": "IMG_1473.HEIC",
+          "bytes": 2594076
+        },
+        {
+          "name": "IMG_1474.HEIC",
+          "bytes": 2752688
+        },
+        {
+          "name": "IMG_1475.HEIC",
+          "bytes": 2804675
+        },
+        {
+          "name": "IMG_1477.HEIC",
+          "bytes": 2944681
+        },
+        {
+          "name": "IMG_1478.HEIC",
+          "bytes": 2776703
+        },
+        {
+          "name": "IMG_1479.HEIC",
+          "bytes": 2741183
+        },
+        {
+          "name": "IMG_1506.HEIC",
+          "bytes": 3285555
+        },
+        {
+          "name": "IMG_1507.HEIC",
+          "bytes": 2964222
+        },
+        {
+          "name": "IMG_1509.HEIC",
+          "bytes": 3151003
+        },
+        {
+          "name": "IMG_1510.HEIC",
+          "bytes": 2966711
+        },
+        {
+          "name": "LWQZ5830.JPG",
+          "bytes": 497559
+        },
+        {
+          "name": "MTBX7467.JPG",
+          "bytes": 229117
+        },
+        {
+          "name": "NKVP2648.JPG",
+          "bytes": 212388
+        },
+        {
+          "name": "NYIS4672.JPG",
+          "bytes": 604493
+        },
+        {
+          "name": "OCVS3316.JPG",
+          "bytes": 448724
+        },
+        {
+          "name": "PYHH2621.JPG",
+          "bytes": 325421
+        },
+        {
+          "name": "PYPK5536.JPG",
+          "bytes": 403083
+        },
+        {
+          "name": "QHPA9467.JPG",
+          "bytes": 441583
+        },
+        {
+          "name": "ULQH3201.JPG",
+          "bytes": 267621
+        },
+        {
+          "name": "UOCL5405.JPG",
+          "bytes": 456746
+        },
+        {
+          "name": "VCDK4713.JPG",
+          "bytes": 230870
+        },
+        {
+          "name": "VULG9704.JPG",
+          "bytes": 173879
+        },
+        {
+          "name": "VYWI0486.JPG",
+          "bytes": 234865
+        },
+        {
+          "name": "WDVU7466.JPG",
+          "bytes": 319936
+        },
+        {
+          "name": "XMEG9881.JPG",
+          "bytes": 394491
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:premestanje-drugih-stamprija",
+      "path": "Premestanje drugih stamprija",
+      "name": "Premestanje drugih stamprija",
+      "parent": null,
+      "depth": 0,
+      "files": 7,
+      "mb": 2,
+      "scans": [
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.44 (1).jpeg",
+          "bytes": 311717
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.44.jpeg",
+          "bytes": 280203
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.45.jpeg",
+          "bytes": 319465
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.46 (1).jpeg",
+          "bytes": 296746
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.46.jpeg",
+          "bytes": 290663
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.47.jpeg",
+          "bytes": 298934
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.48.jpeg",
+          "bytes": 281238
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:punomoci-i-zapisnici",
+      "path": "Punomoci i zapisnici",
+      "name": "Punomoci i zapisnici",
+      "parent": null,
+      "depth": 0,
+      "files": 3,
+      "mb": 0.8,
+      "scans": [
+        {
+          "name": "AOMC0241.JPG",
+          "bytes": 305076
+        },
+        {
+          "name": "THTO9704.JPG",
+          "bytes": 389580
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.14.jpeg",
+          "bytes": 180173
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:skice",
+      "path": "Skice",
+      "name": "Skice",
+      "parent": null,
+      "depth": 0,
+      "files": 11,
+      "mb": 3.7,
+      "scans": [
+        {
+          "name": "CHZM1841.JPG",
+          "bytes": 371438
+        },
+        {
+          "name": "GFIQ5816.JPG",
+          "bytes": 487642
+        },
+        {
+          "name": "HGQW3555.JPG",
+          "bytes": 437758
+        },
+        {
+          "name": "JIOV3409.JPG",
+          "bytes": 389954
+        },
+        {
+          "name": "JMYF2671.JPG",
+          "bytes": 410589
+        },
+        {
+          "name": "MLKK2651.JPG",
+          "bytes": 189053
+        },
+        {
+          "name": "NHUZ1499.JPG",
+          "bytes": 206077
+        },
+        {
+          "name": "SMUL9122.JPG",
+          "bytes": 543659
+        },
+        {
+          "name": "UWNT6629.JPG",
+          "bytes": 260212
+        },
+        {
+          "name": "VRQU1754.JPG",
+          "bytes": 238918
+        },
+        {
+          "name": "XFXY1627.JPG",
+          "bytes": 296979
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:tehnicki-uslovi",
+      "path": "Tehnicki Uslovi",
+      "name": "Tehnicki Uslovi",
+      "parent": null,
+      "depth": 0,
+      "files": 27,
+      "mb": 70.7,
+      "scans": [
+        {
+          "name": "IMG_1513.HEIC",
+          "bytes": 2851764
+        },
+        {
+          "name": "IMG_1514.HEIC",
+          "bytes": 2824670
+        },
+        {
+          "name": "IMG_1515.HEIC",
+          "bytes": 2883388
+        },
+        {
+          "name": "IMG_1516.HEIC",
+          "bytes": 2766493
+        },
+        {
+          "name": "IMG_1517.HEIC",
+          "bytes": 2887643
+        },
+        {
+          "name": "IMG_1518.HEIC",
+          "bytes": 2843490
+        },
+        {
+          "name": "IMG_1519.HEIC",
+          "bytes": 2867026
+        },
+        {
+          "name": "IMG_1520.HEIC",
+          "bytes": 2867074
+        },
+        {
+          "name": "IMG_1521.HEIC",
+          "bytes": 2712601
+        },
+        {
+          "name": "IMG_1522.HEIC",
+          "bytes": 2856099
+        },
+        {
+          "name": "IMG_1523.HEIC",
+          "bytes": 2892987
+        },
+        {
+          "name": "IMG_1524.HEIC",
+          "bytes": 2870798
+        },
+        {
+          "name": "IMG_1525.HEIC",
+          "bytes": 2846566
+        },
+        {
+          "name": "IMG_1526.HEIC",
+          "bytes": 2705080
+        },
+        {
+          "name": "IMG_1527.HEIC",
+          "bytes": 2926422
+        },
+        {
+          "name": "IMG_1528.HEIC",
+          "bytes": 3260081
+        },
+        {
+          "name": "IMG_1529.HEIC",
+          "bytes": 2538400
+        },
+        {
+          "name": "IMG_1530.HEIC",
+          "bytes": 2767859
+        },
+        {
+          "name": "IMG_1531.HEIC",
+          "bytes": 2956358
+        },
+        {
+          "name": "IMG_1532.HEIC",
+          "bytes": 2907598
+        },
+        {
+          "name": "IMG_1533.HEIC",
+          "bytes": 2782443
+        },
+        {
+          "name": "IMG_1534.HEIC",
+          "bytes": 3110426
+        },
+        {
+          "name": "IMG_1535.HEIC",
+          "bytes": 2827030
+        },
+        {
+          "name": "IMG_1536.HEIC",
+          "bytes": 2389886
+        },
+        {
+          "name": "IMG_1537.HEIC",
+          "bytes": 2879935
+        },
+        {
+          "name": "IMG_1538.HEIC",
+          "bytes": 2817651
+        },
+        {
+          "name": "UVPS5129.JPG",
+          "bytes": 256437
+        }
+      ],
+      "read": 0
+    },
+    {
+      "id": "bigz:f:tehnicki-uslovi-dimnjaka",
+      "path": "Tehnicki Uslovi/Dimnjaka",
+      "name": "Dimnjaka",
+      "parent": "bigz:f:tehnicki-uslovi",
+      "depth": 1,
+      "files": 7,
+      "mb": 1.6,
+      "scans": [
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.34.jpeg",
+          "bytes": 131870
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.35 (1).jpeg",
+          "bytes": 251281
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.35.jpeg",
+          "bytes": 237237
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.36.jpeg",
+          "bytes": 287480
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.37.jpeg",
+          "bytes": 252041
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.38 (1).jpeg",
+          "bytes": 255254
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.55.38.jpeg",
+          "bytes": 243425
+        }
+      ],
+      "readIds": [
+        "cit-tehnicki-uslovi-dimnjak"
+      ],
+      "read": 1
+    },
+    {
+      "id": "bigz:f:ugovori-izmedju-izvodjaca-i-drzave",
+      "path": "Ugovori izmedju izvodjaca i drzave",
+      "name": "Ugovori izmedju izvodjaca i drzave",
+      "parent": null,
+      "depth": 0,
+      "files": 10,
+      "mb": 2.1,
+      "scans": [
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.49 (1).jpeg",
+          "bytes": 173674
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.50.jpeg",
+          "bytes": 217975
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.51.jpeg",
+          "bytes": 323265
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.52 (1).jpeg",
+          "bytes": 121560
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.52.jpeg",
+          "bytes": 217929
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.53.jpeg",
+          "bytes": 226857
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.54.jpeg",
+          "bytes": 249915
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.55.jpeg",
+          "bytes": 181435
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.56 (1).jpeg",
+          "bytes": 266256
+        },
+        {
+          "name": "WhatsApp Image 2026-10-13 at 17.54.56.jpeg",
+          "bytes": 208238
+        }
+      ],
+      "read": 0
+    }
+  ],
+  "readings": [
+    {
+      "id": "cit-plan-suteren",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Osnova suterena, razmera 1:100",
+        "en": "Basement plan, scale 1:100"
+      },
+      "text": "Zaglavlje: „…ОСНОВА СУТЕРЕНА“, „РАЗМЕРА 1:100“, dole levo „Пројектант“ sa potpisom. Crtež nosi rastersku mrežu stubova, dva stepenišna jezgra, okna liftova i veliko unutrašnje dvorište premošćeno dijagonalama. Crvenim mastilom su naknadne izmene u levom traktu.",
+      "facts": [
+        {
+          "kind": "razmera",
+          "value": "1:100"
+        },
+        {
+          "kind": "etaza",
+          "value": "suteren"
+        }
+      ],
+      "legibility": "dobra za crtež, kote sitne",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-armatura-125-127",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Armaturni detalji, pozicije 125–127",
+        "en": "Reinforcement details, positions 125–127"
+      },
+      "text": "List armature: šeme greda sa rasporedom šipki i savijanjem, uz pozicije „Поз. 125“, „Поз. 126“, „Поз. 127“ i prečnike reda Ø26 i Ø30 sa dužinama. Dole levo okrugli pečat i potpis. Na drugom snimku istog lista stoji oznaka „лист 35“.",
+      "facts": [
+        {
+          "kind": "pozicija",
+          "value": "125, 126, 127"
+        },
+        {
+          "kind": "materijal",
+          "value": "armirani beton"
+        }
+      ],
+      "legibility": "delimična — sitne kote",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-ekonomski-blok-armatura",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Ekonomski blok Državne štamparije — armatura 1:20",
+        "en": "Economic block of the State Printing House — reinforcement 1:20"
+      },
+      "text": "Zaglavlje štampano razmaknutim slovima: „ЕКОНОМСКИ БЛОК ДРЖАВНЕ ШТАМПАРИЈЕ“, razmera 1:20. Pozicije 40, 44, 45 i 103 sa šemama uzengija i podužne armature; dole okrugli pečat sa potpisom.",
+      "facts": [
+        {
+          "kind": "objekat",
+          "value": "ekonomski blok Državne štamparije"
+        },
+        {
+          "kind": "razmera",
+          "value": "1:20"
+        }
+      ],
+      "legibility": "dobra za naslov, sitni brojevi delimično",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ekonomski-blok-preseci",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Ekonomski blok — podužni i poprečni presek",
+        "en": "Economic block — longitudinal and cross section"
+      },
+      "text": "Bledi ozalid otisak. Čitljivo: „…НОМСКИ БЛОК“, „ПРЕСЕЦИ“, a uz same crteže „ПОДУЖНИ ПРЕСЕК“ i „ПОПРЕЧНИ ПРЕСЕК“. Vidi se stepenasti profil terena i niz etaža sa gredama.",
+      "facts": [
+        {
+          "kind": "vrsta crteža",
+          "value": "preseci"
+        }
+      ],
+      "legibility": "slaba — otisak izbledeo",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-foto-jama-radnici",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "fotografija / album",
+      "title": {
+        "sr": "Iskop: podgrada jame i radnici sa ašovima",
+        "en": "Excavation: shored pit and workers with shovels"
+      },
+      "text": "Crno-bela fotografija nalepljena u album. Kosa drvena podgrada od oblica pridržava zemljani zasek; desno talpasta oplata. Desetak radnika ašovima otkopava dno uz vodu. Bez ispisanog datuma na ovom listu.",
+      "facts": [
+        {
+          "kind": "faza",
+          "value": "iskop i podgrađivanje"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-foto-jama-pod-vodom",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "fotografija / album",
+      "title": {
+        "sr": "„Предњи део јаме под водом“, 24. V 1937.",
+        "en": "“Front part of the pit under water”, 24 May 1937"
+      },
+      "text": "U fotografiju je upisano: levo dole „24.V.37“, desno dole „ПРЕДЊИ ДЕО ЈАМЕ ПОД ВОДОМ“. Široka iskopana jama puna vode, preko nje daščane staze; iza jame prizemne kuće i okupljeni ljudi na ivici.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1937-05-24"
+        },
+        {
+          "kind": "faza",
+          "value": "iskop, prodor podzemne vode"
+        }
+      ],
+      "legibility": "dobra — natpis upisan u negativ",
+      "confidence": "visoka",
+      "date": "1937-05-24"
+    },
+    {
+      "id": "cit-foto-levi-ugao",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "fotografija / album",
+      "title": {
+        "sr": "„Леви угао предњег дела“",
+        "en": "“Left corner of the front part”"
+      },
+      "text": "Natpis u negativu desno dole: „ЛЕВИ УГАО ПРЕДЊЕГ ДЕЛА“. Stepenasto iskopana jama sa zaostalom vodom, zaprežna kolica sa konjem na levoj terasi; u pozadini visok zid susedne parcele i grad.",
+      "facts": [
+        {
+          "kind": "faza",
+          "value": "iskop"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-foto-oplata-temelja",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "fotografija / album",
+      "title": {
+        "sr": "Oplata i armatura temeljnih zidova",
+        "en": "Formwork and reinforcement of foundation walls"
+      },
+      "text": "Dno jame sa izvedenom talpastom oplatom dugačkog zida; iza nje postavljena armatura. Preko dna vodi uska drvena rampa sa šinama za vagonete; radnici guraju vagonet. Levo nagomilane oblice skele.",
+      "facts": [
+        {
+          "kind": "faza",
+          "value": "temeljenje, oplata i armatura"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-foto-crpljenje",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "fotografija / album",
+      "title": {
+        "sr": "Crpljenje vode iz jame",
+        "en": "Pumping water out of the pit"
+      },
+      "text": "Grupa radnika na raskvašenom dnu; debelo crevo vodi od pumpe (motorni agregat desno) do vodom ispunjenog dela jame. U pozadini baraka gradilišta i visok fabrički dimnjak.",
+      "facts": [
+        {
+          "kind": "faza",
+          "value": "crpljenje podzemne vode"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-foto-radnici-stena",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "fotografija / album",
+      "title": {
+        "sr": "Radnici na otkopanoj steni",
+        "en": "Workers on the exposed rock"
+      },
+      "text": "Devet radnika sa pijucima i ašovima pozira na razvaljenim blokovima stene u jami; iza njih visok zemljani zasek, na vrhu ulica sa kućama. Nema upisanog datuma.",
+      "facts": [
+        {
+          "kind": "faza",
+          "value": "iskop u steni"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-foto-rov-podgrada",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "fotografija / album",
+      "title": {
+        "sr": "Kopanje rova uz podgrađeni zasek",
+        "en": "Digging the trench along the shored cut"
+      },
+      "text": "Pogled duž dubokog zaseka: kosi drveni razupirači naslonjeni na talpastu oplatu, radnici ručno kopaju uzan rov u mulju. Snimak bez natpisa.",
+      "facts": [
+        {
+          "kind": "faza",
+          "value": "iskop rova, razupiranje"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-dnevnik-sveska-1",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Građevinski dnevnik, sveska 1 — montaža električnih dizalica",
+        "en": "Construction diary, notebook 1 — electric lift assembly"
+      },
+      "text": "Narandžasta korica sveske „Папирус“. Rukom ispisano: „ДНЕВНИК“, „СВЕСКА 1.“, „монтаже електр. дизалица у Новој згради Држ. Штампарије у Београду“. Iznad korice list sa naslovom „Грађевински дневник“ i arhivskom oznakom 30–436.",
+      "facts": [
+        {
+          "kind": "objekat",
+          "value": "Nova zgrada Državne štamparije u Beogradu"
+        },
+        {
+          "kind": "dokument",
+          "value": "građevinski dnevnik montaže dizalica, sveska 1"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-dnevnik-sveska-2",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Građevinski dnevnik, sveska 2",
+        "en": "Construction diary, notebook 2"
+      },
+      "text": "Ista „Папирус“ korica: „ДНЕВНИК“, „Свеска 2.“, „монтаже … -ца у Новој згради Држ. Штампарије у Београду“ (reč „дизалица“ delom prekrivena otiskom šablona).",
+      "facts": [
+        {
+          "kind": "dokument",
+          "value": "građevinski dnevnik, sveska 2"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-obracunski-elaborat-1943",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Obračunski elaborat ekonomskog bloka, potpisan 4. II 1943.",
+        "en": "Final accounting report for the economic block, signed 4 Feb 1943"
+      },
+      "text": "Mašinopis. Gore: „КОМИСИЈИ ЗА ПРЕГЛЕД … НА ЗГРАДИ ЕКОНОМСКОГ БЛОКА ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ, одређеној решењем М.Г. Бр. 8043/43“, desno „ПРИЛОГ VIII“. Naslov: „ОБРАЧУНСКИ ЕЛАБОРАТ — дефинитивно потписан без примедбе 4-II-1943 г.“ Spisak priloga: 1/ стварни обрачун радова, 2/ вишкови, мањкови и накнадни радови, 3/ табеларни преглед, 4/ обрачунски планови и детаљи грађ. конструкција /од 11–27 листа/, 5/ статички детаљи арм.бет.конструкција. Paginacija po etažama: Подрум II /28–34/, Горње приземље /35–42/, Приземље /43–47/, Горње приземље /48–51/, Подрум I /52–63/. Dole pečat „Министарство Грађевина — ГРАЂЕЊЕ НОВЕ ЗГРАДЕ ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ“, datum „31. март 1943, Београд“ i potpis odgovornog inženjera.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1943-02-04"
+        },
+        {
+          "kind": "datum",
+          "value": "1943-03-31"
+        },
+        {
+          "kind": "broj akta",
+          "value": "M.G. br. 8043/43"
+        },
+        {
+          "kind": "organ",
+          "value": "Ministarstvo građevina"
+        },
+        {
+          "kind": "etaže",
+          "value": "Podrum I, Podrum II, Prizemlje, Gornje prizemlje"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1943-02-04"
+    },
+    {
+      "id": "cit-racun-manje-radova",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Br. VI — Račun manje izvršenih radova od armiranog betona",
+        "en": "No. VI — Account of under-executed reinforced concrete works"
+      },
+      "text": "Nalepnica u crvenom okviru na koricama svežnja: „БР. VI. РАЧУН МАЊЕ ИЗВРШЕНИХ РАДОВА ОД АРМИРАНОГ БЕТОНА НА НОВОЈ ЗГРАДИ ДРЖ. ШТАМПАРИЈЕ У БЕОГРАДУ.“ Reč „Мање“ dopisana rukom preko štampanog teksta.",
+      "facts": [
+        {
+          "kind": "dokument",
+          "value": "račun manje izvršenih radova, svežanj br. VI"
+        },
+        {
+          "kind": "materijal",
+          "value": "armirani beton"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-oprema-masina",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "oprema / ilustracija",
+      "title": {
+        "sr": "Atelje snimak mašine na kartonu",
+        "en": "Studio photograph of a machine, mounted on card"
+      },
+      "text": "Sepija fotografija nalepljena na paspartu: dugačka mašina sa kosim transportnim stolom i bubnjem, snimljena u praznoj prostoriji uz ravan zid. Bez natpisa, bez tipske oznake; najverovatnije isporučilački snimak opreme.",
+      "facts": [
+        {
+          "kind": "vrsta",
+          "value": "snimak mašine"
+        }
+      ],
+      "legibility": "dobra za sliku, bez teksta",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-izvod-spiska-1",
+      "folder": "Osoblje",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Izvod spiska br. 1: nadnice 20. VII 1937 – 9. V 1938",
+        "en": "Payroll extract no. 1: man-days 20 Jul 1937 – 9 May 1938"
+      },
+      "text": "„ИЗВОД СПИСКА БР.1 — за период од 20-VII-1937 до 9-V-1938 г.“ Vodeni žig lista: „ИЗВОД РАДНИЧКИХ НАДНИЦА ПО ДНЕВНИКУ РАДА НА НОВОЈ ЗГРАДИ ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ“. Nadnice po zanimanju: надзорника 627, магационера 136, писара 288, шофера 272, чувара 857, скелара 593, тесача и столара 5.783, зидара и каменорезаца 520, гвожђара и рабицера 4.825, ковача и електричара 854, машиниста 731, радника обичних 15.969, минера 22, бетонџија 140; pozicije 15–24 (изолатери, фасадери, лимари, терацери, бравари, фарбари, стаклоресци, керамичари, гипсари, паркетари) prazne. Свега 31.617, од тога квалификованих 8.811 и обичних радника 22.806. Разлика у надницама 5,00; више исплаћено 44.055 дин. Pečat izvođača „ЈОШАНИЦА А. Д.“, dve taksene marke po 2 dinara i potpisi članova komisije.",
+      "facts": [
+        {
+          "kind": "period",
+          "value": "1937-07-20 → 1938-05-09"
+        },
+        {
+          "kind": "izvođač",
+          "value": "Jošanica A. D."
+        },
+        {
+          "kind": "nadnice ukupno",
+          "value": "31617"
+        },
+        {
+          "kind": "iznos",
+          "value": "44.055 din"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1937-07-20 → 1938-05-09"
+    },
+    {
+      "id": "cit-izvod-spiska-3",
+      "folder": "Osoblje",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Izvod spiska br. 3: nadnice 9. V 1939 – 31. VIII 1939",
+        "en": "Payroll extract no. 3: man-days 9 May 1939 – 31 Aug 1939"
+      },
+      "text": "„ИЗВОД СПИСКА БР.3 — за период од 9-V-1939 до 31-VIII-1939 год.“ Nadnice: надзорника 466, магационера —, писара 95, шофера —, чувара 278, скелара 1.215, тесача и столара 975, зидара и каменорезаца 6.025, гвожђара и рабицера 290, ковача и електричара 213, машиниста 230, радника обичних 4.588, минера —, бетонџија 4, изолатера и асфалтера 142, фасадера 1.684, лимара 257, терацера 1.269, бравара и монтера 1.320, фарбара и молера 1.328, стаклоресца 561, керамичара 165, гипсара 391, паркетара —. Свега 21.496: квалификованих 16.015 по 15,00 = 240.225 и обичних радника 5.481 по 10,00 = 54.810. СВЕГА дин. 295.035. Pečat „ЈОШАНИЦА А. Д.“, taksene marke, potpisi komisije.",
+      "facts": [
+        {
+          "kind": "period",
+          "value": "1939-05-09 → 1939-08-31"
+        },
+        {
+          "kind": "izvođač",
+          "value": "Jošanica A. D."
+        },
+        {
+          "kind": "nadnice ukupno",
+          "value": "21496"
+        },
+        {
+          "kind": "iznos",
+          "value": "295.035 din"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1939-05-09 → 1939-08-31"
+    },
+    {
+      "id": "cit-dnevnik-uvodjenje",
+      "folder": "Osoblje",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Dnevnik, dan I — 6. VI 1939: uvođenje izvođača u posao",
+        "en": "Diary, day I — 6 Jun 1939: contractor introduced to the works"
+      },
+      "text": "Rukopis, strana 5: „6-VI-1939 г. предузимач је уведен у посао.“ Zgrada je predata u prisustvu nadzornih inženjera i predstavnika firme „АДЕМ(П)“ А.Д. Zapis konstatuje sukob kanalizacije sa vertikalnim vodovima grejanja i ostavlja da se pribavi saglasnost o izmenama, te da se utvrdi gde će ventili biti vidni, a gde u zidu, i da li je potrebno kontaktiranje izolacije na VIII spratu. Tabela radne snage: монтери 1 × 8 h = 8, помоћници 2 × 8 h = 16, надничари 1 × 10 h = 10. Potpisi dvojice nadzornih inženjera i pečat „за ‚АДЕМП‘ Акционарско Друштво за Електро-Машинска Предузећа“. Imena prisutnih su rukopisna i nisu pouzdano pročitana.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-06-06"
+        },
+        {
+          "kind": "izvođač instalacija",
+          "value": "ADEMP A. D. (Akcionarsko društvo za elektro-mašinska preduzeća)"
+        },
+        {
+          "kind": "etaža",
+          "value": "VIII sprat pominjan u zapisu"
+        }
+      ],
+      "legibility": "delimična — rukopis",
+      "confidence": "srednja",
+      "date": "1939-06-06"
+    },
+    {
+      "id": "cit-dnevnik-dan-39",
+      "folder": "Osoblje",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Dnevnik, dan XXXIX — 15. VII 1939: montaža grejanja",
+        "en": "Diary, day XXXIX — 15 Jul 1939: heating installation"
+      },
+      "text": "Rukopis, strana 34: „15-VII-1939 г.“ Radna snaga: монтера 11 (90 h), помоћника 12 (90 h), оправљача 2 (16 h), шлајсера 2 (16 h), монтера топле воде 2 (16 h), помоћника 2 (16 h), зидара 2 (18 h), надничара 7 (65 h). Rađeno: „Горње грејање — монтирање штрангова бр. XLIXa, XVII, LIVa, LIX; монтирање кондензата бр. LVII, XXX, LIVa, LIX. Грејање топлом водом … Припрема топле воде — развод по II спрату, вертикала 2 и прелаз на 1; по III вертикале 4 и 8. Чишћење радилишта.“ Potpisi nadzornih inženjera i pečat „АДЕМП“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-07-15"
+        },
+        {
+          "kind": "instalacija",
+          "value": "parno i toplovodno grejanje, štrangovi i kondenzat"
+        }
+      ],
+      "legibility": "delimična — rukopis",
+      "confidence": "srednja",
+      "date": "1939-07-15"
+    },
+    {
+      "id": "cit-dizalica-presek-1946",
+      "folder": "Masine/Skica dizalice",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Horizontalni presek voznog okna dizalica, Beograd, jul 1946.",
+        "en": "Horizontal section of the lift shafts, Belgrade, July 1946"
+      },
+      "text": "Paus: „ДРЖАВНА ШТАМПАРИЈА — ХОРИЗОНТАЛНИ ПРЕСЕК ВОЗНОГ ОКНА ДИЗАЛИЦА — РАЗМЕР 1:10, ДИМЕНЗИЈЕ У ЦМ“. Tri okna: „теретна са пратњом нос. 1000 кг“, „особна нос. 320 кг“ i „особна нос. 325 кг“, uz njih stepenište. Dole desno „БЕОГРАД, ЈУЛИ 1946.“, „израдио“ sa potpisom inženjera i crvenom rukom dopisana revizija; taksena marka u uglu.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1946-07"
+        },
+        {
+          "kind": "oprema",
+          "value": "teretna dizalica 1000 kg; dve osobne 320 i 325 kg"
+        },
+        {
+          "kind": "razmera",
+          "value": "1:10"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1946-07"
+    },
+    {
+      "id": "cit-tepper-aufzug",
+      "folder": "Nemacki izvori",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Joseph Tepper, Münster — teretni lift br. 2+5 za Državnu štampariju",
+        "en": "Joseph Tepper, Münster — freight lift no. 2+5 for the State Printing House"
+      },
+      "text": "Nemački fabrički list: „Elektr. Lasten-Aufzug mit Führer. für die Staatsdruckerei, Beograd — Aufzug Nr. 2+5“. Nutzlast 3000 kg; Haltestellen 10; Zugänge 12; 40 Personen; Steuerung: Univ.-Druckknopf mit Feineinstellung; Hubhöhe 40,84 m; Hubgeschwindigkeit 0,45 m/sek; Stromart Drehstrom 380 V, 50 Perioden; Motor Type HDD 39.04, 26 kW, 1450 o/min, 98 A; Winde Type 4,5 Z, Treibscheiben-Durchm. 1050 mm; Fahrkorb 2300 × 2750 × 2600 mm. Firma: JOSEPH TEPPER Maschinenfabrik, Münster i. W.; Auftrags-Nr. 71470/71; Zeichnung-Nr. A 1025; Stichwort „Beograd“; Blatt 1; pečat pregleda sa datumom 10. 1. 4?.",
+      "facts": [
+        {
+          "kind": "isporučilac",
+          "value": "Joseph Tepper Maschinenfabrik, Münster i. W."
+        },
+        {
+          "kind": "visina dizanja",
+          "value": "40,84 m"
+        },
+        {
+          "kind": "stajališta",
+          "value": "10"
+        },
+        {
+          "kind": "nosivost",
+          "value": "3000 kg / 40 osoba"
+        },
+        {
+          "kind": "struja",
+          "value": "trofazna 380 V, 50 Hz"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tehnicki-uslovi-dimnjak",
+      "folder": "Tehnicki Uslovi/Dimnjaka",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Tehnički uslovi za betonske konstrukcije i zidanje dimnjaka",
+        "en": "Technical conditions for concrete structures and chimney masonry"
+      },
+      "text": "Naslovna strana indigo mašinopisa: „ТЕХНИЧКИ УСЛОВИ ЗА ИЗРАДУ БЕТОНСКИХ КОНСТРУКЦИЈА КАО И ЗИДАЊЕ ДИМЊАКА ЗА ЕКОНОМСКИ БЛОК ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ.“ Ispod, odeljak „I. ОПШТИ ДЕО“: sve se izvodi prema predmerima, planovima i ovim uslovima, uz uputstva nadzornog organa; za rukovanje tehničkim poslovima preduzimač mora imati stručno lice koje odobrava nadzorni organ.",
+      "facts": [
+        {
+          "kind": "dokument",
+          "value": "tehnički uslovi — betonske konstrukcije i dimnjak"
+        },
+        {
+          "kind": "objekat",
+          "value": "ekonomski blok Državne štamparije"
+        }
+      ],
+      "legibility": "delimična — indigo otisak preko drugog teksta",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-naknada-1943",
+      "folder": "Izvori finansija",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Rešenje o naknadi izvođaču, 17. avgust 1943.",
+        "en": "Decision on contractor compensation, 17 August 1943"
+      },
+      "text": "Mašinopis: „I Уметак КМГБр.16105/43 г.“ Odobrava se predlog komisije za naknadu preduzimaču na ime poskupljenja cena i radne snage u sumi od 15.000.– dinara, uračunatoj u okončani račun, uz obavezu da preduzimač plati ugovornu taksu. Pošto je preduzimaču isplaćeno u toku radova 291.636,54 dinara, isplaćuje mu se ostatak zarade od 185.582,77 dinara. Rok garantovanja kaucijom od godinu dana ističe 15-VII-1944 prema tač. 10 protokola kolaudacije. Isplata pada na teret vanrednog kredita od 3 milijarde dinara, part. г/11 odobrenog programa javnih radova. Potpisi: referent, šef otseka, zast. načelnika IV i ministar građevina; datum „17. августа 1943 г., Београд“, pečat „ЕКСПЕДОВАНО“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1943-08-17"
+        },
+        {
+          "kind": "broj akta",
+          "value": "КМГ бр. 16105/43"
+        },
+        {
+          "kind": "iznos",
+          "value": "isplaćeno 291.636,54 din; ostatak 185.582,77 din; naknada 15.000 din"
+        },
+        {
+          "kind": "rok",
+          "value": "garancija do 1944-07-15"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1943-08-17"
+    }
+  ],
+  "chronology": [
+    {
+      "id": "bigz:t:e10408f348",
+      "reading": "cit-foto-jama-pod-vodom",
+      "from": "1937-05-24",
+      "label": {
+        "sr": "„Предњи део јаме под водом“, 24. V 1937.",
+        "en": "“Front part of the pit under water”, 24 May 1937"
+      },
+      "raw": "1937-05-24",
+      "span": false
+    },
+    {
+      "id": "bigz:t:e3ffdf1be7",
+      "reading": "cit-izvod-spiska-1",
+      "from": "1937-07-20",
+      "label": {
+        "sr": "Izvod spiska br. 1: nadnice 20. VII 1937 – 9. V 1938",
+        "en": "Payroll extract no. 1: man-days 20 Jul 1937 – 9 May 1938"
+      },
+      "raw": "1937-07-20 → 1938-05-09",
+      "span": true
+    },
+    {
+      "id": "bigz:t:68676a7b42",
+      "reading": "cit-izvod-spiska-3",
+      "from": "1939-05-09",
+      "label": {
+        "sr": "Izvod spiska br. 3: nadnice 9. V 1939 – 31. VIII 1939",
+        "en": "Payroll extract no. 3: man-days 9 May 1939 – 31 Aug 1939"
+      },
+      "raw": "1939-05-09 → 1939-08-31",
+      "span": true
+    },
+    {
+      "id": "bigz:t:bb5710e764",
+      "reading": "cit-dnevnik-uvodjenje",
+      "from": "1939-06-06",
+      "label": {
+        "sr": "Dnevnik, dan I — 6. VI 1939: uvođenje izvođača u posao",
+        "en": "Diary, day I — 6 Jun 1939: contractor introduced to the works"
+      },
+      "raw": "1939-06-06",
+      "span": false
+    },
+    {
+      "id": "bigz:t:ddbfcf4adc",
+      "reading": "cit-dnevnik-dan-39",
+      "from": "1939-07-15",
+      "label": {
+        "sr": "Dnevnik, dan XXXIX — 15. VII 1939: montaža grejanja",
+        "en": "Diary, day XXXIX — 15 Jul 1939: heating installation"
+      },
+      "raw": "1939-07-15",
+      "span": false
+    },
+    {
+      "id": "bigz:t:c63b6759d2",
+      "reading": "cit-obracunski-elaborat-1943",
+      "from": "1943-02-04",
+      "label": {
+        "sr": "Obračunski elaborat ekonomskog bloka, potpisan 4. II 1943.",
+        "en": "Final accounting report for the economic block, signed 4 Feb 1943"
+      },
+      "raw": "1943-02-04",
+      "span": false
+    },
+    {
+      "id": "bigz:t:905cca6e16",
+      "reading": "cit-obracunski-elaborat-1943",
+      "from": "1943-03-31",
+      "label": {
+        "sr": "Obračunski elaborat ekonomskog bloka, potpisan 4. II 1943.",
+        "en": "Final accounting report for the economic block, signed 4 Feb 1943"
+      },
+      "raw": "1943-03-31",
+      "span": false
+    },
+    {
+      "id": "bigz:t:47fe52dfdc",
+      "reading": "cit-naknada-1943",
+      "from": "1943-08-17",
+      "label": {
+        "sr": "Rešenje o naknadi izvođaču, 17. avgust 1943.",
+        "en": "Decision on contractor compensation, 17 August 1943"
+      },
+      "raw": "1943-08-17",
+      "span": false
+    },
+    {
+      "id": "bigz:t:e5db4cb6ac",
+      "reading": "cit-dizalica-presek-1946",
+      "from": "1946-07",
+      "label": {
+        "sr": "Horizontalni presek voznog okna dizalica, Beograd, jul 1946.",
+        "en": "Horizontal section of the lift shafts, Belgrade, July 1946"
+      },
+      "raw": "1946-07",
+      "span": false
+    }
+  ],
+  "labour": [
+    {
+      "id": "bigz:l:1",
+      "reading": "cit-izvod-spiska-1",
+      "list": "Izvod spiska br. 1",
+      "from": "1937-07-20",
+      "to": "1938-05-09",
+      "total": 31617,
+      "qualified": 8811,
+      "common": 22806,
+      "amount": "44.055 din",
+      "trades": [
+        {
+          "id": "bigz:w:bigz-l-1-nadzornici",
+          "name": "nadzornici",
+          "days": 627
+        },
+        {
+          "id": "bigz:w:bigz-l-1-magacioneri",
+          "name": "magacioneri",
+          "days": 136
+        },
+        {
+          "id": "bigz:w:bigz-l-1-pisari",
+          "name": "pisari",
+          "days": 288
+        },
+        {
+          "id": "bigz:w:bigz-l-1-soferi",
+          "name": "šoferi",
+          "days": 272
+        },
+        {
+          "id": "bigz:w:bigz-l-1-cuvari",
+          "name": "čuvari",
+          "days": 857
+        },
+        {
+          "id": "bigz:w:bigz-l-1-skelari",
+          "name": "skelari",
+          "days": 593
+        },
+        {
+          "id": "bigz:w:bigz-l-1-tesaci-i-stolari",
+          "name": "tesači i stolari",
+          "days": 5783
+        },
+        {
+          "id": "bigz:w:bigz-l-1-zidari-i-kamenoresci",
+          "name": "zidari i kamenoresci",
+          "days": 520
+        },
+        {
+          "id": "bigz:w:bigz-l-1-gvoz-ari-i-rabiceri",
+          "name": "gvožđari i rabiceri",
+          "days": 4825
+        },
+        {
+          "id": "bigz:w:bigz-l-1-kovaci-i-elektricari",
+          "name": "kovači i električari",
+          "days": 854
+        },
+        {
+          "id": "bigz:w:bigz-l-1-masinisti",
+          "name": "mašinisti",
+          "days": 731
+        },
+        {
+          "id": "bigz:w:bigz-l-1-radnici-obicni",
+          "name": "radnici obični",
+          "days": 15969
+        },
+        {
+          "id": "bigz:w:bigz-l-1-mineri",
+          "name": "mineri",
+          "days": 22
+        },
+        {
+          "id": "bigz:w:bigz-l-1-betondzije",
+          "name": "betondžije",
+          "days": 140
+        }
+      ]
+    },
+    {
+      "id": "bigz:l:3",
+      "reading": "cit-izvod-spiska-3",
+      "list": "Izvod spiska br. 3",
+      "from": "1939-05-09",
+      "to": "1939-08-31",
+      "total": 21496,
+      "qualified": 16015,
+      "common": 5481,
+      "amount": "295.035 din",
+      "trades": [
+        {
+          "id": "bigz:w:bigz-l-3-nadzornici",
+          "name": "nadzornici",
+          "days": 466
+        },
+        {
+          "id": "bigz:w:bigz-l-3-pisari",
+          "name": "pisari",
+          "days": 95
+        },
+        {
+          "id": "bigz:w:bigz-l-3-cuvari",
+          "name": "čuvari",
+          "days": 278
+        },
+        {
+          "id": "bigz:w:bigz-l-3-skelari",
+          "name": "skelari",
+          "days": 1215
+        },
+        {
+          "id": "bigz:w:bigz-l-3-tesaci-i-stolari",
+          "name": "tesači i stolari",
+          "days": 975
+        },
+        {
+          "id": "bigz:w:bigz-l-3-zidari-i-kamenoresci",
+          "name": "zidari i kamenoresci",
+          "days": 6025
+        },
+        {
+          "id": "bigz:w:bigz-l-3-gvoz-ari-i-rabiceri",
+          "name": "gvožđari i rabiceri",
+          "days": 290
+        },
+        {
+          "id": "bigz:w:bigz-l-3-kovaci-i-elektricari",
+          "name": "kovači i električari",
+          "days": 213
+        },
+        {
+          "id": "bigz:w:bigz-l-3-masinisti",
+          "name": "mašinisti",
+          "days": 230
+        },
+        {
+          "id": "bigz:w:bigz-l-3-radnici-obicni",
+          "name": "radnici obični",
+          "days": 4588
+        },
+        {
+          "id": "bigz:w:bigz-l-3-betondzije",
+          "name": "betondžije",
+          "days": 4
+        },
+        {
+          "id": "bigz:w:bigz-l-3-izolateri-i-asfalteri",
+          "name": "izolateri i asfalteri",
+          "days": 142
+        },
+        {
+          "id": "bigz:w:bigz-l-3-fasaderi",
+          "name": "fasaderi",
+          "days": 1684
+        },
+        {
+          "id": "bigz:w:bigz-l-3-limari",
+          "name": "limari",
+          "days": 257
+        },
+        {
+          "id": "bigz:w:bigz-l-3-teraceri",
+          "name": "teraceri",
+          "days": 1269
+        },
+        {
+          "id": "bigz:w:bigz-l-3-bravari-i-monteri",
+          "name": "bravari i monteri",
+          "days": 1320
+        },
+        {
+          "id": "bigz:w:bigz-l-3-farbari-i-moleri",
+          "name": "farbari i moleri",
+          "days": 1328
+        },
+        {
+          "id": "bigz:w:bigz-l-3-staklorezci",
+          "name": "staklorezci",
+          "days": 561
+        },
+        {
+          "id": "bigz:w:bigz-l-3-keramicari",
+          "name": "keramičari",
+          "days": 165
+        },
+        {
+          "id": "bigz:w:bigz-l-3-gipsari",
+          "name": "gipsari",
+          "days": 391
+        }
+      ]
+    }
+  ],
+  "lift": {
+    "id": "bigz:lift",
+    "reading": "cit-tepper-aufzug",
+    "maker": "Joseph Tepper Maschinenfabrik, Münster i. W.",
+    "hoistMetres": 40.84,
+    "stops": 10,
+    "entrances": 12,
+    "capacityKg": 3000,
+    "persons": 40,
+    "speed": "0,45 m/s",
+    "car": {
+      "w": 2.3,
+      "d": 2.75,
+      "h": 2.6
+    },
+    "power": "trofazna 380 V, 50 Hz; motor 26 kW",
+    "order": "Auftrags-Nr. 71470/71",
+    "note": "Jedina stvarna mera u ovom prostoru: visina dizanja teretnog lifta, prepisana sa fabričkog lista."
+  },
+  "revision": "b-1d728d527587cb02"
+}

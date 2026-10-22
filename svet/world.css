@@ -129,3 +129,15 @@ body.immersive{height:100dvh;overflow:hidden}
 .immersive .atlas-header.menu-open>#language{top:334px}
 
 .immersive .atlas-header.menu-open>#language{top:0;left:95px}
+
+/* Second world: the delivered BIGZ archive. The switch sits beside the modes. */
+.world-group{display:flex;gap:4px}
+.world-group button{font-family:Consolas,monospace;letter-spacing:.04em}
+.world-group button[disabled]{opacity:.45;cursor:not-allowed}
+.immersive .world-group{gap:2px}
+@media(max-width:600px){.immersive .world-group{gap:1px}.world-group button{letter-spacing:0}}
+body.bigz #layers,body.bigz .legend,body.bigz #connections,body.bigz #city,body.bigz .filter-row{display:none}
+body.bigz #scene-status ul.tiers{list-style:none;margin:8px 0 0;padding:0;font-size:11px}
+body.bigz #scene-status ul.tiers li{display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--line);padding:4px 0}
+body.bigz #scene-status ul.tiers b{font-family:Consolas,monospace;font-weight:400;color:var(--muted)}
+body.bigz #scene-status p{font-size:12px;line-height:1.55;margin:8px 0}
