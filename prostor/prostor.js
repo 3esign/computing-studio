@@ -24,8 +24,10 @@
   var KEY = 'or-studio-v1:lang';
 
   /* ------------------------------------------------------------- language */
-  var lang = 'en';
-  try { lang = JSON.parse(localStorage.getItem(KEY)) === 'sr' ? 'sr' : 'en'; } catch (e) { lang = 'en'; }
+  /* app.js owns the choice and has already written it onto <html lang> by the
+     time this file runs; reading it here keeps one default instead of two.
+     Reading localStorage directly would differ whenever it is empty. */
+  var lang = root.lang.indexOf('sr') === 0 ? 'sr' : 'en';
   function tr(v) { return !v ? '' : (typeof v === 'string' ? v : (v[lang] || v.en || '')); }
   function say(en, sr) { return lang === 'sr' ? sr : en; }
 
