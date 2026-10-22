@@ -99,6 +99,7 @@ var gl=canvas.getContext('webgl',{antialias:true,alpha:false});if(!gl)throw Erro
     'uniform mat4 uModel;',
     'uniform vec3 uSunDir;',
     'uniform vec3 uEye;',
+    'uniform float uContact;',
     'varying vec3 vColor;',
     'varying float vLight;',
     'varying float vEmissive;',
@@ -110,6 +111,8 @@ var gl=canvas.getContext('webgl',{antialias:true,alpha:false});if(!gl)throw Erro
     '  float diff = max(dot(norm, normalize(uSunDir)), 0.0);',
     '  float sky = max(norm.y * 0.35 + 0.65, 0.0);',
     '  vLight = diff * 0.42 + sky * 0.58;',
+    '  // Bases sit into the ground instead of floating on it.',
+    '  vLight *= mix(1.0, mix(0.60, 1.0, clamp(worldPos.y * 0.42, 0.0, 1.0)), uContact);',
     '  vColor = aColor;',
     '  vEmissive = aEmissive;',
     '  vDist = length(worldPos.xyz - uEye);',
@@ -123,6 +126,8 @@ var gl=canvas.getContext('webgl',{antialias:true,alpha:false});if(!gl)throw Erro
     'varying float vEmissive;',
     'varying float vDist;',
     'uniform vec3 uSkyColor;',
+    'uniform vec3 uHorizon;',
+    'uniform vec2 uFog;',
     'uniform float uNight;',
     'void main() {',
     '  float lum = dot(vColor, vec3(0.2126, 0.7152, 0.0722));',
@@ -135,8 +140,8 @@ var gl=canvas.getContext('webgl',{antialias:true,alpha:false});if(!gl)throw Erro
     '    lit = mix(lit, vColor * 1.2, vEmissive * (uNight > 0.5 ? 0.8 : 0.2));',
     '  }',
     '  // Soft atmospheric haze',
-    '  float fog = smoothstep(160.0, 700.0, vDist) * 0.62;',
-    '  vec3 finalColor = mix(lit, uSkyColor, fog);',
+    '  float fog = smoothstep(uFog.x, uFog.y, vDist);',
+    '  vec3 finalColor = mix(lit, uHorizon, fog * fog * 0.96);',
     '  gl_FragColor = vec4(finalColor, 1.0);',
     '}'
   ].join('\n');
@@ -164,6 +169,9 @@ var gl=canvas.getContext('webgl',{antialias:true,alpha:false});if(!gl)throw Erro
   var uSkyColor = gl.getUniformLocation(prog, 'uSkyColor');
   var uNight = gl.getUniformLocation(prog, 'uNight');
   var uEye = gl.getUniformLocation(prog, 'uEye');
+  var uHorizon = gl.getUniformLocation(prog, 'uHorizon');
+  var uFog = gl.getUniformLocation(prog, 'uFog');
+  var uContact = gl.getUniformLocation(prog, 'uContact');
 
   var aPos = gl.getAttribLocation(prog, 'aPos');
   var aNormal = gl.getAttribLocation(prog, 'aNormal');
@@ -179,7 +187,7 @@ uniform vec3 sRight,sUp,sForward;
 uniform float sAspect,sNight,sStreet;
 void main(){
  vec3 ray=normalize(sForward+(sRight*vSky.x*sAspect+sUp*vSky.y)*0.57735);
- float elevation=mix(vSky.y*.45+.35,ray.y,sStreet);
+ float elevation=mix(max(vSky.y*.45+.35,0.015),ray.y,sStreet);
  vec3 horizon=mix(vec3(.90,.91,.86),vec3(.16,.22,.25),sNight);
  vec3 zenith=mix(vec3(.43,.61,.65),vec3(.025,.055,.09),sNight);
  float band=floor(clamp(elevation,0.0,1.0)*12.0)/12.0;
@@ -195,6 +203,29 @@ void main(){
   if(!gl.getProgramParameter(skyProgram,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(skyProgram));
   var skyBuffer=gl.createBuffer(),skyAttribute=gl.getAttribLocation(skyProgram,'aSky');
   gl.bindBuffer(gl.ARRAY_BUFFER,skyBuffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),gl.STATIC_DRAW);
+  var vignetteProgram=gl.createProgram();
+  gl.attachShader(vignetteProgram,createShader(gl,gl.VERTEX_SHADER,'attribute vec2 aSky; varying vec2 vV; void main(){vV=aSky;gl_Position=vec4(aSky,1.0,1.0);}'));
+  gl.attachShader(vignetteProgram,createShader(gl,gl.FRAGMENT_SHADER,`
+precision mediump float;
+varying vec2 vV;
+uniform float vNight;
+void main(){
+ float r=length(vec2(vV.x*0.88,vV.y));
+ float a=smoothstep(0.66,1.42,r)*mix(0.26,0.46,vNight);
+ vec3 c=mix(vec3(.106,.149,.141),vec3(.0,.012,.016),vNight);
+ gl_FragColor=vec4(c,a);
+}`));
+  gl.linkProgram(vignetteProgram);
+  if(!gl.getProgramParameter(vignetteProgram,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(vignetteProgram));
+  var vignetteAttribute=gl.getAttribLocation(vignetteProgram,'aSky'),uVignetteNight=gl.getUniformLocation(vignetteProgram,'vNight');
+  function drawVignette(){
+   gl.useProgram(vignetteProgram);gl.disable(gl.DEPTH_TEST);gl.depthMask(false);
+   gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);
+   for(var a of [aPos,aNormal,aColor,aEmissive])gl.disableVertexAttribArray(a);
+   gl.bindBuffer(gl.ARRAY_BUFFER,skyBuffer);gl.enableVertexAttribArray(vignetteAttribute);gl.vertexAttribPointer(vignetteAttribute,2,gl.FLOAT,false,0,0);
+   gl.uniform1f(uVignetteNight,opts.night?1:0);gl.drawArrays(gl.TRIANGLES,0,3);
+   gl.disableVertexAttribArray(vignetteAttribute);gl.disable(gl.BLEND);gl.depthMask(true);gl.enable(gl.DEPTH_TEST);gl.useProgram(prog);
+  }
   var skyUniforms={};for(var name of ['sRight','sUp','sForward','sAspect','sNight','sStreet'])skyUniforms[name]=gl.getUniformLocation(skyProgram,name);
   function drawSky(aspect){
    gl.useProgram(skyProgram);gl.disable(gl.DEPTH_TEST);gl.depthMask(false);
@@ -313,16 +344,24 @@ var reduced=matchMedia('(prefers-reduced-motion:reduce)'),labels=document.getEle
 var links=document.getElementById('map-links'),lastLabelTime=0;
 // Street mode explores symbolic data architecture, not a metric survey.
 var walk={pos:[12,1.7,30],yaw:0,pitch:0},keys=new Set(),lastWalk=0,walkVelocity=[0,0],stick={x:0,y:0,id:null},aim=null;
+var walkFly=null,glide=null,ORBIT_BACK=2000,PAN_LIMIT=1200,clipProbe=false,clippedCorners=0;
 var joystick=document.getElementById('joystick'),knob=joystick?.firstElementChild;
 function resetStick(){stick={x:0,y:0,id:null};if(knob)knob.style.transform='translate(-50%,-50%)'}
-function stopWalk(){keys.clear();resetStick();lastWalk=0;walkVelocity=[0,0]}
-function enterStreet(id){stopWalk();transition=null;var lead=leadOf(id);if(lead)id=lead.id;var t=data.teams.find(t=>t.id===id)||data.teams.find(t=>t.hasPassport&&position(t)),p=t&&wingPos(t);if(!p)p=[12,0,10];var boxes=pickBoxes.filter(b=>b.team===t?.id),front=boxes.reduce((z,b)=>Math.max(z,b.max[2]),p[2]);walk.pos=[p[0],1.7,front+8];walk.yaw=0;walk.pitch=.08;canvas.focus({preventScroll:true});revealStage();invalidate()}
+function stopWalk(){keys.clear();resetStick();lastWalk=0;walkVelocity=[0,0];walkFly=null}
+function enterStreet(id){stopWalk();transition=null;var lead=leadOf(id);if(lead)id=lead.id;var t=data.teams.find(t=>t.id===id)||data.teams.find(t=>t.hasPassport&&position(t)),p=t&&wingPos(t);if(!p)p=[12,0,10];var boxes=pickBoxes.filter(b=>b.team===t?.id),front=boxes.reduce((z,b)=>Math.max(z,b.max[2]),p[2]);
+ /* Standing room: the arrival point is set back by the structure's own width,
+    so the first frame shows the sculpture instead of its underside. */
+ var span=boxes.reduce((n,b)=>Math.max(n,b.max[0]-b.min[0],b.max[2]-b.min[2]),8);
+ walk.pos=[p[0],1.7,front+Math.max(12,span*.95)];
+ for(var i=0;i<60&&blocked(walk.pos[0],walk.pos[2]);i++)walk.pos[2]+=.6;
+ walk.yaw=0;walk.pitch=.04;canvas.focus({preventScroll:true});revealStage();invalidate()}
 /* Na niskom ekranu scena i dugmad za hod padnu ispod pregiba: ulica bez
    vidljivih komandi nije upotrebljiva, pa se pozornica dovodi u kadar. */
 function revealStage(){var s=canvas.closest('.stage')||canvas,r=s.getBoundingClientRect();if(r.top>=0&&r.bottom<=innerHeight)return;s.scrollIntoView({block:'center',inline:'nearest',behavior:reduced.matches?'instant':'smooth'})}
 function blocked(x,z){return pickBoxes.some(b=>b.role!=='foundation'&&b.max[1]>.25&&b.min[1]<1.9&&x>b.min[0]-.3&&x<b.max[0]+.3&&z>b.min[2]-.3&&z<b.max[2]+.3)}
 function stepWalk(now){
  var dt=lastWalk?Math.min(.05,(now-lastWalk)/1000):0;lastWalk=now;
+ if(walkFly){if(keys.size||stick.x||stick.y)walkFly=null;else return}
  if(!keys.size&&!stick.x&&!stick.y){walkVelocity=[0,0];return}
  var forward=Number(keys.has('KeyW'))-Number(keys.has('KeyS'))-stick.y,side=Number(keys.has('KeyD'))-Number(keys.has('KeyA'))+stick.x;
  // Positive yaw faces left in this camera convention.
@@ -413,7 +452,7 @@ function build(){if(!data)return;var started=performance.now();builds++;lastUplo
 var dark=false,ground=dark?[.055,.085,.105]:[.9,.91,.86],stone=dark?[.15,.21,.24]:[.83,.85,.79],ink=dark?[.12,.18,.21]:[.77,.80,.75];
 var key=[opts.mode==='archive'||opts.mode==='street',opts.layer==='geography'].join(':');
 if(key!==staticKey||geo!==staticGeo){staticBuilds++;
-addBox(0,-1,15,1400,1,1400,ground,0);
+addBox(0,-1,15,7200,1,7200,ground,0);
 for(var x=-500;x<=500;x+=25)line([x,0,-500],[x,0,500],.028,ink,.008);for(var z=-500;z<=500;z+=25)line([-500,0,z],[500,0,z],.028,ink,.008);
 chunk(0);
 if(opts.mode!=='archive'&&opts.mode!=='street'&&geo){
@@ -533,11 +572,30 @@ for(var m of [...marks].sort((a,b)=>Number(b.selected)-Number(a.selected)||Numbe
 if(opts.mode==='street'){aim=findPick({clientX:rect.left+rect.width/2,clientY:rect.top+rect.height/2});var cross=document.querySelector('.crosshair'),hint=document.getElementById('aim-label');cross?.classList.toggle('target',!!aim);if(cross)cross.dataset.target=aim?.id||'';var claim=data.claims.find(c=>c.id===aim?.id),source=data.sources.find(s=>s.id===aim?.id),team=data.teams.find(t=>t.id===(aim?.team||aim?.id)),text=claim?claim.title:source?source.label:aim?.tier?aim.tier:team?team.id+' / '+team.object:'';if(hint)hint.textContent=text;var pick=document.getElementById('walk-pick');if(pick)pick.disabled=!aim}else{aim=null;document.getElementById('aim-label').textContent=''}
 if(links){links.setAttribute('viewBox','0 0 '+rect.width+' '+rect.height);for(var a of arcs){var points=a.points.map(p=>screen(p,rect.width,rect.height));var clipped=opts.mode==='street'||points.some(p=>p[0]===-10000);a.path.style.display=clipped?'none':'';a.dot.style.display=clipped?'none':'';if(clipped)continue;a.path.setAttribute('d',points.map((p,i)=>(i?'L':'M')+p[0].toFixed(2)+','+p[1].toFixed(2)).join(' '));var phase=opts.motion&&!reduced.matches?(now%6000)/6000:.5,index=phase*32,lo=Math.floor(index),hi=Math.min(32,lo+1),p=mix(points[lo],points[hi],index-lo);a.dot.setAttribute('cx',p[0]);a.dot.setAttribute('cy',p[1]);a.dot.style.visibility=opts.motion&&!reduced.matches?'visible':'hidden'}}
 }
-function render(now){frame=0;if(document.hidden||!inView)return;frames++;if(opts.mode==='street')stepWalk(now);if(transition){var f=reduced.matches?1:Math.min(1,(now-transition.start)/550),e=1-Math.pow(1-f,3);for(var k of ['yaw','pitch','dist'])cam[k]=transition.from[k]+(transition.to[k]-transition.from[k])*e;cam.target=transition.from.target.map((v,i)=>v+(transition.to.target[i]-v)*e);if(f===1)transition=null;else invalidate()}
+function render(now){frame=0;if(document.hidden||!inView)return;frames++;if(glide&&opts.mode!=='street')glideStep(now);else glide=null;if(opts.mode==='street'){stepFly(now);stepWalk(now)}if(transition){var f=reduced.matches?1:Math.min(1,(now-transition.start)/550),e=1-Math.pow(1-f,3);for(var k of ['yaw','pitch','dist'])cam[k]=transition.from[k]+(transition.to[k]-transition.from[k])*e;cam.target=transition.from.target.map((v,i)=>v+(transition.to.target[i]-v)*e);if(f===1)transition=null;else invalidate()}
 var growth=reduced.matches||!growthStart?1:Math.min(1,(now-growthStart)/950);if(growth<1)invalidate();
 var rect=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,opts.quality==='eco'?1:opts.quality==='high'?2:1.6,Math.sqrt((opts.quality==='high'?2400000:opts.quality==='eco'?650000:1400000)/Math.max(1,rect.width*rect.height))),w=Math.max(1,Math.round(rect.width*dpr)),h=Math.max(1,Math.round(rect.height*dpr));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h}gl.viewport(0,0,w,h);gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);var sky=opts.night?[.055,.085,.105]:[.9,.91,.86];gl.clearColor(...sky,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(prog);var d=cam.dist,cy=cam.pitch,cx=cam.yaw,eye=[cam.target[0]+d*Math.cos(cy)*Math.sin(cx),cam.target[1]+d*Math.sin(cy),cam.target[2]+d*Math.cos(cy)*Math.cos(cx)];
-var target=cam.target;if(opts.mode==='street'){eye=walk.pos;target=[eye[0]-Math.sin(walk.yaw)*Math.cos(walk.pitch),eye[1]+Math.sin(walk.pitch),eye[2]-Math.cos(walk.yaw)*Math.cos(walk.pitch)];M4.perspective(pMat,Math.PI/3,w/h,.05,2200)}else M4.ortho(pMat,-d*w/h*.5,d*w/h*.5,-d*.5,d*.5,.1,2200);eyePos=eye;M4.lookAt(vMat,eye,target,[0,1,0]);M4.multiply(mvpMat,pMat,vMat);drawSky(w/h);gl.uniformMatrix4fv(uMVP,false,mvpMat);gl.uniformMatrix4fv(uModel,false,mMat);gl.uniform3f(uSunDir,.65,.82,-.5);gl.uniform3fv(uSkyColor,sky);gl.uniform3fv(uEye,eye);gl.uniform1f(uNight,opts.night?1:0);drawCalls=0;drawnTriangles=0;culledChunks=0;lodSkipped=0;gl.uniform1f(uGrowth,1);drawMesh(staticMesh);gl.uniform1f(uGrowth,1-Math.pow(1-growth,3));drawMesh(teamMesh);
+var target=cam.target,viewEye=eye;
+if(opts.mode==='street'){eye=walk.pos;viewEye=eye;target=[eye[0]-Math.sin(walk.yaw)*Math.cos(walk.pitch),eye[1]+Math.sin(walk.pitch),eye[2]-Math.cos(walk.yaw)*Math.cos(walk.pitch)];M4.perspective(pMat,Math.PI/3,w/h,.05,2600)}
+else{
+ /* Orbit is orthographic: the eye carries no scale, so it is parked far behind
+    the frame. Zooming in then never pushes geometry through the near plane. */
+ eye=[cam.target[0]+ORBIT_BACK*Math.cos(cy)*Math.sin(cx),cam.target[1]+ORBIT_BACK*Math.sin(cy),cam.target[2]+ORBIT_BACK*Math.cos(cy)*Math.cos(cx)];
+ M4.ortho(pMat,-d*w/h*.5,d*w/h*.5,-d*.5,d*.5,1,ORBIT_BACK*2+2600);
+}
+var horizon=opts.night?[.16,.22,.25]:[.90,.91,.86];
+var fogNear=opts.mode==='street'?70:Math.max(190,d*1.5),fogFar=opts.mode==='street'?620:Math.max(900,d*4.4);
+eyePos=viewEye;M4.lookAt(vMat,eye,target,[0,1,0]);M4.multiply(mvpMat,pMat,vMat);drawSky(w/h);gl.uniformMatrix4fv(uMVP,false,mvpMat);gl.uniformMatrix4fv(uModel,false,mMat);gl.uniform3f(uSunDir,.65,.82,-.5);gl.uniform3fv(uSkyColor,sky);gl.uniform3fv(uHorizon,horizon);gl.uniform2f(uFog,fogNear,fogFar);gl.uniform3fv(uEye,viewEye);gl.uniform1f(uNight,opts.night?1:0);drawCalls=0;drawnTriangles=0;culledChunks=0;lodSkipped=0;gl.uniform1f(uGrowth,1);gl.uniform1f(uContact,0);drawMesh(staticMesh);gl.uniform1f(uGrowth,1-Math.pow(1-growth,3));gl.uniform1f(uContact,1);drawMesh(teamMesh);drawVignette();
+if(clipProbe)measureClip(eye,d,w/h);
 overlays(rect,now);if(opts.motion&&arcs.length&&!reduced.matches)invalidate();}
+function measureClip(eye,d,aspect){clippedCorners=0;if(opts.mode==='street')return;
+ var fwd=[-vMat[2],-vMat[6],-vMat[10]],rv=[vMat[0],vMat[4],vMat[8]],uv=[vMat[1],vMat[5],vMat[9]],hx=d*.5*aspect,hy=d*.5;
+ for(var b of pickBoxes){var inFrame=false,ahead=0;
+  for(var c=0;c<8;c++){var px=c&1?b.max[0]:b.min[0],py=c&2?b.max[1]:b.min[1],pz=c&4?b.max[2]:b.min[2];
+   var vx=px-eye[0],vy=py-eye[1],vz=pz-eye[2];
+   if(vx*fwd[0]+vy*fwd[1]+vz*fwd[2]<1)ahead++;
+   if(Math.abs(vx*rv[0]+vy*rv[1]+vz*rv[2])<=hx&&Math.abs(vx*uv[0]+vy*uv[1]+vz*uv[2])<=hy)inFrame=true}
+  if(inFrame)clippedCorners+=ahead}}
 function fly(to){transition={from:{...cam,target:cam.target.slice()},to:{...cam,...to},start:performance.now()};invalidate()}
 /* The collage has no geography to fall back on, so its home view is measured
    from the classification itself: every column must fit the screen. */
@@ -545,10 +603,26 @@ function collageDistance(){var places=[...collageLayout().places.values()];if(!p
  var xs=places.map(p=>p.pos[0]),zs=places.map(p=>p.pos[2]),aspect=Math.max(.3,(canvas.clientWidth||1)/(canvas.clientHeight||1));
  var w=Math.max.apply(null,xs)-Math.min.apply(null,xs)+70,d=Math.max.apply(null,zs)-Math.min.apply(null,zs)+70;
  return Math.max(160,Math.min(900,Math.max(d*1.05,w*1.3/aspect)))}
+function streetRay(e){var rect=canvas.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top;
+ var right=[vMat[0],vMat[4],vMat[8]],up=[vMat[1],vMat[5],vMat[9]],back=[vMat[2],vMat[6],vMat[10]];
+ var rx=(x/rect.width*2-1)*Math.tan(Math.PI/6)*rect.width/rect.height,uy=(1-y/rect.height*2)*Math.tan(Math.PI/6);
+ var dir=back.map((v,i)=>-v+right[i]*rx+up[i]*uy),len=Math.hypot(dir[0],dir[1],dir[2]);return dir.map(v=>v/len)}
+/* Street mode: touching a structure walks you to it instead of only opening it. */
+function teleport(e,target){if(!target||!(target.distance>0))return false;
+ var dir=streetRay(e),stand=Math.max(0,target.distance-2.6),to=[walk.pos[0]+dir[0]*stand,1.7,walk.pos[2]+dir[2]*stand];
+ for(var i=0;i<40&&blocked(to[0],to[2]);i++){to[0]-=dir[0]*.35;to[2]-=dir[2]*.35}
+ if(blocked(to[0],to[2]))return false;
+ var yaw=Math.atan2(-dir[0],-dir[2]),delta=((yaw-walk.yaw+Math.PI)%(2*Math.PI)+2*Math.PI)%(2*Math.PI)-Math.PI;
+ if(reduced.matches){walk.pos=to;walk.yaw=yaw;walkFly=null}
+ else walkFly={from:walk.pos.slice(),to,yaw0:walk.yaw,delta,start:performance.now(),ms:Math.min(900,320+stand*34)};
+ invalidate();return true}
+function stepFly(now){if(!walkFly)return;var f=Math.min(1,(now-walkFly.start)/walkFly.ms),e=1-Math.pow(1-f,3);
+ walk.pos=[walkFly.from[0]+(walkFly.to[0]-walkFly.from[0])*e,1.7,walkFly.from[2]+(walkFly.to[2]-walkFly.from[2])*e];
+ walk.yaw=walkFly.yaw0+walkFly.delta*e;if(f>=1)walkFly=null;else invalidate()}
 function home(){if(opts.mode==='street'){enterStreet(opts.selected);return}fly({target:opts.mode==='archive'?[0,0,6]:[12,2,10],dist:opts.mode==='archive'?collageDistance():155,yaw:-.35,pitch:opts.mode==='plan'?1.55:.8})}
 function findPick(e,onlyTeams=false){var rect=canvas.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top,best=null,dist=onlyTeams?22:18;
  if(!onlyTeams){var right=[vMat[0],vMat[4],vMat[8]],up=[vMat[1],vMat[5],vMat[9]],back=[vMat[2],vMat[6],vMat[10]],rx=(x/rect.width-.5)*cam.dist*rect.width/rect.height,uy=(.5-y/rect.height)*cam.dist;
- var origin=cam.target.map((v,i)=>v+back[i]*cam.dist+right[i]*rx+up[i]*uy),dir=back.map(v=>-v),nearest=Infinity;
+ var origin=cam.target.map((v,i)=>v+back[i]*ORBIT_BACK+right[i]*rx+up[i]*uy),dir=back.map(v=>-v),nearest=Infinity;
  if(opts.mode==='street'){origin=walk.pos.slice();rx=(x/rect.width*2-1)*Math.tan(Math.PI/6)*rect.width/rect.height;uy=(1-y/rect.height*2)*Math.tan(Math.PI/6);dir=back.map((v,i)=>-v+right[i]*rx+up[i]*uy);var length=Math.hypot(...dir);dir=dir.map(v=>v/length)}
  for(var b of pickBoxes){if(b.lod&&opts.quality==='eco'&&opts.mode!=='street'&&cam.dist>320)continue;var near=0,far=Infinity;for(var axis=0;axis<3;axis++){if(Math.abs(dir[axis])<1e-8){if(origin[axis]<b.min[axis]||origin[axis]>b.max[axis]){far=-1;break}}else{var t1=(b.min[axis]-origin[axis])/dir[axis],t2=(b.max[axis]-origin[axis])/dir[axis];near=Math.max(near,Math.min(t1,t2));far=Math.min(far,Math.max(t1,t2))}}
  if(far<near||near>=nearest)continue;
@@ -561,16 +635,44 @@ function findPick(e,onlyTeams=false){var rect=canvas.getBoundingClientRect(),x=e
  for(var m of (onlyTeams?[]:hit.filter(h=>h.role==='geography')).concat(marks)){if(labelNodes.has(m.id)&&labelNodes.get(m.id).hidden)continue;var p=screen(m.pos,rect.width,rect.height),v=Math.hypot(p[0]-x,p[1]-y);if(v<dist){best=m;dist=v}}return best}
 var surface=canvas.closest('.stage')||canvas,suppressClickUntil=0;
 surface.addEventListener('click',e=>{if(!e.target.closest('.camera,.walk-controls')&&performance.now()<suppressClickUntil){e.preventDefault();e.stopImmediatePropagation()}},true);
-function panPixels(dx,dy){var unit=cam.dist/Math.max(1,canvas.clientHeight),sy=Math.max(.25,Math.sin(cam.pitch));cam.target[0]-=(dx*Math.cos(cam.yaw)-dy*Math.sin(cam.yaw)/sy)*unit;cam.target[2]-=(-dx*Math.sin(cam.yaw)-dy*Math.cos(cam.yaw)/sy)*unit}
-surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls'))return;canvas.focus({preventScroll:true});transition=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
+/* Drag solves the ground displacement whose screen projection equals the drag,
+   so the point under the finger stays under the finger at any pitch. */
+function panPixels(dx,dy){var unit=cam.dist/Math.max(1,canvas.clientHeight),rx=vMat[0],rz=vMat[8],ux=vMat[1],uz=vMat[9],det=rx*uz-rz*ux;
+ if(!isFinite(det)||Math.abs(det)<1e-6)return;var sx=dx*unit,sy=dy*unit;
+ var a=(sx*uz+rz*sy)/det,b=(-rx*sy-ux*sx)/det;
+ cam.target[0]=Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,cam.target[0]-a));
+ cam.target[2]=Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,cam.target[2]-b));}
+/* Release keeps the gesture alive briefly: the frame settles instead of stopping dead. */
+function glideStep(now){if(!glide)return;var dt=Math.min(.05,(now-glide.t)/1000);glide.t=now;
+ if(glide.pan)panPixels(glide.dx*dt,glide.dy*dt);else{cam.yaw+=glide.dx*dt*.006;cam.pitch=Math.max(.25,Math.min(1.55,cam.pitch+glide.dy*dt*.006))}
+ var decay=Math.exp(-5.5*dt);glide.dx*=decay;glide.dy*=decay;
+ if(Math.hypot(glide.dx,glide.dy)<14)glide=null;else invalidate()}
+function startGlide(){if(reduced.matches||!drag||opts.mode==='street'||!drag.vx&&!drag.vy)return;
+ if(Math.hypot(drag.vx,drag.vy)<90)return;glide={dx:Math.max(-2600,Math.min(2600,drag.vx)),dy:Math.max(-2600,Math.min(2600,drag.vy)),pan:!!drag.pan,t:performance.now()};invalidate()}
+surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls'))return;canvas.focus({preventScroll:true});transition=null;glide=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
 surface.addEventListener('pointermove',e=>{if(e.target.closest('.camera,.walk-controls'))return;if(!drag){if(e.pointerType==='touch')return;var m=findPick(e,true);if(hover!==(m?.id||'')){hover=m?.id||'';invalidate()}return}if(!pointers.has(e.pointerId))return;
- if(pointers.size>=2){var old=[...pointers.values()],oldDist=Math.hypot(old[0][0]-old[1][0],old[0][1]-old[1][1]);pointers.set(e.pointerId,[e.clientX,e.clientY]);var ps=[...pointers.values()],newDist=Math.hypot(ps[0][0]-ps[1][0],ps[0][1]-ps[1][1]);if(opts.mode!=='street'){if(oldDist&&newDist)cam.dist=Math.max(18,Math.min(700,cam.dist*oldDist/newDist));panPixels((ps[0][0]+ps[1][0]-old[0][0]-old[1][0])/2,(ps[0][1]+ps[1][1]-old[0][1]-old[1][1])/2)}drag.moved=true;invalidate();return}
- var prev=pointers.get(e.pointerId),dx=e.clientX-prev[0],dy=e.clientY-prev[1];if(opts.mode==='street'){walk.yaw-=dx*.004;walk.pitch=Math.max(-1.2,Math.min(1.2,walk.pitch-dy*.004))}else if(e.shiftKey||e.buttons===2||opts.gesture==='pan')panPixels(dx,dy);else{cam.yaw+=dx*.006;cam.pitch=Math.max(.25,Math.min(1.55,cam.pitch+dy*.006))}pointers.set(e.pointerId,[e.clientX,e.clientY]);drag.x=e.clientX;drag.y=e.clientY;drag.moved=drag.moved||Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)>5;invalidate()});
-function endPointer(e,cancel){if(!pointers.has(e.pointerId))return;pointers.delete(e.pointerId);if(!drag)return;if(!cancel&&!drag.moved&&Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<6){var best=drag.label?{id:drag.label}:findPick(e);if(best)onPick(best.id,best.team)}suppressClickUntil=performance.now()+350;if(pointers.size){var [id,p]=pointers.entries().next().value;drag={id,x:p[0],y:p[1],sx:p[0],sy:p[1],moved:true}}else drag=null}
+ if(pointers.size>=2){var old=[...pointers.values()],oldDist=Math.hypot(old[0][0]-old[1][0],old[0][1]-old[1][1]);pointers.set(e.pointerId,[e.clientX,e.clientY]);var ps=[...pointers.values()],newDist=Math.hypot(ps[0][0]-ps[1][0],ps[0][1]-ps[1][1]);if(opts.mode!=='street'){if(oldDist&&newDist)cam.dist=Math.max(8,Math.min(700,cam.dist*oldDist/newDist));panPixels((ps[0][0]+ps[1][0]-old[0][0]-old[1][0])/2,(ps[0][1]+ps[1][1]-old[0][1]-old[1][1])/2)}drag.moved=true;invalidate();return}
+ var prev=pointers.get(e.pointerId),dx=e.clientX-prev[0],dy=e.clientY-prev[1];var pan=e.shiftKey||e.buttons===2||e.buttons===4||opts.gesture==='pan';
+ if(opts.mode==='street'){walkFly=null;walk.yaw-=dx*.004;walk.pitch=Math.max(-1.2,Math.min(1.2,walk.pitch-dy*.004))}else if(pan)panPixels(dx,dy);else{cam.yaw+=dx*.006;cam.pitch=Math.max(.25,Math.min(1.55,cam.pitch+dy*.006))}
+ var now=performance.now(),span=Math.max(8,now-(drag.t||now-16));drag.vx=dx/span*1000;drag.vy=dy/span*1000;drag.t=now;drag.pan=pan;
+ pointers.set(e.pointerId,[e.clientX,e.clientY]);drag.x=e.clientX;drag.y=e.clientY;drag.moved=drag.moved||Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)>5;invalidate()});
+function endPointer(e,cancel){if(!pointers.has(e.pointerId))return;pointers.delete(e.pointerId);if(!drag)return;
+ if(!cancel&&!drag.moved&&Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<6){var best=drag.label?{id:drag.label}:findPick(e);
+  if(best&&opts.mode==='street'&&!drag.label)teleport(e,best);
+  if(best)onPick(best.id,best.team)}
+ else if(!cancel&&pointers.size===0)startGlide();
+ suppressClickUntil=performance.now()+350;if(pointers.size){var [id,p]=pointers.entries().next().value;drag={id,x:p[0],y:p[1],sx:p[0],sy:p[1],moved:true}}else drag=null}
 surface.addEventListener('pointerup',e=>endPointer(e,false));surface.addEventListener('pointercancel',e=>endPointer(e,true));surface.addEventListener('lostpointercapture',e=>endPointer(e,true));window.addEventListener('blur',()=>{drag=null;pointers.clear()});
-surface.addEventListener('wheel',e=>{if(e.target.closest('.camera,.walk-controls'))return;if(opts.mode==='street')return;if(!opts.interactive&&!e.ctrlKey)return;e.preventDefault();transition=null;cam.dist=Math.max(18,Math.min(700,cam.dist*(e.deltaY>0?1.09:.91)));invalidate()},{passive:false});canvas.addEventListener('contextmenu',e=>e.preventDefault());
+surface.addEventListener('wheel',e=>{if(e.target.closest('.camera,.walk-controls'))return;if(opts.mode==='street')return;if(!opts.interactive&&!e.ctrlKey)return;e.preventDefault();transition=null;cam.dist=Math.max(8,Math.min(700,cam.dist*(e.deltaY>0?1.09:.91)));invalidate()},{passive:false});
+/* Double tap reads as "take me there": the frame recentres on what was touched. */
+surface.addEventListener('dblclick',e=>{if(e.target.closest('.camera,.walk-controls')||opts.mode==='street')return;
+ var rect=canvas.getBoundingClientRect(),right=[vMat[0],vMat[4],vMat[8]],up=[vMat[1],vMat[5],vMat[9]],back=[vMat[2],vMat[6],vMat[10]];
+ var rx=((e.clientX-rect.left)/rect.width-.5)*cam.dist*rect.width/rect.height,uy=(.5-(e.clientY-rect.top)/rect.height)*cam.dist;
+ var origin=cam.target.map((v,i)=>v+back[i]*ORBIT_BACK+right[i]*rx+up[i]*uy),dir=back.map(v=>-v);
+ if(Math.abs(dir[1])<1e-6)return;var t=-origin[1]/dir[1],hitPoint=[origin[0]+dir[0]*t,0,origin[2]+dir[2]*t];
+ fly({target:[Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,hitPoint[0])),0,Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,hitPoint[2]))],dist:Math.max(8,cam.dist*.55)})});canvas.addEventListener('contextmenu',e=>e.preventDefault());
 canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();document.getElementById('scene-status').textContent='3D paused · Lista i dosijei / List and dossiers ↓'});canvas.addEventListener('webglcontextrestored',()=>location.reload());
 new ResizeObserver(invalidate).observe(canvas);document.addEventListener('visibilitychange',invalidate);reduced.addEventListener('change',invalidate);new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;if(inView)invalidate()}).observe(canvas);
 function geometryKey(o){return JSON.stringify([o.mode==='archive',o.mode==='street',o.mode==='plan',o.layer,o.selected,o.claim,[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
-return {stop:stopWalk,setCulling(value){culling=!!value;invalidate()},update(d,g,o){var change=opts.mode!==o.mode,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;cam.dist=Math.max(18,Math.min(700,cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView}},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(prog)}};
+return {stop:stopWalk,setCulling(value){culling=!!value;invalidate()},setOrbitBack(value){ORBIT_BACK=value>0?value:2000;invalidate()},probeClip(on){clipProbe=!!on;invalidate()},update(d,g,o){var change=opts.mode!==o.mode,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(700,cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView}},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
 };
