@@ -811,7 +811,7 @@ function findPick(e,onlyTeams=false){var rect=canvas.getBoundingClientRect(),x=e
  if(opts.mode==='street')return null;
  for(var m of (onlyTeams?[]:hit.filter(h=>h.role==='geography')).concat(marks)){if(labelNodes.has(m.id)&&labelNodes.get(m.id).hidden)continue;var p=screen(m.pos,rect.width,rect.height),v=Math.hypot(p[0]-x,p[1]-y);if(v<dist){best=m;dist=v}}return best}
 var surface=canvas.closest('.stage')||canvas,suppressClickUntil=0;
-surface.addEventListener('click',e=>{if(!e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar')&&performance.now()<suppressClickUntil){e.preventDefault();e.stopImmediatePropagation()}},true);
+surface.addEventListener('click',e=>{if(!e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar,#tour-start')&&performance.now()<suppressClickUntil){e.preventDefault();e.stopImmediatePropagation()}},true);
 /* Drag solves the ground displacement whose screen projection equals the drag,
    so the point under the finger stays under the finger at any pitch. */
 function panPixels(dx,dy){var unit=cam.dist/Math.max(1,canvas.clientHeight),rx=vMat[0],rz=vMat[8],ux=vMat[1],uz=vMat[9],det=rx*uz-rz*ux;
@@ -853,8 +853,8 @@ function startGlide(){if(reduced.matches||!drag||opts.mode==='street'||!drag.vx&
 var TAP_SLIP={touch:12,pen:7,mouse:5},tapSlip=e=>TAP_SLIP[e.pointerType]||TAP_SLIP.mouse,lastTap=null;
 /* The gate overlay and the archive exit are real controls living on the stage:
    the scene must not capture their touch, or the tap never becomes a click. */
-surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar'))return;canvas.focus({preventScroll:true});transition=null;glide=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,slip:tapSlip(e),touch:e.pointerType==='touch',label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
-surface.addEventListener('pointermove',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar'))return;if(!drag){if(e.pointerType==='touch')return;var m=findPick(e,true);if(hover!==(m?.id||'')){hover=m?.id||'';invalidate()}return}if(!pointers.has(e.pointerId))return;
+surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar,#tour-start'))return;canvas.focus({preventScroll:true});transition=null;glide=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,slip:tapSlip(e),touch:e.pointerType==='touch',label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
+surface.addEventListener('pointermove',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar,#tour-start'))return;if(!drag){if(e.pointerType==='touch')return;var m=findPick(e,true);if(hover!==(m?.id||'')){hover=m?.id||'';invalidate()}return}if(!pointers.has(e.pointerId))return;
  /* Two fingers: the ground held between them at the start of the step is put
     back between them at the end, so a pinch zooms into what it is pinching
     and drags what it is dragging in the same motion. */

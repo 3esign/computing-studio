@@ -1,6 +1,6 @@
 {
-  "version": "7b1e5bf15290af66",
-  "bytes": 9723243,
+  "version": "3baad03dd004b6e8",
+  "bytes": 9733982,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -122,6 +122,7 @@
     "svet/pasosi.html",
     "svet/pasosi.js",
     "svet/renderer.js",
+    "svet/tour.js",
     "svet/world.css",
     "timovi.html",
     "timovi/T01.html",
