@@ -1,0 +1,90 @@
+{
+  "schema": "or/nejasno@1",
+  "updated": "2026-10-23",
+  "note": {
+    "sr": "Ono što posle prijema 2026-10-23 ostaje nerazrešeno. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor.",
+    "en": "What remains unresolved after the 2026-10-23 intake. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives."
+  },
+  "items": [
+    {
+      "id": "n-136-dva-tima",
+      "teams": ["T05", "T68"],
+      "sr": "Indeks 136/26 vodi se u dva tima: u T05 (Dom omladine) i u novom T68 (Zgrada tehničkih fakulteta). Podnesak od 19.10. sa terena potpisuje grupu 155/26 · 130/26 · 136/26.",
+      "en": "Index 136/26 appears in two teams: T05 (Dom omladine) and the new T68 (Faculties of Engineering). The field submission of 19 Oct is signed by the group 155/26 · 130/26 · 136/26.",
+      "askSr": "Nosilac 136/26: u kom timu radiš?",
+      "askEn": "Holder of 136/26: which team are you in?"
+    },
+    {
+      "id": "n-zic-indeks",
+      "teams": ["T70"],
+      "sr": "Staša Žic: naslov mejla nosi 64/2026, telo istog mejla 62/2026. Indeks 62/2026 već pripada drugom studentu u T28, a 64/2026 u T11.",
+      "en": "Staša Žic: the mail subject says 64/2026, the body of the same mail says 62/2026. Index 62/2026 already belongs to another student in T28, and 64/2026 in T11.",
+      "askSr": "Staša Žic: koji je tačan broj indeksa?",
+      "askEn": "Staša Žic: which index number is correct?"
+    },
+    {
+      "id": "n-t28-zamena",
+      "teams": ["T28"],
+      "sr": "T28: student piše Bogićević 33 i Joksić 62, registar nosi obrnuto — Joksić 33 i Bogičević 62. Razlikuje se i pisanje prezimena (Bogičević / Bogićević).",
+      "en": "T28: the student writes Bogićević 33 and Joksić 62; the register holds the reverse — Joksić 33 and Bogičević 62. The surname spelling also differs (Bogičević / Bogićević).",
+      "askSr": "T28: koji indeks ide uz koje ime i kako se prezime piše?",
+      "askEn": "T28: which index goes with which name, and how is the surname spelled?"
+    },
+    {
+      "id": "n-arhitriptih",
+      "teams": ["T01", "T02", "T03"],
+      "sr": "„Beogradski arhitriptih” — jedan 3D podnesak koji pokriva OŠ „Laza Kostić”, Silose i Sava centar stigao je bez imena i bez indeksa; propratni tekst je prazan fajl.",
+      "en": "“Beogradski arhitriptih” — one 3D submission covering OŠ „Laza Kostić”, the Silos and Sava Centar arrived with no name and no index; the accompanying note is an empty file.",
+      "askSr": "Ko je poslao Arhitriptih i da li se vodi kao rad jednog tima ili sva tri?",
+      "askEn": "Who sent the Arhitriptih, and is it recorded as the work of one team or all three?"
+    },
+    {
+      "id": "n-moskva",
+      "teams": ["T29", "T54"],
+      "sr": "Hotel Moskva: podnesak Anje Šenić ne nosi indeks, a oba tima na objektu (T29 i T54) u registru stoje bez imena.",
+      "en": "Hotel Moskva: Anja Šenić’s submission carries no index, and both teams on the object (T29 and T54) stand in the register without names.",
+      "askSr": "Anja Šenić: indeks i tim (T29 ili T54)?",
+      "askEn": "Anja Šenić: index number and team (T29 or T54)?"
+    },
+    {
+      "id": "n-t69-sastav",
+      "teams": ["T69", "T42"],
+      "sr": "Prva beogradska gimnazija sada ima dva tima. Elena Sekulić (93/2026) piše u množini, ali ostale članove ne imenuje; Marko Milanović radi na istom objektu, a nije ni u jednoj listi.",
+      "en": "Prva beogradska gimnazija now has two teams. Elena Sekulić (93/2026) writes in the plural but does not name the others; Marko Milanović works on the same object yet appears in neither list.",
+      "askSr": "T69: ko su članovi? Marko Milanović: u kom si timu?",
+      "askEn": "T69: who are the members? Marko Milanović: which team are you in?"
+    },
+    {
+      "id": "n-t38-tema",
+      "teams": ["T38"],
+      "sr": "T38 (Babić 10, Gladanac 27) potvrđen je imenima, ali naziv predatog dokumenta govori o drugom objektu nego registar, koji nosi Vladičanski dvor u Vršcu. U samim mejlovima nova tema se ne pominje.",
+      "en": "T38 (Babić 10, Gladanac 27) is confirmed by name, but the submitted document’s filename names a different object than the register, which holds the Bishop’s Palace in Vršac. The mails themselves never mention a new topic.",
+      "askSr": "T38: ostaje li Vladičanski dvor u Vršcu ili je tema promenjena?",
+      "askEn": "T38: does the Bishop’s Palace in Vršac stand, or has the topic changed?"
+    },
+    {
+      "id": "n-bez-indeksa",
+      "teams": ["T21", "T46"],
+      "sr": "Dva podneska vezana su samo objektom: Filip Nikolić (Dve kule Beograd → T21) i Vihora Radovanović (Hotel Jugoslavija → T46). U oba slučaja tim je jedini na objektu, ali indeks nije naveden.",
+      "en": "Two submissions are linked by object alone: Filip Nikolić (Dve kule Beograd → T21) and Vihora Radovanović (Hotel Jugoslavija → T46). In both cases the team is the only one on the object, but no index was given.",
+      "askSr": "Filip Nikolić i Vihora Radovanović: potvrdite broj indeksa i tim.",
+      "askEn": "Filip Nikolić and Vihora Radovanović: confirm your index number and team."
+    },
+    {
+      "id": "n-dupli-indeksi",
+      "teams": [],
+      "sr": "Iz brzih beleški sa konsultacija isti brojevi se javljaju dvaput: 8, 25, 26, 27, 47, 56 i 106. Parovi 49/26g i 49/26, 36/26g i 36/26 verovatno su dva različita studenta (arhitektura / građevina).",
+      "en": "From the quick consultation notes the same numbers appear twice: 8, 25, 26, 27, 47, 56 and 106. The pairs 49/26g and 49/26, 36/26g and 36/26 are probably two different students (architecture / civil engineering).",
+      "askSr": "Ako je tvoj broj gore, javi puni oblik indeksa sa oznakom smera.",
+      "askEn": "If your number is listed above, report the full index including the programme suffix."
+    },
+    {
+      "id": "n-izvodjaci",
+      "teams": [],
+      "sr": "Zapisi uz 15/25g i 36/26g kažu samo „spisak izvođača”, bez objekta.",
+      "en": "The notes for 15/25g and 36/26g say only “list of contractors”, with no object named.",
+      "askSr": "15/25g i 36/26g: koji objekat istražujete?",
+      "askEn": "15/25g and 36/26g: which building are you researching?"
+    }
+  ]
+}

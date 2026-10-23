@@ -141,3 +141,68 @@ body.bigz #scene-status ul.tiers{list-style:none;margin:8px 0 0;padding:0;font-s
 body.bigz #scene-status ul.tiers li{display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--line);padding:4px 0}
 body.bigz #scene-status ul.tiers b{font-family:Consolas,monospace;font-weight:400;color:var(--muted)}
 body.bigz #scene-status p{font-size:12px;line-height:1.55;margin:8px 0}
+
+/* A thumb, not a pointer. Measured on emulated phones (2026-10-22): the mode
+   and camera buttons were 26–36 px, below every touch-target guideline, and a
+   narrow screen cannot hold seven of them at full size. So every control the
+   hand uses becomes 44 px, and the top strip scrolls sideways instead of
+   shrinking its targets or colliding with the brand. */
+@media(pointer:coarse){
+ .scene-tools button,.camera button,.compact-tools button,.world-group button,.mode-group button,.selection-bar button,#atlas-menu{min-height:44px;min-width:44px}
+ .immersive .scene-tools,.immersive.embedded .scene-tools{max-width:calc(100vw - 104px);overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;-ms-overflow-style:none;scroll-padding:0 6px;mask-image:linear-gradient(90deg,transparent 0,#000 12px,#000 calc(100% - 12px),transparent 100%)}
+ .immersive .scene-tools::-webkit-scrollbar{width:0;height:0}
+ .immersive .scene-tools>*,.immersive.embedded .scene-tools>*{flex:0 0 auto}
+ .immersive .scene-tools button,.immersive.embedded .scene-tools button{flex:0 0 auto;font-size:11px;padding:7px 10px}
+ .selection-bar #clear-selection,#clear-selection{min-height:44px;min-width:44px}
+ .immersive .camera button{min-width:44px;padding:7px 10px;font-size:11px}
+ .immersive .compact-tools button{padding:8px 12px}
+}
+
+/* Header i traka alata dele isti gornji rub scene. Dok je traka rasla — dva
+   sveta, četiri režima, dva pregleda — gurala se ulevo i na užem prozoru
+   prelazila preko znaka i menija. Rešenje nije manje dugme nego tvrda granica:
+   traka počinje tek iza zaglavlja i klizi u sebi, a zaglavlje dobija svoju
+   podlogu pa se slova nikad ne mešaju sa scenom ispod. */
+.immersive .atlas-header{left:max(8px,env(safe-area-inset-left));gap:6px;align-items:flex-start}
+.immersive .atlas-header>.brand,.immersive #atlas-menu{background:var(--surface);box-shadow:0 1px 6px #0001}
+.immersive .scene-tools,.immersive.embedded .scene-tools{left:auto;max-width:calc(100vw - 118px);overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;scroll-padding:0 6px;mask-image:linear-gradient(90deg,transparent 0,#000 10px,#000 calc(100% - 10px),transparent 100%)}
+.immersive .scene-tools::-webkit-scrollbar{width:0;height:0}
+.immersive .scene-tools>*,.immersive.embedded .scene-tools>*{flex:0 0 auto}
+.immersive .scene-tools button{box-shadow:0 1px 6px #0001}
+@media(max-width:600px){.immersive .scene-tools,.immersive.embedded .scene-tools{max-width:calc(100vw - 104px)}}
+
+/* Ulaz u arhiv: nema ga u traci iznad scene — u arhiv se ulazi kroz objekat u
+   atlasu, kao što se u zgradu ulazi na vrata, a ne kroz spisak zgrada. */
+#archive-gate{position:absolute;z-index:7;right:12px;bottom:92px;width:min(330px,calc(100% - 24px));padding:18px 20px 16px;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;box-shadow:0 14px 40px #0003;animation:gate-in .36s cubic-bezier(.2,.9,.3,1) both}
+#archive-gate[hidden]{display:none!important}
+@keyframes gate-in{from{opacity:0;transform:translateY(14px) scale(.97)}to{opacity:1;transform:none}}
+.gate-eyebrow{font:10px Consolas,monospace;letter-spacing:.14em;color:var(--muted);margin:0 0 6px}
+#gate-title{font-size:27px;font-weight:500;letter-spacing:-.04em;margin:0 0 12px}
+.gate-figures{display:flex;gap:16px;margin-bottom:12px}
+.gate-figures div{min-width:0}
+.gate-figures b{display:block;font:400 22px Georgia,serif;line-height:1.05}
+.gate-figures span{font:9.5px Consolas,monospace;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
+.gate-gauge{height:5px;border-radius:3px;background:var(--line);overflow:hidden}
+.gate-gauge span{display:block;height:100%;background:var(--accent);width:0;transition:width .9s cubic-bezier(.2,.9,.3,1)}
+.gate-read{font:10.5px Consolas,monospace;color:var(--muted);margin:7px 0 10px}
+.gate-line{font-size:12.5px;line-height:1.5;color:var(--ink);margin:0 0 14px}
+.gate-actions{display:flex;gap:8px;flex-wrap:wrap}
+.gate-enter{flex:1;min-width:150px;background:var(--ink);color:var(--surface);border-color:var(--ink);font-weight:600}
+.gate-enter:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+#gate-dismiss{font-size:11px;padding:8px 10px}
+
+#archive-exit{position:absolute;z-index:7;left:max(8px,env(safe-area-inset-left));top:calc(max(7px,env(safe-area-inset-top)) + 46px);font-size:11px;min-height:38px;border:0;border-radius:4px;background:var(--surface);box-shadow:0 1px 6px #0001}
+#archive-exit[hidden]{display:none!important}
+
+/* Prelaz traje koliko i let kamere: zavesa kaže gde si stigao i skloni se. */
+#archive-curtain{position:absolute;inset:0;z-index:9;display:grid;place-items:center;background:var(--paper);pointer-events:none;animation:curtain .95s ease-out forwards}
+#archive-curtain[hidden]{display:none!important}
+#archive-curtain div{text-align:center}
+#curtain-line{display:block;font:400 clamp(20px,3.4vw,34px) Georgia,serif;letter-spacing:-.03em;margin-top:8px}
+@keyframes curtain{0%{opacity:1}55%{opacity:1}100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){#archive-gate,#archive-curtain{animation:none}.gate-gauge span{transition:none}}
+@media(max-width:600px){#archive-gate{right:8px;left:8px;bottom:84px;width:auto}.gate-figures{gap:12px}.gate-figures b{font-size:19px}}
+@media(max-height:500px){#archive-gate{bottom:76px;padding:12px 14px}#gate-title{font-size:21px;margin-bottom:8px}.gate-line{display:none}}
+
+/* Archive gate: a written essay lives beside the 3D entrance. */
+.gate-actions a.gate-osvrt{display:flex;align-items:center;padding:8px 13px;border:1px solid var(--line);text-decoration:none;font-size:13px;background:var(--surface)}

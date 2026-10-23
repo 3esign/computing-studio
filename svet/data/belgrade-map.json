@@ -1,117 +1,6 @@
 {
   "version": "2.0-procedural",
-  "updated": "2026-10-19T15:58:29.600Z",
-  "confluence": {
-    "name": "Ušće Save u Dunav",
-    "centerLat": 44.818,
-    "centerLng": 20.45,
-    "savaPath": [
-      [
-        -120,
-        0,
-        190
-      ],
-      [
-        -70,
-        0,
-        140
-      ],
-      [
-        -30,
-        0,
-        105
-      ],
-      [
-        -18,
-        0,
-        60
-      ],
-      [
-        -6,
-        0,
-        38
-      ],
-      [
-        0,
-        0,
-        15
-      ],
-      [
-        0,
-        0,
-        -18
-      ]
-    ],
-    "danubePath": [
-      [
-        -140,
-        0,
-        -85
-      ],
-      [
-        -95,
-        0,
-        -65
-      ],
-      [
-        -45,
-        0,
-        -45
-      ],
-      [
-        0,
-        0,
-        -32
-      ],
-      [
-        25,
-        0,
-        -34
-      ],
-      [
-        65,
-        0,
-        -42
-      ],
-      [
-        110,
-        0,
-        -48
-      ],
-      [
-        160,
-        0,
-        -52
-      ]
-    ],
-    "island": [
-      [
-        -70,
-        0.4,
-        -45
-      ],
-      [
-        -30,
-        0.5,
-        -30
-      ],
-      [
-        -15,
-        0.4,
-        -20
-      ],
-      [
-        -40,
-        0.5,
-        -12
-      ],
-      [
-        -65,
-        0.4,
-        -25
-      ]
-    ]
-  },
+  "updated": "2026-10-23",
   "teams": [
     {
       "id": "T01",
@@ -703,9 +592,9 @@
       "y": 4,
       "z": 32.51,
       "type": "standard",
-      "progressStage": 2,
-      "progressLabel": "Priprema intervjua",
-      "status": "Priprema intervjua",
+      "progressStage": 3,
+      "progressLabel": "Predat tekst o tehnologiji",
+      "status": "Predat tekst; traži se prototip i tabela podatak → izvor",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -820,9 +709,9 @@
       "y": 3.2,
       "z": 27.5,
       "type": "generalstab",
-      "progressStage": 2,
-      "progressLabel": "U radu",
-      "status": "U radu (5 članova = 2 objekta)",
+      "progressStage": 5,
+      "progressLabel": "Predata AI Studio aplikacija",
+      "status": "Predata AI Studio aplikacija i PDF (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -905,9 +794,9 @@
       "y": 1.8,
       "z": 60.01,
       "type": "kulabeograd",
-      "progressStage": 3,
-      "progressLabel": "Prihvaćena tema + materijali",
-      "status": "Prihvaćena tema i poslati materijali",
+      "progressStage": 4,
+      "progressLabel": "Predata radna verzija",
+      "status": "Predat rad o konstrukciji, mašinama i energetskoj efikasnosti (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1048,9 +937,9 @@
       "y": 4,
       "z": 30.01,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Predat pasoš Starog dvora",
+      "status": "Predat pasoš; traži se tabela i izvori",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1422,9 +1311,9 @@
       "y": 0.2,
       "z": -30.01,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 4,
+      "progressLabel": "Predat pasoš kroz svih 7 celina",
+      "status": "Predat pasoš kroz svih sedam celina (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1507,9 +1396,9 @@
       "y": 1.8,
       "z": -57.51,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Primljen pilot pasoš",
+      "status": "Primljen pilot pasoš; izvori nepotpuni",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1762,9 +1651,9 @@
       "y": 4,
       "z": 57.51,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Predata prva verzija rada",
+      "status": "Predata prva verzija (19.10), vraćeno na format tabele",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1960,9 +1849,9 @@
       "y": 1.8,
       "z": -15,
       "type": "standard",
-      "progressStage": 3,
-      "progressLabel": "Prikupljeni podaci",
-      "status": "Prikupljeni podaci i plan posete",
+      "progressStage": 5,
+      "progressLabel": "Predat pasoš i igrica",
+      "status": "Predat PDF pasoš i HTML igrica (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1988,9 +1877,9 @@
       "y": 3.2,
       "z": 37.51,
       "type": "standard",
-      "progressStage": 4,
-      "progressLabel": "Predat PDF koncept",
-      "status": "Predat PDF (16.10), najavljena poseta i Zavod za zaštitu spomenika",
+      "progressStage": 5,
+      "progressLabel": "Predat elaborat",
+      "status": "Predat elaborat i koncept (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -2029,7 +1918,92 @@
       "city": "Beograd",
       "geometryStatus": "illustrative",
       "building": "Bedda6bf8"
+    },
+    {
+      "id": "T68",
+      "object": "Zgrada tehničkih fakulteta",
+      "indices": [
+        "155/26",
+        "130/26",
+        "136/26"
+      ],
+      "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
+      "place": "Bulevar kralja Aleksandra",
+      "lat": 44.8065,
+      "lng": 20.477,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 4,
+      "progressLabel": "Predato terensko istraživanje",
+      "status": "Predato istraživanje sa terena i sa predavanja (19.10)",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "Bb21a1978"
+    },
+    {
+      "id": "T69",
+      "object": "Prva beogradska gimnazija",
+      "indices": [
+        "93/2026"
+      ],
+      "topic": "Milica Krstić, modernistička forma prema istorijskom jezgru Dorćola i Skadarlije, ratna oštećenja",
+      "place": "Dorćol",
+      "lat": 44.8248,
+      "lng": 20.4601,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 3,
+      "progressLabel": "Predata prva verzija rada",
+      "status": "Predata prva verzija rada (19.10), vraćeno na format tabele",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "B721111bb"
+    },
+    {
+      "id": "T70",
+      "object": "Rajhlova palata, Subotica",
+      "indices": [
+        "21/2026",
+        "62/2026",
+        "50/2026"
+      ],
+      "topic": "Secesija Ferenca Rajhla, ornament i fasadna dekoracija",
+      "place": "Subotica",
+      "lat": null,
+      "lng": null,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 3,
+      "progressLabel": "Predat pasoš na proveru",
+      "status": "Predat pasoš na proveru (19.10), vraćeno na format tabele",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "unmapped",
+      "city": "Subotica",
+      "geometryStatus": "illustrative",
+      "building": "B111f4f77"
     }
   ],
-  "datasetRevision": "r-de6ae0aa90f63839"
+  "datasetRevision": "r-cddc6e3c32ae69b5"
 }

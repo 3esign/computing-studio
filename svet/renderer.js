@@ -385,7 +385,12 @@ canvas.addEventListener('keydown',e=>{if(opts.mode!=='street')return;if(['KeyW',
 canvas.addEventListener('keyup',e=>keys.delete(e.code));canvas.addEventListener('blur',stopWalk);window.addEventListener('blur',stopWalk);document.addEventListener('visibilitychange',stopWalk);
 for(let button of document.querySelectorAll('[data-walk]')){button.addEventListener('pointerdown',e=>{if(opts.mode!=='street')return;e.preventDefault();button.setPointerCapture(e.pointerId);keys.add(button.dataset.walk);invalidate()});for(var event of ['pointerup','pointercancel','lostpointercapture'])button.addEventListener(event,()=>keys.delete(button.dataset.walk));button.addEventListener('keydown',e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault();keys.add(button.dataset.walk);invalidate()}});button.addEventListener('keyup',()=>keys.delete(button.dataset.walk));button.addEventListener('blur',()=>keys.delete(button.dataset.walk))}
 document.getElementById('walk-pick')?.addEventListener('click',pickCenter);
-function project(lng,lat){return [(lng-20.45)*111320*Math.cos(44.818*Math.PI/180)/25,0,(44.818-lat)*111320/25]}
+/* Every layer goes through one published transform: the plain projection in the
+   core, the declared radial compaction outside it. Streets, river and sculptures
+   are warped together, so an object never floats over somebody else's block. */
+function project(lng,lat){return AtlasLayout.place(lng,lat)}
+var placeCache=null,placeFor=null;
+function layoutPlace(id){if(!id)return null;if(placeFor!==data){placeCache=new Map((data.layout&&data.layout.places||[]).map(p=>[p.id,p]));placeFor=data}return placeCache.get(id)||null}
 function hash(s){var n=2166136261;for(var c of s)n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0}
 function line(a,b,width,col,y){var dx=b[0]-a[0],dz=b[2]-a[2],len=Math.hypot(dx,dz);if(!len)return;dx=dx/len*width/2;dz=dz/len*width/2;addQuad([a[0]-dz,y,a[2]+dx],[b[0]-dz,y,b[2]+dx],[b[0]+dz,y,b[2]-dx],[a[0]+dz,y,a[2]-dx],[0,1,0],col,0)}
 
@@ -442,7 +447,14 @@ function planRosette(m,centre,stats,dark){if(!stats||!stats.records)return;
  for(var k=0;k<ticks;k++){var a3=-Math.PI/2+k*Math.PI*2/Math.max(1,ticks);
   line([centre[0]+Math.cos(a3)*ring,0,centre[2]+Math.sin(a3)*ring],[centre[0]+Math.cos(a3)*(ring+.9),0,centre[2]+Math.sin(a3)*(ring+.9)],.26,ink,.05)}}
 
-function position(t){if(!t)return null;if(opts.mode==='archive'){var place=collageLayout().places.get(t.id);return place?place.pos.slice():null}var b=(data.buildings||[]).find(b=>b.id===t.building&&b.teamCount>1);if(b)return b.locationStatus==='unmapped'?null:project(b.lng,b.lat);return t.locationStatus==='unmapped'?null:project(t.lng,t.lat)}
+/* The published layout decides where an object stands. Older revision snapshots
+   carry no layout; those fall back to the plain registry point, as before. */
+function position(t){if(!t)return null;if(opts.mode==='archive'){var place=collageLayout().places.get(t.id);return place?place.pos.slice():null}
+ var spot=layoutPlace(t.building);if(spot)return [spot.x,0,spot.z];
+ var b=(data.buildings||[]).find(b=>b.id===t.building&&b.teamCount>1);if(b)return b.locationStatus==='unmapped'?null:project(b.lng,b.lat);return t.locationStatus==='unmapped'?null:project(t.lng,t.lat)}
+/* Registry pin of a nudged object: drawn only for the selection, so the
+   displacement is visible on demand and never becomes clutter. */
+function anchorOf(t){var spot=layoutPlace(t&&t.building);return spot&&spot.nudge?spot:null}
 function mix(a,b,f){return a.map((v,i)=>v+(b[i]-v)*f)}
 function modelOf(id){for(var m of models)if(m.id===id)return m;return null}
 function leadOf(building){for(var m of models)if(m.building===building&&m.shared.length)return m;return null}
@@ -490,6 +502,13 @@ if(opts.mode==='archive'){var layout=collageLayout(),bandFirst=vertices.length/3
  chunk(bandFirst)}
 for(var t of data.teams){var pos=position(t);if(!pos||opts.visible&&!opts.visible.has(t.id))continue;var first=vertices.length/3,m=models.find(m=>m.id===t.id),shares=grouped(m),off=shares?m.wingOffset:[0,0],wing=[pos[0]+off[0],pos[1],pos[2]+off[1]],selected=t.id===opts.selected||shares&&m.building===opts.selected;
  if(m.records||m.archive)shadow(m,wing);
+ /* Where the registry actually puts this object. A nudged sculpture shows its
+    pin and a leader to it while it is selected, so the displacement is visible
+    on demand and never silently absorbed into the picture. */
+ if(selected&&!shares||selected&&m.wingIndex===0){var pin=anchorOf(t);
+  if(pin&&opts.mode!=='street'){line([pos[0],0,pos[2]],[pin.anchor[0],0,pin.anchor[1]],.26,ink,.07);
+   for(var pa=0;pa<18;pa++){var a1=pa*Math.PI/9,a2=(pa+1)*Math.PI/9;
+    line([pin.anchor[0]+Math.cos(a1)*1.7,0,pin.anchor[1]+Math.sin(a1)*1.7],[pin.anchor[0]+Math.cos(a2)*1.7,0,pin.anchor[1]+Math.sin(a2)*1.7],.24,ink,.07)}}}
  var base=dark?[.50,.59,.60]:[.94,.91,.80],sourceCol=dark?[.39,.80,.76]:[.15,.43,.41];
  /* A shared object keeps one hue per team, so the part each team actually built
     stays legible inside the combined structure. The hue says who, never how good. */
@@ -652,8 +671,29 @@ function teleport(e,target){if(!target||!(target.distance>0))return false;
 function stepFly(now){if(!walkFly)return;var f=Math.min(1,(now-walkFly.start)/walkFly.ms),e=1-Math.pow(1-f,3);
  walk.pos=[walkFly.from[0]+(walkFly.to[0]-walkFly.from[0])*e,1.7,walkFly.from[2]+(walkFly.to[2]-walkFly.from[2])*e];
  walk.yaw=walkFly.yaw0+walkFly.delta*e;if(f>=1)walkFly=null;else invalidate()}
+/* Fit the frame to what exists. The orbit camera is orthographic, so the
+   visible height is exactly cam.dist and the width cam.dist x aspect: the home
+   view can be computed instead of guessed. The old constant 155 framed a wide
+   screen and left a quarter of the objects outside the glass of a phone
+   (measured with touch emulation, 2026-10-22). */
+function atlasFrame(yaw,pitch){
+ if(!data)return null;
+ var cp=Math.cos(pitch),sp=Math.sin(pitch),cy=Math.cos(yaw),sy=Math.sin(yaw);
+ var f=[-cp*sy,-sp,-cp*cy],rt=[cy,0,-sy];
+ var up=[rt[1]*f[2]-rt[2]*f[1],rt[2]*f[0]-rt[0]*f[2],rt[0]*f[1]-rt[1]*f[0]];
+ var minR=Infinity,maxR=-Infinity,minU=Infinity,maxU=-Infinity,found=false;
+ for(var t of data.teams){var p=wingPos(t);if(!p)continue;var m=modelOf(t.id);
+  var reach=m?AtlasArchitecture.footprint(m)+1.5:3,high=m?(m.buildingHeight||m.height||0)+1.5:2;
+  for(var sx=-1;sx<=1;sx+=2)for(var sz=-1;sz<=1;sz+=2)for(var sy2=0;sy2<=1;sy2++){
+   var q=[p[0]+sx*reach,sy2*high,p[2]+sz*reach],a=q[0]*rt[0]+q[1]*rt[1]+q[2]*rt[2],b=q[0]*up[0]+q[1]*up[1]+q[2]*up[2];
+   if(a<minR)minR=a;if(a>maxR)maxR=a;if(b<minU)minU=b;if(b>maxU)maxU=b;found=true}}
+ if(!found)return null;
+ var aspect=Math.max(.3,(canvas.clientWidth||1)/(canvas.clientHeight||1)),cr=(minR+maxR)/2,cu=(minU+maxU)/2;
+ var dist=Math.max(60,Math.min(700,Math.max((maxU-minU)*1.1,(maxR-minR)*1.1/aspect)));
+ return {dist:dist,target:[rt[0]*cr+up[0]*cu,Math.max(0,rt[1]*cr+up[1]*cu),rt[2]*cr+up[2]*cu]}}
 function home(){if(opts.mode==='street'){enterStreet(opts.selected);return}
- if(opts.world==='bigz'){var h=bigzModel().home;fly({target:h.target.slice(),dist:opts.mode==='plan'?h.dist*1.1:h.dist,yaw:h.yaw,pitch:opts.mode==='plan'?1.55:h.pitch});return}fly({target:opts.mode==='archive'?[0,0,6]:[12,2,10],dist:opts.mode==='archive'?collageDistance():155,yaw:-.35,pitch:opts.mode==='plan'?1.55:.8})}
+ if(opts.world==='bigz'){var h=bigzModel().home;fly({target:h.target.slice(),dist:opts.mode==='plan'?h.dist*1.1:h.dist,yaw:h.yaw,pitch:opts.mode==='plan'?1.55:h.pitch});return}var yaw=-.35,pitch=opts.mode==='plan'?1.55:.8,fit=opts.mode==='archive'?null:atlasFrame(yaw,pitch);
+ fly({target:opts.mode==='archive'?[0,0,6]:fit?fit.target:[12,2,10],dist:opts.mode==='archive'?collageDistance():fit?fit.dist:155,yaw:yaw,pitch:pitch})}
 function findPick(e,onlyTeams=false){var rect=canvas.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top,best=null,dist=onlyTeams?22:18;
  if(!onlyTeams){var right=[vMat[0],vMat[4],vMat[8]],up=[vMat[1],vMat[5],vMat[9]],back=[vMat[2],vMat[6],vMat[10]],rx=(x/rect.width-.5)*cam.dist*rect.width/rect.height,uy=(.5-y/rect.height)*cam.dist;
  var origin=cam.target.map((v,i)=>v+back[i]*ORBIT_BACK+right[i]*rx+up[i]*uy),dir=back.map(v=>-v),nearest=Infinity;
@@ -676,6 +716,28 @@ function panPixels(dx,dy){var unit=cam.dist/Math.max(1,canvas.clientHeight),rx=v
  var a=(sx*uz+rz*sy)/det,b=(-rx*sy-ux*sx)/det;
  cam.target[0]=Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,cam.target[0]-a));
  cam.target[2]=Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,cam.target[2]-b));}
+/* The ground under a screen point, and the screen point of a ground position.
+   The orbit camera is orthographic in all but name, so the pair is exact and,
+   unlike screen(), does not read a matrix left over from the previous frame —
+   which is what a zoom needs, because it has just changed the distance. */
+function groundAt(cx,cy){var rect=canvas.getBoundingClientRect();
+ var right=[vMat[0],vMat[4],vMat[8]],up=[vMat[1],vMat[5],vMat[9]],back=[vMat[2],vMat[6],vMat[10]];
+ var rx=((cx-rect.left)/rect.width-.5)*cam.dist*rect.width/rect.height,uy=(.5-(cy-rect.top)/rect.height)*cam.dist;
+ var origin=cam.target.map((v,i)=>v+back[i]*ORBIT_BACK+right[i]*rx+up[i]*uy),dir=back.map(v=>-v);
+ if(Math.abs(dir[1])<1e-6)return null;var t=-origin[1]/dir[1];return [origin[0]+dir[0]*t,0,origin[2]+dir[2]*t]}
+function groundScreen(g){var rect=canvas.getBoundingClientRect();
+ var right=[vMat[0],vMat[4],vMat[8]],up=[vMat[1],vMat[5],vMat[9]];
+ var v=[g[0]-cam.target[0],g[1]-cam.target[1],g[2]-cam.target[2]];
+ var rx=v[0]*right[0]+v[1]*right[1]+v[2]*right[2],uy=v[0]*up[0]+v[1]*up[1]+v[2]*up[2];
+ return [rect.width*(.5+rx/(cam.dist*rect.width/rect.height)),rect.height*(.5-uy/cam.dist)]}
+/* Zoom that holds its ground: the distance changes, then the point that was
+   under the fingers (or the cursor) is brought back under them. */
+function zoomHolding(factor,cx,cy){transition=null;var hold=groundAt(cx,cy),rect=canvas.getBoundingClientRect();
+ cam.dist=Math.max(8,Math.min(700,cam.dist*factor));
+ if(!hold)return;var s=groundScreen(hold);panPixels(cx-rect.left-s[0],cy-rect.top-s[1])}
+/* Recentre on a touched point: the double tap and the double click share it. */
+function recentreOn(cx,cy){var hit=groundAt(cx,cy);if(!hit)return;
+ fly({target:[Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,hit[0])),0,Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,hit[2]))],dist:Math.max(8,cam.dist*.55)})}
 /* Release keeps the gesture alive briefly: the frame settles instead of stopping dead. */
 function glideStep(now){if(!glide)return;var dt=Math.min(.05,(now-glide.t)/1000);glide.t=now;
  if(glide.pan)panPixels(glide.dx*dt,glide.dy*dt);else{cam.yaw+=glide.dx*dt*.006;cam.pitch=Math.max(.25,Math.min(1.55,cam.pitch+glide.dy*dt*.006))}
@@ -683,31 +745,51 @@ function glideStep(now){if(!glide)return;var dt=Math.min(.05,(now-glide.t)/1000)
  if(Math.hypot(glide.dx,glide.dy)<14)glide=null;else invalidate()}
 function startGlide(){if(reduced.matches||!drag||opts.mode==='street'||!drag.vx&&!drag.vy)return;
  if(Math.hypot(drag.vx,drag.vy)<90)return;glide={dx:Math.max(-2600,Math.min(2600,drag.vx)),dy:Math.max(-2600,Math.min(2600,drag.vy)),pan:!!drag.pan,t:performance.now()};invalidate()}
-surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls'))return;canvas.focus({preventScroll:true});transition=null;glide=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
+/* How far a press may slip and still read as a tap. A fingertip is wider than
+   a cursor and never holds still, so a touch gets a finger's worth of slack. */
+var TAP_SLIP={touch:12,pen:7,mouse:5},tapSlip=e=>TAP_SLIP[e.pointerType]||TAP_SLIP.mouse,lastTap=null;
+surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls'))return;canvas.focus({preventScroll:true});transition=null;glide=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,slip:tapSlip(e),touch:e.pointerType==='touch',label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
 surface.addEventListener('pointermove',e=>{if(e.target.closest('.camera,.walk-controls'))return;if(!drag){if(e.pointerType==='touch')return;var m=findPick(e,true);if(hover!==(m?.id||'')){hover=m?.id||'';invalidate()}return}if(!pointers.has(e.pointerId))return;
- if(pointers.size>=2){var old=[...pointers.values()],oldDist=Math.hypot(old[0][0]-old[1][0],old[0][1]-old[1][1]);pointers.set(e.pointerId,[e.clientX,e.clientY]);var ps=[...pointers.values()],newDist=Math.hypot(ps[0][0]-ps[1][0],ps[0][1]-ps[1][1]);if(opts.mode!=='street'){if(oldDist&&newDist)cam.dist=Math.max(8,Math.min(700,cam.dist*oldDist/newDist));panPixels((ps[0][0]+ps[1][0]-old[0][0]-old[1][0])/2,(ps[0][1]+ps[1][1]-old[0][1]-old[1][1])/2)}drag.moved=true;invalidate();return}
+ /* Two fingers: the ground held between them at the start of the step is put
+    back between them at the end, so a pinch zooms into what it is pinching
+    and drags what it is dragging in the same motion. */
+ if(pointers.size>=2){var old=[...pointers.values()],oldDist=Math.hypot(old[0][0]-old[1][0],old[0][1]-old[1][1]);
+  var oldMid=[(old[0][0]+old[1][0])/2,(old[0][1]+old[1][1])/2];
+  pointers.set(e.pointerId,[e.clientX,e.clientY]);
+  var ps=[...pointers.values()],newDist=Math.hypot(ps[0][0]-ps[1][0],ps[0][1]-ps[1][1]);
+  var newMid=[(ps[0][0]+ps[1][0])/2,(ps[0][1]+ps[1][1])/2];
+  if(opts.mode!=='street'){var hold=groundAt(oldMid[0],oldMid[1]),rect=canvas.getBoundingClientRect();
+   if(oldDist&&newDist){transition=null;cam.dist=Math.max(8,Math.min(700,cam.dist*oldDist/newDist))}
+   if(hold){var mark=groundScreen(hold);panPixels(newMid[0]-rect.left-mark[0],newMid[1]-rect.top-mark[1])}
+   else panPixels(newMid[0]-oldMid[0],newMid[1]-oldMid[1])}
+  drag.moved=true;invalidate();return}
  var prev=pointers.get(e.pointerId),dx=e.clientX-prev[0],dy=e.clientY-prev[1];var pan=e.shiftKey||e.buttons===2||e.buttons===4||opts.gesture==='pan';
+ /* A dead zone before the frame moves at all. Without it a fingertip's own
+    tremor turns the camera a little, the world slides out from under the
+    finger, and the tap that follows picks nothing — the view has moved away
+    from what was touched. Below the slip the press is still a tap. */
+ if(!drag.moved&&Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<=(drag.slip||5)){pointers.set(e.pointerId,[e.clientX,e.clientY]);drag.x=e.clientX;drag.y=e.clientY;return}
  if(opts.mode==='street'){walkFly=null;walk.yaw-=dx*.004;walk.pitch=Math.max(-1.2,Math.min(1.2,walk.pitch-dy*.004))}else if(pan)panPixels(dx,dy);else{cam.yaw+=dx*.006;cam.pitch=Math.max(.25,Math.min(1.55,cam.pitch+dy*.006))}
  var now=performance.now(),span=Math.max(8,now-(drag.t||now-16));drag.vx=dx/span*1000;drag.vy=dy/span*1000;drag.t=now;drag.pan=pan;
- pointers.set(e.pointerId,[e.clientX,e.clientY]);drag.x=e.clientX;drag.y=e.clientY;drag.moved=drag.moved||Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)>5;invalidate()});
+ pointers.set(e.pointerId,[e.clientX,e.clientY]);drag.x=e.clientX;drag.y=e.clientY;drag.moved=drag.moved||Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)>(drag.slip||5);invalidate()});
 function endPointer(e,cancel){if(!pointers.has(e.pointerId))return;pointers.delete(e.pointerId);if(!drag)return;
- if(!cancel&&!drag.moved&&Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<6){var best=drag.label?{id:drag.label}:findPick(e);
+ if(!cancel&&!drag.moved&&Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<=(drag.slip||5)+1){var best=drag.label?{id:drag.label}:findPick(e);
+  /* Two taps in the same place read as "take me there". dblclick is not
+     dependable under a finger, and the click guard below would swallow it. */
+  var now=performance.now(),pair=drag.touch&&lastTap&&now-lastTap.t<340&&Math.hypot(e.clientX-lastTap.x,e.clientY-lastTap.y)<44;
+  lastTap=drag.touch?{t:now,x:e.clientX,y:e.clientY}:null;
+  if(pair&&opts.mode!=='street'){lastTap=null;recentreOn(e.clientX,e.clientY);if(best)onPick(best.id,best.team);pointers.clear();drag=null;suppressClickUntil=now+350;return}
   if(best&&opts.mode==='street'&&!drag.label)teleport(e,best);
   if(best)onPick(best.id,best.team)}
  else if(!cancel&&pointers.size===0)startGlide();
  suppressClickUntil=performance.now()+350;if(pointers.size){var [id,p]=pointers.entries().next().value;drag={id,x:p[0],y:p[1],sx:p[0],sy:p[1],moved:true}}else drag=null}
 surface.addEventListener('pointerup',e=>endPointer(e,false));surface.addEventListener('pointercancel',e=>endPointer(e,true));surface.addEventListener('lostpointercapture',e=>endPointer(e,true));window.addEventListener('blur',()=>{drag=null;pointers.clear()});
-surface.addEventListener('wheel',e=>{if(e.target.closest('.camera,.walk-controls'))return;if(opts.mode==='street')return;if(!opts.interactive&&!e.ctrlKey)return;e.preventDefault();transition=null;cam.dist=Math.max(8,Math.min(700,cam.dist*(e.deltaY>0?1.09:.91)));invalidate()},{passive:false});
+surface.addEventListener('wheel',e=>{if(e.target.closest('.camera,.walk-controls'))return;if(opts.mode==='street')return;if(!opts.interactive&&!e.ctrlKey)return;e.preventDefault();zoomHolding(e.deltaY>0?1.09:.91,e.clientX,e.clientY);invalidate()},{passive:false});
 /* Double tap reads as "take me there": the frame recentres on what was touched. */
-surface.addEventListener('dblclick',e=>{if(e.target.closest('.camera,.walk-controls')||opts.mode==='street')return;
- var rect=canvas.getBoundingClientRect(),right=[vMat[0],vMat[4],vMat[8]],up=[vMat[1],vMat[5],vMat[9]],back=[vMat[2],vMat[6],vMat[10]];
- var rx=((e.clientX-rect.left)/rect.width-.5)*cam.dist*rect.width/rect.height,uy=(.5-(e.clientY-rect.top)/rect.height)*cam.dist;
- var origin=cam.target.map((v,i)=>v+back[i]*ORBIT_BACK+right[i]*rx+up[i]*uy),dir=back.map(v=>-v);
- if(Math.abs(dir[1])<1e-6)return;var t=-origin[1]/dir[1],hitPoint=[origin[0]+dir[0]*t,0,origin[2]+dir[2]*t];
- fly({target:[Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,hitPoint[0])),0,Math.max(-PAN_LIMIT,Math.min(PAN_LIMIT,hitPoint[2]))],dist:Math.max(8,cam.dist*.55)})});canvas.addEventListener('contextmenu',e=>e.preventDefault());
+surface.addEventListener('dblclick',e=>{if(e.target.closest('.camera,.walk-controls')||opts.mode==='street')return;recentreOn(e.clientX,e.clientY)});canvas.addEventListener('contextmenu',e=>e.preventDefault());
 canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();document.getElementById('scene-status').textContent='3D paused · Lista i dosijei / List and dossiers ↓'});canvas.addEventListener('webglcontextrestored',()=>location.reload());
 new ResizeObserver(invalidate).observe(canvas);document.addEventListener('visibilitychange',invalidate);reduced.addEventListener('change',invalidate);new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;if(inView)invalidate()}).observe(canvas);
 function geometryKey(o){return JSON.stringify([o.world||'atlas',o.mode==='archive',o.mode==='street',o.mode==='plan',o.layer,o.selected,o.claim,[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
-return {setBigz(b){if(bigz===b)return;bigz=b;bigzFor=null;if(opts.world==='bigz'){staticKey='';build()}},stop:stopWalk,setCulling(value){culling=!!value;invalidate()},setOrbitBack(value){ORBIT_BACK=value>0?value:2000;invalidate()},probeClip(on){clipProbe=!!on;invalidate()},update(d,g,o){var change=opts.mode!==o.mode||opts.world!==o.world,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}
-  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(700,cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0}},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
+return {setBigz(b){if(bigz===b)return;bigz=b;bigzFor=null;if(opts.world==='bigz'){staticKey='';build()}},stop:stopWalk,setCulling(value){culling=!!value;invalidate()},setOrbitBack(value){ORBIT_BACK=value>0?value:2000;invalidate()},groundAt(cx,cy){return groundAt(cx,cy)},groundScreen(g){return groundScreen(g)},probeClip(on){clipProbe=!!on;invalidate()},update(d,g,o){var change=opts.mode!==o.mode||opts.world!==o.world,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}
+  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(700,cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0}},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
 };

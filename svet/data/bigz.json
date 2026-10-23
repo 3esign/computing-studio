@@ -17,13 +17,13 @@
     "files": 289,
     "folders": 26,
     "bytes": 274878126,
-    "read": 70,
-    "readHere": 63,
+    "read": 147,
+    "readHere": 140,
     "readEarlier": 7
   },
   "kinds": {
     "crtež / plan": 5,
-    "fotografija / album": 7,
+    "fotografija / album": 8,
     "naslovnica / katalog": 4,
     "oprema / ilustracija": 1,
     "tabela / obračun": 9,
@@ -40,11 +40,11 @@
     "zapisnik / nadzor": 2,
     "zapisnik / sastanak nadzora": 1,
     "punomoćje / overen akt": 1,
-    "komisijski izveštaj": 1,
+    "komisijski izveštaj": 3,
     "naredba / dopis": 2,
     "izveštaj": 1,
     "predračun": 4,
-    "predračun / rekapitulacija": 2,
+    "predračun / rekapitulacija": 3,
     "crtež / fabrički list": 1,
     "prospekt / reklamni list": 1,
     "izveštaj o ispitivanju / naslovna strana": 1,
@@ -54,7 +54,50 @@
     "predračun / наставак стране": 1,
     "predračun / detalj armature": 1,
     "tehnički uslovi / opšti opis": 1,
-    "tehnički uslovi / zemljani radovi": 1
+    "tehnički uslovi / zemljani radovi": 1,
+    "rukopis / dnevnik rada": 3,
+    "kataloški list / ponuda": 1,
+    "predmer / potpisana strana": 1,
+    "crtež / kartuša": 1,
+    "rukopis / naslovna strana elaborata": 1,
+    "štampani obrazac / opšti uslovi": 1,
+    "crtež / overa i potpisi": 1,
+    "korice obračunske knjige": 2,
+    "elaborat / naslovna strana": 1,
+    "predračun / naslovna strana": 1,
+    "korice građevinskog dnevnika": 2,
+    "obračun / situacija": 3,
+    "izveštaj o merenju": 2,
+    "prepiska ministarstava": 1,
+    "rešenje ministarstva": 1,
+    "obračun / prilog komisiji": 1,
+    "ponuda / dopis": 1,
+    "elaborat / posleratni predlog": 1,
+    "građevinska knjiga / skica": 1,
+    "kucani elaborat": 6,
+    "ponuda": 5,
+    "dopuna ponude": 2,
+    "štampani program konkursa": 2,
+    "stručni izveštaj": 1,
+    "crtež / profil terena": 2,
+    "crtež / obračun iskopa": 1,
+    "projektni list / armaturni detalji": 1,
+    "statički proračun": 3,
+    "građevinska knjiga": 2,
+    "građevinski dnevnik": 4,
+    "građevinski dnevnik / zapisnik": 1,
+    "obračunski spisak": 2,
+    "katalog / fotografija": 3,
+    "katalog / šema": 1,
+    "fotografija": 1,
+    "štampani uslovi": 1,
+    "analiza cena": 1,
+    "spisak reklamacija": 1,
+    "devizni zahtev": 1,
+    "poziv na licitaciju": 1,
+    "izveštaj o licitaciji": 1,
+    "odluka Glavne kontrole": 3,
+    "dopis o kauciji": 1
   },
   "folders": [
     {
@@ -215,9 +258,31 @@
         "cit-dnevnik-sveska-2",
         "cit-obracunski-elaborat-1943",
         "cit-racun-manje-radova",
-        "cit-oprema-masina"
+        "cit-oprema-masina",
+        "cit-foto-album-iskop-sedam",
+        "cit-dnevnik-grejanje-naslov",
+        "cit-siemens-maticni-casovnik",
+        "cit-dizalica-br8-brasovan-1938",
+        "cit-kartusa-projekat-stamparije",
+        "cit-tabelarni-pregled-ekonomski-blok",
+        "cit-dnevnik-str199-zavrsetak-1940",
+        "cit-dnevnik-str200-overa-1939",
+        "cit-opsti-uslovi-pogodbe-1941",
+        "cit-nacrt-overa-brasovan-1937",
+        "cit-korice-racun-manje-radova",
+        "cit-korice-racun-vise-radova",
+        "cit-staticki-proracun-gemin",
+        "cit-predracun-stolarskih-radova",
+        "cit-korice-dnevnik-nova-zgrada",
+        "cit-korice-dnevnik-elektro",
+        "cit-foto-schindler-lift-stepeniste",
+        "cit-foto-schindler-kabina-30",
+        "cit-foto-schindler-teretna-w6g",
+        "cit-foto-tepper-shema-lifta",
+        "cit-foto-prekidac-detalj",
+        "cit-foto-posebni-uslovi-1941"
       ],
-      "read": 12
+      "read": 34
     },
     {
       "id": "bigz:f:instalacije",
@@ -386,7 +451,12 @@
           "bytes": 306088
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-situacija1-grejanje-poz1-29",
+        "cit-situacija1-grejanje-poz30-87",
+        "cit-situacija4-grejanje-isplata"
+      ],
+      "read": 3
     },
     {
       "id": "bigz:f:instalacije-centralno-grejanje-ucin-i-stepen-iskoristivosti",
@@ -406,7 +476,11 @@
           "bytes": 185600
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-kotlovi-rezultati-merenja-1941",
+        "cit-kotlovi-ucin-stepen-iskoristivosti"
+      ],
+      "read": 2
     },
     {
       "id": "bigz:f:instalacije-instalacija-lifta",
@@ -509,7 +583,10 @@
           "bytes": 2618703
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-simens-raskid-ugovora-1943"
+      ],
+      "read": 1
     },
     {
       "id": "bigz:f:instalacije-instalacija-struje-nestasica-zice",
@@ -589,9 +666,19 @@
         }
       ],
       "readIds": [
-        "cit-naknada-1943"
+        "cit-naknada-1943",
+        "cit-finansije-rekapitulacija-1942",
+        "cit-finansije-josanica-opsta-primedba",
+        "cit-finansije-spisak-reklamacija",
+        "cit-finansije-devizna-direkcija-1940",
+        "cit-finansije-poziv-licitacija-dizalice",
+        "cit-finansije-kotlovi-licitacija-1941-03",
+        "cit-finansije-glavna-kontrola-strebelwerke",
+        "cit-finansije-glavna-kontrola-tepper-1943",
+        "cit-finansije-glavna-kontrola-dnevnice-1941",
+        "cit-finansije-brod-na-savi-kaucija"
       ],
-      "read": 1
+      "read": 11
     },
     {
       "id": "bigz:f:krov",
@@ -670,7 +757,10 @@
           "bytes": 355055
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-dizalice-komisija-likvidacija-1944"
+      ],
+      "read": 1
     },
     {
       "id": "bigz:f:masine-finansije-masina",
@@ -718,7 +808,10 @@
           "bytes": 509863
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-viskovi-manjkovi-prilog-v-1943"
+      ],
+      "read": 1
     },
     {
       "id": "bigz:f:masine-skica-dizalice",
@@ -837,9 +930,15 @@
         "cit-izvod-spiska-1",
         "cit-izvod-spiska-3",
         "cit-dnevnik-uvodjenje",
-        "cit-dnevnik-dan-39"
+        "cit-dnevnik-dan-39",
+        "cit-osoblje-zapisnik-1939-06-07",
+        "cit-osoblje-dnevnik-1939-06-16",
+        "cit-osoblje-dnevnik-1939-07-16-17",
+        "cit-osoblje-dnevnik-1940-04-08-10",
+        "cit-osoblje-izvod-spiska-2",
+        "cit-osoblje-izvod-spiska-4"
       ],
-      "read": 4
+      "read": 10
     },
     {
       "id": "bigz:f:planovi",
@@ -1049,7 +1148,22 @@
           "bytes": 231689
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-ponuda-vestacki-kamen-1939",
+        "cit-ponuda-metlas-k393-s1",
+        "cit-ponuda-metlas-k393-s2",
+        "cit-ponuda-metlas-k393-s3",
+        "cit-ponuda-metlas-k393-s4",
+        "cit-ponuda-metlas-k403-dopuna",
+        "cit-ponuda-strebelwerk-1941",
+        "cit-strebelwerk-dopuna-kliring",
+        "cit-komisijski-izvestaj-kotlovi-s1",
+        "cit-komisijski-izvestaj-kotlovi-s2",
+        "cit-program-utakmice-s1",
+        "cit-program-utakmice-s2",
+        "cit-institut-ispitivanje-betona-1967"
+      ],
+      "read": 13
     },
     {
       "id": "bigz:f:predmeri-predracuni-analiza-cena",
@@ -1303,7 +1417,16 @@
           "bytes": 281238
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-jugostampa-predlog-posle-rata",
+        "cit-premestanje-s2",
+        "cit-premestanje-s3",
+        "cit-premestanje-s4",
+        "cit-premestanje-s5",
+        "cit-premestanje-s7",
+        "cit-premestanje-s8"
+      ],
+      "read": 7
     },
     {
       "id": "bigz:f:punomoci-i-zapisnici",
@@ -1388,7 +1511,20 @@
           "bytes": 296979
         }
       ],
-      "read": 0
+      "readIds": [
+        "cit-gradjevinska-knjiga-str12-13",
+        "cit-skice-profil-ekonomski-1",
+        "cit-skice-profil-ekonomski-2",
+        "cit-skice-kopanje-zemlje",
+        "cit-skice-plan-podrum-temelji",
+        "cit-skice-stopa-za-dimnjak",
+        "cit-skice-gradjevinska-knjiga-45-46",
+        "cit-skice-gradjevinska-knjiga-48",
+        "cit-skice-dnevnik-radne-snage",
+        "cit-skice-potporni-zid-poz120",
+        "cit-skice-uticajne-linije-56"
+      ],
+      "read": 11
     },
     {
       "id": "bigz:f:tehnicki-uslovi",
@@ -3558,6 +3694,2121 @@
       "legibility": "добра — штампана таблица; прва колона при дну стране делом под прстом снимача",
       "confidence": "visoka",
       "date": null
+    },
+    {
+      "id": "cit-foto-album-iskop-sedam",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "fotografija / album",
+      "title": {
+        "sr": "Albumski list sa sedam snimaka iskopa",
+        "en": "Album sheet with seven excavation photographs"
+      },
+      "text": "Sivi albumski karton sa sedam zalepljenih fotografija sa nazubljenim ivicama. Gornji red: plavljena jama sa kućama u pozadini, sa belim natpisom u negativu „ПРЕДЊИ ДЕО ЈАМЕ ПОД ВОДОМ“; drugi snimak nosi natpis „ПРЕДЊИ ДЕО ... ЗАДЊИ ДЕО“ i prikazuje zasvedene otvore; treći radnike kako crpe i ručno iznose zemlju duž ivice vode, sa dimnjakom u pozadini. Donji red: drvena oplata temelja sa armaturom u jami, zasek rova sa podgradom od oblica uz koji radnici slažu kamen, radnici sa krampovima uz drvenu podgradu i grupa od desetak radnika na kamenitom dnu iskopa. Nijedna fotografija nema datum ni ime snimatelja.",
+      "facts": [
+        {
+          "kind": "broj",
+          "value": "7 fotografija na jednom albumskom listu"
+        }
+      ],
+      "legibility": "natpisi u negativu čitljivi, rukopisnih oznaka nema",
+      "confidence": "visoka za sadržaj snimaka, nikakva za datiranje",
+      "date": null
+    },
+    {
+      "id": "cit-dnevnik-grejanje-naslov",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "rukopis / dnevnik rada",
+      "title": {
+        "sr": "Naslovna strana dnevnika rada za centralno grejanje",
+        "en": "Title page of the works diary for the central heating"
+      },
+      "text": "Prva strana linirane sveske, rukopis crnim mastilom, gore desno broj strane „1“. Naslov: „Дневник рада“. Ispod: „На свему набавке и постављања постројења централног грејања топлом водом ниског притиска и постројења за припрему и развод топле воде у згради Државне штампарије у Београду.“ Ostatak strane je prazan.",
+      "facts": [
+        {
+          "kind": "postrojenje",
+          "value": "centralno grejanje toplom vodom niskog pritiska"
+        },
+        {
+          "kind": "postrojenje",
+          "value": "priprema i razvod tople vode"
+        }
+      ],
+      "legibility": "rukopis čitljiv",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-siemens-maticni-casovnik",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "kataloški list / ponuda",
+      "title": {
+        "sr": "Siemens & Halske — matični časovnik Hängehauptuhr U hptu 48 a/c",
+        "en": "Siemens & Halske — master clock Hängehauptuhr U hptu 48 a/c"
+      },
+      "text": "Kataloški list u plavoj fascikli sa pertlom. Zaglavlje: logotip „SIEMENS“ i red „SIEMENS & HALSKE AG · WERNERWERK · BERLIN-SIEMENSSTADT“. U okviru: fotografija zidnog časovnika u tamnom drvenom kućištu sa klatnom i okruglim brojčanikom, pored nje tehnički crtež sa kotama — širine 406, 25 i 197 mm, visine 1496 i 1396 mm, podnožje 130 + 130 mm. Ispod dvojezična oznaka „Hängehauptuhr U hptu 48 a/c“ i ćirilicom „Матични часовник“. Dole desno oznaka lista „U 1/9“, preko nje ljubičasti pečat Ministarstva građевина Краљевине Југославије, Београд, i parafirani potpis.",
+      "facts": [
+        {
+          "kind": "proizvodjac",
+          "value": "Siemens & Halske AG, Wernerwerk, Berlin-Siemensstadt"
+        },
+        {
+          "kind": "oznaka",
+          "value": "Hängehauptuhr U hptu 48 a/c"
+        },
+        {
+          "kind": "mera",
+          "value": "kućište 1496 mm visine, 406 mm širine, 197 mm dubine (sa lista)"
+        },
+        {
+          "kind": "oznaka",
+          "value": "list U 1/9"
+        }
+      ],
+      "legibility": "štampani tekst i kote čitljivi; potpis nečitak",
+      "confidence": "visoka za tekst i kote, srednja za očitavanje pojedinih kota sa fotografije",
+      "date": null
+    },
+    {
+      "id": "cit-dizalica-br8-brasovan-1938",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "predmer / potpisana strana",
+      "title": {
+        "sr": "Završna strana predmera dizalica — potpisi Brašovana i Gortinskog, 21. III 1938",
+        "en": "Final page of the hoist bill of quantities — signed by Brašovan and Gortinski, 21 Mar 1938"
+      },
+      "text": "Zaključna strana kucanog predmera, ćirilica, kroz list se providi naredna strana. Poslednja stavka: „...дизалицу бр. 8 за користан терет од 1.500 кг., у свему према прописаним техничким условима, комплетно испоручено и монтирано, плаћа се ... ком. 1 а дин...“. Ispod: „Дизалице укупно Динара:“. Levo: „21 марта 1938 год. у Београду“, oznaka „/М.П./“. Desno: „Саставио: Арх. Д. Брашован, с.р.“ i „Арх. М. Гортински, с.р.“. Ispod levo: „РЕВИДЕНТ: Инж. Драг. Бракић, с.р.“, „8-III-1940 год. Београд.“",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1938-03-21"
+        },
+        {
+          "kind": "datum",
+          "value": "1940-03-08"
+        },
+        {
+          "kind": "osoba",
+          "value": "arh. Dragiša Brašovan — sastavljač predmera"
+        },
+        {
+          "kind": "osoba",
+          "value": "arh. M. Gortinski — sastavljač predmera"
+        },
+        {
+          "kind": "osoba",
+          "value": "inž. Drag. Brakić — revident"
+        },
+        {
+          "kind": "mera",
+          "value": "dizalica br. 8, koristan teret 1.500 kg"
+        }
+      ],
+      "legibility": "kucani tekst čitljiv uprkos providnosti lista",
+      "confidence": "visoka",
+      "date": "1938-03-21"
+    },
+    {
+      "id": "cit-kartusa-projekat-stamparije",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "crtež / kartuša",
+      "title": {
+        "sr": "Kartuša nacrta: „Пројекат за нову зграду Државне штампарије у Београду“",
+        "en": "Drawing cartouche: “Project for the new State Printing House building in Belgrade”"
+      },
+      "text": "Ugao velikog nacrta na paus-papiru. U pravougaonom okviru naslov slagan geometrijskom art-deko ćirilicom u pet redova: „ПРОЈЕКАТ ЗА НОВУ ЗГРАДУ ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ“. Iznad okvira okrugli pečat sa grbom i nalepljena taksena marka. Desno, okrenuto naopako u odnosu na naslov, štampano „ПРОЈЕКТАНТ ... БЕОГРАД“ sa rukom pisanim potpisom preko. Dole levo vide se kote niza stubova: 3.35 i 2.05.",
+      "facts": [
+        {
+          "kind": "naziv",
+          "value": "Пројекат за нову зграду Државне штампарије у Београду"
+        },
+        {
+          "kind": "mera",
+          "value": "razmaci u nizu 3,35 m i 2,05 m (sa kota crteža)"
+        }
+      ],
+      "legibility": "naslov i kote čitljivi; potpis projektanta nečitak, pečat delimično pokriven markom",
+      "confidence": "visoka za naslov, niska za ime u potpisu",
+      "date": null
+    },
+    {
+      "id": "cit-tabelarni-pregled-ekonomski-blok",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "rukopis / naslovna strana elaborata",
+      "title": {
+        "sr": "Tabelarni pregled doplate i novih cena za Ekonomski blok",
+        "en": "Tabular review of surcharges and new prices for the Economic block"
+      },
+      "text": "Naslovna strana ušivenog elaborata sa oštećenim gornjim rubom i pertlom u hrbatu. Rukopis crnim mastilom, podvučeno: „Табеларни преглед за одређивање доплате и нових цена за радове на подизању Економског блока Држ. штампарије у Београду.“ Ostatak strane prazan; datuma i potpisa na naslovnoj strani nema.",
+      "facts": [
+        {
+          "kind": "naziv",
+          "value": "Tabelarni pregled za određivanje doplate i novih cena — Ekonomski blok Državne štamparije"
+        }
+      ],
+      "legibility": "rukopis čitljiv",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-dnevnik-str199-zavrsetak-1940",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "rukopis / dnevnik rada",
+      "title": {
+        "sr": "Dnevnik, strana 199: završetak rada 26. V 1940. i potpisi",
+        "en": "Works diary, page 199: works completed 26 May 1940, with signatures"
+      },
+      "text": "Strana 199 građevinskog dnevnika, snimljena bočno. Rukopisni red: „26-V-1940. Завршен је са инсталацијом радова...“ Ispod sledi niz overa: plavi faksimil pečat akcionarskog društva izvođača sa potpisom, štampani red „НАДЗОРНИ ИНЖЕЊЕР“ sa potpisom, plavi pečat komisije sa rukom upisanim „Примљено 5/12“ i potpisima „Инж. Марковић“ i drugog člana, te crvenim mastilom „Видео ревизор“ sa dva potpisa.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1940-05-26"
+        }
+      ],
+      "legibility": "datum i potpisni redovi čitljivi; imena u potpisima delimično",
+      "confidence": "visoka za datum, srednja za imena",
+      "date": "1940-05-26"
+    },
+    {
+      "id": "cit-dnevnik-str200-overa-1939",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "rukopis / dnevnik rada",
+      "title": {
+        "sr": "Dnevnik, strana 200: overa knjige od 200 strana, 12. juna 1939",
+        "en": "Works diary, page 200: certification of the 200-page book, 12 June 1939"
+      },
+      "text": "Poslednja strana dnevnika, broj 200 gore levo. Rukopis: „Да је ова књига одређена за вођење грађевинског дневника на послу постављања постројења парног и водeног грејања и припреме топле воде на новој згради Државне штампарије у Београду, као и да има 200 — две стотине нумерисаних страна, оверава“. Levo ispod: „12 јуна 1939 год. у Београду.“ U sredini ljubičasti okrugli pečат „МИНИСТАРСТВО ГРАЂЕВИНА КРАЉЕВИНЕ ЈУГОСЛАВИЈЕ — БЕОГРАД“. Desno štampano kurzivom „NAČELNIK Elektro-mašinskog odeljenja“ sa velikim potpisom.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-06-12"
+        },
+        {
+          "kind": "broj",
+          "value": "200 numerisanih strana dnevnika"
+        },
+        {
+          "kind": "ustanova",
+          "value": "Ministarstvo građevina Kraljevine Jugoslavije, Beograd — Elektro-mašinsko odeljenje"
+        }
+      ],
+      "legibility": "rukopis i pečat čitljivi; potpis načelnika nečitak",
+      "confidence": "visoka",
+      "date": "1939-06-12"
+    },
+    {
+      "id": "cit-opsti-uslovi-pogodbe-1941",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "štampani obrazac / opšti uslovi",
+      "title": {
+        "sr": "Opšti uslovi za zaključenje neposrednih pogodbi, 9. oktobra 1941",
+        "en": "General conditions for direct contracting, 9 October 1941"
+      },
+      "text": "Naslovna strana ušivene sveščice. Gore levo: „МИНИСТАРСТВО ГРАЂЕВИНА, Ка бр. 25662, 9 октобра 1941 год., Београд“. Gore desno: „Сагласност Државног правобранилаштва, Бр. 9564, 8 октобра 1941 год.“ U sredini štampano: „ОПШТИ УСЛОВИ ЗА ЗАКЉУЧЕЊЕ НЕПОСРЕДНИХ ПОГОДБИ“. Kroz tanak papir providi se naredna strana sa čl. 1–3 i rukopisnim popunama („Министарства Грађевина“, „Државне штампарије“, „у Београду“, „грађевинским предузимачима“). Čl. 2 pominje kauciju i „... босанских динара“, čl. 3 rok od 20 dana za potpis i odobrenje pogodbe u roku od 10 dana.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-10-09"
+        },
+        {
+          "kind": "datum",
+          "value": "1941-10-08"
+        },
+        {
+          "kind": "broj akta",
+          "value": "Ministarstvo građevina Ka br. 25662"
+        },
+        {
+          "kind": "broj akta",
+          "value": "Državno pravobranilaštvo br. 9564"
+        }
+      ],
+      "legibility": "štampani tekst naslovne strane čitljiv; providni tekst sa naredne strane samo delimično",
+      "confidence": "visoka za zaglavlje i datume, niska za providni tekst",
+      "date": "1941-10-09"
+    },
+    {
+      "id": "cit-nacrt-overa-brasovan-1937",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "crtež / overa i potpisi",
+      "title": {
+        "sr": "Overa nacrta: Brašovan 14. VII 1937, revizija Ministarstva građevina",
+        "en": "Drawing approval: Brašovan 14 Jul 1937, review by the Ministry of Construction"
+      },
+      "text": "Ugao nacrta sa kotama (5.65; 2.32; 1.71; 1.05; 0.50; 0.70/0.69) i šrafiranim zidovima. Preko njega tri overe. Zelenim mastilom: „Прегледано са стајалишта стране у Министарству Грађевина 23. … 193… г. Ревидент, Београд.“ sa potpisom. Smeđim/crvenim mastilom: „Београд 14/VII 1937“ i potpis „Арх. Драгиша Брашован“, a ispod „Б. 4-IX-37“ sa parafom. Dole okrugli pečat sa tekstom po obodu koji sadrži „Инж. Драгиша Брашован … Београд“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1937-07-14"
+        },
+        {
+          "kind": "datum",
+          "value": "1937-09-04"
+        },
+        {
+          "kind": "osoba",
+          "value": "arh. Dragiša Brašovan — potpis i lični pečat na nacrtu"
+        }
+      ],
+      "legibility": "datumi i Brašovanov potpis čitljivi; datum revizije i ime revidenta nisu",
+      "confidence": "visoka za Brašovanove datume, niska za revizionu belešku",
+      "date": "1937-07-14"
+    },
+    {
+      "id": "cit-korice-racun-manje-radova",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "korice obračunske knjige",
+      "title": {
+        "sr": "Korice: „Рачун мање извршених радова на згради Државне штампарије у Београду“",
+        "en": "Cover: “Account of works performed below contract on the State Printing House building in Belgrade”"
+      },
+      "text": "Svetloplave kartonske korice vezane trobojnom pertlom kroz dve rupice na gornjoj ivici. Na sredini nalepnica u crvenom i crnom okviru, tekst složen uspravno: „РАЧУН МАЊЕ ИЗВРШЕНИХ РАДОВА НА ЗГРАДИ ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ“, pri čemu je reč „МАЊЕ“ izdvojena krupnim slogom. Na koricama nema datuma, broja akta ni potpisa.",
+      "facts": [
+        {
+          "kind": "naziv",
+          "value": "Рачун мање извршених радова на згради Државне штампарије у Београду"
+        }
+      ],
+      "legibility": "nalepnica potpuno čitljiva",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-korice-racun-vise-radova",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "korice obračunske knjige",
+      "title": {
+        "sr": "Korice: „Рачун више извршених радова на згради Државне штампарије у Београду“",
+        "en": "Cover: “Account of works performed above contract on the State Printing House building in Belgrade”"
+      },
+      "text": "Svetloplave kartonske korice, trobojna pertla kroz dve rupice i rukom ispisan paraf uz čvor. Nalepnica u crvenom i crnom okviru, tekst uspravno: „РАЧУН ВИШЕ ИЗВРШЕНИХ РАДОВА НА ЗГРАДИ ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ“, sa rečju „ВИШЕ“ u krupnom slogu. Datuma i broja akta na koricama nema.",
+      "facts": [
+        {
+          "kind": "naziv",
+          "value": "Рачун више извршених радова на згради Државне штампарије у Београду"
+        }
+      ],
+      "legibility": "nalepnica potpuno čitljiva",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-staticki-proracun-gemin",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "elaborat / naslovna strana",
+      "title": {
+        "sr": "Statički proračun za Ekonomski blok — inž. Petar Gemin",
+        "en": "Structural calculation for the Economic block — eng. Petar Gemin"
+      },
+      "text": "Požutela naslovna strana ušivenog elaborata, gore olovkom veliki paraf. Štampano razređenim slogom: „СТАТИЧКИ ПРОРАЧУН за ЕКОНОМСКИ БЛОК ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ“. Ispod rukopisom crnim mastilom: „Инж. Петар Гемин.“ Zelenim mastilom preko toga: „Прегледано са стајалишта стране / Ревидент Мин-ва Грађевина / инж. …“ sa potpisom, i niže datum „29.V.37“ (ili 29.VI.37) sa parafom.",
+      "facts": [
+        {
+          "kind": "osoba",
+          "value": "inž. Petar Gemin — statički proračun Ekonomskog bloka"
+        },
+        {
+          "kind": "ustanova",
+          "value": "revident Ministarstva građevina"
+        }
+      ],
+      "legibility": "štampani naslov i ime autora čitljivi; zelena beleška delimično",
+      "confidence": "visoka za autora, srednja za datum revizije",
+      "date": null
+    },
+    {
+      "id": "cit-predracun-stolarskih-radova",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "predračun / naslovna strana",
+      "title": {
+        "sr": "Predračun stolarskih radova za novu zgradu Državne štamparije",
+        "en": "Cost estimate for the joinery works on the new State Printing House building"
+      },
+      "text": "Jako oštećena i izbledela naslovna strana ušivenog predračuna; rubovi iscepani, papir prekriven mrljama od vlage. Kroz izbledelo mastilo čita se: „ПРЕДРАЧУН СТОЛАРСКИХ РАДОВА ЗА НОВУ ЗГРАДУ ДРЖАВНЕ ШТАМПАРИЈЕ.“ Iznad naslova nazire se trag još jednog, potpuno izbledelog zaglavlja od tri-četiri reda. Datum, potpis i pečat se ne vide.",
+      "facts": [
+        {
+          "kind": "naziv",
+          "value": "Predračun stolarskih radova za novu zgradu Državne štamparije"
+        }
+      ],
+      "legibility": "slabo — naslov se jedva čita, zaglavlje iznad njega je nečitko",
+      "confidence": "srednja za naslov, nikakva za sve ostalo",
+      "date": null
+    },
+    {
+      "id": "cit-korice-dnevnik-nova-zgrada",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "korice građevinskog dnevnika",
+      "title": {
+        "sr": "Korice: „Грађевински дневник за нову зграду Државне штампарије у Београду“",
+        "en": "Cover: “Works diary for the new State Printing House building in Belgrade”"
+      },
+      "text": "Tvrdo ukoričena knjiga sa crno-belim mramoriranim koricama i crnim platnenim hrbatom. Na sredini nalepnica u crvenom i crnom dvostrukom okviru, rukopisnim kurzivom u četiri podvučena reda: „Грађевински дневник / за нову зграду / Државне штампарије / у Београду.“ Na koricama nema broja knjige ni datuma.",
+      "facts": [
+        {
+          "kind": "naziv",
+          "value": "Грађевински дневник за нову зграду Државне штампарије у Београду"
+        }
+      ],
+      "legibility": "nalepnica potpuno čitljiva",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-korice-dnevnik-elektro",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "korice građevinskog dnevnika",
+      "title": {
+        "sr": "Korice: dnevnik isporuke i montaže električnih instalacija",
+        "en": "Cover: diary of the supply and installation of the electrical systems"
+      },
+      "text": "Tvrdo ukoričena knjiga sa smeđe mramoriranim koricama i crnim platnenim hrbatom i uglovima. Nalepnica u crvenom i plavom okviru, rukopisnim kurzivom u pet podvučenih redova: „Грађевински дневник. / Испорука и монтажа електричних / инсталација и постројења у новој / згради Државне штампарије / у Београду.“ Gore na nalepnici trag crvenog voska ili pečata.",
+      "facts": [
+        {
+          "kind": "naziv",
+          "value": "Грађевински дневник — испорука и монтажа електричних инсталација и постројења у новој згради Државне штампарије у Београду"
+        }
+      ],
+      "legibility": "nalepnica potpuno čitljiva",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-situacija1-grejanje-poz1-29",
+      "folder": "Instalacije/Centralno grejanje/Proracun ugradnje centralnog grejanja",
+      "kind": "obračun / situacija",
+      "title": {
+        "sr": "I situacija grejanja, pozicije 1–29: aparati, radijatori, cevi",
+        "en": "Heating situation I, items 1–29: apparatus, radiators, pipework"
+      },
+      "text": "Kucana obračunska tabela pod naslovom „I. СИТУАЦИЈА“, kolone: redni broj, broj i strana građevinske knjige, naznačenje radova ili nabavaka, pozicija cenovnika, jedinična mera, količina, cena, suma (posebice / ukupna). Pozicije 1–29: противструјни апарати 4 ком × 24.750 = 99.000; експанзиони судови 4 × 2.400 = 9.600; флигел пумпе 1 × 650; електропумпе 4 × 6.300 = 25.200; засуне са славином 14 × 1.500 = 21.000; радијатори 714 мм 3011,50 м² × 184 = 554.116; радијатори 900 мм 92,40 × 173 = 15.985,20; дуплорегулир. славине 1/2\" 423 ком × 58 = 24.534; цеви од 1/2\" 681 м × 16,50 = 11.236,50, преко 3/4\", 1\", 5/4\", 6/4\" i 2\" (1421 м × 66 = 93.786) do црних цеви Ø 57–119 мм. Dole „За пренос“ i zbir 1.057.024,20.",
+      "facts": [
+        {
+          "kind": "iznos",
+          "value": "1.057.024,20 dinara — prenos posle pozicije 29"
+        },
+        {
+          "kind": "iznos",
+          "value": "554.116 dinara — radijatori 714 mm, 3.011,50 m²"
+        },
+        {
+          "kind": "mera",
+          "value": "3.011,50 m² radijatora visine 714 mm"
+        },
+        {
+          "kind": "mera",
+          "value": "1.421 m cevi 2\""
+        }
+      ],
+      "legibility": "kucana tabela čitljiva; kroz papir se providi naredna strana",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-situacija1-grejanje-poz30-87",
+      "folder": "Instalacije/Centralno grejanje/Proracun ugradnje centralnog grejanja",
+      "kind": "obračun / situacija",
+      "title": {
+        "sr": "I situacija grejanja, pozicije 30–87, dva lista jedan do drugog",
+        "en": "Heating situation I, items 30–87, two sheets side by side"
+      },
+      "text": "Dva lista iste tabele „I. СИТУАЦИЈА“ snimljena zajedno, oba okrenuta bočno. Levi list nosi pozicije 30–58, desni 59–87. Među stavkama: црне цеви Ø 131–156 мм, фитинг, изолација 2800 м² × 17,50 = 49.000, фарбање радијатора 4006 м² × 5 = 20.030, радијатори 714 мм 1354,47 м² × 184 = 249.222,48 i 900 мм 160 × 173 = 27.680, бушење рупа у међуспратној конструкцији, регулир. славине, одвојачи, вентили, славине и завршна поз. 87 изолација 825 м² × 150 = 123.750. Prenosni zbirovi: 1.057.024,20 → 2.774.419,36 → 2.793.587,01.",
+      "facts": [
+        {
+          "kind": "iznos",
+          "value": "2.793.587,01 dinara — prenos posle pozicije 87"
+        },
+        {
+          "kind": "mera",
+          "value": "2.800 m² izolacije po 17,50 dinara"
+        },
+        {
+          "kind": "mera",
+          "value": "4.006 m² farbanja radijatora"
+        }
+      ],
+      "legibility": "tabela čitljiva uprkos bočnom snimku; pojedine cene na desnom listu nesigurne",
+      "confidence": "visoka za zbirove, srednja za pojedinačne stavke desnog lista",
+      "date": null
+    },
+    {
+      "id": "cit-situacija4-grejanje-isplata",
+      "folder": "Instalacije/Centralno grejanje/Proracun ugradnje centralnog grejanja",
+      "kind": "obračun / situacija",
+      "title": {
+        "sr": "IV situacija grejanja: popust 14% i ostatak za isplatu",
+        "en": "Heating situation IV: 14% discount and the balance due"
+      },
+      "text": "Završna strana tabele, pozicije 88–114, prenos 2.793.587,01. Stavke: фарбање радијатора 3790 м² × 17,50 = 66.325; фарбање цеви 3006 × 5 = 15.030; минизирање цеви 702 × 5 = 3.510; бушење рупа; бојлери 2 × 970 = 1.940; раздељивачи 555 × 24,50 = 13.597,50; поцинковане цеви 1/2\"–2 1/2\"; фитинг 25% = 28.007,62; засуне, славине; изолација 300 м² × 150 = 45.000. Zbir 3.120.656,43. Zatim: „Одбија се попуст 14%“ 436.891,85; „Примљено по I, II и III ситуацијама“ 2.683.764,58 i 2.176.770,61; „Остаје за исплату по IV ситуацији Динара: 506.993,78“, a ispod slovima „петсто шест хиљада деветсто деведесет три и 78/100 динара“. Na levoj margini rukopis: „20 децембра 193…, у Београду“, „3 прилога“, „Такса дин.“ i „21-XII-1939“.",
+      "facts": [
+        {
+          "kind": "iznos",
+          "value": "3.120.656,43 dinara — ukupno pre popusta"
+        },
+        {
+          "kind": "iznos",
+          "value": "436.891,85 dinara — popust 14%"
+        },
+        {
+          "kind": "iznos",
+          "value": "506.993,78 dinara — ostatak za isplatu po IV situaciji"
+        },
+        {
+          "kind": "datum",
+          "value": "1939-12-21"
+        }
+      ],
+      "legibility": "tabela i brojevi čitljivi; rukopis na margini delimično",
+      "confidence": "visoka za tabelu, srednja za marginu",
+      "date": "1939-12-21"
+    },
+    {
+      "id": "cit-kotlovi-rezultati-merenja-1941",
+      "folder": "Instalacije/Centralno grejanje/Ucin i stepen iskoristivosti",
+      "kind": "izveštaj o merenju",
+      "title": {
+        "sr": "Rezultati merenja na automatskim parnim kotlovima sistema PRAGA, januar 1941",
+        "en": "Measurement results on PRAGA automatic steam boilers, January 1941"
+      },
+      "text": "Strana 1 kucanog izveštaja: „REZULTATI MERENJA provedjenih na 4 istih automatskih parnih kotlova za niski pritisak sistem PRAGA kod centralnog grejanja stanbenih zgrada firma INDUSTRIJA MOTORA a.d. Rakovica.“ Tabela sa tri pokusa: datum merenja 15/I.1941, 16/I.1941 i 16/I.1941; trajanje 4, 3 i 1 sat; ogrevna površina kotla 40 m² u sva tri; gruba površina roštilja 1,12 m²; gorivo „Trbovljanski ugljen, orašasti 10/30 mm“; ukupna potrošnja uglja 448,5 kg, 260 kg i 168 kg; potrošena voda 3100, 1694 i 1184 kg; srednja temperatura vode za napajanje 68,5 / 61,6 / 57,5 °C; srednji pritisak pare 1,30 / 1,20 / 1,35 ati; temperatura u kotlovnici 23 / 18 / 20 °C; srednji sadržaj CO₂ 10,10 / 11,11 / 10,00 %; jakost promaje 10 / 5,9 / 21 mm v. st.; temperatura odlaznih plinova 169 / 135 / 227 °C. Kroz papir se providi plavi vodeni žig „ČESKOMORAVSKÁ-KOLBEN-DANĚK A.S.“ i „SEZNAM PROVOZŮ AUTOMATICKÝCH KOTLŮ PRAHA“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-01-15"
+        },
+        {
+          "kind": "datum",
+          "value": "1941-01-16"
+        },
+        {
+          "kind": "proizvodjac",
+          "value": "Českomoravská-Kolben-Daněk a.s., Prag — sistem kotla PRAGA"
+        },
+        {
+          "kind": "mera",
+          "value": "ogrevna površina kotla 40 m²"
+        },
+        {
+          "kind": "gorivo",
+          "value": "trbovljanski ugalj, orašasti 10/30 mm"
+        }
+      ],
+      "legibility": "kucani tekst i brojevi čitljivi",
+      "confidence": "visoka za očitane vrednosti",
+      "date": "1941-01-15"
+    },
+    {
+      "id": "cit-kotlovi-ucin-stepen-iskoristivosti",
+      "folder": "Instalacije/Centralno grejanje/Ucin i stepen iskoristivosti",
+      "kind": "izveštaj o merenju",
+      "title": {
+        "sr": "Učin i stepen iskoristljivosti kotla — tri pokusa",
+        "en": "Boiler output and efficiency — three trials"
+      },
+      "text": "Strana 2 istog izveštaja, naslov „UČIN I STEPEN ISKORISTLIVOSTI“, pozicije 18–31 u tri kolone (Pokus br. 1, 2, 3). Srednja potrošnja uglja 112,125 / 83,5 / 194 kg/sat; po 1 m² roštilja 100,2 / 74,6 / 173,5 kg/m²h; potrošnja vode za napajanje 729 / 529 / 1184 kg/h; bruto isparavanje 5,9 / 6,08 / 6,12 kg; u 1 kg pare sadržana toplina 639 / 638,3 / 639,3 kcal/kg; srednja vlaga pare 1,5 / 1 / 2 %; UČIN KOTLA 410.000 / 302.000 / 676.000 kcal/h; na 1 m² ogrevne površine 10.250 / 7.550 / 16.900 kcal/m²h; iz 1 kg uglja korisna toplina 5.660 / 3.610 / 3.480 kcal/kg; donja ogrevna snaga „Hu“ po analizi Ministarstva šuma i rudnika 4309 kcal/kg, po laboratoriji u Trbovlju 4250 kcal/kg. STEPEN ISKORISTLIVOSTI KOTLA: ad poz. 29 — 84,9 / 83,7 / 80,7 %; ad poz. 30 — 85,8 / 85 / 82 %. Primedba: „Merenje je vršeno svakih 15 min, opterećenje je bilo potpuno bezdimno.“",
+      "facts": [
+        {
+          "kind": "mera",
+          "value": "učin kotla 410.000 / 302.000 / 676.000 kcal/h u tri pokusa"
+        },
+        {
+          "kind": "mera",
+          "value": "stepen iskoristljivosti kotla 80,7–85,8 %"
+        },
+        {
+          "kind": "mera",
+          "value": "donja ogrevna moć uglja 4.309 kcal/kg (Ministarstvo šuma i rudnika), 4.250 kcal/kg (laboratorija Trbovlje)"
+        }
+      ],
+      "legibility": "kucani tekst čitljiv; vodeni žig ne smeta čitanju",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-simens-raskid-ugovora-1943",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "prepiska ministarstava",
+      "title": {
+        "sr": "Raskid ugovora sa „Jugoslovensko Simens, sada Srpsko Simens“, 1943",
+        "en": "Termination of the contract with “Yugoslav Siemens, now Serbian Siemens”, 1943"
+      },
+      "text": "Dva akta snimljena na istom listu. Donji: „МИНИСТАРСТВО ФИНАНСИЈА II Бр. 57510, 3 септембра 1943, БЕОГРАД — МИНИСТАРСТВУ ГРАЂЕВИНА. Доставља се ради даље надлежности оригинална одлука бр. 15961 од 25 августа т.г. о раскиду уговора са фирмом Југословенско сименс, сада Српско сименс, из Београда за израду уређаја слабе струје у згради Државне штампарије у Београду, на коју је дата сагласност сходно § 163 ст. 5 Уредбе о државном рачуноводству.“ Potpis: „Начелник Одељења државног рачуноводства“. Prijemni pečat: „МИНИСТАРСТВО ГРАЂЕВИНА Број 18307, 11-IX-1943 год. БЕОГРАД“. Gornji akt: „МИНИСТАРСТВО ФИНАНСИЈА Бр. 66301, 19. X. 1943 год., Београд — МИНИСТАРСТВУ ГРАЂЕВИНА. Доставља се предњи акт Генералног опуномоћеника за привреду у Србији с молбом, да по истом поступите и кауцију, о којој је реч, вратите с обзиром на изричит налог.“ Datum pod tekstom „22 октобра 1943, Београд“, potpis „Помоћник Министра финансија“; prijemni pečat „МИНИСТАРСТВО ГРАЂЕВИНА Број 21170, 28-X-1943 год.“ Gore desno providi se nemački pečat „Der Generalbevollmächtigte für die Wirtschaft in Serbien“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1943-08-25"
+        },
+        {
+          "kind": "datum",
+          "value": "1943-09-03"
+        },
+        {
+          "kind": "datum",
+          "value": "1943-09-11"
+        },
+        {
+          "kind": "datum",
+          "value": "1943-10-19"
+        },
+        {
+          "kind": "datum",
+          "value": "1943-10-28"
+        },
+        {
+          "kind": "broj akta",
+          "value": "odluka br. 15961 od 25. VIII 1943 — raskid ugovora sa Simensom"
+        },
+        {
+          "kind": "broj akta",
+          "value": "Ministarstvo finansija II br. 57510; Ministarstvo građevina br. 18307 i br. 21170"
+        },
+        {
+          "kind": "firma",
+          "value": "Jugoslovensko Simens, sada Srpsko Simens, Beograd — uređaji slabe struje"
+        }
+      ],
+      "legibility": "oba akta čitljiva; potpisi nečitki",
+      "confidence": "visoka za tekst, datume i brojeve akata",
+      "date": "1943-08-25"
+    },
+    {
+      "id": "cit-dizalice-komisija-likvidacija-1944",
+      "folder": "Masine",
+      "kind": "rešenje ministarstva",
+      "title": {
+        "sr": "Rešenje o komisiji za likvidaciju radova na dizalicama, 13. juna 1944",
+        "en": "Decision on the commission to liquidate the lift installation works, 13 June 1944"
+      },
+      "text": "Kucano rešenje Ministarstva građevina sa pregledom ranijih odluka. Navodi se: Rešenje МГ бр. 31489 од 26. децембра 1942, уз сагласност Главне контроле одлуком бр. 55877/42 — предрачун накнадних радова на постављању дизалице бр. 6 у суми од 49.064,40 динара; Решење МГ бр. 31490/42 (Главна контрола бр. 2775/43 и бр. 151/II/43) — повећање цена за све дизалице у укупној суми од 392.832,20 динара; Решење МГ бр. 2916/43 (одлука бр. 9149/43) — колаудација дизалице бр. 5 и окончани рачун, предузимачу припала сума од 14.477,10 РМ и 502.348,78 динара, у коју је урачунато 15.000 динара; Решење МГ бр. 16030/43 (бр. 46516/43) — дизалица бр. 2, фирми Ј. Тепера 14.477,10 РМ и 498.115,85 динара; Решење МГ бр. 16105/43 — дизалица бр. 1, 8.673,10 РМ и 303.757,39 динара. Сагласност Главне контроле бр. 46517 од 18. септембра 1943. Наводи се да пуномоћник фирме Јосифа Тепера из Министера-Немачка „због ванредних прилика није више у могућности да дође у везу са својом фабриком“. Решење: образује се комисија за ликвидацију радова на инсталацији дизалица у згради Државне штампарије — инж. Бракић Драгутин, саветник, и инж. Кречковић Петар, пристав Министарства грађевина, а трећег члана одређује Управа Државне штампарије; основ § 165 Уредбе о државном рачуноводству. Дно: „13. јуна 1944 год., Београд“, потписи референта, шефа отсека, заступника начелника IV и министра грађевина.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1944-06-13"
+        },
+        {
+          "kind": "datum",
+          "value": "1942-12-26"
+        },
+        {
+          "kind": "datum",
+          "value": "1943-09-18"
+        },
+        {
+          "kind": "iznos",
+          "value": "49.064,40 dinara — naknadni radovi na dizalici br. 6"
+        },
+        {
+          "kind": "iznos",
+          "value": "392.832,20 dinara — poskupljenje za sve dizalice"
+        },
+        {
+          "kind": "iznos",
+          "value": "dizalica br. 5: 14.477,10 RM i 502.348,78 dinara"
+        },
+        {
+          "kind": "iznos",
+          "value": "dizalica br. 2: 14.477,10 RM i 498.115,85 dinara"
+        },
+        {
+          "kind": "iznos",
+          "value": "dizalica br. 1: 8.673,10 RM i 303.757,39 dinara"
+        },
+        {
+          "kind": "firma",
+          "value": "Josef Tepper, Münster (Nemačka) — isporuka i montaža dizalica"
+        },
+        {
+          "kind": "osoba",
+          "value": "inž. Dragutin Brakić i inž. Petar Krečković — članovi likvidacione komisije"
+        }
+      ],
+      "legibility": "kucani tekst čitljiv; potpisi nečitki",
+      "confidence": "visoka za brojeve, datume i iznose",
+      "date": "1944-06-13"
+    },
+    {
+      "id": "cit-viskovi-manjkovi-prilog-v-1943",
+      "folder": "Masine/Finansije masina",
+      "kind": "obračun / prilog komisiji",
+      "title": {
+        "sr": "Prilog V — viškovi i manjkovi na Ekonomskom bloku, 31. marta 1943",
+        "en": "Annex V — surpluses and shortfalls on the Economic block, 31 March 1943"
+      },
+      "text": "Kucani list. Zaglavlje: „КОМИСИЈИ ЗА ПРИЈЕМ РАДОВА НА ЗГРАДИ ЕКОНОМСКОГ БЛОКА ДРЖ. ШТАМПАРИЈЕ У БЕОГРАДУ ОДРЕЂЕНОЈ РЕШЕЊЕМ М.Г. бр. 8045/43“; desno „ПРИЛОГ V.“ Naslov: „ВИШКОВИ И МАЊКОВИ на одобрење а на одобрене вишкове и мањкове као и накнадне радове /одобрени решењем МГ бр. 28170/42 год./ у вези издатих наређења и извршених погодбених позиција.“ Levo kolona „ВИШКОВИ: по погодбеном предрачуну и одобреним радовима решењем МГ бр. 28170/42“ sa sedam stavki uz tekuće brojeve: 1. копање земље, 4. надоплата за израду серклажа, 7. стопе темеља од наб. бет., 14. арм. бет. лучни носачи, 15. греде за укрућење л. носача, 16. крстата арм. бет. плоча, 74. израда кровне конструкције. Desno „НАКНАДНИ РАДОВИ одобрени решењем МГ бр. 28170/42“: 6. пумпање воде за радове испод коте −5,5; 7. доплата за копање испод коте −5,5. Dole ljubičasti pečat „Министарство Грађевина — ГРАЂЕЊЕ НОВЕ ЗГРАДЕ ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ“, rukom „31. март 1943 г. Београд“, „Надзорни инжењер“ i potpis.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1943-03-31"
+        },
+        {
+          "kind": "broj akta",
+          "value": "rešenje MG br. 8045/43 — komisija za prijem radova na Ekonomskom bloku"
+        },
+        {
+          "kind": "broj akta",
+          "value": "rešenje MG br. 28170/42 — odobreni viškovi, manjkovi i naknadni radovi"
+        },
+        {
+          "kind": "mera",
+          "value": "kota −5,5 m — granica ispod koje se plaćaju pumpanje vode i doplata za kopanje"
+        }
+      ],
+      "legibility": "kucani tekst čitljiv; potpis nadzornog inženjera nečitak",
+      "confidence": "visoka za tekst i brojeve akata",
+      "date": "1943-03-31"
+    },
+    {
+      "id": "cit-ponuda-vestacki-kamen-1939",
+      "folder": "Ponude i kostanja",
+      "kind": "ponuda / dopis",
+      "title": {
+        "sr": "Ponuda za veštački kamen, 100 dinara po m², 29. marta 1939",
+        "en": "Offer for artificial stone, 100 dinars per m², 29 March 1939"
+      },
+      "text": "Kucani dopis na listu bez memoranduma, sa ljubičastim faksimilom „М. Пешић, С. Петровић“ gore levo i ponovljenim uz potpise. Datum gore desno: „29 марта 1939 год., Београд“. Naslovljen: „ТЕХНИЧКОМ ПРЕДУЗЕЋУ „ЈОШАНИЦА“ А.Д., Београд“. Tekst: „На Ваше тражење част нам је понудити Вам цене за израду „Вештачког камена“ на згради Државне Штампарије у Београду у колико га буде било. Вештачки камен израдићемо по плану, детаљу и упутству Надзорног органа а по предходно израђеној мустри за цену од 1 м² дин. 100.— (сто динара од једног метра квадратног).“ Napomena: cena je nešto veća jer se po uslovima rada svi otvori bez obzira na veličinu odbijaju, a mere se samo izrađene površine; posao su „шпросне, кемфери“, sitan i pipav rad kod koga se kvadratura ne može postići; „напомињемо да је ово први случај у нашој дужој пракси да се и отвори испод 4 м² одбијају“. Potpisi dvojice ponuđača.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-03-29"
+        },
+        {
+          "kind": "iznos",
+          "value": "100 dinara po m² veštačkog kamena"
+        },
+        {
+          "kind": "firma",
+          "value": "Tehničko preduzeće „Jošanica“ A.D., Beograd — naručilac ponude"
+        }
+      ],
+      "legibility": "kucani tekst potpuno čitljiv; potpisi nečitki, ali faksimil pečat imenuje ponuđače",
+      "confidence": "visoka",
+      "date": "1939-03-29"
+    },
+    {
+      "id": "cit-jugostampa-predlog-posle-rata",
+      "folder": "Premestanje drugih stamprija",
+      "kind": "elaborat / posleratni predlog",
+      "title": {
+        "sr": "Predlog za rešenje problema zgrade preduzeća „Jugoštampe“ — posleratni osvrt",
+        "en": "Proposal on the building of the “Jugoštampa” enterprise — a post-war account"
+      },
+      "text": "Strana 4 kucanog elaborata, latinica, posleratni jezik i pravopis. Naslov: „PREDLOG ZA REŠENJE PROBLEMA ZGRADE PREDUZEĆA 'JUGOŠTAMPE'“. Odeljak „1/ Kratak historijat izgradnje zgrade“: zgradu su počele graditi državne vlasti stare Jugoslavije za svoje potrebe (štampanje Službenih listova, obrazaca i formulara, trgovačkih knjiga, udžbenika, svezaka), pošto stara zgrada Državne štamparije više nije odgovarala. „Zgrada je gradjena u visinu usled čega je vanredno ojačana željezo-betonskom konstrukcijom tako da je nosivost V sprata još uvek 1,5 tona na m², što je verovatno jedinstven slučaj u zemlji; unutarnji transport odvija se vertikalno pomoću 11 liftova koji troše prilično mnogo struje.“ Paralelno sa gradnjom, dovršenom pred početak rata, predviđena je kupovina modernih štamparskih mašina. Rat je prekinuo dovršavanje; „zgradu su njemci našli praznu i tek dovršenu“ i upotrebili je za magacin do oslobođenja. Odeljak „2/ Kako je došlo do anarhije i stihije u naseljavanju ove zgrade?“: posle oslobođenja useljavanje se vršilo „po babu i po stričevima“; grafička industrija nije imala jedinstveni AOR niti je ušla u Petogodišnji plan, pa su se preduzeća cepala i osnivala nova. Danas u zgradi koju su gradili za jedno preduzeće stoji 5 grafičkih preduzeća — „Jugoštampa“, „Omladina“, „Jugoslavija“, „Slovo“ i „Jugoturist“ — i 6 raznih drugih ustanova; „Jugoštampa“ koristi 60/100 cele zgrade.",
+      "facts": [
+        {
+          "kind": "mera",
+          "value": "nosivost V sprata 1,5 tone po m²"
+        },
+        {
+          "kind": "broj",
+          "value": "11 liftova za unutrašnji vertikalni transport"
+        },
+        {
+          "kind": "broj",
+          "value": "5 grafičkih preduzeća i 6 drugih ustanova u zgradi posle rata"
+        },
+        {
+          "kind": "udeo",
+          "value": "„Jugoštampa“ koristi 60/100 zgrade"
+        }
+      ],
+      "legibility": "kucani tekst čitljiv; kroz papir se providi prethodna strana",
+      "confidence": "visoka za tekst; vrednosti su tvrdnje dokumenta, ne nezavisna merenja",
+      "date": null
+    },
+    {
+      "id": "cit-gradjevinska-knjiga-str12-13",
+      "folder": "Skice",
+      "kind": "građevinska knjiga / skica",
+      "title": {
+        "sr": "Građevinska knjiga, strane 12–13: skica zida i overa, 17–18. II 1938",
+        "en": "Measurement book, pages 12–13: wall sketch and approval, 17–18 Feb 1938"
+      },
+      "text": "Otvorena ušivena knjiga sa dve numerisane strane (12 i 13), snimljena bočno. Strana 12: datum „17-II-1938.“, oznaka pozicije „XII“, tabela sa četiri reda zanimanja i tri kolone brojeva (redovi nose vrednosti 6/8/48, 6/8/48, 1/8/8, 5/8/40), ispod nje rukopisni opis sa pozivom na „по плану зграде бр. 1 и 2“, „плаћено према бр. 5 уговора“ i oznake pozicija „XI, XI, бр. 6 и 5“, „IX и X“. U sredini strane rukom crtana skica zida sa šrafiranim stubovima i nizom kota — gabarit 5.46, pojedinačna polja oko 1.00, uz natpis „Зид … детаљ“ i razmera. Strana 13: nastavak skice sa naznakom „1:50“, zatim datum „18-II-1938.“, „Недеља, Исте се узимају“ i overe: pečat „„ДЕРИ“ Акционарско друштво за електро-машинска постројења“, štampani redovi „НАДЗОРНИ ИНЖЕЊЕР“ i „НАБ-СКИ ИНЖЕЊЕР“, svaki sa po dva potpisa.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1938-02-17"
+        },
+        {
+          "kind": "datum",
+          "value": "1938-02-18"
+        },
+        {
+          "kind": "razmera",
+          "value": "1:50"
+        },
+        {
+          "kind": "firma",
+          "value": "„Deri“ akcionarsko društvo za elektro-mašinska postrojenja — nadzor overava unose"
+        }
+      ],
+      "legibility": "slabo za tekst — rukopis je sitan i snimljen bočno; datumi, kote i pečati čitljivi",
+      "confidence": "visoka za datume i pečate, niska za telo rukopisa",
+      "date": "1938-02-17"
+    },
+    {
+      "id": "cit-premestanje-s2",
+      "folder": "Premestanje drugih stamprija",
+      "kind": "kucani elaborat",
+      "title": {
+        "sr": "Isti elaborat — str. 2: poreklo „Jugoštampe“ i stanje preduzeća",
+        "en": "Same report — p. 2: origin of \"Jugostampa\" and the state of the company"
+      },
+      "text": "Strana 2. Današnja „Jugoštampa“ nastala je spajanjem 5 grafičkih preduzeća: štamparije Ministarstva građevina („Vojvodina“), dela Državne markarnice, štamparije Ministarstva narodnog zdravlja i Državne štamparije „Jugoštampa“ — „raslojavala“ se kasnije; iz nje su se izdvojili pogoni iz kojih su nastali „Jugoslavija“ i „Slovo“, a sem toga su odvojene i mašine, mahom bolje, njih oko 20, za druga preduzeća i potrebe (Albaniju, „Geokartu“, vojne potrebe i slično). Pisac navodi da je „Jugoštampa“ od oslobođenja do danas izmenila 12 AOR-a (sve državna nadleštva) i da su, kada je nekoj organizaciji trebala mašina, razni predstavnici pritiskom na „Jugoštampu“ uspevali da ubede „tko zna koga“ da je korisno da mašina ode u drugo preduzeće — „i da se 'Jugoštampa' i dalje cepa“. Zatim nabraja krupne nepravilnosti: problem započetih a nedovršenih velikih zgrada za štampariju „Rad“ i „Geokartu“ i nehigijenski smeštaj niza manjih štamparija u Beogradu. Odeljak 3/ „Sadanje stanje i problematika preduzeća 'Jugoštampe' u toj zgradi“: preduzeće treba smatrati nedovršenim jer se nalazi „u položaju puža sa kornjačinom kućom na leđima“ — za preduzeće te veličine zgrada je preveliki finansijski teret. Prošle godine uzeli zajam od 16.000.000 dinara, od čega 10 mil. din. samo za radijatore centralnog grejanja; amortizaciona sredstva odlaze u centralni fond pa se iz njih ne može održavati zgrada. Konstatuju povišenje cene za oko 10/100 u odnosu na 1953. godinu; amortizacioni otpisi na zgradu 15,5 mil. dinara plus 2/100 kamate na osnovna sredstva 11,6 mil. din., ukupno 27,1 mil. din.",
+      "facts": [
+        {
+          "kind": "poreklo",
+          "value": "„Jugoštampa“ nastala spajanjem 5 grafičkih preduzeća; kasnije se cepala"
+        },
+        {
+          "kind": "iznos",
+          "value": "zajam 16.000.000 din, od toga 10 mil. din za radijatore centralnog grejanja"
+        },
+        {
+          "kind": "iznos",
+          "value": "amortizacija zgrade 15,5 mil. din + 11,6 mil. din kamate = 27,1 mil. din"
+        },
+        {
+          "kind": "godina poredjenja",
+          "value": "1953"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-premestanje-s3",
+      "folder": "Premestanje drugih stamprija",
+      "kind": "kucani elaborat",
+      "title": {
+        "sr": "Isti elaborat — str. 3: zgrada rađena po planu za jedno preduzeće",
+        "en": "Same report — p. 3: the building was planned for a single company"
+      },
+      "text": "Strana 3. „a na mašinska postrojenja 613 mil. dinara.“ Pošto „Jugoštampa“ koristi 60/100 prostora, na nju bi trebalo da padne i odgovarajući finansijski teret, što bi iznosilo 16 mil. din., dok bi na sve zakupce otpao teret od oko 11 mil. dinara; nemaju zakonskih osnova da se regresiraju za tih 11 mil. — po propisima o zakupu poslovnog prostora mogu da regresiraju samo oko 8,6 mil. dinara. Zakupci se pozivaju na propise o zakupnini poslovnih prostorija, koji pretpostavljaju da su prostorije bile korišćene već 1939. godine. Drugi razlog za povišenje cene: i od 60/100 koje koristi „Jugoštampa“ i od 40/100 koje koriste navedena preduzeća dobar deo nije iskorišćen niti pravilno. Podvučeno u originalu: „Zgrada je rađena po planu za jedno grafičko preduzeće“ — planom je predviđeno gde će biti koje odeljenje, zašto i kako će se koristiti koje prostorije, predviđen je bio ceo tehnološki proces. Usled anarhičnog naseljavanja došlo je do radikalnih odstupanja: rotacija je u nemogućoj i derutnoj zgradi „Omladine“, a mogla bi spajanjem stati među mašine „Jugoštampe“ bez ikakvih poteškoća; tamo gde su predviđene prostorije za slagačnicu nalazi se slagačnica „Omladine“. Da bi sav prostor bio iskorišćen 100/100, trebalo bi u zgradu dovesti još mašina — možda po predlogu komisije koja je za Udruženje grafičkih preduzeća izradila elaborat (elaborat prilažu) — i spojiti grafička preduzeća ove zgrade, eventualno i štamparije „Rad“ i „Kulturu“. Ukratko: u zgradi „Jugoštampe“ od preko 25.000 m² površine oko 30/100 je ili potpuno neiskorišćeno ili nedovoljno korišćeno.",
+      "facts": [
+        {
+          "kind": "iznos",
+          "value": "mašinska postrojenja 613 mil. dinara"
+        },
+        {
+          "kind": "povrsina",
+          "value": "preko 25.000 m² površine zgrade; oko 30/100 neiskorišćeno ili nedovoljno korišćeno"
+        },
+        {
+          "kind": "namena",
+          "value": "zgrada projektovana po planu za jedno grafičko preduzeće, sa unapred raspoređenim tehnološkim procesom"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-premestanje-s4",
+      "folder": "Premestanje drugih stamprija",
+      "kind": "kucani elaborat",
+      "title": {
+        "sr": "Isti elaborat — str. 4: instalacije, grejanje i predlog fuzije",
+        "en": "Same report — p. 4: services, heating and the merger proposal"
+      },
+      "text": "Strana 4. Treći razlog za povećanje cene i krupan argument za likvidaciju takvog stanja: zgrada je rađena za jedno preduzeće; ima jedno centralno grejanje čije su instalacije vrlo skupe — dnevno se troši oko 15 tona uglja, što iznosi 1.300 do 1.800 tona godišnje, odnosno ove godine preko 7 mil. dinara, bez obzira što u zgradi radi 1.000 ljudi koliko ih je sada, ili 2 i više hiljada koliko bi ih moglo raditi uz sadašnju tehničku opremu. Treba da ima jedinstvenu klima-instalaciju (ventilaciju) umesto da svako preduzeće ima svoju nepotpunu — „zgrada je sva izbušena usled uvađanja i demontiranja tih i drugih uređaja već prema 'potrebi', tj. zbog selenja“. Liftovi su podešeni za jedno preduzeće; električna mreža i instalacije prilagođene tome; jedna mehanička radionica i jedna topionica olova mogla bi zadovoljiti potrebe svih preduzeća u zgradi (važi i za ljevaonicu valjaka). Veliki je problem fizičkog osiguranja (čuvanja) zgrade zbog unutrašnje rascepkanosti i nemoguće kontrole osoblja; teško je pravilno podeliti troškove, potreban je veći administrativni aparat, a sporovi se rešavaju sporazumima i ugovorima. Odeljak 4/ „Predlog za rešenje — (Alternativa)“: 1/ fuzija svih grafičkih preduzeća ove zgrade u jedno preduzeće; 2/ fuzija još nekih drugih grafičkih preduzeća iz Beograda sa tim novim preduzećem; 3/ iseljenje negrafičkih preduzeća i ustanova iz ove zgrade.",
+      "facts": [
+        {
+          "kind": "oprema",
+          "value": "jedno centralno grejanje: oko 15 t uglja dnevno, 1.300–1.800 t godišnje, preko 7 mil. din"
+        },
+        {
+          "kind": "broj",
+          "value": "u zgradi radi oko 1.000 ljudi; kapacitet 2.000+ uz postojeću opremu"
+        },
+        {
+          "kind": "stanje",
+          "value": "instalacije izbušene usled stalnog uvođenja i demontiranja uređaja pri selidbama"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-premestanje-s5",
+      "folder": "Premestanje drugih stamprija",
+      "kind": "kucani elaborat",
+      "title": {
+        "sr": "Isti elaborat — str. 5: osam prednosti spajanja",
+        "en": "Same report — p. 5: eight advantages of the merger"
+      },
+      "text": "Strana 5. Nabrojano osam prednosti koje bi se spajanjem postigle: 1/ pravilno bi se koristila i privela svrsi zgrada građena za jednu štampariju; 2/ potpunije bi se koristile prostorije — pošto „Jugoštampa“ i ostala preduzeća rade pretežno u jednoj smeni, a stoji preko 25.000 m² površine, sa dve smene (a u nekim odeljenjima, npr. mašinskim slagačnicama, sa tri smene) dobila bi se još jedna „Jugoštampa“; 3/ oslobodile bi se zgrade i prostorije u kojima su sada smeštene štamparije koje bi se spojile sa „Jugoštampom“; 4/ veliko preduzeće lakše bi snosilo troškove održavanja skupe zgrade i uspešnije bi se borilo na tržištu za niže cene svojih proizvoda; 5/ pravilnije i potpunije bi se koristili postojeći kapaciteti — preduzeće bi moglo da primi svaku vrstu štampe; 6/ higijenski uslovi (visoke, svetle i prostrane prostorije, klima-instalacija, kupatilo i t.d.) nalažu da se u njih premesti što više grafičkih preduzeća; 7/ obnavljala bi se samo neophodna postrojenja; pisac se ne slaže da je grafička industrija bila zapostavljena, već da su sredstva trošena bez sistema, anarhično — postrojenja grafičkih preduzeća korišćena su samo sa oko 43/100, a izlaz je „u uzdizanju novih kadrova a samo delimično u nabavci novih mašina“; 8/ takvom preduzeću bila bi potrebna relativno mala investicija (jedna monotip mašina, nova stereotipija za rotaciju „Omladine“).",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "preko 25.000 m²; rad pretežno u jednoj smeni"
+        },
+        {
+          "kind": "iskorišćenost",
+          "value": "postrojenja grafičkih preduzeća korišćena oko 43/100"
+        },
+        {
+          "kind": "oprema",
+          "value": "zgrada ima klima-instalaciju, kupatilo, visoke i svetle prostorije"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-premestanje-s7",
+      "folder": "Premestanje drugih stamprija",
+      "kind": "kucani elaborat",
+      "title": {
+        "sr": "Isti elaborat — str. 7: odbijen predlog komisije i predlog radničkog saveta",
+        "en": "Same report — p. 7: the commission's proposal rejected; the workers' council proposal"
+      },
+      "text": "Strana 7. Predlog komisije koju je formiralo Udruženje grafičkih preduzeća odbijen je istim motivacijama; Upravni odbor udruženja je nakon takvog odgovora to „ostavio za bolja vremena — pošto nema smisla raditi na tome dok nije saznanje o korisnosti takvog poduhvata sazrelo kod članstva zainteresiranih kolektiva preduzeća“. Pisac tumači stvarne razloge: kulturna zaostalost dela članova tih kolektiva; ti kolektivi su prolazili bolje od „Jugoštampe“ upravo zbog tih nerešenih problema i imali su povoljniji položaj kao preduzeća društvenih organizacija, potom povoljnija stopa akumulacije; pominje i „pokvarenost onih rukovodilaca koji se boje za svoja radna mesta pa se služe svim sredstvima da sve ostane po starom (ušutkavaju one koji su za spajanje, plašeći neupućene nezaposlenošću i otpuštanjem)“, i oportunizam onih koji znaju u čemu je stvar ali se ne bore za pravilno rešenje. Odeljak 6/ „Naš predlog načina rešavanja tog problema“: Radnički savet je razmotrio materijal i složio se da se problem dâ nadležnim forumima. Kao hitno rešenje predlažu: 1/ da se izvrši odmah administrativno spajanje svih grafičkih preduzeća u zgradi „Jugoštampe“; 2/ da se pitanje zakupnine sa ostalim negrafičkim zakupcima reši bez štete po „Jugoštampu“. Predlažu da Narodni odbor Beograda formira još jednu komisiju, nepristrasnu i stručnu, koja će proučiti dosadašnji materijal (i onaj za i protiv) i činjenično stanje na licu mesta; osnov bi ipak trebao biti — podvučeno — „jedna zgrada jedno preduzeće!“ Zadatak takve komisije: 1/ da napravi detaljan plan rešenja, uključujući plan postrojenja — gde će biti koje odeljenje, koliko i koje mašine, uz minimalne naknadne investicije ili instalacije, predviđajući rad u dve smene (zbog centralnog grejanja koje se racionalnije koristi samo tako).",
+      "facts": [
+        {
+          "kind": "organ",
+          "value": "Radnički savet „Jugoštampe“ kao podnosilac predloga"
+        },
+        {
+          "kind": "nacelo",
+          "value": "„jedna zgrada jedno preduzeće“ — podvučeno u originalu"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-premestanje-s8",
+      "folder": "Premestanje drugih stamprija",
+      "kind": "kucani elaborat",
+      "title": {
+        "sr": "Isti elaborat — str. 8: zadaci komisije, prilozi i spisak dostave",
+        "en": "Same report — p. 8: tasks, attachments and distribution list"
+      },
+      "text": "Strana 8, poslednja. Nastavak zadataka komisije: celu zimu bez prekida grejati zgradu zbog opasnosti od zaleđivanja vodovodnih instalacija i centralnog grejanja; 2/ predvideti koja grafička preduzeća van ove zgrade dolaze u obzir za spajanje sa „Jugoštampom“, uz podelu na a/ šta izvršiti odmah i b/ šta kasnije do potpunog rešenja; 3/ izraditi ekonomsko obrazloženje celishodnosti poduhvata; 4/ izraditi predračun i redosled preseljenja; 5/ izraditi perspektivni plan investicija radi kompletiranja preduzeća. Napominju da predlog za takvo rešenje ne daju prvi put — ranije je davan raznim AOR-ima bez rezultata — pa bi ga „ovaj puta trebalo rešiti revolucionarno, kompleksno i planski“. Prilozi: 1/ predlog za rešenje problema zgrade grafičkih preduzeća u zgradi „Jugoštampe“, izrađen po komisiji formiranoj od Udruženja grafičkih preduzeća; 2/ odgovori radničkih saveta „Omladine“, „Jugoslavije“ i „Rada“ na predlog fuzije. Dostavljeno: 1. Pretsedniku Saveznog Veća Narodne skupštine drugu Moši Pijade; 2. Gradskom Narodnom odboru Beograda — Veću proizvođača; 3. Udruženju grafičkih preduzeća NR Srbije; 4. Mesnom odboru grafičara — Beograd.",
+      "facts": [
+        {
+          "kind": "dostava",
+          "value": "Moša Pijade, pretsednik Saveznog veća Narodne skupštine — prvi na spisku dostave"
+        },
+        {
+          "kind": "prilog",
+          "value": "odgovori radničkih saveta „Omladine“, „Jugoslavije“ i „Rada“ na predlog fuzije"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ponuda-metlas-k393-s1",
+      "folder": "Ponude i kostanja",
+      "kind": "ponuda",
+      "title": {
+        "sr": "Ponuda ing. Lj. Metlaša K-393/Za za kotlovsko postrojenje — str. 1",
+        "en": "Offer K-393/Za by eng. Lj. Metlas for the boiler plant — p. 1"
+      },
+      "text": "Memorandum: „Ing. LJ. METLAŠ, komisionarska radnja za prodaju automobila, automobilskog pribora, mašina i elektrotehničkih izrađevina, BEOGRAD“, sa adresama (Birčaninova 16, Garašaninova 22-I, Krunska 4, Garašaninova 47) i napomenom da je komisiona prodaja proizvoda tvornice ČESKOMORAVSKÉ STROJÍRNY A.S. PRAHA (prede: Českomoravská–Kolben–Daněk). Broj K-393/Za. Predmet (crvenim): „Ponuda za isporuku i postavljanje kotlovskog postrojenja u novoj zgradi Državne Štamparije u Beogradu“. Beograd, 22 augusta 1941. Naslovljeno na Ministarstvo građevina, Beograd; taksena marka od 10 dinara. Tekst: „Za zgradu Državne Štamparije čast je nama ponuditi Vam automatske kotlove PRAGA, i to u dve alternative“. I ALTERNATIVA: 8 automatskih parnih kotlova „PRAGA“, radni pritisak 0,6 atü, ogrevna površina 55 m², učin svakog kotla 750.000 kcal/h normalno i 940.000 kcal/h maksimalno. Kotlovi od Ia kotlovskog lima, sa šamotskim uzidjivanjem ognjišta, s promajom kroz cevi, s automatskom lančanom rešetkom za automatsku regulaciju sistem „Praga“. Rešetka podešena za bezdimno sagorevanje domaćih mrkih ugljena 10–20 mm, sadržina pepela do 20%; stepen iskoristivosti kod uglja od 4100 kcal/kg u granicama 50–100% normalnog opterećenja je 80% (po VDI). Nabrojana oprema: rešetka s pogonskim uređajem i elektromotorom, regulacija vazdušnih klapni, koš za ugljen sa zatvaračem, izolacija, dimni šturac s klapnom, slavina za punjenje i pražnjenje, regulator pritiska pare, manometar, pokazivač nivoa vode, osiguravajuća cev (Standrohr), ventilatori na donju promaju tako da svaka dva kotla imaju zajednički ventilator s elektromotorom od 1,5 KS (težina ventilatora sa motorom 250 kg), alat za pogon, podvoz i montaža na licu mesta — ali bez priključka na električnu i vodovodnu mrežu i bez ikakvih zidarskih i betonskih radova (podvučeno).",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-08-22"
+        },
+        {
+          "kind": "firma",
+          "value": "Ing. Lj. Metlaš, Beograd — komisiona prodaja Českomoravské strojírny a.s. Praha (ex Kolben-Daněk)"
+        },
+        {
+          "kind": "oprema",
+          "value": "I alternativa: 8 kotlova PRAGA, 0,6 atü, ogrevna površina 55 m², 750.000 kcal/h normalno"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-08-22"
+    },
+    {
+      "id": "cit-ponuda-metlas-k393-s2",
+      "folder": "Ponude i kostanja",
+      "kind": "ponuda",
+      "title": {
+        "sr": "Ponuda K-393/Za — str. 2: težine, cene i II alternativa",
+        "en": "Offer K-393/Za — p. 2: weights, prices and the second alternative"
+      },
+      "text": "Strana 2 ponude K-393/Za. Težina kotla po komadu bez ventilatora 12.000 kg; 8 kotlova sa ventilatorima 97.000 kg. CENA: neocarinjeno franko gradilište, montirano i stavljeno u pogon, sve kompletno za postrojenje od 8 kotlova RM 105.800,— (slovima: Rajhsmaraka stopethiljadaosamsto 00/100), podvučeno crvenim. Od te sume iznos od RM 27.800,— isplaćuje se u dinarima u Beogradu za montažu i ostale režijske troškove. Rukom dopisano plavim: 105.800 × 20 = 2,116.000 dinara, i crvenim na margini „26,3%“. II ALTERNATIVA: 6 automatskih parnih kotlova „PRAGA“, u svemu kao kod I, ali ogrevna površina 75 m², učin svakog kotla 1.000.000 kcal/h normalno i 1.275.000 kcal/h maksimalno (rukom dopisano 13,3·10³ i 17,0·10³ kcal/h — po m²). Težina 1 kotla bez ventilatora 15.500 kg, 6 kotlova sa ventilatorima 93.750 kg. CENA za postrojenje od 6 kotlova RM 96.010,— (slovima: devetdesetšesthiljada deset 00/100); od toga RM 21.500,— u dinarima za montažu i režiju; rukom: 96.010 × 20 = 1.920.200 dinara, na margini „22,4%“. Cene se razumeju franko gradilište sa montažom i probnim pogonom, neocarinjeno, sa svim zakonskim taksama; kalkulisane su pod pretpostavkom transporta Dunavom — ako bi se moralo železnicom, Ministarstvo doplaćuje višak transportnih troškova: za I alternativu RM 7.500,— (150.000 din), za II RM 7.225,— (144.500 din). CARINA na bazi carinske stavke od 28 zlat. din. za 100 kg i 20% skupnog poreza: za I alternativu Din. 836.000,-, za II Din. 814.100,-. MONTAŽA obuhvata dovoz, unos, kompletno montiranje kotlova i ventilatora s probnim pogonom i uzidjivanje, ali bez priključka na električnu i vodovodnu mrežu i bez zidarskih i betonskih radova — njih izvodi Ministarstvo građevina prema detaljnim nacrtima koje će ponuđač dostaviti „ukoliko to redovni poštanski saobraćaj bude dozvolio“.",
+      "facts": [
+        {
+          "kind": "iznos",
+          "value": "I alternativa RM 105.800 (2.116.000 din po kursu 1 RM = 20 din)"
+        },
+        {
+          "kind": "iznos",
+          "value": "II alternativa RM 96.010 (1.920.200 din); 6 kotlova od 75 m²"
+        },
+        {
+          "kind": "kurs",
+          "value": "1 rajhsmarka = 20 dinara"
+        },
+        {
+          "kind": "iznos",
+          "value": "carina: 836.000 din (I) odnosno 814.100 din (II)"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ponuda-metlas-k393-s3",
+      "folder": "Ponude i kostanja",
+      "kind": "ponuda",
+      "title": {
+        "sr": "Ponuda K-393/Za — str. 3: rok, garancije, dispozicija kotlovnice",
+        "en": "Offer K-393/Za — p. 3: deadline, guarantees, boiler-room layout"
+      },
+      "text": "Strana 3 ponude K-393/Za. ROK ISPORUKE: „Pošto rok isporuke, kao i sama isporuka, zavisi u glavnom od odobrenja nadležnih nemačkih vlasti, ne možemo se u ovom pogledu čvrsto obavezati, te ne priznajemo nikakve penale koje bi nastale usled zakašnjenja isporuke“ (podvučeno crvenim). Rok nude neobavezno: za I alternativu 4½ meseci iz fabrike, za II alternativu 7 meseci iz fabrike. Rok montaže oko 2 meseca od dana kada budu završene carinske manipulacije; rok dovoza materijala iz fabrike u Beograd ne mogu predvideti usled ratnih prilika. GARANCIJE: prvoklasan materijal i izrada; kod mrkog uglja od 4100 kcal/kg garantuju bezdimno sagorevanje i stepen iskoristivosti od 80% u granicama opterećenja ½ do 4/4 normalnog (normalno opterećenje 4/4 = 13500 kcal/m²h, maksimalno trajno 5/4 = 17000 kcal/m²h). REŠETKA: izrađena specijalno prema iskustvu stečenom sa jugoslavenskim mrkim ugljenom, vodoravna da se drozga na njoj ne lomi; „svaki normalni domaći ugljen vrste Trbovljanskih ugljena izvrsno se ponaša na rešetci“. VENTILATOR: ponuđeno postrojenje s ventilatorima jer obezbeđuju siguran pogon nezavisan od klimatskih prilika i daju bolji efekat kod uglja sa većom količinom sitne ugljene prašine. DISPOZICIJA KOTLOVNICE: kotlovi PRAGA postavljaju se uvek po dva simetrično, jer radi po jedan ventilator koji se može isključiti; kotlovi se postavljaju u jednoj liniji. Ako je dužina kotlovnice — „koliko znamo“ — 28 metara, dužina za smeštaj kotlova po I i II alternativi; u slučaju prve alternative ne bi mogao ostati slobodan prostor od 5 m, pa bi za I alternativu razdeljnicu pare trebalo smestiti ispred ili pozadi linije kotlova; kod II alternative poželjan prostor ostaje slobodan. USLOVI PLAĆANJA: 40% pri potpisivanju ugovora, 40% pri prispeću robe na carinarnicu, 10% po izvršenju montaže, 10% po izvršenju probnog pogona. Deo cene u dinarima iznosi za I alternativu 26,3%, za II 22,4%.",
+      "facts": [
+        {
+          "kind": "dimenzija",
+          "value": "dužina kotlovnice oko 28 m (navod ponuđača: „koliko znamo“)"
+        },
+        {
+          "kind": "rok",
+          "value": "I alternativa 4½ meseca iz fabrike, II alternativa 7 meseci; bez penala"
+        },
+        {
+          "kind": "uslov",
+          "value": "isporuka zavisi od odobrenja nemačkih vlasti"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ponuda-metlas-k393-s4",
+      "folder": "Ponude i kostanja",
+      "kind": "ponuda",
+      "title": {
+        "sr": "Ponuda K-393/Za — str. 4: plaćanje u markama i carinjenje",
+        "en": "Offer K-393/Za — p. 4: payment in Reichsmarks and customs"
+      },
+      "text": "Strana 4, poslednja, ponude K-393/Za; u pozadini se providi zaglavlje „ČESKOMORAVSKÁ-KOLBEN-DANĚK“. Deo ugovorne cene koji se plaća u rajhsmarkama ima se položiti u korist firme „Böhmisch-Mährische Maschinenfabriken A.G. – Prag“. Za unapred primljeni iznos položiće Ministarstvu garantno pismo prvoklasne domaće banke (podvučeno crvenim, sa kvačicom na margini). CARINJENJE: ako ne bi bili oslobođeni carine i ako bi hteli da carinjenje izvrši ponuđač, odgovarajući iznos mora se položiti na dan prispeća robe na carinarnicu, a saopštenje o želji da ponuđač preuzme carinjenje mora se dati najkasnije za 90 dana, računajući od dana potpisivanja ugovora odnosno od dana saopštenja odluke o ustupanju posla. „Opšte i tehničke uslove nama su poznate.“ Potpis i pečat: „Ing. Ljubiša METLAS, komisionarska radnja, BEOGRAD, Garašaninova 22“, uz svojeručni potpis.",
+      "facts": [
+        {
+          "kind": "firma",
+          "value": "marke se plaćaju firmi Böhmisch-Mährische Maschinenfabriken A.G., Prag"
+        },
+        {
+          "kind": "uslov",
+          "value": "garantno pismo prvoklasne domaće banke za primljeni avans"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-ponuda-metlas-k403-dopuna",
+      "folder": "Ponude i kostanja",
+      "kind": "dopuna ponude",
+      "title": {
+        "sr": "Dopune/promene ponude K-403/Za, 1. septembar 1941",
+        "en": "Amendment K-403/Za to the offer, 1 September 1941"
+      },
+      "text": "Isti memorandum ing. Lj. Metlaša. Broj K-403/Za. Predmet (crvenim): „Dopune odnosno promene ponude K-393/Za“. Beograd, 1 septembra 1941, Birčaninova 16. Naslovljeno Ministarstvu građevina; taksena marka 10 dinara, prijemni pečat. Tekst: na osnovu razgovora povodom direktne pogodbe za isporuku i montažu kotlovskog postrojenja za novu zgradu Državne štamparije dostavljaju izmene uslova ponude K-393/Za od 22.VIII.41. USLOVI PLAĆANJA (izmenjeni u odnosu na raniju podelu 40/40/10/10): 30% od ugovorene cene celokupne isporuke odmah po potpisivanju ugovora odnosno po saopštenju rešenja o definitivnom ustupanju isporuke; 30% od ugovorene cene svake pojedine isporučene partije materijala odmah po prispeću te partije na carinarnicu, a najkasnije do 10 dana po tome prispeću; 40% od ugovorene cene svake partije nakon njegove montaže i prijema izvršenog posla (kolaudacije), a najkasnije do 30 dana posle završene montaže. Zakašnjenja u isplati od strane Ministarstva građevina automatski produžuju rok isporuke za onoliko dana koliko je trajalo zakašnjenje, bez plaćanja ikakvih penala ponuđača (označeno crvenom crtom na margini). Deo cene koji se plaća u dinarima iznosi za I alternativu 26,3%, za II 22,4%. ROK ISPORUKE: obavezuje se da izvrši isporuku i montažu kompletnog kotlovskog postrojenja za I alternativu u roku od 255 kalendarskih dana, za II alternativu u roku od 330 kalendarskih dana (crvena crta na margini). Rokovi važe od dana potpisivanja ugovora odnosno od dana saopštenja definitivne odluke o ustupanju isporuke.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-09-01"
+        },
+        {
+          "kind": "rok",
+          "value": "255 kalendarskih dana (I alternativa), 330 dana (II alternativa)"
+        },
+        {
+          "kind": "uslov",
+          "value": "plaćanje 30% / 30% / 40%"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-09-01"
+    },
+    {
+      "id": "cit-ponuda-strebelwerk-1941",
+      "folder": "Ponude i kostanja",
+      "kind": "ponuda",
+      "title": {
+        "sr": "Ponuda firme Strebelwerk Mannheim, 9. IX 1941",
+        "en": "Offer by Strebelwerk Mannheim, 9 Sept 1941"
+      },
+      "text": "Štampani memorandum u dve boje: „STREBELWERK MANNHEIM — BERLIN, DÜSSELDORF, HAMBURG, LEIPZIG, MÜNCHEN“, sa nizom filijala (Brackwede, Bremen, Breslau, Chemnitz, Dresden, Erfurt, Frankfurt a.M., Hannover, Köln, Königsberg, Nürnberg, Stuttgart) i bankama (Deutsche Bank und Disconto-Gesellschaft Mannheim, Dresdner Bank, Reichsbank). Rukom crvenim gore: „I“. Naslovljeno: Ministarstvu građevina, Beograd; datum „9.IX.1941 god.“; taksena marka. Tekst: „U vezi dotičnog raspisa čast nam je ponuditi P.N. isporuku i montažu parnih kotlova za pogon sa niskim pritiskom do 0,6 atü našeg fabrikata serije 'UNI' — osam /8/ kotlovskih jedinica od po 58,0 m² zagr. površ. svaka, t.j. ukupno 464,0 m², sa ukupnim [rukom dopisano: normalnim] kapacitetom oko 6.800.000 kal./čas“ (podvučeno crvenim), u izradi od specijalnog kotlovskog lima i čeličnih cevi, visokog efekta, u svemu prema raspisanim specijalnim tehničkim uslovima /deo I.–IV./, sa pokretnim automatskim rešetkama — za postavljanje u novoj zgradi Državne Štamparije u Beogradu. Cena: franko mesto, isporučeno, montirano, bez priključaka na parnu, kondenznu, električnu i vodovodnu mrežu i bez troškova po carinskoj deklaraciji (carina, skupni porez, trošarina i kaldrmina): „Kom. 8 à Dinara 275.000,-- Uk. Din. 2,200.000,--“ (podvučeno crvenim), i slovima: dva miliona dvesta hiljada. Troškovi po carinskoj deklaraciji: carina 370.000,—; skupni porez 400.000,—; trošarina i kaldrmina 44.000,—; ukupno Dinara 814.000,—. „Svi su uslovi za ovaj posao nama poznati i na iste pristajemo“. Potpis zastupnika: STREBELWERK G.m.b.H., Vertretung für Jugoslavien.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-09-09"
+        },
+        {
+          "kind": "oprema",
+          "value": "8 kotlova serije UNI, po 58,0 m², ukupno 464,0 m², oko 6.800.000 kal/čas"
+        },
+        {
+          "kind": "iznos",
+          "value": "8 × 275.000 din = 2.200.000 din + 814.000 din carinski troškovi"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-09-09"
+    },
+    {
+      "id": "cit-strebelwerk-dopuna-kliring",
+      "folder": "Ponude i kostanja",
+      "kind": "dopuna ponude",
+      "title": {
+        "sr": "Strebelwerk: dopuna o plaćanju preko klirniga, 10. 9. 1941",
+        "en": "Strebelwerk: clearing-payment amendment, 10 Sept 1941"
+      },
+      "text": "Isti memorandum Strebelwerka; rukom crvenim gore „I“. „Belgrad 10.9.1941“. Naslovljeno Ministarstvu građevina, Beograd. Tekst: „U vezi naše ponude od 9 Sept 1941 naknadno izjavljujemo da od ponuđene sume od Din. 2.200.000,- ima se platiti preko klirniga: RM 82.000,- za kotlove; RM 5.600,- za transportne i montažne troškove (koliko se odnosi na putne troškove i dnevnice fabričnih organa); svega RM 87.600,-. Izvolite prednje primiti na znanje kao dopunu odnosno sastavni deo naše ponude od 9.Sept.1941.“ Potpis: STREBELWERK Gesellschaft mit beschränkter Haftung, Vertretung für Jugoslavien, svojeručno. Dole levo odštampano: „ING. DRAGUTIN pl. KREMPLER, BEOGRAD, JANKA VESELINOVIĆA 10, TEL. 42-237, 41-339“ — zastupnik firme.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-09-10"
+        },
+        {
+          "kind": "iznos",
+          "value": "RM 82.000 za kotlove + RM 5.600 transport/montaža = RM 87.600 preko klirniga"
+        },
+        {
+          "kind": "lice",
+          "value": "ing. Dragutin pl. Krempler, Beograd — zastupnik Strebelwerka za Jugoslaviju"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-09-10"
+    },
+    {
+      "id": "cit-komisijski-izvestaj-kotlovi-s1",
+      "folder": "Ponude i kostanja",
+      "kind": "komisijski izveštaj",
+      "title": {
+        "sr": "Komisijski izveštaj o neposrednoj pogodbi za kotlove — str. 1",
+        "en": "Commission report on the direct award of the boiler contract — p. 1"
+      },
+      "text": "Zaglavlje: „Predmet: Neposredna pogodba za isporuku i montažu kotlova niskog pritiska u novoj zgradi Državne štamparije u Beogradu“. Naslov: MINISTARSTVU GRADJEVINA, Beograd. „Komisijski izveštaj.“ Komisija određena rešenjem Gospodina Ministra građevina MGBr. 22335 od 9 septembra 1941 godine za zaključenje neposredne pogodbe za isporuku i montažu kotlova niskog pritiska u novoj zgradi Državne štamparije u Beogradu pregovarala je za zaključenje neposredne pogodbe na dan 12 septembra 1941 godine, i to: sa pretstavnikom firme „Strebelwerke“ Mannheim /Nemačka/ g. ing. Drag. Kremperom; sa ing. Lj. Metlašem iz Beograda. „Pozvati pretstavnik firme 'Jugoškoda' nije došao na ove pregovore.“ Firma „Strebelwerke“ nudi ceo posao sa osam /8/ parnih kotlova niskog pritiska, svaki veličine 58 m² ogrevne površine, ukupno 464 m², kapacitetom oko 6.800.000 kal/čas, prema raspisanim uslovima, za ukupnu sumu: a/ materijal iz Nemačke 82.000 RM; b/ transport materijala iz Nemačke 5.600 RM; v/ montaža i ostale državne dažbine 448.000 din; g/ carina, skupni porez, trošarina itd. 814.000 din — ukupno 87.600 RM i 1,262.000 dinara; kada se marke pretvore u dinare po kursu 1 RM = 20 dinara: 87.600 × 20 + 1,262.000 = 3,014.000 dinara, „niže od predračuna za 106.000 dinara“. Komisija ocenjuje da ponuda odgovara tehničkim propisima i da je broj kotlova dovoljan da pokrije sve potrebe zgrade Državne štamparije; prednost tih kotlova je dobar stepen dejstva, ekonomični su i za njihov pogon „nisu potrebni nikakvi uredjaji radi forsiranja promaje, odnosno poboljšanja sagorevanja goriva“ (podvučeno). Firma ing. Lj. Metlaša nudi posao po dvema alternativama: a/ 8 kotlova „Praga“ po 55 m², ukupno 440 m², kapacitet 6.000.000 kal/čas normalno i 7.520.000 maksimalno, za 78.000 RM robe, 27.800 RM montaže, 7.500 RM dodatka za transport železnicom (ako se ne može Dunavom) i 836.000 din carine i trošarine — ukupno 113.300 RM i 836.000 din, odnosno 113.300 × 20 + 836.000 = 3,102.000 dinara, niže od predračuna za 18.000 dinara.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-09-12"
+        },
+        {
+          "kind": "akt",
+          "value": "rešenje Ministra građevina MGBr. 22335 od 9. septembra 1941 — imenovanje komisije"
+        },
+        {
+          "kind": "iznos",
+          "value": "Strebelwerke ukupno 3.014.000 din — 106.000 din ispod predračuna"
+        },
+        {
+          "kind": "ucesnik",
+          "value": "pozvana „Jugoškoda“ nije došla na pregovore"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-09-12"
+    },
+    {
+      "id": "cit-komisijski-izvestaj-kotlovi-s2",
+      "folder": "Ponude i kostanja",
+      "kind": "komisijski izveštaj",
+      "title": {
+        "sr": "Komisijski izveštaj — str. 2: zaključak u korist firme Strebelwerke",
+        "en": "Commission report — p. 2: award recommended to Strebelwerke"
+      },
+      "text": "Strana 2 izveštaja. Ova ponuda (Metlaš, I alternativa) odgovara propisanim uslovima, skuplja je za 88.000 dinara od one firme „Strebelwerke“, a nema nikakve naročite prednosti — „sa više ova alternativa po ogrevnoj površini za 24 m² manja je nego li ona od firme 'Strebelwerke'“; pored toga, za pogon ovih kotlova potrebno je da se proizvodi veštačka promaja, što će ipak imati izvesnih izdataka u pogonu. Preduzimač traži da mu se suma od 27.800 RM isplati u dinarima, pošto je taj iznos predviđen za montažu i ostale režijske troškove. Po drugoj alternativi firma nudi 6 komada kotlova za rad sa parom niskog pritiska, fabrikata „Praga“, svaki veličine 75 m² ogrevne površine, što čini ukupno 450 m² ogrevne površine, sa ukupnim kapacitetom kod normalnog pogona 6.000.000 kal/čas, odnosno kod maksimalnog opterećenja 7.650.000 kal/čas, a sve za ukupnu sumu: a/ materijal iz Praga 74.510 RM; b/ montaža 21.500 RM; v/ eventualni transport železnicom, doplata 7.225 RM; g/ carina, skupni porez itd. 814.100 din. Ukupno 103.235 RM i 814.100 dinara, odnosno 103.235 × 20 + 814.100 = 2,878.800 dinara, niže od predračuna za 241.200 dinara. Ova alternativa odgovara propisanim uslovima, samo je po ogrevnoj površini manja za 14 m² nego li ponuđena ogrevna površina od strane „Strebelwerke“; i ovde je potrebna veštačka promaja koja će tokom eksploatacije iziskivati izvesne troškove. I za ovu alternativu firma traži da joj se 21.500 RM isplati u dinarima na ime montaže i režijskih troškova. Najzad firma čini primedbu na čl. 22 Posebnih uslova, o novčanim kaznama za produženje roka za dovršenje započetog posla; pristaje na taj član samo ako bude odobreno od nadležnih nemačkih vlasti. „Na osnovu svega napred izloženog komisija nalazi da gore navedeni posao treba ustupiti firmi 'Strebelwerke' iz Mannheima /Nemačka/ za pogođenu sumu od 87.600 RM i 448.000 dinara, 814.000 dinara za carinu, skupni porez itd. što čini ukupno u dinarima 3,014.000 dinara, pošto je njena ponuda povoljnija, bez ikakvih je primedbi, i predlaže da se ista usvoji.“ Beograd, 15. septembra 1941 god. Tri svojeručna potpisa članova komisije (1/, 2/ ing., 3/ ing.). Dole prijemni pečat: MINISTARSTVO GRAĐEVINA, br. 23487, 16/IX 1941, BEOGRAD, sa rukom pisanom rezolucijom „Primiti na znanje“ i parafima.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-09-15"
+        },
+        {
+          "kind": "odluka",
+          "value": "komisija predlaže ustupanje posla firmi Strebelwerke, Mannheim, za ukupno 3.014.000 dinara"
+        },
+        {
+          "kind": "akt",
+          "value": "prijemni pečat Ministarstva građevina br. 23487 od 16. IX 1941"
+        },
+        {
+          "kind": "iznos",
+          "value": "Metlaš II alternativa 2.878.800 din — jeftinija, ali manja ogrevna površina"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-09-15"
+    },
+    {
+      "id": "cit-program-utakmice-s1",
+      "folder": "Ponude i kostanja",
+      "kind": "štampani program konkursa",
+      "title": {
+        "sr": "Program utakmice za idejne skice nove zgrade Državne štamparije — str. 1",
+        "en": "Competition programme for the new State Printing House — p. 1"
+      },
+      "text": "Štampana brošura, ćirilica: „ПРОГРАМ УТАКМИЦЕ за израду идејних скица за нову зграду Државне штампарије у Београду“. I СВРХА — УТАКМИЦЕ: „Да се добије идејна скица за подизање нове зграде Државне штампарије у Београду.“ II РАСПИС — УТАКМИЦЕ: а.) Име расписивача утакмице: Министарство просвете у Београду. б.) Састав Оцењивачког суда: по решењу Господина Министра просвете П.број 15437/32 и П.бр. 11661/33 године чланови су: 1.) Помоћник Министра просвете г. Д-р Владимир Дворниковић; 2.) Архитекта, професор Универзитета у Београду, г. Петар Бајаловић; 3.) Архитекта, делегат У.Ј.И.А. г. Јанко Шафарик, овлашћени архитекта; 4.) Управник Државне штампарије г. Властимир Будимовић; 5.) Инжењер, инспектор Мин. просвете г. Радослав Тодоровић. Заменици: 1.) Начелник општег одељења Мин. просвете г. Драгослав Илић; 2.) Архитекта, в. проф. Универзитета у Београду г. Светозар Јовановић; 3.) Архитекта, делегат У.Ј.И.А. г-ђа Милица Крстић, саветник Министарства грађевина; 4.) Архитекта, саветник Министарства грађевина, г. Момир Коруновић; 5.) Помоћник управника Државне штампарије г. Јован Дешић. в.) Услови утакмице: 1.) Врста утакмице — Општа Југословенска, са правом учешћа свих држављана наше Краљевине, који се налазе у земљи или на страни. 2.) Број цртежа који се траже — све основе (сутерен, приземље, I, II, III спрат и кров); три карактеристична пресека са котама подова; 2 фасаде (из Невесињске и Његошеве улице).",
+      "facts": [
+        {
+          "kind": "organ",
+          "value": "raspisivač: Ministarstvo prosvete u Beogradu"
+        },
+        {
+          "kind": "akt",
+          "value": "rešenja ministra prosvete P.broj 15437/32 i P.br. 11661/33 — sastav ocenjivačkog suda"
+        },
+        {
+          "kind": "lice",
+          "value": "ocenjivački sud: Vladimir Dvorniković, Petar Bajalović, Janko Šafarik, Vlastimir Budimović, Radoslav Todorović"
+        },
+        {
+          "kind": "lice",
+          "value": "zamenici: Dragoslav Ilić, Svetozar Jovanović, Milica Krstić, Momir Korunović, Jovan Dešić"
+        },
+        {
+          "kind": "lokacija",
+          "value": "fasade iz Nevesinjske i Njegoševe ulice"
+        },
+        {
+          "kind": "datiranje",
+          "value": "raspis nosi brojeve rešenja 15437/32 i 11661/33 — nastanak 1932/1933; godina nije odštampana"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-program-utakmice-s2",
+      "folder": "Ponude i kostanja",
+      "kind": "štampani program konkursa",
+      "title": {
+        "sr": "Program utakmice — str. 2: razmera, rok predaje, nagrade",
+        "en": "Competition programme — p. 2: scale, deadline, prizes"
+      },
+      "text": "Strana 2 programa. Jedan perspektivni izgled sa proizvoljnim mestom posmatranja. „Размера свих нацрта 1:200. Стил грађевине слободан. Приближна вредност грађевине по м³ озидане површине.“ Svi crteži i perspektiva predstavljeni u tušu ili olovci u jednoj boji, u originalu ili heliografskoj kopiji, moraju biti kaširani na kartonu. 3.) Oznaka radova — svaki deo podnetog projekta mora biti označen šifrom; istom šifrom mora biti obeležen i zapečaćen koverat koji sadrži ime, zanimanje, mesto stanovanja i adresu takmičara; na kovertu ne sme biti označena adresa radi povratka podnetog projekta. 4.) Mesto i rok predaje — rok za predaju radova je 26 maj ove godine do 12 časova u podne, u zgradi Zadužbinskog odeljenja Ministarstva prosvete u Vlajkovićevoj ulici br. 5, u kancelariji tehničkog inspektora. Takmičari koji stanuju u Beogradu moraju preko nepoznate ličnosti poslati svoje radove; takmičari van Beograda imaju do tog vremena predati radove pošti, a takmičari van zemlje još i telegrafski izvestiti Ministarstvo prosvete. Radovi koji zadocne neće se primati niti uzimati u ocenu. 5.) Broj nagrada — nagrada je tri: prva 50.000 dinara, druga 25.000, treća 15.000. Ocenjivački sud ne mora dodeliti sve nagrade, ali je obavezan da celokupnu predviđenu sumu za nagrade i otkupe utroši. 6.) Otkup nenagrađenih radova — određuje se još suma od 25.000 dinara koju će sud podeliti po svom nahođenju. 7.) Podela nagrada — Ministarstvo prosvete obavezno je isplatiti samo one nagrade i otkupe koje Ocenjivački sud odredi. 8.) Vlasništvo nagrađenih radova — Ministarstvo prosvete postaje apsolutni vlasnik svih nagrađenih i otkupljenih crteža i ostalih priloga i zadržava sebi pravo da ih po svojoj volji i potrebi upotrebi bilo u celini, bilo u njihovim karakterističnim delovima, bez ikakve druge naknade nagrađenima i njihovog učešća u izradi definitivnog plana i izvođenja posla. 9.) Izložba radova — po izvršenom ocenjivanju i objavljivanju nagrada Ministarstvo prosvete priređuje javnu izložbu.",
+      "facts": [
+        {
+          "kind": "razmera",
+          "value": "svi nacrti 1:200; stil građevine slobodan"
+        },
+        {
+          "kind": "rok",
+          "value": "predaja radova 26. maja do 12 časova, Vlajkovićeva 5, Zadužbinsko odeljenje Ministarstva prosvete"
+        },
+        {
+          "kind": "iznos",
+          "value": "nagrade 50.000 / 25.000 / 15.000 dinara + 25.000 dinara za otkupe"
+        },
+        {
+          "kind": "pravo",
+          "value": "Ministarstvo prosvete postaje apsolutni vlasnik nagrađenih i otkupljenih radova, bez učešća autora u izvođenju"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-institut-ispitivanje-betona-1967",
+      "folder": "Ponude i kostanja",
+      "kind": "stručni izveštaj",
+      "title": {
+        "sr": "Institut za ispitivanje materijala: ispitivanje betona BGZ, 16. 5. 1967",
+        "en": "Institute for Materials Testing: concrete testing at BGZ, 16 May 1967"
+      },
+      "text": "Memorandum: „SOCIJALISTIČKA REPUBLIKA SRBIJA — UNIVERZITET — INSTITUT ZA ISPITIVANJE MATERIJALA — GRAĐEVINSKI FAKULTET, BEOGRAD, Bulevar Revolucije 73“; telefon 41-239, poštanski fah 805, tekući račun 101-21-603-81. Datum 16. 05. 1967 god.; naš broj 36. Predmet (ćirilicom): „Испитивање бетона.“ Naslovljeno: БЕОГРАДСКИ ГРАФИЧКИ ЗАВОД, Београд. Tekst: „У вези уговора број 890 од 16.05.1967. године овај Институт извршио је испитивање плоче и греда између примезља [приземља] и партера на згради Београдског Графичког Завода. Испитивање је извршено комбинованом методом испитивања ултразвуком и испитивањем 14 бетонских цилиндара извађених из конструкције. Резултати испитивања дати су табеларно. Положај мерних места као и места одакле су извађени цилиндри дати су на приложеним скицама.“ Kroz papir se providi tabela sa rezultatima (brojevi 410–760 i rasponi oko 4100–4700) sa poleđine ili sledećeg lista.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1967-05-16"
+        },
+        {
+          "kind": "akt",
+          "value": "ugovor broj 890 od 16.05.1967 — Beogradski grafički zavod / Institut za ispitivanje materijala"
+        },
+        {
+          "kind": "metoda",
+          "value": "ultrazvuk + 14 betonskih cilindara izvađenih iz konstrukcije; ploča i grede između prizemlja i partera"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1967-05-16"
+    },
+    {
+      "id": "cit-skice-profil-ekonomski-1",
+      "folder": "Skice",
+      "kind": "crtež / profil terena",
+      "title": {
+        "sr": "Ekonomski blok — Profil I (iskop, kolaudaciona skica)",
+        "en": "Service block — Profile I (excavation, approval drawing)"
+      },
+      "text": "Paus-crtež na providnom papiru, ćirilica: „ЕКОНОМСКИ БЛОК. ПРОФИЛ I.“ Presek terena od kote ±0.00 naniže, sa lomljenom linijom iskopa i ucrtanim numerisanim poljima 1–11 koja prate pad terena; horizontalne mere očitane uz liniju: 4,50 · 4,30 · 1,00 · 1,50 · 2,46 · 2,62 · 1,56 · 3,12 · 3,80 · 2,40 · 4,10 · 3,50 · 4,22 · 2,20 · 4,42 · 2,22 · 4,23 · 2,00 · 4,27 · 4,32. Uz desnu ivicu crvenom olovkom upisana tabela obračuna površina po poljima: red po red izrazi tipa „1. 2,80 × (0,18+0,95)/2“, „2. 4,00 × (0,95+2,86)/2“, „3. 4,80 × (2,93+2,6)/2“ … do reda 11, sa rezultatima u koloni m²: 2,36; 1,94; 4,65; 0,60; 3,80; 2,14; 2,00; 0,46; 0,50; 0,49; 0,14 — i zbirom koji je prvo napisan 17,64 pa ispravljen na 18,25 (precrtano). Dole levo štambilj „ПРЕГЛЕДАНО У МИНИСТАРСТВУ ГРАЂЕВИНА / МГ Бр. ____ / Београд ____ 19__ г. / Референт“ sa crvenim parafom, i rukom „Надзорни инжењер“ sa potpisom i datumom (čita se 17.4.1941 ili 17.4.1937 — poslednja cifra nesigurna). Desno gore „КОЛАУДОВАНО У МИНИСТАРСТВУ ГРАЂЕВИНА“ sa tri potpisa članova komisije. U uglu olovkom broj crteža „Ф 1596“.",
+      "facts": [
+        {
+          "kind": "crtez",
+          "value": "Ekonomski blok, Profil I — profil iskopa sa 11 obračunskih polja"
+        },
+        {
+          "kind": "overa",
+          "value": "pregledano u Ministarstvu građevina; kolaudovano, tri potpisa komisije"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-skice-profil-ekonomski-2",
+      "folder": "Skice",
+      "kind": "crtež / profil terena",
+      "title": {
+        "sr": "Ekonomski blok — Profil II",
+        "en": "Service block — Profile II"
+      },
+      "text": "Isti tip paus-crteža: „ЕКОНОМСКИ БЛОК. ПРОФИЛ II.“ Presek od kote ±0.00 sa stepenasto ucrtanim poljima 1–8 i merama 4,50 · 4,30 · 1,00 · 1,60 · 0,80 · 5,10 · 5,10 · 7,90 · 5,00 · 1,10 · 4,98 · 2,00 · 4,85 · 2,22 · 4,92 · 2,00 · 5,00 · 5,22 · 5,36; crvenim upisana kota „-3,65“ odnosno „-3,80“. Tabela obračuna crvenom olovkom, redovi 1–8 oblika „4,30 × (0,45+0,95)/2“, „1,50 × (0,95+5,46)/2“, „4,80 × (5,25+5,46)/2“, „7,90 × (5,25+5,13)/2“, „1,80 × (5,45+5,13)/2“, „2,06 × (5,13+5,13)/2“, „2,22 × (5,00+5,01)/2“, „2,00 × (5,07+5,11)/2“; rezultati u koloni m²: 3,30; 2,56; 9,87; 41,01; 9,25; 10,13; 11,12; 10,24 — ukupno sa prepravkom (čitljivo 93,41 ili 98,41). Dole levo isti štambilj „ПРЕГЛЕДАНО У МИНИСТАРСТВУ ГРАЂЕВИНА са техничке и рачунске стране / МГ Бр. / Београд 19 г. / Референт“, uz potpis nadzornog inženjera i datum 17.4.19__. Gore desno „КОЛАУДОВАНО У МИНИСТАРСТВУ ГРАЂЕВИНА“ sa potpisima. Oznaka crteža „Ф 1596“.",
+      "facts": [
+        {
+          "kind": "crtez",
+          "value": "Ekonomski blok, Profil II — 8 obračunskih polja, najveće 41,01 m²"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-skice-kopanje-zemlje",
+      "folder": "Skice",
+      "kind": "crtež / obračun iskopa",
+      "title": {
+        "sr": "Ekonomski blok — Kopanje zemlje (profili I, II, III)",
+        "en": "Service block — Earthworks (profiles I, II, III)"
+      },
+      "text": "Paus-crtež: „ЕКОНОМСКИ БЛОК. КОПАЊЕ ЗЕМЉЕ“. Šest malih profila iskopa, grupisanih u tri para označena I, II i III, sa kotama ±0,00 odnosno +1,00 i merama 4,30 · 2,36 · 3,00 · 6,00 · 1,05 · 1,40 · 0,80 · 2,00 · 1,48 · 5,80 · 1,30 · 6,50 · 1,60 · 5,30 · 3,70 · 1,45 · 1,70. Tabela gore desno, tri reda označena I, II, III: „I (4,30 + 3,74)/2 × (5,60 + 3,00)/2 × 1,45“; „II 6,50 × 2,00 × 0,80“; „III (1,70 + 3,36)/2 × (3,00 + 6,00)/2 × 2,36“ i slično — rezultati u koloni m³: 43,86; 10,40; 24,21 (poslednje nesigurno). Dole levo štambilj Ministarstva građevina „ПРЕГЛЕДАНО У МИНИСТАРСТВУ ГРАЂЕВИНА са техничке и рачунске стране / МГ Бр. / Београд 19 г. / Референт“ sa crvenim parafom; rukom „Надзорни инжењер“ i potpis, datum 17.4.19__; gore „КОЛАУДОВАНО У МИНИСТАРСТВУ ГРАЂЕВИНА“ sa potpisima. Oznaka „Ф 1596“.",
+      "facts": [
+        {
+          "kind": "crtez",
+          "value": "Ekonomski blok, kopanje zemlje — tri grupe profila sa kubaturom u m³"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-skice-plan-podrum-temelji",
+      "folder": "Skice",
+      "kind": "projektni list / armaturni detalji",
+      "title": {
+        "sr": "Projektni list sa presecima i detaljima temelja, registarski broj 500",
+        "en": "Project sheet with sections and foundation details, register no. 500"
+      },
+      "text": "Veliki presavijeni projektni list, svetla olovka/tuš na paus-papiru, snimljen pod uglom pa je tekst slab. Gore levo naslov u dva reda, čita se: „НОВА ЗГРАДА ДРЖАВНЕ ШТАМПАРИЈЕ И НОВЧАНИЦЕ“ (drugi deo naziva nesiguran) i ispod „ПОДРУМ И ПОМОЋНИМ ПРОСТОРИЈАМА“ (nesigurno). Levo: šematski prikaz grede/ploče sa rasporedom uzengija i dva poprečna preseka; sredina: rasterska mreža polja (šema ploče) i tabela „ШИПКЕ“ sa pozicijama i prečnicima tipa „Ø 12 l = 4,30 m“, „Ø 10 l = 6,10 m, kom …“; desno: četiri detalja označena „ПРЕСЕК 3-3“, „ПРЕСЕК 2-2“, „ПРЕСЕК 1-1“ i „ДЕТАЉ“, sa stopama i stubovima u preseku i ucrtanom armaturom. Dole „ПРЕСЕК 4-4“ i „ПРЕСЕК 5-5“ sa dubokim temeljnim stopama i oznakom „ПРОЈЕКТАНТ“ uz okrugli plavi pečat i svojeručni potpis. Gore desno rukom plavim: „РЕГИСТАР БРОЈ 500“, ispod „УЗ-РЕГИСТАР БРОЈ А-174“, i plavi štambilj Ministarstva građevina sa datumom koji se čita kao 4.67.1938 (nečitko; verovatno 4.VI.1938).",
+      "facts": [
+        {
+          "kind": "registar",
+          "value": "registar broj 500; uz-registar broj A-174"
+        },
+        {
+          "kind": "crtez",
+          "value": "preseci 1-1 do 5-5 i detalj: temeljne stope, stubovi i armatura"
+        }
+      ],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-skice-stopa-za-dimnjak",
+      "folder": "Skice",
+      "kind": "statički proračun",
+      "title": {
+        "sr": "Poz. 32 — Stopa za dimnjak (proračun i overa)",
+        "en": "Item 32 — Chimney footing (calculation and approval)"
+      },
+      "text": "Strana sveske statičkog proračuna, olovkom, ćirilica. Naslov: „Поз 32. Стопа за димњак“. Crtež: kružna stopa u osnovi, sa koncentričnim krugovima i upisanim merama 0,80 · 1,85 · 2,70 · 1,85 · 0,80, ukupno preko kvadrata 800 (cm). Uz crtež tekst: „Напрезање на земљиште износи σ = 3,35 kg/cm² (вид. поз. 126). Дебљина стопе d = 1,0 m. Стопа је из конструктивних разлога армирана крстасто са по 10 Ø 18 у сваком правцу — на 1 m′ ширине.“ Ispod potpis štampanim rukopisom: „Инж. Петар Банић“ (prezime nesigurno). Dole okrugli pečat „ИНЖ. ДРАГИША БРАШОВАН — БЕОГРАД“ sa grbom, uz svojeručni potpis preko pečata. Zelenim mastilom naknadna napomena u četiri reda: „Прегледато са стављеним … ревидирано … Мин. Грађевина, арх. Брашован“ (čita se delimično), i datum „29.II.37“ odnosno „29.XI.37“ — mesec nije pouzdan. Na levoj, delimično vidljivoj strani: računi „… = 169.200 kg“, „= 14.800 kg“, „= 406.200 kg/t“, „23.000 × 175 = 12.480.000 …“.",
+      "facts": [
+        {
+          "kind": "konstrukcija",
+          "value": "stopa dimnjaka: kružna, prečnik preko 8,00 m po kvadratu 800, debljina 1,0 m"
+        },
+        {
+          "kind": "armatura",
+          "value": "krstasto armirana, 10 Ø 18 po m′ širine u svakom pravcu"
+        },
+        {
+          "kind": "napon",
+          "value": "napregnutost tla σ = 3,35 kg/cm²"
+        },
+        {
+          "kind": "lice",
+          "value": "pečat ing. Dragiše Brašovana, Beograd, preko potpisa"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-skice-gradjevinska-knjiga-45-46",
+      "folder": "Skice",
+      "kind": "građevinska knjiga",
+      "title": {
+        "sr": "Građevinska knjiga, str. 45–46: poz. 83, podloge na stepenišnim podestima",
+        "en": "Measurement book, pp. 45–46: item 83, landings"
+      },
+      "text": "Otvorena građevinska knjiga, karo papir, olovkom i crvenim; na vrhu se vidi prethodni list sa naslovom pozicije 83: „Подлоге од набијеног бетона на степенишним подестима“. Leva strana (45): obračun po etažama sa malim skicama podesta (šrafirane površine) i merama 2,04 · 0,15 · 0,13 · 2,24 · 6,68 · 0,22; izraz „2 × 10 (6,68 × 2,24 + 2,04 × 0,15 − 2,04 × 0,17 − 0,22/2) × 0,09 = 26,82 m³“ uz međurezultat 248,00 m². Zatim „+ песак за одсеци ходника“, „2 × (0,30 × 2,00 + 1,57 × 2,04) 0,09 = 0,72 m³“ i crveno uokviren zbir „31,78 m³“. Pozicija d): „Насип песком за 2 степенишна подеста (дебљине слоја 9 cm)“ sa nizom obračuna po krilima — „крило до I зграде“ i „крило до машина“: 13,93 · 2,30 · 2,05 · 15,96 · 2,74 · 2,66 m², „за крило 39,64 m²“. Desna strana (46): nastavak po spratovima — „приземље“ 12,99 · 2,38 · 2,34; „од I до VI спрата“ 77,76 · 11,65 · 11,78 sa zbirom „за I до VI спрат свега 158,51 m²“; „крило до машина“ 18,40 · 2,75 · 2,72; dole „За крило 177,136 m²“. Svaka stavka ima uz sebe skicu podesta sa kotama i crvenim šrafom.",
+      "facts": [
+        {
+          "kind": "pozicija",
+          "value": "poz. 83 — podloge od nabijenog betona na stepenišnim podestima, 31,78 m³"
+        },
+        {
+          "kind": "kolicina",
+          "value": "nasip peskom d=9 cm: 39,64 m² po krilu, 158,51 m² za I–VI sprat, 177,136 m² za krilo do mašina"
+        },
+        {
+          "kind": "etaza",
+          "value": "obračun ide od prizemlja do VI sprata"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-skice-gradjevinska-knjiga-48",
+      "folder": "Skice",
+      "kind": "građevinska knjiga",
+      "title": {
+        "sr": "Građevinska knjiga, str. 48: poz. 83, nastavak obračuna podesta",
+        "en": "Measurement book, p. 48: item 83, landings continued"
+      },
+      "text": "Strana 48 iste knjige. Vrh: „83. Подлоге од набијеног бетона на степенишним подестима“ i u zagradi „(Плаћање по изведеној површини, т. 4/III − 24 ст. од 1 м²)“. Crvenom olovkom upisano „Опис 134/III“ (poziv na opis radova). Tačka a) „Унутрашње степениште (прерачун од дужног страната по катовима)“: „3 × (5,92 × 2,67 + 2,09 × 0,11 − 2,09 × 0,20) = 15,62 m²“ — crvenim ispravljeno na „16,46 m²“. Zatim u uglastoj zagradi „[3 × (6,03 × 5,96 + 0,13 × 2,09 + 1,09 × 0,13 − 0,21 × 2,09) + 8 × (2,57 × 0,16)] = 109,74 m²“. „Подест III кат“: „(6,08 × 5,90 + 0,12 × 1,09 − 0,20 × 2,09 + 0,16 × 1,57) = 35,03 m²“. „Приземље“: „5,92 × 2,66 + 0,11 × 2,09 − 0,20 × 2,09 = 15,56 m²“. „Четврти подест из вестибила“: mala skica pravougaonika sa merama 1,37 i „3,37 × 2,53 = 19,59 m²“ (crvenim ispravke). „Четврти подест у вестибилу“: skica osnove sa merama 5,90 · 1,31 · 1,08 · 1,37 · 2,09 · 0,52 · 2,63 · 2,36 · 3,74 i račun „5,90 × 5,92 + 1,08 × 0,12 + 1,31 × 1,16 + 1,37 × 2,09 + 2,63 × 2,09 + 2,96 × 3,74 = 56,53 m²“ (sa dopisanim međurezultatima 34,93; 0,13; 2,04; 2,86; 5,50; 11,07). Dole desno zbir: „За укупно 246,87 m²“.",
+      "facts": [
+        {
+          "kind": "pozicija",
+          "value": "poz. 83 — plaćanje po izvedenoj površini, tačka 4/III, 24 st. od 1 m²"
+        },
+        {
+          "kind": "kolicina",
+          "value": "ukupno 246,87 m² podesta na strani 48"
+        },
+        {
+          "kind": "prostor",
+          "value": "unutrašnje stepenište, podest III kata, prizemlje i četvrti podest u vestibilu"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-skice-dnevnik-radne-snage",
+      "folder": "Skice",
+      "kind": "građevinski dnevnik",
+      "title": {
+        "sr": "Građevinski dnevnik: pregled radne snage, 27. VI 1939",
+        "en": "Site diary: labour force, 27 June 1939"
+      },
+      "text": "List građevinskog dnevnika, snimljen bočno (tekst ide uspravno). Naslov: „Упоредни преглед бр. … Постројење барутана № 17 и 18“ (naziv postrojenja nesiguran, čita se delimično). Datum „27-VI-1939 г.“ i oznaka „XXII“. Tabela radne snage sa kolonama „број радника“ / „број сати“ / „свега сати“, po zanatima: тесари 7 / 8 / 56; столари 8 / 4 / 66 (nesigurno); бравари 2 / 4 / 16 — uz napomenu „4 × 1,04“; мешери 1 / 4 / 8; мали мајстори 2 / 4 / 16; столари 2; копачи 8 / 2 / 64. Ispod „Разно:“ u tri reda: „Утовар празних … и зидање одељка бр. 2, 3 и 4“; „Отпрема за објекат Гр. XI“; „Припрема материјала“; „Поправка баракама бр. 2, 7, 12 и 18“. Levo štambilji i potpisi: „ЗЕЛЕНИТ Акционарско друштво, Београд“ (dva puta, sa potpisom „За Акционарско друштво“) i tri puta „НАДЗОРНИ ИНЖЕЊЕР“ sa potpisima. Broj strane 19.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-06-27"
+        },
+        {
+          "kind": "firma",
+          "value": "Zelenit akcionarsko društvo, Beograd — izvođač koji potpisuje dnevnik"
+        },
+        {
+          "kind": "radna-snaga",
+          "value": "tesari, stolari, bravari, mešeri, mali majstori i kopači; najviše sati kopači (64)"
+        }
+      ],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": "1939-06-27"
+    },
+    {
+      "id": "cit-skice-potporni-zid-poz120",
+      "folder": "Skice",
+      "kind": "statički proračun",
+      "title": {
+        "sr": "Poz. 120 — Potporni zid: pritisak zemlje (str. 88–89)",
+        "en": "Item 120 — Retaining wall: earth pressure (pp. 88–89)"
+      },
+      "text": "Strana 89 sveske proračuna, olovkom, ćirilica. „Поз 120. Потпорни зид“. 1) „Притисак земље“, sa Kulonovim izrazom σ = γ·h·cos δ · (cos δ − √(sin²β₀ − sin²δ)) / (cos δ + √(sin²β₀ − sin²δ)), uz β₀ = φ, „φ — угао природног нагиба земљишта“, δ = 0, φ = 40°, γ = 1800 kg/m³. Odatle σ = γh(1 − tg φ)/(1 + tg φ) = 1800·h(1 − 0,643)/(1 + 0,643) = 390·h. Za H = 11,0 m: R₁₁ = ∫₀¹¹ 390·h·dh = 195·h² |₀¹¹ = 23600 kg; položaj rezultante y₀ = (∫σ·h·dh)/(∫σ·dh) = ⅔·H = 7,3 m, pa je krak y₁₁ = 11 − 7,3 = 3,7 m; p₁ = 2R₁/h = 2 × 23600 / 11 = 4300 kg/m′. Levo uz tekst skica zida: debljina u vrhu 0,50 m, visina 11,0 m, stopa 1,05 m, sa šrafiranim terenom iza zida. 2) „Притисак од једнако подељеног терета на насипу“: q = 500 kg/m² (nastavak se prekida na dnu strane).",
+      "facts": [
+        {
+          "kind": "konstrukcija",
+          "value": "potporni zid visine H = 11,0 m, debljina u vrhu 0,50 m, stopa 1,05 m"
+        },
+        {
+          "kind": "proracun",
+          "value": "φ = 40°, γ = 1800 kg/m³, σ = 390·h; rezultanta R = 23.600 kg na 3,7 m od dna"
+        },
+        {
+          "kind": "opterecenje",
+          "value": "jednako podeljen teret na nasipu q = 500 kg/m²"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-skice-uticajne-linije-56",
+      "folder": "Skice",
+      "kind": "statički proračun",
+      "title": {
+        "sr": "Str. 56: intenziteti opterećenja i uticajne linije momenata",
+        "en": "P. 56: load intensities and moment influence lines"
+      },
+      "text": "Strana 56 sveske proračuna, olovkom. „Интензитет оптерећења“: а) од задњег точка p₁ = 4250 / (0,84 × 1,62) × 1,48 = 4630 kg/m²; б) од предњег точка p₂ = 1750 / (0,84 × 1,62) × 1,48 = 2040 kg/m². „Утицајне линије“ — razmere: ординате 1:30, дужине 1:30, η = 1,57. Nacrtane dve uticajne linije: „M₀,₄ℓ₁ — линија“ sa nizom ordinata 0,0000; 0,0995; 0,2042; 0,1190; 0,0693; 0,0320; 0,0256; 0,0320; 0,0256; 0,0128; 0,0000; 0,0077; 0,0102; 0,0090; 0,0051; 0,0000 — sa pozitivnim poljem na levom rasponu i negativnim u sredini; na dijagram su naneti tovari 4630 kg/m′ i 2040 kg/m′ kao šrafirane trake, a raspon je podeljen vrednostima 1,57 · 1,57 · 1,57. Ispod „M₀,₅ℓ₂ — линија“ sa ordinatama 0,0000; 0,0192; 0,0336; 0,0384; 0,0238; 0,0200; 0,0520; 0,4280; 0,1280; 0,0520; 0,0000; 0,0288; 0,0384; 0,0336; 0,0192; 0,0000 i pozitivnim poljem u srednjem rasponu, takođe sa trakom 4630 kg/m′ i η = 1,57.",
+      "facts": [
+        {
+          "kind": "opterecenje",
+          "value": "zadnji točak 4630 kg/m², prednji točak 2040 kg/m² (kontaktna površina 0,84 × 1,62 m, dinamički faktor 1,48)"
+        },
+        {
+          "kind": "proracun",
+          "value": "uticajne linije momenata M₀,₄ℓ₁ i M₀,₅ℓ₂, razmere 1:30, η = 1,57"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-osoblje-zapisnik-1939-06-07",
+      "folder": "Osoblje",
+      "kind": "građevinski dnevnik / zapisnik",
+      "title": {
+        "sr": "Zapisnik sa sastanka na gradilištu, 7. VI 1939 — arh. Brašovan odlučuje o grejanju",
+        "en": "Site meeting minutes, 7 June 1939 — arch. Brasovan rules on the heating"
+      },
+      "text": "Dnevnik sa dve strane (6 i 7), rukopisno plavim mastilom, ćirilica. Leva strana nosi oznaku II i datum „7-VI-1939 г.“, naslov „Записник“: sastanku prisustvuju projektant, arhitekta, predstavnik firme (naziv firme nije pouzdano čitljiv) i nadzorni inženjer Ministarstva građevina. „Приликом огледне и пробне радње на подужном ... инсталацију, од стране надзорног инжењера Министарства грађевина за инсталације, редом, арх. Брашована, пројектанта, и представника фирме … као извођача радова, решено је:“ — pet tačaka: 1) da se vodovi provuku kroz prostor za koji je ostavljen prostor (se strane), a da se vode cigure o položaju samih plafona; 2) da se u slučaju gde se radijatorske niše prekrivaju, radijatori vode odvojeno od spoljnog zida na potrebnu visinu; 3) u pogledu pokrivanja vodova da treba otkriti samo u prostorijama direkcije i u hodnicima gde će biti vidljiv odbranom pertvorom — „сем случаја тамо где се воде видно“; 4) u pogledu knjiga uređaja se preporučuje stanje izvođenja u kojem se da sastavi zakasnjeli sporedni i rešetke, odnosno se za sve što je u vezi toga godine; 5) „да се по захтеву г. Брашована укину 4 вертикала радијатора у просторијама радничке кантине на VI спрату, пошто ће се цела кантина загревати топлом ваздушном грејању“. Zapisnik je sačinjen u četiri ravnopravna primerka od kojih se po jedan dostavlja: 1. пројектанту г. Брашовану; 2. надзорном архитекти; 3. надзорном инжењеру над електромашинским инсталацијама; 4. представнику предузећа „Аџем“ А.Д. — uz napomenu da se „подноси нови захтев уз записник у грађевинском дневнику“. Datum potpisa „14-VI-1939, Београд“ sa četiri potpisa s.r.: инж. А. Аршинов, арх. Брашован, инж. М. … и инж. … Desna strana: dve tabele radne snage — za 7-VI-1939: монтера 1 × 8 = 8, помоћника 2 × 8 = 16, надничара 3 × 8 = 14 uz primedbu „2 надничара од 2 сата“; i za 8-VI-1939 (oznaka III): монтера 1 × 8 = 8, помоћника 2 × 8 = 16, надничара 4 × 8 = 32. Uz obe: „Рађено на обележавању водова. Мерен распоред за одводу грејања по спратовима.“ Pečati: „ЗА 'АЏЕМ' Акционарско Друштво за Електро-Машинска Предузећа“ i dva puta „НАДЗОРНИ ИНЖЕЊЕР“ sa potpisima.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-06-07"
+        },
+        {
+          "kind": "lice",
+          "value": "arh. Brašovan učestvuje kao projektant i traži ukidanje 4 vertikale radijatora"
+        },
+        {
+          "kind": "prostor",
+          "value": "radnička kantina na VI spratu — greje se toplim vazduhom, ne radijatorima"
+        },
+        {
+          "kind": "firma",
+          "value": "izvođač elektro-mašinskih instalacija: akcionarsko društvo za elektro-mašinska preduzeća („Adžem“, naziv nesiguran)"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": "1939-06-07"
+    },
+    {
+      "id": "cit-osoblje-dnevnik-1939-06-16",
+      "folder": "Osoblje",
+      "kind": "građevinski dnevnik",
+      "title": {
+        "sr": "Dnevnik, str. 11: 16. VI 1939 — arh. Krstić i grejne površine u vestibilu",
+        "en": "Site diary, p. 11: 16 June 1939 — arch. Krstic and heating surfaces in the vestibule"
+      },
+      "text": "Strana 11. Vrh strane je kraj prethodnog zapisa: „овим приликом утврђено је да ... не одговарају у односу на спољни зид, па је било потребно знати, као што је остављено да се то изврши уредно, у току. Према захтеву г. арх. Крстића, скулптура је сад се ограничи у приземном вестибилу и што да се радијаторске ниše у ... оставе приликом могуће стеснити грејне површине.“ Pečati i potpisi: „ЗА 'АЏЕМ' Акционарско Друштво за Електро-Машинска Предузећа“ i dva nadzorna inženjera. Zatim oznaka XI i datum „16-VI-1939 г.“ sa tabelom radne snage: монтера 6 × 8 = 48; помоћника 7 × 8 = 52 (primedba „1 помоћник 4 сата“); бравара 1 × 8 = 1 (primedba „бравар 1 сат“); изолатера — (primedba „у монтере“); надничара 5 × 8 = 40. „Рађено: Продужење трасе 1 и 5 са припцима за вертикале III, IV и V и VII. Постављање трасе 2 на јужној страни. Пошто је немогуће ставити довољан број радијатора у нише у приземном вестибилу а да се сви прикључе у просторије по уште ниše више, то је арх. Крстић изјавио да одустаје од захтева да зид буде слободан и дозволио да се на истом стесне грејне површине. Претпоставља им исправити план за постављање грејних површина.“ Potpisi: isti pečat „АЏЕМ“ i dva nadzorna inženjera.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-06-16"
+        },
+        {
+          "kind": "lice",
+          "value": "arh. Krstić odustaje od zahteva da zid vestibila ostane slobodan"
+        },
+        {
+          "kind": "prostor",
+          "value": "prizemni vestibil — radijatorske niše i grejne površine"
+        },
+        {
+          "kind": "radna-snaga",
+          "value": "16. VI 1939: 6 montera, 7 pomoćnika, 1 bravar, 5 nadničara"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": "1939-06-16"
+    },
+    {
+      "id": "cit-osoblje-dnevnik-1939-07-16-17",
+      "folder": "Osoblje",
+      "kind": "građevinski dnevnik",
+      "title": {
+        "sr": "Dnevnik, str. 35: 16–17. VII 1939, montaža parnog i toplovodnog grejanja",
+        "en": "Site diary, p. 35: 16–17 July 1939, steam and hot-water heating installation"
+      },
+      "text": "Strana 35. Oznaka XLI, datum „16-VII-1939 г.“, jedan red: „Недеља, није се радило.“ Potpisi: pečat „ЗА 'АЏЕМ' Акционарско Друштво за Електро-Машинска Предузећа“ i dva puta „НАДЗОРНИ ИНЖЕЊЕР“. Zatim oznaka XLII, „17-VII-1939 г.“ i tabela radne snage (kolone: број радника / радно време / часова рада / примедба): монтера 10 × 8 = 79 (primedba „1 × 7 ч.“); помоћника 10 × 8 = 80; бравара 2 × 8 = 16; изолатера 2 × 8 = 16; монтера топле воде 2 × 8 = 16; помоћника топле воде 2 × 8 = 16; зидара 3 × 10 = 30; надничара 8 × 8 = 73 (primedba „3 × 8 и 1 × 9 ч.“). „Рађено: Парно грејање — Монтирање читавих бр. XLII, XXVII, XLIVa; монтирање кондензних бр. XVII, XXX, XLIVa, XL; везивање одвода штитова бр. XII–XIV и XIII. Грејање топлом водом — Везивање главног читавог са горњим трезором и монтирање штитова бр. 4. Припрема топле воде — Монтирање вертикале бр. 1б и неправих у сутерену; развод у приземљу вертикале бр. 4 и 6, исто на I спрату вертикале 2, 4 и 6. Испитивање водова...“ Potpisi: isti pečat i dva nadzorna inženjera.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-07-17"
+        },
+        {
+          "kind": "instalacija",
+          "value": "istovremeno se montiraju parno grejanje, grejanje toplom vodom i priprema tople vode"
+        },
+        {
+          "kind": "radna-snaga",
+          "value": "17. VII 1939: 10 montera, 10 pomoćnika, 2 bravara, 2 izolatera, 2+2 na toploj vodi, 3 zidara, 8 nadničara"
+        },
+        {
+          "kind": "prostor",
+          "value": "razvod u suterenu, prizemlju i na I spratu; pomenut „горњи трезор“"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": "1939-07-17"
+    },
+    {
+      "id": "cit-osoblje-dnevnik-1940-04-08-10",
+      "folder": "Osoblje",
+      "kind": "građevinski dnevnik",
+      "title": {
+        "sr": "Dnevnik, str. 179: 8–10. IV 1940, automatska regulacija i kabl po fasadi",
+        "en": "Site diary, p. 179: 8–10 April 1940, automatic control and facade cable"
+      },
+      "text": "Strana 179. „8-IV-1940.“: „Предузеће 'Аџем' саопштава да ће обавити за аутоматску регулацију ситне на здравицу и мањи за одређене да се поћи са радом на инсталацију аутоматска регулација. Ово је одобрено од стране надзорног инжењера.“ Potpis pečatom „ЗА 'АЏЕМ' Акционарско Друштво за Електро-Машинска Предузећа“ i potpis nadzornog inženjera. „9-IV-1940.“: tabela — монтера 1 × 8 = 8; помоћника 1 × 8 = 8. „Северна страна и Источна страна (од стране фасаде) монтирање кабла испод прозорских отвора, штемовање гнезда за дрвене тахлице, гипсовање истих и оправка молераја.“ Potpisi. „10-IV-1940.“: tabela — монтера 1 × 8 = 8; помоћника 1 × 8 = 8. „Источна страна — Шнеловање мине и монтирање кабла преко плафонске конструкције до јужне стране (дворишне). Продужено монтирање кабла на северној страни.“ Potpisi.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1940-04-09"
+        },
+        {
+          "kind": "instalacija",
+          "value": "kabl se montira po fasadi ispod prozorskih otvora, sa štemovanjem gnezda i popravkom molerskih radova"
+        },
+        {
+          "kind": "orijentacija",
+          "value": "radovi na severnoj, istočnoj i južnoj (dvorišnoj) strani zgrade"
+        },
+        {
+          "kind": "instalacija",
+          "value": "automatska regulacija grejanja uvodi se aprila 1940, uz odobrenje nadzornog inženjera"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": "1940-04-09"
+    },
+    {
+      "id": "cit-osoblje-izvod-spiska-2",
+      "folder": "Osoblje",
+      "kind": "obračunski spisak",
+      "title": {
+        "sr": "Izvod spiska br. 2: nadnice 10. V 1938 – 8. V 1939",
+        "en": "Payroll extract no. 2: man-days 10 May 1938 – 8 May 1939"
+      },
+      "text": "Kucani obrazac, ćirilica, u uglu rukom „6б“. Naslov: „ИЗВОД СПИСКА БР. 2 за период од 10-V-1938 до 8-V-1939 год.“ (datum ponovljen rukom). Iza teksta se providi vodeni otisak prethodnog lista: „…радничких надница по дневнику … рада на новој згради Државне штампарије у Београду“. Tabela sa kolonama ред. бр. / назив радне снаге / наднице / разлика у надницама / више исплаћено, 24 reda: 1 надзорника 801; 2 магационера —; 3 писара 255; 4 шофера —; 5 чувара 585; 6 скелара 864; 7 тесача и столара 7.626; 8 зидара и каменорезаца 4.483; 9 гвожђара и рабицера 2.759; 10 ковача и електричара 1.322; 11 машиниста 599; 12 радника обичних 14.000; 13 минера —; 14 бетониста 242; 15 изолатера и асфалтера 546; 16 фасадера 428; 17 лимара 181; 18 терацера 1.219; 19 бравара и монтера 1.117; 20 фарбара и молера 349; 21 стаклорезаца 115; 22 керамичара 67; 23 гипсара —; 24 паркетара —. „Свега: 37.555“; „Од којих: квалификованих 19.357 — разлика 11,00 — више исплаћено 212.927; обичних радника 18.198 — разлика 6,00 — више исплаћено 109.188“; „СВЕГА: Дин. 322.115“. Dve taksene marke po 2 dinara (grb, 1934). Pečat i potpis „ЈОШАНИЦА А.Д.“ i ispod „КОЛАУДОВАНО У МИНИСТАРСТВУ ГРАЂЕВИНА, МГ.Бр. ___“ sa potpisima kolaudacione komisije u tri reda (1. арх. …, 2. инж. …, 3. инж. Пето/Шето …).",
+      "facts": [
+        {
+          "kind": "period",
+          "value": "1938-05-10/1939-05-08"
+        },
+        {
+          "kind": "radna-snaga",
+          "value": "37.555 nadnica u godini: 19.357 kvalifikovanih i 18.198 običnih radnika"
+        },
+        {
+          "kind": "iznos",
+          "value": "više isplaćeno ukupno 322.115 dinara (212.927 + 109.188) zbog razlike u nadnici 11,00 odnosno 6,00 din"
+        },
+        {
+          "kind": "firma",
+          "value": "izvođač: Jošanica A.D."
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1938-05-10/1939-05-08"
+    },
+    {
+      "id": "cit-osoblje-izvod-spiska-4",
+      "folder": "Osoblje",
+      "kind": "obračunski spisak",
+      "title": {
+        "sr": "Izvod spiska br. 4: nadnice 1. IX 1939 – 30. IV 1940",
+        "en": "Payroll extract no. 4: man-days 1 Sept 1939 – 30 April 1940"
+      },
+      "text": "Isti obrazac, u uglu rukom „6г“. Naslov: „ИЗВОД СПИСКА БР. 4 за период од 1-IX-1939 до 30-IV-1940 год.“ Iza teksta se providi isti vodeni otisak „…радничких надница по дневнику рада на новој згради Државне штампарије у Београду“. Tabela, 24 reda: 1 надзорника 776; 2 магационера —; 3 писара 132; 4 шофера —; 5 чувара 360; 6 скелара 165; 7 тесача и столара 566; 8 зидара и каменорезаца 2.956; 9 гвожђара и рабицера 107; 10 ковача и електричара 414; 11 машиниста 219; 12 радника обичних 6.729; 13 минера —; 14 бетониста 4; 15 изолатера и асфалтера 1.382; 16 фасадера 655; 17 лимара 50; 18 терацера 1.911; 19 бравара и монтера 1.852; 20 фарбара и молера 3.120; 21 стаклорезаца 429; 22 керамичара 340; 23 гипсара 2; 24 паркетара 12. „Свега: 22.181“; „Од којих: квалификованих 14.634 — разлика 15,00 — више исплаћено 219.510; обичних радника 7.547 — разлика 12,00 — више исплаћено 90.564“; „СВЕГА: Дин. 310.074“. Dve taksene marke po 2 dinara. Pečat „ЈОШАНИЦА А.Д.“ sa potpisima i „КОЛАУДОВАНО У МИНИСТАРСТВУ ГРАЂЕВИНА, МГ.Бр.“ sa tri potpisa komisije.",
+      "facts": [
+        {
+          "kind": "period",
+          "value": "1939-09-01/1940-04-30"
+        },
+        {
+          "kind": "radna-snaga",
+          "value": "22.181 nadnica: 14.634 kvalifikovanih i 7.547 običnih radnika"
+        },
+        {
+          "kind": "iznos",
+          "value": "više isplaćeno ukupno 310.074 dinara; razlika u nadnici porasla na 15,00 odnosno 12,00 din"
+        },
+        {
+          "kind": "faza",
+          "value": "posao se preselio u završne radove: farbari i moleri 3.120, terace 1.911, bravari i monteri 1.852, izolateri 1.382"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1939-09-01/1940-04-30"
+    },
+    {
+      "id": "cit-foto-schindler-lift-stepeniste",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "katalog / fotografija",
+      "title": {
+        "sr": "Katalog liftova Schindler: lift u stepenišnom oknu sa staklenom oplatom",
+        "en": "Schindler lift catalogue: lift in a stairwell with rough-glass enclosure"
+      },
+      "text": "Stranica luksuznog štampanog kataloga, puna crno-bela fotografija: lift ugrađen u stepenišno okno, ograđen čeličnom konstrukcijom ispunjenom neprozirnim rebrastim staklom, sa otvorenim staklenim vratima kabine; levo kovana stepenišna ograda i prozor, desno zidana obloga u svetlim pločama i kameno stepenište sa rukohvatom; pod u šahovskom terac uzorku. Dole francuski natpis: „Ascenseur dans un escalier avec entourage en verre brut“; u uglu broj klišea 7830. Preko donjeg desnog ugla ljubičasti pečat: „МИЛЕНКО МАРКОВИЋ, БРАВАРСКА РАДИОНИЦА, ПРЕШЕРНОВА УЛИЦА БРОЈ 19, БЕОГРАД — ТЕЛ. ___ / ГЕНЕРАЛНИ ЗАСТУПНИК ФАБРИКЕ ЛИФТОВА 'ШИНДЛЕР и КОМП.', ЛУЦЕРН“.",
+      "facts": [
+        {
+          "kind": "firma",
+          "value": "Milenko Marković, bravarska radionica, Prešernova 19, Beograd — generalni zastupnik fabrike liftova Schindler & Comp., Lucern"
+        },
+        {
+          "kind": "prilog",
+          "value": "prospektna fotografija lifta u stepenišnom oknu, kliše 7830"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-foto-schindler-kabina-30",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "katalog / fotografija",
+      "title": {
+        "sr": "Katalog Schindler: luksuzna kabina br. 30, orah i belи metal",
+        "en": "Schindler catalogue: luxury car no. 30, walnut and white metal"
+      },
+      "text": "Stranica istog kataloga: retuširana fotografija prazne putničke kabine prikazane iz ugla, obložene orahovim furnirom sa izraženim šarama, sa ogledalom na bočnom zidu, podelom na pravougaona polja uokvirena svetlim metalnim lajsnama, rešetkastom ventilacijom u gornjoj zoni i harmonika-vratima sa vertikalnim letvicama. Natpis u pet jezika: „Cabine de luxe en noyer et métal blanc No. 30 / Passenger car of walnut and white metal No. 30 / Camarín de lujo de madera de nogal y metal blanco No. 30 / Cabina di lusso di legno di noce e metallo bianco No. 30 / Luxuskabine aus Nussbaumholz und Weissmetall No. 30“. Broj klišea 7850. Preko fotografije isti ljubičasti pečat Milenka Markovića, generalnog zastupnika Schindlera.",
+      "facts": [
+        {
+          "kind": "prilog",
+          "value": "tip kabine Schindler No. 30 — orah i beli metal, kliše 7850"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-foto-schindler-teretna-w6g",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "katalog / fotografija",
+      "title": {
+        "sr": "Katalog Schindler: kabina teretnog lifta, tip W 6 g",
+        "en": "Schindler catalogue: goods-lift car, type W 6 g"
+      },
+      "text": "Stranica istog kataloga: kabina teretnog lifta, čelični ram sa ispunom od žičanog pletiva u gornjoj polovini i punim limom u donjoj, drveni pod od dasaka, komandna kutija sa polugom na levom bočnom zidu, vođice i bočna vrata koja se otvaraju u stranu; iznad kabine nosač sa užetom. Natpis u šest jezika: „Cabine pour monte-charges, type W 6 g / Car for goods lifts, type W 6 g / Camarín para monta-cargas, tipo W 6 g / Cabina per monta-carichi, tipo W 6 g / Cabine para monta-carga, typo W 6 g / Kabine für Warenaufzüge, Typ W 6 g“. Desno dole „SCHINDLER“ i broj klišea 8210; dole levo trag tiraža „…27 — 1000.“ Preko leve strane isti pečat Milenka Markovića.",
+      "facts": [
+        {
+          "kind": "prilog",
+          "value": "tip teretne kabine Schindler W 6 g — žičano pletivo i drveni pod, kliše 8210"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-foto-tepper-shema-lifta",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "katalog / šema",
+      "title": {
+        "sr": "Prospekt Joseph Tepper, Münster: šema putničkog lifta sa 30 označenih delova",
+        "en": "Joseph Tepper, Münster brochure: passenger lift diagram with 30 labelled parts"
+      },
+      "text": "Otvoren nemački prospekt. Naslov: „ANORDNUNG EINES TEPPER-PERSONENAUFZUGES (Maschine über Schacht)“ sa logom T u krugu. U sredini aksonometrijski presek kroz okno kroz tri etaže sa mašinskom prostorijom na vrhu; delovi numerisani 1–30, spisak u dve kolone: 1 Maschinenraum, 2 Umschalter (Wendeschütz), 3 Steuersicherung, 4 Haupt- u. Motorschutzschalter, 5 Zentralsteuerapparat, 6 Geschwindigkeitsregulator, 7 Aufzugsmaschine, 8 Ueberfahrtschalterhebel, 9 Tragseile (vierfach), 10 Gegengewichts-Schutzgitter, 11 Außendruckknopftafel, 12 Standortanzeiger, 13 Innendruckknopftafel, 14 Kabinenführungsschienen, 15 Führungsschienenöler, 16 Gegengewichtsführungsschienen, 17 Hauptklemmbrett, 18 Fangvorrichtung (vierseitig), 19 Aussteigklappe, 20 Türverschlußkulisse, 21 Kabine, 22 Gegengewicht, 23 Regulatorseil, 24 Bewegliches Kabinenkabel, 25 Regulatorseilspanner, 26 Gegengewichtspuffer, 27 Kabinenpuffer, 28 Einsteigschacht zur Grube, 29 Schachttür, 30 Kabinentür. Crtež potpisan „H. Jekl“. Preko donjeg dela crvena olovka — paraf pregledaoca. Dole: „JOSEPH TEPPER, MASCHINENFABRIK, MÜNSTER I.W.“, „Drucksache Nr. P.O. 35“. Na susednim listovima vide se još dva prospekta, jedan sa naslovom o magnetnoj regulaciji („…REGTE MAGNET… AUFZUGS-ANLAGE … D.R.P.“) i nemački tekst o „TEPPER-AUFZÜGE“.",
+      "facts": [
+        {
+          "kind": "firma",
+          "value": "Joseph Tepper, Maschinenfabrik, Münster i.W. — drugi ponuđač liftova u arhivi"
+        },
+        {
+          "kind": "prilog",
+          "value": "šema putničkog lifta sa mašinom iznad okna, 30 numerisanih delova"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-foto-prekidac-detalj",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "fotografija",
+      "title": {
+        "sr": "Fotografija detalja mehanizma sa dva užeta (hvatački / krajnji prekidač)",
+        "en": "Photograph of a mechanism detail with two ropes (safety gear / limit switch)"
+      },
+      "text": "Sepija fotografija na debelom papiru, držana u ruci iznad stola. Prikazan je masivan mehanički sklop od livenih i obrađenih komada, montiran na postolje: horizontalna poluga sa klinom, dve paralelne čelične sajle koje ulaze sleva i prolaze kroz vođicu, nazubljena letva desno, nekoliko zavrtnjeva sa šestougaonim glavama i dve manje poluge sa oprugama. Sklop izgleda kao hvatački uređaj ili krajnji prekidač liftovskog postrojenja. Na fotografiji nema natpisa, oznake proizvođača ni broja; papir je na ivicama izlizan i savijen, sa tragom lepka.",
+      "facts": [
+        {
+          "kind": "prilog",
+          "value": "fotografija mehaničkog sklopa sa dve sajle; bez natpisa i oznake proizvođača"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-foto-posebni-uslovi-1941",
+      "folder": "Foto dokumentacija iz arhive",
+      "kind": "štampani uslovi",
+      "title": {
+        "sr": "Posebni uslovi, Ministarstvo građevina, 9. oktobar 1941",
+        "en": "Special Conditions, Ministry of Construction, 9 October 1941"
+      },
+      "text": "Naslovna strana štampane sveske. Gore levo: „МИНИСТАРСТВО ГРАЂЕВИНА, Ка бр. 25663, 9 октобра 1941 год., Београд“. Gore desno: „Сагласност Државног правобранилаштва, Бр. 9573, 8 октобра 1941 год.“ U sredini krupnim slovima: „ПОСЕБНИ УСЛОВИ“. Kroz list se providi rukopisni tekst sa poleđine (ćirilica, nečitljiv). Levo se vidi ivica prethodnog lista sa rukopisom u kojem se naziru reči „…Уредбе о …“, „…поставио …“ i „…за закључење“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-10-09"
+        },
+        {
+          "kind": "akt",
+          "value": "Posebni uslovi Ministarstva građevina Ka br. 25663; saglasnost Državnog pravobranilaštva br. 9573 od 8. oktobra 1941"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-10-09"
+    },
+    {
+      "id": "cit-finansije-rekapitulacija-1942",
+      "folder": "Izvori finansija",
+      "kind": "predračun / rekapitulacija",
+      "title": {
+        "sr": "Rekapitulacija radova, ukupno 7.339.645,59 dinara (licitacija 31. III 1942)",
+        "en": "Recapitulation of works, total 7,339,645.59 dinars (tender 31 March 1942)"
+      },
+      "text": "Kucani list, ćirilica: „РЕКАПИТУЛАЦИЈА“, osamnaest grupa radova sa iznosima u dinarima: I Земљани радови 294.686,24; II Бетонски радови 2,903.165,77; III Зидарски радови 469.910,09; IV Малтерисање зидова, греда и арм.бет. плоча-плафона 332.320,62; V Израда плафона 364.428,02; VI Фасадерски радови 171.556,08; VII Природни камен 200.803,20; VIII Вештачки камен 85.034,00; IX Патоси 223.728,57; X Холкел сокл–сокл зидова 126.802,88; XI Молерски радови 49.890,48; XII Гвожђарски радови 823.763,72; XIII Столарски радови 255.412,00; XIV Покривање крова 535.909,00; XV Лимарски радови 97.389,50; XVI Дрводељски радови 236.072,16; XVII Изолациони радови 11.104,50; XVIII Разни радови 157.662,76. „Укупно Динара … 7,339.645,59“ i rukom slovima: „седам милиона три стотине тридесет девет хиљада шест стотина четрдесет пет динара и педесет девет пара“. Crvenim štambiljem: „ПРЕГЛЕДАНО У МИНИСТАРСТВУ ГРАЂЕВИНА са техничке и рачунске стране, МГ.Бр. 29143, 11-III-1942 г., Београд, Референт: Арх. Зов. М. Тадић“ (ime referenta nesigurno). Desno: „Саставио: арх. Цвет. Б. Димитрије…“ (rukom). Ispod: „Понуђач: ТЕХНИЧКО ПРЕДУЗЕЋЕ Ing. ЂУРЕ Б. БОРОШИЋА, Београд, Чика Љубина 8, тел. 27888“ sa potpisom „Инж. Ђура Б. Борошић“. Dole levo rukom: „31.3.1942 год. Београд“; pored: „ОТВОРЕНО и ПРОЧИТАНО НА ЛИЦИТАЦИЈИ 31-III-1942 год., Београд“, uz „Чланови комисије: 1) арх. Цвет. М. Димитријевић, 2) Инж. Здет?. Софрић?, 3) Арх. Зован М. Тадић“ (imena delimično čitljiva).",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1942-03-31"
+        },
+        {
+          "kind": "iznos",
+          "value": "ukupna ponuda 7.339.645,59 dinara po 18 grupa radova"
+        },
+        {
+          "kind": "iznos",
+          "value": "najveće stavke: betonski radovi 2.903.165,77 i gvožđarski radovi 823.763,72 dinara"
+        },
+        {
+          "kind": "firma",
+          "value": "ponuđač: Tehničko preduzeće ing. Đure B. Borošića, Beograd, Čika Ljubina 8"
+        },
+        {
+          "kind": "akt",
+          "value": "pregledano u Ministarstvu građevina MG.Br. 29143 od 11. III 1942"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1942-03-31"
+    },
+    {
+      "id": "cit-finansije-josanica-opsta-primedba",
+      "folder": "Izvori finansija",
+      "kind": "analiza cena",
+      "title": {
+        "sr": "Jošanica A.D.: opšta primedba uz analizu cena, 12. IX 1939",
+        "en": "Josanica A.D.: general note to the price analysis, 12 Sept 1939"
+      },
+      "text": "Kraj kucanog lista analize cena. Na vrhu: „Свега: 159,60 дин/м2“ (dvostruko podvučeno). Zatim: „ОПШТА ПРИМЕДБА — На цене по овој анализи обавезујемо се само на случај, да се цене услед наступелих прилика у свету — што ће имати велики утицај и на нашу пијацу — много не промене. Ако наступи случај да промена цена пређе 10%, онда тражимо да нам се ова разлика призна.“ Dole levo: „12.IX.1939 год. Београд.“ Desno ljubičasti pečat: „ЈОШАНИЦА А. Д. — ГРАДЊА ДРЖАВНЕ ШТАМПАРИЈЕ“ sa svojeručnim potpisom „Инж. Бор. Ј. Хаџић“ (prezime nesigurno).",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1939-09-12"
+        },
+        {
+          "kind": "cena",
+          "value": "jedinična cena po ovoj analizi 159,60 din/m²"
+        },
+        {
+          "kind": "uslov",
+          "value": "izvođač traži priznanje razlike ako promena cena pređe 10%"
+        },
+        {
+          "kind": "firma",
+          "value": "pečat „Jošanica A.D. — gradnja Državne štamparije“"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1939-09-12"
+    },
+    {
+      "id": "cit-finansije-spisak-reklamacija",
+      "folder": "Izvori finansija",
+      "kind": "spisak reklamacija",
+      "title": {
+        "sr": "Spisak reklamacija: 21 stavka sa pozivom na građevinski dnevnik (1936–1939)",
+        "en": "List of claims: 21 items referenced to the site diary (1936–1939)"
+      },
+      "text": "Kucani obrazac: „СПИСАК РЕКЛАМАЦИЈА нових-накнадних и више израђених радова на новој згради Државне штампарије у Београду“, sa kolonama ред. број / назив рада / примедбе у Грађев. Дневн. / количина. Dvadeset jedna stavka, svaka sa datumima upisa u dnevnik: 1. „Губитак 10 месеци на копању темеља“ — 8.VII.37; 7.XI.36; 4.II.37; 14.VII.37; 29.I.38; 6.III.39; 2. Подупирање ровова — 8.VII.37; 3. Бетонирање под водом — 28.XI.38; 6.III.39; 21.II.38; 4. Пуњење песком — 5.V.37; 5. Повишење надница — 10.V.38; 21.VI.38 (rukom dopisano „одбачено“); 6. Задоцњење у завршетку посла, sa pet podtačaka: а) због нерешених питања (7.IX.38; 12.X.38; 26.XII.38; 13.II.39; 11.III.39; 16.XI.39), б) због чекања детаља (29.I.38; 11.I.38; 2.VIII.38; 21.XI.38; 16.XI.39; 30.XI.39), в) због задоцњења решења гв. прозора и гвожђарског рада уопште (16.VI.38; 27.VI.38; 1.VII.38; 31.VIII.38; 16.XII.38; 1.II.39), г) због задоцњења решења питања подлоге за патос и патоса (29.I.38; 21.XI.38; 11.III.39; 26.XII.38), д) због измена статичког рачуна (29.I.38; 12.XII.39); 7. Израда цемент. кошуљице и терпапира на јастуку — 8.VIII.38; 31.VIII.38; 8. Вишак зидова од цигле — 23.IX.38; 18.X.38; 6.III.39; 9. Бетонски бондрук за прозор куле — 26.X.38; 6.III.39; 10. Инсталација електрич. осветљења у чиновн. степеништу — 1.VI.39; 11. Израда гвозд. костура настрешнице код теретн. лифтова — 26.VI.39; 12. Израда рабиц плафона у канцел. Управника — 1.VII.39; 13. Израда дрвених преграда — 26.VII.39; 14. Израда гранитн. степеника у глав. радничком улазу — 18.VIII.39; 15. Дозиђивање ограде са стране Г…евљеве улице — 16.IX.39; 16. Пробијање врата у простор. дирекције — 3.X.39; 17. Малање у кобалт-блау боју плафона-настрешнице за рад. шетал. — 19.X.39; 18. Сокл од вештачког камена — 23.X.39; 19. Враћање уговорне таксе — 7.XI.39; 20. За накнадни радови побројени у Грађев. Дневнику од 2.3.4.5 и 6.XII.39; 14.XII.39; 21. Сокл од мермера у ради. улазу — 11.XII.39. Na desnoj margini rukom upisani iznosi (6.005.900; 7.4?.950; 770.000; 650.318; 159.800; 518.045; 3.221.563 — čitaju se delimično) i uz pojedine stavke zelene i plave napomene („признато“, „узети у одбрану“, „одбачено“, „изведено из уговора“). Dole rukom: „Оправка молераја после крилних …“ sa primedbom „неупрегнуто“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1936-11-07"
+        },
+        {
+          "kind": "potrazivanje",
+          "value": "21 reklamacija izvođača, prva: gubitak 10 meseci na kopanju temelja"
+        },
+        {
+          "kind": "uzrok",
+          "value": "zadocnjenja pripisana nerešenim pitanjima, čekanju detalja, gvožđarskom radu, patosu i izmenama statičkog računa"
+        },
+        {
+          "kind": "detalj",
+          "value": "pominju se kula sa prozorom, činovničko stepenište, kancelarija Upravnika, radnički ulaz, radničko šetalište i teretni liftovi"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": "1936-11-07"
+    },
+    {
+      "id": "cit-finansije-devizna-direkcija-1940",
+      "folder": "Izvori finansija",
+      "kind": "devizni zahtev",
+      "title": {
+        "sr": "Traženje kursa za plaćanje u inostranstvu: 16.160 RM, jun 1940",
+        "en": "Request for an exchange rate for a foreign payment: RM 16,160, June 1940"
+      },
+      "text": "Kucani „ОБРАЗАЦ БР. 1“ na memorandumu „Краљевина Југославија — МИНИСТАРСТВО ГРАЂЕВИНА, Бр. 22945, 20 јуна 1940“. Naslovljeno: „ДЕВИЗНОЈ ДИРЕКЦИЈИ Народне банке Краљ. Југославије, БЕОГРАД“. Predmet: „Тражење курса за плаћање у иностранству“. Tekst: Ministarstvo izveštava da prema niže navedenim podacima ima da izvrši nabavku robe iz inostranstva i moli Deviznu direkciju da saopšti kurs po kome bi se kasnije obračun isplate izvršio, ukoliko bi ugovor o nabavci bio zaključen. Tabela u pet tačaka: 1. „Износ који се има уплатити (вредност набавке у оригиналној валути)“ — „16.160.- Рајхсмарака“; 2. „Начин плаћања“ — „преко Југосл. Немачког клиринга“; 3. „Земља корисника“ — „Немачка“; 4. „Рок плаћања“ — „За око 10 месеци од данас, а вероватно и раније“; 5. „Подаци о роби: а) земља увоза — Немачка; б) земља порекла — Немачка; в) врста робе — сигнални апарати, сатови и др. за зграду Државне штампарије у Београд.; г) број увозне цар. тарифе“. Na kraju: po definitivnom zaključenju ugovora potrebno je gornju sumu definitivno anulirati iz evidencije ukoliko plaćanje ne bi došlo u obzir. Potpis: „По наредби Министра Грађевина, Начелник Рачун. Еконм. Одељења“, uz okrugli pečat Ministarstva građevina Kraljevine Jugoslavije i rukom pisane parafe i datum „20-VI-40“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1940-06-20"
+        },
+        {
+          "kind": "iznos",
+          "value": "16.160 rajhsmaraka preko jugoslovensko-nemačkog klirninga"
+        },
+        {
+          "kind": "oprema",
+          "value": "signalni aparati, satovi i drugo za zgradu Državne štamparije — uvoz iz Nemačke"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1940-06-20"
+    },
+    {
+      "id": "cit-finansije-poziv-licitacija-dizalice",
+      "folder": "Izvori finansija",
+      "kind": "poziv na licitaciju",
+      "title": {
+        "sr": "Poziv na ofertalnu pogodbu za lične i teretne dizalice, 17. V 1940",
+        "en": "Invitation to tender for passenger and goods lifts, 17 May 1940"
+      },
+      "text": "Štampani obrazac Ministarstva građevina sa crvenim nadnaslovom „ХИТНО“ i krupnim „ПОЗИВ“. Rukom popunjeno: „Према решењу Г. Министра грађевина Бр. 12679 од 8-IV-1940 г. одржаће се у Рачунско-економном одељењу соба бр. 27 на дан 17-V-1940 г. офертна погодба за испоруку и монтажу особних и теретних дизалица у новој згради Државне Штампарије у Београду.“ (reči „погодба“ i „лицитација“ su na obrascu, nepotrebna precrtana.) „Стога се одређују и позивају доле именовани чланови комисије да присуствују овој лицитацији“ — tri imena: 1. Инж. Г. Петровић; 2. … г. Лукинић (nesigurno); 3. Г-ђа А. Марковић — i tri potpisa „примили знању чланови лицитационе комисије“. „Благајна да прими од лицитаната кауцију и то: од домаћих надметача 10% … од 1 милиона и 5% остале понуђене суме; од страних надметача ___.“ Potvrda prijema sa potpisom blagajnika, datum „13-V-1940, Београд“, i potpis „Шеф Отсека за набавке и лицитације, Инспектор“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1940-05-17"
+        },
+        {
+          "kind": "akt",
+          "value": "rešenje ministra građevina br. 12679 od 8. IV 1940 — ofertalna pogodba za dizalice"
+        },
+        {
+          "kind": "oprema",
+          "value": "predmet: isporuka i montaža osobnih i teretnih dizalica u novoj zgradi Državne štamparije"
+        },
+        {
+          "kind": "uslov",
+          "value": "kaucija domaćih nadmetača: 10% od prvog miliona i 5% na ostatak ponuđene sume"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": "1940-05-17"
+    },
+    {
+      "id": "cit-finansije-kotlovi-licitacija-1941-03",
+      "folder": "Izvori finansija",
+      "kind": "izveštaj o licitaciji",
+      "title": {
+        "sr": "Druga licitacija za kotlovsko postrojenje, 17. III 1941 — četiri ponude",
+        "en": "Second tender for the boiler plant, 17 March 1941 — four bids"
+      },
+      "text": "Kucani izveštaj Ministarstvu građevina. „После прве неуспеле лицитације, одржана је на основу решења Господина Министра грађевина бр. 52062/40 од 17-I-1941 год. на дан 17-III-1941 год. у Рачунско-економном одељењу Министарства грађевина нова прва офертна лицитација за испоруку и постављање котловског постројења у новој згради државне штампарије у Београду. Лицитира се по јединичним ценама, које ће понуђачи сами уписати према купљеном предрачуну без цена, а у границама предрачунске суме од Дин. 4.766.200.- динара. Кауција 10% од првог милиона и 5% од остале понуђене суме. Лицитација је објављена у Службеним новинама бр. 35, 37 и 38 од 14, 17 и 18-II-1941 год.“ Četiri nadmetača: 1. „Вагнер Биро А.Г.“ из Беча — prima se da izvrši posao za RM 340.770, što čini ukupno dinara 6,215.081,40; 2. Фирма „Паукерверке“ из Беча — po I alternativi RM 258.185 i din 3,842.864, ukupno 17,82 …, 8,443.229,70; po II alternativi bez pregrejača RM 174.985 i din 3,033.765, ukupno 6,151.106,70; i III alternativa sa kotlovima sistema „Ла монт“ za RM 364.770,7 i dinara 3,679.115, ukupno 10,179.316,40; 3. „I Југословенска творница вагона и друго, Слав. Брод“ nudi 4 kotla „La Mont“ bez pregrejača za Din. 4,669.800, sa pregrejačem 4,759.800; po I alternativi sa tri kotla bez pregrejača 4,611.500, sa pregrejačem 4,699.000; po II alternativi sa 3 kotla bez pregrejača 4,695.300, sa pregrejačem 4,862.300; 4. Фирма „Машиненфабрик Букау Р. Волф А.Д.“ из Магдебурга — prima se da izvrši posao za RM 303.460 bez carine i skupne poreze; za carinu i skupni porez traži dinara 867.618, što ukupno čini 6,275.275,20. „Комисија предлаже, да се цео предмет упути стручном Е.М. одељењу на ревизију-техничку и рачунску-понуда као и предлог.“ Prilozi: protokol licitacije, spisak preduzimačevih dokumenata, četiri ponude sa prilozima, dva punomoćja (firme Paukerwerke iz Beča i I Jugoslovenske tvornice Sl. Brod) i uverenje o podobnosti firme Paukerwerke. „17-III-1941 год. Београд“ sa tri potpisa članova komisije.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-03-17"
+        },
+        {
+          "kind": "iznos",
+          "value": "predračunska suma za kotlovsko postrojenje 4.766.200 dinara"
+        },
+        {
+          "kind": "ucesnik",
+          "value": "ponuđači: Wagner Biro A.G. Beč, Paukerwerke Beč, I Jugoslovenska tvornica vagona Slavonski Brod, Maschinenfabrik Buckau R. Wolf A.G. Magdeburg"
+        },
+        {
+          "kind": "akt",
+          "value": "licitacija objavljena u Službenim novinama br. 35, 37 i 38 od 14, 17. i 18. II 1941"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-03-17"
+    },
+    {
+      "id": "cit-finansije-glavna-kontrola-strebelwerke",
+      "folder": "Izvori finansija",
+      "kind": "odluka Glavne kontrole",
+      "title": {
+        "sr": "Glavna kontrola br. 62353, 25. X 1941: potvrda ustupanja kotlova Strebelwerke",
+        "en": "Chief Audit Office no. 62353, 25 Oct 1941: boiler award to Strebelwerke confirmed"
+      },
+      "text": "Kucani akt: „ГЛАВНА КОНТРОЛА, Број 62353, 25 октобра 1941 год., Београд“, naslovljen „МИНИСТАРСТВУ ГРАЂЕВИНА — Рачунско-Економско одељење“. „Главна контрола расмотрила је одлуку Господина Министра грађевина Бр. 23487 од 23 септембра 1941 год., којом је у вези свога решења Бр. 22335 од 9 септембра 1941 год., одобрио да се испорука и монтажа котлова ниског притиска у новој згради Државне штампарије у Београду, уступи фирми 'Штребелверке' из Манхајма (Немачка), за суму од укупно динара 3,014.000.-, а на терет ванредног кредита од једне милијарде динара по чл. 1 Уредбе о извођењу јавних радова а из суме под г/11 програма јавних радова одобреног одлуком СК.Бр. 72/41, — и нашла да противу ове одлуке нема шта да примети, с тим да се у будуће у наредби за извршење посла именују чланови комисије у смислу прописа § 148 ст. 2 Уредбе о државном рачуноводству.“ (ceo pasus podvučen crvenim). „Из опште седнице Главне контроле од 24 октобра 1941 г.“ Potpisi: деловођа-писар i „За Претседника Главне контроле, Члан“, sa okruglim pečatom „ГЛАВНА КОНТРОЛА — БЕОГРАД“. Dostavljeno: Min. građevina — Račun.-ekonom. odelj.; m.k. pri Fin. dir. Beograd.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-10-25"
+        },
+        {
+          "kind": "odluka",
+          "value": "potvrđeno ustupanje posla firmi Strebelwerke za 3.014.000 dinara"
+        },
+        {
+          "kind": "finansiranje",
+          "value": "na teret vanrednog kredita od jedne milijarde dinara, stavka g/11 programa javnih radova (odluka SK.Br. 72/41)"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-10-25"
+    },
+    {
+      "id": "cit-finansije-glavna-kontrola-tepper-1943",
+      "folder": "Izvori finansija",
+      "kind": "odluka Glavne kontrole",
+      "title": {
+        "sr": "Glavna kontrola br. 46516, 18. IX 1943: naknada firmi J. Tepper za dizalicu br. 2",
+        "en": "Chief Audit Office no. 46516, 18 Sept 1943: compensation to J. Tepper for lift no. 2"
+      },
+      "text": "Kucani akt: „ГЛАВНА КОНТРОЛА, Број 46516, 18 септембра 1943 год., Београд“, naslovljen „МИНИСТАРСТВУ ГРАЂЕВИНА — Архитектонско-Машинско одељење“. „По претставци Министарства грађевина у акту Бр. 18109 од 8 септембра 1943 год., Главна контрола поново је расмотрила решење Господина Министра грађевина Бр. 16030 од 17 августа 1943 год., којим је одобрио да се фирми Ј. Тепер из Немачке, призна сума од динара 15.000.- на име накнаде за поскупљење цена и радне снаге на радовима око испоруке и монтаже дизалице бр. 2 у згради Државне штампарије у Београду, с тим, да укупна сума за извршење ових радова износи РМ. 14.477,10 и динара 498.115,85, као и да се именованој фирми на име остатка зараде исплати сума од динара 208.164,35, а на терет парт. г/11 програма јавних радова — па је с обзиром на објашњење Министарства грађевина у предњој претставци да је фирма већ раније у својој претставци МГ.Бр. 31490 од 23 септембра 1942 год. изјавила да се незадовољава са уговореном ценом за монтажу дизалице и да ће по завршетку монтаже тражити одговарајуће повећање цена одлучила, да противу овог решења нема шта да примети. Овим се замењује ранија одлука опште седнице Главне контроле бр. 44422 од 3 септембра 1943 год. Из опште седнице Главне контроле од 17 септембра 1943 год.“ Potpisi: деловођа-писар (nečitak) i „За Претседника Главне контроле, Члан“ (nečitak), pečat Glavne kontrole. Dostavljeno: Min. građevina — Arh.-maš. odelj.; M.k. pri Odelj. drž. dug. i drž. kred. Na drugom skenu istog akta vidi se i prijemni pečat Ministarstva građevina br. 18998 od 22. septembra 1943 i rukom „Да је овај препис веран своме оригиналу, оверава:“.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1943-09-18"
+        },
+        {
+          "kind": "iznos",
+          "value": "ukupno za dizalicu br. 2: RM 14.477,10 i 498.115,85 dinara; naknada za poskupljenje 15.000 din; ostatak zarade 208.164,35 din"
+        },
+        {
+          "kind": "firma",
+          "value": "J. Tepper iz Nemačke — izvođač montaže dizalice br. 2"
+        },
+        {
+          "kind": "finansiranje",
+          "value": "na teret partije g/11 programa javnih radova"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1943-09-18"
+    },
+    {
+      "id": "cit-finansije-glavna-kontrola-dnevnice-1941",
+      "folder": "Izvori finansija",
+      "kind": "odluka Glavne kontrole",
+      "title": {
+        "sr": "Glavna kontrola br. 63088, 31. X 1941: dnevnice nadzornicima odbijene",
+        "en": "Chief Audit Office no. 63088, 31 Oct 1941: supervisors' per diems refused"
+      },
+      "text": "Kucani akt: „ГЛАВНА КОНТРОЛА, Број 63088, 31 октобра 1941 год., Београд“, naslovljen „МИНИСТАРСТВУ ГРАЂЕВИНА — ЕЛЕКТРОМАШИНСКО ОДЕЉЕЊЕ“. „Главна контрола расмотрила је решење Господина Министра грађевина Бр. 24684 од 24 октобра 1941 год., којим је одобрио да исплата дневница инж. Хрћичек Александру, секретару, и инж. Ивковићу Константину, приправнику Министарства грађевина за вођење надзора на извршењу радова означених у решењу, падне на терет ванредног кредита од једне милијарде динара по чл. 1 Уредбе о извођењу јавних радова од 2 јула 1941 године, а из суме одобрене за радове под г/11 програма јавних радова одобреног одлуком СК.Бр. 72/41 са изменама по одлуци СК.Бр. 733/41 и МС.Бр. 1148/41 — па је одлучила: да се са овим решењем не може сагласити, јер је исто противно чл. 4 ст. 1 одлуке Савета комесара Бр. 950/I од 13 јуна 1941 године и ст. III одлуке комесара Министарства финансија Бр. 41/I од 11 маја 1941 године, по којима државни службеници имају права на примања која су по постојећим прописима одређена као накнада трошкова за службена путовања ван места службовања а не и за вођење надзора на радовима у месту њиховог сталног службовања као што је овде случај“ (poslednji deo podvučen crvenim). „Из опште седнице Главне контроле од 31 октобра 1941 године.“ Potpisi деловођа-писар i „За Претседника Главне контроле, члан“, pečat. Dostavljeno: Min. građ. — Elektromašinsko odeljenje; M.k. pri min. fin.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-10-31"
+        },
+        {
+          "kind": "lice",
+          "value": "nadzor nad elektromašinskim radovima vode inž. Aleksandar Hrčiček, sekretar, i inž. Konstantin Ivković, pripravnik Ministarstva građevina"
+        },
+        {
+          "kind": "odluka",
+          "value": "Glavna kontrola odbija isplatu dnevnica — nadzor je u mestu stalnog službovanja"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-10-31"
+    },
+    {
+      "id": "cit-finansije-brod-na-savi-kaucija",
+      "folder": "Izvori finansija",
+      "kind": "dopis o kauciji",
+      "title": {
+        "sr": "Tvornica vagona Brod na Savi traži povrat jamčevine, 29. X 1943",
+        "en": "Brod na Savi wagon works requests return of its bid bond, 29 Oct 1943"
+      },
+      "text": "Memorandum: „TVORNICA VAGONA, STROJEVA I MOSTOVA D.D. — BROD NA SAVI“, sa ravnateljstvom u Zagrebu (Gajeva ulica 2a), brzojavnim naslovom „LOKOMOTIVE SLAV. BROD / LOKOMOTIVE ZAGREB“ i računima kod Štedionice nez. drž. Hrvatske i Prve hrvatske štedionice. „Odlo: IX/4-dć. Brod n.S. 29.-X.-1943.“ Naslovljeno: Ministarstvo građevina, Beograd. Tekst (ijekavica): „Dne 17./3.1941.g. položili smo kod Vas jamčevno pismo Prve Hrvatske štedionice, Zagreb u iznosu od Din. 300.000.- prema reversu M.G.Br. 52062. Ovo jamčevno pismo imalo je služiti kao privremena kaucija da bi mogli učestvovati na ofertalnoj licitaciji za isporuku i postavljanje kotlovskog postrojenja u zgradi Državne štamparije u Beogradu. Pošto uslijed rata licitacija nije održana to je naše jamčevno pismo postalo bespredmetno, a kako se jamčevna pisma prema berlinskom utanačenju ne smatraju vrijednosnim papirima to nema nikakove zapreke za povrat ove jamčevine“ (podvučeno crvenim). „U ovom predmetu obraćamo se posebnim dopisom na General Bevollmächtigte für Wirtschaft in Serbien u Beogradu. Molimo Vas, da izvolite u suglasnosti sa navedenom njemačkom ustanovom donijeti rješenje za povrat ove naše kaucije. Pošto se naša jamčevina sada nalazi kod Državne hipotekarne banke, tamo, to izvolite istoj dati nalog, da jamčevinu preda Prvoj hrvatskoj štedionici, podružnici, tamo, uz izručenje odnosnog reversa i naše punomoći.“ Potpisi dva lica uz otisak firme. Dole rukom brojevi predmeta: 13040/42, 13-VI; 52062/40; 28?/41; 10979/41; i marka sa brojem 922.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1943-10-29"
+        },
+        {
+          "kind": "iznos",
+          "value": "jamčevno pismo Prve hrvatske štedionice na 300.000 dinara, položeno 17. III 1941 po reversu M.G.Br. 52062"
+        },
+        {
+          "kind": "dogadjaj",
+          "value": "ofertalna licitacija za kotlovsko postrojenje nije održana usled rata"
+        },
+        {
+          "kind": "ustanova",
+          "value": "predmet se vodi i preko General Bevollmächtigter für Wirtschaft in Serbien"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1943-10-29"
     }
   ],
   "chronology": [
@@ -3573,6 +5824,17 @@
       "span": false
     },
     {
+      "id": "bigz:t:44c08449de",
+      "reading": "cit-finansije-spisak-reklamacija",
+      "from": "1936-11-07",
+      "label": {
+        "sr": "Spisak reklamacija: 21 stavka sa pozivom na građevinski dnevnik (1936–1939)",
+        "en": "List of claims: 21 items referenced to the site diary (1936–1939)"
+      },
+      "raw": "1936-11-07",
+      "span": false
+    },
+    {
       "id": "bigz:t:e10408f348",
       "reading": "cit-foto-jama-pod-vodom",
       "from": "1937-05-24",
@@ -3581,6 +5843,17 @@
         "en": "“Front part of the pit under water”, 24 May 1937"
       },
       "raw": "1937-05-24",
+      "span": false
+    },
+    {
+      "id": "bigz:t:6d687f7226",
+      "reading": "cit-nacrt-overa-brasovan-1937",
+      "from": "1937-07-14",
+      "label": {
+        "sr": "Overa nacrta: Brašovan 14. VII 1937, revizija Ministarstva građevina",
+        "en": "Drawing approval: Brašovan 14 Jul 1937, review by the Ministry of Construction"
+      },
+      "raw": "1937-07-14",
       "span": false
     },
     {
@@ -3593,6 +5866,72 @@
       },
       "raw": "1937-07-20 → 1938-05-09",
       "span": true
+    },
+    {
+      "id": "bigz:t:8a7b591c2d",
+      "reading": "cit-nacrt-overa-brasovan-1937",
+      "from": "1937-09-04",
+      "label": {
+        "sr": "Overa nacrta: Brašovan 14. VII 1937, revizija Ministarstva građevina",
+        "en": "Drawing approval: Brašovan 14 Jul 1937, review by the Ministry of Construction"
+      },
+      "raw": "1937-09-04",
+      "span": false
+    },
+    {
+      "id": "bigz:t:e35845f1d9",
+      "reading": "cit-gradjevinska-knjiga-str12-13",
+      "from": "1938-02-17",
+      "label": {
+        "sr": "Građevinska knjiga, strane 12–13: skica zida i overa, 17–18. II 1938",
+        "en": "Measurement book, pages 12–13: wall sketch and approval, 17–18 Feb 1938"
+      },
+      "raw": "1938-02-17",
+      "span": false
+    },
+    {
+      "id": "bigz:t:afae23af34",
+      "reading": "cit-gradjevinska-knjiga-str12-13",
+      "from": "1938-02-18",
+      "label": {
+        "sr": "Građevinska knjiga, strane 12–13: skica zida i overa, 17–18. II 1938",
+        "en": "Measurement book, pages 12–13: wall sketch and approval, 17–18 Feb 1938"
+      },
+      "raw": "1938-02-18",
+      "span": false
+    },
+    {
+      "id": "bigz:t:d5385f1dd9",
+      "reading": "cit-dizalica-br8-brasovan-1938",
+      "from": "1938-03-21",
+      "label": {
+        "sr": "Završna strana predmera dizalica — potpisi Brašovana i Gortinskog, 21. III 1938",
+        "en": "Final page of the hoist bill of quantities — signed by Brašovan and Gortinski, 21 Mar 1938"
+      },
+      "raw": "1938-03-21",
+      "span": false
+    },
+    {
+      "id": "bigz:t:7bc25c0a1a",
+      "reading": "cit-osoblje-izvod-spiska-2",
+      "from": "1938-05-10",
+      "label": {
+        "sr": "Izvod spiska br. 2: nadnice 10. V 1938 – 8. V 1939",
+        "en": "Payroll extract no. 2: man-days 10 May 1938 – 8 May 1939"
+      },
+      "raw": "1938-05-10/1939-05-08",
+      "span": true
+    },
+    {
+      "id": "bigz:t:840cde9c28",
+      "reading": "cit-ponuda-vestacki-kamen-1939",
+      "from": "1939-03-29",
+      "label": {
+        "sr": "Ponuda za veštački kamen, 100 dinara po m², 29. marta 1939",
+        "en": "Offer for artificial stone, 100 dinars per m², 29 March 1939"
+      },
+      "raw": "1939-03-29",
+      "span": false
     },
     {
       "id": "bigz:t:68676a7b42",
@@ -3617,6 +5956,28 @@
       "span": false
     },
     {
+      "id": "bigz:t:01c83ad86e",
+      "reading": "cit-osoblje-zapisnik-1939-06-07",
+      "from": "1939-06-07",
+      "label": {
+        "sr": "Zapisnik sa sastanka na gradilištu, 7. VI 1939 — arh. Brašovan odlučuje o grejanju",
+        "en": "Site meeting minutes, 7 June 1939 — arch. Brasovan rules on the heating"
+      },
+      "raw": "1939-06-07",
+      "span": false
+    },
+    {
+      "id": "bigz:t:389235c277",
+      "reading": "cit-dnevnik-str200-overa-1939",
+      "from": "1939-06-12",
+      "label": {
+        "sr": "Dnevnik, strana 200: overa knjige od 200 strana, 12. juna 1939",
+        "en": "Works diary, page 200: certification of the 200-page book, 12 June 1939"
+      },
+      "raw": "1939-06-12",
+      "span": false
+    },
+    {
       "id": "bigz:t:225dbb4f10",
       "reading": "cit-zapisnik-1939-06-14",
       "from": "1939-06-14",
@@ -3625,6 +5986,28 @@
         "en": "Site inspection minutes, 14 June 1939 — routing of heating risers"
       },
       "raw": "1939-06-14",
+      "span": false
+    },
+    {
+      "id": "bigz:t:5015046d11",
+      "reading": "cit-osoblje-dnevnik-1939-06-16",
+      "from": "1939-06-16",
+      "label": {
+        "sr": "Dnevnik, str. 11: 16. VI 1939 — arh. Krstić i grejne površine u vestibilu",
+        "en": "Site diary, p. 11: 16 June 1939 — arch. Krstic and heating surfaces in the vestibule"
+      },
+      "raw": "1939-06-16",
+      "span": false
+    },
+    {
+      "id": "bigz:t:47e8c36fab",
+      "reading": "cit-skice-dnevnik-radne-snage",
+      "from": "1939-06-27",
+      "label": {
+        "sr": "Građevinski dnevnik: pregled radne snage, 27. VI 1939",
+        "en": "Site diary: labour force, 27 June 1939"
+      },
+      "raw": "1939-06-27",
       "span": false
     },
     {
@@ -3647,6 +6030,17 @@
         "en": "Diary, day XXXIX — 15 Jul 1939: heating installation"
       },
       "raw": "1939-07-15",
+      "span": false
+    },
+    {
+      "id": "bigz:t:cd5507c157",
+      "reading": "cit-osoblje-dnevnik-1939-07-16-17",
+      "from": "1939-07-17",
+      "label": {
+        "sr": "Dnevnik, str. 35: 16–17. VII 1939, montaža parnog i toplovodnog grejanja",
+        "en": "Site diary, p. 35: 16–17 July 1939, steam and hot-water heating installation"
+      },
+      "raw": "1939-07-17",
       "span": false
     },
     {
@@ -3694,6 +6088,39 @@
       "span": false
     },
     {
+      "id": "bigz:t:0fed9c810a",
+      "reading": "cit-osoblje-izvod-spiska-4",
+      "from": "1939-09-01",
+      "label": {
+        "sr": "Izvod spiska br. 4: nadnice 1. IX 1939 – 30. IV 1940",
+        "en": "Payroll extract no. 4: man-days 1 Sept 1939 – 30 April 1940"
+      },
+      "raw": "1939-09-01/1940-04-30",
+      "span": true
+    },
+    {
+      "id": "bigz:t:d329885576",
+      "reading": "cit-finansije-josanica-opsta-primedba",
+      "from": "1939-09-12",
+      "label": {
+        "sr": "Jošanica A.D.: opšta primedba uz analizu cena, 12. IX 1939",
+        "en": "Josanica A.D.: general note to the price analysis, 12 Sept 1939"
+      },
+      "raw": "1939-09-12",
+      "span": false
+    },
+    {
+      "id": "bigz:t:9b9dd497d2",
+      "reading": "cit-situacija4-grejanje-isplata",
+      "from": "1939-12-21",
+      "label": {
+        "sr": "IV situacija grejanja: popust 14% i ostatak za isplatu",
+        "en": "Heating situation IV: 14% discount and the balance due"
+      },
+      "raw": "1939-12-21",
+      "span": false
+    },
+    {
       "id": "bigz:t:b39cd157ee",
       "reading": "cit-dnevnik-ademp-26xii1939",
       "from": "1939-12-26",
@@ -3702,6 +6129,83 @@
         "en": "Site diary, page 176 — ADEMP workforce on 26 Dec 1939, signed by the supervising engineer"
       },
       "raw": "1939-12-26",
+      "span": false
+    },
+    {
+      "id": "bigz:t:42bc6a870f",
+      "reading": "cit-dizalica-br8-brasovan-1938",
+      "from": "1940-03-08",
+      "label": {
+        "sr": "Završna strana predmera dizalica — potpisi Brašovana i Gortinskog, 21. III 1938",
+        "en": "Final page of the hoist bill of quantities — signed by Brašovan and Gortinski, 21 Mar 1938"
+      },
+      "raw": "1940-03-08",
+      "span": false
+    },
+    {
+      "id": "bigz:t:ec7625360e",
+      "reading": "cit-osoblje-dnevnik-1940-04-08-10",
+      "from": "1940-04-09",
+      "label": {
+        "sr": "Dnevnik, str. 179: 8–10. IV 1940, automatska regulacija i kabl po fasadi",
+        "en": "Site diary, p. 179: 8–10 April 1940, automatic control and facade cable"
+      },
+      "raw": "1940-04-09",
+      "span": false
+    },
+    {
+      "id": "bigz:t:814b742704",
+      "reading": "cit-finansije-poziv-licitacija-dizalice",
+      "from": "1940-05-17",
+      "label": {
+        "sr": "Poziv na ofertalnu pogodbu za lične i teretne dizalice, 17. V 1940",
+        "en": "Invitation to tender for passenger and goods lifts, 17 May 1940"
+      },
+      "raw": "1940-05-17",
+      "span": false
+    },
+    {
+      "id": "bigz:t:cdffb77fc1",
+      "reading": "cit-dnevnik-str199-zavrsetak-1940",
+      "from": "1940-05-26",
+      "label": {
+        "sr": "Dnevnik, strana 199: završetak rada 26. V 1940. i potpisi",
+        "en": "Works diary, page 199: works completed 26 May 1940, with signatures"
+      },
+      "raw": "1940-05-26",
+      "span": false
+    },
+    {
+      "id": "bigz:t:92cc5e301d",
+      "reading": "cit-finansije-devizna-direkcija-1940",
+      "from": "1940-06-20",
+      "label": {
+        "sr": "Traženje kursa za plaćanje u inostranstvu: 16.160 RM, jun 1940",
+        "en": "Request for an exchange rate for a foreign payment: RM 16,160, June 1940"
+      },
+      "raw": "1940-06-20",
+      "span": false
+    },
+    {
+      "id": "bigz:t:d76556e3eb",
+      "reading": "cit-kotlovi-rezultati-merenja-1941",
+      "from": "1941-01-15",
+      "label": {
+        "sr": "Rezultati merenja na automatskim parnim kotlovima sistema PRAGA, januar 1941",
+        "en": "Measurement results on PRAGA automatic steam boilers, January 1941"
+      },
+      "raw": "1941-01-15",
+      "span": false
+    },
+    {
+      "id": "bigz:t:1b4303bf2b",
+      "reading": "cit-kotlovi-rezultati-merenja-1941",
+      "from": "1941-01-16",
+      "label": {
+        "sr": "Rezultati merenja na automatskim parnim kotlovima sistema PRAGA, januar 1941",
+        "en": "Measurement results on PRAGA automatic steam boilers, January 1941"
+      },
+      "raw": "1941-01-16",
       "span": false
     },
     {
@@ -3716,6 +6220,116 @@
       "span": false
     },
     {
+      "id": "bigz:t:f9c9b919cd",
+      "reading": "cit-finansije-kotlovi-licitacija-1941-03",
+      "from": "1941-03-17",
+      "label": {
+        "sr": "Druga licitacija za kotlovsko postrojenje, 17. III 1941 — četiri ponude",
+        "en": "Second tender for the boiler plant, 17 March 1941 — four bids"
+      },
+      "raw": "1941-03-17",
+      "span": false
+    },
+    {
+      "id": "bigz:t:01af70f254",
+      "reading": "cit-ponuda-metlas-k393-s1",
+      "from": "1941-08-22",
+      "label": {
+        "sr": "Ponuda ing. Lj. Metlaša K-393/Za za kotlovsko postrojenje — str. 1",
+        "en": "Offer K-393/Za by eng. Lj. Metlas for the boiler plant — p. 1"
+      },
+      "raw": "1941-08-22",
+      "span": false
+    },
+    {
+      "id": "bigz:t:5ec631e82b",
+      "reading": "cit-ponuda-metlas-k403-dopuna",
+      "from": "1941-09-01",
+      "label": {
+        "sr": "Dopune/promene ponude K-403/Za, 1. septembar 1941",
+        "en": "Amendment K-403/Za to the offer, 1 September 1941"
+      },
+      "raw": "1941-09-01",
+      "span": false
+    },
+    {
+      "id": "bigz:t:b8734ba41e",
+      "reading": "cit-ponuda-strebelwerk-1941",
+      "from": "1941-09-09",
+      "label": {
+        "sr": "Ponuda firme Strebelwerk Mannheim, 9. IX 1941",
+        "en": "Offer by Strebelwerk Mannheim, 9 Sept 1941"
+      },
+      "raw": "1941-09-09",
+      "span": false
+    },
+    {
+      "id": "bigz:t:85252ee347",
+      "reading": "cit-strebelwerk-dopuna-kliring",
+      "from": "1941-09-10",
+      "label": {
+        "sr": "Strebelwerk: dopuna o plaćanju preko klirniga, 10. 9. 1941",
+        "en": "Strebelwerk: clearing-payment amendment, 10 Sept 1941"
+      },
+      "raw": "1941-09-10",
+      "span": false
+    },
+    {
+      "id": "bigz:t:aa424aeb90",
+      "reading": "cit-komisijski-izvestaj-kotlovi-s1",
+      "from": "1941-09-12",
+      "label": {
+        "sr": "Komisijski izveštaj o neposrednoj pogodbi za kotlove — str. 1",
+        "en": "Commission report on the direct award of the boiler contract — p. 1"
+      },
+      "raw": "1941-09-12",
+      "span": false
+    },
+    {
+      "id": "bigz:t:b4cdb082c6",
+      "reading": "cit-komisijski-izvestaj-kotlovi-s2",
+      "from": "1941-09-15",
+      "label": {
+        "sr": "Komisijski izveštaj — str. 2: zaključak u korist firme Strebelwerke",
+        "en": "Commission report — p. 2: award recommended to Strebelwerke"
+      },
+      "raw": "1941-09-15",
+      "span": false
+    },
+    {
+      "id": "bigz:t:77bc7fb73c",
+      "reading": "cit-opsti-uslovi-pogodbe-1941",
+      "from": "1941-10-08",
+      "label": {
+        "sr": "Opšti uslovi za zaključenje neposrednih pogodbi, 9. oktobra 1941",
+        "en": "General conditions for direct contracting, 9 October 1941"
+      },
+      "raw": "1941-10-08",
+      "span": false
+    },
+    {
+      "id": "bigz:t:05c0018690",
+      "reading": "cit-opsti-uslovi-pogodbe-1941",
+      "from": "1941-10-09",
+      "label": {
+        "sr": "Opšti uslovi za zaključenje neposrednih pogodbi, 9. oktobra 1941",
+        "en": "General conditions for direct contracting, 9 October 1941"
+      },
+      "raw": "1941-10-09",
+      "span": false
+    },
+    {
+      "id": "bigz:t:d07cc43a4a",
+      "reading": "cit-foto-posebni-uslovi-1941",
+      "from": "1941-10-09",
+      "label": {
+        "sr": "Posebni uslovi, Ministarstvo građevina, 9. oktobar 1941",
+        "en": "Special Conditions, Ministry of Construction, 9 October 1941"
+      },
+      "raw": "1941-10-09",
+      "span": false
+    },
+    {
       "id": "bigz:t:f0a8df2b77",
       "reading": "cit-tepper-katalog-s301",
       "from": "1941-10-22",
@@ -3724,6 +6338,39 @@
         "en": "Joseph Tepper, Maschinenfabrik Münster — catalogue page 301 with references and a Reichsgartenschau Essen 1938 label"
       },
       "raw": "1941-10-22",
+      "span": false
+    },
+    {
+      "id": "bigz:t:8103f29c8f",
+      "reading": "cit-finansije-glavna-kontrola-strebelwerke",
+      "from": "1941-10-25",
+      "label": {
+        "sr": "Glavna kontrola br. 62353, 25. X 1941: potvrda ustupanja kotlova Strebelwerke",
+        "en": "Chief Audit Office no. 62353, 25 Oct 1941: boiler award to Strebelwerke confirmed"
+      },
+      "raw": "1941-10-25",
+      "span": false
+    },
+    {
+      "id": "bigz:t:fee133cf17",
+      "reading": "cit-finansije-glavna-kontrola-dnevnice-1941",
+      "from": "1941-10-31",
+      "label": {
+        "sr": "Glavna kontrola br. 63088, 31. X 1941: dnevnice nadzornicima odbijene",
+        "en": "Chief Audit Office no. 63088, 31 Oct 1941: supervisors' per diems refused"
+      },
+      "raw": "1941-10-31",
+      "span": false
+    },
+    {
+      "id": "bigz:t:ad34b33c4c",
+      "reading": "cit-finansije-rekapitulacija-1942",
+      "from": "1942-03-31",
+      "label": {
+        "sr": "Rekapitulacija radova, ukupno 7.339.645,59 dinara (licitacija 31. III 1942)",
+        "en": "Recapitulation of works, total 7,339,645.59 dinars (tender 31 March 1942)"
+      },
+      "raw": "1942-03-31",
       "span": false
     },
     {
@@ -3749,6 +6396,17 @@
       "span": false
     },
     {
+      "id": "bigz:t:17c91cfdbe",
+      "reading": "cit-dizalice-komisija-likvidacija-1944",
+      "from": "1942-12-26",
+      "label": {
+        "sr": "Rešenje o komisiji za likvidaciju radova na dizalicama, 13. juna 1944",
+        "en": "Decision on the commission to liquidate the lift installation works, 13 June 1944"
+      },
+      "raw": "1942-12-26",
+      "span": false
+    },
+    {
       "id": "bigz:t:c63b6759d2",
       "reading": "cit-obracunski-elaborat-1943",
       "from": "1943-02-04",
@@ -3766,6 +6424,17 @@
       "label": {
         "sr": "Obračunski elaborat ekonomskog bloka, potpisan 4. II 1943.",
         "en": "Final accounting report for the economic block, signed 4 Feb 1943"
+      },
+      "raw": "1943-03-31",
+      "span": false
+    },
+    {
+      "id": "bigz:t:cb3ff4f5fe",
+      "reading": "cit-viskovi-manjkovi-prilog-v-1943",
+      "from": "1943-03-31",
+      "label": {
+        "sr": "Prilog V — viškovi i manjkovi na Ekonomskom bloku, 31. marta 1943",
+        "en": "Annex V — surpluses and shortfalls on the Economic block, 31 March 1943"
       },
       "raw": "1943-03-31",
       "span": false
@@ -3793,6 +6462,105 @@
       "span": false
     },
     {
+      "id": "bigz:t:048f61979e",
+      "reading": "cit-simens-raskid-ugovora-1943",
+      "from": "1943-08-25",
+      "label": {
+        "sr": "Raskid ugovora sa „Jugoslovensko Simens, sada Srpsko Simens“, 1943",
+        "en": "Termination of the contract with “Yugoslav Siemens, now Serbian Siemens”, 1943"
+      },
+      "raw": "1943-08-25",
+      "span": false
+    },
+    {
+      "id": "bigz:t:7cee1ccea3",
+      "reading": "cit-simens-raskid-ugovora-1943",
+      "from": "1943-09-03",
+      "label": {
+        "sr": "Raskid ugovora sa „Jugoslovensko Simens, sada Srpsko Simens“, 1943",
+        "en": "Termination of the contract with “Yugoslav Siemens, now Serbian Siemens”, 1943"
+      },
+      "raw": "1943-09-03",
+      "span": false
+    },
+    {
+      "id": "bigz:t:ad99eabddc",
+      "reading": "cit-simens-raskid-ugovora-1943",
+      "from": "1943-09-11",
+      "label": {
+        "sr": "Raskid ugovora sa „Jugoslovensko Simens, sada Srpsko Simens“, 1943",
+        "en": "Termination of the contract with “Yugoslav Siemens, now Serbian Siemens”, 1943"
+      },
+      "raw": "1943-09-11",
+      "span": false
+    },
+    {
+      "id": "bigz:t:70ddd5ff1f",
+      "reading": "cit-finansije-glavna-kontrola-tepper-1943",
+      "from": "1943-09-18",
+      "label": {
+        "sr": "Glavna kontrola br. 46516, 18. IX 1943: naknada firmi J. Tepper za dizalicu br. 2",
+        "en": "Chief Audit Office no. 46516, 18 Sept 1943: compensation to J. Tepper for lift no. 2"
+      },
+      "raw": "1943-09-18",
+      "span": false
+    },
+    {
+      "id": "bigz:t:b4f2c55b36",
+      "reading": "cit-dizalice-komisija-likvidacija-1944",
+      "from": "1943-09-18",
+      "label": {
+        "sr": "Rešenje o komisiji za likvidaciju radova na dizalicama, 13. juna 1944",
+        "en": "Decision on the commission to liquidate the lift installation works, 13 June 1944"
+      },
+      "raw": "1943-09-18",
+      "span": false
+    },
+    {
+      "id": "bigz:t:ad01e53e1a",
+      "reading": "cit-simens-raskid-ugovora-1943",
+      "from": "1943-10-19",
+      "label": {
+        "sr": "Raskid ugovora sa „Jugoslovensko Simens, sada Srpsko Simens“, 1943",
+        "en": "Termination of the contract with “Yugoslav Siemens, now Serbian Siemens”, 1943"
+      },
+      "raw": "1943-10-19",
+      "span": false
+    },
+    {
+      "id": "bigz:t:10de3b3496",
+      "reading": "cit-simens-raskid-ugovora-1943",
+      "from": "1943-10-28",
+      "label": {
+        "sr": "Raskid ugovora sa „Jugoslovensko Simens, sada Srpsko Simens“, 1943",
+        "en": "Termination of the contract with “Yugoslav Siemens, now Serbian Siemens”, 1943"
+      },
+      "raw": "1943-10-28",
+      "span": false
+    },
+    {
+      "id": "bigz:t:41bf481829",
+      "reading": "cit-finansije-brod-na-savi-kaucija",
+      "from": "1943-10-29",
+      "label": {
+        "sr": "Tvornica vagona Brod na Savi traži povrat jamčevine, 29. X 1943",
+        "en": "Brod na Savi wagon works requests return of its bid bond, 29 Oct 1943"
+      },
+      "raw": "1943-10-29",
+      "span": false
+    },
+    {
+      "id": "bigz:t:582da41092",
+      "reading": "cit-dizalice-komisija-likvidacija-1944",
+      "from": "1944-06-13",
+      "label": {
+        "sr": "Rešenje o komisiji za likvidaciju radova na dizalicama, 13. juna 1944",
+        "en": "Decision on the commission to liquidate the lift installation works, 13 June 1944"
+      },
+      "raw": "1944-06-13",
+      "span": false
+    },
+    {
       "id": "bigz:t:e5db4cb6ac",
       "reading": "cit-dizalica-presek-1946",
       "from": "1946-07",
@@ -3801,6 +6569,17 @@
         "en": "Horizontal section of the lift shafts, Belgrade, July 1946"
       },
       "raw": "1946-07",
+      "span": false
+    },
+    {
+      "id": "bigz:t:ad727f462c",
+      "reading": "cit-institut-ispitivanje-betona-1967",
+      "from": "1967-05-16",
+      "label": {
+        "sr": "Institut za ispitivanje materijala: ispitivanje betona BGZ, 16. 5. 1967",
+        "en": "Institute for Materials Testing: concrete testing at BGZ, 16 May 1967"
+      },
+      "raw": "1967-05-16",
       "span": false
     }
   ],
@@ -4021,5 +6800,5 @@
     "order": "Auftrags-Nr. 71470/71",
     "note": "Jedina stvarna mera u ovom prostoru: visina dizanja teretnog lifta, prepisana sa fabričkog lista."
   },
-  "revision": "b-89484d2456d6ed75"
+  "revision": "b-14c4e46c9adcfa59"
 }

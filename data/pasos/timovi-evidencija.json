@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "updated": "2026-10-19",
+  "updated": "2026-10-23",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
     "sr": "Zvanični javni registar timova: ID tima, brojevi indeksa, dodeljeni objekti, teme istraživanja i faza progresa. Imena studenata su izostavljena radi zaštite privatnosti."
   },
   "totals": {
-    "teams": 67,
-    "objects": 48,
+    "teams": 70,
+    "objects": 51,
     "completedPassports": 12
   },
   "entries": [
@@ -26,7 +26,9 @@
       "status": "Kuriran pilot pasoš",
       "submissionsCount": 1,
       "hasPassport": true,
-      "flags": [],
+      "flags": [
+        "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora"
+      ],
       "claimsCount": 21,
       "sectionsCount": 8
     },
@@ -44,7 +46,9 @@
       "status": "Kuriran pilot pasoš",
       "submissionsCount": 1,
       "hasPassport": true,
-      "flags": [],
+      "flags": [
+        "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora"
+      ],
       "claimsCount": 28,
       "sectionsCount": 9
     },
@@ -63,7 +67,8 @@
       "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
-        "Deljeni objekat: T03 i T60 rade Sava Centar (odobreno)"
+        "Deljeni objekat: T03 i T60 rade Sava Centar (odobreno)",
+        "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora"
       ],
       "claimsCount": 30,
       "sectionsCount": 10
@@ -105,7 +110,9 @@
       "status": "Predat koncept rada",
       "submissionsCount": 1,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Indeks 136/26 se javlja i u T68 (Zgrada tehničkih fakulteta)"
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -241,7 +248,9 @@
       "status": "Kuriran pilot pasoš (najzreliji primer)",
       "submissionsCount": 1,
       "hasPassport": true,
-      "flags": [],
+      "flags": [
+        "Ista upisana tačka kao T25: Generalštab je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima ili dva odvojena upisa."
+      ],
       "claimsCount": 16,
       "sectionsCount": 4
     },
@@ -319,7 +328,9 @@
       "status": "Priprema terenskog rada",
       "submissionsCount": 0,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Ista upisana tačka kao T55: Palata Narodne banke je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -414,9 +425,9 @@
       "object": "Dve kule Beograd (Ušće 1 i 2)",
       "location": "Bulevar Mihajla Pupina 6, Novi Beograd",
       "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
-      "progressStage": 2,
-      "progressLabel": "Priprema intervjua",
-      "status": "Priprema intervjua",
+      "progressStage": 3,
+      "progressLabel": "Predat tekst o tehnologiji",
+      "status": "Predat tekst; traži se prototip i tabela podatak → izvor",
       "submissionsCount": 0,
       "hasPassport": false,
       "flags": [],
@@ -493,12 +504,14 @@
       "object": "SIV i Generalštab (dva objekta)",
       "location": "Novi Beograd / Kneza Miloša",
       "topic": "Uporedna analiza primenjenih materijala i modernističkih fasada",
-      "progressStage": 2,
-      "progressLabel": "U radu",
-      "status": "U radu (5 članova = 2 objekta)",
+      "progressStage": 5,
+      "progressLabel": "Predata AI Studio aplikacija",
+      "status": "Predata AI Studio aplikacija i PDF (19.10)",
       "submissionsCount": 0,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Ista upisana tačka kao T12 (Zgrada Generalštaba). Razrešiti da li je to jedan objekat sa dva tima ili dva odvojena upisa."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -552,13 +565,14 @@
       "object": "Kula Beograd",
       "location": "Beograd na vodi",
       "topic": "Konstrukcija i izvođenje radova, šipovi, rotirana silueta",
-      "progressStage": 3,
-      "progressLabel": "Prihvaćena tema + materijali",
-      "status": "Prihvaćena tema i poslati materijali",
+      "progressStage": 4,
+      "progressLabel": "Predata radna verzija",
+      "status": "Predat rad o konstrukciji, mašinama i energetskoj efikasnosti (19.10)",
       "submissionsCount": 1,
       "hasPassport": false,
       "flags": [
-        "Prvi tim na Kuli Beograd (dozvoljeno)"
+        "Prvi tim na Kuli Beograd (dozvoljeno)",
+        "Indeksi se proveravaju: student piše Bogićević 33 / Joksić 62, registar nosi obrnuto"
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -653,9 +667,9 @@
       "object": "Stari dvor",
       "location": "Dragoslava Jovanovića 2, Beograd",
       "topic": "Aleksandar Bugarski, istorija zdanja kroz epohe, rekonstrukcije",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Predat pasoš Starog dvora",
+      "status": "Predat pasoš; traži se tabela i izvori",
       "submissionsCount": 0,
       "hasPassport": false,
       "flags": [],
@@ -770,7 +784,9 @@
       "status": "Prijavljena tema",
       "submissionsCount": 0,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Upisana tačka je na Dorćolu, a zabeležena adresa je Bulevar Mihajla Pupina na Novom Beogradu — koordinata je privremena i nije potvrđena. Ista tačka je upisana i za T59."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -827,7 +843,9 @@
       "status": "Predate 2 AI Studio aplikacije (Igra + 3D portret)",
       "submissionsCount": 2,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i Marko Milanović, koji nisu u listi"
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -899,9 +917,9 @@
       "object": "Hotel Jugoslavija",
       "location": "Bulevar Nikole Tesle, Novi Beograd",
       "topic": "Lavoslav Horvat, monumentalni dunavski front, istorijat i pitanje rušenja/rekonstrukcije",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 4,
+      "progressLabel": "Predat pasoš kroz svih 7 celina",
+      "status": "Predat pasoš kroz svih sedam celina (19.10)",
       "submissionsCount": 0,
       "hasPassport": false,
       "flags": [],
@@ -954,9 +972,9 @@
       "object": "Stambena kula „Toblerone”",
       "location": "Bogoslovija / Karaburma, Beograd",
       "topic": "Rista Šekerinski, brutalistička ekspresija, trougaona osnova, prefabrikacija",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Primljen pilot pasoš",
+      "status": "Primljen pilot pasoš; izvori nepotpuni",
       "submissionsCount": 0,
       "hasPassport": false,
       "flags": [],
@@ -1072,7 +1090,9 @@
       "status": "Prijavljena tema",
       "submissionsCount": 0,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Ista upisana tačka kao T16 (Palata Narodne banke Srbije). Razrešiti da li je to jedan objekat sa dva tima."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -1121,9 +1141,9 @@
       "object": "Zgrada tehničkih fakulteta",
       "location": "Bulevar kralja Aleksandra 73, Beograd",
       "topic": "Konstrukcija amfiteatara i krovnih nosača",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Predata prva verzija rada",
+      "status": "Predata prva verzija (19.10), vraćeno na format tabele",
       "submissionsCount": 0,
       "hasPassport": false,
       "flags": [],
@@ -1144,7 +1164,9 @@
       "status": "Prihvaćen plan istraživanja",
       "submissionsCount": 1,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Ista upisana tačka kao T39, a reč je o različitim objektima; tačka je približna i nije geodetski potvrđena."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -1257,9 +1279,9 @@
       "object": "Crkva Aleksandra Nevskog",
       "location": "Cara Dušana 63, Dorćol, Beograd",
       "topic": "Jelisaveta Načić, srpsko-vizantijski stil, materijali, poseta crkvi i razgovor sa sveštenstvom",
-      "progressStage": 3,
-      "progressLabel": "Prikupljeni podaci",
-      "status": "Prikupljeni podaci i plan posete",
+      "progressStage": 5,
+      "progressLabel": "Predat pasoš i igrica",
+      "status": "Predat PDF pasoš i HTML igrica (19.10)",
       "submissionsCount": 1,
       "hasPassport": false,
       "flags": [],
@@ -1275,9 +1297,9 @@
       "object": "Hotel Bristol",
       "location": "Karađorđeva 50, Savamala, Beograd",
       "topic": "Nikola Nestorović, secesija, istorijat hotela, posleratna upotreba, tekuća restauracija",
-      "progressStage": 4,
-      "progressLabel": "Predat PDF koncept",
-      "status": "Predat PDF (16.10), najavljena poseta i Zavod za zaštitu spomenika",
+      "progressStage": 5,
+      "progressLabel": "Predat elaborat",
+      "status": "Predat elaborat i koncept (19.10)",
       "submissionsCount": 1,
       "hasPassport": false,
       "flags": [
@@ -1306,7 +1328,74 @@
       ],
       "claimsCount": 0,
       "sectionsCount": 0
+    },
+    {
+      "id": "T68",
+      "indices": [
+        "155/26",
+        "130/26",
+        "136/26"
+      ],
+      "object": "Zgrada tehničkih fakulteta",
+      "location": "Bulevar kralja Aleksandra 73, Beograd",
+      "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
+      "progressStage": 4,
+      "progressLabel": "Predato terensko istraživanje",
+      "status": "Predato istraživanje sa terena i sa predavanja (19.10)",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Prijem 2026-10-23: najobimnija građa prijema (11,7 MB)",
+        "Indeks 136/26 vodi se i u T05 (Dom omladine) — pripadnost se potvrđuje",
+        "Treći tim na Zgradi tehničkih fakulteta (uz T19 i T58)"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T69",
+      "indices": [
+        "93/2026"
+      ],
+      "object": "Prva beogradska gimnazija",
+      "location": "Cara Dušana 61, Beograd",
+      "topic": "Milica Krstić, modernistička forma prema istorijskom jezgru Dorćola i Skadarlije, ratna oštećenja",
+      "progressStage": 3,
+      "progressLabel": "Predata prva verzija rada",
+      "status": "Predata prva verzija rada (19.10), vraćeno na format tabele",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Prijem 2026-10-23: indeks 93/2026 nije postojao u registru",
+        "Student piše u množini („šaljemo”) — ostali članovi nisu imenovani",
+        "Drugi tim na Prvoj beogradskoj gimnaziji (uz T42)"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T70",
+      "indices": [
+        "21/2026",
+        "62/2026",
+        "50/2026"
+      ],
+      "object": "Rajhlova palata, Subotica",
+      "location": "Subotica",
+      "topic": "Secesija Ferenca Rajhla, ornament i fasadna dekoracija",
+      "progressStage": 3,
+      "progressLabel": "Predat pasoš na proveru",
+      "status": "Predat pasoš na proveru (19.10), vraćeno na format tabele",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Prijem 2026-10-23: objekat nije bio u registru",
+        "Vanbeogradski objekat — nije na beogradskoj mapi",
+        "Staša Žic: naslov mejla nosi 64/2026, telo 62/2026 — indeks se potvrđuje"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-de6ae0aa90f63839"
+  "datasetRevision": "r-cddc6e3c32ae69b5"
 }

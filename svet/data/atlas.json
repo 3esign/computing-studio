@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-de6ae0aa90f63839",
+  "datasetRevision": "r-cddc6e3c32ae69b5",
   "teams": [
     {
       "id": "T01",
@@ -593,9 +593,9 @@
       "y": 4,
       "z": 32.51,
       "type": "standard",
-      "progressStage": 2,
-      "progressLabel": "Priprema intervjua",
-      "status": "Priprema intervjua",
+      "progressStage": 3,
+      "progressLabel": "Predat tekst o tehnologiji",
+      "status": "Predat tekst; traži se prototip i tabela podatak → izvor",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -710,9 +710,9 @@
       "y": 3.2,
       "z": 27.5,
       "type": "generalstab",
-      "progressStage": 2,
-      "progressLabel": "U radu",
-      "status": "U radu (5 članova = 2 objekta)",
+      "progressStage": 5,
+      "progressLabel": "Predata AI Studio aplikacija",
+      "status": "Predata AI Studio aplikacija i PDF (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -795,9 +795,9 @@
       "y": 1.8,
       "z": 60.01,
       "type": "kulabeograd",
-      "progressStage": 3,
-      "progressLabel": "Prihvaćena tema + materijali",
-      "status": "Prihvaćena tema i poslati materijali",
+      "progressStage": 4,
+      "progressLabel": "Predata radna verzija",
+      "status": "Predat rad o konstrukciji, mašinama i energetskoj efikasnosti (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -938,9 +938,9 @@
       "y": 4,
       "z": 30.01,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Predat pasoš Starog dvora",
+      "status": "Predat pasoš; traži se tabela i izvori",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1312,9 +1312,9 @@
       "y": 0.2,
       "z": -30.01,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 4,
+      "progressLabel": "Predat pasoš kroz svih 7 celina",
+      "status": "Predat pasoš kroz svih sedam celina (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1397,9 +1397,9 @@
       "y": 1.8,
       "z": -57.51,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Primljen pilot pasoš",
+      "status": "Primljen pilot pasoš; izvori nepotpuni",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1652,9 +1652,9 @@
       "y": 4,
       "z": 57.51,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Predata prva verzija rada",
+      "status": "Predata prva verzija (19.10), vraćeno na format tabele",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1850,9 +1850,9 @@
       "y": 1.8,
       "z": -15,
       "type": "standard",
-      "progressStage": 3,
-      "progressLabel": "Prikupljeni podaci",
-      "status": "Prikupljeni podaci i plan posete",
+      "progressStage": 5,
+      "progressLabel": "Predat pasoš i igrica",
+      "status": "Predat PDF pasoš i HTML igrica (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1878,9 +1878,9 @@
       "y": 3.2,
       "z": 37.51,
       "type": "standard",
-      "progressStage": 4,
-      "progressLabel": "Predat PDF koncept",
-      "status": "Predat PDF (16.10), najavljena poseta i Zavod za zaštitu spomenika",
+      "progressStage": 5,
+      "progressLabel": "Predat elaborat",
+      "status": "Predat elaborat i koncept (19.10)",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1919,6 +1919,91 @@
       "city": "Beograd",
       "geometryStatus": "illustrative",
       "building": "Bedda6bf8"
+    },
+    {
+      "id": "T68",
+      "object": "Zgrada tehničkih fakulteta",
+      "indices": [
+        "155/26",
+        "130/26",
+        "136/26"
+      ],
+      "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
+      "place": "Bulevar kralja Aleksandra",
+      "lat": 44.8065,
+      "lng": 20.477,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 4,
+      "progressLabel": "Predato terensko istraživanje",
+      "status": "Predato istraživanje sa terena i sa predavanja (19.10)",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "Bb21a1978"
+    },
+    {
+      "id": "T69",
+      "object": "Prva beogradska gimnazija",
+      "indices": [
+        "93/2026"
+      ],
+      "topic": "Milica Krstić, modernistička forma prema istorijskom jezgru Dorćola i Skadarlije, ratna oštećenja",
+      "place": "Dorćol",
+      "lat": 44.8248,
+      "lng": 20.4601,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 3,
+      "progressLabel": "Predata prva verzija rada",
+      "status": "Predata prva verzija rada (19.10), vraćeno na format tabele",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "B721111bb"
+    },
+    {
+      "id": "T70",
+      "object": "Rajhlova palata, Subotica",
+      "indices": [
+        "21/2026",
+        "62/2026",
+        "50/2026"
+      ],
+      "topic": "Secesija Ferenca Rajhla, ornament i fasadna dekoracija",
+      "place": "Subotica",
+      "lat": null,
+      "lng": null,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 3,
+      "progressLabel": "Predat pasoš na proveru",
+      "status": "Predat pasoš na proveru (19.10), vraćeno na format tabele",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "unmapped",
+      "city": "Subotica",
+      "geometryStatus": "illustrative",
+      "building": "B111f4f77"
     }
   ],
   "buildings": [
@@ -2681,9 +2766,10 @@
       "teams": [
         "T19",
         "T36",
-        "T58"
+        "T58",
+        "T68"
       ],
-      "teamCount": 3,
+      "teamCount": 4,
       "place": "Bulevar kralja Aleksandra",
       "city": "Beograd",
       "lat": 44.8065,
@@ -2725,6 +2811,12 @@
         {
           "team": "T58",
           "topic": "Konstrukcija amfiteatara i krovnih nosača",
+          "claimsCount": 0,
+          "hasPassport": false
+        },
+        {
+          "team": "T68",
+          "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -3521,9 +3613,10 @@
       "id": "B721111bb",
       "object": "Prva beogradska gimnazija",
       "teams": [
-        "T42"
+        "T42",
+        "T69"
       ],
-      "teamCount": 1,
+      "teamCount": 2,
       "place": "Cara Dušana, Dorćol",
       "city": "Beograd",
       "lat": 44.8255,
@@ -3553,6 +3646,12 @@
         {
           "team": "T42",
           "topic": "Milica Krstić, prosvetna arhitektura, 3D prostorni eksperiment i gamifikacija pasoša",
+          "claimsCount": 0,
+          "hasPassport": false
+        },
+        {
+          "team": "T69",
+          "topic": "Milica Krstić, modernistička forma prema istorijskom jezgru Dorćola i Skadarlije, ratna oštećenja",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -4086,6 +4185,47 @@
         {
           "team": "T66",
           "topic": "Nikola Nestorović, secesija, istorijat hotela, posleratna upotreba, tekuća restauracija",
+          "claimsCount": 0,
+          "hasPassport": false
+        }
+      ]
+    },
+    {
+      "id": "B111f4f77",
+      "object": "Rajhlova palata, Subotica",
+      "teams": [
+        "T70"
+      ],
+      "teamCount": 1,
+      "place": "Subotica",
+      "city": "Subotica",
+      "lat": null,
+      "lng": null,
+      "locationStatus": "unmapped",
+      "passports": 0,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "sourcesCount": 0,
+      "categories": {
+        "research": 0,
+        "documents": 0,
+        "materials": 0,
+        "time": 0,
+        "questions": 0,
+        "identity": 0,
+        "location": 0,
+        "geometry": 0,
+        "structure": 0,
+        "use": 0,
+        "energy": 0,
+        "environment": 0,
+        "people": 0,
+        "methods": 0
+      },
+      "topics": [
+        {
+          "team": "T70",
+          "topic": "Secesija Ferenca Rajhla, ornament i fasadna dekoracija",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -9690,6 +9830,525 @@
       }
     ]
   },
+  "layout": {
+    "version": 1,
+    "metresPerUnit": 25,
+    "centre": {
+      "lng": 20.4525,
+      "lat": 44.8147
+    },
+    "core": 45,
+    "compress": 0.4,
+    "capUnits": 15,
+    "note": "Radijalni kartogram: do 1125 m od centra mape projekcija je nepromenjena, dalje je rastojanje od centra sabijeno na 40% (azimut tačan, redosled tačan); isti pomeraj važi i za geografski sloj. Skulpture su potom razmaknute najviše 375 m da se ne preklapaju. Pomeraj je čitljivost, ne merenje objekta.",
+    "places": [
+      {
+        "id": "B01ffbf6e",
+        "x": -50.015,
+        "z": 28.641,
+        "anchor": [
+          -57.555,
+          19.837
+        ],
+        "nudge": 290,
+        "radius": 1.545
+      },
+      {
+        "id": "B0671278c",
+        "x": -0.409,
+        "z": 69.472,
+        "anchor": [
+          7.896,
+          70.548
+        ],
+        "nudge": 209,
+        "radius": 1.545
+      },
+      {
+        "id": "B0dffad8d",
+        "x": -58.555,
+        "z": -44.302,
+        "anchor": [
+          -68.115,
+          -55.861
+        ],
+        "nudge": 375,
+        "radius": 1.545
+      },
+      {
+        "id": "B14027bbe",
+        "x": -11.158,
+        "z": 73.509,
+        "anchor": [
+          -5.765,
+          67.92
+        ],
+        "nudge": 194,
+        "radius": 5.66
+      },
+      {
+        "id": "B1df14ea1",
+        "x": 23.309,
+        "z": 14.964,
+        "anchor": [
+          22.742,
+          24.49
+        ],
+        "nudge": 239,
+        "radius": 1.545
+      },
+      {
+        "id": "B21720f35",
+        "x": -34.915,
+        "z": 26.457,
+        "anchor": [
+          -45.699,
+          35.514
+        ],
+        "nudge": 352,
+        "radius": 7.55
+      },
+      {
+        "id": "B25fc5bcf",
+        "x": 46.23,
+        "z": -4.61,
+        "anchor": [
+          32.218,
+          -5.343
+        ],
+        "nudge": 351,
+        "radius": 6.945
+      },
+      {
+        "id": "B25fc772a",
+        "x": 63.361,
+        "z": -31.34,
+        "anchor": [
+          56.609,
+          -37.669
+        ],
+        "nudge": 231,
+        "radius": 13.15
+      },
+      {
+        "id": "B2a7ecb59",
+        "x": -64.842,
+        "z": 25.693,
+        "anchor": [
+          -77.763,
+          21.706
+        ],
+        "nudge": 338,
+        "radius": 6.945
+      },
+      {
+        "id": "B34c1628c",
+        "x": 48.759,
+        "z": 82.623,
+        "anchor": [
+          51.765,
+          97.318
+        ],
+        "nudge": 375,
+        "radius": 1.545
+      },
+      {
+        "id": "B3b4c7fb4",
+        "x": 2.021,
+        "z": -21.09,
+        "anchor": [
+          9.306,
+          -34.202
+        ],
+        "nudge": 375,
+        "radius": 7.55
+      },
+      {
+        "id": "B41952daf",
+        "x": 42.839,
+        "z": 33.917,
+        "anchor": [
+          51.74,
+          41.665
+        ],
+        "nudge": 295,
+        "radius": 1.545
+      },
+      {
+        "id": "B4d2fca52",
+        "x": 46.39,
+        "z": 58.241,
+        "anchor": [
+          42.327,
+          66.99
+        ],
+        "nudge": 241,
+        "radius": 14.201
+      },
+      {
+        "id": "B4f2be009",
+        "x": 26.063,
+        "z": -17.107,
+        "anchor": [
+          21.719,
+          -29.04
+        ],
+        "nudge": 317,
+        "radius": 13.15
+      },
+      {
+        "id": "B530102bb",
+        "x": 41.556,
+        "z": 24.012,
+        "anchor": [
+          37.903,
+          26.717
+        ],
+        "nudge": 114,
+        "radius": 1.545
+      },
+      {
+        "id": "B655d6f70",
+        "x": 17.448,
+        "z": 23.648,
+        "anchor": [
+          16.425,
+          24.49
+        ],
+        "nudge": 33,
+        "radius": 1.545
+      },
+      {
+        "id": "B6b092149",
+        "x": 23.858,
+        "z": 7.225,
+        "anchor": [
+          22.11,
+          2.226
+        ],
+        "nudge": 132,
+        "radius": 1.545
+      },
+      {
+        "id": "B721111bb",
+        "x": 38.176,
+        "z": -37.483,
+        "anchor": [
+          25.376,
+          -29.662
+        ],
+        "nudge": 375,
+        "radius": 6.945
+      },
+      {
+        "id": "B75d37fcb",
+        "x": 48.581,
+        "z": -16.479,
+        "anchor": [
+          50.907,
+          -9.95
+        ],
+        "nudge": 173,
+        "radius": 1.545
+      },
+      {
+        "id": "B7a65f480",
+        "x": -50.026,
+        "z": 16.295,
+        "anchor": [
+          -41.464,
+          28.611
+        ],
+        "nudge": 375,
+        "radius": 7.55
+      },
+      {
+        "id": "B7efb8894",
+        "x": 11.873,
+        "z": -36.92,
+        "anchor": [
+          3.998,
+          -37.701
+        ],
+        "nudge": 198,
+        "radius": 7.55
+      },
+      {
+        "id": "B88cffac1",
+        "x": 10.479,
+        "z": 49.042,
+        "anchor": [
+          17.372,
+          42.302
+        ],
+        "nudge": 241,
+        "radius": 18.045
+      },
+      {
+        "id": "B8b81c0c5",
+        "x": 43.733,
+        "z": -15.26,
+        "anchor": [
+          36.918,
+          -21.05
+        ],
+        "nudge": 224,
+        "radius": 1.545
+      },
+      {
+        "id": "B8c4db47b",
+        "x": 38.138,
+        "z": 32.202,
+        "anchor": [
+          34.744,
+          28.943
+        ],
+        "nudge": 118,
+        "radius": 1.545
+      },
+      {
+        "id": "B9e4c8453",
+        "x": 9.143,
+        "z": -11.679,
+        "anchor": [
+          0,
+          -20.038
+        ],
+        "nudge": 310,
+        "radius": 1.545
+      },
+      {
+        "id": "Ba8b77242",
+        "x": 12.839,
+        "z": 2.566,
+        "anchor": [
+          18.952,
+          -11.132
+        ],
+        "nudge": 375,
+        "radius": 6.945
+      },
+      {
+        "id": "Badf7e17e",
+        "x": -60.227,
+        "z": 3.45,
+        "anchor": [
+          -64.97,
+          -10.781
+        ],
+        "nudge": 375,
+        "radius": 1.545
+      },
+      {
+        "id": "Bae8506cc",
+        "x": 23.62,
+        "z": 0.517,
+        "anchor": [
+          23.058,
+          -1.336
+        ],
+        "nudge": 48,
+        "radius": 1.545
+      },
+      {
+        "id": "Bb21a1978",
+        "x": 62.164,
+        "z": 27.963,
+        "anchor": [
+          63.269,
+          40.821
+        ],
+        "nudge": 323,
+        "radius": 15.381
+      },
+      {
+        "id": "Bb5a79c43",
+        "x": 27.441,
+        "z": 3.74,
+        "anchor": [
+          22.11,
+          2.226
+        ],
+        "nudge": 139,
+        "radius": 1.545
+      },
+      {
+        "id": "Bb81ca622",
+        "x": 43.546,
+        "z": -20.256,
+        "anchor": [
+          43.18,
+          -19.13
+        ],
+        "nudge": 30,
+        "radius": 1.545
+      },
+      {
+        "id": "Bba876e95",
+        "x": 48.2,
+        "z": -22.08,
+        "anchor": [
+          45.292,
+          -20.326
+        ],
+        "nudge": 85,
+        "radius": 1.545
+      },
+      {
+        "id": "Bbb2e5c1e",
+        "x": 11.42,
+        "z": 25.912,
+        "anchor": [
+          -1.579,
+          33.396
+        ],
+        "nudge": 375,
+        "radius": 1.545
+      },
+      {
+        "id": "Bbe3e7124",
+        "x": -7.972,
+        "z": 63.022,
+        "anchor": [
+          -4.393,
+          58.874
+        ],
+        "nudge": 137,
+        "radius": 1.545
+      },
+      {
+        "id": "Bca96d908",
+        "x": -79.181,
+        "z": 36.606,
+        "anchor": [
+          -90.439,
+          46.518
+        ],
+        "nudge": 375,
+        "radius": 7.55
+      },
+      {
+        "id": "Bce379d13",
+        "x": 45.832,
+        "z": -28.383,
+        "anchor": [
+          53.582,
+          -30.696
+        ],
+        "nudge": 202,
+        "radius": 1.545
+      },
+      {
+        "id": "Bce3fd2f1",
+        "x": -51.396,
+        "z": 56.187,
+        "anchor": [
+          -51.507,
+          41.188
+        ],
+        "nudge": 375,
+        "radius": 21.897
+      },
+      {
+        "id": "Bd18bf80b",
+        "x": 30.8,
+        "z": 0.037,
+        "anchor": [
+          28.427,
+          -6.679
+        ],
+        "nudge": 178,
+        "radius": 1.545
+      },
+      {
+        "id": "Bda203afb",
+        "x": 28.962,
+        "z": 25.099,
+        "anchor": [
+          22.742,
+          24.49
+        ],
+        "nudge": 156,
+        "radius": 7.55
+      },
+      {
+        "id": "Be291aa43",
+        "x": 41.397,
+        "z": -26.077,
+        "anchor": [
+          36.918,
+          -21.05
+        ],
+        "nudge": 168,
+        "radius": 1.545
+      },
+      {
+        "id": "Be3448d6e",
+        "x": 41.981,
+        "z": 19.031,
+        "anchor": [
+          45.8,
+          17.811
+        ],
+        "nudge": 100,
+        "radius": 1.545
+      },
+      {
+        "id": "Be38a2b04",
+        "x": 41.972,
+        "z": 28.993,
+        "anchor": [
+          48.011,
+          31.17
+        ],
+        "nudge": 160,
+        "radius": 1.545
+      },
+      {
+        "id": "Beb7b8b9c",
+        "x": 36.806,
+        "z": 9.393,
+        "anchor": [
+          28.427,
+          17.811
+        ],
+        "nudge": 297,
+        "radius": 6.945
+      },
+      {
+        "id": "Bedda6bf8",
+        "x": -17.869,
+        "z": 58.363,
+        "anchor": [
+          -12.634,
+          53.434
+        ],
+        "nudge": 180,
+        "radius": 6.945
+      },
+      {
+        "id": "Bf86ee95f",
+        "x": -4.54,
+        "z": 66.657,
+        "anchor": [
+          1.004,
+          64.055
+        ],
+        "nudge": 153,
+        "radius": 1.545
+      }
+    ],
+    "metrics": {
+      "overlaps": 0,
+      "minGap": 1.908,
+      "medianGap": 2.484,
+      "maxGap": 44.691,
+      "fill": 51.15,
+      "hullUnits": 14217,
+      "maxNudgeMetres": 375,
+      "medianNudgeMetres": 231
+    }
+  },
   "media": [],
   "archives": [
     {
@@ -9780,15 +10439,15 @@
         }
       ],
       "read": {
-        "scans": 41,
+        "scans": 147,
         "total": 289,
-        "status": "u toku — 41/289; fascikla „Ugovori izmedju izvodjaca i drzave\" cela (10/10), uzorak kroz Planove, Foto dokumentaciju, Osoblje, Izvore finansija, Nemacke izvore i Dimnjak",
+        "status": "u toku — 147/289; cele fascikle: Foto dokumentacija iz arhive, Krov, Nemacki izvori, Osoblje, Ponude i kostanja, Premestanje drugih stamprija, Punomoci i zapisnici, Skice, Ugovori izmedju izvodjaca i drzave",
         "profile": "zapis šta je na skenu, sa prepisanim datumima, brojevima akata i iznosima gde su čitljivi; bez tvrdnji za pasoš",
-        "updated": "2026-10-22"
+        "updated": "2026-10-23"
       },
       "note": "Sanduk = jedan sken, nivo = arhivska fascikla, debljina = megabajti. Mere opisuju predatu arhivu, ne zgradu.",
-      "updated": "2026-10-22"
+      "updated": "2026-10-23"
     }
   ],
-  "note": "Source-reported records, not independently verified facts. Data sculptures have symbolic dimensions at approximate registry coordinates; they are not reconstructions of buildings."
+  "note": "Source-reported records, not independently verified facts. Data sculptures have symbolic dimensions at approximate registry coordinates; they are not reconstructions of buildings. Position: see layout — radial cartogram outside the core and a capped legibility nudge per building, both published."
 }
