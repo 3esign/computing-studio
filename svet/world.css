@@ -222,3 +222,13 @@ body.bigz #scene-status p{font-size:12px;line-height:1.55;margin:8px 0}
 
 /* Archive gate: a written essay lives beside the 3D entrance. */
 .gate-actions a.gate-osvrt{display:flex;align-items:center;padding:8px 13px;border:1px solid var(--line);text-decoration:none;font-size:13px;background:var(--surface)}
+
+/* Ključ sloja gustine znanja. Prelivi su isti stopovi kao u rendereru, pa
+   skala na strani i toplota u sceni govore jedno. */
+.density-key{display:grid;gap:.4rem;margin:.5rem 0 0}
+.density-key .ramp{height:.52rem;border-radius:999px;border:1px solid var(--border);
+ background:linear-gradient(90deg,rgb(230,232,219) 0 10%,rgb(204,186,140) 10% 22%,rgb(199,153,87) 22% 42%,rgb(189,112,56) 42% 70%,rgb(171,71,38) 70% 100%)}
+.density-key .ramp-ends{display:flex;justify-content:space-between;font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;opacity:.72}
+.density-key .key-line{margin:0;font-size:.74rem;line-height:1.35;opacity:.84}
+.density-key #holes-only{justify-self:start}
+.density-key #holes-only[aria-pressed="true"]{background:rgb(179,79,43);color:#fff;border-color:rgb(179,79,43)}

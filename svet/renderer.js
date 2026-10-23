@@ -447,6 +447,101 @@ function planRosette(m,centre,stats,dark){if(!stats||!stats.records)return;
  for(var k=0;k<ticks;k++){var a3=-Math.PI/2+k*Math.PI*2/Math.max(1,ticks);
   line([centre[0]+Math.cos(a3)*ring,0,centre[2]+Math.sin(a3)*ring],[centre[0]+Math.cos(a3)*(ring+.9),0,centre[2]+Math.sin(a3)*(ring+.9)],.26,ink,.05)}}
 
+/* The knowledge density map. One object's mass is its number of records; the
+   field value at a ground point is the sum of those masses with a Gaussian
+   falloff over SIGMA units (300 m on the compressed map). Warm means a place
+   something has been recorded about, never a claim that more is known about it:
+   the city is researched where teams actually worked. A registered object with
+   no record at all gets a cold open ring, so a hole stays visible instead of
+   being invisible. The field is drawn only above FLOOR of the peak, which makes
+   plain ground a statement too: nothing has been recorded there. Sigma is chosen
+   from the data: documented neighbours stand 18-40 units apart, so a wider kernel
+   would melt the centre into one blob and a narrower one would hide the clusters.
+
+   Nothing here measures a building. The field is a readability kernel over
+   registry points, and its sigma, cell size and peak are published in stats so
+   a warm patch can always be traced back to the records that caused it. */
+var DENSITY={sigma:12,cell:3,floor:.05,margin:38,maxCells:9000};
+var dround=function(v){return Math.round(v*1000)/1000};
+var densityCache=null,densityFor=null;
+function densityField(){if(densityCache&&densityFor===data)return densityCache;
+ var pins=[],holes=[],recorded=0,placed=0,total=0;
+ for(var b of (data.buildings||[])){total++;
+  var spot=layoutPlace(b.id);
+  var p=spot?[spot.x,0,spot.z]:(b.locationStatus==='unmapped'||b.lat==null||b.lng==null?null:project(b.lng,b.lat));
+  var mass=b.claimsCount||0;if(mass>0)recorded++;
+  if(!p)continue;placed++;
+  if(mass>0)pins.push({x:p[0],z:p[2],mass:mass,sources:b.sourcesCount||0,id:b.id,object:b.object});
+  else holes.push({x:p[0],z:p[2],id:b.id,object:b.object,r:Math.max(4.5,(spot&&spot.radius)||6)})}
+ var cells=[],peak=0,cell=DENSITY.cell,nx=0,nz=0,grid=null;
+ if(pins.length){
+  var sg=DENSITY.sigma,twoSig=2*sg*sg,m=DENSITY.margin,raw=[];
+  var x0=Math.min.apply(null,pins.map(function(p){return p.x}))-m,x1=Math.max.apply(null,pins.map(function(p){return p.x}))+m;
+  var z0=Math.min.apply(null,pins.map(function(p){return p.z}))-m,z1=Math.max.apply(null,pins.map(function(p){return p.z}))+m;
+  /* The cell grows if the grid would exceed the agreed quad budget, so a denser
+     registry never silently costs frames. The size actually used is published. */
+  while(Math.ceil((x1-x0)/cell)*Math.ceil((z1-z0)/cell)>DENSITY.maxCells)cell*=1.25;
+  nx=Math.ceil((x1-x0)/cell);nz=Math.ceil((z1-z0)/cell);
+  for(var ix=0;ix<nx;ix++)for(var iz=0;iz<nz;iz++){
+   var cx=x0+(ix+.5)*cell,cz=z0+(iz+.5)*cell,v=0;
+   for(var q=0;q<pins.length;q++){var dx=cx-pins[q].x,dz=cz-pins[q].z;v+=pins[q].mass*Math.exp(-(dx*dx+dz*dz)/twoSig)}
+   if(v>peak)peak=v;raw.push([cx,cz,v])}
+  for(var r of raw)if(peak>0&&r[2]/peak>=DENSITY.floor)cells.push({x:r[0],z:r[1],v:r[2]/peak});
+  grid={x0:x0,z0:z0,nx:nx,nz:nz,cell:cell,v:raw.map(function(r){return peak>0?r[2]/peak:0})}}
+ densityCache={pins:pins,holes:holes,cells:cells,grid:grid,cell:dround(cell),peak:dround(peak),
+  meta:{sigmaUnits:DENSITY.sigma,sigmaMetres:Math.round(DENSITY.sigma*AtlasLayout.METRES_PER_UNIT),
+   cellUnits:dround(cell),cellMetres:Math.round(cell*AtlasLayout.METRES_PER_UNIT),
+   cells:cells.length,grid:nx*nz,peak:dround(peak),levels:DENSITY_LEVELS.map(function(l){return l[0]}),pins:pins.length,holes:holes.length,
+   buildings:total,placed:placed,recorded:recorded,floor:DENSITY.floor}};
+ densityFor=data;return densityCache}
+/* How the field is read. The dataset is one connected cluster in the centre of
+   the city, so a continuous fill paints the whole map one colour and answers
+   nothing. Contours answer: a closed line is a level of recorded research, the
+   spacing between lines is how fast it falls off, and an object with no ring
+   around it has nothing recorded near it. The lines are traced from the same
+   grid the tally is published from — marching squares, linear crossings, no
+   smoothing — so a ring can always be traced back to the records under it.
+
+   Everything sits low: above the base grid, below the footprints and streets,
+   so the city keeps reading through the contours. */
+var DENSITY_LEVELS=[[.10,[.80,.73,.55],.34],[.22,[.78,.60,.34],.42],[.42,[.74,.44,.22],.52],[.70,[.67,.28,.15],.64]];
+function contour(grid,level){var out=[],nx=grid.nx,nz=grid.nz,v=grid.v;
+ var at=function(i,j){return v[i*nz+j]};
+ var px=function(i){return grid.x0+(i+.5)*grid.cell},pz=function(j){return grid.z0+(j+.5)*grid.cell};
+ /* One cell of the grid, four corners, the standard sixteen cases collapsed to
+    "cut every edge whose ends straddle the level and join the cuts in pairs". */
+ for(var i=0;i<nx-1;i++)for(var j=0;j<nz-1;j++){
+  var a=at(i,j),b=at(i+1,j),c=at(i+1,j+1),d=at(i,j+1),cuts=[];
+  var edge=function(v1,v2,x1,z1,x2,z2){if((v1<level)===(v2<level))return;var t=(level-v1)/(v2-v1);cuts.push([x1+(x2-x1)*t,z1+(z2-z1)*t])};
+  edge(a,b,px(i),pz(j),px(i+1),pz(j));
+  edge(b,c,px(i+1),pz(j),px(i+1),pz(j+1));
+  edge(c,d,px(i+1),pz(j+1),px(i),pz(j+1));
+  edge(d,a,px(i),pz(j+1),px(i),pz(j));
+  for(var k=0;k+1<cuts.length;k+=2)out.push([cuts[k],cuts[k+1]])}
+ return out}
+function drawDensity(){var f=densityField();if(!f.grid&&!f.holes.length)return;
+ /* The warmest band keeps a quiet fill, so the eye finds the core at a glance
+    without the rest of the city being painted over. */
+ if(f.grid){var fillFirst=vertices.length/3,h=f.cell/2;
+  var night=!!opts.night;
+  for(var c of f.cells)if(c.v>=.70){var g=Math.min(1,(c.v-.70)/.30);
+   var col=night?[.34+.16*g,.20+.08*g,.13+.04*g]:[.86-.10*g,.78-.20*g,.66-.26*g];
+   addQuad([c.x-h,.014,c.z-h],[c.x-h,.014,c.z+h],[c.x+h,.014,c.z+h],[c.x+h,.014,c.z-h],[0,1,0],col,(night?.03+g*.10:.06+g*.18))}
+  chunk(fillFirst,1);
+  var lineFirst=vertices.length/3;
+  for(var L of DENSITY_LEVELS){var segs=contour(f.grid,L[0]);
+   for(var sgm of segs)line([sgm[0][0],0,sgm[0][1]],[sgm[1][0],0,sgm[1][1]],L[2],L[1],.018)}
+  chunk(lineFirst,1)}
+ /* A hole: a registered object with no record. An open ring and a cross, never a
+    fill, so it reads as emptiness and not as density. */
+ var hf=vertices.length/3,cold=opts.night?[.52,.68,.76]:[.33,.45,.52];
+ for(var o of f.holes){var rr=o.r+2.6,prev=null,seg=22;
+  for(var i=0;i<=seg;i++){var a=i/seg*Math.PI*2,p=[o.x+Math.cos(a)*rr,0,o.z+Math.sin(a)*rr];
+   if(prev)line(prev,p,.42,cold,.019);prev=p}
+  line([o.x-rr*.34,0,o.z],[o.x+rr*.34,0,o.z],.42,cold,.019);
+  line([o.x,0,o.z-rr*.34],[o.x,0,o.z+rr*.34],.42,cold,.019)}
+ chunk(hf,1)}
+
 /* The published layout decides where an object stands. Older revision snapshots
    carry no layout; those fall back to the plain registry point, as before. */
 function position(t){if(!t)return null;if(opts.mode==='archive'){var place=collageLayout().places.get(t.id);return place?place.pos.slice():null}
@@ -493,6 +588,7 @@ if(opts.mode==='plan'){var gridFirst=vertices.length/3,gink=dark?[.30,.38,.40]:[
   line([-reach,0,g],[reach,0,g],heavy?.5:.22,gink,.012);
   line([g,0,-reach],[g,0,reach],heavy?.5:.22,gink,.012)}
  chunk(gridFirst,1)}
+if(opts.layer==='density'&&opts.mode!=='archive')drawDensity();
 if(opts.mode==='archive'){var layout=collageLayout(),bandFirst=vertices.length/3;
  layout.columns.forEach(function(cat,ci){var xs=[],zs=[];
   for(var place of layout.places.values())if(place.column===ci){xs.push(place.pos[0]);zs.push(place.pos[2])}
@@ -565,7 +661,7 @@ for(var t of data.teams){var pos=position(t);if(!pos||opts.visible&&!opts.visibl
    if(e.role==='mast')hit.push({id:e.building,team:t.id,pos:[xx,e.y+e.h/2,zz],role:'building',teams:m.buildingTeams.slice(),records:m.buildingRecords});
    if(e.role==='pylon')hit.push({id:e.team,team:e.team,pos:[xx,e.y+e.h/2,zz],role:'teamPart',building:e.building,records:e.records});
   }}
- if(opts.mode==='plan')planRosette(m,wing,teamStats().get(t.id),dark);
+ if(opts.mode==='plan'&&opts.layer!=='density')planRosette(m,wing,teamStats().get(t.id),dark);
  chunk(first);
  // 289 archive crates are one contiguous detail level: droppable from afar, intact up close.
  if(m.archive){var crates=vertices.length/3;for(var e of m.elements)if(e.role==='archiveCrate')emit(e);chunk(crates,1)}
@@ -800,5 +896,5 @@ canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();document.getEl
 new ResizeObserver(invalidate).observe(canvas);document.addEventListener('visibilitychange',invalidate);reduced.addEventListener('change',invalidate);new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;if(inView)invalidate()}).observe(canvas);
 function geometryKey(o){return JSON.stringify([o.world||'atlas',o.mode==='archive',o.mode==='street',o.mode==='plan',o.layer,o.selected,o.claim,o.era||'',[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
 return {setBigz(b){if(bigz===b)return;bigz=b;bigzFor=null;if(opts.world==='bigz'){staticKey='';build()}},stop:stopWalk,setCulling(value){culling=!!value;invalidate()},setOrbitBack(value){ORBIT_BACK=value>0?value:2000;invalidate()},groundAt(cx,cy){return groundAt(cx,cy)},groundScreen(g){return groundScreen(g)},probeClip(on){clipProbe=!!on;invalidate()},update(d,g,o){var change=opts.mode!==o.mode||opts.world!==o.world,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}
-  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(700,cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0}},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
+  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(700,cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0,density:data?densityField().meta:null}},density(){return data?densityField():null},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
 };
