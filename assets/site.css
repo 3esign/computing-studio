@@ -147,3 +147,6 @@ body[data-view=studio] .site-header.menu-open>.course-return{display:block}
 body[data-view=studio] .site-header.menu-open>.language{top:329px;left:176px;z-index:2}
 
 body[data-view=studio] .site-header.menu-open>.language{top:0;left:90px}
+
+/* Course actions remain available on every student page. */
+.student-links{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0 24px;font-size:14px}.team-search{margin:24px 0}.team-search label{display:block;font-weight:600}.team-search input{width:100%;max-width:620px;padding:12px;border:1px solid currentColor;background:transparent;color:inherit;font:inherit}.treg tr[hidden]{display:none!important}
