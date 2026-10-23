@@ -595,17 +595,24 @@ function buildBigz(){var started=performance.now();
   chunk(0);upload(staticMesh);staticHits=[];staticKey='bigz';staticGeo=null}
  hit=[];resetGeometry();
  var first=vertices.length/3;
+ /* The era dam: a dated element later than the chosen year fades to the ground
+    tone and loses its pick box — what did not yet exist cannot be touched.
+    Undated elements (racks, unread plates, the lift) always stand. */
+ var era=opts.era?+opts.era:0,ghost=opts.night?[.10,.14,.16]:[.86,.87,.82];
+ var past=w=>!era||!w||+String(w).slice(0,4)<=era;
  for(var e of m.elements){
-  var col=e.col,emis=e.emis;
-  if(e.id===opts.selected||e.folder&&e.folder===opts.selected){col=[.97,.76,.38];emis=Math.max(emis,.55)}
+  var col=e.col,emis=e.emis,there=past(e.when);
+  if(!there){col=mix(e.col,ghost,.86);emis=.02}
+  if(there&&(e.id===opts.selected||e.folder&&e.folder===opts.selected)){col=[.97,.76,.38];emis=Math.max(emis,.55)}
   addBox(e.x,e.y,e.z,e.w,e.h,e.d,col,emis);
-  if(e.pick!==false)pickBoxes.push({id:e.id,team:bigz.team,role:e.role,folder:e.folder,
+  if(e.pick!==false&&there)pickBoxes.push({id:e.id,team:bigz.team,role:e.role,folder:e.folder,
    min:[e.x-e.w/2,e.y,e.z-e.d/2],max:[e.x+e.w/2,e.y+e.h,e.z+e.d/2],w:e.w,d:e.d,lod:e.role==='plate'?1:0});
-  if(e.label)hit.push({id:e.id,team:bigz.team,pos:[e.x,e.y+e.h/2,e.z],role:e.role});
+  if(e.label&&there)hit.push({id:e.id,team:bigz.team,pos:[e.x,e.y+e.h/2,e.z],role:e.role});
  }
  chunk(first);
- for(var l of m.labels)marks.push({id:l.id,pos:l.pos,base:[l.pos[0],0,l.pos[2]],label:l.text,always:true,
-  selected:l.id===opts.selected,records:0,teams:[],title:l.sub?l.text+' · '+l.sub:l.text});
+ for(var l of m.labels){if(!past(l.when))continue;
+  marks.push({id:l.id,pos:l.pos,base:[l.pos[0],0,l.pos[2]],label:l.text,always:true,
+  selected:l.id===opts.selected,records:0,teams:[],title:l.sub?l.text+' · '+l.sub:l.text})}
  renderLabels();
  if(links)links.replaceChildren();
  upload(teamMesh);buildMs=performance.now()-started;invalidate();}
@@ -708,7 +715,7 @@ function findPick(e,onlyTeams=false){var rect=canvas.getBoundingClientRect(),x=e
  if(opts.mode==='street')return null;
  for(var m of (onlyTeams?[]:hit.filter(h=>h.role==='geography')).concat(marks)){if(labelNodes.has(m.id)&&labelNodes.get(m.id).hidden)continue;var p=screen(m.pos,rect.width,rect.height),v=Math.hypot(p[0]-x,p[1]-y);if(v<dist){best=m;dist=v}}return best}
 var surface=canvas.closest('.stage')||canvas,suppressClickUntil=0;
-surface.addEventListener('click',e=>{if(!e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain')&&performance.now()<suppressClickUntil){e.preventDefault();e.stopImmediatePropagation()}},true);
+surface.addEventListener('click',e=>{if(!e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar')&&performance.now()<suppressClickUntil){e.preventDefault();e.stopImmediatePropagation()}},true);
 /* Drag solves the ground displacement whose screen projection equals the drag,
    so the point under the finger stays under the finger at any pitch. */
 function panPixels(dx,dy){var unit=cam.dist/Math.max(1,canvas.clientHeight),rx=vMat[0],rz=vMat[8],ux=vMat[1],uz=vMat[9],det=rx*uz-rz*ux;
@@ -750,8 +757,8 @@ function startGlide(){if(reduced.matches||!drag||opts.mode==='street'||!drag.vx&
 var TAP_SLIP={touch:12,pen:7,mouse:5},tapSlip=e=>TAP_SLIP[e.pointerType]||TAP_SLIP.mouse,lastTap=null;
 /* The gate overlay and the archive exit are real controls living on the stage:
    the scene must not capture their touch, or the tap never becomes a click. */
-surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain'))return;canvas.focus({preventScroll:true});transition=null;glide=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,slip:tapSlip(e),touch:e.pointerType==='touch',label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
-surface.addEventListener('pointermove',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain'))return;if(!drag){if(e.pointerType==='touch')return;var m=findPick(e,true);if(hover!==(m?.id||'')){hover=m?.id||'';invalidate()}return}if(!pointers.has(e.pointerId))return;
+surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar'))return;canvas.focus({preventScroll:true});transition=null;glide=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,slip:tapSlip(e),touch:e.pointerType==='touch',label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
+surface.addEventListener('pointermove',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar'))return;if(!drag){if(e.pointerType==='touch')return;var m=findPick(e,true);if(hover!==(m?.id||'')){hover=m?.id||'';invalidate()}return}if(!pointers.has(e.pointerId))return;
  /* Two fingers: the ground held between them at the start of the step is put
     back between them at the end, so a pinch zooms into what it is pinching
     and drags what it is dragging in the same motion. */
@@ -791,7 +798,7 @@ surface.addEventListener('wheel',e=>{if(e.target.closest('.camera,.walk-controls
 surface.addEventListener('dblclick',e=>{if(e.target.closest('.camera,.walk-controls')||opts.mode==='street')return;recentreOn(e.clientX,e.clientY)});canvas.addEventListener('contextmenu',e=>e.preventDefault());
 canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();document.getElementById('scene-status').textContent='3D paused · Lista i dosijei / List and dossiers ↓'});canvas.addEventListener('webglcontextrestored',()=>location.reload());
 new ResizeObserver(invalidate).observe(canvas);document.addEventListener('visibilitychange',invalidate);reduced.addEventListener('change',invalidate);new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;if(inView)invalidate()}).observe(canvas);
-function geometryKey(o){return JSON.stringify([o.world||'atlas',o.mode==='archive',o.mode==='street',o.mode==='plan',o.layer,o.selected,o.claim,[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
+function geometryKey(o){return JSON.stringify([o.world||'atlas',o.mode==='archive',o.mode==='street',o.mode==='plan',o.layer,o.selected,o.claim,o.era||'',[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
 return {setBigz(b){if(bigz===b)return;bigz=b;bigzFor=null;if(opts.world==='bigz'){staticKey='';build()}},stop:stopWalk,setCulling(value){culling=!!value;invalidate()},setOrbitBack(value){ORBIT_BACK=value>0?value:2000;invalidate()},groundAt(cx,cy){return groundAt(cx,cy)},groundScreen(g){return groundScreen(g)},probeClip(on){clipProbe=!!on;invalidate()},update(d,g,o){var change=opts.mode!==o.mode||opts.world!==o.world,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}
   if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(700,cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0}},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
 };

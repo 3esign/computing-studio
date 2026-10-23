@@ -54,7 +54,7 @@
      where the photograph shows it standing. */
   push({id:'bigz:pit',role:'water',x:0,y:PIT.depth/PIT.terraces-.06,z:0,
    w:PIT.w*(1-1/PIT.terraces*.30)*.92,h:.12,d:PIT.d*(1-1/PIT.terraces*.30)*.92,
-   col:dark?[.26,.46,.55]:[.44,.60,.63],emis:.3,pick:true,dossier:{kind:'pit'}});
+   col:dark?[.26,.46,.55]:[.44,.60,.63],emis:.3,pick:true,when:'1937-05-24',dossier:{kind:'pit'}});
 
   /* 2. One rack per folder, one plate per scan. A read plate carries its kind
      colour and lights up; an unread plate stays paper. */
@@ -78,27 +78,36 @@
     const lit=i<reads.length?reads[i]:null;
     const x=cx-span/2+pw/2+col*(pw+PLATE_GAP);
     push({id:lit?'bigz:r:'+lit.id:f.id+':s'+i,role:lit?'plateRead':'plate',
-     x,y:.55+row*(PLATE+GAP),z:cz,w:pw,h:PLATE,d:pd,
+     x,y:.55+row*(PLATE+GAP),z:cz,w:pw,h:PLATE,d:pd,when:lit&&lit.date||null,
      col:lit?tint(lit.kind):paper,emis:lit?.55:.10,pick:true,folder:f.id,
      label:lit?lit.title:null,
      dossier:lit?{kind:'reading',reading:lit.id}:{kind:'folder',folder:f.id}});
    });
   }
 
-  /* 3. Chronology: a line of posts for every date literally written on a scan. */
-  const span0=Date.UTC(1937,0,1),span1=Date.UTC(1947,0,1),avenueZ=-(PIT.d/2+22),reach=78;
+  /* 3. Chronology: a line of posts for every date literally written on a scan.
+     The axis spans what the documents actually say, read off the data itself:
+     a fixed 1937–1947 span used to pile every earlier and later date onto the
+     two ends of the avenue. */
+  /* Some documents only name a month or a year; pad them to a parseable day so
+     their posts stand inside the avenue instead of at a NaN coordinate. */
+  const dayOf=d=>{d=String(d);return d.length===4?d+'-01-01':d.length===7?d+'-01':d};
+  const stamps=data.chronology.map(e=>Date.parse(dayOf(e.from)+'T00:00:00Z')).filter(Number.isFinite);
+  const span0=stamps.length?Math.min(...stamps):Date.UTC(1937,0,1);
+  const span1=Math.max(span0+1,stamps.length?Math.max(...stamps):Date.UTC(1947,0,1));
+  const avenueZ=-(PIT.d/2+22),reach=78;
   push({id:'bigz:time',role:'avenue',x:0,y:.04,z:avenueZ,w:reach*2+10,h:.08,d:3.2,
    col:dark?[.24,.30,.34]:[.72,.73,.68],emis:.08,pick:false});
   data.chronology.forEach((e,i)=>{
-   const t=Date.parse(e.from+'T00:00:00Z'),f=Math.max(0,Math.min(1,(t-span0)/(span1-span0)));
+   const t=Date.parse(dayOf(e.from)+'T00:00:00Z'),f=Math.max(0,Math.min(1,(t-span0)/(span1-span0)));
    const x=-reach+f*reach*2,h=3.4+(i%4)*1.1;
-   push({id:'bigz:t:'+e.id,role:'post',x,y:.08,z:avenueZ,w:.42,h,d:.42,
+   push({id:'bigz:t:'+e.id,role:'post',x,y:.08,z:avenueZ,w:.42,h,d:.42,when:e.from,
     col:dark?[.55,.66,.72]:[.40,.46,.48],emis:.3,pick:false});
-   push({id:e.id,role:'timePlate',x,y:.08+h,z:avenueZ,w:3.6,h:.3,d:2.4,
+   push({id:e.id,role:'timePlate',x,y:.08+h,z:avenueZ,w:3.6,h:.3,d:2.4,when:e.from,
     col:tint(readById.get(e.reading)?.kind||''),emis:.5,pick:true,
     label:{sr:e.from,en:e.from},
     dossier:{kind:'time',event:e.id}});
-   labels.push({id:e.id,pos:[x,.5+h,avenueZ],text:e.from,sub:''});
+   labels.push({id:e.id,pos:[x,.5+h,avenueZ],text:e.from,sub:'',when:e.from});
   });
 
   /* 4. Labour tower: one storey per payroll extract, one column per trade,
@@ -106,14 +115,14 @@
   const towerX=PIT.w/2+74;
   data.labour.forEach((p,k)=>{
    const y0=k*16,wide=p.trades.length*2.3+3;
-   push({id:p.id,role:'deck',x:towerX,y:y0,z:0,w:wide,h:.6,d:9,
+   push({id:p.id,role:'deck',x:towerX,y:y0,z:0,w:wide,h:.6,d:9,when:p.from,
     col:dark?[.20,.26,.30]:[.71,.72,.67],emis:.1,pick:true,
     label:{sr:p.list,en:p.list},
     dossier:{kind:'labour',period:p.id}});
-   labels.push({id:p.id,pos:[towerX,y0+13,0],text:p.list,sub:p.from+' → '+p.to});
+   labels.push({id:p.id,pos:[towerX,y0+13,0],text:p.list,sub:p.from+' → '+p.to,when:p.from});
    p.trades.forEach((t,i)=>{
     const h=Math.log10(t.days+1)*3.2;
-    push({id:t.id,role:'trade',x:towerX-wide/2+2+i*2.3,y:y0+.6,z:0,w:1.5,h,d:1.5,
+    push({id:t.id,role:'trade',x:towerX-wide/2+2+i*2.3,y:y0+.6,z:0,w:1.5,h,d:1.5,when:p.from,
      col:dark?[.46,.78,.66]:[.22,.50,.44],emis:.34,pick:true,
      label:{sr:t.name,en:t.name},
      dossier:{kind:'trade',period:p.id,trade:t.id}});

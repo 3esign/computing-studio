@@ -201,6 +201,15 @@ body.bigz #scene-status p{font-size:12px;line-height:1.55;margin:8px 0}
 #archive-exit{position:absolute;z-index:7;left:max(8px,env(safe-area-inset-left));top:calc(max(7px,env(safe-area-inset-top)) + 46px);font-size:11px;min-height:38px;border:0;border-radius:4px;background:var(--surface);box-shadow:0 1px 6px #0001}
 #archive-exit[hidden]{display:none!important}
 
+/* Vremenska brana: klizač uz donju ivicu scene, iznad kontrola kamere.
+   Krajnji desni položaj je ceo arhiv; sve levo potapa kasnije tragove. */
+#era-bar{position:absolute;z-index:7;left:50%;transform:translateX(-50%);bottom:max(10px,env(safe-area-inset-bottom));display:flex;align-items:center;gap:10px;padding:8px 14px;border-radius:6px;background:var(--surface);box-shadow:0 1px 8px #0002;max-width:min(560px,calc(100% - 16px))}
+#era-bar[hidden]{display:none!important}
+#era-bar label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.72;white-space:nowrap}
+#era-bar input[type=range]{width:clamp(120px,34vw,260px);accent-color:var(--accent,#b4541e);touch-action:none}
+#era-note{font-size:11px;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media(max-width:600px){#era-bar{bottom:max(64px,env(safe-area-inset-bottom));padding:7px 10px;gap:7px}#era-note{max-width:38vw;white-space:normal;line-height:1.25}}
+
 /* Prelaz traje koliko i let kamere: zavesa kaže gde si stigao i skloni se. */
 #archive-curtain{position:absolute;inset:0;z-index:9;display:grid;place-items:center;background:var(--paper);pointer-events:none;animation:curtain .95s ease-out forwards}
 #archive-curtain[hidden]{display:none!important}
