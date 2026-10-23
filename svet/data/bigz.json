@@ -17,17 +17,17 @@
     "files": 289,
     "folders": 26,
     "bytes": 274878126,
-    "read": 147,
-    "readHere": 140,
-    "readEarlier": 7
+    "read": 289,
+    "readHere": 289,
+    "readEarlier": 0
   },
   "kinds": {
-    "crtež / plan": 5,
+    "crtež / plan": 33,
     "fotografija / album": 8,
-    "naslovnica / katalog": 4,
-    "oprema / ilustracija": 1,
-    "tabela / obračun": 9,
-    "tekst / rukopis": 2,
+    "naslovnica / katalog": 11,
+    "oprema / ilustracija": 2,
+    "tabela / obračun": 35,
+    "tekst / rukopis": 89,
     "ugovorni akt / naslovna strana": 1,
     "ugovorni akt / isečak strane": 2,
     "ugovorni akt / strana 3": 1,
@@ -394,9 +394,30 @@
         }
       ],
       "readIds": [
-        "cit-brasovan-radijatori-vestibil"
+        "cit-brasovan-radijatori-vestibil",
+        "cit-cg-1",
+        "cit-cg-2",
+        "cit-cg-3",
+        "cit-cg-4",
+        "cit-cg-5",
+        "cit-cg-6",
+        "cit-cg-7",
+        "cit-cg-8",
+        "cit-cg-9",
+        "cit-cg-10",
+        "cit-cg-11",
+        "cit-cg-konce",
+        "cit-cg-waagner1",
+        "cit-cg-waagner2",
+        "cit-cg-waagner3",
+        "cit-cg-waagner4",
+        "cit-cg-waagner5",
+        "cit-cg-waagner6",
+        "cit-cg-waagner7",
+        "cit-cg-pruga",
+        "cit-cg-lopovice"
       ],
-      "read": 1
+      "read": 22
     },
     {
       "id": "bigz:f:instalacije-centralno-grejanje-poljski-izvori-o-centralnom-grejanju",
@@ -425,9 +446,12 @@
         }
       ],
       "readIds": [
-        "cit-ckd-referentna-lista-kotlova"
+        "cit-ckd-referentna-lista-kotlova",
+        "cit-cg-poljski1",
+        "cit-cg-poljski2",
+        "cit-cg-poljski3"
       ],
-      "read": 1
+      "read": 4
     },
     {
       "id": "bigz:f:instalacije-centralno-grejanje-proracun-ugradnje-centralnog-grejanja",
@@ -584,9 +608,20 @@
         }
       ],
       "readIds": [
-        "cit-simens-raskid-ugovora-1943"
+        "cit-simens-raskid-ugovora-1943",
+        "cit-struja-1482",
+        "cit-struja-1483",
+        "cit-struja-1484",
+        "cit-struja-1485",
+        "cit-struja-1488",
+        "cit-struja-1489",
+        "cit-struja-1490",
+        "cit-struja-1491",
+        "cit-struja-1492",
+        "cit-struja-1493",
+        "cit-struja-1497"
       ],
-      "read": 1
+      "read": 12
     },
     {
       "id": "bigz:f:instalacije-instalacija-struje-nestasica-zice",
@@ -676,9 +711,10 @@
         "cit-finansije-glavna-kontrola-strebelwerke",
         "cit-finansije-glavna-kontrola-tepper-1943",
         "cit-finansije-glavna-kontrola-dnevnice-1941",
-        "cit-finansije-brod-na-savi-kaucija"
+        "cit-finansije-brod-na-savi-kaucija",
+        "cit-izvori-jmww4159"
       ],
-      "read": 11
+      "read": 12
     },
     {
       "id": "bigz:f:krov",
@@ -758,9 +794,20 @@
         }
       ],
       "readIds": [
-        "cit-dizalice-komisija-likvidacija-1944"
+        "cit-dizalice-komisija-likvidacija-1944",
+        "cit-mas-kqhx0609",
+        "cit-mas-lvob8670",
+        "cit-mas-5515-1",
+        "cit-mas-5521-1",
+        "cit-mas-5521",
+        "cit-mas-5529",
+        "cit-mas-5530",
+        "cit-mas-5601",
+        "cit-mas-5603",
+        "cit-mas-5604",
+        "cit-mas-5605"
       ],
-      "read": 1
+      "read": 12
     },
     {
       "id": "bigz:f:masine-finansije-masina",
@@ -809,9 +856,17 @@
         }
       ],
       "readIds": [
-        "cit-viskovi-manjkovi-prilog-v-1943"
+        "cit-viskovi-manjkovi-prilog-v-1943",
+        "cit-masf-nstj3553",
+        "cit-masf-tbxz4173",
+        "cit-masf-5518",
+        "cit-masf-5519",
+        "cit-masf-5520-1",
+        "cit-masf-5520",
+        "cit-masf-5528",
+        "cit-masf-ycqd3869"
       ],
-      "read": 1
+      "read": 9
     },
     {
       "id": "bigz:f:masine-skica-dizalice",
@@ -1082,9 +1137,37 @@
         "cit-plan-suteren",
         "cit-armatura-125-127",
         "cit-ekonomski-blok-armatura",
-        "cit-ekonomski-blok-preseci"
+        "cit-ekonomski-blok-preseci",
+        "cit-plan-bzvh9860",
+        "cit-plan-dzeq4553",
+        "cit-plan-gnhb8671",
+        "cit-plan-gymz7680",
+        "cit-plan-hosr8468",
+        "cit-plan-1541",
+        "cit-plan-1543",
+        "cit-plan-lmmx8108",
+        "cit-plan-ltvc4614",
+        "cit-plan-lvrf0160",
+        "cit-plan-myki2840",
+        "cit-plan-nbfa0271",
+        "cit-plan-nluk1438",
+        "cit-plan-ogrn3156",
+        "cit-plan-paff9154",
+        "cit-plan-pgmo0451",
+        "cit-plan-pgrx9786",
+        "cit-plan-pijx3174",
+        "cit-plan-pjur6005",
+        "cit-plan-qdkq0562",
+        "cit-plan-rscl2358",
+        "cit-plan-skjb5238",
+        "cit-plan-tpis7124",
+        "cit-plan-txvo7965",
+        "cit-plan-wcmh7524",
+        "cit-plan-wqqn9603",
+        "cit-plan-xgkg0041",
+        "cit-plan-xvnb9071"
       ],
-      "read": 4
+      "read": 32
     },
     {
       "id": "bigz:f:ponude-i-kostanja",
@@ -1375,9 +1458,44 @@
         "cit-predmer-betonske-dimnjak",
         "cit-dnevnik-ademp-26xii1939",
         "cit-rabic-uprava-stamparije",
-        "cit-betonski-radovi-tavanice"
+        "cit-betonski-radovi-tavanice",
+        "cit-predmeri-1463",
+        "cit-predmeri-1464",
+        "cit-predmeri-1465",
+        "cit-predmeri-1466",
+        "cit-predmeri-1467",
+        "cit-predmeri-1468",
+        "cit-predmeri-1469",
+        "cit-predmeri-1470",
+        "cit-predmeri-1471",
+        "cit-predmeri-1472",
+        "cit-predmeri-1473",
+        "cit-predmeri-1474",
+        "cit-predmeri-1475",
+        "cit-predmeri-1477",
+        "cit-predmeri-1478",
+        "cit-predmeri-1479",
+        "cit-predmeri-1506",
+        "cit-predmeri-1507",
+        "cit-predmeri-1509",
+        "cit-predmeri-1510",
+        "cit-predmeri-lwqz5830",
+        "cit-predmeri-mtbx7467",
+        "cit-predmeri-nkvp2648",
+        "cit-predmeri-nyis4672",
+        "cit-predmeri-ocvs3316",
+        "cit-predmeri-pyhh2621",
+        "cit-predmeri-pypk5536",
+        "cit-predmeri-qhpa9467",
+        "cit-predmeri-ulqh3201",
+        "cit-predmeri-uocl5405",
+        "cit-predmeri-vcdk4713",
+        "cit-predmeri-vulg9704",
+        "cit-predmeri-vywi0486",
+        "cit-predmeri-wdvu7466",
+        "cit-predmeri-xmeg9881"
       ],
-      "read": 12
+      "read": 47
     },
     {
       "id": "bigz:f:premestanje-drugih-stamprija",
@@ -1646,9 +1764,34 @@
       ],
       "readIds": [
         "cit-opsti-opis-nastavak",
-        "cit-zemljani-radovi-kopanje"
+        "cit-zemljani-radovi-kopanje",
+        "cit-tu-1515",
+        "cit-tu-1516",
+        "cit-tu-1517",
+        "cit-tu-1518",
+        "cit-tu-1519",
+        "cit-tu-1520",
+        "cit-tu-1521",
+        "cit-tu-1522",
+        "cit-tu-1523",
+        "cit-tu-1524",
+        "cit-tu-1525",
+        "cit-tu-1526",
+        "cit-tu-1527",
+        "cit-tu-1528",
+        "cit-tu-1529",
+        "cit-tu-1530",
+        "cit-tu-1531",
+        "cit-tu-1532",
+        "cit-tu-1533",
+        "cit-tu-1534",
+        "cit-tu-1535",
+        "cit-tu-1536",
+        "cit-tu-1537",
+        "cit-tu-1538",
+        "cit-tu-uvps5129"
       ],
-      "read": 2
+      "read": 27
     },
     {
       "id": "bigz:f:tehnicki-uslovi-dimnjaka",
@@ -1689,9 +1832,15 @@
         }
       ],
       "readIds": [
-        "cit-tehnicki-uslovi-dimnjak"
+        "cit-tehnicki-uslovi-dimnjak",
+        "cit-dimnjaci-1",
+        "cit-dimnjaci-2",
+        "cit-dimnjaci-3",
+        "cit-dimnjaci-4",
+        "cit-dimnjaci-5",
+        "cit-dimnjaci-6"
       ],
-      "read": 1
+      "read": 7
     },
     {
       "id": "bigz:f:ugovori-izmedju-izvodjaca-i-drzave",
@@ -2114,10 +2263,6 @@
       "text": "„ИЗВОД СПИСКА БР.1 — за период од 20-VII-1937 до 9-V-1938 г.“ Vodeni žig lista: „ИЗВОД РАДНИЧКИХ НАДНИЦА ПО ДНЕВНИКУ РАДА НА НОВОЈ ЗГРАДИ ДРЖАВНЕ ШТАМПАРИЈЕ У БЕОГРАДУ“. Nadnice po zanimanju: надзорника 627, магационера 136, писара 288, шофера 272, чувара 857, скелара 593, тесача и столара 5.783, зидара и каменорезаца 520, гвожђара и рабицера 4.825, ковача и електричара 854, машиниста 731, радника обичних 15.969, минера 22, бетонџија 140; pozicije 15–24 (изолатери, фасадери, лимари, терацери, бравари, фарбари, стаклоресци, керамичари, гипсари, паркетари) prazne. Свега 31.617, од тога квалификованих 8.811 и обичних радника 22.806. Разлика у надницама 5,00; више исплаћено 44.055 дин. Pečat izvođača „ЈОШАНИЦА А. Д.“, dve taksene marke po 2 dinara i potpisi članova komisije.",
       "facts": [
         {
-          "kind": "period",
-          "value": "1937-07-20 → 1938-05-09"
-        },
-        {
           "kind": "izvođač",
           "value": "Jošanica A. D."
         },
@@ -2128,6 +2273,10 @@
         {
           "kind": "iznos",
           "value": "44.055 din"
+        },
+        {
+          "kind": "period",
+          "value": "1937-07-20 → 1938-05-09"
         }
       ],
       "legibility": "dobra",
@@ -2145,10 +2294,6 @@
       "text": "„ИЗВОД СПИСКА БР.3 — за период од 9-V-1939 до 31-VIII-1939 год.“ Nadnice: надзорника 466, магационера —, писара 95, шофера —, чувара 278, скелара 1.215, тесача и столара 975, зидара и каменорезаца 6.025, гвожђара и рабицера 290, ковача и електричара 213, машиниста 230, радника обичних 4.588, минера —, бетонџија 4, изолатера и асфалтера 142, фасадера 1.684, лимара 257, терацера 1.269, бравара и монтера 1.320, фарбара и молера 1.328, стаклоресца 561, керамичара 165, гипсара 391, паркетара —. Свега 21.496: квалификованих 16.015 по 15,00 = 240.225 и обичних радника 5.481 по 10,00 = 54.810. СВЕГА дин. 295.035. Pečat „ЈОШАНИЦА А. Д.“, taksene marke, potpisi komisije.",
       "facts": [
         {
-          "kind": "period",
-          "value": "1939-05-09 → 1939-08-31"
-        },
-        {
           "kind": "izvođač",
           "value": "Jošanica A. D."
         },
@@ -2159,6 +2304,10 @@
         {
           "kind": "iznos",
           "value": "295.035 din"
+        },
+        {
+          "kind": "period",
+          "value": "1939-05-09 → 1939-08-31"
         }
       ],
       "legibility": "dobra",
@@ -2993,10 +3142,6 @@
       "text": "Naslovna strana brošure: crveni logo „STREBEL“, zatim „BERICHT über Leistungsversuche an einem schmiedeeisernen Strebel-Niederdruck-Wasserrohr-Kessel — STREBEL-UNI-KESSEL — auf dem Prüfstand der Firma STREBELWERK G.m.b.H. Mannheim — vom 18. bis 28. Juli 1939, ausgeführt vom Technischen Überwachungsverein Mannheim.“ Gore crvenom olovkom rimsko „I“, uz dve taksene marke od po 2 dinara. Dole plavi štambilj „STREBELWERK … Vertretung für Jugoslavien“ i oznaka izdanja „Nr. 738“.",
       "facts": [
         {
-          "kind": "period",
-          "value": "1939-07-18/1939-07-28"
-        },
-        {
           "kind": "ustanova",
           "value": "Technischer Überwachungsverein Mannheim — izvršilac ispitivanja"
         },
@@ -3011,6 +3156,10 @@
         {
           "kind": "radnja",
           "value": "ispitivanje učinka kotla na probnom stolu"
+        },
+        {
+          "kind": "period",
+          "value": "1939-07-18/1939-07-28"
         }
       ],
       "legibility": "dobra",
@@ -5331,10 +5480,6 @@
       "text": "Kucani obrazac, ćirilica, u uglu rukom „6б“. Naslov: „ИЗВОД СПИСКА БР. 2 за период од 10-V-1938 до 8-V-1939 год.“ (datum ponovljen rukom). Iza teksta se providi vodeni otisak prethodnog lista: „…радничких надница по дневнику … рада на новој згради Државне штампарије у Београду“. Tabela sa kolonama ред. бр. / назив радне снаге / наднице / разлика у надницама / више исплаћено, 24 reda: 1 надзорника 801; 2 магационера —; 3 писара 255; 4 шофера —; 5 чувара 585; 6 скелара 864; 7 тесача и столара 7.626; 8 зидара и каменорезаца 4.483; 9 гвожђара и рабицера 2.759; 10 ковача и електричара 1.322; 11 машиниста 599; 12 радника обичних 14.000; 13 минера —; 14 бетониста 242; 15 изолатера и асфалтера 546; 16 фасадера 428; 17 лимара 181; 18 терацера 1.219; 19 бравара и монтера 1.117; 20 фарбара и молера 349; 21 стаклорезаца 115; 22 керамичара 67; 23 гипсара —; 24 паркетара —. „Свега: 37.555“; „Од којих: квалификованих 19.357 — разлика 11,00 — више исплаћено 212.927; обичних радника 18.198 — разлика 6,00 — више исплаћено 109.188“; „СВЕГА: Дин. 322.115“. Dve taksene marke po 2 dinara (grb, 1934). Pečat i potpis „ЈОШАНИЦА А.Д.“ i ispod „КОЛАУДОВАНО У МИНИСТАРСТВУ ГРАЂЕВИНА, МГ.Бр. ___“ sa potpisima kolaudacione komisije u tri reda (1. арх. …, 2. инж. …, 3. инж. Пето/Шето …).",
       "facts": [
         {
-          "kind": "period",
-          "value": "1938-05-10/1939-05-08"
-        },
-        {
           "kind": "radna-snaga",
           "value": "37.555 nadnica u godini: 19.357 kvalifikovanih i 18.198 običnih radnika"
         },
@@ -5345,6 +5490,10 @@
         {
           "kind": "firma",
           "value": "izvođač: Jošanica A.D."
+        },
+        {
+          "kind": "period",
+          "value": "1938-05-10/1939-05-08"
         }
       ],
       "legibility": "dobra",
@@ -5362,10 +5511,6 @@
       "text": "Isti obrazac, u uglu rukom „6г“. Naslov: „ИЗВОД СПИСКА БР. 4 за период од 1-IX-1939 до 30-IV-1940 год.“ Iza teksta se providi isti vodeni otisak „…радничких надница по дневнику рада на новој згради Државне штампарије у Београду“. Tabela, 24 reda: 1 надзорника 776; 2 магационера —; 3 писара 132; 4 шофера —; 5 чувара 360; 6 скелара 165; 7 тесача и столара 566; 8 зидара и каменорезаца 2.956; 9 гвожђара и рабицера 107; 10 ковача и електричара 414; 11 машиниста 219; 12 радника обичних 6.729; 13 минера —; 14 бетониста 4; 15 изолатера и асфалтера 1.382; 16 фасадера 655; 17 лимара 50; 18 терацера 1.911; 19 бравара и монтера 1.852; 20 фарбара и молера 3.120; 21 стаклорезаца 429; 22 керамичара 340; 23 гипсара 2; 24 паркетара 12. „Свега: 22.181“; „Од којих: квалификованих 14.634 — разлика 15,00 — више исплаћено 219.510; обичних радника 7.547 — разлика 12,00 — више исплаћено 90.564“; „СВЕГА: Дин. 310.074“. Dve taksene marke po 2 dinara. Pečat „ЈОШАНИЦА А.Д.“ sa potpisima i „КОЛАУДОВАНО У МИНИСТАРСТВУ ГРАЂЕВИНА, МГ.Бр.“ sa tri potpisa komisije.",
       "facts": [
         {
-          "kind": "period",
-          "value": "1939-09-01/1940-04-30"
-        },
-        {
           "kind": "radna-snaga",
           "value": "22.181 nadnica: 14.634 kvalifikovanih i 7.547 običnih radnika"
         },
@@ -5376,6 +5521,10 @@
         {
           "kind": "faza",
           "value": "posao se preselio u završne radove: farbari i moleri 3.120, terace 1.911, bravari i monteri 1.852, izolateri 1.382"
+        },
+        {
+          "kind": "period",
+          "value": "1939-09-01/1940-04-30"
         }
       ],
       "legibility": "dobra",
@@ -5809,6 +5958,2198 @@
       "legibility": "dobra",
       "confidence": "visoka",
       "date": "1943-10-29"
+    },
+    {
+      "id": "cit-predmeri-1463",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni predmer — obračun površina",
+        "en": "Handwritten estimate — area calculation"
+      },
+      "text": "Rukopisni računski list sa množenjem dimenzija (oblik m x m) i zbirovima po stavkama; verovatno površine podloga za jednu od građevinskih pozicija. Brojevi su delimično čitki, ali se iznosi ne prepisuju bez vizuelne provere.",
+      "facts": [],
+      "legibility": "slaba (rukopis, OCR delimičan)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1464",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni predmer — nastavak obračuna",
+        "en": "Handwritten estimate — calculation continued"
+      },
+      "text": "Nastavak rukopisnog obračuna iz IMG_1463: iste kolone sabiranja i množenja, zbir na dnu stranice. Deo liste je preklopljen ili zasenčen.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1465",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni predmer sa kontrolnim zbirom",
+        "en": "Handwritten estimate with control total"
+      },
+      "text": "Rukopisni obračun sa više međuzbirova i konačnim zbirom; struktura odgovara predmeru podloge ili završnih radova. Jedan od sedam skenova koje je raniji prolaz brojao zbirno.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1466",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni obračun sa troskovnim stavkama",
+        "en": "Handwritten calculation with cost items"
+      },
+      "text": "Rukopisni list sa stavkama iza kojih slede množenja količine i jedinične cene; prepoznatljiv zbir ~529 na dnu. Prirodan niz sa prethodna dva lista.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1467",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni predmer — procena materijala",
+        "en": "Handwritten estimate — material assessment"
+      },
+      "text": "Rukopisni obračun sa stavkama materijala i rada; prepoznatljiv iznos oko 2.600 dinara kao zbir stavki. Numeracija stavki prekinuta presavijanjem.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1468",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni obračun pozicija",
+        "en": "Handwritten item calculation"
+      },
+      "text": "Delimično čitak obračun sa nizom množenja (3 x neka količina, 0,5 x 0,33 i sl.) i zbirovima po grupama. Vertikalna dopuna mastilom druge boje.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1469",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Predmer sa obračunom zapremine",
+        "en": "Estimate with volume calculation"
+      },
+      "text": "Rukopisni obračun sa pravougaonicima dimenzija i stepenastim zbirom; završni zbir prepoznatljiv (~440). Izgleda kao obračun zapremina ili površina po etažama.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1470",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni predmer — relativno čist list",
+        "en": "Handwritten estimate — relatively clean sheet"
+      },
+      "text": "Ređi rukopis, čitljivije kolone; prepoznatljivi zbirovi 73,60 i slični. Verovatno pregledna rekapitulacija pozicija iz prethodnih listova.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1471",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Predmer sa dupliranim kolonama",
+        "en": "Estimate with duplicated columns"
+      },
+      "text": "Obračun u dve paralelne kolone (verovatno ponuda i protivponuda ili dve varijante izvedbe), sa zbirovima na dnu obe kolone.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1472",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni obračun sa procentima",
+        "en": "Handwritten calculation with percentages"
+      },
+      "text": "Obračun koji sadrži i procentni račun pored količina; prepoznatljive vrednosti ~2.764 i ~0,067. Moguće rabatne ili režijske stavke.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1473",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni obračun — kombinovane pozicije",
+        "en": "Handwritten calculation — combined items"
+      },
+      "text": "Kraći rukopisni list sa nekoliko množenja i zbirom; na dnu dvostruka potvrda iznosa (kontrola računa).",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1474",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Rukopisni obračun podloga",
+        "en": "Handwritten substrate calculation"
+      },
+      "text": "Obračun sa množenjima oblika 4,25 x 0,3 i sl.; poslednja stavka „Konačno“ sa zbirom. Delimično prekriven pravilom lista.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1475",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Predmer — zbir pozicija",
+        "en": "Estimate — item total"
+      },
+      "text": "Rukopisni list sa uporednim kolonama i zbirom ~477 na dnu; preklop na desnom rubu oduzima deo teksta.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1477",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Zapisnik komisije sa pregledom predračuna",
+        "en": "Commission record with estimate review"
+      },
+      "text": "Delimično čitak dokument: „Чланови комисије“, godina 1943/1945, iznosi 345,84 i 2.403 i potpis. Izgleda kao zapisnik komisije za pregled i prijem predračuna/posla. Jedan od sedam ranije zbirno brojanih skenova.",
+      "facts": [],
+      "legibility": "srednja (štampani deo čitak)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1478",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Zapisnik sa zbirovima predračuna",
+        "en": "Record with estimate totals"
+      },
+      "text": "Rukopisni/poluštampani list sa nizom novčanih zbirova (2.403, 2.300, 3.744, 4.690...) i delom zaglavlja; verovatno zapisnik o pregledu ponuda sa uporednim zbirovima.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1479",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Komisija za konačan prijem posla",
+        "en": "Commission for final acceptance of work"
+      },
+      "text": "Čitko zaglavlje: „Чланови комисије за коначан пријем посла“, broj 4046/45, „ПРЕГЛЕДАО… МИНИСТАРСТВУ ГРАЂЕВИНА“, potpis inž. Georgijević. Dokument o konačnom prijemu radova uz računske strane.",
+      "facts": [],
+      "legibility": "dobra (štampano)",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1506",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Ministarstvo građevina — predmet nove zgrade štamparije",
+        "en": "Ministry of Construction — subject of the new printing house"
+      },
+      "text": "Štampano pismo Ministarstva građevina sa predmetom „НОВЕ ЗГРАДЕ ДРЖАВНЕ ШТАМПАРИЈЕ“, beleškama o prenetim tačkama i rubrikama za pregled tehničkog referenta. Povezan je sa predmetima predračuna i analize cena.",
+      "facts": [],
+      "legibility": "dobra (štampano, delimično rukopisne beleške)",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1507",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Naslovnica ponude (čitljiv samo potpis)",
+        "en": "Tender cover sheet (only signature legible)"
+      },
+      "text": "Naslovnica ponude ili kataloga; jedino čitljivo ime liči na „Ћирић/Ћирио“. Bez korisnog teksta za OCR.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1509",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Analiza cena za patosne radove — asfalt",
+        "en": "Price analysis for floor works — asphalt"
+      },
+      "text": "Analiza cena preduzeća „Јошанић А.Д.“ za patosne radove i oblaganje zidova nove zgrade Državne štamparije: asfalt od 2 cm (materijal i rad / sve goto­vo po m²) u varijantama sa i bez granitne osnove; cene po m² od 48–112 dinara. Ekspertiza eksperata za parketarske radove.",
+      "facts": [],
+      "legibility": "dobra za štampani deo",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-1510",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Analiza cena — ksilit, pločice, mozaik, betonski patos",
+        "en": "Price analysis — xylolith, tiles, mosaic, concrete floor"
+      },
+      "text": "Nastavak analize: ksilit po specijalnoj izradi; patos raznih debljina sa podlogom cementa i peska; pločice 150/150/16 mm crne i bele po izboru nadzora (185–240 din/m²); mozaik patos 90+15+22 din; čelična košuljica za betonski patos (220x29, 96, 112 din).",
+      "facts": [],
+      "legibility": "dobra za štampani deo",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-lwqz5830",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Rukopisne beleške iznosa",
+        "en": "Handwritten amount notes"
+      },
+      "text": "Svega tri iznosa (~3.375, ~2.632, ~375) na listu — verovatno dopuna zbirovima iz predmera. Bez zaglavlja.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-mtbx7467",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Naslovnica — Terentski/ nepoznata firma",
+        "en": "Cover sheet — unclear firm name"
+      },
+      "text": "Naslovnica sa jedva čitljivim imenom firme („ТЕРЕН…“). Bez upotrebljivog teksta.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-nkvp2648",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Naslovnica — predračun radova na zgradi Državne štamparije",
+        "en": "Cover — estimate of works on the State Printing House"
+      },
+      "text": "Čitka naslovnica: „ПРЕДРАЧУН… радова на згради Државне [штампарије] у Београду“, uz napomenu o уступљеним licitacijama. Ključni dokaz da fascikla sadrži predračune upravo za novu zgradu štamparije.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-nyis4672",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Tabela ponuda — uporedni zbirovi",
+        "en": "Bid table — comparative totals"
+      },
+      "text": "Štampana ili uredno pisana tabela sa nizom novčanih iznosa (348, 843, 298, 760, 790, 7.250, 4.332, 69.945, 5.876...) u kolonama; izgleda kao uporedni pregled ponuda po stavkama. Iznosi prepisani samo kao orijentacija.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-ocvs3316",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Službena beleška sa prenetim stavkama",
+        "en": "Official note with transferred items"
+      },
+      "text": "Obrisak službene beleške Ministarstva [građevina] sa rubrikama „Пренето“ / „За пренос“ — knjiženje stavki između akata. Sadržaj tabele nije čitak.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-pyhh2621",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Tabela patosnih pozicija",
+        "en": "Table of flooring positions"
+      },
+      "text": "Tabela sa zaglavljem „Лист… ПАТОС“ i nizom ponovljenih vrednosti (72/78, 49, 47...) — verovatno ponuda za patos po prostorijama. Brojevi se ne prepisuju bez provere.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-pypk5536",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi oficertne licitacije Ministarstva građevina",
+        "en": "Terms of the Ministry of Construction tender"
+      },
+      "text": "Skoro potpuno čitak štampani tekst uslova: ponudi/ofertnoj licitaciji se polažu na dan licitacije do 11h; planovi i uslovi se razgledaju u Računsko-ekonomskom odeljenju, soba 27, Masarikova ul.; nadmetaci podnose dozvolu Ministra, uverenja o plaćenim poreezima, komorsko uverenje i ovlašćenje po Zakonu o radnjama. Ključni dokument o proceduri javne nabavke.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-qhpa9467",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Službena beleška — prenos predmeta",
+        "en": "Official note — case transfer"
+      },
+      "text": "Beleška sa rubrikama „ПРЕДМЕТ“ / „Пренето“ i potpisom pregledao tehnički referent; knjiženje akata, sadržaj nečitak.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-ulqh3201",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Rukopisni list bez OCR teksta",
+        "en": "Handwritten sheet without OCR text"
+      },
+      "text": "Sken rukopisa za koji nijedna rotacija nije dala koristan tekst; potrebna vizuelna provera. Evidentiran da bi se znalo da je pregledan.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-uocl5405",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Rukopisne geometrijske formule",
+        "en": "Handwritten geometric formulas"
+      },
+      "text": "Kratke formule oblika (0,5+0,45)... i sabiranja — geometrijski obračun dužina/površina. Bez zaglavlja.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-vcdk4713",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Rukopisni isečak — jedna formula",
+        "en": "Handwritten scrap — one formula"
+      },
+      "text": "Jedva čitljiv isečak sa delom formule (0,5...). Nije upotrebljiv bez vizuelne provere.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-vulg9704",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Tabela bez čitljivog teksta",
+        "en": "Table without legible text"
+      },
+      "text": "Tabela/obračun kod kojeg OCR nije prepoznao sadržaj; potrebna vizuelna provera.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-vywi0486",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Rukopis bez OCR teksta",
+        "en": "Manuscript without OCR text"
+      },
+      "text": "Sken rukopisa bez korisnog OCR-a; evidentiran kao pregledan, sadržaj čeka vizuelnu proveru.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-wdvu7466",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Naslovnica bez OCR teksta",
+        "en": "Cover sheet without OCR text"
+      },
+      "text": "Naslovnica/katalog bez prepoznatljivog teksta; potrebna vizuelna provera.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-predmeri-xmeg9881",
+      "folder": "Predmeri, Predracuni,Analiza cena",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Kratka rukopisna beleška",
+        "en": "Short handwritten note"
+      },
+      "text": "Nekoliko delimično čitljivih izraza („Да… 37 х“); nedovoljno za sadržaj. Vizuelna provera preporučena.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1515",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Tehnički uslovi 1.2 — materijal: cement i gvožđe",
+        "en": "Technical conditions 1.2 — materials: cement and iron"
+      },
+      "text": "Tehnički uslovi za armiranobetonske radove: statički proračun je sastavni deo opisa; cement samo portland visoke čvrstoće u originalnim zatvorenim džakovima, čuvan od vlage; čeliku se traži homogena struktura bez nedostataka; aramatura se ne sme polagati dok arhitekta-projektant ne pregleda i ne odobri. Prepoznatljive odredbe o zarđalom gvožđu i zaštiti od cementnog mleka.",
+      "facts": [],
+      "legibility": "srednja (štampano, mestimično nečitko)",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1516",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Tehnički uslovi 2 — armatura, voda, pesak i šljunak",
+        "en": "Technical conditions 2 — rebar, water, sand and gravel"
+      },
+      "text": "Nastavak uslova: kukice za bolju vezu s betonom prečnika 5× prčnik gvožđa; armatura se čuva od gazeњa daskama; naprsle štapove ukloniti; razmak armature i oplate; voda čista bez primesa; pesak i šljunak rečni, postojani na mrazu, pritisak najmanje ~300 kg/cm²; šljunak ne sme upiti vode više od svoje težine.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1517",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Tehnički uslovi 3 — beton",
+        "en": "Technical conditions 3 — concrete"
+      },
+      "text": "Beton prema planu i statičkom proračunu; za gvožđu armiran beton ~300 kg cementa/m³, za visoke vrednosti ~350; čvrstoća posle 28 dana ~300 kg/cm² (visoke ~...); mešanje mašinski, odmeravanje sandučićima po razmeri; rukom samo za male količine. Ispitivanja betona pre upotrebe određuje nadzorni arhitekta-projektant.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1518",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Tehnički uslovi 4 — spravljanje i ugrađivanje betona",
+        "en": "Technical conditions 4 — mixing and placing concrete"
+      },
+      "text": "Suvo mešanje cementa i peska pa dodavanje vode do plastične mase; beton izložen kiši ili mrazu se uklanja; rad prestaje na 1 stepen iznad nule, površine se prekrivaju; betoniranje u slojevima 10–15 cm, zabranjeno bacanje sa visine; negovanje u vlažnom stanju do stvrdnjavanja; početak radova tek uz uverenje nadzornog arhitekte o kakvoći materijala.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1519",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Tehnički uslovi 5 — neprekidno betoniranje, oplata i skela",
+        "en": "Technical conditions 5 — continuous pouring, formwork and scaffolding"
+      },
+      "text": "Betoniranje bez prekida, naročito kod ploča s rebrima; prekid samo uz odobrenje nadzora, površina se očisti i opere cementnim mlekom; oplata od bukoveh dasaka bez čvorova i pukotina, uračunata u jedinične cene; skela i oplata moraju davati otpor savijanju i skidati se bez potresa.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1520",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Tehnički uslovi 6 — skidanje oplate, rupe i cene; žica za rebraste tavdnice",
+        "en": "Technical conditions 6 — stripping forms, holes and prices; wire for ribbed slabs"
+      },
+      "text": "Skidanje oplate i skela bez potresa i uz prisustvo nadzora; rupe posle uklanjanja popuniti betonom; mere na gotov posao; cene obuhvataju sav materijal, alat, skele i rad; kod rebrastih tavdnica iz svakog rebra ispustiti pocinkovana žica Ø2 mm na 30 cm za vezu letvi ili rabic mreže.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1521",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Zidarski radovi — materijal i malter",
+        "en": "Masonry works — materials and mortar"
+      },
+      "text": "Pozicija „ЗИДАРСКИ РАДОВИ“: zidovi debljine jedne i jedne i po opeke, mere po predračunu; svega ~89,25 m²(?) zidova; opeka prvog kvaliteta — pri udaru mora zvoniti; kvar dokazuje uverenjem Zavoda za ispitivanje materijala Ministarstva građevina; kreč svež, čuvan od vlage i kiše, vezivna moć dokazana uverenjem i ispitivanjem na licu mesta.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1522",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Rabit-plofoni u produžnom malteru — 18,12 m²",
+        "en": "Rabitz ceilings in cement mortar — 18.12 m²"
+      },
+      "text": "Tačka 26: izrada rabic plofona u produžnom malteru, svega 18,12 m². Potpuna konstrukcija: pocinkovana žica na rebrima, armatura Ø6 mm uz svako rebro, mreža 20 cm u kvadratu, pocinkovana mreža oka 2 cm, rabic sloj u dva sloja cementnog maltera (prvi 1:3 debljine 2 cm, drugi 1 cm za perdašenje u odnosu 1:1:3 krec-cement-pesak, prosejan kroz sito).",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "18,12 m² rabic plofona"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1523",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Štukator plofoni od trske — 217,59 m²; plofon kotlarnice 460,18 m²",
+        "en": "Reed plaster ceilings — 217.59 m²; boiler room ceiling 460.18 m²"
+      },
+      "text": "Tačka 27: štukator plofoni, svega 217,59 m² — dva reda letvi, osušena i oljuštena trska po normama Ministarstva građevina, žarena žica Ø1 mm na 15 cm; malterisanje u dva sloja krečnog maltera (prvi 1:1 sa svinjskom dlakom ~2 cm, drugi 1:3 za derapensenje 1 cm); plofoni ravni i vodoravni. Tačka 28: oplata plofona kotlarnice 460,18 m². Jedan od sedam ranije zbirno brojanih skenova.",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "217,59 m² štukator plofona"
+        },
+        {
+          "kind": "povrsina",
+          "value": "460,18 m² plofona kotlarnice"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1524",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Fasadni radovi u produžnom cementnom malteru s prskanjem — 1864,74 m²",
+        "en": "Facade works in sprayed cement mortar — 1864.74 m²"
+      },
+      "text": "Tačka 29, poglavlje VI: fasade u produžnom cementnom malteru s prskanjem, svega 1864,74 m². Priprema: čišćenje, spricanje spojeva 2 cm, pranje vodom; grunt 1:1:6 u debljini 1,5–2 cm pa drugi sloj 5 mm; prskanje u boji po izboru nadzora; računa se po m² uz odbijanje otvora preko 4 m², ali se špaletne plaćaju.",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "1864,74 m² fasade"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1525",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Ulažne stepenice od granita",
+        "en": "Granite entrance steps"
+      },
+      "text": "Tačka 30: ulazne stepenice i ivičnjaci od tvrdog granita, zdravog i postojanog; stepenice po detalju nadzora, gazna površina sitno valovita protiv klizanja; podloga bez prašine; vežbe granitnih elemenata cementnim malterom; običavanje po mernom komadu, s radom, alatom i materijalom po m²(?) gotovog posla.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1526",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Veštački kamen",
+        "en": "Artificial stone"
+      },
+      "text": "Izrada veštačkog kamena: podloga od cigle se okvasi i špricra cementnim mlekom; prvi sloj 1:3 cement-moravski šljunak debljine 2,5–3 cm; drugi sloj portland cementa i mlevenog kvarca 1:?, glačanje glatklicom, kvaseњe dva puta dnevno; fuge se seku posle 8–10 dana; loše vezan kamen izvođač menja bez naknade.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1527",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Patost od ksilita — 28,07 m²",
+        "en": "Xylolith floor — 28.07 m²"
+      },
+      "text": "Tačka 34, poglavlje „ПАТОСИ“: ksolit patos po mustri nadzora, svega 28,07 m²; betonska podloga potpuno ravna (ispravke se ne plaćaju); prvi sloj ≥15 mm od 1 deo magnezita i 4 dela sturarine sa solju magnezijuma, drugi 10 mm 1:3,5 s jačim rastvorom hlor-magnezijuma; dodatak azbesta; fuge horizontalne; gotov patos se uljem štiti. Jedan od sedam ranije zbirno brojanih skenova.",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "28,07 m² ksilit patosa"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1528",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Patos od terca pločica — 29,07 m² / 582,28 m²",
+        "en": "Terrazzo tile floor — 29.07 / 582.28 m²"
+      },
+      "text": "Patost od terca pločica debljine 2 cm, dimenzija 20/20(?) cm, presovanih pod pritiskom od ~56 atmosfera, s donje strane betonska rapava površina; polažu se u cementnom malteru 1:2(?) debljine 2 cm; kvačenje, fuge i završna obrada; oštećene se menjaju; na kraju se čisti i etikira. Količine delimično nečitke (29,07 i 582,28 m²).",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1529",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Krečenje zidova — 5706,66 m²",
+        "en": "Whitewashing of walls — 5706.66 m²"
+      },
+      "text": "Krečenje čisto belo u više premaza do pune beline; posle krečenja ispada se kreč iz svih otvora, dasaka, obloga i patosa; kreč od gašenog kreča s dodatkom soli protiv otiranja; običava se po m² razvijene površine uz odBiJanje otvora većih od 4 m²; svega ~5706,66 m² krečenja i 41 oplata(?) ševina.",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "~5706,66 m² krečenja"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1530",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Bravarija — vrata i prozori od čelika",
+        "en": "Ironmongery — steel doors and windows"
+      },
+      "text": "Vrata i prozori postavljaju se po planu; zaštita od rđe; staklo minimum duplo(?) debljine; vezni delovi šrafovima; tačka 42: puna čelična vrata 6,20(?)×2,80 m od čelika 2,5 cm s čeponim vijcima; ugaonici 35/35/4 cm i Z-profili 35/15/4; svako krilo do dva para šarki; tačka 43: jedokrilna vrata pozicije I i II s plosnatim gvožđem 30/7,5 mm.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1531",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Čelična vrata poz. IV–VI i gvozdeni prozori — pregled količina",
+        "en": "Steel doors pos. IV–VI and iron windows — quantity list"
+      },
+      "text": "Nastavak bravarije: vrata na točkovima od livenog gvožđa, dvodelne čelične šarne, ukopavajuće brave; tačka 44: staklena gvozdena vrata na rasplapanje 315/280 cm sa štokom 45/4,75 cm, hemfer od dva L-profila, donji deo opšiven limom 2,5 mm; tabela gvozdenih prozora (584/280, 90/210, 120/240, 315/280; svega 4 komada + 4 trokrilna 384/150). Jedan od sedam ranije zbirno brojanih skenova.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1532",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Drvena stolarija — vratni i prozorski okviri",
+        "en": "Joinery — door and window frames"
+      },
+      "text": "Vrata i prozori od zdrave suve čamove i borove građe bez čvorova; veze stolarije glaske, obrađene i pečane hartijom; bez krpljenja; okovi od belog metala po izboru nadzora; staklo bez mehurova; posle svih radova stolarija se pregleda i dovodi u ispravno stanje; obračun po komadu; vrata od čamove građe bez smolnih mesta.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1533",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Pokrivanje krova impreg nisanom hartijom — 498,62 m²",
+        "en": "Roofing with tarred paper — 498.62 m²"
+      },
+      "text": "Tačka 64: pokrivanje krova impreg nisanom (terisanom) hartijom, svega 498,62 m²; preko daščane oplore debljine 26 mm bez ispada; gde oplata prelazi na rogove produžiti istom; prvi sloj hartije slobodno na krovni timor, preklop 6–18 cm; drugi sloj lepljen premazom, eksiri na 10 cm; venčanica se savije sa ispustom 10 cm; završni premaz posut kvarcnim peskom; asfaltni premaz po izboru nadzora.",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "498,62 m² krova"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1534",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Pokrivanje sitnim preplitajućim crepom — 1138,92 m²",
+        "en": "Roofing with small interlocking tiles — 1138.92 m²"
+      },
+      "text": "Crep se postavlja u zbijenim redovima; na slermenu crep-merdevina vezana produžnim malterom; crep i merdevina moraju odgovarati normama Ministarstva građevina; uverenje o ispitivanom materijalu; limeni delovi hladno obrađeni; svega 1138,92 m² duplog pokrivanja; rafvi od 35 cm; letva slermena na 5 cm.",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "1138,92 m² crepa"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1535",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Opšivanje limom i sandedžasti oluči — 169,22 m¹",
+        "en": "Sheet-metal flashing and box gutters — 169.22 m"
+      },
+      "text": "Tačka 71–72: opšivanje limom i izrada sandedžastog stojećeg oluka od terisane hartije/lima, svega 169,22 m¹; železne prečage vezane na kuke na 1 m, kuke Ø6 mm; lim se ne leči slobodno; oluk do 25 cm širine, min 12 cm dubine; kuke s olovnim podmetačima protiv rđe.",
+      "facts": [
+        {
+          "kind": "duzina",
+          "value": "169,22 m oluka i opšivanja"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1536",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Odvođačke cevi 76,00 m i ventilacione cevi 12 m",
+        "en": "Drain pipes 76.00 m and ventilation pipes 12 m"
+      },
+      "text": "Tačka 73: odvođačke cevi od galvaniziranog lima 14/14 (0,53 mm), učvršćene na kukice, raspored po planu — svega 76,00 m; tačka 74: ventilacione cevi od pocinkovanog lima debljine 0,53 mm(?) i prečnika 10 cm, s poklopcima — 12 m, bez hrđavih delova, sve s alatom, materijalom i radnom snagom.",
+      "facts": [
+        {
+          "kind": "duzina",
+          "value": "76,00 m odvođačkih cevi"
+        },
+        {
+          "kind": "duzina",
+          "value": "12 m ventilacionih cevi"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1537",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Krovna konstrukcija od čamovine — 554,16 m²",
+        "en": "Roof structure of fir timber — 554.16 m²"
+      },
+      "text": "Tačka 75–76: krovna konstrukcija od prvoklasne čamove građe tesane po dimenzijama iz planova; sve kvačice, eksiri, šrafovi i nosači za vezu sa betonskim kukama; veza tavdnjača s betonskim kukama; daščana oplata preko tavdnjača debljine 26 mm, na pero i ćoš, bez ispada; svega 554,16 m² krovne konstrukcije (za krov pokriven limom/terisanom hartijom i crepom).",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "554,16 m² krovne konstrukcije"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-1538",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Horizontalna izolacija zidova trikazolom — 33,65 m²",
+        "en": "Horizontal wall insulation with trikozol — 33.65 m²"
+      },
+      "text": "Tačka 77, poglavlje XVII: horizontalna izolacija po preseku zidova — sloj betona s trikazalom širine zida i visine 10 cm; razmera 1 cement : 2 peska : 2 šljunka s 5,80 l trikazola, tj. 1,2 l na 100 kg cementa; trikazol s vodom 1:30(?) l; ravnomerno mešanje, beton plastičan; plaća se po m² izvedenog. Svega 33,65 m².",
+      "facts": [
+        {
+          "kind": "povrsina",
+          "value": "33,65 m² horizontalne izolacije"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-tu-uvps5129",
+      "folder": "Tehnicki Uslovi",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Naslovnica: Tehnički uslovi za izvođenje radova",
+        "en": "Title page: Technical conditions for execution of works"
+      },
+      "text": "Naslovna strana zbirke tehničkih uslova: „ТЕХНИЧКИ УСЛОВИ ЗА ИЗВОЂЕЊЕ РАДОВА“ — uvodni list obimne pismene specifikacije čiji su sastavni delovi skenovi IMG_1515–1538.",
+      "facts": [],
+      "legibility": "srednja (samo naslov čitljiv)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-dimnjaci-1",
+      "folder": "Tehnicki Uslovi/Dimnjaka",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Dimnjačarski radovi — gvožđe (str. 1)",
+        "en": "Chimney works — iron (p. 1)"
+      },
+      "text": "Tehnički uslovi za dimnjake, deo o gvožđu: dimnjački gvožđeni delovi moraju biti iz jednog komada, ne smeju se zavaravati bez odobrenja; površine se očiste od grubih neravnina pre ugradnje.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-dimnjaci-2",
+      "folder": "Tehnicki Uslovi/Dimnjaka",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Dimnjačarski radovi — građa i cement (str. 2)",
+        "en": "Chimney works — materials and cement (p. 2)"
+      },
+      "text": "Građa potrebna za izvršenje radova: samo portland cement ili portland cement visoke otpornosti domaćih fabrika, u čitavim plombiranim džakovima originalnog punjenja (ista odredba kao u glavnim tehničkim uslovima).",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-dimnjaci-3",
+      "folder": "Tehnicki Uslovi/Dimnjaka",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Dimnjačarski radovi — pesak (str. 3)",
+        "en": "Chimney works — sand (p. 3)"
+      },
+      "text": "Pesak rečni, bez primesa; sastav mešavine sa više peska po navedenim razmerama; mora izdržati najmanje navedenu kg/cm²; dokazivanje kakvoće uverenjem.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-dimnjaci-4",
+      "folder": "Tehnicki Uslovi/Dimnjaka",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Dimnjačarski radovi — negovanje i otprema (str. 4)",
+        "en": "Chimney works — curing and delivery (p. 4)"
+      },
+      "text": "Negovanje izvedenih delova u vlažnom stanju i zaštita od potresa, kvarenja, jakog vetra, sunčane žege i mraza do punog stvrdnjavanja; pre otpreme nadzor proverava materijal.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-dimnjaci-5",
+      "folder": "Tehnicki Uslovi/Dimnjaka",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Dimnjačarski radovi — malter i razmere (str. 5)",
+        "en": "Chimney works — mortar and ratios (p. 5)"
+      },
+      "text": "Preduzimač predlaže na odobrenje temperature i razmere; za spojeve razmera ~1:26(?) kg portland cementa sa 376 kg(?) peska; detelji nečitki.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-dimnjaci-6",
+      "folder": "Tehnicki Uslovi/Dimnjaka",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Dimnjačarski radovi — oplata (str. 6)",
+        "en": "Chimney works — formwork (p. 6)"
+      },
+      "text": "Oplata od drveta bez pukotina; daske potpuno pravne; štanglice se ne smeju upotrebiti; oplata se gradi tako da se skida bez potresa betona.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-plan-bzvh9860",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Građevinski crtež (bez čitljivih natpisa)",
+        "en": "Construction drawing (no legible labels)"
+      },
+      "text": "Fotografija crteža (plavog ili belog otiska) bez čitljivih natpisa za OCR; pregledan i evidentiran. Određenje plana čeka vizuelnu proveru.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-dzeq4553",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Detalj crteža",
+        "en": "Drawing detail"
+      },
+      "text": "Crtež sa fragmentima linija i Kotа; jedva čitljiv trag teksta. Pregledan; određenje nepoznato.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-gnhb8671",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Uski isečak crteža sa kotama",
+        "en": "Narrow drawing strip with dimensions"
+      },
+      "text": "Uska traka (717×2048) — isečak crteža sa kolima 37, 309, 34, 74. Verovatno detalj stepeništa ili profila.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-gymz7680",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Uski isečak crteža",
+        "en": "Narrow drawing strip"
+      },
+      "text": "Druga uska traka crteža bez čitljivog teksta; pregledana i evidentirana.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-hosr8468",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Detalj crteža (fragment)",
+        "en": "Drawing detail (fragment)"
+      },
+      "text": "Fragment crteža; bez korisnog teksta. Pregledan.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-1541",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Tlocrt sa numeracijom osa",
+        "en": "Floor plan with axis numbering"
+      },
+      "text": "Širi snimak crteža: prepoznatljiva numeracija osa 20, 21, 22, 23 i kote (475, 50, 2,0...). Verovatno tlocrt sprata u rasteru nosećih osa.",
+      "facts": [],
+      "legibility": "slaba (samo brojevi)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-plan-1543",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež — detalj (fragment teksta „зда...“)",
+        "en": "Drawing — detail (fragment „зда...“)"
+      },
+      "text": "Crtež sa tragom natpisa koji počinje rečju „зда[ње]...“; ostalo nečitko. Pregledan.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-lmmx8108",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež bez čitljivih natpisa",
+        "en": "Drawing without legible labels"
+      },
+      "text": "Crtež bez korisnog OCR-a; pregledan i evidentiran.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-ltvc4614",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež bez čitljivih natpisa",
+        "en": "Drawing without legible labels"
+      },
+      "text": "Crtež bez korisnog OCR-a; pregledan i evidentiran.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-lvrf0160",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Osnova sa glavnom kotom 17.400",
+        "en": "Plan with main dimension 17.400"
+      },
+      "text": "Crtež sa čitljivom kotom −17.400 i tragom natpisa „основа...“. Glavna geometrijska mera objekta ili trakta.",
+      "facts": [
+        {
+          "kind": "kota",
+          "value": "17.400"
+        }
+      ],
+      "legibility": "slaba (kota čitka)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-plan-myki2840",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Lift u činovničkom stepeništu — skica",
+        "en": "Lift in the clerical staircase — sketch"
+      },
+      "text": "Čitljiv natpis „...ЗА ЛИФТ У ЧИНОВНИЧКОМ СТЕПЕНИШТУ...“ — crtež/skica lifta i okna u činovničkom stepeništu, sa kotama 4,3 i 27. Redak dokaz o liftu kao deo instalacija nove zgrade.",
+      "facts": [],
+      "legibility": "srednja (natpis čitak)",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-plan-nbfa0271",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Armirani — plan armature",
+        "en": "Reinforced — rebar plan"
+      },
+      "text": "Natpis „АРМИРА... на ново[ј]...“ uz broj 68 — nacrt armature (verovatno ploče ili grede) u novoj zgradi.",
+      "facts": [],
+      "legibility": "slaba (natpis delimično čitak)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-plan-nluk1438",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež bez čitljivih natpisa",
+        "en": "Drawing without legible labels"
+      },
+      "text": "Crtež bez korisnog OCR-a; pregledan i evidentiran.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-ogrn3156",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež — fragment natpisa",
+        "en": "Drawing — label fragment"
+      },
+      "text": "Crtež sa nečitljivim fragmentom natpisa; pregledan.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-paff9154",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež bez čitljivih natpisa",
+        "en": "Drawing without legible labels"
+      },
+      "text": "Crtež bez korisnog OCR-a; pregledan i evidentiran.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-pgmo0451",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Konstrukcioni crtež",
+        "en": "Structural drawing"
+      },
+      "text": "Prepoznatljiva reč „...онструк...“ — konstrukcioni crtež (verovatno „конструкција“). Ostalo nečitko.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-pgrx9786",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež bez čitljivih natpisa",
+        "en": "Drawing without legible labels"
+      },
+      "text": "Crtež bez korisnog OCR-a; pregledan i evidentiran.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-pijx3174",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež — fragment natpisa",
+        "en": "Drawing — label fragment"
+      },
+      "text": "Crtež sa fragmentom „...год...“; bez korisnog sadržaja iz OCR. Pregledan.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-pjur6005",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež bez čitljivih natpisa",
+        "en": "Drawing without legible labels"
+      },
+      "text": "Crtež bez korisnog OCR-a; pregledan i evidentiran.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-qdkq0562",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež — detalj",
+        "en": "Drawing — detail"
+      },
+      "text": "Mali crtež/detalj sa tragom teksta „ар...“; bez pouzdano odredivog sadržaja. Pregledan.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-rscl2358",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Fasada iz [ulice] — list 44",
+        "en": "Facade from [street] — sheet 44"
+      },
+      "text": "Čitljivo zaglavlje: „ЛИСТ... 44, ФАСАДА ИЗ ВОЈВОД[СКЕ]...“ — nacrt fasade (list 44 projekta), sa šrafurom podrumskih i spratnih polja.",
+      "facts": [],
+      "legibility": "srednja (zaglavlje čitko)",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-plan-skjb5238",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Preseci A–B i C–D",
+        "en": "Sections A–B and C–D"
+      },
+      "text": "Čitljive oznake „ПРЕСЕК А–В“ i „ПРЕСЕК С–D“ sa kotama 43, 76,3(?) i 21,446(?) — preseci kroz objekat sa obeleženim spratovima.",
+      "facts": [],
+      "legibility": "srednja (oznake čitke)",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-plan-tpis7124",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Stepenište i lift — detalji",
+        "en": "Staircase and lift — details"
+      },
+      "text": "Prelomljeni natpisi „...ЗА ХАРТ...“, „ЛИФТ СТЕПОНИШТУ“ — crtež stepeništa s liftom; veza sa skicom lifta u činovničkom stepeništu (MYKI2840).",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-plan-txvo7965",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Temelji/blokovi — nacrt sa kotom 450",
+        "en": "Foundations/blocks — drawing with dimension 450"
+      },
+      "text": "Natpisi „...онсп...“ i „...блок...“, kota „на 450“, potpis „надзорни инж.“ — verovatno temeljni blokovi ili nosivi blok konstrukcije sa kotom pegla.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-plan-wcmh7524",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež bez čitljivih natpisa",
+        "en": "Drawing without legible labels"
+      },
+      "text": "Crtež bez korisnog OCR-a; pregledan i evidentiran.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-wqqn9603",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež — fragment natpisa",
+        "en": "Drawing — label fragment"
+      },
+      "text": "Uski snimak s tragom teksta „[констру]кциј...“; verovatno konstrukcioni crtež. Pregledan.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-xgkg0041",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Detalj sa kotama",
+        "en": "Detail with dimensions"
+      },
+      "text": "Detalj crteža sa čitkim kolima 30 i 0,9(?) i tragom natpisa „...анте[на]?...“ — nije pouzdano odredivo. Pregledan.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-plan-xvnb9071",
+      "folder": "Planovi",
+      "kind": "crtež / plan",
+      "title": {
+        "sr": "Crtež bez čitljivih natpisa",
+        "en": "Drawing without legible labels"
+      },
+      "text": "Crtež bez korisnog OCR-a; pregledan i evidentiran.",
+      "facts": [],
+      "legibility": "nečitko za OCR",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-struja-1482",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uređaj slabe struje — likvidacija posla",
+        "en": "Low-current system — settlement of work"
+      },
+      "text": "Građevina br. 15961, avgust 1946, Beograd: predmet „uređaj slabe struje u novoj zgradi Državne štamparije u Beogradu — likvidacija posla“, uz poziv na rešenje br. 25708/40. Dokument o završnom obračunu telefonskih i signalnih instalacija.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1946-08"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1946-08"
+    },
+    {
+      "id": "cit-struja-1483",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Izveštaj komisije o farbanju cevi i metalizaciji",
+        "en": "Commission report on pipe painting and metallization"
+      },
+      "text": "Izveštaj komisije po pitanju farbanja [elektro]cevi i za električne metalizacije(?) koje je izveo inž. u novoj zgradi Državne štamparije; komisija određena rešenjem. Detalji imena nečitki.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-struja-1484",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Tehnički biro za elektro-mašinske radove — ponuda",
+        "en": "Technical bureau for electro-mechanical works — offer"
+      },
+      "text": "Ponuda/pismo ovlašćenog inženjera Tehničkog biroa za elektro-mašinske radove (nemčka zaglavlja „Maschinen und elektro-techn. Unternehmung“), Beograd. Povezano sa radovima električne instalacije.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-struja-1485",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Siemens — prepiska sa Generalnim punomoćnikom za privredu",
+        "en": "Siemens — correspondence with the General Plenipotentiary for the Economy"
+      },
+      "text": "Opis (Abschrift) pisma odeljenja slabe strruje (Schwachstrom-Abteilung) Siemens upućenog Generalnom punomoćniku za privredu u Srbiji, g. dr Gemindu, Beograd. Dokument nemačke administracije o slaboj struji u štampariji.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-struja-1488",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Jugoslovensko Siemens — obračun opšteg svetla",
+        "en": "Yugoslav Siemens — general lighting account"
+      },
+      "text": "Obračun opšteg [ras]svetljenja: Jugoslovensko Siemens električno a.d., odeljenje slabe struje, p. n. Ministarstvu građevina, elektro-mašinsko odeljenje, Beograd, br. Фг/185/40(?) od 25. — ponuda ili obračun osvetljenja.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-struja-1489",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Glavna kontrola br. 29415 od 11. marta 1941",
+        "en": "Main Control no. 29415 of 11 March 1941"
+      },
+      "text": "Kraljevina Jugoslavija, Glavna kontrola br. 29415, 11. marta 1941, Beograd, Ministarstvu građevina — akt kontrole o električnim instalacijama nove zgrade štamparije.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-03-11"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1941-03-11"
+    },
+    {
+      "id": "cit-struja-1490",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Jugoslovenski Siemens br. 25.574 — mašinsko odeljenje",
+        "en": "Yugoslav Siemens no. 25.574 — machine department"
+      },
+      "text": "Jugoslovenski Siemens a.d. Beograd, naš znak БЦ-Фг/185(?) из 40, 20-949(?): pismo Ministarstvu građevina, Mašinsko odeljenje, o električnim radovima; nastavak spisa instalacije struje.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-struja-1491",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Naredba o nastavku isporuke postrojenja",
+        "en": "Order to continue delivery of the plant"
+      },
+      "text": "Načelniku VI, g. pomoćniku ministra: u produženju rešenja br. 7329/41 data je pisana naredba da nadzorni inženjer odmah naredi preduzimaču da počne sa dostavljаnjem postrojenja. Dokument o ubrzavanju isporuke električnog postrojenja 1941.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-struja-1492",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Telefonska centrala — izmena projekta",
+        "en": "Telephone exchange — design change"
+      },
+      "text": "Po izveštajnom uređenju postavljeno je gledište: po prvobitnom projektu prostorije su određene za telefonsku centralu u Državnoj štampariji; dalja rasprava o kvadraturi i korisnosti. Dokument o prenameni prostora centrale.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-struja-1493",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Komisija za tornjevske satove — jul 1940",
+        "en": "Commission on tower clocks — July 1940"
+      },
+      "text": "Kraljevina Jugoslavija, Ministarstvo [građevina] br. ..., 16. jula 1940, Beograd: predmet „određivanje komisije za proučavanje pitanja postavljanja tornjevskih satova na novoj zgradi Državne štamparije“. Redak dokaz o satovima na fasadi.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1940-07-16"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1940-07-16"
+    },
+    {
+      "id": "cit-struja-1497",
+      "folder": "Instalacije/Instalacija struje",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Jugoslovenski Siemens d.d. — odeljenje slabe struje (naslovnica)",
+        "en": "Yugoslav Siemens d.d. — low-current department (cover)"
+      },
+      "text": "Naslovnica/dokument Jugoslovenskog Siemens d.d., odeljenje slabe struje, Beograd; bez čitljivog sadržaja van zaglavlja.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-cg-1",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Ugovorne odredbe o centralnom grejanju (čl. 1–2)",
+        "en": "Contract clauses on central heating (art. 1–2)"
+      },
+      "text": "Rukopisni/dvospratni tekst na češkom: pripremni radovi i ponude za grejanje; prepoznatljive tačke 1/ (priedpr...), 2/ (odov...), 3/ — pregledni spisak uslova ponude za grejanje objekta.",
+      "facts": [],
+      "legibility": "slaba (češki rukopis)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-cg-2",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi ponude — tačke 3–5",
+        "en": "Tender conditions — items 3–5)"
+      },
+      "text": "Nastavak češkog teksta: 3/ ...zvláštní... za cenu; 5/ kompletacija; odredbe o garanciji cene i isporuci. Deo zbirke uslova za nabavku kotlovnice.",
+      "facts": [],
+      "legibility": "slaba (češki rukopis)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-cg-3",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi ponude — tačke 1–4 (nastavak)",
+        "en": "Tender conditions — items 1–4 (continued)"
+      },
+      "text": "Ćirilični prepis istih uslova: 2/ jeho projekt...; 3/ zvláštní podmínky(?)...; ponude pod uslovima ranijih tačaka; veza sa prethodna dva lista.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-cg-4",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi — naknade i rokovi",
+        "en": "Conditions — payments and deadlines"
+      },
+      "text": "Tačke 1/–3/: poreski i pravni uslovi (povahy, daně), predaja i preuzimanje (předání...), zajedno s ranijim tačkama čini celinu uslova.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-cg-5",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi — materijal i radovi",
+        "en": "Conditions — materials and works"
+      },
+      "text": "Tačke 13/–15/(?): oddělení... provedení... zvláštní; montaža i posebni radovi po projektu; nastavak spiska.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-cg-6",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi — garancije i kompletnost isporuke",
+        "en": "Conditions — guarantees and completeness of delivery"
+      },
+      "text": "Tačke 4/ (kompletnost isporuke), 5/(?) (kotlové...— kotlovi), sa napomenom o kotlovima i ceni; deo istog korpusa.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-cg-7",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi — priprema i odobrenja",
+        "en": "Conditions — preparation and approvals"
+      },
+      "text": "Tačke 1/–5/: prípravné... projekty... podmínky; obzir(?) — odobrenja; po isteku pregovora uslovi za završetak ponude.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-cg-8",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi — otvori i izmenе",
+        "en": "Conditions — openings and changes"
+      },
+      "text": "Tačke 1/–2/: prvotní... (prvobitno rešenje) i izmene kotlova; napomene o otvorima (otvory) i projektnim izmenama.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-cg-9",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi — održavanje i garancija rada",
+        "en": "Conditions — maintenance and work guarantee"
+      },
+      "text": "Tačke 12/–13/(?): Klark(?)... pohony... — pogoni i održavanje; garancije rada postrojenja; deo istog korpusa uslova.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-cg-10",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi — organizacija i pomoćni objekti",
+        "en": "Conditions — organisation and auxiliary objects"
+      },
+      "text": "Tačke 1/–3/(?): oddělení... projektování... pomocné... — projektovanje i pomoćni objekti kotlovnice; nastavak.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-cg-11",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Uslovi — snabdevanje vodom i zatvaranje",
+        "en": "Conditions — water supply and closure"
+      },
+      "text": "Tačke 2/–3/: ...dovodu vody... zatvorení — dovođenje vode i zatvaranje; pominjanje 1941/1943 — hronološki tragovi nastavka radova u ratu.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-cg-konce",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Komanditno društvo ing. Ljubisa — kotlovi PRAGA",
+        "en": "Partnership of eng. Ljubisa — PRAGA boilers"
+      },
+      "text": "Zaglavlje: a.в. Komanditna(?) ... zastupnik u Kraljevini, ing. ..., Beograd, Krunска(?) ul. 4; isporuka automatskih kotlova „PRAGA“ — ponuda zastupnika češke fabrike kotlova za centralno grejanje.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-cg-waagner1",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "WAAGNER-BIRO — ekonomajzeri (1)",
+        "en": "WAAGNER-BIRO — economizers (1)"
+      },
+      "text": "Ponuda WAAGNER-BIRO: 2(?) odnosno 4(?) Nadal-economajzera; svaki od ~48,5 m² zagrevne površine; svaki economajzer od 24 elementa dužine 2050 mm, poredani 4 po širini. Prvi list ponude bečke fabrike.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-cg-waagner2",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "WAAGNER-BIRO — kotlovski omotači i cevi (2)",
+        "en": "WAAGNER-BIRO — boiler jackets and pipes (2)"
+      },
+      "text": "Materijal i izrada: kotlovski omotač(?) i vrata od 2–47 kg/mm²(?) čelika marke ...; cevi, otpadci sabirni i ...; drugi list ponude sa specifikacijom materijala.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-cg-waagner3",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "WAAGNER-BIRO — elektromotori i armatura (3)",
+        "en": "WAAGNER-BIRO — electric motors and fittings (3)"
+      },
+      "text": "Dodatna oprema: elektromotori od 8,4 KS(?) izrađeni od livenog gvožđa, sa sednim ventilima za zatvaranje na usisnom i potisnom grlu, sa manometrom; treći list ponude.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-cg-waagner4",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "WAAGNER-BIRO — ugrađivanje i izolacija (4)",
+        "en": "WAAGNER-BIRO — installation and insulation (4)"
+      },
+      "text": "Ugrađivanje ekonomajzera sa zajedničkim fundiranjem; isporuka materijala franko gradilište; ugrađivanje celokupnog izolacionog materijala; četvrti list ponude.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-cg-waagner5",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "WAAGNER-BIRO — montaža i rokovi (5)",
+        "en": "WAAGNER-BIRO — assembly and deadlines (5)"
+      },
+      "text": "Montaža obuhvata put naših fabričkih stručnih montera do Beograda i povratak u fabriku, uključivo troškovi viza i transporta; peti list ponude.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-cg-waagner6",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "WAAGNER-BIRO — naslovnica (nečitka)",
+        "en": "WAAGNER-BIRO — cover (illegible)"
+      },
+      "text": "Kratka/nečitka strana ponude WAAGNER-BIRO; bez korisnog teksta.",
+      "facts": [],
+      "legibility": "veoma slaba",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-cg-waagner7",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "WAAGNER-BIRO — rokovi isporuke i montaže (6)",
+        "en": "WAAGNER-BIRO — delivery and assembly deadlines (6)"
+      },
+      "text": "Rok isporuke i rok montaže: ustanoviti ... nakon 12 meseci(?) od prijema porudžbine, uz najavljivanje svih tehničkih materijala; završni list ponode WAAGNER-BIRO.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-cg-pruga",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "naslovnica / katalog",
+      "title": {
+        "sr": "Prva jugoslovenska tvornica mašina, strojeva i mostova — naslovnica",
+        "en": "First Yugoslav factory of machines and bridges — cover"
+      },
+      "text": "Naslovnica PRVA JUGOSLAVENSKA TVORNICA MAGONA(?), STROJEVA I MOSTOVA, 1941, Beograd, Kralja Ferdinanda(?) — ponuda domaće fabrike za deo opreme grejanja.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-cg-lopovice",
+      "folder": "Instalacije/Centralno grejanje",
+      "kind": "oprema / ilustracija",
+      "title": {
+        "sr": "Ljuskasta rešetka za ložište — prospekt",
+        "en": "Scaly grate for the furnace — prospectus"
+      },
+      "text": "„Želimo vas ukratko upoznati sa ljuskastom rešetkom, koja u svakom pogledu zadovoljava savremene zahteve za racionalnijim iskorišćavanjem goriva u parnim [kotlovima]“ — reklamni prospekt opreme za ložišta.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-cg-poljski1",
+      "folder": "Instalacije/Centralno grejanje/Poljski izvori o centralnom grejanju",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Poljski izvori — registar (str. 1)",
+        "en": "Polish sources — register (p. 1)"
+      },
+      "text": "Poljski štampani tekst o centralnom grejanju sa numeracijom stavki 1034–1074 i kolonom „inv.“ — inventarni registar literature/opreme za grejanje.",
+      "facts": [],
+      "legibility": "srednja (poljski)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-cg-poljski2",
+      "folder": "Instalacije/Centralno grejanje/Poljski izvori o centralnom grejanju",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Poljski izvori — registar (str. 2)",
+        "en": "Polish sources — register (p. 2)"
+      },
+      "text": "Drugi list poljskog registra: stavke 950–970, spomenuti objekti u Pragu, Brnu, Sofiji i Zlin-u (škole,_upravne zgrade); kolone sa inventarnim brojevima.",
+      "facts": [],
+      "legibility": "srednja (poljski)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-cg-poljski3",
+      "folder": "Instalacije/Centralno grejanje/Poljski izvori o centralnom grejanju",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Poljski izvori — registar (str. 3)",
+        "en": "Polish sources — register (p. 3)"
+      },
+      "text": "Treći list: stavke 1084–1091, objekti (škole, internati) u više gradova; nastavak pregleda strane literature o grejanju javnih zgrada.",
+      "facts": [],
+      "legibility": "srednja (poljski)",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-mas-kqhx0609",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Likvidacija teretnih dizalica — komisija",
+        "en": "Settlement of freight cranes — commission"
+      },
+      "text": "Predmet: „Likvidacija teretnih dizalica u zgradi Državne štamparije“, Ministarstvu građevina, elektro-mašinskom odeljenju; komisija određena rešenjem g. ministra građevina MГ br. ... Završni obračaj montaže dizalica.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-mas-lvob8670",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Instalacija dizalice — otvaranje likvidacije",
+        "en": "Crane installation — opening the settlement"
+      },
+      "text": "Predmet: instalacija dizalice u zgradi Državne štamparije; otvaranje likvidacije. Instalacija je ustupljena firmi J. Teper iz Nemačke; detalji o toku likvidacije posla.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-mas-5515-1",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Isporuka 7 kompletnih električnih dizalica — nalog",
+        "en": "Delivery of 7 complete electric cranes — order"
+      },
+      "text": "Građevina br. 3(?): za novu zgradu Državne štamparije u Beogradu frankirati(?) 7 kompletnih električnih dizalica po ... originalnoj fabričkoj preslikavnici(?) — nalog/korespondencija o isporuci dizalica.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-mas-5521-1",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Ugovor o 7 posebnih dizalica — Tehnički biro",
+        "en": "Contract for 7 special cranes — Technical bureau"
+      },
+      "text": "Beograd: ugovor o [isporuci] 7 posebnih(?) dizalica u novoj [zgradi] Državne [š]tampariji sa Tehnički[m] biro[m] iz ... po tehničkim uslovima u 4 izvodа; odredbe o garantnom roku dizalica.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-mas-5521",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Joseph Teper — reklamacija za povećanje cene",
+        "en": "Joseph Teper — claim for price increase"
+      },
+      "text": "JOSEPH TEPPER, MASCHINENFABRIK: Ministarstvu građevina, likvidacija, u vezi s prijemom dizalica u zgradi Državne štamparije u Beogradu; 1941 — početi reklamaciju za povećanje [cene]. Veza sa zahtevom firme za poskupljenje.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-mas-5529",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Odeljenje za pogonske dizalice — raspored",
+        "en": "Department for service cranes — layout"
+      },
+      "text": "Električne dizalice ... za pogon; mesto postavljanja ... glavnog okna, ulaz; Odeljenje za pogonsko [pos]lovanje postrojenja u Državnoj [š]tampariji — raspored i opis pogona dizalica.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-mas-5530",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Oprema kabine dizalice — 1917",
+        "en": "Crane cabin equipment — 1917"
+      },
+      "text": "Spisak opreme: protivteg, oznaka položaja kabine, osvetljenje kabine, uputstvo za rukovanje; „šema 1917 god“; liveno gvožđe i kontroler. Fragment specifikacije dizalice.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-mas-5601",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Ustupanje montaže teretnih dizalica — rešenje",
+        "en": "Assignment of crane assembly — decision"
+      },
+      "text": "Rešenjem Ministarskog saveta бр.1З9Б(?) од 24 oktobra бр.3508/40(?) kojim se saglasno Glavnoj kontroli br. 144093 ustupa isporuka i montaža ... teretnih diz[alica] — centralni dokument o ugovoru za dizalice.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-mas-5603",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Joseph Tepper — predaja dizalica",
+        "en": "Joseph Tepper — crane handover"
+      },
+      "text": "JOSEPH TEPPER, MASCHINENFABRIK, 1940, br. 144093, Beograd: predaja dizalica ... nakon radova kada je Teper ... Ministarstvo građevina, elektro-mašinsko odeljenje; zapisnik/pismo o predaji.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-mas-5604",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Regulacija pogona dizalica — odobrenje",
+        "en": "Crane drive regulation — approval"
+      },
+      "text": "Isporuka i montažа po ugovoru od 7. [avgusta?] 1940 br. 144093 odobrava se pogodan(?) posed — uređaji za regulaciju pogena dizalica ... sistem(?) — odobrenje uređaja za regulaciju pogona.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-mas-5605",
+      "folder": "Masine",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Rok isporuke dizalica — 7 meseci",
+        "en": "Crane delivery deadline — 7 months"
+      },
+      "text": "...br. 62.687(?)/44(?) se saglasno Glavnoj kontroli 144093 ustupljena je isporuka i montaža ... teretnih dizalica [za] novu [zgradu] ... sa rokom od 7 meseci — odredbe roka i garancija ugovora o dizalicama.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-masf-nstj3553",
+      "folder": "Masine/Finansije masina",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Glavna kontrola — povećanje cene montaže dizalica",
+        "en": "Main Control — crane assembly price increase"
+      },
+      "text": "Predmet: povećanje cene za montažu dizalica u zgradi Drž. štamparije; u vezi odluke Glavne kontrole o pitanju povećanja cena na montaži dizalica u novoj zgradi. Finansijska kontrola ugovora o dizalicama.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-masf-tbxz4173",
+      "folder": "Masine/Finansije masina",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Joseph Teper — prijem i povećanje cene (21.7.41)",
+        "en": "Joseph Tepper — acceptance and price increase (21.7.41)"
+      },
+      "text": "JOSEPH TEPPER, Ministarstvu građevina: komesaru(?) g. prijem u zgradi Državne štamparije 21.7.41; ...da se pomene povećanje cene montaže dizalice po porudžbini od 7. avgusta 194[0]. Zahtev firme za poskupljenje posle prijema.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1941-07-21"
+        }
+      ],
+      "legibility": "srednja",
+      "confidence": "visoka",
+      "date": "1941-07-21"
+    },
+    {
+      "id": "cit-masf-5518",
+      "folder": "Masine/Finansije masina",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Zapisnik o prijemu montaže — 15.VI.1944",
+        "en": "Record of assembly acceptance — 15 June 1944"
+      },
+      "text": "Rukopisni zapisnik: ... n. i pomoćni predsednik(?) ... na dan 15.VI.194[4] br.6?(?) potpisali o [završetku] montaže ... u prisustvu J. Teper, izveštaj inženjera... Zapisnik o završetku montaže dizalica sredinom 1944.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1944-06-15"
+        }
+      ],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": "1944-06-15"
+    },
+    {
+      "id": "cit-masf-5519",
+      "folder": "Masine/Finansije masina",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Obračun zarade — strana 1",
+        "en": "Wage calculation — page 1)"
+      },
+      "text": "Obračun: ...1943... br. 6?; uprava ... ispostava ...; stavke zarade i doprinosi — rukopisna finansijska tabela uz likvidaciju mašina.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-masf-5520-1",
+      "folder": "Masine/Finansije masina",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Pregled iznosa likvidacije dizalica",
+        "en": "Overview of crane settlement amounts"
+      },
+      "text": "Tabela sa iznosima po dizalicama (dizalice br. 1, 2, 3...): konstrukcija 14.477,10; 505.757,59; ispravno 80.298; odbitak 29.184 — zbirni pregled likvidacije konstrukcija dizalica. Iznosi kao orijentacija, prepisani sa OCR-a.",
+      "facts": [],
+      "legibility": "srednja",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-masf-5520",
+      "folder": "Masine/Finansije masina",
+      "kind": "tabela / obračun",
+      "title": {
+        "sr": "Obračun zarade i materijala — strana 2",
+        "en": "Wage and material calculation — page 2)"
+      },
+      "text": "Druga strana obračuna: ...po zakonskim odredbama...(?) upotreba ... zgrade ... radno vreme ... troškovi ... rukopisni finansijski prilog.",
+      "facts": [],
+      "legibility": "slaba (rukopis)",
+      "confidence": "niska",
+      "date": null
+    },
+    {
+      "id": "cit-masf-5528",
+      "folder": "Masine/Finansije masina",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Direktorijat — izveštaj Ministarstvu građevina",
+        "en": "Directorate — report to the Ministry of Construction"
+      },
+      "text": "Pismo direktora(?) ... upućeno Ministarstvu građevina br. 3932/46(?) ... Beograd, u vezi sa izvođenjem(?) radova — dopis iz 1946. o mašinama/likvidaciji.",
+      "facts": [],
+      "legibility": "slaba",
+      "confidence": "srednja",
+      "date": null
+    },
+    {
+      "id": "cit-masf-ycqd3869",
+      "folder": "Masine/Finansije masina",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Određivanje cene gvozdenih nosnih konstrukcija dizalice br. 6",
+        "en": "Pricing the iron support structure of crane no. 6"
+      },
+      "text": "Predmet: određivanje cena za gvozdene nosne konstrukcije za dizalicu br. 6 u Državnoj štampariji; komisija-veštačenje određena rešenjem MГ br. 25352/42 — veštačenje cena čeličnih konstrukcija dizalica.",
+      "facts": [],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": null
+    },
+    {
+      "id": "cit-izvori-jmww4159",
+      "folder": "Izvori finansija",
+      "kind": "tekst / rukopis",
+      "title": {
+        "sr": "Glavna kontrola br. 46516 — naknada Teperu za poskupljenje",
+        "en": "Main Control no. 46516 — Teper compensation for price increase"
+      },
+      "text": "Glavna kontrola br. 46516, 18.XI.1943(?) — 18.к.1943, Beograd, Ministarstvu građevina, arhitektonsko-mašinsko odeljenje: po predstavci Ministarstva (akt br. 18109 od ... septembra 1943) kontrola ponovo razmatra rešenje g. ministra br. 16030 od 17. avgusta 1943 — odobreno da se firmi J. Teper iz Nemačke isplati 15?.???.?? din. naknade za poskupljenje cena i radne snage na radovima oko isporuke i montaže dizalice br. 2 u zgradi Državne štamparije, i da se na ime ostatka zarade isplati 208.164,35 dinara na teret partijskog g/11 programa javnih radova; firma je još 23. septembra 1943. izjavila nezadovoljstvo ugovorenom cenom i najavila zahtev za povećanje. Zamenjuje raniju odluku Glavne kontrole; overa overenog prepisa.",
+      "facts": [
+        {
+          "kind": "datum",
+          "value": "1943-08-17"
+        },
+        {
+          "kind": "iznos",
+          "value": "208.164,35 din"
+        },
+        {
+          "kind": "datum",
+          "value": "1943-09-23"
+        }
+      ],
+      "legibility": "dobra",
+      "confidence": "visoka",
+      "date": "1943-08-17"
     }
   ],
   "chronology": [
@@ -6187,6 +8528,17 @@
       "span": false
     },
     {
+      "id": "bigz:t:7f3abc96bf",
+      "reading": "cit-struja-1493",
+      "from": "1940-07-16",
+      "label": {
+        "sr": "Komisija za tornjevske satove — jul 1940",
+        "en": "Commission on tower clocks — July 1940"
+      },
+      "raw": "1940-07-16",
+      "span": false
+    },
+    {
       "id": "bigz:t:d76556e3eb",
       "reading": "cit-kotlovi-rezultati-merenja-1941",
       "from": "1941-01-15",
@@ -6220,6 +8572,17 @@
       "span": false
     },
     {
+      "id": "bigz:t:242fff6308",
+      "reading": "cit-struja-1489",
+      "from": "1941-03-11",
+      "label": {
+        "sr": "Glavna kontrola br. 29415 od 11. marta 1941",
+        "en": "Main Control no. 29415 of 11 March 1941"
+      },
+      "raw": "1941-03-11",
+      "span": false
+    },
+    {
       "id": "bigz:t:f9c9b919cd",
       "reading": "cit-finansije-kotlovi-licitacija-1941-03",
       "from": "1941-03-17",
@@ -6228,6 +8591,17 @@
         "en": "Second tender for the boiler plant, 17 March 1941 — four bids"
       },
       "raw": "1941-03-17",
+      "span": false
+    },
+    {
+      "id": "bigz:t:4e16d9baf6",
+      "reading": "cit-masf-tbxz4173",
+      "from": "1941-07-21",
+      "label": {
+        "sr": "Joseph Teper — prijem i povećanje cene (21.7.41)",
+        "en": "Joseph Tepper — acceptance and price increase (21.7.41)"
+      },
+      "raw": "1941-07-21",
       "span": false
     },
     {
@@ -6462,6 +8836,17 @@
       "span": false
     },
     {
+      "id": "bigz:t:f9e5cffb1c",
+      "reading": "cit-izvori-jmww4159",
+      "from": "1943-08-17",
+      "label": {
+        "sr": "Glavna kontrola br. 46516 — naknada Teperu za poskupljenje",
+        "en": "Main Control no. 46516 — Teper compensation for price increase"
+      },
+      "raw": "1943-08-17",
+      "span": false
+    },
+    {
       "id": "bigz:t:048f61979e",
       "reading": "cit-simens-raskid-ugovora-1943",
       "from": "1943-08-25",
@@ -6517,6 +8902,17 @@
       "span": false
     },
     {
+      "id": "bigz:t:d393f210f7",
+      "reading": "cit-izvori-jmww4159",
+      "from": "1943-09-23",
+      "label": {
+        "sr": "Glavna kontrola br. 46516 — naknada Teperu za poskupljenje",
+        "en": "Main Control no. 46516 — Teper compensation for price increase"
+      },
+      "raw": "1943-09-23",
+      "span": false
+    },
+    {
       "id": "bigz:t:ad01e53e1a",
       "reading": "cit-simens-raskid-ugovora-1943",
       "from": "1943-10-19",
@@ -6561,6 +8957,17 @@
       "span": false
     },
     {
+      "id": "bigz:t:7e0ea87a2e",
+      "reading": "cit-masf-5518",
+      "from": "1944-06-15",
+      "label": {
+        "sr": "Zapisnik o prijemu montaže — 15.VI.1944",
+        "en": "Record of assembly acceptance — 15 June 1944"
+      },
+      "raw": "1944-06-15",
+      "span": false
+    },
+    {
       "id": "bigz:t:e5db4cb6ac",
       "reading": "cit-dizalica-presek-1946",
       "from": "1946-07",
@@ -6569,6 +8976,17 @@
         "en": "Horizontal section of the lift shafts, Belgrade, July 1946"
       },
       "raw": "1946-07",
+      "span": false
+    },
+    {
+      "id": "bigz:t:4057d89038",
+      "reading": "cit-struja-1482",
+      "from": "1946-08",
+      "label": {
+        "sr": "Uređaj slabe struje — likvidacija posla",
+        "en": "Low-current system — settlement of work"
+      },
+      "raw": "1946-08",
       "span": false
     },
     {
@@ -6800,5 +9218,5 @@
     "order": "Auftrags-Nr. 71470/71",
     "note": "Jedina stvarna mera u ovom prostoru: visina dizanja teretnog lifta, prepisana sa fabričkog lista."
   },
-  "revision": "b-14c4e46c9adcfa59"
+  "revision": "b-ed359424c9accf40"
 }

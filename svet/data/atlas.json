@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-cddc6e3c32ae69b5",
+  "datasetRevision": "r-8f13f7fa73c08511",
   "teams": [
     {
       "id": "T01",
@@ -10439,9 +10439,9 @@
         }
       ],
       "read": {
-        "scans": 147,
+        "scans": 289,
         "total": 289,
-        "status": "u toku — 147/289; cele fascikle: Foto dokumentacija iz arhive, Krov, Nemacki izvori, Osoblje, Ponude i kostanja, Premestanje drugih stamprija, Punomoci i zapisnici, Skice, Ugovori izmedju izvodjaca i drzave",
+        "status": "završeno — 289/289 (18–23. oktobar 2026); svi skenovi arhive imaju zapis čitanja",
         "profile": "zapis šta je na skenu, sa prepisanim datumima, brojevima akata i iznosima gde su čitljivi; bez tvrdnji za pasoš",
         "updated": "2026-10-23"
       },
