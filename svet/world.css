@@ -40,6 +40,13 @@ body{background:var(--paper);color:var(--ink)}
 /* Team hue legend: the same colour the shared structure uses for that team's part. */
 .tint{display:inline-block;width:11px;height:11px;margin-right:7px;border:1px solid var(--line);vertical-align:baseline;flex:0 0 auto}
 .list button .tint,.section-filters .tint{vertical-align:middle}
+/* Deep search: grouped hits in records, sources and read scan contents. */
+.hit-head{font:10px Consolas,monospace;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:16px 0 2px;border-bottom:1px solid var(--line);padding-bottom:5px}
+.list button.hit{grid-template-columns:46px 1fr}
+.list button.hit b{font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.list button.hit span{font-size:12px}
+.hit-more{display:block;color:var(--muted);font-size:10px;padding:8px 0}
+
 /* Delivered archive: read progress and its folder tiers. */
 .readbar{height:7px;background:var(--line);margin:10px 0;max-width:420px}
 .readbar>span{display:block;height:100%;background:var(--accent)}
