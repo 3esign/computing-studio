@@ -46,6 +46,9 @@
       [d.workforce ? nf.format(d.workforce.total) : '—', 'nadnica (samo B.I.G.Z.)']
     ]) { const s = node('span'); s.append(node('b', String(value)), node('i', label)); s.lastChild.style.fontStyle = 'normal'; $('#tally').append(s); }
 
+    /* ---- network of connections ---- */
+    drawNetwork(d);
+
     /* ---- the map ---- */
     const pts = places.concat([{ id: 'bg', name: 'Beograd', lat: BELGRADE.lat, lng: BELGRADE.lng, target: true }]);
     const pad = 1.6;
@@ -217,5 +220,357 @@
       new Date(d.builtAt).toLocaleDateString('sr-RS') + ' iz stanja ' + d.datasetRevision +
       ' · rečnik: ' + d.lexicon.materials + ' materijala, ' + d.lexicon.places + ' mesta, ' +
       d.lexicon.organisations + ' organizacija · otisak ' + d.sha256 + '.';
+
+    function drawNetwork(d) {
+      const netGraph = $('#network-graph'), netRead = $('#network-read'), chipsWrap = $('#mobile-chips');
+      if (!netGraph) return;
+
+      const links = d.links;
+      const objMap = new Map();
+      links.forEach(l => {
+        if (!objMap.has(l.team)) {
+          objMap.set(l.team, { id: 'team:' + l.team, team: l.team, name: l.object, claims: [] });
+        }
+        objMap.get(l.team).claims.push(l);
+      });
+      const objects = [...objMap.values()].sort((a,b) => b.claims.length - a.claims.length);
+      const materials = d.entities.filter(e => e.kind === 'materijal').sort((a,b) => b.links - a.links);
+      const places = d.entities.filter(e => e.kind === 'poreklo').sort((a,b) => b.links - a.links);
+      const actors = d.entities.filter(e => ['osoba', 'organizacija', 'institucija'].includes(e.kind))
+        .sort((a,b) => b.links - a.links).slice(0, 16);
+
+      const sharedMap = new Map();
+      d.entities.forEach(e => {
+        const teams = [...new Set(links.filter(l => l.entity === e.id).map(l => l.team))];
+        if (teams.size > 1) sharedMap.set(e.id, teams);
+      });
+
+      const W = 1060, H = 640;
+      const NS = 'http://www.w3.org/2000/svg';
+      const svg = document.createElementNS(NS, 'svg');
+      svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+      svg.setAttribute('role', 'img');
+      svg.setAttribute('aria-label', 'Mreža veza: objekti, materijali, poreklo i graditelji');
+
+      const cols = [
+        { name: 'Objekti (Beograd)', x: 20, w: 185, items: objects },
+        { name: 'Materijali', x: 285, w: 165, items: materials },
+        { name: 'Poreklo i ležišta', x: 530, w: 195, items: places },
+        { name: 'Graditelji i instituti', x: 805, w: 235, items: actors }
+      ];
+
+      cols.forEach(col => {
+        const t = document.createElementNS(NS, 'text');
+        t.setAttribute('x', col.x + col.w / 2);
+        t.setAttribute('y', 24);
+        t.setAttribute('text-anchor', 'middle');
+        t.setAttribute('class', 'col-title');
+        t.textContent = col.name;
+        svg.append(t);
+      });
+
+      const nodeCoords = new Map(), nodeEls = new Map(), linkEls = [];
+      const padTop = 46, availH = H - padTop - 20, nodeH = 25;
+
+      cols.forEach((col, colIdx) => {
+        const count = col.items.length;
+        const step = count > 1 ? (availH - nodeH) / (count - 1) : 0;
+        col.items.forEach((item, i) => {
+          const y = padTop + (count > 1 ? i * step : availH / 2);
+          const x = col.x, w = col.w;
+          const id = item.id;
+          const isShared = sharedMap.has(id);
+          
+          nodeCoords.set(id, {
+            id, item, colIdx, x, y, w, h: nodeH,
+            leftAnchor: { x, y: y + nodeH / 2 },
+            rightAnchor: { x: x + w, y: y + nodeH / 2 },
+            isShared
+          });
+
+          const g = document.createElementNS(NS, 'g');
+          g.setAttribute('class', 'net-node');
+          g.setAttribute('tabindex', '0');
+          g.setAttribute('role', 'button');
+          g.setAttribute('data-id', id);
+
+          const rect = document.createElementNS(NS, 'rect');
+          rect.setAttribute('x', x);
+          rect.setAttribute('y', y);
+          rect.setAttribute('width', w);
+          rect.setAttribute('height', nodeH);
+
+          const text = document.createElementNS(NS, 'text');
+          text.setAttribute('x', x + 10);
+          text.setAttribute('y', y + 16.5);
+          
+          let label = (item.team ? item.team + ' ' : '') + item.name;
+          if (colIdx === 0 && label.length > 22) label = label.slice(0, 20) + '…';
+          else if (colIdx === 1 && label.length > 20) label = label.slice(0, 18) + '…';
+          else if (colIdx === 2 && label.length > 24) label = label.slice(0, 22) + '…';
+          else if (colIdx === 3 && label.length > 28) label = label.slice(0, 26) + '…';
+          
+          text.textContent = label;
+          g.append(rect, text);
+
+          if (isShared && colIdx > 0) {
+            const dot = document.createElementNS(NS, 'circle');
+            dot.setAttribute('cx', x + w - 9);
+            dot.setAttribute('cy', y + nodeH / 2);
+            dot.setAttribute('r', 3);
+            dot.setAttribute('fill', '#2c4f45');
+            g.append(dot);
+          }
+
+          const trigger = () => selectNode(id);
+          g.addEventListener('click', trigger);
+          g.addEventListener('mouseenter', trigger);
+          g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); trigger(); } });
+
+          svg.append(g);
+          nodeEls.set(id, g);
+        });
+      });
+
+      const linkGroup = document.createElementNS(NS, 'g');
+      linkGroup.setAttribute('class', 'net-links');
+      svg.insertBefore(linkGroup, svg.querySelector('.net-node'));
+
+      links.forEach(l => {
+        const objId = 'team:' + l.team;
+        const entId = l.entity;
+        const objCoord = nodeCoords.get(objId);
+        const entCoord = nodeCoords.get(entId);
+        if (!objCoord || !entCoord) return;
+
+        const p0 = objCoord.rightAnchor;
+        const p1 = entCoord.leftAnchor;
+        const dx = (p1.x - p0.x) * 0.48;
+        const dStr = `M ${p0.x.toFixed(1)},${p0.y.toFixed(1)} C ${(p0.x + dx).toFixed(1)},${p0.y.toFixed(1)} ${(p1.x - dx).toFixed(1)},${p1.y.toFixed(1)} ${p1.x.toFixed(1)},${p1.y.toFixed(1)}`;
+
+        const path = document.createElementNS(NS, 'path');
+        path.setAttribute('d', dStr);
+        path.setAttribute('class', 'net-link' + (sharedMap.has(entId) ? ' shared' : ''));
+        path.setAttribute('data-obj', objId);
+        path.setAttribute('data-ent', entId);
+        path.setAttribute('data-kind', l.kind);
+
+        linkGroup.append(path);
+        linkEls.push({ path, objId, entId, kind: l.kind, claim: l });
+      });
+
+      netGraph.append(svg);
+
+      if (chipsWrap) {
+        chipsWrap.replaceChildren();
+        const featured = [
+          { id: 'team:T12', label: 'T12 Generalštab' },
+          { id: 'team:T48', label: 'T48 Palata Srbije' },
+          { id: 'team:T11', label: 'T11 Hram Svetog Save' },
+          { id: 'team:T18', label: 'T18 Beograđanka' },
+          { id: 'team:T19', label: 'T19 Tehnički fak.' },
+          { id: 'team:T02', label: 'T02 Silosi' },
+          { id: 'mesto:brac', label: 'Brač (ostrvo)' },
+          { id: 'mesto:kosjeric-koral', label: 'Kosjerić Koral' },
+          { id: 'mesto:vencac', label: 'Venčac' },
+          { id: 'mesto:karaburma', label: 'Karaburma' },
+          { id: 'mat:mermer', label: 'Mermer' },
+          { id: 'mat:ab', label: 'Armirani beton' },
+          { id: 'inst:ims', label: 'Institut IMS' }
+        ];
+        featured.forEach(f => {
+          const btn = node('button', f.label, 'mchip');
+          btn.setAttribute('type', 'button');
+          btn.addEventListener('click', () => {
+            selectNode(f.id);
+            chipsWrap.querySelectorAll('.mchip').forEach(c => c.classList.toggle('on', c === btn));
+          });
+          chipsWrap.append(btn);
+        });
+      }
+
+      let activeFilter = 'all';
+
+      function selectNode(selectedId) {
+        const coord = nodeCoords.get(selectedId);
+        if (!coord) return;
+
+        const connectedIds = new Set([selectedId]);
+        linkEls.forEach(l => {
+          if (l.objId === selectedId) connectedIds.add(l.entId);
+          if (l.entId === selectedId) connectedIds.add(l.objId);
+        });
+
+        for (const [id, el] of nodeEls) {
+          el.classList.toggle('on', id === selectedId);
+          el.classList.toggle('connected', id !== selectedId && connectedIds.has(id));
+          el.classList.toggle('dim', !connectedIds.has(id));
+        }
+
+        linkEls.forEach(l => {
+          const match = l.objId === selectedId || l.entId === selectedId;
+          l.path.classList.toggle('on', match);
+          l.path.classList.toggle('dim', !match);
+        });
+
+        renderRead(coord, connectedIds);
+      }
+
+      function renderRead(coord, connectedIds) {
+        if (!netRead) return;
+        netRead.replaceChildren();
+        const item = coord.item;
+        const isObj = coord.colIdx === 0;
+
+        const h = node('b', (item.team ? item.team + ' — ' : '') + item.name);
+        netRead.append(h);
+
+        if (isObj) {
+          const relevantLinks = links.filter(l => l.team === item.team);
+          const mats = [...new Set(relevantLinks.filter(l => l.kind === 'materijal').map(l => l.entity))];
+          const plcs = [...new Set(relevantLinks.filter(l => l.kind === 'poreklo').map(l => l.entity))];
+          const acts = [...new Set(relevantLinks.filter(l => ['osoba','organizacija','institucija'].includes(l.kind)).map(l => l.entity))];
+
+          const summary = node('span', `${relevantLinks.length} veza · ${mats.length} materijala · ${plcs.length} nalazišta porekla · ${acts.length} graditelja i institucija`);
+          netRead.append(summary);
+
+          const sharedWithOtherBuildings = new Map();
+          relevantLinks.forEach(l => {
+            if (sharedMap.has(l.entity)) {
+              const others = sharedMap.get(l.entity).filter(t => t !== item.team);
+              if (others.length) {
+                const ent = d.entities.find(e => e.id === l.entity);
+                sharedWithOtherBuildings.set(ent ? ent.name : l.entity, others);
+              }
+            }
+          });
+
+          if (sharedWithOtherBuildings.size) {
+            const alert = node('div', undefined, 'shared-alert');
+            alert.append(node('b', 'Zajedničke veze: '));
+            const parts = [];
+            for (const [entName, teams] of sharedWithOtherBuildings) {
+              parts.push(`${entName} (deli sa ${teams.join(', ')})`);
+            }
+            alert.append(node('span', parts.join(' · ')));
+            netRead.append(alert);
+          }
+
+          relevantLinks.forEach(l => {
+            const row = node('div');
+            const a = node('a', l.team + ' / ' + l.object);
+            a.href = '../timovi/' + l.team + '.html';
+            row.append(a, node('span', ' — ' + l.claimTitle + ': '));
+            row.append(node('q', l.quote));
+            netRead.append(row);
+          });
+        } else {
+          const relevantLinks = links.filter(l => l.entity === item.id);
+          const teams = [...new Set(relevantLinks.map(l => l.team))];
+          const desc = [item.kind, item.precision, item.role, teams.length + ' objekata'].filter(Boolean).join(' · ');
+          netRead.append(node('span', desc));
+
+          if (teams.length > 1) {
+            const alert = node('div', undefined, 'shared-alert');
+            alert.append(node('b', 'Međuobjektna veza: '));
+            alert.append(node('span', `Ovaj pojam direktno povezuje objekte: ${teams.join(', ')}`));
+            netRead.append(alert);
+          }
+
+          relevantLinks.forEach(l => {
+            const row = node('div');
+            const a = node('a', l.team + ' / ' + l.object);
+            a.href = '../timovi/' + l.team + '.html';
+            row.append(a, node('span', ' — ' + l.claimTitle + ': '));
+            row.append(node('q', l.quote));
+            netRead.append(row);
+          });
+        }
+      }
+
+      const filterBtns = document.querySelectorAll('.nfilter');
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.toggle('on', b === btn));
+          activeFilter = btn.getAttribute('data-filter');
+          applyFilter(activeFilter);
+        });
+      });
+
+      function applyFilter(f) {
+        if (f === 'all') {
+          nodeEls.forEach(el => el.classList.remove('dim', 'on', 'connected'));
+          linkEls.forEach(l => l.path.classList.remove('dim', 'on'));
+          netRead.replaceChildren();
+          netRead.append(node('b', 'Mreža veza aktivna (136 veza)'), node('span', 'Izaberi bilo koji čvor da osvetliš njegove direktne veze.'));
+          return;
+        }
+        if (f === 'kamenolomi') {
+          linkEls.forEach(l => {
+            const on = l.kind === 'poreklo';
+            l.path.classList.toggle('on', on);
+            l.path.classList.toggle('dim', !on);
+          });
+          nodeEls.forEach((el, id) => {
+            const coord = nodeCoords.get(id);
+            const isRelevant = coord.colIdx === 0 || coord.colIdx === 2;
+            el.classList.toggle('dim', !isRelevant);
+            el.classList.remove('on', 'connected');
+          });
+          netRead.replaceChildren();
+          netRead.append(node('b', 'Kamenolomi, ciglane i ležišta (20 veza)'), node('span', 'Prikazane su veze između beogradskih zgrada i nalazišta materijala.'));
+          return;
+        }
+        if (f === 'zajednicke') {
+          linkEls.forEach(l => {
+            const on = sharedMap.has(l.entId);
+            l.path.classList.toggle('on', on);
+            l.path.classList.toggle('dim', !on);
+          });
+          nodeEls.forEach((el, id) => {
+            const on = sharedMap.has(id) || (nodeCoords.get(id).colIdx === 0 && [...sharedMap.values()].some(teams => teams.includes(nodeCoords.get(id).item.team)));
+            el.classList.toggle('dim', !on);
+            el.classList.toggle('connected', sharedMap.has(id));
+          });
+          netRead.replaceChildren();
+          netRead.append(node('b', 'Zajedničke veze zgrada (15 deljenih entiteta)'), node('span', 'Prikazani su materijali i ležišta (Brač, Kosjerić, IMS, mermer, cigla...) koje deli više zgrada istovremeno.'));
+          return;
+        }
+        if (f === 'materijali') {
+          linkEls.forEach(l => {
+            const on = l.kind === 'materijal';
+            l.path.classList.toggle('on', on);
+            l.path.classList.toggle('dim', !on);
+          });
+          nodeEls.forEach((el, id) => {
+            const coord = nodeCoords.get(id);
+            const on = coord.colIdx === 0 || coord.colIdx === 1;
+            el.classList.toggle('dim', !on);
+            el.classList.remove('on', 'connected');
+          });
+          netRead.replaceChildren();
+          netRead.append(node('b', 'Građevinski materijali (63 veze)'), node('span', 'Veze beogradskih objekata sa primenjenim materijalima u dosijeima.'));
+          return;
+        }
+        if (f === 'akteri') {
+          linkEls.forEach(l => {
+            const on = ['osoba','organizacija','institucija'].includes(l.kind);
+            l.path.classList.toggle('on', on);
+            l.path.classList.toggle('dim', !on);
+          });
+          nodeEls.forEach((el, id) => {
+            const coord = nodeCoords.get(id);
+            const on = coord.colIdx === 0 || coord.colIdx === 3;
+            el.classList.toggle('dim', !on);
+            el.classList.remove('on', 'connected');
+          });
+          netRead.replaceChildren();
+          netRead.append(node('b', 'Inženjeri, autori i institucije (53 veze)'), node('span', 'Veze objekata sa projektantima, graditeljima i institutima za ispitivanje materijala.'));
+          return;
+        }
+      }
+
+      selectNode('team:T12');
+    }
   }
 })();

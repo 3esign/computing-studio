@@ -42,6 +42,33 @@
 .gaps { columns: 260px; column-gap: 26px; font-size: 13px; line-height: 1.75; }
 .gaps a { display: block; break-inside: avoid; }
 .method { margin-top: 56px; border-top: 2px solid var(--border); padding-top: 18px; font-size: 13px; line-height: 1.65; color: var(--text-muted); max-width: 860px; }
+/* ---- network of connections ---- */
+.network-wrap { border: 1px solid var(--border); background: var(--surface); margin: 20px 0 32px; position: relative; }
+.network-filters { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--border); background: #faf8f2; }
+.nfilter { border: 1px solid var(--border); background: #fff; padding: 6px 14px; font-size: 12px; border-radius: 999px; cursor: pointer; color: var(--text-muted); font-weight: 500; font-family: inherit; transition: all .15s; }
+.nfilter:hover { border-color: var(--accent); color: var(--accent); }
+.nfilter.on { background: #8a6d1f; color: #fff; border-color: #8a6d1f; font-weight: 600; }
+.mobile-chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 14px; border-bottom: 1px dashed var(--border); background: #fdfcf9; }
+.mchip { font-size: 11.5px; padding: 3px 9px; border-radius: 999px; border: 1px solid #d9d3c2; background: #fff; cursor: pointer; color: #4a4539; font-family: inherit; }
+.mchip:hover, .mchip.on { background: #f0e6c8; color: #8a6d1f; border-color: #8a6d1f; font-weight: 600; }
+.network-graph { position: relative; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.network-graph svg { display: block; width: 100%; min-width: 860px; height: auto; }
+.network-graph .net-link { fill: none; stroke: #9d835e; stroke-width: 1.1; opacity: .24; transition: opacity .15s, stroke-width .15s, stroke .15s; }
+.network-graph .net-link.on { stroke: #c9754a; stroke-width: 2.6; opacity: .95; }
+.network-graph .net-link.shared { stroke: #2c4f45; stroke-width: 2.2; opacity: .85; }
+.network-graph .net-link.dim { opacity: .03; }
+.network-graph .net-node { cursor: pointer; }
+.network-graph .net-node rect { fill: #fcfbf8; stroke: #d3ccb8; stroke-width: 1; rx: 5; ry: 5; transition: fill .15s, stroke .15s; }
+.network-graph .net-node:hover rect { fill: #f5eedb; stroke: #8a6d1f; }
+.network-graph .net-node.on rect { fill: #8a6d1f; stroke: #6e5616; }
+.network-graph .net-node.on text { fill: #ffffff !important; font-weight: 700; }
+.network-graph .net-node.connected rect { fill: #f8f1df; stroke: #c9754a; stroke-width: 1.6; }
+.network-graph .net-node.connected text { fill: #2b2822 !important; font-weight: 600; }
+.network-graph .net-node.dim { opacity: .22; }
+.network-graph .net-node text { font-size: 10px; fill: #3a362e; pointer-events: none; }
+.network-graph .col-title { font-size: 10.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; fill: #8a8270; }
+.shared-alert { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; padding: 6px 10px; background: #eef5f1; border: 1px solid #c2dbcd; border-radius: 6px; color: #22563f; font-size: 12.5px; margin: 8px 0; }
+.shared-alert b { color: #153828; }
 @media (max-width: 760px) {
   .row { grid-template-columns: 1fr 48px; }
   .row :nth-child(3) { grid-column: 1 / -1; }
@@ -49,13 +76,31 @@
 </style>
 </head>
 <body>
-<a class="skip" href="#karta">Pređi na kartu porekla</a>
+<a class="skip" href="#mreza">Pređi na mrežu veza</a>
 <header class="atlas-header"><a class="brand" href="../index.html">OR↗</a><nav aria-label="Glavna navigacija"><a href="../index.html#atlas">Atlas</a><a href="index.html">Prostorni atlas</a><a href="../timovi.html">Timovi</a><a href="../izvori.html">Izvori</a><a href="pasosi.html">Pasoši</a></nav><a href="index.html">Atlas ↗</a></header>
 <main class="origin">
   <p class="eyebrow">DIGITALNI GRAĐEVINSKI PASOŠ · SLOJ POREKLA</p>
   <h1>Odakle je<br><em>grad došao.</em></h1>
   <p class="lead">Atlas kaže šta gde stoji. Ovde stoji druga polovina pasoša: iz kog kamenoloma, iz koje ciglane, preko kog dobavljača, po čijem projektu, čijim rukama. Sve veze na ovoj stranici izvedene su iz zapisa koje su timovi već predali — svaka nosi tvrdnju iz koje je nastala i njen izvor. Ništa ovde nije novo tvrđenje o gradu; ovo je prvi put da su ti podaci sakupljeni na jedno mesto i da se vidi koliko ih zapravo ima.</p>
   <div id="tally" class="tally"></div>
+
+  <h2 id="mreza">Mreža povezanosti</h2>
+  <p>Kako su zgrade Beograda međusobno povezane: isti kamenolomi, iste ciglane, zajednički materijali i isti inženjeri. Klikni ili dodirni bilo koji čvor da osvetliš njegove direktne veze i pročitaš izvore.</p>
+  <div class="network-wrap">
+    <div class="network-filters" role="toolbar" aria-label="Filteri mreže veza">
+      <button class="nfilter on" data-filter="all">Sve veze (136)</button>
+      <button class="nfilter" data-filter="kamenolomi">Kamenolomi i ležišta (20)</button>
+      <button class="nfilter" data-filter="zajednicke">Zajedničke veze zgrada (15)</button>
+      <button class="nfilter" data-filter="materijali">Materijali (63)</button>
+      <button class="nfilter" data-filter="akteri">Inženjeri i institucije (53)</button>
+    </div>
+    <div id="mobile-chips" class="mobile-chips" aria-label="Brzi izbor pojma"></div>
+    <div id="network-graph" class="network-graph" role="region" aria-label="Graf međusobnih veza"></div>
+    <div id="network-read" class="origin-read">
+      <b>Izaberi čvor u mreži</b>
+      <span>Klikom na zgradu, kamenolom, materijal ili graditelja osvetljavaju se sve njihove direktne veze i citati iz dosijea.</span>
+    </div>
+  </div>
 
   <h2 id="karta">Karta porekla</h2>
   <p id="map-note">Tačke su mesta koja zapisi imenuju; luk vodi do Beograda. Koordinate su približne javne lokacije naselja, brda ili ostrva — nisu položaj radnog čela kamenoloma. Rastojanja su izračunata iz tih približnih tačaka.</p>
