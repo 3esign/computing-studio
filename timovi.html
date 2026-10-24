@@ -98,11 +98,57 @@ tr.hasflag td.obj a:after{content:'?';display:inline-block;margin-left:7px;width
 .nj-ask{margin:0;padding-top:9px;border-top:1px dashed #e7e1d0;font-weight:600;color:#6b5410}
 .nj-foot{margin:18px 0 0;font-size:12px;color:#8a8270}
 @media (max-width:1100px){.side{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:640px){.side{grid-template-columns:1fr}.team-map{height:min(70vw,420px)}}
+
+.map-controls-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 12px;margin-bottom:10px}
+.map-scope-tabs{display:inline-flex;background:#ebe6d7;border:1px solid #d8d1be;border-radius:999px;padding:3px;gap:2px}
+.scope-tab{background:transparent;border:0;border-radius:999px;padding:6px 13px;font-size:12px;font-weight:600;color:#5a5445;cursor:pointer;transition:all .15s}
+.scope-tab:hover{color:#1a1917;background:rgba(255,255,255,.5)}
+.scope-tab.active{background:#fff;color:#8a6d1f;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.map-city-chips{display:flex;flex-wrap:wrap;align-items:center;gap:5px}
+.chips-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#8a8270;margin-right:2px}
+.city-jump{background:#fbfaf6;border:1px solid #d8d2c2;border-radius:999px;padding:4px 10px;font-size:11.5px;font-weight:600;color:#3f3c34;cursor:pointer;transition:all .15s;white-space:nowrap}
+.city-jump:hover,.city-jump.active{background:#8a6d1f;color:#fff;border-color:#6e5616}
+.sidecard-hd{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px}
+.btn-fit-outside{background:none;border:0;color:#8a6d1f;font-size:11.5px;font-weight:600;cursor:pointer;padding:0;text-decoration:underline}
+.btn-fit-outside:hover{color:#5e4811}
+.table-toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin:0 0 14px;padding:12px 14px;background:#fbfaf5;border:1px solid #e0dac9;border-radius:12px}
+.table-filters{display:inline-flex;background:#ede8da;border-radius:8px;padding:2px;gap:2px}
+.tfilter-btn{background:transparent;border:0;border-radius:6px;padding:6px 12px;font-size:12.5px;font-weight:600;color:#5a5445;cursor:pointer;transition:all .15s}
+.tfilter-btn:hover{color:#1a1917}
+.tfilter-btn.active{background:#fff;color:#8a6d1f;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.table-search-box{display:flex;align-items:center;gap:10px;flex:1 1 280px;justify-content:flex-end}
+#team-filter-input{width:100%;max-width:320px;padding:7px 12px;border:1px solid #d4cdb9;border-radius:8px;background:#fff;font-size:13px;color:#2b2822}
+#team-filter-input:focus{outline:none;border-color:#8a6d1f;box-shadow:0 0 0 2px rgba(138,109,31,.2)}
+.filter-count{font-size:12px;color:#8a8270;white-space:nowrap}
+.city-tag{display:inline-block;margin-left:6px;padding:1px 7px;font-size:11px;font-weight:600;border-radius:4px;background:#eedfc0;color:#6b5212;vertical-align:middle}
+.treg tr.highlighted{background:#fdf6df!important;transition:background .3s}
+.city-popup{font-size:12px;line-height:1.4}
+.city-popup b{display:block;margin-bottom:3px;color:#2b2822;font-size:13px}
+.city-popup .cp-city{display:inline-block;padding:1px 6px;border-radius:4px;background:#eedfc0;color:#6b5212;font-size:10.5px;font-weight:700;margin-bottom:6px;text-transform:uppercase}
+.city-popup .cp-team{margin-top:2px}
+.city-popup .cp-team a{color:#8a6d1f;font-weight:700;text-decoration:none}
+
+@media (max-width:640px){.side{grid-template-columns:1fr}.team-map{height:clamp(320px,50vh,460px)}.map-controls-bar{flex-direction:column;align-items:stretch}.map-scope-tabs{width:100%;display:grid;grid-template-columns:repeat(3,1fr);text-align:center}.map-city-chips{width:100%;padding-bottom:4px;overflow-x:auto}.table-toolbar{flex-direction:column;align-items:stretch}.table-filters{display:grid;grid-template-columns:repeat(3,1fr);text-align:center}.table-search-box{width:100%;justify-content:stretch;flex-direction:column;align-items:stretch}#team-filter-input{max-width:none}}
 </style>
 <section class="maphero" aria-labelledby="map-title">
 <div class="mapgrid">
 <div class="mapcol">
+<div class="map-controls-bar">
+<div class="map-scope-tabs" role="tablist" aria-label="Opseg prikaza na mapi">
+<button type="button" class="scope-tab active" data-scope="bg" aria-selected="true"><span data-sr="📍 Beograd (44)" data-en="📍 Belgrade (44)">📍 Beograd (44)</span></button>
+<button type="button" class="scope-tab" data-scope="van-bg" aria-selected="false"><span data-sr="🌍 Van Beograda (6)" data-en="🌍 Beyond Belgrade (6)">🌍 Van Beograda (6)</span></button>
+<button type="button" class="scope-tab" data-scope="all" aria-selected="false"><span data-sr="🗺️ Svi gradovi (50)" data-en="🗺️ All cities (50)">🗺️ Svi gradovi (50)</span></button>
+</div>
+<div class="map-city-chips" aria-label="Brzi skok na gradove van Beograda">
+<span class="chips-label" data-sr="Gradovi van Beograda:" data-en="Cities beyond Belgrade:">Gradovi van Beograda:</span>
+<button type="button" class="city-jump" data-city="Subotica" title="Rajhlova palata (T70)">Subotica</button>
+<button type="button" class="city-jump" data-city="Pančevo" title="Hotel i kafić (T10)">Pančevo</button>
+<button type="button" class="city-jump" data-city="Vršac" title="Vladičanski dvor (T38)">Vršac</button>
+<button type="button" class="city-jump" data-city="Sremska Mitrovica" title="Privatna zgrada (T51)">Sr. Mitrovica</button>
+<button type="button" class="city-jump" data-city="Užice" title="Hotel Zlatibor (T07)">Užice</button>
+<button type="button" class="city-jump" data-city="Podgorica" title="Gimnazija Škerović (T32)">Podgorica</button>
+</div>
+</div>
 <div id="team-map" class="team-map" role="application" aria-label="Interactive map of team objects / Interaktivna mapa objekata timova">
 <div class="map-fallback"><span data-en="The city background needs an internet connection. The team list below works without it." data-sr="Gradski podloga traži internet. Spisak timova ispod radi i bez mreže.">Gradski podloga traži internet. Spisak timova ispod radi i bez mreže.</span></div>
 </div>
@@ -114,7 +160,18 @@ tr.hasflag td.obj a:after{content:'?';display:inline-block;margin-left:7px;width
 </aside>
 </div>
 </section>
-<section class="section"><div class="treg-wrap"><div class="tbl-scroll"><table class="treg" aria-label="Team register / Registar timova">
+<section class="section"><div class="treg-wrap"><div class="table-toolbar">
+<div class="table-filters" role="group" aria-label="Filter tabele timova">
+<button type="button" class="tfilter-btn active" data-tfilter="all"><span data-sr="Svi timovi (70)" data-en="All teams (70)">Svi timovi (70)</span></button>
+<button type="button" class="tfilter-btn" data-tfilter="bg"><span data-sr="Beograd (64)" data-en="Belgrade (64)">Beograd (64)</span></button>
+<button type="button" class="tfilter-btn" data-tfilter="van-bg"><span data-sr="Van Beograda (6)" data-en="Beyond Belgrade (6)">Van Beograda (6)</span></button>
+</div>
+<div class="table-search-box">
+<input type="search" id="team-filter-input" placeholder="Pretraži tim, objekat, temu, indeks ili grad..." aria-label="Pretraga registra timova" />
+<span id="filter-count" class="filter-count" aria-live="polite">Prikazano 70 timova</span>
+</div>
+</div>
+<div class="tbl-scroll"><table class="treg" aria-label="Team register / Registar timova">
 <thead><tr><th><span data-en="Team · indexes" data-sr="Tim · indeksi">Tim · indeksi</span></th><th><span data-en="Object" data-sr="Objekat">Objekat</span></th><th><span data-en="Theme" data-sr="Tema">Tema</span></th><th><span data-en="Status · next step" data-sr="Stanje · sledeći korak">Stanje · sledeći korak</span></th></tr></thead>
 <tbody>
 <tr id="T01" class="hasflag"><td class="hd"><span class="tnum">T01</span><span class="idx">157/26, 121/26</span></td><td class="obj"><a href="timovi/T01.html">OŠ „Laza Kostić”</a></td><td class="f"><span class="fl">Tema / Research</span><span class="v">Osnovna škola i modernistička školska arhitektura</span></td><td class="nx"><span class="fl">Stanje / Status</span><span class="v">Kuriran pilot pasoš</span> <a href="timovi/T01.html">Dosije →</a></td></tr>
@@ -202,21 +259,118 @@ tr.hasflag td.obj a:after{content:'?';display:inline-block;margin-left:7px;width
   el.querySelector('.map-fallback').style.display='none';
   var map=L.map('team-map',{scrollWheelZoom:true});
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:''}).addTo(map);
-  var pts=[],bgPts=[];
+  var pts=[],bgPts=[],vanBgPts=[];
+  var markerByCity={},markerByTeam={};
+
   DATA.forEach(function(o){
-    var teams=o[3],n=teams.length;
-    var color=n>=4?'#6b4e08':(n>1?'#8a6d1f':'#2b2822');
-    var radius=n>=4?13:(n>1?10:7);
+    var name=o[0],lat=o[1],lng=o[2],teams=o[3],city=o[4]||'Beograd',n=teams.length;
+    var isBg=city==='Beograd';
+    var color=n>=4?'#6b4e08':(n>1?'#8a6d1f':(!isBg?'#b35a20':'#2b2822'));
+    var radius=n>=4?13:(n>1?10:(!isBg?9:7));
     var lines=teams.map(function(t){
-      return '<div><a href="#'+t+'">'+t+'</a>'+(IDX[t]?' · '+IDX[t]:'')+'</div>';
+      return '<div class="cp-team"><a href="#'+t+'">'+t+'</a>'+(IDX[t]?' · '+IDX[t]:'')+'</div>';
     }).join('');
-    var naslov=o[0]+(o[4]&&o[4]!=='Beograd'?' <span class="mg">· '+o[4]+'</span>':'');
-    var m=L.circleMarker([o[1],o[2]],{radius:radius,color:'#f6f3e9',weight:2,fillColor:color,fillOpacity:.92}).addTo(map);
-    m.bindTooltip('<b>'+naslov+'</b>',{direction:'top',offset:[0,-4]});
-    m.bindPopup('<b>'+naslov+'</b>'+lines);
-    pts.push([o[1],o[2]]);
-    if(!o[4]||o[4]==='Beograd')bgPts.push([o[1],o[2]]);
+    var popupContent='<div class="city-popup"><b>'+name+'</b>'+(!isBg?'<span class="cp-city">'+city+'</span>':'')+lines+'</div>';
+    var m=L.circleMarker([lat,lng],{radius:radius,color:'#f6f3e9',weight:2,fillColor:color,fillOpacity:.92}).addTo(map);
+    m.bindTooltip('<b>'+name+(isBg?'':' · '+city)+'</b>',{direction:'top',offset:[0,-4]});
+    m.bindPopup(popupContent);
+    pts.push([lat,lng]);
+    if(isBg){
+      bgPts.push([lat,lng]);
+    } else {
+      vanBgPts.push([lat,lng]);
+      if(!markerByCity[city])markerByCity[city]=m;
+    }
+    teams.forEach(function(t){markerByTeam[t]=m;});
   });
-  map.fitBounds(L.latLngBounds(bgPts.length?bgPts:pts).pad(0.04));
+
+  function setScope(scope){
+    document.querySelectorAll('.scope-tab').forEach(function(b){
+      var active=b.getAttribute('data-scope')===scope;
+      b.classList.toggle('active',active);
+      b.setAttribute('aria-selected',String(active));
+    });
+    if(scope==='bg'){
+      map.fitBounds(L.latLngBounds(bgPts.length?bgPts:pts).pad(0.04));
+    } else if(scope==='van-bg'){
+      map.fitBounds(L.latLngBounds(vanBgPts.length?vanBgPts:pts).pad(0.12));
+    } else {
+      map.fitBounds(L.latLngBounds(pts).pad(0.04));
+    }
+  }
+
+  document.querySelectorAll('.scope-tab, .btn-fit-outside').forEach(function(b){
+    b.addEventListener('click',function(e){
+      e.preventDefault();
+      var s=b.getAttribute('data-scope');
+      setScope(s);
+    });
+  });
+
+  function jumpToCity(city){
+    var m=markerByCity[city];
+    if(m){
+      var latLng=m.getLatLng();
+      map.flyTo(latLng,13,{duration:1.2});
+      setTimeout(function(){m.openPopup();},600);
+      document.querySelectorAll('.city-jump').forEach(function(btn){
+        btn.classList.toggle('active',btn.getAttribute('data-city')===city);
+      });
+    }
+  }
+
+  document.querySelectorAll('.city-jump').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var c=btn.getAttribute('data-city');
+      jumpToCity(c);
+    });
+  });
+
+  document.querySelectorAll('.chiprow .chip[data-city]').forEach(function(chip){
+    chip.addEventListener('click',function(){
+      var c=chip.getAttribute('data-city');
+      jumpToCity(c);
+    });
+  });
+
+  // Table filtering and search
+  var activeFilter='all';
+  var searchInput=document.getElementById('team-filter-input');
+  var countEl=document.getElementById('filter-count');
+  var rows=Array.from(document.querySelectorAll('.treg tbody tr'));
+
+  function filterTable(){
+    var q=(searchInput?searchInput.value:'').toLowerCase().trim();
+    var visible=0;
+    rows.forEach(function(r){
+      var city=r.getAttribute('data-city')||'Beograd';
+      var matchesCity=(activeFilter==='all')||(activeFilter==='bg'&&city==='Beograd')||(activeFilter==='van-bg'&&city!=='Beograd');
+      var text=r.textContent.toLowerCase();
+      var matchesSearch=!q||text.includes(q);
+      var show=matchesCity&&matchesSearch;
+      r.style.display=show?'':'none';
+      if(show)visible++;
+    });
+    if(countEl){
+      var lang=document.documentElement.lang==='en'?'en':'sr';
+      countEl.textContent=lang==='en'?('Showing '+visible+' of '+rows.length+' teams'):('Prikazano '+visible+' od '+rows.length+' timova');
+    }
+  }
+
+  document.querySelectorAll('.tfilter-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      document.querySelectorAll('.tfilter-btn').forEach(function(b){b.classList.remove('active');});
+      btn.classList.add('active');
+      activeFilter=btn.getAttribute('data-tfilter');
+      filterTable();
+    });
+  });
+
+  if(searchInput){
+    searchInput.addEventListener('input',filterTable);
+  }
+
+  // Initial map view
+  setScope('bg');
 })();
 </script></body></html>
