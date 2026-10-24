@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-96b7072071015f8f",
+  "datasetRevision": "r-8f13f7fa73c08511",
   "teams": [
     {
       "id": "T01",
@@ -10441,7 +10441,7 @@
       "read": {
         "scans": 289,
         "total": 289,
-        "status": "Evidentirano 289/289 skenova; 54 zapisa niskog poverenja, od kojih 22 čekaju vizuelnu proveru. Sadržinska provera nije završena.",
+        "status": "završeno — 289/289 (18–23. oktobar 2026); svi skenovi arhive imaju zapis čitanja",
         "profile": "zapis šta je na skenu, sa prepisanim datumima, brojevima akata i iznosima gde su čitljivi; bez tvrdnji za pasoš",
         "updated": "2026-10-23"
       },

@@ -1,7 +1,7 @@
 /* Rebuild the explicit offline snapshot after changing public site content. */
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 function build(root=path.resolve(__dirname,'..')){
-const allowed=/\.(?:html|css|js|json|csv|svg|webmanifest)$/;
+const allowed=/\.(?:html|css|js|json|svg|webmanifest)$/;
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>{
   if(e.name.startsWith('.')||['tools','tests'].includes(e.name))return [];
   const full=path.join(dir,e.name);

@@ -68,12 +68,12 @@ body.immersive{height:100dvh;overflow:hidden}
 .immersive .view-tools #connections{display:none}
 .immersive .atlas-header{position:absolute;left:8px;top:max(7px,env(safe-area-inset-top));z-index:8;padding:0;border:0;gap:4px}
 .immersive .atlas-header>.brand{font-size:19px;letter-spacing:-1px;background:var(--surface);padding:8px 6px;border-radius:4px}
-.immersive .atlas-header>#language{min-height:36px;min-width:36px;font-size:12px;border:0;border-radius:4px;padding:4px 9px;background:var(--surface);box-shadow:0 1px 6px #0001}
+.immersive .atlas-header>#language{display:none}
 .immersive #atlas-menu{font-size:15px;min-height:36px;padding:4px 9px;border:0;border-radius:4px}
-.immersive .atlas-header.menu-open{z-index:30}
-.immersive .atlas-header nav{display:none;position:absolute;top:44px;left:0;padding:6px;background:var(--surface);width:230px;box-shadow:0 8px 28px #0003;border:1px solid var(--line);border-radius:6px;margin:0}
+.immersive .atlas-header nav{display:none;position:absolute;top:43px;left:0;padding:12px;background:var(--surface);width:210px;box-shadow:0 5px 20px #0002;border:1px solid var(--line);margin:0}
 .immersive .atlas-header.menu-open nav{display:grid;gap:0}
-.immersive .atlas-header.menu-open nav a{padding:11px 12px;font-size:13px;border-radius:4px}
+.immersive .atlas-header.menu-open nav a{padding:12px;font-size:13px}
+.immersive .atlas-header.menu-open>#language{display:block;position:absolute;left:156px;top:265px;font-size:12px;min-height:36px}
 .immersive.embedded .atlas-header{display:none}
 .immersive .compact-tools,.immersive.embedded .compact-tools{position:absolute;bottom:max(24px,env(safe-area-inset-bottom));left:8px;z-index:4;display:flex;gap:4px;border:0;background:none;padding:0}
 .immersive .compact-tools button{min-height:40px;padding:8px 10px;font-size:11px;border:0;border-radius:4px}
@@ -127,11 +127,15 @@ body.immersive{height:100dvh;overflow:hidden}
 .immersive #world:focus-visible{outline:1px solid var(--muted);outline-offset:-1px}
 .immersive #atlas-drawer a,.immersive #selection-copy a{overflow-wrap:anywhere}
 .immersive #atlas-drawer .quality-label>span{display:inline}
+.immersive .atlas-header.menu-open>#language{top:275px}
 
 .immersive .stage{touch-action:none}
 .immersive #map-labels button[hidden]{display:none!important}
 .immersive .course-return{display:block;padding:12px;font-size:12px;border-top:1px solid var(--line)}
 
+.immersive .atlas-header.menu-open>#language{top:334px}
+
+.immersive .atlas-header.menu-open>#language{top:0;left:95px}
 
 /* Second world: the delivered BIGZ archive. The switch sits beside the modes. */
 .world-group{display:flex;gap:4px}
@@ -228,49 +232,3 @@ body.bigz #scene-status p{font-size:12px;line-height:1.55;margin:8px 0}
 .density-key .key-line{margin:0;font-size:.74rem;line-height:1.35;opacity:.84}
 .density-key #holes-only{justify-self:start}
 .density-key #holes-only[aria-pressed="true"]{background:rgb(179,79,43);color:#fff;border-color:rgb(179,79,43)}
-#tour-start{position:absolute;z-index:7;top:100px;left:12px;min-height:44px;background:var(--surface);color:var(--ink);border:1px solid var(--line);padding:10px 14px}
-#archive-tour{position:absolute;z-index:8;right:16px;bottom:82px;width:min(410px,calc(100% - 32px));max-height:calc(100dvh - 155px);overflow:auto;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-top:3px solid var(--accent);padding:16px;overscroll-behavior:contain}
-#archive-tour[hidden],#tour-start[hidden]{display:none!important}
-.tour-heading,.tour-actions{display:flex;align-items:center;justify-content:space-between;gap:12px}
-#tour-count{font:11px Consolas,monospace;letter-spacing:.08em;color:var(--muted)}
-#archive-tour button{min-height:44px;padding:8px 12px;font-size:12px;color:var(--ink);background:var(--surface);border:1px solid var(--line)}
-#tour-stops{display:flex;gap:5px;margin:10px 0}
-#tour-stops button{flex:1;min-width:36px;padding:6px}
-#tour-stops button[aria-current=step]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
-#tour-title{font-size:24px;line-height:1.12;margin:14px 0 10px;letter-spacing:-.025em}
-#tour-text{font-size:14px;line-height:1.55;margin:0 0 12px}
-#tour-evidence{border-top:1px solid var(--line);margin:0 0 12px}
-#tour-evidence summary{padding:12px 0;font-size:12px;cursor:pointer;min-height:44px}
-#tour-records{font-size:12px;line-height:1.6;overflow-wrap:anywhere}
-#tour-records h3{font-size:14px}
-#tour-records small{display:block;color:var(--muted)}
-#archive-tour button:focus-visible,#tour-evidence summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-#archive-tour button:disabled{opacity:.45;cursor:default}
-.touring #scene-status,.touring #era-bar,.touring .selection-bar{display:none!important}
-@media(max-width:600px){
- #archive-tour{bottom:0;right:0;width:100%;max-height:55dvh;padding:10px 14px max(12px,env(safe-area-inset-bottom));border-left:0;border-right:0;border-bottom:0}
- #tour-title{font-size:22px;margin:8px 0}#tour-text{font-size:12px;line-height:1.45;margin-bottom:6px}
- #tour-stops{margin:4px 0;gap:4px}#tour-evidence{margin-bottom:4px}#tour-evidence summary{padding:10px 0}
- .immersive.touring .stage,.immersive.touring.embedded .stage{height:calc(100% - var(--tour-height,310px))}
- .touring .camera,.touring .compact-tools{display:none!important}
-}
-@media(max-height:500px) and (min-width:601px){#archive-tour{bottom:8px;max-height:calc(100dvh - 62px);width:340px}#tour-title{font-size:20px}#tour-text{font-size:12px}}
-
-/* Van Beograda: tih blok na dnu spiska — isti jezik kao .item, samo prigusen. */
-.vangrad{margin-top:14px;padding-top:10px;border-top:1px solid color-mix(in srgb,var(--ink) 14%,transparent)}
-.vangrad .van-head{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.55;margin:0 0 6px 2px}
-.van-row{display:flex;align-items:stretch;gap:6px}
-.van-row .item.away{flex:1;opacity:.85}
-.van-row .item.away b{font-size:11px;opacity:.7}
-.van-page{align-self:center;font-size:11px;white-space:nowrap;opacity:.65;text-decoration:none;padding:4px 6px;border-radius:6px}
-.van-page:hover,.van-page:focus-visible{opacity:1;text-decoration:underline}
-#object-page-link{display:inline-block;margin-top:4px}
-
-/* kompaktnost: gornja traka staje u jedan red na telefonu, bez sečenja */
-@media(max-width:600px){
-.immersive .scene-tools,.immersive.embedded .scene-tools{max-width:calc(100vw - 108px);gap:2px;mask-image:none}
-.immersive .scene-tools button,.immersive.embedded .scene-tools button{min-width:0;font-size:9px;padding:6px 6px;min-height:36px;letter-spacing:0}
-.immersive .mode-group{gap:1px}.immersive .view-tools{gap:1px}
-}
-.compact-tools>a.van-link{margin-left:0}
-.immersive .compact-tools>a.van-link{display:flex;align-items:center;background:var(--surface);border-radius:4px;padding:8px 10px;font-size:11px;text-decoration:none;min-height:40px}

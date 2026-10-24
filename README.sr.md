@@ -8,7 +8,7 @@ Računarstvo kroz arhitekturu i građevinarstvo: mali predmet koji student može
 
 Put je **zapis/kontekst → predstava → odnosi → pravilo → kod → sistem**. Počni od broja i značenja, poveži crtež i tabelu, razlikuj suseda od narednog reda, prebroj unutrašnje razmake, prati izvršavanje i proveri promenu celine. Predvidi pre pokretanja i probaj novi slučaj. Ovo je istraživački put, ne potvrđen silabus, izjednačavanje sa MIT-om ili njegova preporuka.
 
-Aktuelni rad: [timovi](timovi.html), [format V1 i slanje](sledeci.html), [održani časovi](program.html). Evidencija sadrži dva potvrđena održana časa; noviji prijem radova nije sam po sebi dokaz održanog časa.
+Vođeni ulaz pripada postojećoj laboratoriji Dizajn. Studio ima **8 laboratorija, 12 pitanja, 71 otvorenu ideju i 64 kartice izvora**. Tok predmeta ostaje prazan dok nastavnik ne objavi stvarne teme ili časove. Datumi, bodovi i pravila ocenjivanja nisu izmišljeni.
 
 [Četiri pristupa dizajnu](lab/dizajn/index.html) ostaju dostupna. Kasnije grane su [Kod](lab/kod/index.html), [Rešetka](lab/resetka/index.html) i [Oblik → naredbe](lab/rezac/index.html). Geometrijski rezultat nije potvrda konstrukcije, a nastavna putanja nije proizvodni fajl.
 

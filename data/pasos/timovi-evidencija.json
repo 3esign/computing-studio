@@ -844,7 +844,7 @@
       "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
-        "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i nepovezani član istog objekta, koji nisu u listi"
+        "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i Marko Milanović, koji nisu u listi"
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -1397,5 +1397,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-96b7072071015f8f"
+  "datasetRevision": "r-8f13f7fa73c08511"
 }

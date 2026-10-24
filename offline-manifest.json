@@ -1,6 +1,6 @@
 {
-  "version": "d07c3c5d21351b99",
-  "bytes": 9990383,
+  "version": "07ce3ab9ae25d5de",
+  "bytes": 9832718,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -23,7 +23,6 @@
     "assets/qr/Q9.svg",
     "assets/qr/start.svg",
     "assets/site.css",
-    "assets/team-search.js",
     "assets/vendor/leaflet/leaflet.css",
     "assets/vendor/leaflet/leaflet.js",
     "biblioteka.html",
@@ -34,7 +33,6 @@
     "data/labs.json",
     "data/pasos/nejasno.json",
     "data/pasos/objekat-001-savski-most.json",
-    "data/pasos/obrazac-v1.csv",
     "data/pasos/timovi-evidencija.json",
     "data/sources.json",
     "data/taxonomy.json",
@@ -98,6 +96,7 @@
     "svet/data/geography.json",
     "svet/data/index.json",
     "svet/data/pasosi.json",
+    "svet/data/poreklo.json",
     "svet/data/revisions/index.json",
     "svet/data/revisions/r-03fa28a595a6b693.json",
     "svet/data/revisions/r-10ec73e26289069a.json",
@@ -110,7 +109,6 @@
     "svet/data/revisions/r-6a4d62f7486b0785.json",
     "svet/data/revisions/r-841de8630db8481c.json",
     "svet/data/revisions/r-8f13f7fa73c08511.json",
-    "svet/data/revisions/r-96b7072071015f8f.json",
     "svet/data/revisions/r-9cede2aa41392031.json",
     "svet/data/revisions/r-a076e46812c49dc3.json",
     "svet/data/revisions/r-a59090de87a3ae6d.json",
@@ -124,8 +122,9 @@
     "svet/layout.js",
     "svet/pasosi.html",
     "svet/pasosi.js",
+    "svet/poreklo.html",
+    "svet/poreklo.js",
     "svet/renderer.js",
-    "svet/tour.js",
     "svet/world.css",
     "timovi.html",
     "timovi/T01.html",
@@ -197,13 +196,6 @@
     "timovi/T67.html",
     "timovi/T68.html",
     "timovi/T69.html",
-    "timovi/T70.html",
-    "van/index.html",
-    "van/pancevo.html",
-    "van/podgorica.html",
-    "van/sremska-mitrovica.html",
-    "van/subotica.html",
-    "van/uzice.html",
-    "van/vrsac.html"
+    "timovi/T70.html"
   ]
 }

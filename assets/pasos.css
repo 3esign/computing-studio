@@ -126,7 +126,3 @@
 }
 @media(prefers-reduced-motion:reduce){.evidence-page *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 @media print{.passport-tools,.passport-results,.claims-list,.scene-links,.mobile-record-back{display:none!important}.passport-workspace,.home-intro{display:block}.claim-detail{position:static;max-height:none;overflow:visible}.evidence-page main{padding:0}.source-list a{overflow-wrap:anywhere}.evidence-preview{break-inside:avoid}}
-
-/* Source titles and external links must fit narrow screens. */
-.course-map{grid-template-columns:minmax(0,1fr) minmax(0,1.4fr)}.course-map nav{grid-template-columns:repeat(2,minmax(0,1fr))}.course-map nav a{min-width:0;overflow-wrap:anywhere}.current-task{padding-block:24px;border-bottom:1px solid var(--line)}.task-steps li{overflow-wrap:anywhere}
-@media(max-width:720px){.course-map{grid-template-columns:minmax(0,1fr)}.course-map nav{grid-template-columns:minmax(0,1fr)}}

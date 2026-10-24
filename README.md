@@ -8,7 +8,7 @@ Computing through architecture and civil engineering: a small object that studen
 
 Follow **record/context → representation → relations → rule → code → system**. Start with a number and its meaning, connect drawing and table, distinguish a neighbour from the next row, count internal gaps, follow an execution and inspect a change to the whole. Predict before running and try a new case. This is an exploration path, not an approved syllabus or a claim of MIT equivalence or endorsement.
 
-Current work: [teams](timovi.html), [V1 format and sending](sledeci.html), [held classes](program.html). Two held classes are confirmed; later submission intake alone does not establish a held class.
+The guided entrance belongs to the existing Design laboratory. The studio has **8 laboratories, 12 questions, 71 open ideas and 64 source cards**. The course record remains empty until the teacher publishes actual topics or classes. No dates, marks or assessment rules are invented.
 
 [Four design approaches](lab/dizajn/index.html) remain available. Later branches include [Code](lab/kod/index.html), [Truss](lab/resetka/index.html) and [Shape → instructions](lab/rezac/index.html). Models state their limits: a geometric result is not engineering approval, and a teaching toolpath is not a manufacturing file.
 

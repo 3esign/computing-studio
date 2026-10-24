@@ -178,13 +178,33 @@ var gl=canvas.getContext('webgl',{antialias:true,alpha:false});if(!gl)throw Erro
   var aColor = gl.getAttribLocation(prog, 'aColor');
   var aEmissive = gl.getAttribLocation(prog, 'aEmissive');
 
+  /* One generated noise field, shared by the sky deck, the ground shadow of
+     the same deck and the grain on the water. Nothing here is downloaded and
+     nothing is a measurement of weather. */
+  var NOISE_GLSL=[
+   'float wHash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453123);}',
+   'float wNoise(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.0-2.0*f);',
+   ' return mix(mix(wHash(i),wHash(i+vec2(1.0,0.0)),f.x),mix(wHash(i+vec2(0.0,1.0)),wHash(i+vec2(1.0,1.0)),f.x),f.y);}',
+   'float wFbm(vec2 p){return wNoise(p)*0.54+wNoise(p*2.03+13.1)*0.29+wNoise(p*4.11+7.7)*0.17;}',
+   // Two decks drifting at different speeds: the overlap is what makes a flat
+   // shape read as weather instead of a moving stain.
+   'float wCover(vec2 p,float t){',
+   // Scale is chosen against the sheet: one cloud is ~50 units (1.2 km) wide,
+   // so the deck reads as a handful of shapes and not as grain on the paper.
+   ' float a=wFbm(p*0.020+vec2(t*0.0080,t*0.0030));',
+   // The second deck only has to be broad, so one octave buys the same
+   // picture for a third of the cost on a phone.
+   ' float b=wNoise(p*0.0075+vec2(t*0.0024,-t*0.0009)+41.0);',
+   ' return a*0.60+b*0.40;}'
+  ].join('\n');
   var skyProgram=gl.createProgram();
   gl.attachShader(skyProgram,createShader(gl,gl.VERTEX_SHADER,'attribute vec2 aSky; varying vec2 vSky; void main(){vSky=aSky;gl_Position=vec4(aSky,1.0,1.0);}'));
   gl.attachShader(skyProgram,createShader(gl,gl.FRAGMENT_SHADER,`
 precision mediump float;
 varying vec2 vSky;
 uniform vec3 sRight,sUp,sForward;
-uniform float sAspect,sNight,sStreet;
+uniform float sAspect,sNight,sStreet,sTime;
+`+NOISE_GLSL+`
 void main(){
  vec3 ray=normalize(sForward+(sRight*vSky.x*sAspect+sUp*vSky.y)*0.57735);
  float elevation=mix(max(vSky.y*.45+.35,0.015),ray.y,sStreet);
@@ -195,6 +215,20 @@ void main(){
  float az=atan(ray.z,ray.x);
  float facets=abs(fract(az*3.8197)*2.0-1.0);
  color+=vec3(.013,.017,.016)*facets*smoothstep(.05,.55,elevation);
+ // The same cloud deck that casts the shadow on the map, seen from below:
+ // the ray is cut against a flat ceiling, so the shapes foreshorten toward
+ // the horizon instead of sitting on the glass.
+ // Only street mode ever shows this sky: from the orbit camera the ground
+ // plane covers it, and paying for the noise there is paying for nothing.
+ if(sStreet>0.5){
+  float ceiling=240.0;
+  float up=max(ray.y,0.02);
+  vec2 deck=vec2(ray.x,ray.z)*(ceiling/up);
+  float cover=wCover(deck,sTime);
+  float edge=smoothstep(0.50,0.66,cover);
+  float tier=floor(edge*3.0+0.001)/3.0+smoothstep(0.62,0.80,cover)*0.34;
+  vec3 cloudInk=mix(mix(vec3(.80,.82,.78),vec3(1.0,.99,.96),tier),mix(vec3(.10,.14,.18),vec3(.22,.27,.33),tier),sNight);
+  color=mix(color,cloudInk,edge*0.78*smoothstep(0.015,0.16,elevation));}
  vec3 below=mix(vec3(.55,.59,.53),vec3(.055,.085,.105),sNight);
  color=mix(below,color,smoothstep(-.035,.015,elevation));
  gl_FragColor=vec4(color,1.0);
@@ -226,13 +260,121 @@ void main(){
    gl.uniform1f(uVignetteNight,opts.night?1:0);gl.drawArrays(gl.TRIANGLES,0,3);
    gl.disableVertexAttribArray(vignetteAttribute);gl.disable(gl.BLEND);gl.depthMask(true);gl.enable(gl.DEPTH_TEST);gl.useProgram(prog);
   }
-  var skyUniforms={};for(var name of ['sRight','sUp','sForward','sAspect','sNight','sStreet'])skyUniforms[name]=gl.getUniformLocation(skyProgram,name);
-  function drawSky(aspect){
+  /* Weather and water. Two stylized layers, both generated — no texture is
+     downloaded and no frame is a photograph:
+
+     1. A drifting cloud deck. From the orbit camera the sky is almost never
+        on screen (the ground plane fills it), so the deck is read on the
+        ground as a shadow: a flat, banded darkening that moves across the
+        sheet. In street mode the same noise is drawn in the sky itself.
+     2. A flow overlay on the river. The still ribbon stays exactly as it was;
+        over it travel crest bands along the centreline, so the Sava and the
+        Danube read as moving water instead of a blue shape.
+
+     Neither layer is a measurement. Cloud cover is not today's weather and
+     the flow speed is not the river's speed; both are declared on the page.
+     Everything stops under prefers-reduced-motion. */
+  var cloudProgram=gl.createProgram();
+  gl.attachShader(cloudProgram,createShader(gl,gl.VERTEX_SHADER,
+   'attribute vec3 aCloud; uniform mat4 cMVP; varying vec2 vGround; void main(){vGround=aCloud.xz;gl_Position=cMVP*vec4(aCloud,1.0);}'));
+  gl.attachShader(cloudProgram,createShader(gl,gl.FRAGMENT_SHADER,[
+   'precision mediump float;',
+   'varying vec2 vGround;',
+   'uniform float cTime,cNight,cFade;',
+   NOISE_GLSL,
+   'void main(){',
+   ' float cover=wCover(vGround,cTime);',
+   // Three flat tiers, the same banding the sky already uses.
+   ' float edge=smoothstep(0.50,0.66,cover);',
+   ' float tier=floor(edge*3.0+0.001)/3.0+smoothstep(0.62,0.80,cover)*0.34;',
+   ' float a=edge*(0.080+tier*0.105)*cFade;',
+   ' vec3 c=mix(vec3(0.42,0.46,0.44),vec3(0.02,0.05,0.08),cNight);',
+   ' gl_FragColor=vec4(c,a);',
+   '}'].join('\n')));
+  gl.linkProgram(cloudProgram);
+  if(!gl.getProgramParameter(cloudProgram,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(cloudProgram));
+  var aCloud=gl.getAttribLocation(cloudProgram,'aCloud'),cloudBuffer=gl.createBuffer(),cloudCount=0;
+  var uCloud={};for(var cname of ['cMVP','cTime','cNight','cFade'])uCloud[cname]=gl.getUniformLocation(cloudProgram,cname);
+  var waterProgram=gl.createProgram();
+  gl.attachShader(waterProgram,createShader(gl,gl.VERTEX_SHADER,
+   'attribute vec3 aWater; attribute vec2 aFlow; uniform mat4 wMVP; varying vec2 vFlow; void main(){vFlow=aFlow;gl_Position=wMVP*vec4(aWater,1.0);}'));
+  gl.attachShader(waterProgram,createShader(gl,gl.FRAGMENT_SHADER,[
+   'precision mediump float;',
+   'varying vec2 vFlow;',       // x: distance along the centreline, y: -1..1 across
+   'uniform float fTime,fNight;',
+   NOISE_GLSL,
+   'void main(){',
+   ' float lane=vFlow.y;',                 // -1 left bank, +1 right bank
+   ' float bank=1.0-abs(lane);',
+   // Filaments: thin lines that keep their lane and slide downstream. Their
+   // speed drops toward the banks, the way a current actually reads.
+   ' float speed=mix(0.55,1.0,bank);',
+   ' float lanePhase=wNoise(vec2(lane*2.7,3.1))*9.0;',
+   ' float s=vFlow.x*0.085-fTime*0.055*speed+lanePhase;',
+   ' float wave=sin(s*6.2831);',
+   ' float filament=smoothstep(0.80,0.995,wave)*smoothstep(0.10,0.55,bank);',
+   // A long, soft swell sweeping the whole channel, much slower than the
+   // filaments: the two together stop the surface looking like a pattern.
+   ' float swell=smoothstep(0.55,0.95,sin(vFlow.x*0.028-fTime*0.17+lane*0.35));',
+   ' float alpha=(filament*0.78+swell*0.30*bank)*mix(0.40,0.30,fNight);',
+   ' vec3 c=mix(vec3(0.92,0.97,0.95),vec3(0.52,0.72,0.80),fNight);',
+   ' gl_FragColor=vec4(c,alpha);',
+   '}'].join('\n')));
+  gl.linkProgram(waterProgram);
+  if(!gl.getProgramParameter(waterProgram,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(waterProgram));
+  var aWater=gl.getAttribLocation(waterProgram,'aWater'),aFlow=gl.getAttribLocation(waterProgram,'aFlow');
+  var waterBuffers=[gl.createBuffer(),gl.createBuffer()],waterCount=0,waterPos=[],waterFlow=[];
+  function resetWater(){waterPos=[];waterFlow=[];waterCount=0}
+  /* The flow overlay rides the same joined ribbon as the still river, one
+     step higher, with the distance travelled carried per vertex: the current
+     then runs along the channel instead of across it, and it keeps running
+     along it through every bend. */
+  function waterRibbon(points,width){
+   var edges=ribbonEdges(points,width,.028);if(!edges)return;
+   for(var j=1;j<edges.length;j++){
+    var a=edges[j-1],b=edges[j];
+    push(a[0],a[2],1);push(b[0],b[2],1);push(b[1],b[2],-1);
+    push(a[0],a[2],1);push(b[1],b[2],-1);push(a[1],a[2],-1)}
+   function push(p,s,side){waterPos.push(p[0],p[1],p[2]);waterFlow.push(s,side);waterCount++}}
+  function uploadWater(){
+   gl.bindBuffer(gl.ARRAY_BUFFER,waterBuffers[0]);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(waterPos),gl.STATIC_DRAW);
+   gl.bindBuffer(gl.ARRAY_BUFFER,waterBuffers[1]);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(waterFlow),gl.STATIC_DRAW);
+   waterPos=[];waterFlow=[]}
+  /* The cloud deck is one quad over the cropped sheet, just above the ground:
+     a structure in front of it hides the shadow, which is what a shadow does. */
+  function uploadClouds(c){
+   if(!c){cloudCount=0;return}
+   var y=.07,v=[c.x0,y,c.z0, c.x1,y,c.z0, c.x1,y,c.z1, c.x0,y,c.z0, c.x1,y,c.z1, c.x0,y,c.z1];
+   gl.bindBuffer(gl.ARRAY_BUFFER,cloudBuffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(v),gl.STATIC_DRAW);cloudCount=6}
+  function drawWeather(seconds,fade){
+   gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.depthMask(false);
+   for(var a of [aPos,aNormal,aColor,aEmissive])gl.disableVertexAttribArray(a);
+   if(waterCount){
+    gl.useProgram(waterProgram);
+    gl.bindBuffer(gl.ARRAY_BUFFER,waterBuffers[0]);gl.enableVertexAttribArray(aWater);gl.vertexAttribPointer(aWater,3,gl.FLOAT,false,0,0);
+    gl.bindBuffer(gl.ARRAY_BUFFER,waterBuffers[1]);gl.enableVertexAttribArray(aFlow);gl.vertexAttribPointer(aFlow,2,gl.FLOAT,false,0,0);
+    gl.uniformMatrix4fv(gl.getUniformLocation(waterProgram,'wMVP'),false,mvpMat);
+    gl.uniform1f(gl.getUniformLocation(waterProgram,'fTime'),seconds);
+    gl.uniform1f(gl.getUniformLocation(waterProgram,'fNight'),opts.night?1:0);
+    gl.drawArrays(gl.TRIANGLES,0,waterCount);drawCalls++;
+    gl.disableVertexAttribArray(aWater);gl.disableVertexAttribArray(aFlow)}
+   if(cloudCount&&opts.mode!=='street'){
+    gl.useProgram(cloudProgram);
+    gl.bindBuffer(gl.ARRAY_BUFFER,cloudBuffer);gl.enableVertexAttribArray(aCloud);gl.vertexAttribPointer(aCloud,3,gl.FLOAT,false,0,0);
+    gl.uniformMatrix4fv(uCloud.cMVP,false,mvpMat);
+    gl.uniform1f(uCloud.cTime,seconds);gl.uniform1f(uCloud.cNight,opts.night?1:0);gl.uniform1f(uCloud.cFade,fade);
+    gl.drawArrays(gl.TRIANGLES,0,cloudCount);drawCalls++;
+    gl.disableVertexAttribArray(aCloud)}
+   gl.depthMask(true);gl.disable(gl.BLEND);gl.useProgram(prog);
+   for(var a2 of [aPos,aNormal,aColor,aEmissive])gl.enableVertexAttribArray(a2);
+  }
+  var skyUniforms={};for(var name of ['sRight','sUp','sForward','sAspect','sNight','sStreet','sTime'])skyUniforms[name]=gl.getUniformLocation(skyProgram,name);
+  function drawSky(aspect,seconds){
    gl.useProgram(skyProgram);gl.disable(gl.DEPTH_TEST);gl.depthMask(false);
    for(var a of [aPos,aNormal,aColor,aEmissive])gl.disableVertexAttribArray(a);
    gl.bindBuffer(gl.ARRAY_BUFFER,skyBuffer);gl.enableVertexAttribArray(skyAttribute);gl.vertexAttribPointer(skyAttribute,2,gl.FLOAT,false,0,0);
    gl.uniform3f(skyUniforms.sRight,vMat[0],vMat[4],vMat[8]);gl.uniform3f(skyUniforms.sUp,vMat[1],vMat[5],vMat[9]);gl.uniform3f(skyUniforms.sForward,-vMat[2],-vMat[6],-vMat[10]);
-   gl.uniform1f(skyUniforms.sAspect,aspect);gl.uniform1f(skyUniforms.sNight,opts.night?1:0);gl.uniform1f(skyUniforms.sStreet,opts.mode==='street'?1:0);
+   gl.uniform1f(skyUniforms.sAspect,aspect);gl.uniform1f(skyUniforms.sNight,opts.night?1:0);gl.uniform1f(skyUniforms.sStreet,opts.mode==='street'?1:0);gl.uniform1f(skyUniforms.sTime,seconds||0);
    gl.drawArrays(gl.TRIANGLES,0,3);gl.disableVertexAttribArray(skyAttribute);gl.depthMask(true);gl.enable(gl.DEPTH_TEST);gl.useProgram(prog);
   }
 
@@ -344,7 +486,7 @@ var reduced=matchMedia('(prefers-reduced-motion:reduce)'),labels=document.getEle
 var links=document.getElementById('map-links'),lastLabelTime=0;
 // Street mode explores symbolic data architecture, not a metric survey.
 var walk={pos:[12,1.7,30],yaw:0,pitch:0},keys=new Set(),lastWalk=0,walkVelocity=[0,0],stick={x:0,y:0,id:null},aim=null;
-var walkFly=null,glide=null,ORBIT_BACK=2000,PAN_LIMIT=1200,clipProbe=false,clippedCorners=0;
+var walkFly=null,glide=null,ORBIT_BACK=2000,PAN_LIMIT=1200,clipProbe=false,clippedCorners=0,ambientClock=0,ambientTimer=0;
 var joystick=document.getElementById('joystick'),knob=joystick?.firstElementChild;
 function resetStick(){stick={x:0,y:0,id:null};if(knob)knob.style.transform='translate(-50%,-50%)'}
 function stopWalk(){keys.clear();resetStick();lastWalk=0;walkVelocity=[0,0];walkFly=null}
@@ -391,11 +533,81 @@ document.getElementById('walk-pick')?.addEventListener('click',pickCenter);
 function project(lng,lat){return AtlasLayout.place(lng,lat)}
 var placeCache=null,placeFor=null;
 function layoutPlace(id){if(!id)return null;if(placeFor!==data){placeCache=new Map((data.layout&&data.layout.places||[]).map(p=>[p.id,p]));placeFor=data}return placeCache.get(id)||null}
+/* How far the sheet goes. The OSM extract carries the Sava 349 units (8.7 km)
+   west of the westernmost sculpture, while every placed object fits inside
+   x [-90, 63] and z [-56, 97]; at full zoom-out that empty tail was most of
+   the picture (measured 2026-10-24). The atlas is therefore cropped to the
+   objects it reports on plus MARGIN units of context, and river, streets and
+   grid are cut to the same rectangle: the edge then reads as the edge of the
+   sheet, not as a river that stops. The crop is drawing only — no record,
+   position or pick is removed by it. */
+var CROP_MARGIN=40;            // units (~1 km) of context around the objects
+var cropCache=null,cropFor=null;
+function contentCrop(){
+ if(cropFor===data)return cropCache;
+ cropFor=data;cropCache=null;
+ var x0=Infinity,x1=-Infinity,z0=Infinity,z1=-Infinity,found=false;
+ for(var b of (data&&data.buildings||[])){var p=layoutPlace(b.id);if(!p)continue;
+  var r=(p.radius||0)+4;found=true;
+  if(p.x-r<x0)x0=p.x-r;if(p.x+r>x1)x1=p.x+r;if(p.z-r<z0)z0=p.z-r;if(p.z+r>z1)z1=p.z+r}
+ if(found)cropCache={x0:x0-CROP_MARGIN,x1:x1+CROP_MARGIN,z0:z0-CROP_MARGIN,z1:z1+CROP_MARGIN};
+ return cropCache}
+/* Liang-Barsky, kept as runs: a line that leaves the sheet and comes back
+   stays two lines instead of one shortcut across the corner. */
+function clipSegment(a,b,c){
+ var dx=b[0]-a[0],dz=b[2]-a[2],t0=0,t1=1;
+ var p=[-dx,dx,-dz,dz],q=[a[0]-c.x0,c.x1-a[0],a[2]-c.z0,c.z1-a[2]];
+ for(var k=0;k<4;k++){
+  if(p[k]===0){if(q[k]<0)return null;continue}
+  var r=q[k]/p[k];
+  if(p[k]<0){if(r>t1)return null;if(r>t0)t0=r}
+  else{if(r<t0)return null;if(r<t1)t1=r}}
+ return [[a[0]+dx*t0,a[1],a[2]+dz*t0],[a[0]+dx*t1,a[1],a[2]+dz*t1]]}
+/* Both ends of a drawn river are artificial: one is the crop, the other is
+   where the OSM extract stops. Neither is a place where the Sava ends, so the
+   ribbon narrows away over TAPER units instead of stopping square. */
+var RIVER_TAPER=55;
+function riverTaper(width,c){
+ return function(p,along,total){
+  var d=Math.min(along,total-along);
+  if(c)d=Math.min(d,p[0]-c.x0,c.x1-p[0],p[2]-c.z0,c.z1-p[2]);
+  var f=Math.max(0,Math.min(1,d/RIVER_TAPER));
+  return width*(f*f*(3-2*f))}}
+function clipRuns(pts,c){
+ if(!c||pts.length<2)return [pts];
+ var runs=[],run=null;
+ var inside=function(p){return p[0]>=c.x0&&p[0]<=c.x1&&p[2]>=c.z0&&p[2]<=c.z1};
+ for(var i=1;i<pts.length;i++){
+  var seg=clipSegment(pts[i-1],pts[i],c);
+  if(!seg){run=null;continue}
+  var tail=run&&run[run.length-1];
+  if(!tail||Math.abs(tail[0]-seg[0][0])>1e-6||Math.abs(tail[2]-seg[0][2])>1e-6){run=[seg[0]];runs.push(run)}
+  run.push(seg[1]);
+  if(!inside(pts[i]))run=null}
+ return runs}
 function hash(s){var n=2166136261;for(var c of s)n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0}
 function line(a,b,width,col,y){var dx=b[0]-a[0],dz=b[2]-a[2],len=Math.hypot(dx,dz);if(!len)return;dx=dx/len*width/2;dz=dz/len*width/2;addQuad([a[0]-dz,y,a[2]+dx],[b[0]-dz,y,b[2]+dx],[b[0]+dz,y,b[2]-dx],[a[0]+dz,y,a[2]-dx],[0,1,0],col,0)}
 
 // A joined, flat ribbon avoids overlapping cylinder caps and their false facets.
-function ribbon(points,width,col,y){var pts=points.filter((p,i)=>!i||Math.hypot(p[0]-points[i-1][0],p[2]-points[i-1][2])>.0001),edges=[];if(pts.length<2)return;for(var i=0;i<pts.length;i++){var p=pts[i],a=pts[Math.max(0,i-1)],b=pts[Math.min(pts.length-1,i+1)],dx=p[0]-a[0],dz=p[2]-a[2],ex=b[0]-p[0],ez=b[2]-p[2];if(!i){dx=ex;dz=ez}if(i===pts.length-1){ex=dx;ez=dz}var l=Math.hypot(dx,dz),q=Math.hypot(ex,ez),n=[-dz/l,dx/l],m=[-ez/q,ex/q],mx=n[0]+m[0],mz=n[1]+m[1],ml=Math.hypot(mx,mz);if(ml<.001){mx=m[0];mz=m[1];ml=1}mx/=ml;mz/=ml;var r=Math.min(width,width/2/Math.max(.5,mx*m[0]+mz*m[1]));edges.push([[p[0]+mx*r,y,p[2]+mz*r],[p[0]-mx*r,y,p[2]-mz*r]])}for(var i=1;i<edges.length;i++)addQuad(edges[i-1][0],edges[i][0],edges[i][1],edges[i-1][1],[0,1,0],col,0)}
+// `width` may be a number or a function(point, distanceAlong, totalLength):
+// a river that is only cut off by the edge of the sheet tapers out instead of
+// ending in a blunt stump.
+function ribbonEdges(points,width,y){
+ var pts=points.filter((p,i)=>!i||Math.hypot(p[0]-points[i-1][0],p[2]-points[i-1][2])>.0001);
+ if(pts.length<2)return null;
+ var along=[0];for(var k=1;k<pts.length;k++)along.push(along[k-1]+Math.hypot(pts[k][0]-pts[k-1][0],pts[k][2]-pts[k-1][2]));
+ var total=along[along.length-1],edges=[],wide=typeof width==='function';
+ for(var i=0;i<pts.length;i++){var p=pts[i],a=pts[Math.max(0,i-1)],b=pts[Math.min(pts.length-1,i+1)],dx=p[0]-a[0],dz=p[2]-a[2],ex=b[0]-p[0],ez=b[2]-p[2];
+  if(!i){dx=ex;dz=ez}
+  if(i===pts.length-1){ex=dx;ez=dz}
+  var l=Math.hypot(dx,dz),q=Math.hypot(ex,ez),n=[-dz/l,dx/l],m=[-ez/q,ex/q],mx=n[0]+m[0],mz=n[1]+m[1],ml=Math.hypot(mx,mz);
+  if(ml<.001){mx=m[0];mz=m[1];ml=1}
+  mx/=ml;mz/=ml;
+  var w=wide?width(p,along[i],total):width,r=Math.min(w,w/2/Math.max(.5,mx*m[0]+mz*m[1]));
+  edges.push([[p[0]+mx*r,y,p[2]+mz*r],[p[0]-mx*r,y,p[2]-mz*r],along[i]])}
+ return edges}
+function ribbon(points,width,col,y){var edges=ribbonEdges(points,width,y);if(!edges)return;
+ for(var i=1;i<edges.length;i++)addQuad(edges[i-1][0],edges[i][0],edges[i][1],edges[i-1][1],[0,1,0],col,0)}
 // One convex ground silhouette per sculpture, projected from its actual elements.
 function shadow(model,pos){var pts=[];for(var e of model.elements)for(var x of [-1,1])for(var z of [-1,1])for(var h of [e.y,e.y+e.h])pts.push([pos[0]+e.x+x*e.w/2-h*.65/.82,0,pos[2]+e.z+z*e.d/2+h*.5/.82]);pts.sort((a,b)=>a[0]-b[0]||a[2]-b[2]);var cross=(a,b,c)=>(b[0]-a[0])*(c[2]-a[2])-(b[2]-a[2])*(c[0]-a[0]),hull=[];for(var p of pts){while(hull.length>1&&cross(hull.at(-2),hull.at(-1),p)<=0)hull.pop();hull.push(p)}var lower=hull.length;for(var p of pts.slice(0,-1).reverse()){while(hull.length>lower&&cross(hull.at(-2),hull.at(-1),p)<=0)hull.pop();hull.push(p)}hull.pop();polygon(hull,.035,[.70,.73,.67])}
 
@@ -562,21 +774,29 @@ function build(){if(!data)return;var started=performance.now();builds++;lastUplo
 var dark=false,ground=dark?[.055,.085,.105]:[.9,.91,.86],stone=dark?[.15,.21,.24]:[.83,.85,.79],ink=dark?[.12,.18,.21]:[.77,.80,.75];
 if(opts.world==='bigz'){buildBigz();return}
 var key=[opts.mode==='archive'||opts.mode==='street',opts.layer==='geography'].join(':');
-if(key!==staticKey||geo!==staticGeo){staticBuilds++;
+if(key!==staticKey||geo!==staticGeo){staticBuilds++;resetWater();
 addBox(0,-1,15,7200,1,7200,ground,0);
-for(var x=-500;x<=500;x+=25)line([x,0,-500],[x,0,500],.028,ink,.008);for(var z=-500;z<=500;z+=25)line([-500,0,z],[500,0,z],.028,ink,.008);
+var sheet=contentCrop()||{x0:-500,x1:500,z0:-500,z1:500},gx0=Math.ceil(sheet.x0/25)*25,gx1=Math.floor(sheet.x1/25)*25,gz0=Math.ceil(sheet.z0/25)*25,gz1=Math.floor(sheet.z1/25)*25;
+for(var x=gx0;x<=gx1;x+=25)line([x,0,sheet.z0],[x,0,sheet.z1],.028,ink,.008);for(var z=gz0;z<=gz1;z+=25)line([sheet.x0,0,z],[sheet.x1,0,z],.028,ink,.008);
 chunk(0);
 if(opts.mode!=='archive'&&opts.mode!=='street'&&geo){
 /* Coordinates arrive quantized to integer microdegrees (see quantization in
    geography.json); decode once per feature. */
 function coordsOf(f){if(f.coordinates)return f.coordinates;var q=f.q,out=[];for(var i=0;i<q.length;i+=2)out.push([q[i]/1e6,q[i+1]/1e6]);return out}
+var crop=contentCrop();
 var cells=new Map();for(var feature of geo.features){var c0=coordsOf(feature),p=project(c0[0][0],c0[0][1]),cell=Math.floor(p[0]/40)+':'+Math.floor(p[2]/40);if(!cells.has(cell))cells.set(cell,{building:[],river:[],major:[],minor:[]});var slot=feature.kind==='building'?'building':feature.kind==='river'?'river':feature.roadClass==='primary'?'major':'minor';cells.get(cell)[slot].push(feature)}
 for(var group of cells.values())for(var features of [group.building,group.river,group.major,group.minor]){var first=vertices.length/3;for(var f of features){var pts=coordsOf(f).map(p=>project(p[0],p[1]));if(f.kind==='building'){
+ var mid=pts.reduce((a,p)=>[a[0]+p[0]/pts.length,0,a[2]+p[2]/pts.length],[0,0,0]);
+ if(crop&&(mid[0]<crop.x0||mid[0]>crop.x1||mid[2]<crop.z0||mid[2]>crop.z1))continue;
  var real=opts.layer==='geography';
  polygon(pts,real?(f.height!==null?Math.max(.04,f.height/25):(f.levels!==null?Math.max(.04,f.levels*3/25):.04)):.022,stone);
- if(real){var mid=pts.reduce((a,p)=>[a[0]+p[0]/pts.length,0,a[2]+p[2]/pts.length],[0,0,0]);hit.push({id:f.id,pos:mid,role:'geography'})}
-}else{var width=f.kind==='river'?9:f.roadClass==='primary'?.32:.13;if(f.kind==='river')ribbon(pts,width,[.54,.69,.68],.025);else for(var i=1;i<pts.length;i++)line(pts[i-1],pts[i],width,ink,.025)}}
+ if(real)hit.push({id:f.id,pos:mid,role:'geography'});
+}else{var width=f.kind==='river'?9:f.roadClass==='primary'?.32:.13;
+ for(var run of clipRuns(pts,crop)){if(run.length<2)continue;
+  if(f.kind==='river'){var w=riverTaper(width,crop);ribbon(run,w,[.54,.69,.68],.025);waterRibbon(run,w)}
+  else for(var i=1;i<run.length;i++)line(run[i-1],run[i],width,ink,.025)}}}
 chunk(first,features===group.minor?1:0)}}
+uploadWater();uploadClouds(opts.mode==='archive'?null:contentCrop());
 upload(staticMesh);staticHits=hit.slice();staticKey=key;staticGeo=geo;
 }else hit=staticHits.slice();
 resetGeometry();
@@ -727,7 +947,7 @@ for(var m of [...marks].sort((a,b)=>Number(b.selected)-Number(a.selected)||Numbe
 if(opts.mode==='street'){aim=findPick({clientX:rect.left+rect.width/2,clientY:rect.top+rect.height/2});var cross=document.querySelector('.crosshair'),hint=document.getElementById('aim-label');cross?.classList.toggle('target',!!aim);if(cross)cross.dataset.target=aim?.id||'';var claim=data.claims.find(c=>c.id===aim?.id),source=data.sources.find(s=>s.id===aim?.id),team=data.teams.find(t=>t.id===(aim?.team||aim?.id)),text=claim?claim.title:source?source.label:aim?.tier?aim.tier:team?team.id+' / '+team.object:'';if(hint)hint.textContent=text;var pick=document.getElementById('walk-pick');if(pick)pick.disabled=!aim}else{aim=null;document.getElementById('aim-label').textContent=''}
 if(links){links.setAttribute('viewBox','0 0 '+rect.width+' '+rect.height);for(var a of arcs){var points=a.points.map(p=>screen(p,rect.width,rect.height));var clipped=opts.mode==='street'||points.some(p=>p[0]===-10000);a.path.style.display=clipped?'none':'';a.dot.style.display=clipped?'none':'';if(clipped)continue;a.path.setAttribute('d',points.map((p,i)=>(i?'L':'M')+p[0].toFixed(2)+','+p[1].toFixed(2)).join(' '));var phase=opts.motion&&!reduced.matches?(now%6000)/6000:.5,index=phase*32,lo=Math.floor(index),hi=Math.min(32,lo+1),p=mix(points[lo],points[hi],index-lo);a.dot.setAttribute('cx',p[0]);a.dot.setAttribute('cy',p[1]);a.dot.style.visibility=opts.motion&&!reduced.matches?'visible':'hidden'}}
 }
-function render(now){frame=0;if(document.hidden||!inView)return;frames++;if(glide&&opts.mode!=='street')glideStep(now);else glide=null;if(opts.mode==='street'){stepFly(now);stepWalk(now)}if(transition){var f=reduced.matches?1:Math.min(1,(now-transition.start)/550),e=1-Math.pow(1-f,3);for(var k of ['yaw','pitch','dist'])cam[k]=transition.from[k]+(transition.to[k]-transition.from[k])*e;cam.target=transition.from.target.map((v,i)=>v+(transition.to.target[i]-v)*e);if(f===1)transition=null;else invalidate()}
+function render(now){frame=0;if(document.hidden||!inView)return;frames++;var renderStart=performance.now();if(glide&&opts.mode!=='street')glideStep(now);else glide=null;if(opts.mode==='street'){stepFly(now);stepWalk(now)}if(transition){var f=reduced.matches?1:Math.min(1,(now-transition.start)/550),e=1-Math.pow(1-f,3);for(var k of ['yaw','pitch','dist'])cam[k]=transition.from[k]+(transition.to[k]-transition.from[k])*e;cam.target=transition.from.target.map((v,i)=>v+(transition.to.target[i]-v)*e);if(f===1)transition=null;else invalidate()}
 var growth=reduced.matches||!growthStart?1:Math.min(1,(now-growthStart)/950);if(growth<1)invalidate();
 var rect=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,opts.quality==='eco'?1:opts.quality==='high'?2:1.6,Math.sqrt((opts.quality==='high'?2400000:opts.quality==='eco'?650000:1400000)/Math.max(1,rect.width*rect.height))),w=Math.max(1,Math.round(rect.width*dpr)),h=Math.max(1,Math.round(rect.height*dpr));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h}gl.viewport(0,0,w,h);gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);var sky=opts.night?[.055,.085,.105]:[.9,.91,.86];gl.clearColor(...sky,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(prog);var d=cam.dist,cy=cam.pitch,cx=cam.yaw,eye=[cam.target[0]+d*Math.cos(cy)*Math.sin(cx),cam.target[1]+d*Math.sin(cy),cam.target[2]+d*Math.cos(cy)*Math.cos(cx)];
 var target=cam.target,viewEye=eye;
@@ -740,9 +960,31 @@ else{
 }
 var horizon=opts.night?[.16,.22,.25]:[.90,.91,.86];
 var fogNear=opts.mode==='street'?70:Math.max(190,d*1.5),fogFar=opts.mode==='street'?620:Math.max(900,d*4.4);
-eyePos=viewEye;M4.lookAt(vMat,eye,target,[0,1,0]);M4.multiply(mvpMat,pMat,vMat);drawSky(w/h);gl.uniformMatrix4fv(uMVP,false,mvpMat);gl.uniformMatrix4fv(uModel,false,mMat);gl.uniform3f(uSunDir,.65,.82,-.5);gl.uniform3fv(uSkyColor,sky);gl.uniform3fv(uHorizon,horizon);gl.uniform2f(uFog,fogNear,fogFar);gl.uniform3fv(uEye,viewEye);gl.uniform1f(uNight,opts.night?1:0);drawCalls=0;drawnTriangles=0;culledChunks=0;lodSkipped=0;gl.uniform1f(uGrowth,1);gl.uniform1f(uContact,0);drawMesh(staticMesh);gl.uniform1f(uGrowth,1-Math.pow(1-growth,3));gl.uniform1f(uContact,1);drawMesh(teamMesh);drawVignette();
+/* Weather runs on wall time, so a dropped frame slows nothing down and two
+   tabs show the same sky. It is off under prefers-reduced-motion and in eco
+   quality, and then the clock stands still rather than jumping. */
+var ambient=!reduced.matches&&opts.quality!=='eco'&&opts.world!=='bigz'&&(waterCount>0||cloudCount>0);
+if(ambient)ambientClock=(now||performance.now())/1000;
+var seconds=ambientClock;
+eyePos=viewEye;M4.lookAt(vMat,eye,target,[0,1,0]);M4.multiply(mvpMat,pMat,vMat);drawSky(w/h,seconds);gl.uniformMatrix4fv(uMVP,false,mvpMat);gl.uniformMatrix4fv(uModel,false,mMat);gl.uniform3f(uSunDir,.65,.82,-.5);gl.uniform3fv(uSkyColor,sky);gl.uniform3fv(uHorizon,horizon);gl.uniform2f(uFog,fogNear,fogFar);gl.uniform3fv(uEye,viewEye);gl.uniform1f(uNight,opts.night?1:0);drawCalls=0;drawnTriangles=0;culledChunks=0;lodSkipped=0;gl.uniform1f(uGrowth,1);gl.uniform1f(uContact,0);drawMesh(staticMesh);gl.uniform1f(uGrowth,1-Math.pow(1-growth,3));gl.uniform1f(uContact,1);drawMesh(teamMesh);
+/* The cloud shadow fades out once the camera is close enough that the sheet
+   is no longer read as a map: under a sculpture a passing shadow is noise. */
+drawWeather(seconds,Math.min(1,Math.max(0,(cam.dist-55)/85)));
+drawVignette();
 if(clipProbe)measureClip(eye,d,w/h);
-overlays(rect,now);if(opts.motion&&arcs.length&&!reduced.matches)invalidate();}
+overlays(rect,now);
+if(opts.motion&&arcs.length&&!reduced.matches)invalidate();
+else if(ambient)scheduleAmbient(performance.now()-renderStart);}
+/* Weather must never own the main thread. A frame that costs 4 ms is
+   redrawn at 30 fps; one that costs 90 ms (software GL, a weak phone) is
+   redrawn when the machine has been idle more than twice that long. Without
+   this the queue of pointer events behind a continuous redraw grew to over a
+   second and a double tap stopped arriving as a double tap (measured
+   2026-10-24, headless SwiftShader). */
+function scheduleAmbient(cost){
+ if(ambientTimer)return;
+ var wait=Math.max(1000/30,Math.min(900,cost*2.5));
+ ambientTimer=setTimeout(function(){ambientTimer=0;invalidate()},wait)}
 function measureClip(eye,d,aspect){clippedCorners=0;if(opts.mode==='street')return;
  var fwd=[-vMat[2],-vMat[6],-vMat[10]],rv=[vMat[0],vMat[4],vMat[8]],uv=[vMat[1],vMat[5],vMat[9]],hx=d*.5*aspect,hy=d*.5;
  for(var b of pickBoxes){var inFrame=false,ahead=0;
@@ -811,7 +1053,7 @@ function findPick(e,onlyTeams=false){var rect=canvas.getBoundingClientRect(),x=e
  if(opts.mode==='street')return null;
  for(var m of (onlyTeams?[]:hit.filter(h=>h.role==='geography')).concat(marks)){if(labelNodes.has(m.id)&&labelNodes.get(m.id).hidden)continue;var p=screen(m.pos,rect.width,rect.height),v=Math.hypot(p[0]-x,p[1]-y);if(v<dist){best=m;dist=v}}return best}
 var surface=canvas.closest('.stage')||canvas,suppressClickUntil=0;
-surface.addEventListener('click',e=>{if(!e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar,#tour-start')&&performance.now()<suppressClickUntil){e.preventDefault();e.stopImmediatePropagation()}},true);
+surface.addEventListener('click',e=>{if(!e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar')&&performance.now()<suppressClickUntil){e.preventDefault();e.stopImmediatePropagation()}},true);
 /* Drag solves the ground displacement whose screen projection equals the drag,
    so the point under the finger stays under the finger at any pitch. */
 function panPixels(dx,dy){var unit=cam.dist/Math.max(1,canvas.clientHeight),rx=vMat[0],rz=vMat[8],ux=vMat[1],uz=vMat[9],det=rx*uz-rz*ux;
@@ -835,8 +1077,15 @@ function groundScreen(g){var rect=canvas.getBoundingClientRect();
  return [rect.width*(.5+rx/(cam.dist*rect.width/rect.height)),rect.height*(.5-uy/cam.dist)]}
 /* Zoom that holds its ground: the distance changes, then the point that was
    under the fingers (or the cursor) is brought back under them. */
+/* How far out zoom is allowed to go. Past the frame that already shows every
+   object there is nothing left to see, so the old constant 700 only shrank
+   the city into a corner of empty paper (2026-10-24). The ceiling is now the
+   fitted frame with a margin, measured from the data, not a number. */
+function zoomCeiling(){if(opts.world==='bigz')return 700;
+ if(opts.mode==='archive')return Math.min(900,Math.max(120,collageDistance()*1.3));
+ var fit=atlasFrame(cam.yaw,cam.pitch);return Math.min(700,Math.max(90,(fit?fit.dist:155)*1.35))}
 function zoomHolding(factor,cx,cy){transition=null;var hold=groundAt(cx,cy),rect=canvas.getBoundingClientRect();
- cam.dist=Math.max(8,Math.min(700,cam.dist*factor));
+ cam.dist=Math.max(8,Math.min(zoomCeiling(),cam.dist*factor));
  if(!hold)return;var s=groundScreen(hold);panPixels(cx-rect.left-s[0],cy-rect.top-s[1])}
 /* Recentre on a touched point: the double tap and the double click share it. */
 function recentreOn(cx,cy){var hit=groundAt(cx,cy);if(!hit)return;
@@ -853,8 +1102,8 @@ function startGlide(){if(reduced.matches||!drag||opts.mode==='street'||!drag.vx&
 var TAP_SLIP={touch:12,pen:7,mouse:5},tapSlip=e=>TAP_SLIP[e.pointerType]||TAP_SLIP.mouse,lastTap=null;
 /* The gate overlay and the archive exit are real controls living on the stage:
    the scene must not capture their touch, or the tap never becomes a click. */
-surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar,#tour-start'))return;canvas.focus({preventScroll:true});transition=null;glide=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,slip:tapSlip(e),touch:e.pointerType==='touch',label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
-surface.addEventListener('pointermove',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar,#tour-start'))return;if(!drag){if(e.pointerType==='touch')return;var m=findPick(e,true);if(hover!==(m?.id||'')){hover=m?.id||'';invalidate()}return}if(!pointers.has(e.pointerId))return;
+surface.addEventListener('pointerdown',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar'))return;canvas.focus({preventScroll:true});transition=null;glide=null;surface.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(!drag)drag={id:e.pointerId,x:e.clientX,y:e.clientY,sx:e.clientX,sy:e.clientY,moved:false,slip:tapSlip(e),touch:e.pointerType==='touch',label:e.target.closest('#map-labels button,.relation-line')?.dataset.id};else drag.moved=true;});
+surface.addEventListener('pointermove',e=>{if(e.target.closest('.camera,.walk-controls,#archive-gate,#archive-exit,#archive-curtain,#era-bar'))return;if(!drag){if(e.pointerType==='touch')return;var m=findPick(e,true);if(hover!==(m?.id||'')){hover=m?.id||'';invalidate()}return}if(!pointers.has(e.pointerId))return;
  /* Two fingers: the ground held between them at the start of the step is put
     back between them at the end, so a pinch zooms into what it is pinching
     and drags what it is dragging in the same motion. */
@@ -881,7 +1130,11 @@ function endPointer(e,cancel){if(!pointers.has(e.pointerId))return;pointers.dele
  if(!cancel&&!drag.moved&&Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<=(drag.slip||5)+1){var best=drag.label?{id:drag.label}:findPick(e);
   /* Two taps in the same place read as "take me there". dblclick is not
      dependable under a finger, and the click guard below would swallow it. */
-  var now=performance.now(),pair=drag.touch&&lastTap&&now-lastTap.t<340&&Math.hypot(e.clientX-lastTap.x,e.clientY-lastTap.y)<44;
+  /* The window is measured between the two releases, not between the two
+     contacts, so a finger that rests on the glass for a moment still counts.
+     340 ms left no room for that and dropped real double taps on a phone
+     (measured 2026-10-24); platforms allow 300-500 ms. */
+  var now=performance.now(),pair=drag.touch&&lastTap&&now-lastTap.t<460&&Math.hypot(e.clientX-lastTap.x,e.clientY-lastTap.y)<44;
   lastTap=drag.touch?{t:now,x:e.clientX,y:e.clientY}:null;
   if(pair&&opts.mode!=='street'){lastTap=null;recentreOn(e.clientX,e.clientY);if(best)onPick(best.id,best.team);pointers.clear();drag=null;suppressClickUntil=now+350;return}
   if(best&&opts.mode==='street'&&!drag.label)teleport(e,best);
@@ -896,5 +1149,5 @@ canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();document.getEl
 new ResizeObserver(invalidate).observe(canvas);document.addEventListener('visibilitychange',invalidate);reduced.addEventListener('change',invalidate);new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;if(inView)invalidate()}).observe(canvas);
 function geometryKey(o){return JSON.stringify([o.world||'atlas',o.mode==='archive',o.mode==='street',o.mode==='plan',o.layer,o.selected,o.claim,o.era||'',[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
 return {setBigz(b){if(bigz===b)return;bigz=b;bigzFor=null;if(opts.world==='bigz'){staticKey='';build()}},stop:stopWalk,setCulling(value){culling=!!value;invalidate()},setOrbitBack(value){ORBIT_BACK=value>0?value:2000;invalidate()},groundAt(cx,cy){return groundAt(cx,cy)},groundScreen(g){return groundScreen(g)},probeClip(on){clipProbe=!!on;invalidate()},update(d,g,o){var change=opts.mode!==o.mode||opts.world!==o.world,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}
-  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(700,cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0,density:data?densityField().meta:null}},density(){return data?densityField():null},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
+  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(zoomCeiling(),cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0,density:data?densityField().meta:null}},density(){return data?densityField():null},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
 };
