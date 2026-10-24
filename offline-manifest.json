@@ -1,6 +1,6 @@
 {
-  "version": "07b283be0a906721",
-  "bytes": 9966671,
+  "version": "1908b35cd5543c7b",
+  "bytes": 9988640,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -197,6 +197,13 @@
     "timovi/T67.html",
     "timovi/T68.html",
     "timovi/T69.html",
-    "timovi/T70.html"
+    "timovi/T70.html",
+    "van/index.html",
+    "van/pancevo.html",
+    "van/podgorica.html",
+    "van/sremska-mitrovica.html",
+    "van/subotica.html",
+    "van/uzice.html",
+    "van/vrsac.html"
   ]
 }

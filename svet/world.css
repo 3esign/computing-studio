@@ -259,3 +259,13 @@ body.bigz #scene-status p{font-size:12px;line-height:1.55;margin:8px 0}
  .touring .camera,.touring .compact-tools{display:none!important}
 }
 @media(max-height:500px) and (min-width:601px){#archive-tour{bottom:8px;max-height:calc(100dvh - 62px);width:340px}#tour-title{font-size:20px}#tour-text{font-size:12px}}
+
+/* Van Beograda: tih blok na dnu spiska — isti jezik kao .item, samo prigusen. */
+.vangrad{margin-top:14px;padding-top:10px;border-top:1px solid color-mix(in srgb,var(--ink) 14%,transparent)}
+.vangrad .van-head{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;opacity:.55;margin:0 0 6px 2px}
+.van-row{display:flex;align-items:stretch;gap:6px}
+.van-row .item.away{flex:1;opacity:.85}
+.van-row .item.away b{font-size:11px;opacity:.7}
+.van-page{align-self:center;font-size:11px;white-space:nowrap;opacity:.65;text-decoration:none;padding:4px 6px;border-radius:6px}
+.van-page:hover,.van-page:focus-visible{opacity:1;text-decoration:underline}
+#object-page-link{display:inline-block;margin-top:4px}
