@@ -68,12 +68,12 @@ body.immersive{height:100dvh;overflow:hidden}
 .immersive .view-tools #connections{display:none}
 .immersive .atlas-header{position:absolute;left:8px;top:max(7px,env(safe-area-inset-top));z-index:8;padding:0;border:0;gap:4px}
 .immersive .atlas-header>.brand{font-size:19px;letter-spacing:-1px;background:var(--surface);padding:8px 6px;border-radius:4px}
-.immersive .atlas-header>#language{display:none}
+.immersive .atlas-header>#language{min-height:36px;min-width:36px;font-size:12px;border:0;border-radius:4px;padding:4px 9px;background:var(--surface);box-shadow:0 1px 6px #0001}
 .immersive #atlas-menu{font-size:15px;min-height:36px;padding:4px 9px;border:0;border-radius:4px}
-.immersive .atlas-header nav{display:none;position:absolute;top:43px;left:0;padding:12px;background:var(--surface);width:210px;box-shadow:0 5px 20px #0002;border:1px solid var(--line);margin:0}
+.immersive .atlas-header.menu-open{z-index:30}
+.immersive .atlas-header nav{display:none;position:absolute;top:44px;left:0;padding:6px;background:var(--surface);width:230px;box-shadow:0 8px 28px #0003;border:1px solid var(--line);border-radius:6px;margin:0}
 .immersive .atlas-header.menu-open nav{display:grid;gap:0}
-.immersive .atlas-header.menu-open nav a{padding:12px;font-size:13px}
-.immersive .atlas-header.menu-open>#language{display:block;position:absolute;left:156px;top:265px;font-size:12px;min-height:36px}
+.immersive .atlas-header.menu-open nav a{padding:11px 12px;font-size:13px;border-radius:4px}
 .immersive.embedded .atlas-header{display:none}
 .immersive .compact-tools,.immersive.embedded .compact-tools{position:absolute;bottom:max(24px,env(safe-area-inset-bottom));left:8px;z-index:4;display:flex;gap:4px;border:0;background:none;padding:0}
 .immersive .compact-tools button{min-height:40px;padding:8px 10px;font-size:11px;border:0;border-radius:4px}
@@ -127,15 +127,11 @@ body.immersive{height:100dvh;overflow:hidden}
 .immersive #world:focus-visible{outline:1px solid var(--muted);outline-offset:-1px}
 .immersive #atlas-drawer a,.immersive #selection-copy a{overflow-wrap:anywhere}
 .immersive #atlas-drawer .quality-label>span{display:inline}
-.immersive .atlas-header.menu-open>#language{top:275px}
 
 .immersive .stage{touch-action:none}
 .immersive #map-labels button[hidden]{display:none!important}
 .immersive .course-return{display:block;padding:12px;font-size:12px;border-top:1px solid var(--line)}
 
-.immersive .atlas-header.menu-open>#language{top:334px}
-
-.immersive .atlas-header.menu-open>#language{top:0;left:95px}
 
 /* Second world: the delivered BIGZ archive. The switch sits beside the modes. */
 .world-group{display:flex;gap:4px}
