@@ -265,3 +265,12 @@ body.bigz #scene-status p{font-size:12px;line-height:1.55;margin:8px 0}
 .van-page{align-self:center;font-size:11px;white-space:nowrap;opacity:.65;text-decoration:none;padding:4px 6px;border-radius:6px}
 .van-page:hover,.van-page:focus-visible{opacity:1;text-decoration:underline}
 #object-page-link{display:inline-block;margin-top:4px}
+
+/* kompaktnost: gornja traka staje u jedan red na telefonu, bez sečenja */
+@media(max-width:600px){
+.immersive .scene-tools,.immersive.embedded .scene-tools{max-width:calc(100vw - 108px);gap:2px;mask-image:none}
+.immersive .scene-tools button,.immersive.embedded .scene-tools button{min-width:0;font-size:9px;padding:6px 6px;min-height:36px;letter-spacing:0}
+.immersive .mode-group{gap:1px}.immersive .view-tools{gap:1px}
+}
+.compact-tools>a.van-link{margin-left:0}
+.immersive .compact-tools>a.van-link{display:flex;align-items:center;background:var(--surface);border-radius:4px;padding:8px 10px;font-size:11px;text-decoration:none;min-height:40px}
