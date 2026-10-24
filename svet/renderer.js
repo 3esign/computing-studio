@@ -485,6 +485,8 @@ var data,geo,bigz=null,bigzCache=null,bigzFor=null,opts={},marks=[],hit=[],pickB
 var reduced=matchMedia('(prefers-reduced-motion:reduce)'),labels=document.getElementById('map-labels'),labelNodes=new Map(),pointers=new Map();
 var links=document.getElementById('map-links'),lastLabelTime=0;
 // Street mode explores symbolic data architecture, not a metric survey.
+var WALK_SPEED=4.26; // 3.2 x 1.33, asked for on 24.10.2026
+var GROUND_LIFT=1; // raised on foot; see the near-plane note in render()
 var walk={pos:[12,1.7,30],yaw:0,pitch:0},keys=new Set(),lastWalk=0,walkVelocity=[0,0],stick={x:0,y:0,id:null},aim=null;
 var walkFly=null,glide=null,ORBIT_BACK=2000,PAN_LIMIT=1200,clipProbe=false,clippedCorners=0,ambientClock=0,ambientTimer=0;
 var joystick=document.getElementById('joystick'),knob=joystick?.firstElementChild;
@@ -510,7 +512,7 @@ function stepWalk(now){
  // Positive yaw faces left in this camera convention.
  walk.yaw-=(Number(keys.has('ArrowRight'))-Number(keys.has('ArrowLeft')))*dt*1.1;
  walk.pitch=Math.max(-1.2,Math.min(1.2,walk.pitch+(Number(keys.has('ArrowUp'))-Number(keys.has('ArrowDown')))*dt*.8));
- var norm=Math.max(1,Math.hypot(forward,side)),speed=3.2;
+ var norm=Math.max(1,Math.hypot(forward,side)),speed=WALK_SPEED;
  var targetX=(side*Math.cos(walk.yaw)-forward*Math.sin(walk.yaw))*speed/norm,targetZ=(-forward*Math.cos(walk.yaw)-side*Math.sin(walk.yaw))*speed/norm;
  // Exact exponential integration: same travel at different refresh rates.
  var decay=Math.exp(-12*dt),integral=(1-decay)/12;
@@ -608,10 +610,36 @@ function ribbonEdges(points,width,y){
  return edges}
 function ribbon(points,width,col,y){var edges=ribbonEdges(points,width,y);if(!edges)return;
  for(var i=1;i<edges.length;i++)addQuad(edges[i-1][0],edges[i][0],edges[i][1],edges[i-1][1],[0,1,0],col,0)}
-// One convex ground silhouette per sculpture, projected from its actual elements.
-function shadow(model,pos){var pts=[];for(var e of model.elements)for(var x of [-1,1])for(var z of [-1,1])for(var h of [e.y,e.y+e.h])pts.push([pos[0]+e.x+x*e.w/2-h*.65/.82,0,pos[2]+e.z+z*e.d/2+h*.5/.82]);pts.sort((a,b)=>a[0]-b[0]||a[2]-b[2]);var cross=(a,b,c)=>(b[0]-a[0])*(c[2]-a[2])-(b[2]-a[2])*(c[0]-a[0]),hull=[];for(var p of pts){while(hull.length>1&&cross(hull.at(-2),hull.at(-1),p)<=0)hull.pop();hull.push(p)}var lower=hull.length;for(var p of pts.slice(0,-1).reverse()){while(hull.length>lower&&cross(hull.at(-2),hull.at(-1),p)<=0)hull.pop();hull.push(p)}hull.pop();polygon(hull,.035,[.70,.73,.67])}
-
-function polygon(points,h,col){if(points.length<3)return;var pts=points.slice();if(pts[0][0]===pts.at(-1)[0]&&pts[0][2]===pts.at(-1)[2])pts.pop();var area=0;for(var i=0;i<pts.length;i++){var a=pts[i],b=pts[(i+1)%pts.length];area+=a[0]*b[2]-b[0]*a[2];if(h>.03){var len=Math.hypot(b[0]-a[0],b[2]-a[2]);if(len)addQuad([a[0],.05,a[2]],[b[0],.05,b[2]],[b[0],h,b[2]],[a[0],h,a[2]],[(b[2]-a[2])/len,0,(a[0]-b[0])/len],col,0)}}
+/* Shadows are projected along the same sun the shader shades with
+   (uSunDir .65/.82/-.5), one silhouette per element instead of one convex hull
+   around the whole sculpture: a courtyard stays a courtyard, a setback stays a
+   setback. The edge is softened by two wider, lighter skirts under the core —
+   a stand-in for a penumbra, which widens with the height of what casts it.
+   It is a drawing convention, not a computed light transport. */
+var SUN_X=.65/.82,SUN_Z=.5/.82;
+function hullOf(pts){pts=pts.slice().sort((a,b)=>a[0]-b[0]||a[2]-b[2]);
+ var cross=(a,b,c)=>(b[0]-a[0])*(c[2]-a[2])-(b[2]-a[2])*(c[0]-a[0]),hull=[];
+ for(var p of pts){while(hull.length>1&&cross(hull.at(-2),hull.at(-1),p)<=0)hull.pop();hull.push(p)}
+ var lower=hull.length;
+ for(var p of pts.slice(0,-1).reverse()){while(hull.length>lower&&cross(hull.at(-2),hull.at(-1),p)<=0)hull.pop();hull.push(p)}
+ hull.pop();return hull}
+// Push a convex ring outward from its own centre: the skirt of the penumbra.
+function expandHull(hull,d){var cx=0,cz=0;for(var p of hull){cx+=p[0];cz+=p[2]}cx/=hull.length;cz/=hull.length;
+ return hull.map(function(p){var dx=p[0]-cx,dz=p[2]-cz,l=Math.hypot(dx,dz)||1;return [p[0]+dx/l*d,0,p[2]+dz/l*d]})}
+function shadow(model,pos){
+ for(var e of model.elements){
+  if(e.w<=0||e.d<=0||e.h<=0)continue;
+  var pts=[];
+  for(var sx of [-1,1])for(var sz of [-1,1])for(var h of [e.y,e.y+e.h])
+   pts.push([pos[0]+e.x+sx*e.w/2-h*SUN_X,0,pos[2]+e.z+sz*e.d/2+h*SUN_Z]);
+  var hull=hullOf(pts);if(hull.length<3)continue;
+  var top=e.y+e.h,soft=Math.min(3.4,.22+top*.085);
+  /* Only real mass gets a skirt. Giving every rail and tick its own penumbra
+     trebles the team mesh for an edge nobody can see at that size. */
+  if(top>=3&&e.w*e.d>=1.2){polygon(expandHull(hull,soft),.026*GROUND_LIFT,[.802,.828,.772]);
+   if(top>=14)polygon(expandHull(hull,soft*.45),.028*GROUND_LIFT,[.742,.772,.708])}
+  polygon(hull,.030*GROUND_LIFT,[.70,.73,.67])}}
+function polygon(points,h,col){if(points.length<3)return;var pts=points.slice();if(pts[0][0]===pts.at(-1)[0]&&pts[0][2]===pts.at(-1)[2])pts.pop();var area=0;for(var i=0;i<pts.length;i++){var a=pts[i],b=pts[(i+1)%pts.length];area+=a[0]*b[2]-b[0]*a[2];if(h>.03*GROUND_LIFT){var len=Math.hypot(b[0]-a[0],b[2]-a[2]);if(len)addQuad([a[0],.05,a[2]],[b[0],.05,b[2]],[b[0],h,b[2]],[a[0],h,a[2]],[(b[2]-a[2])/len,0,(a[0]-b[0])/len],col,0)}}
 if(area<0)pts.reverse();var ix=pts.map((_,i)=>i),guard=0;function cross(a,b,c){return (b[0]-a[0])*(c[2]-a[2])-(b[2]-a[2])*(c[0]-a[0])}while(ix.length>2&&guard++<pts.length*pts.length){var cut=false;for(var j=0;j<ix.length;j++){var ai=ix[(j+ix.length-1)%ix.length],bi=ix[j],ci=ix[(j+1)%ix.length],a=pts[ai],b=pts[bi],c=pts[ci];if(cross(a,b,c)<=0)continue;if(ix.some(k=>k!==ai&&k!==bi&&k!==ci&&cross(a,b,pts[k])>=0&&cross(b,c,pts[k])>=0&&cross(c,a,pts[k])>=0))continue;addTri([a[0],h,a[2]],[c[0],h,c[2]],[b[0],h,b[2]],[0,1,0],col,0);ix.splice(j,1);cut=true;break}if(!cut)break}}
 
 /* Each view answers with its own perspective. Plan reads from above: every
@@ -773,13 +801,27 @@ function bigzModel(){if(bigzFor!==bigz){bigzCache=window.AtlasBigz&&bigz?AtlasBi
 function build(){if(!data)return;var started=performance.now();builds++;lastUploadBytes=0;resetGeometry();marks=[];hit=[];pickBoxes=[];arcs=[];
 var dark=false,ground=dark?[.055,.085,.105]:[.9,.91,.86],stone=dark?[.15,.21,.24]:[.83,.85,.79],ink=dark?[.12,.18,.21]:[.77,.80,.75];
 if(opts.world==='bigz'){buildBigz();return}
-var key=[opts.mode==='archive'||opts.mode==='street',opts.layer==='geography'].join(':');
+var street=opts.mode==='street';GROUND_LIFT=street?3.6:1;
+var key=[opts.mode==='archive',opts.layer==='geography'&&!street,street].join(':');
 if(key!==staticKey||geo!==staticGeo){staticBuilds++;resetWater();
-addBox(0,-1,15,7200,1,7200,ground,0);
-var sheet=contentCrop()||{x0:-500,x1:500,z0:-500,z1:500},gx0=Math.ceil(sheet.x0/25)*25,gx1=Math.floor(sheet.x1/25)*25,gz0=Math.ceil(sheet.z0/25)*25,gz1=Math.floor(sheet.z1/25)*25;
-for(var x=gx0;x<=gx1;x+=25)line([x,0,sheet.z0],[x,0,sheet.z1],.028,ink,.008);for(var z=gz0;z<=gz1;z+=25)line([sheet.x0,0,z],[sheet.x1,0,z],.028,ink,.008);
+var sheet=contentCrop()||{x0:-500,x1:500,z0:-500,z1:500};
+/* On foot a 0.7 m hairline seen from 40 m up is sub-pixel, and the map extract
+   has no streets at all west of the Sava, which is exactly where a walker
+   spawns. So the grid is drawn heavier in FPS: something to steer by where
+   there is no city data. 25 units = 625 m, every fourth line heavier. */
+var gy=.008*GROUND_LIFT,gstep=street?5:25;
+function gridWeight(v){if(!street)return .028;return v%100===0?.52:v%25===0?.26:.10}
+var sx0=Math.ceil(sheet.x0/gstep)*gstep,sx1=Math.floor(sheet.x1/gstep)*gstep,sz0=Math.ceil(sheet.z0/gstep)*gstep,sz1=Math.floor(sheet.z1/gstep)*gstep;
+for(var x=sx0;x<=sx1;x+=gstep)line([x,0,sheet.z0],[x,0,sheet.z1],gridWeight(x),ink,gy);
+for(var z=sz0;z<=sz1;z+=gstep)line([sheet.x0,0,z],[sheet.x1,0,z],gridWeight(z),ink,gy);
+/* The base sheet used to be a 7200-unit slab. A quad that large never
+   rasterised on foot (and not even in orbit — it only looked right because the
+   clear colour is the same beige), so the ground map had nothing to sit on and
+   the walker saw bare sky below the horizon. It is now the cropped sheet plus
+   900 units, well past where fog has taken over at 620. */
+addBox((sheet.x0+sheet.x1)/2,-1,(sheet.z0+sheet.z1)/2,sheet.x1-sheet.x0+600,1,sheet.z1-sheet.z0+600,ground,0);
 chunk(0);
-if(opts.mode!=='archive'&&opts.mode!=='street'&&geo){
+if(opts.mode!=='archive'&&geo){
 /* Coordinates arrive quantized to integer microdegrees (see quantization in
    geography.json); decode once per feature. */
 function coordsOf(f){if(f.coordinates)return f.coordinates;var q=f.q,out=[];for(var i=0;i<q.length;i+=2)out.push([q[i]/1e6,q[i+1]/1e6]);return out}
@@ -788,13 +830,16 @@ var cells=new Map();for(var feature of geo.features){var c0=coordsOf(feature),p=
 for(var group of cells.values())for(var features of [group.building,group.river,group.major,group.minor]){var first=vertices.length/3;for(var f of features){var pts=coordsOf(f).map(p=>project(p[0],p[1]));if(f.kind==='building'){
  var mid=pts.reduce((a,p)=>[a[0]+p[0]/pts.length,0,a[2]+p[2]/pts.length],[0,0,0]);
  if(crop&&(mid[0]<crop.x0||mid[0]>crop.x1||mid[2]<crop.z0||mid[2]>crop.z1))continue;
- var real=opts.layer==='geography';
- polygon(pts,real?(f.height!==null?Math.max(.04,f.height/25):(f.levels!==null?Math.max(.04,f.levels*3/25):.04)):.022,stone);
+ /* On foot the city stays a flat sheet under you: a map to orient by, not a
+    second set of massing competing with the sculptures at eye height. */
+ var real=opts.layer==='geography'&&opts.mode!=='street';
+ polygon(pts,real?(f.height!==null?Math.max(.04,f.height/25):(f.levels!==null?Math.max(.04,f.levels*3/25):.04)):.022*GROUND_LIFT,street?[.846,.862,.80]:stone);
  if(real)hit.push({id:f.id,pos:mid,role:'geography'});
 }else{var width=f.kind==='river'?9:f.roadClass==='primary'?.32:.13;
+ if(street&&f.kind!=='river')width*=1.45;
  for(var run of clipRuns(pts,crop)){if(run.length<2)continue;
-  if(f.kind==='river'){var w=riverTaper(width,crop);ribbon(run,w,[.54,.69,.68],.025);waterRibbon(run,w)}
-  else for(var i=1;i<run.length;i++)line(run[i-1],run[i],width,ink,.025)}}}
+  if(f.kind==='river'){var w=riverTaper(width,crop);ribbon(run,w,[.54,.69,.68],.025*GROUND_LIFT);waterRibbon(run,w)}
+  else for(var i=1;i<run.length;i++)line(run[i-1],run[i],width,ink,.025*GROUND_LIFT)}}}
 chunk(first,features===group.minor?1:0)}}
 uploadWater();uploadClouds(opts.mode==='archive'?null:contentCrop());
 upload(staticMesh);staticHits=hit.slice();staticKey=key;staticGeo=geo;
@@ -951,7 +996,10 @@ function render(now){frame=0;if(document.hidden||!inView)return;frames++;var ren
 var growth=reduced.matches||!growthStart?1:Math.min(1,(now-growthStart)/950);if(growth<1)invalidate();
 var rect=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,opts.quality==='eco'?1:opts.quality==='high'?2:1.6,Math.sqrt((opts.quality==='high'?2400000:opts.quality==='eco'?650000:1400000)/Math.max(1,rect.width*rect.height))),w=Math.max(1,Math.round(rect.width*dpr)),h=Math.max(1,Math.round(rect.height*dpr));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h}gl.viewport(0,0,w,h);gl.enable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);var sky=opts.night?[.055,.085,.105]:[.9,.91,.86];gl.clearColor(...sky,1);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(prog);var d=cam.dist,cy=cam.pitch,cx=cam.yaw,eye=[cam.target[0]+d*Math.cos(cy)*Math.sin(cx),cam.target[1]+d*Math.sin(cy),cam.target[2]+d*Math.cos(cy)*Math.cos(cx)];
 var target=cam.target,viewEye=eye;
-if(opts.mode==='street'){eye=walk.pos;viewEye=eye;target=[eye[0]-Math.sin(walk.yaw)*Math.cos(walk.pitch),eye[1]+Math.sin(walk.pitch),eye[2]-Math.cos(walk.yaw)*Math.cos(walk.pitch)];M4.perspective(pMat,Math.PI/3,w/h,.05,2600)}
+if(opts.mode==='street'){eye=walk.pos;viewEye=eye;target=[eye[0]-Math.sin(walk.yaw)*Math.cos(walk.pitch),eye[1]+Math.sin(walk.pitch),eye[2]-Math.cos(walk.yaw)*Math.cos(walk.pitch)];/* Fog has fully taken over at 620, so the far plane is pulled in from 2600:
+   cheap depth resolution for the ground sheet. The near plane stays at .05 —
+   raising it clips whatever you are standing next to. */
+M4.perspective(pMat,Math.PI/3,w/h,.05,1700)}
 else{
  /* Orbit is orthographic: the eye carries no scale, so it is parked far behind
     the frame. Zooming in then never pushes geometry through the near plane. */
@@ -1149,5 +1197,5 @@ canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();document.getEl
 new ResizeObserver(invalidate).observe(canvas);document.addEventListener('visibilitychange',invalidate);reduced.addEventListener('change',invalidate);new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;if(inView)invalidate()}).observe(canvas);
 function geometryKey(o){return JSON.stringify([o.world||'atlas',o.mode==='archive',o.mode==='street',o.mode==='plan',o.layer,o.selected,o.claim,o.era||'',[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
 return {setBigz(b){if(bigz===b)return;bigz=b;bigzFor=null;if(opts.world==='bigz'){staticKey='';build()}},stop:stopWalk,setCulling(value){culling=!!value;invalidate()},setOrbitBack(value){ORBIT_BACK=value>0?value:2000;invalidate()},groundAt(cx,cy){return groundAt(cx,cy)},groundScreen(g){return groundScreen(g)},probeClip(on){clipProbe=!!on;invalidate()},update(d,g,o){var change=opts.mode!==o.mode||opts.world!==o.world,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}
-  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(zoomCeiling(),cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='street'&&opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:3.2,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0,density:data?densityField().meta:null}},density(){return data?densityField():null},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
+  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(zoomCeiling(),cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:WALK_SPEED,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0,density:data?densityField().meta:null}},density(){return data?densityField():null},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
 };
