@@ -229,7 +229,7 @@
       "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
-        "Dva podneska: razrešiti da li Željana Stefanović nastupa u istom timu sa Janom i Milom ili samostalno"
+        "Dva podneska: razrešiti da li podnosilac nastupa u istom timu sa ostala dva člana ili samostalno"
       ],
       "claimsCount": 14,
       "sectionsCount": 2
@@ -572,7 +572,7 @@
       "hasPassport": true,
       "flags": [
         "Prvi tim na Kuli Beograd (dozvoljeno)",
-        "Indeksi se proveravaju: student piše Bogićević 33 / Joksić 62, registar nosi obrnuto"
+        "Indeksi se proveravaju: podnesak vezuje 33 i 62 za prezimena obrnuto od registra"
       ],
       "claimsCount": 29,
       "sectionsCount": 7
@@ -844,7 +844,7 @@
       "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
-        "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i Marko Milanović, koji nisu u listi"
+        "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i još jedan student bez indeksa, koji nisu u listi"
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -1391,7 +1391,7 @@
       "flags": [
         "Prijem 2026-10-23: objekat nije bio u registru",
         "Vanbeogradski objekat — nije na beogradskoj mapi",
-        "Staša Žic: naslov mejla nosi 64/2026, telo 62/2026 — indeks se potvrđuje"
+        "Podnesak: naslov mejla nosi 64/2026, telo 62/2026 — indeks se potvrđuje"
       ],
       "claimsCount": 0,
       "sectionsCount": 0

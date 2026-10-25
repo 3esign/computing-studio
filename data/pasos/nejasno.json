@@ -1,6 +1,6 @@
 {
   "schema": "or/nejasno@1",
-  "updated": "2026-10-23",
+  "updated": "2026-10-25",
   "note": {
     "sr": "Ono što posle prijema 2026-10-23 ostaje nerazrešeno. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor.",
     "en": "What remains unresolved after the 2026-10-23 intake. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives."
@@ -17,18 +17,18 @@
     {
       "id": "n-zic-indeks",
       "teams": ["T70"],
-      "sr": "Staša Žic: naslov mejla nosi 64/2026, telo istog mejla 62/2026. Indeks 62/2026 već pripada drugom studentu u T28, a 64/2026 u T11.",
-      "en": "Staša Žic: the mail subject says 64/2026, the body of the same mail says 62/2026. Index 62/2026 already belongs to another student in T28, and 64/2026 in T11.",
-      "askSr": "Staša Žic: koji je tačan broj indeksa?",
-      "askEn": "Staša Žic: which index number is correct?"
+      "sr": "T70: naslov mejla podneska nosi 64/2026, telo istog mejla 62/2026. Indeks 62/2026 već pripada drugom studentu u T28, a 64/2026 u T11.",
+      "en": "T70: the submission’s mail subject says 64/2026, the body of the same mail says 62/2026. Index 62/2026 already belongs to another student in T28, and 64/2026 in T11.",
+      "askSr": "T70: koji je tačan broj indeksa?",
+      "askEn": "T70: which index number is correct?"
     },
     {
       "id": "n-t28-zamena",
       "teams": ["T28"],
-      "sr": "T28: student piše Bogićević 33 i Joksić 62, registar nosi obrnuto — Joksić 33 i Bogičević 62. Razlikuje se i pisanje prezimena (Bogičević / Bogićević).",
-      "en": "T28: the student writes Bogićević 33 and Joksić 62; the register holds the reverse — Joksić 33 and Bogičević 62. The surname spelling also differs (Bogičević / Bogićević).",
-      "askSr": "T28: koji indeks ide uz koje ime i kako se prezime piše?",
-      "askEn": "T28: which index goes with which name, and how is the surname spelled?"
+      "sr": "T28: podnesak vezuje indekse 33 i 62 za prezimena obrnuto od registra. Razlikuje se i pisanje jednog od ta dva prezimena.",
+      "en": "T28: the submission links indexes 33 and 62 to the surnames in the reverse order from the register. The spelling of one of the two surnames also differs.",
+      "askSr": "T28: koji član nosi 33, a koji 62, i kako se prezime tačno piše?",
+      "askEn": "T28: which member holds 33 and which 62, and how is the surname spelled exactly?"
     },
     {
       "id": "n-arhitriptih",
@@ -41,34 +41,34 @@
     {
       "id": "n-moskva",
       "teams": ["T29", "T54"],
-      "sr": "Hotel Moskva: podnesak Anje Šenić ne nosi indeks, a oba tima na objektu (T29 i T54) u registru stoje bez imena.",
-      "en": "Hotel Moskva: Anja Šenić’s submission carries no index, and both teams on the object (T29 and T54) stand in the register without names.",
-      "askSr": "Anja Šenić: indeks i tim (T29 ili T54)?",
-      "askEn": "Anja Šenić: index number and team (T29 or T54)?"
+      "sr": "Hotel Moskva: podnesak za objekat ne nosi indeks podnosioca, a oba tima na objektu (T29 i T54) u registru stoje bez potvrđenih indeksa.",
+      "en": "Hotel Moskva: the submission for the object carries no submitter index, and both teams on the object (T29 and T54) stand in the register without confirmed indexes.",
+      "askSr": "Podnosilac za Hotel Moskvu: indeks i tim (T29 ili T54)?",
+      "askEn": "Hotel Moskva submitter: index number and team (T29 or T54)?"
     },
     {
       "id": "n-t69-sastav",
       "teams": ["T69", "T42"],
-      "sr": "Prva beogradska gimnazija sada ima dva tima. Elena Sekulić (93/2026) piše u množini, ali ostale članove ne imenuje; Marko Milanović radi na istom objektu, a nije ni u jednoj listi.",
-      "en": "Prva beogradska gimnazija now has two teams. Elena Sekulić (93/2026) writes in the plural but does not name the others; Marko Milanović works on the same object yet appears in neither list.",
-      "askSr": "T69: ko su članovi? Marko Milanović: u kom si timu?",
-      "askEn": "T69: who are the members? Marko Milanović: which team are you in?"
+      "sr": "Prva beogradska gimnazija sada ima dva tima. Nosilac 93/2026 piše u množini, ali ostale članove ne imenuje; još jedan student radi na istom objektu, a nije ni u jednoj listi.",
+      "en": "Prva beogradska gimnazija now has two teams. The holder of 93/2026 writes in the plural but does not name the others; one more student works on the same object yet appears in neither list.",
+      "askSr": "T69: ko su članovi? Student na istom objektu: u kom si timu?",
+      "askEn": "T69: who are the members? Student on the same object: which team are you in?"
     },
     {
       "id": "n-t38-tema",
       "teams": ["T38"],
-      "sr": "T38 (Babić 10, Gladanac 27) potvrđen je imenima, ali naziv predatog dokumenta govori o drugom objektu nego registar, koji nosi Vladičanski dvor u Vršcu. U samim mejlovima nova tema se ne pominje.",
-      "en": "T38 (Babić 10, Gladanac 27) is confirmed by name, but the submitted document’s filename names a different object than the register, which holds the Bishop’s Palace in Vršac. The mails themselves never mention a new topic.",
+      "sr": "T38 (indeksi 10 i 27) potvrđen je od podnosioca, ali naziv predatog dokumenta govori o drugom objektu nego registar, koji nosi Vladičanski dvor u Vršcu. U samim mejlovima nova tema se ne pominje.",
+      "en": "T38 (indexes 10 and 27) is confirmed by its submitters, but the submitted document’s filename names a different object than the register, which holds the Bishop’s Palace in Vršac. The mails themselves never mention a new topic.",
       "askSr": "T38: ostaje li Vladičanski dvor u Vršcu ili je tema promenjena?",
       "askEn": "T38: does the Bishop’s Palace in Vršac stand, or has the topic changed?"
     },
     {
       "id": "n-bez-indeksa",
       "teams": ["T21", "T46"],
-      "sr": "Dva podneska vezana su samo objektom: Filip Nikolić (Dve kule Beograd → T21) i Vihora Radovanović (Hotel Jugoslavija → T46). U oba slučaja tim je jedini na objektu, ali indeks nije naveden.",
-      "en": "Two submissions are linked by object alone: Filip Nikolić (Dve kule Beograd → T21) and Vihora Radovanović (Hotel Jugoslavija → T46). In both cases the team is the only one on the object, but no index was given.",
-      "askSr": "Filip Nikolić i Vihora Radovanović: potvrdite broj indeksa i tim.",
-      "askEn": "Filip Nikolić and Vihora Radovanović: confirm your index number and team."
+      "sr": "Dva podneska vezana su samo objektom: Dve kule Beograd (→ T21) i Hotel Jugoslavija (→ T46). U oba slučaja tim je jedini na objektu, ali indeks nije naveden.",
+      "en": "Two submissions are linked by object alone: Dve kule Beograd (→ T21) and Hotel Jugoslavija (→ T46). In both cases the team is the only one on the object, but no index was given.",
+      "askSr": "Podnosioci za Dve kule Beograd i Hotel Jugoslaviju: potvrdite broj indeksa i tim.",
+      "askEn": "Submitters for Dve kule Beograd and Hotel Jugoslavija: confirm your index number and team."
     },
     {
       "id": "n-dupli-indeksi",

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "note": "Objekti van Beograda. Koordinate su centri gradova (OSM / Wikidata), nisu lokacije samih objekata — zato ti timovi ostaju locationStatus:'unmapped' i u beogradskoj sceni nemaju tačku. Ovaj registar je jedini izvor: i spisak, i broj, i geografija zbirke idu odavde. Novi vanbeogradski tim se dodaje ovde, ne u kodu.",
+  "entries": [
+    {
+      "id": "T10",
+      "city": "Pančevo",
+      "lat": 44.8708,
+      "lng": 20.6403
+    },
+    {
+      "id": "T51",
+      "city": "Sremska Mitrovica",
+      "lat": 44.9769,
+      "lng": 19.6122
+    },
+    {
+      "id": "T70",
+      "city": "Subotica",
+      "lat": 46.1,
+      "lng": 19.665
+    },
+    {
+      "id": "T38",
+      "city": "Vršac",
+      "lat": 45.1167,
+      "lng": 21.3028
+    },
+    {
+      "id": "T07",
+      "city": "Užice",
+      "lat": 43.8556,
+      "lng": 19.8425
+    },
+    {
+      "id": "T32",
+      "city": "Podgorica",
+      "lat": 42.4304,
+      "lng": 19.2594
+    }
+  ]
+}

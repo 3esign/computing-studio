@@ -1,6 +1,6 @@
 {
-  "version": "77986a287927a39a",
-  "bytes": 12312793,
+  "version": "7197d6a11fe77303",
+  "bytes": 12313654,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -34,6 +34,7 @@
     "data/pasos/nejasno.json",
     "data/pasos/objekat-001-savski-most.json",
     "data/pasos/timovi-evidencija.json",
+    "data/pasos/van-beograda.json",
     "data/sources.json",
     "data/taxonomy.json",
     "data/verzije.json",
