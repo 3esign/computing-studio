@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-8f13f7fa73c08511",
+  "datasetRevision": "r-e737d566122b7cb9",
   "teams": [
     {
       "id": "T01",
@@ -40,8 +40,8 @@
       ],
       "topic": "Industrijsko nasleđe i revitalizacija silosa žita",
       "place": "Dorćol / Dunavski kej",
-      "lat": 44.833,
-      "lng": 20.4765,
+      "lat": 44.8333,
+      "lng": 20.4777,
       "x": 93.97,
       "y": 1.8,
       "z": -75.01,
@@ -68,8 +68,8 @@
       ],
       "topic": "Kongresni kompleks i savremena rekonstrukcija",
       "place": "Novi Beograd, Blok 19",
-      "lat": 44.806,
-      "lng": 20.425,
+      "lat": 44.8117,
+      "lng": 20.4205,
       "x": -88.65,
       "y": 0.2,
       "z": 60.01,
@@ -97,8 +97,8 @@
       ],
       "topic": "Istorija korišćenja i transformacija u kreativno-inovativni hab",
       "place": "Savski venac / Mostar",
-      "lat": 44.802,
-      "lng": 20.45,
+      "lat": 44.8023,
+      "lng": 20.4487,
       "x": 0,
       "y": 4,
       "z": 80.01,
@@ -127,8 +127,8 @@
       ],
       "topic": "Kulturni centar, omladinska arhitektura, enterijer",
       "place": "Stari grad / Dečanska",
-      "lat": 44.814,
-      "lng": 20.4645,
+      "lat": 44.816,
+      "lng": 20.4617,
       "x": 51.42,
       "y": 4,
       "z": 20,
@@ -155,8 +155,8 @@
       ],
       "topic": "Istorijska kula, vidikovac, materijali (kamen, opeka)",
       "place": "Zemun",
-      "lat": 44.844,
-      "lng": 20.408,
+      "lat": 44.8455,
+      "lng": 20.4095,
       "x": -148.93,
       "y": 0.2,
       "z": -130.02,
@@ -299,8 +299,8 @@
       ],
       "topic": "Monumentalna sakralna arhitektura, kupola, materijali i izvođenje",
       "place": "Vračar",
-      "lat": 44.798,
-      "lng": 20.468,
+      "lat": 44.7983,
+      "lng": 20.4692,
       "x": 63.83,
       "y": 4,
       "z": 100.02,
@@ -358,7 +358,7 @@
       ],
       "topic": "Uporedna analiza dva ključna beogradska zdanja, prostorna struktura i preseci",
       "place": "Knez Mihailova",
-      "lat": 44.8183,
+      "lat": 44.8176,
       "lng": 20.4573,
       "x": 25.89,
       "y": 3.2,
@@ -414,8 +414,8 @@
       ],
       "topic": "Televizijski centar, specifičnosti enterijera i akustičkih studija",
       "place": "Takovska",
-      "lat": 44.8075,
-      "lng": 20.469,
+      "lat": 44.8094,
+      "lng": 20.4702,
       "x": 67.37,
       "y": 4,
       "z": 52.51,
@@ -443,8 +443,8 @@
       ],
       "topic": "Konstantin Jovanović, neorenesansna palata, trezori, reprezentativni hol",
       "place": "Kralja Petra",
-      "lat": 44.8175,
-      "lng": 20.457,
+      "lat": 44.8183,
+      "lng": 20.4565,
       "x": 24.82,
       "y": 3.2,
       "z": 2.5,
@@ -472,8 +472,8 @@
       ],
       "topic": "Branko Pešić, armiranobetonska konstrukcija, dijafragme, vertikalne komunikacije",
       "place": "Kralja Milana",
-      "lat": 44.8085,
-      "lng": 20.4555,
+      "lat": 44.8109,
+      "lng": 20.4633,
       "x": 19.5,
       "y": 3.2,
       "z": 47.51,
@@ -500,8 +500,8 @@
       ],
       "topic": "Energetska efikasnost, fasadni paneli, staklene površine, HVAC sistemi",
       "place": "Kralja Milana",
-      "lat": 44.8085,
-      "lng": 20.4555,
+      "lat": 44.8109,
+      "lng": 20.4633,
       "x": 19.5,
       "y": 3.2,
       "z": 47.51,
@@ -529,8 +529,8 @@
       ],
       "topic": "Proces gradnje (1925–1931), Nikola Nestorović i Branko Tanazević, simboli inženjerstva",
       "place": "Bulevar kralja Aleksandra",
-      "lat": 44.8065,
-      "lng": 20.477,
+      "lat": 44.8055,
+      "lng": 20.4793,
       "x": 95.74,
       "y": 4,
       "z": 57.51,
@@ -558,8 +558,8 @@
       ],
       "topic": "Materijali, fasada od veštačkog kamena, krovna konstrukcija i svetlarnici",
       "place": "Trg republike",
-      "lat": 44.8195,
-      "lng": 20.459,
+      "lat": 44.8166,
+      "lng": 20.4601,
       "x": 31.91,
       "y": 3.2,
       "z": -7.5,
@@ -587,8 +587,8 @@
       ],
       "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
       "place": "Admirala Geprata",
-      "lat": 44.8115,
-      "lng": 20.461,
+      "lat": 44.8148,
+      "lng": 20.4406,
       "x": 39.01,
       "y": 4,
       "z": 32.51,
@@ -644,8 +644,8 @@
       ],
       "topic": "Bojan Stupica, požar 1997, staklena fasada Zorana Radojičića, teatar",
       "place": "Cvetni trg",
-      "lat": 44.811,
-      "lng": 20.4652,
+      "lat": 44.8077,
+      "lng": 20.4617,
       "x": 53.9,
       "y": 4,
       "z": 35.01,
@@ -673,8 +673,8 @@
       ],
       "topic": "Momir Korunović, srpsko-vizantijski modernizam, posleratno uklanjanje fasade",
       "place": "Savski trg",
-      "lat": 44.8125,
-      "lng": 20.4552,
+      "lat": 44.806,
+      "lng": 20.4589,
       "x": 18.44,
       "y": 3.2,
       "z": 27.5,
@@ -732,8 +732,8 @@
       ],
       "topic": "Ivan Antić, prenapregnuti beton, geometrija heksagona, istorijat kule",
       "place": "Dunavski kej, Dorćol",
-      "lat": 44.829,
-      "lng": 20.451,
+      "lat": 44.8272,
+      "lng": 20.4586,
       "x": 3.55,
       "y": 3.2,
       "z": -55.01,
@@ -760,8 +760,8 @@
       ],
       "topic": "Materijali, mermerne obloge, mozaik, proces gradnje",
       "place": "Vračar",
-      "lat": 44.798,
-      "lng": 20.468,
+      "lat": 44.7983,
+      "lng": 20.4692,
       "x": 63.83,
       "y": 4,
       "z": 100.02,
@@ -789,8 +789,8 @@
       ],
       "topic": "Konstrukcija i izvođenje radova, šipovi, rotirana silueta",
       "place": "Beograd na vodi",
-      "lat": 44.806,
-      "lng": 20.446,
+      "lat": 44.8046,
+      "lng": 20.4455,
       "x": -14.18,
       "y": 1.8,
       "z": 60.01,
@@ -818,8 +818,8 @@
       ],
       "topic": "Jovan Ilkić, secesija, keramika Žolnai, specifičnosti enterijera",
       "place": "Terazije",
-      "lat": 44.814,
-      "lng": 20.459,
+      "lat": 44.8138,
+      "lng": 20.4595,
       "x": 31.91,
       "y": 3.2,
       "z": 20,
@@ -847,8 +847,8 @@
       ],
       "topic": "Jan Nevole, istorijske promene, namene kroz vreme, arhivska građa Rektorata",
       "place": "Studentski trg",
-      "lat": 44.8205,
-      "lng": 20.456,
+      "lat": 44.8201,
+      "lng": 20.4575,
       "x": 21.28,
       "y": 3.2,
       "z": -12.5,
@@ -875,8 +875,8 @@
       ],
       "topic": "Konstruktivni elementi i enterijer, tavanica, svečana sala",
       "place": "Studentski trg",
-      "lat": 44.8205,
-      "lng": 20.456,
+      "lat": 44.8201,
+      "lng": 20.4575,
       "x": 21.28,
       "y": 3.2,
       "z": -12.5,
@@ -932,8 +932,8 @@
       ],
       "topic": "Aleksandar Bugarski, istorija zdanja kroz epohe, rekonstrukcije",
       "place": "Kralja Milana",
-      "lat": 44.812,
-      "lng": 20.462,
+      "lat": 44.8122,
+      "lng": 20.4616,
       "x": 42.55,
       "y": 4,
       "z": 30.01,
@@ -960,8 +960,8 @@
       ],
       "topic": "Istorijat izgradnje i kulturni značaj simbola Beograda",
       "place": "Kralja Milana",
-      "lat": 44.8085,
-      "lng": 20.4555,
+      "lat": 44.8109,
+      "lng": 20.4633,
       "x": 19.5,
       "y": 3.2,
       "z": 47.51,
@@ -988,8 +988,8 @@
       ],
       "topic": "Mihajlo Mitrović, brutalizam, pasarela, rotirajući restoran",
       "place": "Novi Beograd, Blok 33",
-      "lat": 44.812,
-      "lng": 20.406,
+      "lat": 44.8205,
+      "lng": 20.3862,
       "x": -156.02,
       "y": 0.2,
       "z": 30.01,
@@ -1017,8 +1017,8 @@
       ],
       "topic": "Arhitektonska simbolika, fasadna plastika, skulpture inženjera",
       "place": "Bulevar kralja Aleksandra",
-      "lat": 44.8065,
-      "lng": 20.477,
+      "lat": 44.8055,
+      "lng": 20.4793,
       "x": 95.74,
       "y": 4,
       "z": 57.51,
@@ -1046,8 +1046,8 @@
       ],
       "topic": "Proces izgradnje, obnove nakon razaranja, enterijer sale",
       "place": "Trg republike",
-      "lat": 44.8192,
-      "lng": 20.4602,
+      "lat": 44.8169,
+      "lng": 20.4619,
       "x": 36.17,
       "y": 3.2,
       "z": -6,
@@ -1159,8 +1159,8 @@
       ],
       "topic": "Dragiša Brašovan, industrijski modernizam, armiranobetonska konstrukcija, arhivska građa",
       "place": "Bulevar vojvode Mišića, Senjak",
-      "lat": 44.7995,
-      "lng": 20.447,
+      "lat": 44.7985,
+      "lng": 20.4474,
       "x": -10.64,
       "y": 1.8,
       "z": 92.52,
@@ -1187,8 +1187,8 @@
       ],
       "topic": "Milica Krstić, prosvetna arhitektura, 3D prostorni eksperiment i gamifikacija pasoša",
       "place": "Cara Dušana, Dorćol",
-      "lat": 44.8255,
-      "lng": 20.4585,
+      "lat": 44.8257,
+      "lng": 20.4564,
       "x": 30.14,
       "y": 3.2,
       "z": -37.51,
@@ -1215,8 +1215,8 @@
       ],
       "topic": "Autorstvo i projektantski kontinuitet (Nestorović, Deroko, Pešić)",
       "place": "Vračar",
-      "lat": 44.798,
-      "lng": 20.468,
+      "lat": 44.7983,
+      "lng": 20.4692,
       "x": 63.83,
       "y": 4,
       "z": 100.02,
@@ -1244,8 +1244,8 @@
       ],
       "topic": "Arhitektura škole, transformacija i lično korisničko iskustvo",
       "place": "Beograd",
-      "lat": 44.7817,
-      "lng": 20.4772,
+      "lat": 44.743,
+      "lng": 20.4712,
       "x": 85.91,
       "y": 3.2,
       "z": 161.64,
@@ -1277,8 +1277,8 @@
       ],
       "topic": "Građenje, tehnologija klizne oplate, inženjerski izazovi 1970-ih",
       "place": "Novi Beograd, Blok 33",
-      "lat": 44.812,
-      "lng": 20.406,
+      "lat": 44.8205,
+      "lng": 20.3862,
       "x": -156.02,
       "y": 0.2,
       "z": 30.01,
@@ -1306,8 +1306,8 @@
       ],
       "topic": "Lavoslav Horvat, monumentalni dunavski front, istorijat i pitanje rušenja/rekonstrukcije",
       "place": "Zemunski kej",
-      "lat": 44.824,
-      "lng": 20.415,
+      "lat": 44.8262,
+      "lng": 20.431,
       "x": -124.11,
       "y": 0.2,
       "z": -30.01,
@@ -1335,8 +1335,8 @@
       ],
       "topic": "Branko Žeželj, prenapregnuti beton, kupola raspona 109m, svetski rekord",
       "place": "Bulevar vojvode Mišića",
-      "lat": 44.8045,
-      "lng": 20.4485,
+      "lat": 44.8057,
+      "lng": 20.4452,
       "x": -5.32,
       "y": 1.8,
       "z": 67.51,
@@ -1363,8 +1363,8 @@
       ],
       "topic": "Potočnjak, Janković, armiranobetonski skelet, enterijeri republika, monumentalnost",
       "place": "Novi Beograd",
-      "lat": 44.8085,
-      "lng": 20.43,
+      "lat": 44.8175,
+      "lng": 20.4231,
       "x": -70.92,
       "y": 0.2,
       "z": 47.51,
@@ -1419,8 +1419,8 @@
       ],
       "topic": "Fasada i vidikovac, javni prostori",
       "place": "Kralja Milana",
-      "lat": 44.8085,
-      "lng": 20.4555,
+      "lat": 44.8109,
+      "lng": 20.4633,
       "x": 19.5,
       "y": 3.2,
       "z": 47.51,
@@ -1477,8 +1477,8 @@
       ],
       "topic": "Urbanistička pozicija, pristupni plato, stambena vs poslovna kula",
       "place": "Novi Beograd, Blok 33",
-      "lat": 44.812,
-      "lng": 20.406,
+      "lat": 44.8205,
+      "lng": 20.3862,
       "x": -156.02,
       "y": 0.2,
       "z": 30.01,
@@ -1505,8 +1505,8 @@
       ],
       "topic": "IMS sistem prefabrikacije, Branko Žeželj, ispitivanje materijala, laboratorije",
       "place": "Bulevar vojvode Mišića 43",
-      "lat": 44.811,
-      "lng": 20.434,
+      "lat": 44.8027,
+      "lng": 20.4388,
       "x": -56.74,
       "y": 0.2,
       "z": 35.01,
@@ -1534,8 +1534,8 @@
       ],
       "topic": "Autorstvo (Ilkić vs Peterburški arhitekti), Ruski carski stil",
       "place": "Terazije",
-      "lat": 44.814,
-      "lng": 20.459,
+      "lat": 44.8138,
+      "lng": 20.4595,
       "x": 31.91,
       "y": 3.2,
       "z": 20,
@@ -1562,8 +1562,8 @@
       ],
       "topic": "Razvoj novca, sigurnosni sistemi zgrade, sefovi, istorijska stolarija",
       "place": "Kralja Petra",
-      "lat": 44.8175,
-      "lng": 20.457,
+      "lat": 44.8183,
+      "lng": 20.4565,
       "x": 24.82,
       "y": 3.2,
       "z": 2.5,
@@ -1590,8 +1590,8 @@
       ],
       "topic": "Pozorišna scenografija, scenska mehanika, rotaciona bina",
       "place": "Trg republike",
-      "lat": 44.8192,
-      "lng": 20.4602,
+      "lat": 44.8169,
+      "lng": 20.4619,
       "x": 36.17,
       "y": 3.2,
       "z": -6,
@@ -1618,8 +1618,8 @@
       ],
       "topic": "Geneks — simbol modernističkog Beograda: konstrukcija, statika i gradnja",
       "place": "Novi Beograd, Blok 33",
-      "lat": 44.812,
-      "lng": 20.406,
+      "lat": 44.8205,
+      "lng": 20.3862,
       "x": -156.02,
       "y": 0.2,
       "z": 30.01,
@@ -1646,8 +1646,8 @@
       ],
       "topic": "Konstrukcija amfiteatara i krovnih nosača",
       "place": "Bulevar kralja Aleksandra",
-      "lat": 44.8065,
-      "lng": 20.477,
+      "lat": 44.8055,
+      "lng": 20.4793,
       "x": 95.74,
       "y": 4,
       "z": 57.51,
@@ -1702,8 +1702,8 @@
       ],
       "topic": "Istorija izgradnje, arhitektonsko i konstruktivno rešenje, spisak literature",
       "place": "Novi Beograd, Blok 19",
-      "lat": 44.806,
-      "lng": 20.425,
+      "lat": 44.8117,
+      "lng": 20.4205,
       "x": -88.65,
       "y": 0.2,
       "z": 60.01,
@@ -1731,8 +1731,8 @@
       ],
       "topic": "Oblikovanje doživljaja institucije i autoriteta, monumentalnost, materijali",
       "place": "Savska",
-      "lat": 44.7985,
-      "lng": 20.4525,
+      "lat": 44.8035,
+      "lng": 20.4553,
       "x": 8.87,
       "y": 4,
       "z": 97.52,
@@ -1759,8 +1759,8 @@
       ],
       "topic": "Urbanistički kontekst i odnos prema trgovačkom centru",
       "place": "Kralja Milana",
-      "lat": 44.8085,
-      "lng": 20.4555,
+      "lat": 44.8109,
+      "lng": 20.4633,
       "x": 19.5,
       "y": 3.2,
       "z": 47.51,
@@ -1787,8 +1787,8 @@
       ],
       "topic": "Elektronski i digitalni pasoš: 9 detaljnih poglavlja, PERI oplata, tehnička dokumentacija",
       "place": "Novi Beograd, Blok 65",
-      "lat": 44.813,
-      "lng": 20.422,
+      "lat": 44.8097,
+      "lng": 20.3942,
       "x": -99.29,
       "y": 0.2,
       "z": 25,
@@ -1816,8 +1816,8 @@
       ],
       "topic": "Projektovanje i statički proračuni, saradnja arhitekata i građevinaca",
       "place": "Beograd na vodi",
-      "lat": 44.805,
-      "lng": 20.445,
+      "lat": 44.8109,
+      "lng": 20.4633,
       "x": -17.73,
       "y": 0.2,
       "z": 65.01,
@@ -1844,8 +1844,8 @@
       ],
       "topic": "Jelisaveta Načić, srpsko-vizantijski stil, materijali, poseta crkvi i razgovor sa sveštenstvom",
       "place": "Francuska / Dositejeva",
-      "lat": 44.821,
-      "lng": 20.468,
+      "lat": 44.826,
+      "lng": 20.4566,
       "x": 63.83,
       "y": 1.8,
       "z": -15,
@@ -1872,8 +1872,8 @@
       ],
       "topic": "Nikola Nestorović, secesija, istorijat hotela, posleratna upotreba, tekuća restauracija",
       "place": "Karađorđeva, Savamala",
-      "lat": 44.8105,
-      "lng": 20.4495,
+      "lat": 44.812,
+      "lng": 20.4505,
       "x": -1.77,
       "y": 3.2,
       "z": 37.51,
@@ -1901,8 +1901,8 @@
       ],
       "topic": "Konstruktivni sistem Kule Beograd, armiranobetonsko jezgro, kompozitni stubovi, fasada",
       "place": "Beograd na vodi",
-      "lat": 44.806,
-      "lng": 20.446,
+      "lat": 44.8046,
+      "lng": 20.4455,
       "x": -14.18,
       "y": 1.8,
       "z": 60.01,
@@ -1930,8 +1930,8 @@
       ],
       "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
       "place": "Bulevar kralja Aleksandra",
-      "lat": 44.8065,
-      "lng": 20.477,
+      "lat": 44.8055,
+      "lng": 20.4793,
       "x": null,
       "y": 3.2,
       "z": null,
@@ -1957,8 +1957,8 @@
       ],
       "topic": "Milica Krstić, modernistička forma prema istorijskom jezgru Dorćola i Skadarlije, ratna oštećenja",
       "place": "Dorćol",
-      "lat": 44.8248,
-      "lng": 20.4601,
+      "lat": 44.8257,
+      "lng": 20.4564,
       "x": null,
       "y": 3.2,
       "z": null,
@@ -2057,8 +2057,8 @@
       "teamCount": 1,
       "place": "Dorćol / Dunavski kej",
       "city": "Beograd",
-      "lat": 44.833,
-      "lng": 20.4765,
+      "lat": 44.8333,
+      "lng": 20.4777,
       "locationStatus": "approximate",
       "passports": 1,
       "claimsCount": 28,
@@ -2099,8 +2099,8 @@
       "teamCount": 2,
       "place": "Novi Beograd, Blok 19",
       "city": "Beograd",
-      "lat": 44.806,
-      "lng": 20.425,
+      "lat": 44.8117,
+      "lng": 20.4205,
       "locationStatus": "approximate",
       "passports": 1,
       "claimsCount": 30,
@@ -2146,8 +2146,8 @@
       "teamCount": 1,
       "place": "Savski venac / Mostar",
       "city": "Beograd",
-      "lat": 44.802,
-      "lng": 20.45,
+      "lat": 44.8023,
+      "lng": 20.4487,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -2187,8 +2187,8 @@
       "teamCount": 1,
       "place": "Stari grad / Dečanska",
       "city": "Beograd",
-      "lat": 44.814,
-      "lng": 20.4645,
+      "lat": 44.816,
+      "lng": 20.4617,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -2228,8 +2228,8 @@
       "teamCount": 1,
       "place": "Zemun",
       "city": "Beograd",
-      "lat": 44.844,
-      "lng": 20.408,
+      "lat": 44.8455,
+      "lng": 20.4095,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -2435,8 +2435,8 @@
       "teamCount": 3,
       "place": "Vračar",
       "city": "Beograd",
-      "lat": 44.798,
-      "lng": 20.468,
+      "lat": 44.7983,
+      "lng": 20.4692,
       "locationStatus": "approximate",
       "passports": 1,
       "claimsCount": 14,
@@ -2529,7 +2529,7 @@
       "teamCount": 1,
       "place": "Knez Mihailova",
       "city": "Beograd",
-      "lat": 44.8183,
+      "lat": 44.8176,
       "lng": 20.4573,
       "locationStatus": "approximate",
       "passports": 0,
@@ -2611,8 +2611,8 @@
       "teamCount": 1,
       "place": "Takovska",
       "city": "Beograd",
-      "lat": 44.8075,
-      "lng": 20.469,
+      "lat": 44.8094,
+      "lng": 20.4702,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -2652,8 +2652,8 @@
       "teamCount": 1,
       "place": "Kralja Petra",
       "city": "Beograd",
-      "lat": 44.8175,
-      "lng": 20.457,
+      "lat": 44.8183,
+      "lng": 20.4565,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -2698,8 +2698,8 @@
       "teamCount": 6,
       "place": "Kralja Milana",
       "city": "Beograd",
-      "lat": 44.8085,
-      "lng": 20.4555,
+      "lat": 44.8109,
+      "lng": 20.4633,
       "locationStatus": "approximate",
       "passports": 1,
       "claimsCount": 9,
@@ -2772,8 +2772,8 @@
       "teamCount": 4,
       "place": "Bulevar kralja Aleksandra",
       "city": "Beograd",
-      "lat": 44.8065,
-      "lng": 20.477,
+      "lat": 44.8055,
+      "lng": 20.4793,
       "locationStatus": "approximate",
       "passports": 1,
       "claimsCount": 13,
@@ -2831,8 +2831,8 @@
       "teamCount": 1,
       "place": "Trg republike",
       "city": "Beograd",
-      "lat": 44.8195,
-      "lng": 20.459,
+      "lat": 44.8166,
+      "lng": 20.4601,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -2872,8 +2872,8 @@
       "teamCount": 1,
       "place": "Admirala Geprata",
       "city": "Beograd",
-      "lat": 44.8115,
-      "lng": 20.461,
+      "lat": 44.8148,
+      "lng": 20.4406,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -2954,8 +2954,8 @@
       "teamCount": 1,
       "place": "Cvetni trg",
       "city": "Beograd",
-      "lat": 44.811,
-      "lng": 20.4652,
+      "lat": 44.8077,
+      "lng": 20.4617,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -2995,8 +2995,8 @@
       "teamCount": 1,
       "place": "Savski trg",
       "city": "Beograd",
-      "lat": 44.8125,
-      "lng": 20.4552,
+      "lat": 44.806,
+      "lng": 20.4589,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3077,8 +3077,8 @@
       "teamCount": 1,
       "place": "Dunavski kej, Dorćol",
       "city": "Beograd",
-      "lat": 44.829,
-      "lng": 20.451,
+      "lat": 44.8272,
+      "lng": 20.4586,
       "locationStatus": "approximate",
       "passports": 1,
       "claimsCount": 12,
@@ -3119,8 +3119,8 @@
       "teamCount": 2,
       "place": "Beograd na vodi",
       "city": "Beograd",
-      "lat": 44.806,
-      "lng": 20.446,
+      "lat": 44.8046,
+      "lng": 20.4455,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3167,8 +3167,8 @@
       "teamCount": 2,
       "place": "Terazije",
       "city": "Beograd",
-      "lat": 44.814,
-      "lng": 20.459,
+      "lat": 44.8138,
+      "lng": 20.4595,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3215,8 +3215,8 @@
       "teamCount": 2,
       "place": "Studentski trg",
       "city": "Beograd",
-      "lat": 44.8205,
-      "lng": 20.456,
+      "lat": 44.8201,
+      "lng": 20.4575,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3303,8 +3303,8 @@
       "teamCount": 1,
       "place": "Kralja Milana",
       "city": "Beograd",
-      "lat": 44.812,
-      "lng": 20.462,
+      "lat": 44.8122,
+      "lng": 20.4616,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3347,8 +3347,8 @@
       "teamCount": 4,
       "place": "Novi Beograd, Blok 33",
       "city": "Beograd",
-      "lat": 44.812,
-      "lng": 20.406,
+      "lat": 44.8205,
+      "lng": 20.3862,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3407,8 +3407,8 @@
       "teamCount": 2,
       "place": "Trg republike",
       "city": "Beograd",
-      "lat": 44.8192,
-      "lng": 20.4602,
+      "lat": 44.8169,
+      "lng": 20.4619,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3577,8 +3577,8 @@
       "teamCount": 1,
       "place": "Bulevar vojvode Mišića, Senjak",
       "city": "Beograd",
-      "lat": 44.7995,
-      "lng": 20.447,
+      "lat": 44.7985,
+      "lng": 20.4474,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3619,8 +3619,8 @@
       "teamCount": 2,
       "place": "Cara Dušana, Dorćol",
       "city": "Beograd",
-      "lat": 44.8255,
-      "lng": 20.4585,
+      "lat": 44.8257,
+      "lng": 20.4564,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3666,8 +3666,8 @@
       "teamCount": 1,
       "place": "Beograd",
       "city": "Beograd",
-      "lat": 44.7817,
-      "lng": 20.4772,
+      "lat": 44.743,
+      "lng": 20.4712,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3707,8 +3707,8 @@
       "teamCount": 1,
       "place": "Zemunski kej",
       "city": "Beograd",
-      "lat": 44.824,
-      "lng": 20.415,
+      "lat": 44.8262,
+      "lng": 20.431,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3748,8 +3748,8 @@
       "teamCount": 1,
       "place": "Bulevar vojvode Mišića",
       "city": "Beograd",
-      "lat": 44.8045,
-      "lng": 20.4485,
+      "lat": 44.8057,
+      "lng": 20.4452,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -3789,8 +3789,8 @@
       "teamCount": 1,
       "place": "Novi Beograd",
       "city": "Beograd",
-      "lat": 44.8085,
-      "lng": 20.43,
+      "lat": 44.8175,
+      "lng": 20.4231,
       "locationStatus": "approximate",
       "passports": 1,
       "claimsCount": 24,
@@ -3912,8 +3912,8 @@
       "teamCount": 1,
       "place": "Bulevar vojvode Mišića 43",
       "city": "Beograd",
-      "lat": 44.811,
-      "lng": 20.434,
+      "lat": 44.8027,
+      "lng": 20.4388,
       "locationStatus": "approximate",
       "passports": 1,
       "claimsCount": 9,
@@ -3953,8 +3953,8 @@
       "teamCount": 1,
       "place": "Kralja Petra",
       "city": "Beograd",
-      "lat": 44.8175,
-      "lng": 20.457,
+      "lat": 44.8183,
+      "lng": 20.4565,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -4035,8 +4035,8 @@
       "teamCount": 1,
       "place": "Savska",
       "city": "Beograd",
-      "lat": 44.7985,
-      "lng": 20.4525,
+      "lat": 44.8035,
+      "lng": 20.4553,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -4076,8 +4076,8 @@
       "teamCount": 1,
       "place": "Novi Beograd, Blok 65",
       "city": "Beograd",
-      "lat": 44.813,
-      "lng": 20.422,
+      "lat": 44.8097,
+      "lng": 20.3942,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -4117,8 +4117,8 @@
       "teamCount": 1,
       "place": "Francuska / Dositejeva",
       "city": "Beograd",
-      "lat": 44.821,
-      "lng": 20.468,
+      "lat": 44.826,
+      "lng": 20.4566,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -4158,8 +4158,8 @@
       "teamCount": 1,
       "place": "Karađorđeva, Savamala",
       "city": "Beograd",
-      "lat": 44.8105,
-      "lng": 20.4495,
+      "lat": 44.812,
+      "lng": 20.4505,
       "locationStatus": "approximate",
       "passports": 0,
       "claimsCount": 0,
@@ -9839,514 +9839,514 @@
     },
     "core": 45,
     "compress": 0.4,
-    "capUnits": 15,
-    "note": "Radijalni kartogram: do 1125 m od centra mape projekcija je nepromenjena, dalje je rastojanje od centra sabijeno na 40% (azimut tačan, redosled tačan); isti pomeraj važi i za geografski sloj. Skulpture su potom razmaknute najviše 375 m da se ne preklapaju. Pomeraj je čitljivost, ne merenje objekta.",
+    "capUnits": 10,
+    "note": "Radijalni kartogram: do 1125 m od centra mape projekcija je nepromenjena, dalje je rastojanje od centra sabijeno na 40% (azimut tačan, redosled tačan); isti pomeraj važi i za geografski sloj. Skulpture su potom razmaknute najviše 250 m da se ne preklapaju. Pomeraj je čitljivost, ne merenje objekta.",
     "places": [
       {
         "id": "B01ffbf6e",
-        "x": -50.015,
-        "z": 28.641,
+        "x": -84.054,
+        "z": 21.593,
         "anchor": [
-          -57.555,
-          19.837
+          -92.567,
+          26.841
         ],
-        "nudge": 290,
+        "nudge": 250,
         "radius": 1.545
       },
       {
         "id": "B0671278c",
-        "x": -0.409,
-        "z": 69.472,
+        "x": 25.844,
+        "z": 58.805,
         "anchor": [
-          7.896,
-          70.548
+          16.149,
+          61.228
         ],
-        "nudge": 209,
+        "nudge": 250,
         "radius": 1.545
       },
       {
         "id": "B0dffad8d",
-        "x": -58.555,
-        "z": -44.302,
+        "x": -61.852,
+        "z": -50.011,
         "anchor": [
-          -68.115,
-          -55.861
+          -65.43,
+          -59.349
         ],
-        "nudge": 375,
+        "nudge": 250,
         "radius": 1.545
       },
       {
         "id": "B14027bbe",
-        "x": -11.158,
-        "z": 73.509,
+        "x": -14.116,
+        "z": 67.406,
         "anchor": [
-          -5.765,
-          67.92
+          -4.432,
+          69.899
         ],
-        "nudge": 194,
+        "nudge": 250,
         "radius": 5.66
       },
       {
         "id": "B1df14ea1",
-        "x": 23.309,
-        "z": 14.964,
+        "x": 23.158,
+        "z": 23.058,
         "anchor": [
           22.742,
           24.49
         ],
-        "nudge": 239,
+        "nudge": 37,
         "radius": 1.545
       },
       {
         "id": "B21720f35",
-        "x": -34.915,
-        "z": 26.457,
+        "x": -52.769,
+        "z": -1.68,
         "anchor": [
-          -45.699,
-          35.514
+          -56.008,
+          6.114
         ],
-        "nudge": 352,
+        "nudge": 211,
         "radius": 7.55
       },
       {
         "id": "B25fc5bcf",
-        "x": 46.23,
-        "z": -4.61,
+        "x": 44.555,
+        "z": 6.685,
         "anchor": [
-          32.218,
-          -5.343
-        ],
-        "nudge": 351,
-        "radius": 6.945
-      },
-      {
-        "id": "B25fc772a",
-        "x": 63.361,
-        "z": -31.34,
-        "anchor": [
-          56.609,
-          -37.669
-        ],
-        "nudge": 231,
-        "radius": 13.15
-      },
-      {
-        "id": "B2a7ecb59",
-        "x": -64.842,
-        "z": 25.693,
-        "anchor": [
-          -77.763,
-          21.706
-        ],
-        "nudge": 338,
-        "radius": 6.945
-      },
-      {
-        "id": "B34c1628c",
-        "x": 48.759,
-        "z": 82.623,
-        "anchor": [
-          51.765,
-          97.318
-        ],
-        "nudge": 375,
-        "radius": 1.545
-      },
-      {
-        "id": "B3b4c7fb4",
-        "x": 2.021,
-        "z": -21.09,
-        "anchor": [
-          9.306,
-          -34.202
-        ],
-        "nudge": 375,
-        "radius": 7.55
-      },
-      {
-        "id": "B41952daf",
-        "x": 42.839,
-        "z": 33.917,
-        "anchor": [
-          51.74,
-          41.665
-        ],
-        "nudge": 295,
-        "radius": 1.545
-      },
-      {
-        "id": "B4d2fca52",
-        "x": 46.39,
-        "z": 58.241,
-        "anchor": [
-          42.327,
-          66.99
-        ],
-        "nudge": 241,
-        "radius": 14.201
-      },
-      {
-        "id": "B4f2be009",
-        "x": 26.063,
-        "z": -17.107,
-        "anchor": [
-          21.719,
-          -29.04
-        ],
-        "nudge": 317,
-        "radius": 13.15
-      },
-      {
-        "id": "B530102bb",
-        "x": 41.556,
-        "z": 24.012,
-        "anchor": [
-          37.903,
-          26.717
-        ],
-        "nudge": 114,
-        "radius": 1.545
-      },
-      {
-        "id": "B655d6f70",
-        "x": 17.448,
-        "z": 23.648,
-        "anchor": [
-          16.425,
-          24.49
-        ],
-        "nudge": 33,
-        "radius": 1.545
-      },
-      {
-        "id": "B6b092149",
-        "x": 23.858,
-        "z": 7.225,
-        "anchor": [
-          22.11,
-          2.226
-        ],
-        "nudge": 132,
-        "radius": 1.545
-      },
-      {
-        "id": "B721111bb",
-        "x": 38.176,
-        "z": -37.483,
-        "anchor": [
-          25.376,
-          -29.662
-        ],
-        "nudge": 375,
-        "radius": 6.945
-      },
-      {
-        "id": "B75d37fcb",
-        "x": 48.581,
-        "z": -16.479,
-        "anchor": [
-          50.907,
-          -9.95
-        ],
-        "nudge": 173,
-        "radius": 1.545
-      },
-      {
-        "id": "B7a65f480",
-        "x": -50.026,
-        "z": 16.295,
-        "anchor": [
-          -41.464,
-          28.611
-        ],
-        "nudge": 375,
-        "radius": 7.55
-      },
-      {
-        "id": "B7efb8894",
-        "x": 11.873,
-        "z": -36.92,
-        "anchor": [
-          3.998,
-          -37.701
-        ],
-        "nudge": 198,
-        "radius": 7.55
-      },
-      {
-        "id": "B88cffac1",
-        "x": 10.479,
-        "z": 49.042,
-        "anchor": [
-          17.372,
-          42.302
-        ],
-        "nudge": 241,
-        "radius": 18.045
-      },
-      {
-        "id": "B8b81c0c5",
-        "x": 43.733,
-        "z": -15.26,
-        "anchor": [
-          36.918,
-          -21.05
-        ],
-        "nudge": 224,
-        "radius": 1.545
-      },
-      {
-        "id": "B8c4db47b",
-        "x": 38.138,
-        "z": 32.202,
-        "anchor": [
-          34.744,
-          28.943
-        ],
-        "nudge": 118,
-        "radius": 1.545
-      },
-      {
-        "id": "B9e4c8453",
-        "x": 9.143,
-        "z": -11.679,
-        "anchor": [
-          0,
-          -20.038
-        ],
-        "nudge": 310,
-        "radius": 1.545
-      },
-      {
-        "id": "Ba8b77242",
-        "x": 12.839,
-        "z": 2.566,
-        "anchor": [
-          18.952,
-          -11.132
-        ],
-        "nudge": 375,
-        "radius": 6.945
-      },
-      {
-        "id": "Badf7e17e",
-        "x": -60.227,
-        "z": 3.45,
-        "anchor": [
-          -64.97,
-          -10.781
-        ],
-        "nudge": 375,
-        "radius": 1.545
-      },
-      {
-        "id": "Bae8506cc",
-        "x": 23.62,
-        "z": 0.517,
-        "anchor": [
-          23.058,
-          -1.336
-        ],
-        "nudge": 48,
-        "radius": 1.545
-      },
-      {
-        "id": "Bb21a1978",
-        "x": 62.164,
-        "z": 27.963,
-        "anchor": [
-          63.269,
-          40.821
-        ],
-        "nudge": 323,
-        "radius": 15.381
-      },
-      {
-        "id": "Bb5a79c43",
-        "x": 27.441,
-        "z": 3.74,
-        "anchor": [
-          22.11,
-          2.226
-        ],
-        "nudge": 139,
-        "radius": 1.545
-      },
-      {
-        "id": "Bb81ca622",
-        "x": 43.546,
-        "z": -20.256,
-        "anchor": [
-          43.18,
-          -19.13
-        ],
-        "nudge": 30,
-        "radius": 1.545
-      },
-      {
-        "id": "Bba876e95",
-        "x": 48.2,
-        "z": -22.08,
-        "anchor": [
-          45.292,
-          -20.326
-        ],
-        "nudge": 85,
-        "radius": 1.545
-      },
-      {
-        "id": "Bbb2e5c1e",
-        "x": 11.42,
-        "z": 25.912,
-        "anchor": [
-          -1.579,
-          33.396
-        ],
-        "nudge": 375,
-        "radius": 1.545
-      },
-      {
-        "id": "Bbe3e7124",
-        "x": -7.972,
-        "z": 63.022,
-        "anchor": [
-          -4.393,
-          58.874
-        ],
-        "nudge": 137,
-        "radius": 1.545
-      },
-      {
-        "id": "Bca96d908",
-        "x": -79.181,
-        "z": 36.606,
-        "anchor": [
-          -90.439,
-          46.518
-        ],
-        "nudge": 375,
-        "radius": 7.55
-      },
-      {
-        "id": "Bce379d13",
-        "x": 45.832,
-        "z": -28.383,
-        "anchor": [
-          53.582,
-          -30.696
-        ],
-        "nudge": 202,
-        "radius": 1.545
-      },
-      {
-        "id": "Bce3fd2f1",
-        "x": -51.396,
-        "z": 56.187,
-        "anchor": [
-          -51.507,
-          41.188
-        ],
-        "nudge": 375,
-        "radius": 21.897
-      },
-      {
-        "id": "Bd18bf80b",
-        "x": 30.8,
-        "z": 0.037,
-        "anchor": [
-          28.427,
-          -6.679
-        ],
-        "nudge": 178,
-        "radius": 1.545
-      },
-      {
-        "id": "Bda203afb",
-        "x": 28.962,
-        "z": 25.099,
-        "anchor": [
-          22.742,
-          24.49
-        ],
-        "nudge": 156,
-        "radius": 7.55
-      },
-      {
-        "id": "Be291aa43",
-        "x": 41.397,
-        "z": -26.077,
-        "anchor": [
-          36.918,
-          -21.05
-        ],
-        "nudge": 168,
-        "radius": 1.545
-      },
-      {
-        "id": "Be3448d6e",
-        "x": 41.981,
-        "z": 19.031,
-        "anchor": [
-          45.8,
-          17.811
-        ],
-        "nudge": 100,
-        "radius": 1.545
-      },
-      {
-        "id": "Be38a2b04",
-        "x": 41.972,
-        "z": 28.993,
-        "anchor": [
-          48.011,
-          31.17
-        ],
-        "nudge": 160,
-        "radius": 1.545
-      },
-      {
-        "id": "Beb7b8b9c",
-        "x": 36.806,
-        "z": 9.393,
-        "anchor": [
-          28.427,
-          17.811
-        ],
-        "nudge": 297,
-        "radius": 6.945
-      },
-      {
-        "id": "Bedda6bf8",
-        "x": -17.869,
-        "z": 58.363,
-        "anchor": [
-          -12.634,
-          53.434
+          37.587,
+          4.898
         ],
         "nudge": 180,
         "radius": 6.945
       },
       {
-        "id": "Bf86ee95f",
-        "x": -4.54,
-        "z": 66.657,
+        "id": "B25fc772a",
+        "x": 56.874,
+        "z": -37.934,
         "anchor": [
-          1.004,
-          64.055
+          58.444,
+          -37.902
         ],
-        "nudge": 153,
+        "nudge": 39,
+        "radius": 13.15
+      },
+      {
+        "id": "B2a7ecb59",
+        "x": -94.818,
+        "z": 7.256,
+        "anchor": [
+          -102.666,
+          1.059
+        ],
+        "nudge": 250,
+        "radius": 6.945
+      },
+      {
+        "id": "B34c1628c",
+        "x": 35.04,
+        "z": 159.048,
+        "anchor": [
+          36.435,
+          168.95
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "B3b4c7fb4",
+        "x": 4.117,
+        "z": -42.751,
+        "anchor": [
+          9.306,
+          -34.202
+        ],
+        "nudge": 250,
+        "radius": 7.55
+      },
+      {
+        "id": "B41952daf",
+        "x": 63.723,
+        "z": 29.513,
+        "anchor": [
+          55.134,
+          34.634
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "B4d2fca52",
+        "x": 38.765,
+        "z": 72.932,
+        "anchor": [
+          44.806,
+          65.792
+        ],
+        "nudge": 234,
+        "radius": 14.201
+      },
+      {
+        "id": "B4f2be009",
+        "x": 30.004,
+        "z": -23.441,
+        "anchor": [
+          21.719,
+          -29.04
+        ],
+        "nudge": 250,
+        "radius": 13.15
+      },
+      {
+        "id": "B530102bb",
+        "x": 32.131,
+        "z": 16.9,
+        "anchor": [
+          36.64,
+          25.826
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "B655d6f70",
+        "x": 27.727,
+        "z": 54.174,
+        "anchor": [
+          28.111,
+          53.434
+        ],
+        "nudge": 21,
+        "radius": 1.545
+      },
+      {
+        "id": "B6b092149",
+        "x": 15.708,
+        "z": -1.39,
+        "anchor": [
+          20.531,
+          -1.336
+        ],
+        "nudge": 121,
+        "radius": 1.545
+      },
+      {
+        "id": "B721111bb",
+        "x": 10.042,
+        "z": -27.581,
+        "anchor": [
+          19.409,
+          -31.083
+        ],
+        "nudge": 250,
+        "radius": 6.945
+      },
+      {
+        "id": "B75d37fcb",
+        "x": 13.754,
+        "z": -37.142,
+        "anchor": [
+          19.806,
+          -31.58
+        ],
+        "nudge": 206,
+        "radius": 1.545
+      },
+      {
+        "id": "B7a65f480",
+        "x": -27.878,
+        "z": 54.822,
+        "anchor": [
+          -26.405,
+          57.05
+        ],
+        "nudge": 67,
+        "radius": 7.55
+      },
+      {
+        "id": "B7efb8894",
+        "x": 22.902,
+        "z": -42.966,
+        "anchor": [
+          24.436,
+          -33.084
+        ],
+        "nudge": 250,
+        "radius": 7.55
+      },
+      {
+        "id": "B88cffac1",
+        "x": 41.596,
+        "z": 35.64,
+        "anchor": [
+          42.009,
+          31.615
+        ],
+        "nudge": 101,
+        "radius": 18.045
+      },
+      {
+        "id": "B8b81c0c5",
+        "x": 45.294,
+        "z": -15.588,
+        "anchor": [
+          36.918,
+          -21.05
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "B8c4db47b",
+        "x": -38.602,
+        "z": 9.712,
+        "anchor": [
+          -29.691,
+          14.249
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "B9e4c8453",
+        "x": -0.635,
+        "z": -30.017,
+        "anchor": [
+          0,
+          -20.038
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "Ba8b77242",
+        "x": 29.351,
+        "z": -1.108,
+        "anchor": [
+          23.689,
+          -9.351
+        ],
+        "nudge": 250,
+        "radius": 6.945
+      },
+      {
+        "id": "Badf7e17e",
+        "x": -44.719,
+        "z": -12.833,
+        "anchor": [
+          -40.825,
+          -22.044
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "Bae8506cc",
+        "x": 18.95,
+        "z": 2.415,
+        "anchor": [
+          23.058,
+          1.781
+        ],
+        "nudge": 104,
+        "radius": 1.545
+      },
+      {
+        "id": "Bb21a1978",
+        "x": 75.611,
+        "z": 45.806,
+        "anchor": [
+          66.06,
+          42.842
+        ],
+        "nudge": 250,
+        "radius": 15.381
+      },
+      {
+        "id": "Bb5a79c43",
+        "x": 19.575,
+        "z": -6.08,
+        "anchor": [
+          20.531,
+          -1.336
+        ],
+        "nudge": 121,
+        "radius": 1.545
+      },
+      {
+        "id": "Bb81ca622",
+        "x": 46.809,
+        "z": -10.825,
+        "anchor": [
+          43.18,
+          -19.13
+        ],
+        "nudge": 227,
+        "radius": 1.545
+      },
+      {
+        "id": "Bba876e95",
+        "x": 50.737,
+        "z": -15.976,
+        "anchor": [
+          45.292,
+          -20.326
+        ],
+        "nudge": 174,
+        "radius": 1.545
+      },
+      {
+        "id": "Bbb2e5c1e",
+        "x": 6.96,
+        "z": 18.288,
+        "anchor": [
+          1.579,
+          26.717
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "Bbe3e7124",
+        "x": -16.41,
+        "z": 57.648,
+        "anchor": [
+          -14.792,
+          54.127
+        ],
+        "nudge": 97,
+        "radius": 1.545
+      },
+      {
+        "id": "Bca96d908",
+        "x": -88.058,
+        "z": 36.806,
+        "anchor": [
+          -90.439,
+          46.518
+        ],
+        "nudge": 250,
+        "radius": 7.55
+      },
+      {
+        "id": "Bce379d13",
+        "x": 51.909,
+        "z": -20.837,
+        "anchor": [
+          53.582,
+          -30.696
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "Bce3fd2f1",
+        "x": -54.369,
+        "z": 32.275,
+        "anchor": [
+          -59.301,
+          23.575
+        ],
+        "nudge": 250,
+        "radius": 21.897
+      },
+      {
+        "id": "Bd18bf80b",
+        "x": 32.686,
+        "z": 9.313,
+        "anchor": [
+          31.902,
+          6.234
+        ],
+        "nudge": 79,
+        "radius": 1.545
+      },
+      {
+        "id": "Bda203afb",
+        "x": 13.365,
+        "z": 27.965,
+        "anchor": [
+          22.742,
+          24.49
+        ],
+        "nudge": 250,
+        "radius": 7.55
+      },
+      {
+        "id": "Be291aa43",
+        "x": 46.886,
+        "z": -20.26,
+        "anchor": [
+          36.918,
+          -21.05
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "Be3448d6e",
+        "x": 35.791,
+        "z": 13.231,
+        "anchor": [
+          36.956,
+          8.906
+        ],
+        "nudge": 112,
+        "radius": 1.545
+      },
+      {
+        "id": "Be38a2b04",
+        "x": 32.822,
+        "z": 54.969,
+        "anchor": [
+          36.956,
+          45.864
+        ],
+        "nudge": 250,
+        "radius": 1.545
+      },
+      {
+        "id": "Beb7b8b9c",
+        "x": 21.81,
+        "z": 12.973,
+        "anchor": [
+          30.007,
+          18.702
+        ],
+        "nudge": 250,
+        "radius": 6.945
+      },
+      {
+        "id": "Bedda6bf8",
+        "x": -11.997,
+        "z": 47.364,
+        "anchor": [
+          -12.86,
+          56.914
+        ],
+        "nudge": 240,
+        "radius": 6.945
+      },
+      {
+        "id": "Bf86ee95f",
+        "x": -11.369,
+        "z": 58.285,
+        "anchor": [
+          -2.64,
+          63.164
+        ],
+        "nudge": 250,
         "radius": 1.545
       }
     ],
     "metrics": {
       "overlaps": 0,
-      "minGap": 1.908,
-      "medianGap": 2.484,
-      "maxGap": 44.691,
-      "fill": 51.15,
-      "hullUnits": 14217,
-      "maxNudgeMetres": 375,
-      "medianNudgeMetres": 231
+      "minGap": 0.077,
+      "medianGap": 1.991,
+      "maxGap": 70.451,
+      "fill": 32.603,
+      "hullUnits": 22304,
+      "maxNudgeMetres": 250,
+      "medianNudgeMetres": 250
     }
   },
   "media": [],
@@ -10449,5 +10449,136 @@
       "updated": "2026-10-23"
     }
   ],
+  "regions": {
+    "outsideBelgrade": {
+      "count": 6,
+      "cities": 6,
+      "origin": {
+        "lat": 44.8176,
+        "lng": 20.4569
+      },
+      "span": {
+        "north": 46.1,
+        "south": 42.4304,
+        "east": 21.3028,
+        "west": 19.2594
+      },
+      "coordinateBasis": "city-centre",
+      "entries": [
+        {
+          "id": "T10",
+          "city": "Pančevo",
+          "lat": 44.8708,
+          "lng": 20.6403,
+          "km": 16,
+          "object": "Hotel i kafić, Pančevo (dva objekta)",
+          "topic": "Ugostiteljsko-istorijska arhitektura u Pančevu",
+          "indices": [
+            "8/26",
+            "181/26",
+            "165/26"
+          ],
+          "progressStage": 2,
+          "progressLabel": "Istraživanje u toku",
+          "status": "U radu (kontaktiranje institucija)",
+          "hasPassport": false,
+          "claimsCount": 0
+        },
+        {
+          "id": "T51",
+          "city": "Sremska Mitrovica",
+          "lat": 44.9769,
+          "lng": 19.6122,
+          "km": 69,
+          "object": "Privatna stambena zgrada, Sremska Mitrovica",
+          "topic": "Savremena porodična/stambena arhitektura, energetska efikasnost i materijali",
+          "indices": [
+            "69/26",
+            "39/26",
+            "146/26"
+          ],
+          "progressStage": 1,
+          "progressLabel": "Prijavljena tema",
+          "status": "Prijavljena tema",
+          "hasPassport": false,
+          "claimsCount": 0
+        },
+        {
+          "id": "T70",
+          "city": "Subotica",
+          "lat": 46.1,
+          "lng": 19.665,
+          "km": 155,
+          "object": "Rajhlova palata, Subotica",
+          "topic": "Secesija Ferenca Rajhla, ornament i fasadna dekoracija",
+          "indices": [
+            "21/2026",
+            "62/2026",
+            "50/2026"
+          ],
+          "progressStage": 3,
+          "progressLabel": "Predat pasoš na proveru",
+          "status": "Predat pasoš na proveru (19.10), vraćeno na format tabele",
+          "hasPassport": false,
+          "claimsCount": 0
+        },
+        {
+          "id": "T38",
+          "city": "Vršac",
+          "lat": 45.1167,
+          "lng": 21.3028,
+          "km": 74,
+          "object": "Vladičanski dvor u Vršcu",
+          "topic": "Barokna rezidencija, priče, mitovi, usmeno preneseni podaci, dvorska kapela",
+          "indices": [
+            "27/26",
+            "10/26"
+          ],
+          "progressStage": 2,
+          "progressLabel": "Rad u toku",
+          "status": "Potvrđen tim i rad u toku",
+          "hasPassport": false,
+          "claimsCount": 0
+        },
+        {
+          "id": "T07",
+          "city": "Užice",
+          "lat": 43.8556,
+          "lng": 19.8425,
+          "km": 118,
+          "object": "Hotel Zlatibor, Užice",
+          "topic": "Brutalistička arhitektura, Svetlana Radović, visinski akcenat Užica",
+          "indices": [
+            "38/26",
+            "82/26"
+          ],
+          "progressStage": 4,
+          "progressLabel": "Predat elaborat",
+          "status": "Predat preliminarni elaborat",
+          "hasPassport": false,
+          "claimsCount": 0
+        },
+        {
+          "id": "T32",
+          "city": "Podgorica",
+          "lat": 42.4304,
+          "lng": 19.2594,
+          "km": 282,
+          "object": "Gimnazija „Slobodan Škerović” u Podgorici",
+          "topic": "Istorijska školska arhitektura, kamen, regionalni modernizam",
+          "indices": [
+            "123/26",
+            "31/26",
+            "42/26"
+          ],
+          "progressStage": 2,
+          "progressLabel": "U radu",
+          "status": "U radu (nakon izlaska člana)",
+          "hasPassport": false,
+          "claimsCount": 0
+        }
+      ]
+    }
+  },
   "note": "Source-reported records, not independently verified facts. Data sculptures have symbolic dimensions at approximate registry coordinates; they are not reconstructions of buildings. Position: see layout — radial cartogram outside the core and a capped legibility nudge per building, both published."
 }
