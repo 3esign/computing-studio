@@ -9,7 +9,7 @@
   "totals": {
     "teams": 70,
     "objects": 51,
-    "completedPassports": 19
+    "completedPassports": 23
   },
   "entries": [
     {
@@ -24,13 +24,15 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
-        "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora"
+        "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora",
+        "Prijem 25.10: crteži (7 listova, Istorijski arhiv Beograda) uvedeni kao dopunski prilog — 9 tvrdnji; pasoš sa temom i izvorima se i dalje očekuje",
+        "Razrešeno 25.10: „Beogradski arhitriptih“ potvrđen kao zajednički rad grupa T01+T02+T03 — podnesak nosi indeks svih šest članova (mejl 19.10, primljen 24.10)"
       ],
-      "claimsCount": 21,
-      "sectionsCount": 8
+      "claimsCount": 30,
+      "sectionsCount": 9
     },
     {
       "id": "T02",
@@ -44,10 +46,11 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
-        "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora"
+        "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora",
+        "Razrešeno 25.10: „Beogradski arhitriptih“ potvrđen kao zajednički rad grupa T01+T02+T03 (mejl sa indeksima sve tri grupe)"
       ],
       "claimsCount": 28,
       "sectionsCount": 9
@@ -64,11 +67,12 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš + proširenje",
       "status": "Kuriran pilot pasoš + elaborat",
-      "submissionsCount": 3,
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
         "Deljeni objekat: T03 i T60 rade Sava Centar (odobreno)",
-        "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora"
+        "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora",
+        "Razrešeno 25.10: „Beogradski arhitriptih“ potvrđen kao zajednički rad grupa T01+T02+T03 (mejl sa indeksima sve tri grupe)"
       ],
       "claimsCount": 30,
       "sectionsCount": 10
@@ -83,16 +87,17 @@
       "object": "Ložionica",
       "location": "Mostarska petlja, Beograd",
       "topic": "Istorija korišćenja i transformacija u kreativno-inovativni hab",
-      "progressStage": 4,
-      "progressLabel": "Predat koncept + tabela",
-      "status": "Predat koncept i radna tabela",
-      "submissionsCount": 1,
-      "hasPassport": false,
+      "progressStage": 5,
+      "progressLabel": "Predat pasoš u formatu tabele",
+      "status": "Predat pasoš tabela i istorija korišćenja (24.10)",
+      "submissionsCount": 2,
+      "hasPassport": true,
       "flags": [
-        "Razrešeno: 17/26 je u T04 (nije u T10)"
+        "Razrešeno: 17/26 je u T04 (nije u T10)",
+        "Prijem 25.10: tabela u traženom formatu ПОДАТАК | ИЗВОР + istorija korišćenja; potpisale tri studentkinje"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 28,
+      "sectionsCount": 6
     },
     {
       "id": "T05",
@@ -125,14 +130,16 @@
       "object": "Gardoš / Milenijumska kula",
       "location": "Zemun, Beograd",
       "topic": "Istorijska kula, vidikovac, materijali (kamen, opeka)",
-      "progressStage": 2,
-      "progressLabel": "Online istraživanje",
-      "status": "Online istraživanje",
-      "submissionsCount": 0,
-      "hasPassport": false,
-      "flags": [],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "progressStage": 4,
+      "progressLabel": "Predat digitalni pasoš",
+      "status": "Predat digitalni pasoš Gardoša (24.10)",
+      "submissionsCount": 1,
+      "hasPassport": true,
+      "flags": [
+        "Prijem 25.10: podnosilac potvrdila indeks 8/2026; odeljak legendi izostavljen iz pasoša — pozivao se na AI (Gemini) umesto na izvor"
+      ],
+      "claimsCount": 20,
+      "sectionsCount": 7
     },
     {
       "id": "T07",
@@ -428,9 +435,11 @@
       "progressStage": 3,
       "progressLabel": "Predat tekst o tehnologiji",
       "status": "Predat tekst; traži se prototip i tabela podatak → izvor",
-      "submissionsCount": 0,
+      "submissionsCount": 1,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Mejl 24.10: sastav tima za Ušće two tower potvrđen kao 129/26, 18/26, 69/26 — ne poklapa se sa registratorom (135/26, 107/26, 114/26); indeksi 18 i 69 već stoje u T54 i T51; čeka se potvrda nastavnika/studenta"
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -799,14 +808,16 @@
       "object": "Stambeno-poslovna zgrada Cara Uroša 57",
       "location": "Cara Uroša 57, Dorćol, Beograd",
       "topic": "Novija stambena arhitektura (2020), energetska efikasnost, savremeni materijali",
-      "progressStage": 3,
-      "progressLabel": "Predat koncept",
-      "status": "Predat koncept i plan rada",
-      "submissionsCount": 1,
-      "hasPassport": false,
-      "flags": [],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "progressStage": 4,
+      "progressLabel": "Predat HTML pasoš „Glasnik Beograda“",
+      "status": "Predat „Glasnik Beograda“ HTML pasoš (18.10, primljeno 24.10); traži se pdf/word",
+      "submissionsCount": 2,
+      "hasPassport": true,
+      "flags": [
+        "Prijem 25.10: obe autork potvrđene indeksima iz podneska (163, 177)"
+      ],
+      "claimsCount": 15,
+      "sectionsCount": 3
     },
     {
       "id": "T41",
@@ -1009,16 +1020,17 @@
       "object": "Privatna stambena zgrada, Sremska Mitrovica",
       "location": "Sremska Mitrovica",
       "topic": "Savremena porodična/stambena arhitektura, energetska efikasnost i materijali",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
-      "submissionsCount": 0,
-      "hasPassport": false,
+      "progressStage": 4,
+      "progressLabel": "Predat energetski pasoš",
+      "status": "Predat energetski pasoš (25.10)",
+      "submissionsCount": 1,
+      "hasPassport": true,
       "flags": [
-        "Objekat van Beograda"
+        "Objekat van Beograda",
+        "Prijem 25.10: sva tri indeksa potvrđena u podnesku; izvori: elaborat EEE-942/X/25 i projekat građevinske dozvole KP 9334"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 44,
+      "sectionsCount": 9
     },
     {
       "id": "T52",
@@ -1299,14 +1311,15 @@
       "topic": "Nikola Nestorović, secesija, istorijat hotela, posleratna upotreba, tekuća restauracija",
       "progressStage": 5,
       "progressLabel": "Predat elaborat",
-      "status": "Predat elaborat i koncept (19.10)",
-      "submissionsCount": 1,
+      "status": "Predat elaborat i koncept (19.10); dopuna istorijata (24.10)",
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
-        "Novoformiran tim 13.10 od članova koji su napustili T31 i T32"
+        "Novoformiran tim 13.10 od članova koji su napustili T31 i T32",
+        "Prijem 25.10: dopuna istorijata uvedena (8 tvrdnji); podnosilac potvrđena — indeks 29 OA"
       ],
-      "claimsCount": 14,
-      "sectionsCount": 3
+      "claimsCount": 22,
+      "sectionsCount": 4
     },
     {
       "id": "T67",
@@ -1397,5 +1410,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-57317c7ec502acca"
+  "datasetRevision": "r-ebf74f0b80f3c756"
 }

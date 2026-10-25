@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "datasetRevision": "r-57317c7ec502acca",
+  "datasetRevision": "r-ebf74f0b80f3c756",
   "note": "Kurirani zapisi sa izvorima; nisu nezavisna potvrda.",
   "passports": [
     {
@@ -246,6 +246,103 @@
               "id": "T01:lokacija:ff3f6d3b46b9"
             }
           ]
+        },
+        {
+          "id": "dokumentacija",
+          "title": {
+            "en": "Archive drawings (supplementary)",
+            "sr": "Arhivski crteži (dopunski prilog)"
+          },
+          "claims": [
+            {
+              "t": "Poreklo građe",
+              "v": "materijal Istorijskog arhiva Beograda (navod podnosioca), poslat kao dopuna digitalnom pasošu",
+              "s": [
+                "S2"
+              ],
+              "status": "source-reported",
+              "id": "T01:dokumentacija:1d9eec42fa56"
+            },
+            {
+              "t": "Crtež 1",
+              "v": "„Osnova bloka 23 i situacija“ — arhivski crtež OŠ „Laza Kostić“, Blok 23, Novi Beograd",
+              "s": [
+                "S2"
+              ],
+              "locator": "1/OSNOVA BLOKA 23 I SITUACIJA.pdf",
+              "status": "source-reported",
+              "id": "T01:dokumentacija:240a167d35d7"
+            },
+            {
+              "t": "Crtež 2",
+              "v": "„Osnova prizemlja I dilatacija“",
+              "s": [
+                "S2"
+              ],
+              "locator": "1/OSNOVA PRIZEMLJA I DILATACIJA.pdf",
+              "status": "source-reported",
+              "id": "T01:dokumentacija:5b729e9eff98"
+            },
+            {
+              "t": "Crtež 3",
+              "v": "„Osnova prizemlja II dilatacija“",
+              "s": [
+                "S2"
+              ],
+              "locator": "1/OSNOVA PRIZEMLJA II DILATACIJA.pdf",
+              "status": "source-reported",
+              "id": "T01:dokumentacija:fcb1930c3760"
+            },
+            {
+              "t": "Crtež 4",
+              "v": "„Osnova sprata I dilatacija“",
+              "s": [
+                "S2"
+              ],
+              "locator": "1/OSNOVA SPRATA  I DILATACIJA.pdf",
+              "status": "source-reported",
+              "id": "T01:dokumentacija:661df24dd5f1"
+            },
+            {
+              "t": "Crtež 5",
+              "v": "„Osnova sprata II dilatacija“",
+              "s": [
+                "S2"
+              ],
+              "locator": "1/OSNOVA SPRATA II DILATACIJA.pdf",
+              "status": "source-reported",
+              "id": "T01:dokumentacija:e5d4120ef751"
+            },
+            {
+              "t": "Crtež 6",
+              "v": "„Osnova krova, sprat + prizemlje i presek 4-4“",
+              "s": [
+                "S2"
+              ],
+              "locator": "1/OSNOVA KROVA SPRAT + PRIZEMLJE i PRESEK 4-4.pdf",
+              "status": "source-reported",
+              "id": "T01:dokumentacija:9dccc623ad79"
+            },
+            {
+              "t": "Crtež 7",
+              "v": "„Osnova sportskog dela“",
+              "s": [
+                "S2"
+              ],
+              "locator": "1/OSNOVA SPORTSKOG DELA.pdf",
+              "status": "source-reported",
+              "id": "T01:dokumentacija:f511969257aa"
+            },
+            {
+              "t": "Sledeći korak",
+              "v": "pasoš sa temom istraživanja, podacima i izvorima u formatu tabele — crteži su dopunski prilog (povratna informacija nastavnika, 25. 10. 2026)",
+              "s": [
+                "S3"
+              ],
+              "status": "unknown",
+              "id": "T01:dokumentacija:55a999a02041"
+            }
+          ]
         }
       ],
       "sources": [
@@ -254,6 +351,16 @@
           "label": "Zvanični sajt OŠ „Laza Kostić”",
           "url": "https://lazakostic.edu.rs/",
           "kind": "zvanični sajt ustanove"
+        },
+        {
+          "id": "S2",
+          "label": "Studentski podnesak — 7 arhivskih crteža, Istorijski arhiv Beograda (25. 10. 2026)",
+          "kind": "studentski podnesak"
+        },
+        {
+          "id": "S3",
+          "label": "Prepiska sa nastavnikom (25. 10. 2026) — crtezi su bonus prilog, pasoš je glavni zadatak",
+          "kind": "prepiska"
         }
       ],
       "media": []
@@ -920,6 +1027,603 @@
           "label": "Gradnja, „Sava Centar: Život jugoslovenskog staklenog dvorca”",
           "url": "https://gradnja.rs/sava-centar-zivot-jugoslovenskog-staklenog-dvorca/",
           "kind": "stručni medijski portal"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "T04",
+      "object": "Ložionica",
+      "sections": [
+        {
+          "id": "pojam",
+          "title": {
+            "en": "Concept and typology",
+            "sr": "Pojam i tipologija ложionice"
+          },
+          "claims": [
+            {
+              "t": "Pojam",
+              "v": "ložionički krug — funkcionalno integrisan sistem objekata i instalacija esencijalnih za operativnost železničkog transporta (studentsko terensko istraživanje)",
+              "s": [
+                "S1"
+              ],
+              "id": "T04:pojam:4fed62b98e35"
+            },
+            {
+              "t": "Okratnica",
+              "v": "rotaciona platforma kružne geometrije za manevrisanje i promenu azimuta lokomotiva i vagona u ograničenom prostoru",
+              "s": [
+                "S1"
+              ],
+              "id": "T04:pojam:23c404b74d8b"
+            },
+            {
+              "t": "Tipovi",
+              "v": "ložionice nisu nužno lepezastog oblika — postojale su i pravougaone, bliske železničkim halama i depoima; lepezasti oblik unapređivao je efikasnost rada (svaka lokomotiva ima svoj kolosek)",
+              "s": [
+                "S1"
+              ],
+              "id": "T04:pojam:f83b9db5cb1f"
+            },
+            {
+              "t": "Ventilacija",
+              "v": "lepezaste ložionice imale su segmente na krovnoj konstrukciji — niz kupola sa ventilacionim funkcijama (očnjaka) na koje je nalagao dimnjak svake lokomotive",
+              "s": [
+                "S1"
+              ],
+              "id": "T04:pojam:be1c84a2a750"
+            },
+            {
+              "t": "Osvetljenje",
+              "v": "prostrane hale sa velikim staklenim površinama obezbeđivale su optimalno prirodno osvetljenje za pregled, dijagnostiku i opravku",
+              "s": [
+                "S1"
+              ],
+              "id": "T04:pojam:e5c75175851c"
+            }
+          ]
+        },
+        {
+          "id": "istorija",
+          "title": {
+            "en": "Railway and depot history",
+            "sr": "Istorija železnice i ložionice"
+          },
+          "claims": [
+            {
+              "t": "Prve ideje",
+              "v": "počeci ideje o železnici kroz Srbiju iz doba kneza Aleksandra Karađorđevića; ispitivanje mogućnosti 1851. godine",
+              "s": [
+                "S2"
+              ],
+              "id": "T04:istorija:427b71928793"
+            },
+            {
+              "t": "Posle Berlinskog kongresa",
+              "v": "1878. počinju pripreme za železničku vezu Austro-Ugarske i Srbije",
+              "s": [
+                "S2"
+              ],
+              "id": "T04:istorija:15ecaf6e5805"
+            },
+            {
+              "t": "Kamen temeljac",
+              "v": "kralj Milan Obrenović 21. jula 1881. simbolično zakopao zemlju srebrnim budakom — početak „postrojenja prve srpske državne železnice“ (terensko istraživanje studenata)",
+              "s": [
+                "S1"
+              ],
+              "id": "T04:istorija:c814d62db141"
+            },
+            {
+              "t": "Pruga",
+              "v": "železnička pruga puštena u rad 1884; nasipanje močvarnog područja Bare Venecije zemljom iz obližnjeg probkopa",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T04:istorija:6b6197726325"
+            },
+            {
+              "t": "Glavna stanica",
+              "v": "Glavna železnička stanica u Beogradu izgrađena 1884; prva železnička veza Srbije sa evropskim sistemom",
+              "s": [
+                "S2"
+              ],
+              "id": "T04:istorija:d1c5dea406bb"
+            },
+            {
+              "t": "Prva ložionica",
+              "v": "napravljena 1884, za železnicu uskog koloseka; uz nju vodostanica i rampa za uglja; u funkciji do podizanja nove ložionice posle Prvog svetskog rata",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T04:istorija:30e628a2dfa1"
+            }
+          ]
+        },
+        {
+          "id": "nova-lozionica",
+          "title": {
+            "en": "The new depot (1925–1927)",
+            "sr": "Nova Ložionica (1925–1927)"
+          },
+          "claims": [
+            {
+              "t": "Projektant",
+              "v": "inženjer Nikola Raičković",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T04:nova-lozionica:cceea5a8c45b"
+            },
+            {
+              "t": "Gradnja",
+              "v": "1925–1926, sa radom počela 1926/27; zreo primer industrijske arhitekture tog vremena",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T04:nova-lozionica:7ca40f9b56f2"
+            },
+            {
+              "t": "Hala",
+              "v": "velika moderna polukružna hala od armiranog betona — materijal koji je tada predstavljao građevinsku inovaciju",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T04:nova-lozionica:8b05194fa676"
+            },
+            {
+              "t": "Kapacitet",
+              "v": "31 mesto za smeštaj i izlazak parnih lokomotiva na stanične koloseke; nova okratnica i administrativna zgrada",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T04:nova-lozionica:3c6fe7f4d2a7"
+            },
+            {
+              "t": "Funkcije",
+              "v": "ložionica, alatnica i okratnica; popravka i servisiranje lokomotiva",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T04:nova-lozionica:b8c6a028acd0"
+            }
+          ]
+        },
+        {
+          "id": "kompleks",
+          "title": {
+            "en": "The depot complex",
+            "sr": "Ložionički kompleks"
+          },
+          "claims": [
+            {
+              "t": "Vodotoranj",
+              "v": "u sklopu ložionice — ključan deo sistema snabdevanja parnih lokomotiva vodom",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T04:kompleks:b324ed7df662"
+            },
+            {
+              "t": "Radionice",
+              "v": "kovačnica, strugara, mašinska radionica, livnica, fabrika gasa, radionice za drvo i metal, električna radionica, transformator, ugljene rampe i magacini",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T04:kompleks:c5f7a0c8f41a"
+            },
+            {
+              "t": "Administracija",
+              "v": "reprezentativna administrativna zgrada sa upravom i dva objekta za parno kupatilo",
+              "s": [
+                "S2"
+              ],
+              "id": "T04:kompleks:a9f9927fa6b4"
+            },
+            {
+              "t": "Veze",
+              "v": "pešački most preko okratnice; „dezinfekcioni kanal“ za dezinfekciju kola u čvoru",
+              "s": [
+                "S2"
+              ],
+              "id": "T04:kompleks:9c067d8a4503"
+            }
+          ]
+        },
+        {
+          "id": "ratovi",
+          "title": {
+            "en": "War damage and reconstruction",
+            "sr": "Ratna razaranja i obnova"
+          },
+          "claims": [
+            {
+              "t": "Drugi svetski rat",
+              "v": "kompleks pretrpeo znatna oštećenja usled višestrukog bombardovanja; obnovljen posle rata sa visokim stepenom vernosti originalnom projektu",
+              "s": [
+                "S1"
+              ],
+              "id": "T04:ratovi:39405b073f88"
+            },
+            {
+              "t": "Vodotoranj izuzetak",
+              "v": "pri obnovi dobio nešto drugačiji arhitektonski izgled u odnosu na prvobitnu formu",
+              "s": [
+                "S1"
+              ],
+              "id": "T04:ratovi:08beac285ca9"
+            }
+          ]
+        },
+        {
+          "id": "zalazak",
+          "title": {
+            "en": "Decline and transformation",
+            "sr": "Zalazak itransformacija"
+          },
+          "claims": [
+            {
+              "t": "Prelazak vuche",
+              "v": "druga polovina 20. veka — prelaz sa parne na dizel i električnu vuchu; vodotoranj gubi prvobitnu funkciju; ložionica se nastavlja koristiti za smeštaj lokomotiva i manje popravke",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "id": "T04:zalazak:0156e7f8433e"
+            },
+            {
+              "t": "Zatvaranje",
+              "v": "ložionica zvanično prestala sa radom 2018. — zatvaranje Glavne železničke stanice i izmeštanje pruga radi projekta „Beograd na vodi“",
+              "s": [
+                "S4"
+              ],
+              "id": "T04:zalazak:774488d177cd"
+            },
+            {
+              "t": "Poslednji voz",
+              "v": "poslednji voz sa stare Glavne železničke stanice otišao 1. jula 2018",
+              "s": [
+                "S3"
+              ],
+              "id": "T04:zalazak:83c87b1358c7"
+            },
+            {
+              "t": "Stanje pre obnove",
+              "v": "oštećenja konstrukcije i fasade, srušeni delovi zgrade, oštećeni prozori; od 31 mesta za lokomotive sačuvano 24; prateći objekti nisu sačuvani u prvobitnom obliku",
+              "s": [
+                "S3"
+              ],
+              "id": "T04:zalazak:a27a2204e69b"
+            },
+            {
+              "t": "Nova namena",
+              "v": "kreativni centar — umetnost, nauka, tehnologija i biznis; co-working prostori; programi pozorište, ples, muzika, film, dizajn; vodotoranj predviđen za digitalne i imerzivne izložbe, povezan pasarelom",
+              "s": [
+                "S3"
+              ],
+              "id": "T04:zalazak:ed7fe8f0cb14"
+            },
+            {
+              "t": "Nasleđe",
+              "v": "retko očuvani primeri industrijske železničke arhitekture podignute pre Drugog svetskog rata",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T04:zalazak:b846940830e6"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Studentska tabela „Ложионица — ПОДАТАК | ИЗВОР“ — kolona „Теренско истраживање“ (24. 10. 2026)",
+          "kind": "studentsko terensko istraživanje"
+        },
+        {
+          "id": "S2",
+          "label": "Lozionica.konkurs.rs — zvanični sajt konkursa (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://lozionica.konkurs.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Serbiacreates.rs / Lozionica.rs — nacionalna platforma „Srbija stvara“ (navod studenta)",
+          "kind": "platforma",
+          "url": "https://serbiacreates.rs/"
+        },
+        {
+          "id": "S4",
+          "label": "Politika.rs — o zatvaranju Glavne železničke stanice (navod studenta)",
+          "kind": "štampa",
+          "url": "https://www.politika.rs/"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "T06",
+      "object": "Gardoš / Milenijumska kula",
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "en": "Identity and height",
+            "sr": "Identitet i visina"
+          },
+          "claims": [
+            {
+              "t": "Naziv",
+              "v": "Kula Gardoš — jedna od četiri Milenijumske kule koje su ugarske vlasti podigle povodom hiljadugodišnjice doseljavanja Mađara u Panoniju; poznata i kao „Kula Sibinjanin Janka“",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "id": "T06:identitet:52a36c030e5c"
+            },
+            {
+              "t": "Visina",
+              "v": "36 m",
+              "s": [
+                "S1"
+              ],
+              "id": "T06:identitet:8c107c0a68db"
+            },
+            {
+              "t": "Temelji",
+              "v": "izgrađena na temeljima drevne zemunske tvrđave Taurunum iz 9. veka",
+              "s": [
+                "S1"
+              ],
+              "id": "T06:identitet:fbdecdad9524"
+            },
+            {
+              "t": "Projektant današnje kule",
+              "v": "mađarski arhitekta Lajoš Zobel; izgradnju nadgledali mađarski i lokalni graditelji u okviru ugarskih vlasti",
+              "s": [
+                "S5"
+              ],
+              "id": "T06:identitet:15e4531e0973"
+            }
+          ]
+        },
+        {
+          "id": "istorija",
+          "title": {
+            "en": "Historical layers of the site",
+            "sr": "Slojevi istorije lokacije"
+          },
+          "claims": [
+            {
+              "t": "Praistorija",
+              "v": "područje Gardoša naseljeno od praistorije — arheološki ostaci Starčevačke, Vinčanske i Badenske kulture, pa do Kelta",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T06:istorija:68b5201244c6"
+            },
+            {
+              "t": "Rimski Taurunum",
+              "v": "prvo jezgro rimskog Taurunuma na Gardošu, na mestu keltskog utvrđenja; pominje se u 1. veku na ušću Dunava i Save",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T06:istorija:fc0846297352"
+            },
+            {
+              "t": "Srednji vek",
+              "v": "utvrđenje rušeno i obnavljano; 12. vek — kamenje prenošeno između Beogradske i Zemunske tvrđave (poslednji put 1165); krajem 12. veka Zemun pripao Ugarima",
+              "s": [
+                "S2"
+              ],
+              "id": "T06:istorija:b96ccddf65da"
+            },
+            {
+              "t": "Srednjovekovna citadela",
+              "v": "gotskog tipa: četvorougaona osnova sa kružnim kulama (~10 m) na uglovima; bedemi od lomljenog kamena sa opečnom oblogom; razorena pri turskom osvajanju Zemuna",
+              "s": [
+                "S3"
+              ],
+              "id": "T06:istorija:1734d645dcec"
+            }
+          ]
+        },
+        {
+          "id": "materijali",
+          "title": {
+            "en": "Materials and origin",
+            "sr": "Materijali i poreklo"
+          },
+          "claims": [
+            {
+              "t": "Glavni materijal",
+              "v": "kula i prateći zidovi rađeni od opeke — dominantan građevinski materijal kraja 19. veka; temelj, ukrasni venci, stubovi i kapiteli od tvrdog kamena",
+              "s": [
+                "S4",
+                "S6"
+              ],
+              "id": "T06:materijali:90d38372b677"
+            },
+            {
+              "t": "Poreklo opeke",
+              "v": "pečena opeka iz lokalnih zemunskih i panonskih ciglana duž Dunava",
+              "s": [
+                "S4",
+                "S6"
+              ],
+              "id": "T06:materijali:5b4c0665cc1b"
+            },
+            {
+              "t": "Poreklo kamena",
+              "v": "kamen prebacivan lađama preko Dunava sa Kalemegdana; ukrasni kamen iz sremskih kamenoloma na Fruškoj gori",
+              "s": [
+                "S4",
+                "S6"
+              ],
+              "id": "T06:materijali:62a359ae7aa3"
+            }
+          ]
+        },
+        {
+          "id": "tehnologija",
+          "title": {
+            "en": "Construction technology",
+            "sr": "Tehnologija izgradnje"
+          },
+          "claims": [
+            {
+              "t": "Dizanje materijala",
+              "v": "parne dizalice i vitlovi za dizanje materijala na visinu do 36 m",
+              "s": [
+                "S6"
+              ],
+              "id": "T06:tehnologija:3a81277606c8"
+            },
+            {
+              "t": "Ostala tehnologija",
+              "v": "drvene skele; čelične drobilice sa parnim pogonom za mrvljenje kamena i građevinskog otpada; rečni transport",
+              "s": [
+                "S6"
+              ],
+              "id": "T06:tehnologija:e86eec6ce062"
+            }
+          ]
+        },
+        {
+          "id": "oblikovanje",
+          "title": {
+            "en": "Design and sculpture",
+            "sr": "Oblikovanje i plastika"
+          },
+          "claims": [
+            {
+              "t": "Stil",
+              "v": "eklektičko rešenje — mešavina istorijskih stilova sa naglaskom na romantičarskim elementima",
+              "s": [
+                "S6"
+              ],
+              "id": "T06:oblikovanje:53fd31b00351"
+            },
+            {
+              "t": "Lođa i atika",
+              "v": "iznad ulaza duboka reprezentativna lođa; na njoj atika ukrašena skulpturama; na zidu iza skulptura kraljevski grb",
+              "s": [
+                "S6"
+              ],
+              "id": "T06:oblikovanje:35635754618c"
+            },
+            {
+              "t": "Turul",
+              "v": "na vrhu kule pozlaćena skulptura Turula — ptice nalik sokolu, sa rasponom krila blizu 4 m",
+              "s": [
+                "S6"
+              ],
+              "id": "T06:oblikovanje:0b4940a38530"
+            }
+          ]
+        },
+        {
+          "id": "ratovi",
+          "title": {
+            "en": "Wars and damage",
+            "sr": "Ratovi i oštećenja"
+          },
+          "claims": [
+            {
+              "t": "Prvi svetski rat",
+              "v": "kula korišćena u vojne svrhe i granatirana; popravljena sredinom tridesetih godina",
+              "s": [
+                "S6"
+              ],
+              "id": "T06:ratovi:83ffbc6d321b"
+            }
+          ]
+        },
+        {
+          "id": "rekonstrukcija",
+          "title": {
+            "en": "Reconstruction 2018–2019",
+            "sr": "Rekonstrukcija 2018–2019"
+          },
+          "claims": [
+            {
+              "t": "Obim radova",
+              "v": "sanirana i restaurirana fasada; najobimniji zahtev na vidikovcu i zaštitnom bedemu — statički učvršćeni i kompletno rekonstruisani",
+              "s": [
+                "S7"
+              ],
+              "id": "T06:rekonstrukcija:8be34855533a"
+            },
+            {
+              "t": "Novo svetlo",
+              "v": "usvojen projekat dekorativnog i umetničkog svetla koje naglašava arhitekturu kule noću",
+              "s": [
+                "S7"
+              ],
+              "id": "T06:rekonstrukcija:20d5482d9da3"
+            },
+            {
+              "t": "Vrednost i finansijeri",
+              "v": "ukupno 34 miliona dinara; Opština Zemun, Ministarstvo trgovine, turizma i telekomunikacija, Ministarstvo pravde",
+              "s": [
+                "S7"
+              ],
+              "id": "T06:rekonstrukcija:7514f0d5bd8e"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Tvrdjave.rs — „Zemunska tvrđava“ (navod studenta)",
+          "kind": "portal",
+          "url": "https://tvrdjave.rs/zemunska-tvrdjava/"
+        },
+        {
+          "id": "S2",
+          "label": "Snežana i Dragan Vicić: „Pozdrav iz Zemuna“, Atelje Vicić (navod studenta)",
+          "kind": "publikacija"
+        },
+        {
+          "id": "S3",
+          "label": "Belgrade Turtle — „Zemun architecture“ (navod studenta)",
+          "kind": "blog",
+          "url": "https://www.belgradeturtle.com/post/zemun-architecture"
+        },
+        {
+          "id": "S4",
+          "label": "Ljiljana Aćimović: „Pogled preko reke“ (navod studenta)",
+          "kind": "publikacija"
+        },
+        {
+          "id": "S5",
+          "label": "Dragomir Acović: „Beograd“ (navod studenta)",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S6",
+          "label": "Miodrag Dabižić i Željko Škalamera: „Zemunski graditelj Franja Jenč“ (navod studenta)",
+          "kind": "publikacija"
+        },
+        {
+          "id": "S7",
+          "label": "Wikipedia (en.) — „Gardoš“ (navod studenta)",
+          "kind": "enciklopedija",
+          "url": "https://en.wikipedia.org/wiki/Gardo%C5%A1"
         }
       ],
       "media": []
@@ -3372,6 +4076,191 @@
       "media": []
     },
     {
+      "id": "T40",
+      "object": "Stambeno-poslovna zgrada Cara Uroša 57",
+      "sections": [
+        {
+          "id": "osnovni",
+          "title": {
+            "en": "Basic record",
+            "sr": "Osnovni podaci"
+          },
+          "claims": [
+            {
+              "t": "Objekat",
+              "v": "stambeno-poslovna zgrada u Ulici cara Uroša 57, Donji Dorćol, Beograd",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T40:osnovni:742bca38d396"
+            },
+            {
+              "t": "Projektant",
+              "v": "Folić Architects; izgrađena 2020.",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T40:osnovni:87377bd8b74b"
+            },
+            {
+              "t": "Spratnost",
+              "v": "2Po + P + 4 + Ps",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T40:osnovni:d432849a1873"
+            },
+            {
+              "t": "Forma",
+              "v": "ugaoni objekat u obliku slova „L“ koji maksimizuje prirodnu insolaciju stanova",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T40:osnovni:c8b1e26fb2e2"
+            }
+          ]
+        },
+        {
+          "id": "energetika",
+          "title": {
+            "en": "Energy efficiency",
+            "sr": "Energetska efikasnost"
+          },
+          "claims": [
+            {
+              "t": "Energetska klasa",
+              "v": "klasa B sa elementima klase A; primarna potrošnja ispod 65 kWh/m² godišnje",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:energetika:ec6a30360758"
+            },
+            {
+              "t": "Poređenje sa starijim fondom",
+              "v": "starije beogradske zgrade troše 140–180 kWh/m² godišnje (razredi D–F) — ušteda preko 55%",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:energetika:9dc35aa2148b"
+            },
+            {
+              "t": "Termički omotač",
+              "v": "kamena vuna debljine preko 15 cm; U spoljnih zidova ispod 0,24 W/m²K",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:energetika:92a3cbcab3a5"
+            },
+            {
+              "t": "Stolarija",
+              "v": "aluminijumska sa termičkim prekidom, troslojna Low-E stakla sa argonom",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:energetika:3e02829365d1"
+            },
+            {
+              "t": "Fasada",
+              "v": "kombinacija fasadne opeke i bele ventilirajuće fasade — vazdušni međusloj",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:energetika:089c1544334b"
+            },
+            {
+              "t": "Solarne performanse",
+              "v": "solarni faktor stakla ispod 35%; ušteda energije za hlađenje oko 40% (Low-E premazi i ventilirajuća fasada)",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:energetika:edb15e824478"
+            },
+            {
+              "t": "Sistem grejanja",
+              "v": "inverterske toplotne pumpe visokog koeficijenta efikasnosti; M-Bus daljinski kalorimetri po jedinici; rekuperacija otpadne toplote; LED rasveta sa senzorima pokreta u zajedničkim prostorijama",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:energetika:e13258a14768"
+            },
+            {
+              "t": "Zimski režim",
+              "v": "projektna spoljna temperatura −10 °C; unutrašnja stabilna +21 do +22 °C (analiza autorki)",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:energetika:d9eb58435220"
+            },
+            {
+              "t": "Letnji režim",
+              "v": "spolja +38 °C; unutra +25 do +26 °C bez klima-uređaja (analiza autorki)",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:energetika:358d29be6d6c"
+            }
+          ]
+        },
+        {
+          "id": "digitalni-pasos",
+          "title": {
+            "en": "Digital passport concept",
+            "sr": "Koncept digitalnog pasoša"
+          },
+          "claims": [
+            {
+              "t": "QR evidencija materijala",
+              "v": "elementi opreme nose QR kodove u tehničkoj etaži sa sertifikatima trajnosti — baza ugrađenih materijala integrisana u BMS (koncepcija autorki)",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:digitalni-pasos:aaa9441f984d"
+            },
+            {
+              "t": "Praćenje u realnom vremenu",
+              "v": "energetski balans zgrade prati se mobilnom aplikacijom — uprava i stanari (koncepcija autorki)",
+              "s": [
+                "S1"
+              ],
+              "id": "T40:digitalni-pasos:e877f8bf2d7c"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Studentski rad „Glasnik Beograda — specijalno naučno-tehničko izdanje: Cara Uroša 57“ (HTML, 18. 10. 2026)",
+          "kind": "studentski podnesak"
+        },
+        {
+          "id": "S2",
+          "label": "Gradnja.rs — „Buđenje donjeg Dorćola: Novi događaj u Cara Uroša 57“, Marko Stojanović, 21. 8. 2020 (navod studenta)",
+          "kind": "portal"
+        },
+        {
+          "id": "S3",
+          "label": "Zvanični portfolio Folić Architects (navod studenta)",
+          "kind": "portfolio"
+        },
+        {
+          "id": "S4",
+          "label": "Ministarstvo građevinarstva, saobraćaja i infrastrukture RS — pravilnici o energetskoj efikasnosti (navod studenta)",
+          "kind": "pravilnik"
+        },
+        {
+          "id": "S5",
+          "label": "Inženjerska komora Srbije — uporedne analize potrošnje (navod studenta)",
+          "kind": "udruženje"
+        }
+      ],
+      "media": []
+    },
+    {
       "id": "T46",
       "object": "Hotel Jugoslavija",
       "sections": [
@@ -4305,6 +5194,465 @@
       "media": []
     },
     {
+      "id": "T51",
+      "object": "Privatna stambena zgrada, Sremska Mitrovica",
+      "sections": [
+        {
+          "id": "osnovni",
+          "title": {
+            "en": "Basic record",
+            "sr": "Osnovni podaci"
+          },
+          "claims": [
+            {
+              "t": "Lokacija",
+              "v": "Sremska Mitrovica, Kuzminska 45; katastarska parcela 9334, KO Sremska Mitrovica",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "id": "T51:osnovni:acfe056175d8"
+            },
+            {
+              "t": "Objekat",
+              "v": "privatna stambena zgrada za višeporično stanovanje — „objekat 1“; namena stanovanje",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:osnovni:b976b87d7f49"
+            },
+            {
+              "t": "Godina izgradnje",
+              "v": "2026.",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:osnovni:e95828a89ca4"
+            },
+            {
+              "t": "Spratnost",
+              "v": "3 nivoa (P + 1 + Pk)",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:osnovni:6372ee0aebbd"
+            },
+            {
+              "t": "Površine",
+              "v": "prizemlje 351 m² bruto, sprat 396 m² bruto, potkrovlje 396 m² bruto, potkrovlje 2. nivo 206 m²; ukupno 1.349 m² bruto",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:osnovni:9a65d4586044"
+            },
+            {
+              "t": "Broj stanova",
+              "v": "12 stanova",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:osnovni:5b29f352261c"
+            },
+            {
+              "t": "Orijentacija",
+              "v": "severo-zapad",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:osnovni:73ce428de79a"
+            }
+          ]
+        },
+        {
+          "id": "omotac",
+          "title": {
+            "en": "Thermal envelope",
+            "sr": "Termički omotač"
+          },
+          "claims": [
+            {
+              "t": "Grejana površina",
+              "v": "930,12 m²",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:omotac:bd0ac1d0fe72"
+            },
+            {
+              "t": "Zapremina grejanog objekta",
+              "v": "2.446,23 m³",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:omotac:93454a0e6bbc"
+            },
+            {
+              "t": "Površina termičkog omotača",
+              "v": "1.380,38 m²",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:omotac:9607dc7c947a"
+            },
+            {
+              "t": "Faktor oblika zgrade",
+              "v": "0,39 m⁻¹",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:omotac:d11f89aae2a7"
+            },
+            {
+              "t": "Udeo transparentnih površina",
+              "v": "7,51% omotača",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:omotac:5e1f2d4eb061"
+            }
+          ]
+        },
+        {
+          "id": "konstrukcija",
+          "title": {
+            "en": "Construction layers and U-values",
+            "sr": "Slojevi konstrukcije i U-vrednosti"
+          },
+          "claims": [
+            {
+              "t": "Spoljašnji zid — slojevi",
+              "v": "krečni malter 2 cm, zidni blok 25 cm, mineralna staklena vuna URSA TERRA 66 Ph 12 cm, lepak i završni sloj Baumit; varijanta sa klima blokom 25 cm + termoizolacija 12 cm",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:konstrukcija:25a8e3094f50"
+            },
+            {
+              "t": "Spoljašnji zid — U",
+              "v": "0,194 W/m²K (najveća dozvoljena 0,200)",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:konstrukcija:f89b55616222"
+            },
+            {
+              "t": "Krov — slojevi",
+              "v": "termoizolacija URSA TERRA PLUS 68 Ph 25 cm, parna brana URSA SECO PRO, hidroizolacija, krovna lepenka, crep 1 cm, beton sa kamenim agregatima 20 cm; ukupno 48,09 cm",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:konstrukcija:d63c44c7f28f"
+            },
+            {
+              "t": "Krov — U",
+              "v": "0,138 W/m²K (crep), 0,131 W/m²K (lim); dozvoljeno 0,150",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:konstrukcija:7b65f5864eac"
+            },
+            {
+              "t": "Međuspratna konstrukcija MK1",
+              "v": "keramičke pločice 2 cm, cementni estrih 5 cm, PVC folija, URSA TEP 5 cm, beton 20 cm, fasadni slojevi; ukupno 45,92 cm",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:konstrukcija:8a3fc898c507"
+            },
+            {
+              "t": "MK1 — U",
+              "v": "0,181 W/m²K; pod na tlu 0,188; zid prema negrejanom hodniku 0,352; MK3 0,284; MK2 0,295 — sve unutar dozvoljenih vrednosti",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:konstrukcija:1a49e260bfc5"
+            }
+          ]
+        },
+        {
+          "id": "stolarija",
+          "title": {
+            "en": "Windows and joinery",
+            "sr": "Prozori i stolarija"
+          },
+          "claims": [
+            {
+              "t": "Stolarija",
+              "v": "aluminijumska sa dvoslojnim niskoemisionim staklom 4/12/4 mm, punjenim helijumom (elaborat); PVC stolarija REHAU i Španović u tabeli materijala",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "id": "T51:stolarija:e9139d1c60c5"
+            },
+            {
+              "t": "Staklo",
+              "v": "Ug 0,900 W/m²K, Uf 1,200 W/m²K, faktor solarnog prolaza g 0,620",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:stolarija:e866383337bb"
+            },
+            {
+              "t": "U-vrednosti elemenata",
+              "v": "prozori 1,140–1,410 W/m²K zavisno od dimenzija; krovni prozori 1,180–1,210; balkonska vrata 1,240–1,280; spoljašnja staklena vrata 1,140",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:stolarija:d00e80b67398"
+            }
+          ]
+        },
+        {
+          "id": "gubici",
+          "title": {
+            "en": "Heat losses and calculation",
+            "sr": "Toplotni gubici i proračun"
+          },
+          "claims": [
+            {
+              "t": "Transmisioni koeficijent gubitaka",
+              "v": "HT = 547,43 W/K (specifični 0,40 W/m²K; dozvoljeno 0,68)",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:gubici:2a1bfd6d6cbe"
+            },
+            {
+              "t": "Ventilacioni koeficijent gubitaka",
+              "v": "HV = 565,08 W/K; broj izmena vazduha 0,7 h⁻¹",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:gubici:241b1d23d59e"
+            },
+            {
+              "t": "Toplotni mostovi",
+              "v": "gubici preko termičkih mostova 138,04 W/K",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:gubici:23aa825a094a"
+            },
+            {
+              "t": "Godišnja potrebna energija za grejanje",
+              "v": "44.125,79 kWh, specifično 47,44 kWh/m²; energija za nadoknadu gubitaka 73.104,87 kWh",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:gubici:b8af7130ef81"
+            },
+            {
+              "t": "Dobici",
+              "v": "unutrašnji toplotni dobici 17.859,68 kWh; dobici od sunčevog zračenja 11.710,81 kWh",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:gubici:9a8d4d5b8f4f"
+            },
+            {
+              "t": "Klimatski podaci",
+              "v": "2.738 stepen-dana, grejna sezona 185 dana, srednja temperatura grejnog perioda 5,2 °C; projektni temperatuani uslovi +20 °C unutrašnja, −15 °C spoljašnja",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:gubici:d1cd7feb15fb"
+            },
+            {
+              "t": "Energetski razred",
+              "v": "C",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:gubici:9f36e7dea2f3"
+            }
+          ]
+        },
+        {
+          "id": "sistem",
+          "title": {
+            "en": "Heating system",
+            "sr": "Sistem grejanja"
+          },
+          "claims": [
+            {
+              "t": "Izvor toplote",
+              "v": "lokalni kotao na zemni gas sa automatskom centralnom i lokalnom regulacijom; cevna mreža u negrejanom delu izolovana",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:sistem:193ac99cd3c5"
+            },
+            {
+              "t": "Stepen korisnosti",
+              "v": "kotao 0,83; cevna mreža 0,98; automatska regulacija 0,95; ukupni sistem 0,77",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:sistem:6039e2a672b9"
+            },
+            {
+              "t": "Godišnji bilans sistema",
+              "v": "gubici sistema grejanja 12.977,97 kWh; toplota za sanitarnu toplu vodu 18.602,40 kWh; ukupno isporučena energija 109.320,14 kWh = 117,53 kWh/m²",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:sistem:4be1c4bad4be"
+            }
+          ]
+        },
+        {
+          "id": "materijali",
+          "title": {
+            "en": "Materials and contractors table",
+            "sr": "Tabela materijala i izvođača"
+          },
+          "claims": [
+            {
+              "t": "PVC stolarija",
+              "v": "REHAU; izvođač PVC stolarija Španović",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:materijali:5370759f14f0"
+            },
+            {
+              "t": "ALU stolarija",
+              "v": "ALUMIL profili; Aleksandrija Design Solutions",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:materijali:67b6fa27f2ad"
+            },
+            {
+              "t": "Fasada",
+              "v": "Baumit fasadni sistem; Voja Simić",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:materijali:cf111d97e780"
+            },
+            {
+              "t": "Krov",
+              "v": "crep Tondach; krovna limarija i oluci od pocinkovanog lima 0,55 mm — Limarija Ranisavljević; LNL-D",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:materijali:91a23da64d53"
+            },
+            {
+              "t": "Hidroizolacija",
+              "v": "Sika sistem; Hidrogradnja-Inženjering",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:materijali:a32763934c7e"
+            },
+            {
+              "t": "Keramika",
+              "v": "Keramika Kanjiža; lepak Ceresit CM 16; Keramika Živojinov",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:materijali:3bf5f74e4ed4"
+            },
+            {
+              "t": "Boje",
+              "v": "JUPOL Classic (JUB); GD DE",
+              "s": [
+                "S3"
+              ],
+              "id": "T51:materijali:44e3b0158687"
+            }
+          ]
+        },
+        {
+          "id": "vlaznost",
+          "title": {
+            "en": "Moisture, diffusion and stability",
+            "sr": "Vlažnost, difuzija i stabilnost"
+          },
+          "claims": [
+            {
+              "t": "Kondenzacija u zidu",
+              "v": "kondenzacija vodene pare u zoni slojeva 5 i 6, u dozvoljenim granicama; sadržaj vlage 6,937% prema dozvoljenih 17,315%",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:vlaznost:387f962efcee"
+            },
+            {
+              "t": "Isušivanje",
+              "v": "predviđeno vreme isušivanja 6,85 dana, maksimalno dozvoljeno 90",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:vlaznost:ec02a5bca006"
+            },
+            {
+              "t": "Toplotna stabilnost",
+              "v": "faktor prigušenja temperaturnih oscilacija 448,846 (najmanje dozvoljeno 15)",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:vlaznost:da0adc0d983a"
+            },
+            {
+              "t": "Površinska kondenzacija",
+              "v": "temperatura unutrašnje površine zida 19,1 °C (minimalno dozvoljeno 10,7 °C); kondenzacija bi nastala pri relativnoj vlažnosti 94,7% (−15 °C spolja / +20 °C unutra)",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:vlaznost:71b0e431f2c4"
+            }
+          ]
+        },
+        {
+          "id": "ocena",
+          "title": {
+            "en": "Assessment and limitations",
+            "sr": "Ocena i ograničenja"
+          },
+          "claims": [
+            {
+              "t": "Zaključak proračuna",
+              "v": "47,44 kWh/m² godišnje prema graničnoj vrednosti pravilnika od 60,00 kWh/m² — objekat zadovoljava kriterijume; razred C",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:ocena:fbca869e46cd"
+            },
+            {
+              "t": "Ograničenje",
+              "v": "rezultat je proračunska potrebna energija za grejanje, ne izmerena stvarna potrošnja; stvarna potrošnja zavisi od korišćenja, podešavanja temperature i vremenskih uslova",
+              "s": [
+                "S1"
+              ],
+              "id": "T51:ocena:92dd987efbfa"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Elaborat energetske efikasnosti zgrada, br. EEE-942/X/25, Sremska Mitrovica, oktobar 2025 (navod studenta)",
+          "kind": "stručni elaborat"
+        },
+        {
+          "id": "S2",
+          "label": "Pravilnik o energetskoj efikasnosti zgrada (granične vrednosti, navod studenta)",
+          "kind": "pravilnik"
+        },
+        {
+          "id": "S3",
+          "label": "Studentski podnesak „Građevinski pasoš — energetska efikasnost“ (25. 10. 2026)",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "media": []
+    },
+    {
       "id": "T53",
       "object": "Zgrada Instituta za ispitivanje materijala (IMS)",
       "sections": [
@@ -4721,6 +6069,84 @@
               "id": "T66:koncept:e180e26e58b1"
             }
           ]
+        },
+        {
+          "id": "istorijat",
+          "title": {
+            "en": "History and status",
+            "sr": "Istorijat i status"
+          },
+          "claims": [
+            {
+              "t": "Lokacija",
+              "v": "Karađorđeva 50, Beograd; deo kompleksa Belgrade Waterfront",
+              "s": [
+                "S7",
+                "S11"
+              ],
+              "id": "T66:istorijat:7bc5333a3213"
+            },
+            {
+              "t": "Istoriski vlasnik i osnivač",
+              "v": "zadužbinar i trgovac Luka Ćelović Trebinjac",
+              "s": [
+                "S7"
+              ],
+              "id": "T66:istorijat:3f50afbc746e"
+            },
+            {
+              "t": "Prvobitni projektant",
+              "v": "arhitekta Nikola Nestorović",
+              "s": [
+                "S7"
+              ],
+              "id": "T66:istorijat:0e80d61ea7b0"
+            },
+            {
+              "t": "Prvobitno otvaranje",
+              "v": "1912. godine",
+              "s": [
+                "S7",
+                "S8"
+              ],
+              "id": "T66:istorijat:753bccdbeb4e"
+            },
+            {
+              "t": "Ponovno otvaranje",
+              "v": "februar 2025, posle temeljne rekonstrukcije i renovacije — hotel sa 5 zvezdica",
+              "s": [
+                "S7",
+                "S8"
+              ],
+              "id": "T66:istorijat:ad22fc4c485f"
+            },
+            {
+              "t": "Vlasnik rekonstruisanog hotela",
+              "v": "BNV Bristol d.o.o. (Beograd na vodi — Savski venac)",
+              "s": [
+                "S7",
+                "S11"
+              ],
+              "id": "T66:istorijat:5ea2ec2dd867"
+            },
+            {
+              "t": "Stil",
+              "v": "secesija; pri restauraciji francuski art nouveau spojen sa istočnoevropskim motivima",
+              "s": [
+                "S7",
+                "S9"
+              ],
+              "id": "T66:istorijat:883303a74f7d"
+            },
+            {
+              "t": "Zaštitni status",
+              "v": "nepokretno kulturno dobro — spomenik kulture, zbog značajnog doprinosa građevinskom, arhitektonskom i urbanističkom razvoju Beograda",
+              "s": [
+                "S10"
+              ],
+              "id": "T66:istorijat:8dbb84780795"
+            }
+          ]
         }
       ],
       "sources": [
@@ -4754,6 +6180,35 @@
           "id": "S6",
           "label": "Journal.rs — „The Bristol: hotel u Beogradu koji spaja istoriju i eleganciju“ (navod studenta)",
           "kind": "portal"
+        },
+        {
+          "id": "S7",
+          "label": "Studentski podnesak „Hotel Bristol — objedinjene informacije“ (24. 10. 2026)",
+          "kind": "studentski podnesak"
+        },
+        {
+          "id": "S8",
+          "label": "Zvanični sajt hotela The Bristol Belgrade — „O hotelu“ (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://the-bristol.com/sr/belgrade/o-hotelu-the-bristol-belgrade"
+        },
+        {
+          "id": "S9",
+          "label": "Journal.rs — enterijeri The Bristol (navod studenta)",
+          "kind": "portal",
+          "url": "https://www.journal.rs/lifestyle/enterijeri/the-bristol-hotel-u-beogradu-beograd-centar/"
+        },
+        {
+          "id": "S10",
+          "label": "Wikipedia (sr.) — „Хотел Бристол“ (navod studenta)",
+          "kind": "enciklopedija",
+          "url": "https://sr.wikipedia.org/wiki/%D0%A5%D0%BE%D1%82%D0%B5%D0%BB_%D0%91%D1%80%D0%B8%D1%81%D1%82%D0%BE%D0%BB"
+        },
+        {
+          "id": "S11",
+          "label": "Companywall — BNV Bristol d.o.o. (navod studenta)",
+          "kind": "registar",
+          "url": "https://www.companywall.rs/firma/bnv-bristol-doo/MMxCG1oNR"
         }
       ],
       "media": []

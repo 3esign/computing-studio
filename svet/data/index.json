@@ -1,14 +1,14 @@
 {
-  "datasetRevision": "r-57317c7ec502acca",
+  "datasetRevision": "r-ebf74f0b80f3c756",
   "registeredTeams": 70,
-  "curatedPassportsCount": 19,
-  "totalCuratedClaims": 378,
+  "curatedPassportsCount": 23,
+  "totalCuratedClaims": 502,
   "passports": [
     {
       "id": "T01",
       "object": "Osnovna škola „Laza Kostić”",
-      "sections": 8,
-      "claims": 21
+      "sections": 9,
+      "claims": 30
     },
     {
       "id": "T02",
@@ -21,6 +21,18 @@
       "object": "Sava Centar",
       "sections": 10,
       "claims": 30
+    },
+    {
+      "id": "T04",
+      "object": "Ložionica",
+      "sections": 6,
+      "claims": 28
+    },
+    {
+      "id": "T06",
+      "object": "Gardoš / Milenijumska kula",
+      "sections": 7,
+      "claims": 20
     },
     {
       "id": "T11",
@@ -83,6 +95,12 @@
       "claims": 20
     },
     {
+      "id": "T40",
+      "object": "Stambeno-poslovna zgrada Cara Uroša 57",
+      "sections": 3,
+      "claims": 15
+    },
+    {
       "id": "T46",
       "object": "Hotel Jugoslavija",
       "sections": 7,
@@ -101,6 +119,12 @@
       "claims": 20
     },
     {
+      "id": "T51",
+      "object": "Privatna stambena zgrada, Sremska Mitrovica",
+      "sections": 9,
+      "claims": 44
+    },
+    {
       "id": "T53",
       "object": "Zgrada Instituta za ispitivanje materijala (IMS)",
       "sections": 4,
@@ -115,8 +139,8 @@
     {
       "id": "T66",
       "object": "Hotel Bristol",
-      "sections": 3,
-      "claims": 14
+      "sections": 4,
+      "claims": 22
     }
   ]
 }
