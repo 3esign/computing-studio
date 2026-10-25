@@ -9,7 +9,7 @@
   "totals": {
     "teams": 70,
     "objects": 51,
-    "completedPassports": 12
+    "completedPassports": 19
   },
   "entries": [
     {
@@ -348,12 +348,12 @@
       "progressLabel": "Predata radna verzija",
       "status": "Predat preliminarni rad",
       "submissionsCount": 1,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "Deo klastera Beograđanka: konstrukcija (T17)"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 25,
+      "sectionsCount": 3
     },
     {
       "id": "T18",
@@ -372,7 +372,7 @@
       "flags": [
         "Razrešeno: indeks je 175/26 (ne 157)"
       ],
-      "claimsCount": 9,
+      "claimsCount": 16,
       "sectionsCount": 3
     },
     {
@@ -569,13 +569,13 @@
       "progressLabel": "Predata radna verzija",
       "status": "Predat rad o konstrukciji, mašinama i energetskoj efikasnosti (19.10)",
       "submissionsCount": 1,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "Prvi tim na Kuli Beograd (dozvoljeno)",
         "Indeksi se proveravaju: student piše Bogićević 33 / Joksić 62, registar nosi obrnuto"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 29,
+      "sectionsCount": 7
     },
     {
       "id": "T29",
@@ -671,10 +671,10 @@
       "progressLabel": "Predat pasoš Starog dvora",
       "status": "Predat pasoš; traži se tabela i izvori",
       "submissionsCount": 0,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 20,
+      "sectionsCount": 6
     },
     {
       "id": "T34",
@@ -921,10 +921,10 @@
       "progressLabel": "Predat pasoš kroz svih 7 celina",
       "status": "Predat pasoš kroz svih sedam celina (19.10)",
       "submissionsCount": 0,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 28,
+      "sectionsCount": 7
     },
     {
       "id": "T47",
@@ -976,10 +976,10 @@
       "progressLabel": "Primljen pilot pasoš",
       "status": "Primljen pilot pasoš; izvori nepotpuni",
       "submissionsCount": 0,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 20,
+      "sectionsCount": 5
     },
     {
       "id": "T50",
@@ -1283,10 +1283,10 @@
       "progressLabel": "Predat pasoš i igrica",
       "status": "Predat PDF pasoš i HTML igrica (19.10)",
       "submissionsCount": 1,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 11,
+      "sectionsCount": 3
     },
     {
       "id": "T66",
@@ -1301,12 +1301,12 @@
       "progressLabel": "Predat elaborat",
       "status": "Predat elaborat i koncept (19.10)",
       "submissionsCount": 1,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "Novoformiran tim 13.10 od članova koji su napustili T31 i T32"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 14,
+      "sectionsCount": 3
     },
     {
       "id": "T67",
@@ -1397,5 +1397,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-e737d566122b7cb9"
+  "datasetRevision": "r-57317c7ec502acca"
 }

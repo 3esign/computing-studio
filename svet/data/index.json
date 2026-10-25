@@ -1,8 +1,8 @@
 {
-  "datasetRevision": "r-e737d566122b7cb9",
+  "datasetRevision": "r-57317c7ec502acca",
   "registeredTeams": 70,
-  "curatedPassportsCount": 12,
-  "totalCuratedClaims": 224,
+  "curatedPassportsCount": 19,
+  "totalCuratedClaims": 378,
   "passports": [
     {
       "id": "T01",
@@ -41,10 +41,16 @@
       "claims": 35
     },
     {
+      "id": "T17",
+      "object": "Palata Beograd (Beograđanka)",
+      "sections": 3,
+      "claims": 25
+    },
+    {
       "id": "T18",
       "object": "Palata Beograd (Beograđanka)",
       "sections": 3,
-      "claims": 9
+      "claims": 16
     },
     {
       "id": "T19",
@@ -65,16 +71,52 @@
       "claims": 12
     },
     {
+      "id": "T28",
+      "object": "Kula Beograd",
+      "sections": 7,
+      "claims": 29
+    },
+    {
+      "id": "T33",
+      "object": "Stari dvor",
+      "sections": 6,
+      "claims": 20
+    },
+    {
+      "id": "T46",
+      "object": "Hotel Jugoslavija",
+      "sections": 7,
+      "claims": 28
+    },
+    {
       "id": "T48",
       "object": "Palata Srbije (ranije Palata Federacije, zgrada SIV-a)",
       "sections": 5,
       "claims": 24
     },
     {
+      "id": "T49",
+      "object": "Stambena kula „Toblerone”",
+      "sections": 5,
+      "claims": 20
+    },
+    {
       "id": "T53",
       "object": "Zgrada Instituta za ispitivanje materijala (IMS)",
       "sections": 4,
       "claims": 9
+    },
+    {
+      "id": "T65",
+      "object": "Crkva Aleksandra Nevskog",
+      "sections": 3,
+      "claims": 11
+    },
+    {
+      "id": "T66",
+      "object": "Hotel Bristol",
+      "sections": 3,
+      "claims": 14
     }
   ]
 }
