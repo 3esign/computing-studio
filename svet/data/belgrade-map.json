@@ -121,8 +121,7 @@
       "indices": [
         "138/26",
         "119/26",
-        "56/26",
-        "136/26"
+        "56/26"
       ],
       "topic": "Kulturni centar, omladinska arhitektura, enterijer",
       "place": "Stari grad / Dečanska",
@@ -150,7 +149,8 @@
       "object": "Gardoš / Milenijumska kula",
       "indices": [
         "95/26",
-        "8/26"
+        "8/26",
+        "27/26"
       ],
       "topic": "Istorijska kula, vidikovac, materijali (kamen, opeka)",
       "place": "Zemun",
@@ -1011,7 +1011,7 @@
       "object": "Zgrada tehničkih fakulteta",
       "indices": [
         "103/26",
-        "196/26",
+        "126/26",
         "91/26"
       ],
       "topic": "Arhitektonska simbolika, fasadna plastika, skulpture inženjera",
@@ -1235,23 +1235,23 @@
     },
     {
       "id": "T44",
-      "object": "ATŠ — Arhitektonska tehnička škola",
+      "object": "Kula Beograd",
       "indices": [
         "154/26",
         "156/26",
         "166/26"
       ],
-      "topic": "Arhitektura škole, transformacija i lično korisničko iskustvo",
-      "place": "Beograd",
-      "lat": 44.743,
-      "lng": 20.4712,
+      "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°)",
+      "place": "Beograd na vodi",
+      "lat": 44.8046,
+      "lng": 20.4455,
       "x": 85.91,
-      "y": 3.2,
+      "y": 1.8,
       "z": 161.64,
-      "type": "standard",
-      "progressStage": 2,
-      "progressLabel": "Predlog u toku",
-      "status": "Objekat iz prijavljenog izbora (konsultacije 12.10.2026). Mejlom 08.10.2026 tim je najavio promenu objekta; novi predlog nije dokumentovan, pa se registar drži prijavljenog.",
+      "type": "kulabeograd",
+      "progressStage": 4,
+      "progressLabel": "Predata radna verzija istraživanja",
+      "status": "Predat PDF istraživanja sa 9 izvora + početak sajta (prijem 27.10); promena objekta sa ATŠ dokumentovana.",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1260,7 +1260,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B34c1628c",
+      "building": "Bedda6bf8",
       "location": "Vojislava Ilića 78, Beograd — približno",
       "flags": [
         "Raniji zapis je spajao ATŠ i Dom Svetog Save u Cara Dušana — to su dva različita objekta.",
@@ -2005,6 +2005,6 @@
       "building": "B111f4f77"
     }
   ],
-  "datasetRevision": "r-ebf74f0b80f3c756",
+  "datasetRevision": "r-a85d45a2d506c021",
   "coordinateNote": "Koordinate su približne lokacije objekata iz kuriranog skupa mape registra (spojeno 2026-10-25); nijedna nije nezavisno proverena na terenu. Timovi T12, T25, T39, T59 zadržavaju izjavljenu tačku registra jer im je deljena lokacija još otvoreno pitanje."
 }

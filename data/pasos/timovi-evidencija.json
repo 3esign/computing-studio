@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-10-23",
+  "updated": "2026-10-27",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
@@ -104,8 +104,7 @@
       "indices": [
         "138/26",
         "119/26",
-        "56/26",
-        "136/26"
+        "56/26"
       ],
       "object": "Dom omladine Beograd",
       "location": "Makedonska 22, Beograd",
@@ -116,7 +115,7 @@
       "submissionsCount": 1,
       "hasPassport": false,
       "flags": [
-        "Indeks 136/26 se javlja i u T68 (Zgrada tehničkih fakulteta)"
+        "Spisak časa 26.10: 136/26 sklonjen iz tima (višak); ostaje u T68. Dupli indeks razrešen."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -125,7 +124,8 @@
       "id": "T06",
       "indices": [
         "95/26",
-        "8/26"
+        "8/26",
+        "27/26"
       ],
       "object": "Gardoš / Milenijumska kula",
       "location": "Zemun, Beograd",
@@ -136,7 +136,8 @@
       "submissionsCount": 1,
       "hasPassport": true,
       "flags": [
-        "Prijem 25.10: podnosilac potvrdila indeks 8/2026; odeljak legendi izostavljen iz pasoša — pozivao se na AI (Gemini) umesto na izvor"
+        "Prijem 25.10: podnosilac potvrdila indeks 8/2026; odeljak legendi izostavljen iz pasoša — pozivao se na AI (Gemini) umesto na izvor",
+        "Spisak časa 26.10: dopisan nedostajući indeks 27/26."
       ],
       "claimsCount": 20,
       "sectionsCount": 7
@@ -725,7 +726,7 @@
       "id": "T36",
       "indices": [
         "103/26",
-        "196/26",
+        "126/26",
         "91/26"
       ],
       "object": "Zgrada tehničkih fakulteta",
@@ -736,7 +737,9 @@
       "status": "U pripremi podnesak",
       "submissionsCount": 0,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Spisak časa 26.10: umesto 196/26 ispravno je 126/26."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -885,17 +888,18 @@
         "156/26",
         "166/26"
       ],
-      "object": "ATŠ — Arhitektonska tehnička škola",
-      "location": "Vojislava Ilića 78, Beograd — približno",
-      "topic": "Arhitektura škole, transformacija i lično korisničko iskustvo",
-      "progressStage": 2,
-      "progressLabel": "Predlog u toku",
-      "status": "Objekat iz prijavljenog izbora (konsultacije 12.10.2026). Mejlom 08.10.2026 tim je najavio promenu objekta; novi predlog nije dokumentovan, pa se registar drži prijavljenog.",
-      "submissionsCount": 1,
+      "object": "Kula Beograd",
+      "location": "Beograd na vodi",
+      "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
+      "progressStage": 4,
+      "progressLabel": "Predata radna verzija istraživanja",
+      "status": "Predat PDF istraživanja sa 9 izvora + početak sajta dve-kule-beograd.ai.studio (prijem 27.10). Promena objekta sa ATŠ dokumentovana ovim prijemom.",
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
-        "Raniji zapis je spajao ATŠ i Dom Svetog Save u Cara Dušana — to su dva različita objekta.",
-        "Lokacija je približna, po javnoj adresi škole; nije geodetski potvrđena."
+        "Lokacija je približna, po javnoj adresi škole; nije geodetski potvrđena.",
+        "Do 27.10. registar je vodio ATŠ; mejlom 08.10. najavljena promena, dokumentovana prijemom 27.10 (evidencija/prijem-2026-10-27/raw/t44/).",
+        "Četvrti tim na Kuli Beograd (uz T28 izvođenje, T67 konstruktivni sistem, IND-02 opšti podaci) — ugao: razvoj projekta kroz vreme, ne preklapa se."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -1410,5 +1414,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-ebf74f0b80f3c756"
+  "datasetRevision": "r-a85d45a2d506c021"
 }
