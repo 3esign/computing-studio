@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
@@ -474,12 +474,14 @@
       "object": "Jugoslovensko dramsko pozorište (JDP)",
       "location": "Kralja Milana 50, Beograd",
       "topic": "Bojan Stupica, požar 1997, staklena fasada Zorana Radojičića, teatar",
-      "progressStage": 2,
-      "progressLabel": "Arhivsko istraživanje",
-      "status": "Arhivsko istraživanje",
-      "submissionsCount": 0,
+      "progressStage": 4,
+      "progressLabel": "Predat rad",
+      "status": "Predat pasoš: identitet, materijali i hronologija namena 1860–2005 sa literaturom po epohi (prijem 28.10)",
+      "submissionsCount": 1,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Prijem 28.10: docx sa 16 grafičkih priloga (arhivske fotografije, nacrti Krasnova 1927–28, fasada Belobrka, požar 1997, rekonstrukcija 2003–05); izvori priloga navedeni (IAB, MGB, NBS, arhiv JDP). Građa čeka kuriranje u paket."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
