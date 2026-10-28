@@ -331,13 +331,14 @@
       "object": "Palata Narodne banke Srbije",
       "location": "Kralja Petra 12, Beograd",
       "topic": "Konstantin Jovanović, neorenesansna palata, trezori, reprezentativni hol",
-      "progressStage": 2,
-      "progressLabel": "Priprema terenskog rada",
-      "status": "Priprema terenskog rada",
-      "submissionsCount": 0,
+      "progressStage": 3,
+      "progressLabel": "Čeka ispravljen pasoš — izvori uz svaki podatak",
+      "status": "Predat pasoš (26.10) bez izvora po pasusu — čeka ispravljenu verziju",
+      "submissionsCount": 1,
       "hasPassport": false,
       "flags": [
-        "Ista upisana tačka kao T55: Palata Narodne banke je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima."
+        "Ista upisana tačka kao T55: Palata Narodne banke je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima.",
+        "Tim potvrđen 28.10: tročlani tim, tri indeksa. T55 (isti objekat, dva indeksa) je poseban tim bez predaje."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -495,12 +496,14 @@
       "object": "Stara pošta na Savskom trgu",
       "location": "Savski trg 2, Beograd",
       "topic": "Momir Korunović, srpsko-vizantijski modernizam, posleratno uklanjanje fasade",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
-      "submissionsCount": 0,
+      "progressStage": 3,
+      "progressLabel": "Predata aplikacija, čeka se pasoš",
+      "status": "Predata AI Studio aplikacija (26.10); pasoš najavljen",
+      "submissionsCount": 1,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Prijem 28.10 (2. tura): aplikacija predata, digitalni pasoš još nije stigao."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -638,13 +641,14 @@
       "object": "Zgrada rektorata (Kapetan Mišino zdanje)",
       "location": "Studentski trg 1, Beograd",
       "topic": "Konstruktivni elementi i enterijer, tavanica, svečana sala",
-      "progressStage": 2,
-      "progressLabel": "Potvrđena reorganizacija",
-      "status": "Potvrđena tema i registracija",
-      "submissionsCount": 0,
+      "progressStage": 3,
+      "progressLabel": "Čeka ispravljen pasoš — izvori uz svaki podatak",
+      "status": "Predat pasoš bez izvora (Kapetan-Mišino zdanje, 26.10) — čeka ispravljenu verziju u tabeli: podatak levo, izvor desno",
+      "submissionsCount": 1,
       "hasPassport": false,
       "flags": [
-        "Reorganizovan tim: jedan član prešao u T66"
+        "Reorganizovan tim: jedan član prešao u T66",
+        "Prijem 28.10 (2. tura): pasoš predat 26.10 bez izvora uz podatke — čekamo ispravljenu verziju (tabela podatak/izvor)."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -856,11 +860,12 @@
       "topic": "Milica Krstić, prosvetna arhitektura, 3D prostorni eksperiment i gamifikacija pasoša",
       "progressStage": 5,
       "progressLabel": "Izrađene AI Studio aplikacije",
-      "status": "Predate 2 AI Studio aplikacije (Igra + 3D portret)",
-      "submissionsCount": 2,
+      "status": "Predate 2 AI Studio aplikacije; stigao odgovor Arhiva Jugoslavije (27.10) — građa za aksonometriju i maketu",
+      "submissionsCount": 3,
       "hasPassport": false,
       "flags": [
-        "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i još jedan student bez indeksa, koji nisu u listi"
+        "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i još jedan student bez indeksa, koji nisu u listi",
+        "Prijem 28.10 (2. tura): Arhiv Jugoslavije odgovorio, podaci stižu u sledeće zadatke."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -1007,12 +1012,14 @@
       "object": "Palata Beograd (Beograđanka)",
       "location": "Masarikova 5, Beograd",
       "topic": "Fasada i vidikovac, javni prostori",
-      "progressStage": 2,
-      "progressLabel": "Čeka se podnesak",
-      "status": "U pripremi podnesak",
-      "submissionsCount": 0,
+      "progressStage": 3,
+      "progressLabel": "Čeka ispravljen pasoš — izvori uz svaki podatak",
+      "status": "Predat pasoš (19.10) na doradi — ChatGPT nije izvor; tim šalje doradu sa podacima iz Arhiva Beograda",
+      "submissionsCount": 1,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Prijem 28.10 (2. tura): pasoš na doradi (izvori) — čekamo ispravljenu verziju posle Arhiva Beograda."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -1416,7 +1423,26 @@
       ],
       "claimsCount": 0,
       "sectionsCount": 0
+    },
+    {
+      "id": "T71",
+      "indices": [
+        "149/2026"
+      ],
+      "object": "Miloša Pocerca 32",
+      "location": "Beograd",
+      "topic": "Zvanični spisi o objektu i istorija; prikupljanje izvora u tabeli podatak/izvor",
+      "progressStage": 2,
+      "progressLabel": "Tim upisan 28.10 — predati spisi o objektu, čeka tabelu podatak/izvor",
+      "status": "Tim upisan 28.10 — predati spisi o objektu, čeka tabelu podatak/izvor",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Prijem 28.10 (2. tura): tim nije bio u registru; upisan po mejlu studenta (indeks 149/2026). Drugi član bez indeksa u mejlu — čeka potvrdu. Lokacija približna."
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-b3d1478995c569c7"
+  "datasetRevision": "r-7531e7c1fa1b1788"
 }
