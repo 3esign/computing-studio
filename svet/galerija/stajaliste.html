@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8"><link rel="icon" href="../../assets/mark.svg">
+<title>Stajalište — fotografije timova stoje na svom mestu u Beogradu</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root { --dan: #e9edf0; --grafit: #1d2126; --akcenat: #1f5fa8; --pozadina: #e9edf0; }
+  html, body { margin: 0; height: 100%; background: var(--dan); color: var(--grafit); font: 14px/1.4 ui-monospace, "Cascadia Mono", Consolas, monospace; overflow: hidden; }
+  canvas { display: block; width: 100vw; height: 100vh; }
+  .hud { position: fixed; pointer-events: none; }
+  .naslov { left: 28px; top: 24px; }
+  .naslov h1 { margin: 0; font: 300 clamp(22px, 3vw, 34px)/1.05 "Segoe UI", Helvetica, Arial, sans-serif; letter-spacing: -.01em; }
+  .naslov h1 em { font-style: normal; color: var(--akcenat); }
+  .naslov p { margin: 8px 0 0; opacity: .7; font-variant-numeric: tabular-nums; max-width: 48ch; }
+  .karta { left: 28px; bottom: 24px; max-width: 56ch; opacity: 0; transition: opacity 180ms; border-left: 2px solid var(--akcenat); padding-left: 12px; }
+  .karta b { font-weight: 600; color: var(--akcenat); }
+  .karta small { opacity: .6; display: block; margin-top: 4px; word-break: break-all; }
+  .legenda { right: 28px; bottom: 24px; text-align: right; opacity: .7; }
+  .oznaka.sitna { display: none; } .oznaka { font-size: 11px; opacity: .55; transform: translate(-50%, -100%); white-space: nowrap; }
+  @media (max-width: 600px) { .legenda, .oznaka.sitna { display: none; } .naslov p { max-width: 30ch; } .karta { max-width: 80vw; } }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="hud naslov"><h1><em>Stajalište</em> · fotografije timova</h1><p id="opis">učitavam…</p></div>
+<div class="hud karta" id="karta"></div>
+<div class="hud legenda">stub = fotografija na mestu objekta · visina = redosled prijema · tačka = dominantna boja<br>prazan prsten = tim bez ijedne slike (sistem raste)</div>
+<script>addEventListener("error",e=>{document.getElementById("opis").textContent="GRESKA: "+e.message+" @"+(e.filename||"")+":"+e.lineno});addEventListener("unhandledrejection",e=>{document.getElementById("opis").textContent="GRESKA(promise): "+(e.reason&&e.reason.message||e.reason)});</script>
+<script type="module">
+import * as THREE from './vendor/three.module.js';
+import { ucitaj, ploce, postaviInstancu, hud, reducedMotion, renderer as mkRenderer, pmrem, raspored, osaRaspored, galerija, kocka } from './foto.js';
+import { navigacija } from './nav.js';
+import { kontrole, izUpita } from './ui.js';
+
+// ——— rečenica sveta: fotografija stoji tamo odakle je snimljena. Oko svakog objekta tim podiže svoje slike kao stele,
+// stepenasto po redosledu prijema; grad je hairline karta iz OSM-a; tim bez slika je prazan prsten koji čeka. Dnevno svetlo.
+const canvas = document.getElementById('c');
+const r = mkRenderer(canvas); r.toneMappingExposure = 1.0;
+const scene = new THREE.Scene(); scene.background = new THREE.Color(0xe9edf0);
+scene.fog = new THREE.Fog(0xe9edf0, 60, 170);
+const cam = new THREE.PerspectiveCamera(34, 1, 0.1, 600);
+pmrem(r, scene, [0xc9d7e4, 0xeef1f3, 0x9a948c]);
+const sun = new THREE.DirectionalLight(0xfff1dc, 1.9); sun.position.set(40, 50, 30); scene.add(sun);
+scene.add(new THREE.HemisphereLight(0xdfe7ee, 0xb8b1a6, 0.9));
+
+const [{ json, tex }, geo, karta] = await Promise.all([ucitaj('ostali'), fetch('../data/geography.json').then(r => r.json()), fetch('../data/belgrade-map.json').then(r => r.json())]);
+const items = json.items;
+// projekcija iz geography.json: origin [20.45,44.818], 25 m/jedinica, x istok, z jug
+const [olng, olat] = geo.projection.origin, mpu = geo.projection.metersPerUnit;
+const kLat = 110574 / mpu, kLng = 111320 * Math.cos(olat * Math.PI / 180) / mpu;
+const proj = (lng, lat) => new THREE.Vector3((lng - olng) * kLng, 0, (olat - lat) * kLat);
+
+// grad kao hairline: reke (plavičasto), primarne/sekundarne ulice (sivo); zgrade izostavljene namerno (tišina pozadine)
+const reke = [], ulice = [];
+for (const f of geo.features) {
+  if (f.kind !== 'river' && f.kind !== 'road') continue;
+  if (f.kind === 'road' && !/^(primary|secondary|trunk|tertiary)$/.test(f.roadClass || '')) continue;
+  const q = f.q, arr = f.kind === 'river' ? reke : ulice;
+  for (let i = 0; i + 3 < q.length; i += 2) arr.push(proj(q[i] / 1e6, q[i + 1] / 1e6), proj(q[i + 2] / 1e6, q[i + 3] / 1e6));
+}
+scene.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(reke), new THREE.LineBasicMaterial({ color: 0x4f7ea6, transparent: true, opacity: 0.95 })));
+scene.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(ulice), new THREE.LineBasicMaterial({ color: 0x8f989f, transparent: true, opacity: 0.75 })));
+const pod = new THREE.Mesh(new THREE.PlaneGeometry(900, 900), new THREE.MeshStandardMaterial({ color: 0xe3e7ea, roughness: 1 })); pod.rotation.x = -Math.PI / 2; pod.position.y = -0.02; scene.add(pod);
+
+// mesta timova
+const mesta = new Map(karta.teams.map(t => [t.id, { ...t, p: proj(t.lng, t.lat) }]));
+const poTimu = new Map();
+items.forEach((it, i) => { if (!it.tim || !mesta.has(it.tim)) return; if (!poTimu.has(it.tim)) poTimu.set(it.tim, []); poTimu.get(it.tim).push(i); });
+const { mesh, lift: liftAttr, U, jacina } = ploce(items, tex, { podloga: 0xffffff, relief: 0.32, akcenat: 0x1f5fa8, svetlo: true, material: { roughness: 0.38, envMapIntensity: 0.9 } });
+const A = items.map(() => ({ p: new THREE.Vector3(0, -50, 0), w: 0.001, h: 0.001, ry: 0, rx: 0 })); // raspored sveta; bez mesta → van kadra
+const stubovi = [], tacke = [], tackeBoje = [], centar = new THREE.Vector3(); let nPost = 0;
+const hidden = new THREE.Vector3(0, -50, 0);
+items.forEach((it, i) => postaviInstancu(mesh, i, hidden, 0.001, 0.001)); // bez mesta → van kadra
+const col = new THREE.Color();
+for (const [tim, idx] of poTimu) {
+  const m = mesta.get(tim); centar.add(m.p); nPost++;
+  idx.sort((a, b) => (items[a].prijem || '').localeCompare(items[b].prijem || '') || a - b);
+  const n = idx.length, rad = 2.2 + Math.min(3.5, n * 0.18);
+  idx.forEach((i, j) => {
+    const it = items[i], a = j / n * Math.PI * 2 - Math.PI / 2;
+    const h = 2.1, w = h * Math.min(1.7, Math.max(0.55, it.ose.odnos));
+    const y = 1.2 + j * 0.6;                                // stepenasto: redosled prijema
+    const p = new THREE.Vector3(m.p.x + Math.cos(a) * rad, y + h / 2, m.p.z + Math.sin(a) * rad);
+    A[i] = { p: p.clone(), w, h, ry: -a + Math.PI / 2, rx: 0 };
+    postaviInstancu(mesh, i, p, w, h, -a + Math.PI / 2, 0);  // lice okrenuto od objekta ka gradu
+    stubovi.push(new THREE.Vector3(p.x, 0, p.z), new THREE.Vector3(p.x, p.y - h / 2, p.z));
+    col.setHSL(it.ose.hue / 360, Math.min(1, it.ose.zasicenje * 1.6), 0.5);
+    tacke.push(p.x, p.y + h / 2 + 0.25, p.z); tackeBoje.push(col.r, col.g, col.b);
+  });
+}
+{ const dani = items.map(it => Date.parse(it.prijem)), d0 = Math.min(...dani), d1 = Math.max(...dani) || d0 + 1; items.forEach((it, i) => jacina.setX(i, 0.35 + 0.65 * (dani[i] - d0) / Math.max(1, d1 - d0))); jacina.needsUpdate = true; }   // jačina sloja = svežina prijema
+mesh.instanceMatrix.needsUpdate = true; scene.add(mesh);
+centar.divideScalar(Math.max(1, nPost));
+const med = (arr) => { const a = [...arr].sort((p, q) => p - q); return a[Math.floor(a.length / 2)]; };
+const sx = [...poTimu.keys()].map(t => mesta.get(t).p.x), sz = [...poTimu.keys()].map(t => mesta.get(t).p.z);
+centar.set(med(sx), 0, med(sz) + 6); const dist = 92; // medijana: jezgro grada u kadru, udaljena mesta ostaju na karti
+const stubL = new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(stubovi), new THREE.LineBasicMaterial({ color: 0x1d2126, transparent: true, opacity: 0.7 })); scene.add(stubL);
+const tg = new THREE.BufferGeometry(); tg.setAttribute('position', new THREE.Float32BufferAttribute(tacke, 3)); tg.setAttribute('color', new THREE.Float32BufferAttribute(tackeBoje, 3));
+const tackeP = new THREE.Points(tg, new THREE.PointsMaterial({ size: 0.7, vertexColors: true, sizeAttenuation: true })); scene.add(tackeP);
+// prazni prstenovi: timovi bez slika
+const prsten = new THREE.RingGeometry(1.3, 1.45, 48); prsten.rotateX(-Math.PI / 2);
+const prazni = new THREE.InstancedMesh(prsten, new THREE.MeshBasicMaterial({ color: 0x1f5fa8, transparent: true, opacity: 0.35, side: THREE.DoubleSide }), mesta.size);
+let k = 0; const mm = new THREE.Matrix4(); const oznake = [];
+for (const [tim, m] of mesta) {
+  if (!poTimu.has(tim)) { mm.makeTranslation(m.p.x, 0.01, m.p.z); prazni.setMatrixAt(k++, mm); }
+  const el = document.createElement('div'); el.className = 'hud oznaka' + (poTimu.has(tim) ? '' : ' sitna'); el.textContent = poTimu.has(tim) ? `${tim} · ${m.object}` : tim; document.body.appendChild(el);
+  oznake.push([el, new THREE.Vector3(m.p.x, poTimu.has(tim) ? 1.2 + poTimu.get(tim).length * 0.6 + 3.2 : 0.4, m.p.z)]);
+}
+prazni.count = k; prazni.instanceMatrix.needsUpdate = true; scene.add(prazni);
+
+document.getElementById('opis').textContent = `${items.length} fotografija iz pasoša i priloga · ${poTimu.size} od ${mesta.size} objekata ima slike · ${items.length - [...poTimu.values()].flat().length} bez poznatog mesta · karta: OSM © contributors (ODbL)`;
+
+// kamera: lagani krug oko središta postavljenih mesta (Tura); Orbit i Hod preuzimaju na prvi dodir (nav.js)
+function kamera(t) {
+  const a = (reducedMotion ? 0.9 : 0.9 + t * 0.03);
+  cam.position.set(centar.x + Math.cos(a) * dist, dist * 0.42 + Math.sin(t * 0.05) * 1.5, centar.z + Math.sin(a) * dist);
+  cam.lookAt(centar.x, 2.5, centar.z);
+}
+let queued = false; const trazi = () => { if (!queued) { queued = true; requestAnimationFrame(tick); } };
+const meta = new THREE.Vector3(centar.x, 2.5, centar.z);
+const nav = navigacija(cam, canvas, { meta, tura: kamera, brzina: 14, minY: 0.4, minR: 2.5, maxR: 420, probudi: trazi, naPromenu: m => ui.oznaciMod(m) });
+// prostor osa: svaka slika (i bez poznatog mesta) po rangu hue × svetlina × zasićenje, iznad središta grada
+const cOblak = new THREE.Vector3(centar.x, 11, centar.z), szOblak = [44, 18, 28];
+const B = osaRaspored(items, A, cOblak, szOblak, 2.1);
+// galerija: enfilade po timu (redom prve prijeme) — hodnik čiji su zidovi same fotografije, šetaš pored svog grada
+const redovi = [...poTimu.entries()].sort((a, b) => (items[a[1][0]].prijem || '').localeCompare(items[b[1][0]].prijem || '') || a[0].localeCompare(b[0]));
+const GAL = galerija(items, { redovi: redovi.map(([t, idx]) => [t, idx]), c: new THREE.Vector3(centar.x, 0, centar.z + 90), sirina: 7, visina: 1.2, razmak: 1.5, visinaIt: (it, oko0) => oko0 });
+document.querySelector('.legenda').insertAdjacentHTML('beforeend', `<br>galerija (G do kraja): hodnik od ${Math.round(GAL.duzina)} m po timovima redom prijema — zidovi su slike, šetaš pored njih`);
+const rasp = raspored(mesh, [A, B, GAL.B], cam);
+const oko = kocka(scene, cOblak, szOblak, 0x1f5fa8, ['hue', 'svetlina', 'zasićenje']);
+const rasporedFn = i => {
+  rasp.postavi(i);
+  if (i === 2) { nav.postaviSudar({ kutije: GAL.kutije, r: 0.32, visinaOka: 1.6 }); cam.position.copy(GAL.ulaz); cam.rotation.set(0, -Math.PI / 2, 0, 'YXZ'); nav.mode('hod'); }
+  else { nav.postaviSudar(null); if (i) nav.fokus(cOblak, 62); else nav.mode('tura'); }
+  trazi();
+};
+const ui = kontrole({ nav, sloj: i => { U.sloj(i); trazi(); }, probudi: trazi,
+  nazivRasporeda: ['Svet', 'Prostor osa', 'Galerija'],
+  rasporedFn,
+  pomoc: '<b>Kretanje</b> · Orbit: prevlačenje okreće, desni klik (ili Shift) pomera, točkić zumira · Hod: WASD, prevlačenje pogleda, Q/E dole/gore, Shift brže · dvoklik na stelu je fokusira.<br><b>Sloj</b> · ivice = Sobel nad sličicom; relijef = svetlina pomera mrežu; raster = polutonski krug na 5 px; sve = relijef + ivice.<br><b>Prostor osa</b> · sve slike, i one bez poznatog mesta: x hue, y svetlina, z zasićenje, po rangu.<br><b>Galerija</b> · hodnik po timovima redom prijema; zidovi su same slike, hodaš pored njih (WASD), ne može se proći kroz zid.' });
+const ray = new THREE.Raycaster(), mouse = new THREE.Vector2(-2, -2); let hover = -1;
+const lift = mesh.geometry.getAttribute('lift');
+const pomeri = e => { mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1); };
+addEventListener('pointermove', e => { pomeri(e); if (reducedMotion) trazi(); });
+canvas.addEventListener('pointerdown', e => { pomeri(e); trazi(); });
+canvas.addEventListener('dblclick', e => {
+  pomeri(e); ray.setFromCamera(mouse, cam); const hit = ray.intersectObject(mesh, false)[0]; if (!hit) return;
+  const m = new THREE.Matrix4(); mesh.getMatrixAt(hit.instanceId, m); nav.fokus(new THREE.Vector3().setFromMatrixPosition(m), 7);
+});
+const kartaEl = document.getElementById('karta');
+function kartica(i) {
+  if (i < 0) return hud(kartaEl, '');
+  const it = items[i], m = mesta.get(it.tim);
+  hud(kartaEl, `<b>${it.tim || 'tim nepoznat'}</b>${m ? ' · ' + m.object + ' · ' + (m.place || '') : ''}<br>prijem ${it.prijem} · ${it.ose.w}×${it.ose.h} · hue ${it.ose.hue}° · svetlina ${it.ose.svetlina}<small>${it.izvor}${it.u_izvoru ? ' :: ' + it.u_izvoru : ''}</small>`);
+}
+function resize() { r.setSize(innerWidth, innerHeight, false); cam.aspect = innerWidth / innerHeight; cam.updateProjectionMatrix(); trazi(); }
+addEventListener('resize', resize);
+const clock = new THREE.Clock(); let frame = 0, prev = 0;
+function tick() {
+  queued = false;
+  const t = clock.getElapsedTime(), dt = Math.min(0.1, t - prev); prev = t; frame++;
+  const brz = reducedMotion ? 10 : 1;
+  nav.update(dt, t);
+  U.uTime.value = t;
+  const gibanje = U.glatko(dt * brz), prelaz = rasp.tick(dt * brz);
+  if (frame % 2 === 0 || prelaz) {
+    ray.setFromCamera(mouse, cam); const hit = ray.intersectObject(mesh, false)[0]; const id = hit ? hit.instanceId : -1;
+    if (id !== hover) { if (hover >= 0) lift.setX(hover, 0); hover = id; if (hover >= 0) lift.setX(hover, 0.6); lift.needsUpdate = true; kartica(hover); }
+  }
+  const osa = rasp.t > 0.02; stubL.visible = tackeP.visible = prazni.visible = !osa;
+  oko.azuriraj(cam, osa);
+  oznake.forEach(([el, p]) => { const v = p.clone().project(cam); const vidljiv = !osa && v.z < 1 && Math.abs(v.x) < 1.05 && Math.abs(v.y) < 1.05; el.style.display = vidljiv ? '' : 'none'; if (vidljiv) { el.style.left = (v.x + 1) / 2 * innerWidth + 'px'; el.style.top = (1 - v.y) / 2 * innerHeight + 'px'; } });
+  r.render(scene, cam);
+  if (!reducedMotion || frame < 3 || nav.aktivan() || gibanje || prelaz) trazi();
+}
+resize(); izUpita({ U, ui, rasp, nav, cOblak, razmak: 62, trazi, rasporedFn }); tick();
+window.__svet = { cam, nav, ui, U, rasp, trazi, items: items.length, mesta: mesta.size, saSlikama: poTimu.size, galerija: { kutije: GAL.kutije, ulaz: GAL.ulaz.toArray(), duzina: GAL.duzina, c: [centar.x, 0, centar.z + 90] }, rasporedFn, drawCalls: () => r.info.render.calls };
+</script>
+</body>
+</html>

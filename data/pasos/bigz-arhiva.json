@@ -1,0 +1,1674 @@
+{
+  "schema": "or/bigz-arhiva@1",
+  "updated": "2026-10-23",
+  "object": "B.I.G.Z. (Bigz štamparija, Beograd)",
+  "team": {
+    "id": "t-bigz",
+    "students": [
+      "187",
+      "98",
+      "152"
+    ]
+  },
+  "origin": "B.I.G.Z.zip — primljeno mejlom „Digitalni Pasos B.I.G.Z.” (2026-10-15); istraživanje u Arhivu Jugoslavije i Arhivu Beograda",
+  "archive": {
+    "file": "B.I.G.Z.zip",
+    "location": "van repoa (Downloads/pasosi na DESKTOP-QEDTGVM) — autorska arhiva, 275 MB",
+    "bytes": 274878126,
+    "sha256": "04ad6387aa5541738498a57385c8f63f628f7f88424785e3c4c90879737eb773",
+    "files": 289,
+    "folders": 26,
+    "contentNote": "isključivo slikovni skenovi (JPG/JPEG/HEIC) arhivske građe; bez tekstualnih dokumenata",
+    "zipFooterNote": "unzip footer javlja „316 files“ — to su 289 fajlova + 27 folder unosa (uklj. koren B.I.G.Z/)"
+  },
+  "sections": {
+    "tehnički uslovi (uklj. dimnjak)": {
+      "files": 34,
+      "mb": 72.2
+    },
+    "Predmeri, Predracuni,Analiza cena": {
+      "files": 47,
+      "mb": 64.5
+    },
+    "sistemi objekta (grejanje, struja, lift, sat)": {
+      "files": 47,
+      "mb": 48.5
+    },
+    "istorijska foto-dokumentacija (arhivski snimci objekta)": {
+      "files": 34,
+      "mb": 23.8
+    },
+    "projektna dokumentacija (planovi)": {
+      "files": 32,
+      "mb": 14.6
+    },
+    "finansiranje izgradnje": {
+      "files": 12,
+      "mb": 11.3
+    },
+    "mašinska oprema (štamparske mašine, dizalica)": {
+      "files": 22,
+      "mb": 8.2
+    },
+    "skice": {
+      "files": 11,
+      "mb": 3.7
+    },
+    "osoblje štamparije": {
+      "files": 10,
+      "mb": 3.5
+    },
+    "krovna konstrukcija": {
+      "files": 1,
+      "mb": 2.9
+    },
+    "ponude i koštanje": {
+      "files": 13,
+      "mb": 2.8
+    },
+    "ugovori izvođač-država": {
+      "files": 10,
+      "mb": 2.1
+    },
+    "relokacija drugih štamparija": {
+      "files": 7,
+      "mb": 2
+    },
+    "nemački arhivski izvori": {
+      "files": 6,
+      "mb": 1.6
+    },
+    "pravni akti (punomoćja, zapisnici)": {
+      "files": 3,
+      "mb": 0.8
+    }
+  },
+  "folderStructure": [
+    {
+      "path": "Foto dokumentacija iz arhive",
+      "files": 34,
+      "mb": 23.8
+    },
+    {
+      "path": "Instalacije",
+      "files": 0,
+      "mb": 0
+    },
+    {
+      "path": "Instalacije/Centralno grejanje",
+      "files": 22,
+      "mb": 4.3
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Poljski izvori o centralnom grejanju",
+      "files": 4,
+      "mb": 0.6
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Proracun ugradnje centralnog grejanja",
+      "files": 3,
+      "mb": 0.8
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Ucin i stepen iskoristivosti",
+      "files": 2,
+      "mb": 0.3
+    },
+    {
+      "path": "Instalacije/Instalacija lifta",
+      "files": 1,
+      "mb": 0.2
+    },
+    {
+      "path": "Instalacije/Instalacija starog sata",
+      "files": 2,
+      "mb": 5.3
+    },
+    {
+      "path": "Instalacije/Instalacija struje",
+      "files": 12,
+      "mb": 34
+    },
+    {
+      "path": "Instalacije/Instalacija struje/Nestasica zice",
+      "files": 1,
+      "mb": 3
+    },
+    {
+      "path": "Izvori finansija",
+      "files": 12,
+      "mb": 11.3
+    },
+    {
+      "path": "Krov",
+      "files": 1,
+      "mb": 2.9
+    },
+    {
+      "path": "Masine",
+      "files": 12,
+      "mb": 2.7
+    },
+    {
+      "path": "Masine/Finansije masina",
+      "files": 9,
+      "mb": 5.2
+    },
+    {
+      "path": "Masine/Skica dizalice",
+      "files": 1,
+      "mb": 0.2
+    },
+    {
+      "path": "Nemacki izvori",
+      "files": 6,
+      "mb": 1.6
+    },
+    {
+      "path": "Osoblje",
+      "files": 10,
+      "mb": 3.5
+    },
+    {
+      "path": "Planovi",
+      "files": 32,
+      "mb": 14.6
+    },
+    {
+      "path": "Ponude i kostanja",
+      "files": 13,
+      "mb": 2.8
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena",
+      "files": 47,
+      "mb": 64.5
+    },
+    {
+      "path": "Premestanje drugih stamprija",
+      "files": 7,
+      "mb": 2
+    },
+    {
+      "path": "Punomoci i zapisnici",
+      "files": 3,
+      "mb": 0.8
+    },
+    {
+      "path": "Skice",
+      "files": 11,
+      "mb": 3.7
+    },
+    {
+      "path": "Tehnicki Uslovi",
+      "files": 27,
+      "mb": 70.7
+    },
+    {
+      "path": "Tehnicki Uslovi/Dimnjaka",
+      "files": 7,
+      "mb": 1.6
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave",
+      "files": 10,
+      "mb": 2.1
+    }
+  ],
+  "files": [
+    {
+      "path": "Foto dokumentacija iz arhive/AWPZ8960.JPG",
+      "bytes": 512235,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/CUXB9923.JPG",
+      "bytes": 318960,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/DFAA7997.JPG",
+      "bytes": 373405,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/EHAV8510.JPG",
+      "bytes": 414004,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/ERKI0453.JPG",
+      "bytes": 191709,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/GWZV1570.JPG",
+      "bytes": 506522,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/HBDU0192.JPG",
+      "bytes": 407122,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/IMG_1480.HEIC",
+      "bytes": 3236046,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/IMG_1498.HEIC",
+      "bytes": 2051467,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/IMG_1505.HEIC",
+      "bytes": 3331332,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/IMG_1511.HEIC",
+      "bytes": 3083965,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/IMG_1542.HEIC",
+      "bytes": 3582239,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/JNTF2640.JPG",
+      "bytes": 316398,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/KSVA5948.JPG",
+      "bytes": 400819,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/LOLY4886.JPG",
+      "bytes": 229696,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/MVTD0612.JPG",
+      "bytes": 486806,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/NILC8818.JPG",
+      "bytes": 255061,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/OGSR4108.JPG",
+      "bytes": 365193,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/OHHO9691.JPG",
+      "bytes": 215144,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/PRNG0216.JPG",
+      "bytes": 481393,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/PXQK3000.JPG",
+      "bytes": 341715,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/QMUU3026.JPG",
+      "bytes": 320069,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/QXFS5958.JPG",
+      "bytes": 337410,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/RUPH1703.JPG",
+      "bytes": 227245,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/SIUB6255.JPG",
+      "bytes": 572548,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/VTQG8649.JPG",
+      "bytes": 516641,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/WBYU4228.JPG",
+      "bytes": 415199,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/WhatsApp Image 2026-10-13 at 17.55.16.jpeg",
+      "bytes": 127522,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/WhatsApp Image 2026-10-13 at 17.55.17.jpeg",
+      "bytes": 302007,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/WhatsApp Image 2026-10-13 at 17.55.31.jpeg",
+      "bytes": 189896,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/WhatsApp Image 2026-10-13 at 17.55.32.jpeg",
+      "bytes": 141651,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/WhatsApp Image 2026-10-13 at 17.55.33.jpeg",
+      "bytes": 141009,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/WhatsApp Image 2026-10-13 at 17.55.39 (1).jpeg",
+      "bytes": 225978,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Foto dokumentacija iz arhive/XQSH7697.JPG",
+      "bytes": 306503,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/DAWI5119.JPG",
+      "bytes": 270080,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Poljski izvori o centralnom grejanju/WhatsApp Image 2026-10-13 at 17.55.08.jpeg",
+      "bytes": 148743,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Poljski izvori o centralnom grejanju/WhatsApp Image 2026-10-13 at 17.55.09 (1).jpeg",
+      "bytes": 173221,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Poljski izvori o centralnom grejanju/WhatsApp Image 2026-10-13 at 17.55.09.jpeg",
+      "bytes": 156212,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Poljski izvori o centralnom grejanju/WhatsApp Image 2026-10-13 at 17.55.10.jpeg",
+      "bytes": 152314,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Proracun ugradnje centralnog grejanja/WhatsApp Image 2026-10-13 at 17.55.12.jpeg",
+      "bytes": 256762,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Proracun ugradnje centralnog grejanja/WhatsApp Image 2026-10-13 at 17.55.13 (1).jpeg",
+      "bytes": 257978,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Proracun ugradnje centralnog grejanja/WhatsApp Image 2026-10-13 at 17.55.13.jpeg",
+      "bytes": 306088,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Ucin i stepen iskoristivosti/WhatsApp Image 2026-10-13 at 17.55.06 (1).jpeg",
+      "bytes": 166094,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/Ucin i stepen iskoristivosti/WhatsApp Image 2026-10-13 at 17.55.06.jpeg",
+      "bytes": 185600,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.40.jpeg",
+      "bytes": 178657,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.41 (1).jpeg",
+      "bytes": 216952,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.41.jpeg",
+      "bytes": 202201,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.42.jpeg",
+      "bytes": 169653,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.43 (1).jpeg",
+      "bytes": 199868,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.43.jpeg",
+      "bytes": 179960,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.44.jpeg",
+      "bytes": 193408,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.45.jpeg",
+      "bytes": 164254,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.46 (1).jpeg",
+      "bytes": 183183,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.46.jpeg",
+      "bytes": 156344,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.54.47.jpeg",
+      "bytes": 135512,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.07.jpeg",
+      "bytes": 199453,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.52 (1).jpeg",
+      "bytes": 220190,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.52.jpeg",
+      "bytes": 218479,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.53.jpeg",
+      "bytes": 202857,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.54.jpeg",
+      "bytes": 211795,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.55.jpeg",
+      "bytes": 213162,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.56 (1).jpeg",
+      "bytes": 223126,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.56.jpeg",
+      "bytes": 240370,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.58.jpeg",
+      "bytes": 267592,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Centralno grejanje/WhatsApp Image 2026-10-13 at 17.55.59.jpeg",
+      "bytes": 221670,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija lifta/WhatsApp Image 2026-10-13 at 17.55.17 (1).jpeg",
+      "bytes": 190471,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija starog sata/IMG_1494.HEIC",
+      "bytes": 2822630,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija starog sata/IMG_1495.HEIC",
+      "bytes": 2763427,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1481.HEIC",
+      "bytes": 2916743,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1482.HEIC",
+      "bytes": 3246402,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1483.HEIC",
+      "bytes": 2781409,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1484.HEIC",
+      "bytes": 2918250,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1485.HEIC",
+      "bytes": 3335237,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1488.HEIC",
+      "bytes": 3038070,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1489.HEIC",
+      "bytes": 2983701,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1490.HEIC",
+      "bytes": 3031094,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1491.HEIC",
+      "bytes": 2800637,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1492.HEIC",
+      "bytes": 3111870,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1493.HEIC",
+      "bytes": 2883156,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/IMG_1497.HEIC",
+      "bytes": 2618703,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Instalacije/Instalacija struje/Nestasica zice/IMG_1512.HEIC",
+      "bytes": 3119615,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/HPTA0019.JPG",
+      "bytes": 198116,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/IMG_1496.HEIC",
+      "bytes": 2979685,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/IMG_1508.HEIC",
+      "bytes": 3600984,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Izvori finansija/IMG_1539.HEIC",
+      "bytes": 2829590,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/JMWW4159.JPG",
+      "bytes": 205672,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/PRKS7469.JPG",
+      "bytes": 386587,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/QYGC7080.JPG",
+      "bytes": 426376,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/WhatsApp Image 2026-10-13 at 17.54.48.jpeg",
+      "bytes": 228804,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/WhatsApp Image 2026-10-13 at 17.54.49.jpeg",
+      "bytes": 205070,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/WhatsApp Image 2026-10-13 at 17.55.11 (1).jpeg",
+      "bytes": 258675,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/WhatsApp Image 2026-10-13 at 17.55.11.jpeg",
+      "bytes": 231222,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Izvori finansija/WKVR2604.JPG",
+      "bytes": 263611,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Krov/IMG_1503.HEIC",
+      "bytes": 3055856,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/FEUU6951.JPG",
+      "bytes": 286929,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Finansije masina/IMG_1499.HEIC",
+      "bytes": 3084852,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Finansije masina/NSTJ3553.JPG",
+      "bytes": 221898,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Finansije masina/TBXZ4173.JPG",
+      "bytes": 221477,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Finansije masina/WhatsApp Image 2026-10-13 at 17.55.18.jpeg",
+      "bytes": 348344,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Finansije masina/WhatsApp Image 2026-10-13 at 17.55.19.jpeg",
+      "bytes": 304112,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Finansije masina/WhatsApp Image 2026-10-13 at 17.55.20 (1).jpeg",
+      "bytes": 289312,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Finansije masina/WhatsApp Image 2026-10-13 at 17.55.20.jpeg",
+      "bytes": 313246,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Finansije masina/WhatsApp Image 2026-10-13 at 17.55.28.jpeg",
+      "bytes": 198334,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Finansije masina/YCQD3869.JPG",
+      "bytes": 509863,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/KQHX0609.JPG",
+      "bytes": 225196,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/LVOB8670.JPG",
+      "bytes": 256341,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/Skica dizalice/WhatsApp Image 2026-10-13 at 17.55.30 (1).jpeg",
+      "bytes": 246911,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/WhatsApp Image 2026-10-13 at 17.55.15 (1).jpeg",
+      "bytes": 232977,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/WhatsApp Image 2026-10-13 at 17.55.21 (1).jpeg",
+      "bytes": 204711,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/WhatsApp Image 2026-10-13 at 17.55.21.jpeg",
+      "bytes": 183993,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/WhatsApp Image 2026-10-13 at 17.55.29.jpeg",
+      "bytes": 176332,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/WhatsApp Image 2026-10-13 at 17.55.30.jpeg",
+      "bytes": 140511,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/WhatsApp Image 2026-10-13 at 17.56.01.jpeg",
+      "bytes": 289417,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/WhatsApp Image 2026-10-13 at 17.56.03.jpeg",
+      "bytes": 186300,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/WhatsApp Image 2026-10-13 at 17.56.04.jpeg",
+      "bytes": 334874,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Masine/WhatsApp Image 2026-10-13 at 17.56.05.jpeg",
+      "bytes": 355055,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Nemacki izvori/FINT6629.JPG",
+      "bytes": 465417,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Nemacki izvori/WhatsApp Image 2026-10-13 at 17.54.59 (1).jpeg",
+      "bytes": 278518,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Nemacki izvori/WhatsApp Image 2026-10-13 at 17.55.00.jpeg",
+      "bytes": 246981,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Nemacki izvori/WhatsApp Image 2026-10-13 at 17.55.01 (1).jpeg",
+      "bytes": 195644,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Nemacki izvori/WhatsApp Image 2026-10-13 at 17.55.01.jpeg",
+      "bytes": 275115,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Nemacki izvori/WhatsApp Image 2026-10-13 at 17.55.39.jpeg",
+      "bytes": 206255,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Osoblje/DEQE7474.JPG",
+      "bytes": 418680,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Osoblje/GOLU9663.JPG",
+      "bytes": 494115,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Osoblje/HUBE1432.JPG",
+      "bytes": 280250,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Osoblje/RTKI0866.JPG",
+      "bytes": 295180,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Osoblje/SDAU3166.JPG",
+      "bytes": 322895,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Osoblje/SNAJ3491.JPG",
+      "bytes": 369775,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Osoblje/TEEX0949.JPG",
+      "bytes": 475579,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Osoblje/THAL7020.JPG",
+      "bytes": 448399,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Osoblje/VBKH3215.JPG",
+      "bytes": 285600,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Osoblje/VCIX0362.JPG",
+      "bytes": 284082,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/ADNE9272.JPG",
+      "bytes": 438742,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/AIQP4658.JPG",
+      "bytes": 218672,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/AJBO3930.JPG",
+      "bytes": 218015,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/BZVH9860.JPG",
+      "bytes": 216026,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/CJRW5105.JPG",
+      "bytes": 280915,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/DZEQ4553.JPG",
+      "bytes": 228622,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/GNHB8671.JPG",
+      "bytes": 253828,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Planovi/GYMZ7680.JPG",
+      "bytes": 173904,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Planovi/HOSR8468.JPG",
+      "bytes": 178056,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/IMG_1541.HEIC",
+      "bytes": 3697181,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/IMG_1543.HEIC",
+      "bytes": 2775628,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/LMMX8108.JPG",
+      "bytes": 193896,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/LTVC4614.JPG",
+      "bytes": 369488,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/LVRF0160.JPG",
+      "bytes": 225617,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/MYKI2840.JPG",
+      "bytes": 278641,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/NBFA0271.JPG",
+      "bytes": 232679,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/NLUK1438.JPG",
+      "bytes": 205518,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Planovi/OGRN3156.JPG",
+      "bytes": 375106,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/PAFF9154.JPG",
+      "bytes": 233110,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/PGMO0451.JPG",
+      "bytes": 208112,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/PGRX9786.JPG",
+      "bytes": 401301,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/PIJX3174.JPG",
+      "bytes": 284775,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/PJUR6005.JPG",
+      "bytes": 325804,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/QDKQ0562.JPG",
+      "bytes": 487463,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/RSCL2358.JPG",
+      "bytes": 286383,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/SKJB5238.JPG",
+      "bytes": 458472,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/TPIS7124.JPG",
+      "bytes": 258085,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/TXVO7965.JPG",
+      "bytes": 402039,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/WCMH7524.JPG",
+      "bytes": 378531,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/WQQN9603.JPG",
+      "bytes": 369556,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Planovi/XGKG0041.JPG",
+      "bytes": 447945,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Planovi/XVNB9071.JPG",
+      "bytes": 214026,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/PPQD9200.JPG",
+      "bytes": 358108,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.54.57 (1).jpeg",
+      "bytes": 294973,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.54.57.jpeg",
+      "bytes": 314522,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.54.58.jpeg",
+      "bytes": 164341,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.54.59.jpeg",
+      "bytes": 197647,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.55.02.jpeg",
+      "bytes": 227531,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.55.03.jpeg",
+      "bytes": 220943,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.55.04 (1).jpeg",
+      "bytes": 232187,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.55.04.jpeg",
+      "bytes": 236379,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.55.05.jpeg",
+      "bytes": 180074,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.55.49.jpeg",
+      "bytes": 173542,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.55.50 (1).jpeg",
+      "bytes": 97974,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ponude i kostanja/WhatsApp Image 2026-10-13 at 17.55.50.jpeg",
+      "bytes": 231689,
+      "date": "2026-10-14"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/ATOM0170.JPG",
+      "bytes": 452143,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/BDFS6382.JPG",
+      "bytes": 237037,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/BDGP1552.JPG",
+      "bytes": 263318,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/BLHI8944.JPG",
+      "bytes": 334698,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/CCJZ7265.JPG",
+      "bytes": 249158,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/CFRH8389.JPG",
+      "bytes": 297115,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/CGLM3817.JPG",
+      "bytes": 182333,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/DJVY7285.JPG",
+      "bytes": 480136,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/DYLH2604.JPG",
+      "bytes": 327274,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/EBWJ6600.JPG",
+      "bytes": 282490,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IBWX3932.JPG",
+      "bytes": 351639,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1462.HEIC",
+      "bytes": 2753014,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1463.HEIC",
+      "bytes": 2792511,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1464.HEIC",
+      "bytes": 2724889,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1465.HEIC",
+      "bytes": 2859961,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1466.HEIC",
+      "bytes": 2782134,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1467.HEIC",
+      "bytes": 2620835,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1468.HEIC",
+      "bytes": 2775046,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1469.HEIC",
+      "bytes": 2664928,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1470.HEIC",
+      "bytes": 2694544,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1471.HEIC",
+      "bytes": 2615388,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1472.HEIC",
+      "bytes": 2715101,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1473.HEIC",
+      "bytes": 2594076,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1474.HEIC",
+      "bytes": 2752688,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1475.HEIC",
+      "bytes": 2804675,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1477.HEIC",
+      "bytes": 2944681,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1478.HEIC",
+      "bytes": 2776703,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1479.HEIC",
+      "bytes": 2741183,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1506.HEIC",
+      "bytes": 3285555,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1507.HEIC",
+      "bytes": 2964222,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1509.HEIC",
+      "bytes": 3151003,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/IMG_1510.HEIC",
+      "bytes": 2966711,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/LWQZ5830.JPG",
+      "bytes": 497559,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/MTBX7467.JPG",
+      "bytes": 229117,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/NKVP2648.JPG",
+      "bytes": 212388,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/NYIS4672.JPG",
+      "bytes": 604493,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/OCVS3316.JPG",
+      "bytes": 448724,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/PYHH2621.JPG",
+      "bytes": 325421,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/PYPK5536.JPG",
+      "bytes": 403083,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/QHPA9467.JPG",
+      "bytes": 441583,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/ULQH3201.JPG",
+      "bytes": 267621,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/UOCL5405.JPG",
+      "bytes": 456746,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/VCDK4713.JPG",
+      "bytes": 230870,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/VULG9704.JPG",
+      "bytes": 173879,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/VYWI0486.JPG",
+      "bytes": 234865,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/WDVU7466.JPG",
+      "bytes": 319936,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Predmeri, Predracuni,Analiza cena/XMEG9881.JPG",
+      "bytes": 394491,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Premestanje drugih stamprija/WhatsApp Image 2026-10-13 at 17.55.44 (1).jpeg",
+      "bytes": 311717,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Premestanje drugih stamprija/WhatsApp Image 2026-10-13 at 17.55.44.jpeg",
+      "bytes": 280203,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Premestanje drugih stamprija/WhatsApp Image 2026-10-13 at 17.55.45.jpeg",
+      "bytes": 319465,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Premestanje drugih stamprija/WhatsApp Image 2026-10-13 at 17.55.46 (1).jpeg",
+      "bytes": 296746,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Premestanje drugih stamprija/WhatsApp Image 2026-10-13 at 17.55.46.jpeg",
+      "bytes": 290663,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Premestanje drugih stamprija/WhatsApp Image 2026-10-13 at 17.55.47.jpeg",
+      "bytes": 298934,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Premestanje drugih stamprija/WhatsApp Image 2026-10-13 at 17.55.48.jpeg",
+      "bytes": 281238,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Punomoci i zapisnici/AOMC0241.JPG",
+      "bytes": 305076,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Punomoci i zapisnici/THTO9704.JPG",
+      "bytes": 389580,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Punomoci i zapisnici/WhatsApp Image 2026-10-13 at 17.55.14.jpeg",
+      "bytes": 180173,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/CHZM1841.JPG",
+      "bytes": 371438,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/GFIQ5816.JPG",
+      "bytes": 487642,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/HGQW3555.JPG",
+      "bytes": 437758,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/JIOV3409.JPG",
+      "bytes": 389954,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/JMYF2671.JPG",
+      "bytes": 410589,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/MLKK2651.JPG",
+      "bytes": 189053,
+      "date": "2026-10-15"
+    },
+    {
+      "path": "Skice/NHUZ1499.JPG",
+      "bytes": 206077,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/SMUL9122.JPG",
+      "bytes": 543659,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/UWNT6629.JPG",
+      "bytes": 260212,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/VRQU1754.JPG",
+      "bytes": 238918,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Skice/XFXY1627.JPG",
+      "bytes": 296979,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/Dimnjaka/WhatsApp Image 2026-10-13 at 17.55.34.jpeg",
+      "bytes": 131870,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/Dimnjaka/WhatsApp Image 2026-10-13 at 17.55.35 (1).jpeg",
+      "bytes": 251281,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/Dimnjaka/WhatsApp Image 2026-10-13 at 17.55.35.jpeg",
+      "bytes": 237237,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/Dimnjaka/WhatsApp Image 2026-10-13 at 17.55.36.jpeg",
+      "bytes": 287480,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/Dimnjaka/WhatsApp Image 2026-10-13 at 17.55.37.jpeg",
+      "bytes": 252041,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/Dimnjaka/WhatsApp Image 2026-10-13 at 17.55.38 (1).jpeg",
+      "bytes": 255254,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/Dimnjaka/WhatsApp Image 2026-10-13 at 17.55.38.jpeg",
+      "bytes": 243425,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1513.HEIC",
+      "bytes": 2851764,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1514.HEIC",
+      "bytes": 2824670,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1515.HEIC",
+      "bytes": 2883388,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1516.HEIC",
+      "bytes": 2766493,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1517.HEIC",
+      "bytes": 2887643,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1518.HEIC",
+      "bytes": 2843490,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1519.HEIC",
+      "bytes": 2867026,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1520.HEIC",
+      "bytes": 2867074,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1521.HEIC",
+      "bytes": 2712601,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1522.HEIC",
+      "bytes": 2856099,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1523.HEIC",
+      "bytes": 2892987,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1524.HEIC",
+      "bytes": 2870798,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1525.HEIC",
+      "bytes": 2846566,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1526.HEIC",
+      "bytes": 2705080,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1527.HEIC",
+      "bytes": 2926422,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1528.HEIC",
+      "bytes": 3260081,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1529.HEIC",
+      "bytes": 2538400,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1530.HEIC",
+      "bytes": 2767859,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1531.HEIC",
+      "bytes": 2956358,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1532.HEIC",
+      "bytes": 2907598,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1533.HEIC",
+      "bytes": 2782443,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1534.HEIC",
+      "bytes": 3110426,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1535.HEIC",
+      "bytes": 2827030,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1536.HEIC",
+      "bytes": 2389886,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1537.HEIC",
+      "bytes": 2879935,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/IMG_1538.HEIC",
+      "bytes": 2817651,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Tehnicki Uslovi/UVPS5129.JPG",
+      "bytes": 256437,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.49 (1).jpeg",
+      "bytes": 173674,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.50.jpeg",
+      "bytes": 217975,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.51.jpeg",
+      "bytes": 323265,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.52 (1).jpeg",
+      "bytes": 121560,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.52.jpeg",
+      "bytes": 217929,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.53.jpeg",
+      "bytes": 226857,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.54.jpeg",
+      "bytes": 249915,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.55.jpeg",
+      "bytes": 181435,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.56 (1).jpeg",
+      "bytes": 266256,
+      "date": "2026-10-13"
+    },
+    {
+      "path": "Ugovori izmedju izvodjaca i drzave/WhatsApp Image 2026-10-13 at 17.54.56.jpeg",
+      "bytes": 208238,
+      "date": "2026-10-13"
+    }
+  ],
+  "curation": "manifest = mapa arhive; tvrdnje za pasoš se izvode iz sadržaja skenova posle pregleda/čitanja — ništa se ne tvrdi unapred. Čitanje u toku: trijaža čitljivosti, bez tvrdnji.",
+  "citanje": {
+    "status": "završeno — 289/289 (18–23. oktobar 2026); svi skenovi arhive imaju zapis čitanja",
+    "skenovaProcitano": 289,
+    "odUkupno": 289,
+    "profil": "zapis šta je na skenu, sa prepisanim datumima, brojevima akata i iznosima gde su čitljivi; bez tvrdnji za pasoš",
+    "zapisi": "evidencija/prijem-2026-10-18/bigz-citanje.json (96 zapisa) + 7 iz prvog prolaza (ZAPISNIK-CITANJA.md)",
+    "azurirano": "2026-10-23"
+  }
+}

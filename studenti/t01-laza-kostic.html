@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f3eb"><meta name="description" content="Student pilot digital passport: Osnovna škola „Laza Kostić” — curated claims with sources, legends kept apart from facts, the original preserved verbatim."><title>Osnovna škola „Laza Kostić” · student pilot · Computing Studio</title><link rel="icon" href="../assets/mark.svg" type="image/svg+xml"><link rel="manifest" href="../manifest.webmanifest"><link rel="stylesheet" href="../assets/site.css"><style> .pcard{background:#fbfaf5;border:1px solid #e0dac9;border-radius:16px;padding:22px clamp(16px,3vw,30px)}
+.pcard h2{margin:0 0 4px;font-size:21px;color:#2b2822}
+.pmeta{color:#6a6455;font-size:14px;margin:0 0 2px}
+.plink{margin:6px 0 2px}.plink a{font-size:13.5px}
+.pstats{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+.ps{background:#f1ecdd;border:1px solid #e0d8bd;border-radius:999px;padding:5px 13px;font-size:12.5px;color:#5d5748}
+.ps b{color:#2b2822;font-size:14px}
+.psec{margin-top:26px}
+.psec h3{display:flex;align-items:center;gap:10px;font-size:15px;color:#2b2822;margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid #e7e1d0}
+.qdot{width:10px;height:10px;border-radius:50%;flex:none}
+.qn{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;letter-spacing:.16em;color:#8a6d1f}
+.qcount{margin-left:auto;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.ptab{width:100%;border-collapse:separate;border-spacing:0;font-size:14px}
+.ptab th{text-align:left;width:200px;vertical-align:top;padding:9px 14px 9px 0;color:#2b2822;font-weight:600}
+.ptab td{padding:9px 0;vertical-align:top;color:#3f3c34;line-height:1.55}
+.ptab tbody tr{vertical-align:top}
+.ptab tbody tr+tr th,.ptab tbody tr+tr td{border-top:1px dashed #eee8d8}
+.ptab tbody tr:hover th,.ptab tbody tr:hover td{background:#faf7ec}
+.ptab .src{width:110px;white-space:nowrap;text-align:right;padding-left:10px}
+.srcchip{display:inline-block;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:6px;padding:1px 6px;margin:2px 0 2px 4px;text-decoration:none}
+.srcchip:hover{background:#f6efdd}
+.kbadge{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-left:6px}
+.kbadge.multi{color:#4a6b1f;border:1px solid #c9d7ae}
+.kbadge.leg{color:#8a2f2f;border:1px solid #e0c2c2;background:#faf1f1}
+.kbadge.unk{color:#6a6455;border:1px solid #d8d2c2;background:#f6f4ee}
+tr.leg th{color:#7c4a4a}
+tr.leg td{color:#7c4a4a}
+tr.unk th,tr.unk td{color:#8b8577}
+@media (max-width:680px){
+.ptab,.ptab tbody{display:block}
+.ptab tbody tr{display:block;background:#f8f5ea;border:1px solid #ece7d7;border-radius:12px;padding:12px 14px;margin:0 0 10px;border-top:1px solid #ece7d7}
+.ptab tbody tr:hover th,.ptab tbody tr:hover td{background:transparent}
+.ptab tbody tr+tr th,.ptab tbody tr+tr td{border-top:0}
+.ptab tbody tr.leg{background:#faf1f1;border-color:#e8caca}
+.ptab tbody tr.unk{background:#f6f4ee;border-color:#ddd7c8}
+.ptab th{display:block;width:auto;padding:0 0 5px;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#8a8270;font-weight:700}
+.ptab td{display:block;padding:0}
+.ptab .src{width:auto;text-align:left;padding-top:6px}
+.ptab .srcchip{margin:0 4px 0 0}
+}
+.srcchip{display:inline-block;font-family:ui-monospace,monospace;font-size:11px;color:#8a6d1f;border:1px solid #e3d5ae;border-radius:6px;padding:1px 6px;margin-right:4px;text-decoration:none}
+.srcchip:hover{background:#f6efdd}
+.kbadge{display:inline-block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;border-radius:999px;padding:2px 9px;margin-left:6px}
+.kbadge.multi{color:#4a6b1f;border:1px solid #c9d7ae}
+.kbadge.leg{color:#8a2f2f;border:1px solid #e0c2c2;background:#faf1f1}
+.kbadge.unk{color:#6a6455;border:1px solid #d8d2c2;background:#f6f4ee}
+tr.leg td{color:#7c4a4a}
+tr.unk td{color:#8b8577}
+.psrc{list-style:none;margin:6px 0 0;padding:0;font-size:14px}
+.psrc li{padding:7px 0;border-top:1px dashed #eee8d8}
+.psrc a{color:#3f3c34;text-decoration:none;border-bottom:1px solid #d9c689}
+.psrc a:hover{color:#8a6d1f}
+.psrc .srcn{color:#8a6d1f;white-space:nowrap}
+.porig{margin-top:20px}
+.porig summary{cursor:pointer;font-size:13.5px;color:#8a6d1f;padding:10px 0;list-style:none}
+.porig summary::-webkit-details-marker{display:none}
+.porig summary:hover{text-decoration:underline}
+.porig pre{white-space:pre-wrap;font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;background:#f4f0e3;border:1px solid #e4dcc4;border-radius:12px;padding:18px;color:#4a463c;max-height:70vh;overflow:auto} </style></head>
+<body data-view="studentpass"><a class="skip" href="#main">Skip to content / Preskoči na sadržaj</a><header class="site-header"><a class="brand" href="../index.html" aria-label="Computing Studio home"><b>OR<span>↗</span></b><span>COMPUTING<br>STUDIO</span></a><nav aria-label="Main navigation"><a href="../index.html" ><span class="" data-en="Studio" data-sr="Studio">Studio</span></a><a href="../program.html" ><span class="" data-en="Held classes" data-sr="Održana predavanja">Held classes</span></a><a href="../sledeci.html" ><span class="" data-en="Next class" data-sr="Sledeći čas">Next class</span></a><a href="../ideje.html" ><span class="" data-en="Idea cloud" data-sr="Oblak ideja">Idea cloud</span></a><a href="../biblioteka.html" ><span class="" data-en="Sources" data-sr="Izvori">Izvori</span></a></nav><button id="language" class="language" type="button" aria-label="Switch to Serbian">SR</button></header>
+<main id="main" tabindex="-1">
+<div class="page-heading compact"><p class="eyebrow">STUDENT PILOT / STUDENTSKI PILOT</p><h1>Osnovna škola „Laza Kostić”</h1><p class="lede"><span class="" data-en="A pilot digital passport submitted by the team: curated so that every claim carries its source, repeats of the same source are merged, legends are kept apart from facts, and what the sources do not say stays visible as unknown. The original submission is preserved verbatim at the bottom — the curated layer explains, the original proves." data-sr="Pilot digitalni pasoš predat od tima: kuriran tako da svaka tvrdnja nosi svoj izvor, ponavljanja istog izvora su spojena, legende su odvojene od činjenica, a ono što izvori ne kažu ostaje vidljivo kao nepoznato. Originalan podnesak je sačuvan doslovno na dnu — kurirani sloj objašnjava, original dokazuje.">A pilot digital passport submitted by the team: curated so that every claim carries its source, repeats of the same source are merged, legends are kept apart from facts, and what the sources do not say stays visible as unknown. The original submission is preserved verbatim at the bottom — the curated layer explains, the original proves.</span></p></div>
+<article class="pcard">
+<p class="pmeta"><a class="student-link" href="../timovi.html#T01"><span data-en="Team" data-sr="Tim">Tim</span> T01</a> · <span data-en="submitted by" data-sr="predali">submitted by</span> <b> · 157/26 i · 121/26</b> · <time>2026-10-12</time> <span class="student-badge">student rad</span></p> <p class="micro">Milentija Popovića 72, Blok 23, Novi Beograd</p>
+<div class="pstats">
+<span class="ps"><b>21</b> <span data-en="claims" data-sr="tvrdnji">claims</span></span>
+<span class="ps"><b>1</b> <span data-en="sources (deduplicated)" data-sr="izvora (bez ponavljanja)">sources (deduplicated)</span></span>
+<span class="ps"><b>0</b> <span data-en="multi-source claims" data-sr="više-izvornih tvrdnji">multi-source claims</span></span>
+<span class="ps"><b>0</b> <span data-en="legend, kept apart" data-sr="legenda, odvojeno">legend, kept apart</span></span>
+<span class="ps"><b>0</b> <span data-en="unknown, kept visible" data-sr="nepoznato, ostalo vidljivo">unknown, kept visible</span></span>
+</div>
+</article>
+<section class="psec" aria-labelledby="t01-laza-kostic-osnivanje">
+<h2 class="sr-only">Sadrzaj</h2>
+<h3 id="t01-laza-kostic-osnivanje"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">01</span><span data-en="Founding" data-sr="Osnivanje škole">Osnivanje škole</span><span class="qcount">4</span></h3>
+<div class="tbl-scroll"><table class="ptab"><tbody>
+<tr><th>Osnivanje</th><td>1977. pod imenom OŠ „Sedam sekretara SKOJ-a”; zvanična odluka 28. juna 1977. na zajedničkoj sednici Skupštine opštine Novi Beograd</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Današnje ime</th><td>OŠ „Laza Kostić” od septembra 2005., u čast pesnika Laze Kostića</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Početak rada</th><td>5. septembra 1977.</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Prvi učenici</th><td>iz OŠ „Josip Broz Tito” (danas OŠ „Jovan Dučić”) i OŠ „Radoje Domanović”; u prvoj godini školovalo se 1.168 učenika</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+</tbody></table></div></section>
+<section class="psec" aria-labelledby="t01-laza-kostic-arhitektura">
+<h3 id="t01-laza-kostic-arhitektura"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">02</span><span data-en="Architecture" data-sr="Arhitektura škole">Arhitektura škole</span><span class="qcount">3</span></h3>
+<div class="tbl-scroll"><table class="ptab"><tbody>
+<tr><th>Projektanti</th><td>Aleksandar Stjepanović, Branislav Karadžić i Božidar Janković; učestvovali i u projektovanju stambenog Bloka 23</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Nagrada</th><td>Oktobarska nagrada Beograda 1978. za projekat</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Koncept</th><td>prostor za učenje, druženje, sport i vannastavne aktivnosti; deo urbanističkog plana Novog Beograda</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+</tbody></table></div></section>
+<section class="psec" aria-labelledby="t01-laza-kostic-naziv">
+<h3 id="t01-laza-kostic-naziv"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">03</span><span data-en="Why “Sedam sekretara SKOJ-a”" data-sr="Zašto „Sedam sekretara SKOJ-a”">Zašto „Sedam sekretara SKOJ-a”</span><span class="qcount">4</span></h3>
+<div class="tbl-scroll"><table class="ptab"><tbody>
+<tr><th>SKOJ</th><td>Savez komunističke omladine Jugoslavije, osnovan 1919.; rad zabranjen tokom Šestojanuarske diktature (1929.)</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Sedmoro sekretara</th><td>Josip Debeljak, Josip Kolumbo, Pavle Paja Marganović, Janko Mišić, Mijo Oreški, Pero Popović Aga i Zlatko Šnajder — stradali u represiji Kraljevine Jugoslavije</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Biografije</th><td>Marganović (Deliblato; sekretar CK SKOJ-a 1928; ubijen 30.07.1929. Zagreb) · Mišić (Samobor; 1929.) · Oreški (Zagreb; 1929. Samobor) · Kolumbo (Kutjevo; 15.07.1930. Goljak) · Popović Aga (Užice; 15.07.1930. Goljak) · Debeljak (Orehovica; 15.10.1931. Svetice) · Šnajder (preminuo 1931. Zagreb)</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Biste</th><td>u dvorištu škole, u znak sećanja na prvobitno ime</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+</tbody></table></div></section>
+<section class="psec" aria-labelledby="t01-laza-kostic-promena">
+<h3 id="t01-laza-kostic-promena"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">04</span><span data-en="The 2005 renaming" data-sr="Promena imena škole 2005. godine">Promena imena škole 2005. godine</span><span class="qcount">3</span></h3>
+<div class="tbl-scroll"><table class="ptab"><tbody>
+<tr><th>Preimenovanje</th><td>septembra 2005., posle 28 godina starog naziva</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Kontekst</th><td>početkom 2000-ih ustanove preispituju nazive vezane za revolucionarnu tradiciju SFRJ; konkretan razlog najbolje potvrditi u dokumentima o preimenovanju</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Izbor</th><td>Laza Kostić — pesnik romantizma, prevodilac, esejista, dramski pisac, doktor prava; povezuje školu sa književnošću i kulturom</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+</tbody></table></div></section>
+<section class="psec" aria-labelledby="t01-laza-kostic-kostic">
+<h3 id="t01-laza-kostic-kostic"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">05</span><span data-en="Who was Laza Kostić" data-sr="Ko je bio Laza Kostić">Ko je bio Laza Kostić</span><span class="qcount">2</span></h3>
+<div class="tbl-scroll"><table class="ptab"><tbody>
+<tr><th>Biografija</th><td>rođen 1841. u Kovilju, umro 1910. u Beču; pesnik, dramski pisac, prevodilac, novinar, esejista, doktor prava; predstavnik srpskog romantizma</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Dela</th><td>„Santa Maria della Salute”; drama „Maksim Crnojević”; prevodio Šekspira</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+</tbody></table></div></section>
+<section class="psec" aria-labelledby="t01-laza-kostic-uslovi">
+<h3 id="t01-laza-kostic-uslovi"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">06</span><span data-en="Conditions and sport" data-sr="Uslovi za rad i sport">Uslovi za rad i sport</span><span class="qcount">2</span></h3>
+<div class="tbl-scroll"><table class="ptab"><tbody>
+<tr><th>Sport</th><td>bazen, veštačka stena za penjanje, dve fiskulturne sale</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Ostali prostori</th><td>biblioteka, svečana sala, trpezarija, školska kuhinja, dvorište</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+</tbody></table></div></section>
+<section class="psec" aria-labelledby="t01-laza-kostic-amblem">
+<h3 id="t01-laza-kostic-amblem"><span class="qdot" style="background:#8a6d1f"></span><span class="qn">07</span><span data-en="Emblem and anniversaries" data-sr="Školski amblem i godišnjice">Školski amblem i godišnjice</span><span class="qcount">2</span></h3>
+<div class="tbl-scroll"><table class="ptab"><tbody>
+<tr><th>Amblem</th><td>2015.; autori nastavnica Tatjana Milutinović Vondraček i učenica Lena Vasović (7/4)</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+<tr><th>Jubilej</th><td>5. septembra 2022. — 45 godina od početka rada</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+</tbody></table></div></section>
+<section class="psec" aria-labelledby="t01-laza-kostic-lokacija">
+<h3 id="t01-laza-kostic-lokacija"><span class="qdot" style="background:#6d7f8a"></span><span class="qn">08</span><span data-en="Location" data-sr="Lokacija">Lokacija</span><span class="qcount">1</span></h3>
+<div class="tbl-scroll"><table class="ptab"><tbody>
+<tr><th>Adresa</th><td>Milentija Popovića 72, Blok 23, Novi Beograd; zvanični sajt lazakostic.edu.rs</td><td class="src"><a class="srcchip" href="#t01-laza-kostic-S1">S1</a></td></tr>
+</tbody></table></div></section>
+<h3 data-en="Sources" data-sr="Izvori">Izvori</h3>
+<ul class="psrc"> <li id="t01-laza-kostic-S1"><b>S1</b> · <a href="https://lazakostic.edu.rs/" target="_blank" rel="noreferrer">Zvanični sajt OŠ „Laza Kostić” ↗</a> <span class="micro">(zvanični sajt ustanove)</span> <b class="srcn">— 21 <span data-en="claims" data-sr="tvrdnji">claims</span></b></li>
+</ul>
+<details class="porig"><summary><span data-en="Show the original submission (verbatim)" data-sr="Prikaži originalan podnesak (doslovno)">Show the original submission (verbatim)</span></summary>
+<pre>OSNOVNA ŠKOLA „LAZA KOSTIĆ” — istorija, razvoj i uslovi za rad — (157/26) i (121/26). [Originalan podnesak, primljen 12.10.2026; sačuvan doslovno.] Osnivanje škole: OŠ „Laza Kostić”, ulica Milentija Popovića 72, Blok 23, Novi Beograd. Istorija počinje 1977. pod imenom OŠ „Sedam sekretara SKOJ-a”. Današnje ime od septembra 2005. Zvanična odluka o osnivanju 28. juna 1977. na zajedničkoj sednici Skupštine opštine Novi Beograd. Škola počela sa radom 5. septembra 1977. Prvi učenici iz OŠ „Josip Broz Tito” (danas OŠ „Jovan Dučić”) i OŠ „Radoje Domanović”. Prve godine 1.168 učenika. Arhitektura: projektovala trojica arhitekata — Aleksandar Stjepanović, Branislav Karadžić i Božidar Janković; učestvovali u projektovanju Bloka 23; Oktobarska nagrada Beograda 1978. Zašto „Sedam sekretara SKOJ-a”: SKOJ osnovan 1919; zabranjen 1929 (Šestojanuarska diktatura). Sedmorica sekretara: Josip Debeljak, Josip Kolumbo, Pavle Paja Marganović, Janko Mišić, Mijo Oreški, Pero Popović Aga, Zlatko Šnajder. Biografije svih sedmorice u podnesku (Marganović — Deliblato, CK SKOJ 1928, ubijen 30.07.1929; Mišić — Samobor 1929; Oreški — Samobor 1929; Kolumbo i Popović Aga — Goljak 15.07.1930; Debeljak — Svetice 15.10.1931; Šnajder — Zagreb 1931). Biste u dvorištu škole. Promena imena 2005: kontekst političkih promena početkom 2000-ih; konkretan razlog najbolje potvrditi u dokumentima o preimenovanju. Izbor Laze Kostića (1841 Kovilj — 1910 Beč; pesnik romantizma; „Santa Maria della Salute”; „Maksim Crnojević”; prevodio Šekspira). Uslovi za rad: bazen, veštačka stena za penjanje, dve fiskulturne sale, biblioteka, svečana sala, trpezarija, školska kuhinja, dvorište. Amblem 2015 (Tatjana Milutinović Vondraček i učenica Lena Vasović, 7/4). 45 godina 5. septembra 2022. Lokacija: Milentija Popovića 72. Zvanični sajt: https://lazakostic.edu.rs/ (izvor podataka).</pre>
+</details>
+<p class="record-message"><a class="student-link" href="../timovi.html#T01"><span data-en="← back to Team T01 in the register" data-sr="← nazad na tim T01 u registru">← back to Team T01 in the register</span></a></p>
+</main>
+<footer class="site-footer"><div><strong>OR / COMPUTING STUDIO</strong><p><span class="" data-en="Semir Poturak · Union — Nikola Tesla University" data-sr="Semir Poturak · Univerzitet „Union — Nikola Tesla”">Semir Poturak · Union — Nikola Tesla University</span><br><span class="" data-en="Architecture & civil engineering · Belgrade" data-sr="Arhitektura i građevinarstvo · Beograd">Architecture & civil engineering · Belgrade</span></p></div><div class="footer-links"><a href="../timovi.html"><span class="" data-en="Team register" data-sr="Registar timova">Team register</span></a><a href="../program.html"><span class="" data-en="Held classes" data-sr="Održana predavanja">Held classes</span></a><a href="../pristup.html"><span class="" data-en="Access & offline" data-sr="Pristup i rad bez mreže">Access & offline</span></a><a href="https://github.com/3esign/computing-studio" rel="noreferrer">GitHub ↗</a><a href="https://3esign.github.io/inclusive-studio/" rel="noreferrer">Universal Design ↗</a></div></footer><p id="announcements" class="sr-only" role="status" aria-live="polite"></p><nav class="mobile-nav" aria-label="Quick navigation"><a href="../index.html"><span class="" data-en="Studio" data-sr="Studio">Studio</span></a><a href="../sledeci.html"><span class="" data-en="Next" data-sr="Sledeći">Next</span></a><a href="../timovi.html"><span class="" data-en="Teams" data-sr="Timovi">Teams</span></a><a href="../ideje.html"><span class="" data-en="Ideas" data-sr="Ideje">Ideas</span></a></nav></body></html>
