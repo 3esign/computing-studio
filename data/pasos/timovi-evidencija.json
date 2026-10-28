@@ -1087,10 +1087,12 @@
       "topic": "Autorstvo (Ilkić vs Peterburški arhitekti), Ruski carski stil",
       "progressStage": 2,
       "progressLabel": "Terenski rad",
-      "status": "Terenski rad u toku",
+      "status": "Terenski rad u toku — hotel odgovorio i uputio na knjigu „Prvih 100 godina hotel Moskva\", Zavod za zaštitu spomenika i Arhiv grada; Zavod još bez odgovora (prepiska 28.10)",
       "submissionsCount": 0,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Prijem 28.10: prepiska tima sa hotelom Moskva i Zavodom (upit 19.10, Zavod bez odgovora). Knjiga hotela nije prosleđena. Pitanje o maketi za kolokvijum otvoreno."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
