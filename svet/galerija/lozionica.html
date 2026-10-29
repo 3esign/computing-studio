@@ -35,6 +35,7 @@
 </head>
 <body>
 <canvas id="c"></canvas>
+<div id="zavesa" style="position:fixed;inset:0;display:grid;place-items:center;background:var(--pozadina);font-size:12px;letter-spacing:.08em;text-transform:uppercase;z-index:9">učitavam slike…</div>
 <div class="hud naslov"><h1>Ložionica · <em>Okretnica</em></h1><p id="opis">učitavam…</p></div>
 <div class="hud karta" id="karta"></div>
 <div class="hud legenda" id="legenda"></div>
@@ -184,7 +185,7 @@ function kartica(i, k) {
   const it = items[i], f = faze.get(it.faza) || {};
   hud(karta, `<b>${it.id.replace('kadar-', 'kadar ')}</b> · ${it.od_s.toFixed(1)}–${it.do_s.toFixed(1)} s · ${esc(it.naziv_faze)} (${esc(it.stanje)}, ${esc(it.doba)}, ${esc(it.pogled)})<br>${it.radnika ? it.radnika + ' radnika u kadru' : 'bez radnika u kadru'}<small>${esc(f.opis || '')}</small>`);
 }
-function resize() { r.setSize(innerWidth, innerHeight, false); cam.aspect = innerWidth / innerHeight; cam.updateProjectionMatrix(); trazi(); }
+function resize() { r.setSize(innerWidth, innerHeight, false); cam.aspect = innerWidth / innerHeight; cam.fov = cam.aspect < 1 ? 70 : 58; cam.updateProjectionMatrix(); /* portret (telefon): širi ugao */ trazi(); }
 addEventListener('resize', resize);
 const clock = new THREE.Clock(); let frame = 0, prev = 0;
 function tick() {
@@ -207,7 +208,7 @@ function tick() {
   r.render(scene, cam);
   if (!reducedMotion || frame < 3 || nav.aktivan() || gibanje || prelaz) trazi();
 }
-resize(); izUpita({ U, ui, rasp, nav, cOblak, razmak: 26, trazi }); if (new URLSearchParams(location.search).get('p') === '1') prebaci(); tick();
+resize(); izUpita({ U, ui, rasp, nav, cOblak, razmak: 26, trazi }); if (new URLSearchParams(location.search).get('p') === '1') prebaci(); tick(); ui.spremno();
 window.__svet = { cam, nav, ui, U, rasp, trazi, items: items.length, kolona: kol.length, faza: P.faze.length, drawCalls: () => r.info.render.calls };
 </script>
 </body>

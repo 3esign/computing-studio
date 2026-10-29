@@ -24,6 +24,7 @@
 </head>
 <body>
 <canvas id="c"></canvas>
+<div id="zavesa" style="position:fixed;inset:0;display:grid;place-items:center;background:var(--pozadina);font-size:12px;letter-spacing:.08em;text-transform:uppercase;z-index:9">učitavam slike…</div>
 <div class="hud naslov"><h1>BIGZ · <em>Slagaonica</em></h1><p id="opis">učitavam listove…</p></div>
 <div class="hud karta" id="karta"></div>
 <div class="hud legenda"><span></span>pročitan list<span style="opacity:.45"></span>nepročitan<span class="d"></span>nit do datuma</div>
@@ -158,7 +159,7 @@ function kartica(i) {
   const it = items[i], b = it.bigz || {};
   hud(karta, `<b>${b.fascikla || '—'}</b> · ${b.vrsta || 'vrsta nepoznata'}${b.datum ? ' · ' + b.datum : ''}<br>${b.naslov || (b.procitano ? '' : 'nepročitan list')}<small>${it.izvor}${it.u_izvoru ? ' :: ' + it.u_izvoru : ''} · ${it.ose.w}×${it.ose.h} · svetlina ${it.ose.svetlina}</small>`);
 }
-function resize() { const w = innerWidth, h = innerHeight; r.setSize(w, h, false); cam.aspect = w / h; cam.updateProjectionMatrix(); trazi(); }
+function resize() { const w = innerWidth, h = innerHeight; r.setSize(w, h, false); cam.aspect = w / h; cam.fov = cam.aspect < 1 ? 54 : 36; cam.updateProjectionMatrix(); /* portret (telefon): širi ugao */ trazi(); }
 addEventListener('resize', resize);
 const clock = new THREE.Clock(); let frame = 0, prev = 0;
 function tick() {
@@ -178,7 +179,7 @@ function tick() {
   r.render(scene, cam);
   if (!reducedMotion || frame < 3 || nav.aktivan() || gibanje || prelaz) trazi();
 }
-resize(); izUpita({ U, ui, rasp, nav, cOblak, razmak: 23, trazi, rasporedFn }); tick();
+resize(); izUpita({ U, ui, rasp, nav, cOblak, razmak: 23, trazi, rasporedFn }); tick(); ui.spremno();
 window.__svet = { cam, nav, ui, U, rasp, trazi, items: items.length, kaseta: red.length, procitano, datirano: godPts.length, galerija: { kutije: GAL.kutije, ulaz: GAL.ulaz.toArray(), duzina: GAL.duzina }, rasporedFn, drawCalls: () => r.info.render.calls };
 </script>
 </body>

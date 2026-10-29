@@ -23,6 +23,7 @@
 </head>
 <body>
 <canvas id="c"></canvas>
+<div id="zavesa" style="position:fixed;inset:0;display:grid;place-items:center;background:var(--pozadina);font-size:12px;letter-spacing:.08em;text-transform:uppercase;z-index:9">učitavam slike…</div>
 <div class="hud naslov"><h1><em>Stajalište</em> · fotografije timova</h1><p id="opis">učitavam…</p></div>
 <div class="hud karta" id="karta"></div>
 <div class="hud legenda">stub = fotografija na mestu objekta · visina = redosled prijema · tačka = dominantna boja<br>prazan prsten = tim bez ijedne slike (sistem raste)</div>
@@ -154,7 +155,7 @@ function kartica(i) {
   const it = items[i], m = mesta.get(it.tim);
   hud(kartaEl, `<b>${it.tim || 'tim nepoznat'}</b>${m ? ' · ' + m.object + ' · ' + (m.place || '') : ''}<br>prijem ${it.prijem} · ${it.ose.w}×${it.ose.h} · hue ${it.ose.hue}° · svetlina ${it.ose.svetlina}<small>${it.izvor}${it.u_izvoru ? ' :: ' + it.u_izvoru : ''}</small>`);
 }
-function resize() { r.setSize(innerWidth, innerHeight, false); cam.aspect = innerWidth / innerHeight; cam.updateProjectionMatrix(); trazi(); }
+function resize() { r.setSize(innerWidth, innerHeight, false); cam.aspect = innerWidth / innerHeight; cam.fov = cam.aspect < 1 ? 52 : 34; cam.updateProjectionMatrix(); /* portret (telefon): širi ugao */ trazi(); }
 addEventListener('resize', resize);
 const clock = new THREE.Clock(); let frame = 0, prev = 0;
 function tick() {
@@ -174,7 +175,7 @@ function tick() {
   r.render(scene, cam);
   if (!reducedMotion || frame < 3 || nav.aktivan() || gibanje || prelaz) trazi();
 }
-resize(); izUpita({ U, ui, rasp, nav, cOblak, razmak: 62, trazi, rasporedFn }); tick();
+resize(); izUpita({ U, ui, rasp, nav, cOblak, razmak: 62, trazi, rasporedFn }); tick(); ui.spremno();
 window.__svet = { cam, nav, ui, U, rasp, trazi, items: items.length, mesta: mesta.size, saSlikama: poTimu.size, galerija: { kutije: GAL.kutije, ulaz: GAL.ulaz.toArray(), duzina: GAL.duzina, c: [centar.x, 0, centar.z + 90] }, rasporedFn, drawCalls: () => r.info.render.calls };
 </script>
 </body>

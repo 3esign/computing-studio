@@ -199,9 +199,10 @@ export function hud(el, html) { el.innerHTML = html; el.style.opacity = html ? 1
 export const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches || /\bmirno=1\b/.test(location.search);
 
 export function renderer(canvas) {
-  const lite = /lite=1/.test(location.search);
-  const r = new THREE.WebGLRenderer({ canvas, antialias: !lite, alpha: false, powerPreference: 'default', failIfMajorPerformanceCaveat: false });
-  r.setPixelRatio(Math.min(devicePixelRatio, 1.5));
+  const telefon = matchMedia('(pointer: coarse)').matches && Math.min(innerWidth, innerHeight) <= 720;
+  const lite = /lite=1/.test(location.search) || telefon;   // telefon: bez MSAA i sa manjim pixel ratio-om, da kretanje ne kasni
+  const r = new THREE.WebGLRenderer({ canvas, antialias: !lite, alpha: false, powerPreference: telefon ? 'high-performance' : 'default', failIfMajorPerformanceCaveat: false });
+  r.setPixelRatio(Math.min(devicePixelRatio, telefon ? 1.25 : 1.5));
   r.toneMapping = THREE.ACESFilmicToneMapping; r.toneMappingExposure = 1.0;
   r.outputColorSpace = THREE.SRGBColorSpace;
   return r;

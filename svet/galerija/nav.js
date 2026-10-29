@@ -8,7 +8,7 @@ const KLJ = { KeyW: 'w', KeyA: 'a', KeyS: 's', KeyD: 'd', KeyQ: 'q', KeyE: 'e', 
 
 export function navigacija(cam, el, { meta, tura, brzina = 6, minY = 0.3, minR = 1.2, maxR = 300, probudi = () => {}, naPromenu = () => {}, izTure = 'orbit', orbitR = 0, sudar = null }) {
   const S = { mode: 'tura', yaw: 0, pitch: 0, target: meta.clone(), sph: new THREE.Spherical(40, 1.1, 0), fly: null, dist: cam.position.distanceTo(meta) || 20, sudar };
-  const keys = new Set(), ptr = new Map(); let pinch = 0, mid = null;
+  const keys = new Set(), ptr = new Map(); let pinch = 0, mid = null; const virt = { x: 0, z: 0 };   // džojstik (ui.js): x desno, z napred (negativno = napred)
   const v = new THREE.Vector3(), f = new THREE.Vector3(), d = new THREE.Vector3(), e = new THREE.Euler(0, 0, 0, 'YXZ');
 
   // sudar u hodu: kamera se vraća na stranu kutije sa koje je došla (i na velikom koraku, pri niskom FPS-u);
@@ -77,10 +77,11 @@ export function navigacija(cam, el, { meta, tura, brzina = 6, minY = 0.3, minR =
     if (keys.has('w')) cam.position.addScaledVector(f, sp); if (keys.has('s')) cam.position.addScaledVector(f, -sp);
     if (keys.has('d')) cam.position.addScaledVector(d, sp); if (keys.has('a')) cam.position.addScaledVector(d, -sp);
     if (keys.has('e')) cam.position.y += sp; if (keys.has('q')) cam.position.y -= sp;
+    if (virt.x || virt.z) { cam.position.addScaledVector(f, -virt.z * sp); cam.position.addScaledVector(d, virt.x * sp); }
     if (cam.position.y < minY) cam.position.y = minY;
     if (S.sudar) sudari(cam.position, S.sudar, x0, z0);
   }
-  const aktivan = () => S.mode !== 'tura' && (S.fly || keys.size > 0);
+  const aktivan = () => S.mode !== 'tura' && (S.fly || keys.size > 0 || virt.x !== 0 || virt.z !== 0);
 
   // ——— ulaz
   const budi = () => { if (S.mode === 'tura') mode(izTure); probudi(); };
@@ -131,5 +132,5 @@ export function navigacija(cam, el, { meta, tura, brzina = 6, minY = 0.3, minR =
   addEventListener('blur', () => keys.clear());
 
   izKamere();
-  return { update, mode, fokus, aktivan, postaviSudar(s) { S.sudar = s; }, skoci() { if (S.fly) S.fly.t = 1 - 1e-6; }, get mod() { return S.mode; }, get sudar() { return S.sudar; } };
+  return { update, mode, fokus, aktivan, postaviSudar(s) { S.sudar = s; }, virtualno(x, z) { virt.x = x; virt.z = z; if (x || z) { if (S.mode !== 'hod') mode('hod'); probudi(); } }, skoci() { if (S.fly) S.fly.t = 1 - 1e-6; }, get mod() { return S.mode; }, get sudar() { return S.sudar; } };
 }

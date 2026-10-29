@@ -1,9 +1,10 @@
 {
-  "version": "d7a7335696c1da50",
-  "bytes": 18287542,
+  "version": "c688148c21283d89",
+  "bytes": 18334124,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
+    "assets/atlas-poster.svg",
     "assets/evidence.js",
     "assets/mark.svg",
     "assets/pasos-model.js",

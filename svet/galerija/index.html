@@ -1,24 +1,35 @@
 <!doctype html>
-<html lang="sr"><head><meta charset="utf-8"><link rel="icon" href="../../assets/mark.svg"><title>Galerija — fotografije kao prostor</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<style>body{margin:0;background:#14171c;color:#e8e4da;font:15px/1.5 ui-monospace,Consolas,monospace}
-main{max-width:880px;margin:0 auto;padding:48px 24px}h1{font:300 34px/1.1 "Segoe UI",Helvetica,Arial,sans-serif}
-.k{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:28px}
-a.karta{display:block;padding:22px;border:1px solid #3a3f47;color:inherit;text-decoration:none}
-a.karta:hover{border-color:#d8a25a}a.karta b{display:block;font-size:18px;margin-bottom:6px}
-small{opacity:.6;display:block;margin-top:10px;line-height:1.5}</style></head><body><main>
+<html lang="sr"><head><meta charset="utf-8"><link rel="icon" href="../../assets/mark.svg"><title>Galerija — fotografije kao prostor · Computing Studio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#14171c">
+<style>*{box-sizing:border-box}body{margin:0;background:#14171c;color:#e8e4da;font:15px/1.5 ui-monospace,Consolas,monospace;-webkit-text-size-adjust:100%}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 5%;border-bottom:1px solid #2a2e35;font-size:12px}
+header a{color:#e8e4da;text-decoration:none;min-height:44px;display:inline-flex;align-items:center;gap:8px;opacity:.8}header a:hover{color:#d8a25a;opacity:1}
+main{max-width:1080px;margin:0 auto;padding:36px 5% 60px}h1{font:300 clamp(28px,5vw,40px)/1.1 "Segoe UI",Helvetica,Arial,sans-serif;margin:0 0 14px}
+.uvod{max-width:70ch;opacity:.82;margin:0 0 26px}
+.k{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+a.karta{display:flex;flex-direction:column;border:1px solid #3a3f47;color:inherit;text-decoration:none;background:#1a1e24;overflow:hidden}
+a.karta:hover,a.karta:focus-visible{border-color:#d8a25a;outline:none}a.karta:focus-visible{box-shadow:0 0 0 3px #d8a25a66}
+a.karta img{display:block;width:100%;aspect-ratio:8/5;object-fit:cover;filter:saturate(.9);border-bottom:1px solid #3a3f47}
+a.karta .t{padding:16px 18px 18px}a.karta b{display:block;font:500 18px/1.2 "Segoe UI",Helvetica,Arial,sans-serif;margin-bottom:6px}
+a.karta .n{color:#d8a25a;font-size:12px;letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:8px}
+a.karta small{opacity:.6;display:block;margin-top:10px;line-height:1.5}
+a.karta .cta{margin-top:14px;display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border:1px solid #d8a25a;color:#d8a25a;font-size:13px;align-self:flex-start}
+.kako{margin-top:32px;padding:16px 18px;border:1px solid #2a2e35;font-size:13px;line-height:1.6;opacity:.85}.kako b{color:#d8a25a}
+.kako .dodir{display:none}@media (pointer:coarse){.kako .mis{display:none}.kako .dodir{display:block}}
+footer{padding:20px 5% 40px;font-size:12px;opacity:.6;max-width:1080px;margin:0 auto}footer a{color:#d8a25a}</style></head><body>
+<header><a href="../../index.html">← Computing Studio</a><a href="../index.html">3D prostorni atlas →</a></header>
+<main>
 <h1>Galerija — fotografije kao prostor</h1>
-<p>Tri iskustva od istih slika. U <b>Slagaonici</b> arhiv B.I.G.Z. stoji u kasetama kartoteke, pročitani listovi izvučeni,
-datumi na šini 1934–1941. U <b>Stajalištu</b> fotografije timova stoje na mestu svog objekta u Beogradu — i u hodniku
-kroz koji se šeta. U <b>Ložionici</b> 62 sekunde filma o gradnji Okretnice stoje kao kadrovi u prostoru, po fazama gradnje. Slike su sličice; originali ostaju kod svojih vlasnika i u arhivu projekta.</p>
+<p class="uvod">Tri prostora od istih slika. U <b>Slagaonici</b> arhiv B.I.G.Z. stoji u kasetama kartoteke, pročitani listovi izvučeni,
+datumi na šini 1934–1941. U <b>Stajalištu</b> fotografije timova stoje na mestu svog objekta u Beogradu i u hodniku
+kroz koji se šeta. U <b>Ložionici</b> 62 sekunde filma o gradnji Okretnice stoje kao kadrovi u prostoru. Slike su sličice; originali ostaju kod svojih vlasnika i u arhivu projekta.</p>
 <div class="k">
-<a class="karta" href="bigz.html"><b>Slagaonica · arhiv B.I.G.Z.</b>306 skenova, 27 kaseta, šina vremena sa nitima do šine.
-<small>WASD hoda u galerijskom hodniku (tipka G), slojevi obrade u kodu (4–8).</small></a>
-<a class="karta" href="stajaliste.html"><b>Stajalište · timovi</b>Fotografije na mestu objekta, visina = redosled prijema,
-prazan prsten = tim koji čeka građu.<small>Karta Beograd (OSM © contributors, ODbL). Galerija po timovima redom prijema.</small></a>
-<a class="karta" href="lozionica.html"><b>Ložionica · Okretnica</b>Kadrovi filma o gradnji kao prostor: faze, konstrukcija, radnici u kadru.
-<small>Građa tima T04. Film je montaža, redosled kadrova nije redosled gradnje.</small></a>
+<a class="karta" href="bigz.html"><img src="data/bigz.teaser.jpg" alt="Isečak atlasa: skenovi arhiva B.I.G.Z." loading="lazy" width="640" height="400"><div class="t"><span class="n">306 listova · 27 kaseta</span><b>Slagaonica · arhiv B.I.G.Z.</b>Kartoteka štamparije: list stoji u svojoj kaseti, pročitan je izvučen, datiran drži nit do šine vremena.<small>Hodnik kroz arhiv (raspored Galerija), slojevi obrade slike u kodu.</small><span class="cta">Uđi u Slagaonicu →</span></div></a>
+<a class="karta" href="stajaliste.html"><img src="data/ostali.teaser.jpg" alt="Isečak atlasa: fotografije timova" loading="lazy" width="640" height="400"><div class="t"><span class="n">161 fotografija · timovi</span><b>Stajalište · timovi</b>Fotografija stoji na mestu svog objekta; visina je redosled prijema, prazan prsten je tim koji čeka građu.<small>Karta Beograd (OSM © contributors, ODbL). Hodnik po timovima redom prijema.</small><span class="cta">Uđi u Stajalište →</span></div></a>
+<a class="karta" href="lozionica.html"><img src="data/lozionica.teaser.jpg" alt="Isečak atlasa: kadrovi filma o gradnji Okretnice" loading="lazy" width="640" height="400"><div class="t"><span class="n">46 kadrova · T04</span><b>Ložionica · Okretnica</b>Kadrovi filma o gradnji kao prostor: faze, konstrukcija, radnici u kadru.<small>Građa tima T04. Film je montaža, redosled kadrova nije redosled gradnje.</small><span class="cta">Uđi u Ložionicu →</span></div></a>
 </div>
-<p><small><a href="../index.html" style="color:#d8a25a">← 3D prostorni atlas</a> · deo projekta Osnove računarstva,
-Univerzitet u Beogradu — arhitektura (Computing Studio)</small></p>
-</main></body></html>
+<div class="kako"><b>Kako se kreće.</b> Svaki prostor počinje Turom (kamera sama kruži). <span class="mis">Prevlačenje mišem okreće, točkić zumira, desni klik pomera; tipka 3 je Hod (WASD), G menja raspored, 4–8 slojeve obrade, H pomoć.</span>
+<span class="dodir">Jedan prst okreće, dva prsta zumiraju i pomeraju. Donja traka bira Turu, Orbit ili Hod; u Hodu džojstik levo dole hoda. Dodir na sliku pokazuje njen podatak. Na telefonu se crta u lakšem režimu da bi kretanje bilo glatko.</span></div>
+</main>
+<footer>Deo projekta Osnove računarstva, Univerzitet u Beogradu — arhitektura (<a href="../../index.html">Computing Studio</a>) · <a href="../index.html">3D prostorni atlas</a></footer>
+</body></html>
