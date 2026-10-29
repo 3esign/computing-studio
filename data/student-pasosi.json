@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-19",
   "note": {
     "en": "Student pilot digital passports, submitted by e-mail. The curated layer keeps claims with their sources; duplicates of one source are merged; legends are separated from facts; unknowns stay unknown. The original submission is preserved verbatim in originalText.",
     "sr": "Studentski piloti digitalnih pasoša (mejl 2026-10-12; prijem dokumenata 2026-10-18). Kurirani sloj čuva tvrdnje sa izvorima; ponavljanja istog izvora su spojena; legende odvojene od činjenica; nepoznato ostaje nepoznato. Originalni podnesci su doslovno sačuvani u originalText i u privatnoj evidenciji (van javnog izvoda). Imena podnosilaca nisu deo javnog izvoda — atribucija je po broju indeksa (odluka 20.10.2026)."
@@ -8699,6 +8699,670 @@
         "file": "evidencija/prijem-2026-10-28/raw/t23/manjez word.docx",
         "sha256": "0fa3397cb1247da37dbfaf5ee95d8f56ff8096d7444ba45b435c5df01b10dcb9"
       }
+    },
+    {
+      "id": "t16",
+      "team": "T16",
+      "credit": "188/26 · 109/26 · 72/26",
+      "received": "2026-10-26",
+      "object": {
+        "name": "Palata Narodne banke Srbije"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "en": "Identity and origin",
+            "sr": "Identitet i nastanak"
+          },
+          "claims": [
+            {
+              "t": "Adresa",
+              "v": "Ulica kralja Petra 12, staro jezgro Beograda; nekadašnja Dubrovačka 12",
+              "s": [
+                "S1"
+              ],
+              "id": "T16:identitet:98ccc4218ab5",
+              "category": "location",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Institucija",
+              "v": "Narodna banka osnovana 1884. kao Privilegovana narodna banka Kraljevine Srbije",
+              "s": [
+                "S3"
+              ],
+              "id": "T16:identitet:f191d00d88a3",
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Mesto gradnje",
+              "v": "podignuta na mestu rodne kuće Branislava Nušića",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T16:identitet:edd8b817a907",
+              "category": "location",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Kamen temeljac",
+              "v": "april 1887, bez velike pompe, u krugu najviših zvaničnika banke i države",
+              "s": [
+                "S3"
+              ],
+              "id": "T16:identitet:f36b59939486",
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Projektant",
+              "v": "Konstantin Jovanović, arhitekta srpskog porekla iz Beča; 1890. Orden Svetog Save III reda za ovo delo",
+              "s": [
+                "S3"
+              ],
+              "id": "T16:identitet:74b051cb9e88",
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Izgradnja",
+              "v": "1888–1890; izvođači Jirasek i Kraus iz Segedina, fasada majstor Petraš; banka useljena 1890",
+              "s": [
+                "S3"
+              ],
+              "id": "T16:identitet:db6280ae6185",
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Dogradnja",
+              "v": "1922–1925 u istom stilu i materijalima, kao prirodan nastavak palate",
+              "s": [
+                "S3"
+              ],
+              "id": "T16:identitet:b1222a3d788f",
+              "category": "time",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "materijali",
+          "title": {
+            "en": "Materials and interior",
+            "sr": "Materijali i enterijer"
+          },
+          "claims": [
+            {
+              "t": "Mermer",
+              "v": "svetlozeleni i beli mermer iz italijanskih kamenoloma",
+              "s": [
+                "S3"
+              ],
+              "id": "T16:materijali:19d2fea18e8c",
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Bravarija",
+              "v": "građevinski elementi i bravarija iz umetničkih radionica u Beču i Budimpešti",
+              "s": [
+                "S3"
+              ],
+              "id": "T16:materijali:8c3c7efec0af",
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Bista „Srbija“",
+              "v": "bronzana bista Đorđa Jovanovića na galeriji svečanog hola iznad mermernog stepeništa; izložena u Parizu 1900, otkupljena, postavljena 1901; identična detalju Spomenika kosovskim junacima u Kruševcu",
+              "s": [
+                "S1"
+              ],
+              "id": "T16:materijali:40a6059fefba",
+              "category": "materials",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "tumacenje",
+          "title": {
+            "en": "Interpretations and questions",
+            "sr": "Tumačenja i pitanja"
+          },
+          "claims": [
+            {
+              "t": "Akademski jezik",
+              "v": "reprezentativni akademski izraz kao način da se izraze stabilnost i poverenje — arhitektonsko tumačenje, ne izjava projektanta",
+              "s": [
+                "S3"
+              ],
+              "id": "T16:tumacenje:2d37fac92ae4",
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Trezori i rodna soba",
+              "v": "po Nušićevoj Autobiografiji trezori su tamo gde je bila soba u kojoj se rodio; nema dokaza da je lokacija birana zbog njega",
+              "s": [
+                "S2"
+              ],
+              "id": "T16:tumacenje:7da4428a4f30",
+              "category": "questions",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "napomena",
+          "title": {
+            "en": "Teacher's note",
+            "sr": "Napomena nastavnika"
+          },
+          "claims": [
+            {
+              "t": "Stanje dosijea",
+              "v": "Podnesak tima (docx, 26.10.2026) ne navodi izvore uz pojedinačne podatke. Nastavnik je 22. i 27.10. tražio ispravljenu verziju (izvor uz svaki podatak, tabela). Objavljeno 29.10.2026 po odluci nastavnika u ovom obliku; svi podaci nose oznaku „nepotvrđeno\" dok ne stigne verzija sa izvorima, kojom se ovaj dosije zamenjuje.",
+              "s": [],
+              "id": "T16:napomena:61240441ffdc",
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Narodna banka Srbije — zvanična istorija zgrade (navod studenta, bez URL-a)",
+          "kind": "zvanični sajt"
+        },
+        {
+          "id": "S2",
+          "label": "Branislav Nušić, Autobiografija (navod studenta)",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S3",
+          "label": "Studentski podnesak „Palata Narodne banke Srbije“ (docx, 26. 10. 2026) — izvori nisu navedeni uz pasuse",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-28/raw/tura2/narodna-banka/PALATA NARODNE BANKE SRBIJE.docx",
+        "sha256": "cc5e6a9cb96bee9bd430ea7442e4cdf4df10a001840409bd69ebf5ecb086fcb9"
+      }
+    },
+    {
+      "id": "t31",
+      "team": "T31",
+      "credit": "11/26g · 15/26g",
+      "received": "2026-10-26",
+      "object": {
+        "name": "Zgrada rektorata (Kapetan Mišino zdanje)"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "en": "Identity",
+            "sr": "Identitet"
+          },
+          "claims": [
+            {
+              "t": "Izgradnja",
+              "v": "1857–1863 po projektu češkog arhitekte Jana Nevole; kapetan Miša Anastasijević poklonio zgradu otadžbini u obrazovne svrhe",
+              "s": [
+                "S3",
+                "S4"
+              ],
+              "id": "T31:identitet:3560f75de4c9",
+              "category": "time"
+            },
+            {
+              "t": "Stil",
+              "v": "mešavina gotike, romantike, renesanse i srpskog nacionalnog stila; u svoje vreme najmonumentalnija zgrada u Beogradu",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:identitet:ed3165df69cd",
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Skulpture",
+              "v": "na fasadi prema Univerzitetskom parku Apolon s lirom i Minerva s kopljem i štitom, nepoznat autor",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:identitet:9f21e1a3e0c0",
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Obnova 2015",
+              "v": "rekonstrukcija fasade i krova, obnova prozora i panoramski lift finansirani iz EU sa milion evra; tavan pretvoren u učionicu od 200 m²",
+              "s": [
+                "S3"
+              ],
+              "id": "T31:identitet:a411cf086a66",
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "id": "osnova",
+          "title": {
+            "en": "Plan and interior",
+            "sr": "Osnova i enterijer"
+          },
+          "claims": [
+            {
+              "t": "Stanje 1863",
+              "v": "nije zatvoren blok: glavni trup prema Studentskom trgu, bočna krila niža za sprat, dodata pre završetka; ceo blok po pretpostavci 1905, godina upisana u podnim pločicama hodnika",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:osnova:f0a47b8689af",
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Simetrija i dvojnost",
+              "v": "simetrična osnova oko centralne ose sa glavnim ulazom; udvojeni pešački i kolski prolazi i dva ravnopravna stepeništa — dvojnost retka u 19. veku",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:osnova:fe7a279eb98d",
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Svečana dvorana",
+              "v": "na drugom spratu u osi, 11,80 × 19,60 m, visina blizu 7,00 m; ostale prostorije oko 4,70 m",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:osnova:50168fb85047",
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Stepeništa",
+              "v": "ozidana ograda sa ispunom od livenog gvožđa i pločama ružičastog kamena; u bočnim krilima spiralna kamena stepeništa oko ozidanog jezgra",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:osnova:beaae79e4895",
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Pregrađeni hodnik",
+              "v": "srednji pregradni zid naknadno ispunjen oko 1863. radi odvajanja Velike škole od Gimnazije; otvori četvrtastog oblika",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:osnova:4d79a35a857a",
+              "category": "structure",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Slepi prozor",
+              "v": "na bočnim fasadama na jedan prozor udara noseći srednji zid, pa ostaje slep",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:osnova:3faa799e1c7f",
+              "category": "geometry",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "fasada",
+          "title": {
+            "en": "Exterior and materials",
+            "sr": "Spoljna arhitektura i materijali"
+          },
+          "claims": [
+            {
+              "t": "Front",
+              "v": "fasadni front 57,56 m sa nadvišenim srednjim delom",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:fasada:511118137e78",
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Terakota",
+              "v": "ornamenti od terakote rađeni u Beču, Pešti ili Trstu po pretpostavci; nije utvrđeno da li po Nevolinim detaljima",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:fasada:b8ad873a82ea",
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Kamen",
+              "v": "zupčasta atika, kule nad lizenama, stupci i lukovi portala od tašmajdanskog kamena; površine krpljene i bojene",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:fasada:12fdbccc43f8",
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Boja",
+              "v": "svetla fasada sa crvenkastim ukrasima; restauracija 1963. našla prvobitni sloj boje terakote",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:fasada:6eae4da31d18",
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Krov",
+              "v": "pokriven limom; po starim fotografijama u početku bar delimično ćeramidom; srednji deo sa osmatračnicom od početka lim",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:fasada:2ab5952c9ee7",
+              "category": "materials",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "napomena",
+          "title": {
+            "en": "Teacher's note",
+            "sr": "Napomena nastavnika"
+          },
+          "claims": [
+            {
+              "t": "Stanje dosijea",
+              "v": "Podnesak tima (seminarski tekst, 26.10.2026) ne vezuje izvore za pojedinačne podatke; tri URL-a i skenirana monografija iz priloga vode se kao izvori. Nastavnik je tražio ispravljenu verziju sa izvorima i tabelom. Objavljeno 29.10.2026 po odluci nastavnika; podaci bez izvora nose oznaku „nepotvrđeno\" dok ne stigne nova verzija.",
+              "s": [],
+              "id": "T31:napomena:4570933878c9",
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Studentski podnesak „Kapetan Mišino zdanje — eksterijer i enterijer“ (PDF, 26. 10. 2026) — bez izvora uz podatke",
+          "kind": "studentski podnesak"
+        },
+        {
+          "id": "S2",
+          "label": "Publikacija „Kapetan Mišino Zdanje — Arhitektura i Enterijer“ (PDF u zipu predaje, skeniran) (navod studenta)",
+          "kind": "publikacija",
+          "locator": "osnoviracunarstva.zip → Kapetan Mišino Zdanje - Arhitektura i Enterijer.pdf"
+        },
+        {
+          "id": "S3",
+          "label": "Nova.rs — „Kako je jedna od najlepših građevina u Beogradu postala zgrada Rektorata…“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://nova.rs/magazin/prica-se/kako-je-jedna-od-najlepsih-gradjevina-u-beogradu-postala-zgrada-rektorata-a-gradjena-je-s-potpuno-drugom-namenom/"
+        },
+        {
+          "id": "S4",
+          "label": "Univerzitet u Beogradu — „Nastanak i razvoj“ (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://www.bg.ac.rs/nastanak-i-razvoj/"
+        },
+        {
+          "id": "S5",
+          "label": "Wikipedia (sr.) — „Универзитет у Београду“ (navod studenta)",
+          "kind": "enciklopedija",
+          "url": "https://sr.wikipedia.org/wiki/Универзитет_у_Београду"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-28/raw/tura2/t31/Kapetan-Mišino zdanje.docx.pdf",
+        "sha256": "32ca5387c808fac06e8267ca46c79eb9d60f6552fce4bd95192ed6fc775830ec"
+      }
+    },
+    {
+      "id": "t50",
+      "team": "T50",
+      "credit": "51/26 · 160/26",
+      "received": "2026-10-19",
+      "object": {
+        "name": "Palata Beograd (Beograđanka)"
+      },
+      "sections": [
+        {
+          "id": "osnovni",
+          "title": {
+            "en": "Basic data",
+            "sr": "Osnovni podaci"
+          },
+          "claims": [
+            {
+              "t": "Arhitekta",
+              "v": "Branko Pešić",
+              "s": [
+                "S1"
+              ],
+              "id": "T50:osnovni:e54b76df9955",
+              "category": "people"
+            },
+            {
+              "t": "Izgradnja",
+              "v": "1969–1974",
+              "s": [
+                "S1"
+              ],
+              "id": "T50:osnovni:20f5f93a872b",
+              "category": "time"
+            },
+            {
+              "t": "Visina",
+              "v": "približno 101 m; više od 20 nadzemnih nivoa",
+              "s": [
+                "S1"
+              ],
+              "id": "T50:osnovni:72a55eafd4eb",
+              "category": "geometry"
+            },
+            {
+              "t": "Lokacija",
+              "v": "ugao ulica Kralja Milana i Masarikove",
+              "s": [
+                "S1"
+              ],
+              "id": "T50:osnovni:201d65d68deb",
+              "category": "location"
+            },
+            {
+              "t": "Sistem",
+              "v": "armiranobetonski skelet; viseća fasada (zid-zavesa); visok poslovni objekat",
+              "s": [
+                "S1"
+              ],
+              "id": "T50:osnovni:2e5500025d24",
+              "category": "structure"
+            }
+          ]
+        },
+        {
+          "id": "konstrukcija",
+          "title": {
+            "en": "Structure and foundations",
+            "sr": "Konstrukcija i temeljenje"
+          },
+          "claims": [
+            {
+              "t": "Projektanti konstrukcije",
+              "v": "glavni projektant prof. Milorad Ivković, konsultant akademik Đorđe Lazarević (iskustvo sa Palatom „Albanija“)",
+              "s": [
+                "S3"
+              ],
+              "id": "T50:konstrukcija:4fbada867237",
+              "category": "people"
+            },
+            {
+              "t": "Raster",
+              "v": "armiranobetonski skelet u rasteru stubova 9 × 9 m sa gredama u dva pravca",
+              "s": [
+                "S3"
+              ],
+              "id": "T50:konstrukcija:0b3104676811",
+              "category": "structure"
+            },
+            {
+              "t": "Dijafragma",
+              "v": "armiranobetonska dijafragma debljine 60 cm do dubine 17,5 m; istovremeno izvođenje nadzemnih i podzemnih etaža",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T50:konstrukcija:663da2b9d013",
+              "category": "structure"
+            },
+            {
+              "t": "Fundiranje",
+              "v": "kula na kasetiranoj ploči, niski deo na rombičnim stopama povezanim trakama",
+              "s": [
+                "S3"
+              ],
+              "id": "T50:konstrukcija:6ae318168e7b",
+              "category": "structure"
+            },
+            {
+              "t": "Voda",
+              "v": "tri suterenske etaže na tlu punom vode; skoro hiljadu dana crpljeno 70 litara u minuti drenažom",
+              "s": [
+                "S3"
+              ],
+              "id": "T50:konstrukcija:0a8a51ee94d8",
+              "category": "environment"
+            },
+            {
+              "t": "Tabela elemenata",
+              "v": "stubovi, grede, međuspratne ploče, elementi za ukrućenje, temeljna dijafragma, viseća fasada — opisi iz tabele bez izvora (označeno ChatGPT)",
+              "s": [
+                "S5"
+              ],
+              "id": "T50:konstrukcija:c4fdd754a8ab",
+              "category": "structure",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "fasada",
+          "title": {
+            "en": "Facade",
+            "sr": "Fasada"
+          },
+          "claims": [
+            {
+              "t": "Sistem",
+              "v": "montažna metalna viseća fasada, novina u domaćoj praksi; aluminijumski profili tvrde eloksaže „Akadaj“ u boji tamne bronze, dupli termopan 24 mm; projektovano u birou preduzeća „Beograd“ po uslovima arh. Pešića",
+              "s": [
+                "S3"
+              ],
+              "id": "T50:fasada:cb713f07f5d4",
+              "category": "materials"
+            },
+            {
+              "t": "Raster elemenata",
+              "v": "montažni elementi 156/330 cm i 156/458 cm, malo opterećenje konzola; žaluzine sa automatskom regulacijom",
+              "s": [
+                "S3"
+              ],
+              "id": "T50:fasada:5d52c3de874c",
+              "category": "geometry"
+            },
+            {
+              "t": "Optički efekat",
+              "v": "boja bronze menja se od tamnosmeđe do sjajnozlatne zavisno od svetla; ista boja na kulama Monparnas i Sirs",
+              "s": [
+                "S3",
+                "S4"
+              ],
+              "id": "T50:fasada:3a2424a1bb5a",
+              "category": "materials"
+            },
+            {
+              "t": "Tumačenje",
+              "v": "izlomljena linija parapeta i izduženi otvori vidikovca po Maneviću neogotička interpretacija postmisovskog tretmana fasade",
+              "s": [
+                "S3"
+              ],
+              "id": "T50:fasada:4620efe15a5e",
+              "category": "identity"
+            }
+          ]
+        },
+        {
+          "id": "napomena",
+          "title": {
+            "en": "Teacher's note",
+            "sr": "Napomena nastavnika"
+          },
+          "claims": [
+            {
+              "t": "Stanje dosijea",
+              "v": "Deo o konstrukciji i fasadi oslanja se na Nasleđe 2022 (sa izvorom); tabelarni deo podneska navodi „izvor: ChatGPT\" i vodi se kao „nepotvrđeno\". Nastavnik je 27.10. timu rekao da čeka novu verziju pre objave; objavljeno 29.10.2026 po odluci nastavnika, a nova verzija tima zameniće ovaj dosije kad stigne.",
+              "s": [],
+              "id": "T50:napomena:7cc12fd1b58d",
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Wikipedia (sr.) — „Београђанка“ (navod studenta)",
+          "kind": "enciklopedija",
+          "url": "https://sr.wikipedia.org/wiki/Београђанка"
+        },
+        {
+          "id": "S2",
+          "label": "Danas — „Beograđanka: četiri decenije gradske lepotice“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.danas.rs/vesti/beograd/beogradjanka-cetiri-decenije-gradske-lepotice/"
+        },
+        {
+          "id": "S3",
+          "label": "Nasleđe br. 23 (2022), SCIndeks PDF, članak o Palati „Beograd“ (navod studenta)",
+          "kind": "naučni rad",
+          "url": "https://scindeks-clanci.ceon.rs/data/pdf/1450-605X/2022/1450-605X2223159A.pdf"
+        },
+        {
+          "id": "S4",
+          "label": "Serbia.com — „Beograđanka, večiti simbol Beograda“ (navod studenta)",
+          "kind": "portal",
+          "url": "https://serbia.com/srpski/beogradanka-veciti-simbol-beograda/"
+        },
+        {
+          "id": "S5",
+          "label": "Studentski podnesak „Digitalni pasoš Beograđanke — konstrukcija“ (docx, 19. 10. 2026); tabela elemenata označena „izvor: ChatGPT“, što nije izvor",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-28/raw/tura2/t50/digitalni_pasos.docx",
+        "sha256": "bdc97ef8e3f6ededc255626aa64e03ff77584c72292fd1e8fc7825e9fd1633cc"
+      }
     }
   ],
   "inbox": [
@@ -8715,5 +9379,5 @@
       "state": "zavedeno 2026-10-19 — registar timova: docs/data/pasos/timovi-evidencija.json (28 stavki, 5 otvorenih pitanja)"
     }
   ],
-  "datasetRevision": "r-d40a85ed40630b2b"
+  "datasetRevision": "r-eb1c0bba2ea82f9c"
 }

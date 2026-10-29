@@ -1,8 +1,8 @@
 {
-  "datasetRevision": "r-d40a85ed40630b2b",
+  "datasetRevision": "r-eb1c0bba2ea82f9c",
   "registeredTeams": 71,
-  "curatedPassportsCount": 29,
-  "totalCuratedClaims": 674,
+  "curatedPassportsCount": 32,
+  "totalCuratedClaims": 719,
   "passports": [
     {
       "id": "T01",
@@ -65,6 +65,12 @@
       "claims": 17
     },
     {
+      "id": "T16",
+      "object": "Palata Narodne banke Srbije",
+      "sections": 4,
+      "claims": 13
+    },
+    {
       "id": "T17",
       "object": "Palata Beograd (Beograđanka)",
       "sections": 3,
@@ -107,6 +113,12 @@
       "claims": 29
     },
     {
+      "id": "T31",
+      "object": "Zgrada rektorata (Kapetan Mišino zdanje)",
+      "sections": 4,
+      "claims": 16
+    },
+    {
       "id": "T33",
       "object": "Stari dvor",
       "sections": 6,
@@ -147,6 +159,12 @@
       "object": "Stambena kula „Toblerone”",
       "sections": 5,
       "claims": 20
+    },
+    {
+      "id": "T50",
+      "object": "Palata Beograd (Beograđanka)",
+      "sections": 4,
+      "claims": 16
     },
     {
       "id": "T51",

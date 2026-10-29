@@ -9,7 +9,7 @@
   "totals": {
     "teams": 71,
     "objects": 51,
-    "completedPassports": 29
+    "completedPassports": 32
   },
   "entries": [
     {
@@ -331,18 +331,18 @@
       "object": "Palata Narodne banke Srbije",
       "location": "Kralja Petra 12, Beograd",
       "topic": "Konstantin Jovanović, neorenesansna palata, trezori, reprezentativni hol",
-      "progressStage": 3,
-      "progressLabel": "Čeka ispravljen pasoš — izvori uz svaki podatak",
-      "status": "Predat pasoš (26.10) bez izvora po pasusu — čeka ispravljenu verziju",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Pasoš Palate Narodne banke kuriran u javni sloj (29.10) po odluci nastavnika iz verzije bez izvora uz pasuse: 12 zapisa, svi nepotvrđeni; napomena stoji u dosijeu. Verzija sa izvorima i tabelom zamenjuje dosije kad stigne.",
       "submissionsCount": 2,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "Ista upisana tačka kao T55: Palata Narodne banke je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima.",
         "Tim potvrđen 28.10: tročlani tim, tri indeksa. T55 (isti objekat, dva indeksa) je poseban tim bez predaje.",
-        "Nacrt paketa spreman (evidencija/prijem-2026-10-28/paketi/nacrt/t16-narodna-banka-pasos.json, 12 zapisa, svi nepotvrđeni) — primenjuje se kad stigne verzija sa izvorima uz pasuse."
+        "Objavljeno 29.10 bez izvora uz podatke (odluka nastavnika); čeka se verzija sa izvorima uz svaki podatak i tabelom."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 13,
+      "sectionsCount": 4
     },
     {
       "id": "T17",
@@ -643,18 +643,18 @@
       "object": "Zgrada rektorata (Kapetan Mišino zdanje)",
       "location": "Studentski trg 1, Beograd",
       "topic": "Konstruktivni elementi i enterijer, tavanica, svečana sala",
-      "progressStage": 3,
-      "progressLabel": "Čeka ispravljen pasoš — izvori uz svaki podatak",
-      "status": "Predat pasoš bez izvora (Kapetan-Mišino zdanje, 26.10) — čeka ispravljenu verziju u tabeli: podatak levo, izvor desno",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Pasoš Kapetan-Mišinog zdanja kuriran u javni sloj (29.10) po odluci nastavnika iz seminarskog teksta: 15 zapisa, 3 URL-a i skenirana monografija kao izvori, podaci bez izvora nepotvrđeni; napomena stoji u dosijeu.",
       "submissionsCount": 1,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "Reorganizovan tim: jedan član prešao u T66",
         "Prijem 28.10 (2. tura): pasoš predat 26.10 bez izvora uz podatke — čekamo ispravljenu verziju (tabela podatak/izvor).",
-        "Nacrt paketa spreman (evidencija/prijem-2026-10-28/paketi/nacrt/t31-kapetan-misino-pasos.json, 15 zapisa) — primenjuje se kad stigne tabela podatak/izvor."
+        "Objavljeno 29.10 iz teksta bez izvora uz podatke (odluka nastavnika); čeka se tabela podatak/izvor."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 16,
+      "sectionsCount": 4
     },
     {
       "id": "T32",
@@ -1015,17 +1015,17 @@
       "object": "Palata Beograd (Beograđanka)",
       "location": "Masarikova 5, Beograd",
       "topic": "Fasada i vidikovac, javni prostori",
-      "progressStage": 3,
-      "progressLabel": "Čeka ispravljen pasoš — izvori uz svaki podatak",
-      "status": "Predat pasoš (19.10) na doradi — ChatGPT nije izvor; tim šalje doradu sa podacima iz Arhiva Beograda",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Konstrukcija i fasada Beograđanke kurirane u javni sloj (29.10) po odluci nastavnika: 15 zapisa, deo iz Nasleđa 2022 sa izvorom, tabela „izvor: ChatGPT“ nepotvrđena; napomena stoji u dosijeu. Nova verzija tima zamenjuje dosije.",
       "submissionsCount": 2,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "Prijem 28.10 (2. tura): pasoš na doradi (izvori) — čekamo ispravljenu verziju posle Arhiva Beograda.",
-        "Nacrt paketa spreman (evidencija/prijem-2026-10-28/paketi/nacrt/t50-beogradjanka-konstrukcija.json, 15 zapisa; tabela „izvor: ChatGPT“ označena nepotvrđeno) — primenjuje se kad stigne dorada iz Arhiva Beograda, po dogovoru 27.10."
+        "Objavljeno 29.10 pre nove verzije (odluka nastavnika); čeka se dorada iz Arhiva Beograda po dogovoru 27.10."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 16,
+      "sectionsCount": 4
     },
     {
       "id": "T51",
@@ -1448,5 +1448,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-d40a85ed40630b2b"
+  "datasetRevision": "r-eb1c0bba2ea82f9c"
 }
