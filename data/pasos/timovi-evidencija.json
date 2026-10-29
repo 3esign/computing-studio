@@ -1,13 +1,13 @@
 {
   "schema": 2,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
     "sr": "Zvanični javni registar timova: ID tima, brojevi indeksa, dodeljeni objekti, teme istraživanja i faza progresa. Imena studenata su izostavljena radi zaštite privatnosti."
   },
   "totals": {
-    "teams": 70,
+    "teams": 71,
     "objects": 51,
     "completedPassports": 23
   },
@@ -46,7 +46,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 2,
+      "submissionsCount": 1,
       "hasPassport": true,
       "flags": [
         "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora",
@@ -90,7 +90,7 @@
       "progressStage": 5,
       "progressLabel": "Predat pasoš u formatu tabele",
       "status": "Predat pasoš tabela i istorija korišćenja (24.10)",
-      "submissionsCount": 2,
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
         "Razrešeno: 17/26 je u T04 (nije u T10)",
@@ -112,7 +112,7 @@
       "progressStage": 3,
       "progressLabel": "Predat koncept",
       "status": "Predat koncept rada",
-      "submissionsCount": 1,
+      "submissionsCount": 3,
       "hasPassport": false,
       "flags": [
         "Spisak časa 26.10: 136/26 sklonjen iz tima (višak); ostaje u T68. Dupli indeks razrešen."
@@ -234,7 +234,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pasoš + dopuna",
       "status": "Kuriran pilot pasoš + dopunski podnesak",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
         "Dva podneska: razrešiti da li podnosilac nastupa u istom timu sa ostala dva člana ili samostalno"
@@ -254,7 +254,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš (uzoran)",
       "status": "Kuriran pilot pasoš (najzreliji primer)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
         "Ista upisana tačka kao T25: Generalštab je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima ili dva odvojena upisa."
@@ -277,7 +277,7 @@
       "progressStage": 5,
       "progressLabel": "Izrađena AI Studio aplikacija",
       "status": "AI Studio interaktivna 3D aplikacija",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Dva objekta: tim pokriva oba u skladu sa veličinom grupe"
@@ -315,7 +315,7 @@
       "progressStage": 3,
       "progressLabel": "Zakazana poseta",
       "status": "Zakazana poseta zgradi",
-      "submissionsCount": 0,
+      "submissionsCount": 1,
       "hasPassport": false,
       "flags": [],
       "claimsCount": 0,
@@ -334,7 +334,7 @@
       "progressStage": 3,
       "progressLabel": "Čeka ispravljen pasoš — izvori uz svaki podatak",
       "status": "Predat pasoš (26.10) bez izvora po pasusu — čeka ispravljenu verziju",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Ista upisana tačka kao T55: Palata Narodne banke je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima.",
@@ -356,7 +356,7 @@
       "progressStage": 4,
       "progressLabel": "Predata radna verzija",
       "status": "Predat preliminarni rad",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
         "Deo klastera Beograđanka: konstrukcija (T17)"
@@ -376,7 +376,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 1,
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
         "Razrešeno: indeks je 175/26 (ne 157)"
@@ -397,7 +397,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
         "T19 dopunjen sa 11/26  kao trećim članom"
@@ -437,7 +437,7 @@
       "progressStage": 3,
       "progressLabel": "Predat tekst o tehnologiji",
       "status": "Predat tekst; traži se prototip i tabela podatak → izvor",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Mejl 24.10: sastav tima za Ušće two tower potvrđen kao 129/26, 18/26, 69/26 — ne poklapa se sa registratorom (135/26, 107/26, 114/26); indeksi 18 i 69 već stoje u T54 i T51; čeka se potvrda nastavnika/studenta"
@@ -478,7 +478,7 @@
       "progressStage": 4,
       "progressLabel": "Predat rad",
       "status": "Predat pasoš: identitet, materijali i hronologija namena 1860–2005 sa literaturom po epohi (prijem 28.10)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Prijem 28.10: docx sa 16 grafičkih priloga (arhivske fotografije, nacrti Krasnova 1927–28, fasada Belobrka, požar 1997, rekonstrukcija 2003–05); izvori priloga navedeni (IAB, MGB, NBS, arhiv JDP). Građa čeka kuriranje u paket."
@@ -522,7 +522,7 @@
       "progressStage": 5,
       "progressLabel": "Predata AI Studio aplikacija",
       "status": "Predata AI Studio aplikacija i PDF (19.10)",
-      "submissionsCount": 0,
+      "submissionsCount": 1,
       "hasPassport": false,
       "flags": [
         "Ista upisana tačka kao T12 (Zgrada Generalštaba). Razrešiti da li je to jedan objekat sa dva tima ili dva odvojena upisa."
@@ -542,7 +542,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
         "Potvrđeni autori podneska"
@@ -583,7 +583,7 @@
       "progressStage": 4,
       "progressLabel": "Predata radna verzija",
       "status": "Predat rad o konstrukciji, mašinama i energetskoj efikasnosti (19.10)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
         "Prvi tim na Kuli Beograd (dozvoljeno)",
@@ -624,7 +624,7 @@
       "progressStage": 4,
       "progressLabel": "5 priloga + arhivski rad",
       "status": "Predato 5 priloga + zakazan razgovor u Rektoratu",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Razrešeno: indeks 191 zvanično u T30 (napustio West 65)"
@@ -686,7 +686,7 @@
       "progressStage": 3,
       "progressLabel": "Predat pasoš Starog dvora",
       "status": "Predat pasoš; traži se tabela i izvori",
-      "submissionsCount": 0,
+      "submissionsCount": 1,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 20,
@@ -780,7 +780,7 @@
       "progressStage": 2,
       "progressLabel": "Rad u toku",
       "status": "Potvrđen tim i rad u toku",
-      "submissionsCount": 0,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Razrešeno: indeksi 27 i 10 čine T38"
@@ -861,7 +861,7 @@
       "progressStage": 5,
       "progressLabel": "Izrađene AI Studio aplikacije",
       "status": "Predate 2 AI Studio aplikacije; stigao odgovor Arhiva Jugoslavije (27.10) — građa za aksonometriju i maketu",
-      "submissionsCount": 3,
+      "submissionsCount": 6,
       "hasPassport": false,
       "flags": [
         "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i još jedan student bez indeksa, koji nisu u listi",
@@ -901,7 +901,7 @@
       "progressStage": 4,
       "progressLabel": "Predata radna verzija istraživanja",
       "status": "Predat PDF istraživanja sa 9 izvora + početak sajta dve-kule-beograd.ai.studio (prijem 27.10). Promena objekta sa ATŠ dokumentovana ovim prijemom.",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": false,
       "flags": [
         "Lokacija je približna, po javnoj adresi škole; nije geodetski potvrđena.",
@@ -942,7 +942,7 @@
       "progressStage": 4,
       "progressLabel": "Predat pasoš kroz svih 7 celina",
       "status": "Predat pasoš kroz svih sedam celina (19.10)",
-      "submissionsCount": 0,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 28,
@@ -961,7 +961,7 @@
       "progressStage": 4,
       "progressLabel": "Predat rad",
       "status": "Predat digitalni pasoš (čeka izvore)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [],
       "claimsCount": 0,
@@ -979,7 +979,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 24,
@@ -997,7 +997,7 @@
       "progressStage": 3,
       "progressLabel": "Primljen pilot pasoš",
       "status": "Primljen pilot pasoš; izvori nepotpuni",
-      "submissionsCount": 0,
+      "submissionsCount": 1,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 20,
@@ -1015,7 +1015,7 @@
       "progressStage": 3,
       "progressLabel": "Čeka ispravljen pasoš — izvori uz svaki podatak",
       "status": "Predat pasoš (19.10) na doradi — ChatGPT nije izvor; tim šalje doradu sa podacima iz Arhiva Beograda",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Prijem 28.10 (2. tura): pasoš na doradi (izvori) — čekamo ispravljenu verziju posle Arhiva Beograda."
@@ -1076,7 +1076,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 1,
+      "submissionsCount": 3,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 9,
@@ -1095,7 +1095,7 @@
       "progressStage": 2,
       "progressLabel": "Terenski rad",
       "status": "Terenski rad u toku — hotel odgovorio i uputio na knjigu „Prvih 100 godina hotel Moskva\", Zavod za zaštitu spomenika i Arhiv grada; Zavod još bez odgovora (prepiska 28.10)",
-      "submissionsCount": 0,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Prijem 28.10: prepiska tima sa hotelom Moskva i Zavodom (upit 19.10, Zavod bez odgovora). Knjiga hotela nije prosleđena. Pitanje o maketi za kolokvijum otvoreno."
@@ -1135,7 +1135,7 @@
       "progressStage": 1,
       "progressLabel": "Prijavljena tema",
       "status": "Prijavljena tema",
-      "submissionsCount": 0,
+      "submissionsCount": 1,
       "hasPassport": false,
       "flags": [],
       "claimsCount": 0,
@@ -1171,7 +1171,7 @@
       "progressStage": 3,
       "progressLabel": "Predata prva verzija rada",
       "status": "Predata prva verzija (19.10), vraćeno na format tabele",
-      "submissionsCount": 0,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [],
       "claimsCount": 0,
@@ -1309,7 +1309,7 @@
       "progressStage": 5,
       "progressLabel": "Predat pasoš i igrica",
       "status": "Predat PDF pasoš i HTML igrica (19.10)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 11,
@@ -1327,7 +1327,7 @@
       "progressStage": 5,
       "progressLabel": "Predat elaborat",
       "status": "Predat elaborat i koncept (19.10); dopuna istorijata (24.10)",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
         "Novoformiran tim 13.10 od članova koji su napustili T31 i T32",
@@ -1370,7 +1370,7 @@
       "progressStage": 4,
       "progressLabel": "Predato terensko istraživanje",
       "status": "Predato istraživanje sa terena i sa predavanja (19.10)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Prijem 2026-10-23: najobimnija građa prijema (11,7 MB)",
