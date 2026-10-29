@@ -1,6 +1,6 @@
 {
-  "version": "32254775e40acb0a",
-  "bytes": 18179786,
+  "version": "d7a7335696c1da50",
+  "bytes": 18287542,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -140,9 +140,11 @@
     "svet/data/revisions/r-fbb7c62b00a674c1.json",
     "svet/galerija/bigz.html",
     "svet/galerija/data/bigz.json",
+    "svet/galerija/data/lozionica.json",
     "svet/galerija/data/ostali.json",
     "svet/galerija/foto.js",
     "svet/galerija/index.html",
+    "svet/galerija/lozionica.html",
     "svet/galerija/nav.js",
     "svet/galerija/stajaliste.html",
     "svet/galerija/ui.js",
