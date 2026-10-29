@@ -9,7 +9,7 @@
   "totals": {
     "teams": 71,
     "objects": 51,
-    "completedPassports": 23
+    "completedPassports": 29
   },
   "entries": [
     {
@@ -109,16 +109,16 @@
       "object": "Dom omladine Beograd",
       "location": "Makedonska 22, Beograd",
       "topic": "Kulturni centar, omladinska arhitektura, enterijer",
-      "progressStage": 3,
-      "progressLabel": "Predat koncept",
-      "status": "Predat koncept rada",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Oba dokumenta (tabelarni PDF i opisni docx) kurirana u javni sloj (29.10): 40 zapisa; tabelarni sa 5 zvaničnih izvora, opisni bez izvora pa su mu zapisi označeni nepotvrđeno. Fotografije i planovi pomenuti u docx-u nisu stigli.",
       "submissionsCount": 3,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "Spisak časa 26.10: 136/26 sklonjen iz tima (višak); ostaje u T68. Dupli indeks razrešen."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 40,
+      "sectionsCount": 7
     },
     {
       "id": "T06",
@@ -312,14 +312,14 @@
       "object": "Zgrada RTS",
       "location": "Takovska 10, Beograd",
       "topic": "Televizijski centar, specifičnosti enterijera i akustičkih studija",
-      "progressStage": 3,
-      "progressLabel": "Zakazana poseta",
-      "status": "Zakazana poseta zgradi",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Osnovni podaci i „Šta znamo o unutrašnjosti“ kurirani u javni sloj (29.10): 17 zapisa, 4 od njih označena nepoznato (konstrukcija, podovi, pregrade, poreklo materijala); 6 fotografija sa terena u galeriji.",
       "submissionsCount": 1,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 17,
+      "sectionsCount": 2
     },
     {
       "id": "T16",
@@ -338,7 +338,8 @@
       "hasPassport": false,
       "flags": [
         "Ista upisana tačka kao T55: Palata Narodne banke je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima.",
-        "Tim potvrđen 28.10: tročlani tim, tri indeksa. T55 (isti objekat, dva indeksa) je poseban tim bez predaje."
+        "Tim potvrđen 28.10: tročlani tim, tri indeksa. T55 (isti objekat, dva indeksa) je poseban tim bez predaje.",
+        "Nacrt paketa spreman (evidencija/prijem-2026-10-28/paketi/nacrt/t16-narodna-banka-pasos.json, 12 zapisa, svi nepotvrđeni) — primenjuje se kad stigne verzija sa izvorima uz pasuse."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -475,16 +476,17 @@
       "object": "Jugoslovensko dramsko pozorište (JDP)",
       "location": "Kralja Milana 50, Beograd",
       "topic": "Bojan Stupica, požar 1997, staklena fasada Zorana Radojičića, teatar",
-      "progressStage": 4,
-      "progressLabel": "Predat rad",
-      "status": "Predat pasoš: identitet, materijali i hronologija namena 1860–2005 sa literaturom po epohi (prijem 28.10)",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Odeljak 1 pasoša (identitet, materijali, hronologija 1860–2005) kuriran u javni sloj (29.10): 18 zapisa, literatura po epohi, izvori 16 grafičkih priloga. Ostali odeljci pasoša nisu stigli.",
       "submissionsCount": 2,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
-        "Prijem 28.10: docx sa 16 grafičkih priloga (arhivske fotografije, nacrti Krasnova 1927–28, fasada Belobrka, požar 1997, rekonstrukcija 2003–05); izvori priloga navedeni (IAB, MGB, NBS, arhiv JDP). Građa čeka kuriranje u paket."
+        "Prijem 28.10: 16 grafičkih priloga u građi (privatno); prava arhiva (IAB, MGB, JDP) za javnu objavu priloga nisu potvrđena.",
+        "Prijem 28.10: 16 grafičkih priloga u građi (privatno); prava arhiva (IAB, MGB, JDP) za javnu objavu priloga nisu potvrđena."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 18,
+      "sectionsCount": 3
     },
     {
       "id": "T24",
@@ -648,7 +650,8 @@
       "hasPassport": false,
       "flags": [
         "Reorganizovan tim: jedan član prešao u T66",
-        "Prijem 28.10 (2. tura): pasoš predat 26.10 bez izvora uz podatke — čekamo ispravljenu verziju (tabela podatak/izvor)."
+        "Prijem 28.10 (2. tura): pasoš predat 26.10 bez izvora uz podatke — čekamo ispravljenu verziju (tabela podatak/izvor).",
+        "Nacrt paketa spreman (evidencija/prijem-2026-10-28/paketi/nacrt/t31-kapetan-misino-pasos.json, 15 zapisa) — primenjuje se kad stigne tabela podatak/izvor."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -898,18 +901,18 @@
       "object": "Kula Beograd",
       "location": "Beograd na vodi",
       "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
-      "progressStage": 4,
-      "progressLabel": "Predata radna verzija istraživanja",
-      "status": "Predat PDF istraživanja sa 9 izvora + početak sajta dve-kule-beograd.ai.studio (prijem 27.10). Promena objekta sa ATŠ dokumentovana ovim prijemom.",
+      "progressStage": 5,
+      "progressLabel": "Istraživanje na sajtu (29.10)",
+      "status": "Radna verzija istraživanja „Dve kule Beograd“ kurirana u javni sloj (29.10): hronologija 2014–2019 sa 9 izvora, izvedeni objekat po SOM-u, 7 otvorenih pitanja; sajt tima vezan kao izvor.",
       "submissionsCount": 3,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "Lokacija je približna, po javnoj adresi škole; nije geodetski potvrđena.",
         "Do 27.10. registar je vodio ATŠ; mejlom 08.10. najavljena promena, dokumentovana prijemom 27.10 (evidencija/prijem-2026-10-27/raw/t44/).",
         "Četvrti tim na Kuli Beograd (uz T28 izvođenje, T67 konstruktivni sistem, IND-02 opšti podaci) — ugao: razvoj projekta kroz vreme, ne preklapa se."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 23,
+      "sectionsCount": 4
     },
     {
       "id": "T45",
@@ -939,13 +942,13 @@
       "object": "Hotel Jugoslavija",
       "location": "Bulevar Nikole Tesle, Novi Beograd",
       "topic": "Lavoslav Horvat, monumentalni dunavski front, istorijat i pitanje rušenja/rekonstrukcije",
-      "progressStage": 4,
-      "progressLabel": "Predat pasoš kroz svih 7 celina",
-      "status": "Predat pasoš kroz svih sedam celina (19.10)",
+      "progressStage": 6,
+      "progressLabel": "Završen pasoš + dopuna",
+      "status": "Pasoš kroz svih sedam celina (19.10) + proširena verzija (26.10) kurirana kao dopuna (29.10): 21 nov zapis, 6 novih izvora.",
       "submissionsCount": 2,
       "hasPassport": true,
       "flags": [],
-      "claimsCount": 28,
+      "claimsCount": 49,
       "sectionsCount": 7
     },
     {
@@ -958,14 +961,14 @@
       "object": "Hala 1 Beogradskog sajma",
       "location": "Bulevar vojvode Mišića 14, Beograd",
       "topic": "Branko Žeželj, prenapregnuti beton, kupola raspona 109m, svetski rekord",
-      "progressStage": 4,
-      "progressLabel": "Predat rad",
-      "status": "Predat digitalni pasoš (čeka izvore)",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Digitalni pasoš Hale 1 kuriran u javni sloj (29.10): 31 zapis, 18 navedenih izvora bez URL-a (monografija, časopisi, arhivi) — tim da doda linkove/lokatore; poređenje sa CNIT označeno kao nepotvrđeno.",
       "submissionsCount": 2,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 31,
+      "sectionsCount": 6
     },
     {
       "id": "T48",
@@ -1018,7 +1021,8 @@
       "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
-        "Prijem 28.10 (2. tura): pasoš na doradi (izvori) — čekamo ispravljenu verziju posle Arhiva Beograda."
+        "Prijem 28.10 (2. tura): pasoš na doradi (izvori) — čekamo ispravljenu verziju posle Arhiva Beograda.",
+        "Nacrt paketa spreman (evidencija/prijem-2026-10-28/paketi/nacrt/t50-beogradjanka-konstrukcija.json, 15 zapisa; tabela „izvor: ChatGPT“ označena nepotvrđeno) — primenjuje se kad stigne dorada iz Arhiva Beograda, po dogovoru 27.10."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -1168,14 +1172,14 @@
       "object": "Zgrada tehničkih fakulteta",
       "location": "Bulevar kralja Aleksandra 73, Beograd",
       "topic": "Konstrukcija amfiteatara i krovnih nosača",
-      "progressStage": 3,
-      "progressLabel": "Predata prva verzija rada",
-      "status": "Predata prva verzija (19.10), vraćeno na format tabele",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Pasoš Zgrade tehničkih fakulteta kuriran u javni sloj (29.10): 22 zapisa, izvori po pasusu (AF istorija, Nasleđe 2006). Tabela podatak/izvor i dalje dobrodošla kao dopuna.",
       "submissionsCount": 2,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 22,
+      "sectionsCount": 4
     },
     {
       "id": "T59",
@@ -1444,5 +1448,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-7531e7c1fa1b1788"
+  "datasetRevision": "r-d40a85ed40630b2b"
 }

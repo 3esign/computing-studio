@@ -1,8 +1,8 @@
 {
-  "datasetRevision": "r-7531e7c1fa1b1788",
+  "datasetRevision": "r-d40a85ed40630b2b",
   "registeredTeams": 71,
-  "curatedPassportsCount": 23,
-  "totalCuratedClaims": 502,
+  "curatedPassportsCount": 29,
+  "totalCuratedClaims": 674,
   "passports": [
     {
       "id": "T01",
@@ -29,6 +29,12 @@
       "claims": 28
     },
     {
+      "id": "T05",
+      "object": "Dom omladine Beograd",
+      "sections": 7,
+      "claims": 40
+    },
+    {
       "id": "T06",
       "object": "Gardoš / Milenijumska kula",
       "sections": 7,
@@ -51,6 +57,12 @@
       "object": "Najstarija stambena kuća u Beogradu — kuća Elijasa Flajšmana (Flajšmanova kuća)",
       "sections": 9,
       "claims": 35
+    },
+    {
+      "id": "T15",
+      "object": "Zgrada RTS",
+      "sections": 2,
+      "claims": 17
     },
     {
       "id": "T17",
@@ -77,6 +89,12 @@
       "claims": 13
     },
     {
+      "id": "T23",
+      "object": "Jugoslovensko dramsko pozorište (JDP)",
+      "sections": 3,
+      "claims": 18
+    },
+    {
       "id": "T26",
       "object": "Sportski centar „25. Maj” — kula „Dunavski cvet” (danas Sky Wellness)",
       "sections": 3,
@@ -101,10 +119,22 @@
       "claims": 15
     },
     {
+      "id": "T44",
+      "object": "Kula Beograd",
+      "sections": 4,
+      "claims": 23
+    },
+    {
       "id": "T46",
       "object": "Hotel Jugoslavija",
       "sections": 7,
-      "claims": 28
+      "claims": 49
+    },
+    {
+      "id": "T47",
+      "object": "Hala 1 Beogradskog sajma",
+      "sections": 6,
+      "claims": 31
     },
     {
       "id": "T48",
@@ -129,6 +159,12 @@
       "object": "Zgrada Instituta za ispitivanje materijala (IMS)",
       "sections": 4,
       "claims": 9
+    },
+    {
+      "id": "T58",
+      "object": "Zgrada tehničkih fakulteta",
+      "sections": 4,
+      "claims": 22
     },
     {
       "id": "T65",

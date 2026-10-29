@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-7531e7c1fa1b1788",
+  "datasetRevision": "r-d40a85ed40630b2b",
   "teams": [
     {
       "id": "T01",
@@ -132,14 +132,14 @@
       "y": 4,
       "z": 20,
       "type": "standard",
-      "progressStage": 3,
-      "progressLabel": "Predat koncept",
-      "status": "Predat koncept rada",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Oba dokumenta (tabelarni PDF i opisni docx) kurirana u javni sloj (29.10): 40 zapisa; tabelarni sa 5 zvaničnih izvora, opisni bez izvora pa su mu zapisi označeni nepotvrđeno. Fotografije i planovi pomenuti u docx-u nisu stigli.",
+      "hasPassport": true,
+      "claimsCount": 40,
+      "sectionsCount": 7,
+      "previewClaim": "Dom omladine Beograda, ustanova kulture i obrazovanja Grada Beograda",
+      "previewSource": "Dom omladine Beograda — „O nama“ (navod studenta)",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -420,14 +420,14 @@
       "y": 4,
       "z": 52.51,
       "type": "standard",
-      "progressStage": 3,
-      "progressLabel": "Zakazana poseta",
-      "status": "Zakazana poseta zgradi",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Osnovni podaci i „Šta znamo o unutrašnjosti“ kurirani u javni sloj (29.10): 17 zapisa, 4 od njih označena nepoznato (konstrukcija, podovi, pregrade, poreklo materijala); 6 fotografija sa terena u galeriji.",
+      "hasPassport": true,
+      "claimsCount": 17,
+      "sectionsCount": 2,
+      "previewClaim": "Takovska 10, uz Tašmajdanski park",
+      "previewSource": "DaNS br. 41 (2003), PDF Društva arhitekata Novog Sada (navod studenta)",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -650,14 +650,14 @@
       "y": 4,
       "z": 35.01,
       "type": "standard",
-      "progressStage": 4,
-      "progressLabel": "Predat rad",
-      "status": "Predat pasoš: identitet, materijali i hronologija namena 1860–2005 sa literaturom po epohi (prijem 28.10)",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Odeljak 1 pasoša (identitet, materijali, hronologija 1860–2005) kuriran u javni sloj (29.10): 18 zapisa, literatura po epohi, izvori 16 grafičkih priloga. Ostali odeljci pasoša nisu stigli.",
+      "hasPassport": true,
+      "claimsCount": 18,
+      "sectionsCount": 3,
+      "previewClaim": "kraljevska jahačka škola i konjušnica; prizemna hala pravougaone osnove sa drvenom krovnom rešetkom",
+      "previewSource": "Đurić-Zamolo, D. (1981). Graditelji Beograda 1815–1914. Beograd: Muzej grada Beograda (navod studenta)",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -1250,14 +1250,14 @@
       "y": 1.8,
       "z": 161.64,
       "type": "kulabeograd",
-      "progressStage": 4,
-      "progressLabel": "Predata radna verzija istraživanja",
-      "status": "Predat PDF istraživanja sa 9 izvora + početak sajta dve-kule-beograd.ai.studio (prijem 27.10). Promena objekta sa ATŠ dokumentovana ovim prijemom.",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Istraživanje na sajtu (29.10)",
+      "status": "Radna verzija istraživanja „Dve kule Beograd“ kurirana u javni sloj (29.10): hronologija 2014–2019 sa 9 izvora, izvedeni objekat po SOM-u, 7 otvorenih pitanja; sajt tima vezan kao izvor.",
+      "hasPassport": true,
+      "claimsCount": 23,
+      "sectionsCount": 4,
+      "previewClaim": "kako se Kula Beograd menjala od ranih javnih najava do izvedenog objekta i šta se o razlozima promena može pouzdano dokazati",
+      "previewSource": "Studentski podnesak „Dve kule Beograd — radna verzija istraživanja“ (PDF, 27. 10. 2026)",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -1312,11 +1312,11 @@
       "y": 0.2,
       "z": -30.01,
       "type": "standard",
-      "progressStage": 4,
-      "progressLabel": "Predat pasoš kroz svih 7 celina",
-      "status": "Predat pasoš kroz svih sedam celina (19.10)",
+      "progressStage": 6,
+      "progressLabel": "Završen pasoš + dopuna",
+      "status": "Pasoš kroz svih sedam celina (19.10) + proširena verzija (26.10) kurirana kao dopuna (29.10): 21 nov zapis, 6 novih izvora.",
       "hasPassport": true,
-      "claimsCount": 28,
+      "claimsCount": 49,
       "sectionsCount": 7,
       "previewClaim": "Dunavski kej, između istorijskog Zemuna i Novog Beograda; dodirna tačka reke, saobraćajne infrastrukture i posleratnog urbanog prostora",
       "previewSource": "Muzej grada Beograda — zbirka „Izgled hotela ‘Jugoslavija’ u Zemunu“ (pregled 462)",
@@ -1341,14 +1341,14 @@
       "y": 1.8,
       "z": 67.51,
       "type": "standard",
-      "progressStage": 4,
-      "progressLabel": "Predat rad",
-      "status": "Predat digitalni pasoš (čeka izvore)",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Digitalni pasoš Hale 1 kuriran u javni sloj (29.10): 31 zapis, 18 navedenih izvora bez URL-a (monografija, časopisi, arhivi) — tim da doda linkove/lokatore; poređenje sa CNIT označeno kao nepotvrđeno.",
+      "hasPassport": true,
+      "claimsCount": 31,
+      "sectionsCount": 6,
+      "previewClaim": "EU Building Digital Passport / Building Logbook: inventarizacija i praćenje tehničkih, funkcionalnih, materijalnih i ekonomskih pokazatelja kroz životni vek objekta",
+      "previewSource": "Evropska komisija — dokumenti o „Building Digital Logbook“ (2023) (navod studenta, bez URL-a)",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -1652,14 +1652,14 @@
       "y": 4,
       "z": 57.51,
       "type": "standard",
-      "progressStage": 3,
-      "progressLabel": "Predata prva verzija rada",
-      "status": "Predata prva verzija (19.10), vraćeno na format tabele",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (29.10)",
+      "status": "Pasoš Zgrade tehničkih fakulteta kuriran u javni sloj (29.10): 22 zapisa, izvori po pasusu (AF istorija, Nasleđe 2006). Tabela podatak/izvor i dalje dobrodošla kao dopuna.",
+      "hasPassport": true,
+      "claimsCount": 22,
+      "sectionsCount": 4,
+      "previewClaim": "zgrada projektovana u periodu 1925–1931",
+      "previewSource": "Arhitektonski fakultet Univerziteta u Beogradu — „Istorija fakulteta“ (navod studenta)",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -2217,32 +2217,32 @@
       "lat": 44.816,
       "lng": 20.4617,
       "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
+      "passports": 1,
+      "claimsCount": 40,
+      "sectionsCount": 7,
+      "sourcesCount": 9,
       "categories": {
         "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
+        "documents": 2,
+        "materials": 8,
+        "time": 3,
         "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
-        "energy": 0,
+        "identity": 2,
+        "location": 2,
+        "geometry": 3,
+        "structure": 3,
+        "use": 9,
+        "energy": 5,
         "environment": 0,
-        "people": 0,
-        "methods": 0
+        "people": 1,
+        "methods": 2
       },
       "topics": [
         {
           "team": "T05",
           "topic": "Kulturni centar, omladinska arhitektura, enterijer",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 40,
+          "hasPassport": true
         }
       ]
     },
@@ -2641,32 +2641,32 @@
       "lat": 44.8094,
       "lng": 20.4702,
       "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
+      "passports": 1,
+      "claimsCount": 17,
+      "sectionsCount": 2,
+      "sourcesCount": 7,
       "categories": {
         "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
+        "documents": 2,
+        "materials": 2,
+        "time": 3,
         "questions": 0,
-        "identity": 0,
-        "location": 0,
+        "identity": 1,
+        "location": 1,
         "geometry": 0,
-        "structure": 0,
-        "use": 0,
+        "structure": 2,
+        "use": 2,
         "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
+        "environment": 1,
+        "people": 1,
+        "methods": 2
       },
       "topics": [
         {
           "team": "T15",
           "topic": "Televizijski centar, specifičnosti enterijera i akustičkih studija",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 17,
+          "hasPassport": true
         }
       ]
     },
@@ -2802,25 +2802,25 @@
       "lat": 44.8055,
       "lng": 20.4793,
       "locationStatus": "approximate",
-      "passports": 1,
-      "claimsCount": 13,
-      "sectionsCount": 3,
-      "sourcesCount": 4,
+      "passports": 2,
+      "claimsCount": 35,
+      "sectionsCount": 7,
+      "sourcesCount": 7,
       "categories": {
         "research": 0,
         "documents": 6,
-        "materials": 6,
-        "time": 1,
+        "materials": 12,
+        "time": 2,
         "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
+        "identity": 2,
+        "location": 1,
+        "geometry": 8,
         "structure": 0,
-        "use": 0,
+        "use": 1,
         "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
+        "environment": 1,
+        "people": 1,
+        "methods": 1
       },
       "topics": [
         {
@@ -2838,8 +2838,8 @@
         {
           "team": "T58",
           "topic": "Konstrukcija amfiteatara i krovnih nosača",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 22,
+          "hasPassport": true
         },
         {
           "team": "T68",
@@ -2984,15 +2984,15 @@
       "lat": 44.8077,
       "lng": 20.4617,
       "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
+      "passports": 1,
+      "claimsCount": 18,
+      "sectionsCount": 3,
+      "sourcesCount": 9,
       "categories": {
         "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
+        "documents": 5,
+        "materials": 5,
+        "time": 7,
         "questions": 0,
         "identity": 0,
         "location": 0,
@@ -3002,14 +3002,14 @@
         "energy": 0,
         "environment": 0,
         "people": 0,
-        "methods": 0
+        "methods": 1
       },
       "topics": [
         {
           "team": "T23",
           "topic": "Bojan Stupica, požar 1997, staklena fasada Zorana Radojičića, teatar",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 18,
+          "hasPassport": true
         }
       ]
     },
@@ -3150,25 +3150,25 @@
       "lat": 44.8046,
       "lng": 20.4455,
       "locationStatus": "approximate",
-      "passports": 1,
-      "claimsCount": 29,
-      "sectionsCount": 7,
-      "sourcesCount": 6,
+      "passports": 2,
+      "claimsCount": 52,
+      "sectionsCount": 11,
+      "sourcesCount": 17,
       "categories": {
-        "research": 0,
-        "documents": 10,
+        "research": 1,
+        "documents": 11,
         "materials": 17,
-        "time": 1,
-        "questions": 1,
+        "time": 7,
+        "questions": 10,
         "identity": 0,
         "location": 0,
-        "geometry": 0,
-        "structure": 0,
+        "geometry": 3,
+        "structure": 1,
         "use": 0,
         "energy": 0,
         "environment": 0,
         "people": 0,
-        "methods": 0
+        "methods": 2
       },
       "topics": [
         {
@@ -3180,8 +3180,8 @@
         {
           "team": "T44",
           "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 23,
+          "hasPassport": true
         },
         {
           "team": "T67",
@@ -3704,30 +3704,30 @@
       "lng": 20.431,
       "locationStatus": "approximate",
       "passports": 1,
-      "claimsCount": 28,
+      "claimsCount": 49,
       "sectionsCount": 7,
-      "sourcesCount": 9,
+      "sourcesCount": 15,
       "categories": {
         "research": 0,
-        "documents": 15,
+        "documents": 18,
         "materials": 6,
-        "time": 7,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
+        "time": 11,
+        "questions": 1,
+        "identity": 1,
+        "location": 1,
+        "geometry": 1,
+        "structure": 1,
+        "use": 2,
         "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
+        "environment": 2,
+        "people": 1,
+        "methods": 4
       },
       "topics": [
         {
           "team": "T46",
           "topic": "Lavoslav Horvat, monumentalni dunavski front, istorijat i pitanje rušenja/rekonstrukcije",
-          "claimsCount": 28,
+          "claimsCount": 49,
           "hasPassport": true
         }
       ]
@@ -3744,32 +3744,32 @@
       "lat": 44.8057,
       "lng": 20.4452,
       "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
+      "passports": 1,
+      "claimsCount": 31,
+      "sectionsCount": 6,
+      "sourcesCount": 19,
       "categories": {
-        "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
+        "research": 1,
+        "documents": 1,
+        "materials": 2,
+        "time": 2,
+        "questions": 1,
+        "identity": 2,
+        "location": 1,
+        "geometry": 7,
+        "structure": 6,
+        "use": 1,
         "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 0
+        "environment": 1,
+        "people": 3,
+        "methods": 3
       },
       "topics": [
         {
           "team": "T47",
           "topic": "Branko Žeželj, prenapregnuti beton, kupola raspona 109m, svetski rekord",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 31,
+          "hasPassport": true
         }
       ]
     },
@@ -5678,6 +5678,472 @@
       ]
     },
     {
+      "id": "T05:osnovni:8de7065b0301",
+      "team": "T05",
+      "section": "T05:osnovni",
+      "title": "Objekat",
+      "value": "Dom omladine Beograda, ustanova kulture i obrazovanja Grada Beograda",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T05:S2"
+      ]
+    },
+    {
+      "id": "T05:osnovni:5e5fdcd0bb8a",
+      "team": "T05",
+      "section": "T05:osnovni",
+      "title": "Adresa",
+      "value": "Makedonska 22, Beograd; potvrđeno mapama i oznakom na objektu, adresni zapis proveriti u zvaničnoj dokumentaciji",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T05:S6"
+      ]
+    },
+    {
+      "id": "T05:osnovni:c18b60e14c5b",
+      "team": "T05",
+      "section": "T05:osnovni",
+      "title": "Namena",
+      "value": "kulturni i obrazovni centar: koncerti, film, scenske i vizuelne umetnosti, predavanja i radionice",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T05:S2"
+      ]
+    },
+    {
+      "id": "T05:osnovni:3312287295bd",
+      "team": "T05",
+      "section": "T05:osnovni",
+      "title": "Početak rada",
+      "value": "1964. godina",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T05:S2"
+      ]
+    },
+    {
+      "id": "T05:osnovni:b4be686f3be4",
+      "team": "T05",
+      "section": "T05:osnovni",
+      "title": "Programski prostori",
+      "value": "Velika sala, Sala Amerikana, Klub DOB, Galerija, Tribinska sala, holovi",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T05:S1"
+      ]
+    },
+    {
+      "id": "T05:osnovni:2b002587f17f",
+      "team": "T05",
+      "section": "T05:osnovni",
+      "title": "Površina",
+      "value": "oko 3.700 m² programskog prostora po jednoj zvaničnoj strani; druga navodi preko 4.000 m² — nije potvrđeno",
+      "status": "conflict",
+      "category": "geometry",
+      "sourceIds": [
+        "T05:S1",
+        "T05:S2"
+      ]
+    },
+    {
+      "id": "T05:osnovni:84462aceb557",
+      "team": "T05",
+      "section": "T05:osnovni",
+      "title": "Rekonstrukcija",
+      "value": "obnova 2007–2011; protokol potpisan 25. 5. 2007; rekonstruisane prostorije otvorene 25. 2. 2011",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T05:S3",
+        "T05:S4"
+      ]
+    },
+    {
+      "id": "T05:prostori:8f11c05d6d4a",
+      "team": "T05",
+      "section": "T05:prostori",
+      "title": "Velika sala",
+      "value": "494 mesta (368 parter + 126 balkon); scenski prostor 10×10 m; projektor, platno, mikseta, ozvučenje, scenska rasveta",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T05:S1"
+      ]
+    },
+    {
+      "id": "T05:prostori:f651eb46cece",
+      "team": "T05",
+      "section": "T05:prostori",
+      "title": "Sala Amerikana",
+      "value": "600 stajaćih i 200 sedećih mesta; bina 8×5 m; koncertna rasveta i ozvučenje",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T05:S1"
+      ]
+    },
+    {
+      "id": "T05:prostori:95c135568a5a",
+      "team": "T05",
+      "section": "T05:prostori",
+      "title": "Klub DOB",
+      "value": "250 stajaćih i 80 sedećih mesta; bina 6×4 m",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T05:S1"
+      ]
+    },
+    {
+      "id": "T05:prostori:ae116f202a19",
+      "team": "T05",
+      "section": "T05:prostori",
+      "title": "Tribinska sala",
+      "value": "70 sedećih mesta; audio i video oprema",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T05:S1"
+      ]
+    },
+    {
+      "id": "T05:prostori:aa00345a5704",
+      "team": "T05",
+      "section": "T05:prostori",
+      "title": "Holovi",
+      "value": "holovi na četiri nivoa",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T05:S1"
+      ]
+    },
+    {
+      "id": "T05:prostori:47795026fd24",
+      "team": "T05",
+      "section": "T05:prostori",
+      "title": "Pomoćni prostori",
+      "value": "garderobe, kupatila, režije, kinokabina i prostorija za simultani prevod uz pojedine sale",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T05:S1"
+      ]
+    },
+    {
+      "id": "T05:elementi:8859b84e50d4",
+      "team": "T05",
+      "section": "T05:elementi",
+      "title": "Fasada",
+      "value": "obuhvaćena rekonstrukcijom; tačan sistem, slojevi i završna obrada za proveru u projektnoj dokumentaciji",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T05:S3"
+      ]
+    },
+    {
+      "id": "T05:elementi:80586e556443",
+      "team": "T05",
+      "section": "T05:elementi",
+      "title": "Spoljašnji prozori i zastakljenje",
+      "value": "tip i specifikacija nisu potvrđeni",
+      "status": "unknown",
+      "category": "materials",
+      "sourceIds": []
+    },
+    {
+      "id": "T05:elementi:8bd7c44bf209",
+      "team": "T05",
+      "section": "T05:elementi",
+      "title": "Spoljašnja vrata i ulazi",
+      "value": "specifikacija nije potvrđena",
+      "status": "unknown",
+      "category": "materials",
+      "sourceIds": []
+    },
+    {
+      "id": "T05:elementi:fdf4f03e4022",
+      "team": "T05",
+      "section": "T05:elementi",
+      "title": "Krov i hidroizolacija",
+      "value": "nema javnih podataka o sastavu",
+      "status": "unknown",
+      "category": "materials",
+      "sourceIds": []
+    },
+    {
+      "id": "T05:elementi:d1f4ebcd9171",
+      "team": "T05",
+      "section": "T05:elementi",
+      "title": "Zidne konstrukcije",
+      "value": "sastav nije potvrđen; sonda samo uz odobrenje",
+      "status": "unknown",
+      "category": "structure",
+      "sourceIds": []
+    },
+    {
+      "id": "T05:elementi:34eeb2be4a05",
+      "team": "T05",
+      "section": "T05:elementi",
+      "title": "Međuspratne konstrukcije",
+      "value": "sistem nije potvrđen u javnim izvorima",
+      "status": "unknown",
+      "category": "structure",
+      "sourceIds": []
+    },
+    {
+      "id": "T05:elementi:f14ab1461136",
+      "team": "T05",
+      "section": "T05:elementi",
+      "title": "Podne obloge",
+      "value": "nema pouzdane javne specifikacije po prostorijama",
+      "status": "unknown",
+      "category": "materials",
+      "sourceIds": []
+    },
+    {
+      "id": "T05:elementi:0707cdd63f37",
+      "team": "T05",
+      "section": "T05:elementi",
+      "title": "Stepeništa i ograde",
+      "value": "specifikacije nisu potvrđene",
+      "status": "unknown",
+      "category": "materials",
+      "sourceIds": []
+    },
+    {
+      "id": "T05:instalacije:5df97b6ab294",
+      "team": "T05",
+      "section": "T05:instalacije",
+      "title": "Klimatizacija i ventilacija",
+      "value": "obuhvaćene rekonstrukcijom; vrsta sistema i uređaji nisu specificirani",
+      "status": "source-reported",
+      "category": "energy",
+      "sourceIds": [
+        "T05:S3"
+      ]
+    },
+    {
+      "id": "T05:instalacije:36981e3906ec",
+      "team": "T05",
+      "section": "T05:instalacije",
+      "title": "Elektroinstalacije",
+      "value": "deo rekonstrukcije, bez specifikacije sistema",
+      "status": "source-reported",
+      "category": "energy",
+      "sourceIds": [
+        "T05:S3"
+      ]
+    },
+    {
+      "id": "T05:instalacije:7415ac6cd7ef",
+      "team": "T05",
+      "section": "T05:instalacije",
+      "title": "Liftovi",
+      "value": "zamenjeni u sklopu obnove",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T05:S3"
+      ]
+    },
+    {
+      "id": "T05:instalacije:342ddf8a5d09",
+      "team": "T05",
+      "section": "T05:instalacije",
+      "title": "Agregati",
+      "value": "zamenjeni u sklopu rekonstrukcije",
+      "status": "source-reported",
+      "category": "energy",
+      "sourceIds": [
+        "T05:S3"
+      ]
+    },
+    {
+      "id": "T05:instalacije:a1a850ad3ce7",
+      "team": "T05",
+      "section": "T05:instalacije",
+      "title": "Rasveta",
+      "value": "scenska u Velikoj sali, koncertna u Amerikani, galerijska; marke, modeli i broj svetiljki nisu potvrđeni",
+      "status": "source-reported",
+      "category": "energy",
+      "sourceIds": [
+        "T05:S1"
+      ]
+    },
+    {
+      "id": "T05:instalacije:74c98234b979",
+      "team": "T05",
+      "section": "T05:instalacije",
+      "title": "Vodovod i kanalizacija",
+      "value": "detalji nisu potvrđeni javnim izvorima",
+      "status": "unknown",
+      "category": "energy",
+      "sourceIds": []
+    },
+    {
+      "id": "T05:instalacije:a107a24e6e62",
+      "team": "T05",
+      "section": "T05:instalacije",
+      "title": "Incident 2022",
+      "value": "saopštenje 3. 10. 2022 o prijavljenom incidentu sa izolacionim materijalom na plafonu Velike sale",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T05:S5"
+      ]
+    },
+    {
+      "id": "T05:metod:bd10f14e86f2",
+      "team": "T05",
+      "section": "T05:metod",
+      "title": "Koncept",
+      "value": "dokument je koncept: razdvaja poznato od nepoznatog i navodi kojim dokazom se svaka stavka potvrđuje; pravi pasoš traži pristup i terenski pregled",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T05:S6"
+      ]
+    },
+    {
+      "id": "T05:metod:80a908b01585",
+      "team": "T05",
+      "section": "T05:metod",
+      "title": "Poreklo materijala",
+      "value": "za svaki proizvod čuvati dokaz porekla i razlikovati zemlju proizvodnje, sedište proizvođača i mesto kupovine",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T05:S6"
+      ]
+    },
+    {
+      "id": "T05:arhitektura:45bdb10f58ab",
+      "team": "T05",
+      "section": "T05:arhitektura",
+      "title": "Autori",
+      "value": "Zoran Tasić i Dragoljub Filipović, uz saradnike; tako navodi Arhitektonski fakultet",
+      "status": "unconfirmed",
+      "category": "people",
+      "sourceIds": [
+        "T05:S8"
+      ]
+    },
+    {
+      "id": "T05:arhitektura:a96a5b9b737a",
+      "team": "T05",
+      "section": "T05:arhitektura",
+      "title": "Period izgradnje",
+      "value": "projektovan početkom šezdesetih, građen 1961–1964; ustanova osnovana 29. juna 1964",
+      "status": "unconfirmed",
+      "category": "time",
+      "sourceIds": [
+        "T05:S7"
+      ]
+    },
+    {
+      "id": "T05:arhitektura:f8018d76c92f",
+      "team": "T05",
+      "section": "T05:arhitektura",
+      "title": "Položaj",
+      "value": "ugao Makedonske i Dečanske ulice, blizu Trga Republike",
+      "status": "unconfirmed",
+      "category": "location",
+      "sourceIds": [
+        "T05:S7"
+      ]
+    },
+    {
+      "id": "T05:arhitektura:55f2fa03cefa",
+      "team": "T05",
+      "section": "T05:arhitektura",
+      "title": "Stil",
+      "value": "posleratni modernizam: jednostavne geometrijske forme, funkcionalnost, bez suvišne dekoracije",
+      "status": "unconfirmed",
+      "category": "identity",
+      "sourceIds": [
+        "T05:S7"
+      ]
+    },
+    {
+      "id": "T05:arhitektura:2ec55df4c5a9",
+      "team": "T05",
+      "section": "T05:arhitektura",
+      "title": "Fasadni sistem",
+      "value": "zid-zavesa (curtain wall), u vreme izgradnje jedna od ranijih primena u Srbiji",
+      "status": "unconfirmed",
+      "category": "materials",
+      "sourceIds": [
+        "T05:S7"
+      ]
+    },
+    {
+      "id": "T05:arhitektura:088037ed4049",
+      "team": "T05",
+      "section": "T05:arhitektura",
+      "title": "Kompozicija",
+      "value": "vertikalna poslovna kula povučena od regulacije i niži aneks koji se vezuje za javni prostor; u aneksu dvorana, galerijski i ugostiteljski sadržaji",
+      "status": "unconfirmed",
+      "category": "geometry",
+      "sourceIds": [
+        "T05:S7"
+      ]
+    },
+    {
+      "id": "T05:arhitektura:a9aff8683eda",
+      "team": "T05",
+      "section": "T05:arhitektura",
+      "title": "Stanje fasade",
+      "value": "originalna fasada kule sačuvana, aneks kroz vreme rekonstruisan",
+      "status": "unconfirmed",
+      "category": "materials",
+      "sourceIds": [
+        "T05:S9"
+      ]
+    },
+    {
+      "id": "T05:arhitektura:d392330e2c4e",
+      "team": "T05",
+      "section": "T05:arhitektura",
+      "title": "Prilozi",
+      "value": "docx pominje fotografije i planove, ali oni nisu stigli uz predaju (napomena nastavnika 27. 10.)",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T05:S7"
+      ]
+    },
+    {
+      "id": "T05:kultura:67a78fcc39b0",
+      "team": "T05",
+      "section": "T05:kultura",
+      "title": "Rani programi",
+      "value": "krajem šezdesetih rani diskoklubovi i besplatno psihološko savetovalište za mlade",
+      "status": "unconfirmed",
+      "category": "use",
+      "sourceIds": [
+        "T05:S7"
+      ]
+    },
+    {
+      "id": "T05:kultura:629efdabba89",
+      "team": "T05",
+      "section": "T05:kultura",
+      "title": "Program kroz decenije",
+      "value": "muzika (rok, džez, alternativa), film i festivali, pozorište, izložbe, tribine i obrazovni programi",
+      "status": "unconfirmed",
+      "category": "use",
+      "sourceIds": [
+        "T05:S7"
+      ]
+    },
+    {
       "id": "T06:identitet:52a36c030e5c",
       "team": "T06",
       "section": "T06:identitet",
@@ -6728,6 +7194,204 @@
       ]
     },
     {
+      "id": "T15:osnovni:cff06ba98f51",
+      "team": "T15",
+      "section": "T15:osnovni",
+      "title": "Adresa",
+      "value": "Takovska 10, uz Tašmajdanski park",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T15:S1"
+      ]
+    },
+    {
+      "id": "T15:osnovni:7b63472f9d11",
+      "team": "T15",
+      "section": "T15:osnovni",
+      "title": "Arhitekta",
+      "value": "Ivan Antić, šezdesete godine",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T15:S1"
+      ]
+    },
+    {
+      "id": "T15:osnovni:654dae8e5242",
+      "team": "T15",
+      "section": "T15:osnovni",
+      "title": "Prvobitna namena",
+      "value": "građena kao Dom pionira; završena 1966",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T15:S1"
+      ]
+    },
+    {
+      "id": "T15:osnovni:a0ea6fc941da",
+      "team": "T15",
+      "section": "T15:osnovni",
+      "title": "Stil",
+      "value": "moderna arhitektura: jednostavna geometrijska forma, naglašena funkcionalnost",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T15:S1"
+      ]
+    },
+    {
+      "id": "T15:osnovni:eed3b010e453",
+      "team": "T15",
+      "section": "T15:osnovni",
+      "title": "Odnos prema parku",
+      "value": "projektovana da se prostorno i vizuelno povezuje sa Tašmajdanskim parkom",
+      "status": "source-reported",
+      "category": "environment",
+      "sourceIds": [
+        "T15:S1"
+      ]
+    },
+    {
+      "id": "T15:osnovni:7cfc4302e518",
+      "team": "T15",
+      "section": "T15:osnovni",
+      "title": "Kasnija namena",
+      "value": "sedište RTS-a: televizijska produkcija, redakcije, administracija, tehničke prostorije",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T15:S1"
+      ]
+    },
+    {
+      "id": "T15:osnovni:7b4d750bff10",
+      "team": "T15",
+      "section": "T15:osnovni",
+      "title": "1999",
+      "value": "bombardovanje 1999. godine, poginulo 16 radnika RTS-a",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T15:S1"
+      ]
+    },
+    {
+      "id": "T15:osnovni:52eb590a5b06",
+      "team": "T15",
+      "section": "T15:osnovni",
+      "title": "Teren 26. 10.",
+      "value": "obavljen rad na terenu: 6 fotografija (5 spolja, 1 unutra) u prijemu",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T15:S2"
+      ]
+    },
+    {
+      "id": "T15:unutrasnjost:56514cb826e3",
+      "team": "T15",
+      "section": "T15:unutrasnjost",
+      "title": "Povratak 2004",
+      "value": "posle požara 2000. i obnove, u maju 2004. redakcije, direkcija i programske službe vratile se skoro po istom rasporedu soba kao 1966",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T15:S3"
+      ]
+    },
+    {
+      "id": "T15:unutrasnjost:e4031c3cfbd9",
+      "team": "T15",
+      "section": "T15:unutrasnjost",
+      "title": "Tri sloja",
+      "value": "prvobitna organizacija 1966, promene tokom korišćenja, obnova posle 2000; za svaki sloj potrebni planovi ili svedočenja",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T15:S3",
+        "T15:S7"
+      ]
+    },
+    {
+      "id": "T15:unutrasnjost:2c393e3f1385",
+      "team": "T15",
+      "section": "T15:unutrasnjost",
+      "title": "Konstruktivni sistem",
+      "value": "bez statičkog projekta ili stručnog snimka nije potvrđen; ni da li je beton vidljiv u enterijeru",
+      "status": "unknown",
+      "category": "structure",
+      "sourceIds": []
+    },
+    {
+      "id": "T15:unutrasnjost:b58bcc60c29e",
+      "team": "T15",
+      "section": "T15:unutrasnjost",
+      "title": "Podovi",
+      "value": "teraco i kamen mogući za javne prostore tog vremena, ali nema izvora koji potvrđuje prvobitne obloge",
+      "status": "unknown",
+      "category": "materials",
+      "sourceIds": []
+    },
+    {
+      "id": "T15:unutrasnjost:585f9bc0b5df",
+      "team": "T15",
+      "section": "T15:unutrasnjost",
+      "title": "Pregrade i stolarija",
+      "value": "nije utvrđeno da li su pregrade zidane ili lake i da li se raspored menja bez zadiranja u konstrukciju",
+      "status": "unknown",
+      "category": "structure",
+      "sourceIds": []
+    },
+    {
+      "id": "T15:unutrasnjost:ed9b4e87f0ba",
+      "team": "T15",
+      "section": "T15:unutrasnjost",
+      "title": "Poreklo materijala",
+      "value": "nema pouzdanog izvora o proizvođačima, kamenolomima ili dobavljačima; ne pretpostavljati domaće poreklo",
+      "status": "unknown",
+      "category": "materials",
+      "sourceIds": []
+    },
+    {
+      "id": "T15:unutrasnjost:19bc7c55359b",
+      "team": "T15",
+      "section": "T15:unutrasnjost",
+      "title": "Tragovi za istraživanje",
+      "value": "predmer i predračun, ugovori sa izvođačima, računi i građevinski dnevnici, katalozi iz šezdesetih, dokumentacija obnove posle 2000",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T15:S5",
+        "T15:S7"
+      ]
+    },
+    {
+      "id": "T15:unutrasnjost:9f2bc7e58e22",
+      "team": "T15",
+      "section": "T15:unutrasnjost",
+      "title": "Referentne fotografije",
+      "value": "fotografije modernističkih enterijera u podnesku su vizuelne reference, ne potvrđene fotografije RTS-a",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T15:S7"
+      ]
+    },
+    {
+      "id": "T15:unutrasnjost:38bfbf19bb91",
+      "team": "T15",
+      "section": "T15:unutrasnjost",
+      "title": "Hol i izložbe",
+      "value": "hol RTS-a kao izložbeni prostor dokumentovan u galeriji RTS-a",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T15:S6"
+      ]
+    },
+    {
       "id": "T17:osnovni:c5a489c88913",
       "team": "T17",
       "section": "T17:osnovni",
@@ -7537,6 +8201,227 @@
       "category": "documents",
       "sourceIds": [
         "T22:S4"
+      ]
+    },
+    {
+      "id": "T23:epohe:e86c25bcdaa9",
+      "team": "T23",
+      "section": "T23:epohe",
+      "title": "1860–1880 Manjež",
+      "value": "kraljevska jahačka škola i konjušnica; prizemna hala pravougaone osnove sa drvenom krovnom rešetkom",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T23:S1"
+      ]
+    },
+    {
+      "id": "T23:epohe:c7b547feae60",
+      "team": "T23",
+      "section": "T23:epohe",
+      "title": "1920-te Skupština i pozorište",
+      "value": "posle Prvog svetskog rata privremeno adaptiran za Narodnu skupštinu, a jedno vreme i za scene Narodnog pozorišta posle požara matične zgrade 1927",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T23:S2"
+      ]
+    },
+    {
+      "id": "T23:epohe:f19423df35e0",
+      "team": "T23",
+      "section": "T23:epohe",
+      "title": "1927 požar i Krasnov",
+      "value": "posle požara planovi obnove gotovi za mesec dana; po projektu Nikolaja Krasnova dozidan sprat i nadgrađen vestibil uz južnu fasadu; fasada sa dekorativnim elementima i figurama na spratu",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T23:S2",
+        "T23:S5"
+      ]
+    },
+    {
+      "id": "T23:epohe:92111d0b8fa9",
+      "team": "T23",
+      "section": "T23:epohe",
+      "title": "1929–1937",
+      "value": "novo pozorište otvoreno 12. jula 1929; od jeseni 1931. do 1937. privremeno Skupština Kraljevine Jugoslavije, do završetka zgrade na Trgu Nikole Pašića",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T23:S2"
+      ]
+    },
+    {
+      "id": "T23:epohe:e4d04f9c8897",
+      "team": "T23",
+      "section": "T23:epohe",
+      "title": "1947–1948 JDP",
+      "value": "temeljna rekonstrukcija za Jugoslovensko dramsko pozorište; arhitekt Momir Belobrk oblikuje enterijer i scenu",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T23:S3",
+        "T23:S8"
+      ]
+    },
+    {
+      "id": "T23:epohe:7d78abf41a73",
+      "team": "T23",
+      "section": "T23:epohe",
+      "title": "17. oktobar 1997 požar",
+      "value": "požar uništio enterijer i gledalište; sačuvani uglavnom spoljašnji zidovi",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T23:S3",
+        "T23:S8"
+      ]
+    },
+    {
+      "id": "T23:epohe:25b5bf08fd6f",
+      "team": "T23",
+      "section": "T23:epohe",
+      "title": "2003–2005 rekonstrukcija",
+      "value": "obnova po projektu Zorana Radojičića i Dejana Miljkovića; otvoreno u maju 2005. sa novom scenskom tehnologijom",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T23:S4"
+      ]
+    },
+    {
+      "id": "T23:materijali:e2da5e2b438d",
+      "team": "T23",
+      "section": "T23:materijali",
+      "title": "1860 — masivna gradnja",
+      "value": "zidovi od pune opeke u krečnom malteru, masivne drvene grede i drvena krovna konstrukcija, zemljani i drveni podovi; niska otpornost na vatru",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T23:S1"
+      ]
+    },
+    {
+      "id": "T23:materijali:95e5490873d9",
+      "team": "T23",
+      "section": "T23:materijali",
+      "title": "1920-te — privremene adaptacije",
+      "value": "zadržana opeka i drvo; dodate privremene drvene pregrade, lake obloge i scenografski elementi, zapaljivi bez zaštite",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T23:S2"
+      ]
+    },
+    {
+      "id": "T23:materijali:242eb2913555",
+      "team": "T23",
+      "section": "T23:materijali",
+      "title": "1927–1929 — obnova Krasnova",
+      "value": "sanacija zidova od opeke, nove drvene krovne i stropne konstrukcije, malterisane površine i klasična pozorišna stolarija; i dalje opeka, drvo, malter",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T23:S2"
+      ]
+    },
+    {
+      "id": "T23:materijali:cc059f29aa86",
+      "team": "T23",
+      "section": "T23:materijali",
+      "title": "1947–1948 — Belobrk",
+      "value": "materijali skoro isti kao posle prethodne obnove; unapređena upotreba radi akustike i vizuelnog identiteta",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T23:S3"
+      ]
+    },
+    {
+      "id": "T23:materijali:5b1e0e919cec",
+      "team": "T23",
+      "section": "T23:materijali",
+      "title": "2003–2005 — hibrid",
+      "value": "čelik za krovne rešetkaste nosače i scensku mehanizaciju; armirani beton za međuspratne konstrukcije, jezgra i gledalište; staklene površine atrijuma; vatrootporni gips-karton; furnirani medijapan u gledalištu",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T23:S4"
+      ]
+    },
+    {
+      "id": "T23:materijali:1d82aaa31718",
+      "team": "T23",
+      "section": "T23:materijali",
+      "title": "Princip 2003–2005",
+      "value": "hibridni sklopovi (čelik + beton + suva gradnja), visoka vatrootpornost i jasna razdvojivost novih materijala od istorijske strukture",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T23:S4"
+      ]
+    },
+    {
+      "id": "T23:gradja:eec07c63aa73",
+      "team": "T23",
+      "section": "T23:gradja",
+      "title": "Prvobitni objekat",
+      "value": "fotografije iz fototeke Istorijskog arhiva Beograda i zbirke Muzeja grada Beograda",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T23:S5",
+        "T23:S6"
+      ]
+    },
+    {
+      "id": "T23:gradja:a7204ffc26fe",
+      "team": "T23",
+      "section": "T23:gradja",
+      "title": "Krasnov 1927–1928",
+      "value": "fasada, skica i tehnički crteži: IAB, Zbirna zbirka planova Ministarstva građevina, inv. br. 385; digitalni arhiv NBS",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T23:S5",
+        "T23:S7"
+      ]
+    },
+    {
+      "id": "T23:gradja:6d969c0dd841",
+      "team": "T23",
+      "section": "T23:gradja",
+      "title": "Belobrk i požar 1997",
+      "value": "fasada Belobrka i fotografija požara iz arhiva i fototeke JDP-a",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T23:S8"
+      ]
+    },
+    {
+      "id": "T23:gradja:bce61a7d0cec",
+      "team": "T23",
+      "section": "T23:gradja",
+      "title": "Rekonstrukcija 2003–2005",
+      "value": "autorska dokumentacija studija Radojičić–Miljković i izvođački projekat",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T23:S4"
+      ]
+    },
+    {
+      "id": "T23:gradja:31316e1a7b3c",
+      "team": "T23",
+      "section": "T23:gradja",
+      "title": "Obim predaje",
+      "value": "stigao samo odeljak 1 pasoša sa 16 priloga; prava arhiva (IAB, MGB, JDP) za objavu priloga nisu potvrđena",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T23:S9"
       ]
     },
     {
@@ -8467,6 +9352,277 @@
       ]
     },
     {
+      "id": "T44:metod:2033ca7baa82",
+      "team": "T44",
+      "section": "T44:metod",
+      "title": "Glavno pitanje",
+      "value": "kako se Kula Beograd menjala od ranih javnih najava do izvedenog objekta i šta se o razlozima promena može pouzdano dokazati",
+      "status": "source-reported",
+      "category": "research",
+      "sourceIds": [
+        "T44:S11"
+      ]
+    },
+    {
+      "id": "T44:metod:c5898c0af3a3",
+      "team": "T44",
+      "section": "T44:metod",
+      "title": "Princip",
+      "value": "svaki podatak vezan za izvor i datum; render pokazuje kako je kula predstavljena u jednom trenutku, ne dokazuje usvojen projekat",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T44:S11"
+      ]
+    },
+    {
+      "id": "T44:metod:f8fccf392644",
+      "team": "T44",
+      "section": "T44:metod",
+      "title": "Tvrdnja o nameni za UAE",
+      "value": "nije potvrđena: izvori dokazuju prezentaciju u Dubaiju i investitora iz UAE, ne i da je kula ranije projektovana za lokaciju u Emiratima",
+      "status": "unconfirmed",
+      "category": "questions",
+      "sourceIds": [
+        "T44:S1",
+        "T44:S2",
+        "T44:S11"
+      ]
+    },
+    {
+      "id": "T44:metod:5c06fe740984",
+      "team": "T44",
+      "section": "T44:metod",
+      "title": "Sajt tima",
+      "value": "početna verzija sajta istraživanja objavljena kao AI Studio aplikacija",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T44:S10"
+      ]
+    },
+    {
+      "id": "T44:hronologija:e0a5ed1a49e5",
+      "team": "T44",
+      "section": "T44:hronologija",
+      "title": "Januar 2014",
+      "value": "u medijima kula od oko 180 m, opisana kao „nalik onoj u Dubaiju“ — rana najava, ne dokaz projekta za UAE",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T44:S1"
+      ]
+    },
+    {
+      "id": "T44:hronologija:226e66fdaff5",
+      "team": "T44",
+      "section": "T44:hronologija",
+      "title": "Mart 2014",
+      "value": "master plan Beograda na vodi i idejna rešenja kule predstavljeni u Dubaiju; Eagle Hills raspisao konkurs; pominje se studio SOM",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T44:S2"
+      ]
+    },
+    {
+      "id": "T44:hronologija:32009ba486b3",
+      "team": "T44",
+      "section": "T44:hronologija",
+      "title": "2014 — 220 m",
+      "value": "kasniji izveštaji navode da se 2014. pominjala visina 220 m; najraniji originalni prikaz još treba naći",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T44:S3",
+        "T44:S9"
+      ]
+    },
+    {
+      "id": "T44:hronologija:49d816586cf2",
+      "team": "T44",
+      "section": "T44:hronologija",
+      "title": "2015 — oko 200 m",
+      "value": "u medijima visina oko 200 m; nije utvrđeno na koju verziju se odnosi",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T44:S3"
+      ]
+    },
+    {
+      "id": "T44:hronologija:44d70423e0ff",
+      "team": "T44",
+      "section": "T44:hronologija",
+      "title": "Mart 2016 — 168 m",
+      "value": "javna prezentacija prikazuje verziju visoku 168 m",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T44:S3",
+        "T44:S9"
+      ]
+    },
+    {
+      "id": "T44:hronologija:8837f1fb5352",
+      "team": "T44",
+      "section": "T44:hronologija",
+      "title": "April 2016 — obrazloženje",
+      "value": "gradonačelnik: kula niža i šira da se bolje uklopi u Beograd; u istom izveštaju 168 m i 45 spratova",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T44:S4"
+      ]
+    },
+    {
+      "id": "T44:hronologija:76197b70211b",
+      "team": "T44",
+      "section": "T44:hronologija",
+      "title": "Februar 2019 — dozvola",
+      "value": "Vlada Srbije: izdata građevinska dozvola za kulu visine 168 m, površine 47.500 m²",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T44:S7",
+        "T44:S8"
+      ]
+    },
+    {
+      "id": "T44:izvedeno:267d413f72e7",
+      "team": "T44",
+      "section": "T44:izvedeno",
+      "title": "Visina",
+      "value": "168 m",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T44:S6",
+        "T44:S7"
+      ]
+    },
+    {
+      "id": "T44:izvedeno:07036263a91d",
+      "team": "T44",
+      "section": "T44:izvedeno",
+      "title": "Spratnost",
+      "value": "42 sprata po SOM-u; RTS 15. 4. 2016 navodi 45 — razlika može poticati iz različitih faza ili načina brojanja etaža",
+      "status": "conflict",
+      "category": "geometry",
+      "sourceIds": [
+        "T44:S4",
+        "T44:S6"
+      ]
+    },
+    {
+      "id": "T44:izvedeno:c71ed7d3f0d0",
+      "team": "T44",
+      "section": "T44:izvedeno",
+      "title": "Bruto površina",
+      "value": "47.500 m²",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T44:S6",
+        "T44:S7"
+      ]
+    },
+    {
+      "id": "T44:izvedeno:62274dffd711",
+      "team": "T44",
+      "section": "T44:izvedeno",
+      "title": "Rotacija volumena",
+      "value": "orijentacija kule rotira se za 90° kako se objekat uzdiže; po SOM-u daje različite orijentacije prema kontekstu i smanjuje opterećenje vetrom",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T44:S6"
+      ]
+    },
+    {
+      "id": "T44:izvedeno:bf22d308a224",
+      "team": "T44",
+      "section": "T44:izvedeno",
+      "title": "Šta izvori ne govore",
+      "value": "kada se rotacija prvi put pojavila u procesu; potrebni datirani raniji renderi ili konkursni prikazi",
+      "status": "source-reported",
+      "category": "questions",
+      "sourceIds": [
+        "T44:S6",
+        "T44:S11"
+      ]
+    },
+    {
+      "id": "T44:pitanja:66530bb536c8",
+      "team": "T44",
+      "section": "T44:pitanja",
+      "title": "Najraniji prikaz",
+      "value": "koji je najraniji prikaz Kule Beograd koji se može pouzdano datirati",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T44:pitanja:61b3975b153d",
+      "team": "T44",
+      "section": "T44:pitanja",
+      "title": "Status visine 220 m",
+      "value": "da li je 220 m bila deo zvaničnog projektnog predloga ili javno predstavljena ideja",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T44:pitanja:a6600e72f138",
+      "team": "T44",
+      "section": "T44:pitanja",
+      "title": "Broj ili oblik",
+      "value": "da li se između 220, oko 200 i 168 m menjao samo broj ili i oblik kule",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T44:pitanja:050776c706a7",
+      "team": "T44",
+      "section": "T44:pitanja",
+      "title": "Prva rotacija",
+      "value": "kada se prvi put pojavljuje rotacija volumena od 90°",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T44:pitanja:e0eac2f39342",
+      "team": "T44",
+      "section": "T44:pitanja",
+      "title": "Render naspram izvedenog",
+      "value": "koje razlike između ranijih rendera i izvedenog objekta se mogu direktno dokazati",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T44:pitanja:01dd9c9055ac",
+      "team": "T44",
+      "section": "T44:pitanja",
+      "title": "Izjave projektanata",
+      "value": "postoje li originalne izjave ili dokumenti koji objašnjavaju promene",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T44:pitanja:2db1a1e01db0",
+      "team": "T44",
+      "section": "T44:pitanja",
+      "title": "Dokument o UAE",
+      "value": "postoji li originalni dokument koji potvrđuje da je projekat ranije bio namenjen lokaciji u UAE",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
       "id": "T46:lokacija:0d2f4ac5886d",
       "team": "T46",
       "section": "T46:lokacija",
@@ -8502,6 +9658,45 @@
       "category": "time",
       "sourceIds": [
         "T46:S2",
+        "T46:S3"
+      ]
+    },
+    {
+      "id": "T46:lokacija:8db27700f0a2",
+      "team": "T46",
+      "section": "T46:lokacija",
+      "title": "Teren Novog Beograda",
+      "value": "nizak i močvaran prostor između dve reke; urbanizacija tražila nasipanje, regulaciju terena i osnovnu infrastrukturu — hotel pripada istoriji transformacije rečnog prostora",
+      "status": "source-reported",
+      "category": "environment",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S2"
+      ]
+    },
+    {
+      "id": "T46:lokacija:eacb4e282ff2",
+      "team": "T46",
+      "section": "T46:lokacija",
+      "title": "Dvostruka uloga Dunava",
+      "value": "prirodni okvir i vizuelna dominanta, ali i deo saobraćajnog i privrednog sistema; hotel se sagledava sa reke, keja i saobraćajnica",
+      "status": "source-reported",
+      "category": "environment",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S2"
+      ]
+    },
+    {
+      "id": "T46:lokacija:e41718b8ed90",
+      "team": "T46",
+      "section": "T46:lokacija",
+      "title": "Granica dva identiteta",
+      "value": "Zemun sa istorijskim centrom i Novi Beograd kao planski grad; hotel na granici, pripada i zemunskoj obali i novom gradu",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T46:S1",
         "T46:S3"
       ]
     },
@@ -8555,6 +9750,87 @@
       "sourceIds": [
         "T46:S2",
         "T46:S3"
+      ]
+    },
+    {
+      "id": "T46:urbanizam:d3b4736fd550",
+      "team": "T46",
+      "section": "T46:urbanizam",
+      "title": "Prva faza javnih zdanja",
+      "value": "hotel planiran među važnim javnim zdanjima uz zgradu Centralnog komiteta i zgradu Saveznog izvršnog veća",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S2"
+      ]
+    },
+    {
+      "id": "T46:urbanizam:22a5e0a31d78",
+      "team": "T46",
+      "section": "T46:urbanizam",
+      "title": "Konkurs kao alat",
+      "value": "konkurs 1947. omogućio izbor rešenja usklađenog sa urbanističkom zamisli; hotel prvobitno zamišljen kao državni reprezentativni objekat",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S2",
+        "T46:S3"
+      ]
+    },
+    {
+      "id": "T46:urbanizam:051370ea66fe",
+      "team": "T46",
+      "section": "T46:urbanizam",
+      "title": "Radne akcije",
+      "value": "početak izgradnje Novog Beograda vezan za omladinske radne akcije: nasipanje terena, priprema gradilišta, infrastruktura",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S4"
+      ]
+    },
+    {
+      "id": "T46:urbanizam:07e2e3e70dfc",
+      "team": "T46",
+      "section": "T46:urbanizam",
+      "title": "Nedovršena konstrukcija",
+      "value": "obustava 1949. ostavila izvedenu armiranobetonsku konstrukciju kao fizički trag prvobitnog projekta",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S3",
+        "T46:S4"
+      ]
+    },
+    {
+      "id": "T46:urbanizam:e8632efa7f52",
+      "team": "T46",
+      "section": "T46:urbanizam",
+      "title": "Promena projektnih uslova",
+      "value": "pri nastavku projekat Lavoslava Horvata nastavlja autorsku ideju, ali nije ponavljanje konkursnog rešenja; razlikovati konkursni projekat, projekat nastavka i izvedeni objekat",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S4",
+        "T46:S5"
+      ]
+    },
+    {
+      "id": "T46:urbanizam:6f48abb336b7",
+      "team": "T46",
+      "section": "T46:urbanizam",
+      "title": "Uređenje obale",
+      "value": "završetak hotela obuhvatio uređenje obalskog dela po projektu Urbanističkog zavoda Beograda pod rukovodstvom arhitekte Branislava Jovina",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T46:S3",
+        "T46:S4"
       ]
     },
     {
@@ -8702,6 +9978,58 @@
       ]
     },
     {
+      "id": "T46:simbol:51bbbc4d083b",
+      "team": "T46",
+      "section": "T46:simbol",
+      "title": "Hotel u sistemu grada",
+      "value": "deo hotelske infrastrukture za rastući međunarodni promet; servisna infrastruktura Beograda kao poslovnog i diplomatskog centra",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S4"
+      ]
+    },
+    {
+      "id": "T46:simbol:f0becf8cce01",
+      "team": "T46",
+      "section": "T46:simbol",
+      "title": "Enterijer kao iskustvo",
+      "value": "prostrani holovi, restorani i sale; karakter prostora iz kombinacije dekoracije, dimenzija i funkcionalne organizacije, ne samo lustera",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S4"
+      ]
+    },
+    {
+      "id": "T46:simbol:9ebf2962c314",
+      "team": "T46",
+      "section": "T46:simbol",
+      "title": "Promena tržišta",
+      "value": "otvaranje hotela InterContinental i Hyatt Regency promenilo tržišni položaj starijih kapaciteta; hotel suočen sa potrebom modernizacije",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S4"
+      ]
+    },
+    {
+      "id": "T46:simbol:a28f37586609",
+      "team": "T46",
+      "section": "T46:simbol",
+      "title": "Sećanje",
+      "value": "deo ličnih i porodičnih događaja građana; kasnije propadanje doživljavano kao gubitak gradskog simbola",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T46:S1",
+        "T46:S4"
+      ]
+    },
+    {
       "id": "T46:bombardovanje:107e4c0cfa2d",
       "team": "T46",
       "section": "T46:bombardovanje",
@@ -8794,6 +10122,60 @@
       ]
     },
     {
+      "id": "T46:propadanje:acc8f0ef7d5f",
+      "team": "T46",
+      "section": "T46:propadanje",
+      "title": "Privatizacija 2006 — očekivanja",
+      "value": "pokušaj uključivanja u novi investicioni sistem; najavljeni projekat nije realizovan, razlika između vizije i stanja postala ključ ovog perioda",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T46:S4",
+        "T46:S6",
+        "T46:S7"
+      ]
+    },
+    {
+      "id": "T46:propadanje:13bd97b447a3",
+      "team": "T46",
+      "section": "T46:propadanje",
+      "title": "Stečaj i prodaja 2024",
+      "value": "stečaj kompanije Danube Riverside, hotel u stečajnom postupku 2021; 2024. imovina prodata kompaniji MV Investment",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T46:S6",
+        "T46:S11"
+      ]
+    },
+    {
+      "id": "T46:propadanje:161363c057eb",
+      "team": "T46",
+      "section": "T46:propadanje",
+      "title": "Projekat rekonstrukcije Vojvodić",
+      "value": "arhitekta Goran Vojvodić 2008–2010: prilagođavanje savremenim potrebama uz očuvanje originalne ideje; nije realizovan",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T46:S4",
+        "T46:S12"
+      ]
+    },
+    {
+      "id": "T46:propadanje:f3327fdd0b27",
+      "team": "T46",
+      "section": "T46:propadanje",
+      "title": "Nasleđe kao urbanističko pitanje",
+      "value": "da li se modernistički objekti u lošem tehničkom stanju smatraju nasleđem; odluka o rušenju je izbor modela razvoja, ne samo tehničko pitanje",
+      "status": "source-reported",
+      "category": "questions",
+      "sourceIds": [
+        "T46:S4",
+        "T46:S5",
+        "T46:S7"
+      ]
+    },
+    {
       "id": "T46:rusenje:dc00a9d006dc",
       "team": "T46",
       "section": "T46:rusenje",
@@ -8831,6 +10213,464 @@
       "sourceIds": [
         "T46:S1",
         "T46:S2"
+      ]
+    },
+    {
+      "id": "T46:rusenje:64de6db60422",
+      "team": "T46",
+      "section": "T46:rusenje",
+      "title": "Dokumentovanje rušenja",
+      "value": "početak rušenja u novembru 2024. javno dokumentovan fotografijama i izveštajima; etapno uklanjanje; fotografije pre/tokom/posle kao vremenski niz",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T46:S6",
+        "T46:S7",
+        "T46:S13",
+        "T46:S14"
+      ]
+    },
+    {
+      "id": "T46:rusenje:268bea2f3283",
+      "team": "T46",
+      "section": "T46:rusenje",
+      "title": "Promena razmere",
+      "value": "umesto jednog dominantnog volumena više visokih objekata sa hotelskim, poslovnim i stambenim sadržajem; uticaj na siluetu obale i vizure",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T46:S2",
+        "T46:S9",
+        "T46:S11"
+      ]
+    },
+    {
+      "id": "T46:rusenje:0b691a596bd4",
+      "team": "T46",
+      "section": "T46:rusenje",
+      "title": "Vizualizacije naspram izvedenog",
+      "value": "vizualizacije označiti kao „projektovano stanje“ i odvojiti od fotografija stvarne lokacije",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T46:S6",
+        "T46:S7"
+      ]
+    },
+    {
+      "id": "T46:rusenje:4657fe1272b4",
+      "team": "T46",
+      "section": "T46:rusenje",
+      "title": "Arhiviranje posle rušenja",
+      "value": "fotografije fasade, enterijera, konstrukcije, konkursni i izvedbeni nacrti objedinjeni u hronološku celinu pasoša",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T46:S10",
+        "T46:S13"
+      ]
+    },
+    {
+      "id": "T47:metod:618195e43708",
+      "team": "T47",
+      "section": "T47:metod",
+      "title": "Okvir",
+      "value": "EU Building Digital Passport / Building Logbook: inventarizacija i praćenje tehničkih, funkcionalnih, materijalnih i ekonomskih pokazatelja kroz životni vek objekta",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T47:S1"
+      ]
+    },
+    {
+      "id": "T47:metod:4635891a60e7",
+      "team": "T47",
+      "section": "T47:metod",
+      "title": "Zašto Hala 1",
+      "value": "sagrađena sredinom 20. veka kao pionirski poduhvat u prednapregnutom betonu i tankozidnim ljuskama; kupola raspona 109 m",
+      "status": "source-reported",
+      "category": "research",
+      "sourceIds": [
+        "T47:S2",
+        "T47:S3"
+      ]
+    },
+    {
+      "id": "T47:identitet:65b6594ff92c",
+      "team": "T47",
+      "section": "T47:identitet",
+      "title": "Naziv",
+      "value": "Hala 1 Beogradskog sajma (Centralna hala)",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T47:S4",
+        "T47:S5"
+      ]
+    },
+    {
+      "id": "T47:identitet:0707ce8c8ad1",
+      "team": "T47",
+      "section": "T47:identitet",
+      "title": "Lokacija",
+      "value": "Bulevar vojvode Mišića 14, opština Savski venac, Beograd; KO Savski venac",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T47:S4",
+        "T47:S5"
+      ]
+    },
+    {
+      "id": "T47:identitet:0691a9f16969",
+      "team": "T47",
+      "section": "T47:identitet",
+      "title": "Izgradnja",
+      "value": "1954–1957; svečano otvaranje 23. avgusta 1957. Specijalizovanom međunarodnom tehničkom izložbom",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T47:S4",
+        "T47:S5",
+        "T47:S6"
+      ]
+    },
+    {
+      "id": "T47:identitet:937cf1a2af33",
+      "team": "T47",
+      "section": "T47:identitet",
+      "title": "Arhitektura",
+      "value": "arhitekt Milorad Pantović, učenik Le Korbizjea; kompleks hala povezanih pasarelama i platoima, Hala 1 kao dominanta",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T47:S4",
+        "T47:S6"
+      ]
+    },
+    {
+      "id": "T47:identitet:6f3bed419f8a",
+      "team": "T47",
+      "section": "T47:identitet",
+      "title": "Konstrukcija — autori",
+      "value": "akademik prof. dr Branko Žeželj i inž. Milan Krstić",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T47:S4",
+        "T47:S6"
+      ]
+    },
+    {
+      "id": "T47:identitet:628796d88803",
+      "team": "T47",
+      "section": "T47:identitet",
+      "title": "Izvođač",
+      "value": "Građevinsko preduzeće „Rad“, Beograd",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T47:S4"
+      ]
+    },
+    {
+      "id": "T47:identitet:bbf66dc09cc8",
+      "team": "T47",
+      "section": "T47:identitet",
+      "title": "Namena",
+      "value": "sajamski, izložbeni, konvencijski i višenamenski prireditveni centar",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T47:S2",
+        "T47:S4"
+      ]
+    },
+    {
+      "id": "T47:identitet:1b26d65c4e61",
+      "team": "T47",
+      "section": "T47:identitet",
+      "title": "Pravni status",
+      "value": "spomenik kulture, proglašen 2009 (Odluka Vlade RS, Službeni glasnik RS br. 33/09)",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T47:S3",
+        "T47:S5"
+      ]
+    },
+    {
+      "id": "T47:identitet:31604d774dc1",
+      "team": "T47",
+      "section": "T47:identitet",
+      "title": "Lokacija pre gradnje",
+      "value": "nekadašnji čukarički rit uz most na Savi; potrebni obimni radovi nasipanja; stari sajam na levoj obali stradao u Drugom svetskom ratu",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T47:S4",
+        "T47:S6"
+      ]
+    },
+    {
+      "id": "T47:materijali:143305ce3eef",
+      "team": "T47",
+      "section": "T47:materijali",
+      "title": "Osnovni materijal",
+      "value": "visokokvalitetni prednapregnuti beton; prednaprezanje po patentiranom „Sistemu Žeželj“ (IMS) visokovrednim čeličnim žicama i kablovima",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T47:S7",
+        "T47:S8"
+      ]
+    },
+    {
+      "id": "T47:materijali:c1dd6a356b04",
+      "team": "T47",
+      "section": "T47:materijali",
+      "title": "Staklo",
+      "value": "obimni spoljašnji zidovi kao kontinuirana staklena zavesa prečnika preko 130 m na nivou prizemlja i galerija; kupola deluje kao da lebdi",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T47:S7",
+        "T47:S8"
+      ]
+    },
+    {
+      "id": "T47:materijali:470daa1f2ed6",
+      "team": "T47",
+      "section": "T47:materijali",
+      "title": "Organizacija",
+      "value": "aksijalna simetrija sa kružnom osnovom: centralni parter okružen sa tri prstenaste galerije koje se stepenasto podižu, otvorene ka potkupolnom prostoru",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T47:S7",
+        "T47:S8"
+      ]
+    },
+    {
+      "id": "T47:konstrukcija:e90cebe756b7",
+      "team": "T47",
+      "section": "T47:konstrukcija",
+      "title": "Kosi obodni stubovi",
+      "value": "celokupna masa krovne ljuske prenosi se na 8 nagnutih betonskih stubova po obodu kruga prečnika 109 m, postavljenih u pravcu rezultujućih sila potiska",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T47:S9",
+        "T47:S10",
+        "T47:S11"
+      ]
+    },
+    {
+      "id": "T47:konstrukcija:fe396dcdc514",
+      "team": "T47",
+      "section": "T47:konstrukcija",
+      "title": "Zatezni prsten",
+      "value": "kružni prsten od prednapregnutog betona sa zategnutim visokonaponskim kablovima prima horizontalne sile potiska kupole",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T47:S9",
+        "T47:S10",
+        "T47:S11"
+      ]
+    },
+    {
+      "id": "T47:konstrukcija:9ab0aac2bf53",
+      "team": "T47",
+      "section": "T47:konstrukcija",
+      "title": "Ljuska",
+      "value": "tankozidna rotaciona ljuska bez grednih mreža i rožnjača; dvoosno stanje napona pritiska",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T47:S9",
+        "T47:S10"
+      ]
+    },
+    {
+      "id": "T47:konstrukcija:346592ba6463",
+      "team": "T47",
+      "section": "T47:konstrukcija",
+      "title": "Galerije i temelji",
+      "value": "galerije kao nezavisni armiranobetonski roštiljski sistemi na sopstvenim stubovima; temelji na masivnim stopama i šipovima u rečnom nanosu Save",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T47:S9",
+        "T47:S11"
+      ]
+    },
+    {
+      "id": "T47:geometrija:70bb1ac4f1c9",
+      "team": "T47",
+      "section": "T47:geometrija",
+      "title": "Prečnik kupole u nivou oslanjanja",
+      "value": "109,00 m",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T47:S12",
+        "T47:S13"
+      ]
+    },
+    {
+      "id": "T47:geometrija:bd5317502afe",
+      "team": "T47",
+      "section": "T47:geometrija",
+      "title": "Spoljašnji prečnik u prizemlju",
+      "value": "132,00 m",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T47:S12",
+        "T47:S13"
+      ]
+    },
+    {
+      "id": "T47:geometrija:6511c3e9592d",
+      "team": "T47",
+      "section": "T47:geometrija",
+      "title": "Visina temena od partera",
+      "value": "30,50 m",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T47:S12",
+        "T47:S13"
+      ]
+    },
+    {
+      "id": "T47:geometrija:3d4be429f7ab",
+      "team": "T47",
+      "section": "T47:geometrija",
+      "title": "Slobodna visina pod temenom",
+      "value": "20,32 m",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T47:S12",
+        "T47:S13"
+      ]
+    },
+    {
+      "id": "T47:geometrija:4b112cfbba65",
+      "team": "T47",
+      "section": "T47:geometrija",
+      "title": "Debljina ljuske",
+      "value": "promenljiva, 9 cm na obodu do 7 cm u temenu; odnos debljine i raspona manji od 1:1200",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T47:S12",
+        "T47:S13",
+        "T47:S14"
+      ]
+    },
+    {
+      "id": "T47:geometrija:2985745e102e",
+      "team": "T47",
+      "section": "T47:geometrija",
+      "title": "Površine",
+      "value": "pokrivena oko 14.000 m²; korisna sa galerijama preko 21.000 m²; zapremina preko 320.000 m³",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T47:S12",
+        "T47:S13"
+      ]
+    },
+    {
+      "id": "T47:geometrija:121f00dc0ddb",
+      "team": "T47",
+      "section": "T47:geometrija",
+      "title": "Osvetljenje",
+      "value": "staklena fasadna zavesa 360° i centralni krovni svetlarnik prečnika 18 m",
+      "status": "source-reported",
+      "category": "environment",
+      "sourceIds": [
+        "T47:S12"
+      ]
+    },
+    {
+      "id": "T47:geometrija:1305b798c2fe",
+      "team": "T47",
+      "section": "T47:geometrija",
+      "title": "Proračun",
+      "value": "rađen ručno, bez računarskih metoda konačnih elemenata",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T47:S14",
+        "T47:S19"
+      ]
+    },
+    {
+      "id": "T47:kupola:e6208d6b8d89",
+      "team": "T47",
+      "section": "T47:kupola",
+      "title": "Koncept",
+      "value": "tankozidna prostorna ljuska od prednapregnutog betona: opterećenje se prenosi aksijalnim silama u ravni ljuske, a prednaprezanje drži beton u trajnom pritisku bez prslina",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T47:S15",
+        "T47:S16"
+      ]
+    },
+    {
+      "id": "T47:kupola:8e2c9da736d8",
+      "team": "T47",
+      "section": "T47:kupola",
+      "title": "Prsten na obodu",
+      "value": "šuplji kružni prsten unutrašnjeg prečnika 109 m; kablovi sa Žeželjevim kotvama zategnuti hidrauličnim presama pre skidanja skele; na stubove ide čista vertikalna reakcija",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T47:S15",
+        "T47:S17"
+      ]
+    },
+    {
+      "id": "T47:kupola:56388b6f0836",
+      "team": "T47",
+      "section": "T47:kupola",
+      "title": "Skela i betoniranje",
+      "value": "gigantska drvena skela; betoniranje u segmentima i simetrično u prstenovima, beton visoke čvrstoće sa smanjenim vodocementnim faktorom; skela spuštena peskarama i hidrauličnim dizalicama",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T47:S17",
+        "T47:S18"
+      ]
+    },
+    {
+      "id": "T47:kupola:76e51d70c7dc",
+      "team": "T47",
+      "section": "T47:kupola",
+      "title": "Svetski značaj",
+      "value": "po završetku 1957. najveća kupola od prednapregnutog betona na svetu",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T47:S15",
+        "T47:S16"
+      ]
+    },
+    {
+      "id": "T47:kupola:80ec3153546a",
+      "team": "T47",
+      "section": "T47:kupola",
+      "title": "Poređenje sa CNIT",
+      "value": "podnesak tvrdi da je prestigla CNIT u Parizu; CNIT je završen 1958, pa poređenje treba proveriti",
+      "status": "unconfirmed",
+      "category": "questions",
+      "sourceIds": [
+        "T47:S19"
       ]
     },
     {
@@ -10028,6 +11868,270 @@
       ]
     },
     {
+      "id": "T58:identitet:4f0974afbbfc",
+      "team": "T58",
+      "section": "T58:identitet",
+      "title": "Projektovanje",
+      "value": "zgrada projektovana u periodu 1925–1931",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T58:S1"
+      ]
+    },
+    {
+      "id": "T58:identitet:63790062a441",
+      "team": "T58",
+      "section": "T58:identitet",
+      "title": "Autori",
+      "value": "Nikola Nestorović i Branko Tanazević",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T58:S1"
+      ]
+    },
+    {
+      "id": "T58:identitet:f0b688551690",
+      "team": "T58",
+      "section": "T58:identitet",
+      "title": "Stil",
+      "value": "akademizam sa dominantnim klasicističkim elementima; osnovna ideja: monumentalnost, simetrija glavne fasade, naglašen centralni deo i hijerarhijski organizovani elementi",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T58:S1"
+      ]
+    },
+    {
+      "id": "T58:identitet:a363e5370b54",
+      "team": "T58",
+      "section": "T58:identitet",
+      "title": "Položaj u bloku",
+      "value": "samostalna građevina, ne deo kontinuiranog uličnog niza; zato se sagledavaju sve četiri fasade",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T58:S1"
+      ]
+    },
+    {
+      "id": "T58:osnova:9e928666ed96",
+      "team": "T58",
+      "section": "T58:osnova",
+      "title": "Simetrija osnove",
+      "value": "osnova rešena simetrično; prostorije organizovane oko četiri unutrašnja dvorišta koja služe kao svetlarnici",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:osnova:6a1324409673",
+      "team": "T58",
+      "section": "T58:osnova",
+      "title": "Sadržaji oko dvorišta",
+      "value": "hodnici, učionice, kabineti, slušaonice, centralna stepeništa i aula",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:osnova:929b90c912f8",
+      "team": "T58",
+      "section": "T58:osnova",
+      "title": "Prostorna čvorišta",
+      "value": "aula i glavna stepeništa su čvorišta; hodnici povezuju nizove prostorija — kombinacija centralizovanih reprezentativnih prostora i linearnih komunikacija",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:osnova:7a643bdbd1d6",
+      "team": "T58",
+      "section": "T58:osnova",
+      "title": "Uloga dvorišta",
+      "value": "četiri dvorišta razbijaju veliku masu objekta i osvetljavaju unutrašnjost",
+      "status": "source-reported",
+      "category": "environment",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:fasade:e3e10ed533f9",
+      "team": "T58",
+      "section": "T58:fasade",
+      "title": "Hijerarhija fasada",
+      "value": "sve četiri fasade pripadaju istom konceptu, ali se razlikuju po stepenu obrade: glavna najreprezentativnija, bočne jednostavnije, dvorišna najsvedenija",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:fasade:276cb03c6ae7",
+      "team": "T58",
+      "section": "T58:fasade",
+      "title": "Glavna fasada",
+      "value": "bogata arhitektonska plastika, monumentalno stepenište, trodelni ulaz i naglašen centralni rizalit",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:fasade:920a6d27d682",
+      "team": "T58",
+      "section": "T58:fasade",
+      "title": "Bočne fasade",
+      "value": "jednostavnije, zadržavaju ritam prozorskih otvora i odnos centralnog i bočnih delova",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:fasade:6e86c2664d95",
+      "team": "T58",
+      "section": "T58:fasade",
+      "title": "Dvorišna fasada",
+      "value": "najjednostavnija; kompoziciju određuju nizovi prozora i horizontalni venci",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:fasade:0a56b51b9c16",
+      "team": "T58",
+      "section": "T58:fasade",
+      "title": "Horizontalna i vertikalna podela",
+      "value": "profilisani venci dele fasade na tri glavne zone; vertikalnu artikulaciju daju pilastri i stubovi",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:glavna-fasada:e82ada1a6f10",
+      "team": "T58",
+      "section": "T58:glavna-fasada",
+      "title": "Centralna osa",
+      "value": "kompozicija oko centralne ose: monumentalno stepenište, trodelni ulaz, visoki otvori centralnog rizalita i veliki trouglasti timpanon",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:glavna-fasada:0d97771bd138",
+      "team": "T58",
+      "section": "T58:glavna-fasada",
+      "title": "Rustična baza",
+      "value": "prizemna zona i suteren od kombinacije grublje obrađenih i glatkih kamenih kvadara",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:glavna-fasada:e2a3e4e1cde5",
+      "team": "T58",
+      "section": "T58:glavna-fasada",
+      "title": "Pilastri i stubovi",
+      "value": "vertikalni elementi povezuju zone prvog i drugog sprata i daju ritam",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:glavna-fasada:5a7868d37e7c",
+      "team": "T58",
+      "section": "T58:glavna-fasada",
+      "title": "Prozori",
+      "value": "pravougaoni i lučno završeni otvori, različiti po spratovima i važnosti prostorija",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:glavna-fasada:e610966d856d",
+      "team": "T58",
+      "section": "T58:glavna-fasada",
+      "title": "Venci",
+      "value": "profilisani venci razdvajaju horizontalne zone i povezuju fasadu u celinu",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:glavna-fasada:75fa2f1e3e29",
+      "team": "T58",
+      "section": "T58:glavna-fasada",
+      "title": "Timpanon",
+      "value": "trouglasti završetak centralnog rizalita, klasični motiv",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:glavna-fasada:a3363a218922",
+      "team": "T58",
+      "section": "T58:glavna-fasada",
+      "title": "Meandar",
+      "value": "dekorativni friz sa grčkim meandrom kao kontinuirana horizontalna linija",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:glavna-fasada:293498fa268e",
+      "team": "T58",
+      "section": "T58:glavna-fasada",
+      "title": "Akroterije i reljefi",
+      "value": "dopunjuju završnu zonu fasade i pojačavaju reprezentativni karakter",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T58:S2"
+      ]
+    },
+    {
+      "id": "T58:glavna-fasada:932b5fbe2572",
+      "team": "T58",
+      "section": "T58:glavna-fasada",
+      "title": "Format predaje",
+      "value": "tekst sa izvorom posle svakog pasusa; nastavnik 22. 10. tražio tabelu podatak/izvor",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T58:S3"
+      ]
+    },
+    {
       "id": "T65:autorstvo:20fb3f55b30f",
       "team": "T65",
       "section": "T65:autorstvo",
@@ -10707,6 +12811,62 @@
       }
     },
     {
+      "id": "T05:osnovni",
+      "team": "T05",
+      "title": {
+        "en": "Basic data",
+        "sr": "Osnovni podaci"
+      }
+    },
+    {
+      "id": "T05:prostori",
+      "team": "T05",
+      "title": {
+        "en": "Spaces and published capacities",
+        "sr": "Prostori i javno navedeni kapaciteti"
+      }
+    },
+    {
+      "id": "T05:elementi",
+      "team": "T05",
+      "title": {
+        "en": "Building element register",
+        "sr": "Registar građevinskih elemenata"
+      }
+    },
+    {
+      "id": "T05:instalacije",
+      "team": "T05",
+      "title": {
+        "en": "Services and technical systems",
+        "sr": "Instalacije i tehnički sistemi"
+      }
+    },
+    {
+      "id": "T05:metod",
+      "team": "T05",
+      "title": {
+        "en": "Method and limits",
+        "sr": "Metod i granice ovog pasoša"
+      }
+    },
+    {
+      "id": "T05:arhitektura",
+      "team": "T05",
+      "title": {
+        "en": "Architectural description",
+        "sr": "Arhitektonski opis"
+      }
+    },
+    {
+      "id": "T05:kultura",
+      "team": "T05",
+      "title": {
+        "en": "Cultural role",
+        "sr": "Kulturni značaj"
+      }
+    },
+    {
       "id": "T06:identitet",
       "team": "T06",
       "title": {
@@ -10883,6 +13043,22 @@
       }
     },
     {
+      "id": "T15:osnovni",
+      "team": "T15",
+      "title": {
+        "en": "Basic data",
+        "sr": "Osnovni podaci"
+      }
+    },
+    {
+      "id": "T15:unutrasnjost",
+      "team": "T15",
+      "title": {
+        "en": "Interior: layers and materials",
+        "sr": "Unutrašnjost: slojevi i materijali"
+      }
+    },
+    {
       "id": "T17:osnovni",
       "team": "T17",
       "title": {
@@ -10984,6 +13160,30 @@
       "title": {
         "en": "Planning conflict",
         "sr": "Sukob planskih regulativa (DUP vs PDR)"
+      }
+    },
+    {
+      "id": "T23:epohe",
+      "team": "T23",
+      "title": {
+        "en": "Timeline of uses and reconstructions",
+        "sr": "Hronologija namena i rekonstrukcija"
+      }
+    },
+    {
+      "id": "T23:materijali",
+      "team": "T23",
+      "title": {
+        "en": "Materials by period",
+        "sr": "Materijali po epohi"
+      }
+    },
+    {
+      "id": "T23:gradja",
+      "team": "T23",
+      "title": {
+        "en": "Graphic sources",
+        "sr": "Grafički prilozi i njihovi izvori"
       }
     },
     {
@@ -11139,6 +13339,38 @@
       }
     },
     {
+      "id": "T44:metod",
+      "team": "T44",
+      "title": {
+        "en": "Question and method",
+        "sr": "Pitanje i način istraživanja"
+      }
+    },
+    {
+      "id": "T44:hronologija",
+      "team": "T44",
+      "title": {
+        "en": "Timeline by source",
+        "sr": "Hronologija po izvorima"
+      }
+    },
+    {
+      "id": "T44:izvedeno",
+      "team": "T44",
+      "title": {
+        "en": "The built tower",
+        "sr": "Izvedeni objekat"
+      }
+    },
+    {
+      "id": "T44:pitanja",
+      "team": "T44",
+      "title": {
+        "en": "Open research questions",
+        "sr": "Istraživačka pitanja za sledeću fazu"
+      }
+    },
+    {
       "id": "T46:lokacija",
       "team": "T46",
       "title": {
@@ -11192,6 +13424,54 @@
       "title": {
         "en": "Demolition and the new complex (2024–2025)",
         "sr": "Rušenje i novi kompleks (2024–2025)"
+      }
+    },
+    {
+      "id": "T47:metod",
+      "team": "T47",
+      "title": {
+        "en": "Digital passport method",
+        "sr": "Metod digitalnog pasoša"
+      }
+    },
+    {
+      "id": "T47:identitet",
+      "team": "T47",
+      "title": {
+        "en": "Identity card",
+        "sr": "Identifikacioni karton"
+      }
+    },
+    {
+      "id": "T47:materijali",
+      "team": "T47",
+      "title": {
+        "en": "Material and structure",
+        "sr": "Materijal i struktura"
+      }
+    },
+    {
+      "id": "T47:konstrukcija",
+      "team": "T47",
+      "title": {
+        "en": "Structural elements and load path",
+        "sr": "Konstruktivni elementi i prenos opterećenja"
+      }
+    },
+    {
+      "id": "T47:geometrija",
+      "team": "T47",
+      "title": {
+        "en": "Technical parameters",
+        "sr": "Tehničke karakteristike"
+      }
+    },
+    {
+      "id": "T47:kupola",
+      "team": "T47",
+      "title": {
+        "en": "Dome analysis",
+        "sr": "Analiza kupole"
       }
     },
     {
@@ -11379,6 +13659,38 @@
       }
     },
     {
+      "id": "T58:identitet",
+      "team": "T58",
+      "title": {
+        "en": "Identity and authors",
+        "sr": "Identitet i autori"
+      }
+    },
+    {
+      "id": "T58:osnova",
+      "team": "T58",
+      "title": {
+        "en": "Plan and spatial organisation",
+        "sr": "Osnova i organizacija prostora"
+      }
+    },
+    {
+      "id": "T58:fasade",
+      "team": "T58",
+      "title": {
+        "en": "The four facades",
+        "sr": "Četiri fasade"
+      }
+    },
+    {
+      "id": "T58:glavna-fasada",
+      "team": "T58",
+      "title": {
+        "en": "Elements of the main facade",
+        "sr": "Elementi glavne fasade"
+      }
+    },
+    {
       "id": "T65:autorstvo",
       "team": "T65",
       "title": {
@@ -11504,6 +13816,74 @@
       "url": "https://www.politika.rs/",
       "team": "T04",
       "canonical": "https://www.politika.rs"
+    },
+    {
+      "id": "T05:S1",
+      "label": "Dom omladine Beograda — „Prostor“ (navod studenta)",
+      "kind": "zvanični sajt",
+      "url": "https://domomladine.org/prostor/",
+      "team": "T05",
+      "canonical": "https://domomladine.org/prostor"
+    },
+    {
+      "id": "T05:S2",
+      "label": "Dom omladine Beograda — „O nama“ (navod studenta)",
+      "kind": "zvanični sajt",
+      "url": "https://domomladine.org/o-nama/",
+      "team": "T05",
+      "canonical": "https://domomladine.org/o-nama"
+    },
+    {
+      "id": "T05:S3",
+      "label": "Dom omladine Beograda — „Završen mandat Milana Lučića na mestu direktora DOB-a“ (navod studenta)",
+      "kind": "zvanični sajt",
+      "url": "https://domomladine.org/zavrsen-mandat-milana-lucica-na-mestu-direktora-dob-a/",
+      "team": "T05",
+      "canonical": "https://domomladine.org/zavrsen-mandat-milana-lucica-na-mestu-direktora-dob-a"
+    },
+    {
+      "id": "T05:S4",
+      "label": "Grad Beograd — „Potpisan protokol o rekonstrukciji Doma omladine“, 25. 5. 2007 (navod studenta)",
+      "kind": "zvanični sajt",
+      "url": "https://www.beograd.rs/lat/beoinfo-vesti/a20611/Potpisan-protokol-o-rekonstrukciji-Doma-omladine.html",
+      "team": "T05",
+      "canonical": "https://www.beograd.rs/lat/beoinfo-vesti/a20611/Potpisan-protokol-o-rekonstrukciji-Doma-omladine.html"
+    },
+    {
+      "id": "T05:S5",
+      "label": "Dom omladine Beograda — „Saopštenje Doma omladine Beograda“, 3. 10. 2022 (navod studenta)",
+      "kind": "zvanični sajt",
+      "url": "https://domomladine.org/saopstenje-doma-omladine-beograda/",
+      "team": "T05",
+      "canonical": "https://domomladine.org/saopstenje-doma-omladine-beograda"
+    },
+    {
+      "id": "T05:S6",
+      "label": "Studentski podnesak „Digitalni pasoš zgrade — Dom omladine Beograda“, verzija 1.0, 11. 10. 2026 (tabelarni PDF)",
+      "kind": "studentski podnesak",
+      "team": "T05",
+      "canonical": "T05:S6"
+    },
+    {
+      "id": "T05:S7",
+      "label": "Studentski podnesak „Dom omladine Beograd“ (opisni docx, 26. 10. 2026) — bez spiska izvora",
+      "kind": "studentski podnesak",
+      "team": "T05",
+      "canonical": "T05:S7"
+    },
+    {
+      "id": "T05:S8",
+      "label": "Arhitektonski fakultet Univerziteta u Beogradu (navod studenta, bez URL-a)",
+      "kind": "institucija",
+      "team": "T05",
+      "canonical": "T05:S8"
+    },
+    {
+      "id": "T05:S9",
+      "label": "Publikacija o energetskoj efikasnosti objekata u Beogradu (navod studenta, bez bibliografskog podatka)",
+      "kind": "publikacija",
+      "team": "T05",
+      "canonical": "T05:S9"
     },
     {
       "id": "T06:S1",
@@ -11668,6 +14048,60 @@
       "kind": "enciklopedija",
       "team": "T14",
       "canonical": "https://sr.wikipedia.org/sr-ec/%D0%9D%D0%B0%D1%98%D1%81%D1%82%D0%B0%D1%80%D0%B8%D1%98%D0%B0_%D0%BA%D1%83%D1%9B%D0%B0_%D1%83_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%83"
+    },
+    {
+      "id": "T15:S1",
+      "label": "DaNS br. 41 (2003), PDF Društva arhitekata Novog Sada (navod studenta)",
+      "kind": "časopis",
+      "url": "https://dans.org.rs/wp-content/uploads/2023/07/DANS-41-2003.pdf",
+      "team": "T15",
+      "canonical": "https://dans.org.rs/wp-content/uploads/2023/07/DANS-41-2003.pdf"
+    },
+    {
+      "id": "T15:S2",
+      "label": "Studentski podnesak „Osnovni podaci“ (docx, 26. 10. 2026) uz 6 fotografija sa terena",
+      "kind": "studentski podnesak",
+      "team": "T15",
+      "canonical": "T15:S2"
+    },
+    {
+      "id": "T15:S3",
+      "label": "RTS, emisija „Trezor“ — Takovska 10 (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.rts.rs/lat/tv/rts2/2095580/trezor.html",
+      "team": "T15",
+      "canonical": "https://www.rts.rs/lat/tv/rts2/2095580/trezor.html"
+    },
+    {
+      "id": "T15:S4",
+      "label": "Godišnjak grada Beograda LIX, S. Mihajlov (MGB PDF) (navod studenta; veza sa temom nejasna)",
+      "kind": "publikacija",
+      "url": "https://www.mgb.org.rs/public/files/yearbook_by_year_documents/document/s.mihajlov-djacka-trpeza-GodisnjakLIX.pdf",
+      "team": "T15",
+      "canonical": "https://www.mgb.org.rs/public/files/yearbook_by_year_documents/document/s.mihajlov-djacka-trpeza-GodisnjakLIX.pdf"
+    },
+    {
+      "id": "T15:S5",
+      "label": "Istorijski arhiv Beograda — pisarnica, projekti (navod studenta)",
+      "kind": "arhiv",
+      "url": "https://www.arhiv-beograda.org/rs/pisarnica/projekti",
+      "team": "T15",
+      "canonical": "https://www.arhiv-beograda.org/rs/pisarnica/projekti"
+    },
+    {
+      "id": "T15:S6",
+      "label": "RTS — galerija „Izložbe u holu RTS-a“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.rts.rs/lat/rts/galerija-rts/izlozbe-u-holu-rts-a/3137002/.html",
+      "team": "T15",
+      "canonical": "https://www.rts.rs/lat/rts/galerija-rts/izlozbe-u-holu-rts-a/3137002/.html"
+    },
+    {
+      "id": "T15:S7",
+      "label": "Studentski podnesak „Šta znamo o unutrašnjosti“ (docx, 26. 10. 2026)",
+      "kind": "studentski podnesak",
+      "team": "T15",
+      "canonical": "T15:S7"
     },
     {
       "id": "T17:S1",
@@ -11864,6 +14298,69 @@
       "label": "DUP Kalemegdan (1969), Urbanistički zavod Beograda",
       "team": "T22",
       "canonical": "https://www.urbel.com"
+    },
+    {
+      "id": "T23:S1",
+      "label": "Đurić-Zamolo, D. (1981). Graditelji Beograda 1815–1914. Beograd: Muzej grada Beograda (navod studenta)",
+      "kind": "knjiga",
+      "team": "T23",
+      "canonical": "T23:S1"
+    },
+    {
+      "id": "T23:S2",
+      "label": "Bogunović, S. G. (2005). Arhitektonska enciklopedija Beograda XIX i XX veka. Beograd: Beogradska knjiga (navod studenta)",
+      "kind": "knjiga",
+      "team": "T23",
+      "canonical": "T23:S2"
+    },
+    {
+      "id": "T23:S3",
+      "label": "Manević, Z. (1999). Novi vek srpske arhitekture. Beograd: Arhitektonski fakultet / Muzej arhitekture (navod studenta)",
+      "kind": "knjiga",
+      "team": "T23",
+      "canonical": "T23:S3"
+    },
+    {
+      "id": "T23:S4",
+      "label": "Radojičić, Z. & Miljković, D. (2004). Rekonstrukcija i dogradnja JDP-a u Beogradu. Arhitektura i urbanizam br. 14/15, str. 32–45 (navod studenta)",
+      "kind": "časopis",
+      "team": "T23",
+      "canonical": "T23:S4"
+    },
+    {
+      "id": "T23:S5",
+      "label": "Istorijski arhiv Beograda — Zbirna zbirka planova Ministarstva građevina, inv. br. 385, nacrti N. Krasnov 1927–1928; fototeka (navod studenta)",
+      "kind": "arhiv",
+      "team": "T23",
+      "canonical": "T23:S5"
+    },
+    {
+      "id": "T23:S6",
+      "label": "Muzej grada Beograda — zbirka fotografija (navod studenta)",
+      "kind": "arhiv",
+      "team": "T23",
+      "canonical": "T23:S6"
+    },
+    {
+      "id": "T23:S7",
+      "label": "Narodna biblioteka Srbije — digitalni arhiv (navod studenta)",
+      "kind": "arhiv",
+      "team": "T23",
+      "canonical": "T23:S7"
+    },
+    {
+      "id": "T23:S8",
+      "label": "Arhiv i fototeka Jugoslovenskog dramskog pozorišta (navod studenta)",
+      "kind": "arhiv",
+      "team": "T23",
+      "canonical": "T23:S8"
+    },
+    {
+      "id": "T23:S9",
+      "label": "Studentski podnesak „Identitet, materijali i hronologija namena“ (docx sa 16 priloga, 28. 10. 2026)",
+      "kind": "studentski podnesak",
+      "team": "T23",
+      "canonical": "T23:S9"
     },
     {
       "id": "T26:S1",
@@ -12089,6 +14586,93 @@
       "canonical": "T40:S5"
     },
     {
+      "id": "T44:S1",
+      "label": "Blic / Tanjug, 19. 1. 2014 — „Ovako će izgledati Beograd na vodi“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.blic.rs/vesti/beograd/ovako-ce-izgledati-beograd-na-vodi/bjvvc7q",
+      "team": "T44",
+      "canonical": "https://www.blic.rs/vesti/beograd/ovako-ce-izgledati-beograd-na-vodi/bjvvc7q"
+    },
+    {
+      "id": "T44:S2",
+      "label": "RTS, 2. 3. 2014 — „Beograd na vodi predstavljen u Dubaiju“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.rts.rs/lat/vesti/ekonomija/1536317/beograd-na-vodi-predstavljen-u-dubaiju.html",
+      "team": "T44",
+      "canonical": "https://www.rts.rs/lat/vesti/ekonomija/1536317/beograd-na-vodi-predstavljen-u-dubaiju.html"
+    },
+    {
+      "id": "T44:S3",
+      "label": "Gradnja / Tanjug, 7. 3. 2016 — „Draga, smanjio sam kulu!“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.gradnja.rs/draga-smanjio-sam-kulu-nova-visina-beograda-na-vodi-168-metara/",
+      "team": "T44",
+      "canonical": "https://www.gradnja.rs/draga-smanjio-sam-kulu-nova-visina-beograda-na-vodi-168-metara"
+    },
+    {
+      "id": "T44:S4",
+      "label": "RTS, 15. 4. 2016 — „Mali: Kula Beograda biće najviša u ovom delu Evrope“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.rts.rs/lat/vesti/drustvo/2283329/.html?print=true",
+      "team": "T44",
+      "canonical": "https://www.rts.rs/lat/vesti/drustvo/2283329/.html?print=true"
+    },
+    {
+      "id": "T44:S5",
+      "label": "Blic, 11. 11. 2017 — „Kula Beograd je po prvobitnom projektu trebalo da bude 52 metra viša…“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.blic.rs/vesti/beograd/kula-beograd-je-po-prvobitnom-projektu-trebalo-da-bude-52-metra-visa-i-drugacijeg/1hsyrrp",
+      "team": "T44",
+      "canonical": "https://www.blic.rs/vesti/beograd/kula-beograd-je-po-prvobitnom-projektu-trebalo-da-bude-52-metra-visa-i-drugacijeg/1hsyrrp"
+    },
+    {
+      "id": "T44:S6",
+      "label": "SOM — zvanična stranica projekta Kula Belgrade (navod studenta)",
+      "kind": "zvanični sajt projektanta",
+      "url": "https://www.som.com/projects/kula-belgrade/",
+      "team": "T44",
+      "canonical": "https://www.som.com/projects/kula-belgrade"
+    },
+    {
+      "id": "T44:S7",
+      "label": "Vlada Republike Srbije, 7. 2. 2019 — saopštenje o građevinskoj dozvoli (navod studenta)",
+      "kind": "zvanično saopštenje",
+      "url": "https://www.srbija.gov.rs/vest/363737/izdata-gradjevinska-dozvola-za-izgradnju-kule-beograd.php",
+      "team": "T44",
+      "canonical": "https://www.srbija.gov.rs/vest/363737/izdata-gradjevinska-dozvola-za-izgradnju-kule-beograd.php"
+    },
+    {
+      "id": "T44:S8",
+      "label": "RTS / Tanjug, 7. 2. 2019 — „Izdata građevinska dozvola za gradnju Kule Beograd“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.rts.rs/lat/vesti/drustvo/3412734/izdata-gradjevinska-dozvola-za-gradnju-kule-beograd.html",
+      "team": "T44",
+      "canonical": "https://www.rts.rs/lat/vesti/drustvo/3412734/izdata-gradjevinska-dozvola-za-gradnju-kule-beograd.html"
+    },
+    {
+      "id": "T44:S9",
+      "label": "Novosti, 5. 3. 2016 — „Kula samo 168 metara!“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.novosti.rs/vesti/beograd.74.html%3A594158-Kula-samo-168-metara",
+      "team": "T44",
+      "canonical": "https://www.novosti.rs/vesti/beograd.74.html%3A594158-Kula-samo-168-metara"
+    },
+    {
+      "id": "T44:S10",
+      "label": "Sajt tima „Dve kule Beograd“ (AI Studio aplikacija, početak, 27. 10. 2026)",
+      "kind": "studentska aplikacija",
+      "url": "https://dve-kule-beograd.ai.studio/",
+      "team": "T44",
+      "canonical": "https://dve-kule-beograd.ai.studio"
+    },
+    {
+      "id": "T44:S11",
+      "label": "Studentski podnesak „Dve kule Beograd — radna verzija istraživanja“ (PDF, 27. 10. 2026)",
+      "kind": "studentski podnesak",
+      "team": "T44",
+      "canonical": "T44:S11"
+    },
+    {
       "id": "T46:S1",
       "label": "Muzej grada Beograda — zbirka „Izgled hotela ‘Jugoslavija’ u Zemunu“ (pregled 462)",
       "kind": "muzej",
@@ -12159,6 +14743,188 @@
       "url": "https://www.rferl.org/a/serbia-hotel-jugoslavija-demolition-belgrade/33204798.html",
       "team": "T46",
       "canonical": "https://www.rferl.org/a/serbia-hotel-jugoslavija-demolition-belgrade/33204798.html"
+    },
+    {
+      "id": "T46:S10",
+      "label": "Prirodnjački muzej — konkursna dokumentacija „Blok 11 — Hotel Jugoslavija“, opšte karakteristike prostora (navod studenta)",
+      "kind": "konkursna dokumentacija",
+      "url": "https://prirodnjackimuzej.konkurs.rs/sr/3-opste-karakteristike-prostora",
+      "team": "T46",
+      "canonical": "https://prirodnjackimuzej.konkurs.rs/sr/3-opste-karakteristike-prostora"
+    },
+    {
+      "id": "T46:S11",
+      "label": "RTS — „Kompanija MV Investment kupila Hotel Jugoslaviju“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.rts.rs/lat/vesti/ekonomija/5395891/.html?print=true",
+      "team": "T46",
+      "canonical": "https://www.rts.rs/lat/vesti/ekonomija/5395891/.html?print=true"
+    },
+    {
+      "id": "T46:S12",
+      "label": "Birovia — „Rekonstrukcija i dogradnja hotela Jugoslavija, Beograd“ (projekat 2008–2010) (navod studenta)",
+      "kind": "autorski sajt",
+      "url": "https://birovia.rs/projects/rekonstrukcija-i-dogradnja-hotela-jugoslavija-beograd/",
+      "team": "T46",
+      "canonical": "https://birovia.rs/projects/rekonstrukcija-i-dogradnja-hotela-jugoslavija-beograd"
+    },
+    {
+      "id": "T46:S13",
+      "label": "N1 — „Poslednji obilazak hotela Jugoslavija pre nego što zauvek nestane“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://n1info.rs/vesti/hotel-jugoslavija-fotografije-iznutra/",
+      "team": "T46",
+      "canonical": "https://n1info.rs/vesti/hotel-jugoslavija-fotografije-iznutra"
+    },
+    {
+      "id": "T46:S14",
+      "label": "N1 — „Počelo rušenje hotela Jugoslavija“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://n1info.rs/vesti/pocelo-rusenje-hotela-jugoslavija/",
+      "team": "T46",
+      "canonical": "https://n1info.rs/vesti/pocelo-rusenje-hotela-jugoslavija"
+    },
+    {
+      "id": "T46:S15",
+      "label": "N1 — „U Hotelu Jugoslavija odsedali Elizabeta Druga, Ričard Nikson i Džimi Karter“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://n1info.rs/biznis/nekadasnji-simbol-istoimene-zemlje-u-hotelu-jugoslavija-odsedali-elizabeta-druga-ricard-nikson-i-dzimi-karter/",
+      "team": "T46",
+      "canonical": "https://n1info.rs/biznis/nekadasnji-simbol-istoimene-zemlje-u-hotelu-jugoslavija-odsedali-elizabeta-druga-ricard-nikson-i-dzimi-karter"
+    },
+    {
+      "id": "T47:S1",
+      "label": "Evropska komisija — dokumenti o „Building Digital Logbook“ (2023) (navod studenta, bez URL-a)",
+      "kind": "zvanični dokument",
+      "team": "T47",
+      "canonical": "T47:S1"
+    },
+    {
+      "id": "T47:S2",
+      "label": "Zvanični portal Beogradskog sajma, sajam.rs (navod studenta)",
+      "kind": "zvanični sajt",
+      "url": "https://sajam.rs/",
+      "team": "T47",
+      "canonical": "https://sajam.rs"
+    },
+    {
+      "id": "T47:S3",
+      "label": "Zavod za zaštitu spomenika kulture grada Beograda — Odluka o proglašenju Hale 1 za spomenik kulture (navod studenta)",
+      "kind": "zvanični dokument",
+      "team": "T47",
+      "canonical": "T47:S3"
+    },
+    {
+      "id": "T47:S4",
+      "label": "Monografija „50 godina Beogradskog sajma“ (2007) (navod studenta)",
+      "kind": "publikacija",
+      "team": "T47",
+      "canonical": "T47:S4"
+    },
+    {
+      "id": "T47:S5",
+      "label": "Arhiv Zavoda za zaštitu spomenika kulture grada Beograda (navod studenta)",
+      "kind": "arhiv",
+      "team": "T47",
+      "canonical": "T47:S5"
+    },
+    {
+      "id": "T47:S6",
+      "label": "Izložbeni katalozi Muzeja nauke i tehnike u Beogradu (navod studenta)",
+      "kind": "publikacija",
+      "team": "T47",
+      "canonical": "T47:S6"
+    },
+    {
+      "id": "T47:S7",
+      "label": "Časopis „Izgradnja“ — izdanje o primeni prednapregnutog betona u Jugoslaviji (1958) (navod studenta)",
+      "kind": "časopis",
+      "team": "T47",
+      "canonical": "T47:S7"
+    },
+    {
+      "id": "T47:S8",
+      "label": "Beobuild.rs — tekstovi o konstrukciji Sajma (navod studenta)",
+      "kind": "portal",
+      "team": "T47",
+      "canonical": "T47:S8"
+    },
+    {
+      "id": "T47:S9",
+      "label": "Građevinski fakultet Univerziteta u Beogradu — Katedra za beton i prednapregnuti beton (navod studenta)",
+      "kind": "institucija",
+      "team": "T47",
+      "canonical": "T47:S9"
+    },
+    {
+      "id": "T47:S10",
+      "label": "Časopis „Arhitektura Urbanizam“ br. 12/1961 (navod studenta)",
+      "kind": "časopis",
+      "team": "T47",
+      "canonical": "T47:S10"
+    },
+    {
+      "id": "T47:S11",
+      "label": "Tehnička arhivska građa Beogradskog sajma (navod studenta)",
+      "kind": "arhiv",
+      "team": "T47",
+      "canonical": "T47:S11"
+    },
+    {
+      "id": "T47:S12",
+      "label": "Zvanični tehnički list Beogradskog sajma (navod studenta)",
+      "kind": "zvanični dokument",
+      "team": "T47",
+      "canonical": "T47:S12"
+    },
+    {
+      "id": "T47:S13",
+      "label": "Gradnja.rs — tehničke specifikacije i merenja na Hali 1 (navod studenta)",
+      "kind": "portal",
+      "team": "T47",
+      "canonical": "T47:S13"
+    },
+    {
+      "id": "T47:S14",
+      "label": "Inženjerska komora Srbije (navod studenta)",
+      "kind": "institucija",
+      "team": "T47",
+      "canonical": "T47:S14"
+    },
+    {
+      "id": "T47:S15",
+      "label": "Akademija inženjerskih nauka Srbije — biografija i dela akademika Branka Žeželja (navod studenta)",
+      "kind": "institucija",
+      "team": "T47",
+      "canonical": "T47:S15"
+    },
+    {
+      "id": "T47:S16",
+      "label": "Serbia.com — „Kupola koja je zadivila svet“ (navod studenta)",
+      "kind": "portal",
+      "team": "T47",
+      "canonical": "T47:S16"
+    },
+    {
+      "id": "T47:S17",
+      "label": "Časopis „Gradnja“ — radovi o sanaciji i strukturi Hale 1 (2023/2024) (navod studenta)",
+      "kind": "časopis",
+      "team": "T47",
+      "canonical": "T47:S17"
+    },
+    {
+      "id": "T47:S18",
+      "label": "Mondo.rs — istorijski pregled gradnje Sajma (navod studenta)",
+      "kind": "mediji",
+      "team": "T47",
+      "canonical": "T47:S18"
+    },
+    {
+      "id": "T47:S19",
+      "label": "Studentski podnesak „Digitalni pasoš objekta: Hala 1 — Beogradski sajam“ (docx, 26. 10. 2026)",
+      "kind": "studentski podnesak",
+      "team": "T47",
+      "canonical": "T47:S19"
     },
     {
       "id": "T48:S1",
@@ -12287,6 +15053,29 @@
       "kind": "zvanični sajt instituta",
       "team": "T53",
       "canonical": "https://institutims.rs/ims/history.html"
+    },
+    {
+      "id": "T58:S1",
+      "label": "Arhitektonski fakultet Univerziteta u Beogradu — „Istorija fakulteta“ (navod studenta)",
+      "kind": "zvanični sajt",
+      "url": "https://www.arh.bg.ac.rs/istorija-fakulteta/",
+      "team": "T58",
+      "canonical": "https://www.arh.bg.ac.rs/istorija-fakulteta"
+    },
+    {
+      "id": "T58:S2",
+      "label": "B. Ibrajter-Gazibara, studija o zgradi Tehničkih fakulteta, časopis Nasleđe br. 7 (2006), SCIndeks PDF (navod studenta)",
+      "kind": "naučni rad",
+      "url": "https://scindeks-clanci.ceon.rs/data/pdf/1450-605X/2006/1450-605X0607069I.pdf",
+      "team": "T58",
+      "canonical": "https://scindeks-clanci.ceon.rs/data/pdf/1450-605X/2006/1450-605X0607069I.pdf"
+    },
+    {
+      "id": "T58:S3",
+      "label": "Studentski podnesak „Zgrada Tehničkih fakulteta“ (docx, 19. 10. 2026)",
+      "kind": "studentski podnesak",
+      "team": "T58",
+      "canonical": "T58:S3"
     },
     {
       "id": "T65:S1",
@@ -16903,6 +19692,1578 @@
         "kind": "pillar",
         "parent": "T01",
         "slot": 2
+      },
+      {
+        "id": "T58:fasade",
+        "kind": "wing",
+        "parent": "T58",
+        "slot": 0
+      },
+      {
+        "id": "T58:glavna-fasada",
+        "kind": "wing",
+        "parent": "T58",
+        "slot": 1
+      },
+      {
+        "id": "T58:identitet",
+        "kind": "wing",
+        "parent": "T58",
+        "slot": 2
+      },
+      {
+        "id": "T58:osnova",
+        "kind": "wing",
+        "parent": "T58",
+        "slot": 3
+      },
+      {
+        "id": "T58:fasade:0a56b51b9c16",
+        "kind": "bay",
+        "parent": "T58:fasade",
+        "slot": 0
+      },
+      {
+        "id": "T58:fasade:276cb03c6ae7",
+        "kind": "bay",
+        "parent": "T58:fasade",
+        "slot": 1
+      },
+      {
+        "id": "T58:fasade:6e86c2664d95",
+        "kind": "bay",
+        "parent": "T58:fasade",
+        "slot": 2
+      },
+      {
+        "id": "T58:fasade:920a6d27d682",
+        "kind": "bay",
+        "parent": "T58:fasade",
+        "slot": 3
+      },
+      {
+        "id": "T58:fasade:e3e10ed533f9",
+        "kind": "bay",
+        "parent": "T58:fasade",
+        "slot": 4
+      },
+      {
+        "id": "T58:glavna-fasada:0d97771bd138",
+        "kind": "bay",
+        "parent": "T58:glavna-fasada",
+        "slot": 0
+      },
+      {
+        "id": "T58:glavna-fasada:293498fa268e",
+        "kind": "bay",
+        "parent": "T58:glavna-fasada",
+        "slot": 1
+      },
+      {
+        "id": "T58:glavna-fasada:5a7868d37e7c",
+        "kind": "bay",
+        "parent": "T58:glavna-fasada",
+        "slot": 2
+      },
+      {
+        "id": "T58:glavna-fasada:75fa2f1e3e29",
+        "kind": "bay",
+        "parent": "T58:glavna-fasada",
+        "slot": 3
+      },
+      {
+        "id": "T58:glavna-fasada:932b5fbe2572",
+        "kind": "bay",
+        "parent": "T58:glavna-fasada",
+        "slot": 4
+      },
+      {
+        "id": "T58:glavna-fasada:a3363a218922",
+        "kind": "bay",
+        "parent": "T58:glavna-fasada",
+        "slot": 5
+      },
+      {
+        "id": "T58:glavna-fasada:e2a3e4e1cde5",
+        "kind": "bay",
+        "parent": "T58:glavna-fasada",
+        "slot": 6
+      },
+      {
+        "id": "T58:glavna-fasada:e610966d856d",
+        "kind": "bay",
+        "parent": "T58:glavna-fasada",
+        "slot": 7
+      },
+      {
+        "id": "T58:glavna-fasada:e82ada1a6f10",
+        "kind": "bay",
+        "parent": "T58:glavna-fasada",
+        "slot": 8
+      },
+      {
+        "id": "T58:identitet:4f0974afbbfc",
+        "kind": "bay",
+        "parent": "T58:identitet",
+        "slot": 0
+      },
+      {
+        "id": "T58:identitet:63790062a441",
+        "kind": "bay",
+        "parent": "T58:identitet",
+        "slot": 1
+      },
+      {
+        "id": "T58:identitet:a363e5370b54",
+        "kind": "bay",
+        "parent": "T58:identitet",
+        "slot": 2
+      },
+      {
+        "id": "T58:identitet:f0b688551690",
+        "kind": "bay",
+        "parent": "T58:identitet",
+        "slot": 3
+      },
+      {
+        "id": "T58:osnova:6a1324409673",
+        "kind": "bay",
+        "parent": "T58:osnova",
+        "slot": 0
+      },
+      {
+        "id": "T58:osnova:7a643bdbd1d6",
+        "kind": "bay",
+        "parent": "T58:osnova",
+        "slot": 1
+      },
+      {
+        "id": "T58:osnova:929b90c912f8",
+        "kind": "bay",
+        "parent": "T58:osnova",
+        "slot": 2
+      },
+      {
+        "id": "T58:osnova:9e928666ed96",
+        "kind": "bay",
+        "parent": "T58:osnova",
+        "slot": 3
+      },
+      {
+        "id": "T58:S1",
+        "kind": "pillar",
+        "parent": "T58",
+        "slot": 0
+      },
+      {
+        "id": "T58:S2",
+        "kind": "pillar",
+        "parent": "T58",
+        "slot": 1
+      },
+      {
+        "id": "T58:S3",
+        "kind": "pillar",
+        "parent": "T58",
+        "slot": 2
+      },
+      {
+        "id": "T44:hronologija",
+        "kind": "wing",
+        "parent": "T44",
+        "slot": 0
+      },
+      {
+        "id": "T44:izvedeno",
+        "kind": "wing",
+        "parent": "T44",
+        "slot": 1
+      },
+      {
+        "id": "T44:metod",
+        "kind": "wing",
+        "parent": "T44",
+        "slot": 2
+      },
+      {
+        "id": "T44:pitanja",
+        "kind": "wing",
+        "parent": "T44",
+        "slot": 3
+      },
+      {
+        "id": "T44:hronologija:226e66fdaff5",
+        "kind": "bay",
+        "parent": "T44:hronologija",
+        "slot": 0
+      },
+      {
+        "id": "T44:hronologija:32009ba486b3",
+        "kind": "bay",
+        "parent": "T44:hronologija",
+        "slot": 1
+      },
+      {
+        "id": "T44:hronologija:44d70423e0ff",
+        "kind": "bay",
+        "parent": "T44:hronologija",
+        "slot": 2
+      },
+      {
+        "id": "T44:hronologija:49d816586cf2",
+        "kind": "bay",
+        "parent": "T44:hronologija",
+        "slot": 3
+      },
+      {
+        "id": "T44:hronologija:76197b70211b",
+        "kind": "bay",
+        "parent": "T44:hronologija",
+        "slot": 4
+      },
+      {
+        "id": "T44:hronologija:8837f1fb5352",
+        "kind": "bay",
+        "parent": "T44:hronologija",
+        "slot": 5
+      },
+      {
+        "id": "T44:hronologija:e0a5ed1a49e5",
+        "kind": "bay",
+        "parent": "T44:hronologija",
+        "slot": 6
+      },
+      {
+        "id": "T44:izvedeno:07036263a91d",
+        "kind": "bay",
+        "parent": "T44:izvedeno",
+        "slot": 0
+      },
+      {
+        "id": "T44:izvedeno:267d413f72e7",
+        "kind": "bay",
+        "parent": "T44:izvedeno",
+        "slot": 1
+      },
+      {
+        "id": "T44:izvedeno:62274dffd711",
+        "kind": "bay",
+        "parent": "T44:izvedeno",
+        "slot": 2
+      },
+      {
+        "id": "T44:izvedeno:bf22d308a224",
+        "kind": "bay",
+        "parent": "T44:izvedeno",
+        "slot": 3
+      },
+      {
+        "id": "T44:izvedeno:c71ed7d3f0d0",
+        "kind": "bay",
+        "parent": "T44:izvedeno",
+        "slot": 4
+      },
+      {
+        "id": "T44:metod:2033ca7baa82",
+        "kind": "bay",
+        "parent": "T44:metod",
+        "slot": 0
+      },
+      {
+        "id": "T44:metod:5c06fe740984",
+        "kind": "bay",
+        "parent": "T44:metod",
+        "slot": 1
+      },
+      {
+        "id": "T44:metod:c5898c0af3a3",
+        "kind": "bay",
+        "parent": "T44:metod",
+        "slot": 2
+      },
+      {
+        "id": "T44:metod:f8fccf392644",
+        "kind": "bay",
+        "parent": "T44:metod",
+        "slot": 3
+      },
+      {
+        "id": "T44:pitanja:01dd9c9055ac",
+        "kind": "bay",
+        "parent": "T44:pitanja",
+        "slot": 0
+      },
+      {
+        "id": "T44:pitanja:050776c706a7",
+        "kind": "bay",
+        "parent": "T44:pitanja",
+        "slot": 1
+      },
+      {
+        "id": "T44:pitanja:2db1a1e01db0",
+        "kind": "bay",
+        "parent": "T44:pitanja",
+        "slot": 2
+      },
+      {
+        "id": "T44:pitanja:61b3975b153d",
+        "kind": "bay",
+        "parent": "T44:pitanja",
+        "slot": 3
+      },
+      {
+        "id": "T44:pitanja:66530bb536c8",
+        "kind": "bay",
+        "parent": "T44:pitanja",
+        "slot": 4
+      },
+      {
+        "id": "T44:pitanja:a6600e72f138",
+        "kind": "bay",
+        "parent": "T44:pitanja",
+        "slot": 5
+      },
+      {
+        "id": "T44:pitanja:e0eac2f39342",
+        "kind": "bay",
+        "parent": "T44:pitanja",
+        "slot": 6
+      },
+      {
+        "id": "T44:S1",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 0
+      },
+      {
+        "id": "T44:S10",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 1
+      },
+      {
+        "id": "T44:S11",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 2
+      },
+      {
+        "id": "T44:S2",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 3
+      },
+      {
+        "id": "T44:S3",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 4
+      },
+      {
+        "id": "T44:S4",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 5
+      },
+      {
+        "id": "T44:S5",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 6
+      },
+      {
+        "id": "T44:S6",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 7
+      },
+      {
+        "id": "T44:S7",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 8
+      },
+      {
+        "id": "T44:S8",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 9
+      },
+      {
+        "id": "T44:S9",
+        "kind": "pillar",
+        "parent": "T44",
+        "slot": 10
+      },
+      {
+        "id": "T47:geometrija",
+        "kind": "wing",
+        "parent": "T47",
+        "slot": 0
+      },
+      {
+        "id": "T47:identitet",
+        "kind": "wing",
+        "parent": "T47",
+        "slot": 1
+      },
+      {
+        "id": "T47:konstrukcija",
+        "kind": "wing",
+        "parent": "T47",
+        "slot": 2
+      },
+      {
+        "id": "T47:kupola",
+        "kind": "wing",
+        "parent": "T47",
+        "slot": 3
+      },
+      {
+        "id": "T47:materijali",
+        "kind": "wing",
+        "parent": "T47",
+        "slot": 4
+      },
+      {
+        "id": "T47:metod",
+        "kind": "wing",
+        "parent": "T47",
+        "slot": 5
+      },
+      {
+        "id": "T47:geometrija:121f00dc0ddb",
+        "kind": "bay",
+        "parent": "T47:geometrija",
+        "slot": 0
+      },
+      {
+        "id": "T47:geometrija:1305b798c2fe",
+        "kind": "bay",
+        "parent": "T47:geometrija",
+        "slot": 1
+      },
+      {
+        "id": "T47:geometrija:2985745e102e",
+        "kind": "bay",
+        "parent": "T47:geometrija",
+        "slot": 2
+      },
+      {
+        "id": "T47:geometrija:3d4be429f7ab",
+        "kind": "bay",
+        "parent": "T47:geometrija",
+        "slot": 3
+      },
+      {
+        "id": "T47:geometrija:4b112cfbba65",
+        "kind": "bay",
+        "parent": "T47:geometrija",
+        "slot": 4
+      },
+      {
+        "id": "T47:geometrija:6511c3e9592d",
+        "kind": "bay",
+        "parent": "T47:geometrija",
+        "slot": 5
+      },
+      {
+        "id": "T47:geometrija:70bb1ac4f1c9",
+        "kind": "bay",
+        "parent": "T47:geometrija",
+        "slot": 6
+      },
+      {
+        "id": "T47:geometrija:bd5317502afe",
+        "kind": "bay",
+        "parent": "T47:geometrija",
+        "slot": 7
+      },
+      {
+        "id": "T47:identitet:0691a9f16969",
+        "kind": "bay",
+        "parent": "T47:identitet",
+        "slot": 0
+      },
+      {
+        "id": "T47:identitet:0707ce8c8ad1",
+        "kind": "bay",
+        "parent": "T47:identitet",
+        "slot": 1
+      },
+      {
+        "id": "T47:identitet:1b26d65c4e61",
+        "kind": "bay",
+        "parent": "T47:identitet",
+        "slot": 2
+      },
+      {
+        "id": "T47:identitet:31604d774dc1",
+        "kind": "bay",
+        "parent": "T47:identitet",
+        "slot": 3
+      },
+      {
+        "id": "T47:identitet:628796d88803",
+        "kind": "bay",
+        "parent": "T47:identitet",
+        "slot": 4
+      },
+      {
+        "id": "T47:identitet:65b6594ff92c",
+        "kind": "bay",
+        "parent": "T47:identitet",
+        "slot": 5
+      },
+      {
+        "id": "T47:identitet:6f3bed419f8a",
+        "kind": "bay",
+        "parent": "T47:identitet",
+        "slot": 6
+      },
+      {
+        "id": "T47:identitet:937cf1a2af33",
+        "kind": "bay",
+        "parent": "T47:identitet",
+        "slot": 7
+      },
+      {
+        "id": "T47:identitet:bbf66dc09cc8",
+        "kind": "bay",
+        "parent": "T47:identitet",
+        "slot": 8
+      },
+      {
+        "id": "T47:konstrukcija:346592ba6463",
+        "kind": "bay",
+        "parent": "T47:konstrukcija",
+        "slot": 0
+      },
+      {
+        "id": "T47:konstrukcija:9ab0aac2bf53",
+        "kind": "bay",
+        "parent": "T47:konstrukcija",
+        "slot": 1
+      },
+      {
+        "id": "T47:konstrukcija:e90cebe756b7",
+        "kind": "bay",
+        "parent": "T47:konstrukcija",
+        "slot": 2
+      },
+      {
+        "id": "T47:konstrukcija:fe396dcdc514",
+        "kind": "bay",
+        "parent": "T47:konstrukcija",
+        "slot": 3
+      },
+      {
+        "id": "T47:kupola:56388b6f0836",
+        "kind": "bay",
+        "parent": "T47:kupola",
+        "slot": 0
+      },
+      {
+        "id": "T47:kupola:76e51d70c7dc",
+        "kind": "bay",
+        "parent": "T47:kupola",
+        "slot": 1
+      },
+      {
+        "id": "T47:kupola:80ec3153546a",
+        "kind": "bay",
+        "parent": "T47:kupola",
+        "slot": 2
+      },
+      {
+        "id": "T47:kupola:8e2c9da736d8",
+        "kind": "bay",
+        "parent": "T47:kupola",
+        "slot": 3
+      },
+      {
+        "id": "T47:kupola:e6208d6b8d89",
+        "kind": "bay",
+        "parent": "T47:kupola",
+        "slot": 4
+      },
+      {
+        "id": "T47:materijali:143305ce3eef",
+        "kind": "bay",
+        "parent": "T47:materijali",
+        "slot": 0
+      },
+      {
+        "id": "T47:materijali:470daa1f2ed6",
+        "kind": "bay",
+        "parent": "T47:materijali",
+        "slot": 1
+      },
+      {
+        "id": "T47:materijali:c1dd6a356b04",
+        "kind": "bay",
+        "parent": "T47:materijali",
+        "slot": 2
+      },
+      {
+        "id": "T47:metod:4635891a60e7",
+        "kind": "bay",
+        "parent": "T47:metod",
+        "slot": 0
+      },
+      {
+        "id": "T47:metod:618195e43708",
+        "kind": "bay",
+        "parent": "T47:metod",
+        "slot": 1
+      },
+      {
+        "id": "T47:S1",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 0
+      },
+      {
+        "id": "T47:S10",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 1
+      },
+      {
+        "id": "T47:S11",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 2
+      },
+      {
+        "id": "T47:S12",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 3
+      },
+      {
+        "id": "T47:S13",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 4
+      },
+      {
+        "id": "T47:S14",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 5
+      },
+      {
+        "id": "T47:S15",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 6
+      },
+      {
+        "id": "T47:S16",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 7
+      },
+      {
+        "id": "T47:S17",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 8
+      },
+      {
+        "id": "T47:S18",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 9
+      },
+      {
+        "id": "T47:S19",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 10
+      },
+      {
+        "id": "T47:S2",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 11
+      },
+      {
+        "id": "T47:S3",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 12
+      },
+      {
+        "id": "T47:S4",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 13
+      },
+      {
+        "id": "T47:S5",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 14
+      },
+      {
+        "id": "T47:S6",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 15
+      },
+      {
+        "id": "T47:S7",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 16
+      },
+      {
+        "id": "T47:S8",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 17
+      },
+      {
+        "id": "T47:S9",
+        "kind": "pillar",
+        "parent": "T47",
+        "slot": 18
+      },
+      {
+        "id": "T05:elementi",
+        "kind": "wing",
+        "parent": "T05",
+        "slot": 0
+      },
+      {
+        "id": "T05:instalacije",
+        "kind": "wing",
+        "parent": "T05",
+        "slot": 1
+      },
+      {
+        "id": "T05:metod",
+        "kind": "wing",
+        "parent": "T05",
+        "slot": 2
+      },
+      {
+        "id": "T05:osnovni",
+        "kind": "wing",
+        "parent": "T05",
+        "slot": 3
+      },
+      {
+        "id": "T05:prostori",
+        "kind": "wing",
+        "parent": "T05",
+        "slot": 4
+      },
+      {
+        "id": "T05:elementi:0707cdd63f37",
+        "kind": "bay",
+        "parent": "T05:elementi",
+        "slot": 0
+      },
+      {
+        "id": "T05:elementi:34eeb2be4a05",
+        "kind": "bay",
+        "parent": "T05:elementi",
+        "slot": 1
+      },
+      {
+        "id": "T05:elementi:80586e556443",
+        "kind": "bay",
+        "parent": "T05:elementi",
+        "slot": 2
+      },
+      {
+        "id": "T05:elementi:8859b84e50d4",
+        "kind": "bay",
+        "parent": "T05:elementi",
+        "slot": 3
+      },
+      {
+        "id": "T05:elementi:8bd7c44bf209",
+        "kind": "bay",
+        "parent": "T05:elementi",
+        "slot": 4
+      },
+      {
+        "id": "T05:elementi:d1f4ebcd9171",
+        "kind": "bay",
+        "parent": "T05:elementi",
+        "slot": 5
+      },
+      {
+        "id": "T05:elementi:f14ab1461136",
+        "kind": "bay",
+        "parent": "T05:elementi",
+        "slot": 6
+      },
+      {
+        "id": "T05:elementi:fdf4f03e4022",
+        "kind": "bay",
+        "parent": "T05:elementi",
+        "slot": 7
+      },
+      {
+        "id": "T05:instalacije:342ddf8a5d09",
+        "kind": "bay",
+        "parent": "T05:instalacije",
+        "slot": 0
+      },
+      {
+        "id": "T05:instalacije:36981e3906ec",
+        "kind": "bay",
+        "parent": "T05:instalacije",
+        "slot": 1
+      },
+      {
+        "id": "T05:instalacije:5df97b6ab294",
+        "kind": "bay",
+        "parent": "T05:instalacije",
+        "slot": 2
+      },
+      {
+        "id": "T05:instalacije:7415ac6cd7ef",
+        "kind": "bay",
+        "parent": "T05:instalacije",
+        "slot": 3
+      },
+      {
+        "id": "T05:instalacije:74c98234b979",
+        "kind": "bay",
+        "parent": "T05:instalacije",
+        "slot": 4
+      },
+      {
+        "id": "T05:instalacije:a107a24e6e62",
+        "kind": "bay",
+        "parent": "T05:instalacije",
+        "slot": 5
+      },
+      {
+        "id": "T05:instalacije:a1a850ad3ce7",
+        "kind": "bay",
+        "parent": "T05:instalacije",
+        "slot": 6
+      },
+      {
+        "id": "T05:metod:80a908b01585",
+        "kind": "bay",
+        "parent": "T05:metod",
+        "slot": 0
+      },
+      {
+        "id": "T05:metod:bd10f14e86f2",
+        "kind": "bay",
+        "parent": "T05:metod",
+        "slot": 1
+      },
+      {
+        "id": "T05:osnovni:2b002587f17f",
+        "kind": "bay",
+        "parent": "T05:osnovni",
+        "slot": 0
+      },
+      {
+        "id": "T05:osnovni:3312287295bd",
+        "kind": "bay",
+        "parent": "T05:osnovni",
+        "slot": 1
+      },
+      {
+        "id": "T05:osnovni:5e5fdcd0bb8a",
+        "kind": "bay",
+        "parent": "T05:osnovni",
+        "slot": 2
+      },
+      {
+        "id": "T05:osnovni:84462aceb557",
+        "kind": "bay",
+        "parent": "T05:osnovni",
+        "slot": 3
+      },
+      {
+        "id": "T05:osnovni:8de7065b0301",
+        "kind": "bay",
+        "parent": "T05:osnovni",
+        "slot": 4
+      },
+      {
+        "id": "T05:osnovni:b4be686f3be4",
+        "kind": "bay",
+        "parent": "T05:osnovni",
+        "slot": 5
+      },
+      {
+        "id": "T05:osnovni:c18b60e14c5b",
+        "kind": "bay",
+        "parent": "T05:osnovni",
+        "slot": 6
+      },
+      {
+        "id": "T05:prostori:47795026fd24",
+        "kind": "bay",
+        "parent": "T05:prostori",
+        "slot": 0
+      },
+      {
+        "id": "T05:prostori:8f11c05d6d4a",
+        "kind": "bay",
+        "parent": "T05:prostori",
+        "slot": 1
+      },
+      {
+        "id": "T05:prostori:95c135568a5a",
+        "kind": "bay",
+        "parent": "T05:prostori",
+        "slot": 2
+      },
+      {
+        "id": "T05:prostori:aa00345a5704",
+        "kind": "bay",
+        "parent": "T05:prostori",
+        "slot": 3
+      },
+      {
+        "id": "T05:prostori:ae116f202a19",
+        "kind": "bay",
+        "parent": "T05:prostori",
+        "slot": 4
+      },
+      {
+        "id": "T05:prostori:f651eb46cece",
+        "kind": "bay",
+        "parent": "T05:prostori",
+        "slot": 5
+      },
+      {
+        "id": "T05:S1",
+        "kind": "pillar",
+        "parent": "T05",
+        "slot": 0
+      },
+      {
+        "id": "T05:S2",
+        "kind": "pillar",
+        "parent": "T05",
+        "slot": 1
+      },
+      {
+        "id": "T05:S3",
+        "kind": "pillar",
+        "parent": "T05",
+        "slot": 2
+      },
+      {
+        "id": "T05:S4",
+        "kind": "pillar",
+        "parent": "T05",
+        "slot": 3
+      },
+      {
+        "id": "T05:S5",
+        "kind": "pillar",
+        "parent": "T05",
+        "slot": 4
+      },
+      {
+        "id": "T05:S6",
+        "kind": "pillar",
+        "parent": "T05",
+        "slot": 5
+      },
+      {
+        "id": "T05:arhitektura",
+        "kind": "wing",
+        "parent": "T05",
+        "slot": 5
+      },
+      {
+        "id": "T05:kultura",
+        "kind": "wing",
+        "parent": "T05",
+        "slot": 6
+      },
+      {
+        "id": "T05:arhitektura:088037ed4049",
+        "kind": "bay",
+        "parent": "T05:arhitektura",
+        "slot": 0
+      },
+      {
+        "id": "T05:arhitektura:2ec55df4c5a9",
+        "kind": "bay",
+        "parent": "T05:arhitektura",
+        "slot": 1
+      },
+      {
+        "id": "T05:arhitektura:45bdb10f58ab",
+        "kind": "bay",
+        "parent": "T05:arhitektura",
+        "slot": 2
+      },
+      {
+        "id": "T05:arhitektura:55f2fa03cefa",
+        "kind": "bay",
+        "parent": "T05:arhitektura",
+        "slot": 3
+      },
+      {
+        "id": "T05:arhitektura:a96a5b9b737a",
+        "kind": "bay",
+        "parent": "T05:arhitektura",
+        "slot": 4
+      },
+      {
+        "id": "T05:arhitektura:a9aff8683eda",
+        "kind": "bay",
+        "parent": "T05:arhitektura",
+        "slot": 5
+      },
+      {
+        "id": "T05:arhitektura:d392330e2c4e",
+        "kind": "bay",
+        "parent": "T05:arhitektura",
+        "slot": 6
+      },
+      {
+        "id": "T05:arhitektura:f8018d76c92f",
+        "kind": "bay",
+        "parent": "T05:arhitektura",
+        "slot": 7
+      },
+      {
+        "id": "T05:kultura:629efdabba89",
+        "kind": "bay",
+        "parent": "T05:kultura",
+        "slot": 0
+      },
+      {
+        "id": "T05:kultura:67a78fcc39b0",
+        "kind": "bay",
+        "parent": "T05:kultura",
+        "slot": 1
+      },
+      {
+        "id": "T05:S7",
+        "kind": "pillar",
+        "parent": "T05",
+        "slot": 6
+      },
+      {
+        "id": "T05:S8",
+        "kind": "pillar",
+        "parent": "T05",
+        "slot": 7
+      },
+      {
+        "id": "T05:S9",
+        "kind": "pillar",
+        "parent": "T05",
+        "slot": 8
+      },
+      {
+        "id": "T46:lokacija:8db27700f0a2",
+        "kind": "bay",
+        "parent": "T46:lokacija",
+        "slot": 3
+      },
+      {
+        "id": "T46:lokacija:e41718b8ed90",
+        "kind": "bay",
+        "parent": "T46:lokacija",
+        "slot": 4
+      },
+      {
+        "id": "T46:lokacija:eacb4e282ff2",
+        "kind": "bay",
+        "parent": "T46:lokacija",
+        "slot": 5
+      },
+      {
+        "id": "T46:propadanje:13bd97b447a3",
+        "kind": "bay",
+        "parent": "T46:propadanje",
+        "slot": 4
+      },
+      {
+        "id": "T46:propadanje:161363c057eb",
+        "kind": "bay",
+        "parent": "T46:propadanje",
+        "slot": 5
+      },
+      {
+        "id": "T46:propadanje:acc8f0ef7d5f",
+        "kind": "bay",
+        "parent": "T46:propadanje",
+        "slot": 6
+      },
+      {
+        "id": "T46:propadanje:f3327fdd0b27",
+        "kind": "bay",
+        "parent": "T46:propadanje",
+        "slot": 7
+      },
+      {
+        "id": "T46:rusenje:0b691a596bd4",
+        "kind": "bay",
+        "parent": "T46:rusenje",
+        "slot": 3
+      },
+      {
+        "id": "T46:rusenje:268bea2f3283",
+        "kind": "bay",
+        "parent": "T46:rusenje",
+        "slot": 4
+      },
+      {
+        "id": "T46:rusenje:4657fe1272b4",
+        "kind": "bay",
+        "parent": "T46:rusenje",
+        "slot": 5
+      },
+      {
+        "id": "T46:rusenje:64de6db60422",
+        "kind": "bay",
+        "parent": "T46:rusenje",
+        "slot": 6
+      },
+      {
+        "id": "T46:simbol:51bbbc4d083b",
+        "kind": "bay",
+        "parent": "T46:simbol",
+        "slot": 3
+      },
+      {
+        "id": "T46:simbol:9ebf2962c314",
+        "kind": "bay",
+        "parent": "T46:simbol",
+        "slot": 4
+      },
+      {
+        "id": "T46:simbol:a28f37586609",
+        "kind": "bay",
+        "parent": "T46:simbol",
+        "slot": 5
+      },
+      {
+        "id": "T46:simbol:f0becf8cce01",
+        "kind": "bay",
+        "parent": "T46:simbol",
+        "slot": 6
+      },
+      {
+        "id": "T46:urbanizam:051370ea66fe",
+        "kind": "bay",
+        "parent": "T46:urbanizam",
+        "slot": 4
+      },
+      {
+        "id": "T46:urbanizam:07e2e3e70dfc",
+        "kind": "bay",
+        "parent": "T46:urbanizam",
+        "slot": 5
+      },
+      {
+        "id": "T46:urbanizam:22a5e0a31d78",
+        "kind": "bay",
+        "parent": "T46:urbanizam",
+        "slot": 6
+      },
+      {
+        "id": "T46:urbanizam:6f48abb336b7",
+        "kind": "bay",
+        "parent": "T46:urbanizam",
+        "slot": 7
+      },
+      {
+        "id": "T46:urbanizam:d3b4736fd550",
+        "kind": "bay",
+        "parent": "T46:urbanizam",
+        "slot": 8
+      },
+      {
+        "id": "T46:urbanizam:e8632efa7f52",
+        "kind": "bay",
+        "parent": "T46:urbanizam",
+        "slot": 9
+      },
+      {
+        "id": "T46:S10",
+        "kind": "pillar",
+        "parent": "T46",
+        "slot": 9
+      },
+      {
+        "id": "T46:S11",
+        "kind": "pillar",
+        "parent": "T46",
+        "slot": 10
+      },
+      {
+        "id": "T46:S12",
+        "kind": "pillar",
+        "parent": "T46",
+        "slot": 11
+      },
+      {
+        "id": "T46:S13",
+        "kind": "pillar",
+        "parent": "T46",
+        "slot": 12
+      },
+      {
+        "id": "T46:S14",
+        "kind": "pillar",
+        "parent": "T46",
+        "slot": 13
+      },
+      {
+        "id": "T46:S15",
+        "kind": "pillar",
+        "parent": "T46",
+        "slot": 14
+      },
+      {
+        "id": "T15:osnovni",
+        "kind": "wing",
+        "parent": "T15",
+        "slot": 0
+      },
+      {
+        "id": "T15:osnovni:52eb590a5b06",
+        "kind": "bay",
+        "parent": "T15:osnovni",
+        "slot": 0
+      },
+      {
+        "id": "T15:osnovni:654dae8e5242",
+        "kind": "bay",
+        "parent": "T15:osnovni",
+        "slot": 1
+      },
+      {
+        "id": "T15:osnovni:7b4d750bff10",
+        "kind": "bay",
+        "parent": "T15:osnovni",
+        "slot": 2
+      },
+      {
+        "id": "T15:osnovni:7b63472f9d11",
+        "kind": "bay",
+        "parent": "T15:osnovni",
+        "slot": 3
+      },
+      {
+        "id": "T15:osnovni:7cfc4302e518",
+        "kind": "bay",
+        "parent": "T15:osnovni",
+        "slot": 4
+      },
+      {
+        "id": "T15:osnovni:a0ea6fc941da",
+        "kind": "bay",
+        "parent": "T15:osnovni",
+        "slot": 5
+      },
+      {
+        "id": "T15:osnovni:cff06ba98f51",
+        "kind": "bay",
+        "parent": "T15:osnovni",
+        "slot": 6
+      },
+      {
+        "id": "T15:osnovni:eed3b010e453",
+        "kind": "bay",
+        "parent": "T15:osnovni",
+        "slot": 7
+      },
+      {
+        "id": "T15:S1",
+        "kind": "pillar",
+        "parent": "T15",
+        "slot": 0
+      },
+      {
+        "id": "T15:S2",
+        "kind": "pillar",
+        "parent": "T15",
+        "slot": 1
+      },
+      {
+        "id": "T15:unutrasnjost",
+        "kind": "wing",
+        "parent": "T15",
+        "slot": 1
+      },
+      {
+        "id": "T15:unutrasnjost:19bc7c55359b",
+        "kind": "bay",
+        "parent": "T15:unutrasnjost",
+        "slot": 0
+      },
+      {
+        "id": "T15:unutrasnjost:2c393e3f1385",
+        "kind": "bay",
+        "parent": "T15:unutrasnjost",
+        "slot": 1
+      },
+      {
+        "id": "T15:unutrasnjost:38bfbf19bb91",
+        "kind": "bay",
+        "parent": "T15:unutrasnjost",
+        "slot": 2
+      },
+      {
+        "id": "T15:unutrasnjost:56514cb826e3",
+        "kind": "bay",
+        "parent": "T15:unutrasnjost",
+        "slot": 3
+      },
+      {
+        "id": "T15:unutrasnjost:585f9bc0b5df",
+        "kind": "bay",
+        "parent": "T15:unutrasnjost",
+        "slot": 4
+      },
+      {
+        "id": "T15:unutrasnjost:9f2bc7e58e22",
+        "kind": "bay",
+        "parent": "T15:unutrasnjost",
+        "slot": 5
+      },
+      {
+        "id": "T15:unutrasnjost:b58bcc60c29e",
+        "kind": "bay",
+        "parent": "T15:unutrasnjost",
+        "slot": 6
+      },
+      {
+        "id": "T15:unutrasnjost:e4031c3cfbd9",
+        "kind": "bay",
+        "parent": "T15:unutrasnjost",
+        "slot": 7
+      },
+      {
+        "id": "T15:unutrasnjost:ed9b4e87f0ba",
+        "kind": "bay",
+        "parent": "T15:unutrasnjost",
+        "slot": 8
+      },
+      {
+        "id": "T15:S3",
+        "kind": "pillar",
+        "parent": "T15",
+        "slot": 2
+      },
+      {
+        "id": "T15:S4",
+        "kind": "pillar",
+        "parent": "T15",
+        "slot": 3
+      },
+      {
+        "id": "T15:S5",
+        "kind": "pillar",
+        "parent": "T15",
+        "slot": 4
+      },
+      {
+        "id": "T15:S6",
+        "kind": "pillar",
+        "parent": "T15",
+        "slot": 5
+      },
+      {
+        "id": "T15:S7",
+        "kind": "pillar",
+        "parent": "T15",
+        "slot": 6
+      },
+      {
+        "id": "T23:epohe",
+        "kind": "wing",
+        "parent": "T23",
+        "slot": 0
+      },
+      {
+        "id": "T23:gradja",
+        "kind": "wing",
+        "parent": "T23",
+        "slot": 1
+      },
+      {
+        "id": "T23:materijali",
+        "kind": "wing",
+        "parent": "T23",
+        "slot": 2
+      },
+      {
+        "id": "T23:epohe:25b5bf08fd6f",
+        "kind": "bay",
+        "parent": "T23:epohe",
+        "slot": 0
+      },
+      {
+        "id": "T23:epohe:7d78abf41a73",
+        "kind": "bay",
+        "parent": "T23:epohe",
+        "slot": 1
+      },
+      {
+        "id": "T23:epohe:92111d0b8fa9",
+        "kind": "bay",
+        "parent": "T23:epohe",
+        "slot": 2
+      },
+      {
+        "id": "T23:epohe:c7b547feae60",
+        "kind": "bay",
+        "parent": "T23:epohe",
+        "slot": 3
+      },
+      {
+        "id": "T23:epohe:e4d04f9c8897",
+        "kind": "bay",
+        "parent": "T23:epohe",
+        "slot": 4
+      },
+      {
+        "id": "T23:epohe:e86c25bcdaa9",
+        "kind": "bay",
+        "parent": "T23:epohe",
+        "slot": 5
+      },
+      {
+        "id": "T23:epohe:f19423df35e0",
+        "kind": "bay",
+        "parent": "T23:epohe",
+        "slot": 6
+      },
+      {
+        "id": "T23:gradja:31316e1a7b3c",
+        "kind": "bay",
+        "parent": "T23:gradja",
+        "slot": 0
+      },
+      {
+        "id": "T23:gradja:6d969c0dd841",
+        "kind": "bay",
+        "parent": "T23:gradja",
+        "slot": 1
+      },
+      {
+        "id": "T23:gradja:a7204ffc26fe",
+        "kind": "bay",
+        "parent": "T23:gradja",
+        "slot": 2
+      },
+      {
+        "id": "T23:gradja:bce61a7d0cec",
+        "kind": "bay",
+        "parent": "T23:gradja",
+        "slot": 3
+      },
+      {
+        "id": "T23:gradja:eec07c63aa73",
+        "kind": "bay",
+        "parent": "T23:gradja",
+        "slot": 4
+      },
+      {
+        "id": "T23:materijali:1d82aaa31718",
+        "kind": "bay",
+        "parent": "T23:materijali",
+        "slot": 0
+      },
+      {
+        "id": "T23:materijali:242eb2913555",
+        "kind": "bay",
+        "parent": "T23:materijali",
+        "slot": 1
+      },
+      {
+        "id": "T23:materijali:5b1e0e919cec",
+        "kind": "bay",
+        "parent": "T23:materijali",
+        "slot": 2
+      },
+      {
+        "id": "T23:materijali:95e5490873d9",
+        "kind": "bay",
+        "parent": "T23:materijali",
+        "slot": 3
+      },
+      {
+        "id": "T23:materijali:cc059f29aa86",
+        "kind": "bay",
+        "parent": "T23:materijali",
+        "slot": 4
+      },
+      {
+        "id": "T23:materijali:e2da5e2b438d",
+        "kind": "bay",
+        "parent": "T23:materijali",
+        "slot": 5
+      },
+      {
+        "id": "T23:S1",
+        "kind": "pillar",
+        "parent": "T23",
+        "slot": 0
+      },
+      {
+        "id": "T23:S2",
+        "kind": "pillar",
+        "parent": "T23",
+        "slot": 1
+      },
+      {
+        "id": "T23:S3",
+        "kind": "pillar",
+        "parent": "T23",
+        "slot": 2
+      },
+      {
+        "id": "T23:S4",
+        "kind": "pillar",
+        "parent": "T23",
+        "slot": 3
+      },
+      {
+        "id": "T23:S5",
+        "kind": "pillar",
+        "parent": "T23",
+        "slot": 4
+      },
+      {
+        "id": "T23:S6",
+        "kind": "pillar",
+        "parent": "T23",
+        "slot": 5
+      },
+      {
+        "id": "T23:S7",
+        "kind": "pillar",
+        "parent": "T23",
+        "slot": 6
+      },
+      {
+        "id": "T23:S8",
+        "kind": "pillar",
+        "parent": "T23",
+        "slot": 7
+      },
+      {
+        "id": "T23:S9",
+        "kind": "pillar",
+        "parent": "T23",
+        "slot": 8
       }
     ]
   },
@@ -16920,8 +21281,8 @@
     "places": [
       {
         "id": "B01ffbf6e",
-        "x": -71.703,
-        "z": 18.418,
+        "x": -73.24,
+        "z": 15.32,
         "anchor": [
           -92.567,
           26.841
@@ -16931,19 +21292,19 @@
       },
       {
         "id": "B0671278c",
-        "x": 25.311,
-        "z": 67.525,
+        "x": 11.974,
+        "z": 60.413,
         "anchor": [
           16.149,
           61.228
         ],
-        "nudge": 278,
+        "nudge": 106,
         "radius": 1.545
       },
       {
         "id": "B0dffad8d",
-        "x": -63.632,
-        "z": -36.921,
+        "x": -52.843,
+        "z": -40.699,
         "anchor": [
           -65.43,
           -59.349
@@ -16953,162 +21314,162 @@
       },
       {
         "id": "B14027bbe",
-        "x": -1.78,
-        "z": 75.105,
+        "x": 12.245,
+        "z": 85.004,
         "anchor": [
           -4.432,
           69.899
         ],
-        "nudge": 146,
+        "nudge": 563,
         "radius": 5.66
       },
       {
         "id": "B1df14ea1",
-        "x": 12.536,
-        "z": 21.504,
+        "x": 10.71,
+        "z": 18.859,
         "anchor": [
           22.742,
           24.49
         ],
-        "nudge": 266,
+        "nudge": 332,
         "radius": 1.545
       },
       {
         "id": "B21720f35",
-        "x": -63.806,
-        "z": 8.717,
+        "x": -54.312,
+        "z": -16.322,
         "anchor": [
           -56.008,
           6.114
         ],
-        "nudge": 206,
+        "nudge": 563,
         "radius": 7.55
       },
       {
         "id": "B25fc5bcf",
-        "x": 39.585,
-        "z": -8.014,
+        "x": 42.472,
+        "z": -8.791,
         "anchor": [
           37.587,
           4.898
         ],
-        "nudge": 327,
+        "nudge": 363,
         "radius": 6.945
       },
       {
         "id": "B25fc772a",
-        "x": 61.736,
-        "z": -53.842,
+        "x": 71.315,
+        "z": -39.162,
         "anchor": [
           58.444,
           -37.902
         ],
-        "nudge": 407,
+        "nudge": 323,
         "radius": 13.15
       },
       {
         "id": "B2a7ecb59",
-        "x": -81.34,
-        "z": 8.104,
+        "x": -80.828,
+        "z": 6.474,
         "anchor": [
           -102.666,
           1.059
         ],
-        "nudge": 562,
+        "nudge": 563,
         "radius": 6.945
       },
       {
         "id": "B2ceb56a4",
-        "x": 30.305,
-        "z": 67.288,
+        "x": 29.992,
+        "z": 69.658,
         "anchor": [
           39.924,
           50.49
         ],
-        "nudge": 484,
+        "nudge": 540,
         "radius": 1.545
       },
       {
         "id": "B3b4c7fb4",
-        "x": 0.977,
-        "z": -31.159,
+        "x": -1.113,
+        "z": -30.087,
         "anchor": [
           9.306,
           -34.202
         ],
-        "nudge": 222,
+        "nudge": 280,
         "radius": 7.55
       },
       {
         "id": "B41952daf",
-        "x": 73.239,
-        "z": 47.577,
+        "x": 67.695,
+        "z": 15.967,
         "anchor": [
           55.134,
           34.634
         ],
-        "nudge": 556,
-        "radius": 1.545
+        "nudge": 562,
+        "radius": 7.55
       },
       {
         "id": "B4d2fca52",
-        "x": 35.856,
-        "z": 86.425,
+        "x": 41.53,
+        "z": 88.052,
         "anchor": [
           44.806,
           65.792
         ],
-        "nudge": 562,
+        "nudge": 563,
         "radius": 14.201
       },
       {
         "id": "B4f2be009",
-        "x": 24.925,
-        "z": -26.642,
+        "x": 23.256,
+        "z": -30.031,
         "anchor": [
           21.719,
           -29.04
         ],
-        "nudge": 100,
+        "nudge": 46,
         "radius": 13.15
       },
       {
         "id": "B530102bb",
-        "x": 25.272,
-        "z": 17.071,
+        "x": 25.876,
+        "z": 15.903,
         "anchor": [
           36.64,
           25.826
         ],
-        "nudge": 359,
+        "nudge": 366,
         "radius": 7.55
       },
       {
         "id": "B655d6f70",
-        "x": 22.609,
-        "z": 63.319,
+        "x": 20.59,
+        "z": 58.696,
         "anchor": [
           28.111,
           53.434
         ],
-        "nudge": 283,
+        "nudge": 229,
         "radius": 1.545
       },
       {
         "id": "B6b092149",
-        "x": 13.013,
-        "z": 0.215,
+        "x": 15.243,
+        "z": -1.986,
         "anchor": [
           20.531,
           -1.336
         ],
-        "nudge": 192,
+        "nudge": 133,
         "radius": 1.545
       },
       {
         "id": "B721111bb",
-        "x": 4.739,
-        "z": -14.023,
+        "x": 5.132,
+        "z": -13.692,
         "anchor": [
           19.409,
           -31.083
@@ -17118,118 +21479,118 @@
       },
       {
         "id": "B75d37fcb",
-        "x": 12.25,
-        "z": -47.457,
+        "x": 6.71,
+        "z": -47.917,
         "anchor": [
           19.806,
           -31.58
         ],
-        "nudge": 440,
+        "nudge": 523,
         "radius": 7.55
       },
       {
         "id": "B7a65f480",
-        "x": -22.98,
-        "z": 63.076,
+        "x": -28.509,
+        "z": 46.288,
         "anchor": [
           -26.405,
           57.05
         ],
-        "nudge": 173,
+        "nudge": 274,
         "radius": 7.55
       },
       {
         "id": "B7efb8894",
-        "x": 36.179,
-        "z": -48.258,
+        "x": 46.575,
+        "z": -37.096,
         "anchor": [
           24.436,
           -33.084
         ],
-        "nudge": 480,
+        "nudge": 562,
         "radius": 7.55
       },
       {
         "id": "B88cffac1",
-        "x": 61.437,
-        "z": 20.266,
+        "x": 47.183,
+        "z": 45.35,
         "anchor": [
           42.009,
           31.615
         ],
-        "nudge": 562,
+        "nudge": 367,
         "radius": 24.05
       },
       {
         "id": "B8b81c0c5",
-        "x": 40.905,
-        "z": -18.873,
+        "x": 38.4,
+        "z": -18.981,
         "anchor": [
           36.918,
           -21.05
         ],
-        "nudge": 114,
+        "nudge": 64,
         "radius": 1.545
       },
       {
         "id": "B8c4db47b",
-        "x": -51.779,
-        "z": 9.964,
+        "x": -18.375,
+        "z": 25.272,
         "anchor": [
           -29.691,
           14.249
         ],
-        "nudge": 563,
+        "nudge": 395,
         "radius": 1.545
       },
       {
         "id": "B9e4c8453",
-        "x": 14.608,
-        "z": -9.303,
+        "x": 15.576,
+        "z": -10.443,
         "anchor": [
           0,
           -20.038
         ],
-        "nudge": 453,
+        "nudge": 457,
         "radius": 1.545
       },
       {
         "id": "Ba8b77242",
-        "x": 23.492,
-        "z": -2.922,
+        "x": 25.764,
+        "z": -6.468,
         "anchor": [
           23.689,
           -9.351
         ],
-        "nudge": 161,
+        "nudge": 89,
         "radius": 6.945
       },
       {
         "id": "Badf7e17e",
-        "x": -48.509,
-        "z": -1.171,
+        "x": -35.394,
+        "z": -24.125,
         "anchor": [
           -40.825,
           -22.044
         ],
-        "nudge": 556,
+        "nudge": 145,
         "radius": 7.55
       },
       {
         "id": "Bae8506cc",
-        "x": 29.918,
-        "z": 5.931,
+        "x": 24.508,
+        "z": 4.392,
         "anchor": [
           23.058,
           1.781
         ],
-        "nudge": 200,
+        "nudge": 75,
         "radius": 1.545
       },
       {
         "id": "Bb21a1978",
-        "x": 63.281,
-        "z": 65.17,
+        "x": 88.363,
+        "z": 39.869,
         "anchor": [
           66.06,
           42.842
@@ -17239,151 +21600,151 @@
       },
       {
         "id": "Bb5a79c43",
-        "x": 18.886,
-        "z": 7,
+        "x": 19.813,
+        "z": 2.698,
         "anchor": [
           20.531,
           -1.336
         ],
-        "nudge": 212,
+        "nudge": 102,
         "radius": 1.545
       },
       {
         "id": "Bb81ca622",
-        "x": 57.115,
-        "z": -15.884,
+        "x": 59.106,
+        "z": -3.236,
         "anchor": [
           43.18,
           -19.13
         ],
-        "nudge": 358,
+        "nudge": 563,
         "radius": 7.55
       },
       {
         "id": "Bba876e95",
-        "x": 46.37,
-        "z": -20.268,
+        "x": 43.43,
+        "z": -19.687,
         "anchor": [
           45.292,
           -20.326
         ],
-        "nudge": 27,
+        "nudge": 49,
         "radius": 1.545
       },
       {
         "id": "Bbb2e5c1e",
-        "x": -0.745,
-        "z": 25.96,
+        "x": -2.057,
+        "z": 21.755,
         "anchor": [
           1.579,
           26.717
         ],
-        "nudge": 61,
+        "nudge": 154,
         "radius": 7.55
       },
       {
         "id": "Bbe3e7124",
-        "x": -18.071,
-        "z": 45.742,
+        "x": -13.589,
+        "z": 35.848,
         "anchor": [
           -14.792,
           54.127
         ],
-        "nudge": 225,
-        "radius": 1.545
+        "nudge": 458,
+        "radius": 7.55
       },
       {
         "id": "Bca96d908",
-        "x": -83.621,
-        "z": 31.698,
+        "x": -80.711,
+        "z": 32.813,
         "anchor": [
           -90.439,
           46.518
         ],
-        "nudge": 408,
+        "nudge": 420,
         "radius": 13.15
       },
       {
         "id": "Bce379d13",
-        "x": 49.828,
-        "z": -32.579,
+        "x": 55.076,
+        "z": -20.992,
         "anchor": [
           53.582,
           -30.696
         ],
-        "nudge": 105,
+        "nudge": 245,
         "radius": 7.55
       },
       {
         "id": "Bce3fd2f1",
-        "x": -43.716,
-        "z": 36.136,
+        "x": -44.19,
+        "z": 16.128,
         "anchor": [
           -59.301,
           23.575
         ],
-        "nudge": 500,
+        "nudge": 421,
         "radius": 21.897
       },
       {
         "id": "Bd18bf80b",
-        "x": 34.244,
-        "z": 1.636,
+        "x": 30.199,
+        "z": 5.138,
         "anchor": [
           31.902,
           6.234
         ],
-        "nudge": 129,
+        "nudge": 51,
         "radius": 1.545
       },
       {
         "id": "Bda203afb",
-        "x": 18.005,
-        "z": 33.758,
+        "x": 14.235,
+        "z": 29.884,
         "anchor": [
           22.742,
           24.49
         ],
-        "nudge": 260,
+        "nudge": 252,
         "radius": 7.55
       },
       {
         "id": "Be291aa43",
-        "x": 42.44,
-        "z": -23.63,
+        "x": 42.588,
+        "z": -24.614,
         "anchor": [
           36.918,
           -21.05
         ],
-        "nudge": 152,
+        "nudge": 167,
         "radius": 1.545
       },
       {
         "id": "Be3448d6e",
-        "x": 34.833,
-        "z": 6.847,
+        "x": 42.801,
+        "z": 9.192,
         "anchor": [
           36.956,
           8.906
         ],
-        "nudge": 74,
-        "radius": 1.545
+        "nudge": 146,
+        "radius": 7.55
       },
       {
         "id": "Be38a2b04",
-        "x": 27.603,
-        "z": 63.082,
+        "x": 14.561,
+        "z": 48.044,
         "anchor": [
           36.956,
           45.864
         ],
-        "nudge": 490,
-        "radius": 1.545
+        "nudge": 563,
+        "radius": 7.55
       },
       {
         "id": "Beb7b8b9c",
-        "x": 8.784,
-        "z": 11.228,
+        "x": 10.24,
+        "z": 7.954,
         "anchor": [
           30.007,
           18.702
@@ -17393,36 +21754,36 @@
       },
       {
         "id": "Bedda6bf8",
-        "x": -0.122,
-        "z": 51.719,
+        "x": -10.943,
+        "z": 69.789,
         "anchor": [
           -12.86,
           56.914
         ],
-        "nudge": 344,
-        "radius": 14.201
+        "nudge": 325,
+        "radius": 17.668
       },
       {
         "id": "Bf86ee95f",
-        "x": 14.273,
-        "z": 72.796,
+        "x": 18.395,
+        "z": 70.091,
         "anchor": [
           -2.64,
           63.164
         ],
-        "nudge": 487,
+        "nudge": 554,
         "radius": 7.55
       }
     ],
     "metrics": {
       "overlaps": 0,
-      "minGap": 1.909,
-      "medianGap": 2.83,
-      "maxGap": 23.717,
-      "fill": 64.265,
-      "hullUnits": 16004,
+      "minGap": 1.133,
+      "medianGap": 2.519,
+      "maxGap": 8.966,
+      "fill": 66.845,
+      "hullUnits": 16932,
       "maxNudgeMetres": 563,
-      "medianNudgeMetres": 344
+      "medianNudgeMetres": 366
     }
   },
   "media": [],

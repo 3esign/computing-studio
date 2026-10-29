@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-28",
   "note": {
     "en": "Student pilot digital passports, submitted by e-mail. The curated layer keeps claims with their sources; duplicates of one source are merged; legends are separated from facts; unknowns stay unknown. The original submission is preserved verbatim in originalText.",
     "sr": "Studentski piloti digitalnih pasoša (mejl 2026-10-12; prijem dokumenata 2026-10-18). Kurirani sloj čuva tvrdnje sa izvorima; ponavljanja istog izvora su spojena; legende odvojene od činjenica; nepoznato ostaje nepoznato. Originalni podnesci su doslovno sačuvani u originalText i u privatnoj evidenciji (van javnog izvoda). Imena podnosilaca nisu deo javnog izvoda — atribucija je po broju indeksa (odluka 20.10.2026)."
@@ -3090,6 +3090,36 @@
                 "S3"
               ],
               "id": "T46:lokacija:1870a0320ba7"
+            },
+            {
+              "t": "Teren Novog Beograda",
+              "v": "nizak i močvaran prostor između dve reke; urbanizacija tražila nasipanje, regulaciju terena i osnovnu infrastrukturu — hotel pripada istoriji transformacije rečnog prostora",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T46:lokacija:8db27700f0a2",
+              "category": "environment"
+            },
+            {
+              "t": "Dvostruka uloga Dunava",
+              "v": "prirodni okvir i vizuelna dominanta, ali i deo saobraćajnog i privrednog sistema; hotel se sagledava sa reke, keja i saobraćajnica",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T46:lokacija:eacb4e282ff2",
+              "category": "environment"
+            },
+            {
+              "t": "Granica dva identiteta",
+              "v": "Zemun sa istorijskim centrom i Novi Beograd kao planski grad; hotel na granici, pripada i zemunskoj obali i novom gradu",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "id": "T46:lokacija:e41718b8ed90",
+              "category": "location"
             }
           ]
         },
@@ -3135,6 +3165,69 @@
                 "S3"
               ],
               "id": "T46:urbanizam:15b5b51ed201"
+            },
+            {
+              "t": "Prva faza javnih zdanja",
+              "v": "hotel planiran među važnim javnim zdanjima uz zgradu Centralnog komiteta i zgradu Saveznog izvršnog veća",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T46:urbanizam:d3b4736fd550",
+              "category": "time"
+            },
+            {
+              "t": "Konkurs kao alat",
+              "v": "konkurs 1947. omogućio izbor rešenja usklađenog sa urbanističkom zamisli; hotel prvobitno zamišljen kao državni reprezentativni objekat",
+              "s": [
+                "S1",
+                "S2",
+                "S3"
+              ],
+              "id": "T46:urbanizam:22a5e0a31d78",
+              "category": "methods"
+            },
+            {
+              "t": "Radne akcije",
+              "v": "početak izgradnje Novog Beograda vezan za omladinske radne akcije: nasipanje terena, priprema gradilišta, infrastruktura",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "id": "T46:urbanizam:051370ea66fe",
+              "category": "time"
+            },
+            {
+              "t": "Nedovršena konstrukcija",
+              "v": "obustava 1949. ostavila izvedenu armiranobetonsku konstrukciju kao fizički trag prvobitnog projekta",
+              "s": [
+                "S1",
+                "S3",
+                "S4"
+              ],
+              "id": "T46:urbanizam:07e2e3e70dfc",
+              "category": "structure"
+            },
+            {
+              "t": "Promena projektnih uslova",
+              "v": "pri nastavku projekat Lavoslava Horvata nastavlja autorsku ideju, ali nije ponavljanje konkursnog rešenja; razlikovati konkursni projekat, projekat nastavka i izvedeni objekat",
+              "s": [
+                "S1",
+                "S4",
+                "S5"
+              ],
+              "id": "T46:urbanizam:e8632efa7f52",
+              "category": "methods"
+            },
+            {
+              "t": "Uređenje obale",
+              "v": "završetak hotela obuhvatio uređenje obalskog dela po projektu Urbanističkog zavoda Beograda pod rukovodstvom arhitekte Branislava Jovina",
+              "s": [
+                "S3",
+                "S4"
+              ],
+              "id": "T46:urbanizam:6f48abb336b7",
+              "category": "people"
             }
           ]
         },
@@ -3253,6 +3346,46 @@
                 "S6"
               ],
               "id": "T46:simbol:4fd9af07fe89"
+            },
+            {
+              "t": "Hotel u sistemu grada",
+              "v": "deo hotelske infrastrukture za rastući međunarodni promet; servisna infrastruktura Beograda kao poslovnog i diplomatskog centra",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "id": "T46:simbol:51bbbc4d083b",
+              "category": "use"
+            },
+            {
+              "t": "Enterijer kao iskustvo",
+              "v": "prostrani holovi, restorani i sale; karakter prostora iz kombinacije dekoracije, dimenzija i funkcionalne organizacije, ne samo lustera",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "id": "T46:simbol:f0becf8cce01",
+              "category": "use"
+            },
+            {
+              "t": "Promena tržišta",
+              "v": "otvaranje hotela InterContinental i Hyatt Regency promenilo tržišni položaj starijih kapaciteta; hotel suočen sa potrebom modernizacije",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "id": "T46:simbol:9ebf2962c314",
+              "category": "time"
+            },
+            {
+              "t": "Sećanje",
+              "v": "deo ličnih i porodičnih događaja građana; kasnije propadanje doživljavano kao gubitak gradskog simbola",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "id": "T46:simbol:a28f37586609",
+              "category": "identity"
             }
           ]
         },
@@ -3335,6 +3468,48 @@
                 "S3"
               ],
               "id": "T46:propadanje:0b2934f21d5c"
+            },
+            {
+              "t": "Privatizacija 2006 — očekivanja",
+              "v": "pokušaj uključivanja u novi investicioni sistem; najavljeni projekat nije realizovan, razlika između vizije i stanja postala ključ ovog perioda",
+              "s": [
+                "S4",
+                "S6",
+                "S7"
+              ],
+              "id": "T46:propadanje:acc8f0ef7d5f",
+              "category": "time"
+            },
+            {
+              "t": "Stečaj i prodaja 2024",
+              "v": "stečaj kompanije Danube Riverside, hotel u stečajnom postupku 2021; 2024. imovina prodata kompaniji MV Investment",
+              "s": [
+                "S6",
+                "S11"
+              ],
+              "id": "T46:propadanje:13bd97b447a3",
+              "category": "documents"
+            },
+            {
+              "t": "Projekat rekonstrukcije Vojvodić",
+              "v": "arhitekta Goran Vojvodić 2008–2010: prilagođavanje savremenim potrebama uz očuvanje originalne ideje; nije realizovan",
+              "s": [
+                "S4",
+                "S12"
+              ],
+              "id": "T46:propadanje:161363c057eb",
+              "category": "documents"
+            },
+            {
+              "t": "Nasleđe kao urbanističko pitanje",
+              "v": "da li se modernistički objekti u lošem tehničkom stanju smatraju nasleđem; odluka o rušenju je izbor modela razvoja, ne samo tehničko pitanje",
+              "s": [
+                "S4",
+                "S5",
+                "S7"
+              ],
+              "id": "T46:propadanje:f3327fdd0b27",
+              "category": "questions"
             }
           ]
         },
@@ -3372,6 +3547,49 @@
                 "S2"
               ],
               "id": "T46:rusenje:2a897a121b96"
+            },
+            {
+              "t": "Dokumentovanje rušenja",
+              "v": "početak rušenja u novembru 2024. javno dokumentovan fotografijama i izveštajima; etapno uklanjanje; fotografije pre/tokom/posle kao vremenski niz",
+              "s": [
+                "S6",
+                "S7",
+                "S13",
+                "S14"
+              ],
+              "id": "T46:rusenje:64de6db60422",
+              "category": "documents"
+            },
+            {
+              "t": "Promena razmere",
+              "v": "umesto jednog dominantnog volumena više visokih objekata sa hotelskim, poslovnim i stambenim sadržajem; uticaj na siluetu obale i vizure",
+              "s": [
+                "S2",
+                "S9",
+                "S11"
+              ],
+              "id": "T46:rusenje:268bea2f3283",
+              "category": "geometry"
+            },
+            {
+              "t": "Vizualizacije naspram izvedenog",
+              "v": "vizualizacije označiti kao „projektovano stanje“ i odvojiti od fotografija stvarne lokacije",
+              "s": [
+                "S6",
+                "S7"
+              ],
+              "id": "T46:rusenje:0b691a596bd4",
+              "category": "methods"
+            },
+            {
+              "t": "Arhiviranje posle rušenja",
+              "v": "fotografije fasade, enterijera, konstrukcije, konkursni i izvedbeni nacrti objedinjeni u hronološku celinu pasoša",
+              "s": [
+                "S10",
+                "S13"
+              ],
+              "id": "T46:rusenje:4657fe1272b4",
+              "category": "methods"
             }
           ]
         }
@@ -3430,6 +3648,42 @@
           "label": "Radio Slobodna Evropa — „Demolition Begins Of Belgrade Landmark That Hosted Queens And Presidents“",
           "kind": "mediјi",
           "url": "https://www.rferl.org/a/serbia-hotel-jugoslavija-demolition-belgrade/33204798.html"
+        },
+        {
+          "id": "S10",
+          "label": "Prirodnjački muzej — konkursna dokumentacija „Blok 11 — Hotel Jugoslavija“, opšte karakteristike prostora (navod studenta)",
+          "kind": "konkursna dokumentacija",
+          "url": "https://prirodnjackimuzej.konkurs.rs/sr/3-opste-karakteristike-prostora"
+        },
+        {
+          "id": "S11",
+          "label": "RTS — „Kompanija MV Investment kupila Hotel Jugoslaviju“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.rts.rs/lat/vesti/ekonomija/5395891/.html?print=true"
+        },
+        {
+          "id": "S12",
+          "label": "Birovia — „Rekonstrukcija i dogradnja hotela Jugoslavija, Beograd“ (projekat 2008–2010) (navod studenta)",
+          "kind": "autorski sajt",
+          "url": "https://birovia.rs/projects/rekonstrukcija-i-dogradnja-hotela-jugoslavija-beograd/"
+        },
+        {
+          "id": "S13",
+          "label": "N1 — „Poslednji obilazak hotela Jugoslavija pre nego što zauvek nestane“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://n1info.rs/vesti/hotel-jugoslavija-fotografije-iznutra/"
+        },
+        {
+          "id": "S14",
+          "label": "N1 — „Počelo rušenje hotela Jugoslavija“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://n1info.rs/vesti/pocelo-rusenje-hotela-jugoslavija/"
+        },
+        {
+          "id": "S15",
+          "label": "N1 — „U Hotelu Jugoslavija odsedali Elizabeta Druga, Ričard Nikson i Džimi Karter“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://n1info.rs/biznis/nekadasnji-simbol-istoimene-zemlje-u-hotelu-jugoslavija-odsedali-elizabeta-druga-ricard-nikson-i-dzimi-karter/"
         }
       ],
       "originalSource": {
@@ -6394,6 +6648,2057 @@
         "file": "evidencija/prijem-2026-10-25/raw/2/građevinski pasoš.pdf",
         "sha256": "0aca22f1420157cfa8fa1ad8cfcfad17a0b00bd0c8c61767d65857bb050390aa"
       }
+    },
+    {
+      "id": "t58",
+      "team": "T58",
+      "credit": "180/26 · 140/26",
+      "received": "2026-10-19",
+      "object": {
+        "name": "Zgrada tehničkih fakulteta"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "en": "Identity and authors",
+            "sr": "Identitet i autori"
+          },
+          "claims": [
+            {
+              "t": "Projektovanje",
+              "v": "zgrada projektovana u periodu 1925–1931",
+              "s": [
+                "S1"
+              ],
+              "id": "T58:identitet:4f0974afbbfc",
+              "category": "time"
+            },
+            {
+              "t": "Autori",
+              "v": "Nikola Nestorović i Branko Tanazević",
+              "s": [
+                "S1"
+              ],
+              "id": "T58:identitet:63790062a441",
+              "category": "people"
+            },
+            {
+              "t": "Stil",
+              "v": "akademizam sa dominantnim klasicističkim elementima; osnovna ideja: monumentalnost, simetrija glavne fasade, naglašen centralni deo i hijerarhijski organizovani elementi",
+              "s": [
+                "S1"
+              ],
+              "id": "T58:identitet:f0b688551690",
+              "category": "identity"
+            },
+            {
+              "t": "Položaj u bloku",
+              "v": "samostalna građevina, ne deo kontinuiranog uličnog niza; zato se sagledavaju sve četiri fasade",
+              "s": [
+                "S1"
+              ],
+              "id": "T58:identitet:a363e5370b54",
+              "category": "location"
+            }
+          ]
+        },
+        {
+          "id": "osnova",
+          "title": {
+            "en": "Plan and spatial organisation",
+            "sr": "Osnova i organizacija prostora"
+          },
+          "claims": [
+            {
+              "t": "Simetrija osnove",
+              "v": "osnova rešena simetrično; prostorije organizovane oko četiri unutrašnja dvorišta koja služe kao svetlarnici",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:osnova:9e928666ed96",
+              "category": "geometry"
+            },
+            {
+              "t": "Sadržaji oko dvorišta",
+              "v": "hodnici, učionice, kabineti, slušaonice, centralna stepeništa i aula",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:osnova:6a1324409673",
+              "category": "use"
+            },
+            {
+              "t": "Prostorna čvorišta",
+              "v": "aula i glavna stepeništa su čvorišta; hodnici povezuju nizove prostorija — kombinacija centralizovanih reprezentativnih prostora i linearnih komunikacija",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:osnova:929b90c912f8",
+              "category": "geometry"
+            },
+            {
+              "t": "Uloga dvorišta",
+              "v": "četiri dvorišta razbijaju veliku masu objekta i osvetljavaju unutrašnjost",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:osnova:7a643bdbd1d6",
+              "category": "environment"
+            }
+          ]
+        },
+        {
+          "id": "fasade",
+          "title": {
+            "en": "The four facades",
+            "sr": "Četiri fasade"
+          },
+          "claims": [
+            {
+              "t": "Hijerarhija fasada",
+              "v": "sve četiri fasade pripadaju istom konceptu, ali se razlikuju po stepenu obrade: glavna najreprezentativnija, bočne jednostavnije, dvorišna najsvedenija",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:fasade:e3e10ed533f9",
+              "category": "identity"
+            },
+            {
+              "t": "Glavna fasada",
+              "v": "bogata arhitektonska plastika, monumentalno stepenište, trodelni ulaz i naglašen centralni rizalit",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:fasade:276cb03c6ae7",
+              "category": "geometry"
+            },
+            {
+              "t": "Bočne fasade",
+              "v": "jednostavnije, zadržavaju ritam prozorskih otvora i odnos centralnog i bočnih delova",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:fasade:920a6d27d682",
+              "category": "geometry"
+            },
+            {
+              "t": "Dvorišna fasada",
+              "v": "najjednostavnija; kompoziciju određuju nizovi prozora i horizontalni venci",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:fasade:6e86c2664d95",
+              "category": "geometry"
+            },
+            {
+              "t": "Horizontalna i vertikalna podela",
+              "v": "profilisani venci dele fasade na tri glavne zone; vertikalnu artikulaciju daju pilastri i stubovi",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:fasade:0a56b51b9c16",
+              "category": "geometry"
+            }
+          ]
+        },
+        {
+          "id": "glavna-fasada",
+          "title": {
+            "en": "Elements of the main facade",
+            "sr": "Elementi glavne fasade"
+          },
+          "claims": [
+            {
+              "t": "Centralna osa",
+              "v": "kompozicija oko centralne ose: monumentalno stepenište, trodelni ulaz, visoki otvori centralnog rizalita i veliki trouglasti timpanon",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:glavna-fasada:e82ada1a6f10",
+              "category": "geometry"
+            },
+            {
+              "t": "Rustična baza",
+              "v": "prizemna zona i suteren od kombinacije grublje obrađenih i glatkih kamenih kvadara",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:glavna-fasada:0d97771bd138",
+              "category": "materials"
+            },
+            {
+              "t": "Pilastri i stubovi",
+              "v": "vertikalni elementi povezuju zone prvog i drugog sprata i daju ritam",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:glavna-fasada:e2a3e4e1cde5",
+              "category": "materials"
+            },
+            {
+              "t": "Prozori",
+              "v": "pravougaoni i lučno završeni otvori, različiti po spratovima i važnosti prostorija",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:glavna-fasada:5a7868d37e7c",
+              "category": "geometry"
+            },
+            {
+              "t": "Venci",
+              "v": "profilisani venci razdvajaju horizontalne zone i povezuju fasadu u celinu",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:glavna-fasada:e610966d856d",
+              "category": "materials"
+            },
+            {
+              "t": "Timpanon",
+              "v": "trouglasti završetak centralnog rizalita, klasični motiv",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:glavna-fasada:75fa2f1e3e29",
+              "category": "materials"
+            },
+            {
+              "t": "Meandar",
+              "v": "dekorativni friz sa grčkim meandrom kao kontinuirana horizontalna linija",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:glavna-fasada:a3363a218922",
+              "category": "materials"
+            },
+            {
+              "t": "Akroterije i reljefi",
+              "v": "dopunjuju završnu zonu fasade i pojačavaju reprezentativni karakter",
+              "s": [
+                "S2"
+              ],
+              "id": "T58:glavna-fasada:293498fa268e",
+              "category": "materials"
+            },
+            {
+              "t": "Format predaje",
+              "v": "tekst sa izvorom posle svakog pasusa; nastavnik 22. 10. tražio tabelu podatak/izvor",
+              "s": [
+                "S3"
+              ],
+              "id": "T58:glavna-fasada:932b5fbe2572",
+              "category": "methods"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Arhitektonski fakultet Univerziteta u Beogradu — „Istorija fakulteta“ (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://www.arh.bg.ac.rs/istorija-fakulteta/"
+        },
+        {
+          "id": "S2",
+          "label": "B. Ibrajter-Gazibara, studija o zgradi Tehničkih fakulteta, časopis Nasleđe br. 7 (2006), SCIndeks PDF (navod studenta)",
+          "kind": "naučni rad",
+          "url": "https://scindeks-clanci.ceon.rs/data/pdf/1450-605X/2006/1450-605X0607069I.pdf"
+        },
+        {
+          "id": "S3",
+          "label": "Studentski podnesak „Zgrada Tehničkih fakulteta“ (docx, 19. 10. 2026)",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-26/raw/t58/Zgrada Tehnickih Fakulteta.docx",
+        "sha256": "cc6c005e1d5b33cd4fbeeb8b5455f9ad37fecbd9f36460c4b137fb1c22a379f1"
+      }
+    },
+    {
+      "id": "t44",
+      "team": "T44",
+      "credit": "154/26 · 156/26 · 166/26",
+      "received": "2026-10-27",
+      "object": {
+        "name": "Kula Beograd"
+      },
+      "sections": [
+        {
+          "id": "metod",
+          "title": {
+            "en": "Question and method",
+            "sr": "Pitanje i način istraživanja"
+          },
+          "claims": [
+            {
+              "t": "Glavno pitanje",
+              "v": "kako se Kula Beograd menjala od ranih javnih najava do izvedenog objekta i šta se o razlozima promena može pouzdano dokazati",
+              "s": [
+                "S11"
+              ],
+              "id": "T44:metod:2033ca7baa82",
+              "category": "research"
+            },
+            {
+              "t": "Princip",
+              "v": "svaki podatak vezan za izvor i datum; render pokazuje kako je kula predstavljena u jednom trenutku, ne dokazuje usvojen projekat",
+              "s": [
+                "S11"
+              ],
+              "id": "T44:metod:c5898c0af3a3",
+              "category": "methods"
+            },
+            {
+              "t": "Tvrdnja o nameni za UAE",
+              "v": "nije potvrđena: izvori dokazuju prezentaciju u Dubaiju i investitora iz UAE, ne i da je kula ranije projektovana za lokaciju u Emiratima",
+              "s": [
+                "S1",
+                "S2",
+                "S11"
+              ],
+              "id": "T44:metod:f8fccf392644",
+              "category": "questions",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Sajt tima",
+              "v": "početna verzija sajta istraživanja objavljena kao AI Studio aplikacija",
+              "s": [
+                "S10"
+              ],
+              "id": "T44:metod:5c06fe740984",
+              "category": "methods"
+            }
+          ]
+        },
+        {
+          "id": "hronologija",
+          "title": {
+            "en": "Timeline by source",
+            "sr": "Hronologija po izvorima"
+          },
+          "claims": [
+            {
+              "t": "Januar 2014",
+              "v": "u medijima kula od oko 180 m, opisana kao „nalik onoj u Dubaiju“ — rana najava, ne dokaz projekta za UAE",
+              "s": [
+                "S1"
+              ],
+              "id": "T44:hronologija:e0a5ed1a49e5",
+              "category": "time"
+            },
+            {
+              "t": "Mart 2014",
+              "v": "master plan Beograda na vodi i idejna rešenja kule predstavljeni u Dubaiju; Eagle Hills raspisao konkurs; pominje se studio SOM",
+              "s": [
+                "S2"
+              ],
+              "id": "T44:hronologija:226e66fdaff5",
+              "category": "time"
+            },
+            {
+              "t": "2014 — 220 m",
+              "v": "kasniji izveštaji navode da se 2014. pominjala visina 220 m; najraniji originalni prikaz još treba naći",
+              "s": [
+                "S3",
+                "S9"
+              ],
+              "id": "T44:hronologija:32009ba486b3",
+              "category": "time"
+            },
+            {
+              "t": "2015 — oko 200 m",
+              "v": "u medijima visina oko 200 m; nije utvrđeno na koju verziju se odnosi",
+              "s": [
+                "S3"
+              ],
+              "id": "T44:hronologija:49d816586cf2",
+              "category": "time"
+            },
+            {
+              "t": "Mart 2016 — 168 m",
+              "v": "javna prezentacija prikazuje verziju visoku 168 m",
+              "s": [
+                "S3",
+                "S9"
+              ],
+              "id": "T44:hronologija:44d70423e0ff",
+              "category": "time"
+            },
+            {
+              "t": "April 2016 — obrazloženje",
+              "v": "gradonačelnik: kula niža i šira da se bolje uklopi u Beograd; u istom izveštaju 168 m i 45 spratova",
+              "s": [
+                "S4"
+              ],
+              "id": "T44:hronologija:8837f1fb5352",
+              "category": "time"
+            },
+            {
+              "t": "Februar 2019 — dozvola",
+              "v": "Vlada Srbije: izdata građevinska dozvola za kulu visine 168 m, površine 47.500 m²",
+              "s": [
+                "S7",
+                "S8"
+              ],
+              "id": "T44:hronologija:76197b70211b",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "izvedeno",
+          "title": {
+            "en": "The built tower",
+            "sr": "Izvedeni objekat"
+          },
+          "claims": [
+            {
+              "t": "Visina",
+              "v": "168 m",
+              "s": [
+                "S6",
+                "S7"
+              ],
+              "id": "T44:izvedeno:267d413f72e7",
+              "category": "geometry"
+            },
+            {
+              "t": "Spratnost",
+              "v": "42 sprata po SOM-u; RTS 15. 4. 2016 navodi 45 — razlika može poticati iz različitih faza ili načina brojanja etaža",
+              "s": [
+                "S4",
+                "S6"
+              ],
+              "id": "T44:izvedeno:07036263a91d",
+              "category": "geometry",
+              "status": "conflict"
+            },
+            {
+              "t": "Bruto površina",
+              "v": "47.500 m²",
+              "s": [
+                "S6",
+                "S7"
+              ],
+              "id": "T44:izvedeno:c71ed7d3f0d0",
+              "category": "geometry"
+            },
+            {
+              "t": "Rotacija volumena",
+              "v": "orijentacija kule rotira se za 90° kako se objekat uzdiže; po SOM-u daje različite orijentacije prema kontekstu i smanjuje opterećenje vetrom",
+              "s": [
+                "S6"
+              ],
+              "id": "T44:izvedeno:62274dffd711",
+              "category": "structure"
+            },
+            {
+              "t": "Šta izvori ne govore",
+              "v": "kada se rotacija prvi put pojavila u procesu; potrebni datirani raniji renderi ili konkursni prikazi",
+              "s": [
+                "S6",
+                "S11"
+              ],
+              "id": "T44:izvedeno:bf22d308a224",
+              "category": "questions"
+            }
+          ]
+        },
+        {
+          "id": "pitanja",
+          "title": {
+            "en": "Open research questions",
+            "sr": "Istraživačka pitanja za sledeću fazu"
+          },
+          "claims": [
+            {
+              "t": "Najraniji prikaz",
+              "v": "koji je najraniji prikaz Kule Beograd koji se može pouzdano datirati",
+              "s": [],
+              "id": "T44:pitanja:66530bb536c8",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Status visine 220 m",
+              "v": "da li je 220 m bila deo zvaničnog projektnog predloga ili javno predstavljena ideja",
+              "s": [],
+              "id": "T44:pitanja:61b3975b153d",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Broj ili oblik",
+              "v": "da li se između 220, oko 200 i 168 m menjao samo broj ili i oblik kule",
+              "s": [],
+              "id": "T44:pitanja:a6600e72f138",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Prva rotacija",
+              "v": "kada se prvi put pojavljuje rotacija volumena od 90°",
+              "s": [],
+              "id": "T44:pitanja:050776c706a7",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Render naspram izvedenog",
+              "v": "koje razlike između ranijih rendera i izvedenog objekta se mogu direktno dokazati",
+              "s": [],
+              "id": "T44:pitanja:e0eac2f39342",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Izjave projektanata",
+              "v": "postoje li originalne izjave ili dokumenti koji objašnjavaju promene",
+              "s": [],
+              "id": "T44:pitanja:01dd9c9055ac",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Dokument o UAE",
+              "v": "postoji li originalni dokument koji potvrđuje da je projekat ranije bio namenjen lokaciji u UAE",
+              "s": [],
+              "id": "T44:pitanja:2db1a1e01db0",
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Blic / Tanjug, 19. 1. 2014 — „Ovako će izgledati Beograd na vodi“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.blic.rs/vesti/beograd/ovako-ce-izgledati-beograd-na-vodi/bjvvc7q"
+        },
+        {
+          "id": "S2",
+          "label": "RTS, 2. 3. 2014 — „Beograd na vodi predstavljen u Dubaiju“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.rts.rs/lat/vesti/ekonomija/1536317/beograd-na-vodi-predstavljen-u-dubaiju.html"
+        },
+        {
+          "id": "S3",
+          "label": "Gradnja / Tanjug, 7. 3. 2016 — „Draga, smanjio sam kulu!“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.gradnja.rs/draga-smanjio-sam-kulu-nova-visina-beograda-na-vodi-168-metara/"
+        },
+        {
+          "id": "S4",
+          "label": "RTS, 15. 4. 2016 — „Mali: Kula Beograda biće najviša u ovom delu Evrope“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.rts.rs/lat/vesti/drustvo/2283329/.html?print=true"
+        },
+        {
+          "id": "S5",
+          "label": "Blic, 11. 11. 2017 — „Kula Beograd je po prvobitnom projektu trebalo da bude 52 metra viša…“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.blic.rs/vesti/beograd/kula-beograd-je-po-prvobitnom-projektu-trebalo-da-bude-52-metra-visa-i-drugacijeg/1hsyrrp"
+        },
+        {
+          "id": "S6",
+          "label": "SOM — zvanična stranica projekta Kula Belgrade (navod studenta)",
+          "kind": "zvanični sajt projektanta",
+          "url": "https://www.som.com/projects/kula-belgrade/"
+        },
+        {
+          "id": "S7",
+          "label": "Vlada Republike Srbije, 7. 2. 2019 — saopštenje o građevinskoj dozvoli (navod studenta)",
+          "kind": "zvanično saopštenje",
+          "url": "https://www.srbija.gov.rs/vest/363737/izdata-gradjevinska-dozvola-za-izgradnju-kule-beograd.php"
+        },
+        {
+          "id": "S8",
+          "label": "RTS / Tanjug, 7. 2. 2019 — „Izdata građevinska dozvola za gradnju Kule Beograd“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.rts.rs/lat/vesti/drustvo/3412734/izdata-gradjevinska-dozvola-za-gradnju-kule-beograd.html"
+        },
+        {
+          "id": "S9",
+          "label": "Novosti, 5. 3. 2016 — „Kula samo 168 metara!“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.novosti.rs/vesti/beograd.74.html%3A594158-Kula-samo-168-metara"
+        },
+        {
+          "id": "S10",
+          "label": "Sajt tima „Dve kule Beograd“ (AI Studio aplikacija, početak, 27. 10. 2026)",
+          "kind": "studentska aplikacija",
+          "url": "https://dve-kule-beograd.ai.studio/"
+        },
+        {
+          "id": "S11",
+          "label": "Studentski podnesak „Dve kule Beograd — radna verzija istraživanja“ (PDF, 27. 10. 2026)",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-27/raw/t44/Istrazivanje_razvoja_Kule_Beograd_sa_izvorima.pdf",
+        "sha256": "a75a109d26b2932b4ccdf75db3ce8d4d6cfc42e67f1306e5fc05c6b7c2aad2f4"
+      }
+    },
+    {
+      "id": "t47",
+      "team": "T47",
+      "credit": "12/26 · 20/26 · 49/26",
+      "received": "2026-10-26",
+      "object": {
+        "name": "Hala 1 Beogradskog sajma"
+      },
+      "sections": [
+        {
+          "id": "metod",
+          "title": {
+            "en": "Digital passport method",
+            "sr": "Metod digitalnog pasoša"
+          },
+          "claims": [
+            {
+              "t": "Okvir",
+              "v": "EU Building Digital Passport / Building Logbook: inventarizacija i praćenje tehničkih, funkcionalnih, materijalnih i ekonomskih pokazatelja kroz životni vek objekta",
+              "s": [
+                "S1"
+              ],
+              "id": "T47:metod:618195e43708",
+              "category": "methods"
+            },
+            {
+              "t": "Zašto Hala 1",
+              "v": "sagrađena sredinom 20. veka kao pionirski poduhvat u prednapregnutom betonu i tankozidnim ljuskama; kupola raspona 109 m",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "id": "T47:metod:4635891a60e7",
+              "category": "research"
+            }
+          ]
+        },
+        {
+          "id": "identitet",
+          "title": {
+            "en": "Identity card",
+            "sr": "Identifikacioni karton"
+          },
+          "claims": [
+            {
+              "t": "Naziv",
+              "v": "Hala 1 Beogradskog sajma (Centralna hala)",
+              "s": [
+                "S4",
+                "S5"
+              ],
+              "id": "T47:identitet:65b6594ff92c",
+              "category": "identity"
+            },
+            {
+              "t": "Lokacija",
+              "v": "Bulevar vojvode Mišića 14, opština Savski venac, Beograd; KO Savski venac",
+              "s": [
+                "S4",
+                "S5"
+              ],
+              "id": "T47:identitet:0707ce8c8ad1",
+              "category": "location"
+            },
+            {
+              "t": "Izgradnja",
+              "v": "1954–1957; svečano otvaranje 23. avgusta 1957. Specijalizovanom međunarodnom tehničkom izložbom",
+              "s": [
+                "S4",
+                "S5",
+                "S6"
+              ],
+              "id": "T47:identitet:0691a9f16969",
+              "category": "time"
+            },
+            {
+              "t": "Arhitektura",
+              "v": "arhitekt Milorad Pantović, učenik Le Korbizjea; kompleks hala povezanih pasarelama i platoima, Hala 1 kao dominanta",
+              "s": [
+                "S4",
+                "S6"
+              ],
+              "id": "T47:identitet:937cf1a2af33",
+              "category": "people"
+            },
+            {
+              "t": "Konstrukcija — autori",
+              "v": "akademik prof. dr Branko Žeželj i inž. Milan Krstić",
+              "s": [
+                "S4",
+                "S6"
+              ],
+              "id": "T47:identitet:6f3bed419f8a",
+              "category": "people"
+            },
+            {
+              "t": "Izvođač",
+              "v": "Građevinsko preduzeće „Rad“, Beograd",
+              "s": [
+                "S4"
+              ],
+              "id": "T47:identitet:628796d88803",
+              "category": "people"
+            },
+            {
+              "t": "Namena",
+              "v": "sajamski, izložbeni, konvencijski i višenamenski prireditveni centar",
+              "s": [
+                "S2",
+                "S4"
+              ],
+              "id": "T47:identitet:bbf66dc09cc8",
+              "category": "use"
+            },
+            {
+              "t": "Pravni status",
+              "v": "spomenik kulture, proglašen 2009 (Odluka Vlade RS, Službeni glasnik RS br. 33/09)",
+              "s": [
+                "S3",
+                "S5"
+              ],
+              "id": "T47:identitet:1b26d65c4e61",
+              "category": "documents"
+            },
+            {
+              "t": "Lokacija pre gradnje",
+              "v": "nekadašnji čukarički rit uz most na Savi; potrebni obimni radovi nasipanja; stari sajam na levoj obali stradao u Drugom svetskom ratu",
+              "s": [
+                "S4",
+                "S6"
+              ],
+              "id": "T47:identitet:31604d774dc1",
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "id": "materijali",
+          "title": {
+            "en": "Material and structure",
+            "sr": "Materijal i struktura"
+          },
+          "claims": [
+            {
+              "t": "Osnovni materijal",
+              "v": "visokokvalitetni prednapregnuti beton; prednaprezanje po patentiranom „Sistemu Žeželj“ (IMS) visokovrednim čeličnim žicama i kablovima",
+              "s": [
+                "S7",
+                "S8"
+              ],
+              "id": "T47:materijali:143305ce3eef",
+              "category": "materials"
+            },
+            {
+              "t": "Staklo",
+              "v": "obimni spoljašnji zidovi kao kontinuirana staklena zavesa prečnika preko 130 m na nivou prizemlja i galerija; kupola deluje kao da lebdi",
+              "s": [
+                "S7",
+                "S8"
+              ],
+              "id": "T47:materijali:c1dd6a356b04",
+              "category": "materials"
+            },
+            {
+              "t": "Organizacija",
+              "v": "aksijalna simetrija sa kružnom osnovom: centralni parter okružen sa tri prstenaste galerije koje se stepenasto podižu, otvorene ka potkupolnom prostoru",
+              "s": [
+                "S7",
+                "S8"
+              ],
+              "id": "T47:materijali:470daa1f2ed6",
+              "category": "geometry"
+            }
+          ]
+        },
+        {
+          "id": "konstrukcija",
+          "title": {
+            "en": "Structural elements and load path",
+            "sr": "Konstruktivni elementi i prenos opterećenja"
+          },
+          "claims": [
+            {
+              "t": "Kosi obodni stubovi",
+              "v": "celokupna masa krovne ljuske prenosi se na 8 nagnutih betonskih stubova po obodu kruga prečnika 109 m, postavljenih u pravcu rezultujućih sila potiska",
+              "s": [
+                "S9",
+                "S10",
+                "S11"
+              ],
+              "id": "T47:konstrukcija:e90cebe756b7",
+              "category": "structure"
+            },
+            {
+              "t": "Zatezni prsten",
+              "v": "kružni prsten od prednapregnutog betona sa zategnutim visokonaponskim kablovima prima horizontalne sile potiska kupole",
+              "s": [
+                "S9",
+                "S10",
+                "S11"
+              ],
+              "id": "T47:konstrukcija:fe396dcdc514",
+              "category": "structure"
+            },
+            {
+              "t": "Ljuska",
+              "v": "tankozidna rotaciona ljuska bez grednih mreža i rožnjača; dvoosno stanje napona pritiska",
+              "s": [
+                "S9",
+                "S10"
+              ],
+              "id": "T47:konstrukcija:9ab0aac2bf53",
+              "category": "structure"
+            },
+            {
+              "t": "Galerije i temelji",
+              "v": "galerije kao nezavisni armiranobetonski roštiljski sistemi na sopstvenim stubovima; temelji na masivnim stopama i šipovima u rečnom nanosu Save",
+              "s": [
+                "S9",
+                "S11"
+              ],
+              "id": "T47:konstrukcija:346592ba6463",
+              "category": "structure"
+            }
+          ]
+        },
+        {
+          "id": "geometrija",
+          "title": {
+            "en": "Technical parameters",
+            "sr": "Tehničke karakteristike"
+          },
+          "claims": [
+            {
+              "t": "Prečnik kupole u nivou oslanjanja",
+              "v": "109,00 m",
+              "s": [
+                "S12",
+                "S13"
+              ],
+              "id": "T47:geometrija:70bb1ac4f1c9",
+              "category": "geometry"
+            },
+            {
+              "t": "Spoljašnji prečnik u prizemlju",
+              "v": "132,00 m",
+              "s": [
+                "S12",
+                "S13"
+              ],
+              "id": "T47:geometrija:bd5317502afe",
+              "category": "geometry"
+            },
+            {
+              "t": "Visina temena od partera",
+              "v": "30,50 m",
+              "s": [
+                "S12",
+                "S13"
+              ],
+              "id": "T47:geometrija:6511c3e9592d",
+              "category": "geometry"
+            },
+            {
+              "t": "Slobodna visina pod temenom",
+              "v": "20,32 m",
+              "s": [
+                "S12",
+                "S13"
+              ],
+              "id": "T47:geometrija:3d4be429f7ab",
+              "category": "geometry"
+            },
+            {
+              "t": "Debljina ljuske",
+              "v": "promenljiva, 9 cm na obodu do 7 cm u temenu; odnos debljine i raspona manji od 1:1200",
+              "s": [
+                "S12",
+                "S13",
+                "S14"
+              ],
+              "id": "T47:geometrija:4b112cfbba65",
+              "category": "geometry"
+            },
+            {
+              "t": "Površine",
+              "v": "pokrivena oko 14.000 m²; korisna sa galerijama preko 21.000 m²; zapremina preko 320.000 m³",
+              "s": [
+                "S12",
+                "S13"
+              ],
+              "id": "T47:geometrija:2985745e102e",
+              "category": "geometry"
+            },
+            {
+              "t": "Osvetljenje",
+              "v": "staklena fasadna zavesa 360° i centralni krovni svetlarnik prečnika 18 m",
+              "s": [
+                "S12"
+              ],
+              "id": "T47:geometrija:121f00dc0ddb",
+              "category": "environment"
+            },
+            {
+              "t": "Proračun",
+              "v": "rađen ručno, bez računarskih metoda konačnih elemenata",
+              "s": [
+                "S14",
+                "S19"
+              ],
+              "id": "T47:geometrija:1305b798c2fe",
+              "category": "methods"
+            }
+          ]
+        },
+        {
+          "id": "kupola",
+          "title": {
+            "en": "Dome analysis",
+            "sr": "Analiza kupole"
+          },
+          "claims": [
+            {
+              "t": "Koncept",
+              "v": "tankozidna prostorna ljuska od prednapregnutog betona: opterećenje se prenosi aksijalnim silama u ravni ljuske, a prednaprezanje drži beton u trajnom pritisku bez prslina",
+              "s": [
+                "S15",
+                "S16"
+              ],
+              "id": "T47:kupola:e6208d6b8d89",
+              "category": "structure"
+            },
+            {
+              "t": "Prsten na obodu",
+              "v": "šuplji kružni prsten unutrašnjeg prečnika 109 m; kablovi sa Žeželjevim kotvama zategnuti hidrauličnim presama pre skidanja skele; na stubove ide čista vertikalna reakcija",
+              "s": [
+                "S15",
+                "S17"
+              ],
+              "id": "T47:kupola:8e2c9da736d8",
+              "category": "structure"
+            },
+            {
+              "t": "Skela i betoniranje",
+              "v": "gigantska drvena skela; betoniranje u segmentima i simetrično u prstenovima, beton visoke čvrstoće sa smanjenim vodocementnim faktorom; skela spuštena peskarama i hidrauličnim dizalicama",
+              "s": [
+                "S17",
+                "S18"
+              ],
+              "id": "T47:kupola:56388b6f0836",
+              "category": "methods"
+            },
+            {
+              "t": "Svetski značaj",
+              "v": "po završetku 1957. najveća kupola od prednapregnutog betona na svetu",
+              "s": [
+                "S15",
+                "S16"
+              ],
+              "id": "T47:kupola:76e51d70c7dc",
+              "category": "identity"
+            },
+            {
+              "t": "Poređenje sa CNIT",
+              "v": "podnesak tvrdi da je prestigla CNIT u Parizu; CNIT je završen 1958, pa poređenje treba proveriti",
+              "s": [
+                "S19"
+              ],
+              "id": "T47:kupola:80ec3153546a",
+              "category": "questions",
+              "status": "unconfirmed"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Evropska komisija — dokumenti o „Building Digital Logbook“ (2023) (navod studenta, bez URL-a)",
+          "kind": "zvanični dokument"
+        },
+        {
+          "id": "S2",
+          "label": "Zvanični portal Beogradskog sajma, sajam.rs (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://sajam.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Odluka o proglašenju Hale 1 za spomenik kulture (navod studenta)",
+          "kind": "zvanični dokument"
+        },
+        {
+          "id": "S4",
+          "label": "Monografija „50 godina Beogradskog sajma“ (2007) (navod studenta)",
+          "kind": "publikacija"
+        },
+        {
+          "id": "S5",
+          "label": "Arhiv Zavoda za zaštitu spomenika kulture grada Beograda (navod studenta)",
+          "kind": "arhiv"
+        },
+        {
+          "id": "S6",
+          "label": "Izložbeni katalozi Muzeja nauke i tehnike u Beogradu (navod studenta)",
+          "kind": "publikacija"
+        },
+        {
+          "id": "S7",
+          "label": "Časopis „Izgradnja“ — izdanje o primeni prednapregnutog betona u Jugoslaviji (1958) (navod studenta)",
+          "kind": "časopis"
+        },
+        {
+          "id": "S8",
+          "label": "Beobuild.rs — tekstovi o konstrukciji Sajma (navod studenta)",
+          "kind": "portal"
+        },
+        {
+          "id": "S9",
+          "label": "Građevinski fakultet Univerziteta u Beogradu — Katedra za beton i prednapregnuti beton (navod studenta)",
+          "kind": "institucija"
+        },
+        {
+          "id": "S10",
+          "label": "Časopis „Arhitektura Urbanizam“ br. 12/1961 (navod studenta)",
+          "kind": "časopis"
+        },
+        {
+          "id": "S11",
+          "label": "Tehnička arhivska građa Beogradskog sajma (navod studenta)",
+          "kind": "arhiv"
+        },
+        {
+          "id": "S12",
+          "label": "Zvanični tehnički list Beogradskog sajma (navod studenta)",
+          "kind": "zvanični dokument"
+        },
+        {
+          "id": "S13",
+          "label": "Gradnja.rs — tehničke specifikacije i merenja na Hali 1 (navod studenta)",
+          "kind": "portal"
+        },
+        {
+          "id": "S14",
+          "label": "Inženjerska komora Srbije (navod studenta)",
+          "kind": "institucija"
+        },
+        {
+          "id": "S15",
+          "label": "Akademija inženjerskih nauka Srbije — biografija i dela akademika Branka Žeželja (navod studenta)",
+          "kind": "institucija"
+        },
+        {
+          "id": "S16",
+          "label": "Serbia.com — „Kupola koja je zadivila svet“ (navod studenta)",
+          "kind": "portal"
+        },
+        {
+          "id": "S17",
+          "label": "Časopis „Gradnja“ — radovi o sanaciji i strukturi Hale 1 (2023/2024) (navod studenta)",
+          "kind": "časopis"
+        },
+        {
+          "id": "S18",
+          "label": "Mondo.rs — istorijski pregled gradnje Sajma (navod studenta)",
+          "kind": "mediji"
+        },
+        {
+          "id": "S19",
+          "label": "Studentski podnesak „Digitalni pasoš objekta: Hala 1 — Beogradski sajam“ (docx, 26. 10. 2026)",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-27/raw/tim-5/DIGITALNI PASOŠ HALA 1.docx",
+        "sha256": "116ad88ae0740baf73ac379278ca34641d5ab4026e3d745c432187ff50e60855"
+      }
+    },
+    {
+      "id": "t05",
+      "team": "T05",
+      "credit": "138/26 · 119/26 · 56/26",
+      "received": "2026-10-26",
+      "object": {
+        "name": "Dom omladine Beograd"
+      },
+      "sections": [
+        {
+          "id": "osnovni",
+          "title": {
+            "en": "Basic data",
+            "sr": "Osnovni podaci"
+          },
+          "claims": [
+            {
+              "t": "Objekat",
+              "v": "Dom omladine Beograda, ustanova kulture i obrazovanja Grada Beograda",
+              "s": [
+                "S2"
+              ],
+              "id": "T05:osnovni:8de7065b0301",
+              "category": "identity"
+            },
+            {
+              "t": "Adresa",
+              "v": "Makedonska 22, Beograd; potvrđeno mapama i oznakom na objektu, adresni zapis proveriti u zvaničnoj dokumentaciji",
+              "s": [
+                "S6"
+              ],
+              "id": "T05:osnovni:5e5fdcd0bb8a",
+              "category": "location"
+            },
+            {
+              "t": "Namena",
+              "v": "kulturni i obrazovni centar: koncerti, film, scenske i vizuelne umetnosti, predavanja i radionice",
+              "s": [
+                "S2"
+              ],
+              "id": "T05:osnovni:c18b60e14c5b",
+              "category": "use"
+            },
+            {
+              "t": "Početak rada",
+              "v": "1964. godina",
+              "s": [
+                "S2"
+              ],
+              "id": "T05:osnovni:3312287295bd",
+              "category": "time"
+            },
+            {
+              "t": "Programski prostori",
+              "v": "Velika sala, Sala Amerikana, Klub DOB, Galerija, Tribinska sala, holovi",
+              "s": [
+                "S1"
+              ],
+              "id": "T05:osnovni:b4be686f3be4",
+              "category": "use"
+            },
+            {
+              "t": "Površina",
+              "v": "oko 3.700 m² programskog prostora po jednoj zvaničnoj strani; druga navodi preko 4.000 m² — nije potvrđeno",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "id": "T05:osnovni:2b002587f17f",
+              "category": "geometry",
+              "status": "conflict"
+            },
+            {
+              "t": "Rekonstrukcija",
+              "v": "obnova 2007–2011; protokol potpisan 25. 5. 2007; rekonstruisane prostorije otvorene 25. 2. 2011",
+              "s": [
+                "S3",
+                "S4"
+              ],
+              "id": "T05:osnovni:84462aceb557",
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "id": "prostori",
+          "title": {
+            "en": "Spaces and published capacities",
+            "sr": "Prostori i javno navedeni kapaciteti"
+          },
+          "claims": [
+            {
+              "t": "Velika sala",
+              "v": "494 mesta (368 parter + 126 balkon); scenski prostor 10×10 m; projektor, platno, mikseta, ozvučenje, scenska rasveta",
+              "s": [
+                "S1"
+              ],
+              "id": "T05:prostori:8f11c05d6d4a",
+              "category": "use"
+            },
+            {
+              "t": "Sala Amerikana",
+              "v": "600 stajaćih i 200 sedećih mesta; bina 8×5 m; koncertna rasveta i ozvučenje",
+              "s": [
+                "S1"
+              ],
+              "id": "T05:prostori:f651eb46cece",
+              "category": "use"
+            },
+            {
+              "t": "Klub DOB",
+              "v": "250 stajaćih i 80 sedećih mesta; bina 6×4 m",
+              "s": [
+                "S1"
+              ],
+              "id": "T05:prostori:95c135568a5a",
+              "category": "use"
+            },
+            {
+              "t": "Tribinska sala",
+              "v": "70 sedećih mesta; audio i video oprema",
+              "s": [
+                "S1"
+              ],
+              "id": "T05:prostori:ae116f202a19",
+              "category": "use"
+            },
+            {
+              "t": "Holovi",
+              "v": "holovi na četiri nivoa",
+              "s": [
+                "S1"
+              ],
+              "id": "T05:prostori:aa00345a5704",
+              "category": "geometry"
+            },
+            {
+              "t": "Pomoćni prostori",
+              "v": "garderobe, kupatila, režije, kinokabina i prostorija za simultani prevod uz pojedine sale",
+              "s": [
+                "S1"
+              ],
+              "id": "T05:prostori:47795026fd24",
+              "category": "use"
+            }
+          ]
+        },
+        {
+          "id": "elementi",
+          "title": {
+            "en": "Building element register",
+            "sr": "Registar građevinskih elemenata"
+          },
+          "claims": [
+            {
+              "t": "Fasada",
+              "v": "obuhvaćena rekonstrukcijom; tačan sistem, slojevi i završna obrada za proveru u projektnoj dokumentaciji",
+              "s": [
+                "S3"
+              ],
+              "id": "T05:elementi:8859b84e50d4",
+              "category": "materials"
+            },
+            {
+              "t": "Spoljašnji prozori i zastakljenje",
+              "v": "tip i specifikacija nisu potvrđeni",
+              "s": [],
+              "id": "T05:elementi:80586e556443",
+              "category": "materials",
+              "status": "unknown"
+            },
+            {
+              "t": "Spoljašnja vrata i ulazi",
+              "v": "specifikacija nije potvrđena",
+              "s": [],
+              "id": "T05:elementi:8bd7c44bf209",
+              "category": "materials",
+              "status": "unknown"
+            },
+            {
+              "t": "Krov i hidroizolacija",
+              "v": "nema javnih podataka o sastavu",
+              "s": [],
+              "id": "T05:elementi:fdf4f03e4022",
+              "category": "materials",
+              "status": "unknown"
+            },
+            {
+              "t": "Zidne konstrukcije",
+              "v": "sastav nije potvrđen; sonda samo uz odobrenje",
+              "s": [],
+              "id": "T05:elementi:d1f4ebcd9171",
+              "category": "structure",
+              "status": "unknown"
+            },
+            {
+              "t": "Međuspratne konstrukcije",
+              "v": "sistem nije potvrđen u javnim izvorima",
+              "s": [],
+              "id": "T05:elementi:34eeb2be4a05",
+              "category": "structure",
+              "status": "unknown"
+            },
+            {
+              "t": "Podne obloge",
+              "v": "nema pouzdane javne specifikacije po prostorijama",
+              "s": [],
+              "id": "T05:elementi:f14ab1461136",
+              "category": "materials",
+              "status": "unknown"
+            },
+            {
+              "t": "Stepeništa i ograde",
+              "v": "specifikacije nisu potvrđene",
+              "s": [],
+              "id": "T05:elementi:0707cdd63f37",
+              "category": "materials",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "instalacije",
+          "title": {
+            "en": "Services and technical systems",
+            "sr": "Instalacije i tehnički sistemi"
+          },
+          "claims": [
+            {
+              "t": "Klimatizacija i ventilacija",
+              "v": "obuhvaćene rekonstrukcijom; vrsta sistema i uređaji nisu specificirani",
+              "s": [
+                "S3"
+              ],
+              "id": "T05:instalacije:5df97b6ab294",
+              "category": "energy"
+            },
+            {
+              "t": "Elektroinstalacije",
+              "v": "deo rekonstrukcije, bez specifikacije sistema",
+              "s": [
+                "S3"
+              ],
+              "id": "T05:instalacije:36981e3906ec",
+              "category": "energy"
+            },
+            {
+              "t": "Liftovi",
+              "v": "zamenjeni u sklopu obnove",
+              "s": [
+                "S3"
+              ],
+              "id": "T05:instalacije:7415ac6cd7ef",
+              "category": "structure"
+            },
+            {
+              "t": "Agregati",
+              "v": "zamenjeni u sklopu rekonstrukcije",
+              "s": [
+                "S3"
+              ],
+              "id": "T05:instalacije:342ddf8a5d09",
+              "category": "energy"
+            },
+            {
+              "t": "Rasveta",
+              "v": "scenska u Velikoj sali, koncertna u Amerikani, galerijska; marke, modeli i broj svetiljki nisu potvrđeni",
+              "s": [
+                "S1"
+              ],
+              "id": "T05:instalacije:a1a850ad3ce7",
+              "category": "energy"
+            },
+            {
+              "t": "Vodovod i kanalizacija",
+              "v": "detalji nisu potvrđeni javnim izvorima",
+              "s": [],
+              "id": "T05:instalacije:74c98234b979",
+              "category": "energy",
+              "status": "unknown"
+            },
+            {
+              "t": "Incident 2022",
+              "v": "saopštenje 3. 10. 2022 o prijavljenom incidentu sa izolacionim materijalom na plafonu Velike sale",
+              "s": [
+                "S5"
+              ],
+              "id": "T05:instalacije:a107a24e6e62",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "metod",
+          "title": {
+            "en": "Method and limits",
+            "sr": "Metod i granice ovog pasoša"
+          },
+          "claims": [
+            {
+              "t": "Koncept",
+              "v": "dokument je koncept: razdvaja poznato od nepoznatog i navodi kojim dokazom se svaka stavka potvrđuje; pravi pasoš traži pristup i terenski pregled",
+              "s": [
+                "S6"
+              ],
+              "id": "T05:metod:bd10f14e86f2",
+              "category": "methods"
+            },
+            {
+              "t": "Poreklo materijala",
+              "v": "za svaki proizvod čuvati dokaz porekla i razlikovati zemlju proizvodnje, sedište proizvođača i mesto kupovine",
+              "s": [
+                "S6"
+              ],
+              "id": "T05:metod:80a908b01585",
+              "category": "methods"
+            }
+          ]
+        },
+        {
+          "id": "arhitektura",
+          "title": {
+            "en": "Architectural description",
+            "sr": "Arhitektonski opis"
+          },
+          "claims": [
+            {
+              "t": "Autori",
+              "v": "Zoran Tasić i Dragoljub Filipović, uz saradnike; tako navodi Arhitektonski fakultet",
+              "s": [
+                "S8"
+              ],
+              "id": "T05:arhitektura:45bdb10f58ab",
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Period izgradnje",
+              "v": "projektovan početkom šezdesetih, građen 1961–1964; ustanova osnovana 29. juna 1964",
+              "s": [
+                "S7"
+              ],
+              "id": "T05:arhitektura:a96a5b9b737a",
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Položaj",
+              "v": "ugao Makedonske i Dečanske ulice, blizu Trga Republike",
+              "s": [
+                "S7"
+              ],
+              "id": "T05:arhitektura:f8018d76c92f",
+              "category": "location",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Stil",
+              "v": "posleratni modernizam: jednostavne geometrijske forme, funkcionalnost, bez suvišne dekoracije",
+              "s": [
+                "S7"
+              ],
+              "id": "T05:arhitektura:55f2fa03cefa",
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Fasadni sistem",
+              "v": "zid-zavesa (curtain wall), u vreme izgradnje jedna od ranijih primena u Srbiji",
+              "s": [
+                "S7"
+              ],
+              "id": "T05:arhitektura:2ec55df4c5a9",
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Kompozicija",
+              "v": "vertikalna poslovna kula povučena od regulacije i niži aneks koji se vezuje za javni prostor; u aneksu dvorana, galerijski i ugostiteljski sadržaji",
+              "s": [
+                "S7"
+              ],
+              "id": "T05:arhitektura:088037ed4049",
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Stanje fasade",
+              "v": "originalna fasada kule sačuvana, aneks kroz vreme rekonstruisan",
+              "s": [
+                "S9"
+              ],
+              "id": "T05:arhitektura:a9aff8683eda",
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Prilozi",
+              "v": "docx pominje fotografije i planove, ali oni nisu stigli uz predaju (napomena nastavnika 27. 10.)",
+              "s": [
+                "S7"
+              ],
+              "id": "T05:arhitektura:d392330e2c4e",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "kultura",
+          "title": {
+            "en": "Cultural role",
+            "sr": "Kulturni značaj"
+          },
+          "claims": [
+            {
+              "t": "Rani programi",
+              "v": "krajem šezdesetih rani diskoklubovi i besplatno psihološko savetovalište za mlade",
+              "s": [
+                "S7"
+              ],
+              "id": "T05:kultura:67a78fcc39b0",
+              "category": "use",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Program kroz decenije",
+              "v": "muzika (rok, džez, alternativa), film i festivali, pozorište, izložbe, tribine i obrazovni programi",
+              "s": [
+                "S7"
+              ],
+              "id": "T05:kultura:629efdabba89",
+              "category": "use",
+              "status": "unconfirmed"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Dom omladine Beograda — „Prostor“ (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://domomladine.org/prostor/"
+        },
+        {
+          "id": "S2",
+          "label": "Dom omladine Beograda — „O nama“ (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://domomladine.org/o-nama/"
+        },
+        {
+          "id": "S3",
+          "label": "Dom omladine Beograda — „Završen mandat Milana Lučića na mestu direktora DOB-a“ (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://domomladine.org/zavrsen-mandat-milana-lucica-na-mestu-direktora-dob-a/"
+        },
+        {
+          "id": "S4",
+          "label": "Grad Beograd — „Potpisan protokol o rekonstrukciji Doma omladine“, 25. 5. 2007 (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://www.beograd.rs/lat/beoinfo-vesti/a20611/Potpisan-protokol-o-rekonstrukciji-Doma-omladine.html"
+        },
+        {
+          "id": "S5",
+          "label": "Dom omladine Beograda — „Saopštenje Doma omladine Beograda“, 3. 10. 2022 (navod studenta)",
+          "kind": "zvanični sajt",
+          "url": "https://domomladine.org/saopstenje-doma-omladine-beograda/"
+        },
+        {
+          "id": "S6",
+          "label": "Studentski podnesak „Digitalni pasoš zgrade — Dom omladine Beograda“, verzija 1.0, 11. 10. 2026 (tabelarni PDF)",
+          "kind": "studentski podnesak"
+        },
+        {
+          "id": "S7",
+          "label": "Studentski podnesak „Dom omladine Beograd“ (opisni docx, 26. 10. 2026) — bez spiska izvora",
+          "kind": "studentski podnesak"
+        },
+        {
+          "id": "S8",
+          "label": "Arhitektonski fakultet Univerziteta u Beogradu (navod studenta, bez URL-a)",
+          "kind": "institucija"
+        },
+        {
+          "id": "S9",
+          "label": "Publikacija o energetskoj efikasnosti objekata u Beogradu (navod studenta, bez bibliografskog podatka)",
+          "kind": "publikacija"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-27/raw/tim-6/tabelarni.pdf",
+        "sha256": "747ec74d1ebe3f15108cbd255fae97835e66321a05ece12b24b42b209dddfbc1"
+      }
+    },
+    {
+      "id": "t15",
+      "team": "T15",
+      "credit": "77/26 · 78/26",
+      "received": "2026-10-26",
+      "object": {
+        "name": "Zgrada RTS"
+      },
+      "sections": [
+        {
+          "id": "osnovni",
+          "title": {
+            "en": "Basic data",
+            "sr": "Osnovni podaci"
+          },
+          "claims": [
+            {
+              "t": "Adresa",
+              "v": "Takovska 10, uz Tašmajdanski park",
+              "s": [
+                "S1"
+              ],
+              "id": "T15:osnovni:cff06ba98f51",
+              "category": "location"
+            },
+            {
+              "t": "Arhitekta",
+              "v": "Ivan Antić, šezdesete godine",
+              "s": [
+                "S1"
+              ],
+              "id": "T15:osnovni:7b63472f9d11",
+              "category": "people"
+            },
+            {
+              "t": "Prvobitna namena",
+              "v": "građena kao Dom pionira; završena 1966",
+              "s": [
+                "S1"
+              ],
+              "id": "T15:osnovni:654dae8e5242",
+              "category": "time"
+            },
+            {
+              "t": "Stil",
+              "v": "moderna arhitektura: jednostavna geometrijska forma, naglašena funkcionalnost",
+              "s": [
+                "S1"
+              ],
+              "id": "T15:osnovni:a0ea6fc941da",
+              "category": "identity"
+            },
+            {
+              "t": "Odnos prema parku",
+              "v": "projektovana da se prostorno i vizuelno povezuje sa Tašmajdanskim parkom",
+              "s": [
+                "S1"
+              ],
+              "id": "T15:osnovni:eed3b010e453",
+              "category": "environment"
+            },
+            {
+              "t": "Kasnija namena",
+              "v": "sedište RTS-a: televizijska produkcija, redakcije, administracija, tehničke prostorije",
+              "s": [
+                "S1"
+              ],
+              "id": "T15:osnovni:7cfc4302e518",
+              "category": "use"
+            },
+            {
+              "t": "1999",
+              "v": "bombardovanje 1999. godine, poginulo 16 radnika RTS-a",
+              "s": [
+                "S1"
+              ],
+              "id": "T15:osnovni:7b4d750bff10",
+              "category": "time"
+            },
+            {
+              "t": "Teren 26. 10.",
+              "v": "obavljen rad na terenu: 6 fotografija (5 spolja, 1 unutra) u prijemu",
+              "s": [
+                "S2"
+              ],
+              "id": "T15:osnovni:52eb590a5b06",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "unutrasnjost",
+          "title": {
+            "en": "Interior: layers and materials",
+            "sr": "Unutrašnjost: slojevi i materijali"
+          },
+          "claims": [
+            {
+              "t": "Povratak 2004",
+              "v": "posle požara 2000. i obnove, u maju 2004. redakcije, direkcija i programske službe vratile se skoro po istom rasporedu soba kao 1966",
+              "s": [
+                "S3"
+              ],
+              "id": "T15:unutrasnjost:56514cb826e3",
+              "category": "time"
+            },
+            {
+              "t": "Tri sloja",
+              "v": "prvobitna organizacija 1966, promene tokom korišćenja, obnova posle 2000; za svaki sloj potrebni planovi ili svedočenja",
+              "s": [
+                "S3",
+                "S7"
+              ],
+              "id": "T15:unutrasnjost:e4031c3cfbd9",
+              "category": "methods"
+            },
+            {
+              "t": "Konstruktivni sistem",
+              "v": "bez statičkog projekta ili stručnog snimka nije potvrđen; ni da li je beton vidljiv u enterijeru",
+              "s": [],
+              "id": "T15:unutrasnjost:2c393e3f1385",
+              "category": "structure",
+              "status": "unknown"
+            },
+            {
+              "t": "Podovi",
+              "v": "teraco i kamen mogući za javne prostore tog vremena, ali nema izvora koji potvrđuje prvobitne obloge",
+              "s": [],
+              "id": "T15:unutrasnjost:b58bcc60c29e",
+              "category": "materials",
+              "status": "unknown"
+            },
+            {
+              "t": "Pregrade i stolarija",
+              "v": "nije utvrđeno da li su pregrade zidane ili lake i da li se raspored menja bez zadiranja u konstrukciju",
+              "s": [],
+              "id": "T15:unutrasnjost:585f9bc0b5df",
+              "category": "structure",
+              "status": "unknown"
+            },
+            {
+              "t": "Poreklo materijala",
+              "v": "nema pouzdanog izvora o proizvođačima, kamenolomima ili dobavljačima; ne pretpostavljati domaće poreklo",
+              "s": [],
+              "id": "T15:unutrasnjost:ed9b4e87f0ba",
+              "category": "materials",
+              "status": "unknown"
+            },
+            {
+              "t": "Tragovi za istraživanje",
+              "v": "predmer i predračun, ugovori sa izvođačima, računi i građevinski dnevnici, katalozi iz šezdesetih, dokumentacija obnove posle 2000",
+              "s": [
+                "S5",
+                "S7"
+              ],
+              "id": "T15:unutrasnjost:19bc7c55359b",
+              "category": "methods"
+            },
+            {
+              "t": "Referentne fotografije",
+              "v": "fotografije modernističkih enterijera u podnesku su vizuelne reference, ne potvrđene fotografije RTS-a",
+              "s": [
+                "S7"
+              ],
+              "id": "T15:unutrasnjost:9f2bc7e58e22",
+              "category": "documents"
+            },
+            {
+              "t": "Hol i izložbe",
+              "v": "hol RTS-a kao izložbeni prostor dokumentovan u galeriji RTS-a",
+              "s": [
+                "S6"
+              ],
+              "id": "T15:unutrasnjost:38bfbf19bb91",
+              "category": "use"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "DaNS br. 41 (2003), PDF Društva arhitekata Novog Sada (navod studenta)",
+          "kind": "časopis",
+          "url": "https://dans.org.rs/wp-content/uploads/2023/07/DANS-41-2003.pdf"
+        },
+        {
+          "id": "S2",
+          "label": "Studentski podnesak „Osnovni podaci“ (docx, 26. 10. 2026) uz 6 fotografija sa terena",
+          "kind": "studentski podnesak"
+        },
+        {
+          "id": "S3",
+          "label": "RTS, emisija „Trezor“ — Takovska 10 (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.rts.rs/lat/tv/rts2/2095580/trezor.html"
+        },
+        {
+          "id": "S4",
+          "label": "Godišnjak grada Beograda LIX, S. Mihajlov (MGB PDF) (navod studenta; veza sa temom nejasna)",
+          "kind": "publikacija",
+          "url": "https://www.mgb.org.rs/public/files/yearbook_by_year_documents/document/s.mihajlov-djacka-trpeza-GodisnjakLIX.pdf"
+        },
+        {
+          "id": "S5",
+          "label": "Istorijski arhiv Beograda — pisarnica, projekti (navod studenta)",
+          "kind": "arhiv",
+          "url": "https://www.arhiv-beograda.org/rs/pisarnica/projekti"
+        },
+        {
+          "id": "S6",
+          "label": "RTS — galerija „Izložbe u holu RTS-a“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.rts.rs/lat/rts/galerija-rts/izlozbe-u-holu-rts-a/3137002/.html"
+        },
+        {
+          "id": "S7",
+          "label": "Studentski podnesak „Šta znamo o unutrašnjosti“ (docx, 26. 10. 2026)",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-27/raw/tim-4/RTS-zgrada/RTS-zgrada/Osnovne informacije_/Document (3).docx",
+        "sha256": "8854430ce27d8da55a09f226e55be1cf824069f77930256a7c2dc705017e45b0"
+      }
+    },
+    {
+      "id": "t23",
+      "team": "T23",
+      "credit": "150/26 · 151/26",
+      "received": "2026-10-28",
+      "object": {
+        "name": "Jugoslovensko dramsko pozorište (JDP)"
+      },
+      "sections": [
+        {
+          "id": "epohe",
+          "title": {
+            "en": "Timeline of uses and reconstructions",
+            "sr": "Hronologija namena i rekonstrukcija"
+          },
+          "claims": [
+            {
+              "t": "1860–1880 Manjež",
+              "v": "kraljevska jahačka škola i konjušnica; prizemna hala pravougaone osnove sa drvenom krovnom rešetkom",
+              "s": [
+                "S1"
+              ],
+              "id": "T23:epohe:e86c25bcdaa9",
+              "category": "time"
+            },
+            {
+              "t": "1920-te Skupština i pozorište",
+              "v": "posle Prvog svetskog rata privremeno adaptiran za Narodnu skupštinu, a jedno vreme i za scene Narodnog pozorišta posle požara matične zgrade 1927",
+              "s": [
+                "S2"
+              ],
+              "id": "T23:epohe:c7b547feae60",
+              "category": "time"
+            },
+            {
+              "t": "1927 požar i Krasnov",
+              "v": "posle požara planovi obnove gotovi za mesec dana; po projektu Nikolaja Krasnova dozidan sprat i nadgrađen vestibil uz južnu fasadu; fasada sa dekorativnim elementima i figurama na spratu",
+              "s": [
+                "S2",
+                "S5"
+              ],
+              "id": "T23:epohe:f19423df35e0",
+              "category": "time"
+            },
+            {
+              "t": "1929–1937",
+              "v": "novo pozorište otvoreno 12. jula 1929; od jeseni 1931. do 1937. privremeno Skupština Kraljevine Jugoslavije, do završetka zgrade na Trgu Nikole Pašića",
+              "s": [
+                "S2"
+              ],
+              "id": "T23:epohe:92111d0b8fa9",
+              "category": "time"
+            },
+            {
+              "t": "1947–1948 JDP",
+              "v": "temeljna rekonstrukcija za Jugoslovensko dramsko pozorište; arhitekt Momir Belobrk oblikuje enterijer i scenu",
+              "s": [
+                "S3",
+                "S8"
+              ],
+              "id": "T23:epohe:e4d04f9c8897",
+              "category": "time"
+            },
+            {
+              "t": "17. oktobar 1997 požar",
+              "v": "požar uništio enterijer i gledalište; sačuvani uglavnom spoljašnji zidovi",
+              "s": [
+                "S3",
+                "S8"
+              ],
+              "id": "T23:epohe:7d78abf41a73",
+              "category": "time"
+            },
+            {
+              "t": "2003–2005 rekonstrukcija",
+              "v": "obnova po projektu Zorana Radojičića i Dejana Miljkovića; otvoreno u maju 2005. sa novom scenskom tehnologijom",
+              "s": [
+                "S4"
+              ],
+              "id": "T23:epohe:25b5bf08fd6f",
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "id": "materijali",
+          "title": {
+            "en": "Materials by period",
+            "sr": "Materijali po epohi"
+          },
+          "claims": [
+            {
+              "t": "1860 — masivna gradnja",
+              "v": "zidovi od pune opeke u krečnom malteru, masivne drvene grede i drvena krovna konstrukcija, zemljani i drveni podovi; niska otpornost na vatru",
+              "s": [
+                "S1"
+              ],
+              "id": "T23:materijali:e2da5e2b438d",
+              "category": "materials"
+            },
+            {
+              "t": "1920-te — privremene adaptacije",
+              "v": "zadržana opeka i drvo; dodate privremene drvene pregrade, lake obloge i scenografski elementi, zapaljivi bez zaštite",
+              "s": [
+                "S2"
+              ],
+              "id": "T23:materijali:95e5490873d9",
+              "category": "materials"
+            },
+            {
+              "t": "1927–1929 — obnova Krasnova",
+              "v": "sanacija zidova od opeke, nove drvene krovne i stropne konstrukcije, malterisane površine i klasična pozorišna stolarija; i dalje opeka, drvo, malter",
+              "s": [
+                "S2"
+              ],
+              "id": "T23:materijali:242eb2913555",
+              "category": "materials"
+            },
+            {
+              "t": "1947–1948 — Belobrk",
+              "v": "materijali skoro isti kao posle prethodne obnove; unapređena upotreba radi akustike i vizuelnog identiteta",
+              "s": [
+                "S3"
+              ],
+              "id": "T23:materijali:cc059f29aa86",
+              "category": "materials"
+            },
+            {
+              "t": "2003–2005 — hibrid",
+              "v": "čelik za krovne rešetkaste nosače i scensku mehanizaciju; armirani beton za međuspratne konstrukcije, jezgra i gledalište; staklene površine atrijuma; vatrootporni gips-karton; furnirani medijapan u gledalištu",
+              "s": [
+                "S4"
+              ],
+              "id": "T23:materijali:5b1e0e919cec",
+              "category": "materials"
+            },
+            {
+              "t": "Princip 2003–2005",
+              "v": "hibridni sklopovi (čelik + beton + suva gradnja), visoka vatrootpornost i jasna razdvojivost novih materijala od istorijske strukture",
+              "s": [
+                "S4"
+              ],
+              "id": "T23:materijali:1d82aaa31718",
+              "category": "methods"
+            }
+          ]
+        },
+        {
+          "id": "gradja",
+          "title": {
+            "en": "Graphic sources",
+            "sr": "Grafički prilozi i njihovi izvori"
+          },
+          "claims": [
+            {
+              "t": "Prvobitni objekat",
+              "v": "fotografije iz fototeke Istorijskog arhiva Beograda i zbirke Muzeja grada Beograda",
+              "s": [
+                "S5",
+                "S6"
+              ],
+              "id": "T23:gradja:eec07c63aa73",
+              "category": "documents"
+            },
+            {
+              "t": "Krasnov 1927–1928",
+              "v": "fasada, skica i tehnički crteži: IAB, Zbirna zbirka planova Ministarstva građevina, inv. br. 385; digitalni arhiv NBS",
+              "s": [
+                "S5",
+                "S7"
+              ],
+              "id": "T23:gradja:a7204ffc26fe",
+              "category": "documents"
+            },
+            {
+              "t": "Belobrk i požar 1997",
+              "v": "fasada Belobrka i fotografija požara iz arhiva i fototeke JDP-a",
+              "s": [
+                "S8"
+              ],
+              "id": "T23:gradja:6d969c0dd841",
+              "category": "documents"
+            },
+            {
+              "t": "Rekonstrukcija 2003–2005",
+              "v": "autorska dokumentacija studija Radojičić–Miljković i izvođački projekat",
+              "s": [
+                "S4"
+              ],
+              "id": "T23:gradja:bce61a7d0cec",
+              "category": "documents"
+            },
+            {
+              "t": "Obim predaje",
+              "v": "stigao samo odeljak 1 pasoša sa 16 priloga; prava arhiva (IAB, MGB, JDP) za objavu priloga nisu potvrđena",
+              "s": [
+                "S9"
+              ],
+              "id": "T23:gradja:31316e1a7b3c",
+              "category": "documents"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Đurić-Zamolo, D. (1981). Graditelji Beograda 1815–1914. Beograd: Muzej grada Beograda (navod studenta)",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S2",
+          "label": "Bogunović, S. G. (2005). Arhitektonska enciklopedija Beograda XIX i XX veka. Beograd: Beogradska knjiga (navod studenta)",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S3",
+          "label": "Manević, Z. (1999). Novi vek srpske arhitekture. Beograd: Arhitektonski fakultet / Muzej arhitekture (navod studenta)",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S4",
+          "label": "Radojičić, Z. & Miljković, D. (2004). Rekonstrukcija i dogradnja JDP-a u Beogradu. Arhitektura i urbanizam br. 14/15, str. 32–45 (navod studenta)",
+          "kind": "časopis"
+        },
+        {
+          "id": "S5",
+          "label": "Istorijski arhiv Beograda — Zbirna zbirka planova Ministarstva građevina, inv. br. 385, nacrti N. Krasnov 1927–1928; fototeka (navod studenta)",
+          "kind": "arhiv"
+        },
+        {
+          "id": "S6",
+          "label": "Muzej grada Beograda — zbirka fotografija (navod studenta)",
+          "kind": "arhiv"
+        },
+        {
+          "id": "S7",
+          "label": "Narodna biblioteka Srbije — digitalni arhiv (navod studenta)",
+          "kind": "arhiv"
+        },
+        {
+          "id": "S8",
+          "label": "Arhiv i fototeka Jugoslovenskog dramskog pozorišta (navod studenta)",
+          "kind": "arhiv"
+        },
+        {
+          "id": "S9",
+          "label": "Studentski podnesak „Identitet, materijali i hronologija namena“ (docx sa 16 priloga, 28. 10. 2026)",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-28/raw/t23/manjez word.docx",
+        "sha256": "0fa3397cb1247da37dbfaf5ee95d8f56ff8096d7444ba45b435c5df01b10dcb9"
+      }
     }
   ],
   "inbox": [
@@ -6410,5 +8715,5 @@
       "state": "zavedeno 2026-10-19 — registar timova: docs/data/pasos/timovi-evidencija.json (28 stavki, 5 otvorenih pitanja)"
     }
   ],
-  "datasetRevision": "r-7531e7c1fa1b1788"
+  "datasetRevision": "r-d40a85ed40630b2b"
 }
