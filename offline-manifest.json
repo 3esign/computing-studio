@@ -1,6 +1,6 @@
 {
-  "version": "a1db386676a3c8ae",
-  "bytes": 30248948,
+  "version": "4fa21365c7f7fdcc",
+  "bytes": 30744667,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -32,6 +32,7 @@
     "data/course.json",
     "data/ideas.json",
     "data/labs.json",
+    "data/pasos/kolokvijum.json",
     "data/pasos/nejasno.json",
     "data/pasos/objekat-001-savski-most.json",
     "data/pasos/timovi-evidencija.json",
