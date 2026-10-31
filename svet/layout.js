@@ -26,8 +26,13 @@
    on the page. */
 (function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.AtlasLayout=api})(typeof window==='object'?window:globalThis,()=>{
  'use strict';
- const VERSION=1;
- const METRES_PER_UNIT=25;
+ const VERSION=2;
+ /* 2026-10-31: 25 m per unit could no longer hold the sculptures. With the plan
+    rosettes reserved (around every wing and inside shared objects) and 37
+    passports in, the centre needed a 1250 m nudge cap. At 16 m per unit the
+    city is larger in sculpture units: the cap falls back to 576 m and the median
+    nudge to 329 m (was 850 / 495 m without rosettes). Sculptures keep their size. */
+ const METRES_PER_UNIT=16;
  /* Projection origin: kept from the first atlas so old revision snapshots and
     the geography file keep reading the same way. */
  const ORIGIN={lng:20.45,lat:44.818};
@@ -35,9 +40,9 @@
     objects), frozen as a constant. A centre recomputed from the data would
     move the whole city every time a team is added. */
  const CENTRE={lng:20.4525,lat:44.8147};
- const CORE=45;          // units (~1.1 km) of untouched plain projection
+ const CORE=1125/METRES_PER_UNIT; // units (1125 m) of untouched plain projection
  const COMPRESS=0.4;     // how much of the distance beyond the core survives
- const CAP=10;           // units (250 m): the largest legibility nudge allowed
+ const CAP=16;           // units (256 m): the largest legibility nudge allowed
  const PAD=1.6;          // units of clear ground between two footprints
  const PROP=0.1;         // plus a tenth of the two radii, so big objects breathe
  const GAP_TARGET=3;     // units: a neighbour further than this is pulled closer
@@ -53,10 +58,11 @@
   if(d<=CORE||!d)return [p[0],p[1]||0,p[2]];
   const nd=CORE+(d-CORE)*COMPRESS;return [CENTRE_XZ[0]+dx/d*nd,p[1]||0,CENTRE_XZ[2]+dz/d*nd]}
  function place(lng,lat){return warp(project(lng,lat))}
- /* How wide one building stands: its own wings plus, when several teams share
-    the object, their ring and plinth. Radius comes from the compiled geometry,
+ /* How wide one building stands: its own wings and their plan rosettes plus,
+    when several teams share the object, their ring and plinth. Radius comes from the compiled geometry,
     never from a guess about the real building. */
- function radius(models,architecture){const span=models.reduce((r,m)=>Math.max(r,Math.hypot(m.wingOffset[0],m.wingOffset[1])+architecture.footprint(m)),0);
+ function radius(models,architecture){const reach=m=>architecture.reach?architecture.reach(m):architecture.footprint(m);
+  const span=models.reduce((r,m)=>Math.max(r,Math.hypot(m.wingOffset[0],m.wingOffset[1])+reach(m)),0);
   const lead=models.find(m=>m.shared&&m.shared.length);
   return Math.max(span,lead?(lead.buildingPedestal||0)/2:0,1)}
  const need=(a,b)=>a.radius+b.radius+PAD+PROP*(a.radius+b.radius);

@@ -111,7 +111,8 @@
    const byId=new Map(models.map(m=>[m.id,m]));
    for(const g of buildings(data)){
      const members=g.teams.map(id=>byId.get(id)).filter(Boolean);if(!members.length)continue;
-     const geom=wings(members.map(footprint));
+     // Spaced by what plan view draws around each wing, so team rosettes inside one object stay apart too.
+     const geom=wings(members.map(m=>footprint(m)+rosette(m.records).reach));
      const records=members.reduce((n,m)=>n+m.records,0),sources=members.reduce((n,m)=>n+m.sources,0),openings=members.reduce((n,m)=>n+m.openings,0);
      members.forEach((m,i)=>{m.building=g.id;m.buildingObject=g.object;m.buildingTeams=g.teams.slice();m.wingIndex=i;m.wingOffset=geom.offsets[i];m.teamSlot=i;m.teamCount=members.length});
      if(members.length<2)continue;
@@ -138,5 +139,13 @@
    }
    return models;
  }
- return {VERSION,allocate,compile,unknown,buildings,wings,footprint,teamTint,tintCss,canonicalObject};
+ /* The plan view lays a flat rosette around each team's wing: a band of record
+    categories, then one tick per source. Whatever is drawn is also reserved —
+    the map layout reads the same reach, so no rosette lands on a neighbour
+    (measured 2026-10-31: the old 5-unit band was invisible to the layout and
+    rosettes covered each other across the centre). */
+ function rosette(records){const span=Math.max(1.2,Math.min(3,.6+Math.sqrt(records)*.4));
+   return {gap:.5,span,tickGap:.3,tick:.6,reach:records?.5+span+.3+.6:0}}
+ function reach(m){return footprint(m)+rosette(m.records).reach}
+ return {VERSION,allocate,compile,unknown,buildings,wings,footprint,rosette,reach,teamTint,tintCss,canonicalObject};
 });

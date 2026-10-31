@@ -1,8 +1,8 @@
 {
-  "datasetRevision": "r-eb1c0bba2ea82f9c",
+  "datasetRevision": "r-1a27a272556a8403",
   "registeredTeams": 71,
-  "curatedPassportsCount": 32,
-  "totalCuratedClaims": 719,
+  "curatedPassportsCount": 37,
+  "totalCuratedClaims": 1025,
   "passports": [
     {
       "id": "T01",
@@ -51,6 +51,12 @@
       "object": "Zgrada Generalštaba",
       "sections": 4,
       "claims": 16
+    },
+    {
+      "id": "T13",
+      "object": "Palata SANU i Zgrada Pošte",
+      "sections": 11,
+      "claims": 73
     },
     {
       "id": "T14",
@@ -107,6 +113,12 @@
       "claims": 12
     },
     {
+      "id": "T27",
+      "object": "Hram Svetog Save",
+      "sections": 16,
+      "claims": 94
+    },
+    {
       "id": "T28",
       "object": "Kula Beograd",
       "sections": 7,
@@ -115,8 +127,8 @@
     {
       "id": "T31",
       "object": "Zgrada rektorata (Kapetan Mišino zdanje)",
-      "sections": 4,
-      "claims": 16
+      "sections": 5,
+      "claims": 44
     },
     {
       "id": "T33",
@@ -179,6 +191,12 @@
       "claims": 9
     },
     {
+      "id": "T55",
+      "object": "Palata Narodne banke i Muzej novca",
+      "sections": 6,
+      "claims": 41
+    },
+    {
       "id": "T58",
       "object": "Zgrada tehničkih fakulteta",
       "sections": 4,
@@ -195,6 +213,18 @@
       "object": "Hotel Bristol",
       "sections": 4,
       "claims": 22
+    },
+    {
+      "id": "T67",
+      "object": "Kula Beograd",
+      "sections": 2,
+      "claims": 11
+    },
+    {
+      "id": "T71",
+      "object": "Miloša Pocerca 32",
+      "sections": 7,
+      "claims": 59
     }
   ]
 }

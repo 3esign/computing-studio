@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-30",
   "note": {
     "en": "Student pilot digital passports, submitted by e-mail. The curated layer keeps claims with their sources; duplicates of one source are merged; legends are separated from facts; unknowns stay unknown. The original submission is preserved verbatim in originalText.",
     "sr": "Studentski piloti digitalnih pasoša (mejl 2026-10-12; prijem dokumenata 2026-10-18). Kurirani sloj čuva tvrdnje sa izvorima; ponavljanja istog izvora su spojena; legende odvojene od činjenica; nepoznato ostaje nepoznato. Originalni podnesci su doslovno sačuvani u originalText i u privatnoj evidenciji (van javnog izvoda). Imena podnosilaca nisu deo javnog izvoda — atribucija je po broju indeksa (odluka 20.10.2026)."
@@ -8915,8 +8915,9 @@
           "claims": [
             {
               "t": "Izgradnja",
-              "v": "1857–1863 po projektu češkog arhitekte Jana Nevole; kapetan Miša Anastasijević poklonio zgradu otadžbini u obrazovne svrhe",
+              "v": "1857–1863",
               "s": [
+                "S6",
                 "S3",
                 "S4"
               ],
@@ -8925,23 +8926,22 @@
             },
             {
               "t": "Stil",
-              "v": "mešavina gotike, romantike, renesanse i srpskog nacionalnog stila; u svoje vreme najmonumentalnija zgrada u Beogradu",
+              "v": "mešavina gotike, romantike, renesanse i srpskog nacionalnog stila",
               "s": [
-                "S1"
+                "S7"
               ],
               "id": "T31:identitet:ed3165df69cd",
-              "category": "identity",
-              "status": "unconfirmed"
+              "category": "identity"
             },
             {
               "t": "Skulpture",
-              "v": "na fasadi prema Univerzitetskom parku Apolon s lirom i Minerva s kopljem i štitom, nepoznat autor",
+              "v": "na fasadi prema Univerzitetskom parku Apolon s lirom (desno) i Minerva s kopljem i štitom (levo), nepoznat autor",
               "s": [
-                "S1"
+                "S7",
+                "S3"
               ],
               "id": "T31:identitet:9f21e1a3e0c0",
-              "category": "materials",
-              "status": "unconfirmed"
+              "category": "materials"
             },
             {
               "t": "Obnova 2015",
@@ -8951,6 +8951,72 @@
               ],
               "id": "T31:identitet:a411cf086a66",
               "category": "time"
+            },
+            {
+              "t": "Adresa",
+              "v": "Studentski trg 1, Beograd",
+              "s": [
+                "S6"
+              ],
+              "id": "T31:identitet:e72884c3921f",
+              "category": "location"
+            },
+            {
+              "t": "Namena danas",
+              "v": "Rektorat Univerziteta u Beogradu i deo Filozofskog fakulteta",
+              "s": [
+                "S6"
+              ],
+              "id": "T31:identitet:2f169dcea72b",
+              "category": "use"
+            },
+            {
+              "t": "Arhitekta",
+              "v": "Jan Nevole, češki arhitekta",
+              "s": [
+                "S6",
+                "S8"
+              ],
+              "id": "T31:identitet:075882cb7d04",
+              "category": "people"
+            },
+            {
+              "t": "Ktitor",
+              "v": "kapetan Miša Anastasijević poklonio zgradu državi (otadžbini) u obrazovne svrhe",
+              "s": [
+                "S6",
+                "S8"
+              ],
+              "id": "T31:identitet:94ad4a2b2da4",
+              "category": "people"
+            },
+            {
+              "t": "Prvobitna namena",
+              "v": "zgrada je trebalo da bude dvor, a postala je centar znanja",
+              "s": [
+                "S3"
+              ],
+              "id": "T31:identitet:27a1820df5d7",
+              "category": "use"
+            },
+            {
+              "t": "Jan Nevole",
+              "v": "rođen 1812. u današnjoj Češkoj, školovan u Pragu i Beču; u Srbiju došao krajem 1845, glavni inženjer Odeljenja građevina",
+              "s": [
+                "S8"
+              ],
+              "id": "T31:identitet:0042129d91b5",
+              "category": "people"
+            },
+            {
+              "t": "Monumentalnost",
+              "v": "u svoje vreme najmonumentalnija zgrada u Beogradu",
+              "s": [
+                "S1"
+              ],
+              "id": "T31:identitet:c2ee8f5c178b",
+              "category": "identity",
+              "status": "unconfirmed"
             }
           ]
         },
@@ -8963,63 +9029,85 @@
           "claims": [
             {
               "t": "Stanje 1863",
-              "v": "nije zatvoren blok: glavni trup prema Studentskom trgu, bočna krila niža za sprat, dodata pre završetka; ceo blok po pretpostavci 1905, godina upisana u podnim pločicama hodnika",
+              "v": "nije zatvoren blok: glavni trup prema Studentskom trgu, desno granica ulica Vuka Karadžića; bočna krila delom u visini venca bočnih fasada, pa niža za sprat; krila nisu bila u prvobitnom planu, dodata pre završetka",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:osnova:f0a47b8689af",
-              "category": "geometry",
-              "status": "unconfirmed"
+              "category": "geometry"
             },
             {
               "t": "Simetrija i dvojnost",
-              "v": "simetrična osnova oko centralne ose sa glavnim ulazom; udvojeni pešački i kolski prolazi i dva ravnopravna stepeništa — dvojnost retka u 19. veku",
+              "v": "simetrična osnova oko centralne ose sa glavnim ulazom i hodnikom; dva dela odvojena vestibulom i srednjim zidom; udvojeni pešački i kolski prolazi i vrata — dvojnost retka u 19. veku",
               "s": [
-                "S1"
+                "S9",
+                "S7"
               ],
               "id": "T31:osnova:fe7a279eb98d",
-              "category": "geometry",
-              "status": "unconfirmed"
+              "category": "geometry"
             },
             {
               "t": "Svečana dvorana",
-              "v": "na drugom spratu u osi, 11,80 × 19,60 m, visina blizu 7,00 m; ostale prostorije oko 4,70 m",
+              "v": "na drugom spratu u centralnoj osi, 11,80 × 19,60 m, visina blizu 7,00 m; ostale prostorije gornja dva sprata oko 4,70 m",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:osnova:50168fb85047",
-              "category": "geometry",
-              "status": "unconfirmed"
+              "category": "geometry"
             },
             {
               "t": "Stepeništa",
-              "v": "ozidana ograda sa ispunom od livenog gvožđa i pločama ružičastog kamena; u bočnim krilima spiralna kamena stepeništa oko ozidanog jezgra",
+              "v": "dva stepeništa iste važnosti (po ogradi levo verovatno glavno); ozidana ograda sa ispunom od livenog gvožđa i pločama ružičastog kamena; u bočnim krilima spiralna kamena stepeništa oko ozidanog jezgra",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:osnova:beaae79e4895",
-              "category": "materials",
-              "status": "unconfirmed"
+              "category": "materials"
             },
             {
               "t": "Pregrađeni hodnik",
-              "v": "srednji pregradni zid naknadno ispunjen oko 1863. radi odvajanja Velike škole od Gimnazije; otvori četvrtastog oblika",
+              "v": "srednji pregradni zid po pretpostavci naknadno ispunjen oko 1863. radi odvajanja Velike škole od Gimnazije; u zidu otvori četvrtastog oblika",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:osnova:4d79a35a857a",
-              "category": "structure",
-              "status": "unconfirmed"
+              "category": "structure"
             },
             {
               "t": "Slepi prozor",
-              "v": "na bočnim fasadama na jedan prozor udara noseći srednji zid, pa ostaje slep",
+              "v": "bočne fasade imaju u prvom delu po četiri prozora na spratu; na jedan udara noseći srednji zid, pa ostaje slep",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:osnova:3faa799e1c7f",
-              "category": "geometry",
-              "status": "unconfirmed"
+              "category": "geometry"
+            },
+            {
+              "t": "Dvorski apartmani",
+              "v": "po pretpostavci prvi sprat bio namenjen glavnim prostorijama dvorskih apartmana; raspored prvog i drugog sprata u bočnim delovima se ne razlikuje",
+              "s": [
+                "S9"
+              ],
+              "id": "T31:osnova:4dfd8d20df15",
+              "category": "use"
+            },
+            {
+              "t": "Nivo poda",
+              "v": "pod prvobitno nije bio uzdignut na tri stepena; promena je posledica kasnijeg nivelisanja ulica",
+              "s": [
+                "S9"
+              ],
+              "id": "T31:osnova:c385425ab193",
+              "category": "geometry"
+            },
+            {
+              "t": "Toaleti",
+              "v": "toaleti odvojeni zbog nedostatka kanalizacije i povezani na jame",
+              "s": [
+                "S9"
+              ],
+              "id": "T31:osnova:af1c1ebe706d",
+              "category": "structure"
             }
           ]
         },
@@ -9032,53 +9120,158 @@
           "claims": [
             {
               "t": "Front",
-              "v": "fasadni front 57,56 m sa nadvišenim srednjim delom",
+              "v": "fasadni front 57,56 m sa srednjom masom istaknutom nadvišenim krovom",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:fasada:511118137e78",
               "category": "geometry",
-              "status": "unconfirmed"
+              "unit": "m"
             },
             {
               "t": "Terakota",
-              "v": "ornamenti od terakote rađeni u Beču, Pešti ili Trstu po pretpostavci; nije utvrđeno da li po Nevolinim detaljima",
+              "v": "ornamenti od terakote nisu rađeni u Beogradu, po pretpostavci u Beču, Pešti ili Trstu; nije utvrđeno da li po Nevolinim detaljima ili nabavljeni po skicama",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:fasada:b8ad873a82ea",
-              "category": "materials",
-              "status": "unconfirmed"
+              "category": "materials"
             },
             {
               "t": "Kamen",
-              "v": "zupčasta atika, kule nad lizenama, stupci i lukovi portala od tašmajdanskog kamena; površine krpljene i bojene",
+              "v": "zupčasta atika, zupčaste kule nad lizenama, stupci i lukovi glavnih portala od tašmajdanskog kamena; površine u znatnoj meri krpljene, utisak bojenja od početka",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:fasada:12fdbccc43f8",
-              "category": "materials",
-              "status": "unconfirmed"
+              "category": "materials"
             },
             {
               "t": "Boja",
-              "v": "svetla fasada sa crvenkastim ukrasima; restauracija 1963. našla prvobitni sloj boje terakote",
+              "v": "fasada uvek svetla sa crvenkastim ukrasima; pri restauraciji 1963. prvobitni sloj na svim mestima pokazao boju terakote",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:fasada:6eae4da31d18",
-              "category": "materials",
-              "status": "unconfirmed"
+              "category": "materials"
             },
             {
               "t": "Krov",
-              "v": "pokriven limom; po starim fotografijama u početku bar delimično ćeramidom; srednji deo sa osmatračnicom od početka lim",
+              "v": "ceo krov pokriven limom; po starim fotografijama u početku bar delimično ćeramidom; srednji deo sa osmatračnicom po nagibima od početka lim",
               "s": [
-                "S1"
+                "S9"
               ],
               "id": "T31:fasada:2ab5952c9ee7",
-              "category": "materials",
-              "status": "unconfirmed"
+              "category": "materials"
+            },
+            {
+              "t": "Rizaliti",
+              "v": "simetrična fasada sa nešto višim središnjim rizalitom i nižim bočnim rizalitima",
+              "s": [
+                "S7"
+              ],
+              "id": "T31:fasada:c01118b65fe1",
+              "category": "geometry"
+            },
+            {
+              "t": "Osmatračnica",
+              "v": "osmatračnica na centralnom delu služila za uzbunu trubom u slučaju požara",
+              "s": [
+                "S7"
+              ],
+              "id": "T31:fasada:f32bc05b615b",
+              "category": "use"
+            },
+            {
+              "t": "Bifore",
+              "v": "bifore na središnjem rizalitu po ugledu na venecijanski luk",
+              "s": [
+                "S7"
+              ],
+              "id": "T31:fasada:c786f3eac7ab",
+              "category": "geometry"
+            },
+            {
+              "t": "Grb",
+              "v": "na fasadi jedan od retkih sačuvanih grbova Kneževine Srbije",
+              "s": [
+                "S7"
+              ],
+              "id": "T31:fasada:4c7b533a15c3",
+              "category": "identity"
+            },
+            {
+              "t": "Venecijanska palata",
+              "v": "naročito jak venecijanski uticaj; Beograđani su zgradu zvali „Venecijanska palata“",
+              "s": [
+                "S7"
+              ],
+              "id": "T31:fasada:d01122b6a8df",
+              "category": "identity"
+            },
+            {
+              "t": "Poreklo dekoracije",
+              "v": "bogata dekoracija iz vizantijskih, srpskih srednjovekovnih, gotičkih i ranorenesansnih uzora",
+              "s": [
+                "S7",
+                "S3"
+              ],
+              "id": "T31:fasada:f332dc4efcea",
+              "category": "identity"
+            },
+            {
+              "t": "Vizantijski kolorit",
+              "v": "zlatnožuta boja ravnih površina i terakota prozorskih okvira i detalja daju efekat vizantijskih crkava",
+              "s": [
+                "S7"
+              ],
+              "id": "T31:fasada:fcd3fb429709",
+              "category": "materials"
+            },
+            {
+              "t": "Domaći kamen",
+              "v": "terakota i drugi industrijski materijali uvezeni; kamene konzole balkona i lukovi ulazne partije od kamena sa teritorije Srbije",
+              "s": [
+                "S3"
+              ],
+              "id": "T31:fasada:25e15592ef89",
+              "category": "materials"
+            },
+            {
+              "t": "Figure i liveno gvožđe",
+              "v": "figure Minerve i Apolona, medaljoni između kapija, amor u stepeništu i balkonska ograda od livenog gvožđa ne deluju rađeni po detaljima arhitekte za ovaj objekat; profili u malteru i ispune ispod prozora izvedeni na licu mesta",
+              "s": [
+                "S9"
+              ],
+              "id": "T31:fasada:51dd372cc7f6",
+              "category": "materials"
+            },
+            {
+              "t": "Terakota i malter",
+              "v": "pri restauraciji primećeno da su neki delovi od terakote nastavljeni u malteru — moguće od opravke, a mestimično verovatno originalno",
+              "s": [
+                "S9"
+              ],
+              "id": "T31:fasada:b1dfcb58d496",
+              "category": "materials"
+            },
+            {
+              "t": "Analogija u Pragu",
+              "v": "kasarna u Pragu izgrađena pre 1845. ima fasadu veoma sličnu ovoj",
+              "s": [
+                "S9"
+              ],
+              "id": "T31:fasada:e2b1b656d4a0",
+              "category": "research"
+            },
+            {
+              "t": "Nemačke analogije",
+              "v": "niz prozora srednjeg dela kao na Hübschovoj tehničkoj visokoj školi; ritam dvorišnih prozora kao kod arhitekte Andreae u Hanoveru 1844. (u podnesku „Andeae“); stil bliži lombardijskoj renesansi nego romanici",
+              "s": [
+                "S9"
+              ],
+              "id": "T31:fasada:f4e4623e9649",
+              "category": "research"
             }
           ]
         },
@@ -9091,11 +9284,79 @@
           "claims": [
             {
               "t": "Stanje dosijea",
-              "v": "Podnesak tima (seminarski tekst, 26.10.2026) ne vezuje izvore za pojedinačne podatke; tri URL-a i skenirana monografija iz priloga vode se kao izvori. Nastavnik je tražio ispravljenu verziju sa izvorima i tabelom. Objavljeno 29.10.2026 po odluci nastavnika; podaci bez izvora nose oznaku „nepotvrđeno\" dok ne stigne nova verzija.",
+              "v": "Prvi podnesak tima (26.10.2026) nije vezivao izvore za pojedinačne podatke i objavljen je 29.10.2026 sa oznakom „nepotvrđeno“. Ispravljena verzija stigla je 30.10.2026: tabela u kojoj uz svaki pasus stoji URL izvora (Wikipedia, Dvorci Srbije, Srpski ugao, Godišnjak grada Beograda IX–X, Nova.rs). Podaci vezani za te izvore više nisu „nepotvrđeni“; podaci kojih nema u novoj verziji ostaju sa ranijim izvorom i oznakom. Svi navedeni izvori su onlajn; Wikipedia je polazna tačka, a stručni oslonac je rad u Godišnjaku grada Beograda. Nastavnik je 30.10.2026 preporučio da tim potraži i offline izvore.",
               "s": [],
               "id": "T31:napomena:4570933878c9",
               "category": "questions",
               "status": "unknown"
+            },
+            {
+              "t": "Slike uz podnesak",
+              "v": "10 slika u ispravljenoj verziji: 7 pripisano Godišnjaku grada Beograda, po jedna portalima Bookaweb i Beotura, jedna bez izvora; slike nisu objavljene (nema odobrenja za javnu upotrebu)",
+              "s": [
+                "S9",
+                "S10",
+                "S11"
+              ],
+              "id": "T31:napomena:32aed7564dce",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "istorija",
+          "title": {
+            "sr": "Istorija",
+            "en": "History"
+          },
+          "claims": [
+            {
+              "t": "Završetak gradnje",
+              "v": "S8 navodi završetak 1862, a S6 gradnju 1857–1863; izvori se razlikuju za godinu završetka",
+              "s": [
+                "S8",
+                "S6"
+              ],
+              "id": "T31:istorija:eedc78bd0fe2",
+              "category": "time",
+              "status": "conflict"
+            },
+            {
+              "t": "Useljenje ustanova",
+              "v": "godinu posle završetka useljavaju se Licej, Gimnazija, Ministarstvo prosvete, Narodna biblioteka i muzej; iz toga nastaje Velika škola, preteča Univerziteta u Beogradu",
+              "s": [
+                "S8"
+              ],
+              "id": "T31:istorija:7b0af17f35ea",
+              "category": "use"
+            },
+            {
+              "t": "Proširenje 1905",
+              "v": "konačan izgled 1905, proširenjem zbog potreba Beogradskog univerziteta; po pretpostavci tada izgrađen ceo današnji blok, godina upisana u podnim pločicama hodnika",
+              "s": [
+                "S7",
+                "S9"
+              ],
+              "id": "T31:istorija:c3794fca07ee",
+              "category": "time"
+            },
+            {
+              "t": "Oštećenja i obnova",
+              "v": "oštećena 1862. (u izvoru: „Srpsko-turski rat“), najviše u Prvom svetskom ratu; obnovljena 1919–1921",
+              "s": [
+                "S7"
+              ],
+              "id": "T31:istorija:9e6eb6f8ca8c",
+              "category": "time"
+            },
+            {
+              "t": "Zaštita",
+              "v": "1946. među prvim objektima stavljenim pod zaštitu države",
+              "s": [
+                "S7"
+              ],
+              "id": "T31:istorija:7832ad0c1e6e",
+              "category": "documents"
             }
           ]
         }
@@ -9129,6 +9390,43 @@
           "label": "Wikipedia (sr.) — „Универзитет у Београду“ (navod studenta)",
           "kind": "enciklopedija",
           "url": "https://sr.wikipedia.org/wiki/Универзитет_у_Београду"
+        },
+        {
+          "id": "S6",
+          "label": "Wikipedia (sr.) — „Капетан-Мишино здање“ (enciklopedijski zapis, polazna tačka; navod studenta uz uvodni pasus)",
+          "kind": "enciklopedija",
+          "url": "https://sr.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BF%D0%B5%D1%82%D0%B0%D0%BD-%D0%9C%D0%B8%D1%88%D0%B8%D0%BD%D0%BE_%D0%B7%D0%B4%D0%B0%D1%9A%D0%B5"
+        },
+        {
+          "id": "S7",
+          "label": "Dvorci Srbije — „Kapetan-Mišino zdanje“ (veb-portal; navod studenta)",
+          "kind": "portal",
+          "url": "https://www.dvorcisrbije.rs/kapetan-misino-zdanje/?pismo=lat"
+        },
+        {
+          "id": "S8",
+          "label": "Srpski ugao — „Kapetan-Mišino zdanje: Jan Nevolev trag u srcu Beograda“ (veb-portal; navod studenta)",
+          "kind": "portal",
+          "url": "https://srpskiugao.rs/kapetan-misino-zdanje-jan-nevolev-trag-u-srcu-beograda/"
+        },
+        {
+          "id": "S9",
+          "label": "Godišnjak grada Beograda, knj. IX–X, str. 81–98 (prema imenu PDF-a) — stručni rad o Kapetan-Mišinom zdanju (Muzej grada Beograda; navod studenta, autor nije naveden u podnesku)",
+          "kind": "godišnjak/arhiv",
+          "url": "http://www.mgb.org.rs/public/files/yearbook_by_year_documents/document/GodisnjakIX-X81-98.pdf",
+          "locator": "str. 81–98"
+        },
+        {
+          "id": "S10",
+          "label": "Bookaweb — oglas 2121 (komercijalni oglasni sajt; naveden samo kao izvor jedne slike)",
+          "kind": "portal",
+          "url": "https://bookaweb.com/sr/ad/2121"
+        },
+        {
+          "id": "S11",
+          "label": "Beotura — „Mansion Miša Anastasijević“ (turistički portal; naveden samo kao izvor jedne slike)",
+          "kind": "portal",
+          "url": "https://beotura.rs/mansion-misa-anastasijevic/"
         }
       ],
       "originalSource": {
@@ -9363,6 +9661,3378 @@
         "file": "evidencija/prijem-2026-10-28/raw/tura2/t50/digitalni_pasos.docx",
         "sha256": "bdc97ef8e3f6ededc255626aa64e03ff77584c72292fd1e8fc7825e9fd1633cc"
       }
+    },
+    {
+      "id": "t67",
+      "team": "T67",
+      "credit": "45/26 · 159/26 · 158/26",
+      "received": "2026-10-31",
+      "object": {
+        "name": "Kula Beograd"
+      },
+      "sections": [
+        {
+          "id": "konstrukcija",
+          "title": {
+            "sr": "Konstruktivni sistem",
+            "en": "Structural system"
+          },
+          "claims": [
+            {
+              "id": "T67:konstrukcija:visina",
+              "t": "Visina objekta",
+              "v": "Približno 168 m",
+              "unit": "m",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "checkedAt": "2026-10-31"
+            },
+            {
+              "id": "T67:konstrukcija:nivoi",
+              "t": "Broj nadzemnih nivoa",
+              "v": "42 nadzemna nivoa",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "checkedAt": "2026-10-31"
+            },
+            {
+              "id": "T67:konstrukcija:namene",
+              "t": "Namene u objektu",
+              "v": "Hotelski, stambeni i komercijalni sadržaji",
+              "s": [
+                "S1"
+              ],
+              "category": "use",
+              "checkedAt": "2026-10-31"
+            },
+            {
+              "id": "T67:konstrukcija:sistem",
+              "t": "Osnovni konstruktivni sistem",
+              "v": "Pretežno armiranobetonski: centralno jezgro, stubovi i međuspratne ploče zajedno prenose opterećenja na temelje",
+              "s": [
+                "S2"
+              ],
+              "category": "structure",
+              "checkedAt": "2026-10-31"
+            },
+            {
+              "id": "T67:konstrukcija:jezgro",
+              "t": "Centralno jezgro",
+              "v": "Armiranobetonsko jezgro daje prostornu i bočnu stabilnost; zidovi jezgra prihvataju značajan deo horizontalnih dejstava, uključujući vetar",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "category": "structure",
+              "checkedAt": "2026-10-31"
+            },
+            {
+              "id": "T67:konstrukcija:stubovi",
+              "t": "Stubovi",
+              "v": "Armiranobetonski stubovi prenose vertikalna opterećenja sa međuspratnih konstrukcija na temelje; u oblikovanju se javljaju i karakteristični kosi stubovi",
+              "s": [
+                "S1"
+              ],
+              "category": "structure",
+              "checkedAt": "2026-10-31"
+            },
+            {
+              "id": "T67:konstrukcija:ploce",
+              "t": "Međuspratne ploče",
+              "v": "Armiranobetonske; za tipske delove debljina oko 200 mm, uz lokalna zadebljanja u pojedinim zonama",
+              "unit": "mm",
+              "s": [
+                "S2"
+              ],
+              "category": "structure",
+              "checkedAt": "2026-10-31"
+            },
+            {
+              "id": "T67:konstrukcija:temelj",
+              "t": "Temeljenje",
+              "v": "Temeljna ploča i sistem od 270 armiranobetonskih šipova dužine približno 35 m",
+              "s": [
+                "S1"
+              ],
+              "category": "structure",
+              "checkedAt": "2026-10-31"
+            },
+            {
+              "id": "T67:konstrukcija:celik",
+              "t": "Čelični elementi",
+              "v": "Pored armiranobetonskih elemenata, na pojedinim delovima primenjeni su čelični elementi, uključujući elemente podijuma i završne krune",
+              "s": [
+                "S4"
+              ],
+              "category": "materials",
+              "checkedAt": "2026-10-31"
+            },
+            {
+              "id": "T67:konstrukcija:stabilnost",
+              "t": "Stabilnost objekta",
+              "v": "Ostvaruje se zajedničkim radom centralnog jezgra, stubova i međuspratnih konstrukcija; sistem prenosi vertikalna i horizontalna dejstva",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "category": "structure",
+              "checkedAt": "2026-10-31"
+            }
+          ]
+        },
+        {
+          "id": "napomena",
+          "title": {
+            "sr": "Napomena",
+            "en": "Note"
+          },
+          "claims": [
+            {
+              "id": "T67:napomena:provera",
+              "t": "Napomena tima",
+              "v": "Podaci su sažeti iz javno dostupnih stručnih i projektnih izvora; tačne dimenzije i konstruktivne detalje za konačan rad treba proveriti u originalnoj tehničkoj dokumentaciji. Prateći plakat sa crtežima (prijem 31.10) ostaje u privatnoj građi.",
+              "s": [],
+              "status": "unknown",
+              "category": "questions",
+              "checkedAt": "2026-10-31"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Gradnja.rs — „Raport s gradilišta: Kako se gradi najviša kula u Beogradu“ (2021) (navod studenta)",
+          "kind": "stručni portal",
+          "url": "https://www.gradnja.rs/kula-beograd-raport-s-gradilista/",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "id": "S2",
+          "label": "Miljković i dr., „Kula Belgrade – Part 1: Specific topics of structural design“, Građevinski materijali i konstrukcije 4/2021 (navod studenta)",
+          "kind": "stručni rad",
+          "url": "https://dimk.rs/sites/default/files/documents/Casopis%204%202021%20sa%20reklamama.pdf",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "id": "S3",
+          "label": "Zbornik 16. Kongresa DGKS (2022) (navod studenta)",
+          "kind": "zbornik radova",
+          "url": "https://web1.grf.bg.ac.rs/p/docs/ostalo/dgks_1666864991590.pdf",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "id": "S4",
+          "label": "MAEG Costruzioni — projektni prikaz „Kula Belgrade“ (navod studenta)",
+          "kind": "izvođač",
+          "url": "https://www.maegspa.com/en/portfolio/kula-belgrade",
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-30/raw/8/detalji.jpeg",
+        "sha256": "7d66fe5306c71189ab6ada707371d0a46776c691ce06f404b5fa206fc84c0aef"
+      }
+    },
+    {
+      "id": "t71",
+      "team": "T71",
+      "credit": "149/2026",
+      "received": "2026-10-30",
+      "object": {
+        "name": "Miloša Pocerca 32"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Identitet, istorija i pravni status",
+            "en": "Identity, history and legal status"
+          },
+          "claims": [
+            {
+              "id": "T71:identitet:naziv",
+              "t": "Naziv objekta",
+              "v": "Kuća arhitekte Jovana Ilkića",
+              "s": [
+                "S1"
+              ],
+              "category": "identity",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Zavod za zaštitu spomenika kulture grada Beograda, dosije kulturnog dobra / odluka o utvrđivanju"
+            },
+            {
+              "id": "T71:identitet:adresa",
+              "t": "Adresa",
+              "v": "Miloša Pocerca 32, Beograd (opština Savski venac)",
+              "s": [
+                "S3"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T71:identitet:projektant",
+              "t": "Autor i projektant",
+              "v": "arhitekta Jovan Ilkić; kuća podignuta po njegovom autorskom projektu",
+              "s": [
+                "S1"
+              ],
+              "category": "people",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Muzej grada Beograda, Zbirka za arhitekturu i urbanizam"
+            },
+            {
+              "id": "T71:identitet:godina-izgradnje",
+              "t": "Godina izgradnje",
+              "v": "1896",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Istorijski arhiv Beograda / Zavod — građevinski protokol uprave grada"
+            },
+            {
+              "id": "T71:identitet:izvorna-namena",
+              "t": "Izvorna namena",
+              "v": "porodična stambena kuća i sedište privatnog projektantskog biroa Jovana Ilkića",
+              "s": [
+                "S1"
+              ],
+              "category": "use",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Istorijski arhiv Beograda — adresari, poreske knjige, popisi žitelja kraja 19. veka"
+            },
+            {
+              "id": "T71:identitet:tip-objekta",
+              "t": "Tip objekta",
+              "v": "samostojeći stambeni objekat / gradska vila",
+              "s": [
+                "S1"
+              ],
+              "category": "identity",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Zavod — rešenje o tehničkoj kategorizaciji i tipologiji"
+            },
+            {
+              "id": "T71:identitet:status-zastite",
+              "t": "Status zaštite",
+              "v": "utvrđeno kulturno dobro",
+              "s": [
+                "S1"
+              ],
+              "category": "documents",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Centralni registar spomenika kulture / Službeni glasnik RS"
+            },
+            {
+              "id": "T71:identitet:zabelezba-2016",
+              "t": "Zabeležba kulturnog dobra",
+              "v": "zabeležba svojstva kulturnog dobra u G listu katastra, upisana 07. 06. 2016 (navod tima)",
+              "s": [
+                "S1"
+              ],
+              "category": "documents",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:identitet:zabelezba-gde",
+              "t": "Gde je upisana zabeležba",
+              "v": "G list parcele 1283/1 na dan 29. 10. 2026 glasi „nema tereta, nema napomena“; nije jasno da li je zabeležba iz 2016. upisana na objektu ili potiče iz drugog izvora",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T71:identitet:mere-zastite",
+              "t": "Mere zaštite",
+              "v": "prepis rešenja iz 2016. nije pribavljen; obavezujuće mere zaštite nisu poznate",
+              "s": [],
+              "category": "documents",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "parcela",
+          "title": {
+            "sr": "Urbanistički kontekst i katastar",
+            "en": "Urban context and cadastre"
+          },
+          "claims": [
+            {
+              "id": "T71:parcela:istorijska-celina",
+              "t": "Istorijska celina",
+              "v": "Zapadni Vračar, primer ranog modernog urbanističkog uređenja Beograda",
+              "s": [
+                "S1"
+              ],
+              "category": "location",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Muzej grada Beograda / Istorijski arhiv Beograda — regulacija novih kvartova"
+            },
+            {
+              "id": "T71:parcela:urbanisticka-matrica",
+              "t": "Urbanistička matrica",
+              "v": "ortogonalna mreža ulica, pravilni pravougaoni blokovi, izdužene parcele; objekti na regulacionoj liniji",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Narodna biblioteka Srbije, Odeljenje kartografije — Generalni regulacioni plan Beograda 1924, 1:10.000"
+            },
+            {
+              "id": "T71:parcela:polozaj-na-parceli",
+              "t": "Položaj na parceli",
+              "v": "samostojeći objekat na regulacionoj liniji, sa bočnim otvorenim kolskim prolazom u dvorište",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Muzej grada Beograda — planovi Građevinskog odbora, situacioni planovi blokova"
+            },
+            {
+              "id": "T71:parcela:opstina",
+              "t": "Opština",
+              "v": "Savski venac (matični broj 70220)",
+              "s": [
+                "S2"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T71:parcela:katastarska-opstina",
+              "t": "Katastarska opština",
+              "v": "Savski venac (matični broj KO 704008)",
+              "s": [
+                "S2"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T71:parcela:broj-parcele",
+              "t": "Broj parcele",
+              "v": "1283/1",
+              "s": [
+                "S2"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T71:parcela:povrsina-parcele",
+              "t": "Površina parcele",
+              "v": "453",
+              "s": [
+                "S2"
+              ],
+              "category": "geometry",
+              "unit": "m²"
+            },
+            {
+              "id": "T71:parcela:vrsta-zemljista",
+              "t": "Vrsta zemljišta",
+              "v": "gradsko građevinsko zemljište",
+              "s": [
+                "S2"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T71:parcela:kultura-zemljista",
+              "t": "Kultura zemljišta",
+              "v": "zemljište pod zgradom i drugim objektom, deo broj 1, 453 m²",
+              "s": [
+                "S2"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T71:parcela:imalac-prava",
+              "t": "Imalac prava (B list)",
+              "v": "UNOPROJEKT DOO; svojina, privatna, udeo 1/1",
+              "s": [
+                "S2"
+              ],
+              "category": "documents"
+            },
+            {
+              "id": "T71:parcela:tereti-parcele",
+              "t": "Tereti i napomene (G list parcele)",
+              "v": "nema tereta; nema napomena",
+              "s": [
+                "S2"
+              ],
+              "category": "documents"
+            },
+            {
+              "id": "T71:parcela:indeks-zauzetosti",
+              "t": "Indeks zauzetosti (proračun tima)",
+              "v": "100% — sporno: izveden iz katastarske kulture „zemljište pod zgradom“ (453 m²), a ne iz površine pod objektom; tim istovremeno opisuje dvorište, kolski prolaz i dvorišne objekte",
+              "s": [
+                "S2"
+              ],
+              "category": "geometry",
+              "status": "disputed"
+            },
+            {
+              "id": "T71:parcela:indeks-izgradjenosti-bruto",
+              "t": "Indeks izgrađenosti, bruto (proračun tima)",
+              "v": "2,94 = 1334 m² građevinske površine / 453 m² parcele",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T71:parcela:indeks-izgradjenosti-korisni",
+              "t": "Indeks izgrađenosti, korisni (proračun tima)",
+              "v": "2,33 = 1056 m² korisne površine / 453 m² parcele",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T71:parcela:istorijski-gabariti",
+              "t": "Istorijske granice parcele",
+              "v": "nije obrađeno; planiran uvid u Katastarski plan Beograda 1932, 1:500 (Muzej grada Beograda, inv. UR 4562, UR 4674, UR 4675)",
+              "s": [],
+              "category": "geometry",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "hronologija",
+          "title": {
+            "sr": "Hronologija intervencija",
+            "en": "Chronology of interventions"
+          },
+          "claims": [
+            {
+              "id": "T71:hronologija:faza-1-1896",
+              "t": "Faza I (1896)",
+              "v": "podizanje primarnog objekta kao porodične kuće i arhitektonskog ateljea po projektu Jovana Ilkića",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Zavod — istorijski građevinski zapisnik i tehnički opisi"
+            },
+            {
+              "id": "T71:hronologija:faza-2-aneks",
+              "t": "Faza II (1925): dvorišni aneks",
+              "v": "aneks naslonjen na jugozapadnu fasadu, podrum + prizemlje; podrum pomoćne prostorije, prizemlje stan",
+              "s": [
+                "S4"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:hronologija:faza-2-projektant",
+              "t": "Faza II: projektant",
+              "v": "Pavle Ilkić",
+              "s": [
+                "S4"
+              ],
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:hronologija:faza-2-pomocni-objekat",
+              "t": "Faza II (1925): pomoćni objekat",
+              "v": "spratni objekat u južnom delu parcele; prizemlje garaža, sprat stan",
+              "s": [
+                "S4"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:hronologija:faza-3-bespravni",
+              "t": "Faza III: naknadni objekti",
+              "v": "još dva objekta bez građevinske dozvole u severozapadnom delu parcele; sačuvan jedan, u dnu dvorišta",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Sekretarijat za poslove ozakonjenja / inspekcijski predmeti Savski venac"
+            },
+            {
+              "id": "T71:hronologija:ozakonjenje",
+              "t": "Pravni status objekta (V1 list)",
+              "v": "objekat upisan po Zakonu o ozakonjenju objekata",
+              "s": [
+                "S3"
+              ],
+              "category": "documents"
+            },
+            {
+              "id": "T71:hronologija:faza-3-datum",
+              "t": "Vreme kasnijih izmena",
+              "v": "godine naknadne izgradnje i postupka ozakonjenja nisu navedene",
+              "s": [],
+              "category": "time",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "fasade",
+          "title": {
+            "sr": "Arhitektonski koncept i fasade",
+            "en": "Architectural concept and facades"
+          },
+          "claims": [
+            {
+              "id": "T71:fasade:stil",
+              "t": "Stilski pravac",
+              "v": "akademizam / eklekticizam; plastična dekoracija inspirisana renesansom, manirizmom i barokom",
+              "s": [
+                "S1"
+              ],
+              "category": "identity",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Zavod — istorijsko-umetnička studija i valorizacija u dosijeu"
+            },
+            {
+              "id": "T71:fasade:asimetrija",
+              "t": "Kompozicija fasada",
+              "v": "svesna likovna asimetrija sve četiri fasade (slobodnostojeći koncept)",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:fasade:ugaoni-rizalit",
+              "t": "Ulični ugaoni rizalit",
+              "v": "naglašava vertikalu; mansardni sprat pod metalnim krovom konkavnih površina sa profilisanim okulusima",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): IAB TD f IX-22-1925 — detalji fasada i krova iz 1925; Zavod — tehnički snimak fasada"
+            },
+            {
+              "id": "T71:fasade:fasadna-plastika",
+              "t": "Fasadna plastika",
+              "v": "snažni bočni pilastri, profilisane vertikalne konzole sa floralnim motivima, prozori sa prekinutim timpanonima",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:fasade:rizalit-sz",
+              "t": "Severozapadna fasada",
+              "v": "rizalit sa edikulom",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:fasade:ulicna-kapija",
+              "t": "Ulična kapija",
+              "v": "masivna kamena kapija sa velikim kolskim pristupom, dekorisanim stubovima i dvokrilnom metalnom kapijom",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): Zavod — crteži detalja spoljnog uređenja i ograda"
+            },
+            {
+              "id": "T71:fasade:pesacki-ulaz",
+              "t": "Pešački ulaz",
+              "v": "jednostavan profilisan kameni okvir",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:fasade:fotografije-1900",
+              "t": "Istorijske fotografije eksterijera (oko 1900)",
+              "v": "nisu pribavljene; planiran uvid u Fond Jovana Ilkića, Istorijski muzej Srbije",
+              "s": [],
+              "category": "documents",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "struktura",
+          "title": {
+            "sr": "Etaže, površine i enterijer",
+            "en": "Floors, areas and interior"
+          },
+          "claims": [
+            {
+              "id": "T71:struktura:gradjevinska-povrsina",
+              "t": "Građevinska površina",
+              "v": "1334",
+              "s": [
+                "S3"
+              ],
+              "category": "geometry",
+              "unit": "m²"
+            },
+            {
+              "id": "T71:struktura:korisna-povrsina",
+              "t": "Korisna površina",
+              "v": "1056",
+              "s": [
+                "S3"
+              ],
+              "category": "geometry",
+              "unit": "m²"
+            },
+            {
+              "id": "T71:struktura:nacin-koriscenja",
+              "t": "Način korišćenja",
+              "v": "porodična stambena zgrada",
+              "s": [
+                "S3"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T71:struktura:spratnost",
+              "t": "Spratnost",
+              "v": "Su+P+Pk: jedna etaža pod zemljom (suteren), prizemlje, potkrovlje",
+              "s": [
+                "S3"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T71:struktura:osnova",
+              "t": "Prostorna logika osnove",
+              "v": "asimetrična osnova zasnovana na centralnom planu; bočni ulazni vestibul okrenut ka dvorištu, povezan sa centralnim holom kao komunikacionim jezgrom",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "status": "unconfirmed",
+              "locator": "desna kolona (plan pribavljanja): IAB TD f IX-22-1925 — osnove etaža; Zavod — fotodokumentacija enterijera pre 1941. i revizija 1983"
+            },
+            {
+              "id": "T71:struktura:salon-dvorana",
+              "t": "Salon „Dvorana“ u prizemlju",
+              "v": "širok portal, puni stubovi sa jonskim kapitelima, polukružne niše, bogata gipsana profilacija plafona",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:struktura:stanje-enterijera",
+              "t": "Savremeno stanje enterijera",
+              "v": "N/P: očuvanost gipsane plastike, stubova i stolarije i današnji raspored prostorija posle ozakonjenja nisu poznati",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "materijali",
+          "title": {
+            "sr": "Materijali, konstrukcija i instalacije",
+            "en": "Materials, structure and services"
+          },
+          "claims": [
+            {
+              "id": "T71:materijali:krovni-pokrivac",
+              "t": "Krovni pokrivač ugaonog rizalita",
+              "v": "metal (identifikovano vizuelno)",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:materijali:kamen",
+              "t": "Prirodni kamen",
+              "v": "ulična kapija i okviri (identifikovano vizuelno)",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:materijali:malter",
+              "t": "Fasadni malter",
+              "v": "krečni / produženi malter na fasadnim površinama (identifikovano vizuelno)",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:materijali:kovani-metal",
+              "t": "Kovani metal",
+              "v": "dekorativne rešetke i kapije (identifikovano vizuelno)",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T71:materijali:temelji",
+              "t": "Temelji",
+              "v": "N/P: sastav i dubina temelja nepoznati",
+              "s": [],
+              "category": "structure",
+              "status": "unknown"
+            },
+            {
+              "id": "T71:materijali:noseci-zidovi",
+              "t": "Noseći zidovi",
+              "v": "N/P: tip nosećih zidova nepoznat (pretpostavka tima: puna opeka?)",
+              "s": [],
+              "category": "structure",
+              "status": "unknown"
+            },
+            {
+              "id": "T71:materijali:medjuspratne-konstrukcije",
+              "t": "Međuspratne konstrukcije",
+              "v": "N/P: materijal i raspon nepoznati (drvene tavanice ili rani armiranobetonski sistem?)",
+              "s": [],
+              "category": "structure",
+              "status": "unknown"
+            },
+            {
+              "id": "T71:materijali:krovna-konstrukcija",
+              "t": "Krovna konstrukcija",
+              "v": "N/P: nepoznata (drvena krovna stolica?)",
+              "s": [],
+              "category": "structure",
+              "status": "unknown"
+            },
+            {
+              "id": "T71:materijali:instalacije",
+              "t": "Instalacije",
+              "v": "N/P: istorijske i savremene elektroinstalacije, vodovod, fekalna i kišna kanalizacija, način grejanja",
+              "s": [],
+              "category": "energy",
+              "status": "unknown"
+            },
+            {
+              "id": "T71:materijali:energetski-razred",
+              "t": "Toplotna zaštita i energetski razred",
+              "v": "N/P: U-vrednosti zidova i prozora i energetski razred zgrade nepoznati",
+              "s": [],
+              "category": "energy",
+              "status": "unknown"
+            },
+            {
+              "id": "T71:materijali:potrosnja-energije",
+              "t": "Potrošnja energije i ugljenični otisak",
+              "v": "N/P: godišnja potrošnja energije i ugljenični otisak nepoznati",
+              "s": [],
+              "category": "energy",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "napomena",
+          "title": {
+            "sr": "Napomena nastavnika",
+            "en": "Teacher's note"
+          },
+          "claims": [
+            {
+              "id": "T71:napomena:stanje-dosijea",
+              "t": "Stanje dosijea",
+              "v": "Radna verzija 01 (docx, 30. 10. 2026); izvori u desnoj koloni su delom plan pribavljanja, ne konsultovan dokument. Kao konsultovan izvor uzet je samo elektronski izvod katastra (RGZ) na dan 29. 10. 2026; ostali podaci nose oznaku „nepotvrđeno“, a stavke „N/P“ su otvorena pitanja (praznine u fasadi). Sledeća verzija sa pribavljenim dokumentima zamenjuje ovaj dosije.",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Studentski podnesak „Digitalni pasoš objekta: Kuća arhitekte Jovana Ilkića“, radna verzija 01 (docx, 30. 10. 2026) — desna kolona većinom navodi gde podatak treba pribaviti, ne konsultovan dokument",
+          "kind": "studentski podnesak"
+        },
+        {
+          "id": "S2",
+          "label": "RGZ eKatastar — izvod iz baze podataka katastra nepokretnosti, parcela 1283/1, KO Savski venac (A, B i G list; uvid 29. 10. 2026) (navod studenta)",
+          "kind": "katastar",
+          "locator": "ID nepokretnosti parcele 97d9bae9-82e6-40fc-b180-aa8a892a4def; SKN Savski venac",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "id": "S3",
+          "label": "RGZ eKatastar — podaci o zgradama i drugim građevinskim objektima, V1 list, objekat br. 1 Miloša Pocerca 32 (uvid 29. 10. 2026) (navod studenta)",
+          "kind": "katastar",
+          "locator": "ID nepokretnosti objekta b6cdff33-f2fa-44e2-b9cd-1097d4865cc1",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "id": "S4",
+          "label": "Istorijski arhiv Beograda, fond Opština grada Beograda, Arhivska zbirka tehničke dokumentacije, TD f IX-22-1925 (navod studenta; signatura navedena, uvid u predmet tek planiran)",
+          "kind": "arhiv",
+          "locator": "TD f IX-22-1925"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-30/raw/1/Digitalni pasos objekta Milosa Pocerca 32 -verzija 01.docx",
+        "sha256": "361b01a9ea1b98879a57e7e08d1544e8fbd4a27cf28902a36e176f9d27669bca"
+      }
+    },
+    {
+      "id": "t55",
+      "team": "T55",
+      "credit": "74/26 · 19/26g",
+      "received": "2026-10-29",
+      "object": {
+        "name": "Palata Narodne banke i Muzej novca"
+      },
+      "sections": [
+        {
+          "id": "institucija",
+          "title": {
+            "sr": "Osnivanje i uloga banke",
+            "en": "Founding and role of the bank"
+          },
+          "claims": [
+            {
+              "id": "T55:institucija:kontekst-osnivanja",
+              "t": "Kontekst osnivanja",
+              "v": "posle Berlinskog kongresa 1878. i priznanja nezavisnosti razvoj železnice, trgovine, industrije i rudarstva traži uređen novčani i kreditni sistem",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:institucija:zakon-1883",
+              "t": "Zakon o Narodnoj banci",
+              "v": "potvrđen 1883; pravni osnov za Privilegovanu narodnu banku Kraljevine Srbije",
+              "s": [
+                "S1"
+              ],
+              "category": "documents",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:institucija:osnivacka-skupstina",
+              "t": "Osnivačka skupština",
+              "v": "februar 1884",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:institucija:pocetak-rada",
+              "t": "Početak rada",
+              "v": "2. jul 1884. po starom, 14. jul po novom kalendaru",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:institucija:prvo-sediste",
+              "t": "Prvo sedište",
+              "v": "iznajmljen prostor u kući braće Kumanudi u Knez Mihailovoj ulici",
+              "s": [
+                "S1"
+              ],
+              "category": "location",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:institucija:izvorne-funkcije",
+              "t": "Izvorne funkcije",
+              "v": "centralnobankarski i emisioni poslovi, podrška kreditnom i privrednom razvoju",
+              "s": [
+                "S1"
+              ],
+              "category": "use",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:institucija:naziv-1920",
+              "t": "Narodna banka Kraljevine SHS",
+              "v": "od 1920. deluje kao Narodna banka Kraljevine Srba, Hrvata i Slovenaca",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:institucija:savremene-funkcije",
+              "t": "Savremene funkcije",
+              "v": "monetarna politika usmerena na stabilnost cena, finansijska stabilnost, emisija novčanica i kovanog novca, upravljanje deviznim rezervama, nadzor banaka",
+              "s": [
+                "S1"
+              ],
+              "category": "use",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "novac",
+          "title": {
+            "sr": "Novac kroz istorijske periode",
+            "en": "Money through historical periods"
+          },
+          "claims": [
+            {
+              "id": "T55:novac:dinar-1873",
+              "t": "Uvođenje dinara",
+              "v": "1873, pre osnivanja Narodne banke",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:novac:metalna-podloga",
+              "t": "Metalna podloga",
+              "v": "novčani sistem kraja 19. veka oslonjen na plemenite metale, uz zamenu novčanica za metalni novac",
+              "s": [
+                "S1"
+              ],
+              "category": "use",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:novac:prva-novcanica",
+              "t": "Prva novčanica",
+              "v": "1884, 100 dinara, plativa u zlatu",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:novac:novcanice-srebro",
+              "t": "Novčanice plative u srebru",
+              "v": "u godinama posle 1884",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:novac:jugoslovenski-dinar",
+              "t": "Jugoslovenski dinar",
+              "v": "uveden posle 1918. radi objedinjavanja valuta nove države",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:novac:nbj-1945-1990",
+              "t": "Narodna banka Jugoslavije (1945–1990)",
+              "v": "deluje u saveznom monetarnom okviru planske, pa samoupravne privrede",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:novac:hiperinflacija",
+              "t": "Hiperinflacija",
+              "v": "1993–1994",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:novac:rekonstrukcija-1994",
+              "t": "Program monetarne rekonstrukcije",
+              "v": "januar 1994, uveden novi dinar",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:novac:ciljanje-inflacije",
+              "t": "Ciljanje inflacije",
+              "v": "primenjuje se od 2006, formalizovano 2009",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "izgradnja",
+          "title": {
+            "sr": "Izgradnja i arhitektura",
+            "en": "Construction and architecture"
+          },
+          "claims": [
+            {
+              "id": "T55:izgradnja:projektant",
+              "t": "Projektant",
+              "v": "Konstantin A. Jovanović (1849–1923); studirao arhitekturu u Cirihu, profesionalno se razvijao u Beču",
+              "s": [
+                "S1"
+              ],
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:izgradnja:kamen-temeljac",
+              "t": "Kamen temeljac",
+              "v": "april 1887",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:izgradnja:useljenje",
+              "t": "Useljenje banke",
+              "v": "1890",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:izgradnja:adresa",
+              "t": "Adresa",
+              "v": "tadašnja Dubrovačka ulica, danas Kralja Petra 12, istorijski centar Beograda",
+              "s": [
+                "S1"
+              ],
+              "category": "location",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:izgradnja:stil",
+              "t": "Stil",
+              "v": "neorenesansni akademizam: skladne proporcije, simetrična kompozicija, jasno organizovana fasada",
+              "s": [
+                "S1"
+              ],
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:izgradnja:fasada",
+              "t": "Fasada",
+              "v": "pravilan ritam otvora, naglašene horizontalne podele, profilisani venci",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:izgradnja:nacrti-enterijera",
+              "t": "Nacrti enterijera",
+              "v": "Jovanović je pored projekta zgrade crtao i vrata, prozore, nameštaj i štuko-dekoraciju",
+              "s": [
+                "S1"
+              ],
+              "category": "documents",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:izgradnja:zastita",
+              "t": "Zaštita",
+              "v": "spomenik kulture",
+              "s": [
+                "S1"
+              ],
+              "category": "documents",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:izgradnja:fasadni-materijali",
+              "t": "Fasadni materijali",
+              "v": "vrste fasadnih materijala i obloga nisu potvrđene; tim sam navodi da ih treba potvrditi konzervatorskom dokumentacijom",
+              "s": [],
+              "category": "materials",
+              "status": "unknown"
+            },
+            {
+              "id": "T55:izgradnja:troskovi-gradnje",
+              "t": "Troškovi izgradnje",
+              "v": "nepoznati; bez istorijskih troškovnika ne mogu se navesti",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "enterijer",
+          "title": {
+            "sr": "Enterijer i umetnička dekoracija",
+            "en": "Interior and artistic decoration"
+          },
+          "claims": [
+            {
+              "id": "T55:enterijer:vucetic-pijade",
+              "t": "Zidna i svodna dekoracija",
+              "v": "dekorativna plastika i oslikavanje zidova i svodova: vajar i slikar Paško Vučetić, uz pomoć Moše Pijade",
+              "s": [
+                "S1"
+              ],
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:enterijer:materijali-enterijera",
+              "t": "Materijali enterijera",
+              "v": "mermer u više boja, štuko, keramika, mozaici, višebojni vitraži",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:enterijer:stakleni-svodovi",
+              "t": "Stakleni svodovi",
+              "v": "propuštaju svetlost u holove",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:enterijer:podovi",
+              "t": "Podovi",
+              "v": "hodnici i holovi u keramici i mozaiku; u svečanom holu keramičke pločice sa floralnim motivima",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:enterijer:bista-srbija",
+              "t": "Bista „Srbija“",
+              "v": "bronza, vajar Đorđe Jovanović; u svečanom holu iznad stepeništa od belog mermera, postavljena 1901",
+              "s": [
+                "S1"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:enterijer:oslikane-scene",
+              "t": "Oslikane scene i alegorije",
+              "v": "sadržaj nije opisan; tim navodi da tumačenje traži dokumentovane fotografije i stručne opise",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "dogradnja",
+          "title": {
+            "sr": "Dogradnja i današnje stanje",
+            "en": "Extension and present state"
+          },
+          "claims": [
+            {
+              "id": "T55:dogradnja:dogradnja-1922-1925",
+              "t": "Dogradnja",
+              "v": "1922–1925, zbog proširenja poslova posle 1918; isti stil i usklađeni materijali",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:dogradnja:projektant-dogradnje",
+              "t": "Projektant dogradnje",
+              "v": "Konstantin Jovanović",
+              "s": [
+                "S1"
+              ],
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:dogradnja:gradski-blok",
+              "t": "Obuhvat posle dogradnje",
+              "v": "ceo gradski blok između ulica Kralja Petra, Gračaničke, Nikole Spasića i Cara Lazara",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:dogradnja:svecana-sala",
+              "t": "Svečana sala",
+              "v": "današnji izgled dobila u periodu dogradnje",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:dogradnja:salter-sala",
+              "t": "Nekadašnja šalter-sala",
+              "v": "danas prilagođena izložbenim i edukativnim sadržajima",
+              "s": [
+                "S1"
+              ],
+              "category": "use",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:dogradnja:spratnost",
+              "t": "Spratnost",
+              "v": "podzemni trezorski prostor, suteren, prizemlje, dva sprata, potkrovlje",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T55:dogradnja:danasnja-uloga",
+              "t": "Današnja uloga",
+              "v": "istorijska i reprezentativna; poslovanje NBS odvija se i u drugim objektima",
+              "s": [
+                "S1"
+              ],
+              "category": "use",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "napomena",
+          "title": {
+            "sr": "Napomena nastavnika",
+            "en": "Teacher's note"
+          },
+          "claims": [
+            {
+              "id": "T55:napomena:stanje-dosijea",
+              "t": "Stanje dosijea",
+              "v": "Podnesak tima (docx, 29. 10. 2026) je esej; izvori su navedeni samo kao spisak na kraju (tri stranice NBS i dve knjige bez bliže bibliografije) i nisu vezani uz pojedinačne podatke. Nastavnik je 30. 10. 2026. odgovorio da pasoš treba da ima oblik tabele — levo konkretni podaci, desno izvori — i da svaki podatak bude vezan za izvor. Do te verzije svi podaci nose oznaku „nepotvrđeno“. Prijavljena tema tima (sigurnosni sistemi, sefovi, istorijska stolarija) u ovoj verziji nije obrađena.",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Studentski podnesak „Stvaranje i razvoj Narodne banke Srbije: istorija, arhitektura i crteži“ (docx, 29. 10. 2026) — izvori navedeni samo kao spisak na kraju, nisu vezani uz podatke",
+          "kind": "studentski podnesak"
+        },
+        {
+          "id": "S2",
+          "label": "Narodna banka Srbije — „Istorijat Narodne banke Srbije“ (navod studenta, spisak izvora)",
+          "kind": "zvanični sajt",
+          "url": "https://nbs.rs/sr/o_nbs/jub140/jub_ist/index.html"
+        },
+        {
+          "id": "S3",
+          "label": "Narodna banka Srbije — „Zgrade Narodne banke Srbije“ (navod studenta, spisak izvora)",
+          "kind": "zvanični sajt",
+          "url": "https://www.nbs.rs/sr/o_nbs/istorijat-NBS/zgrade-nbs/"
+        },
+        {
+          "id": "S4",
+          "label": "Narodna banka Srbije — „Arhiv“ (navod studenta, spisak izvora)",
+          "kind": "zvanični sajt",
+          "url": "https://nbs.rs/sr/o_nbs/arhiv-i-biblioteka/arhiv/index.html"
+        },
+        {
+          "id": "S5",
+          "label": "„Narodna banka Srbije 1884–2004“ (navod studenta, bez izdavača i strana)",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S6",
+          "label": "Marko Stojanović, „Bankarska arhitektura“ (navod studenta, bez izdavača, godine i strana)",
+          "kind": "knjiga"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-30/raw/6/Blank 3.docx",
+        "sha256": "c0d4d69ea38b9125bc38418c9e714a97beb1eb575a91b80b556d86b9f75fff97"
+      }
+    },
+    {
+      "id": "t27",
+      "team": "T27",
+      "credit": "182/26 · 192/26",
+      "received": "2026-10-30",
+      "object": {
+        "name": "Hram Svetog Save"
+      },
+      "sections": [
+        {
+          "id": "koncept",
+          "title": {
+            "sr": "Koncept: pet faza materijala",
+            "en": "Concept: five phases of material"
+          },
+          "claims": [
+            {
+              "id": "T27:koncept:okvir",
+              "t": "Autorski okvir",
+              "v": "Hram se posmatra kao delo u kojem materijal povezuje mesto porekla, ljudski rad i značenje u prostoru hrama; svaki materijal se prati kroz pet faza",
+              "s": [
+                "S22"
+              ],
+              "category": "methods"
+            },
+            {
+              "id": "T27:koncept:faza-1-poreklo",
+              "t": "Faza 1 — Poreklo",
+              "v": "nalazište, nastanak i geološka svojstva materijala",
+              "s": [
+                "S22"
+              ],
+              "category": "methods"
+            },
+            {
+              "id": "T27:koncept:faza-2-obrada",
+              "t": "Faza 2 — Eksploatacija i obrada",
+              "v": "vađenje, sečenje, oblikovanje i poliranje",
+              "s": [
+                "S22"
+              ],
+              "category": "methods"
+            },
+            {
+              "id": "T27:koncept:faza-3-konstrukcija",
+              "t": "Faza 3 — Konstrukcija",
+              "v": "kako materijal nosi opterećenje i štiti objekat",
+              "s": [
+                "S22"
+              ],
+              "category": "methods"
+            },
+            {
+              "id": "T27:koncept:faza-4-zanat",
+              "t": "Faza 4 — Zanatska transformacija",
+              "v": "rad kamenorezaca, vajara, inženjera i mozaičara",
+              "s": [
+                "S22"
+              ],
+              "category": "methods"
+            },
+            {
+              "id": "T27:koncept:faza-5-znacenje",
+              "t": "Faza 5 — Značenje",
+              "v": "arhitektonski izraz i odnos prema svetlosti",
+              "s": [
+                "S22"
+              ],
+              "category": "methods"
+            }
+          ]
+        },
+        {
+          "id": "kontekst",
+          "title": {
+            "sr": "Istorijski i arhitektonski kontekst",
+            "en": "Historical and architectural context"
+          },
+          "claims": [
+            {
+              "id": "T27:kontekst:lokacija",
+              "t": "Lokacija",
+              "v": "Vračar, Beograd; mesto se vezuje za spaljivanje moštiju Svetog Save",
+              "s": [
+                "S1"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T27:kontekst:spaljivanje-1594",
+              "t": "Godina spaljivanja moštiju",
+              "v": "1594. godine (Istorijat Hrama); drugi izvor navodi 1595.",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "status": "conflict"
+            },
+            {
+              "id": "T27:kontekst:spaljivanje-1595",
+              "t": "Godina spaljivanja moštiju (druga verzija)",
+              "v": "pojedini izvori navode 1595. godinu (Grad Beograd, 2024); Istorijat Hrama navodi 1594.",
+              "s": [
+                "S8"
+              ],
+              "category": "time",
+              "status": "conflict"
+            },
+            {
+              "id": "T27:kontekst:drustvo-1895",
+              "t": "Društvo za podizanje Hrama",
+              "v": "osnovano 1895. godine",
+              "s": [
+                "S1"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T27:kontekst:pocetak-1935",
+              "t": "Početak gradnje",
+              "v": "1935. godine, ispitivanjem zemljišta",
+              "s": [
+                "S2"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T27:kontekst:prva-faza-1938",
+              "t": "Prva faza radova",
+              "v": "do 1938. izvedeni radovi do visine od 7,40 m i 12,00 m",
+              "s": [
+                "S2"
+              ],
+              "category": "time",
+              "unit": "m"
+            },
+            {
+              "id": "T27:kontekst:nastavak-1985",
+              "t": "Prekid i nastavak gradnje",
+              "v": "gradnju su prekinuli rat i posleratno uređenje; radovi ponovo počinju 1985. godine",
+              "s": [
+                "S8"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T27:kontekst:autori-projekta",
+              "t": "Autori projekta",
+              "v": "Bogdan Nestorović i Aleksandar Deroko; njihov projekat ostao je osnova realizacije",
+              "s": [
+                "S2"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:kontekst:protomajstor-pesic",
+              "t": "Arhitekta nastavka gradnje",
+              "v": "patrijarh German imenuje arhitektu Branka Pešića za protomajstora nastavka projekta",
+              "s": [
+                "S1"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:kontekst:izmena-projekta",
+              "t": "Izmena projekta",
+              "v": "Pešićev autorski tim izmenio je originalni projekat i utvrdio novi tehnološki koncept gradnje",
+              "s": [
+                "S2"
+              ],
+              "category": "methods"
+            },
+            {
+              "id": "T27:kontekst:kameni-venci-1991-1993",
+              "t": "Kameni venci",
+              "v": "od 1991. do 1993. ugrađeni venci na četiri zvonika, osam malih kula, pet konhi i tri kosa krova ulaznih portala",
+              "s": [
+                "S3"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T27:kontekst:zapremina",
+              "t": "Unutrašnja zapremina",
+              "v": "170.000 m³",
+              "s": [
+                "S2"
+              ],
+              "category": "geometry",
+              "unit": "m³"
+            }
+          ]
+        },
+        {
+          "id": "beli-mermer",
+          "title": {
+            "sr": "Beli mermer",
+            "en": "White marble"
+          },
+          "claims": [
+            {
+              "id": "T27:beli-mermer:vrsta",
+              "t": "Vrsta kamena",
+              "v": "mermer tipa Volakas, dominantni beli kamen fasade",
+              "s": [
+                "S3"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:beli-mermer:dobavljac",
+              "t": "Dobavljač",
+              "v": "grčka firma Atlantis Marble iz Kavale",
+              "s": [
+                "S3"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:beli-mermer:fasadne-ploce",
+              "t": "Fasadne ploče",
+              "v": "oko 10.500 m² ploča debljine 3 cm (315 m³)",
+              "s": [
+                "S3"
+              ],
+              "category": "materials",
+              "unit": "m²"
+            },
+            {
+              "id": "T27:beli-mermer:masivni-elementi",
+              "t": "Masivni elementi",
+              "v": "oko 1.500 m³ belog mermera: uglovi fasade, obloge oko prozora, rozete",
+              "s": [
+                "S3"
+              ],
+              "category": "materials",
+              "unit": "m³"
+            },
+            {
+              "id": "T27:beli-mermer:ugovor-2002",
+              "t": "Ugovor o obradi i montaži",
+              "v": "jun 2002, sa rokom završetka do kraja 2003. godine",
+              "s": [
+                "S3"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T27:beli-mermer:izvodjaci-fasade",
+              "t": "Izvođači fasade",
+              "v": "14 preduzeća, uz tri strane firme iz Grčke, Italije i Slovenije",
+              "s": [
+                "S3"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:beli-mermer:pricvrscivanje",
+              "t": "Pričvršćivanje",
+              "v": "ploče fiksirane ankerima od nerđajućeg čelika",
+              "s": [
+                "S3"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:beli-mermer:ostali-beli-kamen",
+              "t": "Ostali beli kamen u Hramu",
+              "v": "beli kamen sa Venčaca, iz Italije (Karara) i iz Grčke",
+              "s": [
+                "S4"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:beli-mermer:geoloski-nastanak",
+              "t": "Geološki nastanak mermera",
+              "v": "zrnasti krečnjak ili dolomit rekristalisan pod uticajem toplote, pritiska i vodenih rastvora",
+              "s": [
+                "S13"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "jablanicki-granit",
+          "title": {
+            "sr": "Jablanički granit",
+            "en": "Jablanica granite"
+          },
+          "claims": [
+            {
+              "id": "T27:jablanicki-granit:vrsta",
+              "t": "Vrsta kamena",
+              "v": "granit tipa Jablanica, sivi kamen sokle i ulaznih stepeništa",
+              "s": [
+                "S3"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:jablanicki-granit:kolicina-sokla",
+              "t": "Količina u sokli",
+              "v": "oko 80 m³",
+              "s": [
+                "S3"
+              ],
+              "category": "materials",
+              "unit": "m³"
+            },
+            {
+              "id": "T27:jablanicki-granit:kolicina-stepenista",
+              "t": "Količina u stepeništima i podestima",
+              "v": "oko 60 m³",
+              "s": [
+                "S3"
+              ],
+              "category": "materials",
+              "unit": "m³"
+            },
+            {
+              "id": "T27:jablanicki-granit:izbor-kamena",
+              "t": "Izbor kamena",
+              "v": "za soklu Hrama odabran i nabavljen jablanički granit (predratna faza gradnje)",
+              "s": [
+                "S2"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:jablanicki-granit:gabro",
+              "t": "Geološka vrsta",
+              "v": "kamen iz Jablanice je gabro, najkvalitetniji arhitektonski kamen u Bosni i Hercegovini",
+              "s": [
+                "S10"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "crveni-granit",
+          "title": {
+            "sr": "Crveni granit",
+            "en": "Red granite"
+          },
+          "claims": [
+            {
+              "id": "T27:crveni-granit:vrsta",
+              "t": "Vrsta kamena",
+              "v": "crvenkasti granit tipa Balmoral, upotrebljen za masive gornjih venaca",
+              "s": [
+                "S3"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:crveni-granit:kolicina",
+              "t": "Količina",
+              "v": "oko 120 m³ venaca različitih profilacija i debljina",
+              "s": [
+                "S3"
+              ],
+              "category": "materials",
+              "unit": "m³"
+            },
+            {
+              "id": "T27:crveni-granit:poreklo-taivassalo",
+              "t": "Poreklo tipa Balmoral Red",
+              "v": "kamenolom u Taivassalu, Finska (Palin Granit Oy) — podatak o tipu kamena, ne o isporuci za Hram",
+              "s": [
+                "S11"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:crveni-granit:poreklo-vehmaa",
+              "t": "Poreklo tipa Balmoral Red (drugi izvor)",
+              "v": "granit iz Vehmae u Finskoj, poznat kao Balmoral Red — podatak o tipu kamena, ne o isporuci za Hram",
+              "s": [
+                "S12"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:crveni-granit:definicija-granita",
+              "t": "Geološka definicija granita",
+              "v": "krupno- ili srednjezrna intruzivna magmatska stena bogata kvarcom i feldspatom",
+              "s": [
+                "S14"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:crveni-granit:mikroklin",
+              "t": "Ružičasta zrna",
+              "v": "krupna, blago ružičasta zrna u granitu su feldspat mikroklin",
+              "s": [
+                "S14"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "zeleni-mermer",
+          "title": {
+            "sr": "Zeleni mermer",
+            "en": "Green marble"
+          },
+          "claims": [
+            {
+              "id": "T27:zeleni-mermer:narudzbina-1940",
+              "t": "Narudžbina stubova",
+              "v": "1940. projektovani i naručeni zeleni mermerni stubovi iz kamenoloma u Val d’Aosti, Italija",
+              "s": [
+                "S2"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:zeleni-mermer:ispitivanje",
+              "t": "Ispitivanje",
+              "v": "stubovi podvrgnuti probama opterećenja, zatim montirani",
+              "s": [
+                "S2"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:zeleni-mermer:montaza",
+              "t": "Montaža",
+              "v": "mermerni stubovi montirani u prvoj fazi gradnje",
+              "s": [
+                "S1"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:zeleni-mermer:zemlje-porekla",
+              "t": "Zemlje porekla zelenog mermera",
+              "v": "Italija (Val d’Aosta), Indija i Južna Amerika",
+              "s": [
+                "S4"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:zeleni-mermer:zelena-boja",
+              "t": "Zelena boja mermera",
+              "v": "mogu je dati zeleni pirokseni i amfiboli, kao i serpentin",
+              "s": [
+                "S13"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "kararski-mermer",
+          "title": {
+            "sr": "Kararski mermer",
+            "en": "Carrara marble"
+          },
+          "claims": [
+            {
+              "id": "T27:kararski-mermer:kapiteli-intramesion",
+              "t": "Kapiteli i konzole, prvi izvođač",
+              "v": "klesarska zadruga „Intramesion“ izradila kapitele za 24 stuba i 6 konzola od kararskog mermera",
+              "s": [
+                "S2"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:kararski-mermer:kapiteli-industrija-kamena",
+              "t": "Kapiteli i konzole, drugi izvođač",
+              "v": "Industrija kamena i mermera A.D. izradila devet kapitela i šest konzola",
+              "s": [
+                "S2"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:kararski-mermer:predlozak-deroko",
+              "t": "Predložak za klesanje",
+              "v": "devet kapitela i šest konzola klesano po crtežima Aleksandra Deroka",
+              "s": [
+                "S1"
+              ],
+              "category": "methods"
+            },
+            {
+              "id": "T27:kararski-mermer:vajar-grasi",
+              "t": "Glavni vajar i organizator",
+              "v": "Josif Grasi",
+              "s": [
+                "S2"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:kararski-mermer:karara",
+              "t": "Kararski mermer",
+              "v": "snežnobeli mermer iz Karare koristili su Mikelanđelo i Antonio Kanova",
+              "s": [
+                "S13"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "travertin-krecnjak",
+          "title": {
+            "sr": "Travertin i krečnjak",
+            "en": "Travertine and limestone"
+          },
+          "claims": [
+            {
+              "id": "T27:travertin-krecnjak:travertin",
+              "t": "Travertin u Hramu",
+              "v": "crveni i beli travertin",
+              "s": [
+                "S4"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:travertin-krecnjak:podzemni-nivo",
+              "t": "Enterijer podzemnog nivoa",
+              "v": "prirodni krečnjak i travertin svetlih i toplih tonova",
+              "s": [
+                "S2"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:travertin-krecnjak:beli-krecnjak",
+              "t": "Beli krečnjak",
+              "v": "upotrebljen u Hramu",
+              "s": [
+                "S4"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:travertin-krecnjak:nastanak-travertina",
+              "t": "Nastanak travertina",
+              "v": "gusta, trakasta stena od kalcita (CaCO₃), nastaje isparavanjem rečnih i izvorskih voda",
+              "s": [
+                "S15"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "oniks-lapis",
+          "title": {
+            "sr": "Oniks, lapis lazuli i dekorativni mermeri",
+            "en": "Onyx, lapis lazuli and decorative marbles"
+          },
+          "claims": [
+            {
+              "id": "T27:oniks-lapis:oniks",
+              "t": "Oniks",
+              "v": "žuti i zelenkasti oniks",
+              "s": [
+                "S4"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:oniks-lapis:lapis",
+              "t": "Lapis lazuli",
+              "v": "plavi lapis lazuli",
+              "s": [
+                "S4"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:oniks-lapis:dekorativni-mermeri",
+              "t": "Dekorativni mermeri",
+              "v": "tamnocrveni i svetlocrveni mermeri iz Italije i Indije",
+              "s": [
+                "S4"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:oniks-lapis:sastav-oniksa",
+              "t": "Sastav oniks mermera",
+              "v": "koncentrične zone kalcita ili aragonita, taložene iz hladnih rastvora u pećinama i pukotinama",
+              "s": [
+                "S16"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:oniks-lapis:sastav-lapisa",
+              "t": "Sastav lapis lazulija",
+              "v": "stena obojena lazuritom, obično sa malo belog kalcita i kristala pirita",
+              "s": [
+                "S17"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "obrada",
+          "title": {
+            "sr": "Obrada kamena i izvođači",
+            "en": "Stone working and contractors"
+          },
+          "claims": [
+            {
+              "id": "T27:obrada:postupak-reljefa",
+              "t": "Postupak izrade reljefa",
+              "v": "motivi modelovani u 3D računarskom modelu, grubo obrađeni računarski vođenim mašinama, završna obrada rukom vajara u radionici u Hramu",
+              "s": [
+                "S4"
+              ],
+              "category": "methods"
+            },
+            {
+              "id": "T27:obrada:utrosak-rada",
+              "t": "Utrošak rada",
+              "v": "za 1 m² reljefa oko 45 sati mašinskog i oko 25 sati ručnog rada",
+              "s": [
+                "S5"
+              ],
+              "category": "methods",
+              "unit": "h/m²"
+            },
+            {
+              "id": "T27:obrada:domaci-izvodjaci",
+              "t": "Domaći izvođači",
+              "v": "42 domaće firme na vajarskim, kamenorezačkim i montažnim radovima",
+              "s": [
+                "S4"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:obrada:strani-dobavljaci",
+              "t": "Strani dobavljači",
+              "v": "6 stranih firmi isporučilo je materijal",
+              "s": [
+                "S4"
+              ],
+              "category": "people"
+            }
+          ]
+        },
+        {
+          "id": "beton-opeka",
+          "title": {
+            "sr": "Armirani beton i opeka",
+            "en": "Reinforced concrete and brick"
+          },
+          "claims": [
+            {
+              "id": "T27:beton-opeka:prva-faza",
+              "t": "Prva faza (1935–1939)",
+              "v": "glavni noseći stubovi od armiranog betona, zidovi od opeke",
+              "s": [
+                "S1"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:beton-opeka:montazni-elementi",
+              "t": "Nastavak gradnje",
+              "v": "sistem prefabrikovanih teških montažnih armiranobetonskih elemenata",
+              "s": [
+                "S2"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:beton-opeka:lukovi",
+              "t": "Lukovi ispod kupole",
+              "v": "četiri velika luka raspona 20 m, težine 400 tona",
+              "s": [
+                "S2"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:beton-opeka:kontrola-opeke",
+              "t": "Kontrola opeke",
+              "v": "izveštaj o kvalitetu opeka i vezivnog materijala u zidovima izvedenim pre rata",
+              "s": [
+                "S2"
+              ],
+              "category": "documents"
+            },
+            {
+              "id": "T27:beton-opeka:cement-titan",
+              "t": "Cement",
+              "v": "TITAN Serbia donirala je 1.000 tona cementa za izgradnju",
+              "s": [
+                "S9"
+              ],
+              "category": "materials",
+              "unit": "t"
+            },
+            {
+              "id": "T27:beton-opeka:princip-ab",
+              "t": "Princip armiranog betona",
+              "v": "čelik je ugrađen u beton tako da dva materijala zajedno prenose sile: zatezna čvrstoća čelika i pritisna čvrstoća betona",
+              "s": [
+                "S18"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:beton-opeka:opeka",
+              "t": "Opeka kao materijal",
+              "v": "konstrukcijski proizvod od gline, izrađen u standardnim jedinicama za gradnju",
+              "s": [
+                "S19"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "celik",
+          "title": {
+            "sr": "Čelik",
+            "en": "Steel"
+          },
+          "claims": [
+            {
+              "id": "T27:celik:kupola",
+              "t": "Kupola",
+              "v": "zaštićena čelična konstrukcija na reaktivnim mestima kupole (4 para nosača) i u pandantifima (12)",
+              "s": [
+                "S2"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:celik:fasadne-ploce",
+              "t": "Fasadne ploče",
+              "v": "pričvršćene ankerima od nerđajućeg čelika",
+              "s": [
+                "S3"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:celik:masivni-elementi",
+              "t": "Masivni elementi fasade",
+              "v": "horizontalno fiksirani ankerima od nerđajućeg čelika",
+              "s": [
+                "S3"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T27:celik:uglovi-papuce",
+              "t": "Uglovi fasade",
+              "v": "oslonjeni na „papuče“ od nerđajućeg čelika, ankerisane u betonski zid",
+              "s": [
+                "S3"
+              ],
+              "category": "structure"
+            }
+          ]
+        },
+        {
+          "id": "mozaik",
+          "title": {
+            "sr": "Mozaik",
+            "en": "Mosaic"
+          },
+          "claims": [
+            {
+              "id": "T27:mozaik:izvodjac",
+              "t": "Izvođač",
+              "v": "Ruska akademija umetnosti",
+              "s": [
+                "S1"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:mozaik:rukovodilac",
+              "t": "Rukovodilac projekta",
+              "v": "akademik Nikolaj Muhin",
+              "s": [
+                "S1"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:mozaik:majstori",
+              "t": "Broj majstora",
+              "v": "preko 300 majstora-umetnika, u radionicama u Rusiji i na licu mesta",
+              "s": [
+                "S1"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T27:mozaik:period",
+              "t": "Period izrade",
+              "v": "2016–2020",
+              "s": [
+                "S1"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T27:mozaik:stil",
+              "t": "Stil",
+              "v": "vizantijska tradicija sa dominantnom zlatnom pozadinom (mozaici glavnog prostora)",
+              "s": [
+                "S7"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T27:mozaik:povrsina",
+              "t": "Planirana površina",
+              "v": "ukupno 17.000 m² mozaičkih kompozicija",
+              "s": [
+                "S7"
+              ],
+              "category": "geometry",
+              "unit": "m²"
+            },
+            {
+              "id": "T27:mozaik:zlatne-tesere",
+              "t": "Zlatne tesere (tehnika)",
+              "v": "staklo sa nanesenim ili zatopljenim metalnim listom; metal je zlatni list",
+              "s": [
+                "S20"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "vrata",
+          "title": {
+            "sr": "Bronzana vrata",
+            "en": "Bronze doors"
+          },
+          "claims": [
+            {
+              "id": "T27:vrata:tip",
+              "t": "Tip",
+              "v": "glavna vrata, dvokrilna",
+              "s": [
+                "S6"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T27:vrata:dimenzije",
+              "t": "Dimenzije",
+              "v": "3,90 × 6,10 m (građevinske dimenzije)",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry",
+              "unit": "m"
+            },
+            {
+              "id": "T27:vrata:tezina",
+              "t": "Težina",
+              "v": "3,5 t; sa bronzanom oblogom oko 4,5 t",
+              "s": [
+                "S6"
+              ],
+              "category": "materials",
+              "unit": "t"
+            },
+            {
+              "id": "T27:vrata:obloga",
+              "t": "Obloga",
+              "v": "krila obostrano obložena bronzom, sa umetničkom obradom u reljefu",
+              "s": [
+                "S6"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T27:vrata:ikonografija",
+              "t": "Ikonografski program",
+              "v": "odobrila ga je sinodska komisija",
+              "s": [
+                "S6"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T27:vrata:bronza",
+              "t": "Bronza kao materijal",
+              "v": "legura tradicionalno sastavljena od bakra i kalaja; lakše se topi, pa se lakše lije",
+              "s": [
+                "S21"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "nedostupno",
+          "title": {
+            "sr": "Podaci koji nisu javno dostupni",
+            "en": "Data not publicly available"
+          },
+          "claims": [
+            {
+              "id": "T27:nedostupno:kamenolom-crvenog-granita",
+              "t": "Kamenolom crvenog granita isporučenog Hramu",
+              "v": "nije naveden u proverenim izvorima",
+              "s": [
+                "S3"
+              ],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T27:nedostupno:kamenolom-jablanickog-granita",
+              "t": "Konkretan kamenolom jablaničkog granita",
+              "v": "nije naveden u proverenim izvorima",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T27:nedostupno:kamenolomi-travertin-oniks-lapis",
+              "t": "Kamenolomi i količine travertina, oniksa i lapis lazulija",
+              "v": "nisu navedeni u proverenim izvorima",
+              "s": [
+                "S4"
+              ],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T27:nedostupno:proizvodjac-opeke",
+              "t": "Proizvođač opeke",
+              "v": "nije naveden u proverenim izvorima",
+              "s": [
+                "S2"
+              ],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T27:nedostupno:celik-klasa-proizvodjac",
+              "t": "Klasa i proizvođač čelika",
+              "v": "nisu navedeni u proverenim izvorima",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T27:nedostupno:staklo-tesere",
+              "t": "Fabrika stakla i dobavljač tesera",
+              "v": "nisu navedeni u proverenim izvorima",
+              "s": [
+                "S1",
+                "S7"
+              ],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T27:nedostupno:livnica-bronza",
+              "t": "Livnica i sastav bronze za vrata",
+              "v": "nisu navedeni u proverenim izvorima",
+              "s": [
+                "S6"
+              ],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T27:nedostupno:imena-radnika",
+              "t": "Imena radnika u kamenolomima",
+              "v": "nisu navedena u proverenim izvorima",
+              "s": [
+                "S1",
+                "S2",
+                "S3",
+                "S4"
+              ],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "napomena",
+          "title": {
+            "sr": "Napomena nastavnika",
+            "en": "Teacher's note"
+          },
+          "claims": [
+            {
+              "id": "T27:napomena:stanje",
+              "t": "Stanje dosijea",
+              "v": "Ispravljena verzija koncepta sa izvorima (PDF, 30.10.2026): svaki red tabele nosi broj izvora sa linkom, pa podaci nose izvor tima. Neslaganje 1594/1595 (godina spaljivanja moštiju) zabeleženo je kao sukob izvora, ne kao greška. Podaci o poreklu tipa Balmoral Red (Taivassalo, Vehmaa) opisuju vrstu kamena; kamenolom kamena isporučenog Hramu tim izričito beleži kao javno nenaveden. Objekat je zajednički sa timovima T11 i T43.",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Hram Svetog Save — Istorijat Hrama",
+          "kind": "zvanični sajt objekta",
+          "url": "https://hramsvetogsave.rs/istorijat-hrama-svetog-save/"
+        },
+        {
+          "id": "S2",
+          "label": "Hram Svetog Save — Arhitektura i gradnja Hrama",
+          "kind": "zvanični sajt objekta",
+          "url": "https://hramsvetogsave.rs/arhitektura-i-gradnja-hrama/"
+        },
+        {
+          "id": "S3",
+          "label": "Hram Svetog Save — Fasada Hrama Svetog Save",
+          "kind": "zvanični sajt objekta",
+          "url": "https://hramsvetogsave.rs/izgled-hrama/fasada-hrama-svetog-save/"
+        },
+        {
+          "id": "S4",
+          "label": "Hram Svetog Save — Kameni reljefi u Hramu",
+          "kind": "zvanični sajt objekta",
+          "url": "https://hramsvetogsave.rs/izgled-hrama/kameni-reljefi-u-hramu/"
+        },
+        {
+          "id": "S5",
+          "label": "Hram Svetog Save — Kripta Hrama Svetog Save",
+          "kind": "zvanični sajt objekta",
+          "url": "https://hramsvetogsave.rs/izgled-hrama/kripta-hrama-svetog-save/"
+        },
+        {
+          "id": "S6",
+          "label": "Hram Svetog Save — Vrata",
+          "kind": "zvanični sajt objekta",
+          "url": "https://hramsvetogsave.rs/izgled-hrama/vrata/"
+        },
+        {
+          "id": "S7",
+          "label": "Hram Svetog Save — Mozaici i živopis",
+          "kind": "zvanični sajt objekta",
+          "url": "https://hramsvetogsave.rs/izgled-hrama/mozaici-i-zivopis/"
+        },
+        {
+          "id": "S8",
+          "label": "Grad Beograd (18. 7. 2024). Hram Svetog Save, simbol Beograda jedinstvene arhitekture",
+          "kind": "zvanični sajt grada",
+          "url": "https://www.beograd.rs/lat/zivot-u-beogradu/beogradska-riznica/a85804/Hram-Svetog-Save-simbol-Beograda-jedinstvene-arhitekture.html"
+        },
+        {
+          "id": "S9",
+          "label": "TITAN — Temple of Saint Sava in Belgrade, Serbia",
+          "kind": "sajt proizvođača",
+          "url": "https://www.titanmaterials.com/about-us/our-business/projects-around-the-world/temple-of-saint-savva-in-belgrade-serbia/"
+        },
+        {
+          "id": "S10",
+          "label": "Mandžić, K., Ibrahimović, A. (2015). Influence of volume weight on gabbro uniaxial compression strength. Arhiv za tehničke nauke, 12",
+          "kind": "naučni članak",
+          "url": "https://doisrpska.nub.rs/index.php/arhivzatehnickenauke/article/view/1896"
+        },
+        {
+          "id": "S11",
+          "label": "Stone World (2. 12. 2013). Balmoral Red Granite Quarry going strong in Finland",
+          "kind": "stručni časopis",
+          "url": "https://www.stoneworld.com/articles/87804-balmoral-red-granite-quarry-going-strong-in-finland"
+        },
+        {
+          "id": "S12",
+          "label": "Aberdeen Art Gallery & Museums — Sample of Vehmaa granite from Finland, known as Balmoral Red",
+          "kind": "muzejska zbirka",
+          "url": "https://emuseum.aberdeencity.gov.uk/objects/145835/sample-of-vehmma-granite-from-finland-known-as-balmoral-red"
+        },
+        {
+          "id": "S13",
+          "label": "Encyclopaedia Britannica — Marble",
+          "kind": "enciklopedija",
+          "url": "https://www.britannica.com/science/marble-rock"
+        },
+        {
+          "id": "S14",
+          "label": "Encyclopaedia Britannica — Granite",
+          "kind": "enciklopedija",
+          "url": "https://www.britannica.com/science/granite"
+        },
+        {
+          "id": "S15",
+          "label": "Encyclopaedia Britannica — Travertine",
+          "kind": "enciklopedija",
+          "url": "https://www.britannica.com/science/travertine"
+        },
+        {
+          "id": "S16",
+          "label": "Encyclopaedia Britannica — Onyx marble",
+          "kind": "enciklopedija",
+          "url": "https://www.britannica.com/science/onyx-marble"
+        },
+        {
+          "id": "S17",
+          "label": "Encyclopaedia Britannica — Lapis lazuli",
+          "kind": "enciklopedija",
+          "url": "https://www.britannica.com/topic/lapis-lazuli"
+        },
+        {
+          "id": "S18",
+          "label": "Encyclopaedia Britannica — Reinforced concrete",
+          "kind": "enciklopedija",
+          "url": "https://www.britannica.com/technology/reinforced-concrete"
+        },
+        {
+          "id": "S19",
+          "label": "Encyclopaedia Britannica — Brick and tile",
+          "kind": "enciklopedija",
+          "url": "https://www.britannica.com/technology/brick-building-material"
+        },
+        {
+          "id": "S20",
+          "label": "Encyclopaedia Britannica — Mosaic: Glass",
+          "kind": "enciklopedija",
+          "url": "https://www.britannica.com/art/mosaic-art/Glass"
+        },
+        {
+          "id": "S21",
+          "label": "Encyclopaedia Britannica — Bronze",
+          "kind": "enciklopedija",
+          "url": "https://www.britannica.com/technology/bronze-alloy"
+        },
+        {
+          "id": "S22",
+          "label": "Studentski podnesak „Hram Svetog Save: digitalni pasoš materijala“ (PDF, ispravljena verzija sa izvorima, 30. 10. 2026)",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-30/raw/2/Hram Svetog Save - digitalni pasos.1.pdf",
+        "sha256": "6f9dfb075d082d7389883dcf768a162b79c12a80a548a74a0c8d3c9ca708bb63"
+      }
+    },
+    {
+      "id": "t13",
+      "team": "T13",
+      "credit": "116/26 · 145/26 · 94/26 · 184/26 · 169/26",
+      "received": "2026-10-30",
+      "object": {
+        "name": "Palata SANU i Zgrada Pošte"
+      },
+      "sections": [
+        {
+          "id": "sanu-identitet",
+          "title": {
+            "sr": "Palata SANU — identitet",
+            "en": "SASA Palace — identity"
+          },
+          "claims": [
+            {
+              "id": "T13:sanu-identitet:naziv",
+              "t": "Naziv",
+              "v": "Palata Srpske akademije nauka i umetnosti (SANU)",
+              "s": [
+                "S12"
+              ],
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:lokacija",
+              "t": "Lokacija",
+              "v": "Knez Mihailova 35, Beograd",
+              "s": [
+                "S12"
+              ],
+              "category": "location",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:vrsta",
+              "t": "Vrsta objekta",
+              "v": "javna, reprezentativna i institucionalna zgrada",
+              "s": [
+                "S12"
+              ],
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:institucija",
+              "t": "Institucija",
+              "v": "Srpska akademija nauka i umetnosti",
+              "s": [
+                "S12"
+              ],
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:projektanti",
+              "t": "Projektanti",
+              "v": "Andra Stevanović i Dragutin Đorđević",
+              "s": [
+                "S2",
+                "S4",
+                "S12"
+              ],
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:projektovanje",
+              "t": "Vreme projektovanja",
+              "v": "oko 1910–1912. godine",
+              "s": [
+                "S12"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:pocetak-1914",
+              "t": "Početak izgradnje",
+              "v": "1914. godine",
+              "s": [
+                "S12"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:zavrsetak-1924",
+              "t": "Završetak izgradnje",
+              "v": "1924. godine",
+              "s": [
+                "S12"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:zastita-sk987",
+              "t": "Zaštita",
+              "v": "kulturno dobro, evidentirano pod oznakom SK 987 (prema podacima o zaštićenom kulturnom dobru na Wikimedia Commons)",
+              "s": [
+                "S5"
+              ],
+              "category": "documents"
+            },
+            {
+              "id": "T13:sanu-identitet:znacaj",
+              "t": "Značaj objekta",
+              "v": "jedno od važnih dela srpske arhitekture s početka 20. veka i deo istorijskog identiteta centralne pešačke zone Beograda",
+              "s": [
+                "S12"
+              ],
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:prvobitna-namena",
+              "t": "Prvobitna namena",
+              "v": "projektovana za potrebe Srpske kraljevske akademije, uz reprezentativnu i potencijalno prihodovnu ulogu",
+              "s": [
+                "S12"
+              ],
+              "category": "use",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-identitet:danasnja-namena",
+              "t": "Današnja namena",
+              "v": "sedište SANU, sa prostorima za akademske, kulturne, naučne i izložbene aktivnosti",
+              "s": [
+                "S12"
+              ],
+              "category": "use",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "sanu-istorija",
+          "title": {
+            "sr": "Palata SANU — istorija",
+            "en": "SASA Palace — history"
+          },
+          "claims": [
+            {
+              "id": "T13:sanu-istorija:drustvo-1841",
+              "t": "1841 — institucionalni počeci",
+              "v": "osnovano Društvo srpske slovesnosti, preteča Srpske kraljevske akademije i današnje SANU",
+              "s": [
+                "S12"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-istorija:potreba-prostora",
+              "t": "Kraj 19. i početak 20. veka",
+              "v": "javlja se potreba za reprezentativnim prostorom koji bi odgovarao značaju Akademije",
+              "s": [
+                "S12"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-istorija:projekat-izraz",
+              "t": "Arhitektonski izraz projekta",
+              "v": "spoj akademske arhitektonske kompozicije i dekorativnih uticaja evropske arhitekture",
+              "s": [
+                "S12"
+              ],
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-istorija:prekid-rat",
+              "t": "1914 — prekid gradnje",
+              "v": "izgradnju započetu 1914. prekinuo je Prvi svetski rat",
+              "s": [
+                "S12"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-istorija:nije-odmah-sediste",
+              "t": "1924 — posle završetka",
+              "v": "zgrada nije odmah postala trajno sedište Akademije",
+              "s": [
+                "S12"
+              ],
+              "category": "use",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-istorija:samojlov-1952",
+              "t": "Preuređenje 1952",
+              "v": "posle Drugog svetskog rata objekat je preuređivan; važnu ulogu u preuređenju enterijera 1952. imao je arhitekta Grigorij Samojlov (prema zvaničnoj publikaciji SANU — navod studenta)",
+              "s": [
+                "S12"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-istorija:monografija-prosen",
+              "t": "Monografija",
+              "v": "SANU je povodom stogodišnjice završetka zgrade objavila monografiju Milana Prosena",
+              "s": [
+                "S3"
+              ],
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "sanu-materijali",
+          "title": {
+            "sr": "Palata SANU — materijali i konstrukcija",
+            "en": "SASA Palace — materials and structure"
+          },
+          "claims": [
+            {
+              "id": "T13:sanu-materijali:fasada",
+              "t": "Fasada",
+              "v": "obrađene površine i dekorativni elementi",
+              "s": [
+                "S12"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-materijali:enterijer",
+              "t": "Enterijer",
+              "v": "reprezentativno oblikovani enterijeri i stepeništa",
+              "s": [
+                "S12"
+              ],
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-materijali:kupola",
+              "t": "Kupola",
+              "v": "važan arhitektonski i konstruktivni element",
+              "s": [
+                "S12"
+              ],
+              "category": "structure",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-materijali:sastav-zidova",
+              "t": "Sastav zidova, temelja i međuspratnih konstrukcija",
+              "v": "nije utvrđen; treba proveriti u originalnim nacrtima",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-materijali:poreklo-materijala",
+              "t": "Poreklo kamena, opeke i drugih materijala",
+              "v": "nije utvrđeno; zahteva dodatno arhivsko istraživanje",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "sanu-energija",
+          "title": {
+            "sr": "Palata SANU — energetske karakteristike",
+            "en": "SASA Palace — energy"
+          },
+          "claims": [
+            {
+              "id": "T13:sanu-energija:pre-standarda",
+              "t": "Energetski standard",
+              "v": "izgrađena pre uvođenja savremenih standarda energetske efikasnosti",
+              "s": [
+                "S12"
+              ],
+              "category": "energy",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:sanu-energija:izolacija",
+              "t": "Izolacija zidova, krova i prozora",
+              "v": "nije ispitana",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-energija:sistemi",
+              "t": "Grejanje, hlađenje i ventilacija",
+              "v": "sistem nije utvrđen",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-energija:potrosnja",
+              "t": "Godišnja potrošnja energije i energetski razred",
+              "v": "nisu potvrđeni",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-energija:ocuvanje",
+              "t": "Uslov za energetske mere",
+              "v": "mere moraju očuvati izgled i istorijsku vrednost zgrade",
+              "s": [
+                "S12"
+              ],
+              "category": "energy",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "sanu-pitanja",
+          "title": {
+            "sr": "Palata SANU — pitanja za dalje istraživanje",
+            "en": "SASA Palace — open questions"
+          },
+          "claims": [
+            {
+              "id": "T13:sanu-pitanja:inicijator",
+              "t": "Inicijator izgradnje",
+              "v": "ko je inicirao izgradnju palate?",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-pitanja:skice",
+              "t": "Prve skice i konačni projekat",
+              "v": "kako su nastale prve skice i konačni projekat?",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-pitanja:podela-posla",
+              "t": "Podela posla projektanata",
+              "v": "kako su Stevanović i Đorđević podelili posao?",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-pitanja:izvodjac",
+              "t": "Izvođač radova",
+              "v": "ko je izvodio građevinske radove?",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-pitanja:nabavka-materijala",
+              "t": "Nabavka materijala",
+              "v": "odakle su nabavljani kamen, opeka i drvo?",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-pitanja:temelji-kupola",
+              "t": "Temelji i kupola",
+              "v": "kako su izvedeni temelji i kupola?",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-pitanja:uticaj-rata",
+              "t": "Uticaj Prvog svetskog rata",
+              "v": "kako je Prvi svetski rat uticao na gradnju?",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-pitanja:zasto-ne-sediste",
+              "t": "Sedište Akademije",
+              "v": "zašto zgrada nije odmah postala sedište SANU?",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:sanu-pitanja:restauracije",
+              "t": "Restauracije i sanacije",
+              "v": "koje restauracije i sanacije su izvedene?",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "posta-identitet",
+          "title": {
+            "sr": "Palata Glavne pošte — identitet",
+            "en": "Main Post Office Palace — identity"
+          },
+          "claims": [
+            {
+              "id": "T13:posta-identitet:adresa",
+              "t": "Adresa",
+              "v": "Takovska 2, centar Beograda",
+              "s": [
+                "S6"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T13:posta-identitet:naziv-projekta",
+              "t": "Naziv projekta",
+              "v": "Projekat palate Poštanske štedionice, Glavne pošte i Glavnog telegrafa u Beogradu",
+              "s": [
+                "S8"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T13:posta-identitet:namena",
+              "t": "Prvobitna namena",
+              "v": "Glavna pošta, Poštanska štedionica, Glavni telegraf i druge državne ustanove",
+              "s": [
+                "S8"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T13:posta-identitet:konkurs-1930",
+              "t": "Konkurs 1930",
+              "v": "Josip Pičman i Andreja Baranji osvojili su prvu nagradu na konkursu 1930. godine",
+              "s": [
+                "S8"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T13:posta-identitet:androsov",
+              "t": "Izmenjeno rešenje fasada",
+              "v": "Vasilije Androsov kasnije je izradio izmenjeno arhitektonsko rešenje fasada",
+              "s": [
+                "S8"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T13:posta-identitet:leko",
+              "t": "Skice",
+              "v": "Dimitrije M. Leko učestvovao je u izradi skica",
+              "s": [
+                "S8"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T13:posta-identitet:projektovanje",
+              "t": "Godina projektovanja",
+              "v": "1930 — konkursno rešenje; konačno arhitektonsko rešenje menjano je naknadno",
+              "s": [
+                "S8"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T13:posta-identitet:izgradnja",
+              "t": "Period izgradnje",
+              "v": "1935–1938",
+              "s": [
+                "S7"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T13:posta-identitet:dozvola-1934",
+              "t": "Građevinska dozvola",
+              "v": "dobijena 1934. godine",
+              "s": [
+                "S11"
+              ],
+              "category": "documents"
+            },
+            {
+              "id": "T13:posta-identitet:spratnost",
+              "t": "Spratnost",
+              "v": "samostalni blok se u arhitektonskim opisima navodi kao petospratni",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T13:posta-identitet:kula-sat",
+              "t": "Kula sa satom",
+              "v": "objekat ima kulu sa satom",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T13:posta-identitet:stil",
+              "t": "Arhitektonski stil",
+              "v": "akademizam, sa modernističkim i funkcionalističkim rešenjem osnove",
+              "s": [
+                "S11"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T13:posta-identitet:zastita-2013",
+              "t": "Status zaštite",
+              "v": "spomenik kulture od 2013. godine",
+              "s": [
+                "S6"
+              ],
+              "category": "documents"
+            },
+            {
+              "id": "T13:posta-identitet:opstina",
+              "t": "Lokacija",
+              "v": "centralni deo Beograda, opština Palilula",
+              "s": [
+                "S6"
+              ],
+              "category": "location"
+            }
+          ]
+        },
+        {
+          "id": "posta-arhitektura",
+          "title": {
+            "sr": "Palata Glavne pošte — arhitektura i materijali",
+            "en": "Main Post Office Palace — architecture and materials"
+          },
+          "claims": [
+            {
+              "id": "T13:posta-arhitektura:opsti-izgled",
+              "t": "Opšti izgled",
+              "v": "naglašena simetrija, pravilno raspoređeni prozori i skladno oblikovani arhitektonski detalji",
+              "s": [
+                "S6"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T13:posta-arhitektura:kljucni-elementi",
+              "t": "Ključni elementi",
+              "v": "monumentalna fasada, reprezentativan ulaz i kula sa satom kao najuočljiviji element",
+              "s": [
+                "S6"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T13:posta-arhitektura:konstrukcija",
+              "t": "Konstrukcija",
+              "v": "masivna konstrukcija sa monumentalnim arhitektonskim oblikovanjem",
+              "s": [
+                "S7"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T13:posta-arhitektura:materijali",
+              "t": "Materijali",
+              "v": "granit, veštački kamen i kameni blokovi",
+              "s": [
+                "S7"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T13:posta-arhitektura:fasada",
+              "t": "Fasada",
+              "v": "monumentalna, simetrična, sa klasičnim arhitektonskim elementima",
+              "s": [
+                "S6",
+                "S7"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T13:posta-arhitektura:prozori",
+              "t": "Prozori",
+              "v": "pravilno raspoređeni, uklopljeni u ritam fasade",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T13:posta-arhitektura:balkoni",
+              "t": "Balkoni",
+              "v": "nisu dominantan element spoljašnjeg izgleda zgrade",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T13:posta-arhitektura:terase",
+              "t": "Terase",
+              "v": "nisu posebno naglašene u arhitektonskom oblikovanju",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry"
+            }
+          ]
+        },
+        {
+          "id": "posta-istorija",
+          "title": {
+            "sr": "Palata Glavne pošte — istorija",
+            "en": "Main Post Office Palace — history"
+          },
+          "claims": [
+            {
+              "id": "T13:posta-istorija:stedionica-1923",
+              "t": "Oktobar 1923",
+              "v": "Poštanska štedionica započela rad u palati „Moskva“ na Terazijama",
+              "s": [
+                "S9"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T13:posta-istorija:plac-1928",
+              "t": "1928 — kupovina placa",
+              "v": "plac na uglu Takovske i Aleksandrove ulice kupljen od crkve Sv. Marka za 13.000.000 dinara",
+              "s": [
+                "S8"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T13:posta-istorija:rad-1938",
+              "t": "1938 — početak rada",
+              "v": "zgrada počela da služi kao važan centar poštanskog i telegrafskog saobraćaja u Beogradu",
+              "s": [
+                "S9"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T13:posta-istorija:borbe-1944",
+              "t": "1944 — oslobođenje Beograda",
+              "v": "zabeležene borbe za Glavnu poštu tokom oslobođenja Beograda",
+              "s": [
+                "S10"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T13:posta-istorija:kulturno-dobro-2013",
+              "t": "2013 — kulturno dobro",
+              "v": "zbog arhitektonskog i istorijskog značaja proglašena kulturnim dobrom",
+              "s": [
+                "S6"
+              ],
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "id": "posta-energija",
+          "title": {
+            "sr": "Palata Glavne pošte — energetske karakteristike",
+            "en": "Main Post Office Palace — energy"
+          },
+          "claims": [
+            {
+              "id": "T13:posta-energija:grejanje",
+              "t": "Grejanje",
+              "v": "tačan izvor i sistem grejanja nisu potvrđeni",
+              "s": [
+                "S11"
+              ],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T13:posta-energija:hladjenje",
+              "t": "Hlađenje",
+              "v": "u objektu postoje klima-uređaji; 2025. zabeležena intervencija zbog problema sa kablovima rashladnog uređaja na krovu",
+              "s": [
+                "S11"
+              ],
+              "category": "energy"
+            },
+            {
+              "id": "T13:posta-energija:efikasnost",
+              "t": "Energetska efikasnost (procena)",
+              "v": "kao stariji objekat sa masivnom konstrukcijom i istorijskom fasadom, moguće je da ima veće toplotne gubitke od savremenih zgrada",
+              "s": [
+                "S11"
+              ],
+              "category": "energy",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "poredjenje",
+          "title": {
+            "sr": "Poređenje Palate SANU i Glavne pošte",
+            "en": "Comparison: SASA Palace and Main Post Office"
+          },
+          "claims": [
+            {
+              "id": "T13:poredjenje:izgradnja",
+              "t": "Izgradnja",
+              "v": "SANU 1914–1924, uz prekid u Prvom svetskom ratu; Glavna pošta tokom 1930-ih, glavni radovi 1935–1938",
+              "s": [
+                "S12"
+              ],
+              "category": "time",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:poredjenje:projektovanje",
+              "t": "Projektovanje",
+              "v": "SANU: Andra Stevanović i Dragutin Đorđević; Glavna pošta: konkursno rešenje Josipa Pičmana i Andreje Baranjija, potom preoblikovano pod vođstvom Vasilija Androsova",
+              "s": [
+                "S12"
+              ],
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:poredjenje:konstrukcija",
+              "t": "Materijali i konstrukcija",
+              "v": "obe su monumentalne javne zgrade; za precizno poređenje nosivih konstrukcija, zidova i temelja moraju se proveriti originalni tehnički nacrti",
+              "s": [
+                "S12"
+              ],
+              "category": "questions",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T13:poredjenje:energija",
+              "t": "Energetske karakteristike",
+              "v": "obe su izgrađene pre savremenih standarda energetske efikasnosti; bez energetskih izveštaja nije moguće reći koja je efikasnija",
+              "s": [
+                "S12"
+              ],
+              "category": "energy",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "napomena",
+          "title": {
+            "sr": "Napomena nastavnika",
+            "en": "Teacher's note"
+          },
+          "claims": [
+            {
+              "id": "T13:napomena:stanje",
+              "t": "Stanje dosijea",
+              "v": "Uporedni pasoš dva objekta (docx 1.0, 30.10.2026). Za Glavnu poštu tim navodi izvor uz svaki podatak, ali bez URL-a. Za Palatu SANU izvori (sa linkovima) dati su samo kao opšti spisak na kraju, pa podaci o SANU nose oznaku „nepotvrđeno“ dok se izvor ne veže uz pojedinačni podatak. Pitanja za dalje istraživanje prikazana su kao otvori. Uz pasoš postoji i interaktivna AI Studio aplikacija tima.",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Srpska akademija nauka i umetnosti — zvanični sajt",
+          "kind": "zvanični sajt institucije",
+          "url": "https://www.sanu.ac.rs/"
+        },
+        {
+          "id": "S2",
+          "label": "SANU — biografija Dragutina Đorđevića",
+          "kind": "zvanični sajt institucije",
+          "url": "https://www.sanu.ac.rs/clan/djordjevic-dragutin/"
+        },
+        {
+          "id": "S3",
+          "label": "RTS — monografija o Palati SANU (Milan Prosen)",
+          "kind": "medij",
+          "url": "https://www.rts.rs/lat/magazin/kultura/kultura/5745654/monografija-palata-sanu-milan-prosen.html"
+        },
+        {
+          "id": "S4",
+          "label": "Srpska enciklopedija — Dragutin Đorđević",
+          "kind": "enciklopedija",
+          "url": "https://srpskaenciklopedija.rs/books/slovo-dj/page/djordjevic-dragutin"
+        },
+        {
+          "id": "S5",
+          "label": "Wikimedia Commons — Category: Serbian Academy of Sciences and Arts (fotografije palate)",
+          "kind": "zbirka fotografija",
+          "url": "https://commons.wikimedia.org/wiki/Category:Serbian_Academy_of_Sciences_and_Arts"
+        },
+        {
+          "id": "S6",
+          "label": "Palata Glavne pošte — Palilula.info (navod studenta, bez URL-a)",
+          "kind": "lokalni portal"
+        },
+        {
+          "id": "S7",
+          "label": "Palata Glavne pošte — Dvorci Srbije (navod studenta, bez URL-a)",
+          "kind": "portal o nasleđu"
+        },
+        {
+          "id": "S8",
+          "label": "Palata Glavne pošte — Wikipedia (navod studenta, bez URL-a)",
+          "kind": "enciklopedija"
+        },
+        {
+          "id": "S9",
+          "label": "Palata Glavne pošte — Palilulac (navod studenta, bez URL-a)",
+          "kind": "lokalni portal"
+        },
+        {
+          "id": "S10",
+          "label": "Oslobođenje Beograda — DrugiSvetski.com (navod studenta, bez URL-a)",
+          "kind": "portal"
+        },
+        {
+          "id": "S11",
+          "label": "Istorija zgrade — Ustavni sud Srbije, PDF (navod studenta, bez URL-a)",
+          "kind": "dokument institucije"
+        },
+        {
+          "id": "S12",
+          "label": "Studentski podnesak „Digitalni pasoš (SANU, pošta) 1.0“ (docx, 30. 10. 2026) — za Palatu SANU izvori su dati kao opšti spisak, ne uz pojedinačne podatke",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-30/raw/9/Digitalni pasos (sanu,posta) 1.0.docx",
+        "sha256": "832b62988e7a77694d7fa46ed09f3da2141be9eb209ea346c6eb1887a1e359db"
+      }
     }
   ],
   "inbox": [
@@ -9379,5 +13049,5 @@
       "state": "zavedeno 2026-10-19 — registar timova: docs/data/pasos/timovi-evidencija.json (28 stavki, 5 otvorenih pitanja)"
     }
   ],
-  "datasetRevision": "r-eb1c0bba2ea82f9c"
+  "datasetRevision": "r-1a27a272556a8403"
 }

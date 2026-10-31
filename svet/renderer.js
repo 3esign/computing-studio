@@ -676,16 +676,16 @@ function collageLayout(){if(collageCache&&collageFor===data)return collageCache;
   z+=bandD+gap});
  collageCache={places:out,columns:blocks.map(b=>b.cat)};collageFor=data;return collageCache}
 function planRosette(m,centre,stats,dark){if(!stats||!stats.records)return;
- var inner=AtlasArchitecture.footprint(m)+1.1,total=stats.records,span=Math.max(1.8,Math.min(5,.9+Math.sqrt(total)*.62)),angle=-Math.PI/2;
+ var total=stats.records,R=AtlasArchitecture.rosette(total),inner=AtlasArchitecture.footprint(m)+R.gap,span=R.span,angle=-Math.PI/2;
  for(var cat of CATEGORY_ORDER){var n=stats.categories[cat]||0;if(!n)continue;var sweep=n/total*Math.PI*2,steps=Math.max(2,Math.ceil(sweep/.22)),pts=[],col=CATEGORY_COLOR[cat];
   if(dark)col=col.map(v=>Math.min(1,v*1.35+.08));
   for(var i=0;i<=steps;i++){var a=angle+sweep*i/steps;pts.push([centre[0]+Math.cos(a)*inner,0,centre[2]+Math.sin(a)*inner])}
   for(var j=steps;j>=0;j--){var a2=angle+sweep*j/steps;pts.push([centre[0]+Math.cos(a2)*(inner+span),0,centre[2]+Math.sin(a2)*(inner+span)])}
   polygon(pts,.06,col);angle+=sweep+.035}
  /* One tick per cited source, outside the category band. */
- var ring=inner+span+.7,ticks=Math.min(48,stats.sources),ink=dark?[.72,.78,.8]:[.26,.3,.3];
+ var ring=inner+span+R.tickGap,ticks=Math.min(48,stats.sources),ink=dark?[.72,.78,.8]:[.26,.3,.3];
  for(var k=0;k<ticks;k++){var a3=-Math.PI/2+k*Math.PI*2/Math.max(1,ticks);
-  line([centre[0]+Math.cos(a3)*ring,0,centre[2]+Math.sin(a3)*ring],[centre[0]+Math.cos(a3)*(ring+.9),0,centre[2]+Math.sin(a3)*(ring+.9)],.26,ink,.05)}}
+  line([centre[0]+Math.cos(a3)*ring,0,centre[2]+Math.sin(a3)*ring],[centre[0]+Math.cos(a3)*(ring+R.tick),0,centre[2]+Math.sin(a3)*(ring+R.tick)],.26,ink,.05)}}
 
 /* The knowledge density map. One object's mass is its number of records; the
    field value at a ground point is the sum of those masses with a Gaussian
@@ -701,7 +701,7 @@ function planRosette(m,centre,stats,dark){if(!stats||!stats.records)return;
    Nothing here measures a building. The field is a readability kernel over
    registry points, and its sigma, cell size and peak are published in stats so
    a warm patch can always be traced back to the records that caused it. */
-var DENSITY={sigma:12,cell:3,floor:.05,margin:38,maxCells:9000};
+var MPU=AtlasLayout.METRES_PER_UNIT,DENSITY={sigma:300/MPU,cell:75/MPU,floor:.05,margin:950/MPU,maxCells:9000};
 var dround=function(v){return Math.round(v*1000)/1000};
 var densityCache=null,densityFor=null;
 function densityField(){if(densityCache&&densityFor===data)return densityCache;

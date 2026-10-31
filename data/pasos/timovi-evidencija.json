@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-10-29",
+  "updated": "2026-10-31",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
@@ -9,7 +9,7 @@
   "totals": {
     "teams": 71,
     "objects": 51,
-    "completedPassports": 32
+    "completedPassports": 37
   },
   "entries": [
     {
@@ -23,13 +23,14 @@
       "topic": "Osnovna škola i modernistička školska arhitektura",
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
-      "status": "Kuriran pilot pasoš",
-      "submissionsCount": 2,
+      "status": "Kuriran pilot pasoš; 30.10 predata aksonometrija objekta (P1–P4) — u galeriji.",
+      "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
         "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora",
         "Prijem 25.10: crteži (7 listova, Istorijski arhiv Beograda) uvedeni kao dopunski prilog — 9 tvrdnji; pasoš sa temom i izvorima se i dalje očekuje",
-        "Razrešeno 25.10: „Beogradski arhitriptih“ potvrđen kao zajednički rad grupa T01+T02+T03 — podnesak nosi indeks svih šest članova (mejl 19.10, primljen 24.10)"
+        "Razrešeno 25.10: „Beogradski arhitriptih“ potvrđen kao zajednički rad grupa T01+T02+T03 — podnesak nosi indeks svih šest članova (mejl 19.10, primljen 24.10)",
+        "Prijem 30.10: Nastavnik 30.10: skica/maketa nije realističan prikaz objekta — objekat se rekonstruiše iz podataka, kao sistem informacija koji je istovremeno 3D struktura (primer: 3D atlas na sajtu)."
       ],
       "claimsCount": 30,
       "sectionsCount": 9
@@ -45,8 +46,8 @@
       "topic": "Industrijsko nasleđe i revitalizacija silosa žita",
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
-      "status": "Kuriran pilot pasoš",
-      "submissionsCount": 1,
+      "status": "Kuriran pilot pasoš; 31.10 predata ručno crtana tabla „Silosi Beograd\" (P1–P7, murali, gastro zona) — u galeriji.",
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
         "„Beogradski arhitriptih”: primljen zajednički 3D podnesak za T01+T02+T03, bez imena autora",
@@ -275,15 +276,16 @@
       "location": "Knez Mihailova 35 / Takovska 2, Beograd",
       "topic": "Uporedna analiza dva ključna beogradska zdanja, prostorna struktura i preseci",
       "progressStage": 5,
-      "progressLabel": "Izrađena AI Studio aplikacija",
-      "status": "AI Studio interaktivna 3D aplikacija",
-      "submissionsCount": 2,
-      "hasPassport": false,
+      "progressLabel": "Pasoš na sajtu (31.10)",
+      "status": "Pasoš Palate SANU i Glavne pošte v1.0 kuriran u javni sloj (31.10): 73 zapisa — Pošta sa izvorom uz podatak, SANU samo sa spiskom linkova na kraju (nepotvrđeno); 16 otvorenih pitanja. AI Studio aplikacija ostaje prateći rad.",
+      "submissionsCount": 3,
+      "hasPassport": true,
       "flags": [
-        "Dva objekta: tim pokriva oba u skladu sa veličinom grupe"
+        "Dva objekta: tim pokriva oba u skladu sa veličinom grupe",
+        "Prijem 30.10: SANU izvori nisu vezani uz pojedinačne podatke — tražiti tabelu podatak/izvor kao kod Pošte."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 73,
+      "sectionsCount": 11
     },
     {
       "id": "T14",
@@ -339,7 +341,8 @@
       "flags": [
         "Ista upisana tačka kao T55: Palata Narodne banke je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima.",
         "Tim potvrđen 28.10: tročlani tim, tri indeksa. T55 (isti objekat, dva indeksa) je poseban tim bez predaje.",
-        "Objavljeno 29.10 bez izvora uz podatke (odluka nastavnika); čeka se verzija sa izvorima uz svaki podatak i tabelom."
+        "Objavljeno 29.10 bez izvora uz podatke (odluka nastavnika); čeka se verzija sa izvorima uz svaki podatak i tabelom.",
+        "Prijem 30.10: dodela predaje 26.10 timu T16 potvrđena — T55 (74/26, 19/26) poslao sopstveni pasoš."
       ],
       "claimsCount": 13,
       "sectionsCount": 4
@@ -478,12 +481,13 @@
       "topic": "Bojan Stupica, požar 1997, staklena fasada Zorana Radojičića, teatar",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (29.10)",
-      "status": "Odeljak 1 pasoša (identitet, materijali, hronologija 1860–2005) kuriran u javni sloj (29.10): 18 zapisa, literatura po epohi, izvori 16 grafičkih priloga. Ostali odeljci pasoša nisu stigli.",
-      "submissionsCount": 2,
+      "status": "Odeljak 1 pasoša (identitet, materijali, hronologija 1860–2005) kuriran u javni sloj (29.10): 18 zapisa. 29.10 predata skica koncepta vizuelizacije (staklena opna oko istorijske fasade) — u galeriji.",
+      "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
         "Prijem 28.10: 16 grafičkih priloga u građi (privatno); prava arhiva (IAB, MGB, JDP) za javnu objavu priloga nisu potvrđena.",
-        "Prijem 28.10: 16 grafičkih priloga u građi (privatno); prava arhiva (IAB, MGB, JDP) za javnu objavu priloga nisu potvrđena."
+        "Prijem 28.10: 16 grafičkih priloga u građi (privatno); prava arhiva (IAB, MGB, JDP) za javnu objavu priloga nisu potvrđena.",
+        "Prijem 30.10: Nastavnik 30.10: skica/maketa nije realističan prikaz objekta — objekat se rekonstruiše iz podataka, kao sistem informacija koji je istovremeno 3D struktura (primer: 3D atlas na sajtu)."
       ],
       "claimsCount": 18,
       "sectionsCount": 3
@@ -561,16 +565,17 @@
       "object": "Hram Svetog Save",
       "location": "Vračar, Beograd",
       "topic": "Materijali, mermerne obloge, mozaik, proces gradnje",
-      "progressStage": 4,
-      "progressLabel": "Predat PDF pasoša",
-      "status": "Predat PDF digitalnog pasoša",
-      "submissionsCount": 1,
-      "hasPassport": false,
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (31.10)",
+      "status": "Ispravljen pasoš materijala Hrama (tabela podatak/izvor, 21 izvor sa linkom) kuriran u javni sloj (31.10): 94 zapisa u 16 poglavlja po materijalu, 8 praznina koje tim sam beleži; 1594/1595 označeno kao sukob izvora.",
+      "submissionsCount": 2,
+      "hasPassport": true,
       "flags": [
-        "Deljeni objekat sa T11 i T43"
+        "Deljeni objekat sa T11 i T43",
+        "Indeks 192/26 se vodi i u T11 i u T27 (ista studentkinja) — članstvo da potvrdi nastavnik."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 94,
+      "sectionsCount": 16
     },
     {
       "id": "T28",
@@ -644,17 +649,16 @@
       "location": "Studentski trg 1, Beograd",
       "topic": "Konstruktivni elementi i enterijer, tavanica, svečana sala",
       "progressStage": 5,
-      "progressLabel": "Pasoš na sajtu (29.10)",
-      "status": "Pasoš Kapetan-Mišinog zdanja kuriran u javni sloj (29.10) po odluci nastavnika iz seminarskog teksta: 15 zapisa, 3 URL-a i skenirana monografija kao izvori, podaci bez izvora nepotvrđeni; napomena stoji u dosijeu.",
-      "submissionsCount": 1,
+      "progressLabel": "Pasoš sa izvorima na sajtu (31.10)",
+      "status": "Prepravljena verzija sa izvorom uz svaki pasus primenjena (31.10): 44 zapisa (15 zamenjenih, 28 novih, novo krilo Istorija), 41 sa izvorom; Srpski ugao 1862 vs Wikipedia 1863 označeno kao sukob. Nastavnik: potražiti i offline izvore.",
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
         "Reorganizovan tim: jedan član prešao u T66",
-        "Prijem 28.10 (2. tura): pasoš predat 26.10 bez izvora uz podatke — čekamo ispravljenu verziju (tabela podatak/izvor).",
         "Objavljeno 29.10 iz teksta bez izvora uz podatke (odluka nastavnika); čeka se tabela podatak/izvor."
       ],
-      "claimsCount": 16,
-      "sectionsCount": 4
+      "claimsCount": 44,
+      "sectionsCount": 5
     },
     {
       "id": "T32",
@@ -1116,16 +1120,17 @@
       "object": "Palata Narodne banke i Muzej novca",
       "location": "Kralja Petra 12, Beograd",
       "topic": "Razvoj novca, sigurnosni sistemi zgrade, sefovi, istorijska stolarija",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
-      "submissionsCount": 0,
-      "hasPassport": false,
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (31.10)",
+      "status": "Prvi pasoš Palate Narodne banke kuriran u javni sloj (31.10): 41 zapis, izvori samo kao spisak na kraju (nepotvrđeno) — nastavnik 30.10: tabela, podatak levo, izvor desno. Prijavljena tema (sefovi, sigurnost, stolarija) još nije obrađena.",
+      "submissionsCount": 1,
+      "hasPassport": true,
       "flags": [
-        "Ista upisana tačka kao T16 (Palata Narodne banke Srbije). Razrešiti da li je to jedan objekat sa dva tima."
+        "Ista upisana tačka kao T16 (Palata Narodne banke Srbije). Razrešiti da li je to jedan objekat sa dva tima.",
+        "Prijem 30.10: tim T55 (74/26, 19/26) poslao sopstveni pasoš — potvrđuje da je predaja Palate Narodne banke od 26.10 rad tima T16, ne T55. Ista tačka na karti kao T16."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 41,
+      "sectionsCount": 6
     },
     {
       "id": "T56",
@@ -1290,13 +1295,14 @@
       "object": "Palata Beograd (Beograđanka) — projektovanje i statika",
       "location": "Masarikova 5, Beograd",
       "topic": "Projektovanje i statički proračuni, saradnja arhitekata i građevinaca",
-      "progressStage": 2,
-      "progressLabel": "Potvrđena tema",
-      "status": "Potvrđena tema",
-      "submissionsCount": 1,
+      "progressStage": 3,
+      "progressLabel": "Predata aplikacija, čeka se pasoš",
+      "status": "Predata AI Studio aplikacija „Palata Beograd — arhitektonska monografija\" (30.10); pasoš sa izvorima još nije stigao.",
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
-        "Razjašnjeno: indeks 29 OG nije ista osoba kao indeks 29 OA"
+        "Razjašnjeno: indeks 29 OG nije ista osoba kao indeks 29 OA",
+        "Prijem 30.10: nastavnik — usmeriti AI ka preciznijem 3D modelu; za sistem je potreban pasoš podatak/izvor."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -1351,15 +1357,15 @@
       "location": "Beograd na vodi",
       "topic": "Konstruktivni sistem Kule Beograd, armiranobetonsko jezgro, kompozitni stubovi, fasada",
       "progressStage": 5,
-      "progressLabel": "Predato 9 priloga",
-      "status": "Predato 9 priloga sa bogatim grafičkim prikazima (17.10)",
-      "submissionsCount": 1,
-      "hasPassport": false,
+      "progressLabel": "Pasoš na sajtu (31.10)",
+      "status": "Tabela „Konstruktivni sistem Kule Beograd\" (podatak/izvor, 4 stručna izvora sa linkom) kurirana u javni sloj (31.10): 10 zapisa; plakat sa crtežima konstrukcije u galeriji.",
+      "submissionsCount": 2,
+      "hasPassport": true,
       "flags": [
         "Drugi tim na Kuli Beograd sa težištem na konstruktivni sistem"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 11,
+      "sectionsCount": 2
     },
     {
       "id": "T68",
@@ -1431,22 +1437,24 @@
     {
       "id": "T71",
       "indices": [
-        "149/2026"
+        "149/2026",
+        "13/26g"
       ],
       "object": "Miloša Pocerca 32",
       "location": "Beograd",
       "topic": "Zvanični spisi o objektu i istorija; prikupljanje izvora u tabeli podatak/izvor",
-      "progressStage": 2,
-      "progressLabel": "Tim upisan 28.10 — predati spisi o objektu, čeka tabelu podatak/izvor",
-      "status": "Tim upisan 28.10 — predati spisi o objektu, čeka tabelu podatak/izvor",
-      "submissionsCount": 1,
-      "hasPassport": false,
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (31.10)",
+      "status": "Digitalni pasoš v01 „Kuća arhitekte Jovana Ilkića\" (Miloša Pocerca 32) kuriran u javni sloj (31.10): 59 zapisa — katastarski podaci (eKatastar 29.10) potvrđeni, ostali izvori su plan pribavljanja (nepotvrđeno), 14 praznina N/P vidljivo kao otvori.",
+      "submissionsCount": 3,
+      "hasPassport": true,
       "flags": [
-        "Prijem 28.10 (2. tura): tim nije bio u registru; upisan po mejlu studenta (indeks 149/2026). Drugi član bez indeksa u mejlu — čeka potvrdu. Lokacija približna."
+        "Prijem 28.10 (2. tura): tim nije bio u registru; upisan po mejlu studenta (indeks 149/2026). Drugi član bez indeksa u mejlu — čeka potvrdu. Lokacija približna.",
+        "Prijem 30.10: drugi član upisan (13/26g, građevina). Otvoreno: zabeležba kulturnog dobra (07.06.2016) nije u G listu parcele na dan 29.10; „zauzetost 100%\" sporna; ugaoni rizalit verovatno 1925, ne 1896."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 59,
+      "sectionsCount": 7
     }
   ],
-  "datasetRevision": "r-eb1c0bba2ea82f9c"
+  "datasetRevision": "r-1a27a272556a8403"
 }
