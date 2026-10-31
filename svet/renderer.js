@@ -463,7 +463,7 @@ void main(){
 // Geography is immutable between geographic-layer/theme changes. Team meshes
 // have independent uploads; culling never edits the semantic picking index.
 function mesh(){return {buffers:[gl.createBuffer(),gl.createBuffer(),gl.createBuffer(),gl.createBuffer()],chunks:[],count:0}}
-var staticMesh=mesh(),teamMesh=mesh(),chunks=[],staticKey='',staticGeo=null,staticHits=[];
+var staticMesh=mesh(),teamMesh=mesh(),pickedMesh=mesh(),teamKey='',teamData=null,teamGeo=null,chunks=[],staticKey='',staticGeo=null,staticHits=[];
 var builds=0,staticBuilds=0,uploadedBytes=0,lastUploadBytes=0,drawCalls=0,drawnTriangles=0,culledChunks=0,lodSkipped=0,culling=true,buildMs=0;
 var eyePos=[0,0,0];
 /* Detail is dropped only when a chunk is already smaller than a pixel, so no
@@ -861,7 +861,14 @@ if(opts.mode==='archive'){var layout=collageLayout(),bandFirst=vertices.length/3
   var col=CATEGORY_COLOR[cat]||[.46,.47,.52];if(dark)col=col.map(v=>Math.min(1,v*1.3+.06));
   for(var seg of [[[x0,0,z0],[x1,0,z0]],[[x0,0,z1],[x1,0,z1]],[[x0,0,z0],[x0,0,z1]],[[x1,0,z0],[x1,0,z1]]])line(seg[0],seg[1],.55,col,.03)});
  chunk(bandFirst)}
-for(var t of data.teams){var pos=position(t);if(!pos||opts.visible&&!opts.visible.has(t.id))continue;var first=vertices.length/3,m=models.find(m=>m.id===t.id),shares=grouped(m),off=shares?m.wingOffset:[0,0],wing=[pos[0]+off[0],pos[1],pos[2]+off[1]],selected=t.id===opts.selected||shares&&m.building===opts.selected;
+/* Selection recolours one object, so it must not cost the whole team layer.
+   The layer is drawn as if nothing were chosen and is uploaded only when its
+   data or view changes; the chosen object is drawn again on top of itself in
+   pickedMesh (same vertices, depth LEQUAL). With 37 passports a rebuilt layer
+   was 10 MB per tap (31.10). */
+function teamPass(sel,only){
+for(var t of data.teams){var pos=position(t);if(!pos||opts.visible&&!opts.visible.has(t.id))continue;var first=vertices.length/3,m=models.find(m=>m.id===t.id),shares=grouped(m),off=shares?m.wingOffset:[0,0],wing=[pos[0]+off[0],pos[1],pos[2]+off[1]],selected=t.id===sel||shares&&m.building===sel;
+ if(only&&!(selected||shares&&m.buildingTeams.includes(sel)))continue;
  if(m.records||m.archive)shadow(m,wing);
  /* Where the registry actually puts this object. A nudged sculpture shows its
     pin and a leader to it while it is selected, so the displacement is visible
@@ -907,13 +914,13 @@ for(var t of data.teams){var pos=position(t);if(!pos||opts.visible&&!opts.visibl
  /* The object itself: a plinth all its teams stand on, a terrace, spoke and pylon
     per team in that team's own hue, and a mast whose height is the record count
     of every team together. The whole is one structure; the parts stay named. */
- if(shares&&m.shared.length){var chosen=m.building===opts.selected||m.buildingTeams.includes(opts.selected),plinthCol=dark?[.19,.27,.29]:[.80,.82,.75];
+ if(shares&&m.shared.length){var chosen=m.building===sel||m.buildingTeams.includes(sel),plinthCol=dark?[.19,.27,.29]:[.80,.82,.75];
   for(var e of m.shared){
    var partTint=e.slots?AtlasArchitecture.teamTint(e.slot,e.slots,dark):null;
    var col=e.role==='mast'?(dark?[.93,.73,.43]:[.74,.52,.24]):e.role==='ring'?(dark?[.95,.77,.48]:[.88,.70,.40]):partTint?mix(plinthCol,partTint,e.role==='pylon'?.88:e.role==='bridge'?.75:.5):plinthCol,
        emis=e.role==='mast'?.4:e.role==='ring'?.34:e.role==='pylon'?.42:e.role==='terrace'?.2:.14;
    if(chosen&&e.role==='ring'){col=dark?[.98,.82,.55]:[.95,.78,.46];emis=.5}
-   if(partTint&&e.team===opts.selected){col=mix(col,dark?[1,.96,.82]:[1,.93,.72],.3);emis=.55}
+   if(partTint&&e.team===sel){col=mix(col,dark?[1,.96,.82]:[1,.93,.72],.3);emis=.55}
    var xx=pos[0]+e.x,zz=pos[2]+e.z;
    if(e.role==='bridge'){var dx=e.end[0],dz=e.end[1],length=Math.hypot(dx,dz)||1,nx=-dz/length*.3,nz=dx/length*.3;addQuad([pos[0]+nx,e.y,pos[2]+nz],[pos[0]+dx+nx,e.y,pos[2]+dz+nz],[pos[0]+dx-nx,e.y,pos[2]+dz-nz],[pos[0]-nx,e.y,pos[2]-nz],[0,1,0],col,emis);continue}
    /* A team's ground is drawn as a rim, never a filled plate: the first version
@@ -933,18 +940,23 @@ for(var t of data.teams){var pos=position(t);if(!pos||opts.visible&&!opts.visibl
  if(shares){
    marks.push({id:t.id,pos:[wing[0],m.height+1,wing[2]],base:wing,label:t.id,selected:t.id===opts.selected,records:m.records,teams:[t.id],parent:m.building,title:t.object+' · '+t.id});
    if(m.shared.length)marks.push({id:m.building,pos:[pos[0],(m.buildingHeight||m.height)+1.2,pos[2]],base:pos,label:String(m.buildingTeams.length),selected:m.building===opts.selected||m.buildingTeams.includes(opts.selected),records:m.buildingRecords,teams:m.buildingTeams.slice(),title:m.buildingObject+' · '+m.buildingTeams.join(' · ')});
- }else marks.push({id:t.id,pos:[pos[0],m.height+1,pos[2]],base:pos,label:t.id,selected,records:m.records,teams:[t.id],title:t.object});
-}
+ }else marks.push({id:t.id,pos:[pos[0],m.height+1,pos[2]],base:pos,label:t.id,selected:t.id===opts.selected,records:m.records,teams:[t.id],title:t.object});
+}}
+teamPass(null,false);
 // Arcs exist only for an explicit relation with resolvable evidence, never proximity.
 if(opts.connections)for(var rel of data.relations){var a=data.teams.find(t=>t.id===rel.from),b=data.teams.find(t=>t.id===rel.to),pa=wingPos(a),pb=wingPos(b);if(!pa||!pb||opts.visible&&(!opts.visible.has(a.id)||!opts.visible.has(b.id)))continue;
  var ah=models.find(m=>m.id===a.id).height,bh=models.find(m=>m.id===b.id).height,points=[];for(var i=0;i<=32;i++){var t=i/32;points.push([pa[0]+(pb[0]-pa[0])*t,ah+(bh-ah)*t+Math.sin(t*Math.PI)*Math.min(30,Math.hypot(pb[0]-pa[0],pb[2]-pa[2])*.2),pa[2]+(pb[2]-pa[2])*t])}arcs.push({id:rel.id,from:rel.from,to:rel.to,url:rel.url,points});
 }
 renderLabels();
 if(links){links.replaceChildren();for(var a of arcs){var p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('class','relation-line');p.dataset.id=a.id;p.onclick=()=>{};(function(id){p.onclick=function(){onPick(id)}})(a.id);links.append(p);a.path=p;var dot=document.createElementNS('http://www.w3.org/2000/svg','circle');dot.setAttribute('r','2.6');dot.setAttribute('class','relation-pulse');links.append(dot);a.dot=dot}}
-upload(teamMesh);buildMs=performance.now()-started;invalidate();}
+var nextKey=geometryKey(Object.assign({},opts,{selected:null}));
+if(nextKey!==teamKey||data!==teamData||geo!==teamGeo){upload(teamMesh);teamKey=nextKey;teamData=data;teamGeo=geo}
+resetGeometry();var kept=[pickBoxes.length,hit.length,marks.length];if(opts.selected)teamPass(opts.selected,true);pickBoxes.length=kept[0];hit.length=kept[1];marks.length=kept[2];upload(pickedMesh);
+buildMs=performance.now()-started;invalidate();}
 /* The BIGZ archive is a world of its own: no map, no team sculptures, only the
    delivered folders, their scans and the few readings that are finished. */
 function buildBigz(){var started=performance.now();
+ teamKey='';pickedMesh.count=0;pickedMesh.chunks=[];
  if(!bigz){upload(staticMesh);upload(teamMesh);renderLabels();return}
  var m=bigzModel();
  if(staticKey!=='bigz'){staticBuilds++;
@@ -1014,7 +1026,7 @@ var fogNear=opts.mode==='street'?70:Math.max(190,d*1.5),fogFar=opts.mode==='stre
 var ambient=!reduced.matches&&opts.quality!=='eco'&&opts.world!=='bigz'&&(waterCount>0||cloudCount>0);
 if(ambient)ambientClock=(now||performance.now())/1000;
 var seconds=ambientClock;
-eyePos=viewEye;M4.lookAt(vMat,eye,target,[0,1,0]);M4.multiply(mvpMat,pMat,vMat);drawSky(w/h,seconds);gl.uniformMatrix4fv(uMVP,false,mvpMat);gl.uniformMatrix4fv(uModel,false,mMat);gl.uniform3f(uSunDir,.65,.82,-.5);gl.uniform3fv(uSkyColor,sky);gl.uniform3fv(uHorizon,horizon);gl.uniform2f(uFog,fogNear,fogFar);gl.uniform3fv(uEye,viewEye);gl.uniform1f(uNight,opts.night?1:0);drawCalls=0;drawnTriangles=0;culledChunks=0;lodSkipped=0;gl.uniform1f(uGrowth,1);gl.uniform1f(uContact,0);drawMesh(staticMesh);gl.uniform1f(uGrowth,1-Math.pow(1-growth,3));gl.uniform1f(uContact,1);drawMesh(teamMesh);
+eyePos=viewEye;M4.lookAt(vMat,eye,target,[0,1,0]);M4.multiply(mvpMat,pMat,vMat);drawSky(w/h,seconds);gl.uniformMatrix4fv(uMVP,false,mvpMat);gl.uniformMatrix4fv(uModel,false,mMat);gl.uniform3f(uSunDir,.65,.82,-.5);gl.uniform3fv(uSkyColor,sky);gl.uniform3fv(uHorizon,horizon);gl.uniform2f(uFog,fogNear,fogFar);gl.uniform3fv(uEye,viewEye);gl.uniform1f(uNight,opts.night?1:0);drawCalls=0;drawnTriangles=0;culledChunks=0;lodSkipped=0;gl.uniform1f(uGrowth,1);gl.uniform1f(uContact,0);drawMesh(staticMesh);gl.uniform1f(uGrowth,1-Math.pow(1-growth,3));gl.uniform1f(uContact,1);drawMesh(teamMesh);if(pickedMesh.count){gl.depthFunc(gl.LEQUAL);drawMesh(pickedMesh);gl.depthFunc(gl.LESS)}
 /* The cloud shadow fades out once the camera is close enough that the sheet
    is no longer read as a map: under a sculpture a passing shadow is noise. */
 drawWeather(seconds,Math.min(1,Math.max(0,(cam.dist-55)/85)));
@@ -1175,7 +1187,10 @@ surface.addEventListener('pointermove',e=>{if(e.target.closest('.camera,.walk-co
  var now=performance.now(),span=Math.max(8,now-(drag.t||now-16));drag.vx=dx/span*1000;drag.vy=dy/span*1000;drag.t=now;drag.pan=pan;
  pointers.set(e.pointerId,[e.clientX,e.clientY]);drag.x=e.clientX;drag.y=e.clientY;drag.moved=drag.moved||Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)>(drag.slip||5);invalidate()});
 function endPointer(e,cancel){if(!pointers.has(e.pointerId))return;pointers.delete(e.pointerId);if(!drag)return;
- if(!cancel&&!drag.moved&&Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<=(drag.slip||5)+1){var best=drag.label?{id:drag.label}:findPick(e);
+ if(!cancel&&!drag.moved&&Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<=(drag.slip||5)+1){/* The finger means what it landed on; the slip before release is tremor.
+     Picking at the release point missed small objects on a phone (390 px,
+     16 m/unit, 31.10), so the press point decides and the release is the fallback. */
+  var best=drag.label?{id:drag.label}:findPick({clientX:drag.sx,clientY:drag.sy})||findPick(e);
   /* Two taps in the same place read as "take me there". dblclick is not
      dependable under a finger, and the click guard below would swallow it. */
   /* The window is measured between the two releases, not between the two
@@ -1197,5 +1212,11 @@ canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();document.getEl
 new ResizeObserver(invalidate).observe(canvas);document.addEventListener('visibilitychange',invalidate);reduced.addEventListener('change',invalidate);new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;if(inView)invalidate()}).observe(canvas);
 function geometryKey(o){return JSON.stringify([o.world||'atlas',o.mode==='archive',o.mode==='street',o.mode==='plan',o.layer,o.selected,o.claim,o.era||'',[...(o.visible||[])].sort(),(o.claims||[]).map(c=>c.id).sort(),o.connections])}
 return {setBigz(b){if(bigz===b)return;bigz=b;bigzFor=null;if(opts.world==='bigz'){staticKey='';build()}},stop:stopWalk,setCulling(value){culling=!!value;invalidate()},setOrbitBack(value){ORBIT_BACK=value>0?value:2000;invalidate()},groundAt(cx,cy){return groundAt(cx,cy)},groundScreen(g){return groundScreen(g)},probeClip(on){clipProbe=!!on;invalidate()},update(d,g,o){var change=opts.mode!==o.mode||opts.world!==o.world,revision=data?.datasetRevision!==d.datasetRevision,rebuild=data!==d||geo!==g||geometryKey(opts)!==geometryKey(o);if(data!==d)models=AtlasArchitecture.compile(d);data=d;geo=g;opts=o;if(revision)growthStart=performance.now();if(rebuild)build();else invalidate();if(change){stopWalk();home()}},focus(id){if(opts.mode==='street'){enterStreet(id);return}
-  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p)fly({target:[p[0],(m?.height||0)*.35,p[2]],dist:Math.max(40,(m?.height||0)*2.5,(m?AtlasArchitecture.footprint(m)*2:12)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.75})},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(zoomCeiling(),cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:WALK_SPEED,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0,density:data?densityField().meta:null}},density(){return data?densityField():null},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
+  if(opts.world==='bigz'){var el=bigzModel().elements.find(e=>e.id===id&&e.pick!==false);if(el)fly({target:[el.x,el.y+el.h/2,el.z],dist:Math.max(22,el.h*2.6,el.w*3.2),pitch:opts.mode==='plan'?1.55:.7});else home();return}var lead=leadOf(id);if(lead&&opts.mode!=='archive'){var lt=data.teams.find(t=>t.id===lead.id),lp=lt&&position(lt);if(lp){fly({target:[lp[0],(lead.buildingHeight||0)*.4,lp[2]],dist:Math.max(52,(lead.buildingSpan||40)*1.9,(lead.buildingSpan||40)*1.28/Math.max(.25,canvas.clientWidth/canvas.clientHeight)),pitch:opts.mode==='plan'?1.55:.72});return}}var t=data.teams.find(t=>t.id===id),p=t&&wingPos(t),m=models.find(m=>m.id===id);if(p){var aspect=Math.max(.25,canvas.clientWidth/canvas.clientHeight),span=m?AtlasArchitecture.footprint(m)*2:12,aim=[p[0],(m?.height||0)*.35,p[2]];
+  /* A team of a shared object is framed with the mast of that object, so the
+     wing never stands alone: since the wings make room for the plan rosettes
+     (31.10) a portrait phone framed the wing and lost the mast off screen. */
+  var own=m&&grouped(m)&&leadOf(m.building),ot=own&&data.teams.find(x=>x.id===own.id),op=ot&&position(ot);
+  if(op){var gap=Math.hypot(p[0]-op[0],p[2]-op[2]);aim=[(p[0]+op[0])/2,aim[1],(p[2]+op[2])/2];span=Math.max(span,gap+span/2+4)}
+  fly({target:aim,dist:Math.max(40,(m?.height||0)*2.5,span*1.28/aspect),pitch:opts.mode==='plan'?1.55:.75})}},home,zoom(f){if(opts.mode==='street')return;transition=null;glide=null;cam.dist=Math.max(8,Math.min(zoomCeiling(),cam.dist*f));invalidate()},replay(){growthStart=performance.now();invalidate()},stats(){return {pixels:canvas.width*canvas.height,quality:opts.quality||'auto',geographyVisible:opts.mode!=='archive',frames,triangles:(staticMesh.count+teamMesh.count)/3,buffers:9,skybox:true,vignette:true,walkSpeed:WALK_SPEED,drawnTriangles,culledChunks,lodSkipped,chunks:staticMesh.chunks.length+teamMesh.chunks.length,builds,staticBuilds,uploadedBytes,lastUploadBytes,buildMs,pickBoxes:pickBoxes.length,clipProbe:clipProbe,clippedCorners:clippedCorners,orbitBack:ORBIT_BACK,pending:!!frame,distance:cam.dist,street:opts.mode==='street',night:!!opts.night,visibleLabels:[...labelNodes.values()].filter(n=>!n.hidden).length,structures:models.filter(m=>m.records||m.archive).length,archives:models.filter(m=>m.archive).length,archiveCrates:models.reduce((n,m)=>n+(m.archive?m.archive.crates:0),0),archiveRead:models.reduce((n,m)=>n+(m.archive?m.archive.read:0),0),teamParts:models.reduce((n,m)=>n+m.shared.filter(e=>e.role==='terrace').length,0),buildings:new Set(models.map(m=>m.building)).size,sharedBuildings:models.filter(m=>m.shared.length).length,sharedTeams:models.filter(m=>m.buildingTeams.length>1).length,recordElements:models.reduce((n,m)=>n+m.records,0),sourcePillars:models.reduce((n,m)=>n+m.sources,0),arcs:arcs.length,drawCalls,inView,world:opts.world||'atlas',bigzPlates:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plate'||e.role==='plateRead').length:0,bigzRead:opts.world==='bigz'?bigzModel().elements.filter(e=>e.role==='plateRead').length:0,bigzRacks:opts.world==='bigz'?bigzModel().folders.length:0,density:data?densityField().meta:null}},density(){return data?densityField():null},inspect(){var r=canvas.getBoundingClientRect();return {camera:{...cam},aim:aim?{id:aim.id,team:aim.team,role:aim.role,tier:aim.tier}:null,joystick:{x:stick.x,y:stick.y},pointers:pointers.size,teleporting:!!walkFly,gliding:!!glide,orbitBack:ORBIT_BACK,street:opts.mode==='street'?{...walk,pos:walk.pos.slice()}:null,elements:hit.map(m=>({...m,screen:screen(m.pos,r.width,r.height)})),marks:marks.map(m=>({...m,screen:screen(m.pos,r.width,r.height)}))}},dispose(){if(frame)cancelAnimationFrame(frame);[...staticMesh.buffers,...teamMesh.buffers].forEach(b=>gl.deleteBuffer(b));gl.deleteBuffer(skyBuffer);gl.deleteProgram(skyProgram);gl.deleteProgram(vignetteProgram);gl.deleteProgram(prog)}};
 };
