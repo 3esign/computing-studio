@@ -30,9 +30,9 @@
   "pasos": {
    "nema": 25,
    "najavljeno": 5,
-   "ceka": 6,
+   "ceka": 5,
    "stiglo": 13,
-   "prihvaceno": 22
+   "prihvaceno": 23
   },
   "ai-studio": {
    "nema": 64,
@@ -2048,10 +2048,10 @@
   {
    "tim": "T31",
    "objekat": "Zgrada rektorata (Kapetan Mišino zdanje)",
-   "procenat": 12,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "ceka",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX",
       "PDF",
@@ -2080,7 +2080,6 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "skice",
     "maketa"

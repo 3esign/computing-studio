@@ -1,9 +1,9 @@
 {
   "schema": "or/nejasno@1",
-  "updated": "2026-10-29",
+  "updated": "2026-10-31",
   "note": {
-    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 29.10. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
-    "en": "All open questions to the teams in one place, as of the intakes up to 29 Oct. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
+    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 30.10. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
+    "en": "All open questions to the teams in one place, as of the intakes up to 30 Oct. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
   },
   "items": [
     {
@@ -156,13 +156,14 @@
       "id": "n-t16-t31-t50-izvori",
       "teams": [
         "T16",
-        "T31",
-        "T50"
+        "T50",
+        "T13",
+        "T55"
       ],
-      "sr": "Narodna banka (T16), Kapetan-Mišino zdanje (T31) i Beograđanka (T50) objavljeni su 29.10. po odluci nastavnika bez izvora uz podatke; dosijei nose „Napomenu nastavnika“ i sve tvrdnje stoje kao nepotvrđene dok ne stigne verzija sa izvorima.",
-      "en": "National Bank (T16), Kapetan-Miša’s Mansion (T31) and Beograđanka (T50) were published on 29 Oct by the teacher’s decision without sources attached; their dossiers carry a “Teacher’s note” and all claims stand as unconfirmed until a sourced version arrives.",
-      "askSr": "T16, T31, T50: pošaljite verziju pasoša sa izvorom uz svaki podatak; ona zamenjuje dosije.",
-      "askEn": "T16, T31, T50: send a passport version with a source per record; it replaces the dossier."
+      "sr": "Narodna banka (T16 i T55), Beograđanka (T50) i Palata SANU / Glavna pošta (T13) objavljeni su u javnom sloju bez izvora vezanih uz pojedinačne podatke; dosijei nose „Napomenu nastavnika“ i nepotvrđene tvrdnje dok ne stigne tabelarna verzija sa izvorima (T31 je 30.10. dostavio tabelu sa izvorima i prešao u prihvaćeno).",
+      "en": "National Bank (T16 and T55), Beograđanka (T50) and SASA Palace / Main Post Office (T13) were published without sources tied to individual records; their dossiers carry a “Teacher’s note” and unconfirmed claims until a tabular sourced version arrives (T31 submitted its sourced table on 30 Oct and moved to accepted).",
+      "askSr": "T16, T50, T13, T55: pošaljite verziju pasoša sa izvorom uz svaki podatak; ona zamenjuje dosije.",
+      "askEn": "T16, T50, T13, T55: send a passport version with a source per record; it replaces the dossier."
     },
     {
       "id": "n-t15-unutrasnjost",
@@ -193,8 +194,8 @@
     {
       "id": "n-skice-kolokvijum",
       "teams": [],
-      "sr": "Pred kolokvijum 16.11. digitalni trag skica (ručno crtan materijal) postoji za samo 6 od 71 tima, trag AI aplikacije za 5. Ostali timovi možda rade, ali evidencija to ne vidi.",
-      "en": "Ahead of the colloquium on 16 Nov, a digital trace of sketches (hand-drawn material) exists for only 6 of 71 teams, and of the AI application for 5. Other teams may be working, but the record does not see it.",
+      "sr": "Pred kolokvijum 16.11. digitalni trag skica (ručno crtan materijal) postoji za samo 10 od 71 tima, trag AI aplikacije za 6. Ostali timovi možda rade, ali evidencija to ne vidi.",
+      "en": "Ahead of the colloquium on 16 Nov, a digital trace of sketches (hand-drawn material) exists for only 10 of 71 teams, and of the AI application for 6. Other teams may be working, but the record does not see it.",
       "askSr": "Svi timovi: pošaljite fotografije skica i link AI aplikacije pre 16.11.",
       "askEn": "All teams: send photographs of your sketches and the AI application link before 16 Nov."
     }
