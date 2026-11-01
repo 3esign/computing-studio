@@ -30,15 +30,15 @@
   "pasos": {
    "nema": 25,
    "najavljeno": 5,
-   "ceka": 5,
-   "stiglo": 13,
-   "prihvaceno": 23
+   "ceka": 9,
+   "stiglo": 1,
+   "prihvaceno": 31
   },
   "ai-studio": {
-   "nema": 64,
+   "nema": 63,
    "najavljeno": 1,
    "ceka": 0,
-   "stiglo": 4,
+   "stiglo": 5,
    "prihvaceno": 2
   },
   "skice": {
@@ -516,10 +516,10 @@
   {
    "tim": "T07",
    "objekat": "Hotel Zlatibor, Užice",
-   "procenat": 18,
+   "procenat": 12,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "ceka",
      "formati": [
       "DOCX",
       "PDF"
@@ -547,6 +547,7 @@
     }
    },
    "fali": [
+    "pasos",
     "ai-studio",
     "skice",
     "maketa"
@@ -574,10 +575,10 @@
   {
    "tim": "T08",
    "objekat": "Zgrada u Kalemegdan parku",
-   "procenat": 18,
+   "procenat": 12,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "ceka",
      "formati": [
       "DOCX"
      ],
@@ -604,6 +605,7 @@
     }
    },
    "fali": [
+    "pasos",
     "ai-studio",
     "skice",
     "maketa"
@@ -731,10 +733,10 @@
   {
    "tim": "T11",
    "objekat": "Hram Svetog Save",
-   "procenat": 37,
+   "procenat": 43,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
@@ -803,10 +805,10 @@
   {
    "tim": "T12",
    "objekat": "Zgrada Generalštaba",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
@@ -1076,10 +1078,10 @@
   {
    "tim": "T16",
    "objekat": "Palata Narodne banke Srbije",
-   "procenat": 25,
+   "procenat": 12,
    "elementi": {
     "pasos": {
-     "stanje": "prihvaceno",
+     "stanje": "ceka",
      "formati": [
       "DOCX"
      ],
@@ -1106,6 +1108,7 @@
     }
    },
    "fali": [
+    "pasos",
     "ai-studio",
     "skice",
     "maketa"
@@ -1214,10 +1217,10 @@
   {
    "tim": "T18",
    "objekat": "Palata Beograd (Beograđanka)",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
@@ -1293,10 +1296,10 @@
   {
    "tim": "T19",
    "objekat": "Zgrada tehničkih fakulteta",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
@@ -1735,10 +1738,10 @@
   {
    "tim": "T26",
    "objekat": "SC „25. Maj” — kula „Dunavski cvet”",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
@@ -2423,10 +2426,10 @@
   {
    "tim": "T38",
    "objekat": "Vladičanski dvor u Vršcu",
-   "procenat": 18,
+   "procenat": 43,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
@@ -2434,10 +2437,12 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-10-23",
+     "predaja": 1
     },
     "skice": {
      "stanje": "nema",
@@ -2453,13 +2458,12 @@
     }
    },
    "fali": [
-    "ai-studio",
     "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-23",
-    "vrsta": "mejl"
+    "datum": "2026-10-12",
+    "vrsta": "konsultacije"
    },
    "hronologija": [
     {
@@ -2477,15 +2481,11 @@
     },
     {
      "datum": "2026-10-23",
-     "element": "prepiska",
+     "element": "ai-studio",
      "formati": [
+      "link",
       "mejl"
      ]
-    },
-    {
-     "datum": "2026-10-23",
-     "element": "konsultacija",
-     "vrsta": "mejl"
     }
    ]
   },
@@ -3092,10 +3092,10 @@
   {
    "tim": "T48",
    "objekat": "Palata Srbije (SIV)",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
@@ -3388,10 +3388,10 @@
   {
    "tim": "T53",
    "objekat": "Zgrada Instituta IMS",
-   "procenat": 37,
+   "procenat": 43,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
@@ -4020,10 +4020,10 @@
   {
    "tim": "T63",
    "objekat": "West 65 Tower",
-   "procenat": 18,
+   "procenat": 12,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "ceka",
      "formati": [
       "DOCX",
       "PDF"
@@ -4051,6 +4051,7 @@
     }
    },
    "fali": [
+    "pasos",
     "ai-studio",
     "skice",
     "maketa"
@@ -4345,10 +4346,10 @@
   {
    "tim": "T68",
    "objekat": "Zgrada tehničkih fakulteta",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],

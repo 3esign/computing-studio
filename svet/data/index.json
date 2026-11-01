@@ -1,8 +1,8 @@
 {
-  "datasetRevision": "r-1a27a272556a8403",
+  "datasetRevision": "r-d38d466a63e1a168",
   "registeredTeams": 71,
-  "curatedPassportsCount": 37,
-  "totalCuratedClaims": 1025,
+  "curatedPassportsCount": 40,
+  "totalCuratedClaims": 1079,
   "passports": [
     {
       "id": "T01",
@@ -137,6 +137,12 @@
       "claims": 20
     },
     {
+      "id": "T38",
+      "object": "Vladičanski dvor u Vršcu",
+      "sections": 4,
+      "claims": 18
+    },
+    {
       "id": "T40",
       "object": "Stambeno-poslovna zgrada Cara Uroša 57",
       "sections": 3,
@@ -203,6 +209,12 @@
       "claims": 22
     },
     {
+      "id": "T63",
+      "object": "West 65 Tower",
+      "sections": 3,
+      "claims": 11
+    },
+    {
       "id": "T65",
       "object": "Crkva Aleksandra Nevskog",
       "sections": 3,
@@ -219,6 +231,12 @@
       "object": "Kula Beograd",
       "sections": 2,
       "claims": 11
+    },
+    {
+      "id": "T68",
+      "object": "Zgrada tehničkih fakulteta",
+      "sections": 4,
+      "claims": 25
     },
     {
       "id": "T71",

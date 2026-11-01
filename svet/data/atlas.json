@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-1a27a272556a8403",
+  "datasetRevision": "r-d38d466a63e1a168",
   "teams": [
     {
       "id": "T01",
@@ -191,7 +191,7 @@
       "type": "standard",
       "progressStage": 4,
       "progressLabel": "Predat elaborat",
-      "status": "Predat preliminarni elaborat",
+      "status": "Predat preliminarni elaborat (13.10), vraćeno na format tabele podatak → izvor",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -220,7 +220,7 @@
       "type": "standard",
       "progressStage": 4,
       "progressLabel": "Predata radna verzija",
-      "status": "Predata radna verzija",
+      "status": "Predata radna verzija (07.10), vraćeno na format tabele podatak → izvor",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -294,8 +294,7 @@
       "object": "Hram Svetog Save",
       "indices": [
         "164/26",
-        "31/26g",
-        "192/26"
+        "31/26g"
       ],
       "topic": "Monumentalna sakralna arhitektura, kupola, materijali i izvođenje",
       "place": "Vračar",
@@ -496,7 +495,8 @@
       "object": "Palata Beograd (Beograđanka)",
       "indices": [
         "175/26",
-        "49/26g"
+        "49/26g",
+        "167/26"
       ],
       "topic": "Energetska efikasnost, fasadni paneli, staklene površine, HVAC sistemi",
       "place": "Kralja Milana",
@@ -1080,14 +1080,14 @@
       "y": 3.2,
       "z": null,
       "type": "standard",
-      "progressStage": 2,
-      "progressLabel": "Rad u toku",
-      "status": "Potvrđen tim i rad u toku",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (31.10)",
+      "status": "Pasoš Vladičanskog dvora u Vršcu (priče, legende, fasada i ikonostas Nikole Neškovića, 6 stručnih izvora) kuriran u javni sloj (17 zapisa); predata i AI Studio aplikacija (20.10).",
+      "hasPassport": true,
+      "claimsCount": 18,
+      "sectionsCount": 4,
+      "previewClaim": "Vladičanski dvor u Vršcu — Rezidencija Episkopa banatskih",
+      "previewSource": "Pokrajinski zavod za zaštitu spomenika kulture Novi Sad — „Dosije objekta: Vladičanski dvor Vršac”",
       "locationStatus": "unmapped",
       "city": "Vršac",
       "geometryStatus": "illustrative",
@@ -1793,14 +1793,14 @@
       "y": 0.2,
       "z": 25,
       "type": "standard",
-      "progressStage": 4,
-      "progressLabel": "Predata struktura pasoša",
-      "status": "Predat detaljan predlog strukture pasoša (9 poglavlja)",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Preliminarni pasoš na sajtu (31.10)",
+      "status": "Preliminarni podaci o konstrukciji i materijalima (PERI oplata, AB skelet, fasadni sistemi) i struktura pasoša u 9 poglavlja kurirani u javni sloj (11 zapisa); vraćeno na dopunu — čeka se tabela sa izvorima uz podatke po izabranoj temi.",
+      "hasPassport": true,
+      "claimsCount": 11,
+      "sectionsCount": 3,
+      "previewClaim": "West 65 Tower, Ulica omladinskih brigada 86, Novi Beograd",
+      "previewSource": "Katastar nepokretnosti RGZ i Urbanistički projekat za izgradnju stambeno-poslovnog kompleksa „WEST 65” (KP 2222/3 KO Novi Beograd, navedeno u podnesku tima)",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -1936,14 +1936,14 @@
       "y": 3.2,
       "z": null,
       "type": "standard",
-      "progressStage": 4,
-      "progressLabel": "Predato terensko istraživanje",
-      "status": "Predato istraživanje sa terena i sa predavanja (19.10)",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (31.10)",
+      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji.",
+      "hasPassport": true,
+      "claimsCount": 25,
+      "sectionsCount": 4,
+      "previewClaim": "Bulevar kralja Aleksandra 73, Beograd (Palilula)",
+      "previewSource": "Građevinski fakultet Univerziteta u Beogradu — „Svečana sala”",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -2009,7 +2009,8 @@
       "id": "T71",
       "object": "Miloša Pocerca 32",
       "indices": [
-        "149/2026"
+        "149/2026",
+        "13/26g"
       ],
       "topic": "Zvanični spisi o objektu i istorija; prikupljanje izvora u tabeli podatak/izvor",
       "place": "Savski venac",
@@ -2802,24 +2803,24 @@
       "lat": 44.8055,
       "lng": 20.4793,
       "locationStatus": "approximate",
-      "passports": 2,
-      "claimsCount": 35,
-      "sectionsCount": 7,
-      "sourcesCount": 7,
+      "passports": 3,
+      "claimsCount": 60,
+      "sectionsCount": 11,
+      "sourcesCount": 15,
       "categories": {
-        "research": 0,
-        "documents": 6,
-        "materials": 12,
-        "time": 2,
-        "questions": 0,
-        "identity": 2,
-        "location": 1,
-        "geometry": 8,
+        "research": 1,
+        "documents": 7,
+        "materials": 14,
+        "time": 4,
+        "questions": 3,
+        "identity": 7,
+        "location": 3,
+        "geometry": 11,
         "structure": 0,
-        "use": 1,
+        "use": 3,
         "energy": 0,
         "environment": 1,
-        "people": 1,
+        "people": 5,
         "methods": 1
       },
       "topics": [
@@ -2844,8 +2845,8 @@
         {
           "team": "T68",
           "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 25,
+          "hasPassport": true
         }
       ]
     },
@@ -3491,32 +3492,32 @@
       "lat": null,
       "lng": null,
       "locationStatus": "unmapped",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
+      "passports": 1,
+      "claimsCount": 18,
+      "sectionsCount": 4,
+      "sourcesCount": 7,
       "categories": {
-        "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
+        "research": 1,
+        "documents": 1,
+        "materials": 3,
+        "time": 3,
+        "questions": 1,
+        "identity": 4,
+        "location": 1,
         "geometry": 0,
         "structure": 0,
-        "use": 0,
+        "use": 1,
         "energy": 0,
         "environment": 0,
-        "people": 0,
+        "people": 3,
         "methods": 0
       },
       "topics": [
         {
           "team": "T38",
           "topic": "Barokna rezidencija, priče, mitovi, usmeno preneseni podaci, dvorska kapela",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 18,
+          "hasPassport": true
         }
       ]
     },
@@ -4072,32 +4073,32 @@
       "lat": 44.8097,
       "lng": 20.3942,
       "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
+      "passports": 1,
+      "claimsCount": 11,
+      "sectionsCount": 3,
+      "sourcesCount": 2,
       "categories": {
         "research": 0,
-        "documents": 0,
-        "materials": 0,
+        "documents": 1,
+        "materials": 3,
         "time": 0,
         "questions": 0,
         "identity": 0,
-        "location": 0,
+        "location": 2,
         "geometry": 0,
-        "structure": 0,
+        "structure": 2,
         "use": 0,
         "energy": 0,
         "environment": 0,
-        "people": 0,
-        "methods": 0
+        "people": 2,
+        "methods": 1
       },
       "topics": [
         {
           "team": "T63",
           "topic": "Elektronski i digitalni pasoš: 9 detaljnih poglavlja, PERI oplata, tehnička dokumentacija",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 11,
+          "hasPassport": true
         }
       ]
     },
@@ -11854,6 +11855,226 @@
       ]
     },
     {
+      "id": "T38:identitet:e26e0e4bd251",
+      "team": "T38",
+      "section": "T38:identitet",
+      "title": "Naziv i namena",
+      "value": "Vladičanski dvor u Vršcu — Rezidencija Episkopa banatskih",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T38:S1",
+        "T38:S3"
+      ]
+    },
+    {
+      "id": "T38:identitet:1992954f86b8",
+      "team": "T38",
+      "section": "T38:identitet",
+      "title": "Lokacija",
+      "value": "Dvorska ulica, Vršac",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T38:S1",
+        "T38:S3"
+      ]
+    },
+    {
+      "id": "T38:identitet:9607d5a7b7d5",
+      "team": "T38",
+      "section": "T38:identitet",
+      "title": "Period izgradnje",
+      "value": "1757–1760. godina, u vreme vladike Jovana Georgijevića",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T38:S1",
+        "T38:S3"
+      ]
+    },
+    {
+      "id": "T38:identitet:116b2db0886d",
+      "team": "T38",
+      "section": "T38:identitet",
+      "title": "Stilski razvoj",
+      "value": "od kasnog baroka (XVIII vek) do eklektike sa neobaroknim i neorenesansnim elementima (rekonstrukcija 1904)",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T38:S1",
+        "T38:S2"
+      ]
+    },
+    {
+      "id": "T38:identitet:be2d2fe8b9a2",
+      "team": "T38",
+      "section": "T38:identitet",
+      "title": "Stepen zaštite",
+      "value": "Spomenik kulture od izuzetnog značaja",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T38:S1"
+      ]
+    },
+    {
+      "id": "T38:arhitektura:7b564616bd49",
+      "team": "T38",
+      "section": "T38:arhitektura",
+      "title": "Prvobitno stanje (XVIII vek)",
+      "value": "izvorno barokno zdanje imalo je znatno svedeniju fasadnu plastiku u odnosu na današnji izgled",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T38:S1"
+      ]
+    },
+    {
+      "id": "T38:arhitektura:0a179f5d85c6",
+      "team": "T38",
+      "section": "T38:arhitektura",
+      "title": "Rekonstrukcija 1904. godine",
+      "value": "radikalna estetska transformacija glavne fasade ka Dvorskoj ulici po projektu arhitekte Mihajla Harminca; dodati neobarokni i neorenesansni elementi — vertikalni rasponi sa pilastrama, dekorativni nadprozornici i krovni venci",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T38:S2"
+      ]
+    },
+    {
+      "id": "T38:arhitektura:2602af38e079",
+      "team": "T38",
+      "section": "T38:arhitektura",
+      "title": "Krovni pokrivač",
+      "value": "patinirani bakarni krov zelene nijanse sa složenom geometrijom i mansardnim prodorima",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T38:S3"
+      ]
+    },
+    {
+      "id": "T38:arhitektura:842ed526bc19",
+      "team": "T38",
+      "section": "T38:arhitektura",
+      "title": "Ograda i dvorišni parter",
+      "value": "autentična barokna ograda kao kombinacija pune zidne mase i kovanog gvožđa sa heraldičkim motivom — grbom Banatske eparhije",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T38:S3"
+      ]
+    },
+    {
+      "id": "T38:ikonostas:43145eafb6c9",
+      "team": "T38",
+      "section": "T38:ikonostas",
+      "title": "Dvorska kapela",
+      "value": "Paraklis Sv. Arhanđela Mihajla i Gavrila smešten u prizemlju objekta kao spoj sakralnog i rezidencijalnog prostora",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T38:S1"
+      ]
+    },
+    {
+      "id": "T38:ikonostas:f6ce8926b8d2",
+      "team": "T38",
+      "section": "T38:ikonostas",
+      "title": "Autor i datovanje ikonostasa",
+      "value": "slikar Nikola Nešković oslikao je ikonostas u periodu 1761–1765. godine; jedan od najređih sačuvanih primera barokno-rokoko umetnosti u Srbiji",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T38:S4"
+      ]
+    },
+    {
+      "id": "T38:ikonostas:085478c8151d",
+      "team": "T38",
+      "section": "T38:ikonostas",
+      "title": "Kulturno-istorijska veza",
+      "value": "Nikola Nešković bio je deda po majci vršačkom dramatičaru Jovanu Steriji Popoviću",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T38:S5"
+      ]
+    },
+    {
+      "id": "T38:ikonostas:4f40f1496bad",
+      "team": "T38",
+      "section": "T38:ikonostas",
+      "title": "Rokoko drvorezbarija i štukatura",
+      "value": "drvorezbarija i pozlaćene ornamentalne mase ikonostasa sadrže razigrane rokoko motive i vegetaciju",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T38:S6"
+      ]
+    },
+    {
+      "id": "T38:ikonostas:f28d3c4401bf",
+      "team": "T38",
+      "section": "T38:ikonostas",
+      "title": "Motiv „Jesejevog drveta”",
+      "value": "redak i složen ikonografski prikaz rodoslova Isusa Hrista iz Starog zaveta oslikan iznad bočnih vrata",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T38:S6"
+      ]
+    },
+    {
+      "id": "T38:ikonostas:d5b3ad33da7f",
+      "team": "T38",
+      "section": "T38:ikonostas",
+      "title": "Slikarski stil ikonostasa",
+      "value": "prelaz sa tradicionalnog vizantijskog stila na rani srpski barok sa uticajima ukrajinskog slikarstva",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T38:S4"
+      ]
+    },
+    {
+      "id": "T38:predanja:7a78830d9712",
+      "team": "T38",
+      "section": "T38:predanja",
+      "title": "Predanje o pruskom arhitekti",
+      "value": "usmeno predanje govori o strancu iz Pruske koga je vladika Jovan Georgijević doveo u Vršac da u tajnosti gradi dvor (1757–1760), nakon čega je projektant otišao ne ostavivši potpis na nacrtima",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T38:S7"
+      ]
+    },
+    {
+      "id": "T38:predanja:7425da0c98d3",
+      "team": "T38",
+      "section": "T38:predanja",
+      "title": "Legenda o podzemnom tunelu do Vršačke kule",
+      "value": "lokalno predanje o podzemnom prolazu od Vladičanskog dvora do Vršačke kule na bregu za sklanjanje dragocenosti eparhije; materijalno nije potvrđen",
+      "status": "unconfirmed",
+      "category": "questions",
+      "sourceIds": [
+        "T38:S7"
+      ]
+    },
+    {
+      "id": "T38:predanja:2873619264a0",
+      "team": "T38",
+      "section": "T38:predanja",
+      "title": "Predanje o Vinčanskoj čudotvornoj ikoni",
+      "value": "usmena tradicija o ikoni Presvete Bogorodice u dvorskoj kapeli koja u kriznim vremenima štiti grad",
+      "status": "source-reported",
+      "category": "research",
+      "sourceIds": [
+        "T38:S7"
+      ]
+    },
+    {
       "id": "T40:osnovni:742bca38d396",
       "team": "T40",
       "section": "T40:osnovni",
@@ -15494,6 +15715,138 @@
       ]
     },
     {
+      "id": "T63:identifikacija:1c6ec7e9f5f9",
+      "team": "T63",
+      "section": "T63:identifikacija",
+      "title": "Naziv i adresa",
+      "value": "West 65 Tower, Ulica omladinskih brigada 86, Novi Beograd",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T63:S1"
+      ]
+    },
+    {
+      "id": "T63:identifikacija:2eed2818bd43",
+      "team": "T63",
+      "section": "T63:identifikacija",
+      "title": "Katastarska parcela",
+      "value": "KP 2222/3 KO Novi Beograd, površina parcele kompleksa približno 30.316 m²",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T63:S1"
+      ]
+    },
+    {
+      "id": "T63:identifikacija:3d5520111b6f",
+      "team": "T63",
+      "section": "T63:identifikacija",
+      "title": "Plansko-tehnička dokumentacija",
+      "value": "Urbanistički projekat za izgradnju stambeno-poslovnog kompleksa „WEST 65”, građevinska i upotrebna dozvola",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T63:S1"
+      ]
+    },
+    {
+      "id": "T63:ucesnici:4c94d54fe008",
+      "team": "T63",
+      "section": "T63:ucesnici",
+      "title": "Investitor i lokalni razvoj projekta",
+      "value": "PSP-Farman Holding",
+      "status": "unconfirmed",
+      "category": "people",
+      "sourceIds": [
+        "T63:S2"
+      ]
+    },
+    {
+      "id": "T63:ucesnici:3b0848b914b8",
+      "team": "T63",
+      "section": "T63:ucesnici",
+      "title": "Glavni arhitektonski projektant",
+      "value": "Fletcher Priest Architects (London)",
+      "status": "unconfirmed",
+      "category": "people",
+      "sourceIds": [
+        "T63:S2"
+      ]
+    },
+    {
+      "id": "T63:ucesnici:09705fcdfb7f",
+      "team": "T63",
+      "section": "T63:ucesnici",
+      "title": "Oplatni sistem i tehnička podrška",
+      "value": "PERI — sistemska oplata i hidraulički sistem za izvođenje AB jezgra West 65 Tower-a",
+      "status": "unconfirmed",
+      "category": "methods",
+      "sourceIds": [
+        "T63:S2"
+      ]
+    },
+    {
+      "id": "T63:ucesnici:1e6788c4fa17",
+      "team": "T63",
+      "section": "T63:ucesnici",
+      "title": "Čelična i fasadna potkonstrukcija",
+      "value": "FORING d.o.o. Beograd (čelične konstrukcije i fasadne potkonstrukcije u okviru kompleksa)",
+      "status": "unconfirmed",
+      "category": "structure",
+      "sourceIds": [
+        "T63:S2"
+      ]
+    },
+    {
+      "id": "T63:konstrukcija_materijali:c633b46d9ece",
+      "team": "T63",
+      "section": "T63:konstrukcija_materijali",
+      "title": "Konstruktivni sistem",
+      "value": "skeletni armiranobetonski konstruktivni sistem (AB skelet) sa armiranobetonskim jezgrom, stubovima i pločama",
+      "status": "unconfirmed",
+      "category": "structure",
+      "sourceIds": [
+        "T63:S2"
+      ]
+    },
+    {
+      "id": "T63:konstrukcija_materijali:0abab31e9990",
+      "team": "T63",
+      "section": "T63:konstrukcija_materijali",
+      "title": "Fasadni omotač",
+      "value": "stakleni i aluminijumski fasadni sistem kao omotač kule",
+      "status": "unconfirmed",
+      "category": "materials",
+      "sourceIds": [
+        "T63:S2"
+      ]
+    },
+    {
+      "id": "T63:konstrukcija_materijali:5841374a2896",
+      "team": "T63",
+      "section": "T63:konstrukcija_materijali",
+      "title": "Termoizolacioni materijali",
+      "value": "Austrotherm EPS i XPS termoizolacioni slojevi u fasadnim i krovnim sklopovima",
+      "status": "unconfirmed",
+      "category": "materials",
+      "sourceIds": [
+        "T63:S2"
+      ]
+    },
+    {
+      "id": "T63:konstrukcija_materijali:7e0680baee8c",
+      "team": "T63",
+      "section": "T63:konstrukcija_materijali",
+      "title": "Malteri, lepkovi i suva gradnja",
+      "value": "Murexin (lepkovi, prajmer, završni fasadni malter) i Saint-Gobain / Rigips / Isover (suva gradnja i zvučna izolacija)",
+      "status": "unconfirmed",
+      "category": "materials",
+      "sourceIds": [
+        "T63:S2"
+      ]
+    },
+    {
       "id": "T65:autorstvo:20fb3f55b30f",
       "team": "T65",
       "section": "T65:autorstvo",
@@ -16041,6 +16394,312 @@
       "status": "unknown",
       "category": "questions",
       "checkedAt": "2026-10-31",
+      "sourceIds": []
+    },
+    {
+      "id": "T68:osnovni:fe37f6c37811",
+      "team": "T68",
+      "section": "T68:osnovni",
+      "title": "Adresa (A1)",
+      "value": "Bulevar kralja Aleksandra 73, Beograd (Palilula)",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T68:S2",
+        "T68:S3"
+      ]
+    },
+    {
+      "id": "T68:osnovni:e1e968481244",
+      "team": "T68",
+      "section": "T68:osnovni",
+      "title": "Prethodna namena lokacije (A2)",
+      "value": "podignuta na mestu nekadašnjeg trkališta (hipodroma), severoistočno od Univerzitetske biblioteke",
+      "status": "source-reported",
+      "category": "location",
+      "sourceIds": [
+        "T68:S1",
+        "T68:S3"
+      ]
+    },
+    {
+      "id": "T68:osnovni:c7a84ba8f6f1",
+      "team": "T68",
+      "section": "T68:osnovni",
+      "title": "Projektanti (A3)",
+      "value": "arhitekte Nikola Nestorović i Branko Tanazević, uz građevinskog inženjera Vojislava Zađinu (kasnije dekana Tehničkog fakulteta)",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T68:S1",
+        "T68:S2",
+        "T68:S3"
+      ]
+    },
+    {
+      "id": "T68:osnovni:e1340051d22b",
+      "team": "T68",
+      "section": "T68:osnovni",
+      "title": "Projekat i vreme gradnje (A4)",
+      "value": "projekat iz 1926; gradnja od jeseni 1925. do 1931. godine; useljenje 1932. godine",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T68:S1",
+        "T68:S2",
+        "T68:S4"
+      ]
+    },
+    {
+      "id": "T68:osnovni:ecd462e26745",
+      "team": "T68",
+      "section": "T68:osnovni",
+      "title": "Namenska gradnja (A5)",
+      "value": "prva zgrada u Srbiji projektovana namenski za visokoškolsku tehničku nastavu",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T68:S1"
+      ]
+    },
+    {
+      "id": "T68:osnovni:fe779c9a9a43",
+      "team": "T68",
+      "section": "T68:osnovni",
+      "title": "Prostorna organizacija (A6)",
+      "value": "slobodnostojeći objekat razuđene osnove organizovan oko četiri unutrašnja dvorišta",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T68:S1"
+      ]
+    },
+    {
+      "id": "T68:osnovni:915474c86bf3",
+      "team": "T68",
+      "section": "T68:osnovni",
+      "title": "Posleratna nadogradnja (A7)",
+      "value": "treći sprat nadograđen posle Drugog svetskog rata po projektu arhitekte Mihaila Radovanovića",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T68:S1"
+      ]
+    },
+    {
+      "id": "T68:osnovni:444ce6a6fdf9",
+      "team": "T68",
+      "section": "T68:osnovni",
+      "title": "Današnji korisnici (A8)",
+      "value": "Građevinski, Arhitektonski i Elektrotehnički fakultet Univerziteta u Beogradu",
+      "status": "source-reported",
+      "category": "use",
+      "sourceIds": [
+        "T68:S1",
+        "T68:S3"
+      ]
+    },
+    {
+      "id": "T68:osnovni:d1233566d81a",
+      "team": "T68",
+      "section": "T68:osnovni",
+      "title": "Status kulturnog dobra (A9)",
+      "value": "zaštićeno kulturno dobro — spomenik kulture (Službeni glasnik RS br. 73/2007)",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T68:S1",
+        "T68:S7",
+        "T68:S8"
+      ]
+    },
+    {
+      "id": "T68:stil:f8bffdb24a39",
+      "team": "T68",
+      "section": "T68:stil",
+      "title": "Stilsko opredeljenje (B1)",
+      "value": "akademizam sa dominantnim klasicističkim elementima",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T68:S1",
+        "T68:S3"
+      ]
+    },
+    {
+      "id": "T68:stil:d3ded0265dfd",
+      "team": "T68",
+      "section": "T68:stil",
+      "title": "Arhitektonski uzor (B2)",
+      "value": "kao uzor navodi se zgrada Visoke tehničke škole u Šarlotenburgu (Berlin) — u proveri",
+      "status": "unconfirmed",
+      "category": "identity",
+      "sourceIds": [
+        "T68:S6"
+      ]
+    },
+    {
+      "id": "T68:stil:cb0d2a8eb8f6",
+      "team": "T68",
+      "section": "T68:stil",
+      "title": "Obrazovanje Nikole Nestorovića (B3)",
+      "value": "diplomirao u Šarlotenburgu (1896), obrazovan u duhu akademizma sa uticajima secesije",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T68:S5"
+      ]
+    },
+    {
+      "id": "T68:stil:1fe85fef2496",
+      "team": "T68",
+      "section": "T68:stil",
+      "title": "Uloga Branka Tanazevića (B4)",
+      "value": "jedan od glavnih zagovornika srpsko-vizantijskog stila; na fakultetu predavao ornamentiku, dekoraciju i modelovanje",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T68:S4"
+      ]
+    },
+    {
+      "id": "T68:stil:7736d7ad2454",
+      "team": "T68",
+      "section": "T68:stil",
+      "title": "Izbor jezika ornamenta (B5)",
+      "value": "zgrada ne prati Tanazevićev nacionalni stil, već klasicistički akademizam kao svestan izraz univerzalnosti tehničkih nauka",
+      "status": "source-reported",
+      "category": "research",
+      "sourceIds": [
+        "T68:S1",
+        "T68:S4"
+      ]
+    },
+    {
+      "id": "T68:fasada:1b0f2da13777",
+      "team": "T68",
+      "section": "T68:fasada",
+      "title": "Hijerarhija fasadne dekoracije (C1)",
+      "value": "glavna fasada je najbogatije obrađena, bočne fasade su skromnije, a dvorišne najjednostavnije",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T68:S1"
+      ]
+    },
+    {
+      "id": "T68:fasada:edc293a65021",
+      "team": "T68",
+      "section": "T68:fasada",
+      "title": "Centralni rizalit (C2)",
+      "value": "glavnom fasadom dominira centralni rizalit (frontispis) sa monumentalnim stepeništem i trodelnim ulazom u motivu klasicističkog portika",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T68:S1",
+        "T68:S6"
+      ]
+    },
+    {
+      "id": "T68:fasada:d3e8328273ec",
+      "team": "T68",
+      "section": "T68:fasada",
+      "title": "Vajari fasadne skulpture (C3)",
+      "value": "reljefe i slobodnu skulpturu na glavnoj fasadi radili su akademski vajari Ilija Kolarević i Ivan Lučev",
+      "status": "source-reported",
+      "category": "people",
+      "sourceIds": [
+        "T68:S1"
+      ]
+    },
+    {
+      "id": "T68:fasada:188e262399af",
+      "team": "T68",
+      "section": "T68:fasada",
+      "title": "Ornamentalna plastika u veštačkom kamenu (C4)",
+      "value": "autor dekoracije od veštačkog kamena je Bedrih Zeleni (Bedřich Zelený)",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T68:S1"
+      ]
+    },
+    {
+      "id": "T68:fasada:f1f7021cdaba",
+      "team": "T68",
+      "section": "T68:fasada",
+      "title": "Ikonografski popis reljefa i figura (C5)",
+      "value": "utvrditi pojedinačne alegorije, atribute, natpise i grbove na pročelju kroz terenski popis i arhivsku građu",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T68:fasada:6a28c443ed4a",
+      "team": "T68",
+      "section": "T68:fasada",
+      "title": "Stanje materijala fasadne plastike (C6)",
+      "value": "terenski popis stanja kamena, veštačkog kamena i maltera (oštećenja i zamene)",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T68:aula:5ca4c712776c",
+      "team": "T68",
+      "section": "T68:aula",
+      "title": "Stil i materijalizacija svečane sale (D1)",
+      "value": "svečana sala (aula) izvedena u neoklasicističkom stilu; enterijer od štuko-mermera sa pozlatom",
+      "status": "source-reported",
+      "category": "materials",
+      "sourceIds": [
+        "T68:S2"
+      ]
+    },
+    {
+      "id": "T68:aula:01f0ccd25eef",
+      "team": "T68",
+      "section": "T68:aula",
+      "title": "Očuvanost enterijera (D2)",
+      "value": "sala je zadržala autentičan prvobitni karakter enterijera",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T68:S2"
+      ]
+    },
+    {
+      "id": "T68:aula:337eebb6df9f",
+      "team": "T68",
+      "section": "T68:aula",
+      "title": "Kapacitet svečane sale (D3)",
+      "value": "256 mesta",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T68:S2"
+      ]
+    },
+    {
+      "id": "T68:aula:3daf9b6175bc",
+      "team": "T68",
+      "section": "T68:aula",
+      "title": "Rozeta sa prezimenima arhitekata (D4)",
+      "value": "prezimena arhitekata urezana su u centralnu rozetu tavanice na ulazu u fakultet",
+      "status": "source-reported",
+      "category": "identity",
+      "sourceIds": [
+        "T68:S2"
+      ]
+    },
+    {
+      "id": "T68:aula:6c84859b9720",
+      "team": "T68",
+      "section": "T68:aula",
+      "title": "Razgraničenje pojma aule i ulaznog hola (D5)",
+      "value": "utvrditi terminološko i prostorno razgraničenje svečane sale i reprezentativnog ulaznog hola u izvornoj dokumentaciji",
+      "status": "unknown",
+      "category": "questions",
       "sourceIds": []
     },
     {
@@ -17810,6 +18469,38 @@
       }
     },
     {
+      "id": "T38:identitet",
+      "team": "T38",
+      "title": {
+        "sr": "Identitet i osnovni podaci",
+        "en": "Identity and basic record"
+      }
+    },
+    {
+      "id": "T38:arhitektura",
+      "team": "T38",
+      "title": {
+        "sr": "Arhitektonska analiza: fasada, krov i parter",
+        "en": "Architectural analysis: facade, roof and grounds"
+      }
+    },
+    {
+      "id": "T38:ikonostas",
+      "team": "T38",
+      "title": {
+        "sr": "Dvorska kapela, ikonostas i Nikola Nešković",
+        "en": "Palace chapel, iconostasis and Nikola Nešković"
+      }
+    },
+    {
+      "id": "T38:predanja",
+      "team": "T38",
+      "title": {
+        "sr": "Priče, legende i usmeno prenošeni podaci",
+        "en": "Stories, legends and oral tradition"
+      }
+    },
+    {
       "id": "T40:osnovni",
       "team": "T40",
       "title": {
@@ -18266,6 +18957,30 @@
       }
     },
     {
+      "id": "T63:identifikacija",
+      "team": "T63",
+      "title": {
+        "sr": "Identifikacija i lokacija kompleksa",
+        "en": "Identification and site record"
+      }
+    },
+    {
+      "id": "T63:ucesnici",
+      "team": "T63",
+      "title": {
+        "sr": "Učesnici u projektovanju i izgradnji",
+        "en": "Design and construction participants"
+      }
+    },
+    {
+      "id": "T63:konstrukcija_materijali",
+      "team": "T63",
+      "title": {
+        "sr": "Konstruktivni sistem i materijali",
+        "en": "Structural system and materials"
+      }
+    },
+    {
       "id": "T65:autorstvo",
       "team": "T65",
       "title": {
@@ -18335,6 +19050,38 @@
       "title": {
         "sr": "Napomena",
         "en": "Note"
+      }
+    },
+    {
+      "id": "T68:osnovni",
+      "team": "T68",
+      "title": {
+        "sr": "A. Osnovni podaci o objektu",
+        "en": "A. Basic building record"
+      }
+    },
+    {
+      "id": "T68:stil",
+      "team": "T68",
+      "title": {
+        "sr": "B. Stil i arhitekte",
+        "en": "B. Style and architects"
+      }
+    },
+    {
+      "id": "T68:fasada",
+      "team": "T68",
+      "title": {
+        "sr": "C. Fasada — ornament i skulptura",
+        "en": "C. Facade — ornament and sculpture"
+      }
+    },
+    {
+      "id": "T68:aula",
+      "team": "T68",
+      "title": {
+        "sr": "D. Aula i enterijer",
+        "en": "D. Ceremonial hall and interior"
       }
     },
     {
@@ -19571,6 +20318,55 @@
       "canonical": "T33:S13"
     },
     {
+      "id": "T38:S1",
+      "label": "Pokrajinski zavod za zaštitu spomenika kulture Novi Sad — „Dosije objekta: Vladičanski dvor Vršac”",
+      "kind": "institucija",
+      "team": "T38",
+      "canonical": "T38:S1"
+    },
+    {
+      "id": "T38:S2",
+      "label": "Đurić-Zamolo, D. — „Arhitekti i graditelji u Srbiji krajem XIX i početkom XX veka”, Beograd",
+      "kind": "knjiga",
+      "team": "T38",
+      "canonical": "T38:S2"
+    },
+    {
+      "id": "T38:S3",
+      "label": "Turkan, Z. M. — „Vladičanski dvor Srpske Pravoslavne Eparhije Banatske u Vršcu”, Vršac",
+      "kind": "knjiga",
+      "team": "T38",
+      "canonical": "T38:S3"
+    },
+    {
+      "id": "T38:S4",
+      "label": "Todić, B. (1989) — „Nikola Nešković: barokni slikar”, Matica srpska / Pokrajinski zavod za zaštitu spomenika kulture, Novi Sad",
+      "kind": "knjiga",
+      "team": "T38",
+      "canonical": "T38:S4"
+    },
+    {
+      "id": "T38:S5",
+      "label": "Popović, M. — „Kulturna istorija Banata”, Vršac",
+      "kind": "knjiga",
+      "team": "T38",
+      "canonical": "T38:S5"
+    },
+    {
+      "id": "T38:S6",
+      "label": "Medaković, D. — „Srpska umetnost u XVIII veku”, Beograd / Novi Sad",
+      "kind": "knjiga",
+      "team": "T38",
+      "canonical": "T38:S6"
+    },
+    {
+      "id": "T38:S7",
+      "label": "Usmeno predanje i lokalna tradicija Vršca (zabeleženo u podnesku tima T38, 19. 10. 2026)",
+      "kind": "usmeno predanje",
+      "team": "T38",
+      "canonical": "T38:S7"
+    },
+    {
       "id": "T40:S1",
       "label": "Studentski rad „Glasnik Beograda — specijalno naučno-tehničko izdanje: Cara Uroša 57“ (HTML, 18. 10. 2026)",
       "kind": "studentski podnesak",
@@ -20182,6 +20978,20 @@
       "canonical": "T58:S3"
     },
     {
+      "id": "T63:S1",
+      "label": "Katastar nepokretnosti RGZ i Urbanistički projekat za izgradnju stambeno-poslovnog kompleksa „WEST 65” (KP 2222/3 KO Novi Beograd, navedeno u podnesku tima)",
+      "kind": "dokument",
+      "team": "T63",
+      "canonical": "T63:S1"
+    },
+    {
+      "id": "T63:S2",
+      "label": "Tehnička dokumentacija proizvođača i izvođača (PERI oplatni sistemi, FORING d.o.o., Austrotherm, Murexin, Saint-Gobain / Rigips / Isover — navedeno u podnesku tima, čeka pojedinačne linkove)",
+      "kind": "studentski podnesak",
+      "team": "T63",
+      "canonical": "T63:S2"
+    },
+    {
       "id": "T65:S1",
       "label": "Zvanični sajt hrama — „Istorijat gradnje hrama“ ( domen .срб, punikod)",
       "kind": "zvanični sajt",
@@ -20314,6 +21124,68 @@
       "checkedAt": "2026-10-31",
       "team": "T67",
       "canonical": "https://www.maegspa.com/en/portfolio/kula-belgrade"
+    },
+    {
+      "id": "T68:S1",
+      "label": "Arhitektonski fakultet Univerziteta u Beogradu — „Zgrada Tehničkog fakulteta”",
+      "kind": "institucija",
+      "url": "https://www.arh.bg.ac.rs/?p=25666",
+      "team": "T68",
+      "canonical": "https://www.arh.bg.ac.rs/?p=25666"
+    },
+    {
+      "id": "T68:S2",
+      "label": "Građevinski fakultet Univerziteta u Beogradu — „Svečana sala”",
+      "kind": "institucija",
+      "url": "https://web1.grf.bg.ac.rs/fakultet/ss/e",
+      "team": "T68",
+      "canonical": "https://web1.grf.bg.ac.rs/fakultet/ss/e"
+    },
+    {
+      "id": "T68:S3",
+      "label": "Građevinski fakultet Univerziteta u Beogradu — dokument o zgradi (PDF)",
+      "kind": "dokument",
+      "url": "https://web1.grf.bg.ac.rs/p/docs/ostalo/srbijamarke_1676289024411.pdf",
+      "team": "T68",
+      "canonical": "https://web1.grf.bg.ac.rs/p/docs/ostalo/srbijamarke_1676289024411.pdf"
+    },
+    {
+      "id": "T68:S4",
+      "label": "Wikipedia — „Branko Tanazević”",
+      "kind": "enciklopedija",
+      "url": "https://en.wikipedia.org/wiki/Branko_Tanazevi%C4%87",
+      "team": "T68",
+      "canonical": "https://en.wikipedia.org/wiki/Branko_Tanazevi%C4%87"
+    },
+    {
+      "id": "T68:S5",
+      "label": "Wikipedia — „Nikola Nestorović”",
+      "kind": "enciklopedija",
+      "url": "https://en.wikipedia.org/wiki/Nikola_Nestorovi%C4%87",
+      "team": "T68",
+      "canonical": "https://en.wikipedia.org/wiki/Nikola_Nestorovi%C4%87"
+    },
+    {
+      "id": "T68:S6",
+      "label": "Studentski rad „Fasada” (M. Krstić, elearning.rcub.bg.ac.rs — sekundarni izvor za orijentaciju)",
+      "kind": "rad",
+      "team": "T68",
+      "canonical": "T68:S6"
+    },
+    {
+      "id": "T68:S7",
+      "label": "„Službeni glasnik RS” br. 73/2007 — odluka o utvrđivanju za spomenik kulture",
+      "kind": "propis",
+      "team": "T68",
+      "canonical": "T68:S7"
+    },
+    {
+      "id": "T68:S8",
+      "label": "Zavod za zaštitu spomenika kulture grada Beograda — Katalog nepokretnih kulturnih dobara",
+      "kind": "institucija",
+      "url": "https://beogradskonasledje.rs",
+      "team": "T68",
+      "canonical": "https://beogradskonasledje.rs"
     },
     {
       "id": "T71:S1",
@@ -29286,6 +30158,498 @@
         "kind": "pillar",
         "parent": "T31",
         "slot": 10
+      },
+      {
+        "id": "T38:arhitektura",
+        "kind": "wing",
+        "parent": "T38",
+        "slot": 0
+      },
+      {
+        "id": "T38:identitet",
+        "kind": "wing",
+        "parent": "T38",
+        "slot": 1
+      },
+      {
+        "id": "T38:ikonostas",
+        "kind": "wing",
+        "parent": "T38",
+        "slot": 2
+      },
+      {
+        "id": "T38:predanja",
+        "kind": "wing",
+        "parent": "T38",
+        "slot": 3
+      },
+      {
+        "id": "T38:arhitektura:0a179f5d85c6",
+        "kind": "bay",
+        "parent": "T38:arhitektura",
+        "slot": 0
+      },
+      {
+        "id": "T38:arhitektura:2602af38e079",
+        "kind": "bay",
+        "parent": "T38:arhitektura",
+        "slot": 1
+      },
+      {
+        "id": "T38:arhitektura:7b564616bd49",
+        "kind": "bay",
+        "parent": "T38:arhitektura",
+        "slot": 2
+      },
+      {
+        "id": "T38:arhitektura:842ed526bc19",
+        "kind": "bay",
+        "parent": "T38:arhitektura",
+        "slot": 3
+      },
+      {
+        "id": "T38:identitet:116b2db0886d",
+        "kind": "bay",
+        "parent": "T38:identitet",
+        "slot": 0
+      },
+      {
+        "id": "T38:identitet:1992954f86b8",
+        "kind": "bay",
+        "parent": "T38:identitet",
+        "slot": 1
+      },
+      {
+        "id": "T38:identitet:9607d5a7b7d5",
+        "kind": "bay",
+        "parent": "T38:identitet",
+        "slot": 2
+      },
+      {
+        "id": "T38:identitet:be2d2fe8b9a2",
+        "kind": "bay",
+        "parent": "T38:identitet",
+        "slot": 3
+      },
+      {
+        "id": "T38:identitet:e26e0e4bd251",
+        "kind": "bay",
+        "parent": "T38:identitet",
+        "slot": 4
+      },
+      {
+        "id": "T38:ikonostas:085478c8151d",
+        "kind": "bay",
+        "parent": "T38:ikonostas",
+        "slot": 0
+      },
+      {
+        "id": "T38:ikonostas:43145eafb6c9",
+        "kind": "bay",
+        "parent": "T38:ikonostas",
+        "slot": 1
+      },
+      {
+        "id": "T38:ikonostas:4f40f1496bad",
+        "kind": "bay",
+        "parent": "T38:ikonostas",
+        "slot": 2
+      },
+      {
+        "id": "T38:ikonostas:d5b3ad33da7f",
+        "kind": "bay",
+        "parent": "T38:ikonostas",
+        "slot": 3
+      },
+      {
+        "id": "T38:ikonostas:f28d3c4401bf",
+        "kind": "bay",
+        "parent": "T38:ikonostas",
+        "slot": 4
+      },
+      {
+        "id": "T38:ikonostas:f6ce8926b8d2",
+        "kind": "bay",
+        "parent": "T38:ikonostas",
+        "slot": 5
+      },
+      {
+        "id": "T38:predanja:2873619264a0",
+        "kind": "bay",
+        "parent": "T38:predanja",
+        "slot": 0
+      },
+      {
+        "id": "T38:predanja:7425da0c98d3",
+        "kind": "bay",
+        "parent": "T38:predanja",
+        "slot": 1
+      },
+      {
+        "id": "T38:predanja:7a78830d9712",
+        "kind": "bay",
+        "parent": "T38:predanja",
+        "slot": 2
+      },
+      {
+        "id": "T38:S1",
+        "kind": "pillar",
+        "parent": "T38",
+        "slot": 0
+      },
+      {
+        "id": "T38:S2",
+        "kind": "pillar",
+        "parent": "T38",
+        "slot": 1
+      },
+      {
+        "id": "T38:S3",
+        "kind": "pillar",
+        "parent": "T38",
+        "slot": 2
+      },
+      {
+        "id": "T38:S4",
+        "kind": "pillar",
+        "parent": "T38",
+        "slot": 3
+      },
+      {
+        "id": "T38:S5",
+        "kind": "pillar",
+        "parent": "T38",
+        "slot": 4
+      },
+      {
+        "id": "T38:S6",
+        "kind": "pillar",
+        "parent": "T38",
+        "slot": 5
+      },
+      {
+        "id": "T38:S7",
+        "kind": "pillar",
+        "parent": "T38",
+        "slot": 6
+      },
+      {
+        "id": "T68:aula",
+        "kind": "wing",
+        "parent": "T68",
+        "slot": 0
+      },
+      {
+        "id": "T68:fasada",
+        "kind": "wing",
+        "parent": "T68",
+        "slot": 1
+      },
+      {
+        "id": "T68:osnovni",
+        "kind": "wing",
+        "parent": "T68",
+        "slot": 2
+      },
+      {
+        "id": "T68:stil",
+        "kind": "wing",
+        "parent": "T68",
+        "slot": 3
+      },
+      {
+        "id": "T68:aula:01f0ccd25eef",
+        "kind": "bay",
+        "parent": "T68:aula",
+        "slot": 0
+      },
+      {
+        "id": "T68:aula:337eebb6df9f",
+        "kind": "bay",
+        "parent": "T68:aula",
+        "slot": 1
+      },
+      {
+        "id": "T68:aula:3daf9b6175bc",
+        "kind": "bay",
+        "parent": "T68:aula",
+        "slot": 2
+      },
+      {
+        "id": "T68:aula:5ca4c712776c",
+        "kind": "bay",
+        "parent": "T68:aula",
+        "slot": 3
+      },
+      {
+        "id": "T68:aula:6c84859b9720",
+        "kind": "bay",
+        "parent": "T68:aula",
+        "slot": 4
+      },
+      {
+        "id": "T68:fasada:188e262399af",
+        "kind": "bay",
+        "parent": "T68:fasada",
+        "slot": 0
+      },
+      {
+        "id": "T68:fasada:1b0f2da13777",
+        "kind": "bay",
+        "parent": "T68:fasada",
+        "slot": 1
+      },
+      {
+        "id": "T68:fasada:6a28c443ed4a",
+        "kind": "bay",
+        "parent": "T68:fasada",
+        "slot": 2
+      },
+      {
+        "id": "T68:fasada:d3e8328273ec",
+        "kind": "bay",
+        "parent": "T68:fasada",
+        "slot": 3
+      },
+      {
+        "id": "T68:fasada:edc293a65021",
+        "kind": "bay",
+        "parent": "T68:fasada",
+        "slot": 4
+      },
+      {
+        "id": "T68:fasada:f1f7021cdaba",
+        "kind": "bay",
+        "parent": "T68:fasada",
+        "slot": 5
+      },
+      {
+        "id": "T68:osnovni:444ce6a6fdf9",
+        "kind": "bay",
+        "parent": "T68:osnovni",
+        "slot": 0
+      },
+      {
+        "id": "T68:osnovni:915474c86bf3",
+        "kind": "bay",
+        "parent": "T68:osnovni",
+        "slot": 1
+      },
+      {
+        "id": "T68:osnovni:c7a84ba8f6f1",
+        "kind": "bay",
+        "parent": "T68:osnovni",
+        "slot": 2
+      },
+      {
+        "id": "T68:osnovni:d1233566d81a",
+        "kind": "bay",
+        "parent": "T68:osnovni",
+        "slot": 3
+      },
+      {
+        "id": "T68:osnovni:e1340051d22b",
+        "kind": "bay",
+        "parent": "T68:osnovni",
+        "slot": 4
+      },
+      {
+        "id": "T68:osnovni:e1e968481244",
+        "kind": "bay",
+        "parent": "T68:osnovni",
+        "slot": 5
+      },
+      {
+        "id": "T68:osnovni:ecd462e26745",
+        "kind": "bay",
+        "parent": "T68:osnovni",
+        "slot": 6
+      },
+      {
+        "id": "T68:osnovni:fe37f6c37811",
+        "kind": "bay",
+        "parent": "T68:osnovni",
+        "slot": 7
+      },
+      {
+        "id": "T68:osnovni:fe779c9a9a43",
+        "kind": "bay",
+        "parent": "T68:osnovni",
+        "slot": 8
+      },
+      {
+        "id": "T68:stil:1fe85fef2496",
+        "kind": "bay",
+        "parent": "T68:stil",
+        "slot": 0
+      },
+      {
+        "id": "T68:stil:7736d7ad2454",
+        "kind": "bay",
+        "parent": "T68:stil",
+        "slot": 1
+      },
+      {
+        "id": "T68:stil:cb0d2a8eb8f6",
+        "kind": "bay",
+        "parent": "T68:stil",
+        "slot": 2
+      },
+      {
+        "id": "T68:stil:d3ded0265dfd",
+        "kind": "bay",
+        "parent": "T68:stil",
+        "slot": 3
+      },
+      {
+        "id": "T68:stil:f8bffdb24a39",
+        "kind": "bay",
+        "parent": "T68:stil",
+        "slot": 4
+      },
+      {
+        "id": "T68:S1",
+        "kind": "pillar",
+        "parent": "T68",
+        "slot": 0
+      },
+      {
+        "id": "T68:S2",
+        "kind": "pillar",
+        "parent": "T68",
+        "slot": 1
+      },
+      {
+        "id": "T68:S3",
+        "kind": "pillar",
+        "parent": "T68",
+        "slot": 2
+      },
+      {
+        "id": "T68:S4",
+        "kind": "pillar",
+        "parent": "T68",
+        "slot": 3
+      },
+      {
+        "id": "T68:S5",
+        "kind": "pillar",
+        "parent": "T68",
+        "slot": 4
+      },
+      {
+        "id": "T68:S6",
+        "kind": "pillar",
+        "parent": "T68",
+        "slot": 5
+      },
+      {
+        "id": "T68:S7",
+        "kind": "pillar",
+        "parent": "T68",
+        "slot": 6
+      },
+      {
+        "id": "T68:S8",
+        "kind": "pillar",
+        "parent": "T68",
+        "slot": 7
+      },
+      {
+        "id": "T63:identifikacija",
+        "kind": "wing",
+        "parent": "T63",
+        "slot": 0
+      },
+      {
+        "id": "T63:konstrukcija_materijali",
+        "kind": "wing",
+        "parent": "T63",
+        "slot": 1
+      },
+      {
+        "id": "T63:ucesnici",
+        "kind": "wing",
+        "parent": "T63",
+        "slot": 2
+      },
+      {
+        "id": "T63:identifikacija:1c6ec7e9f5f9",
+        "kind": "bay",
+        "parent": "T63:identifikacija",
+        "slot": 0
+      },
+      {
+        "id": "T63:identifikacija:2eed2818bd43",
+        "kind": "bay",
+        "parent": "T63:identifikacija",
+        "slot": 1
+      },
+      {
+        "id": "T63:identifikacija:3d5520111b6f",
+        "kind": "bay",
+        "parent": "T63:identifikacija",
+        "slot": 2
+      },
+      {
+        "id": "T63:konstrukcija_materijali:0abab31e9990",
+        "kind": "bay",
+        "parent": "T63:konstrukcija_materijali",
+        "slot": 0
+      },
+      {
+        "id": "T63:konstrukcija_materijali:5841374a2896",
+        "kind": "bay",
+        "parent": "T63:konstrukcija_materijali",
+        "slot": 1
+      },
+      {
+        "id": "T63:konstrukcija_materijali:7e0680baee8c",
+        "kind": "bay",
+        "parent": "T63:konstrukcija_materijali",
+        "slot": 2
+      },
+      {
+        "id": "T63:konstrukcija_materijali:c633b46d9ece",
+        "kind": "bay",
+        "parent": "T63:konstrukcija_materijali",
+        "slot": 3
+      },
+      {
+        "id": "T63:ucesnici:09705fcdfb7f",
+        "kind": "bay",
+        "parent": "T63:ucesnici",
+        "slot": 0
+      },
+      {
+        "id": "T63:ucesnici:1e6788c4fa17",
+        "kind": "bay",
+        "parent": "T63:ucesnici",
+        "slot": 1
+      },
+      {
+        "id": "T63:ucesnici:3b0848b914b8",
+        "kind": "bay",
+        "parent": "T63:ucesnici",
+        "slot": 2
+      },
+      {
+        "id": "T63:ucesnici:4c94d54fe008",
+        "kind": "bay",
+        "parent": "T63:ucesnici",
+        "slot": 3
+      },
+      {
+        "id": "T63:S1",
+        "kind": "pillar",
+        "parent": "T63",
+        "slot": 0
+      },
+      {
+        "id": "T63:S2",
+        "kind": "pillar",
+        "parent": "T63",
+        "slot": 1
       }
     ]
   },
@@ -29303,30 +30667,30 @@
     "places": [
       {
         "id": "B01ffbf6e",
-        "x": -110.775,
-        "z": 29.713,
+        "x": -123.81,
+        "z": 35.473,
         "anchor": [
           -144.635,
           41.939
         ],
-        "nudge": 576,
-        "radius": 1.545
+        "nudge": 349,
+        "radius": 10.877
       },
       {
         "id": "B0671278c",
-        "x": 22.632,
-        "z": 86.264,
+        "x": 35.446,
+        "z": 81.047,
         "anchor": [
           25.232,
           95.669
         ],
-        "nudge": 156,
+        "nudge": 285,
         "radius": 1.545
       },
       {
         "id": "B0dffad8d",
-        "x": -70.465,
-        "z": -75.801,
+        "x": -75.458,
+        "z": -68.67,
         "anchor": [
           -102.235,
           -92.732
@@ -29336,30 +30700,30 @@
       },
       {
         "id": "B14027bbe",
-        "x": 23.262,
-        "z": 118.527,
+        "x": 25.617,
+        "z": 117.769,
         "anchor": [
           -6.924,
           109.218
         ],
-        "nudge": 505,
+        "nudge": 538,
         "radius": 5.66
       },
       {
         "id": "B1df14ea1",
-        "x": 27.854,
-        "z": 55.564,
+        "x": 26.564,
+        "z": 51.239,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 303,
+        "nudge": 252,
         "radius": 1.545
       },
       {
         "id": "B21720f35",
-        "x": -52.895,
-        "z": 19.433,
+        "x": -53.251,
+        "z": 20.604,
         "anchor": [
           -87.513,
           9.554
@@ -29369,74 +30733,74 @@
       },
       {
         "id": "B25fc5bcf",
-        "x": 58.601,
-        "z": -18.324,
+        "x": 52.6,
+        "z": -25.119,
         "anchor": [
           58.73,
           7.653
         ],
-        "nudge": 416,
+        "nudge": 533,
         "radius": 6.945
       },
       {
         "id": "B25fc772a",
-        "x": 79.19,
-        "z": -70.951,
+        "x": 80.397,
+        "z": -77.567,
         "anchor": [
           91.319,
           -59.222
         ],
-        "nudge": 270,
+        "nudge": 342,
         "radius": 17.267
       },
       {
         "id": "B2a7ecb59",
-        "x": -126.61,
-        "z": 14.029,
+        "x": -126.823,
+        "z": 14.485,
         "anchor": [
           -160.416,
           1.655
         ],
-        "nudge": 576,
+        "nudge": 575,
         "radius": 6.945
       },
       {
         "id": "B2ceb56a4",
-        "x": 55.978,
-        "z": 85.915,
+        "x": 55.837,
+        "z": 86.369,
         "anchor": [
           62.382,
           78.89
         ],
-        "nudge": 152,
+        "nudge": 159,
         "radius": 11.95
       },
       {
         "id": "B3b4c7fb4",
-        "x": -1.374,
-        "z": -62.991,
+        "x": 0.512,
+        "z": -71.679,
         "anchor": [
           14.541,
           -53.441
         ],
-        "nudge": 297,
+        "nudge": 368,
         "radius": 10.992
       },
       {
         "id": "B41952daf",
-        "x": 82.978,
-        "z": 87.725,
+        "x": 82.209,
+        "z": 80.384,
         "anchor": [
           86.147,
           54.116
         ],
-        "nudge": 540,
+        "nudge": 425,
         "radius": 11.199
       },
       {
         "id": "B4d2fca52",
-        "x": 68.067,
-        "z": 138.747,
+        "x": 67.838,
+        "z": 138.734,
         "anchor": [
           70.009,
           102.8
@@ -29446,96 +30810,96 @@
       },
       {
         "id": "B4f2be009",
-        "x": 44.238,
-        "z": -42.945,
+        "x": 48.773,
+        "z": -53.304,
         "anchor": [
           33.935,
           -45.375
         ],
-        "nudge": 169,
+        "nudge": 269,
         "radius": 17.516
       },
       {
         "id": "B530102bb",
-        "x": 48.824,
-        "z": 53.628,
+        "x": 43.019,
+        "z": 39.356,
         "anchor": [
           57.249,
           40.354
         ],
-        "nudge": 252,
+        "nudge": 228,
         "radius": 11.339
       },
       {
         "id": "B655d6f70",
-        "x": 39.54,
-        "z": 85.581,
+        "x": 39.592,
+        "z": 83.836,
         "anchor": [
           43.924,
           83.49
         ],
-        "nudge": 78,
+        "nudge": 70,
         "radius": 1.545
       },
       {
         "id": "B6b092149",
-        "x": -0.753,
-        "z": 9.249,
+        "x": -3.895,
+        "z": -0.729,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 556,
+        "nudge": 576,
         "radius": 10.992
       },
       {
         "id": "B721111bb",
-        "x": 18.378,
-        "z": -54.937,
+        "x": 22.119,
+        "z": -63.357,
         "anchor": [
           30.327,
           -48.567
         ],
-        "nudge": 217,
+        "nudge": 271,
         "radius": 6.945
       },
       {
         "id": "B75d37fcb",
-        "x": 21.327,
-        "z": -75.932,
+        "x": 23.117,
+        "z": -84.482,
         "anchor": [
           30.947,
           -49.344
         ],
-        "nudge": 452,
+        "nudge": 576,
         "radius": 10.877
       },
       {
         "id": "B7a65f480",
-        "x": -42.696,
-        "z": 75.389,
+        "x": -45.207,
+        "z": 77.238,
         "anchor": [
           -41.258,
           89.141
         ],
-        "nudge": 221,
+        "nudge": 201,
         "radius": 10.75
       },
       {
         "id": "B7efb8894",
-        "x": 46.92,
-        "z": -75.732,
+        "x": 48.64,
+        "z": -86.141,
         "anchor": [
           38.181,
           -51.694
         ],
-        "nudge": 409,
+        "nudge": 576,
         "radius": 10.936
       },
       {
         "id": "B88cffac1",
-        "x": 99.521,
-        "z": 37.232,
+        "x": 95.219,
+        "z": 28.879,
         "anchor": [
           65.639,
           49.398
@@ -29545,41 +30909,41 @@
       },
       {
         "id": "B8b81c0c5",
-        "x": 61.961,
-        "z": -28.731,
+        "x": 62.448,
+        "z": -30.741,
         "anchor": [
           57.684,
           -32.891
         ],
-        "nudge": 95,
+        "nudge": 84,
         "radius": 1.545
       },
       {
         "id": "B8c4db47b",
-        "x": -45.312,
-        "z": 36.942,
+        "x": -51.301,
+        "z": 41.723,
         "anchor": [
           -46.392,
           22.264
         ],
-        "nudge": 235,
+        "nudge": 321,
         "radius": 1.545
       },
       {
         "id": "B9e4c8453",
-        "x": -8.989,
-        "z": -49.617,
+        "x": 11.315,
+        "z": -60.716,
         "anchor": [
           0,
           -31.309
         ],
-        "nudge": 326,
+        "nudge": 504,
         "radius": 1.545
       },
       {
         "id": "Ba8b77242",
-        "x": 3.371,
-        "z": -27.422,
+        "x": 7.74,
+        "z": -35.562,
         "anchor": [
           37.015,
           -14.611
@@ -29589,85 +30953,85 @@
       },
       {
         "id": "Badf7e17e",
-        "x": -29.659,
-        "z": -45.895,
+        "x": -44.414,
+        "z": -5.537,
         "anchor": [
           -63.79,
           -34.444
         ],
-        "nudge": 576,
+        "nudge": 557,
         "radius": 11.95
       },
       {
         "id": "Bae8506cc",
-        "x": 23.627,
-        "z": 31.743,
+        "x": 11.34,
+        "z": 28.985,
         "anchor": [
           36.028,
           2.783
         ],
-        "nudge": 504,
+        "nudge": 576,
         "radius": 17.55
       },
       {
         "id": "Bb21a1978",
-        "x": 119.347,
-        "z": 99.126,
+        "x": 125.865,
+        "z": 94.926,
         "anchor": [
           103.219,
           66.941
         ],
         "nudge": 576,
-        "radius": 21.998
+        "radius": 29.197
       },
       {
         "id": "Bb5a79c43",
-        "x": 29.766,
-        "z": -1.737,
+        "x": 23.879,
+        "z": -2.556,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 37,
+        "nudge": 131,
         "radius": 11.95
       },
       {
         "id": "Bb81ca622",
-        "x": 78.984,
-        "z": -11.651,
+        "x": 73.256,
+        "z": -19.371,
         "anchor": [
           67.469,
           -29.89
         ],
-        "nudge": 345,
+        "nudge": 192,
         "radius": 11.099
       },
       {
         "id": "Bba876e95",
-        "x": 66.763,
-        "z": -26.577,
+        "x": 68.469,
+        "z": -34.119,
         "anchor": [
           70.769,
           -31.759
         ],
-        "nudge": 105,
+        "nudge": 53,
         "radius": 1.545
       },
       {
         "id": "Bbb2e5c1e",
-        "x": -9.399,
-        "z": 38.221,
+        "x": -11.056,
+        "z": 53.857,
         "anchor": [
           2.468,
           41.745
         ],
-        "nudge": 198,
+        "nudge": 290,
         "radius": 11.426
       },
       {
         "id": "Bbe3e7124",
-        "x": -34.338,
-        "z": 50.369,
+        "x": -38.092,
+        "z": 51.839,
         "anchor": [
           -23.112,
           84.574
@@ -29677,52 +31041,52 @@
       },
       {
         "id": "Bca96d908",
-        "x": -131.943,
-        "z": 41.837,
+        "x": -133.799,
+        "z": 66.688,
         "anchor": [
           -141.312,
           72.685
         ],
-        "nudge": 516,
+        "nudge": 154,
         "radius": 17.341
       },
       {
         "id": "Bce379d13",
-        "x": 80.22,
-        "z": -37.902,
+        "x": 80.93,
+        "z": -44.505,
         "anchor": [
           83.722,
           -47.963
         ],
-        "nudge": 170,
+        "nudge": 71,
         "radius": 11.339
       },
       {
         "id": "Bce3fd2f1",
-        "x": -81.785,
-        "z": 54.277,
+        "x": -83.559,
+        "z": 54.599,
         "anchor": [
           -92.657,
           36.836
         ],
-        "nudge": 329,
+        "nudge": 319,
         "radius": 28.184
       },
       {
         "id": "Bd18bf80b",
-        "x": 41.236,
-        "z": 15.35,
+        "x": 32.93,
+        "z": 11.173,
         "anchor": [
           49.847,
           9.74
         ],
-        "nudge": 164,
+        "nudge": 272,
         "radius": 1.545
       },
       {
         "id": "Bda203afb",
-        "x": 7.303,
-        "z": 60.605,
+        "x": 12.46,
+        "z": 65.899,
         "anchor": [
           35.534,
           38.266
@@ -29732,80 +31096,80 @@
       },
       {
         "id": "Be291aa43",
-        "x": 64.845,
-        "z": -32.812,
+        "x": 64.433,
+        "z": -37.062,
         "anchor": [
           57.684,
           -32.891
         ],
-        "nudge": 115,
+        "nudge": 127,
         "radius": 1.545
       },
       {
         "id": "Be3448d6e",
-        "x": 57.039,
-        "z": 3.998,
+        "x": 51.68,
+        "z": -2.816,
         "anchor": [
           57.743,
           13.915
         ],
-        "nudge": 159,
+        "nudge": 285,
         "radius": 11.95
       },
       {
         "id": "Be38a2b04",
-        "x": 30.557,
-        "z": 72.745,
+        "x": 38.671,
+        "z": 65.417,
         "anchor": [
           57.743,
           71.662
         ],
-        "nudge": 435,
+        "nudge": 321,
         "radius": 11.247
       },
       {
         "id": "Beb7b8b9c",
-        "x": 51.643,
-        "z": 26.282,
+        "x": 41.721,
+        "z": 17.683,
         "anchor": [
           46.885,
           29.221
         ],
-        "nudge": 89,
+        "nudge": 202,
         "radius": 6.945
       },
       {
         "id": "Bedda6bf8",
-        "x": -11.65,
-        "z": 104.495,
+        "x": -12.349,
+        "z": 104.279,
         "anchor": [
           -20.093,
           88.928
         ],
-        "nudge": 283,
+        "nudge": 275,
         "radius": 26.483
       },
       {
         "id": "Bf86ee95f",
-        "x": 31.643,
-        "z": 99.646,
+        "x": 30.721,
+        "z": 97.751,
         "anchor": [
           -4.125,
           98.694
         ],
-        "nudge": 572,
+        "nudge": 558,
         "radius": 11.667
       }
     ],
     "metrics": {
       "overlaps": 0,
-      "minGap": 1.907,
-      "medianGap": 3.852,
-      "maxGap": 27.302,
-      "fill": 76.343,
-      "hullUnits": 36887,
+      "minGap": 1.905,
+      "medianGap": 3.381,
+      "maxGap": 47.064,
+      "fill": 73.237,
+      "hullUnits": 40529,
       "maxNudgeMetres": 576,
-      "medianNudgeMetres": 329
+      "medianNudgeMetres": 321
     }
   },
   "media": [],
@@ -29993,11 +31357,11 @@
             "27/26",
             "10/26"
           ],
-          "progressStage": 2,
-          "progressLabel": "Rad u toku",
-          "status": "Potvrđen tim i rad u toku",
-          "hasPassport": false,
-          "claimsCount": 0
+          "progressStage": 5,
+          "progressLabel": "Pasoš na sajtu (31.10)",
+          "status": "Pasoš Vladičanskog dvora u Vršcu (priče, legende, fasada i ikonostas Nikole Neškovića, 6 stručnih izvora) kuriran u javni sloj (17 zapisa); predata i AI Studio aplikacija (20.10).",
+          "hasPassport": true,
+          "claimsCount": 18
         },
         {
           "id": "T07",
@@ -30013,7 +31377,7 @@
           ],
           "progressStage": 4,
           "progressLabel": "Predat elaborat",
-          "status": "Predat preliminarni elaborat",
+          "status": "Predat preliminarni elaborat (13.10), vraćeno na format tabele podatak → izvor",
           "hasPassport": false,
           "claimsCount": 0
         },

@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
@@ -9,7 +9,7 @@
   "totals": {
     "teams": 71,
     "objects": 51,
-    "completedPassports": 37
+    "completedPassports": 40
   },
   "entries": [
     {
@@ -154,7 +154,7 @@
       "topic": "Brutalistička arhitektura, Svetlana Radović, visinski akcenat Užica",
       "progressStage": 4,
       "progressLabel": "Predat elaborat",
-      "status": "Predat preliminarni elaborat",
+      "status": "Predat preliminarni elaborat (13.10), vraćeno na format tabele podatak → izvor",
       "submissionsCount": 1,
       "hasPassport": false,
       "flags": [
@@ -175,7 +175,7 @@
       "topic": "Novija zgrada u zaštićenom parku (2017, 4Po+Pr+5+Ps), energetska efikasnost",
       "progressStage": 4,
       "progressLabel": "Predata radna verzija",
-      "status": "Predata radna verzija",
+      "status": "Predata radna verzija (07.10), vraćeno na format tabele podatak → izvor",
       "submissionsCount": 1,
       "hasPassport": false,
       "flags": [],
@@ -226,8 +226,7 @@
       "id": "T11",
       "indices": [
         "164/26",
-        "31/26g",
-        "192/26"
+        "31/26g"
       ],
       "object": "Hram Svetog Save",
       "location": "Vračar, Beograd",
@@ -238,7 +237,7 @@
       "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
-        "Dva podneska: razrešiti da li podnosilac nastupa u istom timu sa ostala dva člana ili samostalno"
+        "Indeks 192/26 razrešen: pripada T27 (Stara pošta); T11 čine 164/26 i 31/26g"
       ],
       "claimsCount": 14,
       "sectionsCount": 2
@@ -372,7 +371,8 @@
       "id": "T18",
       "indices": [
         "175/26",
-        "49/26g"
+        "49/26g",
+        "167/26"
       ],
       "object": "Palata Beograd (Beograđanka)",
       "location": "Masarikova 5, Beograd",
@@ -571,8 +571,7 @@
       "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
-        "Deljeni objekat sa T11 i T43",
-        "Indeks 192/26 se vodi i u T11 i u T27 (ista studentkinja) — članstvo da potvrdi nastavnik."
+        "Indeks 192/26 potvrđen u T27 (182/26, 192/26)"
       ],
       "claimsCount": 94,
       "sectionsCount": 16
@@ -784,16 +783,16 @@
       "object": "Vladičanski dvor u Vršcu",
       "location": "Vršac",
       "topic": "Barokna rezidencija, priče, mitovi, usmeno preneseni podaci, dvorska kapela",
-      "progressStage": 2,
-      "progressLabel": "Rad u toku",
-      "status": "Potvrđen tim i rad u toku",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (31.10)",
+      "status": "Pasoš Vladičanskog dvora u Vršcu (priče, legende, fasada i ikonostas Nikole Neškovića, 6 stručnih izvora) kuriran u javni sloj (17 zapisa); predata i AI Studio aplikacija (20.10).",
       "submissionsCount": 2,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "Razrešeno: indeksi 27 i 10 čine T38"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 18,
+      "sectionsCount": 4
     },
     {
       "id": "T39",
@@ -1274,16 +1273,16 @@
       "object": "West 65 Tower",
       "location": "Omladinskih brigada 86, Novi Beograd",
       "topic": "Elektronski i digitalni pasoš: 9 detaljnih poglavlja, PERI oplata, tehnička dokumentacija",
-      "progressStage": 4,
-      "progressLabel": "Predata struktura pasoša",
-      "status": "Predat detaljan predlog strukture pasoša (9 poglavlja)",
+      "progressStage": 5,
+      "progressLabel": "Preliminarni pasoš na sajtu (31.10)",
+      "status": "Preliminarni podaci o konstrukciji i materijalima (PERI oplata, AB skelet, fasadni sistemi) i struktura pasoša u 9 poglavlja kurirani u javni sloj (11 zapisa); vraćeno na dopunu — čeka se tabela sa izvorima uz podatke po izabranoj temi.",
       "submissionsCount": 1,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
         "indeks 191 prešao u T30"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 11,
+      "sectionsCount": 3
     },
     {
       "id": "T64",
@@ -1377,18 +1376,16 @@
       "object": "Zgrada tehničkih fakulteta",
       "location": "Bulevar kralja Aleksandra 73, Beograd",
       "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
-      "progressStage": 4,
-      "progressLabel": "Predato terensko istraživanje",
-      "status": "Predato istraživanje sa terena i sa predavanja (19.10)",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (31.10)",
+      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji.",
       "submissionsCount": 2,
-      "hasPassport": false,
+      "hasPassport": true,
       "flags": [
-        "Prijem 2026-10-23: najobimnija građa prijema (11,7 MB)",
-        "Indeks 136/26 vodi se i u T05 (Dom omladine) — pripadnost se potvrđuje",
-        "Treći tim na Zgradi tehničkih fakulteta (uz T19 i T58)"
+        "Indeks 136/26 razrešen: spisak od 26.10. ga je izveo iz T05 u T68 (155/26, 130/26, 136/26)"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 25,
+      "sectionsCount": 4
     },
     {
       "id": "T69",
@@ -1456,5 +1453,5 @@
       "sectionsCount": 7
     }
   ],
-  "datasetRevision": "r-1a27a272556a8403"
+  "datasetRevision": "r-d38d466a63e1a168"
 }

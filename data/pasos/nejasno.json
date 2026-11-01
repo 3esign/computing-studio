@@ -11,8 +11,8 @@
       "teams": [
         "T70"
       ],
-      "sr": "T70: naslov mejla podneska nosi 64/2026, telo istog mejla 62/2026. Indeks 62/2026 već pripada drugom studentu u T28, a 64/2026 u T11.",
-      "en": "T70: the submission’s mail subject says 64/2026, the body of the same mail says 62/2026. Index 62/2026 already belongs to another student in T28, and 64/2026 in T11.",
+      "sr": "T70: naslov mejla podneska nosi 64/2026, telo istog mejla 62/2026. Indeks 62/2026 već pripada drugom studentu u T28 (T11 ima 164/26, ne 64/26).",
+      "en": "T70: the submission’s mail subject says 64/2026, the body of the same mail says 62/2026. Index 62/2026 already belongs to another student in T28 (T11 holds 164/26, not 64/26).",
       "askSr": "T70: koji je tačan broj indeksa?",
       "askEn": "T70: which index number is correct?"
     },
@@ -46,16 +46,6 @@
       "en": "Prva beogradska gimnazija now has two teams. The holder of 93/2026 writes in the plural but does not name the others; one more student works on the same object yet appears in neither list.",
       "askSr": "T69: ko su članovi? Student na istom objektu: u kom si timu?",
       "askEn": "T69: who are the members? Student on the same object: which team are you in?"
-    },
-    {
-      "id": "n-t38-tema",
-      "teams": [
-        "T38"
-      ],
-      "sr": "T38 (indeksi 10 i 27) potvrđen je od podnosioca, ali naziv predatog dokumenta govori o drugom objektu nego registar, koji nosi Vladičanski dvor u Vršcu. U samim mejlovima nova tema se ne pominje.",
-      "en": "T38 (indexes 10 and 27) is confirmed by its submitters, but the submitted document’s filename names a different object than the register, which holds the Bishop’s Palace in Vršac. The mails themselves never mention a new topic.",
-      "askSr": "T38: ostaje li Vladičanski dvor u Vršcu ili je tema promenjena?",
-      "askEn": "T38: does the Bishop’s Palace in Vršac stand, or has the topic changed?"
     },
     {
       "id": "n-bez-indeksa",
@@ -94,10 +84,10 @@
       "teams": [
         "T71"
       ],
-      "sr": "T71 (Miloša Pocerca 32) upisan je 28.10. sa jednim indeksom (149/2026); drugi član je najavljen, ali bez indeksa. Lokacija objekta je približna.",
-      "en": "T71 (Miloša Pocerca 32) was registered on 28 Oct with one index (149/2026); a second member was announced but without an index. The object location is approximate.",
-      "askSr": "T71: indeks drugog člana i tačna adresa objekta.",
-      "askEn": "T71: the second member’s index and the exact address of the object."
+      "sr": "T71 (Miloša Pocerca 32): 30.10. potvrđen drugi član (13/26g) i katastarska parcela (KP 1283/1 KO Savski venac), ali 28 zapisa u pasošu još uvek navodi izvore samo opisno i čeka se izvod iz G-lista o statusu spomenika kulture.",
+      "en": "T71 (Miloša Pocerca 32): on 30 Oct the second member (13/26g) and parcel (KP 1283/1 KO Savski venac) were confirmed, but 28 claims in the passport still cite sources only descriptively and the G-sheet extract on cultural monument status is awaited.",
+      "askSr": "T71: pošaljite konkretne linkove/signature za 28 opisnih izvora i izvod iz G-lista.",
+      "askEn": "T71: send concrete links/shelfmarks for the 28 descriptive sources and the G-sheet extract."
     },
     {
       "id": "n-sava-crtezi",
@@ -158,12 +148,13 @@
         "T16",
         "T50",
         "T13",
-        "T55"
+        "T55",
+        "T63"
       ],
-      "sr": "Narodna banka (T16 i T55), Beograđanka (T50) i Palata SANU / Glavna pošta (T13) objavljeni su u javnom sloju bez izvora vezanih uz pojedinačne podatke; dosijei nose „Napomenu nastavnika“ i nepotvrđene tvrdnje dok ne stigne tabelarna verzija sa izvorima (T31 je 30.10. dostavio tabelu sa izvorima i prešao u prihvaćeno).",
-      "en": "National Bank (T16 and T55), Beograđanka (T50) and SASA Palace / Main Post Office (T13) were published without sources tied to individual records; their dossiers carry a “Teacher’s note” and unconfirmed claims until a tabular sourced version arrives (T31 submitted its sourced table on 30 Oct and moved to accepted).",
-      "askSr": "T16, T50, T13, T55: pošaljite verziju pasoša sa izvorom uz svaki podatak; ona zamenjuje dosije.",
-      "askEn": "T16, T50, T13, T55: send a passport version with a source per record; it replaces the dossier."
+      "sr": "Narodna banka (T16 i T55), Beograđanka (T50), Palata SANU / Glavna pošta (T13) i West 65 Tower (T63) objavljeni su u javnom sloju bez izvora vezanih uz pojedinačne podatke; dosijei nose „Napomenu nastavnika“ i nepotvrđene tvrdnje dok ne stigne tabelarna verzija sa izvorima (T31 je 30.10. dostavio tabelu sa izvorima i prešao u prihvaćeno).",
+      "en": "National Bank (T16 and T55), Beograđanka (T50), SASA Palace / Main Post Office (T13) and West 65 Tower (T63) were published without sources tied to individual records; their dossiers carry a “Teacher’s note” and unconfirmed claims until a tabular sourced version arrives (T31 submitted its sourced table on 30 Oct and moved to accepted).",
+      "askSr": "T16, T50, T13, T55, T63: pošaljite verziju pasoša sa izvorom uz svaki podatak; ona zamenjuje dosije.",
+      "askEn": "T16, T50, T13, T55, T63: send a passport version with a source per record; it replaces the dossier."
     },
     {
       "id": "n-t15-unutrasnjost",
@@ -194,8 +185,8 @@
     {
       "id": "n-skice-kolokvijum",
       "teams": [],
-      "sr": "Pred kolokvijum 16.11. digitalni trag skica (ručno crtan materijal) postoji za samo 10 od 71 tima, trag AI aplikacije za 6. Ostali timovi možda rade, ali evidencija to ne vidi.",
-      "en": "Ahead of the colloquium on 16 Nov, a digital trace of sketches (hand-drawn material) exists for only 10 of 71 teams, and of the AI application for 6. Other teams may be working, but the record does not see it.",
+      "sr": "Pred kolokvijum 16.11. digitalni trag skica (ručno crtan materijal) postoji za samo 10 od 71 tima, trag AI aplikacije za 7. Ostali timovi možda rade, ali evidencija to ne vidi.",
+      "en": "Ahead of the colloquium on 16 Nov, a digital trace of sketches (hand-drawn material) exists for only 10 of 71 teams, and of the AI application for 7. Other teams may be working, but the record does not see it.",
       "askSr": "Svi timovi: pošaljite fotografije skica i link AI aplikacije pre 16.11.",
       "askEn": "All teams: send photographs of your sketches and the AI application link before 16 Nov."
     }

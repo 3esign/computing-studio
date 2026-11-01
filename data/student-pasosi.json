@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-11",
   "note": {
     "en": "Student pilot digital passports, submitted by e-mail. The curated layer keeps claims with their sources; duplicates of one source are merged; legends are separated from facts; unknowns stay unknown. The original submission is preserved verbatim in originalText.",
     "sr": "Studentski piloti digitalnih pasoša (mejl 2026-10-12; prijem dokumenata 2026-10-18). Kurirani sloj čuva tvrdnje sa izvorima; ponavljanja istog izvora su spojena; legende odvojene od činjenica; nepoznato ostaje nepoznato. Originalni podnesci su doslovno sačuvani u originalText i u privatnoj evidenciji (van javnog izvoda). Imena podnosilaca nisu deo javnog izvoda — atribucija je po broju indeksa (odluka 20.10.2026)."
@@ -1672,7 +1672,7 @@
       "received": "2026-10-18",
       "team": "T18",
       "id": "t-palata-beograd",
-      "credit": "157OA i 49OG",
+      "credit": "175/26 · 49/26g · 167/26",
       "object": {
         "name": "Palata Beograd (Beograđanka)",
         "address": "ugao Kralja Milana i Masarikove, Beograd"
@@ -13033,6 +13033,756 @@
         "file": "evidencija/prijem-2026-10-30/raw/9/Digitalni pasos (sanu,posta) 1.0.docx",
         "sha256": "832b62988e7a77694d7fa46ed09f3da2141be9eb209ea346c6eb1887a1e359db"
       }
+    },
+    {
+      "id": "t38",
+      "team": "T38",
+      "credit": "27/26 · 10/26",
+      "received": "2026-10-19",
+      "object": {
+        "name": "Vladičanski dvor u Vršcu"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Identitet i osnovni podaci",
+            "en": "Identity and basic record"
+          },
+          "claims": [
+            {
+              "id": "T38:identitet:e26e0e4bd251",
+              "t": "Naziv i namena",
+              "v": "Vladičanski dvor u Vršcu — Rezidencija Episkopa banatskih",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T38:identitet:1992954f86b8",
+              "t": "Lokacija",
+              "v": "Dvorska ulica, Vršac",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T38:identitet:9607d5a7b7d5",
+              "t": "Period izgradnje",
+              "v": "1757–1760. godina, u vreme vladike Jovana Georgijevića",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T38:identitet:116b2db0886d",
+              "t": "Stilski razvoj",
+              "v": "od kasnog baroka (XVIII vek) do eklektike sa neobaroknim i neorenesansnim elementima (rekonstrukcija 1904)",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T38:identitet:be2d2fe8b9a2",
+              "t": "Stepen zaštite",
+              "v": "Spomenik kulture od izuzetnog značaja",
+              "s": [
+                "S1"
+              ],
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "arhitektura",
+          "title": {
+            "sr": "Arhitektonska analiza: fasada, krov i parter",
+            "en": "Architectural analysis: facade, roof and grounds"
+          },
+          "claims": [
+            {
+              "id": "T38:arhitektura:7b564616bd49",
+              "t": "Prvobitno stanje (XVIII vek)",
+              "v": "izvorno barokno zdanje imalo je znatno svedeniju fasadnu plastiku u odnosu na današnji izgled",
+              "s": [
+                "S1"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T38:arhitektura:0a179f5d85c6",
+              "t": "Rekonstrukcija 1904. godine",
+              "v": "radikalna estetska transformacija glavne fasade ka Dvorskoj ulici po projektu arhitekte Mihajla Harminca; dodati neobarokni i neorenesansni elementi — vertikalni rasponi sa pilastrama, dekorativni nadprozornici i krovni venci",
+              "s": [
+                "S2"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T38:arhitektura:2602af38e079",
+              "t": "Krovni pokrivač",
+              "v": "patinirani bakarni krov zelene nijanse sa složenom geometrijom i mansardnim prodorima",
+              "s": [
+                "S3"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T38:arhitektura:842ed526bc19",
+              "t": "Ograda i dvorišni parter",
+              "v": "autentična barokna ograda kao kombinacija pune zidne mase i kovanog gvožđa sa heraldičkim motivom — grbom Banatske eparhije",
+              "s": [
+                "S3"
+              ],
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "ikonostas",
+          "title": {
+            "sr": "Dvorska kapela, ikonostas i Nikola Nešković",
+            "en": "Palace chapel, iconostasis and Nikola Nešković"
+          },
+          "claims": [
+            {
+              "id": "T38:ikonostas:43145eafb6c9",
+              "t": "Dvorska kapela",
+              "v": "Paraklis Sv. Arhanđela Mihajla i Gavrila smešten u prizemlju objekta kao spoj sakralnog i rezidencijalnog prostora",
+              "s": [
+                "S1"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T38:ikonostas:f6ce8926b8d2",
+              "t": "Autor i datovanje ikonostasa",
+              "v": "slikar Nikola Nešković oslikao je ikonostas u periodu 1761–1765. godine; jedan od najređih sačuvanih primera barokno-rokoko umetnosti u Srbiji",
+              "s": [
+                "S4"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T38:ikonostas:085478c8151d",
+              "t": "Kulturno-istorijska veza",
+              "v": "Nikola Nešković bio je deda po majci vršačkom dramatičaru Jovanu Steriji Popoviću",
+              "s": [
+                "S5"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T38:ikonostas:4f40f1496bad",
+              "t": "Rokoko drvorezbarija i štukatura",
+              "v": "drvorezbarija i pozlaćene ornamentalne mase ikonostasa sadrže razigrane rokoko motive i vegetaciju",
+              "s": [
+                "S6"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T38:ikonostas:f28d3c4401bf",
+              "t": "Motiv „Jesejevog drveta”",
+              "v": "redak i složen ikonografski prikaz rodoslova Isusa Hrista iz Starog zaveta oslikan iznad bočnih vrata",
+              "s": [
+                "S6"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T38:ikonostas:d5b3ad33da7f",
+              "t": "Slikarski stil ikonostasa",
+              "v": "prelaz sa tradicionalnog vizantijskog stila na rani srpski barok sa uticajima ukrajinskog slikarstva",
+              "s": [
+                "S4"
+              ],
+              "category": "identity"
+            }
+          ]
+        },
+        {
+          "id": "predanja",
+          "title": {
+            "sr": "Priče, legende i usmeno prenošeni podaci",
+            "en": "Stories, legends and oral tradition"
+          },
+          "claims": [
+            {
+              "id": "T38:predanja:7a78830d9712",
+              "t": "Predanje o pruskom arhitekti",
+              "v": "usmeno predanje govori o strancu iz Pruske koga je vladika Jovan Georgijević doveo u Vršac da u tajnosti gradi dvor (1757–1760), nakon čega je projektant otišao ne ostavivši potpis na nacrtima",
+              "s": [
+                "S7"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T38:predanja:7425da0c98d3",
+              "t": "Legenda o podzemnom tunelu do Vršačke kule",
+              "v": "lokalno predanje o podzemnom prolazu od Vladičanskog dvora do Vršačke kule na bregu za sklanjanje dragocenosti eparhije; materijalno nije potvrđen",
+              "s": [
+                "S7"
+              ],
+              "category": "questions",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T38:predanja:2873619264a0",
+              "t": "Predanje o Vinčanskoj čudotvornoj ikoni",
+              "v": "usmena tradicija o ikoni Presvete Bogorodice u dvorskoj kapeli koja u kriznim vremenima štiti grad",
+              "s": [
+                "S7"
+              ],
+              "category": "research"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Pokrajinski zavod za zaštitu spomenika kulture Novi Sad — „Dosije objekta: Vladičanski dvor Vršac”",
+          "kind": "institucija"
+        },
+        {
+          "id": "S2",
+          "label": "Đurić-Zamolo, D. — „Arhitekti i graditelji u Srbiji krajem XIX i početkom XX veka”, Beograd",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S3",
+          "label": "Turkan, Z. M. — „Vladičanski dvor Srpske Pravoslavne Eparhije Banatske u Vršcu”, Vršac",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S4",
+          "label": "Todić, B. (1989) — „Nikola Nešković: barokni slikar”, Matica srpska / Pokrajinski zavod za zaštitu spomenika kulture, Novi Sad",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S5",
+          "label": "Popović, M. — „Kulturna istorija Banata”, Vršac",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S6",
+          "label": "Medaković, D. — „Srpska umetnost u XVIII veku”, Beograd / Novi Sad",
+          "kind": "knjiga"
+        },
+        {
+          "id": "S7",
+          "label": "Usmeno predanje i lokalna tradicija Vršca (zabeleženo u podnesku tima T38, 19. 10. 2026)",
+          "kind": "usmeno predanje"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-23/raw/13/Digitalni pasoš.docx",
+        "sha256": "e98e5315590c3c9c3793bc06d99633ec88a4876be49e5352ca8383ec5b4090cc"
+      }
+    },
+    {
+      "id": "t68",
+      "team": "T68",
+      "credit": "155/26 · 130/26 · 136/26",
+      "received": "2026-10-19",
+      "object": {
+        "name": "Zgrada tehničkih fakulteta"
+      },
+      "sections": [
+        {
+          "id": "osnovni",
+          "title": {
+            "sr": "A. Osnovni podaci o objektu",
+            "en": "A. Basic building record"
+          },
+          "claims": [
+            {
+              "id": "T68:osnovni:fe37f6c37811",
+              "t": "Adresa (A1)",
+              "v": "Bulevar kralja Aleksandra 73, Beograd (Palilula)",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T68:osnovni:e1e968481244",
+              "t": "Prethodna namena lokacije (A2)",
+              "v": "podignuta na mestu nekadašnjeg trkališta (hipodroma), severoistočno od Univerzitetske biblioteke",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T68:osnovni:c7a84ba8f6f1",
+              "t": "Projektanti (A3)",
+              "v": "arhitekte Nikola Nestorović i Branko Tanazević, uz građevinskog inženjera Vojislava Zađinu (kasnije dekana Tehničkog fakulteta)",
+              "s": [
+                "S1",
+                "S2",
+                "S3"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T68:osnovni:e1340051d22b",
+              "t": "Projekat i vreme gradnje (A4)",
+              "v": "projekat iz 1926; gradnja od jeseni 1925. do 1931. godine; useljenje 1932. godine",
+              "s": [
+                "S1",
+                "S2",
+                "S4"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T68:osnovni:ecd462e26745",
+              "t": "Namenska gradnja (A5)",
+              "v": "prva zgrada u Srbiji projektovana namenski za visokoškolsku tehničku nastavu",
+              "s": [
+                "S1"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T68:osnovni:fe779c9a9a43",
+              "t": "Prostorna organizacija (A6)",
+              "v": "slobodnostojeći objekat razuđene osnove organizovan oko četiri unutrašnja dvorišta",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T68:osnovni:915474c86bf3",
+              "t": "Posleratna nadogradnja (A7)",
+              "v": "treći sprat nadograđen posle Drugog svetskog rata po projektu arhitekte Mihaila Radovanovića",
+              "s": [
+                "S1"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T68:osnovni:444ce6a6fdf9",
+              "t": "Današnji korisnici (A8)",
+              "v": "Građevinski, Arhitektonski i Elektrotehnički fakultet Univerziteta u Beogradu",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T68:osnovni:d1233566d81a",
+              "t": "Status kulturnog dobra (A9)",
+              "v": "zaštićeno kulturno dobro — spomenik kulture (Službeni glasnik RS br. 73/2007)",
+              "s": [
+                "S1",
+                "S7",
+                "S8"
+              ],
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "stil",
+          "title": {
+            "sr": "B. Stil i arhitekte",
+            "en": "B. Style and architects"
+          },
+          "claims": [
+            {
+              "id": "T68:stil:f8bffdb24a39",
+              "t": "Stilsko opredeljenje (B1)",
+              "v": "akademizam sa dominantnim klasicističkim elementima",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T68:stil:d3ded0265dfd",
+              "t": "Arhitektonski uzor (B2)",
+              "v": "kao uzor navodi se zgrada Visoke tehničke škole u Šarlotenburgu (Berlin) — u proveri",
+              "s": [
+                "S6"
+              ],
+              "category": "identity",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T68:stil:cb0d2a8eb8f6",
+              "t": "Obrazovanje Nikole Nestorovića (B3)",
+              "v": "diplomirao u Šarlotenburgu (1896), obrazovan u duhu akademizma sa uticajima secesije",
+              "s": [
+                "S5"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T68:stil:1fe85fef2496",
+              "t": "Uloga Branka Tanazevića (B4)",
+              "v": "jedan od glavnih zagovornika srpsko-vizantijskog stila; na fakultetu predavao ornamentiku, dekoraciju i modelovanje",
+              "s": [
+                "S4"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T68:stil:7736d7ad2454",
+              "t": "Izbor jezika ornamenta (B5)",
+              "v": "zgrada ne prati Tanazevićev nacionalni stil, već klasicistički akademizam kao svestan izraz univerzalnosti tehničkih nauka",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "category": "research"
+            }
+          ]
+        },
+        {
+          "id": "fasada",
+          "title": {
+            "sr": "C. Fasada — ornament i skulptura",
+            "en": "C. Facade — ornament and sculpture"
+          },
+          "claims": [
+            {
+              "id": "T68:fasada:1b0f2da13777",
+              "t": "Hijerarhija fasadne dekoracije (C1)",
+              "v": "glavna fasada je najbogatije obrađena, bočne fasade su skromnije, a dvorišne najjednostavnije",
+              "s": [
+                "S1"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T68:fasada:edc293a65021",
+              "t": "Centralni rizalit (C2)",
+              "v": "glavnom fasadom dominira centralni rizalit (frontispis) sa monumentalnim stepeništem i trodelnim ulazom u motivu klasicističkog portika",
+              "s": [
+                "S1",
+                "S6"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T68:fasada:d3e8328273ec",
+              "t": "Vajari fasadne skulpture (C3)",
+              "v": "reljefe i slobodnu skulpturu na glavnoj fasadi radili su akademski vajari Ilija Kolarević i Ivan Lučev",
+              "s": [
+                "S1"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T68:fasada:188e262399af",
+              "t": "Ornamentalna plastika u veštačkom kamenu (C4)",
+              "v": "autor dekoracije od veštačkog kamena je Bedrih Zeleni (Bedřich Zelený)",
+              "s": [
+                "S1"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T68:fasada:f1f7021cdaba",
+              "t": "Ikonografski popis reljefa i figura (C5)",
+              "v": "utvrditi pojedinačne alegorije, atribute, natpise i grbove na pročelju kroz terenski popis i arhivsku građu",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T68:fasada:6a28c443ed4a",
+              "t": "Stanje materijala fasadne plastike (C6)",
+              "v": "terenski popis stanja kamena, veštačkog kamena i maltera (oštećenja i zamene)",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "aula",
+          "title": {
+            "sr": "D. Aula i enterijer",
+            "en": "D. Ceremonial hall and interior"
+          },
+          "claims": [
+            {
+              "id": "T68:aula:5ca4c712776c",
+              "t": "Stil i materijalizacija svečane sale (D1)",
+              "v": "svečana sala (aula) izvedena u neoklasicističkom stilu; enterijer od štuko-mermera sa pozlatom",
+              "s": [
+                "S2"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T68:aula:01f0ccd25eef",
+              "t": "Očuvanost enterijera (D2)",
+              "v": "sala je zadržala autentičan prvobitni karakter enterijera",
+              "s": [
+                "S2"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T68:aula:337eebb6df9f",
+              "t": "Kapacitet svečane sale (D3)",
+              "v": "256 mesta",
+              "s": [
+                "S2"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T68:aula:3daf9b6175bc",
+              "t": "Rozeta sa prezimenima arhitekata (D4)",
+              "v": "prezimena arhitekata urezana su u centralnu rozetu tavanice na ulazu u fakultet",
+              "s": [
+                "S2"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T68:aula:6c84859b9720",
+              "t": "Razgraničenje pojma aule i ulaznog hola (D5)",
+              "v": "utvrditi terminološko i prostorno razgraničenje svečane sale i reprezentativnog ulaznog hola u izvornoj dokumentaciji",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Arhitektonski fakultet Univerziteta u Beogradu — „Zgrada Tehničkog fakulteta”",
+          "kind": "institucija",
+          "url": "https://www.arh.bg.ac.rs/?p=25666"
+        },
+        {
+          "id": "S2",
+          "label": "Građevinski fakultet Univerziteta u Beogradu — „Svečana sala”",
+          "kind": "institucija",
+          "url": "https://web1.grf.bg.ac.rs/fakultet/ss/e"
+        },
+        {
+          "id": "S3",
+          "label": "Građevinski fakultet Univerziteta u Beogradu — dokument o zgradi (PDF)",
+          "kind": "dokument",
+          "url": "https://web1.grf.bg.ac.rs/p/docs/ostalo/srbijamarke_1676289024411.pdf"
+        },
+        {
+          "id": "S4",
+          "label": "Wikipedia — „Branko Tanazević”",
+          "kind": "enciklopedija",
+          "url": "https://en.wikipedia.org/wiki/Branko_Tanazevi%C4%87"
+        },
+        {
+          "id": "S5",
+          "label": "Wikipedia — „Nikola Nestorović”",
+          "kind": "enciklopedija",
+          "url": "https://en.wikipedia.org/wiki/Nikola_Nestorovi%C4%87"
+        },
+        {
+          "id": "S6",
+          "label": "Studentski rad „Fasada” (M. Krstić, elearning.rcub.bg.ac.rs — sekundarni izvor za orijentaciju)",
+          "kind": "rad"
+        },
+        {
+          "id": "S7",
+          "label": "„Službeni glasnik RS” br. 73/2007 — odluka o utvrđivanju za spomenik kulture",
+          "kind": "propis"
+        },
+        {
+          "id": "S8",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Katalog nepokretnih kulturnih dobara",
+          "kind": "institucija",
+          "url": "https://beogradskonasledje.rs"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-23/raw/8/digitalni pasos objekta tehnickog fakulteta1 (1).docx",
+        "sha256": "2ee505384af1f9ae7588aef454daec022ca7bbf970d0c3015ae53dcc733e2a5a"
+      }
+    },
+    {
+      "id": "t63",
+      "team": "T63",
+      "credit": "189/26 · 141/26",
+      "received": "2026-10-11",
+      "object": {
+        "name": "West 65 Tower"
+      },
+      "sections": [
+        {
+          "id": "identifikacija",
+          "title": {
+            "sr": "Identifikacija i lokacija kompleksa",
+            "en": "Identification and site record"
+          },
+          "claims": [
+            {
+              "id": "T63:identifikacija:1c6ec7e9f5f9",
+              "t": "Naziv i adresa",
+              "v": "West 65 Tower, Ulica omladinskih brigada 86, Novi Beograd",
+              "s": [
+                "S1"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T63:identifikacija:2eed2818bd43",
+              "t": "Katastarska parcela",
+              "v": "KP 2222/3 KO Novi Beograd, površina parcele kompleksa približno 30.316 m²",
+              "s": [
+                "S1"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T63:identifikacija:3d5520111b6f",
+              "t": "Plansko-tehnička dokumentacija",
+              "v": "Urbanistički projekat za izgradnju stambeno-poslovnog kompleksa „WEST 65”, građevinska i upotrebna dozvola",
+              "s": [
+                "S1"
+              ],
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "ucesnici",
+          "title": {
+            "sr": "Učesnici u projektovanju i izgradnji",
+            "en": "Design and construction participants"
+          },
+          "claims": [
+            {
+              "id": "T63:ucesnici:4c94d54fe008",
+              "t": "Investitor i lokalni razvoj projekta",
+              "v": "PSP-Farman Holding",
+              "s": [
+                "S2"
+              ],
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T63:ucesnici:3b0848b914b8",
+              "t": "Glavni arhitektonski projektant",
+              "v": "Fletcher Priest Architects (London)",
+              "s": [
+                "S2"
+              ],
+              "category": "people",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T63:ucesnici:09705fcdfb7f",
+              "t": "Oplatni sistem i tehnička podrška",
+              "v": "PERI — sistemska oplata i hidraulički sistem za izvođenje AB jezgra West 65 Tower-a",
+              "s": [
+                "S2"
+              ],
+              "category": "methods",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T63:ucesnici:1e6788c4fa17",
+              "t": "Čelična i fasadna potkonstrukcija",
+              "v": "FORING d.o.o. Beograd (čelične konstrukcije i fasadne potkonstrukcije u okviru kompleksa)",
+              "s": [
+                "S2"
+              ],
+              "category": "structure",
+              "status": "unconfirmed"
+            }
+          ]
+        },
+        {
+          "id": "konstrukcija_materijali",
+          "title": {
+            "sr": "Konstruktivni sistem i materijali",
+            "en": "Structural system and materials"
+          },
+          "claims": [
+            {
+              "id": "T63:konstrukcija_materijali:c633b46d9ece",
+              "t": "Konstruktivni sistem",
+              "v": "skeletni armiranobetonski konstruktivni sistem (AB skelet) sa armiranobetonskim jezgrom, stubovima i pločama",
+              "s": [
+                "S2"
+              ],
+              "category": "structure",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T63:konstrukcija_materijali:0abab31e9990",
+              "t": "Fasadni omotač",
+              "v": "stakleni i aluminijumski fasadni sistem kao omotač kule",
+              "s": [
+                "S2"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T63:konstrukcija_materijali:5841374a2896",
+              "t": "Termoizolacioni materijali",
+              "v": "Austrotherm EPS i XPS termoizolacioni slojevi u fasadnim i krovnim sklopovima",
+              "s": [
+                "S2"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T63:konstrukcija_materijali:7e0680baee8c",
+              "t": "Malteri, lepkovi i suva gradnja",
+              "v": "Murexin (lepkovi, prajmer, završni fasadni malter) i Saint-Gobain / Rigips / Isover (suva gradnja i zvučna izolacija)",
+              "s": [
+                "S2"
+              ],
+              "category": "materials",
+              "status": "unconfirmed"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Katastar nepokretnosti RGZ i Urbanistički projekat za izgradnju stambeno-poslovnog kompleksa „WEST 65” (KP 2222/3 KO Novi Beograd, navedeno u podnesku tima)",
+          "kind": "dokument"
+        },
+        {
+          "id": "S2",
+          "label": "Tehnička dokumentacija proizvođača i izvođača (PERI oplatni sistemi, FORING d.o.o., Austrotherm, Murexin, Saint-Gobain / Rigips / Isover — navedeno u podnesku tima, čeka pojedinačne linkove)",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-10-18/raw/svi podaci iz mailova da se provere i zavedu.pdf",
+        "sha256": "5e34deb4791667387ef7e21c1f7d544d080e77d06756495f40e466d2d16ab6b1"
+      }
     }
   ],
   "inbox": [
@@ -13049,5 +13799,5 @@
       "state": "zavedeno 2026-10-19 — registar timova: docs/data/pasos/timovi-evidencija.json (28 stavki, 5 otvorenih pitanja)"
     }
   ],
-  "datasetRevision": "r-1a27a272556a8403"
+  "datasetRevision": "r-d38d466a63e1a168"
 }
