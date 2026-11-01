@@ -1,7 +1,7 @@
 {
  "schema": "or-kolokvijum-v1",
  "dan": "2026-11-16",
- "azurirano": "2026-10-30",
+ "azurirano": "2026-11-01",
  "elementi": [
   "pasos",
   "ai-studio",
@@ -28,31 +28,31 @@
  },
  "rezime": {
   "pasos": {
-   "nema": 25,
-   "najavljeno": 5,
+   "nema": 23,
+   "najavljeno": 6,
    "ceka": 9,
    "stiglo": 1,
-   "prihvaceno": 31
+   "prihvaceno": 32
   },
   "ai-studio": {
-   "nema": 63,
-   "najavljeno": 1,
+   "nema": 61,
+   "najavljeno": 2,
    "ceka": 0,
-   "stiglo": 5,
+   "stiglo": 6,
    "prihvaceno": 2
   },
   "skice": {
-   "nema": 60,
+   "nema": 58,
    "najavljeno": 1,
    "ceka": 0,
-   "stiglo": 9,
+   "stiglo": 11,
    "prihvaceno": 1
   },
   "maketa": {
-   "nema": 67,
+   "nema": 66,
    "najavljeno": 4,
    "ceka": 0,
-   "stiglo": 0,
+   "stiglo": 1,
    "prihvaceno": 0
   }
  },
@@ -2492,28 +2492,30 @@
   {
    "tim": "T39",
    "objekat": "Belgrade Business House",
-   "procenat": 0,
+   "procenat": 37,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
+     "stanje": "najavljeno",
      "formati": [],
      "datum": null,
      "predaja": 0
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-01",
+     "predaja": 1
     },
     "skice": {
-     "stanje": "nema",
+     "stanje": "najavljeno",
      "formati": [],
      "datum": null,
      "predaja": 0
     },
     "maketa": {
-     "stanje": "nema",
+     "stanje": "najavljeno",
      "formati": [],
      "datum": null,
      "predaja": 0
@@ -2521,7 +2523,6 @@
    },
    "fali": [
     "pasos",
-    "ai-studio",
     "skice",
     "maketa"
    ],
@@ -2534,6 +2535,13 @@
      "datum": "2026-10-12",
      "element": "konsultacija",
      "vrsta": "konsultacije"
+    },
+    {
+     "datum": "2026-11-01",
+     "element": "ai-studio",
+     "formati": [
+      "link"
+     ]
     }
    ]
   },
@@ -2669,7 +2677,7 @@
   {
    "tim": "T42",
    "objekat": "Prva beogradska gimnazija",
-   "procenat": 31,
+   "procenat": 56,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -2687,22 +2695,24 @@
      "predaja": 3
     },
     "skice": {
-     "stanje": "najavljeno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-01",
+     "predaja": 1
     },
     "maketa": {
-     "stanje": "najavljeno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-01",
+     "predaja": 1
     }
    },
    "fali": [
-    "pasos",
-    "skice",
-    "maketa"
+    "pasos"
    ],
    "konsultacija": {
     "datum": "2026-10-28",
@@ -2777,22 +2787,38 @@
      "datum": "2026-10-28",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-01",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-01",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
     }
    ]
   },
   {
    "tim": "T43",
    "objekat": "Hram Svetog Save",
-   "procenat": 0,
+   "procenat": 31,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "mejl"
+     ],
+     "datum": "2026-11-01",
+     "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
+     "stanje": "najavljeno",
      "formati": [],
      "datum": null,
      "predaja": 0
@@ -2811,7 +2837,6 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "skice",
     "maketa"
@@ -2825,6 +2850,13 @@
      "datum": "2026-10-12",
      "element": "konsultacija",
      "vrsta": "konsultacije"
+    },
+    {
+     "datum": "2026-11-01",
+     "element": "pasos",
+     "formati": [
+      "mejl"
+     ]
     }
    ]
   },
@@ -3283,7 +3315,7 @@
   {
    "tim": "T51",
    "objekat": "Privatna stambena zgrada, Sremska Mitrovica",
-   "procenat": 25,
+   "procenat": 43,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -3300,10 +3332,12 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-01",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -3314,7 +3348,6 @@
    },
    "fali": [
     "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
@@ -3333,6 +3366,14 @@
      "formati": [
       "PDF",
       "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-01",
+     "element": "skice",
+     "formati": [
+      "mejl",
+      "slika"
      ]
     }
    ]

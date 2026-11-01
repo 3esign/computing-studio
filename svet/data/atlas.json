@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-d38d466a63e1a168",
+  "datasetRevision": "r-4d8be70b2ebda7a5",
   "teams": [
     {
       "id": "T01",
@@ -1108,9 +1108,9 @@
       "y": 3.2,
       "z": -25,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 3,
+      "progressLabel": "Predata aplikacija, čeka se pasoš",
+      "status": "Predat prototip AI Studio aplikacije za Belgrade Business House (01.11); pasoš sa izvorima još nije stigao.",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1195,7 +1195,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Izrađene AI Studio aplikacije",
-      "status": "Predate 2 AI Studio aplikacije; stigao odgovor Arhiva Jugoslavije (27.10) — građa za aksonometriju i maketu",
+      "status": "Predate 2 AI Studio aplikacije i odgovor Arhiva Jugoslavije (27.10); 31.10 predata maketa — spirala 16 tačaka ka unutra kroz vreme (lokacije, nazivi, broj odeljenja) — u galeriji.",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1221,14 +1221,14 @@
       "y": 4,
       "z": 100.02,
       "type": "hram",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema (revizija 12.10)",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (01.11)",
+      "status": "Prvi podaci o Hramu Svetog Save kurirani u javni sloj (01.11): 7 zapisa — pet faza gradnje 1935–2016 i autori krsta i platoa, svaki sa izvorom „sajt Hrama Svetog Save\" (bez linka i strane).",
+      "hasPassport": true,
+      "claimsCount": 7,
+      "sectionsCount": 2,
+      "previewClaim": "Projekat poveren Nestoroviću i Deroku. Glavni noseći stubovi od armiranog betona, zidovi od opeke do visine 7 m i 12 m. Montirani mermerni stubovi, izrađeno svih 24 kapitela i 6 konzola (prema Derokovim crtežima).",
+      "previewSource": "Sajt Hrama Svetog Save (navod tima uz svaki podatak, bez linka i strane)",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -1456,7 +1456,7 @@
       "type": "most",
       "progressStage": 4,
       "progressLabel": "Predat energetski pasoš",
-      "status": "Predat energetski pasoš (25.10)",
+      "status": "Predat energetski pasoš (25.10); 01.11 predata izmenjena 3D mapa podataka — aksonometrija stambene zgrade P1–P7 sa legendom materijala i izvorima — u galeriji.",
       "hasPassport": true,
       "claimsCount": 44,
       "sectionsCount": 9,
@@ -2466,24 +2466,24 @@
       "lat": 44.7983,
       "lng": 20.4692,
       "locationStatus": "approximate",
-      "passports": 2,
-      "claimsCount": 108,
-      "sectionsCount": 18,
-      "sourcesCount": 26,
+      "passports": 3,
+      "claimsCount": 115,
+      "sectionsCount": 20,
+      "sourcesCount": 27,
       "categories": {
         "research": 0,
         "documents": 6,
         "materials": 44,
-        "time": 10,
+        "time": 14,
         "questions": 9,
         "identity": 3,
         "location": 1,
         "geometry": 3,
-        "structure": 11,
+        "structure": 12,
         "use": 0,
         "energy": 0,
         "environment": 0,
-        "people": 11,
+        "people": 13,
         "methods": 10
       },
       "topics": [
@@ -2502,8 +2502,8 @@
         {
           "team": "T43",
           "topic": "Autorstvo i projektantski kontinuitet (Nestorović, Deroko, Pešić)",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 7,
+          "hasPassport": true
         }
       ]
     },
@@ -12259,6 +12259,104 @@
       ]
     },
     {
+      "id": "T43:faze-gradnje:p1-1935-1939",
+      "team": "T43",
+      "section": "T43:faze-gradnje",
+      "title": "PI — I faza (1935–1939)",
+      "value": "Projekat poveren Nestoroviću i Deroku. Glavni noseći stubovi od armiranog betona, zidovi od opeke do visine 7 m i 12 m. Montirani mermerni stubovi, izrađeno svih 24 kapitela i 6 konzola (prema Derokovim crtežima).",
+      "status": "source-reported",
+      "category": "time",
+      "locator": "PI",
+      "checkedAt": "2026-11-01",
+      "sourceIds": [
+        "T43:S1"
+      ]
+    },
+    {
+      "id": "T43:faze-gradnje:p2-1958",
+      "team": "T43",
+      "section": "T43:faze-gradnje",
+      "title": "PII — II faza (1958)",
+      "value": "Patrijarh German obnavlja ideju o nastavku gradnje. Od septembra 1958. Pešić je imenovan za protomajstora; projektni biro „Studio“ projektuje, građevinsko preduzeće „Rad“ organizuje gradilište. Prvobitni projekat prerađen zbog novih materijala i tehnika.",
+      "status": "source-reported",
+      "category": "time",
+      "locator": "PII",
+      "checkedAt": "2026-11-01",
+      "sourceIds": [
+        "T43:S1"
+      ]
+    },
+    {
+      "id": "T43:faze-gradnje:p3-kupola-1989",
+      "team": "T43",
+      "section": "T43:faze-gradnje",
+      "title": "PIII — podizanje kupole (26. 6. 1989)",
+      "value": "Podignuta centralna kupola teška 4000 t, izrađena na zemlji i podignuta sa bakarnim pokrivačem i krstom od 12 m i 4 t. Podizanje je trajalo 40 dana.",
+      "status": "source-reported",
+      "category": "structure",
+      "locator": "PIII",
+      "checkedAt": "2026-11-01",
+      "sourceIds": [
+        "T43:S1"
+      ]
+    },
+    {
+      "id": "T43:faze-gradnje:p4-1996-1999",
+      "team": "T43",
+      "section": "T43:faze-gradnje",
+      "title": "PIV — 1996–1999",
+      "value": "Projektovanje preuzima firma „Vizantija“. Ugrađeno 8 velikih trompi, završeno oblikovanje spoljnih i unutrašnjih gabarita; ugrađeni svi prozori i rozete, vertikalni oluci i limarski radovi za odvod vode sa zvonika. Radovi prekinuti NATO bombardovanjem 1999.",
+      "status": "source-reported",
+      "category": "time",
+      "locator": "PIV",
+      "checkedAt": "2026-11-01",
+      "sourceIds": [
+        "T43:S1"
+      ]
+    },
+    {
+      "id": "T43:faze-gradnje:p5-2000-2016",
+      "team": "T43",
+      "section": "T43:faze-gradnje",
+      "title": "PV — 2000–2016",
+      "value": "Nastavak radova 4. aprila dolaskom protoneimara Milovanovića i predstavnika biroa „Studio“. Sanacija kupole, pilastara, kapitela i venaca; granitni profili i zaštićena čelična konstrukcija; sanirani zidovi i svodovi galerije; kišna kanalizacija i vodovodna mreža; idejno rešenje kripte.",
+      "status": "source-reported",
+      "category": "time",
+      "locator": "PV",
+      "checkedAt": "2026-11-01",
+      "sourceIds": [
+        "T43:S1"
+      ]
+    },
+    {
+      "id": "T43:autori:svetosavski-krst",
+      "team": "T43",
+      "section": "T43:autori",
+      "title": "PVI — Svetosavski krst",
+      "value": "Akademski vajar Nebojša Mitrić i prof. arhitekture Branko Pešić.",
+      "status": "source-reported",
+      "category": "people",
+      "locator": "PVI",
+      "checkedAt": "2026-11-01",
+      "sourceIds": [
+        "T43:S1"
+      ]
+    },
+    {
+      "id": "T43:autori:svetosavski-plato",
+      "team": "T43",
+      "section": "T43:autori",
+      "title": "PVII — uređenje Svetosavskog platoa",
+      "value": "Prof. dr Vladimir Macura i dipl. inž. Đorđe Bobić.",
+      "status": "source-reported",
+      "category": "people",
+      "locator": "PVII",
+      "checkedAt": "2026-11-01",
+      "sourceIds": [
+        "T43:S1"
+      ]
+    },
+    {
       "id": "T44:metod:2033ca7baa82",
       "team": "T44",
       "section": "T44:metod",
@@ -18525,6 +18623,22 @@
       }
     },
     {
+      "id": "T43:faze-gradnje",
+      "team": "T43",
+      "title": {
+        "sr": "Faze gradnje",
+        "en": "Construction phases"
+      }
+    },
+    {
+      "id": "T43:autori",
+      "team": "T43",
+      "title": {
+        "sr": "Autori",
+        "en": "Authors"
+      }
+    },
+    {
       "id": "T44:metod",
       "team": "T44",
       "title": {
@@ -20400,6 +20514,14 @@
       "kind": "udruženje",
       "team": "T40",
       "canonical": "T40:S5"
+    },
+    {
+      "id": "T43:S1",
+      "label": "Sajt Hrama Svetog Save (navod tima uz svaki podatak, bez linka i strane)",
+      "kind": "zvanični sajt",
+      "checkedAt": "2026-11-01",
+      "team": "T43",
+      "canonical": "T43:S1"
     },
     {
       "id": "T44:S1",
@@ -30650,6 +30772,66 @@
         "kind": "pillar",
         "parent": "T63",
         "slot": 1
+      },
+      {
+        "id": "T43:autori",
+        "kind": "wing",
+        "parent": "T43",
+        "slot": 0
+      },
+      {
+        "id": "T43:faze-gradnje",
+        "kind": "wing",
+        "parent": "T43",
+        "slot": 1
+      },
+      {
+        "id": "T43:autori:svetosavski-krst",
+        "kind": "bay",
+        "parent": "T43:autori",
+        "slot": 0
+      },
+      {
+        "id": "T43:autori:svetosavski-plato",
+        "kind": "bay",
+        "parent": "T43:autori",
+        "slot": 1
+      },
+      {
+        "id": "T43:faze-gradnje:p1-1935-1939",
+        "kind": "bay",
+        "parent": "T43:faze-gradnje",
+        "slot": 0
+      },
+      {
+        "id": "T43:faze-gradnje:p2-1958",
+        "kind": "bay",
+        "parent": "T43:faze-gradnje",
+        "slot": 1
+      },
+      {
+        "id": "T43:faze-gradnje:p3-kupola-1989",
+        "kind": "bay",
+        "parent": "T43:faze-gradnje",
+        "slot": 2
+      },
+      {
+        "id": "T43:faze-gradnje:p4-1996-1999",
+        "kind": "bay",
+        "parent": "T43:faze-gradnje",
+        "slot": 3
+      },
+      {
+        "id": "T43:faze-gradnje:p5-2000-2016",
+        "kind": "bay",
+        "parent": "T43:faze-gradnje",
+        "slot": 4
+      },
+      {
+        "id": "T43:S1",
+        "kind": "pillar",
+        "parent": "T43",
+        "slot": 0
       }
     ]
   },
@@ -31322,7 +31504,7 @@
           ],
           "progressStage": 4,
           "progressLabel": "Predat energetski pasoš",
-          "status": "Predat energetski pasoš (25.10)",
+          "status": "Predat energetski pasoš (25.10); 01.11 predata izmenjena 3D mapa podataka — aksonometrija stambene zgrade P1–P7 sa legendom materijala i izvorima — u galeriji.",
           "hasPassport": true,
           "claimsCount": 44
         },

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-11",
+  "updated": "2026-11-01",
   "note": {
     "en": "Student pilot digital passports, submitted by e-mail. The curated layer keeps claims with their sources; duplicates of one source are merged; legends are separated from facts; unknowns stay unknown. The original submission is preserved verbatim in originalText.",
     "sr": "Studentski piloti digitalnih pasoša (mejl 2026-10-12; prijem dokumenata 2026-10-18). Kurirani sloj čuva tvrdnje sa izvorima; ponavljanja istog izvora su spojena; legende odvojene od činjenica; nepoznato ostaje nepoznato. Originalni podnesci su doslovno sačuvani u originalText i u privatnoj evidenciji (van javnog izvoda). Imena podnosilaca nisu deo javnog izvoda — atribucija je po broju indeksa (odluka 20.10.2026)."
@@ -13783,6 +13783,124 @@
         "file": "evidencija/prijem-2026-10-18/raw/svi podaci iz mailova da se provere i zavedu.pdf",
         "sha256": "5e34deb4791667387ef7e21c1f7d544d080e77d06756495f40e466d2d16ab6b1"
       }
+    },
+    {
+      "id": "t43",
+      "team": "T43",
+      "credit": "16/26 · 24/26",
+      "received": "2026-11-01",
+      "object": {
+        "name": "Hram Svetog Save"
+      },
+      "sections": [
+        {
+          "id": "faze-gradnje",
+          "title": {
+            "sr": "Faze gradnje",
+            "en": "Construction phases"
+          },
+          "claims": [
+            {
+              "id": "T43:faze-gradnje:p1-1935-1939",
+              "t": "PI — I faza (1935–1939)",
+              "v": "Projekat poveren Nestoroviću i Deroku. Glavni noseći stubovi od armiranog betona, zidovi od opeke do visine 7 m i 12 m. Montirani mermerni stubovi, izrađeno svih 24 kapitela i 6 konzola (prema Derokovim crtežima).",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "locator": "PI",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:faze-gradnje:p2-1958",
+              "t": "PII — II faza (1958)",
+              "v": "Patrijarh German obnavlja ideju o nastavku gradnje. Od septembra 1958. Pešić je imenovan za protomajstora; projektni biro „Studio“ projektuje, građevinsko preduzeće „Rad“ organizuje gradilište. Prvobitni projekat prerađen zbog novih materijala i tehnika.",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "locator": "PII",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:faze-gradnje:p3-kupola-1989",
+              "t": "PIII — podizanje kupole (26. 6. 1989)",
+              "v": "Podignuta centralna kupola teška 4000 t, izrađena na zemlji i podignuta sa bakarnim pokrivačem i krstom od 12 m i 4 t. Podizanje je trajalo 40 dana.",
+              "s": [
+                "S1"
+              ],
+              "category": "structure",
+              "locator": "PIII",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:faze-gradnje:p4-1996-1999",
+              "t": "PIV — 1996–1999",
+              "v": "Projektovanje preuzima firma „Vizantija“. Ugrađeno 8 velikih trompi, završeno oblikovanje spoljnih i unutrašnjih gabarita; ugrađeni svi prozori i rozete, vertikalni oluci i limarski radovi za odvod vode sa zvonika. Radovi prekinuti NATO bombardovanjem 1999.",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "locator": "PIV",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:faze-gradnje:p5-2000-2016",
+              "t": "PV — 2000–2016",
+              "v": "Nastavak radova 4. aprila dolaskom protoneimara Milovanovića i predstavnika biroa „Studio“. Sanacija kupole, pilastara, kapitela i venaca; granitni profili i zaštićena čelična konstrukcija; sanirani zidovi i svodovi galerije; kišna kanalizacija i vodovodna mreža; idejno rešenje kripte.",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "locator": "PV",
+              "checkedAt": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "id": "autori",
+          "title": {
+            "sr": "Autori",
+            "en": "Authors"
+          },
+          "claims": [
+            {
+              "id": "T43:autori:svetosavski-krst",
+              "t": "PVI — Svetosavski krst",
+              "v": "Akademski vajar Nebojša Mitrić i prof. arhitekture Branko Pešić.",
+              "s": [
+                "S1"
+              ],
+              "category": "people",
+              "locator": "PVI",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:autori:svetosavski-plato",
+              "t": "PVII — uređenje Svetosavskog platoa",
+              "v": "Prof. dr Vladimir Macura i dipl. inž. Đorđe Bobić.",
+              "s": [
+                "S1"
+              ],
+              "category": "people",
+              "locator": "PVII",
+              "checkedAt": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Sajt Hrama Svetog Save (navod tima uz svaki podatak, bez linka i strane)",
+          "kind": "zvanični sajt",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-01/raw/2/Podaci za racunarstvo.odt",
+        "sha256": "cfddc4b51f5f0ee1cb4ef645fdff53adbf92576eb68cc3278ae2d66cf3bc4148"
+      }
     }
   ],
   "inbox": [
@@ -13799,5 +13917,5 @@
       "state": "zavedeno 2026-10-19 — registar timova: docs/data/pasos/timovi-evidencija.json (28 stavki, 5 otvorenih pitanja)"
     }
   ],
-  "datasetRevision": "r-d38d466a63e1a168"
+  "datasetRevision": "r-4d8be70b2ebda7a5"
 }

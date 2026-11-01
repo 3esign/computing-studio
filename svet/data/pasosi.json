@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "datasetRevision": "r-d38d466a63e1a168",
+  "datasetRevision": "r-4d8be70b2ebda7a5",
   "note": "Kurirani zapisi sa izvorima; nisu nezavisna potvrda.",
   "passports": [
     {
@@ -8176,6 +8176,116 @@
           "id": "S5",
           "label": "Inženjerska komora Srbije — uporedne analize potrošnje (navod studenta)",
           "kind": "udruženje"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "T43",
+      "object": "Hram Svetog Save",
+      "sections": [
+        {
+          "id": "faze-gradnje",
+          "title": {
+            "sr": "Faze gradnje",
+            "en": "Construction phases"
+          },
+          "claims": [
+            {
+              "id": "T43:faze-gradnje:p1-1935-1939",
+              "t": "PI — I faza (1935–1939)",
+              "v": "Projekat poveren Nestoroviću i Deroku. Glavni noseći stubovi od armiranog betona, zidovi od opeke do visine 7 m i 12 m. Montirani mermerni stubovi, izrađeno svih 24 kapitela i 6 konzola (prema Derokovim crtežima).",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "locator": "PI",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:faze-gradnje:p2-1958",
+              "t": "PII — II faza (1958)",
+              "v": "Patrijarh German obnavlja ideju o nastavku gradnje. Od septembra 1958. Pešić je imenovan za protomajstora; projektni biro „Studio“ projektuje, građevinsko preduzeće „Rad“ organizuje gradilište. Prvobitni projekat prerađen zbog novih materijala i tehnika.",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "locator": "PII",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:faze-gradnje:p3-kupola-1989",
+              "t": "PIII — podizanje kupole (26. 6. 1989)",
+              "v": "Podignuta centralna kupola teška 4000 t, izrađena na zemlji i podignuta sa bakarnim pokrivačem i krstom od 12 m i 4 t. Podizanje je trajalo 40 dana.",
+              "s": [
+                "S1"
+              ],
+              "category": "structure",
+              "locator": "PIII",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:faze-gradnje:p4-1996-1999",
+              "t": "PIV — 1996–1999",
+              "v": "Projektovanje preuzima firma „Vizantija“. Ugrađeno 8 velikih trompi, završeno oblikovanje spoljnih i unutrašnjih gabarita; ugrađeni svi prozori i rozete, vertikalni oluci i limarski radovi za odvod vode sa zvonika. Radovi prekinuti NATO bombardovanjem 1999.",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "locator": "PIV",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:faze-gradnje:p5-2000-2016",
+              "t": "PV — 2000–2016",
+              "v": "Nastavak radova 4. aprila dolaskom protoneimara Milovanovića i predstavnika biroa „Studio“. Sanacija kupole, pilastara, kapitela i venaca; granitni profili i zaštićena čelična konstrukcija; sanirani zidovi i svodovi galerije; kišna kanalizacija i vodovodna mreža; idejno rešenje kripte.",
+              "s": [
+                "S1"
+              ],
+              "category": "time",
+              "locator": "PV",
+              "checkedAt": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "id": "autori",
+          "title": {
+            "sr": "Autori",
+            "en": "Authors"
+          },
+          "claims": [
+            {
+              "id": "T43:autori:svetosavski-krst",
+              "t": "PVI — Svetosavski krst",
+              "v": "Akademski vajar Nebojša Mitrić i prof. arhitekture Branko Pešić.",
+              "s": [
+                "S1"
+              ],
+              "category": "people",
+              "locator": "PVI",
+              "checkedAt": "2026-11-01"
+            },
+            {
+              "id": "T43:autori:svetosavski-plato",
+              "t": "PVII — uređenje Svetosavskog platoa",
+              "v": "Prof. dr Vladimir Macura i dipl. inž. Đorđe Bobić.",
+              "s": [
+                "S1"
+              ],
+              "category": "people",
+              "locator": "PVII",
+              "checkedAt": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Sajt Hrama Svetog Save (navod tima uz svaki podatak, bez linka i strane)",
+          "kind": "zvanični sajt",
+          "checkedAt": "2026-11-01"
         }
       ],
       "media": []
