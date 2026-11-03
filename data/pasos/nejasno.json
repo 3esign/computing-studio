@@ -1,6 +1,6 @@
 {
   "schema": "or/nejasno@1",
-  "updated": "2026-10-31",
+  "updated": "2026-11-03",
   "note": {
     "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 30.10. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
     "en": "All open questions to the teams in one place, as of the intakes up to 30 Oct. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
@@ -27,14 +27,15 @@
       "askEn": "T28: which member holds 33 and which 62, and how is the surname spelled exactly?"
     },
     {
-      "id": "n-t21-indeksi",
+      "id": "n-t72-indeksi",
       "teams": [
+        "T72",
         "T21"
       ],
-      "sr": "Mejlom od 24. 10. potvrđen sastav tima za Ušće two tower: 129/26, 18/26 i 69/26 — sva tri se razlikuju od registra (135/26, 107/26, 114/26), a 18/26 i 69/26 već stoje u T54 i T51. Prilozi iz tog mejla nisu stigli u predaju.",
-      "en": "An email of 24 Oct confirms the Ušće two tower team as 129/26, 18/26 and 69/26 — all three differ from the register (135/26, 107/26, 114/26), and 18/26 and 69/26 already exist in T54 and T51. The attachments from that email never arrived.",
-      "askSr": "Koji sastav T21 je tačan i gde su prilozi o načinu gradnje Ušća 2?",
-      "askEn": "Which T21 line-up is correct, and where are the Ušće 2 construction attachments?"
+      "sr": "Ušće Tower (T72): mejlom od 24. 10. tim navodi 129/26, 18/26 i 69/26, a 18/26 i 69/26 već stoje u T54 i T51. Do 03.11. ovaj tim je bio upisan pod T21; T21 (135/26, 107/26, 114/26) radi Kulu Beograd, ali indekse u predajama nije naveo. Prilozi iz mejla od 24.10. nisu stigli.",
+      "en": "Ušće Tower (T72): an email of 24 Oct lists 129/26, 18/26 and 69/26, but 18/26 and 69/26 already exist in T54 and T51. Until 3 Nov this team was filed under T21; T21 (135/26, 107/26, 114/26) works on Kula Beograd but has not stated its indices in any submission. The attachments from the 24 Oct email never arrived.",
+      "askSr": "T72: koji su tačni indeksi i gde su prilozi o načinu gradnje Ušća 2? T21: potvrdite indekse u sledećoj predaji.",
+      "askEn": "T72: which indices are correct, and where are the Ušće 2 construction attachments? T21: confirm your indices in the next submission."
     },
     {
       "id": "n-t69-sastav",
@@ -52,8 +53,8 @@
       "teams": [
         "T46"
       ],
-      "sr": "Hotel Jugoslavija (T46): podnesci od 23.10. i 27.10. vezani su samo objektom, a pošiljalac dopune nije u registru T46 (89/26, 143/26, 153/26). Dve kule Beograd su razrešene: tim T44 je 27.10. dokumentovao promenu objekta.",
-      "en": "Hotel Jugoslavija (T46): the submissions of 23 and 27 Oct are tied only to the object, and the sender of the supplement is not in the T46 register (89/26, 143/26, 153/26). Dve kule Beograd is resolved: team T44 documented its change of object on 27 Oct.",
+      "sr": "Hotel Jugoslavija (T46): podnesci od 23.10. i 27.10. vezani su samo objektom, a pošiljalac dopune nije u registru T46 (89/26, 143/26, 153/26). Dve kule Beograd: istraživanje od 27.10. pripada T21 (ispravka 03.11).",
+      "en": "Hotel Jugoslavija (T46): the submissions of 23 and 27 Oct are tied only to the object, and the sender of the supplement is not in the T46 register (89/26, 143/26, 153/26). Dve kule Beograd: the research of 27 Oct belongs to T21 (corrected 3 Nov).",
       "askSr": "T46: koji indeksi čine tim i da li pošiljalac dopune pripada timu?",
       "askEn": "T46: which indices form the team, and does the sender of the supplement belong to it?"
     },
@@ -133,14 +134,14 @@
       "askEn": "T05: add a source to each claim in the descriptive part."
     },
     {
-      "id": "n-t44-sedam-pitanja",
+      "id": "n-t21-sedam-pitanja",
       "teams": [
-        "T44"
+        "T21"
       ],
-      "sr": "Kula Beograd (T44): pasoš od 27.10. sam ostavlja sedam pitanja bez odgovora (objavljena su kao „nepoznato“), a tvrdnja o investitoru iz UAE nema izvor.",
-      "en": "Kula Beograd (T44): the passport of 27 Oct itself leaves seven questions unanswered (published as “unknown”), and the claim about the UAE investor has no source.",
-      "askSr": "T44: odgovori na sedam otvorenih pitanja iz vašeg dosijea i izvor za investitora.",
-      "askEn": "T44: answers to the seven open questions in your dossier and a source for the investor."
+      "sr": "Kula Beograd (T21): pasoš od 27.10. sam ostavlja sedam pitanja bez odgovora (objavljena su kao „nepoznato“), a tvrdnja o investitoru iz UAE nema izvor.",
+      "en": "Kula Beograd (T21): the passport of 27 Oct itself leaves seven questions unanswered (published as “unknown”), and the claim about the UAE investor has no source.",
+      "askSr": "T21: odgovori na sedam otvorenih pitanja iz vašeg dosijea i izvor za investitora.",
+      "askEn": "T21: answers to the seven open questions in your dossier and a source for the investor."
     },
     {
       "id": "n-t16-t31-t50-izvori",

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "datasetRevision": "r-4d8be70b2ebda7a5",
+  "datasetRevision": "r-2bd64b02d939a9b2",
   "note": "Kurirani zapisi sa izvorima; nisu nezavisna potvrda.",
   "passports": [
     {
@@ -4821,6 +4821,327 @@
       "media": []
     },
     {
+      "id": "T21",
+      "object": "Kula Beograd",
+      "sections": [
+        {
+          "id": "metod",
+          "title": {
+            "en": "Question and method",
+            "sr": "Pitanje i način istraživanja"
+          },
+          "claims": [
+            {
+              "t": "Glavno pitanje",
+              "v": "kako se Kula Beograd menjala od ranih javnih najava do izvedenog objekta i šta se o razlozima promena može pouzdano dokazati",
+              "s": [
+                "S11"
+              ],
+              "id": "T21:metod:2033ca7baa82",
+              "category": "research"
+            },
+            {
+              "t": "Princip",
+              "v": "svaki podatak vezan za izvor i datum; render pokazuje kako je kula predstavljena u jednom trenutku, ne dokazuje usvojen projekat",
+              "s": [
+                "S11"
+              ],
+              "id": "T21:metod:c5898c0af3a3",
+              "category": "methods"
+            },
+            {
+              "t": "Tvrdnja o nameni za UAE",
+              "v": "nije potvrđena: izvori dokazuju prezentaciju u Dubaiju i investitora iz UAE, ne i da je kula ranije projektovana za lokaciju u Emiratima",
+              "s": [
+                "S1",
+                "S2",
+                "S11"
+              ],
+              "id": "T21:metod:f8fccf392644",
+              "category": "questions",
+              "status": "unconfirmed"
+            },
+            {
+              "t": "Sajt tima",
+              "v": "početna verzija sajta istraživanja objavljena kao AI Studio aplikacija",
+              "s": [
+                "S10"
+              ],
+              "id": "T21:metod:5c06fe740984",
+              "category": "methods"
+            }
+          ]
+        },
+        {
+          "id": "hronologija",
+          "title": {
+            "en": "Timeline by source",
+            "sr": "Hronologija po izvorima"
+          },
+          "claims": [
+            {
+              "t": "Januar 2014",
+              "v": "u medijima kula od oko 180 m, opisana kao „nalik onoj u Dubaiju“ — rana najava, ne dokaz projekta za UAE",
+              "s": [
+                "S1"
+              ],
+              "id": "T21:hronologija:e0a5ed1a49e5",
+              "category": "time"
+            },
+            {
+              "t": "Mart 2014",
+              "v": "master plan Beograda na vodi i idejna rešenja kule predstavljeni u Dubaiju; Eagle Hills raspisao konkurs; pominje se studio SOM",
+              "s": [
+                "S2"
+              ],
+              "id": "T21:hronologija:226e66fdaff5",
+              "category": "time"
+            },
+            {
+              "t": "2014 — 220 m",
+              "v": "kasniji izveštaji navode da se 2014. pominjala visina 220 m; najraniji originalni prikaz još treba naći",
+              "s": [
+                "S3",
+                "S9"
+              ],
+              "id": "T21:hronologija:32009ba486b3",
+              "category": "time"
+            },
+            {
+              "t": "2015 — oko 200 m",
+              "v": "u medijima visina oko 200 m; nije utvrđeno na koju verziju se odnosi",
+              "s": [
+                "S3"
+              ],
+              "id": "T21:hronologija:49d816586cf2",
+              "category": "time"
+            },
+            {
+              "t": "Mart 2016 — 168 m",
+              "v": "javna prezentacija prikazuje verziju visoku 168 m",
+              "s": [
+                "S3",
+                "S9"
+              ],
+              "id": "T21:hronologija:44d70423e0ff",
+              "category": "time"
+            },
+            {
+              "t": "April 2016 — obrazloženje",
+              "v": "gradonačelnik: kula niža i šira da se bolje uklopi u Beograd; u istom izveštaju 168 m i 45 spratova",
+              "s": [
+                "S4"
+              ],
+              "id": "T21:hronologija:8837f1fb5352",
+              "category": "time"
+            },
+            {
+              "t": "Februar 2019 — dozvola",
+              "v": "Vlada Srbije: izdata građevinska dozvola za kulu visine 168 m, površine 47.500 m²",
+              "s": [
+                "S7",
+                "S8"
+              ],
+              "id": "T21:hronologija:76197b70211b",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "izvedeno",
+          "title": {
+            "en": "The built tower",
+            "sr": "Izvedeni objekat"
+          },
+          "claims": [
+            {
+              "t": "Visina",
+              "v": "168 m",
+              "s": [
+                "S6",
+                "S7"
+              ],
+              "id": "T21:izvedeno:267d413f72e7",
+              "category": "geometry"
+            },
+            {
+              "t": "Spratnost",
+              "v": "42 sprata po SOM-u; RTS 15. 4. 2016 navodi 45 — razlika može poticati iz različitih faza ili načina brojanja etaža",
+              "s": [
+                "S4",
+                "S6"
+              ],
+              "id": "T21:izvedeno:07036263a91d",
+              "category": "geometry",
+              "status": "conflict"
+            },
+            {
+              "t": "Bruto površina",
+              "v": "47.500 m²",
+              "s": [
+                "S6",
+                "S7"
+              ],
+              "id": "T21:izvedeno:c71ed7d3f0d0",
+              "category": "geometry"
+            },
+            {
+              "t": "Rotacija volumena",
+              "v": "orijentacija kule rotira se za 90° kako se objekat uzdiže; po SOM-u daje različite orijentacije prema kontekstu i smanjuje opterećenje vetrom",
+              "s": [
+                "S6"
+              ],
+              "id": "T21:izvedeno:62274dffd711",
+              "category": "structure"
+            },
+            {
+              "t": "Šta izvori ne govore",
+              "v": "kada se rotacija prvi put pojavila u procesu; potrebni datirani raniji renderi ili konkursni prikazi",
+              "s": [
+                "S6",
+                "S11"
+              ],
+              "id": "T21:izvedeno:bf22d308a224",
+              "category": "questions"
+            }
+          ]
+        },
+        {
+          "id": "pitanja",
+          "title": {
+            "en": "Open research questions",
+            "sr": "Istraživačka pitanja za sledeću fazu"
+          },
+          "claims": [
+            {
+              "t": "Najraniji prikaz",
+              "v": "koji je najraniji prikaz Kule Beograd koji se može pouzdano datirati",
+              "s": [],
+              "id": "T21:pitanja:66530bb536c8",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Status visine 220 m",
+              "v": "da li je 220 m bila deo zvaničnog projektnog predloga ili javno predstavljena ideja",
+              "s": [],
+              "id": "T21:pitanja:61b3975b153d",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Broj ili oblik",
+              "v": "da li se između 220, oko 200 i 168 m menjao samo broj ili i oblik kule",
+              "s": [],
+              "id": "T21:pitanja:a6600e72f138",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Prva rotacija",
+              "v": "kada se prvi put pojavljuje rotacija volumena od 90°",
+              "s": [],
+              "id": "T21:pitanja:050776c706a7",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Render naspram izvedenog",
+              "v": "koje razlike između ranijih rendera i izvedenog objekta se mogu direktno dokazati",
+              "s": [],
+              "id": "T21:pitanja:e0eac2f39342",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Izjave projektanata",
+              "v": "postoje li originalne izjave ili dokumenti koji objašnjavaju promene",
+              "s": [],
+              "id": "T21:pitanja:01dd9c9055ac",
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "t": "Dokument o UAE",
+              "v": "postoji li originalni dokument koji potvrđuje da je projekat ranije bio namenjen lokaciji u UAE",
+              "s": [],
+              "id": "T21:pitanja:2db1a1e01db0",
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Blic / Tanjug, 19. 1. 2014 — „Ovako će izgledati Beograd na vodi“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.blic.rs/vesti/beograd/ovako-ce-izgledati-beograd-na-vodi/bjvvc7q"
+        },
+        {
+          "id": "S2",
+          "label": "RTS, 2. 3. 2014 — „Beograd na vodi predstavljen u Dubaiju“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.rts.rs/lat/vesti/ekonomija/1536317/beograd-na-vodi-predstavljen-u-dubaiju.html"
+        },
+        {
+          "id": "S3",
+          "label": "Gradnja / Tanjug, 7. 3. 2016 — „Draga, smanjio sam kulu!“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.gradnja.rs/draga-smanjio-sam-kulu-nova-visina-beograda-na-vodi-168-metara/"
+        },
+        {
+          "id": "S4",
+          "label": "RTS, 15. 4. 2016 — „Mali: Kula Beograda biće najviša u ovom delu Evrope“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.rts.rs/lat/vesti/drustvo/2283329/.html?print=true"
+        },
+        {
+          "id": "S5",
+          "label": "Blic, 11. 11. 2017 — „Kula Beograd je po prvobitnom projektu trebalo da bude 52 metra viša…“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.blic.rs/vesti/beograd/kula-beograd-je-po-prvobitnom-projektu-trebalo-da-bude-52-metra-visa-i-drugacijeg/1hsyrrp"
+        },
+        {
+          "id": "S6",
+          "label": "SOM — zvanična stranica projekta Kula Belgrade (navod studenta)",
+          "kind": "zvanični sajt projektanta",
+          "url": "https://www.som.com/projects/kula-belgrade/"
+        },
+        {
+          "id": "S7",
+          "label": "Vlada Republike Srbije, 7. 2. 2019 — saopštenje o građevinskoj dozvoli (navod studenta)",
+          "kind": "zvanično saopštenje",
+          "url": "https://www.srbija.gov.rs/vest/363737/izdata-gradjevinska-dozvola-za-izgradnju-kule-beograd.php"
+        },
+        {
+          "id": "S8",
+          "label": "RTS / Tanjug, 7. 2. 2019 — „Izdata građevinska dozvola za gradnju Kule Beograd“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.rts.rs/lat/vesti/drustvo/3412734/izdata-gradjevinska-dozvola-za-gradnju-kule-beograd.html"
+        },
+        {
+          "id": "S9",
+          "label": "Novosti, 5. 3. 2016 — „Kula samo 168 metara!“ (navod studenta)",
+          "kind": "mediji",
+          "url": "https://www.novosti.rs/vesti/beograd.74.html%3A594158-Kula-samo-168-metara"
+        },
+        {
+          "id": "S10",
+          "label": "Sajt tima „Dve kule Beograd“ (AI Studio aplikacija, početak, 27. 10. 2026)",
+          "kind": "studentska aplikacija",
+          "url": "https://dve-kule-beograd.ai.studio/"
+        },
+        {
+          "id": "S11",
+          "label": "Studentski podnesak „Dve kule Beograd — radna verzija istraživanja“ (PDF, 27. 10. 2026)",
+          "kind": "studentski podnesak"
+        }
+      ],
+      "media": []
+    },
+    {
       "id": "T22",
       "object": "Stambeno-poslovni kompleks „K-District” (Donji Grad)",
       "sections": [
@@ -8286,327 +8607,6 @@
           "label": "Sajt Hrama Svetog Save (navod tima uz svaki podatak, bez linka i strane)",
           "kind": "zvanični sajt",
           "checkedAt": "2026-11-01"
-        }
-      ],
-      "media": []
-    },
-    {
-      "id": "T44",
-      "object": "Kula Beograd",
-      "sections": [
-        {
-          "id": "metod",
-          "title": {
-            "en": "Question and method",
-            "sr": "Pitanje i način istraživanja"
-          },
-          "claims": [
-            {
-              "t": "Glavno pitanje",
-              "v": "kako se Kula Beograd menjala od ranih javnih najava do izvedenog objekta i šta se o razlozima promena može pouzdano dokazati",
-              "s": [
-                "S11"
-              ],
-              "id": "T44:metod:2033ca7baa82",
-              "category": "research"
-            },
-            {
-              "t": "Princip",
-              "v": "svaki podatak vezan za izvor i datum; render pokazuje kako je kula predstavljena u jednom trenutku, ne dokazuje usvojen projekat",
-              "s": [
-                "S11"
-              ],
-              "id": "T44:metod:c5898c0af3a3",
-              "category": "methods"
-            },
-            {
-              "t": "Tvrdnja o nameni za UAE",
-              "v": "nije potvrđena: izvori dokazuju prezentaciju u Dubaiju i investitora iz UAE, ne i da je kula ranije projektovana za lokaciju u Emiratima",
-              "s": [
-                "S1",
-                "S2",
-                "S11"
-              ],
-              "id": "T44:metod:f8fccf392644",
-              "category": "questions",
-              "status": "unconfirmed"
-            },
-            {
-              "t": "Sajt tima",
-              "v": "početna verzija sajta istraživanja objavljena kao AI Studio aplikacija",
-              "s": [
-                "S10"
-              ],
-              "id": "T44:metod:5c06fe740984",
-              "category": "methods"
-            }
-          ]
-        },
-        {
-          "id": "hronologija",
-          "title": {
-            "en": "Timeline by source",
-            "sr": "Hronologija po izvorima"
-          },
-          "claims": [
-            {
-              "t": "Januar 2014",
-              "v": "u medijima kula od oko 180 m, opisana kao „nalik onoj u Dubaiju“ — rana najava, ne dokaz projekta za UAE",
-              "s": [
-                "S1"
-              ],
-              "id": "T44:hronologija:e0a5ed1a49e5",
-              "category": "time"
-            },
-            {
-              "t": "Mart 2014",
-              "v": "master plan Beograda na vodi i idejna rešenja kule predstavljeni u Dubaiju; Eagle Hills raspisao konkurs; pominje se studio SOM",
-              "s": [
-                "S2"
-              ],
-              "id": "T44:hronologija:226e66fdaff5",
-              "category": "time"
-            },
-            {
-              "t": "2014 — 220 m",
-              "v": "kasniji izveštaji navode da se 2014. pominjala visina 220 m; najraniji originalni prikaz još treba naći",
-              "s": [
-                "S3",
-                "S9"
-              ],
-              "id": "T44:hronologija:32009ba486b3",
-              "category": "time"
-            },
-            {
-              "t": "2015 — oko 200 m",
-              "v": "u medijima visina oko 200 m; nije utvrđeno na koju verziju se odnosi",
-              "s": [
-                "S3"
-              ],
-              "id": "T44:hronologija:49d816586cf2",
-              "category": "time"
-            },
-            {
-              "t": "Mart 2016 — 168 m",
-              "v": "javna prezentacija prikazuje verziju visoku 168 m",
-              "s": [
-                "S3",
-                "S9"
-              ],
-              "id": "T44:hronologija:44d70423e0ff",
-              "category": "time"
-            },
-            {
-              "t": "April 2016 — obrazloženje",
-              "v": "gradonačelnik: kula niža i šira da se bolje uklopi u Beograd; u istom izveštaju 168 m i 45 spratova",
-              "s": [
-                "S4"
-              ],
-              "id": "T44:hronologija:8837f1fb5352",
-              "category": "time"
-            },
-            {
-              "t": "Februar 2019 — dozvola",
-              "v": "Vlada Srbije: izdata građevinska dozvola za kulu visine 168 m, površine 47.500 m²",
-              "s": [
-                "S7",
-                "S8"
-              ],
-              "id": "T44:hronologija:76197b70211b",
-              "category": "documents"
-            }
-          ]
-        },
-        {
-          "id": "izvedeno",
-          "title": {
-            "en": "The built tower",
-            "sr": "Izvedeni objekat"
-          },
-          "claims": [
-            {
-              "t": "Visina",
-              "v": "168 m",
-              "s": [
-                "S6",
-                "S7"
-              ],
-              "id": "T44:izvedeno:267d413f72e7",
-              "category": "geometry"
-            },
-            {
-              "t": "Spratnost",
-              "v": "42 sprata po SOM-u; RTS 15. 4. 2016 navodi 45 — razlika može poticati iz različitih faza ili načina brojanja etaža",
-              "s": [
-                "S4",
-                "S6"
-              ],
-              "id": "T44:izvedeno:07036263a91d",
-              "category": "geometry",
-              "status": "conflict"
-            },
-            {
-              "t": "Bruto površina",
-              "v": "47.500 m²",
-              "s": [
-                "S6",
-                "S7"
-              ],
-              "id": "T44:izvedeno:c71ed7d3f0d0",
-              "category": "geometry"
-            },
-            {
-              "t": "Rotacija volumena",
-              "v": "orijentacija kule rotira se za 90° kako se objekat uzdiže; po SOM-u daje različite orijentacije prema kontekstu i smanjuje opterećenje vetrom",
-              "s": [
-                "S6"
-              ],
-              "id": "T44:izvedeno:62274dffd711",
-              "category": "structure"
-            },
-            {
-              "t": "Šta izvori ne govore",
-              "v": "kada se rotacija prvi put pojavila u procesu; potrebni datirani raniji renderi ili konkursni prikazi",
-              "s": [
-                "S6",
-                "S11"
-              ],
-              "id": "T44:izvedeno:bf22d308a224",
-              "category": "questions"
-            }
-          ]
-        },
-        {
-          "id": "pitanja",
-          "title": {
-            "en": "Open research questions",
-            "sr": "Istraživačka pitanja za sledeću fazu"
-          },
-          "claims": [
-            {
-              "t": "Najraniji prikaz",
-              "v": "koji je najraniji prikaz Kule Beograd koji se može pouzdano datirati",
-              "s": [],
-              "id": "T44:pitanja:66530bb536c8",
-              "category": "questions",
-              "status": "unknown"
-            },
-            {
-              "t": "Status visine 220 m",
-              "v": "da li je 220 m bila deo zvaničnog projektnog predloga ili javno predstavljena ideja",
-              "s": [],
-              "id": "T44:pitanja:61b3975b153d",
-              "category": "questions",
-              "status": "unknown"
-            },
-            {
-              "t": "Broj ili oblik",
-              "v": "da li se između 220, oko 200 i 168 m menjao samo broj ili i oblik kule",
-              "s": [],
-              "id": "T44:pitanja:a6600e72f138",
-              "category": "questions",
-              "status": "unknown"
-            },
-            {
-              "t": "Prva rotacija",
-              "v": "kada se prvi put pojavljuje rotacija volumena od 90°",
-              "s": [],
-              "id": "T44:pitanja:050776c706a7",
-              "category": "questions",
-              "status": "unknown"
-            },
-            {
-              "t": "Render naspram izvedenog",
-              "v": "koje razlike između ranijih rendera i izvedenog objekta se mogu direktno dokazati",
-              "s": [],
-              "id": "T44:pitanja:e0eac2f39342",
-              "category": "questions",
-              "status": "unknown"
-            },
-            {
-              "t": "Izjave projektanata",
-              "v": "postoje li originalne izjave ili dokumenti koji objašnjavaju promene",
-              "s": [],
-              "id": "T44:pitanja:01dd9c9055ac",
-              "category": "questions",
-              "status": "unknown"
-            },
-            {
-              "t": "Dokument o UAE",
-              "v": "postoji li originalni dokument koji potvrđuje da je projekat ranije bio namenjen lokaciji u UAE",
-              "s": [],
-              "id": "T44:pitanja:2db1a1e01db0",
-              "category": "questions",
-              "status": "unknown"
-            }
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "label": "Blic / Tanjug, 19. 1. 2014 — „Ovako će izgledati Beograd na vodi“ (navod studenta)",
-          "kind": "mediji",
-          "url": "https://www.blic.rs/vesti/beograd/ovako-ce-izgledati-beograd-na-vodi/bjvvc7q"
-        },
-        {
-          "id": "S2",
-          "label": "RTS, 2. 3. 2014 — „Beograd na vodi predstavljen u Dubaiju“ (navod studenta)",
-          "kind": "mediji",
-          "url": "https://www.rts.rs/lat/vesti/ekonomija/1536317/beograd-na-vodi-predstavljen-u-dubaiju.html"
-        },
-        {
-          "id": "S3",
-          "label": "Gradnja / Tanjug, 7. 3. 2016 — „Draga, smanjio sam kulu!“ (navod studenta)",
-          "kind": "mediji",
-          "url": "https://www.gradnja.rs/draga-smanjio-sam-kulu-nova-visina-beograda-na-vodi-168-metara/"
-        },
-        {
-          "id": "S4",
-          "label": "RTS, 15. 4. 2016 — „Mali: Kula Beograda biće najviša u ovom delu Evrope“ (navod studenta)",
-          "kind": "mediji",
-          "url": "https://www.rts.rs/lat/vesti/drustvo/2283329/.html?print=true"
-        },
-        {
-          "id": "S5",
-          "label": "Blic, 11. 11. 2017 — „Kula Beograd je po prvobitnom projektu trebalo da bude 52 metra viša…“ (navod studenta)",
-          "kind": "mediji",
-          "url": "https://www.blic.rs/vesti/beograd/kula-beograd-je-po-prvobitnom-projektu-trebalo-da-bude-52-metra-visa-i-drugacijeg/1hsyrrp"
-        },
-        {
-          "id": "S6",
-          "label": "SOM — zvanična stranica projekta Kula Belgrade (navod studenta)",
-          "kind": "zvanični sajt projektanta",
-          "url": "https://www.som.com/projects/kula-belgrade/"
-        },
-        {
-          "id": "S7",
-          "label": "Vlada Republike Srbije, 7. 2. 2019 — saopštenje o građevinskoj dozvoli (navod studenta)",
-          "kind": "zvanično saopštenje",
-          "url": "https://www.srbija.gov.rs/vest/363737/izdata-gradjevinska-dozvola-za-izgradnju-kule-beograd.php"
-        },
-        {
-          "id": "S8",
-          "label": "RTS / Tanjug, 7. 2. 2019 — „Izdata građevinska dozvola za gradnju Kule Beograd“ (navod studenta)",
-          "kind": "mediji",
-          "url": "https://www.rts.rs/lat/vesti/drustvo/3412734/izdata-gradjevinska-dozvola-za-gradnju-kule-beograd.html"
-        },
-        {
-          "id": "S9",
-          "label": "Novosti, 5. 3. 2016 — „Kula samo 168 metara!“ (navod studenta)",
-          "kind": "mediji",
-          "url": "https://www.novosti.rs/vesti/beograd.74.html%3A594158-Kula-samo-168-metara"
-        },
-        {
-          "id": "S10",
-          "label": "Sajt tima „Dve kule Beograd“ (AI Studio aplikacija, početak, 27. 10. 2026)",
-          "kind": "studentska aplikacija",
-          "url": "https://dve-kule-beograd.ai.studio/"
-        },
-        {
-          "id": "S11",
-          "label": "Studentski podnesak „Dve kule Beograd — radna verzija istraživanja“ (PDF, 27. 10. 2026)",
-          "kind": "studentski podnesak"
         }
       ],
       "media": []

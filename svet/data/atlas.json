@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-4d8be70b2ebda7a5",
+  "datasetRevision": "r-2bd64b02d939a9b2",
   "teams": [
     {
       "id": "T01",
@@ -579,32 +579,32 @@
     },
     {
       "id": "T21",
-      "object": "Dve kule Beograd (Ušće 1 i 2)",
+      "object": "Kula Beograd",
       "indices": [
         "135/26",
         "107/26",
         "114/26"
       ],
-      "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
-      "place": "Admirala Geprata",
-      "lat": 44.8148,
-      "lng": 20.4406,
+      "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
+      "place": "Beograd na vodi",
+      "lat": 44.8046,
+      "lng": 20.4455,
       "x": 39.01,
-      "y": 4,
+      "y": 1.8,
       "z": 32.51,
-      "type": "standard",
-      "progressStage": 3,
-      "progressLabel": "Predat tekst o tehnologiji",
-      "status": "Predat tekst; traži se prototip i tabela podatak → izvor",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "type": "kulabeograd",
+      "progressStage": 5,
+      "progressLabel": "Istraživanje na sajtu (29.10)",
+      "status": "Radna verzija istraživanja „Dve kule Beograd“ kurirana u javni sloj (29.10): hronologija 2014–2019 sa 9 izvora, izvedeni objekat po SOM-u, 7 otvorenih pitanja; sajt tima vezan kao izvor. Na konsultacijama 02.11 predat crtež razvoja kule (220 → ~200 → 168 m).",
+      "hasPassport": true,
+      "claimsCount": 23,
+      "sectionsCount": 4,
+      "previewClaim": "kako se Kula Beograd menjala od ranih javnih najava do izvedenog objekta i šta se o razlozima promena može pouzdano dokazati",
+      "previewSource": "Studentski podnesak „Dve kule Beograd — radna verzija istraživanja“ (PDF, 27. 10. 2026)",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B8c4db47b"
+      "building": "Bedda6bf8"
     },
     {
       "id": "T22",
@@ -1236,32 +1236,32 @@
     },
     {
       "id": "T44",
-      "object": "Kula Beograd",
+      "object": "ATŠ — Arhitektonska tehnička škola",
       "indices": [
         "154/26",
         "156/26",
         "166/26"
       ],
-      "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
-      "place": "Beograd na vodi",
-      "lat": 44.8046,
-      "lng": 20.4455,
+      "topic": "Istorijat škole (od 1902), zgrada i obrazovni program; lično iskustvo učenika",
+      "place": "Vračar",
+      "lat": 44.7926,
+      "lng": 20.4921,
       "x": 85.91,
-      "y": 1.8,
+      "y": 3.2,
       "z": 161.64,
-      "type": "kulabeograd",
-      "progressStage": 5,
-      "progressLabel": "Istraživanje na sajtu (29.10)",
-      "status": "Radna verzija istraživanja „Dve kule Beograd“ kurirana u javni sloj (29.10): hronologija 2014–2019 sa 9 izvora, izvedeni objekat po SOM-u, 7 otvorenih pitanja; sajt tima vezan kao izvor.",
-      "hasPassport": true,
-      "claimsCount": 23,
-      "sectionsCount": 4,
-      "previewClaim": "kako se Kula Beograd menjala od ranih javnih najava do izvedenog objekta i šta se o razlozima promena može pouzdano dokazati",
-      "previewSource": "Studentski podnesak „Dve kule Beograd — radna verzija istraživanja“ (PDF, 27. 10. 2026)",
+      "type": "standard",
+      "progressStage": 2,
+      "progressLabel": "Skice predate (02.11)",
+      "status": "Predata aksonometrijska skica zgrade (26.10) i list sa istorijatom, opisom škole i skicom objekta (konsultacije 02.11, „skica 2 — fokus na maketu“); pasoš sa izvorima još nije stigao.",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "Bedda6bf8",
+      "building": "B34c1628c",
       "location": "Vojislava Ilića 78, Beograd — približno",
       "flags": [
         "Raniji zapis je spajao ATŠ i Dom Svetog Save u Cara Dušana — to su dva različita objekta.",
@@ -2032,6 +2032,35 @@
       "city": "Beograd",
       "geometryStatus": "illustrative",
       "building": "B2ceb56a4"
+    },
+    {
+      "id": "T72",
+      "object": "Ušće Tower (Ušće 1 i 2)",
+      "indices": [
+        "129/26",
+        "18/26",
+        "69/26"
+      ],
+      "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
+      "place": "Bulevar Mihajla Pupina 6",
+      "lat": 44.8157,
+      "lng": 20.4362,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 3,
+      "progressLabel": "Predat tekst o tehnologiji",
+      "status": "Predat tekst o tehnologiji (23.10); traži se prototip i tabela podatak → izvor",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "Bbfd097ce"
     }
   ],
   "buildings": [
@@ -2892,43 +2921,57 @@
       ]
     },
     {
-      "id": "B8c4db47b",
-      "object": "Dve kule Beograd (Ušće 1 i 2)",
+      "id": "Bedda6bf8",
+      "object": "Kula Beograd",
       "teams": [
-        "T21"
+        "T21",
+        "T28",
+        "T67"
       ],
-      "teamCount": 1,
-      "place": "Admirala Geprata",
+      "teamCount": 3,
+      "place": "Beograd na vodi",
       "city": "Beograd",
-      "lat": 44.8148,
-      "lng": 20.4406,
+      "lat": 44.8046,
+      "lng": 20.4455,
       "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
+      "passports": 3,
+      "claimsCount": 63,
+      "sectionsCount": 13,
+      "sourcesCount": 21,
       "categories": {
-        "research": 0,
-        "documents": 0,
-        "materials": 0,
-        "time": 0,
-        "questions": 0,
+        "research": 1,
+        "documents": 11,
+        "materials": 18,
+        "time": 7,
+        "questions": 11,
         "identity": 0,
         "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 0,
+        "geometry": 5,
+        "structure": 7,
+        "use": 1,
         "energy": 0,
         "environment": 0,
         "people": 0,
-        "methods": 0
+        "methods": 2
       },
       "topics": [
         {
           "team": "T21",
-          "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
-          "claimsCount": 0,
-          "hasPassport": false
+          "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
+          "claimsCount": 23,
+          "hasPassport": true
+        },
+        {
+          "team": "T28",
+          "topic": "Konstrukcija i izvođenje radova, šipovi, rotirana silueta",
+          "claimsCount": 29,
+          "hasPassport": true
+        },
+        {
+          "team": "T67",
+          "topic": "Konstruktivni sistem Kule Beograd, armiranobetonsko jezgro, kompozitni stubovi, fasada",
+          "claimsCount": 11,
+          "hasPassport": true
         }
       ]
     },
@@ -3133,61 +3176,6 @@
           "team": "T26",
           "topic": "Ivan Antić, prenapregnuti beton, geometrija heksagona, istorijat kule",
           "claimsCount": 12,
-          "hasPassport": true
-        }
-      ]
-    },
-    {
-      "id": "Bedda6bf8",
-      "object": "Kula Beograd",
-      "teams": [
-        "T28",
-        "T44",
-        "T67"
-      ],
-      "teamCount": 3,
-      "place": "Beograd na vodi",
-      "city": "Beograd",
-      "lat": 44.8046,
-      "lng": 20.4455,
-      "locationStatus": "approximate",
-      "passports": 3,
-      "claimsCount": 63,
-      "sectionsCount": 13,
-      "sourcesCount": 21,
-      "categories": {
-        "research": 1,
-        "documents": 11,
-        "materials": 18,
-        "time": 7,
-        "questions": 11,
-        "identity": 0,
-        "location": 0,
-        "geometry": 5,
-        "structure": 7,
-        "use": 1,
-        "energy": 0,
-        "environment": 0,
-        "people": 0,
-        "methods": 2
-      },
-      "topics": [
-        {
-          "team": "T28",
-          "topic": "Konstrukcija i izvođenje radova, šipovi, rotirana silueta",
-          "claimsCount": 29,
-          "hasPassport": true
-        },
-        {
-          "team": "T44",
-          "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
-          "claimsCount": 23,
-          "hasPassport": true
-        },
-        {
-          "team": "T67",
-          "topic": "Konstruktivni sistem Kule Beograd, armiranobetonsko jezgro, kompozitni stubovi, fasada",
-          "claimsCount": 11,
           "hasPassport": true
         }
       ]
@@ -3687,6 +3675,47 @@
         {
           "team": "T69",
           "topic": "Milica Krstić, modernistička forma prema istorijskom jezgru Dorćola i Skadarlije, ratna oštećenja",
+          "claimsCount": 0,
+          "hasPassport": false
+        }
+      ]
+    },
+    {
+      "id": "B34c1628c",
+      "object": "ATŠ — Arhitektonska tehnička škola",
+      "teams": [
+        "T44"
+      ],
+      "teamCount": 1,
+      "place": "Vračar",
+      "city": "Beograd",
+      "lat": 44.7926,
+      "lng": 20.4921,
+      "locationStatus": "approximate",
+      "passports": 0,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "sourcesCount": 0,
+      "categories": {
+        "research": 0,
+        "documents": 0,
+        "materials": 0,
+        "time": 0,
+        "questions": 0,
+        "identity": 0,
+        "location": 0,
+        "geometry": 0,
+        "structure": 0,
+        "use": 0,
+        "energy": 0,
+        "environment": 0,
+        "people": 0,
+        "methods": 0
+      },
+      "topics": [
+        {
+          "team": "T44",
+          "topic": "Istorijat škole (od 1902), zgrada i obrazovni program; lično iskustvo učenika",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -4263,6 +4292,47 @@
           "topic": "Zvanični spisi o objektu i istorija; prikupljanje izvora u tabeli podatak/izvor",
           "claimsCount": 59,
           "hasPassport": true
+        }
+      ]
+    },
+    {
+      "id": "Bbfd097ce",
+      "object": "Ušće Tower (Ušće 1 i 2)",
+      "teams": [
+        "T72"
+      ],
+      "teamCount": 1,
+      "place": "Bulevar Mihajla Pupina 6",
+      "city": "Beograd",
+      "lat": 44.8157,
+      "lng": 20.4362,
+      "locationStatus": "approximate",
+      "passports": 0,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "sourcesCount": 0,
+      "categories": {
+        "research": 0,
+        "documents": 0,
+        "materials": 0,
+        "time": 0,
+        "questions": 0,
+        "identity": 0,
+        "location": 0,
+        "geometry": 0,
+        "structure": 0,
+        "use": 0,
+        "energy": 0,
+        "environment": 0,
+        "people": 0,
+        "methods": 0
+      },
+      "topics": [
+        {
+          "team": "T72",
+          "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
+          "claimsCount": 0,
+          "hasPassport": false
         }
       ]
     }
@@ -9050,6 +9120,277 @@
       ]
     },
     {
+      "id": "T21:metod:2033ca7baa82",
+      "team": "T21",
+      "section": "T21:metod",
+      "title": "Glavno pitanje",
+      "value": "kako se Kula Beograd menjala od ranih javnih najava do izvedenog objekta i šta se o razlozima promena može pouzdano dokazati",
+      "status": "source-reported",
+      "category": "research",
+      "sourceIds": [
+        "T21:S11"
+      ]
+    },
+    {
+      "id": "T21:metod:c5898c0af3a3",
+      "team": "T21",
+      "section": "T21:metod",
+      "title": "Princip",
+      "value": "svaki podatak vezan za izvor i datum; render pokazuje kako je kula predstavljena u jednom trenutku, ne dokazuje usvojen projekat",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T21:S11"
+      ]
+    },
+    {
+      "id": "T21:metod:f8fccf392644",
+      "team": "T21",
+      "section": "T21:metod",
+      "title": "Tvrdnja o nameni za UAE",
+      "value": "nije potvrđena: izvori dokazuju prezentaciju u Dubaiju i investitora iz UAE, ne i da je kula ranije projektovana za lokaciju u Emiratima",
+      "status": "unconfirmed",
+      "category": "questions",
+      "sourceIds": [
+        "T21:S1",
+        "T21:S2",
+        "T21:S11"
+      ]
+    },
+    {
+      "id": "T21:metod:5c06fe740984",
+      "team": "T21",
+      "section": "T21:metod",
+      "title": "Sajt tima",
+      "value": "početna verzija sajta istraživanja objavljena kao AI Studio aplikacija",
+      "status": "source-reported",
+      "category": "methods",
+      "sourceIds": [
+        "T21:S10"
+      ]
+    },
+    {
+      "id": "T21:hronologija:e0a5ed1a49e5",
+      "team": "T21",
+      "section": "T21:hronologija",
+      "title": "Januar 2014",
+      "value": "u medijima kula od oko 180 m, opisana kao „nalik onoj u Dubaiju“ — rana najava, ne dokaz projekta za UAE",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T21:S1"
+      ]
+    },
+    {
+      "id": "T21:hronologija:226e66fdaff5",
+      "team": "T21",
+      "section": "T21:hronologija",
+      "title": "Mart 2014",
+      "value": "master plan Beograda na vodi i idejna rešenja kule predstavljeni u Dubaiju; Eagle Hills raspisao konkurs; pominje se studio SOM",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T21:S2"
+      ]
+    },
+    {
+      "id": "T21:hronologija:32009ba486b3",
+      "team": "T21",
+      "section": "T21:hronologija",
+      "title": "2014 — 220 m",
+      "value": "kasniji izveštaji navode da se 2014. pominjala visina 220 m; najraniji originalni prikaz još treba naći",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T21:S3",
+        "T21:S9"
+      ]
+    },
+    {
+      "id": "T21:hronologija:49d816586cf2",
+      "team": "T21",
+      "section": "T21:hronologija",
+      "title": "2015 — oko 200 m",
+      "value": "u medijima visina oko 200 m; nije utvrđeno na koju verziju se odnosi",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T21:S3"
+      ]
+    },
+    {
+      "id": "T21:hronologija:44d70423e0ff",
+      "team": "T21",
+      "section": "T21:hronologija",
+      "title": "Mart 2016 — 168 m",
+      "value": "javna prezentacija prikazuje verziju visoku 168 m",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T21:S3",
+        "T21:S9"
+      ]
+    },
+    {
+      "id": "T21:hronologija:8837f1fb5352",
+      "team": "T21",
+      "section": "T21:hronologija",
+      "title": "April 2016 — obrazloženje",
+      "value": "gradonačelnik: kula niža i šira da se bolje uklopi u Beograd; u istom izveštaju 168 m i 45 spratova",
+      "status": "source-reported",
+      "category": "time",
+      "sourceIds": [
+        "T21:S4"
+      ]
+    },
+    {
+      "id": "T21:hronologija:76197b70211b",
+      "team": "T21",
+      "section": "T21:hronologija",
+      "title": "Februar 2019 — dozvola",
+      "value": "Vlada Srbije: izdata građevinska dozvola za kulu visine 168 m, površine 47.500 m²",
+      "status": "source-reported",
+      "category": "documents",
+      "sourceIds": [
+        "T21:S7",
+        "T21:S8"
+      ]
+    },
+    {
+      "id": "T21:izvedeno:267d413f72e7",
+      "team": "T21",
+      "section": "T21:izvedeno",
+      "title": "Visina",
+      "value": "168 m",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T21:S6",
+        "T21:S7"
+      ]
+    },
+    {
+      "id": "T21:izvedeno:07036263a91d",
+      "team": "T21",
+      "section": "T21:izvedeno",
+      "title": "Spratnost",
+      "value": "42 sprata po SOM-u; RTS 15. 4. 2016 navodi 45 — razlika može poticati iz različitih faza ili načina brojanja etaža",
+      "status": "conflict",
+      "category": "geometry",
+      "sourceIds": [
+        "T21:S4",
+        "T21:S6"
+      ]
+    },
+    {
+      "id": "T21:izvedeno:c71ed7d3f0d0",
+      "team": "T21",
+      "section": "T21:izvedeno",
+      "title": "Bruto površina",
+      "value": "47.500 m²",
+      "status": "source-reported",
+      "category": "geometry",
+      "sourceIds": [
+        "T21:S6",
+        "T21:S7"
+      ]
+    },
+    {
+      "id": "T21:izvedeno:62274dffd711",
+      "team": "T21",
+      "section": "T21:izvedeno",
+      "title": "Rotacija volumena",
+      "value": "orijentacija kule rotira se za 90° kako se objekat uzdiže; po SOM-u daje različite orijentacije prema kontekstu i smanjuje opterećenje vetrom",
+      "status": "source-reported",
+      "category": "structure",
+      "sourceIds": [
+        "T21:S6"
+      ]
+    },
+    {
+      "id": "T21:izvedeno:bf22d308a224",
+      "team": "T21",
+      "section": "T21:izvedeno",
+      "title": "Šta izvori ne govore",
+      "value": "kada se rotacija prvi put pojavila u procesu; potrebni datirani raniji renderi ili konkursni prikazi",
+      "status": "source-reported",
+      "category": "questions",
+      "sourceIds": [
+        "T21:S6",
+        "T21:S11"
+      ]
+    },
+    {
+      "id": "T21:pitanja:66530bb536c8",
+      "team": "T21",
+      "section": "T21:pitanja",
+      "title": "Najraniji prikaz",
+      "value": "koji je najraniji prikaz Kule Beograd koji se može pouzdano datirati",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T21:pitanja:61b3975b153d",
+      "team": "T21",
+      "section": "T21:pitanja",
+      "title": "Status visine 220 m",
+      "value": "da li je 220 m bila deo zvaničnog projektnog predloga ili javno predstavljena ideja",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T21:pitanja:a6600e72f138",
+      "team": "T21",
+      "section": "T21:pitanja",
+      "title": "Broj ili oblik",
+      "value": "da li se između 220, oko 200 i 168 m menjao samo broj ili i oblik kule",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T21:pitanja:050776c706a7",
+      "team": "T21",
+      "section": "T21:pitanja",
+      "title": "Prva rotacija",
+      "value": "kada se prvi put pojavljuje rotacija volumena od 90°",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T21:pitanja:e0eac2f39342",
+      "team": "T21",
+      "section": "T21:pitanja",
+      "title": "Render naspram izvedenog",
+      "value": "koje razlike između ranijih rendera i izvedenog objekta se mogu direktno dokazati",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T21:pitanja:01dd9c9055ac",
+      "team": "T21",
+      "section": "T21:pitanja",
+      "title": "Izjave projektanata",
+      "value": "postoje li originalne izjave ili dokumenti koji objašnjavaju promene",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
+      "id": "T21:pitanja:2db1a1e01db0",
+      "team": "T21",
+      "section": "T21:pitanja",
+      "title": "Dokument o UAE",
+      "value": "postoji li originalni dokument koji potvrđuje da je projekat ranije bio namenjen lokaciji u UAE",
+      "status": "unknown",
+      "category": "questions",
+      "sourceIds": []
+    },
+    {
       "id": "T22:osnovni:926696c7c9e6",
       "team": "T22",
       "section": "T22:osnovni",
@@ -12355,277 +12696,6 @@
       "sourceIds": [
         "T43:S1"
       ]
-    },
-    {
-      "id": "T44:metod:2033ca7baa82",
-      "team": "T44",
-      "section": "T44:metod",
-      "title": "Glavno pitanje",
-      "value": "kako se Kula Beograd menjala od ranih javnih najava do izvedenog objekta i šta se o razlozima promena može pouzdano dokazati",
-      "status": "source-reported",
-      "category": "research",
-      "sourceIds": [
-        "T44:S11"
-      ]
-    },
-    {
-      "id": "T44:metod:c5898c0af3a3",
-      "team": "T44",
-      "section": "T44:metod",
-      "title": "Princip",
-      "value": "svaki podatak vezan za izvor i datum; render pokazuje kako je kula predstavljena u jednom trenutku, ne dokazuje usvojen projekat",
-      "status": "source-reported",
-      "category": "methods",
-      "sourceIds": [
-        "T44:S11"
-      ]
-    },
-    {
-      "id": "T44:metod:f8fccf392644",
-      "team": "T44",
-      "section": "T44:metod",
-      "title": "Tvrdnja o nameni za UAE",
-      "value": "nije potvrđena: izvori dokazuju prezentaciju u Dubaiju i investitora iz UAE, ne i da je kula ranije projektovana za lokaciju u Emiratima",
-      "status": "unconfirmed",
-      "category": "questions",
-      "sourceIds": [
-        "T44:S1",
-        "T44:S2",
-        "T44:S11"
-      ]
-    },
-    {
-      "id": "T44:metod:5c06fe740984",
-      "team": "T44",
-      "section": "T44:metod",
-      "title": "Sajt tima",
-      "value": "početna verzija sajta istraživanja objavljena kao AI Studio aplikacija",
-      "status": "source-reported",
-      "category": "methods",
-      "sourceIds": [
-        "T44:S10"
-      ]
-    },
-    {
-      "id": "T44:hronologija:e0a5ed1a49e5",
-      "team": "T44",
-      "section": "T44:hronologija",
-      "title": "Januar 2014",
-      "value": "u medijima kula od oko 180 m, opisana kao „nalik onoj u Dubaiju“ — rana najava, ne dokaz projekta za UAE",
-      "status": "source-reported",
-      "category": "time",
-      "sourceIds": [
-        "T44:S1"
-      ]
-    },
-    {
-      "id": "T44:hronologija:226e66fdaff5",
-      "team": "T44",
-      "section": "T44:hronologija",
-      "title": "Mart 2014",
-      "value": "master plan Beograda na vodi i idejna rešenja kule predstavljeni u Dubaiju; Eagle Hills raspisao konkurs; pominje se studio SOM",
-      "status": "source-reported",
-      "category": "time",
-      "sourceIds": [
-        "T44:S2"
-      ]
-    },
-    {
-      "id": "T44:hronologija:32009ba486b3",
-      "team": "T44",
-      "section": "T44:hronologija",
-      "title": "2014 — 220 m",
-      "value": "kasniji izveštaji navode da se 2014. pominjala visina 220 m; najraniji originalni prikaz još treba naći",
-      "status": "source-reported",
-      "category": "time",
-      "sourceIds": [
-        "T44:S3",
-        "T44:S9"
-      ]
-    },
-    {
-      "id": "T44:hronologija:49d816586cf2",
-      "team": "T44",
-      "section": "T44:hronologija",
-      "title": "2015 — oko 200 m",
-      "value": "u medijima visina oko 200 m; nije utvrđeno na koju verziju se odnosi",
-      "status": "source-reported",
-      "category": "time",
-      "sourceIds": [
-        "T44:S3"
-      ]
-    },
-    {
-      "id": "T44:hronologija:44d70423e0ff",
-      "team": "T44",
-      "section": "T44:hronologija",
-      "title": "Mart 2016 — 168 m",
-      "value": "javna prezentacija prikazuje verziju visoku 168 m",
-      "status": "source-reported",
-      "category": "time",
-      "sourceIds": [
-        "T44:S3",
-        "T44:S9"
-      ]
-    },
-    {
-      "id": "T44:hronologija:8837f1fb5352",
-      "team": "T44",
-      "section": "T44:hronologija",
-      "title": "April 2016 — obrazloženje",
-      "value": "gradonačelnik: kula niža i šira da se bolje uklopi u Beograd; u istom izveštaju 168 m i 45 spratova",
-      "status": "source-reported",
-      "category": "time",
-      "sourceIds": [
-        "T44:S4"
-      ]
-    },
-    {
-      "id": "T44:hronologija:76197b70211b",
-      "team": "T44",
-      "section": "T44:hronologija",
-      "title": "Februar 2019 — dozvola",
-      "value": "Vlada Srbije: izdata građevinska dozvola za kulu visine 168 m, površine 47.500 m²",
-      "status": "source-reported",
-      "category": "documents",
-      "sourceIds": [
-        "T44:S7",
-        "T44:S8"
-      ]
-    },
-    {
-      "id": "T44:izvedeno:267d413f72e7",
-      "team": "T44",
-      "section": "T44:izvedeno",
-      "title": "Visina",
-      "value": "168 m",
-      "status": "source-reported",
-      "category": "geometry",
-      "sourceIds": [
-        "T44:S6",
-        "T44:S7"
-      ]
-    },
-    {
-      "id": "T44:izvedeno:07036263a91d",
-      "team": "T44",
-      "section": "T44:izvedeno",
-      "title": "Spratnost",
-      "value": "42 sprata po SOM-u; RTS 15. 4. 2016 navodi 45 — razlika može poticati iz različitih faza ili načina brojanja etaža",
-      "status": "conflict",
-      "category": "geometry",
-      "sourceIds": [
-        "T44:S4",
-        "T44:S6"
-      ]
-    },
-    {
-      "id": "T44:izvedeno:c71ed7d3f0d0",
-      "team": "T44",
-      "section": "T44:izvedeno",
-      "title": "Bruto površina",
-      "value": "47.500 m²",
-      "status": "source-reported",
-      "category": "geometry",
-      "sourceIds": [
-        "T44:S6",
-        "T44:S7"
-      ]
-    },
-    {
-      "id": "T44:izvedeno:62274dffd711",
-      "team": "T44",
-      "section": "T44:izvedeno",
-      "title": "Rotacija volumena",
-      "value": "orijentacija kule rotira se za 90° kako se objekat uzdiže; po SOM-u daje različite orijentacije prema kontekstu i smanjuje opterećenje vetrom",
-      "status": "source-reported",
-      "category": "structure",
-      "sourceIds": [
-        "T44:S6"
-      ]
-    },
-    {
-      "id": "T44:izvedeno:bf22d308a224",
-      "team": "T44",
-      "section": "T44:izvedeno",
-      "title": "Šta izvori ne govore",
-      "value": "kada se rotacija prvi put pojavila u procesu; potrebni datirani raniji renderi ili konkursni prikazi",
-      "status": "source-reported",
-      "category": "questions",
-      "sourceIds": [
-        "T44:S6",
-        "T44:S11"
-      ]
-    },
-    {
-      "id": "T44:pitanja:66530bb536c8",
-      "team": "T44",
-      "section": "T44:pitanja",
-      "title": "Najraniji prikaz",
-      "value": "koji je najraniji prikaz Kule Beograd koji se može pouzdano datirati",
-      "status": "unknown",
-      "category": "questions",
-      "sourceIds": []
-    },
-    {
-      "id": "T44:pitanja:61b3975b153d",
-      "team": "T44",
-      "section": "T44:pitanja",
-      "title": "Status visine 220 m",
-      "value": "da li je 220 m bila deo zvaničnog projektnog predloga ili javno predstavljena ideja",
-      "status": "unknown",
-      "category": "questions",
-      "sourceIds": []
-    },
-    {
-      "id": "T44:pitanja:a6600e72f138",
-      "team": "T44",
-      "section": "T44:pitanja",
-      "title": "Broj ili oblik",
-      "value": "da li se između 220, oko 200 i 168 m menjao samo broj ili i oblik kule",
-      "status": "unknown",
-      "category": "questions",
-      "sourceIds": []
-    },
-    {
-      "id": "T44:pitanja:050776c706a7",
-      "team": "T44",
-      "section": "T44:pitanja",
-      "title": "Prva rotacija",
-      "value": "kada se prvi put pojavljuje rotacija volumena od 90°",
-      "status": "unknown",
-      "category": "questions",
-      "sourceIds": []
-    },
-    {
-      "id": "T44:pitanja:e0eac2f39342",
-      "team": "T44",
-      "section": "T44:pitanja",
-      "title": "Render naspram izvedenog",
-      "value": "koje razlike između ranijih rendera i izvedenog objekta se mogu direktno dokazati",
-      "status": "unknown",
-      "category": "questions",
-      "sourceIds": []
-    },
-    {
-      "id": "T44:pitanja:01dd9c9055ac",
-      "team": "T44",
-      "section": "T44:pitanja",
-      "title": "Izjave projektanata",
-      "value": "postoje li originalne izjave ili dokumenti koji objašnjavaju promene",
-      "status": "unknown",
-      "category": "questions",
-      "sourceIds": []
-    },
-    {
-      "id": "T44:pitanja:2db1a1e01db0",
-      "team": "T44",
-      "section": "T44:pitanja",
-      "title": "Dokument o UAE",
-      "value": "postoji li originalni dokument koji potvrđuje da je projekat ranije bio namenjen lokaciji u UAE",
-      "status": "unknown",
-      "category": "questions",
-      "sourceIds": []
     },
     {
       "id": "T46:lokacija:0d2f4ac5886d",
@@ -18215,6 +18285,38 @@
       }
     },
     {
+      "id": "T21:metod",
+      "team": "T21",
+      "title": {
+        "en": "Question and method",
+        "sr": "Pitanje i način istraživanja"
+      }
+    },
+    {
+      "id": "T21:hronologija",
+      "team": "T21",
+      "title": {
+        "en": "Timeline by source",
+        "sr": "Hronologija po izvorima"
+      }
+    },
+    {
+      "id": "T21:izvedeno",
+      "team": "T21",
+      "title": {
+        "en": "The built tower",
+        "sr": "Izvedeni objekat"
+      }
+    },
+    {
+      "id": "T21:pitanja",
+      "team": "T21",
+      "title": {
+        "en": "Open research questions",
+        "sr": "Istraživačka pitanja za sledeću fazu"
+      }
+    },
+    {
       "id": "T22:osnovni",
       "team": "T22",
       "title": {
@@ -18636,38 +18738,6 @@
       "title": {
         "sr": "Autori",
         "en": "Authors"
-      }
-    },
-    {
-      "id": "T44:metod",
-      "team": "T44",
-      "title": {
-        "en": "Question and method",
-        "sr": "Pitanje i način istraživanja"
-      }
-    },
-    {
-      "id": "T44:hronologija",
-      "team": "T44",
-      "title": {
-        "en": "Timeline by source",
-        "sr": "Hronologija po izvorima"
-      }
-    },
-    {
-      "id": "T44:izvedeno",
-      "team": "T44",
-      "title": {
-        "en": "The built tower",
-        "sr": "Izvedeni objekat"
-      }
-    },
-    {
-      "id": "T44:pitanja",
-      "team": "T44",
-      "title": {
-        "en": "Open research questions",
-        "sr": "Istraživačka pitanja za sledeću fazu"
       }
     },
     {
@@ -19878,6 +19948,93 @@
       "canonical": "https://kaldrma.rs/berlin-na-bulevaru-kralja-aleksandra"
     },
     {
+      "id": "T21:S1",
+      "label": "Blic / Tanjug, 19. 1. 2014 — „Ovako će izgledati Beograd na vodi“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.blic.rs/vesti/beograd/ovako-ce-izgledati-beograd-na-vodi/bjvvc7q",
+      "team": "T21",
+      "canonical": "https://www.blic.rs/vesti/beograd/ovako-ce-izgledati-beograd-na-vodi/bjvvc7q"
+    },
+    {
+      "id": "T21:S2",
+      "label": "RTS, 2. 3. 2014 — „Beograd na vodi predstavljen u Dubaiju“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.rts.rs/lat/vesti/ekonomija/1536317/beograd-na-vodi-predstavljen-u-dubaiju.html",
+      "team": "T21",
+      "canonical": "https://www.rts.rs/lat/vesti/ekonomija/1536317/beograd-na-vodi-predstavljen-u-dubaiju.html"
+    },
+    {
+      "id": "T21:S3",
+      "label": "Gradnja / Tanjug, 7. 3. 2016 — „Draga, smanjio sam kulu!“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.gradnja.rs/draga-smanjio-sam-kulu-nova-visina-beograda-na-vodi-168-metara/",
+      "team": "T21",
+      "canonical": "https://www.gradnja.rs/draga-smanjio-sam-kulu-nova-visina-beograda-na-vodi-168-metara"
+    },
+    {
+      "id": "T21:S4",
+      "label": "RTS, 15. 4. 2016 — „Mali: Kula Beograda biće najviša u ovom delu Evrope“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.rts.rs/lat/vesti/drustvo/2283329/.html?print=true",
+      "team": "T21",
+      "canonical": "https://www.rts.rs/lat/vesti/drustvo/2283329/.html?print=true"
+    },
+    {
+      "id": "T21:S5",
+      "label": "Blic, 11. 11. 2017 — „Kula Beograd je po prvobitnom projektu trebalo da bude 52 metra viša…“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.blic.rs/vesti/beograd/kula-beograd-je-po-prvobitnom-projektu-trebalo-da-bude-52-metra-visa-i-drugacijeg/1hsyrrp",
+      "team": "T21",
+      "canonical": "https://www.blic.rs/vesti/beograd/kula-beograd-je-po-prvobitnom-projektu-trebalo-da-bude-52-metra-visa-i-drugacijeg/1hsyrrp"
+    },
+    {
+      "id": "T21:S6",
+      "label": "SOM — zvanična stranica projekta Kula Belgrade (navod studenta)",
+      "kind": "zvanični sajt projektanta",
+      "url": "https://www.som.com/projects/kula-belgrade/",
+      "team": "T21",
+      "canonical": "https://www.som.com/projects/kula-belgrade"
+    },
+    {
+      "id": "T21:S7",
+      "label": "Vlada Republike Srbije, 7. 2. 2019 — saopštenje o građevinskoj dozvoli (navod studenta)",
+      "kind": "zvanično saopštenje",
+      "url": "https://www.srbija.gov.rs/vest/363737/izdata-gradjevinska-dozvola-za-izgradnju-kule-beograd.php",
+      "team": "T21",
+      "canonical": "https://www.srbija.gov.rs/vest/363737/izdata-gradjevinska-dozvola-za-izgradnju-kule-beograd.php"
+    },
+    {
+      "id": "T21:S8",
+      "label": "RTS / Tanjug, 7. 2. 2019 — „Izdata građevinska dozvola za gradnju Kule Beograd“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.rts.rs/lat/vesti/drustvo/3412734/izdata-gradjevinska-dozvola-za-gradnju-kule-beograd.html",
+      "team": "T21",
+      "canonical": "https://www.rts.rs/lat/vesti/drustvo/3412734/izdata-gradjevinska-dozvola-za-gradnju-kule-beograd.html"
+    },
+    {
+      "id": "T21:S9",
+      "label": "Novosti, 5. 3. 2016 — „Kula samo 168 metara!“ (navod studenta)",
+      "kind": "mediji",
+      "url": "https://www.novosti.rs/vesti/beograd.74.html%3A594158-Kula-samo-168-metara",
+      "team": "T21",
+      "canonical": "https://www.novosti.rs/vesti/beograd.74.html%3A594158-Kula-samo-168-metara"
+    },
+    {
+      "id": "T21:S10",
+      "label": "Sajt tima „Dve kule Beograd“ (AI Studio aplikacija, početak, 27. 10. 2026)",
+      "kind": "studentska aplikacija",
+      "url": "https://dve-kule-beograd.ai.studio/",
+      "team": "T21",
+      "canonical": "https://dve-kule-beograd.ai.studio"
+    },
+    {
+      "id": "T21:S11",
+      "label": "Studentski podnesak „Dve kule Beograd — radna verzija istraživanja“ (PDF, 27. 10. 2026)",
+      "kind": "studentski podnesak",
+      "team": "T21",
+      "canonical": "T21:S11"
+    },
+    {
       "id": "T22:S1",
       "kind": "zvanični sajt",
       "url": "https://www.kdistrict.rs",
@@ -20522,93 +20679,6 @@
       "checkedAt": "2026-11-01",
       "team": "T43",
       "canonical": "T43:S1"
-    },
-    {
-      "id": "T44:S1",
-      "label": "Blic / Tanjug, 19. 1. 2014 — „Ovako će izgledati Beograd na vodi“ (navod studenta)",
-      "kind": "mediji",
-      "url": "https://www.blic.rs/vesti/beograd/ovako-ce-izgledati-beograd-na-vodi/bjvvc7q",
-      "team": "T44",
-      "canonical": "https://www.blic.rs/vesti/beograd/ovako-ce-izgledati-beograd-na-vodi/bjvvc7q"
-    },
-    {
-      "id": "T44:S2",
-      "label": "RTS, 2. 3. 2014 — „Beograd na vodi predstavljen u Dubaiju“ (navod studenta)",
-      "kind": "mediji",
-      "url": "https://www.rts.rs/lat/vesti/ekonomija/1536317/beograd-na-vodi-predstavljen-u-dubaiju.html",
-      "team": "T44",
-      "canonical": "https://www.rts.rs/lat/vesti/ekonomija/1536317/beograd-na-vodi-predstavljen-u-dubaiju.html"
-    },
-    {
-      "id": "T44:S3",
-      "label": "Gradnja / Tanjug, 7. 3. 2016 — „Draga, smanjio sam kulu!“ (navod studenta)",
-      "kind": "mediji",
-      "url": "https://www.gradnja.rs/draga-smanjio-sam-kulu-nova-visina-beograda-na-vodi-168-metara/",
-      "team": "T44",
-      "canonical": "https://www.gradnja.rs/draga-smanjio-sam-kulu-nova-visina-beograda-na-vodi-168-metara"
-    },
-    {
-      "id": "T44:S4",
-      "label": "RTS, 15. 4. 2016 — „Mali: Kula Beograda biće najviša u ovom delu Evrope“ (navod studenta)",
-      "kind": "mediji",
-      "url": "https://www.rts.rs/lat/vesti/drustvo/2283329/.html?print=true",
-      "team": "T44",
-      "canonical": "https://www.rts.rs/lat/vesti/drustvo/2283329/.html?print=true"
-    },
-    {
-      "id": "T44:S5",
-      "label": "Blic, 11. 11. 2017 — „Kula Beograd je po prvobitnom projektu trebalo da bude 52 metra viša…“ (navod studenta)",
-      "kind": "mediji",
-      "url": "https://www.blic.rs/vesti/beograd/kula-beograd-je-po-prvobitnom-projektu-trebalo-da-bude-52-metra-visa-i-drugacijeg/1hsyrrp",
-      "team": "T44",
-      "canonical": "https://www.blic.rs/vesti/beograd/kula-beograd-je-po-prvobitnom-projektu-trebalo-da-bude-52-metra-visa-i-drugacijeg/1hsyrrp"
-    },
-    {
-      "id": "T44:S6",
-      "label": "SOM — zvanična stranica projekta Kula Belgrade (navod studenta)",
-      "kind": "zvanični sajt projektanta",
-      "url": "https://www.som.com/projects/kula-belgrade/",
-      "team": "T44",
-      "canonical": "https://www.som.com/projects/kula-belgrade"
-    },
-    {
-      "id": "T44:S7",
-      "label": "Vlada Republike Srbije, 7. 2. 2019 — saopštenje o građevinskoj dozvoli (navod studenta)",
-      "kind": "zvanično saopštenje",
-      "url": "https://www.srbija.gov.rs/vest/363737/izdata-gradjevinska-dozvola-za-izgradnju-kule-beograd.php",
-      "team": "T44",
-      "canonical": "https://www.srbija.gov.rs/vest/363737/izdata-gradjevinska-dozvola-za-izgradnju-kule-beograd.php"
-    },
-    {
-      "id": "T44:S8",
-      "label": "RTS / Tanjug, 7. 2. 2019 — „Izdata građevinska dozvola za gradnju Kule Beograd“ (navod studenta)",
-      "kind": "mediji",
-      "url": "https://www.rts.rs/lat/vesti/drustvo/3412734/izdata-gradjevinska-dozvola-za-gradnju-kule-beograd.html",
-      "team": "T44",
-      "canonical": "https://www.rts.rs/lat/vesti/drustvo/3412734/izdata-gradjevinska-dozvola-za-gradnju-kule-beograd.html"
-    },
-    {
-      "id": "T44:S9",
-      "label": "Novosti, 5. 3. 2016 — „Kula samo 168 metara!“ (navod studenta)",
-      "kind": "mediji",
-      "url": "https://www.novosti.rs/vesti/beograd.74.html%3A594158-Kula-samo-168-metara",
-      "team": "T44",
-      "canonical": "https://www.novosti.rs/vesti/beograd.74.html%3A594158-Kula-samo-168-metara"
-    },
-    {
-      "id": "T44:S10",
-      "label": "Sajt tima „Dve kule Beograd“ (AI Studio aplikacija, početak, 27. 10. 2026)",
-      "kind": "studentska aplikacija",
-      "url": "https://dve-kule-beograd.ai.studio/",
-      "team": "T44",
-      "canonical": "https://dve-kule-beograd.ai.studio"
-    },
-    {
-      "id": "T44:S11",
-      "label": "Studentski podnesak „Dve kule Beograd — radna verzija istraživanja“ (PDF, 27. 10. 2026)",
-      "kind": "studentski podnesak",
-      "team": "T44",
-      "canonical": "T44:S11"
     },
     {
       "id": "T46:S1",
@@ -30832,6 +30902,234 @@
         "kind": "pillar",
         "parent": "T43",
         "slot": 0
+      },
+      {
+        "id": "T21:hronologija",
+        "kind": "wing",
+        "parent": "T21",
+        "slot": 0
+      },
+      {
+        "id": "T21:izvedeno",
+        "kind": "wing",
+        "parent": "T21",
+        "slot": 1
+      },
+      {
+        "id": "T21:metod",
+        "kind": "wing",
+        "parent": "T21",
+        "slot": 2
+      },
+      {
+        "id": "T21:pitanja",
+        "kind": "wing",
+        "parent": "T21",
+        "slot": 3
+      },
+      {
+        "id": "T21:hronologija:226e66fdaff5",
+        "kind": "bay",
+        "parent": "T21:hronologija",
+        "slot": 0
+      },
+      {
+        "id": "T21:hronologija:32009ba486b3",
+        "kind": "bay",
+        "parent": "T21:hronologija",
+        "slot": 1
+      },
+      {
+        "id": "T21:hronologija:44d70423e0ff",
+        "kind": "bay",
+        "parent": "T21:hronologija",
+        "slot": 2
+      },
+      {
+        "id": "T21:hronologija:49d816586cf2",
+        "kind": "bay",
+        "parent": "T21:hronologija",
+        "slot": 3
+      },
+      {
+        "id": "T21:hronologija:76197b70211b",
+        "kind": "bay",
+        "parent": "T21:hronologija",
+        "slot": 4
+      },
+      {
+        "id": "T21:hronologija:8837f1fb5352",
+        "kind": "bay",
+        "parent": "T21:hronologija",
+        "slot": 5
+      },
+      {
+        "id": "T21:hronologija:e0a5ed1a49e5",
+        "kind": "bay",
+        "parent": "T21:hronologija",
+        "slot": 6
+      },
+      {
+        "id": "T21:izvedeno:07036263a91d",
+        "kind": "bay",
+        "parent": "T21:izvedeno",
+        "slot": 0
+      },
+      {
+        "id": "T21:izvedeno:267d413f72e7",
+        "kind": "bay",
+        "parent": "T21:izvedeno",
+        "slot": 1
+      },
+      {
+        "id": "T21:izvedeno:62274dffd711",
+        "kind": "bay",
+        "parent": "T21:izvedeno",
+        "slot": 2
+      },
+      {
+        "id": "T21:izvedeno:bf22d308a224",
+        "kind": "bay",
+        "parent": "T21:izvedeno",
+        "slot": 3
+      },
+      {
+        "id": "T21:izvedeno:c71ed7d3f0d0",
+        "kind": "bay",
+        "parent": "T21:izvedeno",
+        "slot": 4
+      },
+      {
+        "id": "T21:metod:2033ca7baa82",
+        "kind": "bay",
+        "parent": "T21:metod",
+        "slot": 0
+      },
+      {
+        "id": "T21:metod:5c06fe740984",
+        "kind": "bay",
+        "parent": "T21:metod",
+        "slot": 1
+      },
+      {
+        "id": "T21:metod:c5898c0af3a3",
+        "kind": "bay",
+        "parent": "T21:metod",
+        "slot": 2
+      },
+      {
+        "id": "T21:metod:f8fccf392644",
+        "kind": "bay",
+        "parent": "T21:metod",
+        "slot": 3
+      },
+      {
+        "id": "T21:pitanja:01dd9c9055ac",
+        "kind": "bay",
+        "parent": "T21:pitanja",
+        "slot": 0
+      },
+      {
+        "id": "T21:pitanja:050776c706a7",
+        "kind": "bay",
+        "parent": "T21:pitanja",
+        "slot": 1
+      },
+      {
+        "id": "T21:pitanja:2db1a1e01db0",
+        "kind": "bay",
+        "parent": "T21:pitanja",
+        "slot": 2
+      },
+      {
+        "id": "T21:pitanja:61b3975b153d",
+        "kind": "bay",
+        "parent": "T21:pitanja",
+        "slot": 3
+      },
+      {
+        "id": "T21:pitanja:66530bb536c8",
+        "kind": "bay",
+        "parent": "T21:pitanja",
+        "slot": 4
+      },
+      {
+        "id": "T21:pitanja:a6600e72f138",
+        "kind": "bay",
+        "parent": "T21:pitanja",
+        "slot": 5
+      },
+      {
+        "id": "T21:pitanja:e0eac2f39342",
+        "kind": "bay",
+        "parent": "T21:pitanja",
+        "slot": 6
+      },
+      {
+        "id": "T21:S1",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 0
+      },
+      {
+        "id": "T21:S10",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 1
+      },
+      {
+        "id": "T21:S11",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 2
+      },
+      {
+        "id": "T21:S2",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 3
+      },
+      {
+        "id": "T21:S3",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 4
+      },
+      {
+        "id": "T21:S4",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 5
+      },
+      {
+        "id": "T21:S5",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 6
+      },
+      {
+        "id": "T21:S6",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 7
+      },
+      {
+        "id": "T21:S7",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 8
+      },
+      {
+        "id": "T21:S8",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 9
+      },
+      {
+        "id": "T21:S9",
+        "kind": "pillar",
+        "parent": "T21",
+        "slot": 10
       }
     ]
   },
@@ -30849,30 +31147,30 @@
     "places": [
       {
         "id": "B01ffbf6e",
-        "x": -123.81,
-        "z": 35.473,
+        "x": -112.038,
+        "z": 26.731,
         "anchor": [
           -144.635,
           41.939
         ],
-        "nudge": 349,
+        "nudge": 576,
         "radius": 10.877
       },
       {
         "id": "B0671278c",
-        "x": 35.446,
-        "z": 81.047,
+        "x": 27.073,
+        "z": 79.824,
         "anchor": [
           25.232,
           95.669
         ],
-        "nudge": 285,
+        "nudge": 255,
         "radius": 1.545
       },
       {
         "id": "B0dffad8d",
-        "x": -75.458,
-        "z": -68.67,
+        "x": -77.437,
+        "z": -66.635,
         "anchor": [
           -102.235,
           -92.732
@@ -30882,206 +31180,217 @@
       },
       {
         "id": "B14027bbe",
-        "x": 25.617,
-        "z": 117.769,
+        "x": 25.1,
+        "z": 117.935,
         "anchor": [
           -6.924,
           109.218
         ],
-        "nudge": 538,
+        "nudge": 531,
         "radius": 5.66
       },
       {
         "id": "B1df14ea1",
-        "x": 26.564,
-        "z": 51.239,
+        "x": 26.375,
+        "z": 51.431,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 252,
+        "nudge": 257,
         "radius": 1.545
       },
       {
         "id": "B21720f35",
-        "x": -53.251,
-        "z": 20.604,
+        "x": -81.44,
+        "z": 12.704,
         "anchor": [
           -87.513,
           9.554
         ],
-        "nudge": 576,
+        "nudge": 109,
         "radius": 11.51
       },
       {
         "id": "B25fc5bcf",
-        "x": 52.6,
-        "z": -25.119,
+        "x": 43.348,
+        "z": -24.895,
         "anchor": [
           58.73,
           7.653
         ],
-        "nudge": 533,
+        "nudge": 576,
         "radius": 6.945
       },
       {
         "id": "B25fc772a",
-        "x": 80.397,
-        "z": -77.567,
+        "x": 84.81,
+        "z": -78.174,
         "anchor": [
           91.319,
           -59.222
         ],
-        "nudge": 342,
+        "nudge": 321,
         "radius": 17.267
       },
       {
         "id": "B2a7ecb59",
-        "x": -126.823,
-        "z": 14.485,
+        "x": -125.636,
+        "z": 10.462,
         "anchor": [
           -160.416,
           1.655
         ],
-        "nudge": 575,
+        "nudge": 574,
         "radius": 6.945
       },
       {
         "id": "B2ceb56a4",
-        "x": 55.837,
-        "z": 86.369,
+        "x": 55.724,
+        "z": 85.447,
         "anchor": [
           62.382,
           78.89
         ],
-        "nudge": 159,
+        "nudge": 150,
         "radius": 11.95
       },
       {
+        "id": "B34c1628c",
+        "x": 89.565,
+        "z": 99.022,
+        "anchor": [
+          123.669,
+          110.55
+        ],
+        "nudge": 576,
+        "radius": 1.545
+      },
+      {
         "id": "B3b4c7fb4",
-        "x": 0.512,
-        "z": -71.679,
+        "x": 5.374,
+        "z": -68.239,
         "anchor": [
           14.541,
           -53.441
         ],
-        "nudge": 368,
+        "nudge": 279,
         "radius": 10.992
       },
       {
         "id": "B41952daf",
-        "x": 82.209,
-        "z": 80.384,
+        "x": 82.295,
+        "z": 80.318,
         "anchor": [
           86.147,
           54.116
         ],
-        "nudge": 425,
+        "nudge": 424,
         "radius": 11.199
       },
       {
         "id": "B4d2fca52",
-        "x": 67.838,
-        "z": 138.734,
+        "x": 67.431,
+        "z": 137.968,
         "anchor": [
           70.009,
           102.8
         ],
-        "nudge": 576,
+        "nudge": 564,
         "radius": 35.46
       },
       {
         "id": "B4f2be009",
-        "x": 48.773,
-        "z": -53.304,
+        "x": 55.321,
+        "z": -51.35,
         "anchor": [
           33.935,
           -45.375
         ],
-        "nudge": 269,
+        "nudge": 355,
         "radius": 17.516
       },
       {
         "id": "B530102bb",
-        "x": 43.019,
-        "z": 39.356,
+        "x": 43.405,
+        "z": 41.535,
         "anchor": [
           57.249,
           40.354
         ],
-        "nudge": 228,
+        "nudge": 222,
         "radius": 11.339
       },
       {
         "id": "B655d6f70",
-        "x": 39.592,
-        "z": 83.836,
+        "x": 36.5,
+        "z": 82.564,
         "anchor": [
           43.924,
           83.49
         ],
-        "nudge": 70,
+        "nudge": 120,
         "radius": 1.545
       },
       {
         "id": "B6b092149",
-        "x": -3.895,
-        "z": -0.729,
+        "x": 26.286,
+        "z": -0.073,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 576,
+        "nudge": 98,
         "radius": 10.992
       },
       {
         "id": "B721111bb",
-        "x": 22.119,
-        "z": -63.357,
+        "x": 28.297,
+        "z": -60.428,
         "anchor": [
           30.327,
           -48.567
         ],
-        "nudge": 271,
+        "nudge": 193,
         "radius": 6.945
       },
       {
         "id": "B75d37fcb",
-        "x": 23.117,
-        "z": -84.482,
+        "x": 27.272,
+        "z": -81.607,
         "anchor": [
           30.947,
           -49.344
         ],
-        "nudge": 576,
+        "nudge": 520,
         "radius": 10.877
       },
       {
         "id": "B7a65f480",
-        "x": -45.207,
-        "z": 77.238,
+        "x": -49.535,
+        "z": 90.065,
         "anchor": [
           -41.258,
           89.141
         ],
-        "nudge": 201,
+        "nudge": 133,
         "radius": 10.75
       },
       {
         "id": "B7efb8894",
-        "x": 48.64,
-        "z": -86.141,
+        "x": 52.739,
+        "z": -84.146,
         "anchor": [
           38.181,
           -51.694
         ],
-        "nudge": 576,
+        "nudge": 569,
         "radius": 10.936
       },
       {
         "id": "B88cffac1",
-        "x": 95.219,
-        "z": 28.879,
+        "x": 95.137,
+        "z": 28.761,
         "anchor": [
           65.639,
           49.398
@@ -31091,63 +31400,52 @@
       },
       {
         "id": "B8b81c0c5",
-        "x": 62.448,
-        "z": -30.741,
+        "x": 67.557,
+        "z": -32.388,
         "anchor": [
           57.684,
           -32.891
         ],
-        "nudge": 84,
-        "radius": 1.545
-      },
-      {
-        "id": "B8c4db47b",
-        "x": -51.301,
-        "z": 41.723,
-        "anchor": [
-          -46.392,
-          22.264
-        ],
-        "nudge": 321,
+        "nudge": 158,
         "radius": 1.545
       },
       {
         "id": "B9e4c8453",
-        "x": 11.315,
-        "z": -60.716,
+        "x": 17.418,
+        "z": -58.183,
         "anchor": [
           0,
           -31.309
         ],
-        "nudge": 504,
+        "nudge": 512,
         "radius": 1.545
       },
       {
         "id": "Ba8b77242",
-        "x": 7.74,
-        "z": -35.562,
+        "x": 12.749,
+        "z": -33.209,
         "anchor": [
           37.015,
           -14.611
         ],
-        "nudge": 576,
+        "nudge": 489,
         "radius": 20.097
       },
       {
         "id": "Badf7e17e",
-        "x": -44.414,
-        "z": -5.537,
+        "x": -56.67,
+        "z": 0.844,
         "anchor": [
           -63.79,
           -34.444
         ],
-        "nudge": 557,
+        "nudge": 576,
         "radius": 11.95
       },
       {
         "id": "Bae8506cc",
-        "x": 11.34,
-        "z": 28.985,
+        "x": 12.178,
+        "z": 29.75,
         "anchor": [
           36.028,
           2.783
@@ -31157,8 +31455,8 @@
       },
       {
         "id": "Bb21a1978",
-        "x": 125.865,
-        "z": 94.926,
+        "x": 125.979,
+        "z": 94.833,
         "anchor": [
           103.219,
           66.941
@@ -31168,190 +31466,201 @@
       },
       {
         "id": "Bb5a79c43",
-        "x": 23.879,
-        "z": -2.556,
+        "x": -3.875,
+        "z": -0.278,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 131,
+        "nudge": 576,
         "radius": 11.95
       },
       {
         "id": "Bb81ca622",
-        "x": 73.256,
-        "z": -19.371,
+        "x": 78.769,
+        "z": -21.674,
         "anchor": [
           67.469,
           -29.89
         ],
-        "nudge": 192,
+        "nudge": 224,
         "radius": 11.099
       },
       {
         "id": "Bba876e95",
-        "x": 68.469,
-        "z": -34.119,
+        "x": 75.184,
+        "z": -38.937,
         "anchor": [
           70.769,
           -31.759
         ],
-        "nudge": 53,
+        "nudge": 135,
         "radius": 1.545
       },
       {
         "id": "Bbb2e5c1e",
-        "x": -11.056,
-        "z": 53.857,
+        "x": -13.814,
+        "z": 51.471,
         "anchor": [
           2.468,
           41.745
         ],
-        "nudge": 290,
+        "nudge": 303,
         "radius": 11.426
       },
       {
         "id": "Bbe3e7124",
-        "x": -38.092,
-        "z": 51.839,
+        "x": -35.667,
+        "z": 67.538,
         "anchor": [
           -23.112,
           84.574
         ],
-        "nudge": 576,
+        "nudge": 339,
         "radius": 11.777
       },
       {
+        "id": "Bbfd097ce",
+        "x": -66.319,
+        "z": 23.632,
+        "anchor": [
+          -61.87,
+          16.542
+        ],
+        "nudge": 134,
+        "radius": 1.545
+      },
+      {
         "id": "Bca96d908",
-        "x": -133.799,
-        "z": 66.688,
+        "x": -131.658,
+        "z": 52.844,
         "anchor": [
           -141.312,
           72.685
         ],
-        "nudge": 154,
+        "nudge": 353,
         "radius": 17.341
       },
       {
         "id": "Bce379d13",
-        "x": 80.93,
-        "z": -44.505,
+        "x": 89.867,
+        "z": -45.497,
         "anchor": [
           83.722,
           -47.963
         ],
-        "nudge": 71,
+        "nudge": 106,
         "radius": 11.339
       },
       {
         "id": "Bce3fd2f1",
-        "x": -83.559,
-        "z": 54.599,
+        "x": -80.234,
+        "z": 57.951,
         "anchor": [
           -92.657,
           36.836
         ],
-        "nudge": 319,
+        "nudge": 392,
         "radius": 28.184
       },
       {
         "id": "Bd18bf80b",
-        "x": 32.93,
-        "z": 11.173,
+        "x": 48.845,
+        "z": 11.388,
         "anchor": [
           49.847,
           9.74
         ],
-        "nudge": 272,
+        "nudge": 31,
         "radius": 1.545
       },
       {
         "id": "Bda203afb",
-        "x": 12.46,
-        "z": 65.899,
+        "x": 10.007,
+        "z": 62.929,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 576,
+        "nudge": 568,
         "radius": 11.15
       },
       {
         "id": "Be291aa43",
-        "x": 64.433,
-        "z": -37.062,
+        "x": 71.596,
+        "z": -35.457,
         "anchor": [
           57.684,
           -32.891
         ],
-        "nudge": 127,
+        "nudge": 226,
         "radius": 1.545
       },
       {
         "id": "Be3448d6e",
-        "x": 51.68,
-        "z": -2.816,
+        "x": 52.735,
+        "z": -4.588,
         "anchor": [
           57.743,
           13.915
         ],
-        "nudge": 285,
+        "nudge": 307,
         "radius": 11.95
       },
       {
         "id": "Be38a2b04",
-        "x": 38.671,
-        "z": 65.417,
+        "x": 35.941,
+        "z": 66.903,
         "anchor": [
           57.743,
           71.662
         ],
-        "nudge": 321,
+        "nudge": 357,
         "radius": 11.247
       },
       {
         "id": "Beb7b8b9c",
-        "x": 41.721,
-        "z": 17.683,
+        "x": 39.473,
+        "z": 19.599,
         "anchor": [
           46.885,
           29.221
         ],
-        "nudge": 202,
+        "nudge": 194,
         "radius": 6.945
       },
       {
         "id": "Bedda6bf8",
-        "x": -12.349,
-        "z": 104.279,
+        "x": -11.091,
+        "z": 108.314,
         "anchor": [
           -20.093,
           88.928
         ],
-        "nudge": 275,
+        "nudge": 342,
         "radius": 26.483
       },
       {
         "id": "Bf86ee95f",
-        "x": 30.721,
-        "z": 97.751,
+        "x": 31.287,
+        "z": 98.225,
         "anchor": [
           -4.125,
           98.694
         ],
-        "nudge": 558,
+        "nudge": 567,
         "radius": 11.667
       }
     ],
     "metrics": {
       "overlaps": 0,
-      "minGap": 1.905,
-      "medianGap": 3.381,
-      "maxGap": 47.064,
-      "fill": 73.237,
-      "hullUnits": 40529,
+      "minGap": 1.908,
+      "medianGap": 3.857,
+      "maxGap": 47.313,
+      "fill": 75.175,
+      "hullUnits": 39494,
       "maxNudgeMetres": 576,
-      "medianNudgeMetres": 321
+      "medianNudgeMetres": 353
     }
   },
   "media": [],

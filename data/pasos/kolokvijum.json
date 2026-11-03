@@ -1,7 +1,7 @@
 {
  "schema": "or-kolokvijum-v1",
  "dan": "2026-11-16",
- "azurirano": "2026-11-01",
+ "azurirano": "2026-11-02",
  "elementi": [
   "pasos",
   "ai-studio",
@@ -29,13 +29,13 @@
  "rezime": {
   "pasos": {
    "nema": 23,
-   "najavljeno": 6,
+   "najavljeno": 7,
    "ceka": 9,
    "stiglo": 1,
    "prihvaceno": 32
   },
   "ai-studio": {
-   "nema": 61,
+   "nema": 62,
    "najavljeno": 2,
    "ceka": 0,
    "stiglo": 6,
@@ -45,12 +45,12 @@
    "nema": 58,
    "najavljeno": 1,
    "ceka": 0,
-   "stiglo": 11,
+   "stiglo": 12,
    "prihvaceno": 1
   },
   "maketa": {
    "nema": 66,
-   "najavljeno": 4,
+   "najavljeno": 5,
    "ceka": 0,
    "stiglo": 1,
    "prihvaceno": 0
@@ -1406,14 +1406,16 @@
   },
   {
    "tim": "T21",
-   "objekat": "Dve kule Beograd (Ušće 1 i 2)",
-   "procenat": 0,
+   "objekat": "Kula Beograd",
+   "procenat": 43,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "PDF"
+     ],
+     "datum": "2026-10-27",
+     "predaja": 1
     },
     "ai-studio": {
      "stanje": "nema",
@@ -1422,10 +1424,12 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-02",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -1435,44 +1439,45 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-25",
-    "vrsta": "mejl"
+    "datum": "2026-10-12",
+    "vrsta": "konsultacije"
    },
    "hronologija": [
+    {
+     "datum": "2026-10-08",
+     "element": "prepiska",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-10-08",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    },
     {
      "datum": "2026-10-12",
      "element": "konsultacija",
      "vrsta": "konsultacije"
     },
     {
-     "datum": "2026-10-23",
-     "element": "prepiska",
+     "datum": "2026-10-27",
+     "element": "pasos",
      "formati": [
+      "PDF",
       "mejl"
      ]
     },
     {
-     "datum": "2026-10-23",
-     "element": "konsultacija",
-     "vrsta": "mejl"
-    },
-    {
-     "datum": "2026-10-25",
-     "element": "prepiska",
+     "datum": "2026-11-02",
+     "element": "skice",
      "formati": [
-      "mejl"
+      "slika"
      ]
-    },
-    {
-     "datum": "2026-10-25",
-     "element": "konsultacija",
-     "vrsta": "mejl"
     }
    ]
   },
@@ -2862,16 +2867,14 @@
   },
   {
    "tim": "T44",
-   "objekat": "Kula Beograd",
-   "procenat": 43,
+   "objekat": "ATŠ — Arhitektonska tehnička škola",
+   "procenat": 31,
    "elementi": {
     "pasos": {
-     "stanje": "prihvaceno",
-     "formati": [
-      "PDF"
-     ],
-     "datum": "2026-10-27",
-     "predaja": 1
+     "stanje": "najavljeno",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
     },
     "ai-studio": {
      "stanje": "nema",
@@ -2884,17 +2887,18 @@
      "formati": [
       "slika"
      ],
-     "datum": "2026-10-26",
-     "predaja": 1
+     "datum": "2026-11-02",
+     "predaja": 2
     },
     "maketa": {
-     "stanje": "nema",
+     "stanje": "najavljeno",
      "formati": [],
      "datum": null,
      "predaja": 0
     }
    },
    "fali": [
+    "pasos",
     "ai-studio",
     "maketa"
    ],
@@ -2903,18 +2907,6 @@
     "vrsta": "čas"
    },
    "hronologija": [
-    {
-     "datum": "2026-10-08",
-     "element": "prepiska",
-     "formati": [
-      "slika"
-     ]
-    },
-    {
-     "datum": "2026-10-08",
-     "element": "konsultacija",
-     "vrsta": "mejl"
-    },
     {
      "datum": "2026-10-12",
      "element": "konsultacija",
@@ -2933,11 +2925,10 @@
      "vrsta": "čas"
     },
     {
-     "datum": "2026-10-27",
-     "element": "pasos",
+     "datum": "2026-11-02",
+     "element": "skice",
      "formati": [
-      "PDF",
-      "mejl"
+      "slika"
      ]
     }
    ]
@@ -4614,6 +4605,73 @@
     },
     {
      "datum": "2026-10-30",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    }
+   ]
+  },
+  {
+   "tim": "T72",
+   "objekat": "Ušće Tower (Ušće 1 i 2)",
+   "procenat": 0,
+   "elementi": {
+    "pasos": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "ai-studio": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "skice": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "maketa": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    }
+   },
+   "fali": [
+    "pasos",
+    "ai-studio",
+    "skice",
+    "maketa"
+   ],
+   "konsultacija": {
+    "datum": "2026-10-25",
+    "vrsta": "mejl"
+   },
+   "hronologija": [
+    {
+     "datum": "2026-10-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-10-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-10-25",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-10-25",
      "element": "konsultacija",
      "vrsta": "mejl"
     }

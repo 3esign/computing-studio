@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "updated": "2026-11-01",
+  "updated": "2026-11-03",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
     "sr": "Zvanični javni registar timova: ID tima, brojevi indeksa, dodeljeni objekti, teme istraživanja i faza progresa. Imena studenata su izostavljena radi zaštite privatnosti."
   },
   "totals": {
-    "teams": 71,
-    "objects": 51,
+    "teams": 72,
+    "objects": 52,
     "completedPassports": 41
   },
   "entries": [
@@ -435,19 +435,20 @@
         "107/26",
         "114/26"
       ],
-      "object": "Dve kule Beograd (Ušće 1 i 2)",
-      "location": "Bulevar Mihajla Pupina 6, Novi Beograd",
-      "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
-      "progressStage": 3,
-      "progressLabel": "Predat tekst o tehnologiji",
-      "status": "Predat tekst; traži se prototip i tabela podatak → izvor",
-      "submissionsCount": 2,
-      "hasPassport": false,
+      "object": "Kula Beograd",
+      "location": "Beograd na vodi",
+      "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
+      "progressStage": 5,
+      "progressLabel": "Istraživanje na sajtu (29.10)",
+      "status": "Radna verzija istraživanja „Dve kule Beograd“ kurirana u javni sloj (29.10): hronologija 2014–2019 sa 9 izvora, izvedeni objekat po SOM-u, 7 otvorenih pitanja; sajt tima vezan kao izvor. Na konsultacijama 02.11 predat crtež razvoja kule (220 → ~200 → 168 m).",
+      "submissionsCount": 3,
+      "hasPassport": true,
       "flags": [
-        "Mejl 24.10: sastav tima za Ušće two tower potvrđen kao 129/26, 18/26, 69/26 — ne poklapa se sa registratorom (135/26, 107/26, 114/26); indeksi 18 i 69 već stoje u T54 i T51; čeka se potvrda nastavnika/studenta"
+        "Ispravka registra 03.11: istraživanje Kule Beograd (prijem 27.10), sajt tima i crtež sa konsultacija 02.11 pripadaju ovom timu (indeksi po zapisu konsultacija 12.10); do 03.11 bili su pogrešno upisani pod T44. Tim indekse u predajama nije naveo — potvrditi pri sledećoj predaji.",
+        "Četvrti tim na Kuli Beograd (uz T28 izvođenje, T67 konstruktivni sistem, IND-02 opšti podaci) — ugao: razvoj projekta kroz vreme, ne preklapa se."
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 23,
+      "sectionsCount": 4
     },
     {
       "id": "T22",
@@ -905,21 +906,20 @@
         "156/26",
         "166/26"
       ],
-      "object": "Kula Beograd",
-      "location": "Beograd na vodi",
-      "topic": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
-      "progressStage": 5,
-      "progressLabel": "Istraživanje na sajtu (29.10)",
-      "status": "Radna verzija istraživanja „Dve kule Beograd“ kurirana u javni sloj (29.10): hronologija 2014–2019 sa 9 izvora, izvedeni objekat po SOM-u, 7 otvorenih pitanja; sajt tima vezan kao izvor.",
-      "submissionsCount": 3,
-      "hasPassport": true,
+      "object": "ATŠ — Arhitektonska tehnička škola",
+      "location": "Vračar, ugao Vojislava Ilića i Gospodara Vučića",
+      "topic": "Istorijat škole (od 1902), zgrada i obrazovni program; lično iskustvo učenika",
+      "progressStage": 2,
+      "progressLabel": "Skice predate (02.11)",
+      "status": "Predata aksonometrijska skica zgrade (26.10) i list sa istorijatom, opisom škole i skicom objekta (konsultacije 02.11, „skica 2 — fokus na maketu“); pasoš sa izvorima još nije stigao.",
+      "submissionsCount": 2,
+      "hasPassport": false,
       "flags": [
-        "Lokacija je približna, po javnoj adresi škole; nije geodetski potvrđena.",
-        "Do 27.10. registar je vodio ATŠ; mejlom 08.10. najavljena promena, dokumentovana prijemom 27.10 (evidencija/prijem-2026-10-27/raw/t44/).",
-        "Četvrti tim na Kuli Beograd (uz T28 izvođenje, T67 konstruktivni sistem, IND-02 opšti podaci) — ugao: razvoj projekta kroz vreme, ne preklapa se."
+        "Ispravka registra 03.11: tema je ATŠ (zapis konsultacija 12.10, skica 26.10, list 02.11); istraživanje Kule Beograd koje je do 03.11 stajalo ovde prešlo je na T21.",
+        "Lokacija je približna, po uglu ulica sa lista tima; nije geodetski potvrđena."
       ],
-      "claimsCount": 23,
-      "sectionsCount": 4
+      "claimsCount": 0,
+      "sectionsCount": 0
     },
     {
       "id": "T45",
@@ -1456,7 +1456,28 @@
       ],
       "claimsCount": 59,
       "sectionsCount": 7
+    },
+    {
+      "id": "T72",
+      "indices": [
+        "129/26",
+        "18/26",
+        "69/26"
+      ],
+      "object": "Ušće Tower (Ušće 1 i 2)",
+      "location": "Bulevar Mihajla Pupina 6, Novi Beograd",
+      "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
+      "progressStage": 3,
+      "progressLabel": "Predat tekst o tehnologiji",
+      "status": "Predat tekst o tehnologiji (23.10); traži se prototip i tabela podatak → izvor",
+      "submissionsCount": 2,
+      "hasPassport": false,
+      "flags": [
+        "Izdvojen iz T21 ispravkom registra 03.11: mejlovi 20–25.10 o Ušće Tower 2 pripadaju ovom timu. Indeksi 18/26 i 69/26 iz mejla 24.10 već stoje u T54 i T51 — tim treba da potvrdi indekse (moguće druga godina upisa)."
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-4d8be70b2ebda7a5"
+  "datasetRevision": "r-2bd64b02d939a9b2"
 }

@@ -1,6 +1,6 @@
 {
-  "version": "233f69418f86cd72",
-  "bytes": 32691127,
+  "version": "a1f835058a92929a",
+  "bytes": 33329624,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -108,6 +108,7 @@
     "svet/data/revisions/r-1cbfb2729d68ed2a.json",
     "svet/data/revisions/r-208fcf50e41d8d01.json",
     "svet/data/revisions/r-226b3be40beb6871.json",
+    "svet/data/revisions/r-2bd64b02d939a9b2.json",
     "svet/data/revisions/r-35dc1fbd5e4305a3.json",
     "svet/data/revisions/r-36d190eaa2e0452b.json",
     "svet/data/revisions/r-3dde0d52902fafb2.json",
@@ -258,6 +259,7 @@
     "timovi/T68.html",
     "timovi/T69.html",
     "timovi/T70.html",
-    "timovi/T71.html"
+    "timovi/T71.html",
+    "timovi/T72.html"
   ]
 }

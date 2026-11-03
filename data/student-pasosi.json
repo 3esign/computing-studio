@@ -6918,9 +6918,9 @@
       }
     },
     {
-      "id": "t44",
-      "team": "T44",
-      "credit": "154/26 · 156/26 · 166/26",
+      "id": "t21",
+      "team": "T21",
+      "credit": "135/26 · 107/26 · 114/26",
       "received": "2026-10-27",
       "object": {
         "name": "Kula Beograd"
@@ -6939,7 +6939,7 @@
               "s": [
                 "S11"
               ],
-              "id": "T44:metod:2033ca7baa82",
+              "id": "T21:metod:2033ca7baa82",
               "category": "research"
             },
             {
@@ -6948,7 +6948,7 @@
               "s": [
                 "S11"
               ],
-              "id": "T44:metod:c5898c0af3a3",
+              "id": "T21:metod:c5898c0af3a3",
               "category": "methods"
             },
             {
@@ -6959,7 +6959,7 @@
                 "S2",
                 "S11"
               ],
-              "id": "T44:metod:f8fccf392644",
+              "id": "T21:metod:f8fccf392644",
               "category": "questions",
               "status": "unconfirmed"
             },
@@ -6969,7 +6969,7 @@
               "s": [
                 "S10"
               ],
-              "id": "T44:metod:5c06fe740984",
+              "id": "T21:metod:5c06fe740984",
               "category": "methods"
             }
           ]
@@ -6987,7 +6987,7 @@
               "s": [
                 "S1"
               ],
-              "id": "T44:hronologija:e0a5ed1a49e5",
+              "id": "T21:hronologija:e0a5ed1a49e5",
               "category": "time"
             },
             {
@@ -6996,7 +6996,7 @@
               "s": [
                 "S2"
               ],
-              "id": "T44:hronologija:226e66fdaff5",
+              "id": "T21:hronologija:226e66fdaff5",
               "category": "time"
             },
             {
@@ -7006,7 +7006,7 @@
                 "S3",
                 "S9"
               ],
-              "id": "T44:hronologija:32009ba486b3",
+              "id": "T21:hronologija:32009ba486b3",
               "category": "time"
             },
             {
@@ -7015,7 +7015,7 @@
               "s": [
                 "S3"
               ],
-              "id": "T44:hronologija:49d816586cf2",
+              "id": "T21:hronologija:49d816586cf2",
               "category": "time"
             },
             {
@@ -7025,7 +7025,7 @@
                 "S3",
                 "S9"
               ],
-              "id": "T44:hronologija:44d70423e0ff",
+              "id": "T21:hronologija:44d70423e0ff",
               "category": "time"
             },
             {
@@ -7034,7 +7034,7 @@
               "s": [
                 "S4"
               ],
-              "id": "T44:hronologija:8837f1fb5352",
+              "id": "T21:hronologija:8837f1fb5352",
               "category": "time"
             },
             {
@@ -7044,7 +7044,7 @@
                 "S7",
                 "S8"
               ],
-              "id": "T44:hronologija:76197b70211b",
+              "id": "T21:hronologija:76197b70211b",
               "category": "documents"
             }
           ]
@@ -7063,7 +7063,7 @@
                 "S6",
                 "S7"
               ],
-              "id": "T44:izvedeno:267d413f72e7",
+              "id": "T21:izvedeno:267d413f72e7",
               "category": "geometry"
             },
             {
@@ -7073,7 +7073,7 @@
                 "S4",
                 "S6"
               ],
-              "id": "T44:izvedeno:07036263a91d",
+              "id": "T21:izvedeno:07036263a91d",
               "category": "geometry",
               "status": "conflict"
             },
@@ -7084,7 +7084,7 @@
                 "S6",
                 "S7"
               ],
-              "id": "T44:izvedeno:c71ed7d3f0d0",
+              "id": "T21:izvedeno:c71ed7d3f0d0",
               "category": "geometry"
             },
             {
@@ -7093,7 +7093,7 @@
               "s": [
                 "S6"
               ],
-              "id": "T44:izvedeno:62274dffd711",
+              "id": "T21:izvedeno:62274dffd711",
               "category": "structure"
             },
             {
@@ -7103,7 +7103,7 @@
                 "S6",
                 "S11"
               ],
-              "id": "T44:izvedeno:bf22d308a224",
+              "id": "T21:izvedeno:bf22d308a224",
               "category": "questions"
             }
           ]
@@ -7119,7 +7119,7 @@
               "t": "Najraniji prikaz",
               "v": "koji je najraniji prikaz Kule Beograd koji se može pouzdano datirati",
               "s": [],
-              "id": "T44:pitanja:66530bb536c8",
+              "id": "T21:pitanja:66530bb536c8",
               "category": "questions",
               "status": "unknown"
             },
@@ -7127,7 +7127,7 @@
               "t": "Status visine 220 m",
               "v": "da li je 220 m bila deo zvaničnog projektnog predloga ili javno predstavljena ideja",
               "s": [],
-              "id": "T44:pitanja:61b3975b153d",
+              "id": "T21:pitanja:61b3975b153d",
               "category": "questions",
               "status": "unknown"
             },
@@ -7135,7 +7135,7 @@
               "t": "Broj ili oblik",
               "v": "da li se između 220, oko 200 i 168 m menjao samo broj ili i oblik kule",
               "s": [],
-              "id": "T44:pitanja:a6600e72f138",
+              "id": "T21:pitanja:a6600e72f138",
               "category": "questions",
               "status": "unknown"
             },
@@ -7143,7 +7143,7 @@
               "t": "Prva rotacija",
               "v": "kada se prvi put pojavljuje rotacija volumena od 90°",
               "s": [],
-              "id": "T44:pitanja:050776c706a7",
+              "id": "T21:pitanja:050776c706a7",
               "category": "questions",
               "status": "unknown"
             },
@@ -7151,7 +7151,7 @@
               "t": "Render naspram izvedenog",
               "v": "koje razlike između ranijih rendera i izvedenog objekta se mogu direktno dokazati",
               "s": [],
-              "id": "T44:pitanja:e0eac2f39342",
+              "id": "T21:pitanja:e0eac2f39342",
               "category": "questions",
               "status": "unknown"
             },
@@ -7159,7 +7159,7 @@
               "t": "Izjave projektanata",
               "v": "postoje li originalne izjave ili dokumenti koji objašnjavaju promene",
               "s": [],
-              "id": "T44:pitanja:01dd9c9055ac",
+              "id": "T21:pitanja:01dd9c9055ac",
               "category": "questions",
               "status": "unknown"
             },
@@ -7167,7 +7167,7 @@
               "t": "Dokument o UAE",
               "v": "postoji li originalni dokument koji potvrđuje da je projekat ranije bio namenjen lokaciji u UAE",
               "s": [],
-              "id": "T44:pitanja:2db1a1e01db0",
+              "id": "T21:pitanja:2db1a1e01db0",
               "category": "questions",
               "status": "unknown"
             }
@@ -13917,5 +13917,5 @@
       "state": "zavedeno 2026-10-19 — registar timova: docs/data/pasos/timovi-evidencija.json (28 stavki, 5 otvorenih pitanja)"
     }
   ],
-  "datasetRevision": "r-4d8be70b2ebda7a5"
+  "datasetRevision": "r-2bd64b02d939a9b2"
 }

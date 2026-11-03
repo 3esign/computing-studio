@@ -1,6 +1,6 @@
 {
-  "datasetRevision": "r-4d8be70b2ebda7a5",
-  "registeredTeams": 71,
+  "datasetRevision": "r-2bd64b02d939a9b2",
+  "registeredTeams": 72,
   "curatedPassportsCount": 41,
   "totalCuratedClaims": 1086,
   "passports": [
@@ -95,6 +95,12 @@
       "claims": 13
     },
     {
+      "id": "T21",
+      "object": "Kula Beograd",
+      "sections": 4,
+      "claims": 23
+    },
+    {
       "id": "T22",
       "object": "Stambeno-poslovni kompleks „K-District” (Donji Grad)",
       "sections": 4,
@@ -153,12 +159,6 @@
       "object": "Hram Svetog Save",
       "sections": 2,
       "claims": 7
-    },
-    {
-      "id": "T44",
-      "object": "Kula Beograd",
-      "sections": 4,
-      "claims": 23
     },
     {
       "id": "T46",
