@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-2bd64b02d939a9b2",
+  "datasetRevision": "r-b3c62b004fbad1fe",
   "teams": [
     {
       "id": "T01",
@@ -2061,6 +2061,34 @@
       "city": "Beograd",
       "geometryStatus": "illustrative",
       "building": "Bbfd097ce"
+    },
+    {
+      "id": "T73",
+      "object": "Gardoš kula, Zemun",
+      "indices": [
+        "148/26",
+        "60/26"
+      ],
+      "topic": "Gardoš kula (Zemun) — skica",
+      "place": "Zemun, Gardoš",
+      "lat": 44.8486,
+      "lng": 20.4108,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 2,
+      "progressLabel": "Skica sa konsultacija 02.11",
+      "status": "Skica sa konsultacija 02.11",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "B1c340903"
     }
   ],
   "buildings": [
@@ -4331,6 +4359,47 @@
         {
           "team": "T72",
           "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
+          "claimsCount": 0,
+          "hasPassport": false
+        }
+      ]
+    },
+    {
+      "id": "B1c340903",
+      "object": "Gardoš kula, Zemun",
+      "teams": [
+        "T73"
+      ],
+      "teamCount": 1,
+      "place": "Zemun, Gardoš",
+      "city": "Beograd",
+      "lat": 44.8486,
+      "lng": 20.4108,
+      "locationStatus": "approximate",
+      "passports": 0,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "sourcesCount": 0,
+      "categories": {
+        "research": 0,
+        "documents": 0,
+        "materials": 0,
+        "time": 0,
+        "questions": 0,
+        "identity": 0,
+        "location": 0,
+        "geometry": 0,
+        "structure": 0,
+        "use": 0,
+        "energy": 0,
+        "environment": 0,
+        "people": 0,
+        "methods": 0
+      },
+      "topics": [
+        {
+          "team": "T73",
+          "topic": "Gardoš kula (Zemun) — skica",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -31147,30 +31216,30 @@
     "places": [
       {
         "id": "B01ffbf6e",
-        "x": -112.038,
-        "z": 26.731,
+        "x": -113.364,
+        "z": 26.374,
         "anchor": [
           -144.635,
           41.939
         ],
-        "nudge": 576,
+        "nudge": 559,
         "radius": 10.877
       },
       {
         "id": "B0671278c",
-        "x": 27.073,
-        "z": 79.824,
+        "x": 26.796,
+        "z": 81.816,
         "anchor": [
           25.232,
           95.669
         ],
-        "nudge": 255,
+        "nudge": 223,
         "radius": 1.545
       },
       {
         "id": "B0dffad8d",
-        "x": -77.437,
-        "z": -66.635,
+        "x": -92.074,
+        "z": -58.196,
         "anchor": [
           -102.235,
           -92.732
@@ -31180,41 +31249,52 @@
       },
       {
         "id": "B14027bbe",
-        "x": 25.1,
-        "z": 117.935,
+        "x": 23.344,
+        "z": 118.008,
         "anchor": [
           -6.924,
           109.218
         ],
-        "nudge": 531,
+        "nudge": 504,
         "radius": 5.66
       },
       {
+        "id": "B1c340903",
+        "x": -80.187,
+        "z": -71.729,
+        "anchor": [
+          -97.719,
+          -103.172
+        ],
+        "nudge": 576,
+        "radius": 1.545
+      },
+      {
         "id": "B1df14ea1",
-        "x": 26.375,
-        "z": 51.431,
+        "x": 28.483,
+        "z": 41.447,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 257,
+        "nudge": 124,
         "radius": 1.545
       },
       {
         "id": "B21720f35",
-        "x": -81.44,
-        "z": 12.704,
+        "x": -81.447,
+        "z": 10.912,
         "anchor": [
           -87.513,
           9.554
         ],
-        "nudge": 109,
+        "nudge": 99,
         "radius": 11.51
       },
       {
         "id": "B25fc5bcf",
-        "x": 43.348,
-        "z": -24.895,
+        "x": 63.057,
+        "z": -28.086,
         "anchor": [
           58.73,
           7.653
@@ -31224,41 +31304,41 @@
       },
       {
         "id": "B25fc772a",
-        "x": 84.81,
-        "z": -78.174,
+        "x": 91.94,
+        "z": -82.76,
         "anchor": [
           91.319,
           -59.222
         ],
-        "nudge": 321,
+        "nudge": 377,
         "radius": 17.267
       },
       {
         "id": "B2a7ecb59",
-        "x": -125.636,
-        "z": 10.462,
+        "x": -125.303,
+        "z": 8.851,
         "anchor": [
           -160.416,
           1.655
         ],
-        "nudge": 574,
+        "nudge": 573,
         "radius": 6.945
       },
       {
         "id": "B2ceb56a4",
-        "x": 55.724,
-        "z": 85.447,
+        "x": 54.658,
+        "z": 85.859,
         "anchor": [
           62.382,
           78.89
         ],
-        "nudge": 150,
+        "nudge": 166,
         "radius": 11.95
       },
       {
         "id": "B34c1628c",
-        "x": 89.565,
-        "z": 99.022,
+        "x": 89.262,
+        "z": 99.96,
         "anchor": [
           123.669,
           110.55
@@ -31268,129 +31348,129 @@
       },
       {
         "id": "B3b4c7fb4",
-        "x": 5.374,
-        "z": -68.239,
+        "x": 4.232,
+        "z": -62.128,
         "anchor": [
           14.541,
           -53.441
         ],
-        "nudge": 279,
+        "nudge": 216,
         "radius": 10.992
       },
       {
         "id": "B41952daf",
-        "x": 82.295,
-        "z": 80.318,
+        "x": 81.156,
+        "z": 80.379,
         "anchor": [
           86.147,
           54.116
         ],
-        "nudge": 424,
+        "nudge": 428,
         "radius": 11.199
       },
       {
         "id": "B4d2fca52",
-        "x": 67.431,
-        "z": 137.968,
+        "x": 65.448,
+        "z": 138.51,
         "anchor": [
           70.009,
           102.8
         ],
-        "nudge": 564,
+        "nudge": 576,
         "radius": 35.46
       },
       {
         "id": "B4f2be009",
-        "x": 55.321,
-        "z": -51.35,
+        "x": 61.111,
+        "z": -57.5,
         "anchor": [
           33.935,
           -45.375
         ],
-        "nudge": 355,
+        "nudge": 476,
         "radius": 17.516
       },
       {
         "id": "B530102bb",
-        "x": 43.405,
-        "z": 41.535,
+        "x": 44.113,
+        "z": 43.462,
         "anchor": [
           57.249,
           40.354
         ],
-        "nudge": 222,
+        "nudge": 216,
         "radius": 11.339
       },
       {
         "id": "B655d6f70",
-        "x": 36.5,
-        "z": 82.564,
+        "x": 36.867,
+        "z": 83.528,
         "anchor": [
           43.924,
           83.49
         ],
-        "nudge": 120,
+        "nudge": 113,
         "radius": 1.545
       },
       {
         "id": "B6b092149",
-        "x": 26.286,
-        "z": -0.073,
+        "x": 30.476,
+        "z": 2.019,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 98,
+        "nudge": 71,
         "radius": 10.992
       },
       {
         "id": "B721111bb",
-        "x": 28.297,
-        "z": -60.428,
+        "x": 32.966,
+        "z": -63.827,
         "anchor": [
           30.327,
           -48.567
         ],
-        "nudge": 193,
+        "nudge": 248,
         "radius": 6.945
       },
       {
         "id": "B75d37fcb",
-        "x": 27.272,
-        "z": -81.607,
+        "x": 21.141,
+        "z": -81.422,
         "anchor": [
           30.947,
           -49.344
         ],
-        "nudge": 520,
+        "nudge": 537,
         "radius": 10.877
       },
       {
         "id": "B7a65f480",
-        "x": -49.535,
-        "z": 90.065,
+        "x": -51.598,
+        "z": 90.143,
         "anchor": [
           -41.258,
           89.141
         ],
-        "nudge": 133,
+        "nudge": 166,
         "radius": 10.75
       },
       {
         "id": "B7efb8894",
-        "x": 52.739,
-        "z": -84.146,
+        "x": 46.162,
+        "z": -86.798,
         "anchor": [
           38.181,
           -51.694
         ],
-        "nudge": 569,
+        "nudge": 576,
         "radius": 10.936
       },
       {
         "id": "B88cffac1",
-        "x": 95.137,
-        "z": 28.761,
+        "x": 95.441,
+        "z": 29.203,
         "anchor": [
           65.639,
           49.398
@@ -31400,41 +31480,41 @@
       },
       {
         "id": "B8b81c0c5",
-        "x": 67.557,
-        "z": -32.388,
+        "x": 69.805,
+        "z": -36.679,
         "anchor": [
           57.684,
           -32.891
         ],
-        "nudge": 158,
+        "nudge": 203,
         "radius": 1.545
       },
       {
         "id": "B9e4c8453",
-        "x": 17.418,
-        "z": -58.183,
+        "x": 2.589,
+        "z": -44.238,
         "anchor": [
           0,
           -31.309
         ],
-        "nudge": 512,
+        "nudge": 211,
         "radius": 1.545
       },
       {
         "id": "Ba8b77242",
-        "x": 12.749,
-        "z": -33.209,
+        "x": 25.551,
+        "z": -33.387,
         "anchor": [
           37.015,
           -14.611
         ],
-        "nudge": 489,
+        "nudge": 352,
         "radius": 20.097
       },
       {
         "id": "Badf7e17e",
-        "x": -56.67,
-        "z": 0.844,
+        "x": -56.014,
+        "z": 0.702,
         "anchor": [
           -63.79,
           -34.444
@@ -31444,8 +31524,8 @@
       },
       {
         "id": "Bae8506cc",
-        "x": 12.178,
-        "z": 29.75,
+        "x": 10.333,
+        "z": 27.998,
         "anchor": [
           36.028,
           2.783
@@ -31455,8 +31535,8 @@
       },
       {
         "id": "Bb21a1978",
-        "x": 125.979,
-        "z": 94.833,
+        "x": 124.45,
+        "z": 96.014,
         "anchor": [
           103.219,
           66.941
@@ -31466,201 +31546,201 @@
       },
       {
         "id": "Bb5a79c43",
-        "x": -3.875,
-        "z": -0.278,
+        "x": -0.123,
+        "z": -4.912,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 576,
+        "nudge": 517,
         "radius": 11.95
       },
       {
         "id": "Bb81ca622",
-        "x": 78.769,
-        "z": -21.674,
+        "x": 84.141,
+        "z": -24.189,
         "anchor": [
           67.469,
           -29.89
         ],
-        "nudge": 224,
+        "nudge": 282,
         "radius": 11.099
       },
       {
         "id": "Bba876e95",
-        "x": 75.184,
-        "z": -38.937,
+        "x": 78.034,
+        "z": -42.023,
         "anchor": [
           70.769,
           -31.759
         ],
-        "nudge": 135,
+        "nudge": 201,
         "radius": 1.545
       },
       {
         "id": "Bbb2e5c1e",
-        "x": -13.814,
-        "z": 51.471,
+        "x": -15.306,
+        "z": 51.116,
         "anchor": [
           2.468,
           41.745
         ],
-        "nudge": 303,
+        "nudge": 321,
         "radius": 11.426
       },
       {
         "id": "Bbe3e7124",
-        "x": -35.667,
-        "z": 67.538,
+        "x": -36.262,
+        "z": 68.335,
         "anchor": [
           -23.112,
           84.574
         ],
-        "nudge": 339,
+        "nudge": 334,
         "radius": 11.777
       },
       {
         "id": "Bbfd097ce",
-        "x": -66.319,
-        "z": 23.632,
+        "x": -66.195,
+        "z": 22.501,
         "anchor": [
           -61.87,
           16.542
         ],
-        "nudge": 134,
+        "nudge": 118,
         "radius": 1.545
       },
       {
         "id": "Bca96d908",
-        "x": -131.658,
-        "z": 52.844,
+        "x": -131.811,
+        "z": 53.332,
         "anchor": [
           -141.312,
           72.685
         ],
-        "nudge": 353,
+        "nudge": 345,
         "radius": 17.341
       },
       {
         "id": "Bce379d13",
-        "x": 89.867,
-        "z": -45.497,
+        "x": 93.3,
+        "z": -48.823,
         "anchor": [
           83.722,
           -47.963
         ],
-        "nudge": 106,
+        "nudge": 154,
         "radius": 11.339
       },
       {
         "id": "Bce3fd2f1",
-        "x": -80.234,
-        "z": 57.951,
+        "x": -80.211,
+        "z": 56.158,
         "anchor": [
           -92.657,
           36.836
         ],
-        "nudge": 392,
+        "nudge": 368,
         "radius": 28.184
       },
       {
         "id": "Bd18bf80b",
-        "x": 48.845,
-        "z": 11.388,
+        "x": 53.607,
+        "z": 11.185,
         "anchor": [
           49.847,
           9.74
         ],
-        "nudge": 31,
+        "nudge": 64,
         "radius": 1.545
       },
       {
         "id": "Bda203afb",
-        "x": 10.007,
-        "z": 62.929,
+        "x": 8.673,
+        "z": 62.235,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 568,
+        "nudge": 576,
         "radius": 11.15
       },
       {
         "id": "Be291aa43",
-        "x": 71.596,
-        "z": -35.457,
+        "x": 74.427,
+        "z": -38.567,
         "anchor": [
           57.684,
           -32.891
         ],
-        "nudge": 226,
+        "nudge": 283,
         "radius": 1.545
       },
       {
         "id": "Be3448d6e",
-        "x": 52.735,
-        "z": -4.588,
+        "x": 55.619,
+        "z": -7.077,
         "anchor": [
           57.743,
           13.915
         ],
-        "nudge": 307,
+        "nudge": 338,
         "radius": 11.95
       },
       {
         "id": "Be38a2b04",
-        "x": 35.941,
-        "z": 66.903,
+        "x": 34.264,
+        "z": 67.998,
         "anchor": [
           57.743,
           71.662
         ],
-        "nudge": 357,
+        "nudge": 380,
         "radius": 11.247
       },
       {
         "id": "Beb7b8b9c",
-        "x": 39.473,
-        "z": 19.599,
+        "x": 47.555,
+        "z": 21.815,
         "anchor": [
           46.885,
           29.221
         ],
-        "nudge": 194,
+        "nudge": 119,
         "radius": 6.945
       },
       {
         "id": "Bedda6bf8",
-        "x": -11.091,
-        "z": 108.314,
+        "x": -12.577,
+        "z": 107.123,
         "anchor": [
           -20.093,
           88.928
         ],
-        "nudge": 342,
+        "nudge": 315,
         "radius": 26.483
       },
       {
         "id": "Bf86ee95f",
-        "x": 31.287,
-        "z": 98.225,
+        "x": 30.109,
+        "z": 98.425,
         "anchor": [
           -4.125,
           98.694
         ],
-        "nudge": 567,
+        "nudge": 548,
         "radius": 11.667
       }
     ],
     "metrics": {
       "overlaps": 0,
-      "minGap": 1.908,
-      "medianGap": 3.857,
-      "maxGap": 47.313,
-      "fill": 75.175,
-      "hullUnits": 39494,
+      "minGap": 1.903,
+      "medianGap": 3.779,
+      "maxGap": 6.1,
+      "fill": 72.125,
+      "hullUnits": 41175,
       "maxNudgeMetres": 576,
-      "medianNudgeMetres": 353
+      "medianNudgeMetres": 345
     }
   },
   "media": [],

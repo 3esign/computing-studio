@@ -2060,8 +2060,36 @@
       "city": "Beograd",
       "geometryStatus": "illustrative",
       "building": "Bbfd097ce"
+    },
+    {
+      "id": "T73",
+      "object": "Gardoš kula, Zemun",
+      "indices": [
+        "148/26",
+        "60/26"
+      ],
+      "topic": "Gardoš kula (Zemun) — skica",
+      "place": "Zemun, Gardoš",
+      "lat": 44.8486,
+      "lng": 20.4108,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 2,
+      "progressLabel": "Skica sa konsultacija 02.11",
+      "status": "Skica sa konsultacija 02.11",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "B1c340903"
     }
   ],
-  "datasetRevision": "r-2bd64b02d939a9b2",
+  "datasetRevision": "r-b3c62b004fbad1fe",
   "coordinateNote": "Koordinate su približne lokacije objekata iz kuriranog skupa mape registra (spojeno 2026-10-25); nijedna nije nezavisno proverena na terenu. Timovi T12, T25, T39, T59 zadržavaju izjavljenu tačku registra jer im je deljena lokacija još otvoreno pitanje."
 }

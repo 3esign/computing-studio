@@ -7,8 +7,8 @@
     "sr": "Zvanični javni registar timova: ID tima, brojevi indeksa, dodeljeni objekti, teme istraživanja i faza progresa. Imena studenata su izostavljena radi zaštite privatnosti."
   },
   "totals": {
-    "teams": 72,
-    "objects": 52,
+    "teams": 73,
+    "objects": 53,
     "completedPassports": 41
   },
   "entries": [
@@ -68,7 +68,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš + proširenje",
       "status": "Kuriran pilot pasoš + elaborat",
-      "submissionsCount": 4,
+      "submissionsCount": 5,
       "hasPassport": true,
       "flags": [
         "Deljeni objekat: T03 i T60 rade Sava Centar (odobreno)",
@@ -91,7 +91,7 @@
       "progressStage": 5,
       "progressLabel": "Predat pasoš u formatu tabele",
       "status": "Predat pasoš tabela i istorija korišćenja (24.10)",
-      "submissionsCount": 4,
+      "submissionsCount": 5,
       "hasPassport": true,
       "flags": [
         "Razrešeno: 17/26 je u T04 (nije u T10)",
@@ -134,7 +134,7 @@
       "progressStage": 4,
       "progressLabel": "Predat digitalni pasoš",
       "status": "Predat digitalni pasoš Gardoša (24.10)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
         "Prijem 25.10: podnosilac potvrdila indeks 8/2026; odeljak legendi izostavljen iz pasoša — pozivao se na AI (Gemini) umesto na izvor",
@@ -277,7 +277,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (31.10)",
       "status": "Pasoš Palate SANU i Glavne pošte v1.0 kuriran u javni sloj (31.10): 73 zapisa — Pošta sa izvorom uz podatak, SANU samo sa spiskom linkova na kraju (nepotvrđeno); 16 otvorenih pitanja. AI Studio aplikacija ostaje prateći rad.",
-      "submissionsCount": 3,
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
         "Dva objekta: tim pokriva oba u skladu sa veličinom grupe",
@@ -316,7 +316,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (29.10)",
       "status": "Osnovni podaci i „Šta znamo o unutrašnjosti“ kurirani u javni sloj (29.10): 17 zapisa, 4 od njih označena nepoznato (konstrukcija, podovi, pregrade, poreklo materijala); 6 fotografija sa terena u galeriji.",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 17,
@@ -401,7 +401,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
         "T19 dopunjen sa 11/26  kao trećim članom"
@@ -463,7 +463,7 @@
       "progressStage": 5,
       "progressLabel": "Predat elaborat (spreman za pasoš)",
       "status": "Predat detaljan elaborat (6 strana)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": true,
       "flags": [
         "Materijal izuzetno bogat; čeka ubacivanje u javni JSON pasoša"
@@ -483,7 +483,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (29.10)",
       "status": "Odeljak 1 pasoša (identitet, materijali, hronologija 1860–2005) kuriran u javni sloj (29.10): 18 zapisa. 29.10 predata skica koncepta vizuelizacije (staklena opna oko istorijske fasade) — u galeriji.",
-      "submissionsCount": 3,
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
         "Prijem 28.10: 16 grafičkih priloga u građi (privatno); prava arhiva (IAB, MGB, JDP) za javnu objavu priloga nisu potvrđena.",
@@ -529,7 +529,7 @@
       "progressStage": 5,
       "progressLabel": "Predata AI Studio aplikacija",
       "status": "Predata AI Studio aplikacija i PDF (19.10)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Ista upisana tačka kao T12 (Zgrada Generalštaba). Razrešiti da li je to jedan objekat sa dva tima ili dva odvojena upisa."
@@ -549,7 +549,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
         "Potvrđeni autori podneska"
@@ -631,7 +631,7 @@
       "progressStage": 4,
       "progressLabel": "5 priloga + arhivski rad",
       "status": "Predato 5 priloga + zakazan razgovor u Rektoratu",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": false,
       "flags": [
         "Razrešeno: indeks 191 zvanično u T30 (napustio West 65)"
@@ -673,7 +673,7 @@
       "progressStage": 2,
       "progressLabel": "U radu",
       "status": "U radu (nakon izlaska člana)",
-      "submissionsCount": 0,
+      "submissionsCount": 1,
       "hasPassport": false,
       "flags": [
         "Objekat van Srbije"
@@ -828,7 +828,7 @@
       "progressStage": 4,
       "progressLabel": "Predat HTML pasoš „Glasnik Beograda“",
       "status": "Predat „Glasnik Beograda“ HTML pasoš (18.10, primljeno 24.10); traži se pdf/word",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
         "Prijem 25.10: obe autork potvrđene indeksima iz podneska (163, 177)"
@@ -849,7 +849,7 @@
       "progressStage": 5,
       "progressLabel": "Predata arhiva (289 skenova)",
       "status": "Predata masivna arhivska građa (274 MB ZIP)",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [
         "Najobimniji arhivski prilog u semestru"
@@ -933,7 +933,7 @@
       "progressStage": 1,
       "progressLabel": "Prijavljena tema",
       "status": "Prijavljena tema",
-      "submissionsCount": 0,
+      "submissionsCount": 1,
       "hasPassport": false,
       "flags": [],
       "claimsCount": 0,
@@ -971,7 +971,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (29.10)",
       "status": "Digitalni pasoš Hale 1 kuriran u javni sloj (29.10): 31 zapis, 18 navedenih izvora bez URL-a (monografija, časopisi, arhivi) — tim da doda linkove/lokatore; poređenje sa CNIT označeno kao nepotvrđeno.",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 31,
@@ -1088,7 +1088,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
       "status": "Kuriran pilot pasoš",
-      "submissionsCount": 3,
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 9,
@@ -1107,7 +1107,7 @@
       "progressStage": 2,
       "progressLabel": "Terenski rad",
       "status": "Terenski rad u toku — hotel odgovorio i uputio na knjigu „Prvih 100 godina hotel Moskva\", Zavod za zaštitu spomenika i Arhiv grada; Zavod još bez odgovora (prepiska 28.10)",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": false,
       "flags": [
         "Prijem 28.10: prepiska tima sa hotelom Moskva i Zavodom (upit 19.10, Zavod bez odgovora). Knjiga hotela nije prosleđena. Pitanje o maketi za kolokvijum otvoreno."
@@ -1148,7 +1148,7 @@
       "progressStage": 1,
       "progressLabel": "Prijavljena tema",
       "status": "Prijavljena tema",
-      "submissionsCount": 1,
+      "submissionsCount": 2,
       "hasPassport": false,
       "flags": [],
       "claimsCount": 0,
@@ -1477,7 +1477,27 @@
       ],
       "claimsCount": 0,
       "sectionsCount": 0
+    },
+    {
+      "id": "T73",
+      "indices": [
+        "148/26",
+        "60/26"
+      ],
+      "object": "Gardoš kula, Zemun",
+      "location": "Beograd",
+      "topic": "Gardoš kula (Zemun) — skica",
+      "progressStage": 2,
+      "progressLabel": "Skica sa konsultacija 02.11",
+      "status": "Skica sa konsultacija 02.11",
+      "submissionsCount": 1,
+      "hasPassport": false,
+      "flags": [
+        "Novi tim sa konsultacija 02.11 (Semirov spisak: 148/26, 60/26); objekat i lokacija približni"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-2bd64b02d939a9b2"
+  "datasetRevision": "r-b3c62b004fbad1fe"
 }
