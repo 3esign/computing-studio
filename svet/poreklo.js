@@ -242,7 +242,7 @@
       const sharedMap = new Map();
       d.entities.forEach(e => {
         const teams = [...new Set(links.filter(l => l.entity === e.id).map(l => l.team))];
-        if (teams.size > 1) sharedMap.set(e.id, teams);
+        if (teams.length > 1) sharedMap.set(e.id, teams);
       });
 
       const W = 1060, H = 640;
@@ -376,7 +376,7 @@
           { id: 'mesto:karaburma', label: 'Karaburma' },
           { id: 'mat:mermer', label: 'Mermer' },
           { id: 'mat:ab', label: 'Armirani beton' },
-          { id: 'inst:ims', label: 'Institut IMS' }
+          { id: 'org:ims', label: 'Institut IMS' }
         ];
         featured.forEach(f => {
           const btn = node('button', f.label, 'mchip');
@@ -488,11 +488,27 @@
         }
       }
 
+      const srObl = (n, one, few, many) => {
+        const d10 = n % 10, d100 = n % 100;
+        return n + ' ' + (d10 === 1 && d100 !== 11 ? one : d10 >= 2 && d10 <= 4 && (d100 < 12 || d100 > 14) ? few : many);
+      };
+      const nKamenolomi = links.filter(l => l.kind === 'poreklo').length;
+      const nMaterijali = links.filter(l => l.kind === 'materijal').length;
+      const nAkteri = links.filter(l => ['osoba', 'organizacija', 'institucija'].includes(l.kind)).length;
+      const filterLabels = {
+        all: `Sve veze (${links.length})`,
+        kamenolomi: `Kamenolomi i ležišta (${nKamenolomi})`,
+        zajednicke: `Zajedničke veze zgrada (${sharedMap.size})`,
+        materijali: `Materijali (${nMaterijali})`,
+        akteri: `Inženjeri i institucije (${nAkteri})`
+      };
       const filterBtns = document.querySelectorAll('.nfilter');
       filterBtns.forEach(btn => {
+        const f = btn.getAttribute('data-filter');
+        if (filterLabels[f]) btn.textContent = filterLabels[f];
         btn.addEventListener('click', () => {
           filterBtns.forEach(b => b.classList.toggle('on', b === btn));
-          activeFilter = btn.getAttribute('data-filter');
+          activeFilter = f;
           applyFilter(activeFilter);
         });
       });
@@ -502,7 +518,7 @@
           nodeEls.forEach(el => el.classList.remove('dim', 'on', 'connected'));
           linkEls.forEach(l => l.path.classList.remove('dim', 'on'));
           netRead.replaceChildren();
-          netRead.append(node('b', 'Mreža veza aktivna (136 veza)'), node('span', 'Izaberi bilo koji čvor da osvetliš njegove direktne veze.'));
+          netRead.append(node('b', `Mreža veza aktivna (${srObl(links.length, 'veza', 'veze', 'veza')})`), node('span', 'Izaberi bilo koji čvor da osvetliš njegove direktne veze.'));
           return;
         }
         if (f === 'kamenolomi') {
@@ -518,7 +534,7 @@
             el.classList.remove('on', 'connected');
           });
           netRead.replaceChildren();
-          netRead.append(node('b', 'Kamenolomi, ciglane i ležišta (20 veza)'), node('span', 'Prikazane su veze između beogradskih zgrada i nalazišta materijala.'));
+          netRead.append(node('b', `Kamenolomi, ciglane i ležišta (${srObl(nKamenolomi, 'veza', 'veze', 'veza')})`), node('span', 'Prikazane su veze između beogradskih zgrada i nalazišta materijala.'));
           return;
         }
         if (f === 'zajednicke') {
@@ -533,7 +549,7 @@
             el.classList.toggle('connected', sharedMap.has(id));
           });
           netRead.replaceChildren();
-          netRead.append(node('b', 'Zajedničke veze zgrada (15 deljenih entiteta)'), node('span', 'Prikazani su materijali i ležišta (Brač, Kosjerić, IMS, mermer, cigla...) koje deli više zgrada istovremeno.'));
+          netRead.append(node('b', `Zajedničke veze zgrada (${srObl(sharedMap.size, 'deljeni entitet', 'deljena entiteta', 'deljenih entiteta')})`), node('span', 'Prikazani su materijali i ležišta (Brač, Kosjerić, IMS, mermer, cigla...) koje deli više zgrada istovremeno.'));
           return;
         }
         if (f === 'materijali') {
@@ -549,7 +565,7 @@
             el.classList.remove('on', 'connected');
           });
           netRead.replaceChildren();
-          netRead.append(node('b', 'Građevinski materijali (63 veze)'), node('span', 'Veze beogradskih objekata sa primenjenim materijalima u dosijeima.'));
+          netRead.append(node('b', `Građevinski materijali (${srObl(nMaterijali, 'veza', 'veze', 'veza')})`), node('span', 'Veze beogradskih objekata sa primenjenim materijalima u dosijeima.'));
           return;
         }
         if (f === 'akteri') {
@@ -565,7 +581,7 @@
             el.classList.remove('on', 'connected');
           });
           netRead.replaceChildren();
-          netRead.append(node('b', 'Inženjeri, autori i institucije (53 veze)'), node('span', 'Veze objekata sa projektantima, graditeljima i institutima za ispitivanje materijala.'));
+          netRead.append(node('b', `Inženjeri, autori i institucije (${srObl(nAkteri, 'veza', 'veze', 'veza')})`), node('span', 'Veze objekata sa projektantima, graditeljima i institutima za ispitivanje materijala.'));
           return;
         }
       }
