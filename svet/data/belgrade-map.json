@@ -1260,12 +1260,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B34c1628c",
-      "location": "Vojislava Ilića 78, Beograd — približno",
-      "flags": [
-        "Raniji zapis je spajao ATŠ i Dom Svetog Save u Cara Dušana — to su dva različita objekta.",
-        "Lokacija je približna, po javnoj adresi škole; nije geodetski potvrđena."
-      ]
+      "building": "B34c1628c"
     },
     {
       "id": "T45",
@@ -2090,6 +2085,6 @@
       "building": "B1c340903"
     }
   ],
-  "datasetRevision": "r-b3c62b004fbad1fe",
+  "datasetRevision": "r-ecffd7e4818f5ced",
   "coordinateNote": "Koordinate su približne lokacije objekata iz kuriranog skupa mape registra (spojeno 2026-10-25); nijedna nije nezavisno proverena na terenu. Timovi T12, T25, T39, T59 zadržavaju izjavljenu tačku registra jer im je deljena lokacija još otvoreno pitanje."
 }
