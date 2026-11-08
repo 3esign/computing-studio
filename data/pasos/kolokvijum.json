@@ -28,47 +28,48 @@
  },
  "rezime": {
   "pasos": {
-   "nema": 19,
-   "najavljeno": 5,
-   "ceka": 6,
-   "stiglo": 1,
-   "prihvaceno": 43
+   "nema": 21,
+   "najavljeno": 0,
+   "ceka": 0,
+   "stiglo": 0,
+   "prihvaceno": 53
   },
   "ai-studio": {
-   "nema": 53,
-   "najavljeno": 4,
+   "nema": 54,
+   "najavljeno": 2,
    "ceka": 0,
-   "stiglo": 15,
-   "prihvaceno": 2
+   "stiglo": 0,
+   "prihvaceno": 18
   },
   "skice": {
    "nema": 44,
    "najavljeno": 2,
    "ceka": 0,
-   "stiglo": 27,
-   "prihvaceno": 1
+   "stiglo": 0,
+   "prihvaceno": 28
   },
   "maketa": {
-   "nema": 67,
-   "najavljeno": 6,
+   "nema": 73,
+   "najavljeno": 0,
    "ceka": 0,
-   "stiglo": 1,
-   "prihvaceno": 0
+   "stiglo": 0,
+   "prihvaceno": 1
   }
  },
  "timovi": [
   {
    "tim": "T01",
    "objekat": "OŠ „Laza Kostić”",
-   "procenat": 31,
+   "procenat": 50,
    "elementi": {
     "pasos": {
-     "stanje": "najavljeno",
+     "stanje": "prihvaceno",
      "formati": [
       "HTML"
      ],
      "datum": "2026-10-12",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti izvore uz podatke"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -77,22 +78,22 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
      "datum": "2026-10-30",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "usmeriti ka 3D strukturi iz podataka"
     },
     "maketa": {
-     "stanje": "najavljeno",
+     "stanje": "nema",
      "formati": [],
      "datum": null,
      "predaja": 0
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "maketa"
    ],
@@ -134,10 +135,10 @@
   {
    "tim": "T02",
    "objekat": "Silosi Beograd",
-   "procenat": 25,
+   "procenat": 50,
    "elementi": {
     "pasos": {
-     "stanje": "najavljeno",
+     "stanje": "prihvaceno",
      "formati": [
       "HTML"
      ],
@@ -151,7 +152,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -166,7 +167,6 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "maketa"
    ],
@@ -200,17 +200,18 @@
   {
    "tim": "T03",
    "objekat": "Sava Centar",
-   "procenat": 37,
+   "procenat": 50,
    "elementi": {
     "pasos": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX",
       "HTML",
       "PDF"
      ],
      "datum": "2026-11-08",
-     "predaja": 3
+     "predaja": 3,
+     "dopuna": "dopuniti izvore uz podatke"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -219,7 +220,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -399,7 +400,7 @@
   {
    "tim": "T05",
    "objekat": "Dom omladine Beograd",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -408,7 +409,8 @@
       "PDF"
      ],
      "datum": "2026-10-27",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti izvore uz podatke"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -417,7 +419,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -483,7 +485,7 @@
   {
    "tim": "T06",
    "objekat": "Gardoš / Milenijumska kula",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -501,7 +503,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -555,7 +557,7 @@
   {
    "tim": "T07",
    "objekat": "Hotel Zlatibor, Užice",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -567,7 +569,7 @@
      "predaja": 2
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -630,15 +632,16 @@
   {
    "tim": "T08",
    "objekat": "Zgrada u Kalemegdan parku",
-   "procenat": 12,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "ceka",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
      "datum": "2026-10-07",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -660,7 +663,6 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "skice",
     "maketa"
@@ -735,16 +737,18 @@
   {
    "tim": "T10",
    "objekat": "Hotel Tamiš, Pančevo",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "formati": [
+      "DOCX"
+     ],
+     "datum": "2026-11-08",
+     "predaja": 1
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -790,35 +794,45 @@
       "link",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-08",
+     "element": "pasos",
+     "formati": [
+      "DOCX",
+      "mejl"
+     ]
     }
    ]
   },
   {
    "tim": "T11",
    "objekat": "Hram Svetog Save",
-   "procenat": 37,
+   "procenat": 50,
    "elementi": {
     "pasos": {
-     "stanje": "ceka",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
      "datum": "2026-10-18",
-     "predaja": 2
+     "predaja": 2,
+     "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
-     "stanje": "najavljeno",
+     "stanje": "nema",
      "formati": [],
      "datum": null,
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
      "datum": "2026-11-08",
-     "predaja": 2
+     "predaja": 2,
+     "dopuna": "usmeriti ka 3D strukturi iz podataka"
     },
     "maketa": {
      "stanje": "nema",
@@ -828,7 +842,6 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "maketa"
    ],
@@ -940,18 +953,19 @@
   {
    "tim": "T13",
    "objekat": "Palata SANU i Zgrada Pošte",
-   "procenat": 56,
+   "procenat": 75,
    "elementi": {
     "pasos": {
-     "stanje": "ceka",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
      "datum": "2026-10-30",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -959,7 +973,7 @@
      "predaja": 1
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -967,14 +981,13 @@
      "predaja": 2
     },
     "maketa": {
-     "stanje": "najavljeno",
+     "stanje": "nema",
      "formati": [],
      "datum": null,
      "predaja": 0
     }
    },
    "fali": [
-    "pasos",
     "maketa"
    ],
    "konsultacija": {
@@ -1039,10 +1052,10 @@
   {
    "tim": "T14",
    "objekat": "Najstarija stambena kuća u Beogradu (Flajšmanova kuća)",
-   "procenat": 25,
+   "procenat": 50,
    "elementi": {
     "pasos": {
-     "stanje": "najavljeno",
+     "stanje": "prihvaceno",
      "formati": [
       "HTML"
      ],
@@ -1050,7 +1063,7 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -1071,7 +1084,6 @@
     }
    },
    "fali": [
-    "pasos",
     "skice",
     "maketa"
    ],
@@ -1104,7 +1116,7 @@
   {
    "tim": "T15",
    "objekat": "Zgrada RTS",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -1119,7 +1131,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -1174,15 +1186,16 @@
   {
    "tim": "T16",
    "objekat": "Palata Narodne banke Srbije",
-   "procenat": 12,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "ceka",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
      "datum": "2026-10-28",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -1204,7 +1217,6 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "skice",
     "maketa"
@@ -1392,7 +1404,7 @@
   {
    "tim": "T19",
    "objekat": "Zgrada tehničkih fakulteta",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -1410,7 +1422,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -1520,7 +1532,7 @@
   {
    "tim": "T21",
    "objekat": "Kula Beograd",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -1537,7 +1549,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -1597,7 +1609,7 @@
   {
    "tim": "T22",
    "objekat": "K-District",
-   "procenat": 50,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -1609,13 +1621,16 @@
      "predaja": 2
     },
     "ai-studio": {
-     "stanje": "najavljeno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "HTML",
+      "link"
+     ],
+     "datum": "2026-11-08",
+     "predaja": 2
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -1630,7 +1645,6 @@
     }
    },
    "fali": [
-    "ai-studio",
     "maketa"
    ],
    "konsultacija": {
@@ -1665,6 +1679,22 @@
       "PDF",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-08",
+     "element": "ai-studio",
+     "formati": [
+      "HTML",
+      "link"
+     ]
+    },
+    {
+     "datum": "2026-11-08",
+     "element": "ai-studio",
+     "formati": [
+      "HTML",
+      "link"
+     ]
     }
    ]
   },
@@ -1688,15 +1718,16 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
      "datum": "2026-11-02",
-     "predaja": 3
+     "predaja": 3,
+     "dopuna": "usmeriti ka 3D strukturi iz podataka"
     },
     "maketa": {
-     "stanje": "najavljeno",
+     "stanje": "nema",
      "formati": [],
      "datum": null,
      "predaja": 0
@@ -1825,7 +1856,7 @@
   {
    "tim": "T25",
    "objekat": "SIV i Generalštab (dva objekta)",
-   "procenat": 25,
+   "procenat": 31,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -1840,7 +1871,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -1898,7 +1929,7 @@
   {
    "tim": "T26",
    "objekat": "SC „25. Maj” — kula „Dunavski cvet”",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -1915,7 +1946,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -2150,7 +2181,7 @@
   {
    "tim": "T30",
    "objekat": "Kapetan Mišino zdanje",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -2168,7 +2199,7 @@
      "predaja": 2
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -2236,7 +2267,7 @@
   {
    "tim": "T31",
    "objekat": "Zgrada rektorata (Kapetan Mišino zdanje)",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -2249,7 +2280,7 @@
      "predaja": 2
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -2318,7 +2349,7 @@
   {
    "tim": "T32",
    "objekat": "Gimnazija „Slobodan Škerović” u Podgorici",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -2333,7 +2364,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -2479,7 +2510,7 @@
   {
    "tim": "T35",
    "objekat": "Geneks kula (Zapadna kapija Beograda)",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -2490,7 +2521,7 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -2545,7 +2576,7 @@
   {
    "tim": "T36",
    "objekat": "Zgrada tehničkih fakulteta",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -2556,7 +2587,7 @@
      "predaja": 2
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -2671,7 +2702,7 @@
   {
    "tim": "T38",
    "objekat": "Vladičanski dvor u Vršcu",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -2682,7 +2713,7 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -2707,8 +2738,8 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-10-23",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -2731,22 +2762,34 @@
       "link",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-10-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-10-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T39",
    "objekat": "Belgrade Business House",
-   "procenat": 37,
+   "procenat": 31,
    "elementi": {
     "pasos": {
-     "stanje": "najavljeno",
+     "stanje": "nema",
      "formati": [],
      "datum": null,
      "predaja": 0
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -2760,7 +2803,7 @@
      "predaja": 0
     },
     "maketa": {
-     "stanje": "najavljeno",
+     "stanje": "nema",
      "formati": [],
      "datum": null,
      "predaja": 0
@@ -2793,7 +2836,7 @@
   {
    "tim": "T40",
    "objekat": "Stambeno-poslovna zgrada Cara Uroša 57",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -2801,7 +2844,8 @@
       "HTML"
      ],
      "datum": "2026-10-25",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dostaviti i PDF/DOCX verziju"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -2810,7 +2854,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -2870,7 +2914,7 @@
   {
    "tim": "T41",
    "objekat": "BIGZ (Zgrada Državne štamparije)",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -2885,7 +2929,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -2938,7 +2982,7 @@
   {
    "tim": "T42",
    "objekat": "Prva beogradska gimnazija",
-   "procenat": 56,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -2947,7 +2991,7 @@
      "predaja": 0
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link",
       "slika"
@@ -2956,7 +3000,7 @@
      "predaja": 4
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -2964,12 +3008,13 @@
      "predaja": 1
     },
     "maketa": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
      "datum": "2026-11-01",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "doneti uživo 16.11."
     }
    },
    "fali": [
@@ -3084,7 +3129,8 @@
       "mejl"
      ],
      "datum": "2026-11-01",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti linkove/lokatore izvora"
     },
     "ai-studio": {
      "stanje": "najavljeno",
@@ -3132,7 +3178,7 @@
   {
    "tim": "T44",
    "objekat": "ATŠ — Arhitektonska tehnička škola",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -3149,7 +3195,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -3209,7 +3255,7 @@
   {
    "tim": "T45",
    "objekat": "Geneks kula",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -3224,7 +3270,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -3330,7 +3376,7 @@
   {
    "tim": "T47",
    "objekat": "Hala 1 Beogradskog sajma",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -3339,7 +3385,8 @@
       "PDF"
      ],
      "datum": "2026-10-27",
-     "predaja": 2
+     "predaja": 2,
+     "dopuna": "dopuniti linkove/lokatore izvora"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -3348,7 +3395,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -3545,15 +3592,16 @@
   {
    "tim": "T50",
    "objekat": "Palata Beograd (Beograđanka)",
-   "procenat": 12,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "ceka",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
      "datum": "2026-10-28",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -3575,7 +3623,6 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "skice",
     "maketa"
@@ -3615,7 +3662,7 @@
   {
    "tim": "T51",
    "objekat": "Privatna stambena zgrada, Sremska Mitrovica",
-   "procenat": 68,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -3626,7 +3673,7 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -3634,15 +3681,17 @@
      "predaja": 1
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
+      "PDF",
       "slika"
      ],
-     "datum": "2026-11-01",
-     "predaja": 1
+     "datum": "2026-11-08",
+     "predaja": 2,
+     "dopuna": "usmeriti ka 3D strukturi iz podataka"
     },
     "maketa": {
-     "stanje": "najavljeno",
+     "stanje": "nema",
      "formati": [],
      "datum": null,
      "predaja": 0
@@ -3690,6 +3739,15 @@
      "element": "prepiska",
      "formati": [
       "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-08",
+     "element": "skice",
+     "formati": [
+      "PDF",
+      "mejl",
+      "slika"
      ]
     },
     {
@@ -3750,7 +3808,7 @@
   {
    "tim": "T53",
    "objekat": "Zgrada Instituta IMS",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -3767,7 +3825,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "PDF",
       "slika"
@@ -3845,7 +3903,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -3853,7 +3911,7 @@
      "predaja": 1
     },
     "maketa": {
-     "stanje": "najavljeno",
+     "stanje": "nema",
      "formati": [],
      "datum": null,
      "predaja": 0
@@ -3978,7 +4036,7 @@
   {
    "tim": "T56",
    "objekat": "Narodno pozorište u Beogradu",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -3993,7 +4051,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -4193,7 +4251,8 @@
       "ZIP"
      ],
      "datum": "2026-11-08",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti izvore uz podatke"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -4431,16 +4490,17 @@
   {
    "tim": "T63",
    "objekat": "West 65 Tower",
-   "procenat": 12,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "ceka",
+     "stanje": "prihvaceno",
      "formati": [
       "DOCX",
       "PDF"
      ],
      "datum": "2026-10-07",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -4462,7 +4522,6 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "skice",
     "maketa"
@@ -4493,13 +4552,13 @@
    "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "najavljeno",
+     "stanje": "nema",
      "formati": [],
      "datum": null,
      "predaja": 0
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -4885,18 +4944,18 @@
   {
    "tim": "T70",
    "objekat": "Rajhlova palata, Subotica",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
      "formati": [
-      "mejl"
+      "DOCX"
      ],
-     "datum": "2026-10-19",
-     "predaja": 1
+     "datum": "2026-11-08",
+     "predaja": 2
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -4936,13 +4995,21 @@
       "link",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-08",
+     "element": "pasos",
+     "formati": [
+      "DOCX",
+      "mejl"
+     ]
     }
    ]
   },
   {
    "tim": "T71",
    "objekat": "Miloša Pocerca 32",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -4950,10 +5017,11 @@
       "DOCX"
      ],
      "datum": "2026-10-30",
-     "predaja": 1
+     "predaja": 1,
+     "dopuna": "dopuniti izvore uz podatke"
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -5100,7 +5168,7 @@
   {
    "tim": "T73",
    "objekat": "Gardoš kula, Zemun",
-   "procenat": 18,
+   "procenat": 25,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -5115,7 +5183,7 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
@@ -5148,18 +5216,19 @@
   {
    "tim": "T74",
    "objekat": "Kula Beograd",
-   "procenat": 43,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
      "formati": [
-      "DOCX"
+      "DOCX",
+      "PDF"
      ],
-     "datum": "2026-10-13",
-     "predaja": 1
+     "datum": "2026-11-08",
+     "predaja": 2
     },
     "ai-studio": {
-     "stanje": "stiglo",
+     "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
@@ -5224,6 +5293,14 @@
      "element": "ai-studio",
      "formati": [
       "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-08",
+     "element": "pasos",
+     "formati": [
+      "PDF",
       "mejl"
      ]
     }

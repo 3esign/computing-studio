@@ -130,8 +130,8 @@
         "T13",
         "T63"
       ],
-      "sr": "Narodna banka (T16), Beograđanka (T50), Palata SANU / Glavna pošta (T13) i West 65 Tower (T63) objavljeni su u javnom sloju bez izvora vezanih uz pojedinačne podatke; dosijei nose „Napomenu nastavnika“ i nepotvrđene tvrdnje dok ne stigne tabelarna verzija sa izvorima (T31 je 30.10., a T55 08.11. dostavio tabelu sa izvorima i prešao u prihvaćeno).",
-      "en": "National Bank (T16), Beograđanka (T50), SASA Palace / Main Post Office (T13) and West 65 Tower (T63) were published without sources tied to individual records; their dossiers carry a “Teacher’s note” and unconfirmed claims until a tabular sourced version arrives (T31 submitted its sourced table on 30 Oct and T55 on 8 Nov, moving to accepted).",
+      "sr": "Narodna banka (T16), Beograđanka (T50), Palata SANU / Glavna pošta (T13) i West 65 Tower (T63) objavljeni su u javnom sloju i prihvaćeni za kolokvijum, ali bez izvora vezanih uz pojedinačne podatke; dosijei nose „Napomenu nastavnika“ i nepotvrđene tvrdnje dok ne stigne tabelarna verzija sa izvorima (kao što su T31 30.10. i T55 08.11. dostavili tabelu sa izvorima).",
+      "en": "National Bank (T16), Beograđanka (T50), SASA Palace / Main Post Office (T13) and West 65 Tower (T63) are published and accepted for the colloquium, but without sources tied to individual records; their dossiers carry a “Teacher’s note” and unconfirmed claims until a tabular sourced version arrives (as T31 did on 30 Oct and T55 on 8 Nov).",
       "askSr": "T16, T50, T13, T63: pošaljite verziju pasoša sa izvorom uz svaki podatak; ona zamenjuje dosije.",
       "askEn": "T16, T50, T13, T63: send a passport version with a source per record; it replaces the dossier."
     },
