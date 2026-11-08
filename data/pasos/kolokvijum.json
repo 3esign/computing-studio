@@ -28,18 +28,18 @@
  },
  "rezime": {
   "pasos": {
-   "nema": 21,
+   "nema": 20,
    "najavljeno": 0,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 53
+   "prihvaceno": 54
   },
   "ai-studio": {
-   "nema": 54,
+   "nema": 53,
    "najavljeno": 2,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 18
+   "prihvaceno": 19
   },
   "skice": {
    "nema": 45,
@@ -2914,19 +2914,23 @@
   {
    "tim": "T41",
    "objekat": "BIGZ (Zgrada Državne štamparije)",
-   "procenat": 25,
+   "procenat": 75,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "ZIP"
+     ],
+     "datum": "2026-10-15",
+     "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "HTML"
+     ],
+     "datum": "2026-10-29",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -2944,8 +2948,6 @@
     }
    },
    "fali": [
-    "pasos",
-    "ai-studio",
     "maketa"
    ],
    "konsultacija": {
@@ -2960,7 +2962,7 @@
     },
     {
      "datum": "2026-10-15",
-     "element": "gradja",
+     "element": "pasos",
      "formati": [
       "ZIP"
      ]
@@ -2969,6 +2971,13 @@
      "datum": "2026-10-26",
      "element": "konsultacija",
      "vrsta": "čas"
+    },
+    {
+     "datum": "2026-10-29",
+     "element": "ai-studio",
+     "formati": [
+      "HTML"
+     ]
     },
     {
      "datum": "2026-11-02",

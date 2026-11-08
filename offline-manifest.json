@@ -1,6 +1,6 @@
 {
-  "version": "f4d46245ac8dfdac",
-  "bytes": 48527596,
+  "version": "2e8ce71cf30f451d",
+  "bytes": 50697334,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -118,6 +118,7 @@
     "svet/data/revisions/r-3dde0d52902fafb2.json",
     "svet/data/revisions/r-4045c51089ed6c9a.json",
     "svet/data/revisions/r-4374198ce69994d1.json",
+    "svet/data/revisions/r-440b43579eb7795c.json",
     "svet/data/revisions/r-45d8d6d91e28009f.json",
     "svet/data/revisions/r-46ea8573e324d60e.json",
     "svet/data/revisions/r-481ed8fb7c946285.json",
@@ -134,6 +135,7 @@
     "svet/data/revisions/r-5bee587ba2cc8b52.json",
     "svet/data/revisions/r-5e9a024ea893cb40.json",
     "svet/data/revisions/r-5ec31a17b5b963f0.json",
+    "svet/data/revisions/r-61aeb241260a81dd.json",
     "svet/data/revisions/r-66315b50a3ced420.json",
     "svet/data/revisions/r-6687d2ac78481578.json",
     "svet/data/revisions/r-6a4d62f7486b0785.json",
@@ -173,6 +175,7 @@
     "svet/data/revisions/r-d38d466a63e1a168.json",
     "svet/data/revisions/r-d40a85ed40630b2b.json",
     "svet/data/revisions/r-d5145ca5ff438eac.json",
+    "svet/data/revisions/r-d92c97300a352ec6.json",
     "svet/data/revisions/r-d9cab10350659a48.json",
     "svet/data/revisions/r-dc439c07930a60c8.json",
     "svet/data/revisions/r-de6ae0aa90f63839.json",

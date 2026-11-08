@@ -4,7 +4,7 @@
   "predmet": {
     "naziv": "Osnove računarstva",
     "fakultet": "Univerzitet „Union — Nikola Tesla” · Fakultet za graditeljski menadžment, Beograd",
-    "nastavnik": "Semir Poturak",
+    "profesor": "Semir Poturak",
     "formatIspita": {
       "status": "nepotvrđeno",
       "napomena": "Format ispita za OR nije upisan. Ne izmišlja se — upisuje se kad ga Semir potvrdi, sa izvorom i datumom."

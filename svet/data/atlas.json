@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-1972f0235e5742fd",
+  "datasetRevision": "r-61aeb241260a81dd",
   "teams": [
     {
       "id": "T01",
@@ -76,7 +76,7 @@
       "type": "savacentar",
       "progressStage": 5,
       "progressLabel": "Pasoš i prilozi o materijalima na sajtu (08.11)",
-      "status": "Prilog pasoša (23.10) i dva priloga o materijalima izgradnje i staklenoj fasadi/rekonstrukciji Sava centra (08.11) kurirani u javni sloj; nastavnik tražio dopunu izvora uz pojedinačne tvrdnje.",
+      "status": "Prilog pasoša (23.10) i dva priloga o materijalima izgradnje i staklenoj fasadi/rekonstrukciji Sava centra (08.11) kurirani u javni sloj; profesor tražio dopunu izvora uz pojedinačne tvrdnje.",
       "hasPassport": true,
       "claimsCount": 34,
       "sectionsCount": 11,
@@ -451,7 +451,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (29.10)",
-      "status": "Pasoš Palate Narodne banke kuriran u javni sloj (29.10) po odluci nastavnika iz verzije bez izvora uz pasuse: 12 zapisa, svi nepotvrđeni; napomena stoji u dosijeu. Verzija sa izvorima i tabelom zamenjuje dosije kad stigne.",
+      "status": "Pasoš Palate Narodne banke kuriran u javni sloj (29.10) po odluci profesora iz verzije bez izvora uz pasuse: 12 zapisa, svi nepotvrđeni; napomena stoji u dosijeu. Verzija sa izvorima i tabelom zamenjuje dosije kad stigne.",
       "hasPassport": true,
       "claimsCount": 13,
       "sectionsCount": 4,
@@ -1167,8 +1167,8 @@
       "z": 92.52,
       "type": "bigz",
       "progressStage": 5,
-      "progressLabel": "Predata arhiva (289 skenova)",
-      "status": "Predata masivna arhivska građa (274 MB ZIP)",
+      "progressLabel": "Pasoš (arhiva), 3D galerija i skica prihvaćeni (08.11)",
+      "status": "Arhivska građa BIGZ (289 skenova u 26 fascikli sa merama, platnim spiskovima i hronologijom) prihvaćena kao digitalni pasoš; 3D galerija (306 listova) i svet arhive prihvaćeni kao aplikacija; predata aksonometrijska skica.",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1425,7 +1425,7 @@
       "type": "beogradjanka",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (29.10)",
-      "status": "Konstrukcija i fasada Beograđanke kurirane u javni sloj (29.10) po odluci nastavnika: 15 zapisa, deo iz Nasleđa 2022 sa izvorom, tabela „izvor: ChatGPT“ nepotvrđena; napomena stoji u dosijeu. Nova verzija tima zamenjuje dosije.",
+      "status": "Konstrukcija i fasada Beograđanke kurirane u javni sloj (29.10) po odluci profesora: 15 zapisa, deo iz Nasleđa 2022 sa izvorom, tabela „izvor: ChatGPT“ nepotvrđena; napomena stoji u dosijeu. Nova verzija tima zamenjuje dosije.",
       "hasPassport": true,
       "claimsCount": 16,
       "sectionsCount": 4,
@@ -1680,7 +1680,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Tabelarni pasoš i 11 priloga na sajtu (08.11)",
-      "status": "Tabelarni digitalni pasoš Bajrakli džamije (osnovni podaci, arhitektonske karakteristike 12,80×12,80 m, period crkve 1717–1739, hronologija obnova 1741–2004) kuriran u javni sloj i 11 grafičkih priloga/fotografija u galeriji (08.11); nastavnik tražio dopunu izvora uz pojedinačne tvrdnje.",
+      "status": "Tabelarni digitalni pasoš Bajrakli džamije (osnovni podaci, arhitektonske karakteristike 12,80×12,80 m, period crkve 1717–1739, hronologija obnova 1741–2004) kuriran u javni sloj i 11 grafičkih priloga/fotografija u galeriji (08.11); profesor tražio dopunu izvora uz pojedinačne tvrdnje.",
       "hasPassport": true,
       "claimsCount": 11,
       "sectionsCount": 3,
@@ -4801,7 +4801,7 @@
       "team": "T01",
       "section": "T01:dokumentacija",
       "title": "Sledeći korak",
-      "value": "pasoš sa temom istraživanja, podacima i izvorima u formatu tabele — crteži su dopunski prilog (povratna informacija nastavnika, 25. 10. 2026)",
+      "value": "pasoš sa temom istraživanja, podacima i izvorima u formatu tabele — crteži su dopunski prilog (povratna informacija profesora, 25. 10. 2026)",
       "status": "unknown",
       "category": "questions",
       "sourceIds": [
@@ -6339,7 +6339,7 @@
       "team": "T05",
       "section": "T05:arhitektura",
       "title": "Prilozi",
-      "value": "docx pominje fotografije i planove, ali oni nisu stigli uz predaju (napomena nastavnika 27. 10.)",
+      "value": "docx pominje fotografije i planove, ali oni nisu stigli uz predaju (napomena profesora 27. 10.)",
       "status": "source-reported",
       "category": "documents",
       "sourceIds": [
@@ -8789,7 +8789,7 @@
       "team": "T16",
       "section": "T16:napomena",
       "title": "Stanje dosijea",
-      "value": "Podnesak tima (docx, 26.10.2026) ne navodi izvore uz pojedinačne podatke. Nastavnik je 22. i 27.10. tražio ispravljenu verziju (izvor uz svaki podatak, tabela). Objavljeno 29.10.2026 po odluci nastavnika u ovom obliku; svi podaci nose oznaku „nepotvrđeno\" dok ne stigne verzija sa izvorima, kojom se ovaj dosije zamenjuje.",
+      "value": "Podnesak tima (docx, 26.10.2026) ne navodi izvore uz pojedinačne podatke. Profesor je 22. i 27.10. tražio ispravljenu verziju (izvor uz svaki podatak, tabela). Objavljeno 29.10.2026 po odluci profesora u ovom obliku; svi podaci nose oznaku „nepotvrđeno\" dok ne stigne verzija sa izvorima, kojom se ovaj dosije zamenjuje.",
       "status": "unknown",
       "category": "questions",
       "sourceIds": []
@@ -12369,7 +12369,7 @@
       "team": "T31",
       "section": "T31:napomena",
       "title": "Stanje dosijea",
-      "value": "Prvi podnesak tima (26.10.2026) nije vezivao izvore za pojedinačne podatke i objavljen je 29.10.2026 sa oznakom „nepotvrđeno“. Ispravljena verzija stigla je 30.10.2026: tabela u kojoj uz svaki pasus stoji URL izvora (Wikipedia, Dvorci Srbije, Srpski ugao, Godišnjak grada Beograda IX–X, Nova.rs). Podaci vezani za te izvore više nisu „nepotvrđeni“; podaci kojih nema u novoj verziji ostaju sa ranijim izvorom i oznakom. Svi navedeni izvori su onlajn; Wikipedia je polazna tačka, a stručni oslonac je rad u Godišnjaku grada Beograda. Nastavnik je 30.10.2026 preporučio da tim potraži i offline izvore.",
+      "value": "Prvi podnesak tima (26.10.2026) nije vezivao izvore za pojedinačne podatke i objavljen je 29.10.2026 sa oznakom „nepotvrđeno“. Ispravljena verzija stigla je 30.10.2026: tabela u kojoj uz svaki pasus stoji URL izvora (Wikipedia, Dvorci Srbije, Srpski ugao, Godišnjak grada Beograda IX–X, Nova.rs). Podaci vezani za te izvore više nisu „nepotvrđeni“; podaci kojih nema u novoj verziji ostaju sa ranijim izvorom i oznakom. Svi navedeni izvori su onlajn; Wikipedia je polazna tačka, a stručni oslonac je rad u Godišnjaku grada Beograda. Profesor je 30.10.2026 preporučio da tim potraži i offline izvore.",
       "status": "unknown",
       "category": "questions",
       "sourceIds": []
@@ -15346,7 +15346,7 @@
       "team": "T50",
       "section": "T50:napomena",
       "title": "Stanje dosijea",
-      "value": "Deo o konstrukciji i fasadi oslanja se na Nasleđe 2022 (sa izvorom); tabelarni deo podneska navodi „izvor: ChatGPT\" i vodi se kao „nepotvrđeno\". Nastavnik je 27.10. timu rekao da čeka novu verziju pre objave; objavljeno 29.10.2026 po odluci nastavnika, a nova verzija tima zameniće ovaj dosije kad stigne.",
+      "value": "Deo o konstrukciji i fasadi oslanja se na Nasleđe 2022 (sa izvorom); tabelarni deo podneska navodi „izvor: ChatGPT\" i vodi se kao „nepotvrđeno\". Profesor je 27.10. timu rekao da čeka novu verziju pre objave; objavljeno 29.10.2026 po odluci profesora, a nova verzija tima zameniće ovaj dosije kad stigne.",
       "status": "unknown",
       "category": "questions",
       "sourceIds": []
@@ -16795,7 +16795,7 @@
       "team": "T58",
       "section": "T58:glavna-fasada",
       "title": "Format predaje",
-      "value": "tekst sa izvorom posle svakog pasusa; nastavnik 22. 10. tražio tabelu podatak/izvor",
+      "value": "tekst sa izvorom posle svakog pasusa; profesor 22. 10. tražio tabelu podatak/izvor",
       "status": "source-reported",
       "category": "methods",
       "sourceIds": [
@@ -19654,8 +19654,8 @@
       "id": "T13:napomena",
       "team": "T13",
       "title": {
-        "sr": "Napomena nastavnika",
-        "en": "Teacher's note"
+        "sr": "Napomena profesora",
+        "en": "Professor's note"
       }
     },
     {
@@ -19774,8 +19774,8 @@
       "id": "T16:napomena",
       "team": "T16",
       "title": {
-        "en": "Teacher's note",
-        "sr": "Napomena nastavnika"
+        "en": "Professor's note",
+        "sr": "Napomena profesora"
       }
     },
     {
@@ -20126,8 +20126,8 @@
       "id": "T27:napomena",
       "team": "T27",
       "title": {
-        "sr": "Napomena nastavnika",
-        "en": "Teacher's note"
+        "sr": "Napomena profesora",
+        "en": "Professor's note"
       }
     },
     {
@@ -20214,8 +20214,8 @@
       "id": "T31:napomena",
       "team": "T31",
       "title": {
-        "en": "Teacher's note",
-        "sr": "Napomena nastavnika"
+        "en": "Professor's note",
+        "sr": "Napomena profesora"
       }
     },
     {
@@ -20630,8 +20630,8 @@
       "id": "T50:napomena",
       "team": "T50",
       "title": {
-        "en": "Teacher's note",
-        "sr": "Napomena nastavnika"
+        "en": "Professor's note",
+        "sr": "Napomena profesora"
       }
     },
     {
@@ -20782,8 +20782,8 @@
       "id": "T55:napomena",
       "team": "T55",
       "title": {
-        "sr": "Napomena nastavnika",
-        "en": "Teacher's note"
+        "sr": "Napomena profesora",
+        "en": "Professor's note"
       }
     },
     {
@@ -21086,8 +21086,8 @@
       "id": "T71:napomena",
       "team": "T71",
       "title": {
-        "sr": "Napomena nastavnika",
-        "en": "Teacher's note"
+        "sr": "Napomena profesora",
+        "en": "Professor's note"
       }
     },
     {
@@ -21149,7 +21149,7 @@
     },
     {
       "id": "T01:S3",
-      "label": "Prepiska sa nastavnikom (25. 10. 2026) — crtezi su bonus prilog, pasoš je glavni zadatak",
+      "label": "Prepiska sa profesorom (25. 10. 2026) — crtezi su bonus prilog, pasoš je glavni zadatak",
       "kind": "prepiska",
       "team": "T01",
       "canonical": "T01:S3"
@@ -21986,7 +21986,7 @@
     },
     {
       "id": "T22:S6",
-      "label": "Ministarstvo građevinarstva, saobraćaja i infrastrukture RS — Rešenje o građevinskoj dozvoli br. ROP-MSGI-33410-CPI-1/2018 (III-07 br. 351-02-00359/2018-07 od 19. 11. 2018.) za Fazu A kompleksa K-District (evidencija/prijem-2026-11-08/raw/27/resenje o gradjevinskoj dozvoli.pdf)",
+      "label": "Ministarstvo građevinarstva, saobraćaja i infrastrukture RS — Rešenje o građevinskoj dozvoli br. ROP-MSGI-33410-CPI-1/2018 (III-07 br. 351-02-00359/2018-07 od 19. 11. 2018.) za Fazu A kompleksa K-District",
       "kind": "građevinska dozvola",
       "locator": "str. 1–7",
       "team": "T22",
@@ -23090,7 +23090,7 @@
     },
     {
       "id": "T49:S9",
-      "label": "Muzej Jugoslavije (kustoskinja Ana Panić) — pisani odgovor timu T49 od 03. 11. 2026. (evidencija/prijem-2026-11-08/raw/1.txt)",
+      "label": "Muzej Jugoslavije (kustoskinja Ana Panić) — pisani odgovor timu T49 od 03. 11. 2026.",
       "kind": "institucija",
       "team": "T49",
       "canonical": "T49:S9"

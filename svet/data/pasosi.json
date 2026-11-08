@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "datasetRevision": "r-1972f0235e5742fd",
+  "datasetRevision": "r-61aeb241260a81dd",
   "note": "Kurirani zapisi sa izvorima; nisu nezavisna potvrda.",
   "passports": [
     {
@@ -335,7 +335,7 @@
             },
             {
               "t": "Sledeći korak",
-              "v": "pasoš sa temom istraživanja, podacima i izvorima u formatu tabele — crteži su dopunski prilog (povratna informacija nastavnika, 25. 10. 2026)",
+              "v": "pasoš sa temom istraživanja, podacima i izvorima u formatu tabele — crteži su dopunski prilog (povratna informacija profesora, 25. 10. 2026)",
               "s": [
                 "S3"
               ],
@@ -359,7 +359,7 @@
         },
         {
           "id": "S3",
-          "label": "Prepiska sa nastavnikom (25. 10. 2026) — crtezi su bonus prilog, pasoš je glavni zadatak",
+          "label": "Prepiska sa profesorom (25. 10. 2026) — crtezi su bonus prilog, pasoš je glavni zadatak",
           "kind": "prepiska"
         }
       ],
@@ -1817,7 +1817,7 @@
             },
             {
               "t": "Prilozi",
-              "v": "docx pominje fotografije i planove, ali oni nisu stigli uz predaju (napomena nastavnika 27. 10.)",
+              "v": "docx pominje fotografije i planove, ali oni nisu stigli uz predaju (napomena profesora 27. 10.)",
               "s": [
                 "S7"
               ],
@@ -3565,8 +3565,8 @@
         {
           "id": "napomena",
           "title": {
-            "sr": "Napomena nastavnika",
-            "en": "Teacher's note"
+            "sr": "Napomena profesora",
+            "en": "Professor's note"
           },
           "claims": [
             {
@@ -4448,13 +4448,13 @@
         {
           "id": "napomena",
           "title": {
-            "en": "Teacher's note",
-            "sr": "Napomena nastavnika"
+            "en": "Professor's note",
+            "sr": "Napomena profesora"
           },
           "claims": [
             {
               "t": "Stanje dosijea",
-              "v": "Podnesak tima (docx, 26.10.2026) ne navodi izvore uz pojedinačne podatke. Nastavnik je 22. i 27.10. tražio ispravljenu verziju (izvor uz svaki podatak, tabela). Objavljeno 29.10.2026 po odluci nastavnika u ovom obliku; svi podaci nose oznaku „nepotvrđeno\" dok ne stigne verzija sa izvorima, kojom se ovaj dosije zamenjuje.",
+              "v": "Podnesak tima (docx, 26.10.2026) ne navodi izvore uz pojedinačne podatke. Profesor je 22. i 27.10. tražio ispravljenu verziju (izvor uz svaki podatak, tabela). Objavljeno 29.10.2026 po odluci profesora u ovom obliku; svi podaci nose oznaku „nepotvrđeno\" dok ne stigne verzija sa izvorima, kojom se ovaj dosije zamenjuje.",
               "s": [],
               "id": "T16:napomena:61240441ffdc",
               "category": "questions",
@@ -5782,7 +5782,7 @@
         },
         {
           "id": "S6",
-          "label": "Ministarstvo građevinarstva, saobraćaja i infrastrukture RS — Rešenje o građevinskoj dozvoli br. ROP-MSGI-33410-CPI-1/2018 (III-07 br. 351-02-00359/2018-07 od 19. 11. 2018.) za Fazu A kompleksa K-District (evidencija/prijem-2026-11-08/raw/27/resenje o gradjevinskoj dozvoli.pdf)",
+          "label": "Ministarstvo građevinarstva, saobraćaja i infrastrukture RS — Rešenje o građevinskoj dozvoli br. ROP-MSGI-33410-CPI-1/2018 (III-07 br. 351-02-00359/2018-07 od 19. 11. 2018.) za Fazu A kompleksa K-District",
           "kind": "građevinska dozvola",
           "locator": "str. 1–7"
         },
@@ -7320,8 +7320,8 @@
         {
           "id": "napomena",
           "title": {
-            "sr": "Napomena nastavnika",
-            "en": "Teacher's note"
+            "sr": "Napomena profesora",
+            "en": "Professor's note"
           },
           "claims": [
             {
@@ -8195,13 +8195,13 @@
         {
           "id": "napomena",
           "title": {
-            "en": "Teacher's note",
-            "sr": "Napomena nastavnika"
+            "en": "Professor's note",
+            "sr": "Napomena profesora"
           },
           "claims": [
             {
               "t": "Stanje dosijea",
-              "v": "Prvi podnesak tima (26.10.2026) nije vezivao izvore za pojedinačne podatke i objavljen je 29.10.2026 sa oznakom „nepotvrđeno“. Ispravljena verzija stigla je 30.10.2026: tabela u kojoj uz svaki pasus stoji URL izvora (Wikipedia, Dvorci Srbije, Srpski ugao, Godišnjak grada Beograda IX–X, Nova.rs). Podaci vezani za te izvore više nisu „nepotvrđeni“; podaci kojih nema u novoj verziji ostaju sa ranijim izvorom i oznakom. Svi navedeni izvori su onlajn; Wikipedia je polazna tačka, a stručni oslonac je rad u Godišnjaku grada Beograda. Nastavnik je 30.10.2026 preporučio da tim potraži i offline izvore.",
+              "v": "Prvi podnesak tima (26.10.2026) nije vezivao izvore za pojedinačne podatke i objavljen je 29.10.2026 sa oznakom „nepotvrđeno“. Ispravljena verzija stigla je 30.10.2026: tabela u kojoj uz svaki pasus stoji URL izvora (Wikipedia, Dvorci Srbije, Srpski ugao, Godišnjak grada Beograda IX–X, Nova.rs). Podaci vezani za te izvore više nisu „nepotvrđeni“; podaci kojih nema u novoj verziji ostaju sa ranijim izvorom i oznakom. Svi navedeni izvori su onlajn; Wikipedia je polazna tačka, a stručni oslonac je rad u Godišnjaku grada Beograda. Profesor je 30.10.2026 preporučio da tim potraži i offline izvore.",
               "s": [],
               "id": "T31:napomena:4570933878c9",
               "category": "questions",
@@ -11334,7 +11334,7 @@
         },
         {
           "id": "S9",
-          "label": "Muzej Jugoslavije (kustoskinja Ana Panić) — pisani odgovor timu T49 od 03. 11. 2026. (evidencija/prijem-2026-11-08/raw/1.txt)",
+          "label": "Muzej Jugoslavije (kustoskinja Ana Panić) — pisani odgovor timu T49 od 03. 11. 2026.",
           "kind": "institucija"
         }
       ],
@@ -11512,13 +11512,13 @@
         {
           "id": "napomena",
           "title": {
-            "en": "Teacher's note",
-            "sr": "Napomena nastavnika"
+            "en": "Professor's note",
+            "sr": "Napomena profesora"
           },
           "claims": [
             {
               "t": "Stanje dosijea",
-              "v": "Deo o konstrukciji i fasadi oslanja se na Nasleđe 2022 (sa izvorom); tabelarni deo podneska navodi „izvor: ChatGPT\" i vodi se kao „nepotvrđeno\". Nastavnik je 27.10. timu rekao da čeka novu verziju pre objave; objavljeno 29.10.2026 po odluci nastavnika, a nova verzija tima zameniće ovaj dosije kad stigne.",
+              "v": "Deo o konstrukciji i fasadi oslanja se na Nasleđe 2022 (sa izvorom); tabelarni deo podneska navodi „izvor: ChatGPT\" i vodi se kao „nepotvrđeno\". Profesor je 27.10. timu rekao da čeka novu verziju pre objave; objavljeno 29.10.2026 po odluci profesora, a nova verzija tima zameniće ovaj dosije kad stigne.",
               "s": [],
               "id": "T50:napomena:7cc12fd1b58d",
               "category": "questions",
@@ -12637,8 +12637,8 @@
         {
           "id": "napomena",
           "title": {
-            "sr": "Napomena nastavnika",
-            "en": "Teacher's note"
+            "sr": "Napomena profesora",
+            "en": "Professor's note"
           },
           "claims": [
             {
@@ -12975,7 +12975,7 @@
             },
             {
               "t": "Format predaje",
-              "v": "tekst sa izvorom posle svakog pasusa; nastavnik 22. 10. tražio tabelu podatak/izvor",
+              "v": "tekst sa izvorom posle svakog pasusa; profesor 22. 10. tražio tabelu podatak/izvor",
               "s": [
                 "S3"
               ],
@@ -15265,8 +15265,8 @@
         {
           "id": "napomena",
           "title": {
-            "sr": "Napomena nastavnika",
-            "en": "Teacher's note"
+            "sr": "Napomena profesora",
+            "en": "Professor's note"
           },
           "claims": [
             {
