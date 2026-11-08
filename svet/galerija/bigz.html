@@ -174,8 +174,8 @@ function tick() {
     const id = hit ? hit.instanceId : -1;
     if (id !== hover) { if (hover >= 0) lift[hover] = 0; hover = id; if (hover >= 0) lift[hover] = 1; mesh.geometry.getAttribute('lift').needsUpdate = true; kartica(hover); }
   }
-  oko.azuriraj(cam, rasp.t > 0.02);
-  godEl.forEach(([el, p]) => { const v = p.clone().project(cam); el.style.left = (v.x + 1) / 2 * innerWidth + 'px'; el.style.top = (1 - v.y) / 2 * innerHeight + 4 + 'px'; el.style.display = v.z < 1 && rasp.t < 0.5 ? '' : 'none'; });
+  oko.azuriraj(cam, rasp.aktivan);
+  godEl.forEach(([el, p]) => { const v = p.clone().project(cam); el.style.left = (v.x + 1) / 2 * innerWidth + 'px'; el.style.top = (1 - v.y) / 2 * innerHeight + 4 + 'px'; el.style.display = v.z < 1 && !rasp.aktivan ? '' : 'none'; });
   r.render(scene, cam);
   if (!reducedMotion || frame < 3 || nav.aktivan() || gibanje || prelaz) trazi();
 }

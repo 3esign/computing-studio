@@ -62,6 +62,9 @@ const lampa = new THREE.PointLight(0xf2c230, 26, 24, 1.6); lampa.position.set(0,
 
 const { json, tex } = await ucitaj('lozionica');
 const items = json.items, P = json.podaci, T = P.video.trajanje_s;
+const TEREN = json.teren || { items: [], count: 0 };
+const texT = TEREN.count ? await new Promise((res, rej) => new THREE.TextureLoader().load(`./data/${TEREN.atlas}`, res, undefined, rej)) : null;
+if (texT) { texT.colorSpace = THREE.SRGBColorSpace; texT.anisotropy = tex.anisotropy; texT.generateMipmaps = tex.generateMipmaps; texT.minFilter = tex.minFilter; }
 const ugao = s => (s / T) * Math.PI * 2 - Math.PI / 2;                       // 0 s = iznad, kazaljka sata
 const polar = (a, rad, y = 0) => new THREE.Vector3(Math.cos(a) * rad, y, Math.sin(a) * rad);
 const BOJA = { beton: 0x8c8982, opeka: 0xa8553c, celik: 0x7f98ad, staklo: 0x6fd0e6, drvo: 0xb58a52, kamen: 0xd0c4a6, membrana: 0x3b4046, drugo: 0x666b70 };
@@ -105,6 +108,28 @@ tint.needsUpdate = true; jacina.needsUpdate = true; mesh.instanceMatrix.needsUpd
 const stubL = new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(stub), new THREE.LineBasicMaterial({ color: 0x8aa0b4, transparent: true, opacity: 0.55 })); scene.add(stubL);
 const tackeP = new THREE.Points(new THREE.BufferGeometry().setFromPoints(tacke), new THREE.PointsMaterial({ color: 0xf2c230, size: 0.16 })); scene.add(tackeP);
 
+// ——— teren: fotografije koje je tim snimio na licu mesta (08.11.2026) stoje kao zaseban spoljni prsten oko okretnice,
+// lice ka središtu, redom kako su u predatom PDF-u; nisu kadrovi filma, pa ne nose vreme, fazu ni radnike — zid od pogleda spolja.
+const R_TEREN = 23.5, VIS_T = 2.7, AT = [];
+let terenMesh = null, UT = null, liftT = null;
+if (texT) {
+  const pt = ploce(TEREN.items, texT, { podloga: 0xffffff, relief: 0.22, akcenat: 0xf2c230, poledjina: true, material: { roughness: 0.6, metalness: 0.04, envMapIntensity: 0.7 } });
+  terenMesh = pt.mesh; UT = pt.U; liftT = pt.lift;
+  const nT = TEREN.items.length, nogeT = [];
+  TEREN.items.forEach((it, i) => {
+    const a = -Math.PI / 2 + (i + 0.5) / nT * Math.PI * 2, y = 0.9 + VIS_T / 2, p = polar(a, R_TEREN, y), w = VIS_T * (it.ose ? it.ose.odnos : 1.5);
+    const ry = Math.atan2(-Math.cos(a), -Math.sin(a));
+    AT[i] = { p: p.clone(), w, h: VIS_T, ry, rx: 0 };
+    postaviInstancu(terenMesh, i, p, w, VIS_T, ry, 0);
+    nogeT.push(polar(a, R_TEREN, 0.02), polar(a, R_TEREN, y - VIS_T / 2));
+  });
+  terenMesh.instanceMatrix.needsUpdate = true; scene.add(terenMesh);
+  const nogeL = new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(nogeT), new THREE.LineBasicMaterial({ color: 0x8aa0b4, transparent: true, opacity: 0.35 })); scene.add(nogeL);
+  const pts = []; for (let k = 0; k <= 160; k++) pts.push(polar(k / 160 * Math.PI * 2, R_TEREN, 0.02));
+  const obod = new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts), new THREE.LineBasicMaterial({ color: 0xf2c230, transparent: true, opacity: 0.3 })); scene.add(obod);
+  terenMesh.userData.noge = nogeL; terenMesh.userData.obod = obod;
+}
+
 // ——— elementi konstrukcije: stubići u središnjem prstenu; visina = u koliko kadrova se vidi, providnost = pouzdanost
 const PROZ = { vidljivo: [1, 0], zakljuceno: [0.5, 1], nagadjanje: [0.2, 1] };
 const kol = [], kolMesh = [];
@@ -127,9 +152,9 @@ for (let s = 0; s < 60; s += 10) { const el = document.createElement('div'); el.
 { const el = document.createElement('div'); el.className = 'hud oznaka'; el.textContent = '62,5 s'; el.style.opacity = .4; document.body.appendChild(el); oznake.push([el, polar(ugao(62.4), 19.4, 0.4)]); }
 
 const maxR = Math.max(...items.map(i => i.radnika));
-document.getElementById('opis').textContent = `${items.length} kadrova iz videa od ${T} s (građa tima T04, javno po odluci nastavnika 29.10.2026) · ${P.faze.length} faza · ${P.konstrukcija.length} elemenata konstrukcije · do ${maxR} radnika u kadru · film je montaža, redosled kadrova nije redosled gradnje`;
+document.getElementById('opis').textContent = `${items.length} kadrova iz videa od ${T} s (građa tima T04, javno po odluci nastavnika 29.10.2026) · ${P.faze.length} faza · ${P.konstrukcija.length} elemenata konstrukcije · do ${maxR} radnika u kadru · film je montaža, redosled kadrova nije redosled gradnje` + (TEREN.count ? ` · spoljni prsten: ${TEREN.count} fotografija sa terena (T04, ${TEREN.items[0].prijem || ''})` : '');
 const lg = document.getElementById('legenda');
-lg.innerHTML = 'stub = kadar, na obodu po vremenu filma · visina = radnika u kadru · luk = faza<br>' + Object.entries(STANJE).map(([k, v]) => `<i style="background:#${v.toString(16).padStart(6, '0')}"></i>${k}`).join('') +
+lg.innerHTML = 'stub = kadar, na obodu po vremenu filma · visina = radnika u kadru · luk = faza' + (TEREN.count ? ' · spoljni prsten = fotografije sa terena' : '') + '<br>' + Object.entries(STANJE).map(([k, v]) => `<i style="background:#${v.toString(16).padStart(6, '0')}"></i>${k}`).join('') +
   '<br>središte: element konstrukcije · pun = vidljivo · providan = zaključeno · duh = nagađanje<br>' + ['beton', 'opeka', 'celik', 'staklo', 'drvo', 'kamen', 'membrana'].map(k => `<i style="background:#${BOJA[k].toString(16).padStart(6, '0')}"></i>${NAZ_K[k]}`).join('');
 
 // ——— kamera: stojiš na okretnici, polako se vrtiš (Tura); dodir prelazi u slobodan pogled (Hod); 2 = Orbit spolja
@@ -163,22 +188,28 @@ otvori('Pasoš ↔ video');
 const prebaci = () => { fioka.classList.toggle('on'); trazi(); };
 addEventListener('keydown', e => { if (e.code === 'KeyP') prebaci(); });
 
-const ui = kontrole({ nav, sloj: i => { U.sloj(i); trazi(); }, probudi: trazi,
+const ui = kontrole({ nav, sloj: i => { U.sloj(i); if (UT) UT.sloj(i); trazi(); }, probudi: trazi,
   dodatno: [{ tekst: 'Pasoš ↔ video', kljuc: 'P', fn: prebaci, title: 'šta pasoš kaže, a šta video potvrđuje, dopunjuje ili ne može da proveri' }],
   rasporedFn: i => { rasp.postavi(i); if (i) nav.fokus(cOblak, 26); else nav.mode('tura'); trazi(); },
-  pomoc: '<b>Kretanje</b> · Tura: stojiš na okretnici i polako se vrtiš; dodir ili tipka daje slobodan pogled · Hod: WASD, prevlačenje pogleda, Q/E dole/gore, Shift brže · Orbit (2): spolja · dvoklik na kadar ga fokusira.<br><b>Sloj</b> · ivice = Sobel nad kadrom; relijef = svetlina kadra pomera mrežu; raster = polutonski krug; sve = relijef + ivice.<br><b>Prostor osa</b> · kadrovi po rangu hue × svetlina × zasićenje.<br><b>P</b> · pasoš naspram videa, materijali, ljudi, mašine.' });
+  pomoc: '<b>Kretanje</b> · Tura: stojiš na okretnici i polako se vrtiš; dodir ili tipka daje slobodan pogled · Hod: WASD, prevlačenje pogleda, Q/E dole/gore, Shift brže · Orbit (2): spolja · dvoklik na kadar ili fotografiju je fokusira · spoljni prsten = fotografije sa terena (T04), ne kadrovi filma.<br><b>Sloj</b> · ivice = Sobel nad kadrom; relijef = svetlina kadra pomera mrežu; raster = polutonski krug; sve = relijef + ivice.<br><b>Prostor osa</b> · kadrovi po rangu hue × svetlina × zasićenje.<br><b>P</b> · pasoš naspram videa, materijali, ljudi, mašine.' });
 
 // ——— hover / izbor
-const ray = new THREE.Raycaster(), mouse = new THREE.Vector2(-2, -2); let hover = -1, hoverK = null;
+const ray = new THREE.Raycaster(), mouse = new THREE.Vector2(-2, -2); let hover = -1, hoverK = null, hoverT = -1;
 const pomeri = e => mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
 addEventListener('pointermove', e => { pomeri(e); if (reducedMotion) trazi(); });
 canvas.addEventListener('pointerdown', e => { pomeri(e); trazi(); });
 canvas.addEventListener('dblclick', e => {
-  pomeri(e); ray.setFromCamera(mouse, cam); const hit = ray.intersectObject(mesh, false)[0]; if (!hit) return;
-  const m = new THREE.Matrix4(); mesh.getMatrixAt(hit.instanceId, m); nav.fokus(new THREE.Vector3().setFromMatrixPosition(m), 6);
+  pomeri(e); ray.setFromCamera(mouse, cam); const hit = ray.intersectObjects(terenMesh ? [mesh, terenMesh] : [mesh], false)[0]; if (!hit) return;
+  const m = new THREE.Matrix4(); hit.object.getMatrixAt(hit.instanceId, m); nav.fokus(new THREE.Vector3().setFromMatrixPosition(m), hit.object === terenMesh ? 7 : 6);
 });
 const karta = document.getElementById('karta');
 const faze = new Map(P.faze.map(f => [f.id, f]));
+function karticaTeren(i) {
+  if (i < 0) return hud(karta, '');
+  const it = TEREN.items[i], o = it.ose || {};
+  const strana = it.u_izvoru ? 'strana ' + (parseInt(String(it.u_izvoru).split('#')[1] || '0', 10) + 1) + ' predatog PDF-a · ' : '';
+  hud(karta, `<b>fotografija ${it.n}/${TEREN.count}</b> · sa terena · ${esc(it.tim)}<br>${o.w ? o.w + '×' + o.h + ' px' : ''}${it.prijem ? ' · predato ' + esc(it.prijem) : ''}<small>${esc(strana)}nije kadar filma: bez vremena, faze i radnika</small>`);
+}
 function kartica(i, k) {
   if (k) { const e = k.e; return hud(karta, `<b>${esc(e.element)}</b> · ${esc(e.pouzdanost)}<br>${esc(e.materijal)} · ${esc(e.stanje)}<small>${esc(e.sistem)} · ${kadrov(e.kadrovi)}${e.napomena ? '<br>' + esc(e.napomena) : ''}</small>`); }
   if (i < 0) return hud(karta, '');
@@ -198,18 +229,23 @@ function tick() {
   if (frame % 2 === 0 || prelaz) {
     ray.setFromCamera(mouse, cam);
     const h1 = ray.intersectObject(mesh, false)[0], h2 = kolGrupa.visible ? ray.intersectObjects(kolMesh, false)[0] : null;
+    const h3 = terenMesh && terenMesh.visible ? ray.intersectObject(terenMesh, false)[0] : null;
     const kol2 = h2 && (!h1 || h2.distance < h1.distance) ? kol.find(k => k.mesh === h2.object && k.i === h2.instanceId) : null;
-    const id = kol2 || !h1 ? -1 : h1.instanceId;
-    if (id !== hover || kol2 !== hoverK) { if (hover >= 0) lift[hover] = 0; hover = id; hoverK = kol2; if (hover >= 0) lift[hover] = 1; mesh.geometry.getAttribute('lift').needsUpdate = true; kartica(hover, hoverK); }
+    const terenBlizi = !!(h3 && (!h1 || h3.distance < h1.distance) && (!h2 || h3.distance < h2.distance));
+    const idT = terenBlizi ? h3.instanceId : -1;
+    const id = terenBlizi || kol2 || !h1 ? -1 : h1.instanceId;
+    if (idT !== hoverT) { if (hoverT >= 0) liftT[hoverT] = 0; hoverT = idT; if (hoverT >= 0) liftT[hoverT] = 1; terenMesh.geometry.getAttribute('lift').needsUpdate = true; if (hoverT >= 0) karticaTeren(hoverT); }
+    if (id !== hover || kol2 !== hoverK) { if (hover >= 0) lift[hover] = 0; hover = id; hoverK = kol2; if (hover >= 0) lift[hover] = 1; mesh.geometry.getAttribute('lift').needsUpdate = true; if (!terenBlizi) kartica(hover, hoverK); }
   }
-  const osa = rasp.t > 0.02; stubL.visible = tackeP.visible = kolGrupa.visible = !osa; kolMesh.forEach(m => { m.visible = !osa; });
+  const osa = rasp.aktivan; stubL.visible = tackeP.visible = kolGrupa.visible = !osa; kolMesh.forEach(m => { m.visible = !osa; });
+  if (terenMesh) { terenMesh.visible = terenMesh.userData.noge.visible = terenMesh.userData.obod.visible = !osa; UT.uTime.value = t; UT.glatko(dt * brz); }
   oko.azuriraj(cam, osa);
   oznake.forEach(([el, p]) => { const v = p.clone().project(cam); const vid = !osa && v.z < 1 && Math.abs(v.x) < 1.05 && Math.abs(v.y) < 1.05; el.style.display = vid ? '' : 'none'; if (vid) { el.style.left = (v.x + 1) / 2 * innerWidth + 'px'; el.style.top = (1 - v.y) / 2 * innerHeight + 'px'; } });
   r.render(scene, cam);
   if (!reducedMotion || frame < 3 || nav.aktivan() || gibanje || prelaz) trazi();
 }
 resize(); izUpita({ U, ui, rasp, nav, cOblak, razmak: 26, trazi }); if (new URLSearchParams(location.search).get('p') === '1') prebaci(); tick(); ui.spremno();
-window.__svet = { cam, nav, ui, U, rasp, trazi, items: items.length, kolona: kol.length, faza: P.faze.length, drawCalls: () => r.info.render.calls };
+window.__svet = { cam, nav, ui, U, rasp, trazi, items: items.length, teren: TEREN.count, terenMesh, kolona: kol.length, faza: P.faze.length, drawCalls: () => r.info.render.calls };
 </script>
 </body>
 </html>

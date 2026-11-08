@@ -169,7 +169,7 @@ function tick() {
     ray.setFromCamera(mouse, cam); const hit = ray.intersectObject(mesh, false)[0]; const id = hit ? hit.instanceId : -1;
     if (id !== hover) { if (hover >= 0) lift.setX(hover, 0); hover = id; if (hover >= 0) lift.setX(hover, 0.6); lift.needsUpdate = true; kartica(hover); }
   }
-  const osa = rasp.t > 0.02; stubL.visible = tackeP.visible = prazni.visible = !osa;
+  const osa = rasp.aktivan; stubL.visible = tackeP.visible = prazni.visible = !osa;
   oko.azuriraj(cam, osa);
   oznake.forEach(([el, p]) => { const v = p.clone().project(cam); const vidljiv = !osa && v.z < 1 && Math.abs(v.x) < 1.05 && Math.abs(v.y) < 1.05; el.style.display = vidljiv ? '' : 'none'; if (vidljiv) { el.style.left = (v.x + 1) / 2 * innerWidth + 'px'; el.style.top = (1 - v.y) / 2 * innerHeight + 'px'; } });
   r.render(scene, cam);

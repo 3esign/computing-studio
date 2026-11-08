@@ -128,6 +128,9 @@ export function raspored(mesh, rasporedi, cam) {
   return {
     postavi(c) { if (c === ka) return; if (t >= 0.5) od = ka; t = 0; ka = c; },
     get cilj() { return ka; }, get t() { return t; },
+    // van osnovnog rasporeda (0 = svet) ili se još vraća u njega. `t` sam to ne kaže: posle učitavanja t ide 0→1 i u svetu
+    // (od = ka = 0), pa je `rasp.t > 0.02` krilo stubove i pokazivalo kocku osa u režimu Svet (kvar od 28.10, nađen 08.11).
+    get aktivan() { return ka !== 0 || (od !== 0 && t < 1); },
     tick(dt) {
       if (t < 1) { t = Math.min(1, t + dt / 1.2); primeni(); return true; }
       if (last.distanceToSquared(cam.position) > 1e-4) { primeni(); return true; }
