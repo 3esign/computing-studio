@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-08",
   "note": {
     "en": "Student pilot digital passports, submitted by e-mail. The curated layer keeps claims with their sources; duplicates of one source are merged; legends are separated from facts; unknowns stay unknown. The original submission is preserved verbatim in originalText.",
     "sr": "Studentski piloti digitalnih pasoša (mejl 2026-10-12; prijem dokumenata 2026-10-18). Kurirani sloj čuva tvrdnje sa izvorima; ponavljanja istog izvora su spojena; legende odvojene od činjenica; nepoznato ostaje nepoznato. Originalni podnesci su doslovno sačuvani u originalText i u privatnoj evidenciji (van javnog izvoda). Imena podnosilaca nisu deo javnog izvoda — atribucija je po broju indeksa (odluka 20.10.2026)."
@@ -1394,6 +1394,30 @@
                 "S1"
               ],
               "id": "T03:materijali:979fdc1d7afe"
+            },
+            {
+              "id": "T03:materijali:staklena-fasada-7000",
+              "t": "Kosa zelenoplava staklena fasada (>7.000 m²)",
+              "v": "Prepoznatljivi kosi stakleni omotač Sava centra obuhvata više od 7.000 m² zelenoplavog refleksnog stakla u aluminijumskim profilima, nagnutog tako da smanjuje direktno zagrevanje i povezuje unutrašnje holove sa zelenilom Bloka 19",
+              "s": [
+                "S1",
+                "S3",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "materials",
+              "unit": "m²"
+            },
+            {
+              "id": "T03:materijali:enterijer-saletic",
+              "t": "Enterijer i vidljive instalacije (Aleksandar Šaletić)",
+              "v": "Unutrašnje uređenje (autor enterijera Aleksandar Šaletić) spaja sirovi natur-beton, drvene akustičke obloge u Plavoj dvorani (~4.000 mesta), vunene tepihe i namerno vidljive obojene cevovode klimatizacije u duhu ha-tek arhitekture 1970-ih",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "materials"
             }
           ]
         },
@@ -1487,6 +1511,36 @@
               "id": "T03:kompleks:13c7f39ff469"
             }
           ]
+        },
+        {
+          "id": "rekonstrukcija",
+          "title": {
+            "sr": "Zaštita (2021) i energetska obnova fasade (2021–2024)",
+            "en": "Heritage status (2021) and facade energy retrofit (2021–2024)"
+          },
+          "claims": [
+            {
+              "id": "T03:rekonstrukcija:spomenik-kulture-2021",
+              "t": "Status spomenika kulture i uslovi očuvanja (2021)",
+              "v": "Sava centar je 2021. godine proglašen za spomenik kulture uz obavezno očuvanje izvornog nagiba, rastera profila i zelenoplave nijanse staklene fasade, kao i autentičnog enterijera Velike dvorane",
+              "s": [
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "documents"
+            },
+            {
+              "id": "T03:rekonstrukcija:troslojno-staklo-2024",
+              "t": "Zamena fasadnog stakla troslojnim paketima (g = 25–35%)",
+              "v": "Tokom rekonstrukcije 2021–2024. godine (investicija preko 118 miliona evra, izvođač radova Jadran d.o.o.) prvobitno jednostruko staklo zamenjeno je troslojnim termoizolacionim niskoemisionim sigurnosnim staklom sa solarnim faktorom g = 25–35%, uz ugradnju fotonaponskih panela na krovu",
+              "s": [
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "energy",
+              "unit": "%"
+            }
+          ]
         }
       ],
       "sources": [
@@ -1495,6 +1549,24 @@
           "label": "Gradnja, „Sava Centar: Život jugoslovenskog staklenog dvorca”",
           "url": "https://gradnja.rs/sava-centar-zivot-jugoslovenskog-staklenog-dvorca/",
           "kind": "stručni medijski portal"
+        },
+        {
+          "id": "S2",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Odluka o utvrđivanju Sava centra za spomenik kulture (2021)",
+          "kind": "zavod",
+          "url": "https://beogradskonasledje.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Delta Holding / Sava Centar — podaci o rekonstrukciji kompleksa 2021–2024 (rukovodilac projekta Katarina Gajić; izvođač Jadran d.o.o.)",
+          "kind": "investitor",
+          "url": "https://savacentar.rs/"
+        },
+        {
+          "id": "S4",
+          "label": "Politika — intervju sa arhitektom Stojanom Maksimovićem o projektovanju i gradnji Sava centra (navod u podnesku tima T03)",
+          "kind": "štampa",
+          "url": "https://www.politika.rs/"
         }
       ],
       "originalText": "SAVA CENTAR — \u0001 i \u0001. [Originalan podnesak, primljen 12.10.2026; sačuvan doslovno kao deset pitanja sa odgovorima.]\n\n1. Kako je nastala ideja? Sredina 1970-ih; SFRJ jača međunarodni položaj; KEBS Helsinši 1975 — Jugoslavija domaćin narednog sastanka u Beogradu; grad nema odgovarajući kongresni prostor. Odluka o novom namenskom centru; praktična i reprezentativna uloga; savezni prioritet; rok 1977.\n\n2. ? 9; velika površina, pristup saobraćajnicama, hoteli; bez ograničenja istorijske matrice; veza sa centrom i aerodromom; simbolička dimenzija modernizacije; dugoročno urbanističko planiranje NB.\n\n3. Ko je projektovao? Glavni projektant (zadatak 1976; ≈mesec dana za koncept; proučavao Pariz, Kopenhagen, Hag). Multidisciplinarni tim; konstrukcija; , ; izvođač „Trudbenik”. Kolektivni rad.\n\n4. Projektna ideja: sistem povezanih prostora različitih veličina; velike i plenarne sale; manje sale; foajei; pres-centar; TV praćenje; akustika, osvetljenje, AV oprema; veza sa saobraćajnicama. Rešenja prilagođavana tokom realizacije; istraživanje o uticaju političkih rokova.\n\n5. Finansiranje: prioritetna investicija; tri podatka — početna planirana vrednost, stvarni troškovi, troškovi šireg kompleksa (sa hotelom); međunarodni zajam ; tačan iznos i struktura čekaju dokumentaciju gradskih organa i završne obračune.\n\n6. Proces izgradnje: početak 1976; prva faza ≈11–12 meseci; ubrzano, paralelno projektovanje/izvođenje/opremanje; prva faza kongresno-poslovna; dvorana i ostalo u kasnijim fazama; završetak kompleksa 1979. Hronologija: 1976 / 1977 / 1978 / 1979.\n\n7. Materijali i sistemi: staklene fasade, betonski elementi, metalni delovi; specijalizovani sistemi (klima, ventilacija, instalacije, rasveta, ozvučenje, akustika). Staklo — svetlo i transparentnost. Beton — veliki volumeni i rasponi. Metal — profili fasada. Tačne klase betona, armature, tipove stakla i spojeve proveriti u originalnoj tehničkoj dokumentaciji — bez nje nema preciznih specifikacija.\n\n8. Prostor: kongresne sale; Velika (Plava) dvorana; manje sale; foajei i holovi; tehnički i servisni prostori; poslovno-izložbeni prostori.\n\n9. Otvaranje: prva faza 14. maja 1977; prisustvovao . Prvobitna namena — međunarodne konferencije; KEBS Beogradski sastanak 1977. Ideja dugoročnog kongresno-kulturnog prostora.\n\n10. Kompleks: objekat A kongresno-poslovni \u0001; druga faza — Plava dvorana; do 1979 hotel InterContinental (danas ). Posmatrati kao kompleks različitih funkcionalnih celina. Napomena: troškove hotela u finansijskom istraživanju odvojiti od troškova kongresne zgrade.\n\nIZVOR PODATAKA: : Život jugoslovenskog staklenog dvorca — Gradnja."
@@ -2024,6 +2096,50 @@
               "id": "T19:materijali:6b41ccbfe517"
             }
           ]
+        },
+        {
+          "id": "hronologija",
+          "title": {
+            "sr": "Hronologija razvoja od Inženjerske škole do savremenog kampusa (P1–P9)",
+            "en": "Chronology from the Engineering School to the modern campus (P1–P9)"
+          },
+          "claims": [
+            {
+              "id": "T19:hronologija:koreni-1846-1905",
+              "t": "Od Inženjerske škole (1846) i Velike škole (1863) do Univerziteta (1905)",
+              "v": "Tehničko visoko obrazovanje u Srbiji počinje 1846. osnivanjem Inženjerske škole, nastavlja se kroz Tehnički fakultet Velike škole u Kapetan-Mišinom zdanju (1863), a prerastanjem u Univerzitet u Beogradu 1905. javlja se potreba za sopstvenom zgradom zbog hroničnog nedostatka laboratorija i crtaonica",
+              "s": [
+                "S1",
+                "S7"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T19:hronologija:politika-1923-1926",
+              "t": "Dodela zemljišta na Trkalištu i gradnja prema izveštajima „Politike“ (1922–1931)",
+              "v": "Nakon ustupanja zemljišta nekadašnjeg Trkališta 1922. godine, list „Politika“ u brojevima od 23.11.1923. i 19.01.1926. dokumentuje izradu planova Nikole Nestorovića i Branka Tanazevića, finansiranje iz državnog budžeta i ratnih reparacija i višegodišnje izvođenje radova do useljenja 1931.",
+              "s": [
+                "S4",
+                "S5",
+                "S6"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T19:hronologija:rat-i-dogradnja",
+              "t": "Oštećenja u Drugom svetskom ratu i dogradnja trećeg sprata",
+              "v": "Tokom okupacije i bombardovanja 1941–1944. zgrada i laboratorijska oprema pretrpele su znatna oštećenja; posle oslobođenja izvedena je obnova i dogradnja trećeg sprata prema projektu arhitekte Mihaila Radovanovića, a 1948. Tehnički fakultet se izdvaja u samostalne fakultete",
+              "s": [
+                "S1",
+                "S6",
+                "S7"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            }
+          ]
         }
       ],
       "sources": [
@@ -2050,6 +2166,24 @@
           "label": "Kaldrma — „Berlin na Bulevaru kralja Aleksandra”",
           "url": "https://kaldrma.rs/berlin-na-bulevaru-kralja-aleksandra/",
           "kind": "tematski portal"
+        },
+        {
+          "id": "S5",
+          "label": "Digitalna Narodna biblioteka Srbije — list „Politika“ od 23. 11. 1923. i 19. 01. 1926. (izveštaji o pripremi i toku gradnje Tehničkog fakulteta)",
+          "kind": "arhivska štampa",
+          "url": "https://digitalna.nb.rs/"
+        },
+        {
+          "id": "S6",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Katalog nepokretnih kulturnih dobara: „Zgrada Tehničkog fakulteta“ (SK 2224)",
+          "kind": "zavod",
+          "url": "https://beogradskonasledje.rs/kd/zavod/palilula/zgrada_tehnickog_fakulteta.html"
+        },
+        {
+          "id": "S7",
+          "label": "Univerzitet u Beogradu — Građevinski i Elektrotehnički fakultet: istorijat razvoja visokoškolske tehničke nastave od 1846. do danas",
+          "kind": "institucija",
+          "url": "https://www.grf.bg.ac.rs/"
         }
       ],
       "originalText": "Digitalni pasoš – Zgrada tehničkih fakulteta u Beogradu\nPrvi naziv: Indžinirska škola (osnovana 19.06.1846. godine) *izvor:\nPeriod gradnje: 1925-1931. godine po projektima , i \n*izvor: https://www.arh.bg.ac.rs/istorija-fakulteta/?pismo=lat \nUsled štete nastale tokom Drugog svetskog rata 3. sprat ovog objekta je naknadno dozidan u posleratnom periodu, kao što je i renoviran svaki oštećeni deo zgrade. *izvori: https://www.arh.bg.ac.rs/istorija-fakulteta/?pismo=lat https://kaldrma.rs/berlin-na-bulevaru-kralja-aleksandra/ \nAdresa: Bulevar kralja Aleksandra 73, Beograd\nKatastarska opština: Vračar\nAdministrativna opština: Palilula\nBroj katastarske parcele: 3103 \n*izvor: https://katastar.rgz.gov.rs/eKatastarPublic/FindAdresa.aspx?OpstinaID=70114 \nPovršina bloka (parcele): približno 3,2hektara \u0001 \n*izvor: https://www.ekapija.com/news/3426089/elektrotehnicki-fakultet-i-kampus-tehnickih-fakulteta-u-beogradu-dobice-novi-objekat-od \nSpratnost: 3 (podrum, prizemlje, 2 sprata)\nPrvi projekat (crtež): Inspiracija za osnovu zgrade potekla je iz Berlina gde je jedan od arhitekti, , studirao. Prvi sačuvani crtež i nacrti projekta potiču iz 1925. godine arhitekti i . To je bio crtež glavne fasade koji je izmenjen. \n*izvor: https://scindeks.ceon.rs/Article.aspx?artid=1450-605X0607069I&lang=en \nKonstrukcija: Masivni zidovi su izvedeni od opeke (cigle) u kombinaciji sa armiranobetonskim i čeličnim konstrukcijskim elementima, što je bilo karakteristično za to vreme prilikom izgradnje objekata.\nFasada: stilovi – akademizam sa dominantnim klasisističkim elementima\nMonumentalnih dimenzija, bogato obrađenih fasada sa mnoštvom arhitektonske i dekorativne plastike. Glavnoj fasadi bila je posvećeno najviše pažnje, dok su bočna i dvorišna fasada gradacijski svedenije. Glavnom fasadom dominira centralni rizalit sa monumentalnim stepeništem koje vodi do trodelnog ulaza. Skulpture i reljefnu plastiku na pročelju fasade radili su vajari i , dok je autor ornamentalne plastike u veštačkom kamenu . Fasada naknadno izgrađenog 3. sprata uklopljena je uz stil 2 već postojeća sprata.\n *izvor: https://www.arh.bg.ac.rs/istorija-fakulteta/tehnicki-fakultet_glavna-fasada/#lightbox[gallery-0]%20lightbox-0/0/ \nDobavljanje materijala: \n1 Smeše za veštački kamen i fasadnu plastiku dopremane su iz domaćih centara (Beočin) i uvožene iz Austrije i Nemačke.\n2 Prirodni kamen i mermer (korišćen za unutrašnjost) najčešće su nabavljani iz kamenoloma u Aranđelovcu (Venčac), kao i sa područja Makedonije i Dalmacije.\n3 Opeka i cigla proizvodile su se lokalno u beogradskim ciglanama (fabrike opeke na Karaburmi i okolini Višnjice).\n4 Čelik i armatura uvoženi su iz industrijskih centara Češko-Slovačke i Nemačke.\nFinansije-glavni nosioci projekta: država Kraljevina SHS (kasnije ) iz budžeta ministarstava (Ministarstvo prosvete i Ministarstvo građevina).\nIzvor: https://www.arh.bg.ac.rs/istorija-fakulteta/tehnicki-fakultet_glavna-fasada/#lightbox[gallery-0]%20lightbox-0/0/ https://scindeks.ceon.rs/Article.aspx?artid=1450-605X0607069I&lang=en \n 63\n 66\n 11"
@@ -3012,6 +3146,81 @@
               "id": "T22:regulativa:f7b58716f812"
             }
           ]
+        },
+        {
+          "id": "gradjevinska-dozvola",
+          "title": {
+            "sr": "Građevinska dozvola za Fazu A (2018) i podaci iz rešenja",
+            "en": "Building permit for Phase A (2018) and official parameters"
+          },
+          "claims": [
+            {
+              "id": "T22:gradjevinska-dozvola:resenje-faza-a",
+              "t": "Rešenje o građevinskoj dozvoli za Fazu A (19. 11. 2018)",
+              "v": "Ministarstvo građevinarstva, saobraćaja i infrastrukture izdalo je 19. novembra 2018. Rešenje o građevinskoj dozvoli br. ROP-MSGI-33410-CPI-1/2018 za Fazu A (Lamelu 5 i podzemnu garažu) spratnosti 2Po+Pr+7+Ps na katastarskim parcelama br. 56/1 i 56/12 KO Stari grad (Bulevar vojvode Bojovića 30 / Dunavska 2–4)",
+              "s": [
+                "S6"
+              ],
+              "status": "verified",
+              "category": "documents",
+              "locator": "str. 1–2"
+            },
+            {
+              "id": "T22:gradjevinska-dozvola:povrsine-i-jedinice",
+              "t": "Bruto površina Faze A (42.025 m²), broj stanova i garažnih mesta",
+              "v": "Prema građevinskoj dozvoli Faza A ima ukupnu bruto razvijenu građevinsku površinu od 42.025,21 m² (nadzemno 17.515,07 m², podzemno 24.510,14 m²), sa 122 stambene jedinice, 23 poslovna lokala i 433 parking mesta u podzemnoj garaži; predračunska vrednost radova iznosila je 2.912.696.953,27 RSD",
+              "s": [
+                "S6"
+              ],
+              "status": "verified",
+              "category": "geometry",
+              "unit": "m²",
+              "locator": "str. 2–3"
+            },
+            {
+              "id": "T22:gradjevinska-dozvola:projektant-i-faze-bc",
+              "t": "Glavni projektant (Bureau Cube Partners) i analiza faza B i C",
+              "v": "Glavni projektant Idejnog projekta i Projekta za građevinsku dozvolu bio je Aleksandar Sudžuković, d.i.a. (Bureau Cube Partners d.o.o. Beograd); dopuna pasoša dokumentuje i navode iz Izveštaja Saveta za borbu protiv korupcije (2021) o urbanističko-pravnim sporovima oko faza B i C u zaštićenoj okolini Beogradske tvrđave",
+              "s": [
+                "S4",
+                "S6",
+                "S7"
+              ],
+              "status": "source-reported",
+              "category": "documents",
+              "locator": "str. 3"
+            }
+          ]
+        },
+        {
+          "id": "specifikacija-materijala",
+          "title": {
+            "sr": "Tehnička specifikacija konstrukcije, fasade i opreme",
+            "en": "Technical specification of structure, facade and building systems"
+          },
+          "claims": [
+            {
+              "id": "T22:specifikacija-materijala:konstrukcija-i-zidovi",
+              "t": "Seizmički AB sistem i višeslojni fasadni zid",
+              "v": "Armiranobetonski skelet sa zidovima za ukrućenje u dva ortogonalna pravca proračunat za VIII zonu seizmičnosti; fasadni sendvič-zid čine termo-blok (20 cm), kamena mineralna vuna (12 cm) i završna obloga od fasadne opeke, prirodnog kamena travertina i dekorativnog maltera",
+              "s": [
+                "S8"
+              ],
+              "status": "source-reported",
+              "category": "materials",
+              "unit": "cm"
+            },
+            {
+              "id": "T22:specifikacija-materijala:krov-stolarija-grejanje",
+              "t": "Ravni krov, aluminijumska stolarija i daljinsko grejanje",
+              "v": "Ravni neprohodni krov izveden je sa parnom branom, termoizolacijom od ekstrudiranog polistirena (XPS 15–25 cm), TPO hidroizolacionom membranom i slojem belog rečnog oblutka; ugrađena je aluminijumska stolarija sa troslojnim niskoemisionim staklom i električnim roletnama, uz priključak na daljinsko grejanje sa individualnim kalorimetrima",
+              "s": [
+                "S8"
+              ],
+              "status": "source-reported",
+              "category": "energy"
+            }
+          ]
         }
       ],
       "sources": [
@@ -3044,6 +3253,24 @@
           "kind": "urbanistički plan",
           "url": "https://www.urbel.com",
           "label": "DUP Kalemegdan (1969), Urbanistički zavod Beograda"
+        },
+        {
+          "id": "S6",
+          "label": "Ministarstvo građevinarstva, saobraćaja i infrastrukture RS — Rešenje o građevinskoj dozvoli br. ROP-MSGI-33410-CPI-1/2018 (III-07 br. 351-02-00359/2018-07 od 19. 11. 2018.) za Fazu A kompleksa K-District (evidencija/prijem-2026-11-08/raw/27/resenje o gradjevinskoj dozvoli.pdf)",
+          "kind": "građevinska dozvola",
+          "locator": "str. 1–7"
+        },
+        {
+          "id": "S7",
+          "label": "Savet za borbu protiv korupcije Vlade RS — Izveštaj o postupku otuđenja građevinskog zemljišta i izgradnji na lokaciji Kalemegdan / Donji Dorćol (2021)",
+          "kind": "izveštaj",
+          "url": "http://www.antikorupcija-savet.gov.rs/"
+        },
+        {
+          "id": "S8",
+          "label": "K-District — zvanična tehnička specifikacija materijala i opreme objekta",
+          "kind": "investitor",
+          "url": "https://kdistrict.rs/#specifikacija"
         }
       ],
       "originalText": "13/26\r\n40/26\r\n41/26\r\n\r\n           Preliminarna pilot verzija digitalnog pasosa\r\n\r\n                  Tema: stambeno-poslovni kompleks ,,K-Distrikt\"\r\n\r\n1. OSNOVNE INFORMACIJE O PROJEKTU I LOKACIJI\r\n- Naziv kompleksa: Stambeno-poslovni kompleks ,,K-District\". https://www.kdistrict.rs\r\n- Lokacija: Kulturno-istorijska celina Kalemegdana, uz obale Save i Dunava. Bulevar\r\nvojvode Bojovia, Beograd. https://www.kdistrict.rs\r\n- Kvadratura: Kompleks ima povrsinu od oko 120.000 kvadratnih metara.\r\n\r\nhttps://www.blic.rs/vesti/beograd/grci-prodali-beko-posle-10-godina-moderan-kompleks-na-dorcolu-gradice-novi-\r\nvlasnik/bp4c1n6\r\n\r\n- Glavni investitori:\r\n    � Holandski Pinnacle (osnivac kompanije Levi9).\r\n    � Srpska kompanija AGNS INVEST doo, koja je deo Aleksandar Grupe iz Novog\r\n         Sada. https://www.kdistrict.rs\r\n\r\n2. PROSTORNA GENEZA I ISTORIJSKA POZADINA\r\n- Lokacija: Prostor nekadasnje fabrike ,,Beko\" na Donjem Dorolu (Donji grad\r\nBeogradske tvrave).\r\n\r\nhttps://www.beogradskiprojekti.rs/beogradski-projekti/aktuelni-projekti/zavr%C5%A1ava-se-izgradnja-projekta-k-\r\ndistrict-po%C4%8Dela-useljenja-prvih-stanara-u-fazu-b/\r\n\r\n- Kulturno-istorijski kontekst: Podrucje u obuhvatu zastiene zone spomenika\r\nkulture od izuzetnog znacaja. https://nasledje.gov.rs/media/odluka_...\r\n- Prvobitna planska ideja (2012): Arhitektonski studio Zaha Hadid Architects izradio\r\nje projekat visenamenskog kompleksa za ovu lokaciju, od kojeg je naknadno odustato.\r\n\r\nhttps://www.gradnja.rs/beogradski-hotel-zahe-hadid-na-mestu-zgrade-beko/\r\nhttps://www.archdaily.com/315688/zaha-hadid-to-regenerate-historic-site-in-belgrade\r\n\r\n- Realizacija (2018): Predstavljen novi projekat stambeno-poslovnog kompleksa ,,K-\r\nDistrict\". https://www.kdistrict.rs\r\n\r\n                                                                                                                1\r\n\f13/26\r\n40/26\r\n41/26\r\n\r\n2.1 ISTORIJSKE FAZE I ARHEOLOSKA VREDNOST\r\n\r\n- Istorijski znacaj prostora: Prostor K-Districta nalazi se u zoni Donjeg grada\r\nBeogradske tvrave, u neposrednoj blizini usa Save u Dunav. Podrucje Donjeg grada\r\nsvedoci o razlicitim istorijskim periodima i razvoju Beograda, dok sama Beogradska\r\ntvrava predstavlja kulturno dobro od izuzetnog znacaja za Republiku Srbiju.\r\n\r\nhttp://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-beogradske-tvrave-\r\nkao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n- Istorijske faze:\r\n\r\n    � Anticki period: Singidunum -- rimsko naselje na prostoru danasnjeg Beograda.\r\n    � Srednji vek: Razvoj Beograda kao utvrenog grada.\r\n    � 1403�1427. godina: Za vreme despota Stefana Lazarevia Beograd postaje\r\n\r\n         prestonica.\r\n    � 1521. godina: Osmansko osvajanje Beograda.\r\n    � 17�18. vek: Izgradnja i preoblikovanje fortifikacija tokom austrijske i osmanske\r\n\r\n         vlasti.\r\n    � 19. vek: Promena funkcije i postepeno napustanje pojedinih luckih prostora.\r\n    � 1915. godina: Odbrana Beograda i borbe na podrucju Donjeg grada.\r\n    � 1931. godina: Izgradnja fabrike Beko, koja je kasnije korisena kao tekstilna\r\n\r\n         fabrika.\r\n    � 20. vek: Promene obale, izgradnja saobraajne infrastrukture i izmena\r\n\r\n         istorijskog ambijenta.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n- Odbrana Donjeg grada 1915. i memorijalni znacaj lokacije:\r\n\r\n    � Prostorni obuhvat (1915): Lokacija K-Distrikta (nekadasnja ,,Osuenicka\r\n         basta\") i duz nasipa zeleznicke pruge bila je glavna linija odbrane Beograda u\r\n         oktobru 1915. godine.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Dogaaji i ratna dejstva: Nakon bombardovanja sa preko 30.000 granata,\r\n         nadmonije austrougarske i nemacke snage presle su Dunav 7. oktobra. Major\r\n         Dragutin Gavrilovi predvodio je malobrojne srpske branioce u istorijski\r\n         kontranapad ispred kafane ,,Jasenica\", usled cega su se vodile borbe do\r\n         poslednjeg coveka.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Arheolosko-memorijalni nalazi: Poginuli borci prvobitno su sahranjivani uz\r\n         bedeme Tvrave i Dunavski kej (kasnije preneti na Novo groblje), a 1934.\r\n         godine na Dorolu su slucajno otkriveni ostaci jos 53 borca.\r\n\r\n                                                                                                                2\r\n\f13/26\r\n40/26\r\n41/26\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Izostanak istrazivanja i gubitak memorije: Budui da na prostoru\r\n         ,,Osuenicke baste\" od 1934. godine nije bilo dubokih iskopa, a pre izgraivanja\r\n         K-Distrikta nisu sprovedena detaljna zastitna arheoloska istrazivanja, postoji\r\n         velika verovatnoa da su posmrtni ostaci branilaca Beograda trajno ostali\r\n         zarobljeni u temeljima novih stambeno-poslovnih objekata.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n- Arheoloska vrednost: Donji grad sadrzi tragove razlicitih istorijskih slojeva. Prostor\r\nje povezan sa nekadasnjim lukama na Savi i Dunavu. Sire podrucje Beogradske\r\ntvrave obuhvata ostatke istorijskih graevina i fortifikacija. Postoji potreba za\r\ndodatnim arheoloskim istrazivanjima na nedovoljno istrazenim delovima prostora.\r\n\r\nhttp://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-beogradske-tvrave-\r\nkao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Ugrozenost neposrednog okruzenja Vidin kapije: Zbog nedostatka detaljnih\r\n         zastitnih istrazivanja u neposrednoj blizini Vidin kapije, narusen je autenticni\r\n         istorijski ambijent i potencijalni arheoloski slojevi baroknih utvrenja.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n2.2. ODNOS K-DISTRICTA PREMA ISTORIJSKOM NASLEU\r\n\r\nIzgradnja K-Districta otvorila je pitanje ocuvanja istorijskog ambijenta Donjeg grada.\r\nSavet za borbu protiv korupcije u svom izvestaju kritikuje uticaj projekta na istorijsku\r\nvizuru i prostorni integritet Beogradske tvrave. Izvestaj ukazuje na znacaj dodatnih\r\narheoloskih istrazivanja. Preporucuje se ispitivanje nedovoljno istrazenih povrsina,\r\nukljucujui temelje i podrumske delove objekata, kao i iskopanog materijala. Za\r\nprocenu arheoloske vrednosti konkretne parcele potrebni su podaci iz strucnih\r\narheoloskih istrazivanja.\r\n\r\nhttp://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-beogradske-tvrave-\r\nkao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n3. PRAVNI STATUS I STEPEN ZASTITE\r\n\r\n- Resenje Zavoda za zastitu spomenika (1965):\r\n\r\n    � Resenjem Zavoda za zastitu spomenika kulture grada Beograda br. 1091/1 od\r\n         06. 08. 1965. godine ,,Beogradska tvrava, na usu Save u Dunav ima svojstvo\r\n         spomenika kulture\".\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n                                                                                                                3\r\n\f13/26\r\n40/26\r\n41/26\r\n\r\n    � Granice neposredne blizine ovog spomenika kulture idu od Putnickog\r\n         pristanista na Savi, pa Velikim stepenicama u Parisku ulicu, zatim Pariskom\r\n         ulicom i ulicom Tadeusa Kosuska do Zeleznicke stanice Beograd - Donji grad,\r\n         pa zeleznickom prugom i dalje obalom Dunava i Save do Putnickog pristanista.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n- Detaljni urbanisticki plan (DUP) Kalemegdan (1969):\r\n\r\n    � DUP je: Osnovni urbanisticki i planski dokument kojim je celokupan prostor\r\n         Donjeg grada i njegovog okruzenja zvanicno definisan i zastien kao javni park,\r\n         otvoreni arheoloski muzej i spomenicka zona.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Planski kontinuitet: Nastao je na temelju svih prethodnih planova Beograda\r\n         (od 1867. godine) i Odluke o zastiti Narodnog parka ,,Kalemegdan\" iz 1952.\r\n         godine.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Cisenje prostora: Bazirao se na obaveznom uklanjanju svih industrijskih i\r\n         neadekvatnih objekata, izmestanju fabrike ,,Beko\", skole, vojnih baraka,\r\n         zeleznicke pruge i bulevara.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Apsolutna zabrana gradnje: Izricito je propisivao da na tom prostoru ,,nikakvi\r\n         savremeni objekti ne dolaze u obzir\" kako se ne bi narusila silueta Tvrave.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n- Proglasenje za kulturno dobro od izuzetnog znacaja (1979):\r\n\r\n    � Odlukom Skupstine Socijalisticke Republike Srbije iz 1979. godine, Beogradska\r\n         tvrava sa neposrednom okolinom zvanicno dobija status nepokretnog\r\n         kulturnog dobra od izuzetnog znacaja.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Ovaj status predstavlja najvisi mogui rang pravne i spomenicke zastite\r\n         predvien Zakonom o kulturnim dobrima Republike Srbije.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n                                                                                                                4\r\n\f13/26\r\n40/26\r\n41/26\r\n\r\n- Plan detaljne regulacije (PDR) iz 2012. godine:\r\n\r\n    � Inicijativa investitora: Nakon kupovine fabrike ,,Beko\" u stecaju (2007), izradu\r\n         novog PDR-a finansirala je grcka kompanija Lamda Development radi\r\n         usklaivanja plana sa svojim investicionim ciljevima.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Pravni preokret i ukinuti planovi: PDR 2012. je zvanicno stavio van snage\r\n         DUP iz 1969. godine, oslanjajui se na sporne izmene GUP-a 2003 (kojima je\r\n         spomenicko-parkovska zona prenamenjena u stambeno-poslovnu).\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Dozvoljeni gabariti i gradnja: Obuhvata 8,8 ha u bloku uz Vidin kapiju i\r\n         Tvravu (ulice Dunavska, Tadeusa Kosuska i Bulevar vojvode Bojovia).\r\n         Odobrena je masovna stambeno-poslovna gradnja visoke spratnosti (do\r\n         P+7+Ps, odnosno P+7+3Ps u Dunavskoj ulici).\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Uslovi zastite i vizure: Republicki zavod za zastitu spomenika (2009) nalozio\r\n         je uslove integrativne konzervacije i razbijanje objekata na manje celine kako\r\n         se ne bi narusile sagledivost Tvrave i vizura duz Bulevara vojvode Bojovia.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Predviena je restauracija i zadrzavanje namene zgrade Vazduhoplovne\r\n         akademije (1924), dok je za glavnu zgradu ,,Beka\" (1931) odobrena\r\n         rekonstrukcija, prenamena.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n- Prostorni obuhvat i polozaj K-Distrikta u odnosu na zastieno podrucje:\r\n\r\n    � Kompleks ,,K-District\" izgraen je u potpunosti unutar granica ove strogo\r\n         zastiene zone spomenika kulture od izuzetnog znacaja.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Objekti novogradnje direktno se naslanjaju na nadzemne ostatke baroknog\r\n         artiljerijskog utvrenja iz 18. veka, pri cemu fizicka udaljenost zgrada od\r\n         bedema na pojedinim mestima iznosi svega oko 20 metara.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Lokacija obuhvata prostor istorijskog tvravskog bojnog polja, u narodu i\r\n         istorijskoj literaturi poznat kao Donji Kalemegdan.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n                                                                                                                5\r\n\f13/26\r\n40/26\r\n41/26\r\n\r\n- Pravni paradoks i sukob regulativa:\r\n    � Odluka o najvisem moguem rangu zastite iz 1979. godine nikada nije ukinuta,\r\n         izmenjena niti stavljena van snage.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n    � Uprkos aktivnom statusu najvise drzavne zastite, doneti su podzakonski akti\r\n         (Plan detaljne regulacije iz 2012) koji su omoguili masovnu komercijalnu i\r\n         stambeno-poslovnu novogradnju na ovom prostoru.\r\n\r\n            http://www.antikorupcija-savet.gov.rs/sr-Cyrl-CS/izvestaji/cid1028-3350/izvestaj-o-devastaciji-\r\n            beogradske-tvrave-kao-spomenika-kulture-od-izuzetnog-znacaja-za-republiku-srbiju\r\n\r\n                                                                                                                6\r\n\f"
@@ -4285,6 +4512,46 @@
               "id": "T49:znacaj:02259fddbc2c"
             }
           ]
+        },
+        {
+          "id": "arhivsko-istrazivanje",
+          "title": {
+            "sr": "Arhivsko istraživanje u 6 institucija (oktobar–novembar 2026)",
+            "en": "Archival research across 6 institutions (Oct–Nov 2026)"
+          },
+          "claims": [
+            {
+              "id": "T49:arhivsko-istrazivanje:iab-mije-kovacevica",
+              "t": "Nalaz u Istorijskom arhivu Beograda (Mije Kovačevića 11a vs. br. 9)",
+              "v": "Pregledom arhive za adresu Mije Kovačevića 11a u Istorijskom arhivu Beograda pronađen je projekat stambene zgrade spratnosti P+15 iz 1967. godine, čime je utvrđeno da se za kulu „Toblerone“ (P+17 iz 1963, ulica Mije Kovačevića 9) mora tražiti zaseban dosije po tačnom broju građevinske dozvole",
+              "s": [
+                "S7"
+              ],
+              "status": "verified",
+              "category": "documents"
+            },
+            {
+              "id": "T49:arhivsko-istrazivanje:das-aj-sekretarijat",
+              "t": "Odgovori Državnog arhiva Srbije, Arhiva Jugoslavije i Sekretarijata za urbanizam",
+              "v": "Državni arhiv Srbije potvrdio je da ne čuva lokalne građevinske dozvole; Arhiv Jugoslavije uputio je na fond AJ 13 (Savezna građevinska komisija); Sekretarijat za urbanizam i građevinske poslove traži dokaz pravnog interesa (upravnika zgrade ili vlasnika stana) za uvid u projekat",
+              "s": [
+                "S8"
+              ],
+              "status": "verified",
+              "category": "methods"
+            },
+            {
+              "id": "T49:arhivsko-istrazivanje:muzej-jugoslavije-i-af",
+              "t": "Odgovor Muzeja Jugoslavije (03. 11. 2026) i Biblioteke AF",
+              "v": "Muzej Jugoslavije je 03.11.2026. zvanično potvrdio da u svojim fondovima ne poseduje maketu ni dokumentaciju o zgradi „Toblerone“; Biblioteka Arhitektonskog fakulteta uputila je na stručnu periodiku („Arhitektura urbanizam“ i „Izgradnja“, 1960–1965)",
+              "s": [
+                "S8",
+                "S9"
+              ],
+              "status": "verified",
+              "category": "methods"
+            }
+          ]
         }
       ],
       "sources": [
@@ -4323,6 +4590,21 @@
           "label": "Acarta — „Zgrada Toblerone na Karaburmi“ (dopunski pregled)",
           "kind": "aplikacija",
           "url": "https://acarta.app/destination/rs-belgrade/place/zgrada-toblerone-na-karaburmi"
+        },
+        {
+          "id": "S7",
+          "label": "Istorijski arhiv Beograda (IAB) — uvid u fond građevinske dokumentacije opštine Palilula za Mije Kovačevića 11a (projekat P+15 iz 1967, izveštaj tima T49 od novembra 2026)",
+          "kind": "arhiv"
+        },
+        {
+          "id": "S8",
+          "label": "Državni arhiv Srbije, Arhiv Jugoslavije (fond AJ 13 — Savezna građevinska komisija), Sekretarijat za urbanizam i Biblioteka Arhitektonskog fakulteta — pisani odgovori i uputstva timu T49 (oktobar–novembar 2026)",
+          "kind": "arhiv"
+        },
+        {
+          "id": "S9",
+          "label": "Muzej Jugoslavije (kustoskinja Ana Panić) — pisani odgovor timu T49 od 03. 11. 2026. (evidencija/prijem-2026-11-08/raw/1.txt)",
+          "kind": "institucija"
         }
       ],
       "originalSource": {
@@ -5355,6 +5637,94 @@
               "id": "T65:prostor:e2717ff8a825"
             }
           ]
+        },
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Identitet, parcela i istraživačko pitanje",
+            "en": "Identity, parcel and research question"
+          },
+          "claims": [
+            {
+              "id": "T65:identitet:parcela",
+              "t": "Katastarska parcela i rešenje o zaštiti",
+              "v": "Francuska 39 (ugao Cara Dušana, Francuske i Skender-begove), katastarska parcela br. 1044 KO Beograd 1 (Stari grad); utvrđena za spomenik kulture Rešenjem Zavoda br. 655/3 od 22.04.1983 (SK 60)",
+              "s": [
+                "S3",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "location"
+            },
+            {
+              "id": "T65:identitet:istrazivacko-pitanje",
+              "t": "Istraživačko pitanje tima",
+              "v": "Kako je od privremene vojne šatorske kapele ruskih dobrovoljaca (1876–1877) kroz tri dorćolske lokacije i četiri arhitekta nastao monumentalni hram, i u kojoj meri je izvedena crkva (1927–1930) izmenila prvobitni projekat Jelisavete Načić iz 1912. godine",
+              "s": [
+                "S1",
+                "S3",
+                "S6"
+              ],
+              "status": "source-reported",
+              "category": "research"
+            }
+          ]
+        },
+        {
+          "id": "izmene-1927",
+          "title": {
+            "sr": "Obim izmena projekta 1927. i matrica slaganja izvora",
+            "en": "Scope of the 1927 design revision and source matrix"
+          },
+          "claims": [
+            {
+              "id": "T65:izmene-1927:osnova-zadrzana",
+              "t": "Šta je zadržano iz projekta Jelisavete Načić (1912)",
+              "v": "Pošto su armiranobetonski temelji osvećeni 1912. već bili izvedeni pre balkanskih ratova, u reviziji projekta 1927. godine zadržani su gabarit i osnova trikonhosa u obliku upisanog krsta sa kulom-zvonikom nad zapadnom pripratom",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "structure"
+            },
+            {
+              "id": "T65:izmene-1927:fasada-i-kupola",
+              "t": "Šta su izmenili Pera Popović i Vasilije Androsov (1927–1930)",
+              "v": "Pera J. Popović i Vasilije Androsov preoblikovali su gornje zone fasade, proporcije kupole, prozorske otvore i krovne vence u smirenijem moravskom duhu, uz oblaganje fasade veštačkim kamenom i dodavanje pozlaćenih krstova; hram je osvećen 23. novembra 1930.",
+              "s": [
+                "S2",
+                "S3",
+                "S5"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T65:izmene-1927:otvoreno-pitanje-crtezi",
+              "t": "Otvoreno arhivsko pitanje — izvorni nacrti iz 1912.",
+              "v": "Tačno grafičko poređenje izvornih fasadnih nacrta Jelisavete Načić iz 1912. i revidiranih nacrta iz 1927. zahteva neposredan uvid u tehničku dokumentaciju Zavoda za zaštitu spomenika kulture i Istorijskog arhiva Beograda",
+              "s": [
+                "S3"
+              ],
+              "status": "unknown",
+              "category": "questions"
+            },
+            {
+              "id": "T65:izmene-1927:matrica-izvora",
+              "t": "Matrica slaganja 6 izvora",
+              "v": "Svih 6 izvora u podnesku (zvanični sajt hrama, Katalog Zavoda SK 60, Politika 23.11.1930, 011info, Pravoslavlje, Wikipedia) slaže se oko hronologije 1877–1891–1912–1930, autora i mermernog ikonostasa iz 1930. (poklon kralja Aleksandra I sa prestone crkve na Oplencu)",
+              "s": [
+                "S1",
+                "S2",
+                "S3",
+                "S5",
+                "S6"
+              ],
+              "status": "source-reported",
+              "category": "methods"
+            }
+          ]
         }
       ],
       "sources": [
@@ -5369,6 +5739,30 @@
           "label": "Zvanični sajt hrama — „Arhitektura“ ( domen .срб, punikod)",
           "kind": "zvanični sajt",
           "url": "https://xn--80adinjob2ag6b.xn--90a3ac/arhitektura/"
+        },
+        {
+          "id": "S3",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Katalog nepokretnih kulturnih dobara: „Crkva Svetog Aleksandra Nevskog“ (SK 60, Rešenje br. 655/3 od 22.04.1983)",
+          "kind": "zavod",
+          "url": "https://beogradskonasledje.rs/kd/zavod/stari_grad/crkva_sv_aleksandra_nevskog.html"
+        },
+        {
+          "id": "S4",
+          "label": "Republički geodetski zavod — eKatastar (katastarska parcela 1044 KO Beograd 1, Stari grad)",
+          "kind": "katastar",
+          "url": "https://katastar.rgz.gov.rs/"
+        },
+        {
+          "id": "S5",
+          "label": "Politika (23. 11. 1930) / Kaldrma.rs — izveštaj o osvećenju Hrama Svetog Aleksandra Nevskog 23. novembra 1930.",
+          "kind": "arhivska štampa",
+          "url": "https://kaldrma.rs/"
+        },
+        {
+          "id": "S6",
+          "label": "011info — „Crkva Aleksandra Nevskog: ruski svetac na Dorćolu“ (pregled istorijata tri lokacije)",
+          "kind": "portal",
+          "url": "https://www.011info.com/beograd-bez-tajni/crkva-aleksandra-nevskog-ruski-svetac-na-dorcolu"
         }
       ],
       "originalSource": {
@@ -6891,6 +7285,49 @@
               "category": "methods"
             }
           ]
+        },
+        {
+          "id": "uticaji-i-akteri",
+          "title": {
+            "sr": "Ko je uticao na nastanak i razvoj zgrade (P1–P8)",
+            "en": "Who shaped the creation and development of the building (P1–P8)"
+          },
+          "claims": [
+            {
+              "id": "T58:uticaji-i-akteri:kralj-i-drzava",
+              "t": "Državna podrška i ustupanje zemljišta na Trkalištu (1922–1925)",
+              "v": "Odluka o podizanju monumentalnog doma tehničkih nauka doneta je uz neposrednu podršku kralja Aleksandra I Karađorđevića i Vlade Kraljevine SHS nakon ustupanja zemljišta nekadašnjeg Trkališta 1922. godine i obezbeđivanja sredstava iz državnog budžeta i reparacija",
+              "s": [
+                "S1",
+                "S4",
+                "S5"
+              ],
+              "status": "source-reported",
+              "category": "people"
+            },
+            {
+              "id": "T58:uticaji-i-akteri:saradnja-autora",
+              "t": "Sinteza koncepcija Nikole Nestorovića, Branka Tanazevića i vajara",
+              "v": "Arhitektonski izraz zgrade nastao je spajanjem Nestorovićeve zrele akademske prostorne kompozicije (iskustvo sa Narodnog muzeja i Beogradske zadruge), Tanazevićevog osećaja za dekorativnu plastiku i skulptorskog programa Ilije Kolarevića, Ivana Lučeva i Bedžiha Zelenog",
+              "s": [
+                "S2",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "people"
+            },
+            {
+              "id": "T58:uticaji-i-akteri:radovanovic-dogradnja",
+              "t": "Posleratna dogradnja Mihaila Radovanovića i uticaj profesora",
+              "v": "Nakon oštećenja u Drugom svetskom ratu, izgled zgrade je dopunjen dogradnjom trećeg sprata po projektu arhitekte Mihaila Radovanovića, dok su profesori tehničkih fakulteta direktno oblikovali raspored amfiteatara, crtaonica i specijalizovanih laboratorija",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "people"
+            }
+          ]
         }
       ],
       "sources": [
@@ -6910,6 +7347,18 @@
           "id": "S3",
           "label": "Studentski podnesak „Zgrada Tehničkih fakulteta“ (docx, 19. 10. 2026)",
           "kind": "studentski podnesak"
+        },
+        {
+          "id": "S4",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Katalog nepokretnih kulturnih dobara: „Zgrada Tehničkog fakulteta“ (SK 2224)",
+          "kind": "zavod",
+          "url": "https://beogradskonasledje.rs/kd/zavod/palilula/zgrada_tehnickog_fakulteta.html"
+        },
+        {
+          "id": "S5",
+          "label": "Kaldrma.rs — članci o urbanističkom razvoju Bulevara kralja Aleksandra i izgradnji univerzitetskih zgrada između dva svetska rata",
+          "kind": "portal",
+          "url": "https://kaldrma.rs/"
         }
       ],
       "originalSource": {
@@ -10530,80 +10979,88 @@
               "t": "Kontekst osnivanja",
               "v": "posle Berlinskog kongresa 1878. i priznanja nezavisnosti razvoj železnice, trgovine, industrije i rudarstva traži uređen novčani i kreditni sistem",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:institucija:zakon-1883",
               "t": "Zakon o Narodnoj banci",
               "v": "potvrđen 1883; pravni osnov za Privilegovanu narodnu banku Kraljevine Srbije",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "documents",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:institucija:osnivacka-skupstina",
               "t": "Osnivačka skupština",
               "v": "februar 1884",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:institucija:pocetak-rada",
               "t": "Početak rada",
               "v": "2. jul 1884. po starom, 14. jul po novom kalendaru",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:institucija:prvo-sediste",
               "t": "Prvo sedište",
               "v": "iznajmljen prostor u kući braće Kumanudi u Knez Mihailovoj ulici",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "location",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:institucija:izvorne-funkcije",
               "t": "Izvorne funkcije",
               "v": "centralnobankarski i emisioni poslovi, podrška kreditnom i privrednom razvoju",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "use",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:institucija:naziv-1920",
               "t": "Narodna banka Kraljevine SHS",
               "v": "od 1920. deluje kao Narodna banka Kraljevine Srba, Hrvata i Slovenaca",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:institucija:savremene-funkcije",
               "t": "Savremene funkcije",
               "v": "monetarna politika usmerena na stabilnost cena, finansijska stabilnost, emisija novčanica i kovanog novca, upravljanje deviznim rezervama, nadzor banaka",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "use",
-              "status": "unconfirmed"
+              "status": "source-reported"
             }
           ]
         },
@@ -10619,90 +11076,99 @@
               "t": "Uvođenje dinara",
               "v": "1873, pre osnivanja Narodne banke",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:novac:metalna-podloga",
               "t": "Metalna podloga",
               "v": "novčani sistem kraja 19. veka oslonjen na plemenite metale, uz zamenu novčanica za metalni novac",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "use",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:novac:prva-novcanica",
               "t": "Prva novčanica",
               "v": "1884, 100 dinara, plativa u zlatu",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:novac:novcanice-srebro",
               "t": "Novčanice plative u srebru",
               "v": "u godinama posle 1884",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:novac:jugoslovenski-dinar",
               "t": "Jugoslovenski dinar",
               "v": "uveden posle 1918. radi objedinjavanja valuta nove države",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:novac:nbj-1945-1990",
               "t": "Narodna banka Jugoslavije (1945–1990)",
               "v": "deluje u saveznom monetarnom okviru planske, pa samoupravne privrede",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:novac:hiperinflacija",
               "t": "Hiperinflacija",
               "v": "1993–1994",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:novac:rekonstrukcija-1994",
               "t": "Program monetarne rekonstrukcije",
               "v": "januar 1994, uveden novi dinar",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:novac:ciljanje-inflacije",
               "t": "Ciljanje inflacije",
               "v": "primenjuje se od 2006, formalizovano 2009",
               "s": [
-                "S1"
+                "S7",
+                "S9"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             }
           ]
         },
@@ -10718,80 +11184,88 @@
               "t": "Projektant",
               "v": "Konstantin A. Jovanović (1849–1923); studirao arhitekturu u Cirihu, profesionalno se razvijao u Beču",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "people",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:izgradnja:kamen-temeljac",
               "t": "Kamen temeljac",
               "v": "april 1887",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:izgradnja:useljenje",
               "t": "Useljenje banke",
               "v": "1890",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:izgradnja:adresa",
               "t": "Adresa",
               "v": "tadašnja Dubrovačka ulica, danas Kralja Petra 12, istorijski centar Beograda",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "location",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:izgradnja:stil",
               "t": "Stil",
               "v": "neorenesansni akademizam: skladne proporcije, simetrična kompozicija, jasno organizovana fasada",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "identity",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:izgradnja:fasada",
               "t": "Fasada",
               "v": "pravilan ritam otvora, naglašene horizontalne podele, profilisani venci",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "geometry",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:izgradnja:nacrti-enterijera",
               "t": "Nacrti enterijera",
               "v": "Jovanović je pored projekta zgrade crtao i vrata, prozore, nameštaj i štuko-dekoraciju",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "documents",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:izgradnja:zastita",
               "t": "Zaštita",
               "v": "spomenik kulture",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "documents",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:izgradnja:fasadni-materijali",
@@ -10823,50 +11297,55 @@
               "t": "Zidna i svodna dekoracija",
               "v": "dekorativna plastika i oslikavanje zidova i svodova: vajar i slikar Paško Vučetić, uz pomoć Moše Pijade",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "people",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:enterijer:materijali-enterijera",
               "t": "Materijali enterijera",
               "v": "mermer u više boja, štuko, keramika, mozaici, višebojni vitraži",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "materials",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:enterijer:stakleni-svodovi",
               "t": "Stakleni svodovi",
               "v": "propuštaju svetlost u holove",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "materials",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:enterijer:podovi",
               "t": "Podovi",
               "v": "hodnici i holovi u keramici i mozaiku; u svečanom holu keramičke pločice sa floralnim motivima",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "materials",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:enterijer:bista-srbija",
               "t": "Bista „Srbija“",
               "v": "bronza, vajar Đorđe Jovanović; u svečanom holu iznad stepeništa od belog mermera, postavljena 1901",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "materials",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:enterijer:oslikane-scene",
@@ -10890,70 +11369,77 @@
               "t": "Dogradnja",
               "v": "1922–1925, zbog proširenja poslova posle 1918; isti stil i usklađeni materijali",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:dogradnja:projektant-dogradnje",
               "t": "Projektant dogradnje",
               "v": "Konstantin Jovanović",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "people",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:dogradnja:gradski-blok",
               "t": "Obuhvat posle dogradnje",
               "v": "ceo gradski blok između ulica Kralja Petra, Gračaničke, Nikole Spasića i Cara Lazara",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "geometry",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:dogradnja:svecana-sala",
               "t": "Svečana sala",
               "v": "današnji izgled dobila u periodu dogradnje",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "time",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:dogradnja:salter-sala",
               "t": "Nekadašnja šalter-sala",
               "v": "danas prilagođena izložbenim i edukativnim sadržajima",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "use",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:dogradnja:spratnost",
               "t": "Spratnost",
               "v": "podzemni trezorski prostor, suteren, prizemlje, dva sprata, potkrovlje",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "geometry",
-              "status": "unconfirmed"
+              "status": "source-reported"
             },
             {
               "id": "T55:dogradnja:danasnja-uloga",
               "t": "Današnja uloga",
               "v": "istorijska i reprezentativna; poslovanje NBS odvija se i u drugim objektima",
               "s": [
-                "S1"
+                "S8",
+                "S10"
               ],
               "category": "use",
-              "status": "unconfirmed"
+              "status": "source-reported"
             }
           ]
         },
@@ -10967,10 +11453,43 @@
             {
               "id": "T55:napomena:stanje-dosijea",
               "t": "Stanje dosijea",
-              "v": "Podnesak tima (docx, 29. 10. 2026) je esej; izvori su navedeni samo kao spisak na kraju (tri stranice NBS i dve knjige bez bliže bibliografije) i nisu vezani uz pojedinačne podatke. Nastavnik je 30. 10. 2026. odgovorio da pasoš treba da ima oblik tabele — levo konkretni podaci, desno izvori — i da svaki podatak bude vezan za izvor. Do te verzije svi podaci nose oznaku „nepotvrđeno“. Prijavljena tema tima (sigurnosni sistemi, sefovi, istorijska stolarija) u ovoj verziji nije obrađena.",
-              "s": [],
-              "category": "questions",
-              "status": "unknown"
+              "v": "Prvi podnesak tima (27.10.2026) nije vezivao izvore za pojedinačne podatke i objavljen je 29.10.2026 sa oznakom „nepotvrđeno“. Ispravljena tabelarna verzija stigla je u prijemu 08.11.2026 (19 sekcija podatak/izvor sa zvaničnim izvorima Narodne banke Srbije i Muzeja novca), čime su svi podaci iz tabele povezani sa izvorima.",
+              "s": [
+                "S7",
+                "S8",
+                "S9"
+              ],
+              "status": "source-reported",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "muzej-novca",
+          "title": {
+            "sr": "Muzej novca i Centar za posetioce u Kralja Petra 12",
+            "en": "Money Museum and Visitor Centre at Kralja Petra 12"
+          },
+          "claims": [
+            {
+              "id": "T55:muzej-novca:stalna-postavka",
+              "t": "Stalna postavka Muzeja novca u istorijskom holu",
+              "v": "U prizemlju palate u Kralja Petra 12 danas radi Centar za posetioce i Muzej novca Narodne banke Srbije sa stalnom postavkom „Novac na tlu Srbije od najstarijih vremena do danas“ (antički, vizantijski i srednjovekovni srpski novac, kovanice i novčanice od 1868. do savremenog dinara)",
+              "s": [
+                "S9"
+              ],
+              "status": "source-reported",
+              "category": "use"
+            },
+            {
+              "id": "T55:muzej-novca:interaktivni-eksponati",
+              "t": "Interaktivni eksponati i provera zaštitnih elemenata novčanica",
+              "v": "Postavka obuhvata ručnu presu za kovanje suvenir-novčića, štampu suvenir-novčanice sa portretom posetioca, prikaz zaštitnih elemenata savremenih novčanica pod UV svetlom i edukativne programe za škole i studente",
+              "s": [
+                "S9"
+              ],
+              "status": "source-reported",
+              "category": "use"
             }
           ]
         }
@@ -11008,6 +11527,30 @@
           "id": "S6",
           "label": "Marko Stojanović, „Bankarska arhitektura“ (navod studenta, bez izdavača, godine i strana)",
           "kind": "knjiga"
+        },
+        {
+          "id": "S7",
+          "label": "Narodna banka Srbije — „Istorijat Narodne banke Srbije“ (zvanična stranica sa hronologijom 1884–2026, vezana uz stavke 1–5 u tabeli tima T55)",
+          "kind": "institucija",
+          "url": "https://www.nbs.rs/sr_RS/o-narodnoj-banci/istorijat/"
+        },
+        {
+          "id": "S8",
+          "label": "Narodna banka Srbije — „Zgrada u ulici Kralja Petra 12“ (arhitektura Konstantina Jovanovića, enterijer i dogradnja 1922–1925, vezano uz stavke 6–14 u tabeli tima T55)",
+          "kind": "institucija",
+          "url": "https://www.nbs.rs/sr_RS/o-narodnoj-banci/zgrade-nbs/"
+        },
+        {
+          "id": "S9",
+          "label": "Narodna banka Srbije — Centar za posetioce i Muzej novca (izložbene postavke i edukativni programi u Kralja Petra 12, vezano uz stavke 15–19 u tabeli tima T55)",
+          "kind": "institucija",
+          "url": "https://centarzaposetioce.nbs.rs/"
+        },
+        {
+          "id": "S10",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Katalog nepokretnih kulturnih dobara: „Zgrada Narodne banke“ (Kralja Petra 12, kulturno dobro od velikog značaja, SK 17)",
+          "kind": "zavod",
+          "url": "https://beogradskonasledje.rs/kd/zavod/stari_grad/zgrada_narodne_banke.html"
         }
       ],
       "originalSource": {
@@ -13901,6 +14444,1559 @@
         "file": "evidencija/prijem-2026-11-01/raw/2/Podaci za racunarstvo.odt",
         "sha256": "cfddc4b51f5f0ee1cb4ef645fdff53adbf92576eb68cc3278ae2d66cf3bc4148"
       }
+    },
+    {
+      "id": "t07",
+      "team": "T07",
+      "credit": "38/26 · 82/26",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Hotel Zlatibor, Užice"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Identitet, investitor i projektant (iz arhivske građe)",
+            "en": "Identity, investor and architect (from archival records)"
+          },
+          "claims": [
+            {
+              "id": "T07:identitet:investitor-i-projektant",
+              "t": "Investitor i projektni biro (1975–1976)",
+              "v": "Investitor izgradnje bio je Ugostiteljsko preduzeće „Sloga“ Titovo Užice (OOUR Hotel „Zlatibor“), a tehničku dokumentaciju izradio je Biro za projektovanje GP „Zlatibor“ Titovo Užice; odgovorni projektant mr Ružica Ilić, dipl. inž. arh.",
+              "s": [
+                "S1",
+                "S2",
+                "S4"
+              ],
+              "status": "verified",
+              "category": "identity",
+              "locator": "list 1, 5, 10"
+            },
+            {
+              "id": "T07:identitet:parcele-i-povrsina",
+              "t": "Katastarske parcele i površina lokacije",
+              "v": "Objekat je izgrađen u centru Užica na katastarskim parcelama br. 662/2, 673/1, 672, 676, 673 i 661/1 KO Titovo Užice, ukupne površine zemljišta 1.922 m²",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "status": "verified",
+              "category": "location",
+              "unit": "m²",
+              "locator": "list 5, 7"
+            }
+          ]
+        },
+        {
+          "id": "dozvole",
+          "title": {
+            "sr": "Odobrenje za građenje (1976) i rešenje o spratnosti (2019)",
+            "en": "Building permit (1976) and storey correction decree (2019)"
+          },
+          "claims": [
+            {
+              "id": "T07:dozvole:urbanisticki-uslovi-1975",
+              "t": "Potvrda o regulacionoj liniji i UTU (15. 08. 1975)",
+              "v": "Zavod za urbanizam i projektovanje Titovo Užice izdao je 15. avgusta 1975. potvrdu br. 2-3/90 kojom su utvrđeni regulaciona linija, priključci na vodovod, kanalizaciju i elektroenergetsku mrežu i gabariti objekta",
+              "s": [
+                "S1"
+              ],
+              "status": "verified",
+              "category": "documents",
+              "locator": "list 2–4"
+            },
+            {
+              "id": "T07:dozvole:odobrenje-1976",
+              "t": "Rešenje o odobrenju za građenje (16. 12. 1976)",
+              "v": "Po zahtevu UP „Sloga“ od 24. marta 1976, Odeljenje za komunalne, stambene i poslove urbanizma SO Titovo Užice izdalo je 16. decembra 1976. Rešenje o odobrenju za građenje br. 7-351-121/76 za hotel sa prizemnim aneksima i smeštajnom kulom",
+              "s": [
+                "S2"
+              ],
+              "status": "verified",
+              "category": "time",
+              "locator": "list 1, 5–6"
+            },
+            {
+              "id": "T07:dozvole:ispravka-spratnosti-2019",
+              "t": "Zvanična spratnost po rešenju iz 2019. godine",
+              "v": "Rešenjem Gradske uprave za urbanizam Grada Užica br. VI 351-121/76-02 od 29. marta 2019. usaglašena je spratnost u izreci dozvole sa overenim glavnim projektom i izvedenim stanjem: Suteren + Prizemlje sa Galerijom 1 i Galerijom 2 + Mezanin + 16 spratova (Su+Pr sa Gal1 i Gal2+Mez+16Sp)",
+              "s": [
+                "S3"
+              ],
+              "status": "verified",
+              "category": "geometry",
+              "locator": "list 7–9"
+            }
+          ]
+        },
+        {
+          "id": "program-i-fizika",
+          "title": {
+            "sr": "Projektni program (200 ležaja) i građevinska fizika zida",
+            "en": "Design brief (200 beds) and wall building physics"
+          },
+          "claims": [
+            {
+              "id": "T07:program-i-fizika:kapacitet-soba",
+              "t": "Smeštajni kapacitet po projektnom programu",
+              "v": "Hotel „A“ kategorije projektovan je za 200 ležaja raspoređenih na 12 tipskih smeštajnih etaža: 64 jednokrevetne sobe sa francuskim ležajem, 32 dvokrevetne sobe i 12 apartmana",
+              "s": [
+                "S4"
+              ],
+              "status": "verified",
+              "category": "use",
+              "locator": "list 10–11"
+            },
+            {
+              "id": "T07:program-i-fizika:ugostiteljski-sadrzaji",
+              "t": "Javni i ugostiteljski sadržaji u bazi objekta",
+              "v": "Baza hotela obuhvata gradsku kafanu (180 mesta), restoran (140 mesta), banket salu (60 mesta), aperitiv bar (50 mesta), poslastičarnicu sa terasom i noćni bar u suterenu (80 mesta)",
+              "s": [
+                "S4"
+              ],
+              "status": "verified",
+              "category": "use",
+              "locator": "list 11–12"
+            },
+            {
+              "id": "T07:program-i-fizika:presek-zida-55cm",
+              "t": "Sastav fasadnog zida (d = 55 cm) i termički proračun",
+              "v": "Spoljašnji višeslojni zid ukupne debljine 55 cm čine: produžni malter (2 cm), šuplji glineni blok (19 cm), ventilisani vazdušni sloj (2 cm), mineralna vuna (5 cm), glineni blok (25 cm) i unutrašnji malter (2 cm); otpornost prolazu toplote R = 1,3906 m²·K/W, koeficijent prolaza toplote k = 0,60 W/(m²·K), bez kondenzacije vodene pare u preseku",
+              "s": [
+                "S4"
+              ],
+              "status": "verified",
+              "category": "energy",
+              "unit": "W/(m²·K)",
+              "locator": "list 13–14"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Zavod za urbanizam i projektovanje Titovo Užice — Potvrda o regulacionoj liniji i urbanističko-tehničkim uslovima br. 2-3/90 od 15. 08. 1975. (arhiv Gradske uprave Užice)",
+          "kind": "arhiv",
+          "locator": "list 2–4 PDF-a"
+        },
+        {
+          "id": "S2",
+          "label": "SO Titovo Užice, Odeljenje za komunalne, stambene i poslove urbanizma — Rešenje o odobrenju za građenje Hotela „Zlatibor“ br. 7-351-121/76 od 16. 12. 1976. i Zahtev UP „Sloga“ od 24. 03. 1976.",
+          "kind": "arhiv",
+          "locator": "list 1, 5–6 PDF-a"
+        },
+        {
+          "id": "S3",
+          "label": "Grad Užice, Gradska uprava za urbanizam, izgradnju i imovinsko-pravne poslove — Rešenje o ispravci spratnosti br. VI 351-121/76-02 od 29. 03. 2019.",
+          "kind": "arhiv",
+          "locator": "list 7–9 PDF-a"
+        },
+        {
+          "id": "S4",
+          "label": "GP „Zlatibor“ — Biro za projektovanje Titovo Užice (odgovorni projektant mr Ružica Ilić, d.i.a.) — Projektni program hotela „A“ kategorije i proračun građevinske fizike fasadnog zida d = 55 cm (1976)",
+          "kind": "arhiv",
+          "locator": "list 10–14 PDF-a"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/7/PHOTO-2026-10-30-14-08-43.pdf",
+        "sha256": "95e4811a3d73055857c97370bd0f50ab0c822c88f2cbfd6f40ac8fa6f368f651"
+      }
+    },
+    {
+      "id": "t10",
+      "team": "T10",
+      "credit": "8/26 · 181/26 · 165/26 · 17/26",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Hotel Tamiš, Pančevo"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Identitet, parcela i izvorna brutalistička arhitektura (1970-te)",
+            "en": "Identity, parcel and original brutalist architecture (1970s)"
+          },
+          "claims": [
+            {
+              "id": "T10:identitet:lokacija-i-parcela",
+              "t": "Lokacija i katastarska parcela u Pančevu (14.072 m²)",
+              "v": "Ugostiteljsko-hotelski kompleks „Tamiš“ nalazi se u Pančevu uz Kej Radoja Dakića i reku Tamiš, na katastarskoj parceli br. 3954/1 KO Pančevo ukupne površine 14.072 m² (1 ha 40 a 72 m²)",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "verified",
+              "category": "location",
+              "unit": "m²"
+            },
+            {
+              "id": "T10:identitet:izvorni-objekat",
+              "t": "Izvorni modernističko-brutalistički sklop (Po+P+1+7)",
+              "v": "Podignut 1970-ih godina kao simbol modernog Pančeva sa prepoznatljivom kompozicijom široke niske baze (prizemlje i prvi sprat sa restoranima, banket salom i recepcijom) i vertikalne sedmospratne smeštajne kule u armiranobetonskom skeletnom sistemu sa kasetiranim betonskim parapetima",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "verified",
+              "category": "structure"
+            }
+          ]
+        },
+        {
+          "id": "rekonstrukcija-2021",
+          "title": {
+            "sr": "Idejno rešenje rekonstrukcije i dogradnje (br. 1-03/2021)",
+            "en": "Conceptual reconstruction and extension design (No. 1-03/2021)"
+          },
+          "claims": [
+            {
+              "id": "T10:rekonstrukcija-2021:investitor-i-projektant",
+              "t": "Podaci o projektu rekonstrukcije (oktobar 2021)",
+              "v": "Prema Idejnom rešenju br. 1-03/2021 iz oktobra 2021. godine (investitor MARGO PRIMA d.o.o. Pančevo, odgovorni projektant Aleksandar Nedeljković, dipl. inž. arh., dokumentacija dobijena preko Zavoda za zaštitu spomenika kulture Pančevo 19.10.2026), predviđena je sveobuhvatna rekonstrukcija i dogradnja kompleksa",
+              "s": [
+                "S1"
+              ],
+              "status": "verified",
+              "category": "documents"
+            },
+            {
+              "id": "T10:rekonstrukcija-2021:nova-spratnost-i-sadrzaji",
+              "t": "Nova spratnost (Po+P+1+9+Ps), spa centar i kongresna sala",
+              "v": "Projektom je zadržan primarni armiranobetonski konstruktivni skelet uz dogradnju dve smeštajne etaže i povučenog sprata (ukupno Po+P+1+9+Ps), dogradnju wellness i spa bloka sa zatvorenim bazenom na istočnoj strani i проширење banket/kongresne sale na severnoj strani",
+              "s": [
+                "S1"
+              ],
+              "status": "verified",
+              "category": "geometry"
+            },
+            {
+              "id": "T10:rekonstrukcija-2021:fasada-i-prilozi",
+              "t": "Energetska sanacija omotača i 34 tehnička crteža u dosijeu",
+              "v": "Dotrajala betonska i jednostruka staklena fasada zamenjuje se ventilisanom fasadnom oblogom i strukturalnom aluminijumskom staklenom zid-zavesom sa termoizolacionim paketima; digitalni pasoš sadrži 34 tehnička priloga (situaciju, sve osnove od podruma do krova, 4 preseka i 4 fasadna izgleda)",
+              "s": [
+                "S1"
+              ],
+              "status": "verified",
+              "category": "materials"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Idejno rešenje „Rekonstrukcija i dogradnja ugostiteljskog kompleksa Hotel Tamiš Pančevo“ br. 1-03/2021 (oktobar 2021; investitor MARGO PRIMA d.o.o. Pančevo, odgovorni projektant Aleksandar Nedeljković, d.i.a.; ustupljeno timu T10 iz Zavoda za zaštitu spomenika kulture u Pančevu 19. 10. 2026)",
+          "kind": "projekat",
+          "locator": "poglavlja 1–12 i 34 grafička priloga u podnesku"
+        },
+        {
+          "id": "S2",
+          "label": "Republički geodetski zavod — eKatastar (katastarska parcela br. 3954/1 KO Pančevo, površina 14.072 m²)",
+          "kind": "katastar",
+          "url": "https://katastar.rgz.gov.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Zavod za zaštitu spomenika kulture u Pančevu — dokumentacija o arhitekturi Hotela „Tamiš“ iz 1970-ih",
+          "kind": "zavod",
+          "url": "https://zavodpancevo.rs/"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/29/Дигитални пасош-Хотел Тамиш.doc",
+        "sha256": "7292cfe5110b80554d8b42312f9f8538c1d36caf07c6b119a44b8ae8461ef60a"
+      }
+    },
+    {
+      "id": "t24",
+      "team": "T24",
+      "credit": "14/26 · 97/26 · 193/26",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Stara pošta na Savskom trgu"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Identitet i izvorno Korunovićevo zdanje (1927–1929)",
+            "en": "Identity and Korunović’s original building (1927–1929)"
+          },
+          "claims": [
+            {
+              "id": "T24:identitet:osnovni-podaci",
+              "t": "Naziv, lokacija i vreme izvorne gradnje",
+              "v": "Zgrada Pošte Beograd 2 (Stara pošta na Savskom trgu), Savski trg 2, Beograd; izgrađena 1927–1929. godine za Ministarstvo pošta i telegrafa Kraljevine SHS neposredno uz Glavnu železničku stanicu",
+              "s": [
+                "S1"
+              ],
+              "status": "source-reported",
+              "category": "identity"
+            },
+            {
+              "id": "T24:identitet:korunovic-stil",
+              "t": "Momir Korunović i srpsko-vizantijski ekspresionizam",
+              "v": "Projektant Momir Korunović (1883–1969) oblikovao je palatu spratnosti Po+Pr+6 kao remek-delo nacionalnog romantizma i ekspresionizma sa bogatom fasadnom plastikom od veštačkog kamena, polukružnim i prelomljenim arkadama, rozetama, erkerima i krovnim kulama-rizalitima",
+              "s": [
+                "S1"
+              ],
+              "status": "source-reported",
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "transformacije",
+          "title": {
+            "sr": "Ratno razaranje (1944), posleratni purizam (1947–1949) i rekonstrukcija (2023–2026)",
+            "en": "Wartime destruction (1944), postwar purism (1947–1949) and reconstruction (2023–2026)"
+          },
+          "claims": [
+            {
+              "id": "T24:transformacije:bombardovanje-i-kratohvil",
+              "t": "Savezničko bombardovanje 1944. i rekonstrukcija Pavela Kratohvila (1947–1949)",
+              "v": "Nakon teškog oštećenja u savezničkom bombardovanju Beograda aprila 1944, u rekonstrukciji 1947–1949. po projektu arhitekte Pavela Kratohvila obijena je celokupna Korunovićeva fasadna plastika i uklonjene su krovne kule, čime je zgrada dobila ogoljenu ortogonalnu fasadu u duhu posleratnog funkcionalizma i socrealizma",
+              "s": [
+                "S1"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T24:transformacije:faksimilska-obnova-2024",
+              "t": "Rušenje posleratnog korpusa i rekonstrukcija Korunovićeve fasade (2023–2026)",
+              "v": "U okviru preuređenja Savskog trga 2023–2026. godine posleratni objekat je demontiran i izgrađena je nova armiranobetonska konstrukcija sa faksimilskom rekonstrukcijom izvorne Korunovićeve fasade prema arhivskim nacrtima i fotografijama (projektant Mašinoprojekt KOPRING), namenjena Pozorištu „Boško Buha“ i Dečjem muzeju",
+              "s": [
+                "S2",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T24:transformacije:konzervatorska-dilema",
+              "t": "Konzervatorsko-teorijska ocena (Venecijanska povelja vs. faksimil)",
+              "v": "Dosije tima analizira napetost između člana 15 Venecijanske povelje (koji a priori isključuje potpunu rekonstrukciju izvan anastiloze) i savremene prakse urbane restitucije prema Dokumentu iz Nare, gde se obnavlja izgubljena slikovna i memorijalna vrednost trga ali uz gubitak materijalne autentičnosti konstrukcije iz 1929. i 1949. godine",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "methods"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Aleksandar Kadijević — „Momir Korunović“ (Beograd: Republički zavod za zaštitu spomenika kulture / Muzej nauke i tehnike, 1996) i studije o srpsko-vizantijskom ekspresionizmu (2007)",
+          "kind": "monografija"
+        },
+        {
+          "id": "S2",
+          "label": "Mašinoprojekt KOPRING Beograd — Tehnička dokumentacija rekonstrukcije objekta u Savskoj 2 sa vraćanjem izvorne Korunovićeve fasade (2023–2024)",
+          "kind": "projekat",
+          "url": "https://www.masinoprojekt.co.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Ministarstvo kulture Republike Srbije / Grad Beograd — podaci o nameni obnovljenog zdanja na Savskom trgu 2 (Pozorište „Boško Buha“ i interaktivni Dečji muzej, 2024–2026)",
+          "kind": "institucija",
+          "url": "https://www.kultura.gov.rs/"
+        },
+        {
+          "id": "S4",
+          "label": "ICOMOS — Međunarodna povelja o konzervaciji i restauraciji spomenika i lokaliteta (Venecijanska povelja, 1964) i Dokument iz Nare o autentičnosti (1994)",
+          "kind": "povelja",
+          "url": "https://www.icomos.org/"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/16/Digitalni_Pasos_Stare_Poste_Beograd (6).pdf",
+        "sha256": "5826edb4d229a7798dd484b34350190d7952bff6f3ae9a3ee0e99773fdb042f1"
+      }
+    },
+    {
+      "id": "t35",
+      "team": "T35",
+      "credit": "106/26 · 124/26",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Geneks kula (Zapadna kapija Beograda)"
+      },
+      "sections": [
+        {
+          "id": "identitet-i-konstrukcija",
+          "title": {
+            "sr": "Tehnička specifikacija, građenje (1970–1980) i statika",
+            "en": "Technical specification, construction (1970–1980) and structural system"
+          },
+          "claims": [
+            {
+              "id": "T35:identitet-i-konstrukcija:gabariti",
+              "t": "Lokacija, autor i gabariti dvokule",
+              "v": "Narodnih heroja 41–43, Blok 33, Novi Beograd; arhitekta Mihajlo Mitrović (1970–1980); visina osnovne konstrukcije 115 m (oko 135–140 m sa kulom restorana), stambena kula od 30 spratova i poslovna kula od 26 spratova povezane mostovskom strukturom na 26. spratu",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "geometry",
+              "unit": "m"
+            },
+            {
+              "id": "T35:identitet-i-konstrukcija:gp-rad-i-dozvole",
+              "t": "Izvođač GP „Rad“ (1971) i primopredaja (1980)",
+              "v": "Armiranobetonsku konstrukciju sa dva cilindrična jezgra prečnika 6,0 m izvelo je GP „Rad“ (osnovna konstrukcija završena u oktobru 1971); Rešenjem SO Novi Beograd br. III-351-571-71 od 14.09.1971. odobrene su termo-tehničke instalacije, a konačni zapisnik o primopredaji zaveden je pod br. G-667/80 od 05.05.1980.",
+              "s": [
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T35:identitet-i-konstrukcija:verizni-poligon",
+              "t": "Verižni poligon (obrnuta lančanica) kao konstruktivni princip",
+              "v": "Lučni otvori u prizemlju i nosači gornje pasarele oblikovani su po principu verižnog poligona (obrnute lančanice), čime se u armiranom betonu postiže prenos sila pretežno pritiskom uz minimalne momente savijanja",
+              "s": [
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "structure"
+            }
+          ]
+        },
+        {
+          "id": "energetika",
+          "title": {
+            "sr": "Termo-tehnički sistemi, građevinska fizika i sanacija",
+            "en": "HVAC systems, building physics and energy retrofit"
+          },
+          "claims": [
+            {
+              "id": "T35:energetika:toplotni-omotac",
+              "t": "Građevinska fizika neizolovanog natur-betona",
+              "v": "Spoljašnji zidovi od vidljivog natur-betona bez dodatne termoizolacije imaju visok koeficijent prolaza toplote U ≈ 1,8–2,5 W/(m²·K) i izražene linijske toplotne mostove na spojevima međuspratnih ploča i kružnih prozorskih otvora",
+              "s": [
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "energy",
+              "unit": "W/(m²·K)"
+            },
+            {
+              "id": "T35:energetika:grejanje-i-razred",
+              "t": "Daljinsko grejanje i energetski razred G",
+              "v": "Stambena kula je priključena na daljinsko grejanje Toplane Novi Beograd preko podstanice i dvocevnog radijatorskog sistema podeljenog u tri vertikalne zone pritiska; zbog neizolovanog omotača specifična godišnja potrošnja toplote prelazi 175–250 kWh/(m²·god) (energetski razred G)",
+              "s": [
+                "S3",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "energy",
+              "unit": "kWh/(m²·god)"
+            },
+            {
+              "id": "T35:energetika:predlog-sanacije",
+              "t": "Konzervatorski uslovljena energetska sanacija iznutra",
+              "v": "Pošto status spomenika kulture (2021) štiti spoljašnji izgled natur-betona, energetska obnova mora se izvesti sa unutrašnje strane (paropropusne mineralno-silikatne ili aerogel ploče d = 5–8 cm) uz zamenu stolarije profilima identične geometrije sa troslojnim niskoemisionim staklom Uw ≤ 1,1 W/(m²·K)",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "energy",
+              "unit": "W/(m²·K)"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Odluka Vlade RS o utvrđivanju Stambeno-poslovnog centra „Geneks“ (Zapadna kapija Beograda) za spomenik kulture (novembar 2021)",
+          "kind": "zavod",
+          "url": "https://beogradskonasledje.rs/"
+        },
+        {
+          "id": "S2",
+          "label": "Mihajlo Mitrović — monografija i zapisi o projektovanju Zapadne kapije Beograda (primena verižnog poligona / obrnute lančanice; navod u podnesku tima T35)",
+          "kind": "monografija"
+        },
+        {
+          "id": "S3",
+          "label": "GP „Rad“ Beograd / SO Novi Beograd — Izveštaj o završetku armiranobetonske konstrukcije (oktobar 1971), Rešenje br. III-351-571-71 od 14. 09. 1971. za mašinske instalacije i Zapisnik komisije za tehnički pregled br. G-667/80 od 05. 05. 1980.",
+          "kind": "arhiv"
+        },
+        {
+          "id": "S4",
+          "label": "Analiza građevinske fizike i energetske sertifikacije višespratnih brutalističkih objekata (procena U-vrednosti natur-betona i predlog unutrašnje termoizolacije u podnesku tima T35)",
+          "kind": "elaborat"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/10/Digitalni pasoš.docx",
+        "sha256": "59d0e8dab0286a2ff94c3543c49121e9fb05c706d1137a9e8fe4587b5a7feddf"
+      }
+    },
+    {
+      "id": "t36",
+      "team": "T36",
+      "credit": "103/26 · 126/26 · 91/26",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Zgrada tehničkih fakulteta"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Osnovni podaci, parcela i zaštita",
+            "en": "Basic record, parcel and protection"
+          },
+          "claims": [
+            {
+              "id": "T36:identitet:adresa-i-parcela",
+              "t": "Adresa, parcela i površina osnove",
+              "v": "Bulevar kralja Aleksandra 73, Beograd; katastarska parcela br. 1987 KO Beograd 2, površina zemljišta pod objektom 9.104 m²",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "location",
+              "unit": "m²"
+            },
+            {
+              "id": "T36:identitet:autori-i-gradnja",
+              "t": "Projektanti i vreme izgradnje (1925–1931)",
+              "v": "Izgrađena od 1925. do 1931. godine prema projektu arhitekata Nikole Nestorovića i Branka Tanazevića kao prva namenska zgrada za potrebe svih odseka Tehničkog fakulteta Univerziteta u Beogradu",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T36:identitet:resenje-zastite",
+              "t": "Rešenje o utvrđivanju za spomenik kulture",
+              "v": "Utvrđena za kulturno dobro — spomenik kulture Rešenjem Zavoda za zaštitu spomenika kulture grada Beograda br. 656/1 od 23. 03. 1977. godine (Centralni registar SK 2224 od 29. 12. 2019)",
+              "s": [
+                "S1"
+              ],
+              "status": "source-reported",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "arhitektura-i-skulpture",
+          "title": {
+            "sr": "Arhitektonska kompozicija i fasadna plastika",
+            "en": "Architectural composition and facade sculpture"
+          },
+          "claims": [
+            {
+              "id": "T36:arhitektura-i-skulpture:kompozicija",
+              "t": "Slobodnostojeći blok sa četiri unutrašnja dvorišta",
+              "v": "Monumentalna slobodnostojeća palata u duhu akademizma sa elementima klasicizma, renesanse i baroka, organizovana oko četiri unutrašnja atrijumska dvorišta radi prirodnog osvetljenja amfiteatara, crtaonica i kabineta",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "geometry"
+            },
+            {
+              "id": "T36:arhitektura-i-skulpture:spratnost-i-fasada",
+              "t": "Vertikalna podela fasade i obloge",
+              "v": "Izvorno suteren, visoko prizemlje i dva sprata, sa naknadno dograđenim trećim spratom posle Drugog svetskog rata (projekat Mihaila Radovanovića); rustično obrađeno prizemlje nosi kolosalni red jonskih i korintskih polustubova i pilastara u veštačkom i prirodnom kamenu",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "materials"
+            },
+            {
+              "id": "T36:arhitektura-i-skulpture:sest-alegorija",
+              "t": "Šest alegorijskih skulptura inženjerskih grana na atici",
+              "v": "Na atici glavnog rizalita nalaze se figure i reljefi vajara Ilije Kolarevića i Ivana Lučeva (uz ornamentalnu plastiku Bedžiha Zelenog) koji personifikuju šest tehničkih disciplina: Građevinarstvo, Arhitekturu, Mašinstvo, Elektrotehniku, Rudarstvo i Tehnologiju",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "materials"
+            },
+            {
+              "id": "T36:arhitektura-i-skulpture:pojmovnik",
+              "t": "Pojmovnik arhitektonske plastike (14 elemenata)",
+              "v": "Podnesak tima dokumentuje i ilustruje 14 elemenata fasadne tektonike na objektu: rizalit, pilastar, jonski i korintski kapitel, arhitrav, friz, venac, timpanon, atika, baluster, konzola, kartuš, feston i rustika",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "methods"
+            }
+          ]
+        },
+        {
+          "id": "izmene",
+          "title": {
+            "sr": "Kako se objekat menjao kroz vreme (P1–P5)",
+            "en": "How the building changed over time (P1–P5)"
+          },
+          "claims": [
+            {
+              "id": "T36:izmene:izdvajanje-fakulteta-1948",
+              "t": "Institucionalna podela prostora od 1948. do danas",
+              "v": "Izdvajanjem Tehničke velike škole 1948. godine zgradu dele tri tehnička fakulteta (Arhitektonski, Građevinski i Elektrotehnički), što je dovelo do etapnih adaptacija laboratorija, računskih centara i amfiteatara uz očuvanje reprezentativnog stepeništa i aule",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "use"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Rešenje br. 656/1 od 23. 03. 1977. i Katalog: „Zgrada Tehničkog fakulteta“ (SK 2224)",
+          "kind": "zavod",
+          "url": "https://beogradskonasledje.rs/kd/zavod/palilula/zgrada_tehnickog_fakulteta.html"
+        },
+        {
+          "id": "S2",
+          "label": "Republički geodetski zavod — eKatastar (katastarska parcela 1987 KO Beograd 2, Bulevar kralja Aleksandra 73, površina pod objektom 9.104 m²)",
+          "kind": "katastar",
+          "url": "https://katastar.rgz.gov.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Biljana Mišić / B. Ibrajter-Gazibara — studije o arhitekturi i skulptoralnoj dekoraciji Zgrade tehničkih fakulteta u Beogradu (Nasleđe)",
+          "kind": "naučni rad",
+          "url": "https://scindeks.ceon.rs/"
+        },
+        {
+          "id": "S4",
+          "label": "Arhitektonski fakultet Univerziteta u Beogradu — „Istorijat fakulteta i zgrade“",
+          "kind": "institucija",
+          "url": "http://www.arh.bg.ac.rs/"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/9/Digitalni pasoš zgrade TEHNICKI FAKULTETI.docx",
+        "sha256": "031ceddcfa53cd2aa61c2bf733f5b93010feae4cf4b3fd2e882f6ce39b87c0fc"
+      }
+    },
+    {
+      "id": "t44",
+      "team": "T44",
+      "credit": "154/26 · 156/26 · 166/26",
+      "received": "2026-11-08",
+      "object": {
+        "name": "ATŠ — Arhitektonska tehnička škola"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Osnovni podaci i lokacija",
+            "en": "Basic record and location"
+          },
+          "claims": [
+            {
+              "id": "T44:identitet:naziv",
+              "t": "Pun naziv ustanove",
+              "v": "Arhitektonska tehnička škola „Vojislav Ilić“ (današnji pun naziv od septembra 2016. godine)",
+              "s": [
+                "S1"
+              ],
+              "status": "source-reported",
+              "category": "identity"
+            },
+            {
+              "id": "T44:identitet:adresa-parcela",
+              "t": "Adresa i katastarska parcela",
+              "v": "Ulica Vojislava Ilića 88, Vračar / Zvezdara, Beograd; katastarska parcela br. 3882/1",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "location"
+            },
+            {
+              "id": "T44:identitet:povrsina",
+              "t": "Površina objekta",
+              "v": "Oko 6.000 m² korisnog školskog prostora (učionice, kabineti za crtanje i projektovanje, fiskulturna sala i radionice)",
+              "s": [
+                "S1"
+              ],
+              "status": "source-reported",
+              "category": "geometry",
+              "unit": "m²"
+            },
+            {
+              "id": "T44:identitet:projektant",
+              "t": "Autor projekta zgrade (1966)",
+              "v": "Ime projektanta namenske školske zgrade iz 1966. godine nije zabeleženo u javnim izvorima škole; zahteva proveru u Istorijskom arhivu Beograda",
+              "s": [],
+              "status": "unknown",
+              "category": "questions"
+            },
+            {
+              "id": "T44:identitet:zastita",
+              "t": "Status kulturne zaštite",
+              "v": "Objekat nema utvrđen status spomenika kulture u registru Zavoda za zaštitu spomenika kulture grada Beograda",
+              "s": [
+                "S1"
+              ],
+              "status": "source-reported",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "istorijat",
+          "title": {
+            "sr": "Razvoj škole i zgrade (1902–2016)",
+            "en": "School and building history (1902–2016)"
+          },
+          "claims": [
+            {
+              "id": "T44:istorijat:osnivanje-1902",
+              "t": "Počeci građevinskog školstva (1902–1906)",
+              "v": "Kraljevskim ukazom 1902. osnovana je Muška zanatska škola u ulici Kraljice Natalije, u okviru koje se 1906. formira poseban građevinski odsek",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T44:istorijat:svetog-save-1920",
+              "t": "Srednja tehnička škola u Svetog Save 64 (1920–1938)",
+              "v": "Od 1920. škola radi kao Srednja tehnička škola u ulici Svetog Save 64; 1938. godine izdvaja se samostalna Državna srednja tehnička škola — Građevinski odsek",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T44:istorijat:nova-zgrada-1966",
+              "t": "Useljenje u namensku zgradu u Vojislava Ilića 88 (1966)",
+              "v": "1966. godine izgrađena je i useljena današnja namenska modernistička školska zgrada u ulici Vojislava Ilića 88, projektovana za potrebe arhitektonsko-građevinske nastave i crtaonica",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T44:istorijat:reforme-1978-2016",
+              "t": "Transformacije naziva (1978–2016)",
+              "v": "Od 1978. radi kao Obrazovni centar građevinske struke „Vojislav Ilić“, od 1995. kao Arhitektonska tehnička škola, a od septembra 2016. nosi naziv Arhitektonska tehnička škola „Vojislav Ilić“",
+              "s": [
+                "S1"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            }
+          ]
+        },
+        {
+          "id": "ljudi",
+          "title": {
+            "sr": "Znameniti učenici, profesori i arhivske fotografije",
+            "en": "Notable alumni, faculty and archival photographs"
+          },
+          "claims": [
+            {
+              "id": "T44:ljudi:arhitekte-ucenici",
+              "t": "Znameniti arhitekti među nekadašnjim đacima",
+              "v": "Školu su pohađali istaknuti arhitekti Bogdan Bogdanović (1922–2010), Mihajlo Mitrović (1922–2018), Predrag Peđa Ristić (1931–2019), Slobodan Janjić i Miodrag Krivošija",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "people"
+            },
+            {
+              "id": "T44:ljudi:umetnici-i-profesori",
+              "t": "Javne ličnosti i profesori",
+              "v": "Među učenicima su bili muzičari Predrag Cune Gojković i Bora Đorđević; među profesorima arhitekta Petar Anagnosti, iz čije privatne arhive potiču fotografije generacija 1943–1986 u podnesku tima",
+              "s": [
+                "S3",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "people"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Arhitektonska tehnička škola „Vojislav Ilić“ Beograd — zvanični sajt škole (O školi / Istorijat)",
+          "kind": "institucija",
+          "url": "https://www.ats.edu.rs/"
+        },
+        {
+          "id": "S2",
+          "label": "Republički geodetski zavod — eKatastar (katastarska parcela 3882/1, Vojislava Ilića 88, Beograd)",
+          "kind": "katastar",
+          "url": "https://katastar.rgz.gov.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Wikipedia (sr.) — „Архитектонска техничка школа Београд“ (pregled istorijata i znamenitih učenika)",
+          "kind": "enciklopedija",
+          "url": "https://sr.wikipedia.org/wiki/%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D0%BD%D1%81%D0%BA%D0%B0_%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%BA%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0_%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4"
+        },
+        {
+          "id": "S4",
+          "label": "Privatna arhiva profesora Petra Anagnostija i arhiva škole (5 fotografija generacija 1943, 1953, 1984 i 1986 u podnesku tima T44)",
+          "kind": "arhiv"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/3/Tim 44.docx",
+        "sha256": "4dff998e8dcf8792e89209bc1f3a87fd04550ba687072dbc92cc06ddb862ab77"
+      }
+    },
+    {
+      "id": "t59",
+      "team": "T59",
+      "credit": "142/26 · 190/26",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Bajrakli džamija"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Osnovni podaci i zaštita",
+            "en": "Basic record and heritage protection"
+          },
+          "claims": [
+            {
+              "id": "T59:identitet:naziv-ktitor",
+              "t": "Naziv i zadužbinar",
+              "v": "Bajrakli džamija (izvorno Čohadži-hadži Alijina džamija, kasnije Husein-ćehajina džamija); naziv „Bajrakli“ dobila krajem 18. veka po barjaku na minaretu koji je označavao vreme molitve u svim beogradskim džamijama",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "identity"
+            },
+            {
+              "id": "T59:identitet:adresa-parcela",
+              "t": "Lokacija i katastarska parcela",
+              "v": "Gospodar Jevremova 11, Dorćol, opština Stari grad, Beograd; katastarska parcela br. 1207 KO Stari grad",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "location"
+            },
+            {
+              "id": "T59:identitet:datovanje",
+              "t": "Vreme izgradnje",
+              "v": "Oko 1575. godine (druga polovina 16. veka, za vreme sultana Selima II ili Murata III); jedini očuvani objekat islamske sakralne arhitekture u Beogradu",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T59:identitet:status-zastite",
+              "t": "Status kulturnog dobra",
+              "v": "Spomenik kulture od 1946. godine; utvrđena za kulturno dobro od velikog značaja 1979. godine (SK 4)",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "arhitektura",
+          "title": {
+            "sr": "Arhitektonske i konstruktivne karakteristike",
+            "en": "Architectural and structural characteristics"
+          },
+          "claims": [
+            {
+              "id": "T59:arhitektura:tip-osnova",
+              "t": "Tipologija i dimenzije osnove",
+              "v": "Jednoprostorna potkupolna građevina kvadratne osnove spoljašnjih dimenzija 12,80 × 12,80 m sa ulaznim tremom i vitkim kružnim minaretom na severozapadnoj strani",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "geometry",
+              "unit": "m"
+            },
+            {
+              "id": "T59:arhitektura:zidovi-i-materijali",
+              "t": "Masivni zidovi i materijalizacija",
+              "v": "Nosivi zidovi debljine 1,10–1,30 m zidani od tesanog kamena peščara i krečnjaka uz upotrebu opeke i krečnog maltera; kupola i krov pokriveni olovnim limom",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "materials",
+              "unit": "m"
+            },
+            {
+              "id": "T59:arhitektura:kupola-i-tambur",
+              "t": "Prelazna konstrukcija i kupola",
+              "v": "Prelaz iz kvadratne osnove u osmougaoni tambur izveden kombinacijom pandantifa i orijentalnih trompi sa prelomljenim lukovima; u tamburu su otvoreni prozori koji osvetljavaju molitveni prostor",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "structure"
+            },
+            {
+              "id": "T59:arhitektura:enterijer-i-trem",
+              "t": "Mihrab, minber i ulazni trem",
+              "v": "Mihrab je smešten u osi jugoistočnog zida (prema Meki), minber desno od mihraba, a mahfil (galerija) iznad ulaza; prvobitni drveni trem u 19. veku zamenjen je zidanim tremom sa tri arkade i tri manje kupole",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "structure"
+            }
+          ]
+        },
+        {
+          "id": "istorijat",
+          "title": {
+            "sr": "Preobražaji i obnove (1717–2004)",
+            "en": "Transformations and restorations (1717–2004)"
+          },
+          "claims": [
+            {
+              "id": "T59:istorijat:austrijski-period",
+              "t": "Pretvaranje u rimokatoličku katedralu (1717–1739)",
+              "v": "Tokom austrijske uprave u Beogradu (1717–1739) džamija je pretvorena u katoličku katedralnu crkvu Uspenja Presvete Bogorodice, a minaret je služio kao zvonik uz dograđene kapele",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T59:istorijat:obnove-1741-1893",
+              "t": "Obnove u 18. i 19. veku (1741, 1868, 1893)",
+              "v": "Po povratku Osmanlija 1741. obnovio ju je Husein-ćehaja; 1868. obnovljena je o trošku kneza Mihaila Obrenovića kao jedina aktivna džamija za muslimane u Beogradu, a 1893–1894. obnovljena uz pomoć sultana Abdul Hamida II i kralja Aleksandra Obrenovića",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T59:istorijat:obnova-2004",
+              "t": "Oštećenje u požaru 2004. i konzervatorska obnova",
+              "v": "U noći između 17. i 18. marta 2004. objekat i biblioteka su teško oštećeni u požaru, nakon čega je izvedena konzervatorsko-restauratorska sanacija fasade, krova i enterijera pod nadzorom Zavoda za zaštitu spomenika kulture",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Katalog nepokretnih kulturnih dobara: „Bajrakli džamija“ (Gospodar Jevremova 11, SK 4)",
+          "kind": "zavod",
+          "url": "https://beogradskonasledje.rs/kd/zavod/stari_grad/bajrakli_dzamija.html"
+        },
+        {
+          "id": "S2",
+          "label": "Republički zavod za zaštitu spomenika kulture — Informacioni sistem nepokretnih kulturnih dobara (SK 4, spomenik kulture od velikog značaja, 1979)",
+          "kind": "zavod",
+          "url": "https://nasledje.gov.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Studentski tabelarni podnesak „Bajrakli džamija — Digitalni pasoš“ sa 11 grafičkih priloga (PDF + ZIP, prijem 08.11.2026)",
+          "kind": "elaborat"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/4/Bajrakli_džamija_-_Digitalni_pasoš__Srpski_.pdf",
+        "sha256": "e7eca6e6e0f803854eae14824260c62f8ea1bdf766b0f15363989d932545f7b1"
+      }
+    },
+    {
+      "id": "t69",
+      "team": "T69",
+      "credit": "93/2026 · 22/26g · 21/26g",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Prva beogradska gimnazija"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Identitet, lokacija i autorka projekta",
+            "en": "Identity, location and architect"
+          },
+          "claims": [
+            {
+              "id": "T69:identitet:adresa-i-kontekst",
+              "t": "Lokacija i urbanistički položaj na Dorćolu",
+              "v": "Ulica Cara Dušana 61, Stari grad (Dorćol), Beograd; slobodnostojeći školski sklop u bloku uz Crkvu Svetog Aleksandra Nevskog, povučen od regulacione linije ulice Cara Dušana radi formiranja prednjeg školskog skvera",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "location"
+            },
+            {
+              "id": "T69:identitet:milica-krstic-1936-1938",
+              "t": "Projektant Milica Krstić i izgradnja (1936–1938)",
+              "v": "Zgradu je projektovala arhitekta Milica Krstić u Ministarstvu građevina; kamen temeljac osvećen je 20. septembra 1936, a zgrada je završena i useljena u aprilu 1938. godine",
+              "s": [
+                "S1",
+                "S3",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T69:identitet:spomenik-kulture-1989",
+              "t": "Status spomenika kulture (1989)",
+              "v": "Zgrada Prve beogradske gimnazije utvrđena je za spomenik kulture 1989. godine (SK 785) zbog arhitektonskih vrednosti međuratnog modernizma i istorijskog značaja najstarije beogradske gimnazije (osnovane 1839)",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "documents"
+            }
+          ]
+        },
+        {
+          "id": "arhitektura-i-konstrukcija",
+          "title": {
+            "sr": "Prostorna organizacija, konstrukcija i materijali",
+            "en": "Spatial organisation, structure and materials"
+          },
+          "claims": [
+            {
+              "id": "T69:arhitektura-i-konstrukcija:osnova-i-spratnost",
+              "t": "Trokrilna osnova i spratnost",
+              "v": "Funkcionalistička trokrilna osnova u obliku slova П sa suterenom, prizemljem i tri sprata (Su+P+3), gde su učionice orijentisane ka mirnijim bočnim ulicama i dvorištu, a svečana i fiskulturna sala u središnjem i dvorišnom traktu",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "geometry"
+            },
+            {
+              "id": "T69:arhitektura-i-konstrukcija:konstrukcija-i-fasada",
+              "t": "Armiranobetonski skelet i pročišćene fasade",
+              "v": "Konstruktivni sistem čine armiranobetonski stubovi, grede i tavanice sa ispunom od pune opeke; fasade su bez istorijskog ornamenta, sa soklom od veštačkog kamena, horizontalnim nizovima prozora i naglašenim ulaznim tremom sa stubovima",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "materials"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Zavod za zaštitu spomenika kulture grada Beograda — Katalog nepokretnih kulturnih dobara: „Prva beogradska gimnazija“ (Cara Dušana 61, SK 785, 1989)",
+          "kind": "zavod",
+          "url": "https://beogradskonasledje.rs/kd/zavod/stari_grad/prva_beogradska_gimnazija.html"
+        },
+        {
+          "id": "S2",
+          "label": "Prva beogradska gimnazija — zvanični sajt škole (O školi / Istorijat od 1839. do danas)",
+          "kind": "institucija",
+          "url": "https://www.prvabeogim.edu.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Arhitektonski fakultet / Žene u arhitekturi — biografija i delo arhitekte Milice Krstić (1887–1964)",
+          "kind": "studija",
+          "url": "https://www.zua.rs/"
+        },
+        {
+          "id": "S4",
+          "label": "Politika (21. 09. 1936. i 28. 04. 1938.) — izveštaji o osvećenju temelja i useljenju nove zgrade Prve muške gimnazije kod Crkve Aleksandra Nevskog",
+          "kind": "arhivska štampa",
+          "url": "https://digitalna.nb.rs/"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/12/Архитектонски и дигитални пасош Прве београдске гимназије - табела.docx",
+        "sha256": "23ef4e2d5dac0b3b4834bc1570026788c43fd39fa19537c895cbf54e91b2e5b9"
+      }
+    },
+    {
+      "id": "t70",
+      "team": "T70",
+      "credit": "21/2026 · 64/2026 · 50/2026",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Rajhlova palata, Subotica"
+      },
+      "sections": [
+        {
+          "id": "identitet",
+          "title": {
+            "sr": "Identitet, autor i arhitektura mađarske secesije (1904)",
+            "en": "Identity, architect and Hungarian Art Nouveau architecture (1904)"
+          },
+          "claims": [
+            {
+              "id": "T70:identitet:autor-i-gradnja",
+              "t": "Porodična palata i projektni biro Ferenca Rajhla (1904)",
+              "v": "Izgrađena 1904. godine u Subotici (danas Park Ferenca Rajhla 5, naspram železničke stanice) prema projektu arhitekte Ferenca Rajhla (1869–1960) kao njegov porodični dom na spratu i projektni biro u prizemlju",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "identity"
+            },
+            {
+              "id": "T70:identitet:secesija-i-materijali",
+              "t": "Žolnai keramika, murano mozaik i motiv srca",
+              "v": "Vrhunsko delo mađarske varijante secesije (öszecesszió): fasada i krov ukrašeni su višebojnom pocakljenom Žolnai pirogranitnom keramikom iz Pečuja, venecijanskim murano mozaikom i kovanim gvožđem sa stilizovanim motivom srca i lala posvećenim supruzi Iloni Varga",
+              "s": [
+                "S1",
+                "S2",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "istorijat-i-price",
+          "title": {
+            "sr": "Pet istraživačkih priča: enterijer, bankrot (1908) i prenamene",
+            "en": "Five research episodes: interior, bankruptcy (1908) and adaptive reuse"
+          },
+          "claims": [
+            {
+              "id": "T70:istorijat-i-price:bankrot-1908",
+              "t": "Finansijski slom i licitacija palate (1908)",
+              "v": "Zbog ogromnih troškova gradnje, luksuznog opremanja i neuspelih poslova, Ferenc Rajhl je 1908. godine (svega četiri godine po useljenju) bankrotirao, palata i pokućstvo su prodati na javnoj licitaciji, a Rajhl se preselio u Segedin i potom u Budimpeštu",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "time"
+            },
+            {
+              "id": "T70:istorijat-i-price:turska-soba",
+              "t": "Sudbina orijentalne („turske“) sobe u pozorišnom fundusu",
+              "v": "Izrezbareni drveni elementi originalne Rajhlove orijentalne sobe za pušenje nakon licitacije su dospeli u fundus Narodnog pozorišta u Subotici, gde su decenijama služili kao scenografija pre nego što ih je identifikovao i izložio Gradski muzej Subotica",
+              "s": [
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "materials"
+            },
+            {
+              "id": "T70:istorijat-i-price:prenamene-1914-1968",
+              "t": "Od vojne bolnice u Prvom svetskom ratu do Savremene galerije (1968)",
+              "v": "Tokom Prvog svetskog rata u zgradi je radila privremena bolnica Crvenog krsta; između dva rata služila je za stanovanje i ugostiteljstvo, a od 1968. godine u njoj je trajno smeštena Savremena galerija Subotica („Likovni susret“)",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "use"
+            },
+            {
+              "id": "T70:istorijat-i-price:legende-prolazi",
+              "t": "Urbana legenda o podzemnim prolazima ka železničkoj stanici",
+              "v": "U lokalnom predanju pominju se tajni podzemni prolazi između podruma Rajhlove palate i obližnje železničke stanice, ali u sačuvanim arhivskim nacrtima i konzervatorskim istraživanjima za to ne postoji materijalna potvrda",
+              "s": [
+                "S2",
+                "S4"
+              ],
+              "status": "unconfirmed",
+              "category": "questions"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Savremena galerija Subotica (Palata Ferenca Rajhla) — zvanični sajt ustanove i istorijat palate",
+          "kind": "institucija",
+          "url": "https://www.sgsu.org.rs/"
+        },
+        {
+          "id": "S2",
+          "label": "Međuopštinski zavod za zaštitu spomenika kulture Subotica / Republički zavod — dosije spomenika kulture od velikog značaja „Palata Rajhl u Subotici“",
+          "kind": "zavod",
+          "url": "https://heritage-su.org.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Subotica.com / Gradski muzej Subotica — članak o izložbi sačuvanih drvenih elemenata Rajhlove orijentalne („turske“) sobe iz pozorišnog fundusa",
+          "kind": "portal",
+          "url": "https://www.subotica.com/"
+        },
+        {
+          "id": "S4",
+          "label": "GradSubotica.co.rs — istorijski prilozi o bankrotu Ferenca Rajhla (1908), motivu srca na palati i bolnici u Prvom svetskom ratu",
+          "kind": "portal",
+          "url": "https://gradsubotica.co.rs/"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/15/digitalni pasoš1.docx",
+        "sha256": "0039cd9f9d475b0e0662071487120723b3d5c31edfd37e6047401f5e1ac1600e"
+      }
+    },
+    {
+      "id": "t72",
+      "team": "T72",
+      "credit": "129/26 · 18/26 · 69/26",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Ušće Tower (Ušće 1 i 2)"
+      },
+      "sections": [
+        {
+          "id": "identitet-i-gabariti",
+          "title": {
+            "sr": "Identitet, autori i gabariti Ušće Tower 2 (2018–2020)",
+            "en": "Identity, designers and dimensions of Ušće Tower 2 (2018–2020)"
+          },
+          "claims": [
+            {
+              "id": "T72:identitet-i-gabariti:autori-i-gradnja",
+              "t": "Projektantski tim i period izgradnje (2018–2020)",
+              "v": "Poslovna kula Ušće Tower 2 u Bulevaru Mihajla Pupina 6 (Blok 16, Novi Beograd) izgrađena je od 2018. do 2020. godine; konceptualni arhitektonski projekat potpisuje Chapman Taylor (Prag/London), razradu projekta BiroVIA i Monoprojekt, a glavni izvođač radova bio je Energogroup",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "identity"
+            },
+            {
+              "id": "T72:identitet-i-gabariti:visina-i-povrsina",
+              "t": "Visina (103,9 m), spratnost (22 sprata) i bruto površina",
+              "v": "Visina zgrade iznosi 103,9 m sa 22 nadzemne etaže (P+22) i 2 podzemne etaže garaže sa oko 750 parking mesta; nadzemna bruto površina poslovnog prostora A-klase iznosi oko 28.000 m² (ukupno oko 47.000 m² sa podzemnom garažom)",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "geometry",
+              "unit": "m"
+            }
+          ]
+        },
+        {
+          "id": "konstrukcija-i-fasada",
+          "title": {
+            "sr": "Armiranobetonski sistem, PERI oplata i dvostruka staklena fasada",
+            "en": "Reinforced-concrete structure, PERI formwork and double-skin glass facade"
+          },
+          "claims": [
+            {
+              "id": "T72:konstrukcija-i-fasada:ab-jezgro-i-peri",
+              "t": "Monolitno AB jezgro i PERI samopenjuća oplata (naspram čeličnog skeleta Ušća 1)",
+              "v": "Za razliku od kule Ušće 1 (1964) koja ima čelični skelet oko betonskog jezgra, Ušće Tower 2 je u celini izvedena kao monolitna armiranobetonska konstrukcija sa centralnim AB jezgrom, obodnim stubovima i ravnim međuspratnim pločama korišćenjem PERI samopenjuće oplate (ACS) i zaštitnih ekrana (RCS)",
+              "s": [
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "structure"
+            },
+            {
+              "id": "T72:konstrukcija-i-fasada:dvostruka-fasada-breeam",
+              "t": "Dvostruka unitizovana staklena fasada sa prirodnim provetravanjem i BREEAM Excellent",
+              "v": "Omotač čini dvostruka unitizovana staklena zid-zavesa sa troslojnim selektivnim staklom i skrivenim ventilacionim klapnama koje omogućavaju prirodno provetravanje na svakom spratu bez obzira na visinu i vetar; objekat nosi sertifikat zelene gradnje BREEAM Excellent",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "energy"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Chapman Taylor / BiroVIA / Monoprojekt — projektantski podaci o poslovnoj kuli Ušće Tower 2 u Bloku 16 (navedeno u tabeli tima T72)",
+          "kind": "projektant",
+          "url": "https://www.chapmantaylor.com/"
+        },
+        {
+          "id": "S2",
+          "label": "Energogroup / PERI / PRIOR Inženjering — podaci o izvođenju armiranobetonske konstrukcije, samopenjuće oplate i instalacija Ušće Tower 2 (2018–2020)",
+          "kind": "izvođač",
+          "url": "https://www.peri.rs/"
+        },
+        {
+          "id": "S3",
+          "label": "Gradnja.rs / MPC Properties — tehničke karakteristike i BREEAM Excellent sertifikacija poslovne zgrade Ušće Tower 2",
+          "kind": "portal",
+          "url": "https://www.gradnja.rs/"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/33/1000016742.jpg",
+        "sha256": "99ffacd9039e539ac52a8cb4ab959972e029cfdf53ac5449fd416220086b89d8"
+      }
+    },
+    {
+      "id": "t74",
+      "team": "T74",
+      "credit": "00/2026",
+      "received": "2026-11-08",
+      "object": {
+        "name": "Kula Beograd"
+      },
+      "sections": [
+        {
+          "id": "konstrukcija-i-fundiranje",
+          "title": {
+            "sr": "Gabariti, fundiranje na šipovima i konstruktivni sistem",
+            "en": "Dimensions, pile foundation and structural system"
+          },
+          "claims": [
+            {
+              "id": "T74:konstrukcija-i-fundiranje:visina-i-povrsina",
+              "t": "Visina (168 m), spratnost (42 sprata) i bruto površina",
+              "v": "Ukupna visina 168 m sa 42 nadzemne etaže, 2 podzemne etaže i tehničkim vrhom; bruto površina nadzemnog dela kule oko 47.000 m² (oko 60.000 m² sa podzemnom garažom i podiumom)",
+              "s": [
+                "S1",
+                "S2",
+                "S3"
+              ],
+              "status": "source-reported",
+              "category": "geometry",
+              "unit": "m"
+            },
+            {
+              "id": "T74:konstrukcija-i-fundiranje:sipovi-i-ploca",
+              "t": "Temeljna ploča (4,5–5,0 m) na 46 bušenih šipova u krečnjaku",
+              "v": "Temeljna armiranobetonska ploča debljine 4,5–5,0 m oslonjena je na 46 bušenih šipova prečnika 1,2–1,5 m koji prolaze kroz aluvijalne nanose Save i ukorenjuju se u krečnjačku stenu na dubini od oko 40 m",
+              "s": [
+                "S2",
+                "S4",
+                "S5"
+              ],
+              "status": "source-reported",
+              "category": "structure",
+              "unit": "m"
+            },
+            {
+              "id": "T74:konstrukcija-i-fundiranje:jezgro-i-rotacija",
+              "t": "AB jezgro C50/60–C70/85, post-tenzione ploče i zona torzije (12–19. sprat)",
+              "v": "Noseći sistem čine centralno armiranobetonsko jezgro i obodni stubovi od betona visokih čvrstoća (C50/60 u nižim i C70/85 u kritičnim zonama) sa prethodno napregnutim (post-tenzionim) pločama debljine 23–25 cm; između 12. i 19. sprata tlocrt se postepeno rotira za 90° uz kose stubove i grede za prijem horizontalnih sila smicanja",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "structure"
+            },
+            {
+              "id": "T74:konstrukcija-i-fundiranje:vetar-i-seizmika",
+              "t": "Ispitivanje u aerotunelu i seizmička otpornost",
+              "v": "Zakrivljena i zarotirana geometrija kule oblikovana je na osnovu ispitivanja u aerotunelu radi smanjenja vrtložnog pobuđivanja vetrom u dolini Save i projektovana za visoke seizmičke zahteve uz dinamičku kontrolu pomeranja vrha",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "status": "source-reported",
+              "category": "structure"
+            }
+          ]
+        },
+        {
+          "id": "slojevi-i-fasada",
+          "title": {
+            "sr": "Staklena zid-zavesa, hidroizolacija i podni slojevi",
+            "en": "Unitised glass curtain wall, waterproofing and floor assemblies"
+          },
+          "claims": [
+            {
+              "id": "T74:slojevi-i-fasada:unitizovana-fasada",
+              "t": "Unitizovana aluminijumska zid-zavesa (>1.200 panela)",
+              "v": "Fasadni omotač čini preko 1.200 fabrički sklopljenih (unitizovanih) aluminijumskih panela sa troslojnim niskoemisionim argon-punjenim sigurnosnim staklom, projektovanih da prate zakrivljenje i međuspratna pomeranja konstrukcije u zoni rotacije",
+              "s": [
+                "S3",
+                "S4"
+              ],
+              "status": "source-reported",
+              "category": "materials"
+            },
+            {
+              "id": "T74:slojevi-i-fasada:hidroizolacija-i-krov",
+              "t": "Podzemna hidroizolacija u vodozahvatnoj zoni Save i ravni krov",
+              "v": "Podzemne etaže B1–B2 zaštićene su višeslojnom sintetičkom PVC/HDPE hidroizolacionom membranom i bentonitnim bubrećim trakama na radnim spojnicama protiv pritiska podzemnih voda Save; ravni krovovi imaju parnu branu, XPS termoizolaciju 20–25 cm i TPO/EPDM membranu",
+              "s": [
+                "S4",
+                "S5"
+              ],
+              "status": "source-reported",
+              "category": "materials"
+            },
+            {
+              "id": "T74:slojevi-i-fasada:podovi-i-akustika",
+              "t": "Akustički plivajući podovi u hotelu i rezidencijama",
+              "v": "Međuspratne konstrukcije imaju plivajući cementni estrih na elastičnoj zvučnoizolacionoj podlozi sa završnom oblogom od kamena u javnim holovima i višeslojnog drvenog parketa u apartmanima radi zvučne izolacije između hotelskih i stambenih etaža",
+              "s": [
+                "S3",
+                "S6"
+              ],
+              "status": "source-reported",
+              "category": "materials"
+            }
+          ]
+        },
+        {
+          "id": "prostor-i-energija",
+          "title": {
+            "sr": "Raspored spratova (B2–42), osunčanost i mapa znanja",
+            "en": "Floor stacking (B2–42), solar exposure and knowledge map"
+          },
+          "claims": [
+            {
+              "id": "T74:prostor-i-energija:vertikalno-zoniranje",
+              "t": "Vertikalno zoniranje etaža od B2 do 42. sprata",
+              "v": "Etaže B2–B1: podzemna garaža i tehnika; P–2: ulazni lobi, restorani i balska sala; 3–11: hotel The St. Regis Belgrade (119 soba i apartmana, spa i bazen); 12–13: tehničke etaže u zoni početka rotacije; 14–39: St. Regis brendirane rezidencije (220 stanova); 40–41: javni vidikovac 360° i restoran na vrhu; 42: mašinski vrh i BMU kran za održavanje fasade",
+              "s": [
+                "S1",
+                "S3",
+                "S6"
+              ],
+              "status": "source-reported",
+              "category": "use"
+            },
+            {
+              "id": "T74:prostor-i-energija:osuncanost-i-hvac",
+              "t": "Osunčanost po orijentacijama i BMS energetski sistem",
+              "v": "Zapadna fasada ka Savi prima najveće letnje popodnevno toplotno opterećenje uz najvredniji vizuelni koridor ka ušću, južna fasada ostvaruje najveći zimski solarni dobitak, dok četvorocevni fan-coil HVAC sistem sa rekuperacijom toplote i centralnim BMS nadzorom balansira potrošnju po zonama",
+              "s": [
+                "S3",
+                "S6"
+              ],
+              "status": "source-reported",
+              "category": "energy"
+            },
+            {
+              "id": "T74:prostor-i-energija:granice-javnih-podataka",
+              "t": "Mapa znanja: potvrđeni podaci naspram poslovne tajne izvođača",
+              "v": "Od 91 parametra u pasošu tima, 65% je direktno potvrđeno naučnim radom (Miljković et al., 2021) i dokumentacijom projektanta (SOM), 25% je izvedeno inženjerskom analizom i 3D modelom, dok 10% (radionički detalji armature, receptura betona i merena potrošnja energije u eksploataciji) ostaje nejavna dokumentacija investitora i izvođača",
+              "s": [
+                "S2",
+                "S6"
+              ],
+              "status": "unknown",
+              "category": "questions"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Skidmore, Owings & Merrill (SOM) — „Kula Belgrade“ (zvanična stranica glavnog arhitektonskog i konstruktivnog projektanta)",
+          "kind": "projektant",
+          "url": "https://www.som.com/"
+        },
+        {
+          "id": "S2",
+          "label": "Miljković, N. et al. (2021) — „Kula Belgrade — Part 1: Specific topics of structural design“, Building Materials and Structures 64(4), 269–282",
+          "kind": "naučni rad",
+          "url": "https://doi.org/10.5937/GRMK2104269M"
+        },
+        {
+          "id": "S3",
+          "label": "Belgrade Waterfront — zvanična tehnička brošura i specifikacija objekta Kula Beograd / The Residences at The St. Regis Belgrade",
+          "kind": "investitor",
+          "url": "https://www.belgradewaterfront.com/"
+        },
+        {
+          "id": "S4",
+          "label": "Gradnja.rs — stručni članci o fundiranju, konstrukciji, staklenoj fasadi i izgradnji Kule Beograd (2018–2024)",
+          "kind": "portal",
+          "url": "https://www.gradnja.rs/"
+        },
+        {
+          "id": "S5",
+          "label": "Pizzarotti / Millennium Team / Energoprojekt — podaci o izvođenju šipova, temeljne ploče i betonskog jezgra Kule Beograd",
+          "kind": "izvođač",
+          "url": "https://www.pizzarotti.it/"
+        },
+        {
+          "id": "S6",
+          "label": "Interaktivni 3D model i simulacija spratova i osunčanosti Kule Beograd (rad tima T74, prijem 08.11.2026)",
+          "kind": "model"
+        }
+      ],
+      "originalSource": {
+        "file": "evidencija/prijem-2026-11-08/raw/20/Kula_Beograd_Digitalni_pasos.pdf",
+        "sha256": "5a76841f666f15388aa7d62a2c84df5cf1b4967c5c29b4938354dfc6aa18d92d"
+      }
     }
   ],
   "inbox": [
@@ -13917,5 +16013,5 @@
       "state": "zavedeno 2026-10-19 — registar timova: docs/data/pasos/timovi-evidencija.json (28 stavki, 5 otvorenih pitanja)"
     }
   ],
-  "datasetRevision": "r-ecffd7e4818f5ced"
+  "datasetRevision": "r-ca431c2b729fdb81"
 }

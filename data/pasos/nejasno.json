@@ -1,21 +1,11 @@
 {
   "schema": "or/nejasno@1",
-  "updated": "2026-11-03",
+  "updated": "2026-11-08",
   "note": {
-    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 30.10. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
-    "en": "All open questions to the teams in one place, as of the intakes up to 30 Oct. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
+    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 08.11. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
+    "en": "All open questions to the teams in one place, as of the intakes up to 8 Nov. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
   },
   "items": [
-    {
-      "id": "n-zic-indeks",
-      "teams": [
-        "T70"
-      ],
-      "sr": "T70: naslov mejla podneska nosi 64/2026, telo istog mejla 62/2026. Indeks 62/2026 već pripada drugom studentu u T28 (T11 ima 164/26, ne 64/26).",
-      "en": "T70: the submission’s mail subject says 64/2026, the body of the same mail says 62/2026. Index 62/2026 already belongs to another student in T28 (T11 holds 164/26, not 64/26).",
-      "askSr": "T70: koji je tačan broj indeksa?",
-      "askEn": "T70: which index number is correct?"
-    },
     {
       "id": "n-t28-zamena",
       "teams": [
@@ -32,21 +22,10 @@
         "T72",
         "T21"
       ],
-      "sr": "Ušće Tower (T72): mejlom od 24. 10. tim navodi 129/26, 18/26 i 69/26, a 18/26 i 69/26 već stoje u T54 i T51. Do 03.11. ovaj tim je bio upisan pod T21; T21 (135/26, 107/26, 114/26) radi Kulu Beograd, ali indekse u predajama nije naveo. Prilozi iz mejla od 24.10. nisu stigli.",
-      "en": "Ušće Tower (T72): an email of 24 Oct lists 129/26, 18/26 and 69/26, but 18/26 and 69/26 already exist in T54 and T51. Until 3 Nov this team was filed under T21; T21 (135/26, 107/26, 114/26) works on Kula Beograd but has not stated its indices in any submission. The attachments from the 24 Oct email never arrived.",
-      "askSr": "T72: koji su tačni indeksi i gde su prilozi o načinu gradnje Ušća 2? T21: potvrdite indekse u sledećoj predaji.",
-      "askEn": "T72: which indices are correct, and where are the Ušće 2 construction attachments? T21: confirm your indices in the next submission."
-    },
-    {
-      "id": "n-t69-sastav",
-      "teams": [
-        "T69",
-        "T42"
-      ],
-      "sr": "Prva beogradska gimnazija sada ima dva tima. Nosilac 93/2026 piše u množini, ali ostale članove ne imenuje; još jedan student radi na istom objektu, a nije ni u jednoj listi.",
-      "en": "Prva beogradska gimnazija now has two teams. The holder of 93/2026 writes in the plural but does not name the others; one more student works on the same object yet appears in neither list.",
-      "askSr": "T69: ko su članovi? Student na istom objektu: u kom si timu?",
-      "askEn": "T69: who are the members? Student on the same object: which team are you in?"
+      "sr": "Ušće Tower (T72): 08.11. stigla je i kurirana tabela o načinu gradnje Ušća 2 (25 zapisa), ali i dalje stoje indeksi 129/26, 18/26 i 69/26, pri čemu 18/26 i 69/26 već postoje u T54 i T51. T21 (135/26, 107/26, 114/26) radi Kulu Beograd, ali indekse u predajama nije naveo.",
+      "en": "Ušće Tower (T72): on 8 Nov the table on Ušće 2 construction (25 records) arrived and was curated, but the indices 129/26, 18/26 and 69/26 still overlap with 18/26 and 69/26 in T54 and T51. T21 (135/26, 107/26, 114/26) works on Kula Beograd but has not stated its indices in any submission.",
+      "askSr": "T72: potvrdite tačne oznake smera za indekse 18/26 i 69/26. T21: potvrdite indekse u sledećoj predaji.",
+      "askEn": "T72: confirm the exact programme suffixes for indices 18/26 and 69/26. T21: confirm your indices in the next submission."
     },
     {
       "id": "n-bez-indeksa",
@@ -149,13 +128,12 @@
         "T16",
         "T50",
         "T13",
-        "T55",
         "T63"
       ],
-      "sr": "Narodna banka (T16 i T55), Beograđanka (T50), Palata SANU / Glavna pošta (T13) i West 65 Tower (T63) objavljeni su u javnom sloju bez izvora vezanih uz pojedinačne podatke; dosijei nose „Napomenu nastavnika“ i nepotvrđene tvrdnje dok ne stigne tabelarna verzija sa izvorima (T31 je 30.10. dostavio tabelu sa izvorima i prešao u prihvaćeno).",
-      "en": "National Bank (T16 and T55), Beograđanka (T50), SASA Palace / Main Post Office (T13) and West 65 Tower (T63) were published without sources tied to individual records; their dossiers carry a “Teacher’s note” and unconfirmed claims until a tabular sourced version arrives (T31 submitted its sourced table on 30 Oct and moved to accepted).",
-      "askSr": "T16, T50, T13, T55, T63: pošaljite verziju pasoša sa izvorom uz svaki podatak; ona zamenjuje dosije.",
-      "askEn": "T16, T50, T13, T55, T63: send a passport version with a source per record; it replaces the dossier."
+      "sr": "Narodna banka (T16), Beograđanka (T50), Palata SANU / Glavna pošta (T13) i West 65 Tower (T63) objavljeni su u javnom sloju bez izvora vezanih uz pojedinačne podatke; dosijei nose „Napomenu nastavnika“ i nepotvrđene tvrdnje dok ne stigne tabelarna verzija sa izvorima (T31 je 30.10., a T55 08.11. dostavio tabelu sa izvorima i prešao u prihvaćeno).",
+      "en": "National Bank (T16), Beograđanka (T50), SASA Palace / Main Post Office (T13) and West 65 Tower (T63) were published without sources tied to individual records; their dossiers carry a “Teacher’s note” and unconfirmed claims until a tabular sourced version arrives (T31 submitted its sourced table on 30 Oct and T55 on 8 Nov, moving to accepted).",
+      "askSr": "T16, T50, T13, T63: pošaljite verziju pasoša sa izvorom uz svaki podatak; ona zamenjuje dosije.",
+      "askEn": "T16, T50, T13, T63: send a passport version with a source per record; it replaces the dossier."
     },
     {
       "id": "n-t15-unutrasnjost",

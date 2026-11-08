@@ -1,8 +1,8 @@
 {
-  "datasetRevision": "r-ecffd7e4818f5ced",
-  "registeredTeams": 73,
-  "curatedPassportsCount": 41,
-  "totalCuratedClaims": 1086,
+  "datasetRevision": "r-ca431c2b729fdb81",
+  "registeredTeams": 74,
+  "curatedPassportsCount": 52,
+  "totalCuratedClaims": 1191,
   "passports": [
     {
       "id": "T01",
@@ -19,8 +19,8 @@
     {
       "id": "T03",
       "object": "Sava Centar",
-      "sections": 10,
-      "claims": 30
+      "sections": 11,
+      "claims": 34
     },
     {
       "id": "T04",
@@ -39,6 +39,18 @@
       "object": "Gardoš / Milenijumska kula",
       "sections": 7,
       "claims": 20
+    },
+    {
+      "id": "T07",
+      "object": "Hotel Zlatibor, Užice",
+      "sections": 3,
+      "claims": 8
+    },
+    {
+      "id": "T10",
+      "object": "Hotel Tamiš, Pančevo",
+      "sections": 2,
+      "claims": 5
     },
     {
       "id": "T11",
@@ -91,8 +103,8 @@
     {
       "id": "T19",
       "object": "Zgrada tehničkih fakulteta",
-      "sections": 3,
-      "claims": 13
+      "sections": 4,
+      "claims": 16
     },
     {
       "id": "T21",
@@ -103,14 +115,20 @@
     {
       "id": "T22",
       "object": "Stambeno-poslovni kompleks „K-District” (Donji Grad)",
-      "sections": 4,
-      "claims": 13
+      "sections": 6,
+      "claims": 18
     },
     {
       "id": "T23",
       "object": "Jugoslovensko dramsko pozorište (JDP)",
       "sections": 3,
       "claims": 18
+    },
+    {
+      "id": "T24",
+      "object": "Stara pošta na Savskom trgu",
+      "sections": 2,
+      "claims": 5
     },
     {
       "id": "T26",
@@ -143,6 +161,18 @@
       "claims": 20
     },
     {
+      "id": "T35",
+      "object": "Geneks kula (Zapadna kapija Beograda)",
+      "sections": 2,
+      "claims": 6
+    },
+    {
+      "id": "T36",
+      "object": "Zgrada tehničkih fakulteta",
+      "sections": 3,
+      "claims": 8
+    },
+    {
       "id": "T38",
       "object": "Vladičanski dvor u Vršcu",
       "sections": 4,
@@ -159,6 +189,12 @@
       "object": "Hram Svetog Save",
       "sections": 2,
       "claims": 7
+    },
+    {
+      "id": "T44",
+      "object": "ATŠ — Arhitektonska tehnička škola",
+      "sections": 3,
+      "claims": 11
     },
     {
       "id": "T46",
@@ -181,8 +217,8 @@
     {
       "id": "T49",
       "object": "Stambena kula „Toblerone”",
-      "sections": 5,
-      "claims": 20
+      "sections": 6,
+      "claims": 23
     },
     {
       "id": "T50",
@@ -205,14 +241,20 @@
     {
       "id": "T55",
       "object": "Palata Narodne banke i Muzej novca",
-      "sections": 6,
-      "claims": 41
+      "sections": 7,
+      "claims": 43
     },
     {
       "id": "T58",
       "object": "Zgrada tehničkih fakulteta",
-      "sections": 4,
-      "claims": 22
+      "sections": 5,
+      "claims": 25
+    },
+    {
+      "id": "T59",
+      "object": "Bajrakli džamija",
+      "sections": 3,
+      "claims": 11
     },
     {
       "id": "T63",
@@ -223,8 +265,8 @@
     {
       "id": "T65",
       "object": "Crkva Aleksandra Nevskog",
-      "sections": 3,
-      "claims": 11
+      "sections": 5,
+      "claims": 17
     },
     {
       "id": "T66",
@@ -245,10 +287,34 @@
       "claims": 25
     },
     {
+      "id": "T69",
+      "object": "Prva beogradska gimnazija",
+      "sections": 2,
+      "claims": 5
+    },
+    {
+      "id": "T70",
+      "object": "Rajhlova palata, Subotica",
+      "sections": 2,
+      "claims": 6
+    },
+    {
       "id": "T71",
       "object": "Miloša Pocerca 32",
       "sections": 7,
       "claims": 59
+    },
+    {
+      "id": "T72",
+      "object": "Ušće Tower (Ušće 1 i 2)",
+      "sections": 2,
+      "claims": 4
+    },
+    {
+      "id": "T74",
+      "object": "Kula Beograd",
+      "sections": 3,
+      "claims": 10
     }
   ]
 }
