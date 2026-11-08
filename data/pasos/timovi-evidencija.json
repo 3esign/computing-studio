@@ -879,14 +879,15 @@
       "topic": "Milica Krstić, prosvetna arhitektura, 3D prostorni eksperiment i gamifikacija pasoša",
       "progressStage": 5,
       "progressLabel": "AI Studio aplikacije i maketa u galeriji (08.11)",
-      "status": "Predate nove verzije AI Studio aplikacija za Prvu beogradsku gimnaziju i potvrđen pun sastav tima (02/2026, 10/26, 26/26, 05/26, 08.11); maketa (spirala 16 tačaka kroz vreme) i skica u galeriji.",
-      "submissionsCount": 8,
+      "status": "Predate nove verzije AI Studio aplikacija i potvrđen pun sastav tima (08.11); prototip makete u izradi — vremenska spirala 16 tačaka (31.10) i materijal za izradu (08.11) — zaveden kao radna verzija, ocena uživo 16.11.",
+      "submissionsCount": 9,
       "hasPassport": false,
       "flags": [
         "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i još jedan student bez indeksa, koji nisu u listi",
         "Prijem 28.10 (2. tura): Arhiv Jugoslavije odgovorio, podaci stižu u sledeće zadatke.",
         "Prijem 01.11: nastavnik 31.10 — koncept makete (vremenska spirala 16 tačaka) odobren.",
-        "Prijem 08.11: potvrđen pun sastav tima T42 (02/2026, 10/26, 26/26, 05/26) i predata 2 linka AI Studio aplikacija."
+        "Prijem 08.11: potvrđen pun sastav tima T42 (02/2026, 10/26, 26/26, 05/26) i predata 2 linka AI Studio aplikacija.",
+        "Prijem 08.11 (2): fotografija materijala za prototip makete; maketa se vodi kao radna verzija do predaje uživo 16.11."
       ],
       "claimsCount": 0,
       "sectionsCount": 0
@@ -943,12 +944,14 @@
       "object": "Geneks kula",
       "location": "Narodnih heroja 43, Novi Beograd",
       "topic": "Građenje, tehnologija klizne oplate, inženjerski izazovi 1970-ih",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 2,
+      "progressLabel": "Prototip makete u izradi (02.11)",
+      "status": "Prijavljena tema; prototip makete Geneks kule (stiropor) donet na konsultacije 02.11 — zaveden kao radna verzija, ocena uživo 16.11; čeka se pasoš i AI Studio aplikacija.",
       "submissionsCount": 1,
       "hasPassport": false,
-      "flags": [],
+      "flags": [
+        "Prijem 08.11 (2): fotografije od 02.11 prevedene iz „skica sa časa“ u prototip makete (Semir 08.11)."
+      ],
       "claimsCount": 0,
       "sectionsCount": 0
     },
@@ -1537,5 +1540,5 @@
       "sectionsCount": 3
     }
   ],
-  "datasetRevision": "r-ca431c2b729fdb81"
+  "datasetRevision": "r-1972f0235e5742fd"
 }

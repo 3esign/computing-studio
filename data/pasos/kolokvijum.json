@@ -23,7 +23,7 @@
   "prihvaceno": 100
  },
  "pravilo": {
-  "sr": "Četiri elementa po 25%. Unutar elementa: nema 0, najavljeno 25, čeka ispravku 50, stiglo 75, prihvaćeno 100. Maketa se predaje uživo 16.11, pa je do tada najviše 75%.",
+  "sr": "Četiri elementa po 25%. Unutar elementa: nema 0, najavljeno 25, čeka ispravku 50, stiglo 75, prihvaćeno 100. Maketa se ocenjuje uživo 16.11: fotografija prototipa vodi se kao radna verzija (stiglo, 75%), pa je do tada najviše 75%.",
   "en": "Four elements, 25% each. Within an element: none 0, announced 25, awaiting correction 50, received 75, accepted 100. The model is handed in live on 16 Nov, so until then the maximum is 75%."
  },
  "rezime": {
@@ -42,18 +42,18 @@
    "prihvaceno": 18
   },
   "skice": {
-   "nema": 44,
-   "najavljeno": 2,
+   "nema": 45,
+   "najavljeno": 3,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 28
+   "prihvaceno": 26
   },
   "maketa": {
-   "nema": 73,
+   "nema": 72,
    "najavljeno": 0,
    "ceka": 0,
-   "stiglo": 0,
-   "prihvaceno": 1
+   "stiglo": 2,
+   "prihvaceno": 0
   }
  },
  "timovi": [
@@ -2982,7 +2982,7 @@
   {
    "tim": "T42",
    "objekat": "Prva beogradska gimnazija",
-   "procenat": 75,
+   "procenat": 43,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -3000,25 +3000,24 @@
      "predaja": 4
     },
     "skice": {
-     "stanje": "prihvaceno",
-     "formati": [
-      "slika"
-     ],
-     "datum": "2026-11-01",
-     "predaja": 1
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
     },
     "maketa": {
-     "stanje": "prihvaceno",
+     "stanje": "stiglo",
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-01",
-     "predaja": 1,
-     "dopuna": "doneti uživo 16.11."
+     "datum": "2026-11-08",
+     "predaja": 2,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
    "fali": [
-    "pasos"
+    "pasos",
+    "skice"
    ],
    "konsultacija": {
     "datum": "2026-10-28",
@@ -3102,18 +3101,18 @@
      ]
     },
     {
-     "datum": "2026-11-01",
-     "element": "skice",
-     "formati": [
-      "slika"
-     ]
-    },
-    {
      "datum": "2026-11-08",
      "element": "ai-studio",
      "formati": [
       "link",
       "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-08",
+     "element": "maketa",
+     "formati": [
+      "slika"
      ]
     }
    ]
@@ -3270,24 +3269,25 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "prihvaceno",
+     "stanje": "najavljeno",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "maketa": {
+     "stanje": "stiglo",
      "formati": [
       "slika"
      ],
      "datum": "2026-11-02",
-     "predaja": 1
-    },
-    "maketa": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "predaja": 1,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
    "fali": [
     "pasos",
     "ai-studio",
-    "maketa"
+    "skice"
    ],
    "konsultacija": {
     "datum": "2026-10-12",
@@ -3301,7 +3301,7 @@
     },
     {
      "datum": "2026-11-02",
-     "element": "skice",
+     "element": "maketa",
      "formati": [
       "slika"
      ]

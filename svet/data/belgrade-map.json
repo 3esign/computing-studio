@@ -1197,7 +1197,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "AI Studio aplikacije i maketa u galeriji (08.11)",
-      "status": "Predate nove verzije AI Studio aplikacija za Prvu beogradsku gimnaziju i potvrđen pun sastav tima (02/2026, 10/26, 26/26, 05/26, 08.11); maketa (spirala 16 tačaka kroz vreme) i skica u galeriji.",
+      "status": "Predate nove verzije AI Studio aplikacija i potvrđen pun sastav tima (08.11); prototip makete u izradi — vremenska spirala 16 tačaka (31.10) i materijal za izradu (08.11) — zaveden kao radna verzija, ocena uživo 16.11.",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -1280,9 +1280,9 @@
       "y": 0.2,
       "z": 30.01,
       "type": "geneks",
-      "progressStage": 1,
-      "progressLabel": "Prijavljena tema",
-      "status": "Prijavljena tema",
+      "progressStage": 2,
+      "progressLabel": "Prototip makete u izradi (02.11)",
+      "status": "Prijavljena tema; prototip makete Geneks kule (stiropor) donet na konsultacije 02.11 — zaveden kao radna verzija, ocena uživo 16.11; čeka se pasoš i AI Studio aplikacija.",
       "hasPassport": false,
       "claimsCount": 0,
       "sectionsCount": 0,
@@ -2117,6 +2117,6 @@
       "building": "Bedda6bf8"
     }
   ],
-  "datasetRevision": "r-ca431c2b729fdb81",
+  "datasetRevision": "r-1972f0235e5742fd",
   "coordinateNote": "Koordinate su približne lokacije objekata iz kuriranog skupa mape registra (spojeno 2026-10-25); nijedna nije nezavisno proverena na terenu. Timovi T12, T25, T39, T59 zadržavaju izjavljenu tačku registra jer im je deljena lokacija još otvoreno pitanje."
 }
