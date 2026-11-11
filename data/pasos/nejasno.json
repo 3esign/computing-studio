@@ -1,21 +1,11 @@
 {
   "schema": "or/nejasno@1",
-  "updated": "2026-11-08",
+  "updated": "2026-11-11",
   "note": {
-    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 08.11. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
-    "en": "All open questions to the teams in one place, as of the intakes up to 8 Nov. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
+    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 11.11. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
+    "en": "All open questions to the teams in one place, as of the intakes up to 11 Nov. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
   },
   "items": [
-    {
-      "id": "n-t28-zamena",
-      "teams": [
-        "T28"
-      ],
-      "sr": "T28: podnesak vezuje indekse 33 i 62 za prezimena obrnuto od registra. Razlikuje se i pisanje jednog od ta dva prezimena.",
-      "en": "T28: the submission links indexes 33 and 62 to the surnames in the reverse order from the register. The spelling of one of the two surnames also differs.",
-      "askSr": "T28: koji član nosi 33, a koji 62, i kako se prezime tačno piše?",
-      "askEn": "T28: which member holds 33 and which 62, and how is the surname spelled exactly?"
-    },
     {
       "id": "n-t72-indeksi",
       "teams": [
@@ -40,13 +30,13 @@
     {
       "id": "n-moskva",
       "teams": [
-        "T54",
-        "T29"
+        "T29",
+        "T54"
       ],
-      "sr": "Hotel Moskva: prepiska sa hotelom i Zavodom (28.10.) dodeljena je T54 po temi (autorstvo), ali podnosilac nije u registru i indeksi oba tima na objektu (T29 enterijer, T54 autorstvo) nisu potvrđeni. Knjiga „Prvih 100 godina hotel Moskva“ koju je hotel poslao nije prosleđena.",
-      "en": "Hotel Moskva: the correspondence with the hotel and the Institute (28 Oct) was assigned to T54 by topic (authorship), but the sender is not in the register and the indices of both teams on the object (T29 interior, T54 authorship) are unconfirmed. The book “The first 100 years of Hotel Moskva” sent by the hotel was not forwarded.",
-      "askSr": "T54 i T29: potvrdite indekse; T54: prosledite PDF knjige koju je hotel poslao.",
-      "askEn": "T54 and T29: confirm your indices; T54: forward the PDF of the book the hotel sent."
+      "sr": "Hotel Moskva: T54 je u pasošu autorstva od 09.11. potvrdio indekse (18/26, 35/26, 56/26), ali indeksi tima T29 (enterijer) još nisu potvrđeni u predajama, a PDF knjige „Prvih 100 godina hotel Moskva“ koju je hotel poslao T54 još nije prosleđen u arhivu predmeta.",
+      "en": "Hotel Moskva: T54 confirmed its indices (18/26, 35/26, 56/26) in the authorship passport of 9 Nov, whereas the indices of T29 (interior) remain unconfirmed in submissions, and the PDF of “The first 100 years of Hotel Moskva” sent by the hotel to T54 has not yet been forwarded.",
+      "askSr": "T29: potvrdite indekse u sledećoj predaji. T54: prosledite PDF knjige koju je hotel poslao.",
+      "askEn": "T29: confirm your indices in the next submission. T54: forward the PDF of the book sent by the hotel."
     },
     {
       "id": "n-t04-nove-clanice",
@@ -127,13 +117,15 @@
       "teams": [
         "T16",
         "T50",
-        "T13",
-        "T63"
+        "T52",
+        "T56",
+        "T63",
+        "T64"
       ],
-      "sr": "Narodna banka (T16), Beograđanka (T50), Palata SANU / Glavna pošta (T13) i West 65 Tower (T63) objavljeni su u javnom sloju i prihvaćeni za kolokvijum, ali bez izvora vezanih uz pojedinačne podatke; dosijei nose „Napomenu profesora“ i nepotvrđene tvrdnje dok ne stigne tabelarna verzija sa izvorima (kao što su T31 30.10. i T55 08.11. dostavili tabelu sa izvorima).",
-      "en": "National Bank (T16), Beograđanka (T50), SASA Palace / Main Post Office (T13) and West 65 Tower (T63) are published and accepted for the colloquium, but without sources tied to individual records; their dossiers carry a “Professor’s note” and unconfirmed claims until a tabular sourced version arrives (as T31 did on 30 Oct and T55 on 8 Nov).",
-      "askSr": "T16, T50, T13, T63: pošaljite verziju pasoša sa izvorom uz svaki podatak; ona zamenjuje dosije.",
-      "askEn": "T16, T50, T13, T63: send a passport version with a source per record; it replaces the dossier."
+      "sr": "Narodna banka (T16), Beograđanka (T50 i T64), Geneks kula (T52), Narodno pozorište (T56) i West 65 Tower (T63) objavljeni su u javnom sloju i prihvaćeni za kolokvijum, ali su izvori navedeni zbirno na kraju bez vezivanja uz pojedinačne podatke; dosijei nose „Napomenu profesora“ dok ne stigne tabelarna verzija podatak → izvor (kao što su T31 30.10, T55 08.11. i T13 10.11. dostavili pojedinačne izvore).",
+      "en": "National Bank (T16), Beograđanka (T50 and T64), Genex Tower (T52), National Theatre (T56) and West 65 Tower (T63) are published and accepted for the colloquium, but list sources only collectively at the end rather than per record; their dossiers carry a “Professor’s note” until a tabular claim → source version arrives (as T31 did on 30 Oct, T55 on 8 Nov and T13 on 10 Nov).",
+      "askSr": "T16, T50, T52, T56, T63, T64: pošaljite verziju pasoša sa izvorom pored svakog podatka (za T56 i signaturu fonda arhivskih nacrta iz 1940).",
+      "askEn": "T16, T50, T52, T56, T63, T64: send a passport version with a source next to each claim (for T56 also the archive shelfmark of the 1940 drawings)."
     },
     {
       "id": "n-t15-unutrasnjost",
@@ -148,10 +140,10 @@
     {
       "id": "n-dupli-indeksi",
       "teams": [],
-      "sr": "Iz brzih beleški sa konsultacija isti brojevi se javljaju dvaput: 8, 25, 26, 27, 47, 56 i 106. Parovi 49/26g i 49/26, 36/26g i 36/26 verovatno su dva različita studenta (arhitektura / građevina).",
-      "en": "From the quick consultation notes the same numbers appear twice: 8, 25, 26, 27, 47, 56 and 106. The pairs 49/26g and 49/26, 36/26g and 36/26 are probably two different students (architecture / civil engineering).",
-      "askSr": "Ako je tvoj broj gore, javi puni oblik indeksa sa oznakom smera.",
-      "askEn": "If your number is listed above, report the full index including the programme suffix."
+      "sr": "Iz brzih beleški sa konsultacija isti brojevi se javljaju u više timova: 8, 10, 18, 25, 26, 27, 32, 33, 47, 56 i 69 (dok je za T52 potvrđen broj 102/26 umesto 106/26). Parovi poput 49/26g i 49/26, 36/26g i 36/26, 29/26g i 29/26 označavaju različite studijske programe (OA / OG).",
+      "en": "From quick consultation notes the same index numbers appear across multiple teams: 8, 10, 18, 25, 26, 27, 32, 33, 47, 56 and 69 (while 102/26 was confirmed for T52 instead of 106/26). Pairs such as 49/26g and 49/26, 36/26g and 36/26, 29/26g and 29/26 denote different degree programmes (Architecture / Civil Engineering).",
+      "askSr": "Ako je tvoj broj gore, navedi pun oblik indeksa sa oznakom smera (OA / OG) u narednoj predaji.",
+      "askEn": "If your number is listed above, state the full index including the programme suffix (OA / OG) in your next submission."
     },
     {
       "id": "n-izvodjaci",
@@ -160,6 +152,78 @@
       "en": "The notes for 15/25g and 36/26g say only “list of contractors”, with no object named.",
       "askSr": "15/25g i 36/26g: koji objekat istražujete?",
       "askEn": "15/25g and 36/26g: which building are you researching?"
+    },
+    {
+      "id": "n-t76-indeksi",
+      "teams": [
+        "T76"
+      ],
+      "sr": "BIGZ — autorstvo konkursa 1933 (T76): digitalni pasoš sa 10 tvrdnji i izvorima i ručno crtana skica makete u formi štampača stigli su 10.11. bez navedenih brojeva indeksa, pa tim privremeno nosi oznaku 00/2026.",
+      "en": "BIGZ — 1933 competition authorship (T76): the digital passport with 10 sourced claims and the hand-drawn printer-shaped model sketch arrived on 10 Nov without index numbers, so the team temporarily carries the placeholder 00/2026.",
+      "askSr": "T76: pošaljite tačne brojeve indeksa i smer članica tima kako bismo zamenili oznaku 00/2026.",
+      "askEn": "T76: send the exact index numbers and programme suffixes of the team members to replace 00/2026."
+    },
+    {
+      "id": "n-t34-indeksi",
+      "teams": [
+        "T34"
+      ],
+      "sr": "Palata Beograd — Beograđanka (T34): tabelarni pasoš sa 19 izvora i interaktivna aplikacija predati su 11.11. bez brojeva indeksa u dokumentu i mejlu; u registru sa početka semestra stoje 25/26 i 26/26, koji se pojavljuju i u T49 i T02/T42.",
+      "en": "Palata Beograd — Beograđanka (T34): the tabular passport with 19 sources and the interactive application were submitted on 11 Nov without index numbers; the initial register lists 25/26 and 26/26, which also appear in T49 and T02/T42.",
+      "askSr": "T34: potvrdite tačne brojeve indeksa i oznake smera obe članice tima.",
+      "askEn": "T34: confirm the exact index numbers and programme suffixes of both team members."
+    },
+    {
+      "id": "n-t37-indeks-33",
+      "teams": [
+        "T37",
+        "T49"
+      ],
+      "sr": "Narodno pozorište (T37): u belešci sa konsultacija 12.10. zavedeno je „33/26 ?, 36/26, 186/26“, dok je 33/26 (OA) potvrđen u T49, a link AI Studio aplikacije za T37 od 09.11. predat je bez brojeva indeksa.",
+      "en": "National Theatre (T37): the consultation note of 12 Oct lists “33/26 ?, 36/26, 186/26”, whereas 33/26 (Architecture) is confirmed in T49, and the T37 AI Studio link of 9 Nov arrived without index numbers.",
+      "askSr": "T37: potvrdite sve brojeve indeksa i oznake smera članova tima (posebno zapis „33/26 ?“) i pošaljite digitalni pasoš.",
+      "askEn": "T37: confirm all member index numbers and programme suffixes (especially “33/26 ?”) and submit the digital passport."
+    },
+    {
+      "id": "n-t06-indeksi",
+      "teams": [
+        "T06"
+      ],
+      "sr": "Gardoš (T06): 09.11. predat je link AI Studio aplikacije i 7 fotografija glinene makete utvrđenja (dodeljeno T06 prema skici sa konsultacija 02.11), ali mejl ne navodi broj indeksa podnosioca, dok se brojevi 8/26 i 27/26 iz registra T06 javljaju u još po jednom timu.",
+      "en": "Gardoš (T06): on 9 Nov an AI Studio link and 7 photographs of the clay fortress model arrived (assigned to T06 by matching the 2 Nov consultation sketch), without the sender’s index number, while 8/26 and 27/26 in T06 overlap with other teams.",
+      "askSr": "T06: potvrdite pun spisak indeksa (uključujući indeks članice koja je poslala glinenu maketu i AI Studio) i oznake smera.",
+      "askEn": "T06: confirm the full list of indices (including the member who submitted the clay model and AI Studio) and programme suffixes."
+    },
+    {
+      "id": "n-t39-indeks-32",
+      "teams": [
+        "T39",
+        "T12"
+      ],
+      "sr": "Belgrade Business House (T39): raniji mejl od 01.11. navodi indekse 162/26 i 32/26, registar vodi 34/26 i 162/26 (dok je 32/26 u T12), a tabelarni pasoš i skica makete od 09–10.11. ne navode brojeve indeksa.",
+      "en": "Belgrade Business House (T39): the earlier email of 1 Nov cites 162/26 and 32/26, the register lists 34/26 and 162/26 (while 32/26 is in T12), and the tabular passport and model sketch of 9–10 Nov omit index numbers.",
+      "askSr": "T39: potvrdite da li je drugi indeks u timu 32/26 (sa oznakom smera) ili 34/26.",
+      "askEn": "T39: confirm whether the second index in the team is 32/26 (with programme suffix) or 34/26."
+    },
+    {
+      "id": "n-t32-prilog-pasosa",
+      "teams": [
+        "T32"
+      ],
+      "sr": "Gimnazija „Slobodan Škerović“ u Podgorici (T32): u mejlu od 09.11. predat je link AI Studio aplikacije i navedeno da se šalje i pasoš objekta, ali fajl pasoša nije bio zakačen uz poruku.",
+      "en": "“Slobodan Škerović” Gymnasium in Podgorica (T32): the email of 9 Nov delivered the AI Studio application link and stated that the building passport was attached, but no passport file was attached to the message.",
+      "askSr": "T32: pošaljite dokument digitalnog pasoša (PDF ili DOCX) koji je izostao iz priloga mejla od 09.11.",
+      "askEn": "T32: send the digital passport document (PDF or DOCX) that was missing from the 9 Nov email attachment."
+    },
+    {
+      "id": "n-t43-oznake-izvor",
+      "teams": [
+        "T43"
+      ],
+      "sr": "Hram Svetog Save (T43): dopunjeni pasoš od 10.11. doneo je linkove za faze gradnje i nove podatke o dimenzijama, 24 bronzanih vrata i kripti, ali na nekoliko mesta još stoji radna oznaka „-izvor“ umesto naziva izvora i linka.",
+      "en": "Church of Saint Sava (T43): the updated passport of 10 Nov added links for construction phases and new data on dimensions, the 24 bronze doors and the crypt, but several claims still carry the placeholder “-izvor” instead of an actual source.",
+      "askSr": "T43: zamenite preostale oznake „-izvor“ tačnim linkovima ili bibliografskim podacima.",
+      "askEn": "T43: replace the remaining “-izvor” placeholders with exact links or bibliographic citations."
     },
     {
       "id": "n-skice-kolokvijum",

@@ -1,7 +1,7 @@
 {
  "schema": "or-kolokvijum-v1",
  "dan": "2026-11-16",
- "azurirano": "2026-11-08",
+ "azurirano": "2026-11-11",
  "elementi": [
   "pasos",
   "ai-studio",
@@ -28,31 +28,31 @@
  },
  "rezime": {
   "pasos": {
-   "nema": 20,
+   "nema": 11,
    "najavljeno": 0,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 54
+   "prihvaceno": 65
   },
   "ai-studio": {
-   "nema": 53,
+   "nema": 36,
    "najavljeno": 2,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 19
+   "prihvaceno": 38
   },
   "skice": {
-   "nema": 45,
-   "najavljeno": 3,
+   "nema": 38,
+   "najavljeno": 1,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 26
+   "prihvaceno": 37
   },
   "maketa": {
-   "nema": 72,
+   "nema": 70,
    "najavljeno": 0,
    "ceka": 0,
-   "stiglo": 2,
+   "stiglo": 6,
    "prihvaceno": 0
   }
  },
@@ -206,11 +206,10 @@
      "stanje": "prihvaceno",
      "formati": [
       "DOCX",
-      "HTML",
-      "PDF"
+      "HTML"
      ],
      "datum": "2026-11-08",
-     "predaja": 3,
+     "predaja": 2,
      "dopuna": "dopuniti izvore uz podatke"
     },
     "ai-studio": {
@@ -240,7 +239,7 @@
    ],
    "konsultacija": {
     "datum": "2026-10-12",
-    "vrsta": "mejl"
+    "vrsta": "konsultacije"
    },
    "hronologija": [
     {
@@ -252,25 +251,8 @@
     },
     {
      "datum": "2026-10-12",
-     "element": "prepiska",
-     "formati": []
-    },
-    {
-     "datum": "2026-10-12",
      "element": "konsultacija",
      "vrsta": "konsultacije"
-    },
-    {
-     "datum": "2026-10-12",
-     "element": "konsultacija",
-     "vrsta": "mejl"
-    },
-    {
-     "datum": "2026-10-13",
-     "element": "pasos",
-     "formati": [
-      "PDF"
-     ]
     },
     {
      "datum": "2026-10-27",
@@ -300,7 +282,7 @@
   {
    "tim": "T04",
    "objekat": "Ložionica",
-   "procenat": 50,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -312,18 +294,20 @@
      "predaja": 2
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-02",
-     "predaja": 2
+     "datum": "2026-11-11",
+     "predaja": 3
     },
     "maketa": {
      "stanje": "nema",
@@ -333,12 +317,11 @@
     }
    },
    "fali": [
-    "ai-studio",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-26",
-    "vrsta": "čas"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -394,6 +377,33 @@
       "PDF",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -485,7 +495,7 @@
   {
    "tim": "T06",
    "objekat": "Gardoš / Milenijumska kula",
-   "procenat": 50,
+   "procenat": 93,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -497,10 +507,12 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -511,16 +523,16 @@
      "predaja": 1
     },
     "maketa": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "DOCX"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
-   "fali": [
-    "ai-studio",
-    "maketa"
-   ],
+   "fali": [],
    "konsultacija": {
     "datum": "2026-10-26",
     "vrsta": "čas"
@@ -550,6 +562,21 @@
      "element": "skice",
      "formati": [
       "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "DOCX"
      ]
     }
    ]
@@ -632,22 +659,23 @@
   {
    "tim": "T08",
    "objekat": "Zgrada u Kalemegdan parku",
-   "procenat": 25,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
      "formati": [
       "DOCX"
      ],
-     "datum": "2026-10-07",
-     "predaja": 1,
-     "dopuna": "dopuniti tabelu podatak → izvor"
+     "datum": "2026-11-11",
+     "predaja": 2
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "nema",
@@ -663,13 +691,12 @@
     }
    },
    "fali": [
-    "ai-studio",
     "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -683,6 +710,33 @@
      "datum": "2026-10-12",
      "element": "konsultacija",
      "vrsta": "konsultacije"
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -890,7 +944,7 @@
   {
    "tim": "T12",
    "objekat": "Zgrada Generalštaba",
-   "procenat": 25,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -901,16 +955,20 @@
      "predaja": 2
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -920,13 +978,11 @@
     }
    },
    "fali": [
-    "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -947,6 +1003,33 @@
      "formati": [
       "DOCX"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -958,27 +1041,27 @@
     "pasos": {
      "stanje": "prihvaceno",
      "formati": [
-      "DOCX"
+      "DOCX",
+      "PDF"
      ],
-     "datum": "2026-10-30",
-     "predaja": 1,
-     "dopuna": "dopuniti tabelu podatak → izvor"
+     "datum": "2026-11-11",
+     "predaja": 4
     },
     "ai-studio": {
      "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
-     "datum": "2026-10-18",
-     "predaja": 1
+     "datum": "2026-11-11",
+     "predaja": 2
     },
     "skice": {
      "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-08",
-     "predaja": 2
+     "datum": "2026-11-11",
+     "predaja": 4
     },
     "maketa": {
      "stanje": "nema",
@@ -1046,13 +1129,56 @@
       "mejl",
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
     }
    ]
   },
   {
    "tim": "T14",
    "objekat": "Najstarija stambena kuća u Beogradu (Flajšmanova kuća)",
-   "procenat": 50,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -1071,10 +1197,12 @@
      "predaja": 1
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -1084,12 +1212,11 @@
     }
    },
    "fali": [
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -1110,13 +1237,32 @@
      "formati": [
       "link"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T15",
    "objekat": "Zgrada RTS",
-   "procenat": 50,
+   "procenat": 93,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -1125,10 +1271,12 @@
      "predaja": 0
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -1139,19 +1287,19 @@
      "predaja": 1
     },
     "maketa": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
-   "fali": [
-    "ai-studio",
-    "maketa"
-   ],
+   "fali": [],
    "konsultacija": {
-    "datum": "2026-10-26",
-    "vrsta": "čas"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -1180,6 +1328,33 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -1701,7 +1876,7 @@
   {
    "tim": "T23",
    "objekat": "Jugoslovensko dramsko pozorište (JDP)",
-   "procenat": 50,
+   "procenat": 68,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -1727,19 +1902,21 @@
      "dopuna": "usmeriti ka 3D strukturi iz podataka"
     },
     "maketa": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 10,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
    "fali": [
-    "ai-studio",
-    "maketa"
+    "ai-studio"
    ],
    "konsultacija": {
-    "datum": "2026-10-26",
-    "vrsta": "čas"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -1780,6 +1957,88 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -2064,7 +2323,7 @@
   {
    "tim": "T28",
    "objekat": "Kula Beograd",
-   "procenat": 25,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -2075,16 +2334,20 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 2
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -2094,8 +2357,6 @@
     }
    },
    "fali": [
-    "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
@@ -2125,6 +2386,29 @@
      "element": "pasos",
      "formati": [
       "DOCX",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
       "mejl"
      ]
     }
@@ -2349,7 +2633,7 @@
   {
    "tim": "T32",
    "objekat": "Gimnazija „Slobodan Škerović” u Podgorici",
-   "procenat": 25,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -2358,10 +2642,12 @@
      "predaja": 0
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -2380,7 +2666,6 @@
    },
    "fali": [
     "pasos",
-    "ai-studio",
     "maketa"
    ],
    "konsultacija": {
@@ -2399,13 +2684,21 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
     }
    ]
   },
   {
    "tim": "T33",
    "objekat": "Stari dvor",
-   "procenat": 25,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -2422,10 +2715,12 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 2
     },
     "maketa": {
      "stanje": "nema",
@@ -2436,12 +2731,11 @@
    },
    "fali": [
     "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -2456,25 +2750,55 @@
       "DOCX",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T34",
    "objekat": "Palata Beograd (Beograđanka)",
-   "procenat": 0,
+   "procenat": 50,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "PDF"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 3
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "nema",
@@ -2490,20 +2814,59 @@
     }
    },
    "fali": [
-    "pasos",
-    "ai-studio",
     "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
      "datum": "2026-10-12",
      "element": "konsultacija",
      "vrsta": "konsultacije"
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -2654,7 +3017,7 @@
   {
    "tim": "T37",
    "objekat": "Narodno pozorište u Beogradu",
-   "procenat": 0,
+   "procenat": 25,
    "elementi": {
     "pasos": {
      "stanje": "nema",
@@ -2663,10 +3026,12 @@
      "predaja": 0
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "nema",
@@ -2683,7 +3048,6 @@
    },
    "fali": [
     "pasos",
-    "ai-studio",
     "skice",
     "maketa"
    ],
@@ -2696,6 +3060,14 @@
      "datum": "2026-10-12",
      "element": "konsultacija",
      "vrsta": "konsultacije"
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
     }
    ]
   },
@@ -2709,16 +3081,16 @@
      "formati": [
       "DOCX"
      ],
-     "datum": "2026-10-23",
-     "predaja": 1
+     "datum": "2026-11-11",
+     "predaja": 3
     },
     "ai-studio": {
      "stanje": "prihvaceno",
      "formati": [
       "link"
      ],
-     "datum": "2026-10-23",
-     "predaja": 1
+     "datum": "2026-11-11",
+     "predaja": 2
     },
     "skice": {
      "stanje": "nema",
@@ -2774,19 +3146,43 @@
      "datum": "2026-10-23",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
     }
    ]
   },
   {
    "tim": "T39",
    "objekat": "Belgrade Business House",
-   "procenat": 31,
+   "procenat": 75,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "PDF"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "ai-studio": {
      "stanje": "prihvaceno",
@@ -2797,10 +3193,12 @@
      "predaja": 1
     },
     "skice": {
-     "stanje": "najavljeno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -2810,13 +3208,11 @@
     }
    },
    "fali": [
-    "pasos",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -2830,13 +3226,53 @@
      "formati": [
       "link"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T40",
    "objekat": "Stambeno-poslovna zgrada Cara Uroša 57",
-   "procenat": 50,
+   "procenat": 68,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -2844,8 +3280,7 @@
       "HTML"
      ],
      "datum": "2026-10-25",
-     "predaja": 1,
-     "dopuna": "dostaviti i PDF/DOCX verziju"
+     "predaja": 1
     },
     "ai-studio": {
      "stanje": "nema",
@@ -2862,19 +3297,21 @@
      "predaja": 1
     },
     "maketa": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "PDF"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
    "fali": [
-    "ai-studio",
-    "maketa"
+    "ai-studio"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -2908,6 +3345,32 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "gradja",
+     "formati": [
+      "video"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -2937,8 +3400,8 @@
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-02",
-     "predaja": 1
+     "datum": "2026-11-11",
+     "predaja": 3
     },
     "maketa": {
      "stanje": "nema",
@@ -2951,8 +3414,8 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-26",
-    "vrsta": "čas"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -2985,19 +3448,54 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T42",
    "objekat": "Prva beogradska gimnazija",
-   "procenat": 43,
+   "procenat": 68,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "DOCX"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 2
     },
     "ai-studio": {
      "stanje": "prihvaceno",
@@ -3019,17 +3517,16 @@
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-08",
-     "predaja": 2,
+     "datum": "2026-11-11",
+     "predaja": 5,
      "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
    "fali": [
-    "pasos",
     "skice"
    ],
    "konsultacija": {
-    "datum": "2026-10-28",
+    "datum": "2026-11-11",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -3123,22 +3620,90 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T43",
    "objekat": "Hram Svetog Save",
-   "procenat": 31,
+   "procenat": 56,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
      "formati": [
       "mejl"
      ],
-     "datum": "2026-11-01",
-     "predaja": 1,
-     "dopuna": "dopuniti linkove/lokatore izvora"
+     "datum": "2026-11-11",
+     "predaja": 3,
+     "dopuna": "dopuniti izvore uz podatke"
     },
     "ai-studio": {
      "stanje": "najavljeno",
@@ -3147,10 +3712,12 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -3161,12 +3728,11 @@
    },
    "fali": [
     "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -3180,13 +3746,56 @@
      "formati": [
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": []
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": []
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T44",
    "objekat": "ATŠ — Arhitektonska tehnička škola",
-   "procenat": 50,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -3197,10 +3806,13 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "HTML",
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -3218,12 +3830,11 @@
     }
    },
    "fali": [
-    "ai-studio",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-26",
-    "vrsta": "čas"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -3257,25 +3868,49 @@
       "DOCX",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "HTML",
+      "link"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T45",
    "objekat": "Geneks kula",
-   "procenat": 25,
+   "procenat": 75,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "DOCX"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "najavljeno",
@@ -3294,8 +3929,6 @@
     }
    },
    "fali": [
-    "pasos",
-    "ai-studio",
     "skice"
    ],
    "konsultacija": {
@@ -3313,6 +3946,21 @@
      "element": "maketa",
      "formati": [
       "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
      ]
     }
    ]
@@ -3385,7 +4033,7 @@
   {
    "tim": "T47",
    "objekat": "Hala 1 Beogradskog sajma",
-   "procenat": 50,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -3398,18 +4046,20 @@
      "dopuna": "dopuniti linkove/lokatore izvora"
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-02",
-     "predaja": 1
+     "datum": "2026-11-11",
+     "predaja": 3
     },
     "maketa": {
      "stanje": "nema",
@@ -3419,12 +4069,11 @@
     }
    },
    "fali": [
-    "ai-studio",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -3454,6 +4103,40 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -3524,21 +4207,25 @@
   {
    "tim": "T49",
    "objekat": "Stambena kula „Toblerone”",
-   "procenat": 25,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
      "formati": [
-      "DOCX"
+      "DOCX",
+      "PDF",
+      "slika"
      ],
-     "datum": "2026-11-08",
-     "predaja": 2
+     "datum": "2026-11-11",
+     "predaja": 7
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "nema",
@@ -3554,12 +4241,11 @@
     }
    },
    "fali": [
-    "ai-studio",
     "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-08",
+    "datum": "2026-11-11",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -3593,6 +4279,61 @@
     },
     {
      "datum": "2026-11-08",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
      "element": "konsultacija",
      "vrsta": "mejl"
     }
@@ -3695,8 +4436,8 @@
       "PDF",
       "slika"
      ],
-     "datum": "2026-11-08",
-     "predaja": 2,
+     "datum": "2026-11-11",
+     "predaja": 3,
      "dopuna": "usmeriti ka 3D strukturi iz podataka"
     },
     "maketa": {
@@ -3710,7 +4451,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-08",
+    "datum": "2026-11-11",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -3763,19 +4504,41 @@
      "datum": "2026-11-08",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T52",
    "objekat": "Geneks kula",
-   "procenat": 0,
+   "procenat": 25,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "DOCX"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1,
+     "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
      "stanje": "nema",
@@ -3797,41 +4560,62 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
      "datum": "2026-10-12",
      "element": "konsultacija",
      "vrsta": "konsultacije"
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T53",
    "objekat": "Zgrada Instituta IMS",
-   "procenat": 50,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
      "formati": [
-      "DOCX"
+      "DOCX",
+      "PDF"
      ],
-     "datum": "2026-10-18",
-     "predaja": 2
+     "datum": "2026-11-11",
+     "predaja": 3
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -3850,7 +4634,6 @@
     }
    },
    "fali": [
-    "ai-studio",
     "maketa"
    ],
    "konsultacija": {
@@ -3891,25 +4674,51 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "gradja",
+     "formati": [
+      "PDF"
+     ]
     }
    ]
   },
   {
    "tim": "T54",
    "objekat": "Hotel Moskva",
-   "procenat": 25,
+   "procenat": 75,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "PDF"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -3927,12 +4736,10 @@
     }
    },
    "fali": [
-    "pasos",
-    "ai-studio",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-28",
+    "datum": "2026-11-11",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -3974,13 +4781,40 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T55",
    "objekat": "Palata Narodne banke i Muzej novca",
-   "procenat": 31,
+   "procenat": 50,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -3997,10 +4831,12 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "najavljeno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -4011,12 +4847,11 @@
    },
    "fali": [
     "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -4039,25 +4874,49 @@
       "DOCX",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T56",
    "objekat": "Narodno pozorište u Beogradu",
-   "procenat": 25,
+   "procenat": 75,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "PDF"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1,
+     "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -4075,13 +4934,11 @@
     }
    },
    "fali": [
-    "pasos",
-    "ai-studio",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -4103,6 +4960,33 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -4558,13 +5442,16 @@
   {
    "tim": "T64",
    "objekat": "Palata Beograd (Beograđanka) — projektovanje i statika",
-   "procenat": 25,
+   "procenat": 75,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "PDF"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1,
+     "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
      "stanje": "prihvaceno",
@@ -4575,10 +5462,12 @@
      "predaja": 1
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -4588,13 +5477,11 @@
     }
    },
    "fali": [
-    "pasos",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-12",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -4620,6 +5507,39 @@
      "formati": [
       "link"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -4769,7 +5689,7 @@
   {
    "tim": "T67",
    "objekat": "Kula Beograd",
-   "procenat": 25,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -4780,16 +5700,20 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 2
     },
     "maketa": {
      "stanje": "nema",
@@ -4799,8 +5723,6 @@
     }
    },
    "fali": [
-    "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
@@ -4825,6 +5747,28 @@
      "element": "pasos",
      "formati": [
       "mejl",
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
       "slika"
      ]
     }
@@ -4953,7 +5897,7 @@
   {
    "tim": "T70",
    "objekat": "Rajhlova palata, Subotica",
-   "procenat": 50,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -4972,10 +5916,12 @@
      "predaja": 1
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 2
     },
     "maketa": {
      "stanje": "nema",
@@ -4985,10 +5931,12 @@
     }
    },
    "fali": [
-    "skice",
     "maketa"
    ],
-   "konsultacija": null,
+   "konsultacija": {
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
+   },
    "hronologija": [
     {
      "datum": "2026-10-19",
@@ -5012,6 +5960,32 @@
       "DOCX",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -5136,7 +6110,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-10-25",
+    "datum": "2026-11-11",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -5171,33 +6145,49 @@
       "mejl",
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
   {
    "tim": "T73",
    "objekat": "Gardoš kula, Zemun",
-   "procenat": 25,
+   "procenat": 75,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "PDF"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-02",
-     "predaja": 1
+     "datum": "2026-11-11",
+     "predaja": 2
     },
     "maketa": {
      "stanje": "nema",
@@ -5207,11 +6197,12 @@
     }
    },
    "fali": [
-    "pasos",
-    "ai-studio",
     "maketa"
    ],
-   "konsultacija": null,
+   "konsultacija": {
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
+   },
    "hronologija": [
     {
      "datum": "2026-11-02",
@@ -5219,6 +6210,54 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -5312,6 +6351,164 @@
       "PDF",
       "mejl"
      ]
+    }
+   ]
+  },
+  {
+   "tim": "T75",
+   "objekat": "Sava Centar",
+   "procenat": 50,
+   "elementi": {
+    "pasos": {
+     "stanje": "prihvaceno",
+     "formati": [
+      "DOCX",
+      "PDF"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 3
+    },
+    "ai-studio": {
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
+    },
+    "skice": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "maketa": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    }
+   },
+   "fali": [
+    "skice",
+    "maketa"
+   ],
+   "konsultacija": {
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
+   },
+   "hronologija": [
+    {
+     "datum": "2026-10-13",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    }
+   ]
+  },
+  {
+   "tim": "T76",
+   "objekat": "BIGZ (Zgrada Državne štamparije)",
+   "procenat": 50,
+   "elementi": {
+    "pasos": {
+     "stanje": "prihvaceno",
+     "formati": [
+      "DOCX"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
+    },
+    "ai-studio": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "skice": {
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-11",
+     "predaja": 1
+    },
+    "maketa": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    }
+   },
+   "fali": [
+    "ai-studio",
+    "maketa"
+   ],
+   "konsultacija": {
+    "datum": "2026-11-11",
+    "vrsta": "mejl"
+   },
+   "hronologija": [
+    {
+     "datum": "2026-11-11",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   }

@@ -1,8 +1,8 @@
 {
-  "datasetRevision": "r-61aeb241260a81dd",
-  "registeredTeams": 74,
-  "curatedPassportsCount": 52,
-  "totalCuratedClaims": 1191,
+  "datasetRevision": "r-a3392109af6802e2",
+  "registeredTeams": 76,
+  "curatedPassportsCount": 64,
+  "totalCuratedClaims": 1301,
   "passports": [
     {
       "id": "T01",
@@ -47,6 +47,12 @@
       "claims": 8
     },
     {
+      "id": "T08",
+      "object": "Zgrada u Kalemegdan parku",
+      "sections": 3,
+      "claims": 10
+    },
+    {
       "id": "T10",
       "object": "Hotel Tamiš, Pančevo",
       "sections": 2,
@@ -67,8 +73,8 @@
     {
       "id": "T13",
       "object": "Palata SANU i Zgrada Pošte",
-      "sections": 11,
-      "claims": 73
+      "sections": 12,
+      "claims": 76
     },
     {
       "id": "T14",
@@ -161,6 +167,12 @@
       "claims": 20
     },
     {
+      "id": "T34",
+      "object": "Palata Beograd (Beograđanka)",
+      "sections": 3,
+      "claims": 8
+    },
+    {
       "id": "T35",
       "object": "Geneks kula (Zapadna kapija Beograda)",
       "sections": 2,
@@ -175,8 +187,14 @@
     {
       "id": "T38",
       "object": "Vladičanski dvor u Vršcu",
-      "sections": 4,
-      "claims": 18
+      "sections": 5,
+      "claims": 22
+    },
+    {
+      "id": "T39",
+      "object": "Belgrade Business House",
+      "sections": 3,
+      "claims": 8
     },
     {
       "id": "T40",
@@ -185,16 +203,28 @@
       "claims": 15
     },
     {
+      "id": "T42",
+      "object": "Prva beogradska gimnazija",
+      "sections": 3,
+      "claims": 9
+    },
+    {
       "id": "T43",
       "object": "Hram Svetog Save",
-      "sections": 2,
-      "claims": 7
+      "sections": 5,
+      "claims": 13
     },
     {
       "id": "T44",
       "object": "ATŠ — Arhitektonska tehnička škola",
       "sections": 3,
       "claims": 11
+    },
+    {
+      "id": "T45",
+      "object": "Geneks kula",
+      "sections": 3,
+      "claims": 9
     },
     {
       "id": "T46",
@@ -217,8 +247,8 @@
     {
       "id": "T49",
       "object": "Stambena kula „Toblerone”",
-      "sections": 6,
-      "claims": 23
+      "sections": 7,
+      "claims": 26
     },
     {
       "id": "T50",
@@ -233,9 +263,21 @@
       "claims": 44
     },
     {
+      "id": "T52",
+      "object": "Geneks kula",
+      "sections": 3,
+      "claims": 5
+    },
+    {
       "id": "T53",
       "object": "Zgrada Instituta za ispitivanje materijala (IMS)",
-      "sections": 4,
+      "sections": 5,
+      "claims": 12
+    },
+    {
+      "id": "T54",
+      "object": "Hotel Moskva",
+      "sections": 3,
       "claims": 9
     },
     {
@@ -243,6 +285,12 @@
       "object": "Palata Narodne banke i Muzej novca",
       "sections": 7,
       "claims": 43
+    },
+    {
+      "id": "T56",
+      "object": "Narodno pozorište u Beogradu",
+      "sections": 3,
+      "claims": 7
     },
     {
       "id": "T58",
@@ -261,6 +309,12 @@
       "object": "West 65 Tower",
       "sections": 3,
       "claims": 11
+    },
+    {
+      "id": "T64",
+      "object": "Palata Beograd (Beograđanka) — projektovanje i statika",
+      "sections": 2,
+      "claims": 4
     },
     {
       "id": "T65",
@@ -311,10 +365,28 @@
       "claims": 4
     },
     {
+      "id": "T73",
+      "object": "Gardoš kula, Zemun",
+      "sections": 2,
+      "claims": 8
+    },
+    {
       "id": "T74",
       "object": "Kula Beograd",
       "sections": 3,
       "claims": 10
+    },
+    {
+      "id": "T75",
+      "object": "Sava Centar",
+      "sections": 2,
+      "claims": 7
+    },
+    {
+      "id": "T76",
+      "object": "BIGZ (Zgrada Državne štamparije)",
+      "sections": 2,
+      "claims": 7
     }
   ]
 }
