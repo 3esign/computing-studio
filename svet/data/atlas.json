@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-a3392109af6802e2",
+  "datasetRevision": "r-0558a8dfdcc49482",
   "teams": [
     {
       "id": "T01",
@@ -154,9 +154,9 @@
         "27/26"
       ],
       "topic": "Istorijska kula, vidikovac, materijali (kamen, opeka)",
-      "place": "Zemun",
-      "lat": 44.8455,
-      "lng": 20.4095,
+      "place": "Zemun, Gardoš",
+      "lat": 44.8486,
+      "lng": 20.4108,
       "x": -148.93,
       "y": 0.2,
       "z": -130.02,
@@ -220,7 +220,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Tabelarni pasoš i AI Studio na sajtu (10.11)",
-      "status": "Tabelarni pasoš Zgrade u Kalemegdan parku (Veliko i Malo stepenište, Česma ribar i Spomenik zahvalnosti Francuskoj — 30 zapisa sa izvorima) kuriran u javni sloj i predat link AI Studio aplikacije (10.11).",
+      "status": "Tabelarni pasoš Zgrade u Kalemegdan parku (Veliko i Malo stepenište, Česma ribar i Spomenik zahvalnosti Francuskoj — 10 zapisa sa izvorima) kuriran u javni sloj i predat link AI Studio aplikacije (10.11).",
       "hasPassport": true,
       "claimsCount": 10,
       "sectionsCount": 3,
@@ -451,7 +451,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (29.10)",
-      "status": "Pasoš Palate Narodne banke kuriran u javni sloj (29.10) po odluci profesora iz verzije bez izvora uz pasuse: 12 zapisa, svi nepotvrđeni; napomena stoji u dosijeu. Verzija sa izvorima i tabelom zamenjuje dosije kad stigne.",
+      "status": "Pasoš Palate Narodne banke kuriran u javni sloj (29.10) po odluci profesora iz verzije bez izvora uz pasuse: 13 zapisa, svi nepotvrđeni; napomena stoji u dosijeu. Verzija sa izvorima i tabelom zamenjuje dosije kad stigne.",
       "hasPassport": true,
       "claimsCount": 13,
       "sectionsCount": 4,
@@ -969,7 +969,7 @@
       "type": "beogradjanka",
       "progressStage": 5,
       "progressLabel": "Tabelarni pasoš i aplikacija na sajtu (11.11)",
-      "status": "Digitalni pasoš Palate Beograd (istorijat izgradnje, arhitektonsko-konstruktivni podaci i kulturni značaj — 26 zapisa sa 19 izvora) kuriran u javni sloj i predata interaktivna veb aplikacija (11.11).",
+      "status": "Digitalni pasoš Palate Beograd (istorijat izgradnje, arhitektonsko-konstruktivni podaci i kulturni značaj — 8 zapisa sa 19 izvora) kuriran u javni sloj i predata interaktivna veb aplikacija (11.11).",
       "hasPassport": true,
       "claimsCount": 8,
       "sectionsCount": 3,
@@ -1083,7 +1083,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Dopunjen pasoš sa tabelom izvora i AI Studio (09.11)",
-      "status": "Pasoš Vladičanskog dvora u Vršcu dopunjen tabelom o vladičanskoj riznici, portretima Georgija Popovića i Jovana Georgijevića i radovima Mojsija Subotića (ukupno 27 zapisa sa izvorima) uz novi link AI Studio aplikacije (09.11).",
+      "status": "Pasoš Vladičanskog dvora u Vršcu dopunjen tabelom o vladičanskoj riznici, portretima Georgija Popovića i Jovana Georgijevića i radovima Mojsija Subotića (ukupno 22 zapisa sa izvorima) uz novi link AI Studio aplikacije (09.11).",
       "hasPassport": true,
       "claimsCount": 22,
       "sectionsCount": 5,
@@ -1102,16 +1102,16 @@
         "162/26"
       ],
       "topic": "Savremena poslovna zgrada, staklena zavesa, energetski bilans",
-      "place": "Gospodar Jevremova",
-      "lat": 44.823,
-      "lng": 20.462,
+      "place": "Strahinjića Bana, Dorćol",
+      "lat": 44.8222,
+      "lng": 20.4658,
       "x": 42.55,
       "y": 3.2,
       "z": -25,
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Tabelarni pasoš, AI Studio i skica makete na sajtu (10.11)",
-      "status": "Tabelarni pasoš objekta Belgrade Business House (27 zapisa u 7 celina sa izvorima: Zelena gradnja, ArchDaily, Arhitekton, Gradnja.rs, katastar) kuriran u javni sloj (09.11); predat AI Studio prototip i skica makete u galeriji (10.11).",
+      "status": "Tabelarni pasoš objekta Belgrade Business House (8 zapisa u 7 celina sa izvorima: Zelena gradnja, ArchDaily, Arhitekton, Gradnja.rs, katastar) kuriran u javni sloj (09.11); predat AI Studio prototip i skica makete u galeriji (10.11).",
       "hasPassport": true,
       "claimsCount": 8,
       "sectionsCount": 3,
@@ -1198,7 +1198,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio i prototip makete na sajtu (11.11)",
-      "status": "Tabelarni pasoš Prve beogradske gimnazije (28 zapisa sa izvorima i nalazom iz Arhiva Jugoslavije o građevinskim dnevnicima iz 1937) kuriran u javni sloj (11.11); predate AI Studio aplikacije i nove fotografije prototipa makete u galeriji (radna verzija za predaju uživo 16.11).",
+      "status": "Tabelarni pasoš Prve beogradske gimnazije (9 zapisa sa izvorima i nalazom iz Arhiva Jugoslavije o građevinskim dnevnicima iz 1937) kuriran u javni sloj (11.11); predate AI Studio aplikacije i nove fotografije prototipa makete u galeriji (radna verzija za predaju uživo 16.11).",
       "hasPassport": true,
       "claimsCount": 9,
       "sectionsCount": 3,
@@ -1226,7 +1226,7 @@
       "type": "hram",
       "progressStage": 5,
       "progressLabel": "Dopunjen pasoš i skica 3D mape na sajtu (11.11)",
-      "status": "Pasoš Hrama Svetog Save dopunjen merama kupole, krsta, 24 bronzanih vrata, kripte i autorskim konkursima 1905/1926 (ukupno 24 zapisa u javnom sloju; dopuniti precizne izvore umesto preostalih oznaka „-izvor“); predata skica 3D mape u galeriji (11.11).",
+      "status": "Pasoš Hrama Svetog Save dopunjen merama kupole, krsta, 24 bronzanih vrata, kripte i autorskim konkursima 1905/1926 (ukupno 13 zapisa u javnom sloju; dopuniti precizne izvore umesto preostalih oznaka „-izvor“); predata skica 3D mape u galeriji (11.11).",
       "hasPassport": true,
       "claimsCount": 13,
       "sectionsCount": 5,
@@ -1283,7 +1283,7 @@
       "type": "geneks",
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio i prototip makete na sajtu (09.11)",
-      "status": "Monografska studija Zapadne kapije Beograda (Geneks kula — 24 zapisa sa 10 izvora: arhitektura, konstrukcija, crveno-žuto-plavi kod instalacija i spomenička zaštita 2021) kurirana u javni sloj uz link AI Studio aplikacije (09.11); prototip makete zaveden kao radna verzija za 16.11.",
+      "status": "Monografska studija Zapadne kapije Beograda (Geneks kula — 9 zapisa sa 10 izvora: arhitektura, konstrukcija, crveno-žuto-plavi kod instalacija i spomenička zaštita 2021) kurirana u javni sloj uz link AI Studio aplikacije (09.11); prototip makete zaveden kao radna verzija za 16.11.",
       "hasPassport": true,
       "claimsCount": 9,
       "sectionsCount": 3,
@@ -1426,7 +1426,7 @@
       "type": "beogradjanka",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (29.10)",
-      "status": "Konstrukcija i fasada Beograđanke kurirane u javni sloj (29.10) po odluci profesora: 15 zapisa, deo iz Nasleđa 2022 sa izvorom, tabela „izvor: ChatGPT“ nepotvrđena; napomena stoji u dosijeu. Nova verzija tima zamenjuje dosije.",
+      "status": "Konstrukcija i fasada Beograđanke kurirane u javni sloj (29.10) po odluci profesora: 16 zapisa, deo iz Nasleđa 2022 sa izvorom, tabela „izvor: ChatGPT“ nepotvrđena; napomena stoji u dosijeu. Nova verzija tima zamenjuje dosije.",
       "hasPassport": true,
       "claimsCount": 16,
       "sectionsCount": 4,
@@ -1484,7 +1484,7 @@
       "type": "geneks",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu — izvori kao spisak na kraju (09.11)",
-      "status": "Digitalni pasoš Zapadne kapije Beograda (Geneks kula — 20 zapisa) kuriran u javni sloj uz napomenu profesora: izvori samo kao spisak na kraju — traži se tabela podatak → izvor (09.11).",
+      "status": "Digitalni pasoš Zapadne kapije Beograda (Geneks kula — 5 zapisa) kuriran u javni sloj uz napomenu profesora: izvori samo kao spisak na kraju — traži se tabela podatak → izvor (09.11).",
       "hasPassport": true,
       "claimsCount": 5,
       "sectionsCount": 3,
@@ -1541,7 +1541,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš autorstva, AI Studio i skica na sajtu (09.11)",
-      "status": "Digitalni pasoš autorstva Hotela Moskva (konkurs palata „Rosija“ u Sankt Peterburgu, uloge Jovana Ilkića i Viktora Lukomskog, majolika fabrike Žolnai — 20 zapisa sa 6 izvora) kuriran u javni sloj uz link AI Studio aplikacije (09.11).",
+      "status": "Digitalni pasoš autorstva Hotela Moskva (konkurs palata „Rosija“ u Sankt Peterburgu, uloge Jovana Ilkića i Viktora Lukomskog, majolika fabrike Žolnai — 9 zapisa sa 6 izvora) kuriran u javni sloj uz link AI Studio aplikacije (09.11).",
       "hasPassport": true,
       "claimsCount": 9,
       "sectionsCount": 3,
@@ -1597,7 +1597,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš sa arhivskim planovima i AI Studio na sajtu (09.11)",
-      "status": "Digitalni pasoš Narodnog pozorišta u Beogradu (hronologija 1868–1989 i arhivski nacrti rekonstrukcije iz 1940. u razmeri 1:100 — 21 zapis) kuriran u javni sloj uz link AI Studio aplikacije (09.11); izvori samo kao spisak — dopuniti tabelu podatak → izvor.",
+      "status": "Digitalni pasoš Narodnog pozorišta u Beogradu (hronologija 1868–1989 i arhivski nacrti rekonstrukcije iz 1940. u razmeri 1:100 — 7 zapisa) kuriran u javni sloj uz link AI Studio aplikacije (09.11); izvori samo kao spisak — dopuniti tabelu podatak → izvor.",
       "hasPassport": true,
       "claimsCount": 7,
       "sectionsCount": 3,
@@ -1814,7 +1814,7 @@
         "173/26"
       ],
       "topic": "Projektovanje i statički proračuni, saradnja arhitekata i građevinaca",
-      "place": "Beograd na vodi",
+      "place": "Kralja Milana",
       "lat": 44.8109,
       "lng": 20.4633,
       "x": -17.73,
@@ -1823,7 +1823,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio i skica na sajtu — čeka se tabela izvora (11.11)",
-      "status": "Pasoš Palate Beograd — projektovanje i statika (22 zapisa) kuriran u javni sloj uz napomenu profesora: izvori samo kao spisak na kraju — traži se tabela podatak → izvor (11.11); AI Studio aplikacija i ručni crtež u galeriji.",
+      "status": "Pasoš Palate Beograd — projektovanje i statika (4 zapisa) kuriran u javni sloj uz napomenu profesora: izvori samo kao spisak na kraju — traži se tabela podatak → izvor (11.11); AI Studio aplikacija i ručni crtež u galeriji.",
       "hasPassport": true,
       "claimsCount": 4,
       "sectionsCount": 2,
@@ -1908,7 +1908,7 @@
       "type": "kulabeograd",
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio i skice konstrukcije na sajtu (10.11)",
-      "status": "Tabelarni pasoš „Konstruktivni sistem Kule Beograd“ u javnom sloju (10 zapisa sa izvorima); predat link AI Studio aplikacije i 2 nove skice konstrukcije u galeriji (10.11).",
+      "status": "Tabelarni pasoš „Konstruktivni sistem Kule Beograd“ u javnom sloju (11 zapisa sa izvorima); predat link AI Studio aplikacije i 2 nove skice konstrukcije u galeriji (10.11).",
       "hasPassport": true,
       "claimsCount": 11,
       "sectionsCount": 2,
@@ -1957,7 +1957,7 @@
         "21/26g"
       ],
       "topic": "Milica Krstić, modernistička forma prema istorijskom jezgru Dorćola i Skadarlije, ratna oštećenja",
-      "place": "Dorćol",
+      "place": "Cara Dušana, Dorćol",
       "lat": 44.8257,
       "lng": 20.4564,
       "x": null,
@@ -2080,7 +2080,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš autorstva, AI Studio i skica svetionika na sajtu (11.11)",
-      "status": "Digitalni pasoš autorstva Milenijumske kule na Gardošu (projektanti Ištvan Krikler i Geza Koblenc, 1896, analiza izvora i legendi — 21 zapis) kuriran u javni sloj; predata skica makete svetionika u galeriji i link AI Studio 3D aplikacije (11.11).",
+      "status": "Digitalni pasoš autorstva Milenijumske kule na Gardošu (projektanti Ištvan Krikler i Geza Koblenc, 1896, analiza izvora i legendi — 8 zapisa) kuriran u javni sloj; predata skica makete svetionika u galeriji i link AI Studio 3D aplikacije (11.11).",
       "hasPassport": true,
       "claimsCount": 8,
       "sectionsCount": 2,
@@ -2089,7 +2089,7 @@
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
-      "building": "B1c340903"
+      "building": "B0dffad8d"
     },
     {
       "id": "T74",
@@ -2136,7 +2136,7 @@
       "type": "savacentar",
       "progressStage": 5,
       "progressLabel": "Pasoš rekonstrukcije i AI Studio na sajtu (10.11)",
-      "status": "Digitalni pasoš rekonstrukcije Sava centra 2021–2024 (energetska sanacija troslojnog staklenog omotača, Plava dvorana, BREEAM i akustika — 24 zapisa sa izvorima) kuriran u javni sloj uz link AI Studio aplikacije (10.11).",
+      "status": "Digitalni pasoš rekonstrukcije Sava centra 2021–2024 (energetska sanacija troslojnog staklenog omotača, Plava dvorana, BREEAM i akustika — 7 zapisa sa izvorima) kuriran u javni sloj uz link AI Studio aplikacije (10.11).",
       "hasPassport": true,
       "claimsCount": 7,
       "sectionsCount": 2,
@@ -2163,7 +2163,7 @@
       "type": "bigz",
       "progressStage": 5,
       "progressLabel": "Pasoš autorstva i skica štampača na sajtu (10.11)",
-      "status": "Digitalni pasoš autorstva Zgrade Državne štamparije — BIGZ (jugoslovenski konkurs iz 1933, prva nagrada Dragiše Brašovana i realizacija 1934–1940 — 10 zapisa sa izvorima) kuriran u javni sloj uz skicu 3D makete u formi štampača u galeriji (10.11).",
+      "status": "Digitalni pasoš autorstva Zgrade Državne štamparije — BIGZ (jugoslovenski konkurs iz 1933, prva nagrada Dragiše Brašovana i realizacija 1934–1940 — 7 zapisa sa izvorima) kuriran u javni sloj uz skicu 3D makete u formi štampača u galeriji (10.11).",
       "hasPassport": true,
       "claimsCount": 7,
       "sectionsCount": 2,
@@ -2399,32 +2399,33 @@
       "id": "B0dffad8d",
       "object": "Gardoš / Milenijumska kula",
       "teams": [
-        "T06"
+        "T06",
+        "T73"
       ],
-      "teamCount": 1,
-      "place": "Zemun",
+      "teamCount": 2,
+      "place": "Zemun, Gardoš",
       "city": "Beograd",
-      "lat": 44.8455,
-      "lng": 20.4095,
+      "lat": 44.8486,
+      "lng": 20.4108,
       "locationStatus": "approximate",
-      "passports": 1,
-      "claimsCount": 20,
-      "sectionsCount": 7,
-      "sourcesCount": 7,
+      "passports": 2,
+      "claimsCount": 28,
+      "sectionsCount": 9,
+      "sourcesCount": 16,
       "categories": {
-        "research": 0,
+        "research": 1,
         "documents": 5,
-        "materials": 8,
-        "time": 7,
+        "materials": 9,
+        "time": 9,
         "questions": 0,
         "identity": 0,
         "location": 0,
         "geometry": 0,
         "structure": 0,
-        "use": 0,
+        "use": 1,
         "energy": 0,
         "environment": 0,
-        "people": 0,
+        "people": 3,
         "methods": 0
       },
       "topics": [
@@ -2432,6 +2433,12 @@
           "team": "T06",
           "topic": "Istorijska kula, vidikovac, materijali (kamen, opeka)",
           "claimsCount": 20,
+          "hasPassport": true
+        },
+        {
+          "team": "T73",
+          "topic": "Gardoš kula (Zemun) — skica",
+          "claimsCount": 8,
           "hasPassport": true
         }
       ]
@@ -3642,10 +3649,10 @@
         "T39"
       ],
       "teamCount": 1,
-      "place": "Gospodar Jevremova",
+      "place": "Strahinjića Bana, Dorćol",
       "city": "Beograd",
-      "lat": 44.823,
-      "lng": 20.462,
+      "lat": 44.8222,
+      "lng": 20.4658,
       "locationStatus": "approximate",
       "passports": 1,
       "claimsCount": 8,
@@ -4465,47 +4472,6 @@
           "team": "T72",
           "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
           "claimsCount": 4,
-          "hasPassport": true
-        }
-      ]
-    },
-    {
-      "id": "B1c340903",
-      "object": "Gardoš kula, Zemun",
-      "teams": [
-        "T73"
-      ],
-      "teamCount": 1,
-      "place": "Zemun, Gardoš",
-      "city": "Beograd",
-      "lat": 44.8486,
-      "lng": 20.4108,
-      "locationStatus": "approximate",
-      "passports": 1,
-      "claimsCount": 8,
-      "sectionsCount": 2,
-      "sourcesCount": 9,
-      "categories": {
-        "research": 1,
-        "documents": 0,
-        "materials": 1,
-        "time": 2,
-        "questions": 0,
-        "identity": 0,
-        "location": 0,
-        "geometry": 0,
-        "structure": 0,
-        "use": 1,
-        "energy": 0,
-        "environment": 0,
-        "people": 3,
-        "methods": 0
-      },
-      "topics": [
-        {
-          "team": "T73",
-          "topic": "Gardoš kula (Zemun) — skica",
-          "claimsCount": 8,
           "hasPassport": true
         }
       ]
@@ -38772,536 +38738,525 @@
     },
     "core": 70.3125,
     "compress": 0.4,
-    "capUnits": 54.4,
-    "note": "Radijalni kartogram: do 1125 m od centra mape projekcija je nepromenjena, dalje je rastojanje od centra sabijeno na 40% (azimut tačan, redosled tačan); isti pomeraj važi i za geografski sloj. Skulpture su potom razmaknute najviše 870 m da se ne preklapaju. Pomeraj je čitljivost, ne merenje objekta.",
+    "capUnits": 36,
+    "note": "Radijalni kartogram: do 1125 m od centra mape projekcija je nepromenjena, dalje je rastojanje od centra sabijeno na 40% (azimut tačan, redosled tačan); isti pomeraj važi i za geografski sloj. Skulpture su potom razmaknute najviše 576 m da se ne preklapaju. Pomeraj je čitljivost, ne merenje objekta.",
     "places": [
       {
         "id": "B01ffbf6e",
-        "x": -137.255,
-        "z": 35.551,
+        "x": -141.376,
+        "z": 44.958,
         "anchor": [
           -144.635,
           41.939
         ],
-        "nudge": 156,
+        "nudge": 71,
         "radius": 10.877
       },
       {
         "id": "B0671278c",
-        "x": 20.382,
-        "z": 103.134,
+        "x": 2.192,
+        "z": 115.989,
         "anchor": [
           25.232,
           95.669
         ],
-        "nudge": 142,
+        "nudge": 492,
         "radius": 1.545
       },
       {
         "id": "B0dffad8d",
-        "x": -65.673,
-        "z": -52.45,
-        "anchor": [
-          -102.235,
-          -92.732
-        ],
-        "nudge": 870,
-        "radius": 11.339
-      },
-      {
-        "id": "B14027bbe",
-        "x": 7.581,
-        "z": 156.375,
-        "anchor": [
-          -6.924,
-          109.218
-        ],
-        "nudge": 789,
-        "radius": 20.142
-      },
-      {
-        "id": "B1c340903",
-        "x": -52.029,
-        "z": -74.381,
+        "x": -77.731,
+        "z": -73.231,
         "anchor": [
           -97.719,
           -103.172
         ],
-        "nudge": 864,
-        "radius": 10.681
+        "nudge": 576,
+        "radius": 23.749
+      },
+      {
+        "id": "B14027bbe",
+        "x": -5.971,
+        "z": 145.205,
+        "anchor": [
+          -6.924,
+          109.218
+        ],
+        "nudge": 576,
+        "radius": 20.142
       },
       {
         "id": "B1df14ea1",
-        "x": 20.15,
-        "z": 36.132,
+        "x": 11.457,
+        "z": 43.282,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 249,
+        "nudge": 394,
         "radius": 1.545
       },
       {
         "id": "B21720f35",
-        "x": -73.249,
-        "z": -15.657,
+        "x": -78.086,
+        "z": -25.19,
         "anchor": [
           -87.513,
           9.554
         ],
-        "nudge": 463,
+        "nudge": 576,
         "radius": 11.51
       },
       {
         "id": "B25fc5bcf",
-        "x": 109.887,
-        "z": -7.568,
+        "x": 94.683,
+        "z": 9.49,
         "anchor": [
           58.73,
           7.653
         ],
-        "nudge": 854,
+        "nudge": 576,
         "radius": 18.085
       },
       {
         "id": "B25fc772a",
-        "x": 104.604,
-        "z": -73.005,
+        "x": 99.023,
+        "z": -85.031,
         "anchor": [
           91.319,
           -59.222
         ],
-        "nudge": 306,
+        "nudge": 431,
         "radius": 17.267
       },
       {
         "id": "B2a7ecb59",
-        "x": -139.862,
-        "z": -7.909,
+        "x": -159.157,
+        "z": 1.855,
         "anchor": [
           -160.416,
           1.655
         ],
-        "nudge": 363,
+        "nudge": 20,
         "radius": 27.197
       },
       {
         "id": "B2ceb56a4",
-        "x": 60.673,
-        "z": 95.489,
+        "x": 35.697,
+        "z": 100.766,
         "anchor": [
           62.382,
           78.89
         ],
-        "nudge": 267,
+        "nudge": 552,
         "radius": 11.95
       },
       {
         "id": "B34c1628c",
-        "x": 86.575,
-        "z": 102.007,
+        "x": 121.346,
+        "z": 117.491,
         "anchor": [
           123.669,
           110.55
         ],
-        "nudge": 609,
+        "nudge": 117,
         "radius": 10.877
       },
       {
         "id": "B3b4c7fb4",
-        "x": -32.28,
-        "z": -57.902,
+        "x": -21.325,
+        "z": -56.535,
         "anchor": [
           14.541,
           -53.441
         ],
-        "nudge": 753,
+        "nudge": 576,
         "radius": 11.247
       },
       {
         "id": "B41952daf",
-        "x": 139.803,
-        "z": 63.078,
+        "x": 116.51,
+        "z": 34.776,
         "anchor": [
           86.147,
           54.116
         ],
-        "nudge": 870,
+        "nudge": 576,
         "radius": 11.199
       },
       {
         "id": "B4d2fca52",
-        "x": 70.189,
-        "z": 151.959,
+        "x": 73.188,
+        "z": 138.659,
         "anchor": [
           70.009,
           102.8
         ],
-        "nudge": 787,
+        "nudge": 576,
         "radius": 35.46
       },
       {
         "id": "B4f2be009",
-        "x": 44.96,
-        "z": -49.637,
+        "x": 48.51,
+        "z": -29.184,
         "anchor": [
           33.935,
           -45.375
         ],
-        "nudge": 189,
+        "nudge": 349,
         "radius": 17.516
       },
       {
         "id": "B530102bb",
-        "x": 35.216,
-        "z": 49.981,
+        "x": 26.562,
+        "z": 44.699,
         "anchor": [
           57.249,
           40.354
         ],
-        "nudge": 385,
+        "nudge": 496,
         "radius": 11.339
       },
       {
         "id": "B655d6f70",
-        "x": 34.812,
-        "z": 99.896,
+        "x": 10.595,
+        "z": 97.098,
         "anchor": [
           43.924,
           83.49
         ],
-        "nudge": 300,
+        "nudge": 576,
         "radius": 10.444
       },
       {
         "id": "B6b092149",
-        "x": 46.676,
-        "z": -16.723,
+        "x": 22.64,
+        "z": -5.646,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 331,
+        "nudge": 161,
         "radius": 10.992
       },
       {
         "id": "B721111bb",
-        "x": 4.406,
-        "z": -71.116,
+        "x": 20.211,
+        "z": -83.116,
         "anchor": [
           30.327,
           -48.567
         ],
-        "nudge": 550,
+        "nudge": 576,
         "radius": 22.747
       },
       {
         "id": "B75d37fcb",
-        "x": 42.653,
-        "z": -82.744,
+        "x": 50.098,
+        "z": -59.526,
         "anchor": [
           30.947,
           -49.344
         ],
-        "nudge": 566,
+        "nudge": 347,
         "radius": 11.199
       },
       {
         "id": "B7a65f480",
-        "x": -59.949,
-        "z": 83.57,
+        "x": -73.675,
+        "z": 73.485,
         "anchor": [
           -41.258,
           89.141
         ],
-        "nudge": 312,
+        "nudge": 576,
         "radius": 10.936
       },
       {
         "id": "B7efb8894",
-        "x": 68.488,
-        "z": -80.301,
+        "x": 58.165,
+        "z": -81.638,
         "anchor": [
           38.181,
           -51.694
         ],
-        "nudge": 667,
+        "nudge": 576,
         "radius": 10.936
       },
       {
         "id": "B88cffac1",
-        "x": 88.499,
-        "z": 49.257,
+        "x": 72.301,
+        "z": 63.323,
         "anchor": [
           65.639,
           49.398
         ],
-        "nudge": 366,
+        "nudge": 247,
         "radius": 35.65
       },
       {
         "id": "B8b81c0c5",
-        "x": 69.751,
-        "z": -27.938,
+        "x": 75.853,
+        "z": -62.158,
         "anchor": [
           57.684,
           -32.891
         ],
-        "nudge": 209,
+        "nudge": 551,
         "radius": 10.877
       },
       {
         "id": "B9e4c8453",
-        "x": -22.4,
-        "z": -33.995,
+        "x": -24.912,
+        "z": -29.099,
         "anchor": [
           0,
           -31.309
         ],
-        "nudge": 361,
+        "nudge": 400,
         "radius": 10.815
       },
       {
         "id": "Ba8b77242",
-        "x": 11.397,
-        "z": -22.797,
+        "x": 9.581,
+        "z": -37.922,
         "anchor": [
           37.015,
           -14.611
         ],
-        "nudge": 430,
+        "nudge": 576,
         "radius": 20.097
       },
       {
         "id": "Badf7e17e",
-        "x": -47.549,
-        "z": -25.175,
+        "x": -52.542,
+        "z": -39.392,
         "anchor": [
           -63.79,
           -34.444
         ],
-        "nudge": 299,
+        "nudge": 197,
         "radius": 11.95
       },
       {
         "id": "Bae8506cc",
-        "x": -3.173,
-        "z": 20.972,
+        "x": 5.734,
+        "z": 22.233,
         "anchor": [
           36.028,
           2.783
         ],
-        "nudge": 691,
+        "nudge": 576,
         "radius": 17.55
       },
       {
         "id": "Bb21a1978",
-        "x": 131.885,
-        "z": 108.526,
+        "x": 138.311,
+        "z": 74.974,
         "anchor": [
           103.219,
           66.941
         ],
-        "nudge": 808,
+        "nudge": 576,
         "radius": 29.284
       },
       {
         "id": "Bb5a79c43",
-        "x": -22.065,
-        "z": -7.356,
+        "x": -3.594,
+        "z": -6.922,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 870,
+        "nudge": 576,
         "radius": 11.95
       },
       {
         "id": "Bb81ca622",
-        "x": 93.807,
-        "z": -37.188,
+        "x": 89.575,
+        "z": -40.342,
         "anchor": [
           67.469,
           -29.89
         ],
-        "nudge": 437,
+        "nudge": 391,
         "radius": 11.099
       },
       {
         "id": "Bba876e95",
-        "x": 69.56,
-        "z": -43.201,
+        "x": 93.66,
+        "z": -58.95,
         "anchor": [
           70.769,
           -31.759
         ],
-        "nudge": 184,
+        "nudge": 569,
         "radius": 1.545
       },
       {
         "id": "Bbb2e5c1e",
-        "x": -17.482,
-        "z": 51.234,
+        "x": -19.14,
+        "z": 44.239,
         "anchor": [
           2.468,
           41.745
         ],
-        "nudge": 353,
+        "nudge": 348,
         "radius": 11.426
       },
       {
         "id": "Bbe3e7124",
-        "x": -40.734,
-        "z": 65.198,
+        "x": -43.682,
+        "z": 55.029,
         "anchor": [
           -23.112,
           84.574
         ],
-        "nudge": 419,
+        "nudge": 576,
         "radius": 11.777
       },
       {
         "id": "Bbfd097ce",
-        "x": -47.083,
-        "z": 0.953,
+        "x": -52.346,
+        "z": -13.262,
         "anchor": [
           -61.87,
           16.542
         ],
-        "nudge": 344,
+        "nudge": 501,
         "radius": 10.35
       },
       {
         "id": "Bca96d908",
-        "x": -134.82,
-        "z": 68.135,
+        "x": -125.622,
+        "z": 74.816,
         "anchor": [
           -141.312,
           72.685
         ],
-        "nudge": 127,
+        "nudge": 253,
         "radius": 17.341
       },
       {
         "id": "Bce379d13",
-        "x": 119.667,
-        "z": -43.234,
+        "x": 112.421,
+        "z": -53.884,
         "anchor": [
           83.722,
           -47.963
         ],
-        "nudge": 580,
+        "nudge": 469,
         "radius": 11.59
       },
       {
         "id": "Bce3fd2f1",
-        "x": -85.081,
-        "z": 35.874,
+        "x": -93.11,
+        "z": 25.259,
         "anchor": [
           -92.657,
           36.836
         ],
-        "nudge": 122,
+        "nudge": 185,
         "radius": 35.101
       },
       {
         "id": "Bd18bf80b",
-        "x": 53.077,
-        "z": -2.714,
+        "x": 61.741,
+        "z": -11.164,
         "anchor": [
           49.847,
           9.74
         ],
-        "nudge": 206,
+        "nudge": 385,
         "radius": 1.545
       },
       {
         "id": "Bda203afb",
-        "x": 8.945,
-        "z": 51.85,
+        "x": 4.316,
+        "z": 56.195,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 478,
+        "nudge": 576,
         "radius": 11.15
       },
       {
         "id": "Be291aa43",
-        "x": 76.879,
-        "z": -56.35,
+        "x": 106.828,
+        "z": -21.485,
         "anchor": [
-          57.684,
-          -32.891
+          71.618,
+          -24.166
         ],
-        "nudge": 485,
+        "nudge": 565,
         "radius": 10.681
       },
       {
         "id": "Be3448d6e",
-        "x": 69.454,
-        "z": -1.231,
+        "x": 77.012,
+        "z": -16.494,
         "anchor": [
           57.743,
           13.915
         ],
-        "nudge": 306,
+        "nudge": 576,
         "radius": 11.95
       },
       {
         "id": "Be38a2b04",
-        "x": 42.263,
-        "z": 75.545,
+        "x": 21.901,
+        "z": 75.035,
         "anchor": [
           57.743,
           71.662
         ],
-        "nudge": 255,
+        "nudge": 576,
         "radius": 11.247
       },
       {
         "id": "Beb7b8b9c",
-        "x": 37.537,
-        "z": 15.838,
+        "x": 51.407,
+        "z": 9.537,
         "anchor": [
           46.885,
           29.221
         ],
-        "nudge": 261,
+        "nudge": 323,
         "radius": 18.298
       },
       {
         "id": "Bedda6bf8",
-        "x": -18.943,
-        "z": 106.833,
+        "x": -38.072,
+        "z": 101.029,
         "anchor": [
           -20.093,
           88.928
         ],
-        "nudge": 287,
+        "nudge": 347,
         "radius": 29.489
       },
       {
         "id": "Bf86ee95f",
-        "x": 24.726,
-        "z": 123.863,
+        "x": 22.028,
+        "z": 123.433,
         "anchor": [
           -4.125,
           98.694
         ],
-        "nudge": 613,
+        "nudge": 576,
         "radius": 11.667
       }
     ],
     "metrics": {
       "overlaps": 0,
-      "minGap": 2.8,
-      "medianGap": 3.872,
-      "maxGap": 6.608,
-      "fill": 79.697,
-      "hullUnits": 51117,
-      "maxNudgeMetres": 870,
-      "medianNudgeMetres": 366
+      "minGap": 1.111,
+      "medianGap": 3.659,
+      "maxGap": 7.975,
+      "fill": 81.216,
+      "hullUnits": 51404,
+      "maxNudgeMetres": 576,
+      "medianNudgeMetres": 552
     }
   },
   "media": [],
@@ -39492,7 +39447,7 @@
           ],
           "progressStage": 5,
           "progressLabel": "Dopunjen pasoš sa tabelom izvora i AI Studio (09.11)",
-          "status": "Pasoš Vladičanskog dvora u Vršcu dopunjen tabelom o vladičanskoj riznici, portretima Georgija Popovića i Jovana Georgijevića i radovima Mojsija Subotića (ukupno 27 zapisa sa izvorima) uz novi link AI Studio aplikacije (09.11).",
+          "status": "Pasoš Vladičanskog dvora u Vršcu dopunjen tabelom o vladičanskoj riznici, portretima Georgija Popovića i Jovana Georgijevića i radovima Mojsija Subotića (ukupno 22 zapisa sa izvorima) uz novi link AI Studio aplikacije (09.11).",
           "hasPassport": true,
           "claimsCount": 22
         },

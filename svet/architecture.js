@@ -16,7 +16,8 @@
  ['Sava Centar (tim 2)','Sava Centar'],
  ['Zgrada rektorata (Kapetan Mišino zdanje)','Kapetan Mišino zdanje'],
  ['Palata Beograd (Beograđanka) (tim 4)','Palata Beograd (Beograđanka)'],
- ['Palata Beograd (Beograđanka) — projektovanje i statika','Palata Beograd (Beograđanka)']
+ ['Palata Beograd (Beograđanka) — projektovanje i statika','Palata Beograd (Beograđanka)'],
+ ['Gardoš kula, Zemun','Gardoš / Milenijumska kula']
  ].map(([alias,name])=>[fold(alias),name]));
  const canonicalObject=name=>objectAliases.get(fold(name))||name;
  function buildings(data){const groups=new Map();

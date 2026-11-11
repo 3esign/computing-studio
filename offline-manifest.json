@@ -1,6 +1,6 @@
 {
-  "version": "d66a4060af4693b4",
-  "bytes": 65239406,
+  "version": "f824eee8f6ae4cfb",
+  "bytes": 66072291,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -104,6 +104,7 @@
     "svet/data/revisions/r-0323938c69cdbf17.json",
     "svet/data/revisions/r-03fa28a595a6b693.json",
     "svet/data/revisions/r-0422f4c032a2d7d1.json",
+    "svet/data/revisions/r-0558a8dfdcc49482.json",
     "svet/data/revisions/r-10ec73e26289069a.json",
     "svet/data/revisions/r-1240ba700978265e.json",
     "svet/data/revisions/r-1972f0235e5742fd.json",
