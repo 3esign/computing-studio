@@ -179,20 +179,20 @@
         "T37",
         "T49"
       ],
-      "sr": "Narodno pozorište (T37): u belešci sa konsultacija 12.10. zavedeno je „33/26 ?, 36/26, 186/26“, dok je 33/26 (OA) potvrđen u T49, a link AI Studio aplikacije za T37 od 09.11. predat je bez brojeva indeksa.",
-      "en": "National Theatre (T37): the consultation note of 12 Oct lists “33/26 ?, 36/26, 186/26”, whereas 33/26 (Architecture) is confirmed in T49, and the T37 AI Studio link of 9 Nov arrived without index numbers.",
-      "askSr": "T37: potvrdite sve brojeve indeksa i oznake smera članova tima (posebno zapis „33/26 ?“) i pošaljite digitalni pasoš.",
-      "askEn": "T37: confirm all member index numbers and programme suffixes (especially “33/26 ?”) and submit the digital passport."
+      "sr": "Narodno pozorište (T37): u belešci sa konsultacija 12.10. zavedeno je „33/26 ?, 36/26, 186/26“, dok je 33/26 (OA) na konsultacijama i u mejlu od 09.11. potvrđen u T49. Za T37 je 09.11. predat link AI Studio aplikacije bez brojeva indeksa i na konsultacijama potvrđeno da je pasoš poslat u dva mejla, ali fajl pasoša nije stigao u izvozu.",
+      "en": "National Theatre (T37): the consultation note of 12 Oct lists “33/26 ?, 36/26, 186/26”, whereas 33/26 (Architecture) was confirmed in T49 at the 9 Nov consultations and by email. For T37 the AI Studio link arrived on 9 Nov without index numbers and the team reported at consultations that the passport was sent in two emails, but the passport file did not arrive in the export.",
+      "askSr": "T37: potvrdite sve brojeve indeksa i oznake smera članova tima (posebno zapis „33/26 ?“) i ponovo pošaljite prilog digitalnog pasoša.",
+      "askEn": "T37: confirm all member index numbers and programme suffixes (especially “33/26 ?”) and resend the digital passport attachment."
     },
     {
       "id": "n-t06-indeksi",
       "teams": [
         "T06"
       ],
-      "sr": "Gardoš (T06): 09.11. predat je link AI Studio aplikacije i 7 fotografija glinene makete utvrđenja (dodeljeno T06 prema skici sa konsultacija 02.11), ali mejl ne navodi broj indeksa podnosioca, dok se brojevi 8/26 i 27/26 iz registra T06 javljaju u još po jednom timu.",
-      "en": "Gardoš (T06): on 9 Nov an AI Studio link and 7 photographs of the clay fortress model arrived (assigned to T06 by matching the 2 Nov consultation sketch), without the sender’s index number, while 8/26 and 27/26 in T06 overlap with other teams.",
-      "askSr": "T06: potvrdite pun spisak indeksa (uključujući indeks članice koja je poslala glinenu maketu i AI Studio) i oznake smera.",
-      "askEn": "T06: confirm the full list of indices (including the member who submitted the clay model and AI Studio) and programme suffixes."
+      "sr": "Gardoš (T06): 09.11. predati su link AI Studio aplikacije i 7 fotografija makete utvrđenja u stiroporu i glini (potvrđeno i na konsultacijama 09.11), ali mejl ne navodi broj indeksa podnosioca, dok se brojevi 8/26 i 27/26 iz registra T06 javljaju u još po jednom timu.",
+      "en": "Gardoš (T06): on 9 Nov an AI Studio link and 7 photographs of the styrofoam/clay fortress model arrived (confirmed at the 9 Nov consultations), without the sender’s index number, while 8/26 and 27/26 in T06 overlap with other teams.",
+      "askSr": "T06: potvrdite pun spisak indeksa (uključujući indeks članice koja je poslala maketu i AI Studio) i oznake smera.",
+      "askEn": "T06: confirm the full list of indices (including the member who submitted the model and AI Studio) and programme suffixes."
     },
     {
       "id": "n-t39-indeks-32",
@@ -200,10 +200,10 @@
         "T39",
         "T12"
       ],
-      "sr": "Belgrade Business House (T39): raniji mejl od 01.11. navodi indekse 162/26 i 32/26, registar vodi 34/26 i 162/26 (dok je 32/26 u T12), a tabelarni pasoš i skica makete od 09–10.11. ne navode brojeve indeksa.",
-      "en": "Belgrade Business House (T39): the earlier email of 1 Nov cites 162/26 and 32/26, the register lists 34/26 and 162/26 (while 32/26 is in T12), and the tabular passport and model sketch of 9–10 Nov omit index numbers.",
-      "askSr": "T39: potvrdite da li je drugi indeks u timu 32/26 (sa oznakom smera) ili 34/26.",
-      "askEn": "T39: confirm whether the second index in the team is 32/26 (with programme suffix) or 34/26."
+      "sr": "Belgrade Business House (T39): raniji mejl od 01.11. navodi indekse 162/26 i 32/26, registar vodi 34/26 i 162/26 (dok je 32/26 u T12), a na konsultacijama 09.11. najavljeno je da će tim javiti konačan sastav vezano za promenu grupa.",
+      "en": "Belgrade Business House (T39): the earlier email of 1 Nov cites 162/26 and 32/26, the register lists 34/26 and 162/26 (while 32/26 is in T12), and at the 9 Nov consultations the team announced they would confirm the final group membership.",
+      "askSr": "T39: javite konačan sastav tima i potvrdite da li je drugi indeks 32/26 (sa oznakom smera) ili 34/26.",
+      "askEn": "T39: report the final team composition and confirm whether the second index is 32/26 (with programme suffix) or 34/26."
     },
     {
       "id": "n-t32-prilog-pasosa",
@@ -224,6 +224,24 @@
       "en": "Church of Saint Sava (T43): the updated passport of 10 Nov added links for construction phases and new data on dimensions, the 24 bronze doors and the crypt, but several claims still carry the placeholder “-izvor” instead of an actual source.",
       "askSr": "T43: zamenite preostale oznake „-izvor“ tačnim linkovima ili bibliografskim podacima.",
       "askEn": "T43: replace the remaining “-izvor” placeholders with exact links or bibliographic citations."
+    },
+    {
+      "id": "n-t25-dva-objekta",
+      "teams": [
+        "T25"
+      ],
+      "sr": "SIV i Generalštab (T25): petočlani tim obrađuje dva objekta (Palata Srbije i Generalštab); na konsultacijama 09.11. evidentirano je da je pasoš za oba objekta poslat spojeno kao jedan dokument (vraćeno na format tabele podatak → izvor), da stiže nova verzija AI Studio aplikacije i da je jedan prototip makete gotov, dok se druga maketa čeka na kolokvijumu 16.11.",
+      "en": "Palace of Serbia and Generalštab (T25): the five-member team covers two buildings; at the 9 Nov consultations it was noted that the passport for both buildings was sent combined as a single document (returned for claim → source table formatting), a new version of the AI Studio app is forthcoming, and one model prototype is ready while the second model is awaited at the 16 Nov colloquium.",
+      "askSr": "T25: pošaljite tabelarnu verziju pasoša (podatak → izvor) odvojeno po objektu i link nove verzije AI Studio aplikacije.",
+      "askEn": "T25: send the tabular passport version (claim → source) per building and the link to the new AI Studio application."
+    },
+    {
+      "id": "n-183-7-broj-tima",
+      "teams": [],
+      "sr": "Indeksi 183/26 i 7/26 (tim prisutan na prvom predavanju i na konsultacijama 09.11): čekaju se naziv objekta, digitalni pasoš sa izvorima, link AI Studio aplikacije i skica makete kako bi tim dobio broj tima u registru.",
+      "en": "Indices 183/26 and 7/26 (team present at the first lecture and at the 9 Nov consultations): the building name, sourced digital passport, AI Studio application link and model sketch are awaited so that the team can be assigned a team number in the register.",
+      "askSr": "183/26 i 7/26: pošaljite naziv objekta, digitalni pasoš, AI Studio link i skicu makete da biste dobili broj tima.",
+      "askEn": "183/26 and 7/26: send the building name, digital passport, AI Studio link and model sketch to receive your team number."
     },
     {
       "id": "n-skice-kolokvijum",
