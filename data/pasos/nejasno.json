@@ -271,6 +271,73 @@
       "en": "Ahead of the colloquium on 16 Nov, a digital trace of sketches (hand-drawn material) exists for {skice} of {timova} teams, and of the AI application for {ai}. Other teams may be working, but the record does not see it.",
       "askSr": "Svi timovi: pošaljite fotografije skica i link AI aplikacije pre 16.11.",
       "askEn": "All teams: send photographs of your sketches and the AI application link before 16 Nov."
+    },
+    {
+      "id": "n-t24-t61-skice",
+      "teams": [
+        "T24",
+        "T61"
+      ],
+      "sr": "Stara pošta (T24): šest skica od 14.11. zavedeno je kod T24 jer mejl kaže „tim 24“, ali se pošiljalac u registru vodi u T61; indeks 14/26 stoji u oba tima (i kod T79).",
+      "en": "Old Post Office (T24): six sketches from 14 Nov are filed under T24 because the email says “team 24”, but the sender is registered in T61; index 14/26 appears in both teams (and in T79).",
+      "askSr": "T24/T61: potvrdite kom timu pripadaju skice i ko nosi indeks 14/26.",
+      "askEn": "T24/T61: confirm which team the sketches belong to and who holds index 14/26."
+    },
+    {
+      "id": "n-indeks-47",
+      "teams": [
+        "T25",
+        "T29"
+      ],
+      "sr": "Indeks 47/26 stoji i u T25 (SIV i Generalštab) i u T29 (Hotel Moskva, enterijer).",
+      "en": "Index 47/26 appears both in T25 (SIV and General Staff) and T29 (Hotel Moskva, interior).",
+      "askSr": "T25/T29: potvrdite u kom timu je student sa indeksom 47/26.",
+      "askEn": "T25/T29: confirm which team the student with index 47/26 belongs to."
+    },
+    {
+      "id": "n-t74-indeksi",
+      "teams": [
+        "T74",
+        "T47",
+        "T20"
+      ],
+      "sr": "T74 je 14.11. naveo indekse 7/26, 12/26 i 44/26, ali 12/26 se vodi u T47, a 44/26 u T20.",
+      "en": "On 14 Nov T74 listed indexes 7/26, 12/26 and 44/26, but 12/26 is registered in T47 and 44/26 in T20.",
+      "askSr": "T74: potvrdite brojeve indeksa i oznake smera svih članova.",
+      "askEn": "T74: confirm the index numbers and programme suffixes of all members."
+    },
+    {
+      "id": "n-t30-t77-poreklo",
+      "teams": [
+        "T30",
+        "T77"
+      ],
+      "sr": "Kapetan Mišino zdanje (T30) i Geneks kula (T77): delovi pasoša liče na generisan tekst (terenske beleške iz 2024. bez imena, šablonski redovi), pa su svi zapisi objavljeni kao nepotvrđeni.",
+      "en": "Captain Miša's Mansion (T30) and Genex Tower (T77): parts of the passports read like generated text (2024 field notes without names, template lines), so all claims are published as unconfirmed.",
+      "askSr": "T30/T77: navedite proverljive izvore za ključne zapise.",
+      "askEn": "T30/T77: provide verifiable sources for the key claims."
+    },
+    {
+      "id": "n-t08-tabele",
+      "teams": [
+        "T08"
+      ],
+      "sr": "T08: tabele iz predatog dokumenta (mesečna proizvodnja, uštede) još nisu unete u pasoš.",
+      "en": "T08: tables from the submitted document (monthly production, savings) are not yet in the passport.",
+      "askSr": "T08: potvrdite izvor podataka u tabelama.",
+      "askEn": "T08: confirm the data source for the tables."
+    },
+    {
+      "id": "n-t01-resetka",
+      "teams": [
+        "T01",
+        "T02",
+        "T03"
+      ],
+      "sr": "Iz zajedničkog mejla T01, T02 i T03 skica i maketa sa crvenom rešetkom dodeljene su T01 po isključenju.",
+      "en": "From the joint T01/T02/T03 email, the sketch and model with the red grid were assigned to T01 by elimination.",
+      "askSr": "T01–T03: potvrdite čija je skica i maketa sa crvenom rešetkom.",
+      "askEn": "T01–T03: confirm whose sketch and model with the red grid it is."
     }
   ]
 }
