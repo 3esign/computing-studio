@@ -671,6 +671,144 @@
       "recordedAt": "2026-11-11T23:16:05.581Z",
       "claims": 1301,
       "file": "r-3953f08a7a72c0f1.json"
+    },
+    {
+      "id": "r-b1f9e6de682690da",
+      "recordedAt": "2026-11-14T00:06:24.183Z",
+      "claims": 1301,
+      "file": "r-b1f9e6de682690da.json"
+    },
+    {
+      "id": "r-2ac565cb9ea795a8",
+      "recordedAt": "2026-11-14T09:17:29.960Z",
+      "claims": 1301,
+      "file": "r-2ac565cb9ea795a8.json"
+    },
+    {
+      "id": "r-dd0796b273450aac",
+      "recordedAt": "2026-11-14T13:49:40.106Z",
+      "claims": 1301,
+      "file": "r-dd0796b273450aac.json"
+    },
+    {
+      "id": "r-cc349f55845c8e0d",
+      "recordedAt": "2026-11-14T13:49:54.273Z",
+      "claims": 1317,
+      "file": "r-cc349f55845c8e0d.json"
+    },
+    {
+      "id": "r-66fecfdfd7bc93e8",
+      "recordedAt": "2026-11-14T13:49:56.599Z",
+      "claims": 1341,
+      "file": "r-66fecfdfd7bc93e8.json"
+    },
+    {
+      "id": "r-7b2caa87ce3874d0",
+      "recordedAt": "2026-11-14T13:49:59.033Z",
+      "claims": 1366,
+      "file": "r-7b2caa87ce3874d0.json"
+    },
+    {
+      "id": "r-f87a18f5d414f9da",
+      "recordedAt": "2026-11-14T13:50:01.527Z",
+      "claims": 1366,
+      "file": "r-f87a18f5d414f9da.json"
+    },
+    {
+      "id": "r-cf473224236609e6",
+      "recordedAt": "2026-11-14T13:50:04.183Z",
+      "claims": 1372,
+      "file": "r-cf473224236609e6.json"
+    },
+    {
+      "id": "r-a7a0141e036c68a7",
+      "recordedAt": "2026-11-14T13:50:06.654Z",
+      "claims": 1400,
+      "file": "r-a7a0141e036c68a7.json"
+    },
+    {
+      "id": "r-ccb825f76717846f",
+      "recordedAt": "2026-11-14T13:50:09.152Z",
+      "claims": 1435,
+      "file": "r-ccb825f76717846f.json"
+    },
+    {
+      "id": "r-971822e8238162b7",
+      "recordedAt": "2026-11-14T13:50:11.806Z",
+      "claims": 1453,
+      "file": "r-971822e8238162b7.json"
+    },
+    {
+      "id": "r-b5ef5ed6ef1728f2",
+      "recordedAt": "2026-11-14T13:50:14.414Z",
+      "claims": 1487,
+      "file": "r-b5ef5ed6ef1728f2.json"
+    },
+    {
+      "id": "r-522aad3f255bbb81",
+      "recordedAt": "2026-11-14T13:50:17.208Z",
+      "claims": 1515,
+      "file": "r-522aad3f255bbb81.json"
+    },
+    {
+      "id": "r-bd26bda94131cb97",
+      "recordedAt": "2026-11-14T13:50:19.759Z",
+      "claims": 1528,
+      "file": "r-bd26bda94131cb97.json"
+    },
+    {
+      "id": "r-3356386b055d4bac",
+      "recordedAt": "2026-11-14T13:50:22.484Z",
+      "claims": 1537,
+      "file": "r-3356386b055d4bac.json"
+    },
+    {
+      "id": "r-34174144832505b0",
+      "recordedAt": "2026-11-14T13:50:25.035Z",
+      "claims": 1571,
+      "file": "r-34174144832505b0.json"
+    },
+    {
+      "id": "r-0877df8753cab626",
+      "recordedAt": "2026-11-14T13:50:27.991Z",
+      "claims": 1589,
+      "file": "r-0877df8753cab626.json"
+    },
+    {
+      "id": "r-599c1b794547b23e",
+      "recordedAt": "2026-11-14T13:50:30.774Z",
+      "claims": 1600,
+      "file": "r-599c1b794547b23e.json"
+    },
+    {
+      "id": "r-ef139fdeb83f0165",
+      "recordedAt": "2026-11-14T13:50:33.391Z",
+      "claims": 1617,
+      "file": "r-ef139fdeb83f0165.json"
+    },
+    {
+      "id": "r-d771cb717572bcad",
+      "recordedAt": "2026-11-14T13:50:35.908Z",
+      "claims": 1652,
+      "file": "r-d771cb717572bcad.json"
+    },
+    {
+      "id": "r-a3d0f6e605de03dd",
+      "recordedAt": "2026-11-14T13:54:08.516Z",
+      "claims": 1652,
+      "file": "r-a3d0f6e605de03dd.json"
+    },
+    {
+      "id": "r-78c270911533fe2f",
+      "recordedAt": "2026-11-14T13:55:08.774Z",
+      "claims": 1652,
+      "file": "r-78c270911533fe2f.json"
+    },
+    {
+      "id": "r-5ba53714ddfff716",
+      "recordedAt": "2026-11-14T13:55:11.260Z",
+      "claims": 1652,
+      "file": "r-5ba53714ddfff716.json"
     }
   ]
 }

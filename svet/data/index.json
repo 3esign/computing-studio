@@ -1,14 +1,14 @@
 {
-  "datasetRevision": "r-3953f08a7a72c0f1",
-  "registeredTeams": 76,
-  "curatedPassportsCount": 64,
-  "totalCuratedClaims": 1301,
+  "datasetRevision": "r-5ba53714ddfff716",
+  "registeredTeams": 77,
+  "curatedPassportsCount": 73,
+  "totalCuratedClaims": 1652,
   "passports": [
     {
       "id": "T01",
       "object": "Osnovna škola „Laza Kostić”",
-      "sections": 9,
-      "claims": 30
+      "sections": 11,
+      "claims": 46
     },
     {
       "id": "T02",
@@ -43,14 +43,20 @@
     {
       "id": "T07",
       "object": "Hotel Zlatibor, Užice",
-      "sections": 3,
-      "claims": 8
+      "sections": 7,
+      "claims": 32
     },
     {
       "id": "T08",
       "object": "Zgrada u Kalemegdan parku",
       "sections": 3,
       "claims": 10
+    },
+    {
+      "id": "T09",
+      "object": "Dorćol centar",
+      "sections": 5,
+      "claims": 25
     },
     {
       "id": "T10",
@@ -103,14 +109,20 @@
     {
       "id": "T18",
       "object": "Palata Beograd (Beograđanka)",
-      "sections": 3,
-      "claims": 16
+      "sections": 4,
+      "claims": 22
     },
     {
       "id": "T19",
       "object": "Zgrada tehničkih fakulteta",
       "sections": 4,
       "claims": 16
+    },
+    {
+      "id": "T20",
+      "object": "Narodni muzej",
+      "sections": 4,
+      "claims": 28
     },
     {
       "id": "T21",
@@ -137,6 +149,12 @@
       "claims": 5
     },
     {
+      "id": "T25",
+      "object": "SIV i Generalštab (dva objekta)",
+      "sections": 5,
+      "claims": 35
+    },
+    {
       "id": "T26",
       "object": "Sportski centar „25. Maj” — kula „Dunavski cvet” (danas Sky Wellness)",
       "sections": 3,
@@ -155,10 +173,28 @@
       "claims": 29
     },
     {
+      "id": "T29",
+      "object": "Hotel Moskva",
+      "sections": 4,
+      "claims": 18
+    },
+    {
+      "id": "T30",
+      "object": "Kapetan Mišino zdanje",
+      "sections": 5,
+      "claims": 34
+    },
+    {
       "id": "T31",
       "object": "Zgrada rektorata (Kapetan Mišino zdanje)",
       "sections": 5,
       "claims": 44
+    },
+    {
+      "id": "T32",
+      "object": "Gimnazija „Slobodan Škerović” u Podgorici",
+      "sections": 4,
+      "claims": 28
     },
     {
       "id": "T33",
@@ -247,14 +283,14 @@
     {
       "id": "T49",
       "object": "Stambena kula „Toblerone”",
-      "sections": 7,
-      "claims": 26
+      "sections": 9,
+      "claims": 39
     },
     {
       "id": "T50",
       "object": "Palata Beograd (Beograđanka)",
-      "sections": 4,
-      "claims": 16
+      "sections": 5,
+      "claims": 25
     },
     {
       "id": "T51",
@@ -293,6 +329,12 @@
       "claims": 7
     },
     {
+      "id": "T57",
+      "object": "Geneks kula (Zapadna kapija)",
+      "sections": 5,
+      "claims": 34
+    },
+    {
       "id": "T58",
       "object": "Zgrada tehničkih fakulteta",
       "sections": 5,
@@ -303,6 +345,12 @@
       "object": "Bajrakli džamija",
       "sections": 3,
       "claims": 11
+    },
+    {
+      "id": "T62",
+      "object": "Palata pravde",
+      "sections": 4,
+      "claims": 18
     },
     {
       "id": "T63",
@@ -325,8 +373,8 @@
     {
       "id": "T66",
       "object": "Hotel Bristol",
-      "sections": 4,
-      "claims": 22
+      "sections": 6,
+      "claims": 33
     },
     {
       "id": "T67",
@@ -361,8 +409,8 @@
     {
       "id": "T72",
       "object": "Ušće Tower (Ušće 1 i 2)",
-      "sections": 2,
-      "claims": 4
+      "sections": 4,
+      "claims": 21
     },
     {
       "id": "T73",
@@ -387,6 +435,12 @@
       "object": "BIGZ (Zgrada Državne štamparije)",
       "sections": 2,
       "claims": 7
+    },
+    {
+      "id": "T77",
+      "object": "Geneks kula (Zapadna kapija Beograda)",
+      "sections": 5,
+      "claims": 35
     }
   ]
 }
