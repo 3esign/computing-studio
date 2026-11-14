@@ -997,7 +997,7 @@
     {
       "id": "t02-silosi",
       "team": "T02",
-      "credit": "26/26 · 50/26",
+      "credit": "26/26g · 50/26",
       "received": "2026-10-12",
       "pdf": "studenti/t02-silosi.pdf",
       "object": {
@@ -17032,7 +17032,7 @@
     {
       "id": "t72",
       "team": "T72",
-      "credit": "129/26 · 18/26 · 69/26",
+      "credit": "129/26 · 18/26g · 96/26",
       "received": "2026-11-08",
       "object": {
         "name": "Ušće Tower (Ušće 1 i 2)"
@@ -23662,5 +23662,5 @@
       "state": "zavedeno 2026-10-19 — registar timova: docs/data/pasos/timovi-evidencija.json (28 stavki, 5 otvorenih pitanja)"
     }
   ],
-  "datasetRevision": "r-20299e33212d0450"
+  "datasetRevision": "r-7f853c708db69bb2"
 }

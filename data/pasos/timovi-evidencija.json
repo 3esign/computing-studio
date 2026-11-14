@@ -38,7 +38,7 @@
     {
       "id": "T02",
       "indices": [
-        "26/26",
+        "26/26g",
         "50/26"
       ],
       "object": "Silosi Beograd",
@@ -46,7 +46,7 @@
       "topic": "Industrijsko nasleđe i revitalizacija silosa žita",
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš",
-      "status": "Kuriran pilot pasoš (28 zapisa) i predata ručno crtana tabla „Silosi Beograd\" (P1–P7, 31.10) u galeriji; obavljene konsultacije (09.11) — čekaju se pojedinačna AI Studio aplikacija i skica makete.",
+      "status": "Kuriran pilot pasoš (28 zapisa), ručno crtana tabla „Silosi Beograd\" (P1–P7, 31.10), nova skica i fotografije prototipa makete (14.11) u galeriji; obavljene konsultacije (09.11) — čeka se pojedinačna AI Studio aplikacija.",
       "submissionsCount": 12,
       "hasPassport": true,
       "flags": [
@@ -67,7 +67,7 @@
       "topic": "Kongresni kompleks i savremena rekonstrukcija",
       "progressStage": 5,
       "progressLabel": "Pasoš i prilozi o materijalima na sajtu (08.11)",
-      "status": "Prilog pasoša (23.10) i dva priloga o materijalima izgradnje i staklenoj fasadi/rekonstrukciji Sava centra (08.11, 34 zapisa) kurirani u javni sloj (dopuniti izvore uz pojedinačne tvrdnje); obavljene konsultacije (09.11) — čekaju se AI Studio i skice makete.",
+      "status": "Prilog pasoša (23.10) i dva priloga o materijalima izgradnje i staklenoj fasadi/rekonstrukciji Sava centra (08.11, 34 zapisa) kurirani u javni sloj (dopuniti izvore uz pojedinačne tvrdnje); skice 3D mape i prototip makete u galeriji (14.11) — čeka se pojedinačna AI Studio aplikacija.",
       "submissionsCount": 15,
       "hasPassport": true,
       "flags": [
@@ -197,7 +197,7 @@
       "topic": "Energetska efikasnost i savremeni stambeno-poslovni blok",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (14.11)",
-      "status": "Prvi pasoš na sajtu (14.11): Dorćol centar — energetska efikasnost, 25 zapisa; solarni scenario je pretpostavka tima i označen je kao nepotvrđen, 4 praznine navedene kao nepoznato. Predata aksonometrija podataka.",
+      "status": "Prvi pasoš na sajtu (14.11): Dorćol centar — energetska efikasnost, 25 zapisa; solarni scenario je pretpostavka tima i označen je kao nepotvrđen, 4 praznine navedene kao nepoznato. Predati aksonometrija podataka i link AI Studio aplikacije (14.11).",
       "submissionsCount": 4,
       "hasPassport": true,
       "flags": [],
@@ -238,7 +238,7 @@
       "topic": "Monumentalna sakralna arhitektura, kupola, materijali i izvođenje",
       "progressStage": 4,
       "progressLabel": "Pasoš sa ispravljenim izvorima (14.11)",
-      "status": "Pasoš (14 zapisa) sa ispravljenim izvorima (14.11): tačne adrese strana umesto početnih, podatak o bakarnom limu vezan za novi izvor; 2 geometrijska prikaza Hrama (08.11) u galeriji.",
+      "status": "Pasoš (14 zapisa) sa ispravljenim izvorima i linkom AI Studio aplikacije (14.11): tačne adrese strana umesto početnih, podatak o bakarnom limu vezan za novi izvor; 2 geometrijska prikaza Hrama (08.11) u galeriji.",
       "submissionsCount": 6,
       "hasPassport": true,
       "flags": [
@@ -407,7 +407,7 @@
       "topic": "Proces gradnje (1925–1931), Nikola Nestorović i Branko Tanazević, simboli inženjerstva",
       "progressStage": 6,
       "progressLabel": "Dopunjen pasoš sa izvorima i skica (08.11)",
-      "status": "Kuriran pilot pasoš i dopuna pasoša P1–P9 (hronologija 1846–21. vek sa 11 izvora, uključujući Digitalnu NBS Politika 1923/1926, 08.11); predata i skica sa konsultacija.",
+      "status": "Kuriran pilot pasoš i dopuna pasoša P1–P9 (hronologija 1846–21. vek sa 11 izvora, uključujući Digitalnu NBS Politika 1923/1926, 08.11); predati skica sa konsultacija i link AI Studio sajta (14.11).",
       "submissionsCount": 5,
       "hasPassport": true,
       "flags": [
@@ -428,7 +428,7 @@
       "topic": "Materijali, fasada od veštačkog kamena, krovna konstrukcija i svetlarnici",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (14.11)",
-      "status": "Prvi pasoš na sajtu (14.11): Narodni muzej — razvoj i materijali (P1–P10), 28 zapisa sa izvorom uz svaku tačku; godina dogradnje upisana kao protivrečnost izvora.",
+      "status": "Prvi pasoš na sajtu (14.11): Narodni muzej — razvoj i materijali (P1–P10), 28 zapisa sa izvorom uz svaku tačku; godina dogradnje upisana kao protivrečnost izvora. Predati skica, prototip makete i link veb aplikacije (14.11).",
       "submissionsCount": 5,
       "hasPassport": true,
       "flags": [],
@@ -448,7 +448,7 @@
       "progressStage": 5,
       "progressLabel": "Istraživanje na sajtu (29.10)",
       "status": "Radna verzija istraživanja „Dve kule Beograd“ kurirana u javni sloj (29.10): hronologija 2014–2019 sa 9 izvora, izvedeni objekat po SOM-u, 7 otvorenih pitanja; sajt tima vezan kao izvor. Na konsultacijama 02.11 predat crtež razvoja kule (220 → ~200 → 168 m).",
-      "submissionsCount": 3,
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
         "Ispravka registra 03.11: istraživanje Kule Beograd (prijem 27.10), sajt tima i crtež sa konsultacija 02.11 pripadaju ovom timu (indeksi po zapisu konsultacija 12.10); do 03.11 bili su pogrešno upisani pod T44. Tim indekse u predajama nije naveo — potvrditi pri sledećoj predaji.",
@@ -554,8 +554,8 @@
       "location": "Tadeuša Košćuška 63, Beograd",
       "topic": "Ivan Antić, prenapregnuti beton, geometrija heksagona, istorijat kule",
       "progressStage": 5,
-      "progressLabel": "Pasoš, skice i arhivska građa (09.11)",
-      "status": "Kuriran pilot pasoš (12 zapisa) i skice sa konsultacija u galeriji (02.11); na konsultacijama (09.11) doneta građa iz arhive (3 slike) — čeka se AI Studio aplikacija.",
+      "progressLabel": "Pasoš, AI Studio, skice i arhivska građa (14.11)",
+      "status": "Kuriran pilot pasoš (12 zapisa) i skice sa konsultacija u galeriji (02.11); na konsultacijama (09.11) doneta građa iz arhive (3 slike), a 14.11 predat link AI Studio aplikacije.",
       "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
@@ -574,8 +574,8 @@
       "location": "Vračar, Beograd",
       "topic": "Materijali, mermerne obloge, mozaik, proces gradnje",
       "progressStage": 5,
-      "progressLabel": "Pasoš na sajtu (31.10)",
-      "status": "Ispravljen pasoš materijala Hrama (tabela podatak/izvor, 21 izvor sa linkom) kuriran u javni sloj (31.10): 94 zapisa u 16 poglavlja po materijalu, 8 praznina koje tim sam beleži; na konsultacijama (09.11) potvrđeno da se čekaju AI Studio aplikacija i skice makete.",
+      "progressLabel": "Pasoš i AI Studio na sajtu (14.11)",
+      "status": "Ispravljen pasoš materijala Hrama (tabela podatak/izvor, 21 izvor sa linkom) kuriran u javni sloj (31.10): 94 zapisa u 16 poglavlja po materijalu, 8 praznina koje tim sam beleži; predat link AI Studio aplikacije (14.11) — čekaju se skice makete.",
       "submissionsCount": 3,
       "hasPassport": true,
       "flags": [
@@ -618,7 +618,7 @@
       "topic": "Jovan Ilkić, secesija, keramika Žolnai, specifičnosti enterijera",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (14.11)",
-      "status": "Prvi pasoš na sajtu (14.11): Hotel Moskva — enterijer, 18 zapisa (9 sa izvorom uz podatak, 9 nepotvrđenih); obavljene konsultacije (09.11).",
+      "status": "Prvi pasoš na sajtu (14.11): Hotel Moskva — enterijer, 18 zapisa (9 sa izvorom uz podatak, 9 nepotvrđenih); predati link AI Studio aplikacije, skica i 3 fotografije prototipa makete (14.11).",
       "submissionsCount": 6,
       "hasPassport": true,
       "flags": [],
@@ -819,12 +819,12 @@
       "location": "Strahinjića Bana 73, Dorćol, Beograd",
       "topic": "Savremena poslovna zgrada, staklena zavesa, energetski bilans",
       "progressStage": 5,
-      "progressLabel": "Tabelarni pasoš, AI Studio i skica makete na sajtu (10.11)",
-      "status": "Tabelarni pasoš objekta Belgrade Business House (8 zapisa u 7 celina sa izvorima: Zelena gradnja, ArchDaily, Arhitekton, Gradnja.rs, katastar) kuriran u javni sloj (09.11); predat AI Studio prototip i skica makete u galeriji (10.11), a sa konsultacija (09.11) čeka se potvrda oko promene grupa.",
+      "progressLabel": "Tabelarni pasoš, AI Studio, skica i prototip makete (14.11)",
+      "status": "Tabelarni pasoš objekta Belgrade Business House (8 zapisa u 7 celina sa izvorima: Zelena gradnja, ArchDaily, Arhitekton, Gradnja.rs, katastar) kuriran u javni sloj (09.11); predati AI Studio prototip, skica makete (10.11) i fotografija prototipa makete uz potvrdu indeksa 34/26 i 162/26 (14.11).",
       "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
-        "Prijem 01.11: mejl navodi indekse 162/26 i 32/26, registar vodi 34/26 — da potvrdi profesor. Profesor: obogatiti i unaprediti aplikaciju, nastaviti sa skicom/maketom."
+        "Prijem 14.11: potvrđeni indeksi tima 34/26 i 162/26 uz predaju prototipa makete (razrešena ranija nejasnoća sa 32/26 iz mejla 01.11)."
       ],
       "claimsCount": 8,
       "sectionsCount": 3
@@ -972,7 +972,7 @@
       "topic": "Lavoslav Horvat, monumentalni dunavski front, istorijat i pitanje rušenja/rekonstrukcije",
       "progressStage": 6,
       "progressLabel": "Završen pasoš + dopuna",
-      "status": "Pasoš kroz svih sedam celina (19.10) + proširena verzija (26.10) kurirana kao dopuna (29.10): 21 nov zapis, 6 novih izvora.",
+      "status": "Pasoš kroz svih sedam celina (19.10) + proširena verzija (26.10) kurirana kao dopuna (29.10): 21 nov zapis, 6 novih izvora; 14.11 predati skica „kroz vreme“ u galeriji i link AI Studio aplikacije.",
       "submissionsCount": 5,
       "hasPassport": true,
       "flags": [],
@@ -1197,8 +1197,8 @@
       "location": "Narodnih heroja 43, Novi Beograd",
       "topic": "Geneks — simbol modernističkog Beograda: konstrukcija, statika i gradnja",
       "progressStage": 5,
-      "progressLabel": "Pasoš na sajtu (14.11)",
-      "status": "Prvi pasoš na sajtu (14.11): Geneks kula, 34 zapisa sa izvorima po poglavlju i razgovorom sa konstruktorkom; protivrečnosti o visini i spratnosti upisane.",
+      "progressLabel": "Pasoš na sajtu, AI Studio i skica 3D mape (14.11)",
+      "status": "Prvi pasoš na sajtu (14.11): Geneks kula, 34 zapisa sa izvorima po poglavlju i razgovorom sa konstruktorkom; protivrečnosti o visini i spratnosti upisane. Predati i PDF skica 3D mape podataka (6 slojeva) i linkovi AI Studio aplikacije (14.11).",
       "submissionsCount": 6,
       "hasPassport": true,
       "flags": [],
@@ -1418,8 +1418,8 @@
       "location": "Bulevar kralja Aleksandra 73, Beograd",
       "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
       "progressStage": 5,
-      "progressLabel": "Pasoš na sajtu (31.10)",
-      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji. Predate skica makete i završena maketa — vremenska osa 1925–2015 (14.11).",
+      "progressLabel": "Pasoš, AI Studio, skica i maketa (14.11)",
+      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji. Predati link AI Studio aplikacije, skica makete (PDF) i završena maketa — vremenska osa 1925–2015 (14.11).",
       "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
@@ -1497,19 +1497,19 @@
       "id": "T72",
       "indices": [
         "129/26",
-        "18/26",
-        "69/26"
+        "18/26g",
+        "96/26"
       ],
       "object": "Ušće Tower (Ušće 1 i 2)",
       "location": "Bulevar Mihajla Pupina 6, Novi Beograd",
       "topic": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
       "progressStage": 5,
       "progressLabel": "Tabelarni pasoš dopunjen (14.11)",
-      "status": "Tabelarni pasoš Ušće Tower 2 (21 zapis): pregled od 08.11 dopunjen 14.11 novom tabelom (17 zapisa: projektanti, fasada, oplata, tehnički sistemi); razlike prema ranijim podacima (klasa, oplata, projektanti) stoje kao zasebni zapisi.",
+      "status": "Tabelarni pasoš Ušće Tower 2 (21 zapis): pregled od 08.11 dopunjen 14.11 novom tabelom (projektanti, fasada, oplata, tehnički sistemi), potvrdom indeksa (129/26, 18/26g, 96/26) i linkom AI Studio aplikacije; razlike prema ranijim podacima stoje kao zasebni zapisi.",
       "submissionsCount": 23,
       "hasPassport": true,
       "flags": [
-        "Izdvojen iz T21 ispravkom registra 03.11: mejlovi 20–25.10 o Ušće Tower 2 pripadaju ovom timu. Indeksi 18/26 i 69/26 iz mejla 24.10 već stoje u T54 i T51 — tim treba da potvrdi indekse (moguće druga godina upisa)."
+        "Izdvojen iz T21 ispravkom registra 03.11: mejlovi 20–25.10 o Ušće Tower 2 pripadaju ovom timu; u mejlu 14.11 potvrđeni indeksi 129/26, 18/26g i 96/26."
       ],
       "claimsCount": 21,
       "sectionsCount": 4
@@ -1653,5 +1653,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-20299e33212d0450"
+  "datasetRevision": "r-7f853c708db69bb2"
 }
