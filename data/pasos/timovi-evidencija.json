@@ -7,9 +7,9 @@
     "sr": "Zvanični javni registar timova: ID tima, brojevi indeksa, dodeljeni objekti, teme istraživanja i faza progresa. Imena studenata su izostavljena radi zaštite privatnosti."
   },
   "totals": {
-    "teams": 77,
-    "objects": 52,
-    "completedPassports": 73
+    "teams": 79,
+    "objects": 54,
+    "completedPassports": 74
   },
   "entries": [
     {
@@ -304,8 +304,8 @@
       "topic": "Barokna arhitektura (1724–1727), podzemni lagumi, građevinski materijali, stanari",
       "progressStage": 6,
       "progressLabel": "Završen pasoš, AI Studio sajt i skica makete (10.11)",
-      "status": "Kuriran pilot pasoš Flajšmanove kuće (35 zapisa) i AI Studio sajt; posle konsultacija (09.11) predata ručno crtana skica 3D makete u galeriji (10.11), čeka se maketa uživo.",
-      "submissionsCount": 4,
+      "status": "Kuriran pilot pasoš Flajšmanove kuće (35 zapisa) i AI Studio sajt; posle konsultacija (09.11) predata ručno crtana skica 3D makete u galeriji (10.11), čeka se maketa uživo. Predata maketa (14.11); razmisliti o vezi sa podlogom.",
+      "submissionsCount": 6,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 35,
@@ -512,8 +512,8 @@
       "topic": "Momir Korunović, srpsko-vizantijski modernizam, posleratno uklanjanje fasade",
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio i skice (09.11)",
-      "status": "Tabelarni dosije Stare pošte na Savskom trgu (BG-ST-POSTA2-1929-2026: 22 parametra u 5 poglavlja i 12 naučnih i dokumentarnih izvora) i AI Studio aplikacija u javnom sloju (08.11); na konsultacijama (09.11) predate odlične skice makete.",
-      "submissionsCount": 2,
+      "status": "Tabelarni dosije Stare pošte na Savskom trgu (BG-ST-POSTA2-1929-2026: 22 parametra u 5 poglavlja i 12 naučnih i dokumentarnih izvora) i AI Studio aplikacija u javnom sloju (08.11); na konsultacijama (09.11) predate odlične skice makete. Šest skica makete stiglo i mejlom (14.11).",
+      "submissionsCount": 9,
       "hasPassport": true,
       "flags": [
         "Prijem 08.11: predat i kuriran tabelarni digitalni pasoš Stare pošte (indeksi u dokumentu: 14/26, 97/26, 193/26)."
@@ -1049,8 +1049,8 @@
       "topic": "Fasada i vidikovac, javni prostori",
       "progressStage": 5,
       "progressLabel": "Pasoš dopunjen (14.11)",
-      "status": "Pasoš Beograđanke (25 zapisa): konstrukcija i fasada (29.10), dopunjeno 14.11 merama sa konstruktivnih crteža (ploče, stubovi, temelji — 7 zapisa bez navedenog izvora, nepotvrđeni) i sa 2 zapisa iz Nasleđa 2022; tabela „izvor: ChatGPT“ ostaje nepotvrđena.",
-      "submissionsCount": 4,
+      "status": "Pasoš Beograđanke (25 zapisa): konstrukcija i fasada (29.10), dopunjeno 14.11 merama sa konstruktivnih crteža (ploče, stubovi, temelji — 7 zapisa bez navedenog izvora, nepotvrđeni) i sa 2 zapisa iz Nasleđa 2022; tabela „izvor: ChatGPT“ ostaje nepotvrđena. Predate još 3 skice makete — kocke i kvadri po vremenskim periodima (14.11).",
+      "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
         "Prijem 28.10 (2. tura): pasoš na doradi (izvori) — čekamo ispravljenu verziju posle Arhiva Beograda.",
@@ -1252,16 +1252,16 @@
       "object": "Sava Centar (tim 2)",
       "location": "Milentija Popovića 9, Novi Beograd",
       "topic": "Istorija izgradnje, arhitektonsko i konstruktivno rešenje, spisak literature",
-      "progressStage": 3,
-      "progressLabel": "Predat spisak izvora",
-      "status": "Predat spisak izvora i koncept",
-      "submissionsCount": 1,
-      "hasPassport": false,
+      "progressStage": 5,
+      "progressLabel": "Pasoš na sajtu (14.11)",
+      "status": "Prvi pasoš na sajtu (14.11): Sava centar — radna verzija 01, 40 zapisa u 5 poglavlja sa 11 izvora; katastar, vlasništvo, spratnost, konstruktivni sistem i energetski pasoš tim navodi kao nepoznato (8 zapisa). Predata i skica objekta.",
+      "submissionsCount": 4,
+      "hasPassport": true,
       "flags": [
         "Deljeni objekat sa T03 (odobreno)"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 40,
+      "sectionsCount": 5
     },
     {
       "id": "T61",
@@ -1294,7 +1294,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (14.11)",
       "status": "Prvi pasoš na sajtu (14.11): Palata pravde, 18 zapisa — nepotvrđeni, vezani za literaturu na kraju podneska; protivrečnost o godinama gradnje upisana.",
-      "submissionsCount": 9,
+      "submissionsCount": 10,
       "hasPassport": true,
       "flags": [
         "Objekat ispravljen 14.11: tim radi Palatu pravde (ranije pogrešno zaveden u klaster Beograđanka)."
@@ -1419,8 +1419,8 @@
       "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (31.10)",
-      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji.",
-      "submissionsCount": 3,
+      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji. Predate skica makete i završena maketa — vremenska osa 1925–2015 (14.11).",
+      "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
         "Indeks 136/26 razrešen: spisak od 26.10. ga je izveo iz T05 u T68 (155/26, 130/26, 136/26)"
@@ -1483,8 +1483,8 @@
       "topic": "Zvanični spisi o objektu i istorija; prikupljanje izvora u tabeli podatak/izvor",
       "progressStage": 5,
       "progressLabel": "Pasoš i AI Studio aplikacija na sajtu (08.11)",
-      "status": "Digitalni pasoš v01 „Kuća arhitekte Jovana Ilkića“ (Miloša Pocerca 32, 59 zapisa) u javnom sloju; predat i link AI Studio aplikacije (08.11).",
-      "submissionsCount": 4,
+      "status": "Digitalni pasoš v01 „Kuća arhitekte Jovana Ilkića“ (Miloša Pocerca 32, 59 zapisa) u javnom sloju; predat i link AI Studio aplikacije (08.11). Predata skica objekta (14.11); maketa treba da prikaže podatke, ne realističan objekat.",
+      "submissionsCount": 6,
       "hasPassport": true,
       "flags": [
         "Prijem 28.10 (2. tura): tim nije bio u registru; upisan po mejlu studenta (indeks 149/2026). Drugi član bez indeksa u mejlu — čeka potvrdu. Lokacija približna.",
@@ -1604,15 +1604,54 @@
       "topic": "Arhitektonski stil Zapadne kapije, tabelarni pregled podataka i intervju sa stanarkom",
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (14.11)",
-      "status": "Prvi pasoš na sajtu (14.11): Geneks kula, 35 zapisa — bibliografija bez adresa, zapisi nepotvrđeni; zasebno poglavlje razgovora sa stanarkom. Predati i aksonometrija podataka, AI Studio aplikacija i sajt.",
-      "submissionsCount": 6,
+      "status": "Prvi pasoš na sajtu (14.11): Geneks kula, 35 zapisa — bibliografija bez adresa, zapisi nepotvrđeni; zasebno poglavlje razgovora sa stanarkom. Predati i aksonometrija podataka, AI Studio aplikacija i sajt. Dopuna 14.11: ručno rađena skica (aksonometrija podataka) u galeriji i monografska studija u PDF-u, čiji je sadržaj već obuhvaćen pasošem.",
+      "submissionsCount": 9,
       "hasPassport": true,
       "flags": [
         "Tim otvoren 14.11 po nalogu profesora; indeksi u podnesku navedeni kao 81/2026oa i 133/2026oa"
       ],
       "claimsCount": 35,
       "sectionsCount": 5
+    },
+    {
+      "id": "T78",
+      "indices": [
+        "00/2026"
+      ],
+      "object": "MIA Dorćol",
+      "location": "Beograd",
+      "topic": "Primena reciklirane opeke; skice idejnog rešenja makete",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (14.11): predate dve skice idejnog rešenja makete; pasoš i AI Studio aplikacija nisu stigli",
+      "submissionsCount": 3,
+      "hasPassport": false,
+      "flags": [
+        "Tim otvoren 14.11 iz mejla sa skicama; indeks nije naveden u predaji — 00/2026 je privremena oznaka do potvrde; lokacija objekta približna"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T79",
+      "indices": [
+        "14/26",
+        "24/26"
+      ],
+      "object": "Zvezdani dom",
+      "location": "Beograd",
+      "topic": "Stambeni objekat na Zvezdari; skica objekta i AI Studio 3D aplikacija",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (14.11): predati skica objekta i link AI Studio aplikacije; priloženi dokument je pasoš drugog objekta (Miloša Pocerca 32), pa pasoš Zvezdanog doma nije stigao",
+      "submissionsCount": 2,
+      "hasPassport": false,
+      "flags": [
+        "Tim otvoren 14.11 iz mejla; indeksi 14/2026 i 24/2026 kako su navedeni u mejlu (14/26 stoji i kod T24 i T61, 24/26 kod T43 — smer nije naveden); priloženi DOCX je isti fajl kao pasoš T71; lokacija objekta približna"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-5ba53714ddfff716"
+  "datasetRevision": "r-20299e33212d0450"
 }

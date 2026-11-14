@@ -1,8 +1,8 @@
 {
-  "datasetRevision": "r-5ba53714ddfff716",
-  "registeredTeams": 77,
-  "curatedPassportsCount": 73,
-  "totalCuratedClaims": 1652,
+  "datasetRevision": "r-20299e33212d0450",
+  "registeredTeams": 79,
+  "curatedPassportsCount": 74,
+  "totalCuratedClaims": 1692,
   "passports": [
     {
       "id": "T01",
@@ -345,6 +345,12 @@
       "object": "Bajrakli džamija",
       "sections": 3,
       "claims": 11
+    },
+    {
+      "id": "T60",
+      "object": "Sava Centar (tim 2)",
+      "sections": 5,
+      "claims": 40
     },
     {
       "id": "T62",

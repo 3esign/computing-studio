@@ -1,6 +1,6 @@
 {
-  "version": "84405a7f3004a2ff",
-  "bytes": 89652277,
+  "version": "760ba788b844f12c",
+  "bytes": 93043417,
   "files": [
     "assets/app.js",
     "assets/atlas-embed.js",
@@ -111,6 +111,7 @@
     "svet/data/revisions/r-1972f0235e5742fd.json",
     "svet/data/revisions/r-1a27a272556a8403.json",
     "svet/data/revisions/r-1cbfb2729d68ed2a.json",
+    "svet/data/revisions/r-20299e33212d0450.json",
     "svet/data/revisions/r-208fcf50e41d8d01.json",
     "svet/data/revisions/r-226b3be40beb6871.json",
     "svet/data/revisions/r-2a0d9c3534ddfd4d.json",
@@ -171,6 +172,7 @@
     "svet/data/revisions/r-841de8630db8481c.json",
     "svet/data/revisions/r-8c90c06882260d56.json",
     "svet/data/revisions/r-8f13f7fa73c08511.json",
+    "svet/data/revisions/r-95473c69467fd4ac.json",
     "svet/data/revisions/r-971822e8238162b7.json",
     "svet/data/revisions/r-9cb9e4928d311bab.json",
     "svet/data/revisions/r-9cede2aa41392031.json",
@@ -205,6 +207,7 @@
     "svet/data/revisions/r-ccb825f76717846f.json",
     "svet/data/revisions/r-cddc6e3c32ae69b5.json",
     "svet/data/revisions/r-cf473224236609e6.json",
+    "svet/data/revisions/r-cff3db9fb56910ad.json",
     "svet/data/revisions/r-d22e806646a3f4ae.json",
     "svet/data/revisions/r-d38d466a63e1a168.json",
     "svet/data/revisions/r-d40a85ed40630b2b.json",
@@ -333,6 +336,8 @@
     "timovi/T74.html",
     "timovi/T75.html",
     "timovi/T76.html",
-    "timovi/T77.html"
+    "timovi/T77.html",
+    "timovi/T78.html",
+    "timovi/T79.html"
   ]
 }

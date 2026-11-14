@@ -1,6 +1,6 @@
 {
   "schema": "or/nejasno@1",
-  "updated": "2026-11-11",
+  "updated": "2026-11-14",
   "note": {
     "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 11.11. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
     "en": "All open questions to the teams in one place, as of the intakes up to 11 Nov. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
@@ -162,6 +162,27 @@
       "en": "BIGZ — 1933 competition authorship (T76): the digital passport with 10 sourced claims and the hand-drawn printer-shaped model sketch arrived on 10 Nov without index numbers, so the team temporarily carries the placeholder 00/2026.",
       "askSr": "T76: pošaljite tačne brojeve indeksa i smer članica tima kako bismo zamenili oznaku 00/2026.",
       "askEn": "T76: send the exact index numbers and programme suffixes of the team members to replace 00/2026."
+    },
+    {
+      "id": "n-t78-indeks",
+      "teams": [
+        "T78"
+      ],
+      "sr": "MIA Dorćol — reciklirana opeka (T78): dve skice idejnog rešenja makete stigle su 14.11. bez broja indeksa i bez digitalnog pasoša, pa tim privremeno nosi oznaku 00/2026; lokacija objekta na karti je približna.",
+      "en": "MIA Dorćol — recycled brick (T78): two concept sketches for the model arrived on 14 Nov without an index number and without a digital passport, so the team temporarily carries the placeholder 00/2026; the building location on the map is approximate.",
+      "askSr": "T78: pošaljite broj indeksa i smer, tačnu adresu objekta, digitalni pasoš sa izvorima i link AI Studio aplikacije.",
+      "askEn": "T78: send your index number and programme, the exact building address, the sourced digital passport and the AI Studio application link."
+    },
+    {
+      "id": "n-t79-pasos",
+      "teams": [
+        "T79",
+        "T71"
+      ],
+      "sr": "Zvezdani dom, Zvezdara (T79): 14.11. stigli su skica objekta i link AI Studio aplikacije, ali je priloženi dokument isti fajl kao pasoš tima T71 (Miloša Pocerca 32), pa pasoš Zvezdanog doma nije primljen. Indeksi 14/2026 i 24/2026 navedeni su bez smera, a 14/26 već stoji kod T24 i T61 i 24/26 kod T43; lokacija objekta na karti je približna.",
+      "en": "Zvezdani dom, Zvezdara (T79): a building sketch and an AI Studio application link arrived on 14 Nov, but the attached document is the same file as team T71's passport (Miloša Pocerca 32), so no passport for Zvezdani dom has been received. Index numbers 14/2026 and 24/2026 were given without a programme, while 14/26 is already listed with T24 and T61 and 24/26 with T43; the building location on the map is approximate.",
+      "askSr": "T79: pošaljite digitalni pasoš Zvezdanog doma sa izvorima, smer uz brojeve indeksa i tačnu adresu objekta.",
+      "askEn": "T79: send the sourced digital passport of Zvezdani dom, your programme alongside the index numbers and the exact building address."
     },
     {
       "id": "n-t34-indeksi",

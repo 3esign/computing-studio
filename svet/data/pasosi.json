@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "datasetRevision": "r-5ba53714ddfff716",
+  "datasetRevision": "r-20299e33212d0450",
   "note": "Kurirani zapisi sa izvorima; nisu nezavisna potvrda.",
   "passports": [
     {
@@ -18561,6 +18561,493 @@
           "id": "S3",
           "label": "Studentski tabelarni podnesak „Bajrakli džamija — Digitalni pasoš“ sa 11 grafičkih priloga (PDF + ZIP, prijem 08.11.2026)",
           "kind": "elaborat"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "T60",
+      "object": "Sava Centar (tim 2)",
+      "sections": [
+        {
+          "id": "identitet-i-zastita",
+          "title": {
+            "sr": "Identitet, istorija i pravni status",
+            "en": "Identity, history and legal status"
+          },
+          "claims": [
+            {
+              "id": "T60:identitet-i-zastita:naziv",
+              "t": "Naziv objekta",
+              "v": "Sava centar — višenamenski kongresni, kulturni, poslovni i komercijalni kompleks",
+              "s": [
+                "S2"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T60:identitet-i-zastita:struktura-kompleksa",
+              "t": "Struktura kompleksa",
+              "v": "Tri međusobno povezane zgrade (funkcionalne celine), formirane u periodu 1977–1979; pasoš ga tretira kao kompleks, a ne kao jednu samostalnu zgradu",
+              "s": [
+                "S2"
+              ],
+              "category": "identity"
+            },
+            {
+              "id": "T60:identitet-i-zastita:adresa",
+              "t": "Adresa",
+              "v": "Milentija Popovića 9, Novi Beograd, Beograd; poslovna zona Novog Beograda, Blok 19 prema javnom adresnom izvoru",
+              "s": [
+                "S4",
+                "S11"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T60:identitet-i-zastita:autor",
+              "t": "Autor izvornog arhitektonskog rešenja",
+              "v": "Arhitekta Stojan Maksimović; projektovanje započeto 1975–1976.",
+              "s": [
+                "S1",
+                "S7"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T60:identitet-i-zastita:godine-izgradnje",
+              "t": "Godine izgradnje",
+              "v": "Gradnja 1976–1979; kongresni deo otvoren u maju 1977.",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T60:identitet-i-zastita:izvorna-namena",
+              "t": "Izvorna namena",
+              "v": "Međunarodni kongresni centar za velike skupove, kulturne programe i prateće poslovne sadržaje; razvoj povezan sa potrebom da Beograd ugosti međunarodne konferencije 1977.",
+              "s": [
+                "S1"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T60:identitet-i-zastita:savremena-namena",
+              "t": "Savremena namena",
+              "v": "Kongresna, kulturna, poslovna i komercijalna funkcija; zvanični sajt navodi 46 sala",
+              "s": [
+                "S6"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T60:identitet-i-zastita:spomenik-kulture",
+              "t": "Status zaštite",
+              "v": "Utvrđen za spomenik kulture Odlukom o utvrđivanju „Sava centra“ u Beogradu za spomenik kulture, „Službeni glasnik RS“ br. 36/2021, str. 26 (9. april 2021)",
+              "s": [
+                "S3"
+              ],
+              "category": "documents"
+            },
+            {
+              "id": "T60:identitet-i-zastita:pritzker-1978",
+              "t": "Nominacija 1978.",
+              "v": "Zvanični sajt navodi nominaciju za Prickerovu nagradu 1978. godine",
+              "s": [
+                "S1"
+              ],
+              "category": "research"
+            }
+          ]
+        },
+        {
+          "id": "urbanizam-i-katastar",
+          "title": {
+            "sr": "Urbanistički kontekst i katastar",
+            "en": "Urban context and cadastre"
+          },
+          "claims": [
+            {
+              "id": "T60:urbanizam-i-katastar:polozaj",
+              "t": "Položaj na lokaciji",
+              "v": "Više povezanih volumena sa glavnim pešačkim pristupom iz Ulice Milentija Popovića i razvijenim javnim pristupnim prostorom; širi kontekst je poslovna zona Novog Beograda i savsko priobalje",
+              "s": [
+                "S1",
+                "S4"
+              ],
+              "category": "location"
+            },
+            {
+              "id": "T60:urbanizam-i-katastar:povrsina-nije-parcela",
+              "t": "Površina kompleksa nije površina parcele",
+              "v": "Oko 100.000 m² je javno objavljena površina kompleksa, a ne površina parcele",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T60:urbanizam-i-katastar:parcela",
+              "t": "Broj i površina katastarske parcele",
+              "v": "Nije potvrđeno javno dostupnim izvodom; tim navodi da treba pribaviti A list i kopiju katastarskog plana (KO Novi Beograd kao polazna identifikacija)",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T60:urbanizam-i-katastar:vlasnistvo",
+              "t": "Vlasništvo, prava i tereti",
+              "v": "Nije potvrđeno; proveriti nosioce prava, oblik svojine, udele, zabeležbe i hipoteke u B i G listu nepokretnosti",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T60:urbanizam-i-katastar:indeksi",
+              "t": "Indeks zauzetosti i izgrađenosti",
+              "v": "Nisu obračunati: nedostaju potvrđena površina parcele, granice građevinske parcele i usaglašene površine svih objekata",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "hronologija",
+          "title": {
+            "sr": "Hronologija i građevinske faze",
+            "en": "Chronology and construction phases"
+          },
+          "claims": [
+            {
+              "id": "T60:hronologija:faza-1-projektovanje",
+              "t": "1975–1976: projektovanje",
+              "v": "Razrada arhitektonskog koncepta pod vođstvom Stojana Maksimovića, sa idejom da se u kratkom roku formira savremeni međunarodni kongresni centar",
+              "s": [
+                "S1",
+                "S3"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T60:hronologija:faza-2-kongresni-deo",
+              "t": "1976–1977: prva realizacija",
+              "v": "Izgradnja i opremanje kongresnog dela; otvoren u maju 1977, u okviru priprema za međunarodni skup KEBS-a",
+              "s": [
+                "S1"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T60:hronologija:faza-3-dovrsetak",
+              "t": "1977–1979: dovršetak kompleksa",
+              "v": "Kompleks dovršen kroz tri međusobno povezane zgrade",
+              "s": [
+                "S2"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T60:hronologija:faza-5-rekonstrukcija",
+              "t": "2021–2024: rekonstrukcija",
+              "v": "Obimna rekonstrukcija uz očuvanje prepoznatljivog arhitektonskog izraza; kongresno-poslovni deo otvoren u novembru 2023, Plava dvorana ponovo otvorena 2024.",
+              "s": [
+                "S1",
+                "S5",
+                "S6"
+              ],
+              "category": "time"
+            },
+            {
+              "id": "T60:hronologija:ulaganje",
+              "t": "Obim ulaganja",
+              "v": "Delta Holding je objavio da je u rekonstrukciju uloženo više od 118 miliona evra",
+              "s": [
+                "S5"
+              ],
+              "category": "research"
+            },
+            {
+              "id": "T60:hronologija:projektant-rekonstrukcije",
+              "t": "Investitor i projektant rekonstrukcije",
+              "v": "Investitor Delta Real Estate; projektant rekonstrukcije Centroprojekt, prema javno objavljenim projektnim informacijama",
+              "s": [
+                "S7"
+              ],
+              "category": "people"
+            },
+            {
+              "id": "T60:hronologija:datumi-se-razlikuju",
+              "t": "Datumi početka rekonstrukcije i promene vlasništva",
+              "v": "Javno dostupni izvori se razlikuju; preciznu administrativnu hronologiju treba zaključiti iz ugovora, dozvola i projektne arhive",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "arhitektura-i-prostor",
+          "title": {
+            "sr": "Arhitektonski koncept, fasade i prostori",
+            "en": "Architectural concept, facades and spaces"
+          },
+          "claims": [
+            {
+              "id": "T60:arhitektura-i-prostor:stilski-okvir",
+              "t": "Stilski okvir",
+              "v": "Kasnomodernistička arhitektura sa izraženim skulpturalnim i brutalističkim akcentima — stilska interpretacija tima na osnovu forme i materijala, a ne kategorija iz odluke o zaštiti",
+              "s": [
+                "S1",
+                "S2"
+              ],
+              "category": "research",
+              "status": "unconfirmed"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:fasadni-izraz",
+              "t": "Fasadni izraz",
+              "v": "Betonski horizontalni elementi i velike ostakljene površine; zadržani su karakteristična ritmika, linije i boja stakala, a rekonstrukcijom je uveden troslojni stakleni omotač",
+              "s": [
+                "S8",
+                "S9"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:ulazi-i-javni-prostori",
+              "t": "Ulazi i javni prostori",
+              "v": "Glavni ulaz iz Ulice Milentija Popovića uvodi u reprezentativni hol i duge komunikacione prostore; sačuvani su mapa sveta, galerijski prostor i odnos betonskih i zelenih površina",
+              "s": [
+                "S2"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:povrsina-kompleksa",
+              "t": "Ukupna površina kompleksa",
+              "v": "Oko 100.000 m² prema zvaničnom sajtu Sava centra",
+              "s": [
+                "S1"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:plava-dvorana",
+              "t": "Plava dvorana",
+              "v": "2.600 m²; kapacitet 4.050 posetilaca; ponovo otvorena 2024.",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:glavna-kongresna-sala",
+              "t": "Glavna kongresna sala",
+              "v": "1.250 m²; kapacitet 1.200 posetilaca",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:immersive-sala",
+              "t": "Immersive sala",
+              "v": "900 m²; kapacitet do 900 osoba; projekcije od 360 stepeni",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:amfiteatar",
+              "t": "Amfiteatar",
+              "v": "560 m²; kapacitet do 500 osoba",
+              "s": [
+                "S6"
+              ],
+              "category": "geometry"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:sale-i-izlozbeni-prostor",
+              "t": "Ostali sadržaji",
+              "v": "Ukupno 46 sala i više od 8.000 m² izložbenog prostora",
+              "s": [
+                "S2",
+                "S6"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:enterijer",
+              "t": "Enterijer",
+              "v": "Reprezentativni holovi, dugačke komunikacije, galerijski prostor i atrijumske celine; u glavnoj sali sačuvane su tapiserije",
+              "s": [
+                "S2",
+                "S6"
+              ],
+              "category": "use"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:spratnost",
+              "t": "Broj etaža",
+              "v": "Javni izvori ne daju jedinstvenu, proverljivu spratnost za sve povezane objekte",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            },
+            {
+              "id": "T60:arhitektura-i-prostor:konstruktivni-sistem",
+              "t": "Konstruktivni sistem",
+              "v": "Nije utvrđen: tim ga ne zaključuje iz spoljašnjeg izgleda; potreban je uvid u originalni statički projekat i elaborat izvedenog stanja",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        },
+        {
+          "id": "materijali-i-energija",
+          "title": {
+            "sr": "Materijalizacija, instalacije i energetski profil",
+            "en": "Materials, services and energy profile"
+          },
+          "claims": [
+            {
+              "id": "T60:materijali-i-energija:eksterijer",
+              "t": "Materijalizacija eksterijera",
+              "v": "Betonske površine, metalni elementi i velika staklena polja; tokom rekonstrukcije sanirane su betonske površine i ugrađeno troslojno staklo sa unapređenom fasadnom stolarijom",
+              "s": [
+                "S8",
+                "S9"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T60:materijali-i-energija:enterijerski-sistemi",
+              "t": "Enterijerski sistemi",
+              "v": "Sistemi suvog zida i plafonskih obloga, uključujući protivpožarne i vlagootporne ploče; plafoni integrišu rasvetu i ventilacione elemente",
+              "s": [
+                "S8"
+              ],
+              "category": "materials"
+            },
+            {
+              "id": "T60:materijali-i-energija:potkonstrukcija-elektrane",
+              "t": "Nova čelična potkonstrukcija",
+              "v": "Za krovnu solarnu elektranu izvedena je čelična potkonstrukcija koja prihvata dodatno opterećenje panela",
+              "s": [
+                "S8"
+              ],
+              "category": "structure"
+            },
+            {
+              "id": "T60:materijali-i-energija:energetski-sistemi",
+              "t": "Energetski sistemi",
+              "v": "Unapređeni grejanje i hlađenje, ventilacija, rasveta i scenska i audio-vizuelna oprema; ugrađena LED rasveta sa regulacijom intenziteta",
+              "s": [
+                "S8",
+                "S10"
+              ],
+              "category": "energy"
+            },
+            {
+              "id": "T60:materijali-i-energija:solarna-elektrana",
+              "t": "Solarna elektrana",
+              "v": "912 solarnih panela, instalisana snaga 501 kWp, očekivana proizvodnja oko 600 MWh godišnje; tim navodi da vrednosti treba potvrditi završnim energetskim izveštajem i mernim podacima",
+              "s": [
+                "S8"
+              ],
+              "category": "energy"
+            },
+            {
+              "id": "T60:materijali-i-energija:potrosnja",
+              "t": "Energetski učinak",
+              "v": "Zvanični sajt navodi oko 50% nižu potrošnju električne energije u odnosu na period pre rekonstrukcije",
+              "s": [
+                "S1"
+              ],
+              "category": "energy"
+            },
+            {
+              "id": "T60:materijali-i-energija:energetski-pasos",
+              "t": "Energetski pasoš i stvarna potrošnja",
+              "v": "Nisu pribavljeni: važeći energetski pasoš, izveštaj o energetskom pregledu, proizvodnja solarnog sistema i podaci o stvarnoj potrošnji",
+              "s": [],
+              "category": "questions",
+              "status": "unknown"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Sava centar — „O nama“: istorija, arhitektura i održivost",
+          "kind": "zvanični sajt",
+          "url": "https://savacentar.rs/o-nama/"
+        },
+        {
+          "id": "S2",
+          "label": "Delta Real Estate — „Sava Centar“, opis kompleksa i sadržaji",
+          "kind": "investitor",
+          "url": "https://deltarealestate.rs/projekti/kongresni-segment/sava-centar/"
+        },
+        {
+          "id": "S3",
+          "label": "„Službeni glasnik RS“ br. 36/2021 — Odluka o utvrđivanju „Sava centra“ u Beogradu za spomenik kulture, str. 26",
+          "kind": "službeni akt",
+          "url": "https://odredba.com/glasnik/36-2021/"
+        },
+        {
+          "id": "S4",
+          "label": "Grad Beograd — „Znamenitosti“",
+          "kind": "gradska uprava",
+          "url": "https://www.beograd.rs/lat/upoznajte-beograd/a88112/Znamenitosti.html"
+        },
+        {
+          "id": "S5",
+          "label": "Delta Holding, 10.11.2023 — „Obnovljen kongresno-poslovni deo Sava Centra“",
+          "kind": "saopštenje",
+          "url": "https://deltaholding.rs/obnovljen-kongresno-poslovni-deo-sava-centra/"
+        },
+        {
+          "id": "S6",
+          "label": "Sava centar — „Kongresne sale“, površine i kapaciteti",
+          "kind": "zvanični sajt",
+          "url": "https://savacentar.rs/kongres/"
+        },
+        {
+          "id": "S7",
+          "label": "Enterijer magazin — podaci o projektu izvornog objekta i rekonstrukciji",
+          "kind": "časopis",
+          "url": "https://enterijermagazin.com/enterijer-110/obnovljeni-sava-centar-otvara-svoja-vrata-od-novembra-2023-godine/"
+        },
+        {
+          "id": "S8",
+          "label": "Saint-Gobain Srbija — „Sava Centar“, tehnička rešenja rekonstrukcije i solarna elektrana",
+          "kind": "proizvođač",
+          "url": "https://www.saint-gobain.rs/referentni-projekti/sava-centar"
+        },
+        {
+          "id": "S9",
+          "label": "Jadran d.o.o. — „Centar Sava Beograd / Rekonstrukcija“, opis sanacije i očuvanih elemenata",
+          "kind": "izvođač",
+          "url": "https://jadran-bg.rs/projekat/centar-sava-beograd/"
+        },
+        {
+          "id": "S10",
+          "label": "Delta Holding — Izveštaj o održivom poslovanju 2024, energetske mere i rasveta",
+          "kind": "izveštaj",
+          "url": "https://aplikacije.pks.rs/PKSAplikacije/ESGpdf/ESG-Delta-Holding-2024_SRB_20260209_112538_259_dobrovoljni.pdf"
+        },
+        {
+          "id": "S11",
+          "label": "PlanPlus — lokacija Milentija Popovića 9 / Blok 19",
+          "kind": "adresni portal",
+          "url": "https://www.planplus.rs/sava-centar/2344"
         }
       ],
       "media": []
