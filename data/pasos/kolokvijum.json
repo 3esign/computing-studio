@@ -1,7 +1,7 @@
 {
  "schema": "or-kolokvijum-v1",
  "dan": "2026-11-16",
- "azurirano": "2026-11-14",
+ "azurirano": "2026-11-15",
  "elementi": [
   "pasos",
   "ai-studio",
@@ -29,24 +29,24 @@
  "rezime": {
   "pasos": {
    "nema": 2,
-   "najavljeno": 2,
+   "najavljeno": 1,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 75
+   "prihvaceno": 76
   },
   "ai-studio": {
    "nema": 13,
-   "najavljeno": 4,
+   "najavljeno": 3,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 62
+   "prihvaceno": 63
   },
   "skice": {
-   "nema": 7,
-   "najavljeno": 4,
+   "nema": 5,
+   "najavljeno": 3,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 68
+   "prihvaceno": 71
   },
   "maketa": {
    "nema": 49,
@@ -1322,8 +1322,8 @@
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-14",
-     "predaja": 2
+     "datum": "2026-11-15",
+     "predaja": 3
     },
     "maketa": {
      "stanje": "nema",
@@ -1336,7 +1336,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-14",
+    "datum": "2026-11-15",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -1401,6 +1401,25 @@
     },
     {
      "datum": "2026-11-14",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
      "element": "konsultacija",
      "vrsta": "mejl"
     }
@@ -2026,8 +2045,8 @@
      "formati": [
       "DOCX"
      ],
-     "datum": "2026-10-28",
-     "predaja": 1,
+     "datum": "2026-11-15",
+     "predaja": 2,
      "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
@@ -2056,7 +2075,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-14",
+    "datum": "2026-11-15",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -2115,6 +2134,25 @@
     },
     {
      "datum": "2026-11-14",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
      "element": "konsultacija",
      "vrsta": "mejl"
     }
@@ -3329,7 +3367,7 @@
   {
    "tim": "T27",
    "objekat": "Hram Svetog Save",
-   "procenat": 56,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -3348,10 +3386,12 @@
      "predaja": 1
     },
     "skice": {
-     "stanje": "najavljeno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-15",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -3361,12 +3401,11 @@
     }
    },
    "fali": [
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-09",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-15",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -3401,6 +3440,25 @@
       "link",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -4071,7 +4129,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-11",
+    "datum": "2026-11-15",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -4121,6 +4179,18 @@
     },
     {
      "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
      "element": "konsultacija",
      "vrsta": "mejl"
     }
@@ -5116,7 +5186,7 @@
   {
    "tim": "T42",
    "objekat": "Prva beogradska gimnazija",
-   "procenat": 68,
+   "procenat": 93,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -5136,10 +5206,12 @@
      "predaja": 4
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-15",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "stiglo",
@@ -5151,11 +5223,9 @@
      "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
-   "fali": [
-    "skice"
-   ],
+   "fali": [],
    "konsultacija": {
-    "datum": "2026-11-11",
+    "datum": "2026-11-15",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -5320,6 +5390,25 @@
     },
     {
      "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
      "element": "konsultacija",
      "vrsta": "mejl"
     }
@@ -6238,7 +6327,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-11",
+    "datum": "2026-11-15",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -6361,6 +6450,18 @@
      "formati": [
       "DOCX"
      ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -7700,7 +7801,7 @@
   {
    "tim": "T63",
    "objekat": "West 65 Tower",
-   "procenat": 37,
+   "procenat": 56,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -7708,15 +7809,17 @@
       "DOCX",
       "PDF"
      ],
-     "datum": "2026-10-07",
-     "predaja": 1,
+     "datum": "2026-11-15",
+     "predaja": 2,
      "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
-     "stanje": "najavljeno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "HTML"
+     ],
+     "datum": "2026-11-15",
+     "predaja": 1
     },
     "skice": {
      "stanje": "najavljeno",
@@ -7732,13 +7835,12 @@
     }
    },
    "fali": [
-    "ai-studio",
     "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-09",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-15",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -7758,6 +7860,32 @@
      "datum": "2026-11-09",
      "element": "konsultacija",
      "vrsta": "konsultacije"
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "pasos",
+     "formati": [
+      "DOCX"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "ai-studio",
+     "formati": [
+      "HTML"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -8253,7 +8381,7 @@
    },
    "fali": [],
    "konsultacija": {
-    "datum": "2026-10-19",
+    "datum": "2026-11-15",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -8320,6 +8448,18 @@
      "formati": [
       "PDF"
      ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -8689,7 +8829,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-11",
+    "datum": "2026-11-15",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -8870,6 +9010,18 @@
      "formati": [
       "DOCX"
      ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ]
   },
@@ -9114,7 +9266,7 @@
   {
    "tim": "T75",
    "objekat": "Sava Centar",
-   "procenat": 50,
+   "procenat": 75,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -9134,10 +9286,12 @@
      "predaja": 1
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-15",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -9147,11 +9301,10 @@
     }
    },
    "fali": [
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-11",
+    "datum": "2026-11-15",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -9193,6 +9346,25 @@
     },
     {
      "datum": "2026-11-11",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
      "element": "konsultacija",
      "vrsta": "mejl"
     }
@@ -9402,13 +9574,13 @@
   {
    "tim": "T78",
    "objekat": "MIA Dorćol",
-   "procenat": 37,
+   "procenat": 56,
    "elementi": {
     "pasos": {
-     "stanje": "najavljeno",
+     "stanje": "prihvaceno",
      "formati": [],
-     "datum": null,
-     "predaja": 0
+     "datum": "2026-11-15",
+     "predaja": 1
     },
     "ai-studio": {
      "stanje": "najavljeno",
@@ -9432,12 +9604,11 @@
     }
    },
    "fali": [
-    "pasos",
     "ai-studio",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-14",
+    "datum": "2026-11-15",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -9464,6 +9635,23 @@
     },
     {
      "datum": "2026-11-14",
+     "element": "konsultacija",
+     "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "pasos",
+     "formati": []
+    },
+    {
+     "datum": "2026-11-15",
      "element": "konsultacija",
      "vrsta": "mejl"
     }

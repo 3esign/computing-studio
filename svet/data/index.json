@@ -1,8 +1,8 @@
 {
-  "datasetRevision": "r-7f853c708db69bb2",
+  "datasetRevision": "r-15cac98def8fa438",
   "registeredTeams": 79,
-  "curatedPassportsCount": 74,
-  "totalCuratedClaims": 1692,
+  "curatedPassportsCount": 75,
+  "totalCuratedClaims": 1704,
   "passports": [
     {
       "id": "T01",
@@ -97,8 +97,8 @@
     {
       "id": "T16",
       "object": "Palata Narodne banke Srbije",
-      "sections": 4,
-      "claims": 13
+      "sections": 5,
+      "claims": 17
     },
     {
       "id": "T17",
@@ -447,6 +447,12 @@
       "object": "Geneks kula (Zapadna kapija Beograda)",
       "sections": 5,
       "claims": 35
+    },
+    {
+      "id": "T78",
+      "object": "MIA Dorćol",
+      "sections": 2,
+      "claims": 8
     }
   ]
 }

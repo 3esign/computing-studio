@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "datasetRevision": "r-7f853c708db69bb2",
+  "datasetRevision": "r-15cac98def8fa438",
   "note": "Kurirani zapisi sa izvorima; nisu nezavisna potvrda.",
   "passports": [
     {
@@ -5546,6 +5546,56 @@
               "id": "T16:napomena:61240441ffdc",
               "category": "questions",
               "status": "unknown"
+            },
+            {
+              "id": "T16:napomena:izvori-dopuna-1511",
+              "t": "Dopuna izvora (15.11)",
+              "v": "tim je dostavio verziju sa literaturom posle pasusa: zvanična stranica NBS i Arhiv NBS; navodi su na nivou ustanove, bez putanje do stranice ili signature",
+              "s": [
+                "S4",
+                "S5"
+              ],
+              "status": "unconfirmed",
+              "category": "identity"
+            }
+          ]
+        },
+        {
+          "id": "novac",
+          "title": {
+            "sr": "Ratna novčanica i Beta Vukanović",
+            "en": "Wartime banknote and Beta Vukanović"
+          },
+          "claims": [
+            {
+              "id": "T16:novac:ratna-novcanica-1915",
+              "t": "Ratna novčanica (1915)",
+              "v": "nacrt slikarke Bete Vukanović; štampana u Francuskoj, u promet puštena 25. marta 1915; izdato 1.025.000 primeraka, bez zabeleženog falsifikata",
+              "s": [
+                "S5"
+              ],
+              "status": "unconfirmed",
+              "category": "time"
+            },
+            {
+              "id": "T16:novac:pegavac",
+              "t": "„Pegavac“",
+              "v": "zbog lošeg izgleda i grešaka u natpisu (broj paragrafa i datum zakona) narod je nije prihvatio; povučena iste godine, danas među numizmatički najvrednijim srpskim novčanicama. Tim novčanicu u jednom pasusu navodi kao 50 dinara, a u drugom kao „dvadeseticu“ — nesaglasno",
+              "s": [
+                "S5"
+              ],
+              "status": "unconfirmed",
+              "category": "identity"
+            },
+            {
+              "id": "T16:novac:beta-krsna-slava",
+              "t": "Beta Vukanović, „Krsna slava“",
+              "v": "jedna od prvih slika koje je naslikala u Srbiji; izložena i nagrađena na Svetskoj izložbi u Parizu 1900",
+              "s": [
+                "S5"
+              ],
+              "status": "unconfirmed",
+              "category": "people"
             }
           ]
         }
@@ -5565,6 +5615,18 @@
           "id": "S3",
           "label": "Studentski podnesak „Palata Narodne banke Srbije“ (docx, 26. 10. 2026) — izvori nisu navedeni uz pasuse",
           "kind": "studentski podnesak"
+        },
+        {
+          "id": "S4",
+          "label": "Narodna banka Srbije — zvanična internet stranica (navod tima posle pasusa, bez putanje do stranice)",
+          "kind": "zvanični sajt",
+          "url": "https://www.nbs.rs/",
+          "checkedAt": "2026-11-15"
+        },
+        {
+          "id": "S5",
+          "label": "Arhiv Narodne banke Srbije (navod tima, bez signature)",
+          "kind": "arhiv"
         }
       ],
       "media": []
@@ -23056,6 +23118,162 @@
           "id": "S11",
           "label": "Razgovor tima T77 sa stanarkom Geneks kule (prilog predaje 14.11; original u privatnoj evidenciji prijema, bez imena sagovornice)",
           "kind": "intervju"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "T78",
+      "object": "MIA Dorćol",
+      "sections": [
+        {
+          "id": "reciklirana-opeka",
+          "title": {
+            "sr": "Reciklirana opeka",
+            "en": "Reclaimed brick"
+          },
+          "claims": [
+            {
+              "id": "T78:reciklirana-opeka:opsti-opis",
+              "t": "Opšti opis",
+              "v": "Mia Dorćol kao primer održive arhitekture kroz ponovnu upotrebu građevinskog materijala, posebno reciklirane opeke",
+              "s": [
+                "S1"
+              ],
+              "status": "unconfirmed",
+              "category": "materials"
+            },
+            {
+              "id": "T78:reciklirana-opeka:poreklo",
+              "t": "Poreklo opeke",
+              "v": "opeka potiče iz ranije postojećih objekata; umesto otpada dobila je ponovnu upotrebu",
+              "s": [
+                "S2"
+              ],
+              "status": "unconfirmed",
+              "category": "materials"
+            },
+            {
+              "id": "T78:reciklirana-opeka:obrada",
+              "t": "Obrada",
+              "v": "izdvajanje, čišćenje, sortiranje i priprema pre ponovne ugradnje kao fasadne obloge",
+              "s": [
+                "S3"
+              ],
+              "status": "unconfirmed",
+              "category": "materials"
+            },
+            {
+              "id": "T78:reciklirana-opeka:primena-fasada",
+              "t": "Primena",
+              "v": "reciklirana opeka na fasadi; tekstura i nijanse povezuju industrijsku prošlost Dorćola sa savremenom arhitekturom",
+              "s": [
+                "S1"
+              ],
+              "status": "unconfirmed",
+              "category": "materials"
+            },
+            {
+              "id": "T78:reciklirana-opeka:co2",
+              "t": "Ušteda CO₂",
+              "v": "prema podacima projekta, približno 12 tona CO₂ manje emisije",
+              "s": [
+                "S5"
+              ],
+              "status": "unconfirmed",
+              "category": "energy"
+            }
+          ]
+        },
+        {
+          "id": "odrzivost",
+          "title": {
+            "sr": "Održivost",
+            "en": "Sustainability"
+          },
+          "claims": [
+            {
+              "id": "T78:odrzivost:ekoloski-znacaj",
+              "t": "Ekološki značaj",
+              "v": "manje građevinskog otpada, sirovina i energije za nove materijale (opšti izvor, ne o objektu)",
+              "s": [
+                "S4"
+              ],
+              "status": "unconfirmed",
+              "category": "energy"
+            },
+            {
+              "id": "T78:odrzivost:cirkularna-ekonomija",
+              "t": "Cirkularna ekonomija",
+              "v": "materijali nastavljaju životni ciklus umesto linearnog toka proizvodnja–upotreba–otpad (izvor je naslovna strana EEA)",
+              "s": [
+                "S6"
+              ],
+              "status": "unconfirmed",
+              "category": "identity"
+            },
+            {
+              "id": "T78:odrzivost:ostali-aspekti",
+              "t": "Ostali aspekti",
+              "v": "trajnost materijala, termoizolacija i prirodno osvetljenje — opšta tvrdnja tima, izvor je naslovna strana EPA",
+              "s": [
+                "S7"
+              ],
+              "status": "unconfirmed",
+              "category": "energy"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "label": "Zabriskie — projekat Mia Dorćol",
+          "kind": "web",
+          "url": "https://zabriskie.rs/sr/projects/mia-dorcol/",
+          "checkedAt": "2026-11-15"
+        },
+        {
+          "id": "S2",
+          "label": "Gradnja.rs — Mia Dorćol, zgrada od reciklirane opeke",
+          "kind": "web",
+          "url": "https://www.gradnja.rs/mia-dorcol-zgrada-od-reciklirane-opeke/",
+          "checkedAt": "2026-11-15"
+        },
+        {
+          "id": "S3",
+          "label": "Gradnja.rs — detalj Mia Dorćol: opeka i prozor",
+          "kind": "web",
+          "url": "https://www.gradnja.rs/detalj-mia-dorcol-opeka-prozor-zabriskie/",
+          "checkedAt": "2026-11-15"
+        },
+        {
+          "id": "S4",
+          "label": "Evropska komisija — građevinski otpad i otpad od rušenja",
+          "kind": "web",
+          "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/construction-and-demolition-waste_en",
+          "checkedAt": "2026-11-15"
+        },
+        {
+          "id": "S5",
+          "label": "Zabriskie — Zelena arhitektura: održivost nije odricanje",
+          "kind": "web",
+          "url": "https://zabriskie.rs/news/zelena-arhitektura-odrzivost-nije-odricanje/",
+          "checkedAt": "2026-11-15"
+        },
+        {
+          "id": "S6",
+          "label": "Evropska agencija za životnu sredinu (naslovna strana)",
+          "kind": "web",
+          "url": "https://www.eea.europa.eu/en",
+          "checkedAt": "2026-11-15"
+        },
+        {
+          "id": "S7",
+          "label": "US EPA — Recycle (naslovna strana)",
+          "kind": "web",
+          "url": "https://www.epa.gov/recycle",
+          "checkedAt": "2026-11-15"
         }
       ],
       "media": []

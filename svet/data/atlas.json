@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-7f853c708db69bb2",
+  "datasetRevision": "r-15cac98def8fa438",
   "teams": [
     {
       "id": "T01",
@@ -279,7 +279,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš i AI Studio aplikacija na sajtu (08.11)",
-      "status": "Kompletan digitalni pasoš Hotela Tamiš u Pančevu (12 poglavlja i 34 grafička priloga iz Idejnog rešenja rekonstrukcije br. 1-03/2021, Zavod za zaštitu spomenika kulture Pančevo) kuriran u javni sloj (08.11); predata i AI Studio aplikacija.",
+      "status": "Kompletan digitalni pasoš Hotela Tamiš u Pančevu (12 poglavlja i 34 grafička priloga iz Idejnog rešenja rekonstrukcije br. 1-03/2021, Zavod za zaštitu spomenika kulture Pančevo) kuriran u javni sloj (08.11); predata i AI Studio aplikacija. Predata skica „Segretski pasoš“ (15.11); deluje generisano, traži se ručna skica.",
       "hasPassport": true,
       "claimsCount": 5,
       "sectionsCount": 2,
@@ -450,11 +450,11 @@
       "z": 2.5,
       "type": "standard",
       "progressStage": 5,
-      "progressLabel": "Pasoš na sajtu (29.10)",
-      "status": "Pasoš Palate Narodne banke kuriran u javni sloj (29.10) po odluci profesora iz verzije bez izvora uz pasuse: 13 zapisa, svi nepotvrđeni; napomena stoji u dosijeu. Verzija sa izvorima i tabelom zamenjuje dosije kad stigne.",
+      "progressLabel": "Pasoš sa izvorima po pasusu (15.11)",
+      "status": "Pasoš Palate Narodne banke u javnom sloju: 17 zapisa, svi nepotvrđeni. Kuriran 29.10 iz verzije bez izvora uz pasuse; 15.11 tim je dostavio verziju sa literaturom posle pasusa (zvanična stranica NBS, Arhiv NBS), iz koje su dodati ratna novčanica 1915 i Beta Vukanović. Navodi su na nivou ustanove, bez putanje do stranice ili signature.",
       "hasPassport": true,
-      "claimsCount": 13,
-      "sectionsCount": 4,
+      "claimsCount": 17,
+      "sectionsCount": 5,
       "previewClaim": "Ulica kralja Petra 12, staro jezgro Beograda; nekadašnja Dubrovačka 12",
       "previewSource": "Narodna banka Srbije — zvanična istorija zgrade (navod studenta, bez URL-a)",
       "locationStatus": "approximate",
@@ -769,7 +769,7 @@
       "type": "hram",
       "progressStage": 5,
       "progressLabel": "Pasoš i AI Studio na sajtu (14.11)",
-      "status": "Ispravljen pasoš materijala Hrama (tabela podatak/izvor, 21 izvor sa linkom) kuriran u javni sloj (31.10): 94 zapisa u 16 poglavlja po materijalu, 8 praznina koje tim sam beleži; predat link AI Studio aplikacije (14.11) — čekaju se skice makete.",
+      "status": "Ispravljen pasoš materijala Hrama (tabela podatak/izvor, 21 izvor sa linkom) kuriran u javni sloj (31.10): 94 zapisa u 16 poglavlja po materijalu, 8 praznina koje tim sam beleži; predat link AI Studio aplikacije (14.11) — čekaju se skice makete. Predata skica kupole: prstenovi po materijalima — granit, mermer, oniks, lapis lazuli, mozaik (15.11).",
       "hasPassport": true,
       "claimsCount": 94,
       "sectionsCount": 16,
@@ -941,7 +941,7 @@
       "type": "standard",
       "progressStage": 3,
       "progressLabel": "Predat pasoš i 2 skice makete (10.11)",
-      "status": "Predat pasoš Starog dvora (20 zapisa, traži se tabela podatak → izvor) i 2 ručno crtane skice makete u javnoj galeriji (10.11); na konsultacijama (09.11) najavljeno slanje AI Studio aplikacije.",
+      "status": "Predat pasoš Starog dvora (20 zapisa, traži se tabela podatak → izvor) i 2 ručno crtane skice makete u javnoj galeriji (10.11); na konsultacijama (09.11) najavljeno slanje AI Studio aplikacije. Tim je mejlom najavio sajt (15.11); prilog nije stigao u prijem.",
       "hasPassport": true,
       "claimsCount": 20,
       "sectionsCount": 6,
@@ -1198,7 +1198,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio i prototip makete na sajtu (11.11)",
-      "status": "Tabelarni pasoš Prve beogradske gimnazije (9 zapisa sa izvorima i nalazom iz Arhiva Jugoslavije o građevinskim dnevnicima iz 1937) kuriran u javni sloj (11.11); na konsultacijama (09.11) prikazana razrada AI Studio aplikacije (odlični rezultati, 2 slike) i predate fotografije prototipa makete u galeriji (radna verzija za 16.11).",
+      "status": "Tabelarni pasoš Prve beogradske gimnazije (9 zapisa sa izvorima i nalazom iz Arhiva Jugoslavije o građevinskim dnevnicima iz 1937) kuriran u javni sloj (11.11); na konsultacijama (09.11) prikazana razrada AI Studio aplikacije (odlični rezultati, 2 slike) i predate fotografije prototipa makete u galeriji (radna verzija za 16.11). Predata i fotografija skice „kako se objekat menjao kroz vreme“ (15.11).",
       "hasPassport": true,
       "claimsCount": 9,
       "sectionsCount": 3,
@@ -1384,7 +1384,7 @@
       "id": "T49",
       "object": "Stambena kula „Toblerone”",
       "indices": [
-        "33/26",
+        "33/26g",
         "25/26",
         "147/26"
       ],
@@ -1794,7 +1794,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Preliminarni pasoš na sajtu (31.10)",
-      "status": "Preliminarni podaci o konstrukciji i materijalima (PERI oplata, AB skelet, fasadni sistemi) i struktura pasoša u 9 poglavlja kurirani u javni sloj (11 zapisa); obavljene konsultacije (09.11) — čeka se tabela sa izvorima uz podatke, AI Studio i skica makete.",
+      "status": "Preliminarni podaci o konstrukciji i materijalima (PERI oplata, AB skelet, fasadni sistemi) i struktura pasoša u 9 poglavlja kurirani u javni sloj (11 zapisa); obavljene konsultacije (09.11) — čeka se tabela sa izvorima uz podatke, AI Studio i skica makete. Pasoš West 65 i 3D HTML model sa parkom i AI Studio link stigli 15.11 od studenata koji nisu u registru tima — pripadnost se proverava.",
       "hasPassport": true,
       "claimsCount": 11,
       "sectionsCount": 3,
@@ -1937,7 +1937,7 @@
       "type": "standard",
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio, skica i maketa (14.11)",
-      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji. Predati link AI Studio aplikacije, skica makete (PDF) i završena maketa — vremenska osa 1925–2015 (14.11).",
+      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji. Predati link AI Studio aplikacije, skica makete (PDF) i završena maketa — vremenska osa 1925–2015 (14.11). Novi AI Studio link sa dopunjenim 3D modelom (15.11).",
       "hasPassport": true,
       "claimsCount": 25,
       "sectionsCount": 4,
@@ -2136,7 +2136,7 @@
       "type": "savacentar",
       "progressStage": 5,
       "progressLabel": "Pasoš rekonstrukcije i AI Studio na sajtu (10.11)",
-      "status": "Digitalni pasoš rekonstrukcije Sava centra 2021–2024 (energetska sanacija troslojnog staklenog omotača, Plava dvorana, BREEAM i akustika — 7 zapisa sa izvorima) kuriran u javni sloj uz link AI Studio aplikacije (10.11).",
+      "status": "Digitalni pasoš rekonstrukcije Sava centra 2021–2024 (energetska sanacija troslojnog staklenog omotača, Plava dvorana, BREEAM i akustika — 7 zapisa sa izvorima) kuriran u javni sloj uz link AI Studio aplikacije (10.11). Predata skica rekonstrukcije Sava centra — stara betonska i nova staklena fasada (15.11).",
       "hasPassport": true,
       "claimsCount": 7,
       "sectionsCount": 2,
@@ -2216,14 +2216,14 @@
       "y": 3.2,
       "z": null,
       "type": "standard",
-      "progressStage": 1,
-      "progressLabel": "Novi tim u registru",
-      "status": "Novi tim u registru (14.11): predate dve skice idejnog rešenja makete; pasoš i AI Studio aplikacija nisu stigli",
-      "hasPassport": false,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "previewClaim": "",
-      "previewSource": "",
+      "progressStage": 4,
+      "progressLabel": "Pasoš na sajtu i skice (15.11)",
+      "status": "Prvi pasoš na sajtu (15.11): MIA Dorćol — reciklirana opeka, 8 zapisa u 2 poglavlja sa 7 web izvora (tri opšta izvora o održivosti ne govore o objektu). Predate i dve skice idejnog rešenja makete (14.11); AI Studio aplikacija nije stigla, indeksi nisu navedeni.",
+      "hasPassport": true,
+      "claimsCount": 8,
+      "sectionsCount": 2,
+      "previewClaim": "Mia Dorćol kao primer održive arhitekture kroz ponovnu upotrebu građevinskog materijala, posebno reciklirane opeke",
+      "previewSource": "Zabriskie — projekat Mia Dorćol",
       "locationStatus": "approximate",
       "city": "Beograd",
       "geometryStatus": "illustrative",
@@ -2922,30 +2922,30 @@
       "lng": 20.4565,
       "locationStatus": "approximate",
       "passports": 1,
-      "claimsCount": 13,
-      "sectionsCount": 4,
-      "sourcesCount": 3,
+      "claimsCount": 17,
+      "sectionsCount": 5,
+      "sourcesCount": 5,
       "categories": {
         "research": 0,
         "documents": 0,
         "materials": 3,
-        "time": 4,
+        "time": 5,
         "questions": 2,
-        "identity": 1,
+        "identity": 3,
         "location": 2,
         "geometry": 0,
         "structure": 0,
         "use": 0,
         "energy": 0,
         "environment": 0,
-        "people": 1,
+        "people": 2,
         "methods": 0
       },
       "topics": [
         {
           "team": "T16",
           "topic": "Konstantin Jovanović, neorenesansna palata, trezori, reprezentativni hol",
-          "claimsCount": 13,
+          "claimsCount": 17,
           "hasPassport": true
         }
       ]
@@ -4578,22 +4578,22 @@
       "lat": 44.8255,
       "lng": 20.468,
       "locationStatus": "approximate",
-      "passports": 0,
-      "claimsCount": 0,
-      "sectionsCount": 0,
-      "sourcesCount": 0,
+      "passports": 1,
+      "claimsCount": 8,
+      "sectionsCount": 2,
+      "sourcesCount": 7,
       "categories": {
         "research": 0,
         "documents": 0,
-        "materials": 0,
+        "materials": 4,
         "time": 0,
         "questions": 0,
-        "identity": 0,
+        "identity": 1,
         "location": 0,
         "geometry": 0,
         "structure": 0,
         "use": 0,
-        "energy": 0,
+        "energy": 3,
         "environment": 0,
         "people": 0,
         "methods": 0
@@ -4602,8 +4602,8 @@
         {
           "team": "T78",
           "topic": "Primena reciklirane opeke; skice idejnog rešenja makete",
-          "claimsCount": 0,
-          "hasPassport": false
+          "claimsCount": 8,
+          "hasPassport": true
         }
       ]
     },
@@ -10002,6 +10002,55 @@
       "status": "unknown",
       "category": "questions",
       "sourceIds": []
+    },
+    {
+      "id": "T16:napomena:izvori-dopuna-1511",
+      "team": "T16",
+      "section": "T16:napomena",
+      "title": "Dopuna izvora (15.11)",
+      "value": "tim je dostavio verziju sa literaturom posle pasusa: zvanična stranica NBS i Arhiv NBS; navodi su na nivou ustanove, bez putanje do stranice ili signature",
+      "status": "unconfirmed",
+      "category": "identity",
+      "sourceIds": [
+        "T16:S4",
+        "T16:S5"
+      ]
+    },
+    {
+      "id": "T16:novac:ratna-novcanica-1915",
+      "team": "T16",
+      "section": "T16:novac",
+      "title": "Ratna novčanica (1915)",
+      "value": "nacrt slikarke Bete Vukanović; štampana u Francuskoj, u promet puštena 25. marta 1915; izdato 1.025.000 primeraka, bez zabeleženog falsifikata",
+      "status": "unconfirmed",
+      "category": "time",
+      "sourceIds": [
+        "T16:S5"
+      ]
+    },
+    {
+      "id": "T16:novac:pegavac",
+      "team": "T16",
+      "section": "T16:novac",
+      "title": "„Pegavac“",
+      "value": "zbog lošeg izgleda i grešaka u natpisu (broj paragrafa i datum zakona) narod je nije prihvatio; povučena iste godine, danas među numizmatički najvrednijim srpskim novčanicama. Tim novčanicu u jednom pasusu navodi kao 50 dinara, a u drugom kao „dvadeseticu“ — nesaglasno",
+      "status": "unconfirmed",
+      "category": "identity",
+      "sourceIds": [
+        "T16:S5"
+      ]
+    },
+    {
+      "id": "T16:novac:beta-krsna-slava",
+      "team": "T16",
+      "section": "T16:novac",
+      "title": "Beta Vukanović, „Krsna slava“",
+      "value": "jedna od prvih slika koje je naslikala u Srbiji; izložena i nagrađena na Svetskoj izložbi u Parizu 1900",
+      "status": "unconfirmed",
+      "category": "people",
+      "sourceIds": [
+        "T16:S5"
+      ]
     },
     {
       "id": "T17:osnovni:c5a489c88913",
@@ -25708,6 +25757,102 @@
       "sourceIds": [
         "T77:S11"
       ]
+    },
+    {
+      "id": "T78:reciklirana-opeka:opsti-opis",
+      "team": "T78",
+      "section": "T78:reciklirana-opeka",
+      "title": "Opšti opis",
+      "value": "Mia Dorćol kao primer održive arhitekture kroz ponovnu upotrebu građevinskog materijala, posebno reciklirane opeke",
+      "status": "unconfirmed",
+      "category": "materials",
+      "sourceIds": [
+        "T78:S1"
+      ]
+    },
+    {
+      "id": "T78:reciklirana-opeka:poreklo",
+      "team": "T78",
+      "section": "T78:reciklirana-opeka",
+      "title": "Poreklo opeke",
+      "value": "opeka potiče iz ranije postojećih objekata; umesto otpada dobila je ponovnu upotrebu",
+      "status": "unconfirmed",
+      "category": "materials",
+      "sourceIds": [
+        "T78:S2"
+      ]
+    },
+    {
+      "id": "T78:reciklirana-opeka:obrada",
+      "team": "T78",
+      "section": "T78:reciklirana-opeka",
+      "title": "Obrada",
+      "value": "izdvajanje, čišćenje, sortiranje i priprema pre ponovne ugradnje kao fasadne obloge",
+      "status": "unconfirmed",
+      "category": "materials",
+      "sourceIds": [
+        "T78:S3"
+      ]
+    },
+    {
+      "id": "T78:reciklirana-opeka:primena-fasada",
+      "team": "T78",
+      "section": "T78:reciklirana-opeka",
+      "title": "Primena",
+      "value": "reciklirana opeka na fasadi; tekstura i nijanse povezuju industrijsku prošlost Dorćola sa savremenom arhitekturom",
+      "status": "unconfirmed",
+      "category": "materials",
+      "sourceIds": [
+        "T78:S1"
+      ]
+    },
+    {
+      "id": "T78:reciklirana-opeka:co2",
+      "team": "T78",
+      "section": "T78:reciklirana-opeka",
+      "title": "Ušteda CO₂",
+      "value": "prema podacima projekta, približno 12 tona CO₂ manje emisije",
+      "status": "unconfirmed",
+      "category": "energy",
+      "sourceIds": [
+        "T78:S5"
+      ]
+    },
+    {
+      "id": "T78:odrzivost:ekoloski-znacaj",
+      "team": "T78",
+      "section": "T78:odrzivost",
+      "title": "Ekološki značaj",
+      "value": "manje građevinskog otpada, sirovina i energije za nove materijale (opšti izvor, ne o objektu)",
+      "status": "unconfirmed",
+      "category": "energy",
+      "sourceIds": [
+        "T78:S4"
+      ]
+    },
+    {
+      "id": "T78:odrzivost:cirkularna-ekonomija",
+      "team": "T78",
+      "section": "T78:odrzivost",
+      "title": "Cirkularna ekonomija",
+      "value": "materijali nastavljaju životni ciklus umesto linearnog toka proizvodnja–upotreba–otpad (izvor je naslovna strana EEA)",
+      "status": "unconfirmed",
+      "category": "identity",
+      "sourceIds": [
+        "T78:S6"
+      ]
+    },
+    {
+      "id": "T78:odrzivost:ostali-aspekti",
+      "team": "T78",
+      "section": "T78:odrzivost",
+      "title": "Ostali aspekti",
+      "value": "trajnost materijala, termoizolacija i prirodno osvetljenje — opšta tvrdnja tima, izvor je naslovna strana EPA",
+      "status": "unconfirmed",
+      "category": "energy",
+      "sourceIds": [
+        "T78:S7"
+      ]
     }
   ],
   "sections": [
@@ -26517,6 +26662,14 @@
       "title": {
         "en": "Professor's note",
         "sr": "Napomena profesora"
+      }
+    },
+    {
+      "id": "T16:novac",
+      "team": "T16",
+      "title": {
+        "sr": "Ratna novčanica i Beta Vukanović",
+        "en": "Wartime banknote and Beta Vukanović"
       }
     },
     {
@@ -28542,6 +28695,22 @@
         "sr": "Intervju sa stanarkom stambenog tornja",
         "en": "Interview with a resident of the residential tower"
       }
+    },
+    {
+      "id": "T78:reciklirana-opeka",
+      "team": "T78",
+      "title": {
+        "sr": "Reciklirana opeka",
+        "en": "Reclaimed brick"
+      }
+    },
+    {
+      "id": "T78:odrzivost",
+      "team": "T78",
+      "title": {
+        "sr": "Održivost",
+        "en": "Sustainability"
+      }
     }
   ],
   "sources": [
@@ -29226,6 +29395,22 @@
       "kind": "studentski podnesak",
       "team": "T16",
       "canonical": "T16:S3"
+    },
+    {
+      "id": "T16:S4",
+      "label": "Narodna banka Srbije — zvanična internet stranica (navod tima posle pasusa, bez putanje do stranice)",
+      "kind": "zvanični sajt",
+      "url": "https://www.nbs.rs/",
+      "checkedAt": "2026-11-15",
+      "team": "T16",
+      "canonical": "https://www.nbs.rs"
+    },
+    {
+      "id": "T16:S5",
+      "label": "Arhiv Narodne banke Srbije (navod tima, bez signature)",
+      "kind": "arhiv",
+      "team": "T16",
+      "canonical": "T16:S5"
     },
     {
       "id": "T17:S1",
@@ -32657,6 +32842,69 @@
       "kind": "intervju",
       "team": "T77",
       "canonical": "T77:S11"
+    },
+    {
+      "id": "T78:S1",
+      "label": "Zabriskie — projekat Mia Dorćol",
+      "kind": "web",
+      "url": "https://zabriskie.rs/sr/projects/mia-dorcol/",
+      "checkedAt": "2026-11-15",
+      "team": "T78",
+      "canonical": "https://zabriskie.rs/sr/projects/mia-dorcol"
+    },
+    {
+      "id": "T78:S2",
+      "label": "Gradnja.rs — Mia Dorćol, zgrada od reciklirane opeke",
+      "kind": "web",
+      "url": "https://www.gradnja.rs/mia-dorcol-zgrada-od-reciklirane-opeke/",
+      "checkedAt": "2026-11-15",
+      "team": "T78",
+      "canonical": "https://www.gradnja.rs/mia-dorcol-zgrada-od-reciklirane-opeke"
+    },
+    {
+      "id": "T78:S3",
+      "label": "Gradnja.rs — detalj Mia Dorćol: opeka i prozor",
+      "kind": "web",
+      "url": "https://www.gradnja.rs/detalj-mia-dorcol-opeka-prozor-zabriskie/",
+      "checkedAt": "2026-11-15",
+      "team": "T78",
+      "canonical": "https://www.gradnja.rs/detalj-mia-dorcol-opeka-prozor-zabriskie"
+    },
+    {
+      "id": "T78:S4",
+      "label": "Evropska komisija — građevinski otpad i otpad od rušenja",
+      "kind": "web",
+      "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/construction-and-demolition-waste_en",
+      "checkedAt": "2026-11-15",
+      "team": "T78",
+      "canonical": "https://environment.ec.europa.eu/topics/waste-and-recycling/construction-and-demolition-waste_en"
+    },
+    {
+      "id": "T78:S5",
+      "label": "Zabriskie — Zelena arhitektura: održivost nije odricanje",
+      "kind": "web",
+      "url": "https://zabriskie.rs/news/zelena-arhitektura-odrzivost-nije-odricanje/",
+      "checkedAt": "2026-11-15",
+      "team": "T78",
+      "canonical": "https://zabriskie.rs/news/zelena-arhitektura-odrzivost-nije-odricanje"
+    },
+    {
+      "id": "T78:S6",
+      "label": "Evropska agencija za životnu sredinu (naslovna strana)",
+      "kind": "web",
+      "url": "https://www.eea.europa.eu/en",
+      "checkedAt": "2026-11-15",
+      "team": "T78",
+      "canonical": "https://www.eea.europa.eu/en"
+    },
+    {
+      "id": "T78:S7",
+      "label": "US EPA — Recycle (naslovna strana)",
+      "kind": "web",
+      "url": "https://www.epa.gov/recycle",
+      "checkedAt": "2026-11-15",
+      "team": "T78",
+      "canonical": "https://www.epa.gov/recycle"
     }
   ],
   "relations": [
@@ -48826,6 +49074,150 @@
         "kind": "pillar",
         "parent": "T60",
         "slot": 10
+      },
+      {
+        "id": "T16:novac",
+        "kind": "wing",
+        "parent": "T16",
+        "slot": 4
+      },
+      {
+        "id": "T16:napomena:izvori-dopuna-1511",
+        "kind": "bay",
+        "parent": "T16:napomena",
+        "slot": 1
+      },
+      {
+        "id": "T16:novac:beta-krsna-slava",
+        "kind": "bay",
+        "parent": "T16:novac",
+        "slot": 0
+      },
+      {
+        "id": "T16:novac:pegavac",
+        "kind": "bay",
+        "parent": "T16:novac",
+        "slot": 1
+      },
+      {
+        "id": "T16:novac:ratna-novcanica-1915",
+        "kind": "bay",
+        "parent": "T16:novac",
+        "slot": 2
+      },
+      {
+        "id": "T16:S4",
+        "kind": "pillar",
+        "parent": "T16",
+        "slot": 3
+      },
+      {
+        "id": "T16:S5",
+        "kind": "pillar",
+        "parent": "T16",
+        "slot": 4
+      },
+      {
+        "id": "T78:odrzivost",
+        "kind": "wing",
+        "parent": "T78",
+        "slot": 0
+      },
+      {
+        "id": "T78:reciklirana-opeka",
+        "kind": "wing",
+        "parent": "T78",
+        "slot": 1
+      },
+      {
+        "id": "T78:odrzivost:cirkularna-ekonomija",
+        "kind": "bay",
+        "parent": "T78:odrzivost",
+        "slot": 0
+      },
+      {
+        "id": "T78:odrzivost:ekoloski-znacaj",
+        "kind": "bay",
+        "parent": "T78:odrzivost",
+        "slot": 1
+      },
+      {
+        "id": "T78:odrzivost:ostali-aspekti",
+        "kind": "bay",
+        "parent": "T78:odrzivost",
+        "slot": 2
+      },
+      {
+        "id": "T78:reciklirana-opeka:co2",
+        "kind": "bay",
+        "parent": "T78:reciklirana-opeka",
+        "slot": 0
+      },
+      {
+        "id": "T78:reciklirana-opeka:obrada",
+        "kind": "bay",
+        "parent": "T78:reciklirana-opeka",
+        "slot": 1
+      },
+      {
+        "id": "T78:reciklirana-opeka:opsti-opis",
+        "kind": "bay",
+        "parent": "T78:reciklirana-opeka",
+        "slot": 2
+      },
+      {
+        "id": "T78:reciklirana-opeka:poreklo",
+        "kind": "bay",
+        "parent": "T78:reciklirana-opeka",
+        "slot": 3
+      },
+      {
+        "id": "T78:reciklirana-opeka:primena-fasada",
+        "kind": "bay",
+        "parent": "T78:reciklirana-opeka",
+        "slot": 4
+      },
+      {
+        "id": "T78:S1",
+        "kind": "pillar",
+        "parent": "T78",
+        "slot": 0
+      },
+      {
+        "id": "T78:S2",
+        "kind": "pillar",
+        "parent": "T78",
+        "slot": 1
+      },
+      {
+        "id": "T78:S3",
+        "kind": "pillar",
+        "parent": "T78",
+        "slot": 2
+      },
+      {
+        "id": "T78:S4",
+        "kind": "pillar",
+        "parent": "T78",
+        "slot": 3
+      },
+      {
+        "id": "T78:S5",
+        "kind": "pillar",
+        "parent": "T78",
+        "slot": 4
+      },
+      {
+        "id": "T78:S6",
+        "kind": "pillar",
+        "parent": "T78",
+        "slot": 5
+      },
+      {
+        "id": "T78:S7",
+        "kind": "pillar",
+        "parent": "T78",
+        "slot": 6
       }
     ]
   },
@@ -48843,41 +49235,41 @@
     "places": [
       {
         "id": "B01ffbf6e",
-        "x": -147.313,
-        "z": 43.348,
+        "x": -149.822,
+        "z": 41.972,
         "anchor": [
           -144.635,
           41.939
         ],
-        "nudge": 48,
+        "nudge": 83,
         "radius": 10.877
       },
       {
         "id": "B0671278c",
-        "x": 32.551,
-        "z": 145.413,
+        "x": 27.32,
+        "z": 143.596,
         "anchor": [
           25.232,
           95.669
         ],
-        "nudge": 804,
+        "nudge": 768,
         "radius": 19.043
       },
       {
         "id": "B0c77d468",
-        "x": 125.05,
-        "z": 91.61,
+        "x": 125.908,
+        "z": 92.006,
         "anchor": [
           160.224,
           80.576
         ],
-        "nudge": 590,
+        "nudge": 579,
         "radius": 1.545
       },
       {
         "id": "B0dffad8d",
-        "x": -66.737,
-        "z": -58.456,
+        "x": -64.242,
+        "z": -60.31,
         "anchor": [
           -97.719,
           -103.172
@@ -48887,41 +49279,41 @@
       },
       {
         "id": "B14027bbe",
-        "x": -12.175,
-        "z": 145.355,
+        "x": -17.054,
+        "z": 149.015,
         "anchor": [
           -6.924,
           109.218
         ],
-        "nudge": 584,
+        "nudge": 657,
         "radius": 20.142
       },
       {
         "id": "B1df14ea1",
-        "x": -6.568,
-        "z": 72.716,
+        "x": -3.304,
+        "z": 66.977,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 870,
+        "nudge": 773,
         "radius": 11.916
       },
       {
         "id": "B21720f35",
-        "x": -75.886,
-        "z": -7.362,
+        "x": -86.34,
+        "z": 0.674,
         "anchor": [
           -87.513,
           9.554
         ],
-        "nudge": 328,
+        "nudge": 143,
         "radius": 11.51
       },
       {
         "id": "B25fc5bcf",
-        "x": 112.604,
-        "z": 0.105,
+        "x": 112.769,
+        "z": 1.398,
         "anchor": [
           58.73,
           7.653
@@ -48931,239 +49323,239 @@
       },
       {
         "id": "B25fc772a",
-        "x": 78.1,
-        "z": -102.764,
+        "x": 87.25,
+        "z": -99.848,
         "anchor": [
           91.319,
           -59.222
         ],
-        "nudge": 728,
+        "nudge": 653,
         "radius": 17.267
       },
       {
         "id": "B2a7ecb59",
-        "x": -152.393,
-        "z": -6.942,
+        "x": -145.876,
+        "z": -8.404,
         "anchor": [
           -160.416,
           1.655
         ],
-        "nudge": 188,
+        "nudge": 283,
         "radius": 33.561
       },
       {
         "id": "B2ceb56a4",
-        "x": 52.982,
-        "z": 115.905,
+        "x": 53.068,
+        "z": 113.266,
         "anchor": [
           62.382,
           78.89
         ],
-        "nudge": 611,
+        "nudge": 570,
         "radius": 11.95
       },
       {
         "id": "B34c1628c",
-        "x": 126.435,
-        "z": 106.817,
+        "x": 128.825,
+        "z": 106.988,
         "anchor": [
           123.669,
           110.55
         ],
-        "nudge": 74,
+        "nudge": 100,
         "radius": 10.877
       },
       {
         "id": "B3b4c7fb4",
-        "x": -25.502,
-        "z": -64.384,
+        "x": -24.406,
+        "z": -64.871,
         "anchor": [
           14.541,
           -53.441
         ],
-        "nudge": 664,
+        "nudge": 649,
         "radius": 11.247
       },
       {
         "id": "B41952daf",
-        "x": 115.346,
-        "z": 33.806,
+        "x": 114.469,
+        "z": 35.167,
         "anchor": [
           86.147,
           54.116
         ],
-        "nudge": 569,
+        "nudge": 545,
         "radius": 11.199
       },
       {
         "id": "B4d2fca52",
-        "x": 93.787,
-        "z": 151.664,
+        "x": 87.962,
+        "z": 154.152,
         "anchor": [
           70.009,
           102.8
         ],
-        "nudge": 869,
+        "nudge": 870,
         "radius": 35.46
       },
       {
         "id": "B4f2be009",
-        "x": 52.951,
-        "z": -18.584,
+        "x": 54.076,
+        "z": -21.364,
         "anchor": [
           33.935,
           -45.375
         ],
-        "nudge": 526,
+        "nudge": 501,
         "radius": 17.516
       },
       {
         "id": "B530102bb",
-        "x": 66.351,
-        "z": 30.786,
+        "x": 69.663,
+        "z": 31.906,
         "anchor": [
           57.249,
           40.354
         ],
-        "nudge": 211,
+        "nudge": 240,
         "radius": 11.339
       },
       {
         "id": "B655d6f70",
-        "x": 26.175,
-        "z": 111.98,
+        "x": 27.112,
+        "z": 109.46,
         "anchor": [
           43.924,
           83.49
         ],
-        "nudge": 537,
+        "nudge": 495,
         "radius": 10.444
       },
       {
         "id": "B6b092149",
-        "x": 24.339,
-        "z": -2.225,
+        "x": 26.953,
+        "z": -1.927,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 124,
-        "radius": 10.992
+        "nudge": 82,
+        "radius": 11.199
       },
       {
         "id": "B721111bb",
-        "x": 4.525,
-        "z": -94.975,
+        "x": 4.05,
+        "z": -94.12,
         "anchor": [
           30.327,
           -48.567
         ],
-        "nudge": 850,
+        "nudge": 841,
         "radius": 22.747
       },
       {
         "id": "B75d37fcb",
-        "x": 36.62,
-        "z": -72.911,
+        "x": 36.01,
+        "z": -71.811,
         "anchor": [
           30.947,
           -49.344
         ],
-        "nudge": 388,
+        "nudge": 368,
         "radius": 11.199
       },
       {
         "id": "B7a65f480",
-        "x": -92.368,
-        "z": 98.15,
+        "x": -84.817,
+        "z": 104.592,
         "anchor": [
           -41.258,
           89.141
         ],
-        "nudge": 830,
+        "nudge": 739,
         "radius": 10.936
       },
       {
         "id": "B7efb8894",
-        "x": 64.206,
-        "z": -73.248,
+        "x": 57.66,
+        "z": -86.113,
         "anchor": [
           38.181,
           -51.694
         ],
-        "nudge": 541,
+        "nudge": 633,
         "radius": 10.936
       },
       {
         "id": "B88cffac1",
-        "x": 88.323,
-        "z": 75.495,
+        "x": 89.014,
+        "z": 77.811,
         "anchor": [
           65.639,
           49.398
         ],
-        "nudge": 553,
+        "nudge": 589,
         "radius": 32.495
       },
       {
         "id": "B8b81c0c5",
-        "x": 50.95,
-        "z": -51.355,
+        "x": 55.429,
+        "z": -54.359,
         "anchor": [
           57.684,
           -32.891
         ],
-        "nudge": 314,
+        "nudge": 345,
         "radius": 10.877
       },
       {
         "id": "B9e4c8453",
-        "x": -32.217,
-        "z": -37.059,
+        "x": -34.051,
+        "z": -34.142,
         "anchor": [
           0,
           -31.309
         ],
-        "nudge": 524,
+        "nudge": 547,
         "radius": 10.815
       },
       {
         "id": "Ba8b77242",
-        "x": 8.924,
-        "z": -40.739,
+        "x": 9.101,
+        "z": -39.941,
         "anchor": [
           37.015,
           -14.611
         ],
-        "nudge": 614,
+        "nudge": 603,
         "radius": 25.266
       },
       {
         "id": "Badf7e17e",
-        "x": -50.388,
-        "z": -17.576,
+        "x": -52.433,
+        "z": -12.324,
         "anchor": [
           -63.79,
           -34.444
         ],
-        "nudge": 345,
+        "nudge": 398,
         "radius": 11.95
       },
       {
         "id": "Bae8506cc",
-        "x": -2.425,
-        "z": 17.073,
+        "x": -2.445,
+        "z": 17.549,
         "anchor": [
           36.028,
           2.783
         ],
-        "nudge": 656,
+        "nudge": 659,
         "radius": 17.55
       },
       {
         "id": "Bb21a1978",
-        "x": 157.578,
-        "z": 69.05,
+        "x": 157.616,
+        "z": 66.347,
         "anchor": [
           103.219,
           66.941
@@ -49173,8 +49565,8 @@
       },
       {
         "id": "Bb5a79c43",
-        "x": -21.572,
-        "z": -11.083,
+        "x": -21.657,
+        "z": -10.56,
         "anchor": [
           32.079,
           -2.087
@@ -49184,41 +49576,41 @@
       },
       {
         "id": "Bb81ca622",
-        "x": 75.536,
-        "z": -42.751,
+        "x": 78.779,
+        "z": -43.45,
         "anchor": [
           67.469,
           -29.89
         ],
-        "nudge": 243,
+        "nudge": 283,
         "radius": 11.099
       },
       {
         "id": "Bba876e95",
-        "x": 106.083,
-        "z": -35.284,
+        "x": 108.857,
+        "z": -32.693,
         "anchor": [
           70.769,
           -31.759
         ],
-        "nudge": 568,
+        "nudge": 610,
         "radius": 11.55
       },
       {
         "id": "Bbb2e5c1e",
-        "x": -17.772,
-        "z": 47.341,
+        "x": -21.235,
+        "z": 45.81,
         "anchor": [
           2.468,
           41.745
         ],
-        "nudge": 336,
+        "nudge": 385,
         "radius": 11.848
       },
       {
         "id": "Bbe3e7124",
-        "x": -41.578,
-        "z": 33.404,
+        "x": -46.878,
+        "z": 35.64,
         "anchor": [
           -23.112,
           84.574
@@ -49228,157 +49620,157 @@
       },
       {
         "id": "Bbfd097ce",
-        "x": -54.159,
-        "z": 9.428,
+        "x": -62.257,
+        "z": 13.112,
         "anchor": [
           -61.87,
           16.542
         ],
-        "nudge": 168,
+        "nudge": 55,
         "radius": 11.383
       },
       {
         "id": "Bca96d908",
-        "x": -146.006,
-        "z": 76.275,
+        "x": -154.406,
+        "z": 74.602,
         "anchor": [
           -141.312,
           72.685
         ],
-        "nudge": 95,
+        "nudge": 212,
         "radius": 17.55
       },
       {
         "id": "Bce379d13",
-        "x": 97.274,
-        "z": -67.731,
+        "x": 108.851,
+        "z": -66.303,
         "anchor": [
           83.722,
           -47.963
         ],
-        "nudge": 383,
+        "nudge": 498,
         "radius": 17.55
       },
       {
         "id": "Bce3fd2f1",
-        "x": -94.315,
-        "z": 45.094,
+        "x": -97.984,
+        "z": 53.136,
         "anchor": [
           -92.657,
           36.836
         ],
-        "nudge": 135,
+        "nudge": 274,
         "radius": 35.875
       },
       {
         "id": "Bd18bf80b",
-        "x": 45.161,
-        "z": 14.206,
+        "x": 51.118,
+        "z": 12.208,
         "anchor": [
           49.847,
           9.74
         ],
-        "nudge": 104,
+        "nudge": 44,
         "radius": 11.667
       },
       {
         "id": "Bd58b0f37",
-        "x": 71.623,
-        "z": -58.534,
+        "x": 76.298,
+        "z": -68.888,
         "anchor": [
           73.034,
           -36.66
         ],
-        "nudge": 351,
-        "radius": 1.545
+        "nudge": 518,
+        "radius": 10.681
       },
       {
         "id": "Bda203afb",
-        "x": 15.153,
-        "z": 88.704,
+        "x": 14.05,
+        "z": 87.626,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 870,
+        "nudge": 861,
         "radius": 11.15
       },
       {
         "id": "Be291aa43",
-        "x": 85.562,
-        "z": -19.23,
+        "x": 86.616,
+        "z": -19.122,
         "anchor": [
           71.618,
           -24.166
         ],
-        "nudge": 237,
+        "nudge": 253,
         "radius": 10.681
       },
       {
         "id": "Be3448d6e",
-        "x": 77.854,
-        "z": 6.118,
+        "x": 78.379,
+        "z": 6.122,
         "anchor": [
           57.743,
           13.915
         ],
-        "nudge": 345,
+        "nudge": 353,
         "radius": 11.95
       },
       {
         "id": "Be38a2b04",
-        "x": 41.243,
-        "z": 91.458,
+        "x": 40.286,
+        "z": 87.673,
         "anchor": [
           57.743,
           71.662
         ],
-        "nudge": 412,
+        "nudge": 379,
         "radius": 11.247
       },
       {
         "id": "Beb7b8b9c",
-        "x": 29.638,
-        "z": 51.553,
+        "x": 32.917,
+        "z": 48.376,
         "anchor": [
           46.885,
           29.221
         ],
-        "nudge": 451,
+        "nudge": 379,
         "radius": 23.646
       },
       {
         "id": "Bedda6bf8",
-        "x": -45.261,
-        "z": 99.831,
+        "x": -39.313,
+        "z": 97.409,
         "anchor": [
           -20.093,
           88.928
         ],
-        "nudge": 439,
+        "nudge": 336,
         "radius": 29.489
       },
       {
         "id": "Bf86ee95f",
-        "x": 0.273,
-        "z": 110.948,
+        "x": 2.703,
+        "z": 118.185,
         "anchor": [
           -4.125,
           98.694
         ],
-        "nudge": 208,
+        "nudge": 330,
         "radius": 11.667
       }
     ],
     "metrics": {
       "overlaps": 0,
-      "minGap": 2.848,
-      "medianGap": 4.008,
-      "maxGap": 7.775,
-      "fill": 85.488,
-      "hullUnits": 54965,
+      "minGap": 2.841,
+      "medianGap": 4.212,
+      "maxGap": 7.774,
+      "fill": 83.421,
+      "hullUnits": 56765,
       "maxNudgeMetres": 870,
-      "medianNudgeMetres": 526
+      "medianNudgeMetres": 518
     }
   },
   "media": [],
@@ -49513,7 +49905,7 @@
           ],
           "progressStage": 5,
           "progressLabel": "Pasoš i AI Studio aplikacija na sajtu (08.11)",
-          "status": "Kompletan digitalni pasoš Hotela Tamiš u Pančevu (12 poglavlja i 34 grafička priloga iz Idejnog rešenja rekonstrukcije br. 1-03/2021, Zavod za zaštitu spomenika kulture Pančevo) kuriran u javni sloj (08.11); predata i AI Studio aplikacija.",
+          "status": "Kompletan digitalni pasoš Hotela Tamiš u Pančevu (12 poglavlja i 34 grafička priloga iz Idejnog rešenja rekonstrukcije br. 1-03/2021, Zavod za zaštitu spomenika kulture Pančevo) kuriran u javni sloj (08.11); predata i AI Studio aplikacija. Predata skica „Segretski pasoš“ (15.11); deluje generisano, traži se ručna skica.",
           "hasPassport": true,
           "claimsCount": 5
         },

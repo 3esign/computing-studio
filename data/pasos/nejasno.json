@@ -1,6 +1,6 @@
 {
   "schema": "or/nejasno@1",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "note": {
     "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 14.11. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
     "en": "All open questions to the teams in one place, as of the intakes up to 14 Nov. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
@@ -120,8 +120,8 @@
         "T63",
         "T64"
       ],
-      "sr": "Narodna banka (T16), Beograđanka (T50 i T64), Geneks kula (T52), Narodno pozorište (T56) i West 65 Tower (T63) objavljeni su u javnom sloju i prihvaćeni za kolokvijum, ali su izvori navedeni zbirno na kraju bez vezivanja uz pojedinačne podatke; dosijei nose „Napomenu profesora“ dok ne stigne tabelarna verzija podatak → izvor (kao što su T31 30.10, T55 08.11. i T13 10.11. dostavili pojedinačne izvore).",
-      "en": "National Bank (T16), Beograđanka (T50 and T64), Genex Tower (T52), National Theatre (T56) and West 65 Tower (T63) are published and accepted for the colloquium, but list sources only collectively at the end rather than per record; their dossiers carry a “Professor’s note” until a tabular claim → source version arrives (as T31 did on 30 Oct, T55 on 8 Nov and T13 on 10 Nov).",
+      "sr": "Narodna banka (T16), Beograđanka (T50 i T64), Geneks kula (T52), Narodno pozorište (T56) i West 65 Tower (T63) objavljeni su u javnom sloju i prihvaćeni za kolokvijum, ali su izvori navedeni zbirno na kraju bez vezivanja uz pojedinačne podatke; dosijei nose „Napomenu profesora“ dok ne stigne tabelarna verzija podatak → izvor (kao što su T31 30.10, T55 08.11. i T13 10.11. dostavili pojedinačne izvore). Dopuna 15.11: T16 je poslao verziju sa literaturom posle pasusa, ali na nivou ustanove (nbs.rs, Arhiv NBS), bez stranice ili signature.",
+      "en": "National Bank (T16), Beograđanka (T50 and T64), Genex Tower (T52), National Theatre (T56) and West 65 Tower (T63) are published and accepted for the colloquium, but list sources only collectively at the end rather than per record; their dossiers carry a “Professor’s note” until a tabular claim → source version arrives (as T31 did on 30 Oct, T55 on 8 Nov and T13 on 10 Nov). Update 15 Nov: T16 sent a version with references after each paragraph, but only at institution level (nbs.rs, NBS Archive), without page or shelfmark.",
       "askSr": "T16, T50, T52, T56, T63, T64: pošaljite verziju pasoša sa izvorom pored svakog podatka (za T56 i signaturu fonda arhivskih nacrta iz 1940).",
       "askEn": "T16, T50, T52, T56, T63, T64: send a passport version with a source next to each claim (for T56 also the archive shelfmark of the 1940 drawings)."
     },
@@ -166,10 +166,10 @@
       "teams": [
         "T78"
       ],
-      "sr": "MIA Dorćol — reciklirana opeka (T78): dve skice idejnog rešenja makete stigle su 14.11. bez broja indeksa i bez digitalnog pasoša, pa tim privremeno nosi oznaku 00/2026; lokacija objekta na karti je približna.",
-      "en": "MIA Dorćol — recycled brick (T78): two concept sketches for the model arrived on 14 Nov without an index number and without a digital passport, so the team temporarily carries the placeholder 00/2026; the building location on the map is approximate.",
-      "askSr": "T78: pošaljite broj indeksa i smer, tačnu adresu objekta, digitalni pasoš sa izvorima i link AI Studio aplikacije.",
-      "askEn": "T78: send your index number and programme, the exact building address, the sourced digital passport and the AI Studio application link."
+      "sr": "MIA Dorćol — reciklirana opeka (T78): dve skice (14.11) i digitalni pasoš (15.11, 8 zapisa) stigli su bez broja indeksa, pa tim privremeno nosi oznaku 00/2026; lokacija objekta na karti je približna. AI Studio aplikacija nije stigla.",
+      "en": "MIA Dorćol — recycled brick (T78): two sketches (14 Nov) and the digital passport (15 Nov, 8 records) arrived without index numbers, so the team temporarily carries the placeholder 00/2026; the map location is approximate. No AI Studio application yet.",
+      "askSr": "T78: pošaljite brojeve indeksa i smer, tačnu adresu objekta i link AI Studio aplikacije.",
+      "askEn": "T78: send your index numbers and programme, the exact building address and the AI Studio application link."
     },
     {
       "id": "n-t79-pasos",
@@ -195,11 +195,10 @@
     {
       "id": "n-t37-indeks-33",
       "teams": [
-        "T37",
-        "T49"
+        "T37"
       ],
-      "sr": "Narodno pozorište (T37): u belešci sa konsultacija 12.10. zavedeno je „33/26 ?, 36/26, 186/26“, dok je 33/26 (OA) na konsultacijama i u mejlu od 09.11. potvrđen u T49. Za T37 je 09.11. predat link AI Studio aplikacije bez brojeva indeksa i na konsultacijama potvrđeno da je pasoš poslat u dva mejla, ali fajl pasoša nije stigao u izvozu.",
-      "en": "National Theatre (T37): the consultation note of 12 Oct lists “33/26 ?, 36/26, 186/26”, whereas 33/26 (Architecture) was confirmed in T49 at the 9 Nov consultations and by email. For T37 the AI Studio link arrived on 9 Nov without index numbers and the team reported at consultations that the passport was sent in two emails, but the passport file did not arrive in the export.",
+      "sr": "Narodno pozorište (T37): u belešci sa konsultacija 12.10. zavedeno je „33/26 ?, 36/26, 186/26“. T49 je 15.11. pojasnio da njegova članica nosi 33/26og (Građevina), pa se brojevi više ne sudaraju. Za T37 je 09.11. predat link AI Studio aplikacije bez brojeva indeksa; fajl pasoša nije stigao u izvozu.",
+      "en": "National Theatre (T37): the 12 Oct consultation note lists “33/26 ?, 36/26, 186/26”. On 15 Nov T49 clarified that its member holds 33/26og (Civil Engineering), so the numbers no longer collide. T37 sent an AI Studio link on 9 Nov without index numbers; the passport file did not arrive in the export.",
       "askSr": "T37: potvrdite sve brojeve indeksa i oznake smera članova tima (posebno zapis „33/26 ?“) i ponovo pošaljite prilog digitalnog pasoša.",
       "askEn": "T37: confirm all member index numbers and programme suffixes (especially “33/26 ?”) and resend the digital passport attachment."
     },
@@ -315,6 +314,46 @@
       "en": "From the joint T01/T02/T03 email, the sketch and model with the red grid were assigned to T01 by elimination.",
       "askSr": "T01–T03: potvrdite čija je skica i maketa sa crvenom rešetkom.",
       "askEn": "T01–T03: confirm whose sketch and model with the red grid it is."
+    },
+    {
+      "id": "n-t63-west65-autori",
+      "teams": [
+        "T63"
+      ],
+      "sr": "West 65 Tower: 15.11. stigli su pasoš, 3D HTML model sa parkom i parkingom i link AI Studio aplikacije od dvojice studenata koji nisu upisani u T63 (u T63 su 189/26 i 141/26). Bez brojeva indeksa; privremeno zavedeno uz T63.",
+      "en": "West 65 Tower: on 15 Nov a passport, a 3D HTML model with park and parking and an AI Studio link arrived from two students not listed in T63 (T63 holds 189/26 and 141/26). No index numbers; provisionally filed under T63.",
+      "askSr": "Autori rada od 15.11. o West 65: navedite brojeve indeksa i da li ste deo T63 ili zaseban tim.",
+      "askEn": "Authors of the 15 Nov West 65 work: state your index numbers and whether you belong to T63 or are a separate team."
+    },
+    {
+      "id": "n-t33-sajt",
+      "teams": [
+        "T33"
+      ],
+      "sr": "Stari dvor (T33): 15.11. mejlom je najavljen sajt tima, ali prilog nije stigao u prijem.",
+      "en": "Old Palace (T33): the team's website was announced by email on 15 Nov, but the attachment did not arrive in the intake.",
+      "askSr": "T33: pošaljite link sajta u telu mejla.",
+      "askEn": "T33: send the website link in the body of the email."
+    },
+    {
+      "id": "n-t72-skica",
+      "teams": [
+        "T72"
+      ],
+      "sr": "Ušće Tower (T72): u prijemu od 13.11. stigli su tabela, fotografije, tuđi planovi i snimci ekrana, ali ne i ručna skica makete; verovatno je bila u telu mejla, koje izvoz ne prenosi. Fotografije završene makete nisu obavezne.",
+      "en": "Ušće Tower (T72): the 13 Nov intake holds the table, photos, third-party plans and screenshots, but no hand sketch of the model; it was probably inline in the email body, which the export does not carry. Photos of the finished model are not required.",
+      "askSr": "T72: pošaljite skicu makete kao prilog (JPG/PDF).",
+      "askEn": "T72: send the model sketch as an attachment (JPG/PDF)."
+    },
+    {
+      "id": "n-t10-skica-ai",
+      "teams": [
+        "T10"
+      ],
+      "sr": "Pančevo (T10): skica od 14.11. („Segretski pasoš“) liči na generisanu sliku, a ne na ručni crtež, i prikazuje stambenu zgradu umesto najavljenog kafića Minel; nije javna.",
+      "en": "Pančevo (T10): the 14 Nov sketch (“Segretski pasoš”) looks generated rather than hand-drawn and shows a residential building instead of the announced Minel café; not public.",
+      "askSr": "T10: pošaljite ručnu skicu makete koja prikazuje podatke.",
+      "askEn": "T10: send a hand-drawn model sketch that represents data."
     }
   ]
 }

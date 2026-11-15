@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
@@ -9,7 +9,7 @@
   "totals": {
     "teams": 79,
     "objects": 54,
-    "completedPassports": 74
+    "completedPassports": 75
   },
   "entries": [
     {
@@ -217,8 +217,8 @@
       "topic": "Ugostiteljsko-istorijska arhitektura u Pančevu",
       "progressStage": 5,
       "progressLabel": "Pasoš i AI Studio aplikacija na sajtu (08.11)",
-      "status": "Kompletan digitalni pasoš Hotela Tamiš u Pančevu (12 poglavlja i 34 grafička priloga iz Idejnog rešenja rekonstrukcije br. 1-03/2021, Zavod za zaštitu spomenika kulture Pančevo) kuriran u javni sloj (08.11); predata i AI Studio aplikacija.",
-      "submissionsCount": 6,
+      "status": "Kompletan digitalni pasoš Hotela Tamiš u Pančevu (12 poglavlja i 34 grafička priloga iz Idejnog rešenja rekonstrukcije br. 1-03/2021, Zavod za zaštitu spomenika kulture Pančevo) kuriran u javni sloj (08.11); predata i AI Studio aplikacija. Predata skica „Segretski pasoš“ (15.11); deluje generisano, traži se ručna skica.",
+      "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
         "Razrešeno: indeks 17/26 izuzet iz T10 u T04",
@@ -340,9 +340,9 @@
       "location": "Kralja Petra 12, Beograd",
       "topic": "Konstantin Jovanović, neorenesansna palata, trezori, reprezentativni hol",
       "progressStage": 5,
-      "progressLabel": "Pasoš na sajtu (29.10)",
-      "status": "Pasoš Palate Narodne banke kuriran u javni sloj (29.10) po odluci profesora iz verzije bez izvora uz pasuse: 13 zapisa, svi nepotvrđeni; napomena stoji u dosijeu. Verzija sa izvorima i tabelom zamenjuje dosije kad stigne.",
-      "submissionsCount": 6,
+      "progressLabel": "Pasoš sa izvorima po pasusu (15.11)",
+      "status": "Pasoš Palate Narodne banke u javnom sloju: 17 zapisa, svi nepotvrđeni. Kuriran 29.10 iz verzije bez izvora uz pasuse; 15.11 tim je dostavio verziju sa literaturom posle pasusa (zvanična stranica NBS, Arhiv NBS), iz koje su dodati ratna novčanica 1915 i Beta Vukanović. Navodi su na nivou ustanove, bez putanje do stranice ili signature.",
+      "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
         "Ista upisana tačka kao T55: Palata Narodne banke je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima.",
@@ -350,8 +350,8 @@
         "Objavljeno 29.10 bez izvora uz podatke (odluka profesora); čeka se verzija sa izvorima uz svaki podatak i tabelom.",
         "Prijem 30.10: dodela predaje 26.10 timu T16 potvrđena — T55 (74/26, 19/26) poslao sopstveni pasoš."
       ],
-      "claimsCount": 13,
-      "sectionsCount": 4
+      "claimsCount": 17,
+      "sectionsCount": 5
     },
     {
       "id": "T17",
@@ -575,8 +575,8 @@
       "topic": "Materijali, mermerne obloge, mozaik, proces gradnje",
       "progressStage": 5,
       "progressLabel": "Pasoš i AI Studio na sajtu (14.11)",
-      "status": "Ispravljen pasoš materijala Hrama (tabela podatak/izvor, 21 izvor sa linkom) kuriran u javni sloj (31.10): 94 zapisa u 16 poglavlja po materijalu, 8 praznina koje tim sam beleži; predat link AI Studio aplikacije (14.11) — čekaju se skice makete.",
-      "submissionsCount": 3,
+      "status": "Ispravljen pasoš materijala Hrama (tabela podatak/izvor, 21 izvor sa linkom) kuriran u javni sloj (31.10): 94 zapisa u 16 poglavlja po materijalu, 8 praznina koje tim sam beleži; predat link AI Studio aplikacije (14.11) — čekaju se skice makete. Predata skica kupole: prstenovi po materijalima — granit, mermer, oniks, lapis lazuli, mozaik (15.11).",
+      "submissionsCount": 5,
       "hasPassport": true,
       "flags": [
         "Indeks 192/26 potvrđen u T27 (182/26, 192/26)"
@@ -699,8 +699,8 @@
       "topic": "Aleksandar Bugarski, istorija zdanja kroz epohe, rekonstrukcije",
       "progressStage": 3,
       "progressLabel": "Predat pasoš i 2 skice makete (10.11)",
-      "status": "Predat pasoš Starog dvora (20 zapisa, traži se tabela podatak → izvor) i 2 ručno crtane skice makete u javnoj galeriji (10.11); na konsultacijama (09.11) najavljeno slanje AI Studio aplikacije.",
-      "submissionsCount": 4,
+      "status": "Predat pasoš Starog dvora (20 zapisa, traži se tabela podatak → izvor) i 2 ručno crtane skice makete u javnoj galeriji (10.11); na konsultacijama (09.11) najavljeno slanje AI Studio aplikacije. Tim je mejlom najavio sajt (15.11); prilog nije stigao u prijem.",
+      "submissionsCount": 5,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 20,
@@ -883,8 +883,8 @@
       "topic": "Milica Krstić, prosvetna arhitektura, 3D prostorni eksperiment i gamifikacija pasoša",
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio i prototip makete na sajtu (11.11)",
-      "status": "Tabelarni pasoš Prve beogradske gimnazije (9 zapisa sa izvorima i nalazom iz Arhiva Jugoslavije o građevinskim dnevnicima iz 1937) kuriran u javni sloj (11.11); na konsultacijama (09.11) prikazana razrada AI Studio aplikacije (odlični rezultati, 2 slike) i predate fotografije prototipa makete u galeriji (radna verzija za 16.11).",
-      "submissionsCount": 18,
+      "status": "Tabelarni pasoš Prve beogradske gimnazije (9 zapisa sa izvorima i nalazom iz Arhiva Jugoslavije o građevinskim dnevnicima iz 1937) kuriran u javni sloj (11.11); na konsultacijama (09.11) prikazana razrada AI Studio aplikacije (odlični rezultati, 2 slike) i predate fotografije prototipa makete u galeriji (radna verzija za 16.11). Predata i fotografija skice „kako se objekat menjao kroz vreme“ (15.11).",
+      "submissionsCount": 20,
       "hasPassport": true,
       "flags": [
         "Sastav tima nepotpun: na objektu rade i 93/2026 (sada T69) i još jedan student bez indeksa, koji nisu u listi",
@@ -1019,7 +1019,7 @@
     {
       "id": "T49",
       "indices": [
-        "33/26",
+        "33/26g",
         "25/26",
         "147/26"
       ],
@@ -1029,7 +1029,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš sa radom autora iz 1966. i AI Studio na sajtu (10.11)",
       "status": "Pasoš Stambene kule „Toblerone“ (39 zapisa): rad projektanta Riste Šekerinskog iz Zbornika IAUS br. 13 (1966) i arhivski izvori, dopunjen 14.11 promenama na objektu kroz vreme i pravilima skice i makete (13 zapisa; podaci o stanju objekta bez izvora — nepotvrđeni); AI Studio link predat 10.11.",
-      "submissionsCount": 13,
+      "submissionsCount": 14,
       "hasPassport": true,
       "flags": [
         "Prijem 08.11: predata dopuna online podataka (8 izvora, 4 slike) i izveštaj o odgovorima 6 arhiva i institucija.",
@@ -1313,8 +1313,8 @@
       "topic": "Elektronski i digitalni pasoš: 9 detaljnih poglavlja, PERI oplata, tehnička dokumentacija",
       "progressStage": 5,
       "progressLabel": "Preliminarni pasoš na sajtu (31.10)",
-      "status": "Preliminarni podaci o konstrukciji i materijalima (PERI oplata, AB skelet, fasadni sistemi) i struktura pasoša u 9 poglavlja kurirani u javni sloj (11 zapisa); obavljene konsultacije (09.11) — čeka se tabela sa izvorima uz podatke, AI Studio i skica makete.",
-      "submissionsCount": 1,
+      "status": "Preliminarni podaci o konstrukciji i materijalima (PERI oplata, AB skelet, fasadni sistemi) i struktura pasoša u 9 poglavlja kurirani u javni sloj (11 zapisa); obavljene konsultacije (09.11) — čeka se tabela sa izvorima uz podatke, AI Studio i skica makete. Pasoš West 65 i 3D HTML model sa parkom i AI Studio link stigli 15.11 od studenata koji nisu u registru tima — pripadnost se proverava.",
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
         "indeks 191 prešao u T30"
@@ -1419,8 +1419,8 @@
       "topic": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio, skica i maketa (14.11)",
-      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji. Predati link AI Studio aplikacije, skica makete (PDF) i završena maketa — vremenska osa 1925–2015 (14.11).",
-      "submissionsCount": 8,
+      "status": "Tabelarni pasoš „Ornament kao nosilac značenja: fasada i aula Tehničkog fakulteta” kuriran u javni sloj (25 zapisa u 5 sekcija, 8 izvora) + 14 terenskih fotografija u galeriji. Predati link AI Studio aplikacije, skica makete (PDF) i završena maketa — vremenska osa 1925–2015 (14.11). Novi AI Studio link sa dopunjenim 3D modelom (15.11).",
+      "submissionsCount": 9,
       "hasPassport": true,
       "flags": [
         "Indeks 136/26 razrešen: spisak od 26.10. ga je izveo iz T05 u T68 (155/26, 130/26, 136/26)"
@@ -1506,7 +1506,7 @@
       "progressStage": 5,
       "progressLabel": "Tabelarni pasoš dopunjen (14.11)",
       "status": "Tabelarni pasoš Ušće Tower 2 (21 zapis): pregled od 08.11 dopunjen 14.11 novom tabelom (projektanti, fasada, oplata, tehnički sistemi), potvrdom indeksa (129/26, 18/26g, 96/26) i linkom AI Studio aplikacije; razlike prema ranijim podacima stoje kao zasebni zapisi.",
-      "submissionsCount": 23,
+      "submissionsCount": 24,
       "hasPassport": true,
       "flags": [
         "Izdvojen iz T21 ispravkom registra 03.11: mejlovi 20–25.10 o Ušće Tower 2 pripadaju ovom timu; u mejlu 14.11 potvrđeni indeksi 129/26, 18/26g i 96/26."
@@ -1565,8 +1565,8 @@
       "topic": "Rekonstrukcija zgrade Sava centra (2021–2024), tehnička unapređenja i materijali",
       "progressStage": 5,
       "progressLabel": "Pasoš rekonstrukcije i AI Studio na sajtu (10.11)",
-      "status": "Digitalni pasoš rekonstrukcije Sava centra 2021–2024 (energetska sanacija troslojnog staklenog omotača, Plava dvorana, BREEAM i akustika — 7 zapisa sa izvorima) kuriran u javni sloj uz link AI Studio aplikacije (10.11).",
-      "submissionsCount": 5,
+      "status": "Digitalni pasoš rekonstrukcije Sava centra 2021–2024 (energetska sanacija troslojnog staklenog omotača, Plava dvorana, BREEAM i akustika — 7 zapisa sa izvorima) kuriran u javni sloj uz link AI Studio aplikacije (10.11). Predata skica rekonstrukcije Sava centra — stara betonska i nova staklena fasada (15.11).",
+      "submissionsCount": 7,
       "hasPassport": true,
       "flags": [
         "Deljeni objekat: T03, T60 i T75 rade Sava Centar (odobreno)"
@@ -1621,16 +1621,16 @@
       "object": "MIA Dorćol",
       "location": "Beograd",
       "topic": "Primena reciklirane opeke; skice idejnog rešenja makete",
-      "progressStage": 1,
-      "progressLabel": "Novi tim u registru",
-      "status": "Novi tim u registru (14.11): predate dve skice idejnog rešenja makete; pasoš i AI Studio aplikacija nisu stigli",
-      "submissionsCount": 3,
-      "hasPassport": false,
+      "progressStage": 4,
+      "progressLabel": "Pasoš na sajtu i skice (15.11)",
+      "status": "Prvi pasoš na sajtu (15.11): MIA Dorćol — reciklirana opeka, 8 zapisa u 2 poglavlja sa 7 web izvora (tri opšta izvora o održivosti ne govore o objektu). Predate i dve skice idejnog rešenja makete (14.11); AI Studio aplikacija nije stigla, indeksi nisu navedeni.",
+      "submissionsCount": 5,
+      "hasPassport": true,
       "flags": [
         "Tim otvoren 14.11 iz mejla sa skicama; indeks nije naveden u predaji — 00/2026 je privremena oznaka do potvrde; lokacija objekta približna"
       ],
-      "claimsCount": 0,
-      "sectionsCount": 0
+      "claimsCount": 8,
+      "sectionsCount": 2
     },
     {
       "id": "T79",
@@ -1653,5 +1653,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-7f853c708db69bb2"
+  "datasetRevision": "r-15cac98def8fa438"
 }
