@@ -35,11 +35,11 @@
    "prihvaceno": 76
   },
   "ai-studio": {
-   "nema": 13,
+   "nema": 12,
    "najavljeno": 3,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 63
+   "prihvaceno": 64
   },
   "skice": {
    "nema": 5,
@@ -4929,7 +4929,7 @@
   {
    "tim": "T40",
    "objekat": "Stambeno-poslovna zgrada Cara Uroša 57",
-   "procenat": 68,
+   "procenat": 93,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -4940,10 +4940,12 @@
      "predaja": 1
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-15",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -4963,9 +4965,7 @@
      "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
-   "fali": [
-    "ai-studio"
-   ],
+   "fali": [],
    "konsultacija": {
     "datum": "2026-11-11",
     "vrsta": "mejl"
@@ -5033,6 +5033,14 @@
      "datum": "2026-11-11",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-15",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
     }
    ]
   },
@@ -7816,10 +7824,11 @@
     "ai-studio": {
      "stanje": "prihvaceno",
      "formati": [
-      "HTML"
+      "HTML",
+      "link"
      ],
      "datum": "2026-11-15",
-     "predaja": 1
+     "predaja": 2
     },
     "skice": {
      "stanje": "najavljeno",
@@ -7839,8 +7848,8 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-15",
-    "vrsta": "mejl"
+    "datum": "2026-11-09",
+    "vrsta": "konsultacije"
    },
    "hronologija": [
     {
@@ -7863,8 +7872,9 @@
     },
     {
      "datum": "2026-11-15",
-     "element": "prepiska",
+     "element": "ai-studio",
      "formati": [
+      "link",
       "mejl"
      ]
     },
@@ -7881,11 +7891,6 @@
      "formati": [
       "HTML"
      ]
-    },
-    {
-     "datum": "2026-11-15",
-     "element": "konsultacija",
-     "vrsta": "mejl"
     }
    ]
   },
@@ -8358,8 +8363,8 @@
      "formati": [
       "link"
      ],
-     "datum": "2026-11-14",
-     "predaja": 2
+     "datum": "2026-11-15",
+     "predaja": 3
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -8381,7 +8386,7 @@
    },
    "fali": [],
    "konsultacija": {
-    "datum": "2026-11-15",
+    "datum": "2026-10-19",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -8451,15 +8456,11 @@
     },
     {
      "datum": "2026-11-15",
-     "element": "prepiska",
+     "element": "ai-studio",
      "formati": [
+      "link",
       "mejl"
      ]
-    },
-    {
-     "datum": "2026-11-15",
-     "element": "konsultacija",
-     "vrsta": "mejl"
     }
    ]
   },

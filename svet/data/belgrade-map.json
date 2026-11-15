@@ -1136,9 +1136,9 @@
       "y": 1.8,
       "z": -26,
       "type": "standard",
-      "progressStage": 4,
-      "progressLabel": "HTML pasoš, skica i analiza prototipa makete (09.11)",
-      "status": "Predat HTML pasoš „Glasnik Beograda“ (traži se PDF/DOCX), skica sa konsultacija i konceptualna analiza prototipa makete sa video-prikazom za Cara Uroša 57 (09.11, radna verzija za predaju uživo 16.11).",
+      "progressStage": 5,
+      "progressLabel": "HTML pasoš, skica, prototip makete i sajt-aplikacija (15.11)",
+      "status": "Predat HTML pasoš „Glasnik Beograda“ (traži se PDF/DOCX), skica sa konsultacija i konceptualna analiza prototipa makete sa video-prikazom za Cara Uroša 57 (09.11). Predat link javno podeljenog sajta o energetskoj efikasnosti i digitalnom pasošu objekta, koji važi kao AI zadatak (15.11, https://azure-consuela-6.tiiny.site).",
       "hasPassport": true,
       "claimsCount": 15,
       "sectionsCount": 3,
@@ -2257,6 +2257,6 @@
       "building": "B0c77d468"
     }
   ],
-  "datasetRevision": "r-15cac98def8fa438",
+  "datasetRevision": "r-e8c738f16e70cac6",
   "coordinateNote": "Koordinate su približne lokacije objekata iz kuriranog skupa mape registra (spojeno 2026-10-25); nijedna nije nezavisno proverena na terenu. Timovi T12, T25, T39, T59 zadržavaju izjavljenu tačku registra jer im je deljena lokacija još otvoreno pitanje."
 }
