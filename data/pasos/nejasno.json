@@ -2,8 +2,8 @@
   "schema": "or/nejasno@1",
   "updated": "2026-11-15",
   "note": {
-    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 14.11. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
-    "en": "All open questions to the teams in one place, as of the intakes up to 14 Nov. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
+    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 15.11. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
+    "en": "All open questions to the teams in one place, as of the intakes up to 15 Nov. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
   },
   "items": [
     {
@@ -138,8 +138,8 @@
     {
       "id": "n-dupli-indeksi",
       "teams": [],
-      "sr": "Iz brzih beleški sa konsultacija isti brojevi bez oznake smera javljaju se u više timova: 8, 10, 14, 17, 24, 25, 26, 27, 33, 47, 50 i 56 (dok su za T52 potvrđeni 102/26, za T39 34/26 i 162/26, a za T72 129/26, 18/26g i 96/26). Parovi poput 18/26g i 18/26, 26/26g i 26/26, 49/26g i 49/26, 36/26g i 36/26, 29/26g i 29/26 označavaju različite studijske programe (OA / OG).",
-      "en": "From quick consultation notes the same bare index numbers appear across multiple teams: 8, 10, 14, 17, 24, 25, 26, 27, 33, 47, 50 and 56 (while 102/26 was confirmed for T52, 34/26 and 162/26 for T39, and 129/26, 18/26g and 96/26 for T72). Pairs such as 18/26g and 18/26, 26/26g and 26/26, 49/26g and 49/26, 36/26g and 36/26, 29/26g and 29/26 denote different degree programmes (Architecture / Civil Engineering).",
+      "sr": "Iz brzih beleški sa konsultacija isti brojevi bez oznake smera javljaju se u više timova: 8, 10, 14, 17, 24, 25, 26, 27, 47, 50 i 56 (dok su za T52 potvrđeni 102/26, za T39 34/26 i 162/26, a za T72 129/26, 18/26g i 96/26). Parovi poput 18/26g i 18/26, 26/26g i 26/26, 33/26g i 33/26, 49/26g i 49/26, 36/26g i 36/26, 29/26g i 29/26 označavaju različite studijske programe (OA / OG).",
+      "en": "From quick consultation notes the same bare index numbers appear across multiple teams: 8, 10, 14, 17, 24, 25, 26, 27, 47, 50 and 56 (while 102/26 was confirmed for T52, 34/26 and 162/26 for T39, and 129/26, 18/26g and 96/26 for T72). Pairs such as 18/26g and 18/26, 26/26g and 26/26, 33/26g and 33/26, 49/26g and 49/26, 36/26g and 36/26, 29/26g and 29/26 denote different degree programmes (Architecture / Civil Engineering).",
       "askSr": "Ako je tvoj broj gore, navedi pun oblik indeksa sa oznakom smera (OA / OG) u narednoj predaji.",
       "askEn": "If your number is listed above, state the full index including the programme suffix (OA / OG) in your next submission."
     },

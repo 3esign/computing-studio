@@ -574,8 +574,8 @@
       "location": "Vračar, Beograd",
       "topic": "Materijali, mermerne obloge, mozaik, proces gradnje",
       "progressStage": 5,
-      "progressLabel": "Pasoš i AI Studio na sajtu (14.11)",
-      "status": "Ispravljen pasoš materijala Hrama (tabela podatak/izvor, 21 izvor sa linkom) kuriran u javni sloj (31.10): 94 zapisa u 16 poglavlja po materijalu, 8 praznina koje tim sam beleži; predat link AI Studio aplikacije (14.11) — čekaju se skice makete. Predata skica kupole: prstenovi po materijalima — granit, mermer, oniks, lapis lazuli, mozaik (15.11).",
+      "progressLabel": "Pasoš materijala (94 zapisa), AI Studio i skica kupole (15.11)",
+      "status": "Ispravljen pasoš materijala Hrama (tabela podatak/izvor, 21 izvor sa linkom) kuriran u javni sloj (31.10): 94 zapisa u 16 poglavlja po materijalu, 8 praznina koje tim sam beleži. Predati link AI Studio aplikacije (14.11) i ručno crtana skica kupole u galeriji: prstenovi po materijalima — granit, mermer, oniks, lapis lazuli, mozaik (15.11).",
       "submissionsCount": 5,
       "hasPassport": true,
       "flags": [
@@ -1313,7 +1313,7 @@
       "topic": "Elektronski i digitalni pasoš: 9 detaljnih poglavlja, PERI oplata, tehnička dokumentacija",
       "progressStage": 5,
       "progressLabel": "Preliminarni pasoš na sajtu (31.10)",
-      "status": "Preliminarni podaci o konstrukciji i materijalima (PERI oplata, AB skelet, fasadni sistemi) i struktura pasoša u 9 poglavlja kurirani u javni sloj (11 zapisa); obavljene konsultacije (09.11) — čeka se tabela sa izvorima uz podatke, AI Studio i skica makete. Pasoš West 65 i 3D HTML model sa parkom i AI Studio link stigli 15.11 od studenata koji nisu u registru tima — pripadnost se proverava.",
+      "status": "Preliminarni podaci o konstrukciji i materijalima (PERI oplata, AB skelet, fasadni sistemi) i struktura pasoša u 9 poglavlja kurirani u javni sloj (11 zapisa); na konsultacijama (09.11) tražena tabela sa izvorima uz podatke i skica makete. Pasoš West 65, 3D HTML model sa parkom i AI Studio link stigli 15.11 od studenata koji nisu upisani u sastav tima — pripadnost se proverava.",
       "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
@@ -1653,5 +1653,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-e8c738f16e70cac6"
+  "datasetRevision": "r-f9f5252cd39c65f4"
 }
