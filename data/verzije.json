@@ -6,8 +6,13 @@
     "fakultet": "Univerzitet „Union — Nikola Tesla” · Fakultet za graditeljski menadžment, Beograd",
     "profesor": "Semir Poturak",
     "formatIspita": {
-      "status": "nepotvrđeno",
-      "napomena": "Format ispita za OR nije upisan. Ne izmišlja se — upisuje se kad ga Semir potvrdi, sa izvorom i datumom."
+      "status": "delimično potvrđeno",
+      "kolokvijum1": {
+        "datum": "2026-11-16",
+        "pravilo": "4 elementa × 25% (pasoš, AI Studio, skice, maketa); unutar elementa: nema 0, najavljeno 25, čeka ispravku 50, stiglo 75, prihvaćeno 100",
+        "izvor": "Semir, 31.10.2026 · kolokvijum po timovima na timovi.html"
+      },
+      "napomena": "Potvrđen je format 1. kolokvijuma. Format završnog ispita nije upisan — upisuje se kad ga Semir potvrdi, sa izvorom i datumom."
     }
   },
   "nacelo": {
@@ -98,6 +103,13 @@
       "sta": {
         "sr": "Sajt složen u pet odredišta po PUD obrascu (Semirov nalog 12.10): naslovna objašnjava suštinu semestralne teme; program.html postaje strana održanih predavanja i dobija prvi upisani čas — Čas 01, ponedeljak 05.10, stari savski most: izbor teme i rekonstrukcija objekta kroz podatke (potvrda Semira 12.10 da je čas održan i da su grupe izabrale objekte i trake); nova strana sledeci.html nosi pripremu sledećeg časa — prikupljanje podataka i data curation; oblak ideja i biblioteka izvora ostaju preostala dva odredišta. Navigacija svih strana i mobilna navigacija usklađena sa pet odredišta; upisan audit naloga i dodataka (dokazi/audit-naloga-20261012/AUDIT.md).",
         "en": "The site arranged into five destinations after the PUD pattern (Semir's order of 12.10): the home page explains the essence of the semester theme; program.html becomes the held-classes page and receives the first recorded class — Class 01, Monday 05.10, the old Sava bridge: choosing a topic and rebuilding an object through data (Semir confirmed on 12.10 that the class was held and that the groups chose objects and tracks); the new sledeci.html carries the next-class preparation — data collection and data curation; the idea cloud and the source library remain the other two destinations. Navigation on all pages aligned to the five destinations; the orders-versus-additions audit recorded (dokazi/audit-naloga-20261012/AUDIT.md)."
+      }
+    },
+    {
+      "datum": "2026-11-16",
+      "sta": {
+        "sr": "Tok nastave osvežen do 1. kolokvijuma: upisane konsultacije 26.10, 02.11 i 09.11 (iz privatne evidencije, bez imena), naslovna i sledeci.html nose današnji kolokvijum umesto najave od 12.10; format 1. kolokvijuma upisan sa izvorom. Za 19.10 nema beleške sa časa, pa nije upisan.",
+        "en": "Course flow refreshed up to the first colloquium: consultations of 26 Oct, 2 Nov and 9 Nov recorded (from the private record, no names); the home page and sledeci.html carry today's colloquium instead of the 12 Oct notice; the first colloquium format recorded with its source. No class note exists for 19 Oct, so it is not recorded."
       }
     }
   ]

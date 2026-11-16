@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-12",
+  "updated": "2026-11-16",
   "title": {
     "en": "Computing, made visible.",
     "sr": "Računarstvo koje se vidi."
@@ -11,8 +11,8 @@
     "sr": "Univerzitet „Union — Nikola Tesla” · Fakultet za graditeljski menadžment, Beograd"
   },
   "notice": {
-    "en": "Start with one record. Predict, connect the views, execute a rule, then try a new case.",
-    "sr": "Počni od jednog zapisa. Predvidi, poveži prikaze, izvedi pravilo, pa probaj novi slučaj."
+    "en": "Today, 16 November: the first colloquium. Four elements per team — passport, AI Studio, sketches, model — 25% each; the model is graded live.",
+    "sr": "Danas, 16. novembra: prvi kolokvijum. Četiri elementa po timu — pasoš, AI Studio, skice, maketa — po 25%; maketa se ocenjuje uživo."
   },
   "sessions": [
     {
@@ -50,6 +50,60 @@
         "sr": "Pregledajte spisak timova i prijavite nedostajuće informacije; pošaljite pilot/preliminarnu verziju digitalnog pasoša (prvi talas, sa izvorima) na ntunionhub@gmail.com do sledećeg predavanja; paralelno prikupljajte offline (arhivi, intervjui, kompanije)."
       },
       "link": "sledeci.html"
+    },
+    {
+      "id": "konsultacije-2026-10-26-skica",
+      "status": "held",
+      "date": "2026-10-26",
+      "title": {
+        "en": "Consultations · the assigned sketch and the passport as a table",
+        "sr": "Konsultacije · zadata skica i pasoš kao tabela"
+      },
+      "summary": {
+        "en": "Eighteen teams worked through the assigned sketch: axonometries of whole complexes, a hand-drawn timeline with numbered sources, archival site plans, collages of original drawings, and the first AI Studio applications. Several teams reported terrain research. The passport moved from prose to a table — the fact on the left, its source on the right. Register corrections from the class were entered in the private dossier.",
+        "sr": "Osamnaest timova radilo je kroz zadatu skicu: aksonometrije celih kompleksa, ručni timeline sa numerisanim izvorima, arhivske situacione planove, kolaže originalnih crteža i prve AI Studio aplikacije. Više timova obavilo je terensko istraživanje. Pasoš je prešao iz proze u tabelu — podatak levo, izvor desno. Ispravke registra sa časa upisane su u privatni dosije."
+      },
+      "task": {
+        "en": "Turn the passport into a table (fact → source); bring the sketch of the object as the basis for a model.",
+        "sr": "Pretočite pasoš u tabelu (podatak → izvor); donesite skicu objekta kao osnovu za maketu."
+      },
+      "link": "timovi.html"
+    },
+    {
+      "id": "konsultacije-2026-11-02-skice-makete",
+      "status": "held",
+      "date": "2026-11-02",
+      "title": {
+        "en": "Consultations · from sketch to model",
+        "sr": "Konsultacije · od skice do makete"
+      },
+      "summary": {
+        "en": "Thirty-six teams came with sketches for the model, axonometries and archival material; some brought finished passports and working AI Studio applications. Sketches photographed in class entered the team dossiers and, after the privacy check, the public gallery.",
+        "sr": "Trideset šest timova donelo je skice za maketu, aksonometrije i arhivsku građu; neki i završene pasoše i radne AI Studio aplikacije. Skice snimljene na času ušle su u dosijee timova i, posle provere privatnosti, u javnu galeriju."
+      },
+      "task": {
+        "en": "Build the model from your sketch; complete the passport and the AI Studio twin.",
+        "sr": "Napravite maketu na osnovu svoje skice; dopunite pasoš i AI Studio blizanca."
+      },
+      "link": "svet/galerija/"
+    },
+    {
+      "id": "konsultacije-2026-11-09-pred-kolokvijum",
+      "status": "held",
+      "date": "2026-11-09",
+      "title": {
+        "en": "Consultations · before the first colloquium",
+        "sr": "Konsultacije · pred prvi kolokvijum"
+      },
+      "summary": {
+        "en": "Thirty-two teams: refined applications, sketches and first models (polystyrene, clay), archival additions. The colloquium rule was set: four elements per team — passport, AI Studio, sketches, model — 25% each; the model is graded live on 16 November.",
+        "sr": "Trideset dva tima: razrađene aplikacije, skice i prve makete (stiropor, glina), arhivske dopune. Postavljeno je pravilo kolokvijuma: četiri elementa po timu — pasoš, AI Studio, skice, maketa — po 25%; maketa se ocenjuje uživo 16. novembra."
+      },
+      "task": {
+        "en": "Send whatever is missing before 16 November and check your team's row in the register.",
+        "sr": "Pošaljite ono što fali pre 16. novembra i proverite red svog tima u registru."
+      },
+      "link": "timovi.html#kol-title"
     }
   ],
   "classQuestions": [
