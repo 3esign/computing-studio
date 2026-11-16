@@ -1,0 +1,4729 @@
+{
+  "schema": "or-aplikacije-v1",
+  "datasetRevision": "r-f9f5252cd39c65f4",
+  "profilRevision": "4b8d12a2",
+  "azurirano": "2026-11-15",
+  "summary": {
+    "ukupnoTimova": 79,
+    "ukupnoObjekata": 54,
+    "saAplikacijom": 64,
+    "saZivimLinkom": 56,
+    "ukupnoLinkova": 66,
+    "saHtmlIzvozom": 7,
+    "saSnimkom": 1,
+    "bezAplikacije": 15
+  },
+  "timovi": [
+    {
+      "tim": "T01",
+      "objekat": "OŠ „Laza Kostić”",
+      "zgradaId": "Bca96d908",
+      "zajednickiObjekat": "OŠ „Laza Kostić”",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "157/26",
+        "121/26"
+      ],
+      "tema": "Osnovna škola i modernistička školska arhitektura",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "HTML"
+      ],
+      "dopuna": null,
+      "nacin": "html-izvoz",
+      "profil": {
+        "skor": 68,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.86,
+            "3/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.25,
+            "2 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "46 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 7 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "7 pred. · 18 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T02",
+      "objekat": "Silosi Beograd",
+      "zgradaId": "B25fc772a",
+      "zajednickiObjekat": "Silosi Beograd",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "26/26g",
+        "50/26"
+      ],
+      "tema": "Industrijsko nasleđe i revitalizacija silosa žita",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 58,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            0.125,
+            "1 izvor"
+          ],
+          [
+            "informacije",
+            1,
+            "28 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8436,
+            "4 pred. · 10 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T03",
+      "objekat": "Sava Centar",
+      "zgradaId": "Bce3fd2f1",
+      "zajednickiObjekat": "Sava Centar",
+      "brojTimovaNaObjektu": 3,
+      "grad": "Beograd",
+      "indeksi": [
+        "19/26",
+        "84/26"
+      ],
+      "tema": "Kongresni kompleks i savremena rekonstrukcija",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 74,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            0.5667,
+            "2/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "34 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 8 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "6 pred. · 17 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T04",
+      "objekat": "Ložionica",
+      "zgradaId": "Bf86ee95f",
+      "zajednickiObjekat": "Ložionica",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "15/26",
+        "17/26",
+        "90/26"
+      ],
+      "tema": "Istorija korišćenja i transformacija u kreativno-inovativni hab",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 80,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "28 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "4 uživo · 11 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "8 pred. · 62 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/4638db7d-d356-4880-90a7-fbe766de31bc",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T05",
+      "objekat": "Dom omladine Beograd",
+      "zgradaId": "Be3448d6e",
+      "zajednickiObjekat": "Dom omladine Beograd",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "138/26",
+        "119/26",
+        "56/26"
+      ],
+      "tema": "Kulturni centar, omladinska arhitektura, enterijer",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 75,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            0.5667,
+            "2/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.6,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "40 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.88,
+            "4 pred. · 11 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T06",
+      "objekat": "Gardoš / Milenijumska kula",
+      "zgradaId": "B0dffad8d",
+      "zajednickiObjekat": "Gardoš / Milenijumska kula",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "95/26",
+        "8/26",
+        "27/26"
+      ],
+      "tema": "Istorijska kula, vidikovac, materijali (kamen, opeka)",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 93,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.875,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "20 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "4 uživo · 7 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.88,
+            "4 pred. · 20 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/9e515352-7199-4ce9-8934-a180e48f528e",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T07",
+      "objekat": "Hotel Zlatibor, Užice",
+      "zgradaId": "B44428580",
+      "zajednickiObjekat": "Hotel Zlatibor, Užice",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Užice",
+      "indeksi": [
+        "38/26",
+        "82/26"
+      ],
+      "tema": "Brutalistička arhitektura, Svetlana Radović, visinski akcenat Užica",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 95,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.875,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "32 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "7 pred. · 26 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/e20f47e4-0e3e-4ea2-870b-b8742a16b897",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · e20f47e4",
+          "platformaEn": "Google AI Studio · e20f47e4",
+          "oznakaSr": "Aplikacija 1",
+          "oznakaEn": "App 1"
+        },
+        {
+          "url": "https://ai.studio/apps/703cded7-83e0-4a7e-b92c-1ba81617eba0",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · 703cded7",
+          "platformaEn": "Google AI Studio · 703cded7",
+          "oznakaSr": "Aplikacija 2",
+          "oznakaEn": "App 2"
+        }
+      ]
+    },
+    {
+      "tim": "T08",
+      "objekat": "Zgrada u Kalemegdan parku",
+      "zgradaId": "B9e4c8453",
+      "zajednickiObjekat": "Zgrada u Kalemegdan parku",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "23/26",
+        "87/26",
+        "88/26"
+      ],
+      "tema": "Novija zgrada u zaštićenom parku (2017, 4Po+Pr+5+Ps), energetska efikasnost",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 67,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.625,
+            "5 izvora"
+          ],
+          [
+            "informacije",
+            0.4682,
+            "10 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8182,
+            "6 pred. · 6 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/b06568b0-b90b-4a31-9ddf-1cdcb3a0121d",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T09",
+      "objekat": "Dorćol centar",
+      "zgradaId": "Bba876e95",
+      "zajednickiObjekat": "Dorćol centar",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "104/26",
+        "70/26",
+        "127/26"
+      ],
+      "tema": "Energetska efikasnost i savremeni stambeno-poslovni blok",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 61,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.625,
+            "5 izvora"
+          ],
+          [
+            "informacije",
+            0.8705,
+            "25 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.4167,
+            "1 uživo · 2 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.4691,
+            "3 pred. · 3 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/43bf2b17-dd64-49f7-8f2f-450ea636a580",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T10",
+      "objekat": "Hotel Tamiš, Pančevo",
+      "zgradaId": "B4e9e8ccb",
+      "zajednickiObjekat": "Hotel Tamiš, Pančevo",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Pančevo",
+      "indeksi": [
+        "8/26",
+        "181/26",
+        "165/26",
+        "17/26"
+      ],
+      "tema": "Ugostiteljsko-istorijska arhitektura u Pančevu",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-08",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 55,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.375,
+            "3 izvora"
+          ],
+          [
+            "informacije",
+            0.2591,
+            "5 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6255,
+            "4 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/bfb5a402-9239-41a2-a03d-5e011088dc5a",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T11",
+      "objekat": "Hram Svetog Save",
+      "zgradaId": "B4d2fca52",
+      "zajednickiObjekat": "Hram Svetog Save",
+      "brojTimovaNaObjektu": 3,
+      "grad": "Beograd",
+      "indeksi": [
+        "164/26",
+        "31/26g"
+      ],
+      "tema": "Monumentalna sakralna arhitektura, kupola, materijali i izvođenje",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 75,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            0.9,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.625,
+            "5 izvora"
+          ],
+          [
+            "informacije",
+            0.6455,
+            "14 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.9167,
+            "1 uživo · 5 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8909,
+            "5 pred. · 8 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/c60c31eb-f03a-4b38-8142-32f0cc6d4549",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T12",
+      "objekat": "Zgrada Generalštaba",
+      "zgradaId": "Bda203afb",
+      "zajednickiObjekat": "Zgrada Generalštaba",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "168/26",
+        "32/26"
+      ],
+      "tema": "Nikola Dobrović, kaskadna forma, kanjon Sutjeske, rušenje 1999, zaštita",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 69,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.6341,
+            "16 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 5 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6618,
+            "4 pred. · 5 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/13a8057c-8a53-40fb-91cf-a8f61a861e3a",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T13",
+      "objekat": "Palata SANU i Zgrada Pošte",
+      "zgradaId": "Bae8506cc",
+      "zajednickiObjekat": "Palata SANU i Zgrada Pošte",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "116/26",
+        "145/26",
+        "94/26",
+        "184/26",
+        "169/26"
+      ],
+      "tema": "Uporedna analiza dva ključna beogradska zdanja, prostorna struktura i preseci",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 100,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "12 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "76 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 10 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "10 pred. · 18 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/40444a7f-bf44-463e-819c-1740e10e22e3",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T14",
+      "objekat": "Najstarija stambena kuća u Beogradu (Flajšmanova kuća)",
+      "zgradaId": "B4f2be009",
+      "zajednickiObjekat": "Najstarija stambena kuća u Beogradu (Flajšmanova kuća)",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "55/26",
+        "92/26"
+      ],
+      "tema": "Barokna arhitektura (1724–1727), podzemni lagumi, građevinski materijali, stanari",
+      "stanje": "prihvaceno",
+      "datum": "2026-10-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 81,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.75,
+            "6 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "35 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6255,
+            "4 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/559cd66a-20ca-438e-af3a-b4a2dd816798",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T15",
+      "objekat": "Zgrada RTS",
+      "zgradaId": "B41952daf",
+      "zajednickiObjekat": "Zgrada RTS",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "77/26",
+        "78/26"
+      ],
+      "tema": "Televizijski centar, specifičnosti enterijera i akustičkih studija",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 81,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.625,
+            "5 izvora"
+          ],
+          [
+            "informacije",
+            0.8409,
+            "17 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "4 uživo · 7 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.88,
+            "4 pred. · 12 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/f03d7b7e-b0be-4eb7-acce-af0b3e6a8620",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T16",
+      "objekat": "Palata Narodne banke Srbije",
+      "zgradaId": "B6b092149",
+      "zajednickiObjekat": "Palata Narodne banke Srbije",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "188/26",
+        "109/26",
+        "72/26"
+      ],
+      "tema": "Konstantin Jovanović, neorenesansna palata, trezori, reprezentativni hol",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 72,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            0.5667,
+            "2/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "17 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.88,
+            "4 pred. · 19 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T17",
+      "objekat": "Palata Beograd (Beograđanka)",
+      "zgradaId": "B88cffac1",
+      "zajednickiObjekat": "Palata Beograd (Beograđanka)",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "22/26",
+        "75/26",
+        "76/26"
+      ],
+      "tema": "Branko Pešić, armiranobetonska konstrukcija, dijafragme, vertikalne komunikacije",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "HTML"
+      ],
+      "dopuna": null,
+      "nacin": "html-izvoz",
+      "profil": {
+        "skor": 85,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "8 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "25 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.7236,
+            "3 pred. · 10 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T18",
+      "objekat": "Palata Beograd (Beograđanka)",
+      "zgradaId": "B88cffac1",
+      "zajednickiObjekat": "Palata Beograd (Beograđanka)",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "175/26",
+        "49/26g",
+        "167/26"
+      ],
+      "tema": "Energetska efikasnost, fasadni paneli, staklene površine, HVAC sistemi",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "HTML"
+      ],
+      "dopuna": null,
+      "nacin": "html-izvoz",
+      "profil": {
+        "skor": 90,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "9 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "22 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "6 pred. · 14 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T19",
+      "objekat": "Zgrada tehničkih fakulteta",
+      "zgradaId": "Bb21a1978",
+      "zajednickiObjekat": "Zgrada tehničkih fakulteta",
+      "brojTimovaNaObjektu": 4,
+      "grad": "Beograd",
+      "indeksi": [
+        "63/26",
+        "66/26",
+        "11/26"
+      ],
+      "tema": "Proces gradnje (1925–1931), Nikola Nestorović i Branko Tanazević, simboli inženjerstva",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 85,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.875,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            0.7341,
+            "16 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8073,
+            "4 pred. · 9 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://zgrada-tehni-kog-fakulteta-digitalni-paso-i-maket.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T20",
+      "objekat": "Narodni muzej",
+      "zgradaId": "Bd18bf80b",
+      "zajednickiObjekat": "Narodni muzej",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "79/26",
+        "44/26",
+        "43/26"
+      ],
+      "tema": "Materijali, fasada od veštačkog kamena, krovna konstrukcija i svetlarnici",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 69,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.875,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            0.9909,
+            "28 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.4167,
+            "1 uživo · 2 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6255,
+            "4 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://blush-olga-59.tiiny.site/",
+          "platformaId": "tiiny",
+          "platformaSr": "Tiiny.site · veb aplikacija",
+          "platformaEn": "Tiiny.site · web app",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T21",
+      "objekat": "Kula Beograd",
+      "zgradaId": "Bedda6bf8",
+      "zajednickiObjekat": "Kula Beograd",
+      "brojTimovaNaObjektu": 4,
+      "grad": "Beograd",
+      "indeksi": [
+        "135/26",
+        "107/26",
+        "114/26"
+      ],
+      "tema": "„Dve kule Beograd\" — razvoj projekta od ranih najava (220 m) do izvedenog objekta (168 m, rotacija 90°); svaka tvrdnja sa izvorom i datumom",
+      "stanje": "prihvaceno",
+      "datum": "2026-10-27",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 80,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "10 izvora"
+          ],
+          [
+            "informacije",
+            0.8568,
+            "23 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 5 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.5418,
+            "3 pred. · 5 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://dve-kule-beograd.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T22",
+      "objekat": "K-District",
+      "zgradaId": "B3b4c7fb4",
+      "zajednickiObjekat": "K-District",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "13/26",
+        "40/26",
+        "41/26"
+      ],
+      "tema": "Istorijski, urbanistički i pravni status zaštićenog područja Beogradske tvrđave",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "HTML",
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 97,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "8 izvora"
+          ],
+          [
+            "informacije",
+            0.9227,
+            "18 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "7 pred. · 14 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/9e6fa330-6236-4f78-bc7a-031b88d23ec9",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T23",
+      "objekat": "Jugoslovensko dramsko pozorište (JDP)",
+      "zgradaId": "Be38a2b04",
+      "zajednickiObjekat": "Jugoslovensko dramsko pozorište (JDP)",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "150/26",
+        "151/26"
+      ],
+      "tema": "Bojan Stupica, požar 1997, staklena fasada Zorana Radojičića, teatar",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 83,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            0.5667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "8 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "18 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 8 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "5 pred. · 35 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T24",
+      "objekat": "Stara pošta na Savskom trgu",
+      "zgradaId": "B655d6f70",
+      "zajednickiObjekat": "Stara pošta na Savskom trgu",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "14/26",
+        "97/26",
+        "193/26"
+      ],
+      "tema": "Momir Korunović, srpsko-vizantijski modernizam, posleratno uklanjanje fasade",
+      "stanje": "prihvaceno",
+      "datum": "2026-10-28",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 62,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.3591,
+            "5 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6509,
+            "3 pred. · 8 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/f263b26b-fe66-435d-8ade-4aac201df1dc",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T25",
+      "objekat": "SIV i Generalštab (dva objekta)",
+      "zgradaId": "B1df14ea1",
+      "zajednickiObjekat": "SIV i Generalštab (dva objekta)",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "131/26",
+        "132/26",
+        "65/26",
+        "47/26",
+        "48/26"
+      ],
+      "tema": "Uporedna analiza primenjenih materijala i modernističkih fasada",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 93,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "15 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "35 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "4 uživo · 8 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8182,
+            "6 pred. · 6 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/ce814dc2-84ce-4f27-93f8-60fe82008abb",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · ce814dc2",
+          "platformaEn": "Google AI Studio · ce814dc2",
+          "oznakaSr": "Aplikacija 1",
+          "oznakaEn": "App 1"
+        },
+        {
+          "url": "https://ai.studio/apps/22708966-74cb-44c3-8822-a511cbcaf49d",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · 22708966",
+          "platformaEn": "Google AI Studio · 22708966",
+          "oznakaSr": "Aplikacija 2",
+          "oznakaEn": "App 2"
+        },
+        {
+          "url": "https://tim25generalstabpalatasrbije.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · tim25generalstabpalatasrbi",
+          "platformaEn": "Google AI Studio · tim25generalstabpalatasrbi",
+          "oznakaSr": "Aplikacija 3",
+          "oznakaEn": "App 3"
+        }
+      ]
+    },
+    {
+      "tim": "T26",
+      "objekat": "SC „25. Maj” — kula „Dunavski cvet”",
+      "zgradaId": "B7efb8894",
+      "zajednickiObjekat": "SC „25. Maj” — kula „Dunavski cvet”",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "178/26",
+        "179/26"
+      ],
+      "tema": "Ivan Antić, prenapregnuti beton, geometrija heksagona, istorijat kule",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 64,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.4818,
+            "12 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.5055,
+            "3 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/eceda2ef-6691-4e60-b1fe-e6f1407bcb3e",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T27",
+      "objekat": "Hram Svetog Save",
+      "zgradaId": "B4d2fca52",
+      "zajednickiObjekat": "Hram Svetog Save",
+      "brojTimovaNaObjektu": 3,
+      "grad": "Beograd",
+      "indeksi": [
+        "182/26",
+        "192/26"
+      ],
+      "tema": "Materijali, mermerne obloge, mozaik, proces gradnje",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 85,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "21 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "94 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6255,
+            "4 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://aistudio.google.com/apps/ce6ef49f-082a-4d2d-bd7b-72c67d7c2f45",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T28",
+      "objekat": "Kula Beograd",
+      "zgradaId": "Bedda6bf8",
+      "zajednickiObjekat": "Kula Beograd",
+      "brojTimovaNaObjektu": 4,
+      "grad": "Beograd",
+      "indeksi": [
+        "71/26",
+        "62/26",
+        "53/26"
+      ],
+      "tema": "Konstrukcija i izvođenje radova, šipovi, rotirana silueta",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 71,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.75,
+            "6 izvora"
+          ],
+          [
+            "informacije",
+            0.9977,
+            "29 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.4691,
+            "3 pred. · 3 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://kula-beograd-digitalni-pasos.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T29",
+      "objekat": "Hotel Moskva",
+      "zgradaId": "Beb7b8b9c",
+      "zajednickiObjekat": "Hotel Moskva",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "37/26",
+        "47/26",
+        "122/26"
+      ],
+      "tema": "Jovan Ilkić, secesija, keramika Žolnai, specifičnosti enterijera",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 83,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "10 izvora"
+          ],
+          [
+            "informacije",
+            0.8727,
+            "18 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.6667,
+            "2 uživo · 3 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.88,
+            "4 pred. · 12 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/a22c5447-cd45-4c83-9c57-7ac2d8079745",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T30",
+      "objekat": "Kapetan Mišino zdanje",
+      "zgradaId": "Ba8b77242",
+      "zajednickiObjekat": "Kapetan Mišino zdanje",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "191/26",
+        "99/26",
+        "30/26"
+      ],
+      "tema": "Jan Nevole, istorijske promene, namene kroz vreme, arhivska građa Rektorata",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "DOCX",
+        "link",
+        "slika"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 100,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "9 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "34 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 8 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "9 pred. · 15 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://aistudio.google.com/apps/eba53d86-43f6-4ea3-b5e0-96809b6d7666",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T31",
+      "objekat": "Zgrada rektorata (Kapetan Mišino zdanje)",
+      "zgradaId": "Ba8b77242",
+      "zajednickiObjekat": "Kapetan Mišino zdanje",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "11/26g",
+        "15/26g"
+      ],
+      "tema": "Konstruktivni elementi i enterijer, tavanica, svečana sala",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-08",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 95,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "10 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "44 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "4 uživo · 8 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.88,
+            "4 pred. · 22 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://kapetan-mi-ino-zdanje-interaktivni-seminarski-rad.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T32",
+      "objekat": "Gimnazija „Slobodan Škerović” u Podgorici",
+      "zgradaId": "B55cf1d30",
+      "zajednickiObjekat": "Gimnazija „Slobodan Škerović” u Podgorici",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Podgorica",
+      "indeksi": [
+        "123/26",
+        "31/26",
+        "42/26"
+      ],
+      "tema": "Istorijska školska arhitektura, kamen, regionalni modernizam",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 94,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "8 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "28 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8545,
+            "5 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://aistudio.google.com/apps/0fd3be0b-f14e-4fbf-a7cf-b0e784fd5dc3",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T33",
+      "objekat": "Stari dvor",
+      "zgradaId": "B530102bb",
+      "zajednickiObjekat": "Stari dvor",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "83/26",
+        "54/26"
+      ],
+      "tema": "Aleksandar Bugarski, istorija zdanja kroz epohe, rekonstrukcije",
+      "stanje": "najavljeno",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "najavljeno",
+      "profil": {
+        "skor": 66,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "12 izvora"
+          ],
+          [
+            "informacije",
+            0.7364,
+            "20 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.3855,
+            "2 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T34",
+      "objekat": "Palata Beograd (Beograđanka)",
+      "zgradaId": "B88cffac1",
+      "zajednickiObjekat": "Palata Beograd (Beograđanka)",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "25/26",
+        "26/26"
+      ],
+      "tema": "Istorijat izgradnje i kulturni značaj simbola Beograda",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 60,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.875,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            0.3795,
+            "8 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.5833,
+            "1 uživo · 3 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.5418,
+            "3 pred. · 5 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://beogradjankaaplikacija.tiiny.site/",
+          "platformaId": "tiiny",
+          "platformaSr": "Tiiny.site · veb aplikacija",
+          "platformaEn": "Tiiny.site · web app",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T35",
+      "objekat": "Geneks kula (Zapadna kapija Beograda)",
+      "zgradaId": "B2a7ecb59",
+      "zajednickiObjekat": "Geneks kula",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "106/26",
+        "124/26"
+      ],
+      "tema": "Mihajlo Mitrović, brutalizam, pasarela, rotirajući restoran",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-08",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 65,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.4659,
+            "6 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.8333,
+            "2 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.76,
+            "3 pred. · 11 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://aistudio.google.com/apps/ee4bf82f-ea86-4d9d-b9ef-ff8b12822d5b",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T36",
+      "objekat": "Zgrada tehničkih fakulteta",
+      "zgradaId": "Bb21a1978",
+      "zajednickiObjekat": "Zgrada tehničkih fakulteta",
+      "brojTimovaNaObjektu": 4,
+      "grad": "Beograd",
+      "indeksi": [
+        "103/26",
+        "126/26",
+        "91/26"
+      ],
+      "tema": "Arhitektonska simbolika, fasadna plastika, skulpture inženjera",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-08",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 76,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.8545,
+            "8 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "4 uživo · 7 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.88,
+            "4 pred. · 24 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/7b4b9ba8-7c3d-4c9e-b5a7-8c61f6fa7e24",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T37",
+      "objekat": "Narodno pozorište u Beogradu",
+      "zgradaId": "B25fc5bcf",
+      "zajednickiObjekat": "Narodno pozorište u Beogradu",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "33/26",
+        "36/26",
+        "186/26"
+      ],
+      "tema": "Proces izgradnje, obnove nakon razaranja, enterijer sale",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 31,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            0,
+            "0 izvora"
+          ],
+          [
+            "informacije",
+            0.075,
+            "0 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.8333,
+            "2 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.4691,
+            "3 pred. · 3 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/901bec58-35b7-456b-b9ec-6c52e729eba3",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T38",
+      "objekat": "Vladičanski dvor u Vršcu",
+      "zgradaId": "B967a9cc7",
+      "zajednickiObjekat": "Vladičanski dvor u Vršcu",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Vršac",
+      "indeksi": [
+        "27/26",
+        "10/26"
+      ],
+      "tema": "Barokna rezidencija, priče, mitovi, usmeno preneseni podaci, dvorska kapela",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 87,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "8 izvora"
+          ],
+          [
+            "informacije",
+            0.9,
+            "22 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8909,
+            "6 pred. · 8 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/54aab7e0-39c1-4cb6-ba83-93e343270144",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · 54aab7e0",
+          "platformaEn": "Google AI Studio · 54aab7e0",
+          "oznakaSr": "Aplikacija 1",
+          "oznakaEn": "App 1"
+        },
+        {
+          "url": "https://ai.studio/apps/f5829db8-f23a-4513-bcca-0ee22f88487a",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · f5829db8",
+          "platformaEn": "Google AI Studio · f5829db8",
+          "oznakaSr": "Aplikacija 2",
+          "oznakaEn": "App 2"
+        }
+      ]
+    },
+    {
+      "tim": "T39",
+      "objekat": "Belgrade Business House",
+      "zgradaId": "Be291aa43",
+      "zajednickiObjekat": "Belgrade Business House",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "34/26",
+        "162/26"
+      ],
+      "tema": "Savremena poslovna zgrada, staklena zavesa, energetski bilans",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-01",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 61,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.3545,
+            "8 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 5 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6255,
+            "4 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/220ddfce-524a-4bfd-8464-c3a39c1e4849",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T40",
+      "objekat": "Stambeno-poslovna zgrada Cara Uroša 57",
+      "zgradaId": "Bb81ca622",
+      "zajednickiObjekat": "Stambeno-poslovna zgrada Cara Uroša 57",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "177/26",
+        "163/26"
+      ],
+      "tema": "Novija stambena arhitektura (2020), energetska efikasnost, savremeni materijali",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-15",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 77,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.8023,
+            "15 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 7 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "5 pred. · 13 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://azure-consuela-6.tiiny.site/",
+          "platformaId": "tiiny",
+          "platformaSr": "Tiiny.site · veb aplikacija",
+          "platformaEn": "Tiiny.site · web app",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T41",
+      "objekat": "BIGZ (Zgrada Državne štamparije)",
+      "zgradaId": "B14027bbe",
+      "zajednickiObjekat": "BIGZ (Zgrada Državne štamparije)",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "98/26",
+        "187/26",
+        "152/26"
+      ],
+      "tema": "Dragiša Brašovan, industrijski modernizam, armiranobetonska konstrukcija, arhivska građa",
+      "stanje": "prihvaceno",
+      "datum": "2026-10-29",
+      "formati": [
+        "HTML"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 100,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "26 fascikli"
+          ],
+          [
+            "informacije",
+            1,
+            "289 skenova"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "4 uživo · 9 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "5 pred. · 289 sken."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "svet/galerija/bigz.html",
+          "platformaId": "galerija",
+          "platformaSr": "3D galerija · arhiv",
+          "platformaEn": "3D gallery · archive",
+          "oznakaSr": "Otvori 3D galeriju arhive",
+          "oznakaEn": "Open 3D archive gallery"
+        }
+      ]
+    },
+    {
+      "tim": "T42",
+      "objekat": "Prva beogradska gimnazija",
+      "zgradaId": "B721111bb",
+      "zajednickiObjekat": "Prva beogradska gimnazija",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "02/2026",
+        "10/26",
+        "26/26",
+        "05/26"
+      ],
+      "tema": "Milica Krstić, prosvetna arhitektura, 3D prostorni eksperiment i gamifikacija pasoša",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-08",
+      "formati": [
+        "link",
+        "slika"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 95,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.875,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "9 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 13 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "9 pred. · 29 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/559a6c42-529f-46e2-8dfc-5e219b4f4649",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · 559a6c42",
+          "platformaEn": "Google AI Studio · 559a6c42",
+          "oznakaSr": "Aplikacija 1",
+          "oznakaEn": "App 1"
+        },
+        {
+          "url": "https://ai.studio/apps/4b745900-8108-46fb-a023-d4908777f50e",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · 4b745900",
+          "platformaEn": "Google AI Studio · 4b745900",
+          "oznakaSr": "Aplikacija 2",
+          "oznakaEn": "App 2"
+        },
+        {
+          "url": "https://ai.studio/apps/d3a67961-9bb0-42d9-8fa0-d4a42977afa4",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · d3a67961",
+          "platformaEn": "Google AI Studio · d3a67961",
+          "oznakaSr": "Aplikacija 3",
+          "oznakaEn": "App 3"
+        },
+        {
+          "url": "https://ai.studio/apps/e4f516c2-d7f8-4a6a-a415-03c637280775",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · e4f516c2",
+          "platformaEn": "Google AI Studio · e4f516c2",
+          "oznakaSr": "Aplikacija 4",
+          "oznakaEn": "App 4"
+        }
+      ]
+    },
+    {
+      "tim": "T43",
+      "objekat": "Hram Svetog Save",
+      "zgradaId": "B4d2fca52",
+      "zajednickiObjekat": "Hram Svetog Save",
+      "brojTimovaNaObjektu": 3,
+      "grad": "Beograd",
+      "indeksi": [
+        "16/26",
+        "24/26"
+      ],
+      "tema": "Autorstvo i projektantski kontinuitet (Nestorović, Deroko, Pešić)",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-09",
+      "formati": [
+        "slika"
+      ],
+      "dopuna": "dostaviti link aplikacije",
+      "nacin": "snimak",
+      "profil": {
+        "skor": 50,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0.8,
+            "3/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.125,
+            "1 izvor"
+          ],
+          [
+            "informacije",
+            0.5386,
+            "13 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 5 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6618,
+            "4 pred. · 5 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T44",
+      "objekat": "ATŠ — Arhitektonska tehnička škola",
+      "zgradaId": "B34c1628c",
+      "zajednickiObjekat": "ATŠ — Arhitektonska tehnička škola",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "154/26",
+        "156/26",
+        "166/26"
+      ],
+      "tema": "Istorijat škole (od 1902), zgrada i obrazovni program; lično iskustvo učenika",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "HTML",
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 71,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.575,
+            "11 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 8 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8073,
+            "4 pred. · 9 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ais-dev-d2q2h443435l7rdxkzd4j3-1004238484951.europe-west2.run.app/",
+          "platformaId": "ai-studio-run",
+          "platformaSr": "AI Studio · Cloud Run",
+          "platformaEn": "AI Studio · Cloud Run",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T45",
+      "objekat": "Geneks kula",
+      "zgradaId": "B2a7ecb59",
+      "zajednickiObjekat": "Geneks kula",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "57/26",
+        "28/26"
+      ],
+      "tema": "Građenje, tehnologija klizne oplate, inženjerski izazovi 1970-ih",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 72,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            0.75,
+            "6 izvora"
+          ],
+          [
+            "informacije",
+            0.6614,
+            "9 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.8333,
+            "2 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.76,
+            "3 pred. · 15 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/cda6459c-2b7c-4511-b9ee-8cc0b0051161",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T46",
+      "objekat": "Hotel Jugoslavija",
+      "zgradaId": "Badf7e17e",
+      "zajednickiObjekat": "Hotel Jugoslavija",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "89/26",
+        "143/26",
+        "153/26"
+      ],
+      "tema": "Lavoslav Horvat, monumentalni dunavski front, istorijat i pitanje rušenja/rekonstrukcije",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 89,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "15 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "49 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 5 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.7345,
+            "4 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/f34422d9-6239-424c-b250-25b0701fc3b6",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T47",
+      "objekat": "Hala 1 Beogradskog sajma",
+      "zgradaId": "Bbe3e7124",
+      "zajednickiObjekat": "Hala 1 Beogradskog sajma",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "12/26",
+        "20/26",
+        "49/26"
+      ],
+      "tema": "Branko Žeželj, prenapregnuti beton, kupola raspona 109m, svetski rekord",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 83,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            0.9,
+            "3/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.6,
+            "18 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "31 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 8 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "6 pred. · 31 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://hala-1-beogradskog-sajma-in-enjersko-udo.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T48",
+      "objekat": "Palata Srbije (SIV)",
+      "zgradaId": "B21720f35",
+      "zajednickiObjekat": "Palata Srbije (SIV)",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "171/26",
+        "172/26"
+      ],
+      "tema": "Potočnjak, Janković, armiranobetonski skelet, enterijeri republika, monumentalnost",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "HTML"
+      ],
+      "dopuna": null,
+      "nacin": "html-izvoz",
+      "profil": {
+        "skor": 85,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.625,
+            "5 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "24 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "6 pred. · 36 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T49",
+      "objekat": "Stambena kula „Toblerone”",
+      "zgradaId": "Bce379d13",
+      "zajednickiObjekat": "Stambena kula „Toblerone”",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "33/26g",
+        "25/26",
+        "147/26"
+      ],
+      "tema": "Rista Šekerinski, brutalistička ekspresija, trougaona osnova, prefabrikacija",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 100,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "10 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "39 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 8 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "7 pred. · 24 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://digitalni-paso-kula-toblerone-karaburma.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · digitalni-paso-kula-tobler",
+          "platformaEn": "Google AI Studio · digitalni-paso-kula-tobler",
+          "oznakaSr": "Aplikacija 1",
+          "oznakaEn": "App 1"
+        },
+        {
+          "url": "https://ais-dev-er3dzt5cmihmhfnu5mboev-652108686083.europe-west3.run.app/",
+          "platformaId": "ai-studio-run",
+          "platformaSr": "AI Studio · Cloud Run · ais-dev-er3dzt5cmihmhfnu5m",
+          "platformaEn": "AI Studio · Cloud Run · ais-dev-er3dzt5cmihmhfnu5m",
+          "oznakaSr": "Aplikacija 2",
+          "oznakaEn": "App 2"
+        }
+      ]
+    },
+    {
+      "tim": "T50",
+      "objekat": "Palata Beograd (Beograđanka)",
+      "zgradaId": "B88cffac1",
+      "zajednickiObjekat": "Palata Beograd (Beograđanka)",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "51/26",
+        "160/26"
+      ],
+      "tema": "Fasada i vidikovac, javni prostori",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 64,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.5667,
+            "2/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.9705,
+            "25 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6145,
+            "3 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T51",
+      "objekat": "Privatna stambena zgrada, Sremska Mitrovica",
+      "zgradaId": "Ba191ffbe",
+      "zajednickiObjekat": "Privatna stambena zgrada, Sremska Mitrovica",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Sremska Mitrovica",
+      "indeksi": [
+        "69/26",
+        "39/26",
+        "146/26"
+      ],
+      "tema": "Savremena porodična/stambena arhitektura, energetska efikasnost i materijali",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-08",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 66,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.9,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.25,
+            "2 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "44 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 7 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8545,
+            "5 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ivot-zgrade-digitalna-mapa-arhitektonskih-podatak.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T52",
+      "objekat": "Geneks kula",
+      "zgradaId": "B2a7ecb59",
+      "zajednickiObjekat": "Geneks kula",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "137/26",
+        "102/26",
+        "68/26"
+      ],
+      "tema": "Urbanistička pozicija, pristupni plato, stambena vs poslovna kula",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 36,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0.2333,
+            "1/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.6,
+            "6 izvora"
+          ],
+          [
+            "informacije",
+            0.2591,
+            "5 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.6667,
+            "2 uživo · 3 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.2655,
+            "1 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T53",
+      "objekat": "Zgrada Instituta IMS",
+      "zgradaId": "B7a65f480",
+      "zajednickiObjekat": "Zgrada Instituta IMS",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "117/26",
+        "46/26"
+      ],
+      "tema": "IMS sistem prefabrikacije, Branko Žeželj, ispitivanje materijala, laboratorije",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 68,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.375,
+            "3 izvora"
+          ],
+          [
+            "informacije",
+            0.6068,
+            "12 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 8 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.9273,
+            "7 pred. · 9 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/034a8a07-f7f9-49a7-97b3-b770017dbbdc",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T54",
+      "objekat": "Hotel Moskva",
+      "zgradaId": "Beb7b8b9c",
+      "zajednickiObjekat": "Hotel Moskva",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "18/26",
+        "35/26",
+        "56/26"
+      ],
+      "tema": "Autorstvo (Ilkić vs Peterburški arhitekti), Ruski carski stil",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 64,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.4114,
+            "9 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 7 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6618,
+            "4 pred. · 5 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://hotel-moskva-pri-a-o-autorstvu.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T55",
+      "objekat": "Palata Narodne banke i Muzej novca",
+      "zgradaId": "Bb5a79c43",
+      "zajednickiObjekat": "Palata Narodne banke i Muzej novca",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "74/26",
+        "19/26g"
+      ],
+      "tema": "Razvoj novca, sigurnosni sistemi zgrade, sefovi, istorijska stolarija",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 73,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "9 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "43 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.5418,
+            "3 pred. · 5 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T56",
+      "objekat": "Narodno pozorište u Beogradu",
+      "zgradaId": "B25fc5bcf",
+      "zajednickiObjekat": "Narodno pozorište u Beogradu",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "115/26",
+        "9/26"
+      ],
+      "tema": "Pozorišna scenografija, scenska mehanika, rotaciona bina",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 50,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0.9,
+            "3/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.125,
+            "1 izvor"
+          ],
+          [
+            "informacije",
+            0.3977,
+            "7 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.7345,
+            "4 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/20d290e0-1109-465f-bfc7-d5a229157474",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T57",
+      "objekat": "Geneks kula (Zapadna kapija)",
+      "zgradaId": "B2a7ecb59",
+      "zajednickiObjekat": "Geneks kula",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "108/26",
+        "161/26"
+      ],
+      "tema": "Geneks — simbol modernističkog Beograda: konstrukcija, statika i gradnja",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 80,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "23 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "34 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.5833,
+            "1 uživo · 3 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.76,
+            "3 pred. · 32 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://geneks-kula.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · geneks-kula.ai.studio",
+          "platformaEn": "Google AI Studio · geneks-kula.ai.studio",
+          "oznakaSr": "Aplikacija 1",
+          "oznakaEn": "App 1"
+        },
+        {
+          "url": "https://aistudio.google.com/apps/01746805-5274-443f-9631-774da7d46be6",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · 01746805",
+          "platformaEn": "Google AI Studio · 01746805",
+          "oznakaSr": "Aplikacija 2",
+          "oznakaEn": "App 2"
+        }
+      ]
+    },
+    {
+      "tim": "T58",
+      "objekat": "Zgrada tehničkih fakulteta",
+      "zgradaId": "Bb21a1978",
+      "zajednickiObjekat": "Zgrada tehničkih fakulteta",
+      "brojTimovaNaObjektu": 4,
+      "grad": "Beograd",
+      "indeksi": [
+        "180/26",
+        "140/26"
+      ],
+      "tema": "Konstrukcija amfiteatara i krovnih nosača",
+      "stanje": "najavljeno",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "najavljeno",
+      "profil": {
+        "skor": 55,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.3333,
+            "1/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.8955,
+            "25 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "3 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.3855,
+            "2 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T59",
+      "objekat": "Bajrakli džamija",
+      "zgradaId": "B8b81c0c5",
+      "zajednickiObjekat": "Bajrakli džamija",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "142/26",
+        "190/26"
+      ],
+      "tema": "Otomansko sakralno nasleđe (oko 1575), kameni minaret, obnove i zaštita",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "HTML"
+      ],
+      "dopuna": null,
+      "nacin": "html-izvoz",
+      "profil": {
+        "skor": 61,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.9,
+            "3/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.375,
+            "3 izvora"
+          ],
+          [
+            "informacije",
+            0.65,
+            "11 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.76,
+            "3 pred. · 12 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T60",
+      "objekat": "Sava Centar (tim 2)",
+      "zgradaId": "Bce3fd2f1",
+      "zajednickiObjekat": "Sava Centar",
+      "brojTimovaNaObjektu": 3,
+      "grad": "Beograd",
+      "indeksi": [
+        "67/26",
+        "20/26g"
+      ],
+      "tema": "Istorija izgradnje, arhitektonsko i konstruktivno rešenje, spisak literature",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 58,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "11 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "40 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.3333,
+            "0 uživo · 2 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.3127,
+            "2 pred. · 2 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T61",
+      "objekat": "Palata pravde",
+      "zgradaId": "B0671278c",
+      "zajednickiObjekat": "Palata pravde",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "86/26",
+        "85/26",
+        "14/26"
+      ],
+      "tema": "Oblikovanje doživljaja institucije i autoriteta, monumentalnost, materijali",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 5,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0,
+            "0/3 elem."
+          ],
+          [
+            "izvori",
+            0,
+            "0 izvora"
+          ],
+          [
+            "informacije",
+            0,
+            "0 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.3333,
+            "0 uživo · 2 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0,
+            "0 pred. · 0 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T62",
+      "objekat": "Palata pravde",
+      "zgradaId": "B0671278c",
+      "zajednickiObjekat": "Palata pravde",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "174/26",
+        "128/26"
+      ],
+      "tema": "Nastanak, rekonstrukcija 2017–2019, prostorna organizacija, javnost i kontrola",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "HTML"
+      ],
+      "dopuna": null,
+      "nacin": "html-izvoz",
+      "profil": {
+        "skor": 64,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.7727,
+            "18 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.5,
+            "0 uživo · 3 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6509,
+            "3 pred. · 8 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T63",
+      "objekat": "West 65 Tower",
+      "zgradaId": "B01ffbf6e",
+      "zajednickiObjekat": "West 65 Tower",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "189/26",
+        "141/26"
+      ],
+      "tema": "Elektronski i digitalni pasoš: 9 detaljnih poglavlja, PERI oplata, tehnička dokumentacija",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-15",
+      "formati": [
+        "HTML",
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 40,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            0.125,
+            "1 izvor"
+          ],
+          [
+            "informacije",
+            0.425,
+            "11 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.4691,
+            "3 pred. · 3 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/3eb7cdb9-df8c-4c3b-a716-4ecb3980b045",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T64",
+      "objekat": "Palata Beograd (Beograđanka) — projektovanje i statika",
+      "zgradaId": "B88cffac1",
+      "zajednickiObjekat": "Palata Beograd (Beograđanka)",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "185/26",
+        "29/26g",
+        "173/26"
+      ],
+      "tema": "Projektovanje i statički proračuni, saradnja arhitekata i građevinaca",
+      "stanje": "prihvaceno",
+      "datum": "2026-10-30",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 44,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0.96,
+            "3/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0,
+            "0 izvora"
+          ],
+          [
+            "informacije",
+            0.3023,
+            "4 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.8333,
+            "0 uživo · 5 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8545,
+            "5 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://palata-beograd-beogra-anka-arhitektonski-monograf.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T65",
+      "objekat": "Crkva Aleksandra Nevskog",
+      "zgradaId": "B75d37fcb",
+      "zajednickiObjekat": "Crkva Aleksandra Nevskog",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "112/26",
+        "111/26"
+      ],
+      "tema": "Jelisaveta Načić, srpsko-vizantijski stil, materijali, poseta crkvi i razgovor sa sveštenstvom",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 48,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0.3333,
+            "1/3 elem."
+          ],
+          [
+            "izvori",
+            0.75,
+            "6 izvora"
+          ],
+          [
+            "informacije",
+            0.6659,
+            "17 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.5,
+            "0 uživo · 3 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.4218,
+            "2 pred. · 5 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T66",
+      "objekat": "Hotel Bristol",
+      "zgradaId": "Bbb2e5c1e",
+      "zajednickiObjekat": "Hotel Bristol",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "29/26",
+        "61/26"
+      ],
+      "tema": "Nikola Nestorović, secesija, istorijat hotela, posleratna upotreba, tekuća restauracija",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 64,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.3333,
+            "1/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "14 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "33 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.6667,
+            "0 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6982,
+            "4 pred. · 6 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T67",
+      "objekat": "Kula Beograd",
+      "zgradaId": "Bedda6bf8",
+      "zajednickiObjekat": "Kula Beograd",
+      "brojTimovaNaObjektu": 4,
+      "grad": "Beograd",
+      "indeksi": [
+        "45/26",
+        "159/26",
+        "158/26"
+      ],
+      "tema": "Konstruktivni sistem Kule Beograd, armiranobetonsko jezgro, kompozitni stubovi, fasada",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 72,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.55,
+            "11 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "2 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8909,
+            "5 pred. · 8 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/3e864dbf-3df0-48bf-8745-20998f62d2d8",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T68",
+      "objekat": "Zgrada tehničkih fakulteta",
+      "zgradaId": "Bb21a1978",
+      "zajednickiObjekat": "Zgrada tehničkih fakulteta",
+      "brojTimovaNaObjektu": 4,
+      "grad": "Beograd",
+      "indeksi": [
+        "155/26",
+        "130/26",
+        "136/26"
+      ],
+      "tema": "Koncept, arhivsko istraživanje i rad na terenu — nacrti i fotografije",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-15",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 87,
+        "medalja": "zlato",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "8 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "25 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.6667,
+            "0 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            1,
+            "5 pred. · 17 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/ca21f56a-1762-407b-8720-cff1ef476ab0",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · ca21f56a",
+          "platformaEn": "Google AI Studio · ca21f56a",
+          "oznakaSr": "Aplikacija 1",
+          "oznakaEn": "App 1"
+        },
+        {
+          "url": "https://zgrada-tehni-kog-fakulteta-digitalni-paso-i-maket.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · zgrada-tehni-kog-fakulteta",
+          "platformaEn": "Google AI Studio · zgrada-tehni-kog-fakulteta",
+          "oznakaSr": "Aplikacija 2",
+          "oznakaEn": "App 2"
+        }
+      ]
+    },
+    {
+      "tim": "T69",
+      "objekat": "Prva beogradska gimnazija",
+      "zgradaId": "B721111bb",
+      "zajednickiObjekat": "Prva beogradska gimnazija",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "93/2026",
+        "22/26g",
+        "21/26g"
+      ],
+      "tema": "Milica Krstić, modernistička forma prema istorijskom jezgru Dorćola i Skadarlije, ratna oštećenja",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "HTML",
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 60,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.3341,
+            "5 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.8545,
+            "5 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://amazing-marzipan-3a445c.netlify.app/",
+          "platformaId": "netlify",
+          "platformaSr": "Netlify · veb aplikacija",
+          "platformaEn": "Netlify · web app",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T70",
+      "objekat": "Rajhlova palata, Subotica",
+      "zgradaId": "B111f4f77",
+      "zajednickiObjekat": "Rajhlova palata, Subotica",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Subotica",
+      "indeksi": [
+        "21/2026",
+        "64/2026",
+        "50/2026"
+      ],
+      "tema": "Secesija Ferenca Rajhla, ornament i fasadna dekoracija",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-08",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 55,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.5,
+            "4 izvora"
+          ],
+          [
+            "informacije",
+            0.2909,
+            "6 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6255,
+            "4 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://view.genially.com/6ae8b1ef9213125141813a5c",
+          "platformaId": "genially",
+          "platformaSr": "Genially · interaktivno",
+          "platformaEn": "Genially · interactive",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T71",
+      "objekat": "Miloša Pocerca 32",
+      "zgradaId": "B2ceb56a4",
+      "zajednickiObjekat": "Miloša Pocerca 32",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "149/2026",
+        "13/26g"
+      ],
+      "tema": "Zvanični spisi o objektu i istorija; prikupljanje izvora u tabeli podatak/izvor",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-08",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 65,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            0.9,
+            "3/3 elem. (dopuna)"
+          ],
+          [
+            "izvori",
+            0.375,
+            "3 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "59 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.6667,
+            "0 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.7345,
+            "4 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/7be629e2-3708-4a6d-928d-b28c2b3064f8",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T72",
+      "objekat": "Ušće Tower (Ušće 1 i 2)",
+      "zgradaId": "Bbfd097ce",
+      "zajednickiObjekat": "Ušće Tower (Ušće 1 i 2)",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "129/26",
+        "18/26g",
+        "96/26"
+      ],
+      "tema": "Proces projektovanja, čelična konstrukcija Ušća 1 vs betonsko jezgro Ušća 2",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 83,
+        "medalja": "srebro",
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            0.875,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "21 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            1,
+            "0 uživo · 6 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.88,
+            "4 pred. · 20 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/910fdc2b-d71f-4ea3-984c-14cf3b68ce7d",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T73",
+      "objekat": "Gardoš kula, Zemun",
+      "zgradaId": "B0dffad8d",
+      "zajednickiObjekat": "Gardoš / Milenijumska kula",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "148/26",
+        "60/26"
+      ],
+      "tema": "Gardoš kula (Zemun) — skica",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 68,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "9 izvora"
+          ],
+          [
+            "informacije",
+            0.3795,
+            "8 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.75,
+            "1 uživo · 4 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.7818,
+            "5 pred. · 5 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://service-3d-arhitektonska-maketa-architectural-3d.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T74",
+      "objekat": "Kula Beograd",
+      "zgradaId": "Bedda6bf8",
+      "zajednickiObjekat": "Kula Beograd",
+      "brojTimovaNaObjektu": 4,
+      "grad": "Beograd",
+      "indeksi": [
+        "00/2026"
+      ],
+      "tema": "Digitalni pasoš zgrade (konstrukcija, slojevi, prostor, sunce i energija, 3D model)",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-08",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 69,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.75,
+            "6 izvora"
+          ],
+          [
+            "informacije",
+            0.4932,
+            "10 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.8333,
+            "0 uživo · 5 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.7345,
+            "4 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://claude.ai/artifact/Mfp6j7Vp6sjcgmwD3ovUmS",
+          "platformaId": "claude",
+          "platformaSr": "Claude Artifact",
+          "platformaEn": "Claude Artifact",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T75",
+      "objekat": "Sava Centar",
+      "zgradaId": "Bce3fd2f1",
+      "zajednickiObjekat": "Sava Centar",
+      "brojTimovaNaObjektu": 3,
+      "grad": "Beograd",
+      "indeksi": [
+        "139/26",
+        "134/26",
+        "58/26"
+      ],
+      "tema": "Rekonstrukcija zgrade Sava centra (2021–2024), tehnička unapređenja i materijali",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-11",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 60,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "9 izvora"
+          ],
+          [
+            "informacije",
+            0.3227,
+            "7 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.5,
+            "0 uživo · 3 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6255,
+            "4 pred. · 4 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://rekonstrukcija-sava-centra.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T76",
+      "objekat": "BIGZ (Zgrada Državne štamparije)",
+      "zgradaId": "B14027bbe",
+      "zajednickiObjekat": "BIGZ (Zgrada Državne štamparije)",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "00/2026"
+      ],
+      "tema": "Autorstvo konkursa 1933. i skica makete u formi štampača",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "HTML"
+      ],
+      "dopuna": null,
+      "nacin": "html-izvoz",
+      "profil": {
+        "skor": 58,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            0.875,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            0.3477,
+            "7 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.3333,
+            "0 uživo · 2 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.7818,
+            "5 pred. · 5 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T77",
+      "objekat": "Geneks kula (Zapadna kapija Beograda)",
+      "zgradaId": "B2a7ecb59",
+      "zajednickiObjekat": "Geneks kula",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "81/26",
+        "133/26"
+      ],
+      "tema": "Arhitektonski stil Zapadne kapije, tabelarni pregled podataka i intervju sa stanarkom",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 61,
+        "medalja": "bronza",
+        "ose": [
+          [
+            "dosije",
+            1,
+            "3/3 elem."
+          ],
+          [
+            "izvori",
+            1,
+            "11 izvora"
+          ],
+          [
+            "informacije",
+            1,
+            "35 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.1667,
+            "0 uživo · 1 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.6145,
+            "3 pred. · 7 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/1db1b09f-a8f0-4f72-8d89-48a776d4ca96",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    },
+    {
+      "tim": "T78",
+      "objekat": "MIA Dorćol",
+      "zgradaId": "Bd58b0f37",
+      "zajednickiObjekat": "MIA Dorćol",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "00/2026"
+      ],
+      "tema": "Primena reciklirane opeke; skice idejnog rešenja makete",
+      "stanje": "najavljeno",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "najavljeno",
+      "profil": {
+        "skor": 47,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            0.875,
+            "7 izvora"
+          ],
+          [
+            "informacije",
+            0.3295,
+            "8 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.3333,
+            "0 uživo · 2 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.3491,
+            "2 pred. · 3 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T79",
+      "objekat": "Zvezdani dom",
+      "zgradaId": "B0c77d468",
+      "zajednickiObjekat": "Zvezdani dom",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "14/26",
+        "24/26"
+      ],
+      "tema": "Stambeni objekat na Zvezdari; skica objekta i AI Studio 3D aplikacija",
+      "stanje": "prihvaceno",
+      "datum": "2026-11-14",
+      "formati": [
+        "link"
+      ],
+      "dopuna": null,
+      "nacin": "link",
+      "profil": {
+        "skor": 18,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0.6667,
+            "2/3 elem."
+          ],
+          [
+            "izvori",
+            0,
+            "0 izvora"
+          ],
+          [
+            "informacije",
+            0.05,
+            "0 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0.1667,
+            "0 uživo · 1 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0.3127,
+            "2 pred. · 2 pril."
+          ]
+        ]
+      },
+      "linkovi": [
+        {
+          "url": "https://zvezdani-dom-zvezdara-3d.ai.studio/",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
+    }
+  ]
+}

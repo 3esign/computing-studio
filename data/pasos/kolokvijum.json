@@ -191,7 +191,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 68,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.86,
+      "3/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.25,
+      "2 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "46 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 7 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "7 pred. · 18 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T02",
@@ -344,7 +375,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 58,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      0.125,
+      "1 izvor"
+     ],
+     [
+      "informacije",
+      1,
+      "28 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8436,
+      "4 pred. · 10 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T03",
@@ -521,7 +583,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 74,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      0.5667,
+      "2/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "34 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 8 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "6 pred. · 17 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T04",
@@ -660,7 +753,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 80,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "28 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "4 uživo · 11 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "8 pred. · 62 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T05",
@@ -809,7 +933,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 75,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      0.5667,
+      "2/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.6,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "40 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.88,
+      "4 pred. · 11 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T06",
@@ -909,7 +1064,38 @@
       "DOCX"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 93,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.875,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "20 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "4 uživo · 7 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.88,
+      "4 pred. · 20 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T07",
@@ -1087,7 +1273,38 @@
       "slika"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 95,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.875,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "32 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "7 pred. · 26 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T08",
@@ -1221,7 +1438,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 67,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.625,
+      "5 izvora"
+     ],
+     [
+      "informacije",
+      0.4682,
+      "10 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8182,
+      "6 pred. · 6 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T09",
@@ -1303,7 +1551,38 @@
       "slika"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 61,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.625,
+      "5 izvora"
+     ],
+     [
+      "informacije",
+      0.8705,
+      "25 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.4167,
+      "1 uživo · 2 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.4691,
+      "3 pred. · 3 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T10",
@@ -1433,7 +1712,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 55,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.375,
+      "3 izvora"
+     ],
+     [
+      "informacije",
+      0.2591,
+      "5 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6255,
+      "4 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T11",
@@ -1531,7 +1841,38 @@
       "DOCX"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 75,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      0.9,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.625,
+      "5 izvora"
+     ],
+     [
+      "informacije",
+      0.6455,
+      "14 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.9167,
+      "1 uživo · 5 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8909,
+      "5 pred. · 8 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T12",
@@ -1629,7 +1970,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 69,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.6341,
+      "16 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 5 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6618,
+      "4 pred. · 5 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T13",
@@ -1828,7 +2200,38 @@
       "slika"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 100,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "12 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "76 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 10 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "10 pred. · 18 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T14",
@@ -1938,7 +2341,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 81,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.75,
+      "6 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "35 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6255,
+      "4 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T15",
@@ -2048,7 +2482,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 81,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.625,
+      "5 izvora"
+     ],
+     [
+      "informacije",
+      0.8409,
+      "17 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "4 uživo · 7 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.88,
+      "4 pred. · 12 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T16",
@@ -2172,7 +2637,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 72,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      0.5667,
+      "2/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "17 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.88,
+      "4 pred. · 19 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T17",
@@ -2305,7 +2801,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 85,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "8 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "25 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.7236,
+      "3 pred. · 10 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T18",
@@ -2456,7 +2983,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 90,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "9 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "22 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "6 pred. · 14 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T19",
@@ -2551,7 +3109,38 @@
       "mejl"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 85,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.875,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      0.7341,
+      "16 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8073,
+      "4 pred. · 9 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T20",
@@ -2645,7 +3234,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 69,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.875,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      0.9909,
+      "28 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.4167,
+      "1 uživo · 2 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6255,
+      "4 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T21",
@@ -2737,7 +3357,38 @@
      "element": "konsultacija",
      "vrsta": "konsultacije"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 80,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "10 izvora"
+     ],
+     [
+      "informacije",
+      0.8568,
+      "23 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 5 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.5418,
+      "3 pred. · 5 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T22",
@@ -2879,7 +3530,38 @@
       "slika"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 97,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "8 izvora"
+     ],
+     [
+      "informacije",
+      0.9227,
+      "18 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "7 pred. · 14 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T23",
@@ -3054,7 +3736,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 83,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      0.5667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "8 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "18 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 8 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "5 pred. · 35 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T24",
@@ -3185,7 +3898,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 62,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.3591,
+      "5 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6509,
+      "3 pred. · 8 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T25",
@@ -3297,7 +4041,38 @@
       "PDF"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 93,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "15 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "35 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "4 uživo · 8 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8182,
+      "6 pred. · 6 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T26",
@@ -3388,7 +4163,38 @@
       "mejl"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 64,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.4818,
+      "12 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.5055,
+      "3 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T27",
@@ -3487,7 +4293,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 85,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "21 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "94 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6255,
+      "4 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T28",
@@ -3582,7 +4419,38 @@
       "mejl"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 71,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.75,
+      "6 izvora"
+     ],
+     [
+      "informacije",
+      0.9977,
+      "29 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.4691,
+      "3 pred. · 3 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T29",
@@ -3683,7 +4551,38 @@
       "slika"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 83,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "10 izvora"
+     ],
+     [
+      "informacije",
+      0.8727,
+      "18 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.6667,
+      "2 uživo · 3 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.88,
+      "4 pred. · 12 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T30",
@@ -3861,7 +4760,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 100,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "9 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "34 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 8 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "9 pred. · 15 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T31",
@@ -3988,7 +4918,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 95,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "10 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "44 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "4 uživo · 8 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.88,
+      "4 pred. · 22 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T32",
@@ -4120,7 +5081,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 94,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "8 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "28 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8545,
+      "5 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T33",
@@ -4227,7 +5219,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 66,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "12 izvora"
+     ],
+     [
+      "informacije",
+      0.7364,
+      "20 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.3855,
+      "2 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T34",
@@ -4353,7 +5376,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 60,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.875,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      0.3795,
+      "8 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.5833,
+      "1 uživo · 3 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.5418,
+      "3 pred. · 5 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T35",
@@ -4445,7 +5499,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 65,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.4659,
+      "6 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.8333,
+      "2 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.76,
+      "3 pred. · 11 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T36",
@@ -4590,7 +5675,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 76,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.8545,
+      "8 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "4 uživo · 7 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.88,
+      "4 pred. · 24 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T37",
@@ -4696,7 +5812,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 31,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      0,
+      "0 izvora"
+     ],
+     [
+      "informacije",
+      0.075,
+      "0 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.8333,
+      "2 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.4691,
+      "3 pred. · 3 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T38",
@@ -4839,7 +5986,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 87,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "8 izvora"
+     ],
+     [
+      "informacije",
+      0.9,
+      "22 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8909,
+      "6 pred. · 8 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T39",
@@ -4963,7 +6141,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 61,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.3545,
+      "8 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 5 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6255,
+      "4 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T40",
@@ -5082,7 +6291,38 @@
       "mejl"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 77,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.8023,
+      "15 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 7 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "5 pred. · 13 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T41",
@@ -5230,7 +6470,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 100,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "26 fascikli"
+     ],
+     [
+      "informacije",
+      1,
+      "289 skenova"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "4 uživo · 9 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "5 pred. · 289 sken."
+     ]
+    ]
+   }
   },
   {
    "tim": "T42",
@@ -5462,7 +6733,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 95,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.875,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "9 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 13 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "9 pred. · 29 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T43",
@@ -5578,7 +6880,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 50,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0.8,
+      "3/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.125,
+      "1 izvor"
+     ],
+     [
+      "informacije",
+      0.5386,
+      "13 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 5 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6618,
+      "4 pred. · 5 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T44",
@@ -5695,7 +7028,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 71,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.575,
+      "11 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 8 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8073,
+      "4 pred. · 9 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T45",
@@ -5775,7 +7139,38 @@
       "DOCX"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 72,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      0.75,
+      "6 izvora"
+     ],
+     [
+      "informacije",
+      0.6614,
+      "9 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.8333,
+      "2 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.76,
+      "3 pred. · 15 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T46",
@@ -5871,7 +7266,38 @@
       "slika"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 89,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "15 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "49 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 5 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.7345,
+      "4 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T47",
@@ -6011,7 +7437,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 83,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      0.9,
+      "3/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.6,
+      "18 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "31 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 8 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "6 pred. · 31 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T48",
@@ -6339,7 +7796,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 85,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.625,
+      "5 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "24 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "6 pred. · 36 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T49",
@@ -6520,7 +8008,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 100,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "10 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "39 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 8 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "7 pred. · 24 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T50",
@@ -6639,7 +8158,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 64,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.5667,
+      "2/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.9705,
+      "25 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6145,
+      "3 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T51",
@@ -6767,7 +8317,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 66,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.9,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.25,
+      "2 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "44 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 7 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8545,
+      "5 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T52",
@@ -6842,7 +8423,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 36,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0.2333,
+      "1/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.6,
+      "6 izvora"
+     ],
+     [
+      "informacije",
+      0.2591,
+      "5 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.6667,
+      "2 uživo · 3 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.2655,
+      "1 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T53",
@@ -6965,7 +8577,38 @@
       "PDF"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 68,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.375,
+      "3 izvora"
+     ],
+     [
+      "informacije",
+      0.6068,
+      "12 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 8 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.9273,
+      "7 pred. · 9 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T54",
@@ -7091,7 +8734,38 @@
       "mejl"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 64,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.4114,
+      "9 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 7 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6618,
+      "4 pred. · 5 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T55",
@@ -7177,7 +8851,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 73,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "9 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "43 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.5418,
+      "3 pred. · 5 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T56",
@@ -7289,7 +8994,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 50,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0.9,
+      "3/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.125,
+      "1 izvor"
+     ],
+     [
+      "informacije",
+      0.3977,
+      "7 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.7345,
+      "4 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T57",
@@ -7391,7 +9127,38 @@
       "DOCX"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 80,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "23 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "34 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.5833,
+      "1 uživo · 3 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.76,
+      "3 pred. · 32 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T58",
@@ -7479,7 +9246,38 @@
      "element": "konsultacija",
      "vrsta": "konsultacije"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 55,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.3333,
+      "1/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.8955,
+      "25 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "3 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.3855,
+      "2 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T59",
@@ -7587,7 +9385,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 61,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.9,
+      "3/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.375,
+      "3 izvora"
+     ],
+     [
+      "informacije",
+      0.65,
+      "11 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.76,
+      "3 pred. · 12 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T60",
@@ -7669,7 +9498,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 58,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "11 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "40 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.3333,
+      "0 uživo · 2 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.3127,
+      "2 pred. · 2 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T61",
@@ -7728,7 +9588,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 5,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0,
+      "0/3 elem."
+     ],
+     [
+      "izvori",
+      0,
+      "0 izvora"
+     ],
+     [
+      "informacije",
+      0,
+      "0 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.3333,
+      "0 uživo · 2 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0,
+      "0 pred. · 0 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T62",
@@ -7861,7 +9752,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 64,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.7727,
+      "18 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.5,
+      "0 uživo · 3 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6509,
+      "3 pred. · 8 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T63",
@@ -7949,7 +9871,38 @@
       "HTML"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 40,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      0.125,
+      "1 izvor"
+     ],
+     [
+      "informacije",
+      0.425,
+      "11 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.4691,
+      "3 pred. · 3 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T64",
@@ -8102,7 +10055,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 44,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0.96,
+      "3/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0,
+      "0 izvora"
+     ],
+     [
+      "informacije",
+      0.3023,
+      "4 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.8333,
+      "0 uživo · 5 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8545,
+      "5 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T65",
@@ -8177,7 +10161,38 @@
       "mejl"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 48,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0.3333,
+      "1/3 elem."
+     ],
+     [
+      "izvori",
+      0.75,
+      "6 izvora"
+     ],
+     [
+      "informacije",
+      0.6659,
+      "17 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.5,
+      "0 uživo · 3 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.4218,
+      "2 pred. · 5 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T66",
@@ -8271,7 +10286,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 64,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.3333,
+      "1/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "14 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "33 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.6667,
+      "0 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6982,
+      "4 pred. · 6 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T67",
@@ -8399,7 +10445,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 72,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.55,
+      "11 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "2 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8909,
+      "5 pred. · 8 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T68",
@@ -8519,7 +10596,38 @@
       "mejl"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 87,
+    "medalja": "zlato",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "8 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "25 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.6667,
+      "0 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      1,
+      "5 pred. · 17 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T69",
@@ -8643,7 +10751,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 60,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.3341,
+      "5 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.8545,
+      "5 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T70",
@@ -8744,7 +10883,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 55,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.5,
+      "4 izvora"
+     ],
+     [
+      "informacije",
+      0.2909,
+      "6 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6255,
+      "4 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T71",
@@ -8848,7 +11018,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 65,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      0.9,
+      "3/3 elem. (dopuna)"
+     ],
+     [
+      "izvori",
+      0.375,
+      "3 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "59 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.6667,
+      "0 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.7345,
+      "4 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T72",
@@ -9085,7 +11286,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 83,
+    "medalja": "srebro",
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      0.875,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "21 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      1,
+      "0 uživo · 6 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.88,
+      "4 pred. · 20 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T73",
@@ -9211,7 +11443,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 68,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "9 izvora"
+     ],
+     [
+      "informacije",
+      0.3795,
+      "8 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.75,
+      "1 uživo · 4 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.7818,
+      "5 pred. · 5 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T74",
@@ -9325,7 +11588,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 69,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.75,
+      "6 izvora"
+     ],
+     [
+      "informacije",
+      0.4932,
+      "10 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.8333,
+      "0 uživo · 5 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.7345,
+      "4 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T75",
@@ -9433,7 +11727,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 60,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "9 izvora"
+     ],
+     [
+      "informacije",
+      0.3227,
+      "7 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.5,
+      "0 uživo · 3 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6255,
+      "4 pred. · 4 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T76",
@@ -9527,7 +11852,38 @@
       "DOCX"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 58,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      0.875,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      0.3477,
+      "7 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.3333,
+      "0 uživo · 2 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.7818,
+      "5 pred. · 5 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T77",
@@ -9636,7 +11992,38 @@
       "PDF"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 61,
+    "medalja": "bronza",
+    "ose": [
+     [
+      "dosije",
+      1,
+      "3/3 elem."
+     ],
+     [
+      "izvori",
+      1,
+      "11 izvora"
+     ],
+     [
+      "informacije",
+      1,
+      "35 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.1667,
+      "0 uživo · 1 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.6145,
+      "3 pred. · 7 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T78",
@@ -9723,7 +12110,38 @@
      "element": "konsultacija",
      "vrsta": "mejl"
     }
-   ]
+   ],
+   "profil": {
+    "skor": 47,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      0.875,
+      "7 izvora"
+     ],
+     [
+      "informacije",
+      0.3295,
+      "8 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.3333,
+      "0 uživo · 2 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.3491,
+      "2 pred. · 3 pril."
+     ]
+    ]
+   }
   },
   {
    "tim": "T79",
@@ -9781,7 +12199,39 @@
       "slika"
      ]
     }
-   ]
+   ],
+   "profil": {
+    "skor": 18,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0.6667,
+      "2/3 elem."
+     ],
+     [
+      "izvori",
+      0,
+      "0 izvora"
+     ],
+     [
+      "informacije",
+      0.05,
+      "0 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0.1667,
+      "0 uživo · 1 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0.3127,
+      "2 pred. · 2 pril."
+     ]
+    ]
+   }
   }
- ]
+ ],
+ "profilRevision": "4b8d12a2"
 }

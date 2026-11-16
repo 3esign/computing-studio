@@ -1,7 +1,8 @@
 {
-  "version": "1cb44b6046c3516c",
-  "bytes": 101027648,
+  "version": "954eb15179789c52",
+  "bytes": 101702580,
   "files": [
+    "aplikacije.html",
     "assets/app.js",
     "assets/atlas-embed.js",
     "assets/atlas-poster.svg",
@@ -32,6 +33,7 @@
     "data/course.json",
     "data/ideas.json",
     "data/labs.json",
+    "data/pasos/aplikacije.json",
     "data/pasos/kolokvijum.json",
     "data/pasos/nejasno.json",
     "data/pasos/objekat-001-savski-most.json",

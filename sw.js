@@ -35,7 +35,8 @@ self.addEventListener('fetch',event=>{
   const url=new URL(event.request.url);
   if(event.request.method!=='GET'||url.origin!==base.origin||!url.pathname.startsWith(base.pathname))return;
   event.respondWith((async()=>{
-    try{return await fetch(event.request);}catch(error){
+    const revalidate=event.request.mode==='navigate'||/\.(?:html|json)$/i.test(url.pathname);
+    try{return await fetch(event.request,revalidate?{cache:'no-cache'}:undefined);}catch(error){
       const meta=await caches.open(metadata),record=await meta.match(pointer);
       if(!record)throw error;
       const cache=await caches.open(await record.text());
