@@ -1,15 +1,15 @@
 {
   "schema": "or-aplikacije-v1",
-  "datasetRevision": "r-f9f5252cd39c65f4",
-  "profilRevision": "4b8d12a2",
-  "azurirano": "2026-11-15",
+  "datasetRevision": "r-8b7995765a6d2ae6",
+  "profilRevision": "d4c6a395",
+  "azurirano": "2026-11-23",
   "summary": {
-    "ukupnoTimova": 79,
-    "ukupnoObjekata": 54,
-    "saAplikacijom": 64,
-    "saZivimLinkom": 56,
-    "ukupnoLinkova": 66,
-    "saHtmlIzvozom": 7,
+    "ukupnoTimova": 82,
+    "ukupnoObjekata": 55,
+    "saAplikacijom": 67,
+    "saZivimLinkom": 58,
+    "ukupnoLinkova": 69,
+    "saHtmlIzvozom": 8,
     "saSnimkom": 1,
     "bezAplikacije": 15
   },
@@ -382,12 +382,12 @@
           [
             "prisustva · kontakti",
             1,
-            "3 uživo · 6 kont."
+            "3 uživo · 7 kont."
           ],
           [
             "dokumentovan rad",
             1,
-            "7 pred. · 26 pril."
+            "8 pred. · 26 pril."
           ]
         ]
       },
@@ -678,8 +678,8 @@
       "dopuna": null,
       "nacin": "link",
       "profil": {
-        "skor": 69,
-        "medalja": "bronza",
+        "skor": 71,
+        "medalja": "srebro",
         "ose": [
           [
             "dosije",
@@ -699,12 +699,12 @@
           [
             "prisustva · kontakti",
             1,
-            "2 uživo · 5 kont."
+            "2 uživo · 6 kont."
           ],
           [
             "dokumentovan rad",
-            0.6618,
-            "4 pred. · 5 pril."
+            0.7818,
+            "5 pred. · 5 pril."
           ]
         ]
       },
@@ -1145,8 +1145,8 @@
       "dopuna": null,
       "nacin": "link",
       "profil": {
-        "skor": 69,
-        "medalja": "bronza",
+        "skor": 76,
+        "medalja": "srebro",
         "ose": [
           [
             "dosije",
@@ -1165,8 +1165,8 @@
           ],
           [
             "prisustva · kontakti",
-            0.4167,
-            "1 uživo · 2 kont."
+            0.5833,
+            "1 uživo · 3 kont."
           ],
           [
             "dokumentovan rad",
@@ -1179,10 +1179,18 @@
         {
           "url": "https://blush-olga-59.tiiny.site/",
           "platformaId": "tiiny",
-          "platformaSr": "Tiiny.site · veb aplikacija",
-          "platformaEn": "Tiiny.site · web app",
-          "oznakaSr": "Otvori aplikaciju",
-          "oznakaEn": "Open application"
+          "platformaSr": "Tiiny.site · veb aplikacija · blush-olga-59.tiiny.site",
+          "platformaEn": "Tiiny.site · web app · blush-olga-59.tiiny.site",
+          "oznakaSr": "Aplikacija 1",
+          "oznakaEn": "App 1"
+        },
+        {
+          "url": "https://aistudio.google.com/apps/1ea6e1f8-cc00-467d-92ad-91828a0301b9",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio · 1ea6e1f8",
+          "platformaEn": "Google AI Studio · 1ea6e1f8",
+          "oznakaSr": "Aplikacija 2",
+          "oznakaEn": "App 2"
         }
       ]
     },
@@ -1191,7 +1199,7 @@
       "objekat": "Kula Beograd",
       "zgradaId": "Bedda6bf8",
       "zajednickiObjekat": "Kula Beograd",
-      "brojTimovaNaObjektu": 4,
+      "brojTimovaNaObjektu": 5,
       "grad": "Beograd",
       "indeksi": [
         "135/26",
@@ -1207,8 +1215,8 @@
       "dopuna": null,
       "nacin": "link",
       "profil": {
-        "skor": 80,
-        "medalja": "srebro",
+        "skor": 100,
+        "medalja": "zlato",
         "ose": [
           [
             "dosije",
@@ -1222,18 +1230,18 @@
           ],
           [
             "informacije",
-            0.8568,
+            1,
             "23 zapisa"
           ],
           [
             "prisustva · kontakti",
             1,
-            "2 uživo · 5 kont."
+            "2 uživo · 6 kont."
           ],
           [
             "dokumentovan rad",
-            0.5418,
-            "3 pred. · 5 pril."
+            1,
+            "6 pred. · 12 pril."
           ]
         ]
       },
@@ -1630,7 +1638,7 @@
       "objekat": "Kula Beograd",
       "zgradaId": "Bedda6bf8",
       "zajednickiObjekat": "Kula Beograd",
-      "brojTimovaNaObjektu": 4,
+      "brojTimovaNaObjektu": 5,
       "grad": "Beograd",
       "indeksi": [
         "71/26",
@@ -1954,8 +1962,8 @@
       "dopuna": null,
       "nacin": "najavljeno",
       "profil": {
-        "skor": 66,
-        "medalja": "bronza",
+        "skor": 79,
+        "medalja": "srebro",
         "ose": [
           [
             "dosije",
@@ -1969,18 +1977,18 @@
           ],
           [
             "informacije",
-            0.7364,
+            0.8364,
             "20 zapisa"
           ],
           [
             "prisustva · kontakti",
             1,
-            "3 uživo · 6 kont."
+            "3 uživo · 7 kont."
           ],
           [
             "dokumentovan rad",
-            0.3855,
-            "2 pred. · 4 pril."
+            0.6509,
+            "3 pred. · 8 pril."
           ]
         ]
       },
@@ -2191,13 +2199,13 @@
       "dopuna": null,
       "nacin": "link",
       "profil": {
-        "skor": 31,
+        "skor": 41,
         "medalja": null,
         "ose": [
           [
             "dosije",
-            0.6667,
-            "2/3 elem."
+            1,
+            "3/3 elem."
           ],
           [
             "izvori",
@@ -2206,18 +2214,18 @@
           ],
           [
             "informacije",
-            0.075,
+            0.1,
             "0 zapisa"
           ],
           [
             "prisustva · kontakti",
-            0.8333,
-            "2 uživo · 4 kont."
+            1,
+            "2 uživo · 5 kont."
           ],
           [
             "dokumentovan rad",
-            0.4691,
-            "3 pred. · 3 pril."
+            0.6255,
+            "4 pred. · 4 pril."
           ]
         ]
       },
@@ -2708,7 +2716,7 @@
       "dopuna": null,
       "nacin": "link",
       "profil": {
-        "skor": 72,
+        "skor": 74,
         "medalja": "srebro",
         "ose": [
           [
@@ -2728,8 +2736,8 @@
           ],
           [
             "prisustva · kontakti",
-            0.8333,
-            "2 uživo · 4 kont."
+            1,
+            "2 uživo · 5 kont."
           ],
           [
             "dokumentovan rad",
@@ -3013,7 +3021,7 @@
       "dopuna": null,
       "nacin": "nema",
       "profil": {
-        "skor": 64,
+        "skor": 66,
         "medalja": "bronza",
         "ose": [
           [
@@ -3033,8 +3041,8 @@
           ],
           [
             "prisustva · kontakti",
-            0.75,
-            "1 uživo · 4 kont."
+            0.9167,
+            "1 uživo · 5 kont."
           ],
           [
             "dokumentovan rad",
@@ -3126,13 +3134,13 @@
       "dopuna": null,
       "nacin": "nema",
       "profil": {
-        "skor": 36,
+        "skor": 46,
         "medalja": null,
         "ose": [
           [
             "dosije",
-            0.2333,
-            "1/3 elem. (dopuna)"
+            0.5667,
+            "2/3 elem. (dopuna)"
           ],
           [
             "izvori",
@@ -3146,13 +3154,13 @@
           ],
           [
             "prisustva · kontakti",
-            0.6667,
-            "2 uživo · 3 kont."
+            0.8333,
+            "2 uživo · 4 kont."
           ],
           [
             "dokumentovan rad",
-            0.2655,
-            "1 pred. · 4 pril."
+            0.3855,
+            "2 pred. · 4 pril."
           ]
         ]
       },
@@ -3293,19 +3301,21 @@
         "19/26g"
       ],
       "tema": "Razvoj novca, sigurnosni sistemi zgrade, sefovi, istorijska stolarija",
-      "stanje": "nema",
-      "datum": null,
-      "formati": [],
+      "stanje": "stiglo",
+      "datum": "2026-11-23",
+      "formati": [
+        "link"
+      ],
       "dopuna": null,
-      "nacin": "nema",
+      "nacin": "link",
       "profil": {
-        "skor": 73,
-        "medalja": "srebro",
+        "skor": 93,
+        "medalja": "zlato",
         "ose": [
           [
             "dosije",
-            0.6667,
-            "2/3 elem."
+            0.9867,
+            "3/3 elem."
           ],
           [
             "izvori",
@@ -3319,17 +3329,26 @@
           ],
           [
             "prisustva · kontakti",
-            0.75,
-            "1 uživo · 4 kont."
+            0.9167,
+            "1 uživo · 5 kont."
           ],
           [
             "dokumentovan rad",
-            0.5418,
-            "3 pred. · 5 pril."
+            0.8545,
+            "5 pred. · 7 pril."
           ]
         ]
       },
-      "linkovi": []
+      "linkovi": [
+        {
+          "url": "https://ai.studio/apps/e3c381cb-b2c3-4bae-b6b3-0f4ef9cadaab",
+          "platformaId": "ai-studio",
+          "platformaSr": "Google AI Studio",
+          "platformaEn": "Google AI Studio",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
     },
     {
       "tim": "T56",
@@ -3351,7 +3370,7 @@
       "dopuna": null,
       "nacin": "link",
       "profil": {
-        "skor": 50,
+        "skor": 52,
         "medalja": null,
         "ose": [
           [
@@ -3372,12 +3391,12 @@
           [
             "prisustva · kontakti",
             1,
-            "2 uživo · 6 kont."
+            "2 uživo · 7 kont."
           ],
           [
             "dokumentovan rad",
-            0.7345,
-            "4 pred. · 7 pril."
+            0.8545,
+            "5 pred. · 7 pril."
           ]
         ]
       },
@@ -3473,19 +3492,21 @@
         "140/26"
       ],
       "tema": "Konstrukcija amfiteatara i krovnih nosača",
-      "stanje": "najavljeno",
-      "datum": null,
-      "formati": [],
+      "stanje": "prihvaceno",
+      "datum": "2026-11-23",
+      "formati": [
+        "HTML"
+      ],
       "dopuna": null,
-      "nacin": "najavljeno",
+      "nacin": "html-izvoz",
       "profil": {
-        "skor": 55,
-        "medalja": "bronza",
+        "skor": 75,
+        "medalja": "srebro",
         "ose": [
           [
             "dosije",
-            0.3333,
-            "1/3 elem."
+            1,
+            "3/3 elem."
           ],
           [
             "izvori",
@@ -3494,18 +3515,18 @@
           ],
           [
             "informacije",
-            0.8955,
+            0.9455,
             "25 zapisa"
           ],
           [
             "prisustva · kontakti",
             1,
-            "3 uživo · 6 kont."
+            "3 uživo · 7 kont."
           ],
           [
             "dokumentovan rad",
-            0.3855,
-            "2 pred. · 4 pril."
+            0.6982,
+            "4 pred. · 6 pril."
           ]
         ]
       },
@@ -3684,7 +3705,7 @@
       "dopuna": null,
       "nacin": "html-izvoz",
       "profil": {
-        "skor": 64,
+        "skor": 66,
         "medalja": "bronza",
         "ose": [
           [
@@ -3704,8 +3725,8 @@
           ],
           [
             "prisustva · kontakti",
-            0.5,
-            "0 uživo · 3 kont."
+            0.6667,
+            "0 uživo · 4 kont."
           ],
           [
             "dokumentovan rad",
@@ -3721,7 +3742,7 @@
       "objekat": "West 65 Tower",
       "zgradaId": "B01ffbf6e",
       "zajednickiObjekat": "West 65 Tower",
-      "brojTimovaNaObjektu": 1,
+      "brojTimovaNaObjektu": 2,
       "grad": "Beograd",
       "indeksi": [
         "189/26",
@@ -3852,19 +3873,22 @@
         "111/26"
       ],
       "tema": "Jelisaveta Načić, srpsko-vizantijski stil, materijali, poseta crkvi i razgovor sa sveštenstvom",
-      "stanje": "nema",
-      "datum": null,
-      "formati": [],
+      "stanje": "prihvaceno",
+      "datum": "2026-11-23",
+      "formati": [
+        "PDF",
+        "link"
+      ],
       "dopuna": null,
-      "nacin": "nema",
+      "nacin": "link",
       "profil": {
-        "skor": 48,
-        "medalja": null,
+        "skor": 65,
+        "medalja": "bronza",
         "ose": [
           [
             "dosije",
-            0.3333,
-            "1/3 elem."
+            0.6667,
+            "2/3 elem."
           ],
           [
             "izvori",
@@ -3873,22 +3897,31 @@
           ],
           [
             "informacije",
-            0.6659,
+            0.6909,
             "17 zapisa"
           ],
           [
             "prisustva · kontakti",
-            0.5,
-            "0 uživo · 3 kont."
+            0.6667,
+            "0 uživo · 4 kont."
           ],
           [
             "dokumentovan rad",
-            0.4218,
-            "2 pred. · 5 pril."
+            0.5782,
+            "3 pred. · 6 pril."
           ]
         ]
       },
-      "linkovi": []
+      "linkovi": [
+        {
+          "url": "https://crkva-svetog-aleksandra-nevskog.tiiny.site/",
+          "platformaId": "tiiny",
+          "platformaSr": "Tiiny.site · veb aplikacija",
+          "platformaEn": "Tiiny.site · web app",
+          "oznakaSr": "Otvori aplikaciju",
+          "oznakaEn": "Open application"
+        }
+      ]
     },
     {
       "tim": "T66",
@@ -3945,7 +3978,7 @@
       "objekat": "Kula Beograd",
       "zgradaId": "Bedda6bf8",
       "zajednickiObjekat": "Kula Beograd",
-      "brojTimovaNaObjektu": 4,
+      "brojTimovaNaObjektu": 5,
       "grad": "Beograd",
       "indeksi": [
         "45/26",
@@ -4217,12 +4250,12 @@
       "dopuna": null,
       "nacin": "link",
       "profil": {
-        "skor": 65,
-        "medalja": "bronza",
+        "skor": 70,
+        "medalja": "srebro",
         "ose": [
           [
             "dosije",
-            0.9,
+            0.96,
             "3/3 elem. (dopuna)"
           ],
           [
@@ -4237,13 +4270,13 @@
           ],
           [
             "prisustva · kontakti",
-            0.6667,
-            "0 uživo · 4 kont."
+            0.8333,
+            "0 uživo · 5 kont."
           ],
           [
             "dokumentovan rad",
-            0.7345,
-            "4 pred. · 7 pril."
+            0.8909,
+            "5 pred. · 8 pril."
           ]
         ]
       },
@@ -4386,7 +4419,7 @@
       "objekat": "Kula Beograd",
       "zgradaId": "Bedda6bf8",
       "zajednickiObjekat": "Kula Beograd",
-      "brojTimovaNaObjektu": 4,
+      "brojTimovaNaObjektu": 5,
       "grad": "Beograd",
       "indeksi": [
         "00/2026"
@@ -4522,7 +4555,7 @@
       "dopuna": null,
       "nacin": "html-izvoz",
       "profil": {
-        "skor": 58,
+        "skor": 61,
         "medalja": "bronza",
         "ose": [
           [
@@ -4542,8 +4575,8 @@
           ],
           [
             "prisustva · kontakti",
-            0.3333,
-            "0 uživo · 2 kont."
+            0.5,
+            "0 uživo · 3 kont."
           ],
           [
             "dokumentovan rad",
@@ -4623,7 +4656,7 @@
       "brojTimovaNaObjektu": 1,
       "grad": "Beograd",
       "indeksi": [
-        "00/2026"
+        "125/26"
       ],
       "tema": "Primena reciklirane opeke; skice idejnog rešenja makete",
       "stanje": "najavljeno",
@@ -4632,8 +4665,8 @@
       "dopuna": null,
       "nacin": "najavljeno",
       "profil": {
-        "skor": 47,
-        "medalja": null,
+        "skor": 57,
+        "medalja": "bronza",
         "ose": [
           [
             "dosije",
@@ -4647,18 +4680,18 @@
           ],
           [
             "informacije",
-            0.3295,
+            0.4295,
             "8 zapisa"
           ],
           [
             "prisustva · kontakti",
-            0.3333,
-            "0 uživo · 2 kont."
+            0.5,
+            "0 uživo · 3 kont."
           ],
           [
             "dokumentovan rad",
-            0.3491,
-            "2 pred. · 3 pril."
+            0.6145,
+            "3 pred. · 7 pril."
           ]
         ]
       },
@@ -4684,7 +4717,7 @@
       "dopuna": null,
       "nacin": "link",
       "profil": {
-        "skor": 18,
+        "skor": 20,
         "medalja": null,
         "ose": [
           [
@@ -4704,8 +4737,8 @@
           ],
           [
             "prisustva · kontakti",
-            0.1667,
-            "0 uživo · 1 kont."
+            0.3333,
+            "0 uživo · 2 kont."
           ],
           [
             "dokumentovan rad",
@@ -4724,6 +4757,155 @@
           "oznakaEn": "Open application"
         }
       ]
+    },
+    {
+      "tim": "T80",
+      "objekat": "Istočna kapija Beograda (Rudo)",
+      "zgradaId": "Bee790ccd",
+      "zajednickiObjekat": "Istočna kapija Beograda (Rudo)",
+      "brojTimovaNaObjektu": 1,
+      "grad": "Beograd",
+      "indeksi": [
+        "7/2026",
+        "183/2026"
+      ],
+      "tema": "Istočna kapija Beograda (Rudo) — digitalni pasoš, skica i AI Studio aplikacija",
+      "stanje": "najavljeno",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "najavljeno",
+      "profil": {
+        "skor": 0,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0,
+            "0/3 elem."
+          ],
+          [
+            "izvori",
+            0,
+            "0 izvora"
+          ],
+          [
+            "informacije",
+            0,
+            "0 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0,
+            "0 uživo · 0 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0,
+            "0 pred. · 0 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T81",
+      "objekat": "Kula Beograd",
+      "zgradaId": "Bedda6bf8",
+      "zajednickiObjekat": "Kula Beograd",
+      "brojTimovaNaObjektu": 5,
+      "grad": "Beograd",
+      "indeksi": [
+        "101/26"
+      ],
+      "tema": "Kula Beograd — eksterijer i fasada; digitalni pasoš i interaktivni 3D kviz",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 0,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0,
+            "0/3 elem."
+          ],
+          [
+            "izvori",
+            0,
+            "0 izvora"
+          ],
+          [
+            "informacije",
+            0,
+            "0 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0,
+            "0 uživo · 0 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0,
+            "0 pred. · 0 pril."
+          ]
+        ]
+      },
+      "linkovi": []
+    },
+    {
+      "tim": "T82",
+      "objekat": "West 65 Tower",
+      "zgradaId": "B01ffbf6e",
+      "zajednickiObjekat": "West 65 Tower",
+      "brojTimovaNaObjektu": 2,
+      "grad": "Beograd",
+      "indeksi": [
+        "100/26",
+        "15/25g"
+      ],
+      "tema": "West 65 Tower — pasoš, 3D HTML model sa parkom i AI Studio aplikacija",
+      "stanje": "nema",
+      "datum": null,
+      "formati": [],
+      "dopuna": null,
+      "nacin": "nema",
+      "profil": {
+        "skor": 0,
+        "medalja": null,
+        "ose": [
+          [
+            "dosije",
+            0,
+            "0/3 elem."
+          ],
+          [
+            "izvori",
+            0,
+            "0 izvora"
+          ],
+          [
+            "informacije",
+            0,
+            "0 zapisa"
+          ],
+          [
+            "prisustva · kontakti",
+            0,
+            "0 uživo · 0 kont."
+          ],
+          [
+            "dokumentovan rad",
+            0,
+            "0 pred. · 0 pril."
+          ]
+        ]
+      },
+      "linkovi": []
     }
   ]
 }

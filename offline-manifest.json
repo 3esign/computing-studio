@@ -1,6 +1,6 @@
 {
-  "version": "954eb15179789c52",
-  "bytes": 101702580,
+  "version": "136866ef78b3ab51",
+  "bytes": 102888658,
   "files": [
     "aplikacije.html",
     "assets/app.js",
@@ -176,6 +176,7 @@
     "svet/data/revisions/r-7d6a82de30f6544c.json",
     "svet/data/revisions/r-7f853c708db69bb2.json",
     "svet/data/revisions/r-841de8630db8481c.json",
+    "svet/data/revisions/r-8b7995765a6d2ae6.json",
     "svet/data/revisions/r-8c90c06882260d56.json",
     "svet/data/revisions/r-8f13f7fa73c08511.json",
     "svet/data/revisions/r-95473c69467fd4ac.json",
@@ -347,6 +348,9 @@
     "timovi/T76.html",
     "timovi/T77.html",
     "timovi/T78.html",
-    "timovi/T79.html"
+    "timovi/T79.html",
+    "timovi/T80.html",
+    "timovi/T81.html",
+    "timovi/T82.html"
   ]
 }

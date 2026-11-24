@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "updated": "2026-11-15",
+  "updated": "2026-11-23",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
     "sr": "Zvanični javni registar timova: ID tima, brojevi indeksa, dodeljeni objekti, teme istraživanja i faza progresa. Imena studenata su izostavljena radi zaštite privatnosti."
   },
   "totals": {
-    "teams": 79,
-    "objects": 54,
+    "teams": 82,
+    "objects": 55,
     "completedPassports": 75
   },
   "entries": [
@@ -157,7 +157,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš dopunjen, AI Studio i skice (14.11)",
       "status": "Pasoš (32 zapisa): primarna arhivska građa iz Gradske uprave za urbanizam Užice (08.11) dopunjena digitalnim pasošem o istoriji hotela (14.11, 24 zapisa: konkurs, gradnja 1979, otvaranje 1981, privatizacija, zatvaranje 2019); 2 linka AI Studio aplikacije; skica makete predata na konsultacijama (09.11) i 9 skica u prijemu 14.11.",
-      "submissionsCount": 16,
+      "submissionsCount": 18,
       "hasPassport": true,
       "flags": [
         "Objekat van Beograda",
@@ -260,7 +260,7 @@
       "progressStage": 6,
       "progressLabel": "Završen pilot pasoš, AI Studio i skica makete (09.11)",
       "status": "Kuriran uzorni pilot pasoš Generalštaba (16 zapisa); predata skica 3D makete u galeriji i link AI Studio aplikacije (potvrđeno na konsultacijama 09.11).",
-      "submissionsCount": 5,
+      "submissionsCount": 7,
       "hasPassport": true,
       "flags": [
         "Ista upisana tačka kao T25: Generalštab je u registru dvaput, pod dva naziva. Razrešiti da li je to jedan objekat sa dva tima ili dva odvojena upisa."
@@ -429,7 +429,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (14.11)",
       "status": "Prvi pasoš na sajtu (14.11): Narodni muzej — razvoj i materijali (P1–P10), 28 zapisa sa izvorom uz svaku tačku; godina dogradnje upisana kao protivrečnost izvora. Predati skica, prototip makete i link veb aplikacije (14.11).",
-      "submissionsCount": 5,
+      "submissionsCount": 6,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 28,
@@ -448,7 +448,7 @@
       "progressStage": 5,
       "progressLabel": "Istraživanje na sajtu (29.10)",
       "status": "Radna verzija istraživanja „Dve kule Beograd“ kurirana u javni sloj (29.10): hronologija 2014–2019 sa 9 izvora, izvedeni objekat po SOM-u, 7 otvorenih pitanja; sajt tima vezan kao izvor. Na konsultacijama 02.11 predat crtež razvoja kule (220 → ~200 → 168 m).",
-      "submissionsCount": 4,
+      "submissionsCount": 12,
       "hasPassport": true,
       "flags": [
         "Ispravka registra 03.11: istraživanje Kule Beograd (prijem 27.10), sajt tima i crtež sa konsultacija 02.11 pripadaju ovom timu (indeksi po zapisu konsultacija 12.10); do 03.11 bili su pogrešno upisani pod T44. Tim indekse u predajama nije naveo — potvrditi pri sledećoj predaji.",
@@ -700,7 +700,7 @@
       "progressStage": 3,
       "progressLabel": "Predat pasoš i 2 skice makete (10.11)",
       "status": "Predat pasoš Starog dvora (20 zapisa, traži se tabela podatak → izvor) i 2 ručno crtane skice makete u javnoj galeriji (10.11); na konsultacijama (09.11) najavljeno slanje AI Studio aplikacije. Tim je mejlom najavio sajt (15.11); prilog nije stigao u prijem.",
-      "submissionsCount": 5,
+      "submissionsCount": 10,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 20,
@@ -781,7 +781,7 @@
       "progressStage": 3,
       "progressLabel": "Predata AI Studio aplikacija (09.11)",
       "status": "Predat link AI Studio aplikacije za Narodno pozorište u Beogradu (09.11); na konsultacijama (09.11) potvrđeno da je digitalni pasoš gotov i poslat mejlom — čeka se prijem fajla pasoša i potvrda indeksa.",
-      "submissionsCount": 6,
+      "submissionsCount": 8,
       "hasPassport": false,
       "flags": [
         "Prijem 11.11: predat link AI Studio aplikacije bez navedenih indeksa; potvrditi tačan indeks člana zavedenog kao 33/26 ? na spisku od 12.10."
@@ -952,7 +952,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš, AI Studio i prototip makete na sajtu (09.11)",
       "status": "Monografska studija Zapadne kapije Beograda (Geneks kula — 9 zapisa sa 10 izvora: arhitektura, konstrukcija, crveno-žuto-plavi kod instalacija i spomenička zaštita 2021) kurirana u javni sloj uz link AI Studio aplikacije (09.11); prototip makete zaveden kao radna verzija za 16.11.",
-      "submissionsCount": 3,
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
         "Prijem 08.11 (2): fotografije od 02.11 prevedene iz „skica sa časa“ u prototip makete (Semir 08.11)."
@@ -1050,7 +1050,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš dopunjen (14.11)",
       "status": "Pasoš Beograđanke (25 zapisa): konstrukcija i fasada (29.10), dopunjeno 14.11 merama sa konstruktivnih crteža (ploče, stubovi, temelji — 7 zapisa bez navedenog izvora, nepotvrđeni) i sa 2 zapisa iz Nasleđa 2022; tabela „izvor: ChatGPT“ ostaje nepotvrđena. Predate još 3 skice makete — kocke i kvadri po vremenskim periodima (14.11).",
-      "submissionsCount": 8,
+      "submissionsCount": 9,
       "hasPassport": true,
       "flags": [
         "Prijem 28.10 (2. tura): pasoš na doradi (izvori) — čekamo ispravljenu verziju posle Arhiva Beograda.",
@@ -1095,7 +1095,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu — izvori kao spisak na kraju (09.11)",
       "status": "Digitalni pasoš Zapadne kapije Beograda (Geneks kula — 5 zapisa, na konsultacijama 09.11. potvrđen indeks 102/26 umesto 106/26 i poslat Word dokument) kuriran u javni sloj uz napomenu profesora: izvori samo kao spisak na kraju — traži se tabela podatak → izvor.",
-      "submissionsCount": 2,
+      "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
         "Prijem 11.11: potvrđeni indeksi 137/26, 102/26 i 68/26 iz podneska; izvori navedeni samo kao spisak na kraju — dopuniti tabelu podatak → izvor."
@@ -1157,7 +1157,7 @@
       "progressStage": 5,
       "progressLabel": "Tabelarni pasoš i skice 3D makete na sajtu (09.11)",
       "status": "Tabelarna verzija pasoša Palate Narodne banke u Kralja Petra 12 i Muzeja novca (19 sekcija sa zvaničnim izvorima NBS) kurirana u javni sloj; predata nova ručno crtana skica 3D makete u galeriji (09.11).",
-      "submissionsCount": 4,
+      "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
         "Ista upisana tačka kao T16 (Palata Narodne banke Srbije). Razrešiti da li je to jedan objekat sa dva tima.",
@@ -1179,7 +1179,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš sa arhivskim planovima i AI Studio na sajtu (09.11)",
       "status": "Digitalni pasoš Narodnog pozorišta u Beogradu (hronologija 1868–1989 i arhivski nacrti rekonstrukcije iz 1940. u razmeri 1:100 — 7 zapisa) kuriran u javni sloj uz link AI Studio aplikacije (09.11); izvori samo kao spisak — dopuniti tabelu podatak → izvor.",
-      "submissionsCount": 6,
+      "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
         "Prijem 11.11: kuriran pasoš sa arhivskim nacrtima iz 1940. i predat AI Studio link; izvori navedeni samo kao spisak — dopuniti pojedinačne izvore i signaturu arhivskog fonda."
@@ -1217,7 +1217,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš dopunjen analizom uticaja (08.11)",
       "status": "Kuriran pasoš stila i fasadne plastike Zgrade tehničkih fakulteta (25 zapisa) dopunjen prilogom P1–P8 „Ko je uticao na nastanak zgrade tehničkih nauka“ sa izvorima (08.11); obavljene konsultacije (09.11) — čekaju se AI Studio i skice makete.",
-      "submissionsCount": 3,
+      "submissionsCount": 6,
       "hasPassport": true,
       "flags": [],
       "claimsCount": 25,
@@ -1294,7 +1294,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš na sajtu (14.11)",
       "status": "Prvi pasoš na sajtu (14.11): Palata pravde, 18 zapisa — nepotvrđeni, vezani za literaturu na kraju podneska; protivrečnost o godinama gradnje upisana.",
-      "submissionsCount": 10,
+      "submissionsCount": 11,
       "hasPassport": true,
       "flags": [
         "Objekat ispravljen 14.11: tim radi Palatu pravde (ranije pogrešno zaveden u klaster Beograđanka)."
@@ -1357,7 +1357,7 @@
       "progressStage": 6,
       "progressLabel": "Tabelarni pasoš sa matricom izvora (08.11)",
       "status": "Kuriran pilot pasoš i ispravljena tabelarna verzija pasoša Crkve Svetog Aleksandra Nevskog (KP 1044 KO Beograd 1, autorstvo i tok gradnje 1877–1930, obim izmena 1927 i matrica slaganja 6 izvora, 08.11).",
-      "submissionsCount": 3,
+      "submissionsCount": 5,
       "hasPassport": true,
       "flags": [
         "Prijem 08.11: kurirana tabelarna verzija pasoša sa izvorima u desnoj koloni i matricom slaganja 6 izvora."
@@ -1484,7 +1484,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš i AI Studio aplikacija na sajtu (08.11)",
       "status": "Digitalni pasoš v01 „Kuća arhitekte Jovana Ilkića“ (Miloša Pocerca 32, 59 zapisa) u javnom sloju; predat i link AI Studio aplikacije (08.11). Predata skica objekta (14.11); maketa treba da prikaže podatke, ne realističan objekat.",
-      "submissionsCount": 6,
+      "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
         "Prijem 28.10 (2. tura): tim nije bio u registru; upisan po mejlu studenta (indeks 149/2026). Drugi član bez indeksa u mejlu — čeka potvrdu. Lokacija približna.",
@@ -1585,7 +1585,7 @@
       "progressStage": 5,
       "progressLabel": "Pasoš autorstva i skica štampača na sajtu (10.11)",
       "status": "Digitalni pasoš autorstva Zgrade Državne štamparije — BIGZ (jugoslovenski konkurs iz 1933, prva nagrada Dragiše Brašovana i realizacija 1934–1940 — 7 zapisa sa izvorima) kuriran u javni sloj uz skicu 3D makete u formi štampača u galeriji (10.11).",
-      "submissionsCount": 6,
+      "submissionsCount": 7,
       "hasPassport": true,
       "flags": [
         "Deljeni objekat sa T41; indeksi članica tima nisu navedeni u predaji — 00/2026 je privremena oznaka do potvrde"
@@ -1616,7 +1616,7 @@
     {
       "id": "T78",
       "indices": [
-        "00/2026"
+        "125/26"
       ],
       "object": "MIA Dorćol",
       "location": "Beograd",
@@ -1624,10 +1624,10 @@
       "progressStage": 4,
       "progressLabel": "Pasoš na sajtu i skice (15.11)",
       "status": "Prvi pasoš na sajtu (15.11): MIA Dorćol — reciklirana opeka, 8 zapisa u 2 poglavlja sa 7 web izvora (tri opšta izvora o održivosti ne govore o objektu). Predate i dve skice idejnog rešenja makete (14.11); AI Studio aplikacija nije stigla, indeksi nisu navedeni.",
-      "submissionsCount": 5,
+      "submissionsCount": 10,
       "hasPassport": true,
       "flags": [
-        "Tim otvoren 14.11 iz mejla sa skicama; indeks nije naveden u predaji — 00/2026 je privremena oznaka do potvrde; lokacija objekta približna"
+        "Tim otvoren 14.11 iz mejla sa skicama; indeks 125/26 potvrdio profesor 24.11; lokacija objekta približna"
       ],
       "claimsCount": 8,
       "sectionsCount": 2
@@ -1644,14 +1644,73 @@
       "progressStage": 1,
       "progressLabel": "Novi tim u registru",
       "status": "Novi tim u registru (14.11): predati skica objekta i link AI Studio aplikacije; priloženi dokument je pasoš drugog objekta (Miloša Pocerca 32), pa pasoš Zvezdanog doma nije stigao",
-      "submissionsCount": 2,
+      "submissionsCount": 3,
       "hasPassport": false,
       "flags": [
         "Tim otvoren 14.11 iz mejla; indeksi 14/2026 i 24/2026 kako su navedeni u mejlu (14/26 stoji i kod T24 i T61, 24/26 kod T43 — smer nije naveden); priloženi DOCX je isti fajl kao pasoš T71; lokacija objekta približna"
       ],
       "claimsCount": 0,
       "sectionsCount": 0
+    },
+    {
+      "id": "T80",
+      "indices": [
+        "7/2026",
+        "183/2026"
+      ],
+      "object": "Istočna kapija Beograda (Rudo)",
+      "location": "Beograd",
+      "topic": "Istočna kapija Beograda (Rudo) — digitalni pasoš, skica i AI Studio aplikacija",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (24.11)",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [
+        "Tim otvoren 24.11 po nalogu profesora (talas 23.11): predati pasoš (DOCX), skica i link aplikacije, maketa doneta uživo 16.11; ocena kolokvijuma u privatnom registru; lokacija objekta približna"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T81",
+      "indices": [
+        "101/26"
+      ],
+      "object": "Kula Beograd",
+      "location": "Beograd",
+      "topic": "Kula Beograd — eksterijer i fasada; digitalni pasoš i interaktivni 3D kviz",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (24.11)",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [
+        "Tim otvoren 24.11 po nalogu profesora (talas 23.11); tri člana, potvrđen jedan indeks (101/26), dva indeksa čekaju potvrdu; peti tim na Kuli Beograd (uz T21, T28, T67, T74) — ugao: eksterijer i fasada"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
+    },
+    {
+      "id": "T82",
+      "indices": [
+        "100/26",
+        "15/25g"
+      ],
+      "object": "West 65 Tower",
+      "location": "Beograd",
+      "topic": "West 65 Tower — pasoš, 3D HTML model sa parkom i AI Studio aplikacija",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (24.11)",
+      "submissionsCount": 0,
+      "hasPassport": false,
+      "flags": [
+        "Tim otvoren 24.11 po nalogu profesora: studenti koji su 15.11 poslali pasoš West 65 kao „tim 63“ dobijaju zaseban tim (T63 ostaje 189/26, 141/26); građa od 15.11 još je zavedena pod T63; drugi tim na West 65 Tower"
+      ],
+      "claimsCount": 0,
+      "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-f9f5252cd39c65f4"
+  "datasetRevision": "r-8b7995765a6d2ae6"
 }

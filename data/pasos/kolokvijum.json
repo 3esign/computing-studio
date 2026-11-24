@@ -1,7 +1,7 @@
 {
  "schema": "or-kolokvijum-v1",
  "dan": "2026-11-16",
- "azurirano": "2026-11-15",
+ "azurirano": "2026-11-23",
  "elementi": [
   "pasos",
   "ai-studio",
@@ -29,30 +29,30 @@
  "rezime": {
   "pasos": {
    "nema": 2,
-   "najavljeno": 1,
+   "najavljeno": 3,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 76
+   "prihvaceno": 77
   },
   "ai-studio": {
    "nema": 12,
    "najavljeno": 3,
    "ceka": 0,
-   "stiglo": 0,
-   "prihvaceno": 64
+   "stiglo": 1,
+   "prihvaceno": 66
   },
   "skice": {
-   "nema": 5,
+   "nema": 6,
    "najavljeno": 3,
    "ceka": 0,
    "stiglo": 0,
-   "prihvaceno": 71
+   "prihvaceno": 73
   },
   "maketa": {
-   "nema": 49,
+   "nema": 48,
    "najavljeno": 0,
    "ceka": 0,
-   "stiglo": 30,
+   "stiglo": 34,
    "prihvaceno": 0
   }
  },
@@ -1139,8 +1139,8 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-09",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-23",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -1272,6 +1272,25 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "gradja",
+     "formati": [
+      "ZIP"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
@@ -1296,12 +1315,12 @@
      [
       "prisustva · kontakti",
       1,
-      "3 uživo · 6 kont."
+      "3 uživo · 7 kont."
      ],
      [
       "dokumentovan rad",
       1,
-      "7 pred. · 26 pril."
+      "8 pred. · 26 pril."
      ]
     ]
    }
@@ -1901,8 +1920,8 @@
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-11",
-     "predaja": 1
+     "datum": "2026-11-23",
+     "predaja": 2
     },
     "maketa": {
      "stanje": "nema",
@@ -1915,7 +1934,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-11",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -1969,11 +1988,30 @@
      "datum": "2026-11-11",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 69,
-    "medalja": "bronza",
+    "skor": 71,
+    "medalja": "srebro",
     "ose": [
      [
       "dosije",
@@ -1993,12 +2031,12 @@
      [
       "prisustva · kontakti",
       1,
-      "2 uživo · 5 kont."
+      "2 uživo · 6 kont."
      ],
      [
       "dokumentovan rad",
-      0.6618,
-      "4 pred. · 5 pril."
+      0.7818,
+      "5 pred. · 5 pril."
      ]
     ]
    }
@@ -3184,7 +3222,7 @@
    },
    "fali": [],
    "konsultacija": {
-    "datum": "2026-11-14",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -3233,11 +3271,23 @@
      "datum": "2026-11-14",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 69,
-    "medalja": "bronza",
+    "skor": 76,
+    "medalja": "srebro",
     "ose": [
      [
       "dosije",
@@ -3256,8 +3306,8 @@
      ],
      [
       "prisustva · kontakti",
-      0.4167,
-      "1 uživo · 2 kont."
+      0.5833,
+      "1 uživo · 3 kont."
      ],
      [
       "dokumentovan rad",
@@ -3270,16 +3320,16 @@
   {
    "tim": "T21",
    "objekat": "Kula Beograd",
-   "procenat": 75,
-   "prilozi": 5,
+   "procenat": 93,
+   "prilozi": 12,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
      "formati": [
       "PDF"
      ],
-     "datum": "2026-10-27",
-     "predaja": 1
+     "datum": "2026-11-23",
+     "predaja": 2
     },
     "ai-studio": {
      "stanje": "prihvaceno",
@@ -3294,22 +3344,23 @@
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-02",
-     "predaja": 1
+     "datum": "2026-11-23",
+     "predaja": 3
     },
     "maketa": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 4,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
-   "fali": [
-    "maketa"
-   ],
+   "fali": [],
    "konsultacija": {
-    "datum": "2026-11-02",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-23",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -3356,11 +3407,72 @@
      "datum": "2026-11-02",
      "element": "konsultacija",
      "vrsta": "konsultacije"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 80,
-    "medalja": "srebro",
+    "skor": 100,
+    "medalja": "zlato",
     "ose": [
      [
       "dosije",
@@ -3374,18 +3486,18 @@
      ],
      [
       "informacije",
-      0.8568,
+      1,
       "23 zapisa"
      ],
      [
       "prisustva · kontakti",
       1,
-      "2 uživo · 5 kont."
+      "2 uživo · 6 kont."
      ],
      [
       "dokumentovan rad",
-      0.5418,
-      "3 pred. · 5 pril."
+      1,
+      "6 pred. · 12 pril."
      ]
     ]
    }
@@ -5118,7 +5230,7 @@
    "tim": "T33",
    "objekat": "Stari dvor",
    "procenat": 56,
-   "prilozi": 4,
+   "prilozi": 8,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -5139,8 +5251,8 @@
      "formati": [
       "slika"
      ],
-     "datum": "2026-11-11",
-     "predaja": 2
+     "datum": "2026-11-23",
+     "predaja": 6
     },
     "maketa": {
      "stanje": "nema",
@@ -5154,7 +5266,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-15",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -5218,11 +5330,51 @@
      "datum": "2026-11-15",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 66,
-    "medalja": "bronza",
+    "skor": 79,
+    "medalja": "srebro",
     "ose": [
      [
       "dosije",
@@ -5236,18 +5388,18 @@
      ],
      [
       "informacije",
-      0.7364,
+      0.8364,
       "20 zapisa"
      ],
      [
       "prisustva · kontakti",
       1,
-      "3 uživo · 6 kont."
+      "3 uživo · 7 kont."
      ],
      [
       "dokumentovan rad",
-      0.3855,
-      "2 pred. · 4 pril."
+      0.6509,
+      "3 pred. · 8 pril."
      ]
     ]
    }
@@ -5711,14 +5863,16 @@
   {
    "tim": "T37",
    "objekat": "Narodno pozorište u Beogradu",
-   "procenat": 68,
-   "prilozi": 3,
+   "procenat": 93,
+   "prilozi": 4,
    "elementi": {
     "pasos": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "PDF"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 1
     },
     "ai-studio": {
      "stanje": "prihvaceno",
@@ -5746,11 +5900,9 @@
      "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
-   "fali": [
-    "pasos"
-   ],
+   "fali": [],
    "konsultacija": {
-    "datum": "2026-11-14",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -5811,16 +5963,35 @@
      "datum": "2026-11-14",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 31,
+    "skor": 41,
     "medalja": null,
     "ose": [
      [
       "dosije",
-      0.6667,
-      "2/3 elem."
+      1,
+      "3/3 elem."
      ],
      [
       "izvori",
@@ -5829,18 +6000,18 @@
      ],
      [
       "informacije",
-      0.075,
+      0.1,
       "0 zapisa"
      ],
      [
       "prisustva · kontakti",
-      0.8333,
-      "2 uživo · 4 kont."
+      1,
+      "2 uživo · 5 kont."
      ],
      [
       "dokumentovan rad",
-      0.4691,
-      "3 pred. · 3 pril."
+      0.6255,
+      "4 pred. · 4 pril."
      ]
     ]
    }
@@ -7103,8 +7274,8 @@
     "skice"
    ],
    "konsultacija": {
-    "datum": "2026-11-02",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-23",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -7138,10 +7309,22 @@
      "formati": [
       "DOCX"
      ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 72,
+    "skor": 74,
     "medalja": "srebro",
     "ose": [
      [
@@ -7161,8 +7344,8 @@
      ],
      [
       "prisustva · kontakti",
-      0.8333,
-      "2 uživo · 4 kont."
+      1,
+      "2 uživo · 5 kont."
      ],
      [
       "dokumentovan rad",
@@ -8082,7 +8265,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-14",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -8157,10 +8340,22 @@
      "datum": "2026-11-14",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 64,
+    "skor": 66,
     "medalja": "bronza",
     "ose": [
      [
@@ -8180,8 +8375,8 @@
      ],
      [
       "prisustva · kontakti",
-      0.75,
-      "1 uživo · 4 kont."
+      0.9167,
+      "1 uživo · 5 kont."
      ],
      [
       "dokumentovan rad",
@@ -8353,7 +8548,7 @@
   {
    "tim": "T52",
    "objekat": "Geneks kula",
-   "procenat": 25,
+   "procenat": 50,
    "prilozi": 4,
    "elementi": {
     "pasos": {
@@ -8372,10 +8567,12 @@
      "predaja": 0
     },
     "skice": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -8386,11 +8583,10 @@
    },
    "fali": [
     "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-11",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -8422,16 +8618,35 @@
      "datum": "2026-11-11",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 36,
+    "skor": 46,
     "medalja": null,
     "ose": [
      [
       "dosije",
-      0.2333,
-      "1/3 elem. (dopuna)"
+      0.5667,
+      "2/3 elem. (dopuna)"
      ],
      [
       "izvori",
@@ -8445,13 +8660,13 @@
      ],
      [
       "prisustva · kontakti",
-      0.6667,
-      "2 uživo · 3 kont."
+      0.8333,
+      "2 uživo · 4 kont."
      ],
      [
       "dokumentovan rad",
-      0.2655,
-      "1 pred. · 4 pril."
+      0.3855,
+      "2 pred. · 4 pril."
      ]
     ]
    }
@@ -8770,8 +8985,8 @@
   {
    "tim": "T55",
    "objekat": "Palata Narodne banke i Muzej novca",
-   "procenat": 50,
-   "prilozi": 5,
+   "procenat": 87,
+   "prilozi": 7,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -8782,10 +8997,12 @@
      "predaja": 2
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "link"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 1
     },
     "skice": {
      "stanje": "prihvaceno",
@@ -8796,18 +9013,18 @@
      "predaja": 1
     },
     "maketa": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 2,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
-   "fali": [
-    "ai-studio",
-    "maketa"
-   ],
+   "fali": [],
    "konsultacija": {
-    "datum": "2026-11-11",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -8850,16 +9067,56 @@
      "datum": "2026-11-11",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "ai-studio",
+     "formati": [
+      "link"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 73,
-    "medalja": "srebro",
+    "skor": 93,
+    "medalja": "zlato",
     "ose": [
      [
       "dosije",
-      0.6667,
-      "2/3 elem."
+      0.9867,
+      "3/3 elem."
      ],
      [
       "izvori",
@@ -8873,13 +9130,13 @@
      ],
      [
       "prisustva · kontakti",
-      0.75,
-      "1 uživo · 4 kont."
+      0.9167,
+      "1 uživo · 5 kont."
      ],
      [
       "dokumentovan rad",
-      0.5418,
-      "3 pred. · 5 pril."
+      0.8545,
+      "5 pred. · 7 pril."
      ]
     ]
    }
@@ -8895,8 +9152,8 @@
      "formati": [
       "PDF"
      ],
-     "datum": "2026-11-11",
-     "predaja": 1,
+     "datum": "2026-11-23",
+     "predaja": 2,
      "dopuna": "dopuniti tabelu podatak → izvor"
     },
     "ai-studio": {
@@ -8926,7 +9183,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-14",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -8993,10 +9250,29 @@
      "datum": "2026-11-14",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "pasos",
+     "formati": [
+      "PDF"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 50,
+    "skor": 52,
     "medalja": null,
     "ose": [
      [
@@ -9017,12 +9293,12 @@
      [
       "prisustva · kontakti",
       1,
-      "2 uživo · 6 kont."
+      "2 uživo · 7 kont."
      ],
      [
       "dokumentovan rad",
-      0.7345,
-      "4 pred. · 7 pril."
+      0.8545,
+      "5 pred. · 7 pril."
      ]
     ]
    }
@@ -9163,8 +9439,8 @@
   {
    "tim": "T58",
    "objekat": "Zgrada tehničkih fakulteta",
-   "procenat": 37,
-   "prilozi": 4,
+   "procenat": 75,
+   "prilozi": 6,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -9175,16 +9451,20 @@
      "predaja": 2
     },
     "ai-studio": {
-     "stanje": "najavljeno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "HTML"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 1
     },
     "skice": {
-     "stanje": "najavljeno",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 1
     },
     "maketa": {
      "stanje": "nema",
@@ -9194,13 +9474,11 @@
     }
    },
    "fali": [
-    "ai-studio",
-    "skice",
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-09",
-    "vrsta": "konsultacije"
+    "datum": "2026-11-23",
+    "vrsta": "mejl"
    },
    "hronologija": [
     {
@@ -9245,16 +9523,42 @@
      "datum": "2026-11-09",
      "element": "konsultacija",
      "vrsta": "konsultacije"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "skice",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "ai-studio",
+     "formati": [
+      "HTML"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 55,
-    "medalja": "bronza",
+    "skor": 75,
+    "medalja": "srebro",
     "ose": [
      [
       "dosije",
-      0.3333,
-      "1/3 elem."
+      1,
+      "3/3 elem."
      ],
      [
       "izvori",
@@ -9263,18 +9567,18 @@
      ],
      [
       "informacije",
-      0.8955,
+      0.9455,
       "25 zapisa"
      ],
      [
       "prisustva · kontakti",
       1,
-      "3 uživo · 6 kont."
+      "3 uživo · 7 kont."
      ],
      [
       "dokumentovan rad",
-      0.3855,
-      "2 pred. · 4 pril."
+      0.6982,
+      "4 pred. · 6 pril."
      ]
     ]
    }
@@ -9663,7 +9967,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-14",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -9751,10 +10055,22 @@
      "datum": "2026-11-14",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 64,
+    "skor": 66,
     "medalja": "bronza",
     "ose": [
      [
@@ -9774,8 +10090,8 @@
      ],
      [
       "prisustva · kontakti",
-      0.5,
-      "0 uživo · 3 kont."
+      0.6667,
+      "0 uživo · 4 kont."
      ],
      [
       "dokumentovan rad",
@@ -10091,8 +10407,8 @@
   {
    "tim": "T65",
    "objekat": "Crkva Aleksandra Nevskog",
-   "procenat": 25,
-   "prilozi": 5,
+   "procenat": 50,
+   "prilozi": 6,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -10104,10 +10420,13 @@
      "predaja": 2
     },
     "ai-studio": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "prihvaceno",
+     "formati": [
+      "PDF",
+      "link"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 2
     },
     "skice": {
      "stanje": "nema",
@@ -10123,7 +10442,6 @@
     }
    },
    "fali": [
-    "ai-studio",
     "skice",
     "maketa"
    ],
@@ -10160,16 +10478,32 @@
       "PDF",
       "mejl"
      ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "ai-studio",
+     "formati": [
+      "link",
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "ai-studio",
+     "formati": [
+      "PDF",
+      "link"
+     ]
     }
    ],
    "profil": {
-    "skor": 48,
-    "medalja": null,
+    "skor": 65,
+    "medalja": "bronza",
     "ose": [
      [
       "dosije",
-      0.3333,
-      "1/3 elem."
+      0.6667,
+      "2/3 elem."
      ],
      [
       "izvori",
@@ -10178,18 +10512,18 @@
      ],
      [
       "informacije",
-      0.6659,
+      0.6909,
       "17 zapisa"
      ],
      [
       "prisustva · kontakti",
-      0.5,
-      "0 uživo · 3 kont."
+      0.6667,
+      "0 uživo · 4 kont."
      ],
      [
       "dokumentovan rad",
-      0.4218,
-      "2 pred. · 5 pril."
+      0.5782,
+      "3 pred. · 6 pril."
      ]
     ]
    }
@@ -10919,8 +11253,8 @@
   {
    "tim": "T71",
    "objekat": "Miloša Pocerca 32",
-   "procenat": 75,
-   "prilozi": 7,
+   "procenat": 93,
+   "prilozi": 8,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -10948,17 +11282,18 @@
      "predaja": 1
     },
     "maketa": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 1,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
-   "fali": [
-    "maketa"
-   ],
+   "fali": [],
    "konsultacija": {
-    "datum": "2026-11-14",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -11017,15 +11352,34 @@
      "datum": "2026-11-14",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 65,
-    "medalja": "bronza",
+    "skor": 70,
+    "medalja": "srebro",
     "ose": [
      [
       "dosije",
-      0.9,
+      0.96,
       "3/3 elem. (dopuna)"
      ],
      [
@@ -11040,13 +11394,13 @@
      ],
      [
       "prisustva · kontakti",
-      0.6667,
-      "0 uživo · 4 kont."
+      0.8333,
+      "0 uživo · 5 kont."
      ],
      [
       "dokumentovan rad",
-      0.7345,
-      "4 pred. · 7 pril."
+      0.8909,
+      "5 pred. · 8 pril."
      ]
     ]
    }
@@ -11801,7 +12155,7 @@
     "maketa"
    ],
    "konsultacija": {
-    "datum": "2026-11-11",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -11851,10 +12205,22 @@
      "formati": [
       "DOCX"
      ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 58,
+    "skor": 61,
     "medalja": "bronza",
     "ose": [
      [
@@ -11874,8 +12240,8 @@
      ],
      [
       "prisustva · kontakti",
-      0.3333,
-      "0 uživo · 2 kont."
+      0.5,
+      "0 uživo · 3 kont."
      ],
      [
       "dokumentovan rad",
@@ -12028,8 +12394,8 @@
   {
    "tim": "T78",
    "objekat": "MIA Dorćol",
-   "procenat": 56,
-   "prilozi": 3,
+   "procenat": 75,
+   "prilozi": 7,
    "elementi": {
     "pasos": {
      "stanje": "prihvaceno",
@@ -12052,18 +12418,20 @@
      "predaja": 2
     },
     "maketa": {
-     "stanje": "nema",
-     "formati": [],
-     "datum": null,
-     "predaja": 0
+     "stanje": "stiglo",
+     "formati": [
+      "slika"
+     ],
+     "datum": "2026-11-23",
+     "predaja": 4,
+     "dopuna": "prototip u izradi · predaja uživo 16.11."
     }
    },
    "fali": [
-    "ai-studio",
-    "maketa"
+    "ai-studio"
    ],
    "konsultacija": {
-    "datum": "2026-11-15",
+    "datum": "2026-11-23",
     "vrsta": "mejl"
    },
    "hronologija": [
@@ -12109,11 +12477,51 @@
      "datum": "2026-11-15",
      "element": "konsultacija",
      "vrsta": "mejl"
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "maketa",
+     "formati": [
+      "slika"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 47,
-    "medalja": null,
+    "skor": 57,
+    "medalja": "bronza",
     "ose": [
      [
       "dosije",
@@ -12127,18 +12535,18 @@
      ],
      [
       "informacije",
-      0.3295,
+      0.4295,
       "8 zapisa"
      ],
      [
       "prisustva · kontakti",
-      0.3333,
-      "0 uživo · 2 kont."
+      0.5,
+      "0 uživo · 3 kont."
      ],
      [
       "dokumentovan rad",
-      0.3491,
-      "2 pred. · 3 pril."
+      0.6145,
+      "3 pred. · 7 pril."
      ]
     ]
    }
@@ -12182,7 +12590,10 @@
     "pasos",
     "maketa"
    ],
-   "konsultacija": null,
+   "konsultacija": {
+    "datum": "2026-11-23",
+    "vrsta": "mejl"
+   },
    "hronologija": [
     {
      "datum": "2026-11-14",
@@ -12198,10 +12609,22 @@
      "formati": [
       "slika"
      ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "prepiska",
+     "formati": [
+      "mejl"
+     ]
+    },
+    {
+     "datum": "2026-11-23",
+     "element": "konsultacija",
+     "vrsta": "mejl"
     }
    ],
    "profil": {
-    "skor": 18,
+    "skor": 20,
     "medalja": null,
     "ose": [
      [
@@ -12221,8 +12644,8 @@
      ],
      [
       "prisustva · kontakti",
-      0.1667,
-      "0 uživo · 1 kont."
+      0.3333,
+      "0 uživo · 2 kont."
      ],
      [
       "dokumentovan rad",
@@ -12231,7 +12654,220 @@
      ]
     ]
    }
+  },
+  {
+   "tim": "T80",
+   "objekat": "Istočna kapija Beograda (Rudo)",
+   "procenat": 18,
+   "prilozi": 0,
+   "elementi": {
+    "pasos": {
+     "stanje": "najavljeno",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "ai-studio": {
+     "stanje": "najavljeno",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "skice": {
+     "stanje": "najavljeno",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "maketa": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    }
+   },
+   "fali": [
+    "pasos",
+    "ai-studio",
+    "skice",
+    "maketa"
+   ],
+   "konsultacija": null,
+   "hronologija": [],
+   "profil": {
+    "skor": 0,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0,
+      "0/3 elem."
+     ],
+     [
+      "izvori",
+      0,
+      "0 izvora"
+     ],
+     [
+      "informacije",
+      0,
+      "0 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0,
+      "0 uživo · 0 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0,
+      "0 pred. · 0 pril."
+     ]
+    ]
+   }
+  },
+  {
+   "tim": "T81",
+   "objekat": "Kula Beograd",
+   "procenat": 0,
+   "prilozi": 0,
+   "elementi": {
+    "pasos": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "ai-studio": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "skice": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "maketa": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    }
+   },
+   "fali": [
+    "pasos",
+    "ai-studio",
+    "skice",
+    "maketa"
+   ],
+   "konsultacija": null,
+   "hronologija": [],
+   "profil": {
+    "skor": 0,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0,
+      "0/3 elem."
+     ],
+     [
+      "izvori",
+      0,
+      "0 izvora"
+     ],
+     [
+      "informacije",
+      0,
+      "0 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0,
+      "0 uživo · 0 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0,
+      "0 pred. · 0 pril."
+     ]
+    ]
+   }
+  },
+  {
+   "tim": "T82",
+   "objekat": "West 65 Tower",
+   "procenat": 6,
+   "prilozi": 0,
+   "elementi": {
+    "pasos": {
+     "stanje": "najavljeno",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "ai-studio": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "skice": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    },
+    "maketa": {
+     "stanje": "nema",
+     "formati": [],
+     "datum": null,
+     "predaja": 0
+    }
+   },
+   "fali": [
+    "pasos",
+    "ai-studio",
+    "skice",
+    "maketa"
+   ],
+   "konsultacija": null,
+   "hronologija": [],
+   "profil": {
+    "skor": 0,
+    "medalja": null,
+    "ose": [
+     [
+      "dosije",
+      0,
+      "0/3 elem."
+     ],
+     [
+      "izvori",
+      0,
+      "0 izvora"
+     ],
+     [
+      "informacije",
+      0,
+      "0 zapisa"
+     ],
+     [
+      "prisustva · kontakti",
+      0,
+      "0 uživo · 0 kont."
+     ],
+     [
+      "dokumentovan rad",
+      0,
+      "0 pred. · 0 pril."
+     ]
+    ]
+   }
   }
  ],
- "profilRevision": "4b8d12a2"
+ "profilRevision": "d4c6a395"
 }

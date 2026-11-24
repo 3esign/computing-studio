@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-f9f5252cd39c65f4",
+  "datasetRevision": "r-8b7995765a6d2ae6",
   "teams": [
     {
       "id": "T01",
@@ -2206,7 +2206,7 @@
       "id": "T78",
       "object": "MIA Dorćol",
       "indices": [
-        "00/2026"
+        "125/26"
       ],
       "topic": "Primena reciklirane opeke; skice idejnog rešenja makete",
       "place": "Dorćol",
@@ -2256,6 +2256,89 @@
       "city": "Beograd",
       "geometryStatus": "illustrative",
       "building": "B0c77d468"
+    },
+    {
+      "id": "T80",
+      "object": "Istočna kapija Beograda (Rudo)",
+      "indices": [
+        "7/2026",
+        "183/2026"
+      ],
+      "topic": "Istočna kapija Beograda (Rudo) — digitalni pasoš, skica i AI Studio aplikacija",
+      "place": "Konjarnik, Bulevar kralja Aleksandra",
+      "lat": 44.7938,
+      "lng": 20.517,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (24.11)",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "Bee790ccd"
+    },
+    {
+      "id": "T81",
+      "object": "Kula Beograd",
+      "indices": [
+        "101/26"
+      ],
+      "topic": "Kula Beograd — eksterijer i fasada; digitalni pasoš i interaktivni 3D kviz",
+      "place": "Beograd na vodi",
+      "lat": 44.8046,
+      "lng": 20.4455,
+      "x": null,
+      "y": 1.8,
+      "z": null,
+      "type": "kulabeograd",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (24.11)",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "Bedda6bf8"
+    },
+    {
+      "id": "T82",
+      "object": "West 65 Tower",
+      "indices": [
+        "100/26",
+        "15/25g"
+      ],
+      "topic": "West 65 Tower — pasoš, 3D HTML model sa parkom i AI Studio aplikacija",
+      "place": "Novi Beograd, Blok 65",
+      "lat": 44.8097,
+      "lng": 20.3942,
+      "x": null,
+      "y": 0.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (24.11)",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "B01ffbf6e"
     }
   ],
   "buildings": [
@@ -3129,9 +3212,10 @@
         "T21",
         "T28",
         "T67",
-        "T74"
+        "T74",
+        "T81"
       ],
-      "teamCount": 4,
+      "teamCount": 5,
       "place": "Beograd na vodi",
       "city": "Beograd",
       "lat": 44.8046,
@@ -3181,6 +3265,12 @@
           "topic": "Digitalni pasoš zgrade (konstrukcija, slojevi, prostor, sunce i energija, 3D model)",
           "claimsCount": 10,
           "hasPassport": true
+        },
+        {
+          "team": "T81",
+          "topic": "Kula Beograd — eksterijer i fasada; digitalni pasoš i interaktivni 3D kviz",
+          "claimsCount": 0,
+          "hasPassport": false
         }
       ]
     },
@@ -4324,9 +4414,10 @@
       "id": "B01ffbf6e",
       "object": "West 65 Tower",
       "teams": [
-        "T63"
+        "T63",
+        "T82"
       ],
-      "teamCount": 1,
+      "teamCount": 2,
       "place": "Novi Beograd, Blok 65",
       "city": "Beograd",
       "lat": 44.8097,
@@ -4358,6 +4449,12 @@
           "topic": "Elektronski i digitalni pasoš: 9 detaljnih poglavlja, PERI oplata, tehnička dokumentacija",
           "claimsCount": 11,
           "hasPassport": true
+        },
+        {
+          "team": "T82",
+          "topic": "West 65 Tower — pasoš, 3D HTML model sa parkom i AI Studio aplikacija",
+          "claimsCount": 0,
+          "hasPassport": false
         }
       ]
     },
@@ -4643,6 +4740,47 @@
         {
           "team": "T79",
           "topic": "Stambeni objekat na Zvezdari; skica objekta i AI Studio 3D aplikacija",
+          "claimsCount": 0,
+          "hasPassport": false
+        }
+      ]
+    },
+    {
+      "id": "Bee790ccd",
+      "object": "Istočna kapija Beograda (Rudo)",
+      "teams": [
+        "T80"
+      ],
+      "teamCount": 1,
+      "place": "Konjarnik, Bulevar kralja Aleksandra",
+      "city": "Beograd",
+      "lat": 44.7938,
+      "lng": 20.517,
+      "locationStatus": "approximate",
+      "passports": 0,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "sourcesCount": 0,
+      "categories": {
+        "research": 0,
+        "documents": 0,
+        "materials": 0,
+        "time": 0,
+        "questions": 0,
+        "identity": 0,
+        "location": 0,
+        "geometry": 0,
+        "structure": 0,
+        "use": 0,
+        "energy": 0,
+        "environment": 0,
+        "people": 0,
+        "methods": 0
+      },
+      "topics": [
+        {
+          "team": "T80",
+          "topic": "Istočna kapija Beograda (Rudo) — digitalni pasoš, skica i AI Studio aplikacija",
           "claimsCount": 0,
           "hasPassport": false
         }
@@ -49235,41 +49373,41 @@
     "places": [
       {
         "id": "B01ffbf6e",
-        "x": -149.822,
-        "z": 41.972,
+        "x": -155.876,
+        "z": 58.126,
         "anchor": [
           -144.635,
           41.939
         ],
-        "nudge": 83,
-        "radius": 10.877
+        "nudge": 315,
+        "radius": 18.487
       },
       {
         "id": "B0671278c",
-        "x": 27.32,
-        "z": 143.596,
+        "x": 31.931,
+        "z": 144.644,
         "anchor": [
           25.232,
           95.669
         ],
-        "nudge": 768,
+        "nudge": 791,
         "radius": 19.043
       },
       {
         "id": "B0c77d468",
-        "x": 125.908,
-        "z": 92.006,
+        "x": 135.031,
+        "z": 80.383,
         "anchor": [
           160.224,
           80.576
         ],
-        "nudge": 579,
+        "nudge": 403,
         "radius": 1.545
       },
       {
         "id": "B0dffad8d",
-        "x": -64.242,
-        "z": -60.31,
+        "x": -69.948,
+        "z": -56.434,
         "anchor": [
           -97.719,
           -103.172
@@ -49279,41 +49417,41 @@
       },
       {
         "id": "B14027bbe",
-        "x": -17.054,
-        "z": 149.015,
+        "x": -12.768,
+        "z": 145.045,
         "anchor": [
           -6.924,
           109.218
         ],
-        "nudge": 657,
+        "nudge": 581,
         "radius": 20.142
       },
       {
         "id": "B1df14ea1",
-        "x": -3.304,
-        "z": 66.977,
+        "x": -2.697,
+        "z": 69.251,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 773,
+        "nudge": 787,
         "radius": 11.916
       },
       {
         "id": "B21720f35",
-        "x": -86.34,
-        "z": 0.674,
+        "x": -75.655,
+        "z": -11.804,
         "anchor": [
           -87.513,
           9.554
         ],
-        "nudge": 143,
+        "nudge": 391,
         "radius": 11.51
       },
       {
         "id": "B25fc5bcf",
-        "x": 112.769,
-        "z": 1.398,
+        "x": 112.284,
+        "z": -1.903,
         "anchor": [
           58.73,
           7.653
@@ -49323,74 +49461,74 @@
       },
       {
         "id": "B25fc772a",
-        "x": 87.25,
-        "z": -99.848,
+        "x": 85.829,
+        "z": -101.711,
         "anchor": [
           91.319,
           -59.222
         ],
-        "nudge": 653,
+        "nudge": 685,
         "radius": 17.267
       },
       {
         "id": "B2a7ecb59",
-        "x": -145.876,
-        "z": -8.404,
+        "x": -166.603,
+        "z": -0.593,
         "anchor": [
           -160.416,
           1.655
         ],
-        "nudge": 283,
+        "nudge": 105,
         "radius": 33.561
       },
       {
         "id": "B2ceb56a4",
-        "x": 53.068,
-        "z": 113.266,
+        "x": 53.817,
+        "z": 115.326,
         "anchor": [
           62.382,
           78.89
         ],
-        "nudge": 570,
+        "nudge": 599,
         "radius": 11.95
       },
       {
         "id": "B34c1628c",
-        "x": 128.825,
-        "z": 106.988,
+        "x": 135.444,
+        "z": 95.641,
         "anchor": [
           123.669,
           110.55
         ],
-        "nudge": 100,
+        "nudge": 304,
         "radius": 10.877
       },
       {
         "id": "B3b4c7fb4",
-        "x": -24.406,
-        "z": -64.871,
+        "x": -27.298,
+        "z": -65.461,
         "anchor": [
           14.541,
           -53.441
         ],
-        "nudge": 649,
+        "nudge": 697,
         "radius": 11.247
       },
       {
         "id": "B41952daf",
-        "x": 114.469,
-        "z": 35.167,
+        "x": 113.419,
+        "z": 31.885,
         "anchor": [
           86.147,
           54.116
         ],
-        "nudge": 545,
+        "nudge": 563,
         "radius": 11.199
       },
       {
         "id": "B4d2fca52",
-        "x": 87.962,
-        "z": 154.152,
+        "x": 93.027,
+        "z": 152.09,
         "anchor": [
           70.009,
           102.8
@@ -49400,162 +49538,162 @@
       },
       {
         "id": "B4f2be009",
-        "x": 54.076,
-        "z": -21.364,
+        "x": 52.348,
+        "z": -23.895,
         "anchor": [
           33.935,
           -45.375
         ],
-        "nudge": 501,
+        "nudge": 453,
         "radius": 17.516
       },
       {
         "id": "B530102bb",
-        "x": 69.663,
-        "z": 31.906,
+        "x": 68.515,
+        "z": 30.893,
         "anchor": [
           57.249,
           40.354
         ],
-        "nudge": 240,
+        "nudge": 235,
         "radius": 11.339
       },
       {
         "id": "B655d6f70",
-        "x": 27.112,
-        "z": 109.46,
+        "x": 27.97,
+        "z": 110.84,
         "anchor": [
           43.924,
           83.49
         ],
-        "nudge": 495,
+        "nudge": 507,
         "radius": 10.444
       },
       {
         "id": "B6b092149",
-        "x": 26.953,
-        "z": -1.927,
+        "x": 26.082,
+        "z": -3.609,
         "anchor": [
           32.079,
           -2.087
         ],
-        "nudge": 82,
+        "nudge": 99,
         "radius": 11.199
       },
       {
         "id": "B721111bb",
-        "x": 4.05,
-        "z": -94.12,
+        "x": 3.828,
+        "z": -96.077,
         "anchor": [
           30.327,
           -48.567
         ],
-        "nudge": 841,
+        "nudge": 870,
         "radius": 22.747
       },
       {
         "id": "B75d37fcb",
-        "x": 36.01,
-        "z": -71.811,
+        "x": 35.011,
+        "z": -72.76,
         "anchor": [
           30.947,
           -49.344
         ],
-        "nudge": 368,
+        "nudge": 380,
         "radius": 11.199
       },
       {
         "id": "B7a65f480",
-        "x": -84.817,
-        "z": 104.592,
+        "x": -95.652,
+        "z": 89.965,
         "anchor": [
           -41.258,
           89.141
         ],
-        "nudge": 739,
+        "nudge": 870,
         "radius": 10.936
       },
       {
         "id": "B7efb8894",
-        "x": 57.66,
-        "z": -86.113,
+        "x": 56.755,
+        "z": -86.915,
         "anchor": [
           38.181,
           -51.694
         ],
-        "nudge": 633,
+        "nudge": 637,
         "radius": 10.936
       },
       {
         "id": "B88cffac1",
-        "x": 89.014,
-        "z": 77.811,
+        "x": 90.252,
+        "z": 75.808,
         "anchor": [
           65.639,
           49.398
         ],
-        "nudge": 589,
+        "nudge": 578,
         "radius": 32.495
       },
       {
         "id": "B8b81c0c5",
-        "x": 55.429,
-        "z": -54.359,
+        "x": 55.226,
+        "z": -56.6,
         "anchor": [
           57.684,
           -32.891
         ],
-        "nudge": 345,
+        "nudge": 381,
         "radius": 10.877
       },
       {
         "id": "B9e4c8453",
-        "x": -34.051,
-        "z": -34.142,
+        "x": -34.184,
+        "z": -39.383,
         "anchor": [
           0,
           -31.309
         ],
-        "nudge": 547,
+        "nudge": 562,
         "radius": 10.815
       },
       {
         "id": "Ba8b77242",
-        "x": 9.101,
-        "z": -39.941,
+        "x": 7.096,
+        "z": -41.769,
         "anchor": [
           37.015,
           -14.611
         ],
-        "nudge": 603,
+        "nudge": 647,
         "radius": 25.266
       },
       {
         "id": "Badf7e17e",
-        "x": -52.433,
-        "z": -12.324,
+        "x": -48.763,
+        "z": -17.085,
         "anchor": [
           -63.79,
           -34.444
         ],
-        "nudge": 398,
+        "nudge": 367,
         "radius": 11.95
       },
       {
         "id": "Bae8506cc",
-        "x": -2.445,
-        "z": 17.549,
+        "x": -0.561,
+        "z": 16.239,
         "anchor": [
           36.028,
           2.783
         ],
-        "nudge": 659,
+        "nudge": 624,
         "radius": 17.55
       },
       {
         "id": "Bb21a1978",
-        "x": 157.616,
-        "z": 66.347,
+        "x": 155.299,
+        "z": 51.223,
         "anchor": [
           103.219,
           66.941
@@ -49565,8 +49703,8 @@
       },
       {
         "id": "Bb5a79c43",
-        "x": -21.657,
-        "z": -10.56,
+        "x": -21.673,
+        "z": -10.454,
         "anchor": [
           32.079,
           -2.087
@@ -49576,201 +49714,212 @@
       },
       {
         "id": "Bb81ca622",
-        "x": 78.779,
-        "z": -43.45,
+        "x": 78.394,
+        "z": -45.312,
         "anchor": [
           67.469,
           -29.89
         ],
-        "nudge": 283,
+        "nudge": 302,
         "radius": 11.099
       },
       {
         "id": "Bba876e95",
-        "x": 108.857,
-        "z": -32.693,
+        "x": 106.063,
+        "z": -35.609,
         "anchor": [
           70.769,
           -31.759
         ],
-        "nudge": 610,
+        "nudge": 568,
         "radius": 11.55
       },
       {
         "id": "Bbb2e5c1e",
-        "x": -21.235,
-        "z": 45.81,
+        "x": -17.377,
+        "z": 45.715,
         "anchor": [
           2.468,
           41.745
         ],
-        "nudge": 385,
+        "nudge": 324,
         "radius": 11.848
       },
       {
         "id": "Bbe3e7124",
-        "x": -46.878,
-        "z": 35.64,
+        "x": -44.305,
+        "z": 39.723,
         "anchor": [
           -23.112,
           84.574
         ],
-        "nudge": 870,
+        "nudge": 794,
         "radius": 11.777
       },
       {
         "id": "Bbfd097ce",
-        "x": -62.257,
-        "z": 13.112,
+        "x": -51.775,
+        "z": 10.022,
         "anchor": [
           -61.87,
           16.542
         ],
-        "nudge": 55,
+        "nudge": 192,
         "radius": 11.383
       },
       {
         "id": "Bca96d908",
-        "x": -154.406,
-        "z": 74.602,
+        "x": -128.581,
+        "z": 89.134,
         "anchor": [
           -141.312,
           72.685
         ],
-        "nudge": 212,
+        "nudge": 333,
         "radius": 17.55
       },
       {
         "id": "Bce379d13",
-        "x": 108.851,
-        "z": -66.303,
+        "x": 108.96,
+        "z": -69.093,
         "anchor": [
           83.722,
           -47.963
         ],
-        "nudge": 498,
+        "nudge": 527,
         "radius": 17.55
       },
       {
         "id": "Bce3fd2f1",
-        "x": -97.984,
-        "z": 53.136,
+        "x": -98.249,
+        "z": 36.937,
         "anchor": [
           -92.657,
           36.836
         ],
-        "nudge": 274,
+        "nudge": 89,
         "radius": 35.875
       },
       {
         "id": "Bd18bf80b",
-        "x": 51.118,
-        "z": 12.208,
+        "x": 51.052,
+        "z": 9.781,
         "anchor": [
           49.847,
           9.74
         ],
-        "nudge": 44,
+        "nudge": 19,
         "radius": 11.667
       },
       {
         "id": "Bd58b0f37",
-        "x": 76.298,
-        "z": -68.888,
+        "x": 76.35,
+        "z": -70.788,
         "anchor": [
           73.034,
           -36.66
         ],
-        "nudge": 518,
+        "nudge": 549,
         "radius": 10.681
       },
       {
         "id": "Bda203afb",
-        "x": 14.05,
-        "z": 87.626,
+        "x": 16.431,
+        "z": 88.266,
         "anchor": [
           35.534,
           38.266
         ],
-        "nudge": 861,
+        "nudge": 856,
         "radius": 11.15
       },
       {
         "id": "Be291aa43",
-        "x": 86.616,
-        "z": -19.122,
+        "x": 84.788,
+        "z": -20.57,
         "anchor": [
           71.618,
           -24.166
         ],
-        "nudge": 253,
+        "nudge": 218,
         "radius": 10.681
       },
       {
         "id": "Be3448d6e",
-        "x": 78.379,
-        "z": 6.122,
+        "x": 78.458,
+        "z": 5.556,
         "anchor": [
           57.743,
           13.915
         ],
-        "nudge": 353,
+        "nudge": 357,
         "radius": 11.95
       },
       {
         "id": "Be38a2b04",
-        "x": 40.286,
-        "z": 87.673,
+        "x": 42.609,
+        "z": 90.009,
         "anchor": [
           57.743,
           71.662
         ],
-        "nudge": 379,
+        "nudge": 381,
         "radius": 11.247
       },
       {
         "id": "Beb7b8b9c",
-        "x": 32.917,
-        "z": 48.376,
+        "x": 32.759,
+        "z": 49.242,
         "anchor": [
           46.885,
           29.221
         ],
-        "nudge": 379,
+        "nudge": 392,
         "radius": 23.646
       },
       {
         "id": "Bedda6bf8",
-        "x": -39.313,
-        "z": 97.409,
+        "x": -46.233,
+        "z": 95.425,
         "anchor": [
           -20.093,
           88.928
         ],
-        "nudge": 336,
-        "radius": 29.489
+        "nudge": 431,
+        "radius": 32.816
+      },
+      {
+        "id": "Bee790ccd",
+        "x": 130.255,
+        "z": 78.907,
+        "anchor": [
+          178.042,
+          98.653
+        ],
+        "nudge": 827,
+        "radius": 1.545
       },
       {
         "id": "Bf86ee95f",
-        "x": 2.703,
-        "z": 118.185,
+        "x": 1.937,
+        "z": 110.687,
         "anchor": [
           -4.125,
           98.694
         ],
-        "nudge": 330,
+        "nudge": 215,
         "radius": 11.667
       }
     ],
     "metrics": {
       "overlaps": 0,
-      "minGap": 2.841,
-      "medianGap": 4.212,
-      "maxGap": 7.774,
-      "fill": 83.421,
-      "hullUnits": 56765,
+      "minGap": 1.909,
+      "medianGap": 3.99,
+      "maxGap": 7.643,
+      "fill": 85.181,
+      "hullUnits": 57189,
       "maxNudgeMetres": 870,
-      "medianNudgeMetres": 518
+      "medianNudgeMetres": 527
     }
   },
   "media": [],

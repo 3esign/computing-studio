@@ -2205,7 +2205,7 @@
       "id": "T78",
       "object": "MIA Dorćol",
       "indices": [
-        "00/2026"
+        "125/26"
       ],
       "topic": "Primena reciklirane opeke; skice idejnog rešenja makete",
       "place": "Dorćol",
@@ -2255,8 +2255,91 @@
       "city": "Beograd",
       "geometryStatus": "illustrative",
       "building": "B0c77d468"
+    },
+    {
+      "id": "T80",
+      "object": "Istočna kapija Beograda (Rudo)",
+      "indices": [
+        "7/2026",
+        "183/2026"
+      ],
+      "topic": "Istočna kapija Beograda (Rudo) — digitalni pasoš, skica i AI Studio aplikacija",
+      "place": "Konjarnik, Bulevar kralja Aleksandra",
+      "lat": 44.7938,
+      "lng": 20.517,
+      "x": null,
+      "y": 3.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (24.11)",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "Bee790ccd"
+    },
+    {
+      "id": "T81",
+      "object": "Kula Beograd",
+      "indices": [
+        "101/26"
+      ],
+      "topic": "Kula Beograd — eksterijer i fasada; digitalni pasoš i interaktivni 3D kviz",
+      "place": "Beograd na vodi",
+      "lat": 44.8046,
+      "lng": 20.4455,
+      "x": null,
+      "y": 1.8,
+      "z": null,
+      "type": "kulabeograd",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (24.11)",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "Bedda6bf8"
+    },
+    {
+      "id": "T82",
+      "object": "West 65 Tower",
+      "indices": [
+        "100/26",
+        "15/25g"
+      ],
+      "topic": "West 65 Tower — pasoš, 3D HTML model sa parkom i AI Studio aplikacija",
+      "place": "Novi Beograd, Blok 65",
+      "lat": 44.8097,
+      "lng": 20.3942,
+      "x": null,
+      "y": 0.2,
+      "z": null,
+      "type": "standard",
+      "progressStage": 1,
+      "progressLabel": "Novi tim u registru",
+      "status": "Novi tim u registru (24.11)",
+      "hasPassport": false,
+      "claimsCount": 0,
+      "sectionsCount": 0,
+      "previewClaim": "",
+      "previewSource": "",
+      "locationStatus": "approximate",
+      "city": "Beograd",
+      "geometryStatus": "illustrative",
+      "building": "B01ffbf6e"
     }
   ],
-  "datasetRevision": "r-f9f5252cd39c65f4",
+  "datasetRevision": "r-8b7995765a6d2ae6",
   "coordinateNote": "Koordinate su približne lokacije objekata iz kuriranog skupa mape registra (spojeno 2026-10-25); nijedna nije nezavisno proverena na terenu. Timovi T12, T25, T39, T59 zadržavaju izjavljenu tačku registra jer im je deljena lokacija još otvoreno pitanje."
 }
