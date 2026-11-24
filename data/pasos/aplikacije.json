@@ -1,6 +1,6 @@
 {
   "schema": "or-aplikacije-v1",
-  "datasetRevision": "r-8b7995765a6d2ae6",
+  "datasetRevision": "r-2add7abe75d2b1de",
   "profilRevision": "d4c6a395",
   "azurirano": "2026-11-23",
   "summary": {
@@ -1891,7 +1891,6 @@
       "grad": "Podgorica",
       "indeksi": [
         "123/26",
-        "31/26",
         "42/26"
       ],
       "tema": "Istorijska školska arhitektura, kamen, regionalni modernizam",
@@ -2705,7 +2704,8 @@
       "grad": "Beograd",
       "indeksi": [
         "57/26",
-        "28/26"
+        "28/26",
+        "31/26"
       ],
       "tema": "Građenje, tehnologija klizne oplate, inženjerski izazovi 1970-ih",
       "stanje": "prihvaceno",
@@ -3694,7 +3694,8 @@
       "grad": "Beograd",
       "indeksi": [
         "174/26",
-        "128/26"
+        "128/26",
+        "80/24"
       ],
       "tema": "Nastanak, rekonstrukcija 2017–2019, prostorna organizacija, javnost i kontrola",
       "stanje": "prihvaceno",
@@ -4544,7 +4545,8 @@
       "brojTimovaNaObjektu": 2,
       "grad": "Beograd",
       "indeksi": [
-        "00/2026"
+        "97/26",
+        "113/26"
       ],
       "tema": "Autorstvo konkursa 1933. i skica makete u formi štampača",
       "stanje": "prihvaceno",

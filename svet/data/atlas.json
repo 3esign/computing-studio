@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "layoutVersion": 2,
-  "datasetRevision": "r-8b7995765a6d2ae6",
+  "datasetRevision": "r-2add7abe75d2b1de",
   "teams": [
     {
       "id": "T01",
@@ -900,7 +900,6 @@
       "object": "Gimnazija „Slobodan Škerović” u Podgorici",
       "indices": [
         "123/26",
-        "31/26",
         "42/26"
       ],
       "topic": "Istorijska školska arhitektura, kamen, regionalni modernizam",
@@ -1271,7 +1270,8 @@
       "object": "Geneks kula",
       "indices": [
         "57/26",
-        "28/26"
+        "28/26",
+        "31/26"
       ],
       "topic": "Građenje, tehnologija klizne oplate, inženjerski izazovi 1970-ih",
       "place": "Novi Beograd, Blok 33",
@@ -1754,7 +1754,8 @@
       "object": "Palata pravde",
       "indices": [
         "174/26",
-        "128/26"
+        "128/26",
+        "80/24"
       ],
       "topic": "Nastanak, rekonstrukcija 2017–2019, prostorna organizacija, javnost i kontrola",
       "place": "Savska",
@@ -2151,7 +2152,8 @@
       "id": "T76",
       "object": "BIGZ (Zgrada Državne štamparije)",
       "indices": [
-        "00/2026"
+        "97/26",
+        "113/26"
       ],
       "topic": "Autorstvo konkursa 1933. i skica makete u formi štampača",
       "place": "Bulevar vojvode Mišića, Senjak",
@@ -50142,7 +50144,6 @@
           "topic": "Istorijska školska arhitektura, kamen, regionalni modernizam",
           "indices": [
             "123/26",
-            "31/26",
             "42/26"
           ],
           "progressStage": 5,

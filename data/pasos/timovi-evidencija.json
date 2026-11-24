@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "source": "Konsolidovani registar nastave OR 2026/2027 · Beograd UNT FGM",
   "note": {
     "en": "Official public team registry: team IDs, index numbers, assigned architectural objects, research subtopics, and progress stages. Student names are strictly omitted in compliance with privacy guidelines.",
@@ -516,7 +516,8 @@
       "submissionsCount": 9,
       "hasPassport": true,
       "flags": [
-        "Prijem 08.11: predat i kuriran tabelarni digitalni pasoš Stare pošte (indeksi u dokumentu: 14/26, 97/26, 193/26)."
+        "Prijem 08.11: predat i kuriran tabelarni digitalni pasoš Stare pošte (indeksi u dokumentu: 14/26, 97/26, 193/26).",
+        "Indeks 97/26 naveden je i kod T76 (mejl 16.11, upisano 24.11) — čeka se potvrda trećeg člana T24."
       ],
       "claimsCount": 5,
       "sectionsCount": 2
@@ -671,7 +672,6 @@
       "id": "T32",
       "indices": [
         "123/26",
-        "31/26",
         "42/26"
       ],
       "object": "Gimnazija „Slobodan Škerović” u Podgorici",
@@ -683,7 +683,8 @@
       "submissionsCount": 9,
       "hasPassport": true,
       "flags": [
-        "Objekat van Srbije"
+        "Objekat van Srbije",
+        "Član 31/26 prešao u T45 (mejl 16.11, upisano 24.11)."
       ],
       "claimsCount": 28,
       "sectionsCount": 4
@@ -824,7 +825,8 @@
       "submissionsCount": 8,
       "hasPassport": true,
       "flags": [
-        "Prijem 14.11: potvrđeni indeksi tima 34/26 i 162/26 uz predaju prototipa makete (razrešena ranija nejasnoća sa 32/26 iz mejla 01.11)."
+        "Prijem 14.11: potvrđeni indeksi tima 34/26 i 162/26 uz predaju prototipa makete (razrešena ranija nejasnoća sa 32/26 iz mejla 01.11).",
+        "Poseban tok IND-03 (eksperimentalni format štampe pasoša) pripojen timu 24.11; član tima je jedan od dva upisana indeksa."
       ],
       "claimsCount": 8,
       "sectionsCount": 3
@@ -944,7 +946,8 @@
       "id": "T45",
       "indices": [
         "57/26",
-        "28/26"
+        "28/26",
+        "31/26"
       ],
       "object": "Geneks kula",
       "location": "Narodnih heroja 43, Novi Beograd",
@@ -955,7 +958,8 @@
       "submissionsCount": 4,
       "hasPassport": true,
       "flags": [
-        "Prijem 08.11 (2): fotografije od 02.11 prevedene iz „skica sa časa“ u prototip makete (Semir 08.11)."
+        "Prijem 08.11 (2): fotografije od 02.11 prevedene iz „skica sa časa“ u prototip makete (Semir 08.11).",
+        "Treći član (31/26) prešao iz T32 (mejl 16.11, upisano 24.11)."
       ],
       "claimsCount": 9,
       "sectionsCount": 3
@@ -1286,7 +1290,8 @@
       "id": "T62",
       "indices": [
         "174/26",
-        "128/26"
+        "128/26",
+        "80/24"
       ],
       "object": "Palata pravde",
       "location": "Savska 17, Beograd",
@@ -1297,7 +1302,8 @@
       "submissionsCount": 11,
       "hasPassport": true,
       "flags": [
-        "Objekat ispravljen 14.11: tim radi Palatu pravde (ranije pogrešno zaveden u klaster Beograđanka)."
+        "Objekat ispravljen 14.11: tim radi Palatu pravde (ranije pogrešno zaveden u klaster Beograđanka).",
+        "Treći član tima (80/24) upisan 24.11 po prijavi tima od 23.11; pridružio se naknadno."
       ],
       "claimsCount": 18,
       "sectionsCount": 4
@@ -1577,7 +1583,8 @@
     {
       "id": "T76",
       "indices": [
-        "00/2026"
+        "97/26",
+        "113/26"
       ],
       "object": "BIGZ (Zgrada Državne štamparije)",
       "location": "Bulevar vojvode Mišića 17, Beograd",
@@ -1588,7 +1595,7 @@
       "submissionsCount": 7,
       "hasPassport": true,
       "flags": [
-        "Deljeni objekat sa T41; indeksi članica tima nisu navedeni u predaji — 00/2026 je privremena oznaka do potvrde"
+        "Deljeni objekat sa T41; indeksi 97/26 i 113/26 upisani 24.11 po mejlu tima od 16.11 (zamenjena privremena oznaka 00/2026); 97/26 stoji i u pasošu T24 — otvoreno"
       ],
       "claimsCount": 7,
       "sectionsCount": 2
@@ -1712,5 +1719,5 @@
       "sectionsCount": 0
     }
   ],
-  "datasetRevision": "r-8b7995765a6d2ae6"
+  "datasetRevision": "r-2add7abe75d2b1de"
 }

@@ -1,9 +1,9 @@
 {
   "schema": "or/nejasno@1",
-  "updated": "2026-11-15",
+  "updated": "2026-11-24",
   "note": {
-    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 15.11. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
-    "en": "All open questions to the teams in one place, as of the intakes up to 15 Nov. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
+    "sr": "Sva otvorena pitanja ka timovima na jednom mestu, stanje posle prijema do 24.11. Svaka stavka kaže šta je pouzdano, šta nije i ko to može da potvrdi. Nerazrešeno se ne pogađa i ne briše — stoji ovde dok ne stigne odgovor; razrešeno nestaje sa spiska.",
+    "en": "All open questions to the teams in one place, as of the intakes up to 24 Nov. Each item states what is reliable, what is not, and who can confirm it. Unresolved items are neither guessed nor deleted — they stand here until an answer arrives; resolved ones leave the list."
   },
   "items": [
     {
@@ -137,39 +137,59 @@
     },
     {
       "id": "n-dupli-indeksi",
-      "teams": [],
-      "sr": "Iz brzih beleški sa konsultacija isti brojevi bez oznake smera javljaju se u više timova: 8, 10, 14, 17, 24, 25, 26, 27, 47, 50 i 56 (dok su za T52 potvrđeni 102/26, za T39 34/26 i 162/26, a za T72 129/26, 18/26g i 96/26). Parovi poput 18/26g i 18/26, 26/26g i 26/26, 33/26g i 33/26, 49/26g i 49/26, 36/26g i 36/26, 29/26g i 29/26 označavaju različite studijske programe (OA / OG).",
-      "en": "From quick consultation notes the same bare index numbers appear across multiple teams: 8, 10, 14, 17, 24, 25, 26, 27, 47, 50 and 56 (while 102/26 was confirmed for T52, 34/26 and 162/26 for T39, and 129/26, 18/26g and 96/26 for T72). Pairs such as 18/26g and 18/26, 26/26g and 26/26, 33/26g and 33/26, 49/26g and 49/26, 36/26g and 36/26, 29/26g and 29/26 denote different degree programmes (Architecture / Civil Engineering).",
-      "askSr": "Ako je tvoj broj gore, navedi pun oblik indeksa sa oznakom smera (OA / OG) u narednoj predaji.",
-      "askEn": "If your number is listed above, state the full index including the programme suffix (OA / OG) in your next submission."
+      "teams": [
+        "T02",
+        "T04",
+        "T05",
+        "T06",
+        "T10",
+        "T24",
+        "T25",
+        "T29",
+        "T34",
+        "T38",
+        "T42",
+        "T43",
+        "T49",
+        "T54",
+        "T61",
+        "T70",
+        "T76",
+        "T79"
+      ],
+      "sr": "Isti broj indeksa stoji u više timova, bez oznake smera: 8/26 (T06, T10); 10/26 (T38, T42); 14/26 (T24, T61, T79); 17/26 (T04, T10); 24/26 (T43, T79); 25/26 (T34, T49); 26/26 (T34, T42); 27/26 (T06, T38); 47/26 (T25, T29); 50/26 (T02, T70); 56/26 (T05, T54); 97/26 (T24, T76). Nije potvrđeno da li su to dva studenta sa različitih studijskih programa ili greška u upisu. Parovi poput 18/26g i 18/26, 26/26g i 26/26, 33/26g i 33/26, 49/26g i 49/26, 29/26g i 29/26 označavaju različite programe (OA / OG) i nisu sporni.",
+      "en": "The same index number appears in more than one team, without a programme suffix: 8/26 (T06, T10); 10/26 (T38, T42); 14/26 (T24, T61, T79); 17/26 (T04, T10); 24/26 (T43, T79); 25/26 (T34, T49); 26/26 (T34, T42); 27/26 (T06, T38); 47/26 (T25, T29); 50/26 (T02, T70); 56/26 (T05, T54); 97/26 (T24, T76). It is not confirmed whether these are two students from different programmes or a recording error. Pairs such as 18/26g and 18/26, 26/26g and 26/26, 33/26g and 33/26, 49/26g and 49/26, 29/26g and 29/26 mark different programmes (OA / OG) and are not in question.",
+      "askSr": "Ako je tvoj broj gore, javi svoj tim i pun oblik indeksa sa oznakom smera (OA / OG).",
+      "askEn": "If your number is above, state your team and your full index with the programme suffix (OA / OG)."
     },
     {
       "id": "n-izvodjaci",
       "teams": [],
-      "sr": "Zapisi uz 15/25g i 36/26g kažu samo „spisak izvođača”, bez objekta.",
-      "en": "The notes for 15/25g and 36/26g say only “list of contractors”, with no object named.",
-      "askSr": "15/25g i 36/26g: koji objekat istražujete?",
-      "askEn": "15/25g and 36/26g: which building are you researching?"
+      "sr": "Zapis uz 36/26g kaže samo „spisak izvođača”, bez objekta, i taj indeks nije ni u jednom timu. (15/25g, uz koji je stajao isti zapis, od 24.11 je u T82.)",
+      "en": "The note for 36/26g says only “list of contractors”, with no object, and that index is in no team. (15/25g, which carried the same note, has been in T82 since 24 Nov.)",
+      "askSr": "36/26g: koji objekat istražuješ i u kom si timu?",
+      "askEn": "36/26g: which object are you researching, and which team are you in?"
     },
     {
       "id": "n-t76-indeksi",
       "teams": [
-        "T76"
+        "T76",
+        "T24"
       ],
-      "sr": "BIGZ — autorstvo konkursa 1933 (T76): digitalni pasoš sa 10 tvrdnji i izvorima i ručno crtana skica makete u formi štampača stigli su 10.11. bez navedenih brojeva indeksa, pa tim privremeno nosi oznaku 00/2026.",
-      "en": "BIGZ — 1933 competition authorship (T76): the digital passport with 10 sourced claims and the hand-drawn printer-shaped model sketch arrived on 10 Nov without index numbers, so the team temporarily carries the placeholder 00/2026.",
-      "askSr": "T76: pošaljite tačne brojeve indeksa i smer članica tima kako bismo zamenili oznaku 00/2026.",
-      "askEn": "T76: send the exact index numbers and programme suffixes of the team members to replace 00/2026."
+      "sr": "BIGZ — autorstvo konkursa 1933 (T76): privremena oznaka 00/2026 zamenjena je 24.11 indeksima 97/26 i 113/26, po mejlu tima od 16.11. Indeks 97/26 stoji i u pasošu Stare pošte (T24), pa nije potvrđeno ko je treći član T24. Mejl navodi 113/26 bez dodele članu, pa je i ta dodela zaključak, ne potvrda.",
+      "en": "BIGZ — authorship of the 1933 competition (T76): the provisional mark 00/2026 was replaced on 24 Nov by indices 97/26 and 113/26, per the team’s email of 16 Nov. Index 97/26 also stands in the Old Post Office passport (T24), so the third member of T24 is not confirmed. The email gives 113/26 without assigning it to a member, so that assignment is an inference, not a confirmation.",
+      "askSr": "T24 i T76: ko nosi indeks 97/26 i ko je treći član T24? T76: potvrdite oba indeksa i smer.",
+      "askEn": "T24 and T76: who holds index 97/26, and who is the third member of T24? T76: confirm both indices and the programme."
     },
     {
       "id": "n-t78-indeks",
       "teams": [
         "T78"
       ],
-      "sr": "MIA Dorćol — reciklirana opeka (T78): dve skice (14.11) i digitalni pasoš (15.11, 8 zapisa) stigli su bez broja indeksa, pa tim privremeno nosi oznaku 00/2026; lokacija objekta na karti je približna. AI Studio aplikacija nije stigla.",
-      "en": "MIA Dorćol — recycled brick (T78): two sketches (14 Nov) and the digital passport (15 Nov, 8 records) arrived without index numbers, so the team temporarily carries the placeholder 00/2026; the map location is approximate. No AI Studio application yet.",
-      "askSr": "T78: pošaljite brojeve indeksa i smer, tačnu adresu objekta i link AI Studio aplikacije.",
-      "askEn": "T78: send your index numbers and programme, the exact building address and the AI Studio application link."
+      "sr": "MIA Dorćol — reciklirana opeka (T78): indeks 125/26 upisan je 24.11 umesto privremene oznake 00/2026; lokacija objekta na karti je i dalje približna.",
+      "en": "MIA Dorćol — recycled brick (T78): index 125/26 was entered on 24 Nov in place of the provisional mark 00/2026; the object’s map location is still approximate.",
+      "askSr": "T78: pošaljite tačnu adresu objekta.",
+      "askEn": "T78: send the exact address of the object."
     },
     {
       "id": "n-t79-pasos",
@@ -233,14 +253,6 @@
       "askEn": "T25: provide verifiable primary sources for the claims marked “unreliable source”."
     },
     {
-      "id": "n-183-7-broj-tima",
-      "teams": [],
-      "sr": "Indeksi 183/26 i 7/26 (tim prisutan na prvom predavanju i na konsultacijama 09.11): čekaju se naziv objekta, digitalni pasoš sa izvorima, link AI Studio aplikacije i skica makete kako bi tim dobio broj tima u registru.",
-      "en": "Indices 183/26 and 7/26 (team present at the first lecture and at the 9 Nov consultations): the building name, sourced digital passport, AI Studio application link and model sketch are awaited so that the team can be assigned a team number in the register.",
-      "askSr": "183/26 i 7/26: pošaljite naziv objekta, digitalni pasoš, AI Studio link i skicu makete da biste dobili broj tima.",
-      "askEn": "183/26 and 7/26: send the building name, digital passport, AI Studio link and model sketch to receive your team number."
-    },
-    {
       "id": "n-skice-kolokvijum",
       "teams": [],
       "sr": "Pred kolokvijum 16.11. digitalni trag skica (ručno crtan materijal) postoji za {skice} od {timova} timova, trag AI aplikacije za {ai}. Ostali timovi možda rade, ali evidencija to ne vidi.",
@@ -275,12 +287,13 @@
       "teams": [
         "T74",
         "T47",
-        "T20"
+        "T20",
+        "T80"
       ],
-      "sr": "T74 je 14.11. naveo indekse 7/26, 12/26 i 44/26, ali 12/26 se vodi u T47, a 44/26 u T20.",
-      "en": "On 14 Nov T74 listed indexes 7/26, 12/26 and 44/26, but 12/26 is registered in T47 and 44/26 in T20.",
-      "askSr": "T74: potvrdite brojeve indeksa i oznake smera svih članova.",
-      "askEn": "T74: confirm the index numbers and programme suffixes of all members."
+      "sr": "Kula Beograd (T74): tim od tri člana i dalje nosi privremenu oznaku 00/2026. Indeksi koje je naveo 14.11 (7/26, 12/26, 44/26) vode se u drugim timovima: 7/26 u T80, 12/26 u T47, 44/26 u T20.",
+      "en": "Kula Beograd (T74): the three-member team still carries the provisional mark 00/2026. The indices it listed on 14 Nov (7/26, 12/26, 44/26) are held in other teams: 7/26 in T80, 12/26 in T47, 44/26 in T20.",
+      "askSr": "T74: potvrdite brojeve indeksa i oznake smera sva tri člana.",
+      "askEn": "T74: confirm the index numbers and programme suffixes of all three members."
     },
     {
       "id": "n-t30-t77-poreklo",
@@ -318,12 +331,13 @@
     {
       "id": "n-t63-west65-autori",
       "teams": [
+        "T82",
         "T63"
       ],
-      "sr": "West 65 Tower: 15.11. stigli su pasoš, 3D HTML model sa parkom i parkingom i link AI Studio aplikacije od dvojice studenata koji nisu upisani u T63 (u T63 su 189/26 i 141/26). Bez brojeva indeksa; privremeno zavedeno uz T63.",
-      "en": "West 65 Tower: on 15 Nov a passport, a 3D HTML model with park and parking and an AI Studio link arrived from two students not listed in T63 (T63 holds 189/26 and 141/26). No index numbers; provisionally filed under T63.",
-      "askSr": "Autori rada od 15.11. o West 65: navedite brojeve indeksa i da li ste deo T63 ili zaseban tim.",
-      "askEn": "Authors of the 15 Nov West 65 work: state your index numbers and whether you belong to T63 or are a separate team."
+      "sr": "West 65 Tower: autori rada od 15.11 (pasoš, 3D HTML model, link AI Studio aplikacije) dobili su 24.11 zaseban tim T82 (100/26, 15/25g). Ta građa je poslata kao „tim 63“ i još je zavedena pod T63 (189/26, 141/26).",
+      "en": "West 65 Tower: the authors of the 15 Nov work (passport, 3D HTML model, AI Studio link) were given a separate team, T82 (100/26, 15/25g), on 24 Nov. That material was sent as “team 63” and is still filed under T63 (189/26, 141/26).",
+      "askSr": "T63 i T82: potvrdite koja građa pripada kom timu, da bi se podnesak od 15.11 preveo na T82.",
+      "askEn": "T63 and T82: confirm which material belongs to which team, so the 15 Nov submission can be moved to T82."
     },
     {
       "id": "n-t33-sajt",
@@ -354,6 +368,109 @@
       "en": "Pančevo (T10): the 14 Nov sketch (“Segretski pasoš”) looks generated rather than hand-drawn and shows a residential building instead of the announced Minel café; not public.",
       "askSr": "T10: pošaljite ručnu skicu makete koja prikazuje podatke.",
       "askEn": "T10: send a hand-drawn model sketch that represents data."
+    },
+    {
+      "id": "n-t13-sastav",
+      "teams": [
+        "T13",
+        "T37",
+        "T22",
+        "T49"
+      ],
+      "sr": "Palata SANU i Zgrada Pošte (T13): u registru je pet indeksa (116/26, 145/26, 94/26, 184/26, 169/26), a mejl tima od 08.11 navodi četiri druga: 33/26, 40/26, 59/26, 147/26. Od njih se 33/26 vodi u T37, 40/26 u T22 i 147/26 u T49, a 59/26 nije ni u jednom timu.",
+      "en": "SANU Palace and Post Office (T13): the register holds five indices (116/26, 145/26, 94/26, 184/26, 169/26), while the team’s email of 8 Nov lists four different ones: 33/26, 40/26, 59/26, 147/26. Of these, 33/26 is held in T37, 40/26 in T22 and 147/26 in T49, and 59/26 is in no team.",
+      "askSr": "T13: pošaljite pun spisak članova sa indeksima i oznakom smera. 59/26: u kom si timu?",
+      "askEn": "T13: send the full member list with indices and programme suffixes. 59/26: which team are you in?"
+    },
+    {
+      "id": "n-t10-indeksi",
+      "teams": [
+        "T10",
+        "T04",
+        "T06"
+      ],
+      "sr": "Hotel Tamiš, Pančevo (T10): 17/26 je 25.10 razrešen kao član T04, a podnesak T10 od 08.11 ga ponovo navodi kao svog. Taj podnesak navodi samo 17/26 i 181/26; 8/26 (koji stoji i u T06) i 165/26 nisu potvrđeni.",
+      "en": "Hotel Tamiš, Pančevo (T10): 17/26 was resolved on 25 Oct as a member of T04, yet T10’s submission of 8 Nov lists it again as its own. That submission names only 17/26 and 181/26; 8/26 (also in T06) and 165/26 are not confirmed.",
+      "askSr": "T10: potvrdite pun sastav sa oznakom smera. 17/26: T04 ili T10?",
+      "askEn": "T10: confirm the full line-up with programme suffixes. 17/26: T04 or T10?"
+    },
+    {
+      "id": "n-t55-indeks-19",
+      "teams": [
+        "T55",
+        "T03",
+        "T16"
+      ],
+      "sr": "Palata Narodne banke i Muzej novca (T55): indeks je upisan kao 19/26g, a u predaji stoji 19/26 bez oznake smera; 19/26 se vodi u T03. T55 i T16 rade isti objekat i dele istu tačku na karti.",
+      "en": "National Bank Palace and Money Museum (T55): the index is recorded as 19/26g, while the submission gives 19/26 without a programme suffix; 19/26 is held in T03. T55 and T16 work on the same object and share one map point.",
+      "askSr": "T55: potvrdite smer uz indeks 19/26.",
+      "askEn": "T55: confirm the programme for index 19/26."
+    },
+    {
+      "id": "n-indeks-po-clanu",
+      "teams": [
+        "T16",
+        "T18",
+        "T59"
+      ],
+      "sr": "Indeksi su upisani, ali nije potvrđeno kom članu koji pripada: T16 (188/26, 109/26, 72/26), T18 (167/26) i T59, čiji podnesak od 08.11 nije potpisan indeksom (142/26 ili 190/26).",
+      "en": "The indices are recorded, but it is not confirmed which member holds which: T16 (188/26, 109/26, 72/26), T18 (167/26) and T59, whose submission of 8 Nov carries no index (142/26 or 190/26).",
+      "askSr": "T16, T18, T59: u sledećoj predaji potpišite se punim indeksom svaki član.",
+      "askEn": "T16, T18, T59: in the next submission, each member sign with the full index."
+    },
+    {
+      "id": "n-t32-t45-prelazak",
+      "teams": [
+        "T32",
+        "T45"
+      ],
+      "sr": "Indeks 31/26 je 24.11 prešao iz T32 (Gimnazija u Podgorici) u T45 (Geneks kula), po mejlu od 16.11. T32 sada ima dva člana (123/26, 42/26), a T45 tri (57/26, 28/26, 31/26); predaje T32 posle prelaska nisu ponovo pregledane.",
+      "en": "Index 31/26 moved on 24 Nov from T32 (Podgorica Gymnasium) to T45 (Genex Tower), per an email of 16 Nov. T32 now has two members (123/26, 42/26) and T45 three (57/26, 28/26, 31/26); T32’s submissions have not been re-checked since the move.",
+      "askSr": "T32 i T45: potvrdite novi sastav.",
+      "askEn": "T32 and T45: confirm the new line-up."
+    },
+    {
+      "id": "n-t39-clan",
+      "teams": [
+        "T39"
+      ],
+      "sr": "Belgrade Business House (T39): poseban tok IND-03 pripojen je timu 24.11. Član iz tog toka je jedan od dva upisana indeksa (34/26, 162/26); koji, nije potvrđeno.",
+      "en": "Belgrade Business House (T39): the special track IND-03 was merged into the team on 24 Nov. The member from that track is one of the two recorded indices (34/26, 162/26); which one is not confirmed.",
+      "askSr": "T39: potvrdite koji indeks pripada članu iz toka IND-03.",
+      "askEn": "T39: confirm which index belongs to the member from track IND-03."
+    },
+    {
+      "id": "n-t81-indeksi",
+      "teams": [
+        "T81"
+      ],
+      "sr": "Kula Beograd — eksterijer i fasada (T81): tim ima tri člana, a upisan je samo indeks 101/26; dva indeksa čekaju potvrdu.",
+      "en": "Kula Beograd — exterior and façade (T81): the team has three members, but only index 101/26 is recorded; two indices await confirmation.",
+      "askSr": "T81: pošaljite indekse i smer preostala dva člana.",
+      "askEn": "T81: send the indices and programme of the remaining two members."
+    },
+    {
+      "id": "n-lokacije-priblizne",
+      "teams": [
+        "T44",
+        "T73",
+        "T79",
+        "T80"
+      ],
+      "sr": "Lokacija objekta na karti je približna, nije potvrđena adresom: T44 (ATŠ), T73 (Gardoš kula, gde je i sam objekat upisan približno, sa konsultacija 02.11), T79 (Zvezdani dom) i T80 (Istočna kapija Beograda).",
+      "en": "The object’s map location is approximate, not confirmed by address: T44 (ATŠ), T73 (Gardoš Tower, where the object itself is recorded approximately, from the 2 Nov consultations), T79 (Zvezdani dom) and T80 (Eastern City Gate).",
+      "askSr": "T44, T73, T79, T80: pošaljite tačnu adresu ili koordinate objekta.",
+      "askEn": "T44, T73, T79, T80: send the exact address or coordinates of the object."
+    },
+    {
+      "id": "n-t50-pasos",
+      "teams": [
+        "T50"
+      ],
+      "sr": "Palata Beograd — Beograđanka (T50): čeka se dorađen pasoš posle posete Arhivu Beograda.",
+      "en": "Palata Beograd — Beograđanka (T50): the revised passport after the visit to the Belgrade Archive is still awaited.",
+      "askSr": "T50: pošaljite dorađen pasoš sa izvorima iz Arhiva.",
+      "askEn": "T50: send the revised passport with the Archive sources."
     }
   ]
 }
